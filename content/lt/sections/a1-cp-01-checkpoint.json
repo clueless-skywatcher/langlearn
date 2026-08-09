@@ -1,0 +1,368 @@
+{
+  "id": "a1-cp-01",
+  "kind": "checkpoint",
+  "level": "A1",
+  "order": 4,
+  "title": "Checkpoint: Sounds, Nouns, and Simple Sentences",
+  "summary": "A cumulative examination of the first three sections: the alphabet and its sounds, gender and the nominative, and the accusative of the direct object. Twenty-four questions in the four examination formats.",
+  "covers": ["a1-01", "a1-02", "a1-03"],
+  "passThreshold": 60,
+  "drills": [
+    {
+      "id": "cp1-q1",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "a1-01",
+      "stem": "Which of these letters does **not** belong to the Lithuanian alphabet?",
+      "options": ["ą", "x", "ž", "ū"],
+      "correct": 1,
+      "explanation": "q, w and x were excluded. The other three are all Lithuanian letters formed with a diacritic.",
+      "rulesTested": ["alphabet"],
+      "vocabUsed": ["raidė", "abėcėlė"]
+    },
+    {
+      "id": "cp1-q2",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "a1-01",
+      "stem": "In *šiaurė* (\"north\"), what does the letter **i** do?",
+      "options": [
+        "It forms the diphthong ia.",
+        "It softens the preceding š and is not a vowel of its own.",
+        "It marks the stressed syllable.",
+        "It lengthens the following a."
+      ],
+      "correct": 1,
+      "explanation": "Before a back vowel — here the diphthong au — a written i palatalises the consonant before it and is never pronounced as a separate vowel.",
+      "rulesTested": ["soft-i"],
+      "vocabUsed": ["balsis", "priebalsis"]
+    },
+    {
+      "id": "cp1-q3",
+      "type": "multi",
+      "difficulty": "medium",
+      "fromSection": "a1-01",
+      "stem": "Which statements about the *nosinė* letters are correct?",
+      "options": [
+        "There are four of them.",
+        "They are pronounced long.",
+        "They are pronounced with nasal resonance in the modern language.",
+        "ų and ū sound alike."
+      ],
+      "correct": [0, 1, 3],
+      "explanation": "ą ę į ų are four long vowels. The nasality their name records has been lost, which is why ų and ū, and likewise į and y, are indistinguishable to the ear.",
+      "rulesTested": ["nosine", "vowel-length"],
+      "vocabUsed": ["raidė", "balsis", "ilgas"]
+    },
+    {
+      "id": "cp1-q4",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a1-01",
+      "stem": "The pair of letters **dž** stands for:",
+      "options": [
+        "d followed by ž, in two separate sounds",
+        "a single sound, the j of English 'jam'",
+        "a single sound, the ch of English 'church'",
+        "a lengthened ž"
+      ],
+      "correct": 1,
+      "explanation": "dž is a digraph for the single voiced affricate /dʒ/. Its voiceless counterpart is č.",
+      "rulesTested": ["digraphs"],
+      "vocabUsed": ["garsas", "priebalsis"]
+    },
+    {
+      "id": "cp1-q5",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a1-01",
+      "stem": "How is **j** pronounced in *jūra* (\"sea\")?",
+      "options": [
+        "as the j of English 'jam'",
+        "as the y of English 'yes'",
+        "as the s of English 'measure'",
+        "as the h of English 'hat'"
+      ],
+      "correct": 1,
+      "explanation": "j is always the glide of \"yes\". The affricate of \"jam\" is written dž, and the s of \"measure\" is ž.",
+      "rulesTested": ["consonants"],
+      "vocabUsed": ["garsas"]
+    },
+    {
+      "id": "cp1-q6",
+      "type": "multi",
+      "difficulty": "hard",
+      "fromSection": "a1-01",
+      "stem": "Which of these words contain a **diphthong**?",
+      "options": ["duona", "namas", "laikas", "knyga"],
+      "correct": [0, 2],
+      "explanation": "*duona* has uo and *laikas* has ai. *namas* and *knyga* contain only single vowels.",
+      "rulesTested": ["diphthongs"],
+      "vocabUsed": ["duona", "namas", "knyga"]
+    },
+    {
+      "id": "cp1-q7",
+      "type": "integer",
+      "difficulty": "easy",
+      "fromSection": "a1-01",
+      "stem": "How many vowel letters are **always long**, whatever the word and wherever the stress falls?",
+      "answer": 7,
+      "unit": "letters",
+      "explanation": "Seven: ą, ę, ė, į, y, ų, ū. i and u are always short, and a, e, o vary with the stress.",
+      "rulesTested": ["vowel-length"],
+      "vocabUsed": ["balsis", "ilgas", "trumpas"]
+    },
+    {
+      "id": "cp1-q8",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "a1-01",
+      "stem": "*Namas* is stressed on the first syllable, but its plural *namai* is stressed on the second. What does this illustrate?",
+      "options": [
+        "That the plural is always stressed on the ending.",
+        "That stress is mobile: it may shift as a word is inflected.",
+        "That diphthongs always attract the stress.",
+        "That a is long in the plural and short in the singular."
+      ],
+      "correct": 1,
+      "explanation": "Lithuanian stress is both free — any syllable may bear it — and mobile — it may move between the forms of one word. Neither fact can be read off the spelling.",
+      "rulesTested": ["stress"],
+      "vocabUsed": ["kirtis", "skiemuo", "namas"]
+    },
+    {
+      "id": "cp1-q9",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "a1-02",
+      "stem": "Which of these nouns is **feminine**?",
+      "options": ["stalas", "katė", "brolis", "laiškas"],
+      "correct": 1,
+      "explanation": "The ending -ė is feminine; -as and -is are masculine here.",
+      "rulesTested": ["noun-gender", "noun-endings"],
+      "vocabUsed": ["stalas", "katė", "brolis", "laiškas"]
+    },
+    {
+      "id": "cp1-q10",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a1-02",
+      "stem": "Which form of *būti* goes with **jūs**?",
+      "options": ["esame", "esate", "esi", "yra"],
+      "correct": 1,
+      "explanation": "*jūs esate*. *esame* belongs to mes, *esi* to tu, and *yra* to the whole third person.",
+      "rulesTested": ["buti-present"],
+      "vocabUsed": ["jūs", "būti"]
+    },
+    {
+      "id": "cp1-q11",
+      "type": "multi",
+      "difficulty": "medium",
+      "fromSection": "a1-02",
+      "stem": "Which of these sentences show **correct** agreement?",
+      "options": [
+        "Diena yra graži.",
+        "Namas yra didelė.",
+        "Berniukas yra geras.",
+        "Knyga yra naujas."
+      ],
+      "correct": [0, 2],
+      "explanation": "*diena* is feminine and takes *graži*; *berniukas* is masculine and takes *geras*. The other two reverse the genders: *Namas yra didelis*, *Knyga yra nauja*.",
+      "rulesTested": ["adjective-agreement", "predicate-nominative"],
+      "vocabUsed": ["diena", "gražus", "namas", "didelis", "berniukas", "geras", "knyga", "naujas"]
+    },
+    {
+      "id": "cp1-q12",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a1-02",
+      "stem": "*Knyga yra nauja* renders both \"a book is new\" and \"the book is new\". Why?",
+      "options": [
+        "Because *yra* is indefinite in meaning.",
+        "Because Lithuanian has no articles at all.",
+        "Because the nominative does not distinguish definiteness.",
+        "Because the adjective follows its noun."
+      ],
+      "correct": 1,
+      "explanation": "There is no word for \"a\" or \"the\" in Lithuanian. Where the difference matters, a demonstrative such as *tas* supplies it.",
+      "rulesTested": ["no-article"],
+      "vocabUsed": ["knyga", "naujas"]
+    },
+    {
+      "id": "cp1-q13",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "a1-02",
+      "stem": "All four of these nouns end in **-is**. Which one is **feminine**?",
+      "options": ["brolis", "moteris", "balsis", "kirtis"],
+      "correct": 1,
+      "explanation": "-is is chiefly a masculine ending, but a small closed class is feminine: *moteris*, *akis*, *naktis*, *širdis*. Membership must be memorised word by word.",
+      "rulesTested": ["noun-endings", "noun-gender"],
+      "vocabUsed": ["brolis", "moteris", "balsis", "kirtis"]
+    },
+    {
+      "id": "cp1-q14",
+      "type": "integer",
+      "difficulty": "medium",
+      "fromSection": "a1-02",
+      "stem": "In **Mokytojas yra geras ir naujas**, how many words stand in the nominative case?",
+      "answer": 3,
+      "unit": "words",
+      "explanation": "Three: the subject *mokytojas* and the two predicate adjectives *geras* and *naujas*, which take the nominative because they name the subject. *yra* is a verb and *ir* a conjunction; neither has a case.",
+      "rulesTested": ["nominative", "predicate-nominative"],
+      "vocabUsed": ["mokytojas", "geras", "naujas", "ir", "būti"]
+    },
+    {
+      "id": "cp1-q15",
+      "type": "multi",
+      "difficulty": "hard",
+      "fromSection": "a1-02",
+      "stem": "Which of these pronouns belong to the **third person**?",
+      "options": ["jis", "jūs", "ji", "mes"],
+      "correct": [0, 2],
+      "explanation": "*jis* and *ji* are the masculine and feminine of the third person singular. *jūs* is the second person plural and *mes* the first.",
+      "rulesTested": ["pronouns-nom"],
+      "vocabUsed": ["jis", "jūs", "ji", "mes"]
+    },
+    {
+      "id": "cp1-q16",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "a1-02",
+      "stem": "Translate: **The book is not new.**",
+      "options": [
+        "Knyga neyra nauja.",
+        "Knyga nėra nauja.",
+        "Knyga ne yra nauja.",
+        "Knyga nėra naujas."
+      ],
+      "correct": 1,
+      "explanation": "The third person of *būti* is irregular in the negative: **nėra**, written as one word. The predicate adjective remains feminine to match *knyga*.",
+      "rulesTested": ["buti-present", "adjective-agreement"],
+      "vocabUsed": ["knyga", "naujas", "būti", "ne"]
+    },
+    {
+      "id": "cp1-q17",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "a1-03",
+      "stem": "What is the accusative singular of **katė**?",
+      "options": ["katės", "katą", "katę", "katė"],
+      "correct": 2,
+      "explanation": "Feminine -ė makes -ę. *katės* is the genitive, which would appear after a negated verb.",
+      "rulesTested": ["accusative-nouns"],
+      "vocabUsed": ["katė"]
+    },
+    {
+      "id": "cp1-q18",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "a1-03",
+      "stem": "Which form of *dirbti* goes with **mes**?",
+      "options": ["dirbu", "dirbame", "dirbate", "dirba"],
+      "correct": 1,
+      "explanation": "First-conjugation endings are -u, -i, -a, -ame, -ate, -a. *dirbti* is of the first conjugation because its third person present is *dirba*.",
+      "rulesTested": ["present-conj-i", "conjugations"],
+      "vocabUsed": ["dirbti", "mes"]
+    },
+    {
+      "id": "cp1-q19",
+      "type": "multi",
+      "difficulty": "medium",
+      "fromSection": "a1-03",
+      "stem": "Which of these words stand in the **accusative**?",
+      "options": ["brolį", "sūnus", "arbatą", "obuolys"],
+      "correct": [0, 2],
+      "explanation": "*brolį* and *arbatą* end in a nosinė vowel, as every accusative singular does. *sūnus* and *obuolys* are still nominative; their accusatives are *sūnų* and *obuolį*.",
+      "rulesTested": ["accusative-nouns"],
+      "vocabUsed": ["brolis", "sūnus", "arbata", "obuolys"]
+    },
+    {
+      "id": "cp1-q20",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a1-03",
+      "stem": "Translate: **He loves me.**",
+      "options": [
+        "Jis aš myli.",
+        "Jis mane myli.",
+        "Jis manę myli.",
+        "Jis mane mylėti."
+      ],
+      "correct": 1,
+      "explanation": "The pronoun object takes its own accusative form *mane* — the personal pronouns do not end in a nosinė vowel. *mylėti* is the infinitive and cannot serve as a finite verb.",
+      "rulesTested": ["accusative-pronouns"],
+      "vocabUsed": ["jis", "mane", "mylėti"]
+    },
+    {
+      "id": "cp1-q21",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "a1-03",
+      "stem": "Complete: *Ji turi knygą* → **Ji neturi ____.**",
+      "options": ["knygą", "knygos", "knyga", "knygę"],
+      "correct": 1,
+      "explanation": "Negation drives the direct object out of the accusative and into the genitive: *knygos*. The prefix *ne-* is written onto the verb as one word.",
+      "rulesTested": ["negation-genitive", "negation"],
+      "vocabUsed": ["turėti", "knyga"]
+    },
+    {
+      "id": "cp1-p1",
+      "type": "comprehension",
+      "difficulty": "medium",
+      "fromSection": "a1-03",
+      "title": "Rūtos namas",
+      "passage": "Rūta yra mokytoja. Ji turi didelį namą. Namas yra naujas ir gražus. Rūta turi katę ir sūnų. Sūnus yra Petras. Petras skaito naują knygą ir valgo obuolį. Rūta rašo laišką ir geria arbatą. Ji neturi laiko.",
+      "translation": "Rūta is a teacher. She has a big house. The house is new and beautiful. Rūta has a cat and a son. The son is Petras. Petras is reading a new book and eating an apple. Rūta is writing a letter and drinking tea. She has no time.",
+      "glossary": {
+        "Rūta": "Rūta, a woman's name",
+        "Petras": "Petras, a man's name",
+        "laikas": "time (m.); *laiko* is its genitive"
+      },
+      "questions": [
+        {
+          "id": "cp1-p1-q1",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "What does Rūta have?",
+          "options": [
+            "didelį namą, katę ir sūnų",
+            "brolį ir laišką",
+            "gražią knygą ir obuolį",
+            "arbatą ir duoną"
+          ],
+          "correct": 0,
+          "explanation": "*Ji turi didelį namą* and *Rūta turi katę ir sūnų*. The letter and the tea she writes and drinks; they are not what she has.",
+          "rulesTested": ["transitive-objects", "accusative-nouns", "accusative-adjectives"],
+          "vocabUsed": ["turėti", "namas", "didelis", "katė", "sūnus", "brolis", "laiškas", "arbata", "duona"]
+        },
+        {
+          "id": "cp1-p1-q2",
+          "type": "multi",
+          "difficulty": "medium",
+          "stem": "Which statements does the passage support?",
+          "options": [
+            "Petras valgo obuolį.",
+            "Rūta rašo laišką.",
+            "Petras rašo laišką.",
+            "Namas yra gražus."
+          ],
+          "correct": [0, 1, 3],
+          "explanation": "Petras reads and eats; it is Rūta who writes. Note that *gražus* is masculine, agreeing with *namas*.",
+          "rulesTested": ["transitive-objects", "predicate-nominative", "adjective-agreement"],
+          "vocabUsed": ["valgyti", "obuolys", "rašyti", "laiškas", "namas", "gražus"]
+        },
+        {
+          "id": "cp1-p1-q3",
+          "type": "integer",
+          "difficulty": "hard",
+          "stem": "How many **direct objects in the accusative** does the passage contain?",
+          "answer": 7,
+          "unit": "objects",
+          "explanation": "namą, katę, sūnų, knygą, obuolį, laišką, arbatą — seven. *laiko* in the last sentence is a genitive, because *neturi* is negated, and so does not count.",
+          "rulesTested": ["accusative-nouns", "negation-genitive"],
+          "vocabUsed": ["namas", "katė", "sūnus", "knyga", "obuolys", "laiškas", "arbata"]
+        }
+      ]
+    }
+  ]
+}

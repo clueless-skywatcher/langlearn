@@ -1,0 +1,33 @@
+{
+  "id": "lt",
+  "langCode": "lt",
+  "name": "Lietuvių kalba",
+  "englishName": "Lithuanian",
+  "description": "Lithuanian from the alphabet to near-native command, in the manner of a classical grammar: numbered rules that explain why a form is used, illustrated by glossed examples, then drilled.",
+  "direction": "ltr",
+  "attribution": "Grammar written after the manner of Ivy Kellerman Reed, A Complete Grammar of Esperanto (1910): continuously numbered rules that give the reason for a usage, followed by glossed examples. The Lithuanian itself is original to this course.",
+  "levels": ["A1", "A2", "B1", "B2", "C1", "C2"],
+  "formLabels": {
+    "noun": [
+      { "key": "nom", "label": "nominative sg." },
+      { "key": "gen", "label": "genitive sg." },
+      { "key": "acc", "label": "accusative sg." },
+      { "key": "gender", "label": "gender" },
+      { "key": "decl", "label": "declension" }
+    ],
+    "adjective": [
+      { "key": "masc", "label": "masculine" },
+      { "key": "fem", "label": "feminine" }
+    ],
+    "verb": [
+      { "key": "inf", "label": "infinitive" },
+      { "key": "pres3", "label": "3rd pers. present" },
+      { "key": "past3", "label": "3rd pers. past" },
+      { "key": "conj", "label": "conjugation" }
+    ],
+    "pronoun": [
+      { "key": "nom", "label": "nominative" },
+      { "key": "acc", "label": "accusative" }
+    ]
+  }
+}

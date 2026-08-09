@@ -1,0 +1,287 @@
+{
+  "id": "eo-02",
+  "kind": "lesson",
+  "level": "A1",
+  "order": 2,
+  "title": "Nouns, the Article, Adjectives, and the Present Tense",
+  "summary": "Each part of speech announces itself by its ending: -o a noun, -a an adjective, -as a verb in the present. There is one article and it never changes; there is no indefinite article at all.",
+  "rules": [
+    {
+      "id": "noun-o",
+      "number": "10",
+      "heading": "Nouns",
+      "statement": "Words which are the names of persons or things are called **nouns**. The ending — that is, the final letter — of every Esperanto noun is **-o**. Nothing else marks a noun, and nothing but a noun is so marked, so that the part of speech of a word is legible from the word itself.",
+      "examples": [
+        { "target": "knabo", "gloss": "boy" },
+        { "target": "ĉevalo", "gloss": "horse" },
+        { "target": "tablo", "gloss": "table" },
+        { "target": "pomo", "gloss": "apple" }
+      ],
+      "seeAlso": [],
+      "core": true
+    },
+    {
+      "id": "article",
+      "number": "11",
+      "heading": "The Article",
+      "statement": "The definite article is **la**, the. There is **no indefinite article** — none for the singular and none for the plural. Consequently *knabo* means at once \"boy\" and \"a boy\", and only *la knabo* is \"the boy\". An English speaker's instinct to supply \"a\" must simply be given up.",
+      "examples": [
+        { "target": "la knabo", "gloss": "the boy" },
+        { "target": "knabo", "gloss": "a boy, boy" },
+        { "target": "la tablo", "gloss": "the table" },
+        { "target": "pomo", "gloss": "an apple" }
+      ],
+      "seeAlso": ["noun-o"],
+      "core": true
+    },
+    {
+      "id": "adjective-a",
+      "number": "12",
+      "heading": "Adjectives",
+      "statement": "A word used with a noun to express a quality or characteristic is called an **adjective**. The ending of every Esperanto adjective is **-a**. Since the noun ends in -o and the adjective in -a, an adjective may be made from any noun, and a noun from any adjective, by changing one letter — a device on which the whole word-building of the language rests.",
+      "examples": [
+        { "target": "bela", "gloss": "beautiful" },
+        { "target": "flava", "gloss": "yellow" },
+        { "target": "granda", "gloss": "large" },
+        { "target": "forta", "gloss": "strong" }
+      ],
+      "seeAlso": ["noun-o"],
+      "core": true
+    },
+    {
+      "id": "attributive-adjective",
+      "number": "13",
+      "heading": "Attributive Adjectives",
+      "statement": "An adjective is said to **modify** the noun whose quality it expresses. When it directly precedes or follows that noun it is called an **attributive adjective**. Either order is correct and neither changes the meaning: the ending, not the position, shows which word is the adjective.",
+      "examples": [
+        { "target": "la granda ĉevalo", "gloss": "the large horse" },
+        { "target": "bela birdo", "gloss": "a beautiful bird" },
+        { "target": "floro flava", "gloss": "a yellow flower", "note": "the adjective following its noun — equally correct" },
+        { "target": "forta knabo", "gloss": "a strong boy" }
+      ],
+      "seeAlso": ["adjective-a", "article"],
+      "core": true
+    },
+    {
+      "id": "present-as",
+      "number": "14",
+      "heading": "The Present Tense",
+      "statement": "Words which express action or condition are called **verbs**. A verb representing an act or condition as a fact in present time is said to be in the **present tense**, and the ending of every Esperanto verb in that tense is **-as**. The ending does not change for person or for number: one form serves *I*, *you*, *he*, *we* and *they* alike.",
+      "examples": [
+        { "target": "kuras", "gloss": "runs, is running" },
+        { "target": "brilas", "gloss": "shines, is shining" },
+        { "target": "flugas", "gloss": "flies, is flying" },
+        { "target": "dormas", "gloss": "sleeps, is sleeping" }
+      ],
+      "footnotes": [
+        "One Esperanto present renders both English presents: *la knabo kantas* is \"the boy sings\" and \"the boy is singing\" indifferently."
+      ],
+      "seeAlso": [],
+      "core": true
+    },
+    {
+      "id": "subject",
+      "number": "15",
+      "heading": "The Subject",
+      "statement": "The person or thing whose action or condition the verb expresses is called the **subject** of the verb. Since the verb ending tells nothing about person or number, it is the subject that supplies them.",
+      "examples": [
+        { "target": "La suno brilas.", "gloss": "The sun shines, the sun is shining.", "note": "subject: suno" },
+        { "target": "Knabo kuras.", "gloss": "A boy runs.", "note": "subject: knabo" },
+        { "target": "La bela birdo kantas.", "gloss": "The beautiful bird is singing." }
+      ],
+      "seeAlso": ["present-as", "noun-o"],
+      "core": true
+    }
+  ],
+  "vocabulary": [
+    { "lemma": "la", "gloss": "the", "pos": "article", "forms": {}, "notes": "Invariable: it never takes a plural or any other ending." },
+    { "lemma": "kaj", "gloss": "and", "pos": "conjunction", "forms": {} },
+    { "lemma": "birdo", "gloss": "bird", "pos": "noun", "forms": { "nom": "birdo", "plural": "birdoj" } },
+    { "lemma": "ĉevalo", "gloss": "horse", "pos": "noun", "forms": { "nom": "ĉevalo", "plural": "ĉevaloj" } },
+    { "lemma": "floro", "gloss": "flower", "pos": "noun", "forms": { "nom": "floro", "plural": "floroj" } },
+    { "lemma": "knabo", "gloss": "boy", "pos": "noun", "forms": { "nom": "knabo", "plural": "knaboj" } },
+    { "lemma": "luno", "gloss": "moon", "pos": "noun", "forms": { "nom": "luno", "plural": "lunoj" } },
+    { "lemma": "pomo", "gloss": "apple", "pos": "noun", "forms": { "nom": "pomo", "plural": "pomoj" } },
+    { "lemma": "suno", "gloss": "sun", "pos": "noun", "forms": { "nom": "suno", "plural": "sunoj" } },
+    { "lemma": "tablo", "gloss": "table", "pos": "noun", "forms": { "nom": "tablo", "plural": "tabloj" } },
+    { "lemma": "violo", "gloss": "violet", "pos": "noun", "forms": { "nom": "violo", "plural": "violoj" } },
+    { "lemma": "viro", "gloss": "man", "pos": "noun", "forms": { "nom": "viro", "plural": "viroj" } },
+    { "lemma": "bela", "gloss": "beautiful", "pos": "adjective", "forms": { "nom": "bela", "plural": "belaj" } },
+    { "lemma": "blanka", "gloss": "white", "pos": "adjective", "forms": { "nom": "blanka", "plural": "blankaj" } },
+    { "lemma": "bona", "gloss": "good", "pos": "adjective", "forms": { "nom": "bona", "plural": "bonaj" } },
+    { "lemma": "flava", "gloss": "yellow", "pos": "adjective", "forms": { "nom": "flava", "plural": "flavaj" } },
+    { "lemma": "forta", "gloss": "strong", "pos": "adjective", "forms": { "nom": "forta", "plural": "fortaj" } },
+    { "lemma": "granda", "gloss": "large", "pos": "adjective", "forms": { "nom": "granda", "plural": "grandaj" } },
+    { "lemma": "brilas", "gloss": "shines, is shining", "pos": "verb", "forms": { "inf": "brili", "pres": "brilas" } },
+    { "lemma": "dormas", "gloss": "sleeps, is sleeping", "pos": "verb", "forms": { "inf": "dormi", "pres": "dormas" } },
+    { "lemma": "flugas", "gloss": "flies, is flying", "pos": "verb", "forms": { "inf": "flugi", "pres": "flugas" } },
+    { "lemma": "kantas", "gloss": "sings, is singing", "pos": "verb", "forms": { "inf": "kanti", "pres": "kantas" } },
+    { "lemma": "kuras", "gloss": "runs, is running", "pos": "verb", "forms": { "inf": "kuri", "pres": "kuras" } },
+    { "lemma": "marŝas", "gloss": "walks, is walking", "pos": "verb", "forms": { "inf": "marŝi", "pres": "marŝas" } }
+  ],
+  "drills": [
+    {
+      "id": "eo102-q1",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Which of these words is an **adjective**?",
+      "options": ["knabo", "bela", "kantas", "la"],
+      "correct": 1,
+      "explanation": "The ending -a marks an adjective. -o marks a noun, -as a verb in the present, and *la* is the article.",
+      "rulesTested": ["adjective-a", "noun-o", "present-as"],
+      "vocabUsed": ["knabo", "bela", "kantas", "la"]
+    },
+    {
+      "id": "eo102-q2",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Translate: **the strong boy**",
+      "options": ["la forta knabo", "forta knabo", "la forte knabo", "la forto knabo"],
+      "correct": 0,
+      "explanation": "*la* supplies \"the\"; the adjective keeps its -a and the noun its -o. Without *la*, the phrase would be \"a strong boy\"; *forte* is an adverb and *forto* a noun (\"strength\").",
+      "rulesTested": ["article", "attributive-adjective"],
+      "vocabUsed": ["la", "forta", "knabo"]
+    },
+    {
+      "id": "eo102-q3",
+      "type": "integer",
+      "difficulty": "easy",
+      "stem": "How many indefinite articles does Esperanto have?",
+      "answer": 0,
+      "unit": "articles",
+      "explanation": "None, in either number. *pomo* is both \"apple\" and \"an apple\"; only the definite *la* exists.",
+      "rulesTested": ["article"],
+      "vocabUsed": ["pomo"]
+    },
+    {
+      "id": "eo102-q4",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Which sentence means **the beautiful bird is singing**?",
+      "options": [
+        "La bela birdo kantas.",
+        "La belo birdo kantas.",
+        "La bela birdo kanta.",
+        "Bela birdo la kantas."
+      ],
+      "correct": 0,
+      "explanation": "-a on the adjective, -o on the noun, -as on the verb. *belo* would be a noun (\"beauty\") and *kanta* an adjective.",
+      "rulesTested": ["adjective-a", "noun-o", "present-as", "article"],
+      "vocabUsed": ["la", "bela", "birdo", "kantas"]
+    },
+    {
+      "id": "eo102-q5",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which of these are **correct** ways of saying \"a yellow flower\"?",
+      "options": ["flava floro", "floro flava", "la flava floro", "flavo floro"],
+      "correct": [0, 1],
+      "explanation": "An attributive adjective may precede or follow its noun with no change of meaning, since the ending and not the position marks it. *la* would make the phrase definite, and *flavo* is a noun.",
+      "rulesTested": ["attributive-adjective", "article", "adjective-a"],
+      "vocabUsed": ["flava", "floro", "la"]
+    },
+    {
+      "id": "eo102-q6",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "In **La suno brilas**, what is the subject?",
+      "options": ["la", "suno", "brilas", "the sentence has none"],
+      "correct": 1,
+      "explanation": "*suno* is the thing whose action the verb expresses. Since -as says nothing about person or number, the subject is what supplies them.",
+      "rulesTested": ["subject", "present-as"],
+      "vocabUsed": ["la", "suno", "brilas"]
+    },
+    {
+      "id": "eo102-q7",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "*La knabo kantas* may be translated in which of these ways?",
+      "options": [
+        "The boy sings.",
+        "The boy is singing.",
+        "A boy sings.",
+        "The boy sang."
+      ],
+      "correct": [0, 1],
+      "explanation": "One Esperanto present covers both English presents. *La* is definite, so \"a boy\" is wrong; and -as is present, so the past is wrong.",
+      "rulesTested": ["present-as", "article"],
+      "vocabUsed": ["la", "knabo", "kantas"]
+    },
+    {
+      "id": "eo102-q8",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "In **La granda ĉevalo kaj la forta viro marŝas**, how many words end in **-a**?",
+      "answer": 2,
+      "unit": "words",
+      "explanation": "Two: the adjectives *granda* and *forta*. *la* ends in -a as a letter but is the article, which has no part-of-speech ending; *ĉevalo* and *viro* are nouns and *marŝas* a verb.",
+      "rulesTested": ["adjective-a", "article", "noun-o"],
+      "vocabUsed": ["la", "granda", "ĉevalo", "kaj", "forta", "viro", "marŝas"]
+    },
+    {
+      "id": "eo102-q9",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "From the noun *floro* (\"flower\") the adjective \"floral\" is made how?",
+      "options": [
+        "by adding -a: floroa",
+        "by changing the -o to -a: flora",
+        "by adding -as: floras",
+        "it cannot be made; a separate root is needed"
+      ],
+      "correct": 1,
+      "explanation": "The part-of-speech ending is exchanged, not accumulated. This one-letter change is the foundation of Esperanto word-building: any noun yields an adjective and any adjective a noun.",
+      "rulesTested": ["adjective-a", "noun-o"],
+      "vocabUsed": ["floro"]
+    },
+    {
+      "id": "eo102-p1",
+      "type": "comprehension",
+      "difficulty": "medium",
+      "title": "La suno brilas",
+      "passage": "La bela birdo kantas. Forta knabo kuras. La bona viro marŝas. La suno brilas kaj la luno brilas. La granda ĉevalo dormas. Bela flava floro kaj blanka violo. La bona knabo kantas kaj la viro dormas.",
+      "translation": "The beautiful bird is singing. A strong boy is running. The good man is walking. The sun is shining and the moon is shining. The large horse is sleeping. A beautiful yellow flower and a white violet. The good boy is singing and the man is sleeping.",
+      "glossary": {},
+      "questions": [
+        {
+          "id": "eo102-p1-q1",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "What is the horse doing?",
+          "options": ["kantas", "kuras", "dormas", "marŝas"],
+          "correct": 2,
+          "explanation": "*La granda ĉevalo dormas* — the large horse is sleeping. The boy runs and the man walks.",
+          "rulesTested": ["subject", "present-as"],
+          "vocabUsed": ["ĉevalo", "dormas", "kantas", "kuras", "marŝas"]
+        },
+        {
+          "id": "eo102-p1-q2",
+          "type": "multi",
+          "difficulty": "medium",
+          "stem": "Which of these does the passage assert?",
+          "options": [
+            "La suno brilas.",
+            "La luno brilas.",
+            "La birdo dormas.",
+            "La viro marŝas."
+          ],
+          "correct": [0, 1, 3],
+          "explanation": "Both sun and moon shine, and the good man walks. It is the horse that sleeps, and the bird that sings.",
+          "rulesTested": ["subject", "present-as", "article"],
+          "vocabUsed": ["la", "suno", "luno", "brilas", "birdo", "dormas", "viro", "marŝas"]
+        },
+        {
+          "id": "eo102-p1-q3",
+          "type": "integer",
+          "difficulty": "hard",
+          "stem": "How many **different** verbs appear in the passage?",
+          "answer": 5,
+          "unit": "verbs",
+          "explanation": "Five: *kantas*, *kuras*, *marŝas*, *brilas*, *dormas*. Three of them occur twice, but the question asks how many distinct verbs there are, and every one of them is recognisable as a verb by its -as.",
+          "rulesTested": ["present-as"],
+          "vocabUsed": ["kantas", "kuras", "marŝas", "brilas", "dormas"]
+        }
+      ]
+    }
+  ]
+}
