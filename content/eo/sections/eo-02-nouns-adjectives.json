@@ -211,12 +211,12 @@
       "id": "eo102-q8",
       "type": "integer",
       "difficulty": "hard",
-      "stem": "In **La granda ĉevalo kaj la forta viro marŝas**, how many words end in **-a**?",
-      "answer": 2,
+      "stem": "**La granda ĉevalo marŝas.** How many of its four words carry a part-of-speech ending?",
+      "answer": 3,
       "unit": "words",
-      "explanation": "Two: the adjectives *granda* and *forta*. *la* ends in -a as a letter but is the article, which has no part-of-speech ending; *ĉevalo* and *viro* are nouns and *marŝas* a verb.",
-      "rulesTested": ["adjective-a", "article", "noun-o"],
-      "vocabUsed": ["la", "granda", "ĉevalo", "kaj", "forta", "viro", "marŝas"]
+      "explanation": "Three: -a marks *granda* an adjective, -o marks *ĉevalo* a noun, -as marks *marŝas* a verb in the present. *la* carries none — the article is a word of one unchanging form (¶11), and the -a it happens to end in is not the adjective ending.",
+      "rulesTested": ["adjective-a", "noun-o", "present-as", "article"],
+      "vocabUsed": ["la", "granda", "ĉevalo", "marŝas"]
     },
     {
       "id": "eo102-q9",
@@ -274,12 +274,12 @@
           "id": "eo102-p1-q3",
           "type": "integer",
           "difficulty": "hard",
-          "stem": "How many **different** verbs appear in the passage?",
-          "answer": 5,
-          "unit": "verbs",
-          "explanation": "Five: *kantas*, *kuras*, *marŝas*, *brilas*, *dormas*. Three of them occur twice, but the question asks how many distinct verbs there are, and every one of them is recognisable as a verb by its -as.",
-          "rulesTested": ["present-as"],
-          "vocabUsed": ["kantas", "kuras", "marŝas", "brilas", "dormas"]
+          "stem": "The passage has seven sentences. In how many of them is there **no verb at all**?",
+          "answer": 1,
+          "unit": "sentences",
+          "explanation": "One: *Bela flava floro kaj blanka violo* — two nouns with their adjectives, and nothing asserted of them. Every other sentence contains a word in -as, and that ending is what makes a word a verb (¶14); a sentence without one states no action or condition.",
+          "rulesTested": ["present-as", "subject", "noun-o", "adjective-a"],
+          "vocabUsed": ["bela", "flava", "floro", "kaj", "blanka", "violo"]
         }
       ]
     }

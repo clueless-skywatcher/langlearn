@@ -1,0 +1,824 @@
+{
+  "id": "te-07",
+  "kind": "lesson",
+  "level": "A1",
+  "order": 9,
+  "title": "Nouns, Number, and Class",
+  "summary": "The plural in -లు, and the division of nouns that Telugu makes where European languages make gender — a division that draws its line in one place in the singular and in quite another in the plural.",
+  "rules": [
+    {
+      "id": "plural-lu",
+      "number": "38",
+      "heading": "The Plural in -లు",
+      "statement": "The plural of a Telugu noun is made by adding **-లు** to it. There is one plural ending and not several, which is a considerable simplification after a language of declensions; the difficulty lies not in the ending but in what the stem does before it.",
+      "examples": [
+        {
+          "target": "అబ్బాయి → అబ్బాయిలు",
+          "gloss": "boy → boys",
+          "note": "abbāyi → abbāyilu; the stem is untouched"
+        },
+        {
+          "target": "పిల్ల → పిల్లలు",
+          "gloss": "child → children",
+          "note": "pilla → pillalu"
+        },
+        {
+          "target": "కుక్క → కుక్కలు",
+          "gloss": "dog → dogs",
+          "note": "kukka → kukkalu"
+        }
+      ],
+      "seeAlso": [
+        "reading-a-word"
+      ],
+      "core": true
+    },
+    {
+      "id": "plural-stem-change",
+      "number": "39",
+      "heading": "What the Stem Does Before -లు",
+      "statement": "Many nouns change before the plural ending, and the changes fall into a few regular kinds. A noun in **-ం** replaces it with a long vowel; a noun in **-లు** or **-డు** turns that consonant into **-ళ్ళు**. These are not exceptions to be memorised singly but classes to be recognised.",
+      "paradigms": [
+        {
+          "caption": "Stem changes before -లు",
+          "columns": [
+            "singular",
+            "plural",
+            "change"
+          ],
+          "rows": [
+            {
+              "label": "no change",
+              "cells": [
+                "అబ్బాయి",
+                "అబ్బాయిలు",
+                "add -లు"
+              ]
+            },
+            {
+              "label": "-ం → -ా",
+              "cells": [
+                "పుస్తకం",
+                "పుస్తకాలు",
+                "the anusvāra gives way to a long vowel"
+              ]
+            },
+            {
+              "label": "-లు → -ళ్ళు",
+              "cells": [
+                "కాలు",
+                "కాళ్ళు",
+                "l becomes a doubled retroflex ḷ"
+              ]
+            },
+            {
+              "label": "-లు → -ళ్ళు",
+              "cells": [
+                "ఇల్లు",
+                "ఇళ్ళు",
+                "likewise"
+              ]
+            },
+            {
+              "label": "-డు → -డ్లు",
+              "cells": [
+                "పండు",
+                "పండ్లు",
+                "the ḍ is kept and l added beneath it"
+              ]
+            },
+            {
+              "label": "-ి → -ులు",
+              "cells": [
+                "నది",
+                "నదులు",
+                "a vowel comes in before the ending"
+              ]
+            }
+          ],
+          "footnote": "The commonest of all is the first: nouns in -ం, which are very numerous, all make their plural in -ాలు."
+        }
+      ],
+      "examples": [
+        {
+          "target": "పుస్తకం → పుస్తకాలు",
+          "gloss": "book → books"
+        },
+        {
+          "target": "ఇల్లు → ఇళ్ళు",
+          "gloss": "house → houses"
+        },
+        {
+          "target": "నది → నదులు",
+          "gloss": "river → rivers"
+        }
+      ],
+      "seeAlso": [
+        "plural-lu",
+        "doubled-consonants"
+      ],
+      "core": true
+    },
+    {
+      "id": "mahat-amahat",
+      "number": "40",
+      "heading": "Mahat and Amahat",
+      "statement": "Telugu divides its nouns not by gender but by **class**: **మహత్** (mahat), the *high* class, and **అమహత్** (amahat), the rest. The division is not made in the same place in both numbers, and that is the single most surprising thing about Telugu grammar. It is not a quirk of the pronouns only: the verb agrees with the same division (¶55), so a learner who gets the class wrong gets the verb wrong too.",
+      "seeAlso": [
+        "idi-adi"
+      ],
+      "core": true
+    },
+    {
+      "id": "class-singular",
+      "number": "41",
+      "heading": "The Singular: Men against Everything Else",
+      "statement": "In the **singular**, the mahat class contains **male human beings and nothing else**. A woman, an animal and a stone belong together in the amahat class, and take the same pronoun **అది** and the same verb form. This strikes a European ear as strange, and it is best learned as a fact about the grammar rather than argued with.",
+      "paradigms": [
+        {
+          "caption": "The singular division",
+          "columns": [
+            "class",
+            "who belongs",
+            "pronoun"
+          ],
+          "rows": [
+            {
+              "label": "మహత్",
+              "cells": [
+                "a man",
+                "అతను — he"
+              ]
+            },
+            {
+              "label": "అమహత్",
+              "cells": [
+                "a woman, an animal, a thing",
+                "అది — she, it"
+              ]
+            }
+          ],
+          "footnote": "**ఆమె** is also used of a woman, and is the polite and usual word in modern speech; but the *grammar* — the verb ending — treats her as amahat all the same."
+        }
+      ],
+      "examples": [
+        {
+          "target": "అతను",
+          "gloss": "he — mahat"
+        },
+        {
+          "target": "ఆమె / అది",
+          "gloss": "she — amahat by grammar, whichever word is used"
+        },
+        {
+          "target": "అది",
+          "gloss": "it — amahat"
+        }
+      ],
+      "seeAlso": [
+        "mahat-amahat",
+        "idi-adi"
+      ],
+      "core": true
+    },
+    {
+      "id": "class-plural",
+      "number": "42",
+      "heading": "The Plural: People against Things",
+      "statement": "In the **plural** the line moves. The mahat class now contains **all human beings, men and women alike**, and the amahat class only what is not human. A woman who was grouped with the stone in the singular is grouped with the man in the plural. Telugu is therefore a language in which the sexes are distinguished when they are alone and not when they are together.",
+      "paradigms": [
+        {
+          "caption": "The plural division",
+          "columns": [
+            "class",
+            "who belongs",
+            "pronoun"
+          ],
+          "rows": [
+            {
+              "label": "మహత్",
+              "cells": [
+                "men, women, people",
+                "వాళ్ళు — they"
+              ]
+            },
+            {
+              "label": "అమహత్",
+              "cells": [
+                "animals, things",
+                "అవి — they"
+              ]
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "target": "వాళ్ళు",
+          "gloss": "they, of people — mahat"
+        },
+        {
+          "target": "అవి",
+          "gloss": "they, of things — amahat"
+        },
+        {
+          "target": "అబ్బాయిలు, అమ్మాయిలు → వాళ్ళు",
+          "gloss": "boys, girls — both mahat in the plural"
+        }
+      ],
+      "seeAlso": [
+        "mahat-amahat",
+        "class-singular"
+      ],
+      "core": true
+    },
+    {
+      "id": "personal-pronouns",
+      "number": "43",
+      "heading": "The Personal Pronouns",
+      "statement": "The pronouns are given below. Note the first person plural, where Telugu makes a distinction English has not got: **మేము** excludes the person spoken to, **మనం** includes them. *Shall we go* is a different word according to whether you are inviting your hearer or telling them what you and your friends will do.",
+      "paradigms": [
+        {
+          "caption": "The personal pronouns",
+          "columns": [
+            "Telugu",
+            "transliteration",
+            "English"
+          ],
+          "rows": [
+            {
+              "label": "1 sg.",
+              "cells": [
+                "నేను",
+                "nēnu",
+                "I"
+              ]
+            },
+            {
+              "label": "2 sg.",
+              "cells": [
+                "నువ్వు",
+                "nuvvu",
+                "you"
+              ]
+            },
+            {
+              "label": "3 sg. mahat",
+              "cells": [
+                "అతను",
+                "atanu",
+                "he"
+              ]
+            },
+            {
+              "label": "3 sg. amahat",
+              "cells": [
+                "ఆమె / అది",
+                "āme / adi",
+                "she / it"
+              ]
+            },
+            {
+              "label": "1 pl. exclusive",
+              "cells": [
+                "మేము",
+                "mēmu",
+                "we (not you)"
+              ]
+            },
+            {
+              "label": "1 pl. inclusive",
+              "cells": [
+                "మనం",
+                "manaṃ",
+                "we (and you)"
+              ]
+            },
+            {
+              "label": "2 pl.",
+              "cells": [
+                "మీరు",
+                "mīru",
+                "you (plural or polite)"
+              ]
+            },
+            {
+              "label": "3 pl. mahat",
+              "cells": [
+                "వాళ్ళు",
+                "vāḷḷu",
+                "they (people)"
+              ]
+            },
+            {
+              "label": "3 pl. amahat",
+              "cells": [
+                "అవి",
+                "avi",
+                "they (things)"
+              ]
+            }
+          ],
+          "footnote": "**మీరు** is the polite singular as well as the plural, exactly as *jūs* is in Lithuanian and *vous* in French."
+        }
+      ],
+      "examples": [
+        {
+          "target": "నేను",
+          "gloss": "I"
+        },
+        {
+          "target": "మేము / మనం",
+          "gloss": "we, excluding you / we, including you"
+        },
+        {
+          "target": "మీరు",
+          "gloss": "you, plural or polite"
+        }
+      ],
+      "seeAlso": [
+        "class-singular",
+        "class-plural"
+      ],
+      "core": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "lemma": "అబ్బాయి",
+      "gloss": "boy",
+      "pos": "noun",
+      "forms": {
+        "nom": "అబ్బాయి",
+        "translit": "abbāyi",
+        "class": "mahat sg."
+      }
+    },
+    {
+      "lemma": "అమ్మాయి",
+      "gloss": "girl",
+      "pos": "noun",
+      "forms": {
+        "nom": "అమ్మాయి",
+        "translit": "ammāyi",
+        "class": "amahat sg."
+      }
+    },
+    {
+      "lemma": "కుక్క",
+      "gloss": "dog",
+      "pos": "noun",
+      "forms": {
+        "nom": "కుక్క",
+        "translit": "kukka",
+        "class": "amahat"
+      }
+    },
+    {
+      "lemma": "చెట్టు",
+      "gloss": "tree",
+      "pos": "noun",
+      "forms": {
+        "nom": "చెట్టు",
+        "translit": "ceṭṭu",
+        "class": "amahat"
+      }
+    },
+    {
+      "lemma": "నువ్వు",
+      "gloss": "you (singular, familiar)",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "నువ్వు",
+        "translit": "nuvvu"
+      }
+    },
+    {
+      "lemma": "మేము",
+      "gloss": "we (not including you)",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "మేము",
+        "translit": "mēmu"
+      }
+    },
+    {
+      "lemma": "మనం",
+      "gloss": "we (including you)",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "మనం",
+        "translit": "manaṃ"
+      }
+    },
+    {
+      "lemma": "మీరు",
+      "gloss": "you (plural or polite)",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "మీరు",
+        "translit": "mīru"
+      }
+    },
+    {
+      "lemma": "వాళ్ళు",
+      "gloss": "they (people)",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "వాళ్ళు",
+        "translit": "vāḷḷu"
+      }
+    },
+    {
+      "lemma": "అవి",
+      "gloss": "they (things)",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "అవి",
+        "translit": "avi"
+      }
+    },
+    {
+      "lemma": "మహత్",
+      "gloss": "the high class of nouns",
+      "pos": "noun",
+      "forms": {
+        "nom": "మహత్",
+        "translit": "mahat"
+      }
+    },
+    {
+      "lemma": "అమహత్",
+      "gloss": "the class of all other nouns",
+      "pos": "noun",
+      "forms": {
+        "nom": "అమహత్",
+        "translit": "amahat"
+      }
+    },
+    {
+      "lemma": "బహువచనం",
+      "gloss": "plural",
+      "pos": "noun",
+      "forms": {
+        "nom": "బహువచనం",
+        "translit": "bahuvacanaṃ"
+      }
+    },
+    {
+      "lemma": "ఏకవచనం",
+      "gloss": "singular",
+      "pos": "noun",
+      "forms": {
+        "nom": "ఏకవచనం",
+        "translit": "ēkavacanaṃ"
+      }
+    }
+  ],
+  "drills": [
+    {
+      "id": "te107-q1",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "What is the plural of **అబ్బాయి** (boy)?",
+      "options": [
+        "అబ్బాయిలు",
+        "అబ్బాయ్లు",
+        "అబ్బాయాలు",
+        "అబ్బాయు"
+      ],
+      "correct": 0,
+      "explanation": "-లు is added and the stem is untouched. This is the simplest of the plural classes.",
+      "rulesTested": [
+        "plural-lu"
+      ],
+      "vocabUsed": [
+        "అబ్బాయి",
+        "బహువచనం"
+      ]
+    },
+    {
+      "id": "te107-q2",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "What is the plural of **పుస్తకం** (book)?",
+      "options": [
+        "పుస్తకంలు",
+        "పుస్తకాలు",
+        "పుస్తకులు",
+        "పుస్తకళ్ళు"
+      ],
+      "correct": 1,
+      "explanation": "A noun in -ం gives up its anusvāra for a long vowel before -లు: *pustakaṃ → pustakālu*. Nouns of this shape are very numerous, so the class is worth knowing first.",
+      "rulesTested": [
+        "plural-stem-change",
+        "anusvara"
+      ],
+      "vocabUsed": [
+        "పుస్తకం",
+        "బహువచనం"
+      ]
+    },
+    {
+      "id": "te107-q4",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "In the **singular**, which of these belongs to the మహత్ class?",
+      "options": [
+        "a woman",
+        "a man",
+        "a dog",
+        "a book"
+      ],
+      "correct": 1,
+      "explanation": "In the singular the mahat class holds male human beings and nothing else. A woman is grammatically amahat, grouped with the dog and the book — the fact a European learner finds hardest to accept.",
+      "rulesTested": [
+        "class-singular",
+        "mahat-amahat"
+      ],
+      "vocabUsed": [
+        "మహత్",
+        "అమహత్",
+        "కుక్క",
+        "పుస్తకం"
+      ]
+    },
+    {
+      "id": "te107-q5",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "In the **plural**, which of these belongs to the మహత్ class?",
+      "options": [
+        "dogs",
+        "trees",
+        "women",
+        "books"
+      ],
+      "correct": 2,
+      "explanation": "In the plural the line moves: all human beings are mahat, women with men. Only the non-human is amahat.",
+      "rulesTested": [
+        "class-plural",
+        "mahat-amahat"
+      ],
+      "vocabUsed": [
+        "మహత్",
+        "కుక్క",
+        "చెట్టు",
+        "పుస్తకం"
+      ]
+    },
+    {
+      "id": "te107-q6",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which of these are correct plurals?",
+      "options": [
+        "ఇల్లు → ఇళ్ళు",
+        "నది → నదులు",
+        "కుక్క → కుక్కలు",
+        "పుస్తకం → పుస్తకంలు"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "The last is wrong: a noun in -ం gives up the anusvāra, making *పుస్తకాలు*. The other three show three different stem-classes, all regular.",
+      "rulesTested": [
+        "plural-stem-change",
+        "plural-lu"
+      ],
+      "vocabUsed": [
+        "ఇల్లు",
+        "నది",
+        "కుక్క",
+        "పుస్తకం"
+      ]
+    },
+    {
+      "id": "te107-q7",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "You are inviting the person you are speaking to. Which word for **we** do you use?",
+      "options": [
+        "మేము",
+        "మనం",
+        "మీరు",
+        "వాళ్ళు"
+      ],
+      "correct": 1,
+      "explanation": "మనం includes the hearer; మేము excludes them. English has one word for both and Telugu will not let you be vague about which you mean.",
+      "rulesTested": [
+        "personal-pronouns"
+      ],
+      "vocabUsed": [
+        "మేము",
+        "మనం",
+        "మీరు",
+        "వాళ్ళు"
+      ]
+    },
+    {
+      "id": "te107-q8",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Which pronoun is used to one person, politely?",
+      "options": [
+        "నువ్వు",
+        "మీరు",
+        "మనం",
+        "అతను"
+      ],
+      "correct": 1,
+      "explanation": "మీరు serves as both the plural and the polite singular, as *jūs* does in Lithuanian. నువ్వు is for a friend, a child, or an intimate.",
+      "rulesTested": [
+        "personal-pronouns"
+      ],
+      "vocabUsed": [
+        "నువ్వు",
+        "మీరు",
+        "మనం",
+        "అతను"
+      ]
+    },
+    {
+      "id": "te107-q9",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which statements about the Telugu class system are correct?",
+      "options": [
+        "In the singular, a woman is grammatically amahat.",
+        "In the plural, a woman is grammatically mahat.",
+        "The class system divides nouns the same way in both numbers.",
+        "The verb agrees with the class, not merely the pronoun."
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "The line is drawn in one place in the singular and another in the plural — that is the whole peculiarity. And it is not confined to the pronouns: the verb ending follows the same division (¶55).",
+      "rulesTested": [
+        "class-singular",
+        "class-plural",
+        "mahat-amahat"
+      ],
+      "vocabUsed": [
+        "మహత్",
+        "అమహత్",
+        "ఏకవచనం",
+        "బహువచనం"
+      ]
+    },
+    {
+      "id": "te107-q10",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**ఆమె** is the ordinary polite word for *she*. What does that change about her grammatical class?",
+      "options": [
+        "It makes her mahat in the singular.",
+        "Nothing: the verb still treats her as amahat.",
+        "It makes her mahat in the plural only.",
+        "It removes her from the class system."
+      ],
+      "correct": 1,
+      "explanation": "The word chosen and the grammatical class are two different things. Whichever pronoun is used, the singular verb ending for a woman is the amahat one — which is why the class must be learned as grammar and not as vocabulary.",
+      "rulesTested": [
+        "class-singular",
+        "personal-pronouns",
+        "mahat-amahat"
+      ],
+      "vocabUsed": [
+        "ఆమె",
+        "అమహత్",
+        "మహత్"
+      ]
+    },
+    {
+      "id": "te107-q11",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "Of **a man, a woman, a dog, and a book**, how many are మహత్ in the **singular**?",
+      "answer": 1,
+      "unit": "nouns",
+      "explanation": "One — the man. In the singular the mahat class holds male human beings only. Answering two counts the woman, which is exactly the assumption a European learner brings and must give up.",
+      "rulesTested": [
+        "class-singular",
+        "mahat-amahat"
+      ],
+      "vocabUsed": [
+        "మహత్",
+        "కుక్క",
+        "పుస్తకం"
+      ]
+    },
+    {
+      "id": "te107-q12",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "Of **men, women, dogs, and books**, how many are మహత్ in the **plural**?",
+      "answer": 2,
+      "unit": "nouns",
+      "explanation": "Two — men and women, who are together mahat once they are plural. Compare the previous question: the same four kinds of thing, and a different answer, because the line moves between the numbers.",
+      "rulesTested": [
+        "class-plural",
+        "mahat-amahat",
+        "class-singular"
+      ],
+      "vocabUsed": [
+        "మహత్",
+        "కుక్క",
+        "పుస్తకం",
+        "బహువచనం"
+      ]
+    },
+    {
+      "id": "te107-p1",
+      "type": "comprehension",
+      "difficulty": "medium",
+      "title": "ఇక్కడ ఎవరు?",
+      "passage": "ఇక్కడ అబ్బాయిలు, అమ్మాయిలు. వాళ్ళు నా స్నేహితులు. అక్కడ కుక్కలు, చెట్లు. అవి పెద్దవి. ఇది నా ఇల్లు. అక్కడ రెండు ఇళ్ళు. ఆమె నా అమ్మ. అతను నా అన్న.",
+      "translation": "Here are boys and girls. They are my friends. There are dogs and trees. They are big. This is my house. There are two houses. She is my mother. He is my elder brother.",
+      "glossary": {
+        "స్నేహితులు": "friends (snēhitulu)",
+        "చెట్లు": "trees, the plural of చెట్టు",
+        "పెద్దవి": "big (the plural form of పెద్ద used as a predicate)"
+      },
+      "questions": [
+        {
+          "id": "te107-p1-q1",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "Which pronoun does the passage use of the boys and girls together?",
+          "options": [
+            "అవి",
+            "వాళ్ళు",
+            "అది",
+            "అతను"
+          ],
+          "correct": 1,
+          "explanation": "*వాళ్ళు నా స్నేహితులు.* Boys and girls together are human, and so mahat in the plural — one pronoun serves both sexes.",
+          "rulesTested": [
+            "class-plural",
+            "personal-pronouns"
+          ],
+          "vocabUsed": [
+            "వాళ్ళు",
+            "అవి",
+            "అబ్బాయి",
+            "అమ్మాయి"
+          ]
+        },
+        {
+          "id": "te107-p1-q2",
+          "type": "multi",
+          "difficulty": "medium",
+          "stem": "Which words in the passage are **plural**?",
+          "options": [
+            "అబ్బాయిలు",
+            "ఇల్లు",
+            "కుక్కలు",
+            "ఇళ్ళు"
+          ],
+          "correct": [
+            0,
+            2,
+            3
+          ],
+          "explanation": "*అబ్బాయిలు* and *కుక్కలు* add -లు plainly; *ఇళ్ళు* is the plural of ఇల్లు with its stem changed. *ఇల్లు* itself, in *ఇది నా ఇల్లు*, is singular — and it is the one that looks plural, ending in -లు already.",
+          "rulesTested": [
+            "plural-lu",
+            "plural-stem-change"
+          ],
+          "vocabUsed": [
+            "అబ్బాయి",
+            "ఇల్లు",
+            "కుక్క",
+            "బహువచనం"
+          ]
+        },
+        {
+          "id": "te107-p1-q3",
+          "type": "integer",
+          "difficulty": "hard",
+          "stem": "The passage refers to four groups: the children, the dogs, the trees, and the two houses. How many of the four are **అమహత్**?",
+          "answer": 3,
+          "unit": "groups",
+          "explanation": "Three: dogs, trees and houses. Only the boys and girls are human, and so mahat. Had the passage spoken of one girl instead, she would have been amahat too — the class of a woman depends on the number she is in.",
+          "rulesTested": [
+            "class-plural",
+            "class-singular",
+            "mahat-amahat"
+          ],
+          "vocabUsed": [
+            "అమహత్",
+            "మహత్",
+            "కుక్క",
+            "చెట్టు",
+            "ఇల్లు"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,337 @@
+{
+  "id": "a1-06",
+  "kind": "lesson",
+  "level": "A1",
+  "order": 7,
+  "title": "Pronouns",
+  "summary": "The personal pronouns in every case met so far; the possessives, which do not decline at all; the reflexive *savo* and the ambiguity it exists to prevent; and the polite *jūs*.",
+  "rules": [
+    {
+      "id": "pronouns-cases",
+      "number": "42",
+      "heading": "The Personal Pronouns Declined",
+      "statement": "The personal pronouns have their own forms, which must be learned as a list — they follow none of the noun declensions. Three cases have now been met: the nominative for the subject (¶14), the accusative for the object (¶22), and the genitive. Observe that the third person has **one genitive for each gender**, and that *jų* serves both genders in the plural.",
+      "paradigms": [
+        {
+          "caption": "Personal pronouns: nominative, accusative, genitive",
+          "columns": ["nominative", "accusative", "genitive", "English"],
+          "rows": [
+            { "label": "1 sg.", "cells": ["aš", "mane", "manęs", "I, me"] },
+            { "label": "2 sg.", "cells": ["tu", "tave", "tavęs", "you"] },
+            { "label": "3 sg. m.", "cells": ["jis", "jį", "jo", "he, him"] },
+            { "label": "3 sg. f.", "cells": ["ji", "ją", "jos", "she, her"] },
+            { "label": "1 pl.", "cells": ["mes", "mus", "mūsų", "we, us"] },
+            { "label": "2 pl.", "cells": ["jūs", "jus", "jūsų", "you"] },
+            { "label": "3 pl. m.", "cells": ["jie", "juos", "jų", "they, them"] },
+            { "label": "3 pl. f.", "cells": ["jos", "jas", "jų", "they, them"] }
+          ],
+          "footnote": "*jie* is used of a mixed company; *jos* only where every member is feminine."
+        }
+      ],
+      "examples": [
+        { "target": "Jis mane mato.", "gloss": "He sees me." },
+        { "target": "Mes jų nematome.", "gloss": "We do not see them.", "note": "genitive after a negated verb" },
+        { "target": "Ar tu jį pažįsti?", "gloss": "Do you know him?" }
+      ],
+      "seeAlso": ["pronouns-nom", "accusative-pronouns", "genitive-negation"],
+      "core": true
+    },
+    {
+      "id": "possessives",
+      "number": "43",
+      "heading": "The Possessive Pronouns",
+      "statement": "The possessives are **mano, tavo, jo, jos, mūsų, jūsų, jų**. They are **indeclinable**: they take no ending for gender, number or case, and stand unchanged before the noun however that noun is declined. This is one of the few places where Lithuanian asks nothing of the learner. Note that in the third person and in the plural the possessive is simply the genitive of ¶42 — *jo namas* is literally \"of-him house\".",
+      "paradigms": [
+        {
+          "caption": "The possessives before a noun in three cases",
+          "columns": ["nominative", "accusative", "genitive"],
+          "rows": [
+            { "label": "my", "cells": ["mano namas", "mano namą", "mano namo"] },
+            { "label": "your (sg.)", "cells": ["tavo katė", "tavo katę", "tavo katės"] },
+            { "label": "his", "cells": ["jo brolis", "jo brolį", "jo brolio"] },
+            { "label": "our", "cells": ["mūsų knyga", "mūsų knygą", "mūsų knygos"] }
+          ],
+          "footnote": "The possessive never changes; only the noun does."
+        }
+      ],
+      "examples": [
+        { "target": "Tai mano brolis.", "gloss": "This is my brother." },
+        { "target": "Aš matau tavo katę.", "gloss": "I see your cat." },
+        { "target": "Mūsų mokytoja yra gera.", "gloss": "Our teacher is good." }
+      ],
+      "seeAlso": ["pronouns-cases", "genitive-possession"],
+      "core": true
+    },
+    {
+      "id": "savo",
+      "number": "44",
+      "heading": "The Reflexive Possessive Savo",
+      "statement": "When the possessor is **the subject of the same sentence**, Lithuanian requires **savo** in place of *jo, jos, jų*. The distinction is not a nicety: *jo* refers to somebody other than the subject, and using it where *savo* is meant says something different. English, having no such word, is ambiguous here and Lithuanian is not.",
+      "examples": [
+        { "target": "Jis myli savo brolį.", "gloss": "He loves his (own) brother." },
+        { "target": "Jis myli jo brolį.", "gloss": "He loves his (another man's) brother.", "note": "a different man's brother — the only reading" },
+        { "target": "Aš skaitau savo knygą.", "gloss": "I am reading my own book.", "note": "savo may replace mano and tavo too, where the possessor is the subject" }
+      ],
+      "footnotes": [
+        "In the first and second persons *savo* is preferred but *mano* and *tavo* are not wrong, because no ambiguity is possible: *aš* can only be *aš*. In the third person *savo* is obligatory."
+      ],
+      "seeAlso": ["possessives"],
+      "core": true
+    },
+    {
+      "id": "polite-jus",
+      "number": "45",
+      "heading": "Jūs as the Polite Form",
+      "statement": "**Jūs** is both the plural \"you\" and the polite singular, used to one person who is a stranger, an elder, or a superior. The verb stands in the plural with it even when one person is meant. In letters it is written with a capital, *Jūs*. Using *tu* to a stranger is a real discourtesy, and the change to *tu* is something Lithuanians propose explicitly.",
+      "examples": [
+        { "target": "Ar Jūs kalbate lietuviškai?", "gloss": "Do you speak Lithuanian?", "note": "to one person, politely" },
+        { "target": "Ar tu kalbi lietuviškai?", "gloss": "Do you speak Lithuanian?", "note": "to a friend or a child" },
+        { "target": "Kaip Jūsų vardas?", "gloss": "What is your name?" }
+      ],
+      "seeAlso": ["pronouns-cases", "possessives"],
+      "core": true
+    },
+    {
+      "id": "pronoun-omission",
+      "number": "46",
+      "heading": "When the Pronoun May Be Left Out",
+      "statement": "Because the personal ending names the person (¶24), the subject pronoun is normally **omitted** unless it is emphatic or needed to prevent confusion. Two places require it: the second conjugation, where *tu* and *jis* share the form *-i* (¶36), and the third person of every conjugation, where one form serves both numbers and both genders.",
+      "examples": [
+        { "target": "Dirbu Vilniuje.", "gloss": "I work in Vilnius.", "note": "the -u says 'I' already" },
+        { "target": "Aš dirbu, o ji nedirba.", "gloss": "I work, but she does not.", "note": "pronouns kept because the two are contrasted" },
+        { "target": "Tu turi brolį.", "gloss": "You have a brother.", "note": "turi alone would be ambiguous" }
+      ],
+      "seeAlso": ["pronouns-cases", "present-conj-ii"],
+      "core": true
+    },
+    {
+      "id": "tai-naming",
+      "number": "47",
+      "heading": "Tai in Naming and Introducing",
+      "statement": "**Tai** — this is, that is — introduces or identifies, and does not change for the gender or number of what follows. It is the word with which people and things are presented, and *yra* may be left out after it.",
+      "examples": [
+        { "target": "Tai mano sesuo.", "gloss": "This is my sister." },
+        { "target": "Tai yra mūsų namas.", "gloss": "This is our house." },
+        { "target": "Tai Jonas ir Rūta.", "gloss": "This is Jonas and Rūta.", "note": "unchanged before a plural" }
+      ],
+      "seeAlso": ["possessives", "predicate-nominative"],
+      "core": false
+    }
+  ],
+  "vocabulary": [
+    { "lemma": "jie", "gloss": "they (masculine or mixed)", "pos": "pronoun", "forms": { "nom": "jie", "acc": "juos" } },
+    { "lemma": "jos", "gloss": "they (all feminine); also her, of her", "pos": "pronoun", "forms": { "nom": "jos", "acc": "jas" } },
+    { "lemma": "manęs", "gloss": "of me", "pos": "pronoun", "forms": { "nom": "aš", "acc": "mane" } },
+    { "lemma": "tavęs", "gloss": "of you (singular)", "pos": "pronoun", "forms": { "nom": "tu", "acc": "tave" } },
+    { "lemma": "jo", "gloss": "his, of him", "pos": "pronoun", "forms": { "nom": "jis", "acc": "jį" } },
+    { "lemma": "mus", "gloss": "us", "pos": "pronoun", "forms": { "nom": "mes", "acc": "mus" } },
+    { "lemma": "jus", "gloss": "you (plural, object)", "pos": "pronoun", "forms": { "nom": "jūs", "acc": "jus" } },
+    { "lemma": "mano", "gloss": "my", "pos": "pronoun", "forms": {}, "notes": "Indeclinable." },
+    { "lemma": "tavo", "gloss": "your (singular)", "pos": "pronoun", "forms": {}, "notes": "Indeclinable." },
+    { "lemma": "mūsų", "gloss": "our", "pos": "pronoun", "forms": {}, "notes": "Indeclinable; identical to the genitive of mes." },
+    { "lemma": "jūsų", "gloss": "your (plural or polite)", "pos": "pronoun", "forms": {}, "notes": "Indeclinable; identical to the genitive of jūs." },
+    { "lemma": "jų", "gloss": "their", "pos": "pronoun", "forms": {}, "notes": "Indeclinable; identical to the genitive of jie and jos." },
+    { "lemma": "savo", "gloss": "one's own", "pos": "pronoun", "forms": {}, "notes": "Indeclinable; obligatory in the third person when the possessor is the subject." },
+    { "lemma": "šeima", "gloss": "family", "pos": "noun", "forms": { "nom": "šeima", "gen": "šeimos", "acc": "šeimą", "gender": "f." } },
+    { "lemma": "tėvas", "gloss": "father", "pos": "noun", "forms": { "nom": "tėvas", "gen": "tėvo", "acc": "tėvą", "gender": "m." } },
+    { "lemma": "mama", "gloss": "mother", "pos": "noun", "forms": { "nom": "mama", "gen": "mamos", "acc": "mamą", "gender": "f." } },
+    { "lemma": "sesuo", "gloss": "sister", "pos": "noun", "forms": { "nom": "sesuo", "gen": "sesers", "acc": "seserį", "gender": "f." }, "notes": "Irregular, like vanduo; learn the genitive with the word." },
+    { "lemma": "vardas", "gloss": "first name", "pos": "noun", "forms": { "nom": "vardas", "gen": "vardo", "acc": "vardą", "gender": "m." } },
+    { "lemma": "pavardė", "gloss": "surname", "pos": "noun", "forms": { "nom": "pavardė", "gen": "pavardės", "acc": "pavardę", "gender": "f." } },
+    { "lemma": "draugė", "gloss": "friend (female)", "pos": "noun", "forms": { "nom": "draugė", "gen": "draugės", "acc": "draugę", "gender": "f." } },
+    { "lemma": "pažinti", "gloss": "to know (a person)", "pos": "verb", "forms": { "inf": "pažinti", "pres3": "pažįsta", "past3": "pažino", "conj": "I" } },
+    { "lemma": "kaip", "gloss": "how", "pos": "adverb", "forms": {} }
+  ],
+  "drills": [
+    {
+      "id": "a106-q1",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Translate: **my house**",
+      "options": ["manas namas", "mano namas", "manęs namas", "mane namas"],
+      "correct": 1,
+      "explanation": "*mano* is the possessive and never changes. *manęs* is the genitive of the personal pronoun — \"of me\" as an object, not \"my\".",
+      "rulesTested": ["possessives"],
+      "vocabUsed": ["mano", "namas", "manęs"]
+    },
+    {
+      "id": "a106-q2",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "What is the accusative of **jie**?",
+      "options": ["jų", "jie", "juos", "jas"],
+      "correct": 2,
+      "explanation": "*juos*. *jas* is the accusative of the feminine *jos*, and *jų* is the genitive of both.",
+      "rulesTested": ["pronouns-cases"],
+      "vocabUsed": ["jie", "jos", "jų"]
+    },
+    {
+      "id": "a106-q3",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which of these phrases are **correct**?",
+      "options": ["mano knyga", "mano knygą", "mūsų namo", "manas namas"],
+      "correct": [0, 1, 2],
+      "explanation": "The possessive is indeclinable, so *mano* and *mūsų* are right before a noun in any case whatever. Only *manas* is impossible — there is no such word.",
+      "rulesTested": ["possessives"],
+      "vocabUsed": ["mano", "knyga", "mūsų", "namas"]
+    },
+    {
+      "id": "a106-q4",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "**Jis myli savo brolį.** What does this mean?",
+      "options": [
+        "He loves his own brother.",
+        "He loves another man's brother.",
+        "He loves my brother.",
+        "The sentence is ambiguous between the first two."
+      ],
+      "correct": 0,
+      "explanation": "*savo* points back to the subject, so the brother is his own. Had the passage meant another man's brother it would have written *jo brolį* — Lithuanian keeps apart what English leaves ambiguous.",
+      "rulesTested": ["savo"],
+      "vocabUsed": ["savo", "mylėti", "brolis", "jis"]
+    },
+    {
+      "id": "a106-q5",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "You are speaking to a stranger. Which is correct?",
+      "options": [
+        "Ar tu kalbi lietuviškai?",
+        "Ar Jūs kalbate lietuviškai?",
+        "Ar Jūs kalbi lietuviškai?",
+        "Ar tu kalbate lietuviškai?"
+      ],
+      "correct": 1,
+      "explanation": "*Jūs* is the polite form and takes the plural verb *kalbate* with it, even though one person is addressed. Mixing a pronoun of one number with a verb of the other is the commonest error here.",
+      "rulesTested": ["polite-jus", "present-conj-i"],
+      "vocabUsed": ["jūs", "tu", "kalbėti", "lietuviškai"]
+    },
+    {
+      "id": "a106-q6",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "In which of these sentences may the subject pronoun be dropped without loss?",
+      "options": [
+        "Aš dirbu Vilniuje.",
+        "Tu turi brolį.",
+        "Mes skaitome knygą.",
+        "Jis nori kavos."
+      ],
+      "correct": [0, 2],
+      "explanation": "*dirbu* and *skaitome* name their person unmistakably. *turi* and *nori* are second-conjugation forms serving *tu*, *jis*, *ji*, *jie* and *jos* alike, so dropping the pronoun would leave the person unknown.",
+      "rulesTested": ["pronoun-omission", "present-conj-ii"],
+      "vocabUsed": ["aš", "dirbti", "tu", "turėti", "brolis", "mes", "skaityti", "knyga", "jis", "norėti", "kava"]
+    },
+    {
+      "id": "a106-q7",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Mes ____ nematome.** (We do not see them.)",
+      "options": ["juos", "jų", "jie", "jas"],
+      "correct": 1,
+      "explanation": "The verb is negated, so its object leaves the accusative *juos* for the genitive *jų* (¶31). The rule holds for pronouns exactly as for nouns.",
+      "rulesTested": ["pronouns-cases", "genitive-negation"],
+      "vocabUsed": ["mes", "matyti", "jie", "jų"]
+    },
+    {
+      "id": "a106-q8",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Rūta and her sister each own a cat. **Rūta myli jos katę.** Whose cat does Rūta love?",
+      "options": [
+        "Her own.",
+        "Her sister's.",
+        "Either — the sentence is ambiguous.",
+        "The sentence is ungrammatical."
+      ],
+      "correct": 1,
+      "explanation": "*jos* refers to somebody other than the subject, so the cat is the sister's. Rūta's own cat would require *savo katę* (¶44). English \"her cat\" covers both and tells you nothing.",
+      "rulesTested": ["savo", "possessives"],
+      "vocabUsed": ["mylėti", "katė", "savo", "jos", "sesuo"]
+    },
+    {
+      "id": "a106-q9",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which statements about the possessives are correct?",
+      "options": [
+        "They take no ending for case, gender or number.",
+        "*mūsų*, *jūsų* and *jų* are identical to the genitive of the corresponding personal pronoun.",
+        "*mano* is identical to the genitive of *aš*.",
+        "*savo* is required in the third person when the possessor is the subject."
+      ],
+      "correct": [0, 1, 3],
+      "explanation": "The third is the exception that proves the pattern: the genitive of *aš* is *manęs*, not *mano*. In the first and second persons the possessive and the genitive have drifted apart; in the third person and the plural they are still the same word.",
+      "rulesTested": ["possessives", "pronouns-cases", "savo"],
+      "vocabUsed": ["mano", "manęs", "mūsų", "jūsų", "jų", "savo", "aš"]
+    },
+    {
+      "id": "a106-q10",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "**Aš matau tavo seserį.** How many of the four words change form if the object becomes plural, *your sisters*?",
+      "answer": 1,
+      "unit": "words",
+      "explanation": "One: *seserį* alone. *tavo* is indeclinable and takes no plural (¶43); *aš* and *matau* concern the subject, which has not changed. Answering two means declining the possessive, which is exactly what Lithuanian never does.",
+      "rulesTested": ["possessives", "pronouns-cases"],
+      "vocabUsed": ["aš", "matyti", "tavo", "sesuo"]
+    },
+    {
+      "id": "a106-p1",
+      "type": "comprehension",
+      "difficulty": "medium",
+      "title": "Mano šeima",
+      "passage": "Labas! Mano vardas Tomas, mano pavardė Petraitis. Aš gyvenu Kaune. Tai mano šeima. Mano tėvas dirba universitete, o mano mama yra mokytoja. Aš turiu seserį. Jos vardas Eglė. Ji studijuoja Vilniuje. Eglė mėgsta savo darbą, bet nemėgsta miesto. Mes dažnai jai rašome, o ji retai rašo mums.",
+      "translation": "Hello! My name is Tomas, my surname is Petraitis. I live in Kaunas. This is my family. My father works at the university, and my mother is a teacher. I have a sister. Her name is Eglė. She studies in Vilnius. Eglė likes her job, but does not like the city. We often write to her, and she rarely writes to us.",
+      "glossary": {
+        "Kaune": "in Kaunas",
+        "o": "and, whereas (contrasting)",
+        "Eglė": "Eglė, a woman's name",
+        "jai": "to her (dative, taken up later)",
+        "mums": "to us (dative, taken up later)"
+      },
+      "questions": [
+        {
+          "id": "a106-p1-q1",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "Kas yra Tomo mama?",
+          "options": ["studentė", "mokytoja", "sesuo", "draugė"],
+          "correct": 1,
+          "explanation": "*mano mama yra mokytoja* — a predicate noun in the nominative (¶16). The sister studies; the mother teaches.",
+          "rulesTested": ["possessives", "predicate-nominative"],
+          "vocabUsed": ["mama", "mokytoja", "sesuo", "draugė"]
+        },
+        {
+          "id": "a106-p1-q2",
+          "type": "multi",
+          "difficulty": "medium",
+          "stem": "Which of these does the passage support?",
+          "options": [
+            "Eglė mėgsta savo darbą.",
+            "Eglė gyvena Kaune.",
+            "Tomo tėvas dirba universitete.",
+            "Eglė dažnai rašo Tomui."
+          ],
+          "correct": [0, 2],
+          "explanation": "Eglė studies in Vilnius, not Kaunas, and it is the family who write often while she writes rarely. Note *savo darbą*: the job is her own, which is why *savo* and not *jos* stands there.",
+          "rulesTested": ["savo", "possessives", "frequency-adverbs"],
+          "vocabUsed": ["mėgti", "savo", "darbas", "gyventi", "tėvas", "dirbti", "universitetas", "dažnai", "rašyti"]
+        },
+        {
+          "id": "a106-p1-q3",
+          "type": "integer",
+          "difficulty": "hard",
+          "stem": "The passage says **Eglė mėgsta savo darbą.** If the job were her father's instead of her own, how many words would change form?",
+          "answer": 1,
+          "unit": "words",
+          "explanation": "One: *savo* → *jo*. Both possessives are indeclinable, so *darbą* keeps its accusative and the verb is untouched. The change is of meaning, not of form — which is the whole point of the distinction (¶44).",
+          "rulesTested": ["savo", "possessives"],
+          "vocabUsed": ["mėgti", "savo", "jo", "darbas"]
+        }
+      ]
+    }
+  ]
+}

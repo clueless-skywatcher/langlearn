@@ -1,4 +1,5 @@
 import type { Course, VocabEntry } from "@/content/schema";
+import { hasTelugu, transliterateTelugu } from "@/lib/translit";
 
 /**
  * Citation forms in the order the course declares for that part of speech,
@@ -35,7 +36,14 @@ export function VocabList({
           const forms = citation(entry, course);
           return (
             <div key={entry.lemma} className="text-sm">
-              <dt className="target text-base">{entry.lemma}</dt>
+              <dt className="target text-base">
+                {entry.lemma}
+                {hasTelugu(entry.lemma) && (
+                  <span className="ml-2 text-sm not-italic text-ink-faint">
+                    {transliterateTelugu(entry.lemma)}
+                  </span>
+                )}
+              </dt>
               <dd className="text-ink-soft">
                 {entry.gloss}
                 <span className="text-ink-faint"> · {entry.pos}</span>

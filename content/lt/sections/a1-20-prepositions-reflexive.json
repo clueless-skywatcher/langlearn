@@ -1,0 +1,361 @@
+{
+  "id": "a1-20",
+  "kind": "lesson",
+  "level": "A1",
+  "order": 25,
+  "title": "The Remaining Prepositions, and Reflexive Phrases",
+  "summary": "The prepositions not yet given, set out with the whole system in one table; and the reflexive verbs, which at this level are learnt as set phrases rather than as a paradigm.",
+  "rules": [
+    {
+      "id": "pas-accusative",
+      "number": "134",
+      "heading": "Pas: to a Person",
+      "statement": "**Pas** with the **accusative** means *to* or *at somebody's place*. It is used of **people only** — one goes *į Vilnių* but *pas brolį* — and it covers both the going and the being there, where English needs *to my brother's* and *at my brother's*.",
+      "examples": [
+        { "target": "Važiuoju pas mamą.", "gloss": "I am going to my mother's." },
+        { "target": "Vakar buvau pas gydytoją.", "gloss": "Yesterday I was at the doctor's." },
+        { "target": "Ateik pas mane.", "gloss": "Come to my place." }
+      ],
+      "footnotes": [
+        "*Į* with a person is wrong: *važiuoju į mamą* would mean driving into her."
+      ],
+      "seeAlso": ["direction-i", "accusative-nouns", "imperative-formation"],
+      "core": true
+    },
+    {
+      "id": "per-priesa-place",
+      "number": "135",
+      "heading": "Per and Prieš of Place",
+      "statement": "¶87 gave both of these as prepositions of **time**. Each has a use of **place** as well, and the case is the accusative in either sense. **Per** is *across* or *through*; **prieš** is *in front of*, and is the opposite of *už* (¶62).",
+      "paradigms": [
+        {
+          "caption": "The same word, time and place",
+          "columns": ["preposition", "of time", "of place"],
+          "rows": [
+            { "label": "per", "cells": ["per valandą — within an hour", "per tiltą — across the bridge"] },
+            { "label": "prieš", "cells": ["prieš valandą — an hour ago", "prieš namą — in front of the house"] }
+          ]
+        }
+      ],
+      "examples": [
+        { "target": "Einame per tiltą.", "gloss": "We are going across the bridge." },
+        { "target": "Prieš namą yra sodas.", "gloss": "In front of the house there is a garden." }
+      ],
+      "seeAlso": ["time-prepositions", "place-prepositions"],
+      "core": true
+    },
+    {
+      "id": "uz-accusative",
+      "number": "136",
+      "heading": "Už with the Accusative: Payment and Thanks",
+      "statement": "**Už** was given at ¶62 with the **genitive**, meaning *behind*. With the **accusative** it means *for* in the sense of payment or return — and it is the *už* of *ačiū už*, thank you for. It is also the *than* of ¶119. One word, three cases of meaning, and the ending decides which.",
+      "paradigms": [
+        {
+          "caption": "Už in its three uses",
+          "columns": ["case", "meaning", "example"],
+          "rows": [
+            { "label": "genitive", "cells": ["behind", "už namo — behind the house"] },
+            { "label": "accusative", "cells": ["for, in return for", "sumokėjo už darbą — he paid for the work"] },
+            { "label": "accusative", "cells": ["than", "didesnis už mane — bigger than I"] }
+          ]
+        }
+      ],
+      "examples": [
+        { "target": "Ačiū už kavą.", "gloss": "Thank you for the coffee." },
+        { "target": "Kiek mokėjai už bilietą?", "gloss": "How much did you pay for the ticket?" }
+      ],
+      "seeAlso": ["place-prepositions", "comparison-negu", "accusative-nouns"],
+      "core": true
+    },
+    {
+      "id": "virs-vidury",
+      "number": "137",
+      "heading": "Virš and Vidury",
+      "statement": "Two more prepositions of place, both governing the **genitive**. **Virš** is *above* — not touching, and so the opposite of *ant* (¶33). **Vidury** is *in the middle of*, and is a noun in the locative pressed into service as a preposition, which is why it takes a genitive after it.",
+      "examples": [
+        { "target": "Jie gyvena virš mūsų.", "gloss": "They live above us." },
+        { "target": "Stalas yra vidury kambario.", "gloss": "The table is in the middle of the room." },
+        { "target": "Lempa kabo virš stalo.", "gloss": "The lamp hangs above the table.", "note": "*ant stalo* would be lying on it" }
+      ],
+      "seeAlso": ["genitive-prepositions", "place-prepositions"],
+      "core": true
+    },
+    {
+      "id": "po-accusative",
+      "number": "138",
+      "heading": "Po in a Third Sense",
+      "statement": "**Po** has now been met with the genitive (*after*, ¶33) and with the instrumental (*under*, ¶75). With the **accusative** it means motion **about** or **around** a place, with no particular destination — *vaikščiojome po parką*, we walked about the park. Three cases, three meanings, one word: it is the clearest demonstration in the language of why a preposition must be learnt together with its case.",
+      "paradigms": [
+        {
+          "caption": "Po in its three senses",
+          "columns": ["case", "meaning", "example"],
+          "rows": [
+            { "label": "genitive", "cells": ["after (of time)", "po pietų — after lunch"] },
+            { "label": "instrumental", "cells": ["under (of place)", "po stalu — under the table"] },
+            { "label": "accusative", "cells": ["about, around", "po parką — about the park"] }
+          ]
+        }
+      ],
+      "examples": [
+        { "target": "Vaikščiojome po miestą visą dieną.", "gloss": "We walked about the town all day." }
+      ],
+      "seeAlso": ["instrumental-po", "genitive-prepositions", "visas-kiekvienas"],
+      "core": true
+    },
+    {
+      "id": "prepositions-review",
+      "number": "139",
+      "heading": "The Prepositions Reviewed",
+      "statement": "Every preposition of the level, set out by the case it governs. The genitive takes much the largest share; the accusative belongs chiefly to motion and to time; the instrumental has only two. Where a word appears twice, the **case** carries the difference in meaning, and it always does.",
+      "paradigms": [
+        {
+          "caption": "The whole system",
+          "columns": ["case", "prepositions", "chiefly"],
+          "rows": [
+            { "label": "genitive", "cells": ["ant, be, iki, nuo, prie, už, iš, po, virš, vidury", "place, origin, lack, time after"] },
+            { "label": "accusative", "cells": ["į, pas, per, prieš, už, po", "direction, time, payment"] },
+            { "label": "instrumental", "cells": ["su, po", "company, place under"] }
+          ],
+          "footnote": "Three words govern more than one case: **už** (gen. *behind*, acc. *for, than*), **po** (gen. *after*, instr. *under*, acc. *about*), and **per** and **prieš**, which keep the accusative in both their senses."
+        }
+      ],
+      "examples": [
+        { "target": "Nuo Kauno iki Vilniaus šimtas kilometrų.", "gloss": "From Kaunas to Vilnius is a hundred kilometres." },
+        { "target": "Kava be cukraus, prašom.", "gloss": "Coffee without sugar, please." }
+      ],
+      "seeAlso": ["genitive-prepositions", "place-prepositions", "time-prepositions", "instrumental-su"],
+      "core": true
+    },
+    {
+      "id": "reflexive-phrases",
+      "number": "140",
+      "heading": "Reflexive Verbs as Set Phrases",
+      "statement": "A **reflexive** verb carries the affix **-si**, which turns the action back on the doer: *mokyti* is to teach, *mokytis* to learn. The full paradigm belongs to a later level; what an A1 learner needs is to **recognise** the affix and to know a handful of phrases by heart, because several of the commonest sentences in the language are reflexive and cannot be avoided.",
+      "paradigms": [
+        {
+          "caption": "The phrases to know",
+          "columns": ["Lithuanian", "English", "from"],
+          "rows": [
+            { "label": "greeting", "cells": ["Kaip sekasi?", "How are you getting on?", "sektis"] },
+            { "label": "studying", "cells": ["Mokausi lietuvių kalbos.", "I am learning Lithuanian.", "mokytis"] },
+            { "label": "feeling", "cells": ["Jaučiuosi geriau.", "I feel better.", "jaustis"] },
+            { "label": "liking", "cells": ["Man patinka maudytis.", "I like swimming.", "maudytis"] },
+            { "label": "apology", "cells": ["Atsiprašau.", "I am sorry.", "atsiprašyti"] }
+          ],
+          "footnote": "Note that under negation the affix **moves to the front** of the word: *mokausi* but *nesimokau*. This is the one thing about reflexives worth noticing now, because it makes a negated reflexive hard to recognise otherwise."
+        }
+      ],
+      "examples": [
+        { "target": "Kaip sekasi? – Ačiū, gerai.", "gloss": "How are you? — Fine, thanks." },
+        { "target": "Aš mokausi lietuvių kalbos, bet dar nesimokau rašyti.", "gloss": "I am learning Lithuanian, but I am not yet learning to write." },
+        { "target": "Šiandien jaučiuosi blogiau.", "gloss": "Today I feel worse." }
+      ],
+      "seeAlso": ["negation", "adverb-degree", "particles"],
+      "core": true
+    }
+  ],
+  "vocabulary": [
+    { "lemma": "pas", "gloss": "to, at (a person's place) (+ acc.)", "pos": "preposition" },
+    { "lemma": "virš", "gloss": "above (+ gen.)", "pos": "preposition" },
+    { "lemma": "vidury", "gloss": "in the middle of (+ gen.)", "pos": "preposition" },
+    { "lemma": "tiltas", "gloss": "bridge", "pos": "noun", "forms": { "nom": "tiltas", "gen": "tilto", "acc": "tiltą", "gender": "m." } },
+    { "lemma": "parkas", "gloss": "park", "pos": "noun", "forms": { "nom": "parkas", "gen": "parko", "acc": "parką", "gender": "m." } },
+    { "lemma": "sodas", "gloss": "garden", "pos": "noun", "forms": { "nom": "sodas", "gen": "sodo", "acc": "sodą", "gender": "m." } },
+    { "lemma": "kambarys", "gloss": "room", "pos": "noun", "forms": { "nom": "kambarys", "gen": "kambario", "acc": "kambarį", "gender": "m." } },
+    { "lemma": "bilietas", "gloss": "ticket", "pos": "noun", "forms": { "nom": "bilietas", "gen": "bilieto", "acc": "bilietą", "gender": "m." } },
+    { "lemma": "gydytojas", "gloss": "doctor", "pos": "noun", "forms": { "nom": "gydytojas", "gen": "gydytojo", "acc": "gydytoją", "gender": "m." } },
+    { "lemma": "mokėti", "gloss": "to pay; to know how to", "pos": "verb", "forms": { "inf": "mokėti", "pres3": "moka", "past3": "mokėjo", "conj": "II" } },
+    { "lemma": "mokytis", "gloss": "to learn, to study", "pos": "verb", "forms": { "inf": "mokytis", "pres3": "mokosi", "past3": "mokėsi" }, "notes": "Reflexive; under negation the -si- moves to the front: nesimoko." },
+    { "lemma": "jaustis", "gloss": "to feel (of oneself)", "pos": "verb", "forms": { "inf": "jaustis", "pres3": "jaučiasi", "past3": "jautėsi" }, "notes": "Reflexive." },
+    { "lemma": "sektis", "gloss": "to go well (impersonal, + dat.)", "pos": "verb", "forms": { "inf": "sektis", "pres3": "sekasi", "past3": "sekėsi" }, "notes": "Kaip sekasi? — How are you getting on?" },
+    { "lemma": "atsiprašau", "gloss": "I am sorry, excuse me", "pos": "verb", "notes": "A set phrase from the reflexive atsiprašyti." }
+  ],
+  "drills": [
+    {
+      "id": "a120-q1",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete: **Važiuoju ____ mamą.** (I am going to my mother's.)",
+      "options": ["į", "pas", "prie", "už"],
+      "correct": 1,
+      "explanation": "**Pas** with the accusative is used of going to a **person**. *į* is for places; *važiuoju į mamą* would mean driving into her.",
+      "rulesTested": ["pas-accusative", "direction-i"],
+      "vocabUsed": ["važiuoti", "pas", "mama", "į", "prie", "už"]
+    },
+    {
+      "id": "a120-q2",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete: **Ačiū ____ kavą.** (Thank you for the coffee.)",
+      "options": ["už", "dėl", "prie", "su"],
+      "correct": 0,
+      "explanation": "**Už** with the accusative is *for* in the sense of return or payment, and it is the *už* of thanking. With the genitive the same word would mean *behind*.",
+      "rulesTested": ["uz-accusative"],
+      "vocabUsed": ["ačiū", "už", "kava", "prie", "su"]
+    },
+    {
+      "id": "a120-q3",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "What does **Kaip sekasi?** mean?",
+      "options": ["Where are you going?", "How are you getting on?", "What is your name?", "How much is it?"],
+      "correct": 1,
+      "explanation": "A reflexive set phrase, and one of the commonest sentences in the language. The *-si* affix is the mark of the reflexive, and here the verb is impersonal besides.",
+      "rulesTested": ["reflexive-phrases"],
+      "vocabUsed": ["kaip", "sektis"]
+    },
+    {
+      "id": "a120-q4",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "**Lempa kabo virš stalo.** Why *virš* and not *ant*?",
+      "options": [
+        "Because *ant* takes the accusative.",
+        "Because *virš* is *above* without touching, while *ant* is *on*, resting upon.",
+        "Because a lamp is feminine.",
+        "Because *ant* is only used of people."
+      ],
+      "correct": 1,
+      "explanation": "Both govern the genitive; the difference is contact. *Ant stalo* would have the lamp lying on the table.",
+      "rulesTested": ["virs-vidury", "genitive-prepositions"],
+      "vocabUsed": ["virš", "stalas", "ant"]
+    },
+    {
+      "id": "a120-q5",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "**Po** appears in all four. In which does it govern the **accusative**?",
+      "options": [
+        "Vaikščiojome po parką.",
+        "Knyga po stalu.",
+        "Po pietų dirbu.",
+        "Vaikščiojome po miestą."
+      ],
+      "correct": [0, 3],
+      "explanation": "With the accusative *po* is *about, around*. *po stalu* is instrumental (*under*) and *po pietų* genitive (*after*). Three cases, three meanings, one word.",
+      "rulesTested": ["po-accusative", "instrumental-po", "genitive-prepositions"],
+      "vocabUsed": ["po", "parkas", "knyga", "stalas", "miestas"]
+    },
+    {
+      "id": "a120-q6",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Einame ____ tiltą.** (We are going across the bridge.)",
+      "options": ["per", "prie", "virš", "po"],
+      "correct": 0,
+      "explanation": "**Per** with the accusative is *across* or *through* of place, as it is *within* of time. The case is the accusative in both senses.",
+      "rulesTested": ["per-priesa-place", "time-prepositions"],
+      "vocabUsed": ["eiti", "per", "tiltas", "prie", "virš", "po"]
+    },
+    {
+      "id": "a120-q7",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "**Aš mokausi, bet dar nesimokau rašyti.** What has happened to the reflexive affix in the second verb?",
+      "options": [
+        "It has been dropped.",
+        "It has moved to the front of the word, after the negative.",
+        "It has become an ending.",
+        "It has changed to -su."
+      ],
+      "correct": 1,
+      "explanation": "Under negation the *-si-* migrates from the end to just after *ne-*: *mokausi* but *nesimokau*. Without knowing this a learner cannot recognise a negated reflexive at all.",
+      "rulesTested": ["reflexive-phrases", "negation"],
+      "vocabUsed": ["aš", "mokytis", "bet", "dar", "rašyti"]
+    },
+    {
+      "id": "a120-q8",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which of these correctly pair a preposition with a case it can govern?",
+      "options": [
+        "už + genitive — behind",
+        "už + accusative — for, in return for",
+        "pas + genitive — at somebody's",
+        "vidury + genitive — in the middle of"
+      ],
+      "correct": [0, 1, 3],
+      "explanation": "*pas* governs the **accusative** only: *pas gydytoją*. *už* is the clearest case of one word taking two cases with two meanings, and *vidury* is a locative noun doing a preposition's work, which is why a genitive follows it.",
+      "rulesTested": ["prepositions-review", "uz-accusative", "pas-accusative", "virs-vidury"],
+      "vocabUsed": ["už", "pas", "vidury"]
+    },
+    {
+      "id": "a120-q9",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Which case do **most** of the prepositions of this level govern?",
+      "options": ["the accusative", "the genitive", "the instrumental", "the dative"],
+      "correct": 1,
+      "explanation": "The genitive: *ant, be, iki, nuo, prie, už, iš, po, virš, vidury*. The accusative belongs chiefly to motion and to time, the instrumental has only *su* and *po*, and **no** preposition governs the dative at all.",
+      "rulesTested": ["prepositions-review", "genitive-prepositions"],
+      "vocabUsed": ["ant", "be", "iki", "nuo", "prie", "už", "iš", "po", "virš", "vidury", "su"]
+    },
+    {
+      "id": "a120-q10",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "How many different cases can **po** govern?",
+      "answer": 3,
+      "unit": "cases",
+      "explanation": "Three: genitive for *after*, instrumental for *under*, accusative for *about, around*. It is the strongest argument in the language for learning every preposition together with its case, since the word alone tells you nothing.",
+      "rulesTested": ["po-accusative", "instrumental-po", "prepositions-review"],
+      "vocabUsed": ["po"]
+    },
+    {
+      "id": "a120-p1",
+      "type": "comprehension",
+      "difficulty": "medium",
+      "title": "Sekmadienį po miestą",
+      "passage": "Sekmadienį vaikščiojome po senamiestį. Prieš katedrą laukė daug žmonių, o vidury aikštės grojo muzikantai. Ėjome per tiltą prie upės; virš vandens skraidė paukščiai. Paskui buvome pas draugą — jis gyvena virš kavinės, trečiame aukšte. „Kaip sekasi?“ — paklausė jis. „Puikiai, tik pavargau“, — atsakiau. Už kavą nemokėjome nieko: jis nieko neėmė.",
+      "translation": "On Sunday we walked about the old town. In front of the cathedral many people were waiting, and in the middle of the square musicians were playing. We went across the bridge by the river; birds were flying above the water. Afterwards we were at a friend's — he lives above a café, on the third floor. \"How are you getting on?\" he asked. \"Splendidly, only I'm tired,\" I answered. We paid nothing for the coffee: he took nothing.",
+      "glossary": {
+        "senamiestis": "old town",
+        "katedra": "cathedral",
+        "laukė": "were waiting (laukti)",
+        "aikštė": "square",
+        "grojo": "were playing (groti)",
+        "muzikantai": "musicians",
+        "upė": "river",
+        "skraidė": "were flying (skraidyti)",
+        "paukščiai": "birds",
+        "pavargau": "I got tired (pavargti)",
+        "neėmė": "took nothing (imti)"
+      },
+      "questions": [
+        {
+          "id": "a120-p1-q1",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "Kur gyvena draugas?",
+          "options": ["po kavine", "virš kavinės", "prie katedros", "vidury aikštės"],
+          "correct": 1,
+          "explanation": "*jis gyvena virš kavinės* — above the café, not touching it. *po kavine* with the instrumental would put him underneath.",
+          "rulesTested": ["virs-vidury", "instrumental-po"],
+          "vocabUsed": ["gyventi", "po", "kavinė", "virš", "prie", "vidury"]
+        },
+        {
+          "id": "a120-p1-q2",
+          "type": "multi",
+          "difficulty": "medium",
+          "stem": "Which prepositions in the passage govern the **accusative**?",
+          "options": ["po (senamiestį)", "prieš (katedrą)", "per (tiltą)", "virš (vandens)"],
+          "correct": [0, 1, 2],
+          "explanation": "*po* here is *about, around*; *prieš* is *in front of*; *per* is *across*. All three take the accusative. *virš* governs the genitive, as *vandens* shows.",
+          "rulesTested": ["po-accusative", "per-priesa-place", "virs-vidury", "prepositions-review"],
+          "vocabUsed": ["po", "prieš", "per", "tiltas", "virš", "vanduo"]
+        },
+        {
+          "id": "a120-p1-q3",
+          "type": "integer",
+          "difficulty": "hard",
+          "stem": "The last sentence contains **nieko** twice. How many negated verbs must accompany them?",
+          "answer": 2,
+          "unit": "verbs",
+          "explanation": "Two — *nemokėjome* and *neėmė*. A negative word cannot stand beside an unnegated verb (¶132), so each *nieko* brings its own *ne-*, and the genitive form is required besides, a negated verb governing the genitive (¶26).",
+          "rulesTested": ["niekas-negation", "negation-genitive", "uz-accusative"],
+          "vocabUsed": ["niekas", "mokėti", "už", "kava"]
+        }
+      ]
+    }
+  ]
+}

@@ -317,12 +317,12 @@
       "id": "a102-q9",
       "type": "integer",
       "difficulty": "hard",
-      "stem": "In the sentence **Mokytoja yra gera**, how many words stand in the nominative case?",
+      "stem": "**Mokytoja yra gera ir nauja.** If the subject were *mokytojas* instead, how many of the remaining words would have to change form?",
       "answer": 2,
       "unit": "words",
-      "explanation": "Two: the subject *mokytoja* and the predicate adjective *gera*, which takes the nominative because it names the subject rather than being acted upon. *yra* is a verb and has no case.",
-      "rulesTested": ["nominative", "predicate-nominative"],
-      "vocabUsed": ["mokytoja", "geras", "būti"]
+      "explanation": "Two: *gera* → *geras* and *nauja* → *naujas*. Both stand in the nominative as predicate adjectives (¶16), and both must follow the subject's gender (¶17). *yra* is a verb and *ir* a conjunction; neither has a gender to agree in.",
+      "rulesTested": ["nominative", "predicate-nominative", "adjective-agreement"],
+      "vocabUsed": ["mokytoja", "mokytojas", "geras", "naujas", "ir", "būti"]
     },
     {
       "id": "a102-p1",
@@ -368,12 +368,12 @@
           "id": "a102-p1-q3",
           "type": "integer",
           "difficulty": "medium",
-          "stem": "How many people are named in the passage?",
+          "stem": "In how many of the passage's sentences is the thing asserted of the subject an **adjective** rather than a noun?",
           "answer": 2,
-          "unit": "people",
-          "explanation": "Two: Jonas, referred to afterwards as *jis*, and Rūta, referred to as *ji*.",
-          "rulesTested": ["pronouns-nom"],
-          "vocabUsed": ["jis", "ji"]
+          "unit": "sentences",
+          "explanation": "Two: *Namas yra didelis ir naujas* and *Ji yra graži*. The trap is *Jis yra geras mokytojas*, where the predicate is the noun *mokytojas* and *geras* only modifies it — an attributive adjective, not a predicate one (¶17).",
+          "rulesTested": ["predicate-nominative", "adjective-agreement"],
+          "vocabUsed": ["namas", "didelis", "naujas", "ji", "gražus", "jis", "geras", "mokytojas"]
         }
       ]
     }

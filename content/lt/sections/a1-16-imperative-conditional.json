@@ -1,0 +1,333 @@
+{
+  "id": "a1-16",
+  "kind": "lesson",
+  "level": "A1",
+  "order": 20,
+  "title": "The Imperative and the Conditional",
+  "summary": "Two moods beside the indicative: the one that tells a person to do something, built with **-k-**, and the one that asks him to, built with **-t-**. At this level the second is wanted almost entirely for politeness.",
+  "rules": [
+    {
+      "id": "imperative-formation",
+      "number": "107",
+      "heading": "The Imperative Formed with -k-",
+      "statement": "The **imperative** — *liepiamoji nuosaka* — is built from the **infinitive** stem with **-k-**, exactly as the future was built with *-s-* (¶94). It has three forms only, because one cannot command oneself alone: *do*, *let us do*, and *do* addressed to more than one person or to one politely.",
+      "paradigms": [
+        {
+          "caption": "kalbėti → the imperative",
+          "columns": ["person", "form", "English"],
+          "rows": [
+            { "label": "2 sg.", "cells": ["kalbėk", "speak"] },
+            { "label": "1 pl.", "cells": ["kalbėkime", "let us speak"] },
+            { "label": "2 pl.", "cells": ["kalbėkite", "speak (plural or polite)"] }
+          ],
+          "footnote": "So too *dirbk, dirbkime, dirbkite*; *eik, eikime, eikite*; *skaityk, skaitykime, skaitykite*; *būk, būkime, būkite*. A stem ending in **g** or **k** absorbs the marker: *bėgti* gives *bėk*, not *bėgk*."
+        }
+      ],
+      "examples": [
+        { "target": "Padėk man!", "gloss": "Help me!" },
+        { "target": "Valgykite!", "gloss": "Eat!", "note": "the plural form is what a host says to guests" },
+        { "target": "Eikime namo.", "gloss": "Let us go home." }
+      ],
+      "seeAlso": ["future-formation", "present-stem", "polite-jus"],
+      "core": true
+    },
+    {
+      "id": "imperative-third-person",
+      "number": "108",
+      "heading": "The Third-Person Imperative",
+      "statement": "There is no third-person ending. To say *let him speak* Lithuanian puts the particle **tegu** (or *tegul*) before the ordinary **present** tense. The construction is a wish rather than a command, and it is how permission and resignation are both expressed.",
+      "examples": [
+        { "target": "Tegu kalba.", "gloss": "Let him speak." },
+        { "target": "Tegu jie ateina rytoj.", "gloss": "Let them come tomorrow." },
+        { "target": "Tegu būna taip.", "gloss": "Let it be so." }
+      ],
+      "seeAlso": ["imperative-formation", "present-conj-i"],
+      "core": true
+    },
+    {
+      "id": "imperative-negative",
+      "number": "109",
+      "heading": "Negative Commands",
+      "statement": "A prohibition is the imperative with **ne-** written onto its front, as with any other verb form (¶25). And the genitive of negation holds here as everywhere: *do not read the book* puts the book in the **genitive**.",
+      "examples": [
+        { "target": "Neik ten!", "gloss": "Don't go there!" },
+        { "target": "Neskaityk šios knygos.", "gloss": "Don't read this book.", "note": "genitive *knygos*, not accusative *knygą*" },
+        { "target": "Nebūkime blogi.", "gloss": "Let us not be unkind." }
+      ],
+      "seeAlso": ["negation", "negation-genitive", "imperative-formation"],
+      "core": true
+    },
+    {
+      "id": "imperative-notices",
+      "number": "110",
+      "heading": "The Imperative in Notices and Instructions",
+      "statement": "The **plural** imperative is the form public writing uses, because it addresses everybody and is polite to each. A learner meets it on doors, in advertisements, in recipes and in exercise books long before anyone gives him an order in speech, and recognising it is worth as much as producing it.",
+      "paradigms": [
+        {
+          "caption": "Where the imperative is met",
+          "columns": ["Lithuanian", "English", "where"],
+          "rows": [
+            { "label": "advertisement", "cells": ["Ateikite ir išmokite!", "Come and learn!", "a notice for language courses"] },
+            { "label": "instruction", "cells": ["Kalbėkite lietuviškai.", "Speak Lithuanian.", "a classroom sign"] },
+            { "label": "direction", "cells": ["Eikite tiesiai.", "Go straight on.", "asking the way"] },
+            { "label": "exercise", "cells": ["Parašykite atsakymą.", "Write the answer.", "a textbook rubric"] }
+          ]
+        }
+      ],
+      "examples": [
+        { "target": "Skambinkite!", "gloss": "Call us!" },
+        { "target": "Klausykite ir atsakykite.", "gloss": "Listen and answer." }
+      ],
+      "seeAlso": ["imperative-formation", "polite-jus", "place-adverbs"],
+      "core": true
+    },
+    {
+      "id": "conditional-formation",
+      "number": "111",
+      "heading": "The Conditional in -čiau",
+      "statement": "The **conditional** — *tariamoji nuosaka* — is built from the infinitive stem with a **-t-** that appears as *-č-* before the first-person *-iau*, by the softening already seen in the past (¶90). It is a mood, not a tense: it says what **would** happen, and stands outside past, present and future alike.",
+      "paradigms": [
+        {
+          "caption": "norėti → the conditional",
+          "columns": ["person", "singular", "plural"],
+          "rows": [
+            { "label": "1", "cells": ["norėčiau", "norėtu(mė)me"] },
+            { "label": "2", "cells": ["norėtum", "norėtu(mė)te"] },
+            { "label": "3", "cells": ["norėtų", "norėtų"] }
+          ],
+          "footnote": "So too *galėčiau, galėtum, galėtų*; *būčiau, būtum, būtų*; *eičiau, eitum, eitų*. The forms in brackets are the fuller variants, commoner in careful speech."
+        }
+      ],
+      "examples": [
+        { "target": "Norėčiau kavos.", "gloss": "I should like some coffee.", "note": "genitive after *norėti* (¶39)" },
+        { "target": "Ką tu darytum?", "gloss": "What would you do?" },
+        { "target": "Būtų gerai.", "gloss": "That would be good." }
+      ],
+      "seeAlso": ["past-e-type", "wanting-liking", "future-formation"],
+      "core": true
+    },
+    {
+      "id": "conditional-politeness",
+      "number": "112",
+      "heading": "The Conditional as Politeness",
+      "statement": "This is what the mood is chiefly for at A1. **Norėčiau** is *I should like* where *noriu* is the blunter *I want*, and **gal galėtumėte** is the standard formula for asking a stranger to do something. Set beside the particle *gal* (¶106) it gives the learner every degree of politeness the language ordinarily needs.",
+      "paradigms": [
+        {
+          "caption": "Degrees of asking",
+          "columns": ["Lithuanian", "English", "register"],
+          "rows": [
+            { "label": "bare imperative", "cells": ["Padėk man.", "Help me.", "to a friend, or an order"] },
+            { "label": "polite imperative", "cells": ["Padėkite man, prašom.", "Please help me.", "civil"] },
+            { "label": "question", "cells": ["Ar galite padėti?", "Can you help?", "neutral"] },
+            { "label": "conditional", "cells": ["Gal galėtumėte padėti?", "Could you possibly help?", "politest"] }
+          ]
+        }
+      ],
+      "examples": [
+        { "target": "Norėčiau kavos su pienu.", "gloss": "I should like a coffee with milk." },
+        { "target": "Gal galėtumėte man padėti?", "gloss": "Could you help me?" },
+        { "target": "Ar norėtumėte arbatos?", "gloss": "Would you like some tea?" }
+      ],
+      "seeAlso": ["conditional-formation", "particles", "polite-jus"],
+      "core": true
+    },
+    {
+      "id": "mood-choice",
+      "number": "113",
+      "heading": "Choosing between the Moods",
+      "statement": "The imperative **tells**; the conditional **asks**. Between an equal and a stranger the difference matters more in Lithuanian than the words themselves suggest: a bare imperative to a shop assistant is not rude, but a conditional to the same person is markedly courteous, and the learner who has only the imperative sounds abrupt without meaning to. **Prašom** — *please* — may be added to either and softens both.",
+      "examples": [
+        { "target": "Duok man vandens.", "gloss": "Give me some water.", "note": "to a friend" },
+        { "target": "Prašom duoti vandens.", "gloss": "Some water, please.", "note": "*prašom* with the infinitive is a polite formula in itself" },
+        { "target": "Norėčiau vandens.", "gloss": "I should like some water.", "note": "in a café, the ordinary way to order" }
+      ],
+      "seeAlso": ["imperative-formation", "conditional-politeness", "particles"],
+      "core": true
+    }
+  ],
+  "vocabulary": [
+    { "lemma": "tegu", "gloss": "let (him, her, them) — with the present tense", "pos": "particle", "notes": "Also tegul; the two are the same word." },
+    { "lemma": "prašom", "gloss": "please; here you are", "pos": "particle", "notes": "Followed by an infinitive: prašom sėsti." },
+    { "lemma": "blogas", "gloss": "bad, unkind", "pos": "adjective", "forms": { "masc": "blogas", "fem": "bloga" } },
+    { "lemma": "parašyti", "gloss": "to write down, to write (and finish)", "pos": "verb", "forms": { "inf": "parašyti", "pres3": "parašo", "past3": "parašė", "conj": "III" } },
+    { "lemma": "išmokti", "gloss": "to learn (thoroughly)", "pos": "verb", "forms": { "inf": "išmokti", "pres3": "išmoksta", "past3": "išmoko", "conj": "I" } },
+    { "lemma": "bėgti", "gloss": "to run", "pos": "verb", "forms": { "inf": "bėgti", "pres3": "bėga", "past3": "bėgo", "conj": "I" } }
+  ],
+  "drills": [
+    {
+      "id": "a116-q1",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "What is the second person singular imperative of **kalbėti**?",
+      "options": ["kalba", "kalbėk", "kalbėkite", "kalbėsi"],
+      "correct": 1,
+      "explanation": "Infinitive stem *kalbė-* plus **-k**: *kalbėk*. *kalbėkite* is the plural, *kalbėsi* the future.",
+      "rulesTested": ["imperative-formation"],
+      "vocabUsed": ["kalbėti"]
+    },
+    {
+      "id": "a116-q2",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Which form would a notice on a language school's door use?",
+      "options": ["ateik", "ateikime", "ateikite", "ateina"],
+      "correct": 2,
+      "explanation": "Public writing addresses everybody, and therefore uses the **plural** imperative — which is also the polite one. *ateik* would be addressed to a single familiar person.",
+      "rulesTested": ["imperative-notices", "imperative-formation"],
+      "vocabUsed": ["ateiti"]
+    },
+    {
+      "id": "a116-q3",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete: **____ kavos.** (I should like some coffee.)",
+      "options": ["Noriu", "Norėčiau", "Norėk", "Norėjau"],
+      "correct": 1,
+      "explanation": "The conditional **norėčiau** is *I should like*; *noriu* is the blunter *I want*, and in a café the conditional is what is said.",
+      "rulesTested": ["conditional-formation", "conditional-politeness"],
+      "vocabUsed": ["norėti", "kava"]
+    },
+    {
+      "id": "a116-q4",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Neskaityk šios ____.** (Don't read this book.)",
+      "options": ["knyga", "knygą", "knygos", "knygai"],
+      "correct": 2,
+      "explanation": "A negated verb takes its object in the genitive, and an imperative is no exception: *knygos*, with *šios* agreeing.",
+      "rulesTested": ["imperative-negative", "negation-genitive"],
+      "vocabUsed": ["skaityti", "šis", "knyga"]
+    },
+    {
+      "id": "a116-q5",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "How is *let him speak* expressed?",
+      "options": ["Kalbėk!", "Kalbėkite!", "Tegu kalba.", "Kalbėtų."],
+      "correct": 2,
+      "explanation": "There is no third-person imperative ending. The particle **tegu** is set before the ordinary present tense, and the result is a wish rather than a command.",
+      "rulesTested": ["imperative-third-person"],
+      "vocabUsed": ["tegu", "kalbėti"]
+    },
+    {
+      "id": "a116-q6",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which of these are correctly formed imperatives?",
+      "options": ["dirbk", "eik", "būkite", "bėgk"],
+      "correct": [0, 1, 2],
+      "explanation": "*bėgk* is wrong: a stem ending in **g** or **k** absorbs the marker, giving **bėk**. The other three add *-k*, *-k* and *-kite* to their infinitive stems without change.",
+      "rulesTested": ["imperative-formation"],
+      "vocabUsed": ["dirbti", "eiti", "būti", "bėgti"]
+    },
+    {
+      "id": "a116-q7",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "**norėti** in the conditional, second person singular:",
+      "options": ["norėtum", "norėčiau", "norėtų", "norėk"],
+      "correct": 0,
+      "explanation": "The endings are *-čiau, -tum, -tų*. The *-č-* of the first person is the ordinary softening of *t* before *-iau*, met already in the past tense (¶90).",
+      "rulesTested": ["conditional-formation", "past-e-type"],
+      "vocabUsed": ["norėti"]
+    },
+    {
+      "id": "a116-q8",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Which is the politest?",
+      "options": [
+        "Padėk man.",
+        "Ar galite padėti?",
+        "Gal galėtumėte padėti?",
+        "Jūs padedate."
+      ],
+      "correct": 2,
+      "explanation": "The conditional with **gal** is the politest formula the language ordinarily uses. The bare imperative is for friends, the plain question is neutral, and the last is a statement, not a request at all.",
+      "rulesTested": ["conditional-politeness", "mood-choice", "particles"],
+      "vocabUsed": ["padėti", "man", "ar", "galėti", "gal", "jūs"]
+    },
+    {
+      "id": "a116-q9",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which statements about the two moods are correct?",
+      "options": [
+        "The imperative has no first person singular.",
+        "The conditional is built on the infinitive stem.",
+        "The conditional is a tense of the past.",
+        "*Prašom* may be added to soften either mood."
+      ],
+      "correct": [0, 1, 3],
+      "explanation": "The conditional is a **mood**, not a tense: it says what would happen and stands outside past, present and future. One cannot command oneself alone, which is why the imperative begins at the second person.",
+      "rulesTested": ["imperative-formation", "conditional-formation", "mood-choice"],
+      "vocabUsed": ["prašom"]
+    },
+    {
+      "id": "a116-q10",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "How many distinct forms does the Lithuanian imperative have?",
+      "answer": 3,
+      "unit": "forms",
+      "explanation": "Three: the second person singular, the first person plural, and the second person plural. The third person is supplied by *tegu* with a present tense (¶108) and is not an imperative form at all.",
+      "rulesTested": ["imperative-formation", "imperative-third-person"],
+      "vocabUsed": ["tegu"]
+    },
+    {
+      "id": "a116-p1",
+      "type": "comprehension",
+      "difficulty": "medium",
+      "title": "Kavinėje",
+      "passage": "– Laba diena. Prašom sėsti. Ką norėtumėte?\n– Norėčiau kavos su pienu ir sriubos. Gal galėtumėte pasakyti, kiek kainuoja?\n– Kava – du eurai, sriuba – keturi. Ar norėtumėte ir deserto?\n– Ne, ačiū. Dar neturiu laiko. Bet duokite, prašom, vandens.\n– Prašom. Valgykite, kol karšta.\n– Ačiū. Būtų gerai turėti šaukštą.\n– Atsiprašau! Tegu padavėjas atneša.",
+      "translation": "\"Good afternoon. Do sit down. What would you like?\" — \"I should like a coffee with milk and some soup. Could you tell me how much it costs?\" — \"The coffee is two euros, the soup four. Would you like a dessert as well?\" — \"No, thank you. I haven't time yet. But give me some water, please.\" — \"Here you are. Eat while it's hot.\" — \"Thank you. It would be good to have a spoon.\" — \"I'm sorry! Let the waiter bring one.\"",
+      "glossary": {
+        "sėsti": "to sit down",
+        "sriuba": "soup",
+        "kainuoja": "costs (kainuoti)",
+        "euras": "euro",
+        "desertas": "dessert",
+        "kol": "while",
+        "karšta": "hot",
+        "atsiprašau": "I'm sorry",
+        "padavėjas": "waiter",
+        "atneša": "brings (atnešti)"
+      },
+      "questions": [
+        {
+          "id": "a116-p1-q1",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "Ko norėtų svečias?",
+          "options": ["arbatos ir deserto", "kavos su pienu ir sriubos", "vandens ir deserto", "tik kavos"],
+          "correct": 1,
+          "explanation": "*Norėčiau kavos su pienu ir sriubos.* Both nouns stand in the genitive, because *norėti* governs it (¶39), and the dessert is refused.",
+          "rulesTested": ["conditional-politeness", "wanting-liking"],
+          "vocabUsed": ["norėti", "kava", "su", "pienas", "arbata", "vanduo"]
+        },
+        {
+          "id": "a116-p1-q2",
+          "type": "multi",
+          "difficulty": "medium",
+          "stem": "Which forms in the dialogue are **imperatives**?",
+          "options": ["duokite", "valgykite", "norėčiau", "galėtumėte"],
+          "correct": [0, 1],
+          "explanation": "*duokite* and *valgykite* are plural imperatives. *norėčiau* and *galėtumėte* are conditionals — the mood of asking rather than of telling.",
+          "rulesTested": ["imperative-formation", "conditional-formation", "mood-choice"],
+          "vocabUsed": ["duoti", "valgyti", "norėti", "galėti"]
+        },
+        {
+          "id": "a116-p1-q3",
+          "type": "integer",
+          "difficulty": "hard",
+          "stem": "How much would the coffee and the soup cost together, in euros?",
+          "answer": 6,
+          "unit": "euros",
+          "explanation": "Two and four: six. Note *du eurai* with the numeral agreeing in the nominative plural (¶79) — from ten upwards it would have fixed the noun in the genitive instead.",
+          "rulesTested": ["cardinals-one-nine", "numeral-case"],
+          "vocabUsed": ["du", "keturi", "kava"]
+        }
+      ]
+    }
+  ]
+}

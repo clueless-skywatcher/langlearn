@@ -1,0 +1,356 @@
+{
+  "id": "a1-18",
+  "kind": "lesson",
+  "level": "A1",
+  "order": 23,
+  "title": "Impersonal Constructions",
+  "summary": "Sentences with no subject at all: the weather, how a person feels, what hurts, and what is permitted. Lithuanian says these with a special form of the adjective that agrees with nothing, and with the dative already met at ¶69.",
+  "rules": [
+    {
+      "id": "neuter-adjective",
+      "number": "121",
+      "heading": "The Non-Gendered Adjective",
+      "statement": "Beside its masculine and feminine forms every qualitative adjective has a third, **non-gendered** form — the *negimininė forma*. It is made from the masculine by changing **-as** to **-a** and **-us** to **-u**, and it agrees with **nothing**, because in these sentences there is nothing for it to agree with. It is the form used when a state is reported without any person or thing being said to be in it.",
+      "paradigms": [
+        {
+          "caption": "The three forms of the adjective",
+          "columns": ["masculine", "feminine", "non-gendered", "English"],
+          "rows": [
+            { "label": "cold", "cells": ["šaltas", "šalta", "šalta", "cold"] },
+            { "label": "warm", "cells": ["šiltas", "šilta", "šilta", "warm"] },
+            { "label": "good", "cells": ["geras", "gera", "gera", "good"] },
+            { "label": "interesting", "cells": ["įdomus", "įdomi", "įdomu", "interesting"] },
+            { "label": "difficult", "cells": ["sunkus", "sunki", "sunku", "difficult"] }
+          ],
+          "footnote": "For adjectives in **-as** the non-gendered form is spelt like the feminine, and only the sentence tells them apart. For those in **-us** the two are distinct — *įdomi* against *įdomu* — and the difference is plain to see."
+        }
+      ],
+      "examples": [
+        { "target": "Šiandien šalta.", "gloss": "It is cold today.", "note": "no subject at all" },
+        { "target": "Čia labai gera.", "gloss": "It is very pleasant here." },
+        { "target": "Kaip įdomu!", "gloss": "How interesting!" }
+      ],
+      "seeAlso": ["adjective-agreement", "adverb-formation"],
+      "core": true
+    },
+    {
+      "id": "personal-vs-impersonal",
+      "number": "122",
+      "heading": "Personal against Impersonal",
+      "statement": "This is the distinction on which the whole section turns. **Filmas įdomus** says that the film *is* interesting — a subject, and an adjective agreeing with it. **Man įdomu** says that *I find it* interesting — no subject, the person in the **dative**, and the non-gendered form. English uses the same word for both and gives no warning; Lithuanian keeps them wholly apart.",
+      "paradigms": [
+        {
+          "caption": "Two sentences that English confuses",
+          "columns": ["Lithuanian", "English", "construction"],
+          "rows": [
+            { "label": "personal", "cells": ["Filmas įdomus.", "The film is interesting.", "subject + agreeing adjective"] },
+            { "label": "impersonal", "cells": ["Man įdomu.", "I find it interesting.", "dative + non-gendered form"] },
+            { "label": "personal", "cells": ["Ji šalta.", "She is cold (a cold person).", "said of her character"] },
+            { "label": "impersonal", "cells": ["Jai šalta.", "She feels cold.", "said of her sensation"] }
+          ],
+          "footnote": "*Ji šalta* and *jai šalta* differ by two letters and mean quite different things — the first describes what she is like, the second what she feels. It is worth reading the pair aloud until the difference is automatic."
+        }
+      ],
+      "examples": [
+        { "target": "Tomui šalta.", "gloss": "Tomas feels cold." },
+        { "target": "Mums buvo labai gera.", "gloss": "We had a very good time.", "note": "the past of *būti* carries the impersonal sentence into the past" },
+        { "target": "Ar tau sunku?", "gloss": "Is it difficult for you?" }
+      ],
+      "seeAlso": ["neuter-adjective", "dative-pronouns", "past-buti"],
+      "core": true
+    },
+    {
+      "id": "weather-verbs",
+      "number": "123",
+      "heading": "The Weather",
+      "statement": "The weather is reported either with a non-gendered adjective — *šalta*, *šilta*, *karšta* — or with a verb that has **no subject and never will have one**. *Lyja* is *it is raining*; there is no word answering to the English *it*, and supplying one is wrong. These verbs exist only in the third person.",
+      "paradigms": [
+        {
+          "caption": "Weather without a subject",
+          "columns": ["Lithuanian", "English", "kind"],
+          "rows": [
+            { "label": "rain", "cells": ["Lyja.", "It is raining.", "verb"] },
+            { "label": "snow", "cells": ["Sninga.", "It is snowing.", "verb"] },
+            { "label": "cold", "cells": ["Šalta.", "It is cold.", "non-gendered adjective"] },
+            { "label": "hot", "cells": ["Karšta.", "It is hot.", "non-gendered adjective"] }
+          ]
+        }
+      ],
+      "examples": [
+        { "target": "Vakar lijo visą dieną.", "gloss": "Yesterday it rained all day.", "note": "the past of an impersonal verb, still third person" },
+        { "target": "Rytoj bus šilta.", "gloss": "Tomorrow it will be warm." },
+        { "target": "Žiemą dažnai sninga.", "gloss": "In winter it often snows." }
+      ],
+      "seeAlso": ["neuter-adjective", "future-buti", "accusative-of-time"],
+      "core": true
+    },
+    {
+      "id": "skaudeti",
+      "number": "124",
+      "heading": "What Hurts: Skaudėti",
+      "statement": "**Skaudėti** is impersonal and takes two things: the sufferer in the **dative**, and the part that hurts in the **accusative**. English makes the part the subject — *my head aches* — and Lithuanian makes it the object of a verb with no subject at all. This is the sentence a learner needs at the doctor's, and it is worth learning whole.",
+      "examples": [
+        { "target": "Man skauda galvą.", "gloss": "My head aches.", "note": "literally: to-me it-hurts the-head" },
+        { "target": "Jai skauda koją.", "gloss": "Her leg hurts." },
+        { "target": "Ar tau skauda?", "gloss": "Does it hurt?" },
+        { "target": "Vakar man skaudėjo dantį.", "gloss": "Yesterday I had toothache." }
+      ],
+      "footnotes": [
+        "Do not say *mano galva skauda*: the possessive and the nominative both belong to the English construction, not the Lithuanian one."
+      ],
+      "seeAlso": ["dative-pronouns", "accusative-nouns", "reikia"],
+      "core": true
+    },
+    {
+      "id": "galima-reikia",
+      "number": "125",
+      "heading": "What Is Necessary and What Is Allowed",
+      "statement": "**Reikia** was given at ¶69; it is one of a small family. **Galima** is *it is possible, one may*; **negalima** is *it is forbidden*; **verta** is *it is worth while*. All are impersonal, all are completed by an **infinitive**, and all take the person concerned in the **dative** if he is mentioned at all. Because they are impersonal they have no personal endings — they change only for tense.",
+      "paradigms": [
+        {
+          "caption": "The impersonals and their tenses",
+          "columns": ["present", "past", "future", "English"],
+          "rows": [
+            { "label": "necessity", "cells": ["reikia", "reikėjo", "reikės", "it is necessary"] },
+            { "label": "permission", "cells": ["galima", "buvo galima", "bus galima", "one may"] },
+            { "label": "prohibition", "cells": ["negalima", "nebuvo galima", "nebus galima", "one may not"] }
+          ],
+          "footnote": "*Galima* is itself a non-gendered adjective pressed into service as a verb, which is why it takes *buvo* and *bus* to change its tense rather than endings of its own."
+        }
+      ],
+      "examples": [
+        { "target": "Čia galima rūkyti?", "gloss": "May one smoke here?" },
+        { "target": "Ne, čia negalima.", "gloss": "No, it is not allowed here." },
+        { "target": "Man reikėjo dirbti.", "gloss": "I had to work." },
+        { "target": "Rytoj reikės anksti keltis.", "gloss": "Tomorrow it will be necessary to get up early." }
+      ],
+      "seeAlso": ["reikia", "complementary-infinitive", "neuter-adjective"],
+      "core": true
+    },
+    {
+      "id": "impersonal-summary",
+      "number": "126",
+      "heading": "Recognising an Impersonal Sentence",
+      "statement": "Three marks together identify one: there is **no nominative**, the verb or adjective stands in a form that **agrees with nothing**, and the person, if there is one, is in the **dative**. Where English inserts a dummy *it* — *it is cold*, *it is necessary*, *it hurts* — Lithuanian inserts nothing, and the absence is the construction.",
+      "paradigms": [
+        {
+          "caption": "English dummy subject, Lithuanian nothing",
+          "columns": ["English", "Lithuanian", "what is absent"],
+          "rows": [
+            { "label": "weather", "cells": ["It is raining.", "Lyja.", "no *it*"] },
+            { "label": "sensation", "cells": ["I am cold.", "Man šalta.", "no *I* as subject"] },
+            { "label": "necessity", "cells": ["I have to work.", "Man reikia dirbti.", "no *I* as subject"] },
+            { "label": "pain", "cells": ["My head aches.", "Man skauda galvą.", "no possessive, no subject"] }
+          ]
+        }
+      ],
+      "examples": [
+        { "target": "Buvo šalta, todėl likome namie.", "gloss": "It was cold, so we stayed at home.", "note": "the first clause impersonal, the second personal" },
+        { "target": "Man gera čia gyventi.", "gloss": "I like living here." }
+      ],
+      "seeAlso": ["personal-vs-impersonal", "galima-reikia", "nes-todel"],
+      "core": true
+    }
+  ],
+  "vocabulary": [
+    { "lemma": "karštas", "gloss": "hot", "pos": "adjective", "forms": { "masc": "karštas", "fem": "karšta" } },
+    { "lemma": "šiltas", "gloss": "warm", "pos": "adjective", "forms": { "masc": "šiltas", "fem": "šilta" } },
+    { "lemma": "sunkus", "gloss": "difficult; heavy", "pos": "adjective", "forms": { "masc": "sunkus", "fem": "sunki" } },
+    { "lemma": "skaudėti", "gloss": "to hurt, to ache (impersonal: + dat. and acc.)", "pos": "verb", "forms": { "inf": "skaudėti", "pres3": "skauda", "past3": "skaudėjo" }, "notes": "Impersonal: no subject; the sufferer is in the dative and the part in the accusative." },
+    { "lemma": "galva", "gloss": "head", "pos": "noun", "forms": { "nom": "galva", "gen": "galvos", "acc": "galvą", "gender": "f." } },
+    { "lemma": "koja", "gloss": "leg, foot", "pos": "noun", "forms": { "nom": "koja", "gen": "kojos", "acc": "koją", "gender": "f." } },
+    { "lemma": "dantis", "gloss": "tooth", "pos": "noun", "forms": { "nom": "dantis", "gen": "danties", "acc": "dantį", "gender": "m." } },
+    { "lemma": "lyti", "gloss": "to rain (impersonal)", "pos": "verb", "forms": { "inf": "lyti", "pres3": "lyja", "past3": "lijo" }, "notes": "Third person only; no subject." },
+    { "lemma": "snigti", "gloss": "to snow (impersonal)", "pos": "verb", "forms": { "inf": "snigti", "pres3": "sninga", "past3": "snigo" }, "notes": "Third person only; no subject." },
+    { "lemma": "galima", "gloss": "it is possible, one may (+ infinitive)", "pos": "particle", "notes": "Impersonal; negalima is the prohibition." },
+    { "lemma": "oras", "gloss": "weather; air", "pos": "noun", "forms": { "nom": "oras", "gen": "oro", "acc": "orą", "gender": "m." } },
+    { "lemma": "rūkyti", "gloss": "to smoke", "pos": "verb", "forms": { "inf": "rūkyti", "pres3": "rūko", "past3": "rūkė", "conj": "III" } },
+    { "lemma": "anksti", "gloss": "early", "pos": "adverb" }
+  ],
+  "drills": [
+    {
+      "id": "a118-q1",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "How is *It is cold today* said?",
+      "options": ["Šiandien šaltas.", "Šiandien šalta.", "Šiandien yra šaltas.", "Šiandien šalčiau."],
+      "correct": 1,
+      "explanation": "There is no subject, so the adjective stands in its non-gendered form: *šalta*. A masculine *šaltas* would need something to agree with.",
+      "rulesTested": ["neuter-adjective", "weather-verbs"],
+      "vocabUsed": ["šiandien", "šaltas"]
+    },
+    {
+      "id": "a118-q2",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "How is *It is raining* said?",
+      "options": ["Jis lyja.", "Tai lyja.", "Lyja.", "Yra lyja."],
+      "correct": 2,
+      "explanation": "*lyja* has no subject and never will have one. English needs a dummy *it*; Lithuanian supplies nothing, and the absence is the construction.",
+      "rulesTested": ["weather-verbs", "impersonal-summary"],
+      "vocabUsed": ["lyti", "jis", "tai"]
+    },
+    {
+      "id": "a118-q3",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete: **Man skauda ____.** (My head aches.)",
+      "options": ["galva", "galvą", "galvos", "galvai"],
+      "correct": 1,
+      "explanation": "*skaudėti* takes the sufferer in the dative and the part that hurts in the **accusative**: *galvą*. English makes the head the subject; Lithuanian makes it the object of a subjectless verb.",
+      "rulesTested": ["skaudeti"],
+      "vocabUsed": ["man", "skaudėti", "galva"]
+    },
+    {
+      "id": "a118-q4",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "What is the difference between **Ji šalta** and **Jai šalta**?",
+      "options": [
+        "None; the two are variants of one sentence.",
+        "The first says she is a cold person; the second says she feels cold.",
+        "The first is present and the second past.",
+        "The first is a question."
+      ],
+      "correct": 1,
+      "explanation": "A nominative with an agreeing adjective describes what she **is**; a dative with the non-gendered form reports what she **feels**. Two letters carry the whole difference.",
+      "rulesTested": ["personal-vs-impersonal", "neuter-adjective"],
+      "vocabUsed": ["ji", "jai", "šaltas"]
+    },
+    {
+      "id": "a118-q5",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Man ____.** (I find it interesting.)",
+      "options": ["įdomus", "įdomi", "įdomu", "įdomiai"],
+      "correct": 2,
+      "explanation": "Adjectives in *-us* make their non-gendered form in **-u**: *įdomu*. *Filmas įdomus* would be the personal construction — the film *is* interesting — and *įdomiai* is the adverb.",
+      "rulesTested": ["neuter-adjective", "personal-vs-impersonal", "adverb-formation"],
+      "vocabUsed": ["man", "įdomus"]
+    },
+    {
+      "id": "a118-q6",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which of these are **impersonal** sentences?",
+      "options": [
+        "Man reikia dirbti.",
+        "Aš dirbu Vilniuje.",
+        "Vakar lijo.",
+        "Tomui šalta."
+      ],
+      "correct": [0, 2, 3],
+      "explanation": "The second has a nominative subject and a verb agreeing with it. The other three have no nominative anywhere, and their person, where there is one, stands in the dative.",
+      "rulesTested": ["impersonal-summary", "reikia", "weather-verbs", "personal-vs-impersonal"],
+      "vocabUsed": ["man", "reikia", "dirbti", "aš", "Vilnius", "vakar", "lyti", "šaltas"]
+    },
+    {
+      "id": "a118-q7",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Čia ____ rūkyti?** (May one smoke here?)",
+      "options": ["galima", "galiu", "galimas", "galėčiau"],
+      "correct": 0,
+      "explanation": "*galima* is impersonal — *one may* — and is completed by an infinitive. *galiu* would say that **I** am able, which asks a different question.",
+      "rulesTested": ["galima-reikia", "complementary-infinitive"],
+      "vocabUsed": ["čia", "galima", "rūkyti", "galėti"]
+    },
+    {
+      "id": "a118-q8",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Why is *mano galva skauda* wrong?",
+      "options": [
+        "Because *skaudėti* has no present tense.",
+        "Because the construction is impersonal: the sufferer goes into the dative and the part into the accusative, and no possessive is used.",
+        "Because *galva* is masculine.",
+        "Because the verb must be negated."
+      ],
+      "correct": 1,
+      "explanation": "*Man skauda galvą.* The possessive and the nominative both belong to the English sentence. Carrying them across is the single commonest error at the doctor's.",
+      "rulesTested": ["skaudeti", "impersonal-summary", "possessives"],
+      "vocabUsed": ["mano", "galva", "skaudėti", "man"]
+    },
+    {
+      "id": "a118-q9",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which marks identify an impersonal sentence?",
+      "options": [
+        "There is no nominative.",
+        "The verb or adjective agrees with nothing.",
+        "The person concerned, if named, stands in the dative.",
+        "The verb is always negated."
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Negation has nothing to do with it: *Man šalta* and *Man nešalta* are both impersonal. The three real marks travel together, and any one of them is enough to suspect the construction.",
+      "rulesTested": ["impersonal-summary", "personal-vs-impersonal", "neuter-adjective"],
+      "vocabUsed": ["man", "šaltas"]
+    },
+    {
+      "id": "a118-q10",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "**Man reikėjo dirbti, nes buvo šalta ir lijo.** How many nominatives does the sentence contain?",
+      "answer": 0,
+      "unit": "words",
+      "explanation": "None. *reikėjo*, *buvo šalta* and *lijo* are all impersonal, and *man* is a dative. A sentence of eight words with no subject anywhere is perfectly ordinary Lithuanian, and would be impossible in English without three separate dummy *it*s.",
+      "rulesTested": ["impersonal-summary", "galima-reikia", "weather-verbs", "neuter-adjective"],
+      "vocabUsed": ["man", "reikia", "dirbti", "nes", "būti", "šaltas", "ir", "lyti"]
+    },
+    {
+      "id": "a118-p1",
+      "type": "comprehension",
+      "difficulty": "medium",
+      "title": "Pas gydytoją",
+      "passage": "– Laba diena. Kas jums yra?\n– Man skauda galvą ir dantį. Vakar buvo šalta, o aš ilgai laukiau lauke.\n– Ar jums sunku valgyti?\n– Taip, sunku. Ir naktį buvo labai karšta — manau, kad sergu gripu.\n– Suprantu. Jums reikės gerti vaistų ir ilsėtis. Dirbti negalima.\n– O kada bus galima grįžti į darbą?\n– Jeigu bus geriau, po savaitės. Bet jeigu skaudės ir toliau, ateikite dar kartą.",
+      "translation": "\"Good afternoon. What is the matter with you?\" — \"My head and my tooth ache. Yesterday it was cold, and I waited outside for a long time.\" — \"Is it difficult for you to eat?\" — \"Yes, it is. And in the night it was very hot — I think I have flu.\" — \"I see. You will have to take medicine and rest. Working is not allowed.\" — \"And when will it be possible to go back to work?\" — \"If you are better, in a week. But if it still hurts, come again.\"",
+      "glossary": {
+        "Kas jums yra?": "What is the matter with you?",
+        "ilgai": "for a long time",
+        "laukiau": "I waited (laukti)",
+        "lauke": "outside",
+        "naktį": "in the night",
+        "vaistai": "medicine (pl.)",
+        "ilsėtis": "to rest",
+        "toliau": "further, still",
+        "dar kartą": "once more"
+      },
+      "questions": [
+        {
+          "id": "a118-p1-q1",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "Kas skauda pacientui?",
+          "options": ["koją", "galvą ir dantį", "ranką", "nieko"],
+          "correct": 1,
+          "explanation": "*Man skauda galvą ir dantį.* Both parts stand in the accusative, joined by *ir*, and the sufferer is in the dative.",
+          "rulesTested": ["skaudeti", "conjunction-ir"],
+          "vocabUsed": ["skaudėti", "koja", "galva", "dantis", "ranka"]
+        },
+        {
+          "id": "a118-p1-q2",
+          "type": "multi",
+          "difficulty": "medium",
+          "stem": "Which expressions in the dialogue are **impersonal**?",
+          "options": ["buvo šalta", "reikės", "negalima", "sergu"],
+          "correct": [0, 1, 2],
+          "explanation": "*sergu* is a perfectly personal first-person verb with *aš* understood (¶46). The other three have no subject at all: a non-gendered adjective, an impersonal of necessity, and one of prohibition.",
+          "rulesTested": ["impersonal-summary", "galima-reikia", "neuter-adjective", "instrumental-verbs"],
+          "vocabUsed": ["būti", "šaltas", "reikia", "galima", "sirgti"]
+        },
+        {
+          "id": "a118-p1-q3",
+          "type": "integer",
+          "difficulty": "hard",
+          "stem": "After how many weeks may the patient go back to work, if he is better?",
+          "answer": 1,
+          "unit": "weeks",
+          "explanation": "*po savaitės* — after a week. *po* with the **genitive** is *after*, of time; with the instrumental it would have been *under* (¶75), and the ending is the whole of the difference.",
+          "rulesTested": ["time-prepositions", "genitive-prepositions", "condition-jei"],
+          "vocabUsed": ["po", "savaitė", "jeigu"]
+        }
+      ]
+    }
+  ]
+}

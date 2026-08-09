@@ -1,0 +1,302 @@
+{
+  "id": "a1-cp-03",
+  "kind": "checkpoint",
+  "level": "A1",
+  "order": 13,
+  "title": "Checkpoint: Number, Place, and the Person Concerned",
+  "summary": "A cumulative examination of sections eight to ten: the plural in three cases with the numerals that govern them, the locative against the accusative of direction, and the dative with the constructions built on it.",
+  "covers": ["a1-08", "a1-09", "a1-10"],
+  "passThreshold": 60,
+  "drills": [
+    {
+      "id": "cp3-q1",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "a1-08",
+      "stem": "What is the nominative plural of **katė**?",
+      "options": ["kates", "katės", "kačių", "katėms"],
+      "correct": 1,
+      "explanation": "Feminine -ė makes -ės. *kates* is the accusative plural and *kačių* the genitive plural, in which the t softens to č.",
+      "rulesTested": ["plural-nominative"],
+      "vocabUsed": ["katė"]
+    },
+    {
+      "id": "cp3-q2",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "a1-08",
+      "stem": "Translate: **She likes cats.** (using *mėgti*)",
+      "options": [
+        "Ji mėgsta katės.",
+        "Ji mėgsta kates.",
+        "Ji mėgsta kačių.",
+        "Ji mėgsta katėms."
+      ],
+      "correct": 1,
+      "explanation": "*mėgti* governs the accusative (¶39), and the accusative plural of a -ė noun is -es. *katės* is the nominative and could only be a subject.",
+      "rulesTested": ["plural-accusative", "wanting-liking"],
+      "vocabUsed": ["mėgti", "katė", "ji"]
+    },
+    {
+      "id": "cp3-q3",
+      "type": "multi",
+      "difficulty": "medium",
+      "fromSection": "a1-08",
+      "stem": "Which of these phrases are **correct**?",
+      "options": ["geri namai", "geros knygos", "du broliai", "dešimt knygos"],
+      "correct": [0, 1, 2],
+      "explanation": "The adjective agrees in gender and number, and *du* takes the nominative plural. *dešimt* governs the genitive plural, so the last should be *dešimt knygų*.",
+      "rulesTested": ["adjective-number", "numeral-case", "plural-genitive"],
+      "vocabUsed": ["geras", "namas", "knyga", "du", "brolis", "dešimt"]
+    },
+    {
+      "id": "cp3-q4",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a1-08",
+      "stem": "*Berniukas dirba* becomes *Berniukai dirba* in the plural. What does this show about the verb?",
+      "options": [
+        "That the verb agrees with the subject in number.",
+        "That one form serves the whole third person, singular and plural alike.",
+        "That *dirbti* is irregular.",
+        "That the plural subject requires the first-person ending."
+      ],
+      "correct": 1,
+      "explanation": "The third person is indifferent to number in every Lithuanian verb (¶57). Only the first and second persons have separate plural endings.",
+      "rulesTested": ["verb-number", "plural-nominative"],
+      "vocabUsed": ["berniukas", "dirbti"]
+    },
+    {
+      "id": "cp3-q5",
+      "type": "integer",
+      "difficulty": "hard",
+      "fromSection": "a1-08",
+      "stem": "**Vaikas turi vieną gerą knygą.** How many words change form if *vieną* becomes *dešimt*?",
+      "answer": 3,
+      "unit": "words",
+      "explanation": "Three besides nothing else: *vieną* → *dešimt*, and *gerą knygą* → *gerų knygų*, the genitive plural that *dešimt* governs, the adjective following its noun. *vaikas* and *turi* are untouched — the numeral overrides the case the verb would have required, but it does not touch the subject.",
+      "rulesTested": ["numeral-case", "plural-genitive", "adjective-number"],
+      "vocabUsed": ["vaikas", "turėti", "vienas", "geras", "knyga", "dešimt"]
+    },
+    {
+      "id": "cp3-q6",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "a1-09",
+      "stem": "Complete: **Ji dirba ____.** (She works at the university.)",
+      "options": ["universitetas", "universitetą", "universitete", "į universitetą"],
+      "correct": 2,
+      "explanation": "The locative needs no preposition; the ending -e carries \"at\" entire. *į universitetą* would say she is travelling there.",
+      "rulesTested": ["locative-singular"],
+      "vocabUsed": ["dirbti", "universitetas", "į", "ji"]
+    },
+    {
+      "id": "cp3-q7",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a1-09",
+      "stem": "You are in Vilnius and mean to reach Kaunas. Which is right?",
+      "options": [
+        "Aš einu į Kauną.",
+        "Aš važiuoju į Kauną.",
+        "Aš važiuoju Kaune.",
+        "Aš einu Kaune."
+      ],
+      "correct": 1,
+      "explanation": "*eiti* is to go on foot and *važiuoti* by vehicle — a distinction English does not draw and Lithuanian insists on. The locative *Kaune* would say you are already there.",
+      "rulesTested": ["motion-verbs", "direction-i", "locative-singular"],
+      "vocabUsed": ["eiti", "važiuoti", "į", "Kaunas"]
+    },
+    {
+      "id": "cp3-q8",
+      "type": "multi",
+      "difficulty": "medium",
+      "fromSection": "a1-09",
+      "stem": "Which of these state where something **is**, rather than where it is going?",
+      "options": [
+        "Knyga guli ant stalo.",
+        "Vaikai yra namuose.",
+        "Jie važiuoja į miestą.",
+        "Katė miega po stalu."
+      ],
+      "correct": [0, 1, 3],
+      "explanation": "A genitive after *ant*, a locative plural, and an instrumental after *po* all state position. Only *į* with the accusative expresses motion towards.",
+      "rulesTested": ["place-prepositions", "locative-plural", "direction-i"],
+      "vocabUsed": ["knyga", "guli", "ant", "stalas", "vaikas", "važiuoti", "į", "miestas", "katė", "miegoti", "po"]
+    },
+    {
+      "id": "cp3-q9",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "a1-09",
+      "stem": "Which adverb answers *kur?* without any noun or preposition at all?",
+      "options": ["dažnai", "namie", "retai", "kartais"],
+      "correct": 1,
+      "explanation": "*namie*, at home — a place adverb standing outside the noun paradigm entirely (*name* would mean \"in the building\"). *dažnai*, *retai* and *kartais* answer how often, not where.",
+      "rulesTested": ["place-adverbs", "locative-singular"],
+      "vocabUsed": ["dažnai", "namie", "retai", "kartais", "kur"]
+    },
+    {
+      "id": "cp3-q10",
+      "type": "integer",
+      "difficulty": "hard",
+      "fromSection": "a1-09",
+      "stem": "**Aš esu naujoje kavinėje.** How many words change form if you are going *into* the new café instead?",
+      "answer": 2,
+      "unit": "words",
+      "explanation": "Two: *naujoje kavinėje* → *naują kavinę*, the adjective following its noun out of the locative into the accusative that *į* governs. The verb is replaced rather than reshaped, and the preposition is added rather than changed.",
+      "rulesTested": ["direction-i", "locative-singular", "adjective-agreement"],
+      "vocabUsed": ["būti", "naujas", "kavinė", "į"]
+    },
+    {
+      "id": "cp3-q11",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "a1-10",
+      "stem": "What is the dative singular of **brolis**?",
+      "options": ["brolio", "broliui", "brolyje", "brolį"],
+      "correct": 1,
+      "explanation": "Masculine -is makes -iui. *brolio* is the genitive, *brolyje* the locative, *brolį* the accusative — four cases, four endings, all built on the same stem.",
+      "rulesTested": ["dative-endings"],
+      "vocabUsed": ["brolis"]
+    },
+    {
+      "id": "cp3-q12",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a1-10",
+      "stem": "Translate: **She needs money.**",
+      "options": [
+        "Ji reikia pinigų.",
+        "Jai reikia pinigų.",
+        "Jai reikia pinigus.",
+        "Ji reikia pinigus."
+      ],
+      "correct": 1,
+      "explanation": "*reikia* is impersonal and has no subject: the needer stands in the dative *jai* and what is needed in the genitive *pinigų*. Supplying an accusative is the error English invites.",
+      "rulesTested": ["reikia", "dative-pronouns"],
+      "vocabUsed": ["jai", "reikia", "pinigai", "ji"]
+    },
+    {
+      "id": "cp3-q13",
+      "type": "multi",
+      "difficulty": "medium",
+      "fromSection": "a1-10",
+      "stem": "Which of these sentences are **correct**?",
+      "options": [
+        "Man patinka kava.",
+        "Aš padedu mamai.",
+        "Aš padedu mamą.",
+        "Skambinu draugui."
+      ],
+      "correct": [0, 1, 3],
+      "explanation": "*padėti* governs the dative, so *mamą* is wrong. *patikti* and *skambinti* likewise take the dative — a group of common verbs where English supplies a direct object and Lithuanian does not.",
+      "rulesTested": ["patikti", "other-dative-verbs", "dative-endings"],
+      "vocabUsed": ["man", "patikti", "kava", "padėti", "mama", "skambinti", "draugas"]
+    },
+    {
+      "id": "cp3-q14",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "a1-10",
+      "stem": "**Man patinka knygos.** Which word is the grammatical subject?",
+      "options": ["man", "patinka", "knygos", "there is none"],
+      "correct": 2,
+      "explanation": "The thing liked is the subject and stands in the nominative; the liker is put in the dative. That is why the verb would change with the number of books and never with the number of people (¶68).",
+      "rulesTested": ["patikti", "verb-number", "plural-nominative"],
+      "vocabUsed": ["man", "patikti", "knyga"]
+    },
+    {
+      "id": "cp3-q15",
+      "type": "integer",
+      "difficulty": "hard",
+      "fromSection": "a1-10",
+      "stem": "**Aš mėgstu naują knygą.** Rewritten with *patikti* so as to mean the same, how many words of the new sentence differ in form from the old?",
+      "answer": 4,
+      "unit": "words",
+      "explanation": "The sentence becomes *Man patinka nauja knyga*: *aš* → *man*, *mėgstu* → *patinka*, and *naują knygą* → *nauja knyga*, the object becoming the subject and giving up its accusative, adjective and all. Every one of the four words is altered.",
+      "rulesTested": ["patikti", "wanting-liking", "dative-pronouns", "adjective-agreement"],
+      "vocabUsed": ["aš", "mėgti", "naujas", "knyga", "man", "patikti"]
+    },
+    {
+      "id": "cp3-q16",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "a1-10",
+      "stem": "Complete: **Aš duodu knygą ____.** (I give the book to my brother.)",
+      "options": ["brolis", "brolį", "broliui", "brolio"],
+      "correct": 2,
+      "explanation": "A verb of giving has two objects: the thing in the accusative and the person in the dative (\u00b666). *brolį* would leave the sentence with two accusatives and nothing to say who received the book.",
+      "rulesTested": ["indirect-object", "dative-endings"],
+      "vocabUsed": ["duoti", "knyga", "brolis", "aš"]
+    },
+    {
+      "id": "cp3-q17",
+      "type": "multi",
+      "difficulty": "medium",
+      "fromSection": "a1-09",
+      "stem": "Which of these are correctly formed **locatives**?",
+      "options": ["mokykloje", "kavinėje", "stalo", "Vilniuje"],
+      "correct": [0, 1, 3],
+      "explanation": "-oje, -ėje and -uje are the three commonest locative endings. *stalo* is the genitive of *stalas*, as after *ant*; its locative would be *stale*.",
+      "rulesTested": ["locative-singular"],
+      "vocabUsed": ["mokykla", "kavinė", "stalas", "Vilnius"]
+    },
+    {
+      "id": "cp3-p1",
+      "type": "comprehension",
+      "difficulty": "medium",
+      "fromSection": "a1-10",
+      "title": "Savaitgalis",
+      "passage": "Eglė gyvena Kaune, o jos brolis Tomas — Vilniuje. Savaitgalį Eglė važiuoja į Vilnių. Tomas laukia jos stotyje. Eglė veža jam dovaną: dvi knygas ir puodelį. Tomui patinka knygos, bet jam nereikia puodelio — jis turi dešimt puodelių. Vakare jie eina į kavinę. Kavinė yra prie stoties. Eglei patinka Vilnius, bet ji nemėgsta didelių miestų.",
+      "translation": "Eglė lives in Kaunas, and her brother Tomas in Vilnius. At the weekend Eglė travels to Vilnius. Tomas waits for her at the station. Eglė brings him a present: two books and a cup. Tomas likes books, but he does not need the cup — he has ten cups. In the evening they go to a café. The café is near the station. Eglė likes Vilnius, but she does not like big cities.",
+      "glossary": {
+        "savaitgalį": "at the weekend",
+        "laukia": "waits for (+ gen.)",
+        "stotyje": "at the station (stotis, f.)",
+        "veža": "brings, carries (vežti)",
+        "vakare": "in the evening"
+      },
+      "questions": [
+        {
+          "id": "cp3-p1-q1",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "Kas patinka Tomui?",
+          "options": ["puodelis", "knygos", "Kaunas", "stotis"],
+          "correct": 1,
+          "explanation": "*Tomui patinka knygos.* The cup is precisely what he does not need, having ten already. The dative *Tomui* names the person who likes, and *knygos* is the subject (¶68).",
+          "rulesTested": ["patikti", "dative-endings"],
+          "vocabUsed": ["patikti", "puodelis", "knyga"]
+        },
+        {
+          "id": "cp3-p1-q2",
+          "type": "multi",
+          "difficulty": "medium",
+          "stem": "Which of these does the passage support?",
+          "options": [
+            "Eglė važiuoja į Vilnių.",
+            "Tomas turi dešimt puodelių.",
+            "Eglė mėgsta didelius miestus.",
+            "Kavinė yra prie stoties."
+          ],
+          "correct": [0, 1, 3],
+          "explanation": "She does *not* like big cities — *nemėgsta didelių miestų*, where the negation puts the object into the genitive plural (¶31, ¶55), though she likes Vilnius itself.",
+          "rulesTested": ["direction-i", "numeral-case", "genitive-negation", "place-prepositions"],
+          "vocabUsed": ["važiuoti", "į", "Vilnius", "turėti", "dešimt", "puodelis", "mėgti", "didelis", "miestas", "kavinė", "prie"]
+        },
+        {
+          "id": "cp3-p1-q3",
+          "type": "integer",
+          "difficulty": "hard",
+          "stem": "The passage has **Eglė veža jam dvi knygas.** How many words change form if she brings him *ten* books instead of two?",
+          "answer": 2,
+          "unit": "words",
+          "explanation": "Two: *dvi* → *dešimt*, and *knygas* → *knygų*, since *dešimt* governs the genitive plural where *dvi* left the case to the verb (¶58). *Eglė*, *veža* and the dative *jam* are all untouched.",
+          "rulesTested": ["numeral-case", "plural-genitive", "plural-accusative"],
+          "vocabUsed": ["jam", "du", "knyga", "dešimt"]
+        }
+      ]
+    }
+  ]
+}

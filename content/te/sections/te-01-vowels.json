@@ -1,0 +1,846 @@
+{
+  "id": "te-01",
+  "kind": "lesson",
+  "level": "A1",
+  "order": 1,
+  "title": "The Vowels — అచ్చులు",
+  "summary": "The sixteen independent vowels, arranged as the short and long pairs they in fact are. These are the letters used when a word begins with a vowel; the signs used elsewhere are taken up later.",
+  "script": {
+    "heading": "అచ్చులు — the independent vowels",
+    "letters": [
+      {
+        "glyph": "అ",
+        "name": "a",
+        "ipa": "/a/",
+        "approx": "the a of 'about' — short"
+      },
+      {
+        "glyph": "ఆ",
+        "name": "ā",
+        "ipa": "/aː/",
+        "approx": "the a of 'father' — long"
+      },
+      {
+        "glyph": "ఇ",
+        "name": "i",
+        "ipa": "/i/",
+        "approx": "the i of 'bit'"
+      },
+      {
+        "glyph": "ఈ",
+        "name": "ī",
+        "ipa": "/iː/",
+        "approx": "the ee of 'machine'"
+      },
+      {
+        "glyph": "ఉ",
+        "name": "u",
+        "ipa": "/u/",
+        "approx": "the u of 'put'"
+      },
+      {
+        "glyph": "ఊ",
+        "name": "ū",
+        "ipa": "/uː/",
+        "approx": "the oo of 'rule'"
+      },
+      {
+        "glyph": "ఋ",
+        "name": "r̥",
+        "ipa": "/ru/",
+        "approx": "a vocalic r, sounded 'ru' in Telugu"
+      },
+      {
+        "glyph": "ౠ",
+        "name": "r̥̄",
+        "ipa": "/ruː/",
+        "approx": "the long vocalic r; obsolete"
+      },
+      {
+        "glyph": "ఌ",
+        "name": "l̥",
+        "ipa": "/lu/",
+        "approx": "a vocalic l; obsolete"
+      },
+      {
+        "glyph": "ౡ",
+        "name": "l̥̄",
+        "ipa": "/luː/",
+        "approx": "the long vocalic l; obsolete"
+      },
+      {
+        "glyph": "ఎ",
+        "name": "e",
+        "ipa": "/e/",
+        "approx": "the e of 'bet' — short"
+      },
+      {
+        "glyph": "ఏ",
+        "name": "ē",
+        "ipa": "/eː/",
+        "approx": "the a of 'fate', without the glide — long"
+      },
+      {
+        "glyph": "ఐ",
+        "name": "ai",
+        "ipa": "/ai/",
+        "approx": "the i of 'aisle'"
+      },
+      {
+        "glyph": "ఒ",
+        "name": "o",
+        "ipa": "/o/",
+        "approx": "the o of 'obey' — short"
+      },
+      {
+        "glyph": "ఓ",
+        "name": "ō",
+        "ipa": "/oː/",
+        "approx": "the o of 'go', without the glide — long"
+      },
+      {
+        "glyph": "ఔ",
+        "name": "au",
+        "ipa": "/au/",
+        "approx": "the ow of 'how'"
+      }
+    ],
+    "notes": [
+      "Each vowel is written with a headstroke, the తలకట్టు, which most Telugu letters carry. It is not a mark of anything: it is simply part of the letter's shape.",
+      "These sixteen are the *independent* vowels, used only where a vowel begins a word or stands alone. Within a word, after a consonant, a vowel is written as a sign attached to that consonant instead — the subject of a later section.",
+      "ఌ and ౡ are dead letters, kept in the traditional list out of respect for Sanskrit and met by a modern reader almost never. Many school charts quietly replace them with అం and అః to keep the count at sixteen."
+    ]
+  },
+  "rules": [
+    {
+      "id": "vowel-count",
+      "number": "1",
+      "heading": "The Sixteen Vowels",
+      "statement": "The Telugu alphabet — the **వర్ణమాల** (varṇamāla) — opens with sixteen vowels, called **అచ్చులు** (acchulu). They are followed by thirty-six consonants, making fifty-two letters in all. The vowels are learned first because every consonant is defined by reference to them: a Telugu consonant is not a bare sound but a sound with a vowel already inside it.",
+      "examples": [
+        {
+          "target": "అ ఆ ఇ ఈ",
+          "gloss": "a ā i ī",
+          "note": "the first four, in dictionary order"
+        },
+        {
+          "target": "అచ్చులు",
+          "gloss": "vowels",
+          "note": "acchulu"
+        },
+        {
+          "target": "వర్ణమాల",
+          "gloss": "the alphabet",
+          "note": "varṇamāla, 'garland of letters'"
+        }
+      ],
+      "footnotes": [
+        "Sources differ on whether ఌ and ౡ or అం and అః complete the sixteen. Both counts are defensible and both give sixteen; this course teaches the traditional list and notes the substitution."
+      ],
+      "seeAlso": [],
+      "core": true
+    },
+    {
+      "id": "vowel-length",
+      "number": "2",
+      "heading": "Short and Long",
+      "statement": "The vowels come in **pairs**: a short vowel and its long counterpart, the long one written with a fuller or doubled shape. Length is not a nicety of accent but distinguishes words, exactly as it does in Latin or Lithuanian. Of the sixteen, ten form five such pairs, and the remaining six stand outside the system.",
+      "paradigms": [
+        {
+          "caption": "The five short–long pairs",
+          "columns": [
+            "short",
+            "long",
+            "value"
+          ],
+          "rows": [
+            {
+              "label": "a",
+              "cells": [
+                "అ",
+                "ఆ",
+                "/a/ — /aː/"
+              ]
+            },
+            {
+              "label": "i",
+              "cells": [
+                "ఇ",
+                "ఈ",
+                "/i/ — /iː/"
+              ]
+            },
+            {
+              "label": "u",
+              "cells": [
+                "ఉ",
+                "ఊ",
+                "/u/ — /uː/"
+              ]
+            },
+            {
+              "label": "e",
+              "cells": [
+                "ఎ",
+                "ఏ",
+                "/e/ — /eː/"
+              ]
+            },
+            {
+              "label": "o",
+              "cells": [
+                "ఒ",
+                "ఓ",
+                "/o/ — /oː/"
+              ]
+            }
+          ],
+          "footnote": "ఋ and ౠ, ఌ and ౡ are pairs too, but of vocalic consonants rather than of true vowels. ఐ and ఔ are diphthongs and have no short partner."
+        }
+      ],
+      "examples": [
+        {
+          "target": "అ → ఆ",
+          "gloss": "a → ā",
+          "note": "the long form adds a stroke to the right"
+        },
+        {
+          "target": "ఇ → ఈ",
+          "gloss": "i → ī"
+        },
+        {
+          "target": "ఎ → ఏ",
+          "gloss": "e → ē"
+        }
+      ],
+      "seeAlso": [
+        "vowel-count"
+      ],
+      "core": true
+    },
+    {
+      "id": "vowel-e-o",
+      "number": "3",
+      "heading": "The Dravidian Vowels ఎ and ఒ",
+      "statement": "Sanskrit has no short **e** or **o**; Telugu, being a Dravidian language, has both, and needs a letter for each. **ఎ / ఏ** and **ఒ / ఓ** are therefore genuine pairs in Telugu where in a Sanskrit alphabet they would be single letters. An Indian script that distinguishes them is a southern one; this is one of the marks by which Telugu, Kannada, Tamil and Malayalam are set apart from Hindi and Sanskrit.",
+      "examples": [
+        {
+          "target": "ఎ vs ఏ",
+          "gloss": "short e vs long ē",
+          "note": "distinct letters, not one letter written twice"
+        },
+        {
+          "target": "ఒ vs ఓ",
+          "gloss": "short o vs long ō"
+        }
+      ],
+      "seeAlso": [
+        "vowel-length"
+      ],
+      "core": true
+    },
+    {
+      "id": "vowel-diphthongs",
+      "number": "4",
+      "heading": "The Diphthongs ఐ and ఔ",
+      "statement": "**ఐ** (ai) and **ఔ** (au) are diphthongs — two vowel qualities glided together in one syllable. They are counted among the vowels and have no short partner, standing outside the pairs of ¶2. In the traditional order they follow ఏ and ఓ respectively, each closing its own group.",
+      "examples": [
+        {
+          "target": "ఐ",
+          "gloss": "ai — the i of 'aisle'"
+        },
+        {
+          "target": "ఔ",
+          "gloss": "au — the ow of 'how'"
+        },
+        {
+          "target": "ఎ ఏ ఐ / ఒ ఓ ఔ",
+          "gloss": "the two groups of three, in order",
+          "note": "short, long, diphthong"
+        }
+      ],
+      "seeAlso": [
+        "vowel-length",
+        "vowel-e-o"
+      ],
+      "core": true
+    },
+    {
+      "id": "vowel-vocalic",
+      "number": "5",
+      "heading": "The Vocalic Letters ఋ ౠ ఌ ౡ",
+      "statement": "Four letters stand for sounds that are consonants doing a vowel's work — **ఋ, ౠ, ఌ, ౡ**. They belong to the alphabet by inheritance from Sanskrit. **ఋ** is alive and common, in loanwords such as ఋషి and in names, and Telugu sounds it simply *ru*. The other three a modern reader may safely recognise and forget.",
+      "examples": [
+        {
+          "target": "ఋషి",
+          "gloss": "a sage",
+          "note": "r̥ṣi, sounded 'rushi'"
+        },
+        {
+          "target": "ఋ",
+          "gloss": "r̥ — sounded 'ru' in Telugu, not as in Sanskrit"
+        }
+      ],
+      "seeAlso": [
+        "vowel-count"
+      ],
+      "core": true
+    },
+    {
+      "id": "talakattu",
+      "number": "6",
+      "heading": "The Headstroke — తలకట్టు",
+      "statement": "Most Telugu letters are topped by a small curved stroke, the **తలకట్టు** (talakaṭṭu, 'head-tie'). It carries no meaning of its own and is not a diacritic: it is part of the letter, as the crossbar is part of a written *t*. Its importance is that it is **lost** when a consonant is subjoined beneath another, which is what makes the subjoined forms hard to recognise at first.",
+      "examples": [
+        {
+          "target": "అ ఆ ఇ",
+          "gloss": "each carries a talakaṭṭu"
+        },
+        {
+          "target": "క",
+          "gloss": "ka — the headstroke is the curve at the top left"
+        }
+      ],
+      "seeAlso": [
+        "vowel-count"
+      ],
+      "core": true
+    },
+    {
+      "id": "independent-vowels",
+      "number": "7",
+      "heading": "When the Independent Vowels Are Used",
+      "statement": "The sixteen letters of this section are the **independent** vowels, and they are written in exactly one situation: where a vowel is **not preceded by a consonant** — that is, at the start of a word, or standing alone. Everywhere else a vowel is written as a sign attached to the consonant before it. A learner who writes అ inside a word has made the commonest beginner's error in any Indian script.",
+      "examples": [
+        {
+          "target": "అమ్మ",
+          "gloss": "mother",
+          "note": "amma — the word begins with a vowel, so అ is written in full"
+        },
+        {
+          "target": "ఇల్లు",
+          "gloss": "house",
+          "note": "illu — likewise"
+        },
+        {
+          "target": "కా",
+          "gloss": "kā",
+          "note": "not క + ఆ; the ā is written as a sign on the క"
+        }
+      ],
+      "seeAlso": [
+        "vowel-count",
+        "talakattu"
+      ],
+      "core": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "lemma": "అచ్చులు",
+      "gloss": "vowels",
+      "pos": "noun",
+      "forms": {
+        "nom": "అచ్చులు",
+        "translit": "acchulu"
+      }
+    },
+    {
+      "lemma": "హల్లులు",
+      "gloss": "consonants",
+      "pos": "noun",
+      "forms": {
+        "nom": "హల్లులు",
+        "translit": "hallulu"
+      }
+    },
+    {
+      "lemma": "వర్ణమాల",
+      "gloss": "the alphabet",
+      "pos": "noun",
+      "forms": {
+        "nom": "వర్ణమాల",
+        "translit": "varṇamāla"
+      }
+    },
+    {
+      "lemma": "అక్షరం",
+      "gloss": "letter, syllable",
+      "pos": "noun",
+      "forms": {
+        "nom": "అక్షరం",
+        "translit": "akṣaraṃ"
+      }
+    },
+    {
+      "lemma": "తలకట్టు",
+      "gloss": "the headstroke",
+      "pos": "noun",
+      "forms": {
+        "nom": "తలకట్టు",
+        "translit": "talakaṭṭu"
+      }
+    },
+    {
+      "lemma": "తెలుగు",
+      "gloss": "Telugu",
+      "pos": "noun",
+      "forms": {
+        "nom": "తెలుగు",
+        "translit": "telugu"
+      }
+    },
+    {
+      "lemma": "అమ్మ",
+      "gloss": "mother",
+      "pos": "noun",
+      "forms": {
+        "nom": "అమ్మ",
+        "translit": "amma"
+      }
+    },
+    {
+      "lemma": "ఇల్లు",
+      "gloss": "house",
+      "pos": "noun",
+      "forms": {
+        "nom": "ఇల్లు",
+        "translit": "illu"
+      }
+    },
+    {
+      "lemma": "ఋషి",
+      "gloss": "sage",
+      "pos": "noun",
+      "forms": {
+        "nom": "ఋషి",
+        "translit": "r̥ṣi"
+      }
+    }
+  ],
+  "drills": [
+    {
+      "id": "te101-q1",
+      "type": "integer",
+      "difficulty": "easy",
+      "stem": "How many vowels does the traditional Telugu varṇamāla count?",
+      "answer": 16,
+      "unit": "vowels",
+      "explanation": "Sixteen అచ్చులు, followed by thirty-six హల్లులు, making fifty-two letters in all.",
+      "rulesTested": [
+        "vowel-count"
+      ],
+      "vocabUsed": [
+        "అచ్చులు",
+        "వర్ణమాల",
+        "హల్లులు"
+      ]
+    },
+    {
+      "id": "te101-q2",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Which letter is **ఆ**?",
+      "options": [
+        "a",
+        "ā",
+        "i",
+        "e"
+      ],
+      "correct": 1,
+      "explanation": "ఆ is long ā, the a of \"father\". Short a is అ, from which ఆ is made by adding a stroke on the right.",
+      "rulesTested": [
+        "vowel-length"
+      ],
+      "vocabUsed": [
+        "అచ్చులు"
+      ]
+    },
+    {
+      "id": "te101-q3",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Which of these is the letter **ఇ** (i)?",
+      "options": [
+        "ఈ",
+        "ఇ",
+        "ఉ",
+        "ఎ"
+      ],
+      "correct": 1,
+      "explanation": "ఇ is short i; ఈ is its long partner, ఉ is u, and ఎ is short e. The short and long forms of i differ by a loop, and telling them apart at speed is the work of this section.",
+      "rulesTested": [
+        "vowel-length"
+      ],
+      "vocabUsed": [
+        "అచ్చులు"
+      ]
+    },
+    {
+      "id": "te101-q4",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Which letter is **ఉ**?",
+      "options": [
+        "u",
+        "ū",
+        "o",
+        "r̥"
+      ],
+      "correct": 0,
+      "explanation": "ఉ is short u, the u of \"put\". Long ū is ఊ.",
+      "rulesTested": [
+        "vowel-length"
+      ],
+      "vocabUsed": [
+        "అచ్చులు"
+      ]
+    },
+    {
+      "id": "te101-q5",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Which letter is the **long** partner of ఎ?",
+      "options": [
+        "ఏ",
+        "ఐ",
+        "ఇ",
+        "ఒ"
+      ],
+      "correct": 0,
+      "explanation": "ఎ pairs with ఏ. ఐ is the diphthong ai, which closes that group but is not a length-partner of anything.",
+      "rulesTested": [
+        "vowel-length",
+        "vowel-e-o"
+      ],
+      "vocabUsed": [
+        "అచ్చులు"
+      ]
+    },
+    {
+      "id": "te101-q6",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Which letter is **ఓ**?",
+      "options": [
+        "o",
+        "ō",
+        "au",
+        "ū"
+      ],
+      "correct": 1,
+      "explanation": "ఓ is long ō. Short o is ఒ, and the diphthong au is ఔ — the three together make the o-group, exactly parallel to the e-group.",
+      "rulesTested": [
+        "vowel-length",
+        "vowel-e-o"
+      ],
+      "vocabUsed": [
+        "అచ్చులు"
+      ]
+    },
+    {
+      "id": "te101-q7",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Which letter is the diphthong **au**?",
+      "options": [
+        "ఐ",
+        "ఔ",
+        "ఓ",
+        "ఊ"
+      ],
+      "correct": 1,
+      "explanation": "ఔ is au. ఐ is the other diphthong, ai; ఓ is the long vowel ō, which is not a diphthong at all.",
+      "rulesTested": [
+        "vowel-diphthongs"
+      ],
+      "vocabUsed": [
+        "అచ్చులు"
+      ]
+    },
+    {
+      "id": "te101-q8",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which of these letters are **long** vowels?",
+      "options": [
+        "ఆ",
+        "ఇ",
+        "ఊ",
+        "ఏ"
+      ],
+      "correct": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "ఆ, ఊ and ఏ are long. ఇ is short i, whose long partner is ఈ.",
+      "rulesTested": [
+        "vowel-length"
+      ],
+      "vocabUsed": [
+        "అచ్చులు"
+      ]
+    },
+    {
+      "id": "te101-q9",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which of these letters have **no short partner**?",
+      "options": [
+        "ఐ",
+        "ఏ",
+        "ఔ",
+        "ఊ"
+      ],
+      "correct": [
+        0,
+        2
+      ],
+      "explanation": "The diphthongs ఐ and ఔ stand outside the length system. ఏ pairs with ఎ and ఊ with ఉ.",
+      "rulesTested": [
+        "vowel-diphthongs",
+        "vowel-length"
+      ],
+      "vocabUsed": [
+        "అచ్చులు"
+      ]
+    },
+    {
+      "id": "te101-q10",
+      "type": "integer",
+      "difficulty": "medium",
+      "stem": "How many of the sixteen vowels form short–long **pairs** of true vowels?",
+      "answer": 10,
+      "unit": "letters",
+      "explanation": "Ten: the five pairs అ/ఆ, ఇ/ఈ, ఉ/ఊ, ఎ/ఏ, ఒ/ఓ. The remaining six are the four vocalic letters ఋ ౠ ఌ ౡ and the two diphthongs ఐ ఔ.",
+      "rulesTested": [
+        "vowel-length",
+        "vowel-vocalic",
+        "vowel-diphthongs"
+      ],
+      "vocabUsed": [
+        "అచ్చులు"
+      ]
+    },
+    {
+      "id": "te101-q11",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Telugu has letters for short **e** and short **o**, which Sanskrit lacks. What does this reflect?",
+      "options": [
+        "That Telugu writing is older than Sanskrit writing.",
+        "That Telugu is a Dravidian language and needs letters for sounds Sanskrit has not got.",
+        "That the letters are decorative and carry no sound.",
+        "That Telugu borrowed them from Latin."
+      ],
+      "correct": 1,
+      "explanation": "The southern languages — Telugu, Kannada, Tamil, Malayalam — distinguish short and long e and o, and their scripts had to provide for it. A script that keeps ఎ and ఏ apart is a Dravidian one.",
+      "rulesTested": [
+        "vowel-e-o"
+      ],
+      "vocabUsed": [
+        "తెలుగు",
+        "అచ్చులు"
+      ]
+    },
+    {
+      "id": "te101-q12",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "What is the **తలకట్టు**?",
+      "options": [
+        "A mark showing that a vowel is long.",
+        "The headstroke that forms part of most letters and carries no meaning.",
+        "A punctuation mark ending a sentence.",
+        "The sign that mutes a consonant's vowel."
+      ],
+      "correct": 1,
+      "explanation": "It is part of the letter's shape, not a diacritic. Its importance is negative: a consonant **loses** it when subjoined beneath another, which is why subjoined forms look unfamiliar.",
+      "rulesTested": [
+        "talakattu"
+      ],
+      "vocabUsed": [
+        "తలకట్టు",
+        "అక్షరం"
+      ]
+    },
+    {
+      "id": "te101-q13",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "In which situation is an **independent** vowel letter such as అ written?",
+      "options": [
+        "Wherever the vowel sound occurs.",
+        "Only where the vowel is not preceded by a consonant.",
+        "Only at the end of a word.",
+        "Only in loanwords from Sanskrit."
+      ],
+      "correct": 1,
+      "explanation": "After a consonant the vowel is written as an attached sign instead. Writing అ inside a word — క + అ for *ka* — is the commonest error a beginner makes in any Indian script.",
+      "rulesTested": [
+        "independent-vowels"
+      ],
+      "vocabUsed": [
+        "అచ్చులు",
+        "అమ్మ"
+      ]
+    },
+    {
+      "id": "te101-q14",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which of these words begin with a vowel, and so are written with an independent vowel letter?",
+      "options": [
+        "అమ్మ",
+        "ఇల్లు",
+        "తెలుగు",
+        "ఋషి"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "అమ్మ, ఇల్లు and ఋషి open with అ, ఇ and ఋ. తెలుగు opens with the consonant త, whose vowel is written as a sign and not as a letter.",
+      "rulesTested": [
+        "independent-vowels"
+      ],
+      "vocabUsed": [
+        "అమ్మ",
+        "ఇల్లు",
+        "తెలుగు",
+        "ఋషి"
+      ]
+    },
+    {
+      "id": "te101-q15",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Which letter is **ఋ**, and how does Telugu sound it?",
+      "options": [
+        "A vowel sounded 'ri', as in Hindi.",
+        "A vocalic r, sounded 'ru' in Telugu.",
+        "A consonant r with no vowel.",
+        "A long ū."
+      ],
+      "correct": 1,
+      "explanation": "ఋ is a consonant doing a vowel's work, inherited from Sanskrit. Hindi sounds it 'ri' and Telugu 'ru' — ఋషి is *rushi*. It is the only one of the four vocalic letters a modern reader meets.",
+      "rulesTested": [
+        "vowel-vocalic"
+      ],
+      "vocabUsed": [
+        "ఋషి"
+      ]
+    },
+    {
+      "id": "te101-q16",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which statements about ఌ and ౡ are correct?",
+      "options": [
+        "They are vocalic letters inherited from Sanskrit.",
+        "They are in everyday modern use.",
+        "Many school charts replace them with అం and అః.",
+        "Dropping them would leave fifteen vowels unless something took their place."
+      ],
+      "correct": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "They are dead letters. Because the count of sixteen is traditional, a chart that omits them must put something in their place, and అం and అః are what is used — which is why sources disagree about what the sixteen are.",
+      "rulesTested": [
+        "vowel-vocalic",
+        "vowel-count"
+      ],
+      "vocabUsed": [
+        "అచ్చులు",
+        "వర్ణమాల"
+      ]
+    },
+    {
+      "id": "te101-q17",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "How many letters does the whole varṇamāla contain, vowels and consonants together?",
+      "answer": 52,
+      "unit": "letters",
+      "explanation": "Fifty-two: sixteen అచ్చులు and thirty-six హల్లులు. The two ఉభయాక్షరాలు, అం and అః, are counted apart from both.",
+      "rulesTested": [
+        "vowel-count"
+      ],
+      "vocabUsed": [
+        "వర్ణమాల",
+        "అచ్చులు",
+        "హల్లులు"
+      ]
+    },
+    {
+      "id": "te101-q18",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "The traditional order runs ఎ, ఏ, ఐ and then ఒ, ఓ, ఔ. What principle arranges each group of three?",
+      "options": [
+        "Alphabetical order of the transliteration.",
+        "Short vowel, then its long partner, then the diphthong that group closes with.",
+        "Frequency of use in Telugu words.",
+        "The number of strokes needed to write the letter."
+      ],
+      "correct": 1,
+      "explanation": "Each group is short, long, diphthong — ఎ ఏ ఐ and ఒ ఓ ఔ exactly parallel. The alphabet is arranged by sound and not by shape, which is what makes it learnable as a system rather than a list.",
+      "rulesTested": [
+        "vowel-length",
+        "vowel-diphthongs",
+        "vowel-e-o"
+      ],
+      "vocabUsed": [
+        "వర్ణమాల",
+        "అచ్చులు"
+      ]
+    },
+    {
+      "id": "te101-q19",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "Of the sixteen vowels, how many would a reader of **modern** Telugu meet in ordinary print?",
+      "answer": 13,
+      "unit": "letters",
+      "explanation": "Thirteen: the ten of the five pairs, the two diphthongs, and ఋ. ౠ, ఌ and ౡ are dead, though the traditional list keeps them. The alphabet a learner must *recognise* is therefore smaller than the alphabet they must *know about*.",
+      "rulesTested": [
+        "vowel-vocalic",
+        "vowel-count",
+        "vowel-length"
+      ],
+      "vocabUsed": [
+        "అచ్చులు",
+        "ఋషి"
+      ]
+    },
+    {
+      "id": "te101-q20",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which of these pairs are related as **short to long**?",
+      "options": [
+        "అ / ఆ",
+        "ఎ / ఐ",
+        "ఉ / ఊ",
+        "ఒ / ఓ"
+      ],
+      "correct": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "ఎ / ఐ is not a length pair: ఐ is the diphthong *ai*, and the long partner of ఎ is ఏ. That the three stand next to each other in the alphabet is what makes the trap work.",
+      "rulesTested": [
+        "vowel-length",
+        "vowel-diphthongs"
+      ],
+      "vocabUsed": [
+        "అచ్చులు"
+      ]
+    }
+  ]
+}

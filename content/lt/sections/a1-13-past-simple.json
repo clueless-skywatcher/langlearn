@@ -1,0 +1,333 @@
+{
+  "id": "a1-13",
+  "kind": "lesson",
+  "level": "A1",
+  "order": 16,
+  "title": "The Past Simple",
+  "summary": "The *būtasis kartinis laikas*: one past tense doing the work of the English simple past, perfect and continuous together. It has two sets of endings, and which of them a verb takes is settled by the third form given in the dictionary.",
+  "rules": [
+    {
+      "id": "past-stem",
+      "number": "88",
+      "heading": "The Third Principal Part",
+      "statement": "Every Lithuanian verb is cited with **three** forms — *dirbti, dirba, dirbo* — and the third of them is the past. It is not derivable from the other two, which is exactly why the dictionary gives it: the past stem must be learnt with the verb, as the present stem was (¶35). Once it is known, the whole tense follows, because the past has only **two** patterns of ending against the present's three.",
+      "paradigms": [
+        {
+          "caption": "The three principal parts",
+          "columns": ["infinitive", "3rd present", "3rd past", "past type"],
+          "rows": [
+            { "label": "to work", "cells": ["dirbti", "dirba", "dirbo", "-o"] },
+            { "label": "to go", "cells": ["eiti", "eina", "ėjo", "-o"] },
+            { "label": "to speak", "cells": ["kalbėti", "kalba", "kalbėjo", "-o"] },
+            { "label": "to eat", "cells": ["valgyti", "valgo", "valgė", "-ė"] },
+            { "label": "to read", "cells": ["skaityti", "skaito", "skaitė", "-ė"] },
+            { "label": "to write", "cells": ["rašyti", "rašo", "rašė", "-ė"] }
+          ],
+          "footnote": "The present type and the past type are independent: *valgyti* is a third-conjugation present and an *-ė* past, *kalbėti* a second-conjugation present and an *-o* past. Knowing one tells you nothing about the other."
+        }
+      ],
+      "examples": [
+        { "target": "Vakar dirbau.", "gloss": "Yesterday I worked." },
+        { "target": "Vakar skaičiau knygą.", "gloss": "Yesterday I read a book." }
+      ],
+      "seeAlso": ["present-stem", "conjugations", "conjugation-summary"],
+      "core": true
+    },
+    {
+      "id": "past-o-type",
+      "number": "89",
+      "heading": "The Past of the -o Type",
+      "statement": "Where the third principal part ends in **-o**, the personal endings are those below. Cut the *-o* from the cited form and add them; the third person is the cited form itself, and serves both numbers as it does in the present (¶57).",
+      "paradigms": [
+        {
+          "caption": "dirbti, dirba, dirbo — past",
+          "columns": ["person", "singular", "plural"],
+          "rows": [
+            { "label": "1", "cells": ["dirbau", "dirbome"] },
+            { "label": "2", "cells": ["dirbai", "dirbote"] },
+            { "label": "3", "cells": ["dirbo", "dirbo"] }
+          ],
+          "footnote": "So too *ėjau, ėjai, ėjo, ėjome, ėjote, ėjo* and *kalbėjau, kalbėjai, kalbėjo, kalbėjome, kalbėjote, kalbėjo*."
+        }
+      ],
+      "examples": [
+        { "target": "Pernai gyvenome Kaune.", "gloss": "Last year we lived in Kaunas." },
+        { "target": "Ar tu kalbėjai su mokytoju?", "gloss": "Did you speak to the teacher?" }
+      ],
+      "seeAlso": ["past-stem", "verb-number"],
+      "core": true
+    },
+    {
+      "id": "past-e-type",
+      "number": "90",
+      "heading": "The Past of the -ė Type",
+      "statement": "Where the third principal part ends in **-ė**, the endings differ in the first and second person singular: **-iau** and **-ei**. The *-iau* is a back vowel, and it therefore softens a preceding **t** to *č* and **d** to *dž*, exactly as the genitive does (¶28) — *skaitė* gives *skaičiau*, not *skaitiau*.",
+      "paradigms": [
+        {
+          "caption": "skaityti, skaito, skaitė — past",
+          "columns": ["person", "singular", "plural"],
+          "rows": [
+            { "label": "1", "cells": ["skaičiau", "skaitėme"] },
+            { "label": "2", "cells": ["skaitei", "skaitėte"] },
+            { "label": "3", "cells": ["skaitė", "skaitė"] }
+          ],
+          "footnote": "Likewise *matė → mačiau*, *valgė → valgiau*, *rašė → rašiau*. The softening happens only before *-iau*; the other five forms keep the consonant unaltered."
+        }
+      ],
+      "examples": [
+        { "target": "Mačiau tave vakar.", "gloss": "I saw you yesterday." },
+        { "target": "Ji rašė laišką.", "gloss": "She was writing a letter." },
+        { "target": "Mes valgėme namie.", "gloss": "We ate at home." }
+      ],
+      "seeAlso": ["past-stem", "genitive-endings"],
+      "core": true
+    },
+    {
+      "id": "past-buti",
+      "number": "91",
+      "heading": "The Past of Būti",
+      "statement": "**Būti** is regular in the past, whatever it does in the present: its third principal part is *buvo*, and the *-o* endings of ¶89 apply without exception. Note that where the present tense may drop *yra* altogether (¶16), the past may **not** — *buvo* has to be said.",
+      "paradigms": [
+        {
+          "caption": "būti, yra, buvo — past",
+          "columns": ["person", "singular", "plural"],
+          "rows": [
+            { "label": "1", "cells": ["buvau", "buvome"] },
+            { "label": "2", "cells": ["buvai", "buvote"] },
+            { "label": "3", "cells": ["buvo", "buvo"] }
+          ]
+        }
+      ],
+      "examples": [
+        { "target": "Vakar buvau namie.", "gloss": "Yesterday I was at home." },
+        { "target": "Tai buvo geras filmas.", "gloss": "That was a good film." },
+        { "target": "Jis buvo mokytojas.", "gloss": "He was a teacher.", "note": "the predicate noun stands in the nominative, as in the present (¶16)" }
+      ],
+      "seeAlso": ["buti-present", "predicate-nominative", "past-o-type"],
+      "core": true
+    },
+    {
+      "id": "past-negation",
+      "number": "92",
+      "heading": "Negation in the Past",
+      "statement": "Negation works in the past exactly as in the present: **ne-** is written onto the front of the verb as one word (¶25), and the object of the negated verb goes into the **genitive** (¶26). Nothing about the past tense alters either rule — which is worth stating plainly, because learners commonly keep the accusative once the sentence moves out of the present.",
+      "examples": [
+        { "target": "Vakar nedirbau.", "gloss": "Yesterday I did not work." },
+        { "target": "Ji neskaitė knygos.", "gloss": "She did not read the book.", "note": "*knygos*, genitive; *knygą* would be wrong" },
+        { "target": "Mes nebuvome namie.", "gloss": "We were not at home." }
+      ],
+      "seeAlso": ["negation", "negation-genitive", "past-o-type"],
+      "core": true
+    },
+    {
+      "id": "past-narrative",
+      "number": "93",
+      "heading": "Telling What Happened",
+      "statement": "The one past tense covers what English divides among three: *dirbau* is *I worked*, *I was working* and *I have worked* alike, and the context or an adverb supplies the difference. The adverbs that most often supply it are **vakar** (yesterday), **pernai** (last year) and **prieš** with the accusative (¶87). This is also the tense of a biography — where one was born, where one studied, where one worked.",
+      "paradigms": [
+        {
+          "caption": "One tense, three English renderings",
+          "columns": ["Lithuanian", "English"],
+          "rows": [
+            { "label": "simple", "cells": ["Vakar dirbau.", "Yesterday I worked."] },
+            { "label": "continuous", "cells": ["Kai skambinai, dirbau.", "When you rang, I was working."] },
+            { "label": "perfect", "cells": ["Aš jau dirbau Lietuvoje.", "I have already worked in Lithuania."] }
+          ]
+        }
+      ],
+      "examples": [
+        { "target": "Gimiau Vilniuje.", "gloss": "I was born in Vilnius." },
+        { "target": "Studijavau universitete, o paskui dirbau mokykloje.", "gloss": "I studied at the university, and afterwards worked at a school." },
+        { "target": "Prieš metus atvažiavau į Lietuvą.", "gloss": "A year ago I came to Lithuania." }
+      ],
+      "seeAlso": ["past-stem", "time-prepositions", "frequency-adverbs"],
+      "core": true
+    }
+  ],
+  "vocabulary": [
+    { "lemma": "vakar", "gloss": "yesterday", "pos": "adverb" },
+    { "lemma": "pernai", "gloss": "last year", "pos": "adverb" },
+    { "lemma": "paskui", "gloss": "afterwards, then", "pos": "adverb" },
+    { "lemma": "jau", "gloss": "already", "pos": "particle" },
+    { "lemma": "gimti", "gloss": "to be born", "pos": "verb", "forms": { "inf": "gimti", "pres3": "gimsta", "past3": "gimė", "conj": "I" } },
+    { "lemma": "pirkti", "gloss": "to buy", "pos": "verb", "forms": { "inf": "pirkti", "pres3": "perka", "past3": "pirko", "conj": "I" } },
+    { "lemma": "sakyti", "gloss": "to say", "pos": "verb", "forms": { "inf": "sakyti", "pres3": "sako", "past3": "sakė", "conj": "III" } },
+    { "lemma": "atvažiuoti", "gloss": "to arrive, to come (by vehicle)", "pos": "verb", "forms": { "inf": "atvažiuoti", "pres3": "atvažiuoja", "past3": "atvažiavo", "conj": "I" } },
+    { "lemma": "filmas", "gloss": "film", "pos": "noun", "forms": { "nom": "filmas", "gen": "filmo", "acc": "filmą", "gender": "m." } }
+  ],
+  "drills": [
+    {
+      "id": "a113-q1",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "**dirbti, dirba, dirbo.** What is *I worked*?",
+      "options": ["dirbu", "dirbau", "dirbo", "dirbome"],
+      "correct": 1,
+      "explanation": "The third principal part *dirbo* is an *-o* past, so the first person singular is **dirbau**. *dirbu* is the present, *dirbo* the third person, *dirbome* the first person plural.",
+      "rulesTested": ["past-stem", "past-o-type"],
+      "vocabUsed": ["dirbti"]
+    },
+    {
+      "id": "a113-q2",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete: **Vakar ____ namie.** (Yesterday I was at home.)",
+      "options": ["esu", "buvau", "buvo", "būti"],
+      "correct": 1,
+      "explanation": "*būti* has *buvo* for its third principal part and takes the *-o* endings: *buvau*. Unlike the present, where *yra* may be dropped, the past tense of *būti* must be said.",
+      "rulesTested": ["past-buti"],
+      "vocabUsed": ["vakar", "būti", "namie"]
+    },
+    {
+      "id": "a113-q3",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "**skaityti, skaito, skaitė.** What is *I read* (past)?",
+      "options": ["skaitiau", "skaičiau", "skaitau", "skaitė"],
+      "correct": 1,
+      "explanation": "An *-ė* past takes **-iau** in the first person singular, and the *-iau* softens the preceding **t** to *č*: *skaičiau*. *skaitau* is the present.",
+      "rulesTested": ["past-e-type"],
+      "vocabUsed": ["skaityti"]
+    },
+    {
+      "id": "a113-q4",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which of these are **past** forms?",
+      "options": ["mačiau", "matau", "valgėme", "gyvena"],
+      "correct": [0, 2],
+      "explanation": "*mačiau* (from *matė*) and *valgėme* (from *valgė*) are past; *matau* and *gyvena* are present. The softening in *mačiau* is the mark of the *-iau* ending.",
+      "rulesTested": ["past-e-type", "past-stem"],
+      "vocabUsed": ["matyti", "valgyti", "gyventi"]
+    },
+    {
+      "id": "a113-q5",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Ji neskaitė ____.** (She did not read the book.)",
+      "options": ["knyga", "knygą", "knygos", "knygai"],
+      "correct": 2,
+      "explanation": "The object of a negated verb stands in the genitive, and the past tense changes nothing about that: *knygos*. Keeping the accusative *knygą* after a negative is one of the commonest errors of the level.",
+      "rulesTested": ["past-negation", "negation-genitive"],
+      "vocabUsed": ["ji", "skaityti", "knyga"]
+    },
+    {
+      "id": "a113-q6",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Why can *dirbau* be translated three different ways in English?",
+      "options": [
+        "Because it is ambiguous between persons.",
+        "Because Lithuanian has one past tense where English distinguishes simple, continuous and perfect.",
+        "Because it may also be a present.",
+        "Because the ending -au belongs to two conjugations."
+      ],
+      "correct": 1,
+      "explanation": "*I worked*, *I was working* and *I have worked* are all *dirbau*; an adverb or the context supplies whatever difference is wanted. The same economy was seen in the present (¶24).",
+      "rulesTested": ["past-narrative", "past-o-type"],
+      "vocabUsed": ["dirbti"]
+    },
+    {
+      "id": "a113-q7",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which statements about the past tense are correct?",
+      "options": [
+        "The third person serves both singular and plural.",
+        "There are two sets of endings, -o and -ė.",
+        "The past type can be predicted from the conjugation of the present.",
+        "Negation is written onto the verb as one word."
+      ],
+      "correct": [0, 1, 3],
+      "explanation": "Present type and past type are independent — *valgyti* has a third-conjugation present and an *-ė* past, *kalbėti* a second-conjugation present and an *-o* past. That is why the dictionary gives all three forms.",
+      "rulesTested": ["past-stem", "past-o-type", "past-e-type", "past-negation", "verb-number"],
+      "vocabUsed": ["valgyti", "kalbėti"]
+    },
+    {
+      "id": "a113-q8",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**rašyti, rašo, rašė.** Which form is the second person singular past?",
+      "options": ["rašai", "rašei", "rašiau", "rašėte"],
+      "correct": 1,
+      "explanation": "An *-ė* past takes **-ei** in the second person singular: *rašei*. *rašai* is the present, *rašiau* the first person past, *rašėte* the second person plural.",
+      "rulesTested": ["past-e-type"],
+      "vocabUsed": ["rašyti"]
+    },
+    {
+      "id": "a113-q9",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**Jis buvo mokytojas.** Why is *mokytojas* not in the accusative?",
+      "options": [
+        "Because *būti* is negated.",
+        "Because a predicate noun after *būti* stands in the nominative, in the past as in the present.",
+        "Because *mokytojas* has no accusative.",
+        "Because the past tense governs the nominative."
+      ],
+      "correct": 1,
+      "explanation": "*Būti* links rather than governs, so what follows it names the subject again and stands in the nominative (¶16). The tense makes no difference to this.",
+      "rulesTested": ["past-buti", "predicate-nominative"],
+      "vocabUsed": ["jis", "būti", "mokytojas"]
+    },
+    {
+      "id": "a113-q10",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "How many **distinct** written forms does a Lithuanian verb have in the past tense across all six persons?",
+      "answer": 5,
+      "unit": "forms",
+      "explanation": "Five: the third person is one form serving both numbers, so *dirbau, dirbai, dirbo, dirbome, dirbote* exhaust the paradigm. The same economy holds in the present (¶57), and it is why Lithuanian tolerates dropping the pronoun so freely.",
+      "rulesTested": ["past-o-type", "verb-number"],
+      "vocabUsed": ["dirbti"]
+    },
+    {
+      "id": "a113-p1",
+      "type": "comprehension",
+      "difficulty": "medium",
+      "title": "Trumpa biografija",
+      "passage": "Gimiau tūkstantis devyni šimtai devyniasdešimt penktaisiais metais Kaune. Ten gyvenau dešimt metų. Paskui mes atvažiavome į Vilnių, ir aš studijavau universitete. Vakarais dirbau kavinėje ir skaičiau knygas. Pernai nedirbau — buvau namie ir mokiausi lietuvių kalbos. Vakar mačiau seną draugą; mes kalbėjome apie mokyklą.",
+      "translation": "I was born in 1995 in Kaunas. I lived there for ten years. Then we came to Vilnius, and I studied at the university. In the evenings I worked in a café and read books. Last year I did not work — I was at home and studied Lithuanian. Yesterday I saw an old friend; we talked about school.",
+      "glossary": {
+        "ten": "there",
+        "mokiausi": "I studied, I was learning (mokytis)",
+        "apie": "about (+ acc.)"
+      },
+      "questions": [
+        {
+          "id": "a113-p1-q1",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "Kur gimė šis žmogus?",
+          "options": ["Vilniuje", "Kaune", "mokykloje", "universitete"],
+          "correct": 1,
+          "explanation": "*Gimiau … Kaune.* The move to Vilnius came ten years later. *Kaune* is a locative of place (¶59).",
+          "rulesTested": ["past-narrative", "locative-singular"],
+          "vocabUsed": ["gimti", "Kaunas", "Vilnius", "mokykla", "universitetas"]
+        },
+        {
+          "id": "a113-p1-q2",
+          "type": "multi",
+          "difficulty": "medium",
+          "stem": "Which verbs in the passage belong to the **-ė** past type?",
+          "options": ["mačiau", "skaičiau", "dirbau", "kalbėjome"],
+          "correct": [0, 1],
+          "explanation": "*matė* and *skaitė* are *-ė* pasts, and both show the softening before *-iau*. *dirbo* and *kalbėjo* are *-o* pasts, which is why they give *dirbau* and *kalbėjome* with no consonant change.",
+          "rulesTested": ["past-e-type", "past-o-type", "past-stem"],
+          "vocabUsed": ["matyti", "skaityti", "dirbti", "kalbėti"]
+        },
+        {
+          "id": "a113-p1-q3",
+          "type": "integer",
+          "difficulty": "hard",
+          "stem": "For how many years did the writer live in Kaunas?",
+          "answer": 10,
+          "unit": "years",
+          "explanation": "*Ten gyvenau dešimt metų* — ten. *dešimt* fixes *metai* in the genitive plural (¶80), and the phrase as a whole is a stretch of time, which Lithuanian expresses without any word answering to English *for*.",
+          "rulesTested": ["cardinals-ten-up", "accusative-of-time", "past-o-type"],
+          "vocabUsed": ["dešimt", "metai", "gyventi"]
+        }
+      ]
+    }
+  ]
+}

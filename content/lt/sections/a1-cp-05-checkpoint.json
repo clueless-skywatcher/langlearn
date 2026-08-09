@@ -1,0 +1,370 @@
+{
+  "id": "a1-cp-05",
+  "kind": "checkpoint",
+  "level": "A1",
+  "order": 22,
+  "title": "Checkpoint: Joining, Asking, and Comparing",
+  "summary": "A cumulative examination of sections fifteen to seventeen: the conjunctions and particles that build a sentence out of clauses, the imperative and the conditional, and the three degrees of the adjective and the adverb.",
+  "covers": ["a1-15", "a1-16", "a1-17"],
+  "passThreshold": 60,
+  "drills": [
+    {
+      "id": "cp5-q1",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "a1-15",
+      "stem": "Complete: **Man patinka ____ kava, ____ arbata.** (I like both coffee and tea.)",
+      "options": ["ir … ir", "arba … arba", "bet … bet", "ar … ar"],
+      "correct": 0,
+      "explanation": "**Ir … ir** doubled is *both … and*, with a comma before the second *ir* — a comma English does not write.",
+      "rulesTested": ["coordinating-conjunctions", "conjunction-ir"],
+      "vocabUsed": ["man", "patikti", "ir", "kava", "arbata", "arba", "bet", "ar"]
+    },
+    {
+      "id": "cp5-q2",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "a1-15",
+      "stem": "Complete: **Sergu, ____ neateisiu.** (I am ill, so I shall not come.)",
+      "options": ["nes", "todėl", "kad", "arba"],
+      "correct": 1,
+      "explanation": "*todėl* gives the consequence, *nes* the reason. The same fact could be put the other way round: *Neateisiu, nes sergu.*",
+      "rulesTested": ["nes-todel"],
+      "vocabUsed": ["sirgti", "todėl", "ateiti", "nes", "kad", "arba"]
+    },
+    {
+      "id": "cp5-q3",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a1-15",
+      "stem": "Which sentence needs **o** rather than *bet*?",
+      "options": [
+        "Buvau parduotuvėje, ___ nieko nepirkau.",
+        "Gyvenu Vilniuje, ___ dirbu Kaune.",
+        "Norėjau eiti, ___ nebuvo laiko.",
+        "Skambinau, ___ niekas neatsakė."
+      ],
+      "correct": 1,
+      "explanation": "Only the second sets two facts side by side without either cancelling the other. The rest all contradict an expectation, which is *bet*.",
+      "rulesTested": ["o-contrast", "coordinating-conjunctions"],
+      "vocabUsed": ["būti", "parduotuvė", "pirkti", "gyventi", "Vilnius", "dirbti", "Kaunas", "norėti", "eiti", "laikas", "skambinti", "atsakyti"]
+    },
+    {
+      "id": "cp5-q4",
+      "type": "multi",
+      "difficulty": "medium",
+      "fromSection": "a1-15",
+      "stem": "Which of these are **correct**?",
+      "options": [
+        "Geriu kavą arba arbatą.",
+        "Su cukrumi ar be cukraus?",
+        "Geriu kavą ar arbatą.",
+        "Ar tu eini, ar lieki?"
+      ],
+      "correct": [0, 1, 3],
+      "explanation": "*ar* is the *or* of questions, *arba* the *or* of statements. The third is a plain statement and therefore wants *arba*.",
+      "rulesTested": ["arba-ar", "ar-questions"],
+      "vocabUsed": ["gerti", "kava", "arba", "arbata", "su", "cukrus", "be", "ar", "eiti", "likti"]
+    },
+    {
+      "id": "cp5-q5",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a1-15",
+      "stem": "Complete: **Jeigu ____ laiko, eisime į teatrą.**",
+      "options": ["turi", "turėsi", "turėjai", "turėtum"],
+      "correct": 1,
+      "explanation": "The condition concerns the future, and Lithuanian puts the future in **both** clauses. English keeps a present after *if*, which is exactly the interference to guard against.",
+      "rulesTested": ["condition-jei", "future-uses"],
+      "vocabUsed": ["jeigu", "turėti", "laikas", "eiti", "teatras"]
+    },
+    {
+      "id": "cp5-q6",
+      "type": "multi",
+      "difficulty": "hard",
+      "fromSection": "a1-15",
+      "stem": "Which statements about **kad** are correct?",
+      "options": [
+        "A comma always stands before it.",
+        "It may be omitted as English omits *that*.",
+        "*Tomas sakė, kad ateis* keeps the future where English shifts to *would come*.",
+        "It introduces the object of verbs of saying and thinking."
+      ],
+      "correct": [0, 2, 3],
+      "explanation": "*kad* is never omitted. Lithuanian punctuates by grammar: wherever a clause of this kind begins, a comma stands before it, whether or not the voice would pause.",
+      "rulesTested": ["subordination-kad"],
+      "vocabUsed": ["kad", "sakyti", "ateiti"]
+    },
+    {
+      "id": "cp5-q7",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "a1-15",
+      "stem": "**Jis dar negrįžo.** Which English rendering is right?",
+      "options": [
+        "He returned long ago.",
+        "He has not returned yet.",
+        "He still returns.",
+        "He will not return."
+      ],
+      "correct": 1,
+      "explanation": "*dar* with a negative is *not yet*; with an affirmative it is *still*. It is a particle: it takes no ending, governs nothing, and could be struck out without leaving the sentence ungrammatical.",
+      "rulesTested": ["particles", "past-negation"],
+      "vocabUsed": ["jis", "dar", "grįžti"]
+    },
+    {
+      "id": "cp5-q8",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "a1-16",
+      "stem": "What is the imperative of **eiti**, addressed to one familiar person?",
+      "options": ["eina", "eik", "eikite", "eisi"],
+      "correct": 1,
+      "explanation": "Infinitive stem *ei-* plus **-k**: *eik*. *eikite* is the plural, which is also the polite form.",
+      "rulesTested": ["imperative-formation"],
+      "vocabUsed": ["eiti"]
+    },
+    {
+      "id": "cp5-q9",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "a1-16",
+      "stem": "A textbook rubric reads **Parašykite atsakymą.** Why the plural form?",
+      "options": [
+        "Because more than one answer is wanted.",
+        "Because public writing addresses everybody, and the plural imperative is also the polite one.",
+        "Because *parašyti* has no singular imperative.",
+        "Because the sentence is a question."
+      ],
+      "correct": 1,
+      "explanation": "Notices, instructions and rubrics all use the plural, for the same reason that *jūs* is the polite pronoun (¶45).",
+      "rulesTested": ["imperative-notices", "polite-jus"],
+      "vocabUsed": ["parašyti", "atsakymas"]
+    },
+    {
+      "id": "cp5-q10",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a1-16",
+      "stem": "How is *let them come tomorrow* expressed?",
+      "options": [
+        "Ateikite rytoj.",
+        "Tegu jie ateina rytoj.",
+        "Jie ateitų rytoj.",
+        "Ateik rytoj."
+      ],
+      "correct": 1,
+      "explanation": "There is no third-person imperative ending: the particle **tegu** is put before the ordinary present tense, and the result is a wish or a permission.",
+      "rulesTested": ["imperative-third-person"],
+      "vocabUsed": ["tegu", "jie", "ateiti", "rytoj"]
+    },
+    {
+      "id": "cp5-q11",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a1-16",
+      "stem": "Complete: **Neskaityk šios ____.** (Don't read this book.)",
+      "options": ["knyga", "knygą", "knygos", "knygai"],
+      "correct": 2,
+      "explanation": "The genitive of negation holds in the imperative as in every other form of the verb: *knygos*, with *šios* agreeing in the genitive beside it.",
+      "rulesTested": ["imperative-negative", "negation-genitive"],
+      "vocabUsed": ["skaityti", "šis", "knyga"]
+    },
+    {
+      "id": "cp5-q12",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a1-16",
+      "stem": "**galėti** in the conditional, first person singular:",
+      "options": ["galiu", "galėsiu", "galėčiau", "galėtum"],
+      "correct": 2,
+      "explanation": "The conditional is built on the infinitive stem with *-t-*, which softens to *-č-* before *-iau*: *galėčiau*. *galėtum* is the second person.",
+      "rulesTested": ["conditional-formation"],
+      "vocabUsed": ["galėti"]
+    },
+    {
+      "id": "cp5-q13",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "a1-16",
+      "stem": "In a café, which is the ordinary way to order?",
+      "options": ["Duok kavos.", "Noriu kavos.", "Norėčiau kavos.", "Tegu būna kava."],
+      "correct": 2,
+      "explanation": "The conditional **norėčiau** is *I should like*, and it is what is said; *noriu* is the blunter *I want*, and the bare imperative is for friends.",
+      "rulesTested": ["conditional-politeness", "mood-choice"],
+      "vocabUsed": ["duoti", "kava", "norėti", "tegu", "būti"]
+    },
+    {
+      "id": "cp5-q14",
+      "type": "multi",
+      "difficulty": "hard",
+      "fromSection": "a1-16",
+      "stem": "Which statements about the two moods are correct?",
+      "options": [
+        "The imperative has three forms and no first person singular.",
+        "The conditional says what would happen and is not a tense.",
+        "The conditional is formed from the present stem.",
+        "*Prašom* may soften either mood."
+      ],
+      "correct": [0, 1, 3],
+      "explanation": "The conditional is formed from the **infinitive** stem, like the future and the imperative; only the present tense uses the present stem.",
+      "rulesTested": ["mood-choice", "imperative-formation", "conditional-formation"],
+      "vocabUsed": ["prašom"]
+    },
+    {
+      "id": "cp5-q15",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "a1-17",
+      "stem": "What is the adverb from **įdomus**?",
+      "options": ["įdomai", "įdomiai", "įdomesnis", "įdomi"],
+      "correct": 1,
+      "explanation": "Adjectives in **-us** make adverbs in **-iai**; only those in *-as* give *-ai*. *įdomi* is the feminine adjective.",
+      "rulesTested": ["adverb-formation"],
+      "vocabUsed": ["įdomus"]
+    },
+    {
+      "id": "cp5-q16",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "a1-17",
+      "stem": "Complete: **Ar tu kalbi ____?** (Do you speak English?)",
+      "options": ["anglų", "angliškai", "angliška", "anglas"],
+      "correct": 1,
+      "explanation": "A language after *kalbėti* is an adverb in *-iškai* and never takes a case: *angliškai*.",
+      "rulesTested": ["adverbs-iskai"],
+      "vocabUsed": ["ar", "tu", "kalbėti", "angliškai"]
+    },
+    {
+      "id": "cp5-q17",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a1-17",
+      "stem": "**Ji turi geresnę knygą.** What does the ending of *geresnę* show?",
+      "options": [
+        "That the comparative is indeclinable.",
+        "That a comparative is still an adjective and agrees with its noun in the accusative.",
+        "That *knyga* is in the genitive.",
+        "That the sentence is negated."
+      ],
+      "correct": 1,
+      "explanation": "Comparison does not take an adjective out of the declension: *geresnę* agrees with *knygą* in gender, number and case exactly as *gerą* would.",
+      "rulesTested": ["adjective-comparative", "accusative-adjectives"],
+      "vocabUsed": ["ji", "turėti", "geras", "knyga"]
+    },
+    {
+      "id": "cp5-q18",
+      "type": "multi",
+      "difficulty": "medium",
+      "fromSection": "a1-17",
+      "stem": "Which superlatives are correctly formed?",
+      "options": ["geriausias", "didžiausias", "greičiausias", "greitiausias"],
+      "correct": [0, 1, 2],
+      "explanation": "*greitiausias* is wrong: the **t** softens to *č* before the back vowel of *-iausias*, giving *greičiausias*. *didelis* likewise gives *didžiausias*, and *geras* has the irregular stem of *geriausias*.",
+      "rulesTested": ["adjective-superlative"],
+      "vocabUsed": ["geras", "didelis", "greitas"]
+    },
+    {
+      "id": "cp5-q19",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a1-17",
+      "stem": "Complete: **Dabar jaučiuosi ____.** (I feel better now.)",
+      "options": ["geras", "gerai", "geriau", "geriausiai"],
+      "correct": 2,
+      "explanation": "An adverb is compared with **-iau**: *geriau*. *gerai* is the plain degree and *geriausiai* the superlative.",
+      "rulesTested": ["adverb-degree"],
+      "vocabUsed": ["dabar", "gerai"]
+    },
+    {
+      "id": "cp5-q20",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "a1-17",
+      "stem": "Which is correct for **He is bigger than I**?",
+      "options": [
+        "Jis didesnis negu manęs.",
+        "Jis didesnis už aš.",
+        "Jis didesnis už mane.",
+        "Jis didesnis nei manimi."
+      ],
+      "correct": 2,
+      "explanation": "**Už** takes the accusative, so *mane*. With **negu** the second term would match the case of the first and give *negu aš*. Mixing the two constructions is the usual error.",
+      "rulesTested": ["comparison-negu", "pronouns-cases"],
+      "vocabUsed": ["jis", "didelis", "negu", "manęs", "už", "aš", "mane"]
+    },
+    {
+      "id": "cp5-q21",
+      "type": "integer",
+      "difficulty": "hard",
+      "fromSection": "a1-17",
+      "stem": "In **Turiu truputį laiko ir mažai pinigų**, how many words stand in the genitive?",
+      "answer": 2,
+      "unit": "words",
+      "explanation": "Two: *laiko* and *pinigų*. Adverbs of quantity — *truputį*, *mažai*, *daug*, *šiek tiek* — govern the genitive exactly as a numeral of ten or more does.",
+      "rulesTested": ["adverb-kinds", "genitive-quantity"],
+      "vocabUsed": ["turėti", "truputį", "laikas", "ir", "mažai", "pinigai"]
+    },
+    {
+      "id": "cp5-p1",
+      "type": "comprehension",
+      "difficulty": "medium",
+      "fromSection": "a1-15",
+      "title": "Kursai",
+      "passage": "Skelbimas: „Ateikite ir išmokite kalbėti lietuviškai! Mūsų kursai pigesni negu kitur, o mokytojai geriausi mieste. Skambinkite šiandien!“\n– Nežinau, ar turėsiu laiko, — sako Tomas. — Dirbu iki penktos.\n– Gal galėtumėte ateiti vakarais? Vakariniai kursai prasideda šeštą.\n– Tada gerai. Bet kalbėkite lėčiau, prašom: dar nesuprantu greitai.\n– Nesijaudinkite. Jeigu ateisite kiekvieną savaitę, po mėnesio suprasite daug geriau.",
+      "translation": "An advertisement: \"Come and learn to speak Lithuanian! Our courses are cheaper than elsewhere, and our teachers are the best in town. Ring today!\" — \"I don't know whether I shall have time,\" says Tomas. \"I work until five.\" — \"Could you come in the evenings, perhaps? The evening courses begin at six.\" — \"Then that's fine. But speak more slowly, please: I still don't understand quickly.\" — \"Don't worry. If you come every week, in a month you will understand much better.\"",
+      "glossary": {
+        "skelbimas": "advertisement, notice",
+        "kursai": "courses (pl.)",
+        "kitur": "elsewhere",
+        "vakariniai": "evening (adj.)",
+        "prasideda": "begin (prasidėti)",
+        "nesijaudinkite": "don't worry",
+        "kiekvieną": "every"
+      },
+      "questions": [
+        {
+          "id": "cp5-p1-q1",
+          "type": "single",
+          "difficulty": "easy",
+          "fromSection": "a1-15",
+          "stem": "Kodėl Tomas nežino, ar ateis?",
+          "options": [
+            "Nes kursai brangūs.",
+            "Nes jis dirba iki penktos.",
+            "Nes jis nekalba lietuviškai.",
+            "Nes kursai prasideda šeštą."
+          ],
+          "correct": 1,
+          "explanation": "*Nežinau, ar turėsiu laiko … Dirbu iki penktos.* The reported yes-or-no question is introduced by **ar**, which serves for both *whether* and *if* in this sense.",
+          "rulesTested": ["indirect-questions", "nes-todel"],
+          "vocabUsed": ["nes", "dirbti", "iki", "penktas", "kalbėti", "lietuviškai", "brangus"]
+        },
+        {
+          "id": "cp5-p1-q2",
+          "type": "multi",
+          "difficulty": "medium",
+          "fromSection": "a1-16",
+          "stem": "Which forms in the passage are **imperatives**?",
+          "options": ["Ateikite", "Skambinkite", "kalbėkite", "galėtumėte"],
+          "correct": [0, 1, 2],
+          "explanation": "The first three are plural imperatives — the form advertisements and requests both use. *galėtumėte* is a conditional, the mood of asking rather than of telling.",
+          "rulesTested": ["imperative-formation", "imperative-notices", "conditional-formation"],
+          "vocabUsed": ["ateiti", "skambinti", "kalbėti", "galėti"]
+        },
+        {
+          "id": "cp5-p1-q3",
+          "type": "integer",
+          "difficulty": "hard",
+          "fromSection": "a1-17",
+          "stem": "How many words in the passage stand in the **comparative** degree, whether adjective or adverb?",
+          "answer": 3,
+          "unit": "words",
+          "explanation": "Three: *pigesni* (adjective, agreeing with *kursai*), *lėčiau* and *geriau* (adverbs, unchanging). *geriausi* is a superlative, not a comparative, and *greitai* is the plain degree.",
+          "rulesTested": ["adjective-comparative", "adverb-degree", "adjective-superlative", "comparison-negu"],
+          "vocabUsed": ["pigus", "lėtai", "gerai", "greitai"]
+        }
+      ]
+    }
+  ]
+}

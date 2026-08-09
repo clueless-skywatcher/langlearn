@@ -1,0 +1,310 @@
+{
+  "id": "a1-14",
+  "kind": "lesson",
+  "level": "A1",
+  "order": 17,
+  "title": "The Future",
+  "summary": "The simplest tense in the language: one marker, **-s-**, inserted between the stem and the ending, and one set of endings for every verb there is. The only difficulty is what happens when the stem already ends in a consonant that will not stand beside an s.",
+  "rules": [
+    {
+      "id": "future-formation",
+      "number": "94",
+      "heading": "The Future Formed with -s-",
+      "statement": "The future is built from the **infinitive** stem — the infinitive less its *-ti* — with **-s-** and the endings below. There is no division into conjugations here and no second stem to learn: whatever a verb does in the present and the past, its future is regular.",
+      "paradigms": [
+        {
+          "caption": "dirbti → the future",
+          "columns": ["person", "singular", "plural"],
+          "rows": [
+            { "label": "1", "cells": ["dirbsiu", "dirbsime"] },
+            { "label": "2", "cells": ["dirbsi", "dirbsite"] },
+            { "label": "3", "cells": ["dirbs", "dirbs"] }
+          ],
+          "footnote": "The third person is the bare stem with *-s* and nothing after it, and it serves both numbers as in the other tenses (¶57)."
+        }
+      ],
+      "examples": [
+        { "target": "Rytoj skaitysiu knygą.", "gloss": "Tomorrow I shall read a book." },
+        { "target": "Mes važiuosime į Vilnių.", "gloss": "We shall go to Vilnius." },
+        { "target": "Ką tu darysi?", "gloss": "What will you do?" }
+      ],
+      "seeAlso": ["present-stem", "past-stem", "verb-number"],
+      "core": true
+    },
+    {
+      "id": "future-consonant-changes",
+      "number": "95",
+      "heading": "Consonant Changes before the -s-",
+      "statement": "Where the infinitive stem already ends in **s, z, š, ž**, the marker cannot be heard beside it and the two merge into one consonant. Where it ends in **d** or **t**, that consonant becomes **s**. The endings are untouched; only the joint is affected, and the change is one of pronunciation written down rather than a grammatical irregularity.",
+      "paradigms": [
+        {
+          "caption": "Stems that alter",
+          "columns": ["infinitive", "stem", "future 1 sg.", "future 3"],
+          "rows": [
+            { "label": "d → s", "cells": ["vesti", "ved-", "vesiu", "ves"] },
+            { "label": "t → s", "cells": ["mesti", "met-", "mesiu", "mes"] },
+            { "label": "š + s → š", "cells": ["nešti", "neš-", "nešiu", "neš"] },
+            { "label": "ž + s → š", "cells": ["grįžti", "grįž-", "grįšiu", "grįš"] },
+            { "label": "no change", "cells": ["dirbti", "dirb-", "dirbsiu", "dirbs"] }
+          ],
+          "footnote": "Verbs whose stem ends in a vowel — *skaity-*, *kalbė-*, *važiuo-* — never alter: *skaitysiu*, *kalbėsiu*, *važiuosiu*."
+        }
+      ],
+      "examples": [
+        { "target": "Rytoj grįšiu namo.", "gloss": "Tomorrow I shall return home.", "note": "*grįž-* + *-s-* gives *grįš-*" },
+        { "target": "Jis neš knygas.", "gloss": "He will carry the books." }
+      ],
+      "seeAlso": ["future-formation", "spelling-phonemic"],
+      "core": true
+    },
+    {
+      "id": "future-buti",
+      "number": "96",
+      "heading": "The Future of Būti",
+      "statement": "**Būti** follows the rule exactly, and its third person **bus** is among the most useful words in the language: it does duty for *there will be*, *it will be*, and *they will be* together, and it is what a Lithuanian says when asked whether something is going to happen.",
+      "paradigms": [
+        {
+          "caption": "būti → the future",
+          "columns": ["person", "singular", "plural"],
+          "rows": [
+            { "label": "1", "cells": ["būsiu", "būsime"] },
+            { "label": "2", "cells": ["būsi", "būsite"] },
+            { "label": "3", "cells": ["bus", "bus"] }
+          ]
+        }
+      ],
+      "examples": [
+        { "target": "Rytoj būsiu namie.", "gloss": "Tomorrow I shall be at home." },
+        { "target": "Ar bus kavos?", "gloss": "Will there be coffee?", "note": "genitive after an existential question, as with *yra* and *nėra*" },
+        { "target": "Bus gerai.", "gloss": "It will be all right." }
+      ],
+      "seeAlso": ["future-formation", "buti-present", "past-buti"],
+      "core": true
+    },
+    {
+      "id": "future-negation",
+      "number": "97",
+      "heading": "Negation in the Future",
+      "statement": "As in the other tenses, **ne-** is written onto the front of the verb and the object of the negated verb passes into the **genitive**. Nothing new is needed; what is needed is the habit, since a learner who has mastered the genitive of negation in the present often loses it the moment the tense changes.",
+      "examples": [
+        { "target": "Rytoj nedirbsiu.", "gloss": "Tomorrow I shall not work." },
+        { "target": "Aš nepirksiu šios knygos.", "gloss": "I shall not buy this book.", "note": "genitive *knygos*, not accusative *knygą*" },
+        { "target": "Jų nebus.", "gloss": "They will not be there." }
+      ],
+      "seeAlso": ["negation", "negation-genitive", "past-negation"],
+      "core": true
+    },
+    {
+      "id": "future-uses",
+      "number": "98",
+      "heading": "Saying What Will Happen",
+      "statement": "The future serves for intention, for promise and for prediction alike; Lithuanian has no separate *going to*. Its usual markers are **rytoj** (tomorrow), **kitą savaitę** (next week) and **po** with the genitive (¶33). Note that where English uses a present tense after *when* and *if* in speaking of the future, Lithuanian uses the **future** there too, and says what it means.",
+      "paradigms": [
+        {
+          "caption": "Where English changes tense and Lithuanian does not",
+          "columns": ["Lithuanian", "English", "note"],
+          "rows": [
+            { "label": "plain", "cells": ["Rytoj dirbsiu.", "Tomorrow I shall work.", "prediction"] },
+            { "label": "promise", "cells": ["Padarysiu.", "I'll do it.", "no pronoun needed"] },
+            { "label": "after when", "cells": ["Kai grįšiu, skambinsiu.", "When I get back, I'll ring.", "future in both halves"] }
+          ]
+        }
+      ],
+      "examples": [
+        { "target": "Kitą savaitę važiuosime prie jūros.", "gloss": "Next week we shall go to the seaside." },
+        { "target": "Po mėnesio jis bus Lietuvoje.", "gloss": "In a month he will be in Lithuania." }
+      ],
+      "seeAlso": ["future-formation", "time-prepositions", "accusative-of-time"],
+      "core": true
+    }
+  ],
+  "vocabulary": [
+    { "lemma": "rytoj", "gloss": "tomorrow", "pos": "adverb" },
+    { "lemma": "kitas", "gloss": "other, next", "pos": "adjective", "forms": { "masc": "kitas", "fem": "kita" } },
+    { "lemma": "grįžti", "gloss": "to return, to come back", "pos": "verb", "forms": { "inf": "grįžti", "pres3": "grįžta", "past3": "grįžo", "conj": "I" } },
+    { "lemma": "nešti", "gloss": "to carry", "pos": "verb", "forms": { "inf": "nešti", "pres3": "neša", "past3": "nešė", "conj": "I" } },
+    { "lemma": "vesti", "gloss": "to lead, to take (someone somewhere)", "pos": "verb", "forms": { "inf": "vesti", "pres3": "veda", "past3": "vedė", "conj": "I" } },
+    { "lemma": "daryti", "gloss": "to do, to make", "pos": "verb", "forms": { "inf": "daryti", "pres3": "daro", "past3": "darė", "conj": "III" } },
+    { "lemma": "jūra", "gloss": "sea", "pos": "noun", "forms": { "nom": "jūra", "gen": "jūros", "acc": "jūrą", "gender": "f." } },
+    { "lemma": "kai", "gloss": "when (in a statement)", "pos": "conjunction" }
+  ],
+  "drills": [
+    {
+      "id": "a114-q1",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "What is the future first person singular of **dirbti**?",
+      "options": ["dirbu", "dirbau", "dirbsiu", "dirbs"],
+      "correct": 2,
+      "explanation": "Stem *dirb-* plus the marker **-s-** plus the ending **-iu**: *dirbsiu*. *dirbs* is the third person.",
+      "rulesTested": ["future-formation"],
+      "vocabUsed": ["dirbti"]
+    },
+    {
+      "id": "a114-q2",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete: **Rytoj ____ namie.** (Tomorrow I shall be at home.)",
+      "options": ["esu", "buvau", "būsiu", "bus"],
+      "correct": 2,
+      "explanation": "*būti* is regular in the future: *būsiu*. *bus* would be the third person — *he will be*, or *there will be*.",
+      "rulesTested": ["future-buti", "future-formation"],
+      "vocabUsed": ["rytoj", "būti", "namie"]
+    },
+    {
+      "id": "a114-q3",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "What is the future third person of **skaityti**?",
+      "options": ["skaito", "skaitė", "skaitys", "skaitysiu"],
+      "correct": 2,
+      "explanation": "The stem *skaity-* ends in a vowel, so nothing alters: *skaity-* + *-s* gives **skaitys**, serving both singular and plural.",
+      "rulesTested": ["future-formation", "future-consonant-changes"],
+      "vocabUsed": ["skaityti"]
+    },
+    {
+      "id": "a114-q4",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Why is the future of **grįžti** *grįšiu* and not *grįžsiu*?",
+      "options": [
+        "Because *grįžti* is irregular and must be memorised.",
+        "Because a stem ending in ž merges with the -s- marker into a single š.",
+        "Because the first person always drops a consonant.",
+        "Because *grįžti* has no future."
+      ],
+      "correct": 1,
+      "explanation": "Stems in **s, z, š, ž** absorb the marker; *grįž-* + *-s-* gives *grįš-*. It is a change of sound written down, not an irregularity: the endings are the ordinary ones.",
+      "rulesTested": ["future-consonant-changes"],
+      "vocabUsed": ["grįžti"]
+    },
+    {
+      "id": "a114-q5",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "In which of these does the stem **change** before the -s- of the future?",
+      "options": ["vesti", "dirbti", "nešti", "kalbėti"],
+      "correct": [0, 2],
+      "explanation": "*ved-* becomes *ves-* (d → s) and *neš-* absorbs the marker to give *neš-*. *dirb-* ends in b and *kalbė-* in a vowel, so both are untouched: *dirbsiu*, *kalbėsiu*.",
+      "rulesTested": ["future-consonant-changes", "future-formation"],
+      "vocabUsed": ["vesti", "dirbti", "nešti", "kalbėti"]
+    },
+    {
+      "id": "a114-q6",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Aš nepirksiu šios ____.** (I shall not buy this book.)",
+      "options": ["knyga", "knygą", "knygos", "knygai"],
+      "correct": 2,
+      "explanation": "A negated verb puts its object in the genitive, in the future as in every other tense: *knygos*. The demonstrative *šios* is in the genitive with it.",
+      "rulesTested": ["future-negation", "negation-genitive"],
+      "vocabUsed": ["aš", "pirkti", "šis", "knyga"]
+    },
+    {
+      "id": "a114-q7",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "**Kai grįšiu, skambinsiu.** Why is the first verb in the future and not the present?",
+      "options": [
+        "Because *kai* governs the future.",
+        "Because Lithuanian puts a future meaning into the future tense in both halves, where English uses a present after *when*.",
+        "Because *grįžti* has no present.",
+        "Because the two verbs must always match in tense."
+      ],
+      "correct": 1,
+      "explanation": "English says *when I get back* with a present; Lithuanian says what it means and uses the future. *kai* governs nothing — it merely joins.",
+      "rulesTested": ["future-uses", "future-formation"],
+      "vocabUsed": ["kai", "grįžti", "skambinti"]
+    },
+    {
+      "id": "a114-q8",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which of these are correctly formed futures?",
+      "options": ["važiuosime", "mesiu", "būsite", "grįžsi"],
+      "correct": [0, 1, 2],
+      "explanation": "*grįžsi* is wrong: the ž absorbs the marker, giving **grįši**. The other three are regular — a vowel stem, a t → s stem, and *būti*.",
+      "rulesTested": ["future-formation", "future-consonant-changes", "future-buti"],
+      "vocabUsed": ["važiuoti", "grįžti", "būti"]
+    },
+    {
+      "id": "a114-q9",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**Ar bus kavos?** Why is *kavos* genitive?",
+      "options": [
+        "Because *bus* is negated.",
+        "Because the question asks whether any coffee will exist, and existence takes the genitive as *nėra* does.",
+        "Because *ar* governs the genitive.",
+        "Because *kava* has no nominative."
+      ],
+      "correct": 1,
+      "explanation": "The construction is the existential one: it asks whether there will be *any* coffee, and Lithuanian puts what may or may not exist into the genitive. *ar* is a particle and governs nothing (¶48).",
+      "rulesTested": ["future-buti", "genitive-quantity", "ar-questions"],
+      "vocabUsed": ["ar", "būti", "kava"]
+    },
+    {
+      "id": "a114-q10",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "Counting the present, the past and the future, how many **distinct sets of personal endings** must a learner know to conjugate any Lithuanian verb at this level?",
+      "answer": 6,
+      "unit": "sets",
+      "explanation": "Three in the present (¶38), two in the past (¶89, ¶90), and one in the future — six. The future's single set is what makes it the easiest tense in the language, and it is why the dictionary needs only three principal parts and no fourth.",
+      "rulesTested": ["future-formation", "past-o-type", "past-e-type", "conjugation-summary"],
+      "vocabUsed": []
+    },
+    {
+      "id": "a114-p1",
+      "type": "comprehension",
+      "difficulty": "medium",
+      "title": "Kitą savaitę",
+      "passage": "Kitą savaitę mes važiuosime prie jūros. Išvažiuosime penktadienį vakare ir grįšime sekmadienį. Ten bus šilta, bet vakarais bus vėsu. Aš nešiu didelį krepšį, o brolis neš maistą. Rūta sakė, kad ji nevažiuos — ji dirbs. „Kai grįšite, papasakosite“, — sakė ji. Po mėnesio mes visi būsime Vilniuje.",
+      "translation": "Next week we shall go to the seaside. We shall leave on Friday evening and return on Sunday. It will be warm there, but in the evenings it will be cool. I shall carry a large bag, and my brother will carry the food. Rūta said that she will not go — she will be working. \"When you get back, you'll tell me about it,\" she said. In a month we shall all be in Vilnius.",
+      "glossary": {
+        "išvažiuosime": "we shall leave (išvažiuoti)",
+        "šilta": "warm",
+        "vėsu": "cool",
+        "krepšys": "bag",
+        "maistas": "food",
+        "papasakosite": "you will tell (papasakoti)",
+        "visi": "all"
+      },
+      "questions": [
+        {
+          "id": "a114-p1-q1",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "Kada jie grįš?",
+          "options": ["penktadienį", "šeštadienį", "sekmadienį", "kitą mėnesį"],
+          "correct": 2,
+          "explanation": "*grįšime sekmadienį* — the days of departure and return are both accusatives of time (¶83), naming single occasions.",
+          "rulesTested": ["future-consonant-changes", "accusative-of-time", "days-of-week"],
+          "vocabUsed": ["penktadienis", "šeštadienis", "sekmadienis", "kitas", "mėnuo"]
+        },
+        {
+          "id": "a114-p1-q2",
+          "type": "multi",
+          "difficulty": "medium",
+          "stem": "Which future forms in the passage come from stems whose final consonant **merged** with the -s- marker?",
+          "options": ["grįšime", "nešiu", "neš", "dirbs"],
+          "correct": [0, 1, 2],
+          "explanation": "*grįž-* and *neš-* both absorb the marker. *dirb-* ends in b, which stands beside an s perfectly well, so *dirbs* keeps both consonants.",
+          "rulesTested": ["future-consonant-changes"],
+          "vocabUsed": ["grįžti", "nešti", "dirbti"]
+        },
+        {
+          "id": "a114-p1-q3",
+          "type": "integer",
+          "difficulty": "hard",
+          "stem": "How many **negated** verbs does the passage contain?",
+          "answer": 1,
+          "unit": "verbs",
+          "explanation": "One: *nevažiuos*, Rūta's refusal. The negative is written onto the front of the verb as a single word (¶97), which is what makes it easy to overlook when counting.",
+          "rulesTested": ["future-negation", "negation"],
+          "vocabUsed": ["važiuoti"]
+        }
+      ]
+    }
+  ]
+}

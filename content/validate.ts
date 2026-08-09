@@ -7,6 +7,7 @@ import {
   type Section,
 } from "./schema";
 import { loadCoursePack, type CoursePack } from "./loader";
+import { teluguRuns } from "@/lib/translit";
 
 /**
  * Integrity checks that the Zod schema cannot express, because they are about
@@ -39,7 +40,112 @@ export const CHECKPOINT_TARGETS = {
 export const LESSON_TARGETS = {
   minQuestions: 8,
   maxQuestions: 14,
+  /**
+   * A section teaching a writing system may run longer. A grammatical rule has
+   * a handful of applications worth drilling; an alphabet has one atom per
+   * letter, and a learner meeting a new script needs volume rather than depth.
+   */
+  maxQuestionsWithScript: 24,
 } as const;
+
+/** The drill-set ceiling for a lesson, which depends on whether it teaches a script. */
+export function lessonMaxQuestions(hasScript: boolean): number {
+  return hasScript
+    ? LESSON_TARGETS.maxQuestionsWithScript
+    : LESSON_TARGETS.maxQuestions;
+}
+
+/**
+ * A course written in a non-Latin script declares `transliteration` in its
+ * course file, and the UI then derives a romanization for every piece of
+ * target-language text it renders (see `lib/markdown.ts`). That is what keeps
+ * the course completable by a learner who skipped the sections teaching the
+ * script — a multiple-choice question whose four options are unreadable is not
+ * a hard question, it is an unanswerable one.
+ *
+ * Because the romanization is derived rather than stored, the content cannot
+ * fall out of step with it. The one thing that *can* go wrong is a character
+ * the transliterator does not know, which would pass through untouched and
+ * leave the learner with script they cannot read. That is what this checks.
+ */
+function transliterationProblems(pack: CoursePack): Problem[] {
+  const problems: Problem[] = [];
+  if (!pack.course.transliteration?.required) return problems;
+
+  const unmapped = new Map<string, string>();
+
+  const check = (where: string, text: string | undefined) => {
+    if (!text) return;
+    for (const run of teluguRuns(text)) {
+      for (const ch of run.roman) {
+        // Anything still in the Telugu block survived transliteration.
+        if (ch >= "\u0C00" && ch <= "\u0C7F" && !unmapped.has(ch)) {
+          unmapped.set(ch, where);
+        }
+      }
+    }
+  };
+
+  for (const section of pack.sections) {
+    const at = section.id;
+    check(at, section.title);
+    check(at, section.summary);
+
+    if (!isCheckpoint(section)) {
+      check(at, section.script?.heading);
+      section.script?.letters.forEach((l) => check(at, l.glyph));
+      section.script?.notes.forEach((n) => check(at, n));
+      for (const rule of section.rules) {
+        check(at, rule.heading);
+        check(at, rule.statement);
+        rule.footnotes.forEach((f) => check(at, f));
+        for (const ex of rule.examples) {
+          check(at, ex.target);
+          check(at, ex.note);
+        }
+        for (const p of rule.paradigms) {
+          check(at, p.caption);
+          check(at, p.footnote);
+          p.columns.forEach((c) => check(at, c));
+          for (const row of p.rows) {
+            check(at, row.label);
+            row.cells.forEach((c) => check(at, c));
+          }
+        }
+      }
+      for (const v of section.vocabulary) {
+        check(at, v.lemma);
+        check(at, v.gloss);
+        check(at, v.notes);
+      }
+    }
+
+    for (const drill of section.drills) {
+      if (drill.type === "comprehension") {
+        check(at, drill.title);
+        check(at, drill.passage);
+        Object.keys(drill.glossary).forEach((w) => check(at, w));
+      }
+      const children =
+        drill.type === "comprehension" ? drill.questions : [drill];
+      for (const q of children) {
+        check(at, q.stem);
+        check(at, q.explanation);
+        if (q.type !== "integer") q.options.forEach((o) => check(at, o));
+      }
+    }
+  }
+
+  for (const [ch, where] of unmapped) {
+    problems.push({
+      severity: "error",
+      where,
+      message: `the transliterator has no reading for ${JSON.stringify(ch)} (U+${ch.codePointAt(0)!.toString(16).toUpperCase().padStart(4, "0")}), so it would reach the learner unromanized`,
+    });
+  }
+
+  return problems;
+}
 
 /** From B1 up, comprehension carries more of the weight. */
 const HEAVY_COMPREHENSION_LEVELS = new Set(["B1", "B2", "C1", "C2"]);
@@ -169,13 +275,14 @@ export function validateCoursePack(pack: CoursePack): Problem[] {
 
     /* ------------------------------------------------------ lesson sections */
 
+    const maxQuestions = lessonMaxQuestions(!!section.script);
     if (
       questions.length < LESSON_TARGETS.minQuestions ||
-      questions.length > LESSON_TARGETS.maxQuestions
+      questions.length > maxQuestions
     ) {
       err(
         section.id,
-        `a lesson should carry ${LESSON_TARGETS.minQuestions}–${LESSON_TARGETS.maxQuestions} questions; this one has ${questions.length}`,
+        `a lesson should carry ${LESSON_TARGETS.minQuestions}–${maxQuestions} questions${section.script ? " (it teaches a script, so the ceiling is raised)" : ""}; this one has ${questions.length}`,
       );
     }
 
@@ -241,6 +348,8 @@ export function validateCoursePack(pack: CoursePack): Problem[] {
       warn(section.id, "not yet covered by a checkpoint");
     }
   });
+
+  problems.push(...transliterationProblems(pack));
 
   return problems;
 }

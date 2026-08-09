@@ -203,23 +203,23 @@
       "id": "eo103-q7",
       "type": "multi",
       "difficulty": "medium",
-      "stem": "In **La grandaj ĉevaloj kuras en la verdaj kampoj**, which words carry the plural -j?",
-      "options": ["grandaj", "kuras", "kampoj", "la"],
-      "correct": [0, 2],
-      "explanation": "Adjectives and nouns take -j; the verb and the article never do.",
-      "rulesTested": ["plural-j", "adjective-plural", "article-invariable"],
-      "vocabUsed": ["la", "granda", "ĉevalo", "kuras", "en", "verda", "kampo"]
+      "stem": "**La bona knabo estas forta.** If the sentence spoke of several boys, which of its words would change form?",
+      "options": ["la", "bona", "knabo", "forta"],
+      "correct": [1, 2, 3],
+      "explanation": "Three change: *bona* → *bonaj* agreeing attributively, *knabo* → *knaboj*, and *forta* → *fortaj*, a predicate adjective agreeing in number just as an attributive one does (¶21). *la* is invariable, and so is *estas* (¶18).",
+      "rulesTested": ["plural-j", "adjective-plural", "article-invariable", "predicate-agreement"],
+      "vocabUsed": ["la", "bona", "knabo", "estas", "forta"]
     },
     {
       "id": "eo103-q8",
       "type": "integer",
       "difficulty": "hard",
-      "stem": "In **Freŝaj floroj kuŝas sur la longa tablo**, how many words carry the plural ending **-j**?",
+      "stem": "**La freŝa floro kuŝas sur la longa tablo.** If there were several flowers but still only one table, how many words would change form?",
       "answer": 2,
       "unit": "words",
-      "explanation": "Two: *freŝaj* and *floroj*. The table is singular, so *longa* and *tablo* keep the singular; *kuŝas*, *sur* and *la* can never take -j at all.",
+      "explanation": "Two: *freŝa* → *freŝaj* and *floro* → *floroj*. Neither *la* changes (¶18), nor does *kuŝas* — one verb form serves both numbers — and the table's own words stay singular, the table not having multiplied.",
       "rulesTested": ["plural-j", "adjective-plural", "article-invariable"],
-      "vocabUsed": ["freŝa", "floro", "kuŝas", "sur", "la", "longa", "tablo"]
+      "vocabUsed": ["la", "freŝa", "floro", "kuŝas", "sur", "longa", "tablo"]
     },
     {
       "id": "eo103-q9",
@@ -272,12 +272,12 @@
           "id": "eo103-p1-q3",
           "type": "integer",
           "difficulty": "hard",
-          "stem": "How many **plural nouns** appear in the passage?",
-          "answer": 7,
-          "unit": "nouns",
-          "explanation": "Seven: birdoj, ĉambroj, floroj, kolomboj, birdoj (a second time, in the predicate), arboj, folioj. Every one is recognisable by -oj, and each is accompanied by adjectives in -aj.",
-          "rulesTested": ["plural-j", "adjective-plural"],
-          "vocabUsed": ["birdo", "ĉambro", "floro", "kolombo", "arbo", "folio"]
+          "stem": "The passage has eight sentences. In how many of them is the **subject** singular?",
+          "answer": 2,
+          "unit": "sentences",
+          "explanation": "Two: *La alta viro estas en la ĝardeno* and *Blanka ĉevalo estas en la kampo*. The other six open with a plural subject. Counting singular nouns instead gives a much larger number, because *la ĝardeno*, *la kampo*, *la verda arbo*, *la bela domo* and *la tablo* are all singular and none of them is a subject.",
+          "rulesTested": ["plural-j", "subject", "adjective-plural"],
+          "vocabUsed": ["alta", "viro", "estas", "en", "ĝardeno", "blanka", "ĉevalo", "kampo"]
         }
       ]
     }

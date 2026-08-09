@@ -1,0 +1,568 @@
+{
+  "id": "te-cp-02",
+  "kind": "checkpoint",
+  "level": "A1",
+  "order": 8,
+  "title": "Checkpoint: Reading Telugu",
+  "summary": "A cumulative examination of sections four to six: the vowel signs and the guṇintam, the pollu and the subjoined consonants, the digits, and the verbless sentence. By the end of it a learner can read a Telugu word aloud and say what it means.",
+  "covers": [
+    "te-04",
+    "te-05",
+    "te-06"
+  ],
+  "passThreshold": 60,
+  "drills": [
+    {
+      "id": "tecp2-q1",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "te-04",
+      "stem": "What does **మా** stand for?",
+      "options": [
+        "ma",
+        "mā",
+        "mi",
+        "mu"
+      ],
+      "correct": 1,
+      "explanation": "The sign ా, written to the right, replaces the inherent అ with ā. The same sign gives కా, తా and every other long-ā syllable.",
+      "rulesTested": [
+        "vowel-signs",
+        "gunintam"
+      ],
+      "vocabUsed": [
+        "గుణింతం"
+      ]
+    },
+    {
+      "id": "tecp2-q2",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "te-04",
+      "stem": "Which vowel is written with **no sign at all**?",
+      "options": [
+        "అ",
+        "ఇ",
+        "ఉ",
+        "ఏ"
+      ],
+      "correct": 0,
+      "explanation": "అ needs none — it is already inside every consonant. Fifteen of the sixteen vowels have signs, and this is the one that does not.",
+      "rulesTested": [
+        "no-sign-for-a",
+        "inherent-vowel"
+      ],
+      "vocabUsed": [
+        "అచ్చులు",
+        "గుణింతం"
+      ]
+    },
+    {
+      "id": "tecp2-q3",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "te-04",
+      "stem": "Read **నది**.",
+      "options": [
+        "nadi",
+        "nādi",
+        "nidi",
+        "nadī"
+      ],
+      "correct": 0,
+      "explanation": "The first consonant bears no sign and so keeps అ; the second has the i sign above it. A reader who supplies nothing where nothing is written has read correctly.",
+      "rulesTested": [
+        "reading-syllable",
+        "no-sign-for-a"
+      ],
+      "vocabUsed": [
+        "నది"
+      ]
+    },
+    {
+      "id": "tecp2-q4",
+      "type": "multi",
+      "difficulty": "medium",
+      "fromSection": "te-04",
+      "stem": "Which of these signs are written **below** the consonant?",
+      "options": [
+        "ు",
+        "ే",
+        "ూ",
+        "ా"
+      ],
+      "correct": [
+        0,
+        2
+      ],
+      "explanation": "ు and ూ hang below. ే sits above and ా is written to the right — the three positions that make the syllable, and not the mark, the unit of reading.",
+      "rulesTested": [
+        "sign-positions"
+      ],
+      "vocabUsed": [
+        "గుణింతం"
+      ]
+    },
+    {
+      "id": "tecp2-q5",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "te-04",
+      "stem": "Why are **ఉ** and **ు** two shapes for one vowel?",
+      "options": [
+        "They are different vowels transliterated alike.",
+        "ఉ is written where no consonant precedes; ు is written on a consonant.",
+        "ఉ is long and ు short.",
+        "ఉ is archaic."
+      ],
+      "correct": 1,
+      "explanation": "One vowel, two situations: the independent letter for the start of a word, the sign for everywhere else. Every vowel but అ has both shapes.",
+      "rulesTested": [
+        "vowel-signs",
+        "independent-vowels"
+      ],
+      "vocabUsed": [
+        "అచ్చులు",
+        "గుణింతం"
+      ]
+    },
+    {
+      "id": "tecp2-q6",
+      "type": "integer",
+      "difficulty": "hard",
+      "fromSection": "te-04",
+      "stem": "How many **vowel signs** must be learned in all, given that every consonant uses the same set?",
+      "answer": 15,
+      "unit": "signs",
+      "explanation": "Fifteen: sixteen vowels less అ. Those fifteen marks unlock all thirty-six guṇintams at once, which is why they repay study more than the letters do.",
+      "rulesTested": [
+        "no-sign-for-a",
+        "gunintam",
+        "vowel-signs"
+      ],
+      "vocabUsed": [
+        "గుణింతం",
+        "అచ్చులు"
+      ]
+    },
+    {
+      "id": "tecp2-q7",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "te-04",
+      "stem": "A learner has memorised all fifty-two letters and still cannot read a printed page. Why most likely?",
+      "options": [
+        "Printed Telugu uses a different alphabet.",
+        "Several vowel signs reshape the top of the consonant, so the letters on the page do not match those on the chart.",
+        "The words are printed right to left.",
+        "The letters are in a different order on the page."
+      ],
+      "correct": 1,
+      "explanation": "క, కి and కె are one consonant in three dresses (¶24). The chart teaches thirty-six shapes; the page shows each of them in sixteen.",
+      "rulesTested": [
+        "sign-shape-change",
+        "talakattu"
+      ],
+      "vocabUsed": [
+        "తలకట్టు",
+        "గుణింతం"
+      ]
+    },
+    {
+      "id": "tecp2-q8",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "te-05",
+      "stem": "What does the **పొల్లు** do to a consonant?",
+      "options": [
+        "It doubles it.",
+        "It takes away its inherent vowel.",
+        "It lengthens its vowel.",
+        "It nasalises it."
+      ],
+      "correct": 1,
+      "explanation": "క is *ka*, క్ is *k*. It is the only way to write a bare consonant, and it is what other Indian scripts call the virāma.",
+      "rulesTested": [
+        "pollu",
+        "inherent-vowel"
+      ],
+      "vocabUsed": [
+        "పొల్లు"
+      ]
+    },
+    {
+      "id": "tecp2-q9",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "te-05",
+      "stem": "What is **౭ (7) (7)**?",
+      "options": [
+        "4",
+        "6",
+        "7",
+        "9"
+      ],
+      "correct": 2,
+      "explanation": "౭ (7) (7) is seven, *ēḍu*.",
+      "rulesTested": [
+        "telugu-digits"
+      ],
+      "vocabUsed": [
+        "అంకె"
+      ]
+    },
+    {
+      "id": "tecp2-q10",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "te-05",
+      "stem": "Two consonants meet inside a word with no vowel between them. How is that written?",
+      "options": [
+        "With a pollu on the first.",
+        "With the second subjoined beneath the first, as an ఒత్తు.",
+        "With the anusvāra between them.",
+        "With a vowel sign on each."
+      ],
+      "correct": 1,
+      "explanation": "The pollu belongs chiefly to the end of a word; within one, the two consonants are joined into a single written unit. The anusvāra does the work only where the first is a nasal of the second's varga.",
+      "rulesTested": [
+        "vattulu",
+        "pollu"
+      ],
+      "vocabUsed": [
+        "ఒత్తు",
+        "పొల్లు"
+      ]
+    },
+    {
+      "id": "tecp2-q11",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "te-05",
+      "stem": "Why is a subjoined consonant hard to recognise?",
+      "options": [
+        "It stands for a different sound from the full letter.",
+        "It is reduced and loses its తలకట్టు, so it no longer matches the chart.",
+        "It is written above the letter.",
+        "It is written in a different script."
+      ],
+      "correct": 1,
+      "explanation": "The sound is unchanged; only the shape is reduced. Learning the thirty-six ottu forms is a second labour after learning the thirty-six letters.",
+      "rulesTested": [
+        "ottu-shape",
+        "talakattu"
+      ],
+      "vocabUsed": [
+        "ఒత్తు",
+        "తలకట్టు"
+      ]
+    },
+    {
+      "id": "tecp2-q12",
+      "type": "multi",
+      "difficulty": "medium",
+      "fromSection": "te-05",
+      "stem": "Which of these words contain a **doubled** consonant?",
+      "options": [
+        "ఇల్లు",
+        "నది",
+        "అమ్మ",
+        "పులి"
+      ],
+      "correct": [
+        0,
+        2
+      ],
+      "explanation": "ఇల్లు has ll and అమ్మ has mm, each written as a letter conjoined with itself and each held longer in speech. నది and పులి have plain consonants with vowels between them.",
+      "rulesTested": [
+        "doubled-consonants",
+        "vattulu"
+      ],
+      "vocabUsed": [
+        "ఇల్లు",
+        "నది",
+        "అమ్మ",
+        "పులి"
+      ]
+    },
+    {
+      "id": "tecp2-q13",
+      "type": "integer",
+      "difficulty": "hard",
+      "fromSection": "te-05",
+      "stem": "**పుస్తకం** — how many syllables?",
+      "answer": 3,
+      "unit": "syllables",
+      "explanation": "Three: *pu-sta-kaṃ*. The conjunct స్త is one written unit and one syllable though it holds two consonants. Answering four counts consonants rather than units.",
+      "rulesTested": [
+        "reading-a-word",
+        "vattulu"
+      ],
+      "vocabUsed": [
+        "పుస్తకం",
+        "ఒత్తు"
+      ]
+    },
+    {
+      "id": "tecp2-q14",
+      "type": "integer",
+      "difficulty": "hard",
+      "fromSection": "te-05",
+      "stem": "What number is **౪౦౨ (402) (402)**?",
+      "answer": 402,
+      "unit": "",
+      "explanation": "Four hundred and two. The digits are positional exactly as the European ones are — which is unsurprising, the European digits being Indian by descent.",
+      "rulesTested": [
+        "telugu-digits"
+      ],
+      "vocabUsed": [
+        "అంకె",
+        "సున్నా"
+      ]
+    },
+    {
+      "id": "tecp2-q15",
+      "type": "multi",
+      "difficulty": "hard",
+      "fromSection": "te-05",
+      "stem": "Which statements about the pollu and the ottu are correct?",
+      "options": [
+        "Both remove a vowel between two consonants.",
+        "The ottu is used chiefly inside a word, the pollu chiefly at its end.",
+        "A consonant written as an ottu keeps its full shape.",
+        "The pollu is what other Indian scripts call the virāma."
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "The ottu is reduced and loses its headstroke — precisely what makes conjuncts hard to read. The two devices solve one problem in two positions.",
+      "rulesTested": [
+        "pollu",
+        "vattulu",
+        "ottu-shape"
+      ],
+      "vocabUsed": [
+        "పొల్లు",
+        "ఒత్తు",
+        "తలకట్టు"
+      ]
+    },
+    {
+      "id": "tecp2-q16",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "te-06",
+      "stem": "Translate: **That is a house.**",
+      "options": [
+        "అది ఇల్లు.",
+        "ఇది ఇల్లు.",
+        "అది ఇల్లు కాదు.",
+        "ఇల్లు అది."
+      ],
+      "correct": 0,
+      "explanation": "అది is *that* and ఇది *this*; no verb is written, and కాదు would deny the statement instead of making it.",
+      "rulesTested": [
+        "idi-adi",
+        "no-copula"
+      ],
+      "vocabUsed": [
+        "అది",
+        "ఇది",
+        "ఇల్లు",
+        "కాదు"
+      ]
+    },
+    {
+      "id": "tecp2-q17",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "te-06",
+      "stem": "How is **ఇది పుస్తకం** denied?",
+      "options": [
+        "By putting కాదు at the end.",
+        "By putting కాదు at the beginning.",
+        "By changing పుస్తకం.",
+        "By adding a verb and negating it."
+      ],
+      "correct": 0,
+      "explanation": "One word added at the end, and nothing already there altered. There is no verb in the sentence to negate.",
+      "rulesTested": [
+        "kadu",
+        "no-copula"
+      ],
+      "vocabUsed": [
+        "ఇది",
+        "పుస్తకం",
+        "కాదు"
+      ]
+    },
+    {
+      "id": "tecp2-q18",
+      "type": "multi",
+      "difficulty": "medium",
+      "fromSection": "te-06",
+      "stem": "Which of these phrases are **correctly** formed?",
+      "options": [
+        "మంచి పుస్తకం",
+        "పెద్ద ఇల్లు",
+        "ఇల్లు పెద్ద",
+        "చిన్న నది"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "The adjective stands before its noun and never changes form. Only the third reverses the order.",
+      "rulesTested": [
+        "adjective-invariable"
+      ],
+      "vocabUsed": [
+        "మంచి",
+        "పుస్తకం",
+        "పెద్ద",
+        "ఇల్లు",
+        "చిన్న",
+        "నది"
+      ]
+    },
+    {
+      "id": "tecp2-q19",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "te-06",
+      "stem": "Which word asks **what**, of a thing?",
+      "options": [
+        "ఎవరు",
+        "ఏమిటి",
+        "అక్కడ",
+        "అవును"
+      ],
+      "correct": 1,
+      "explanation": "ఏమిటి asks what; ఎవరు asks who, of a person. అక్కడ is \"there\" and అవును \"yes\".",
+      "rulesTested": [
+        "asking-what-who"
+      ],
+      "vocabUsed": [
+        "ఎవరు",
+        "ఏమిటి",
+        "అక్కడ",
+        "అవును"
+      ]
+    },
+    {
+      "id": "tecp2-q20",
+      "type": "integer",
+      "difficulty": "hard",
+      "fromSection": "te-06",
+      "stem": "**ఇది మంచి ఇల్లు.** If this became a denial, how many of its three words would change form?",
+      "answer": 0,
+      "unit": "words",
+      "explanation": "None. కాదు is added at the end and nothing already present is altered — the adjective is invariable, the nouns unmarked, and there is no verb to negate.",
+      "rulesTested": [
+        "kadu",
+        "adjective-invariable",
+        "no-copula"
+      ],
+      "vocabUsed": [
+        "ఇది",
+        "మంచి",
+        "ఇల్లు",
+        "కాదు"
+      ]
+    },
+    {
+      "id": "tecp2-p1",
+      "type": "comprehension",
+      "difficulty": "medium",
+      "fromSection": "te-06",
+      "title": "నా ఇల్లు",
+      "passage": "ఇది నా ఇల్లు. ఇది పెద్ద ఇల్లు కాదు. ఇక్కడ నా పుస్తకం. అది మంచి పుస్తకం. అక్కడ నా అన్న. అతని పేరు రవి. అతను మంచి అన్న.",
+      "translation": "This is my house. This is not a big house. Here is my book. That is a good book. There is my elder brother. His name is Ravi. He is a good brother.",
+      "glossary": {
+        "అతని": "his",
+        "రవి": "Ravi, a man's name"
+      },
+      "questions": [
+        {
+          "id": "tecp2-p1-q1",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "అతని పేరు ఏమిటి?",
+          "options": [
+            "ఇల్లు",
+            "రవి",
+            "అన్న",
+            "పుస్తకం"
+          ],
+          "correct": 1,
+          "explanation": "*అతని పేరు రవి.* *అన్న* says what he is — an elder brother — not what he is called.",
+          "rulesTested": [
+            "asking-what-who",
+            "possessive-na"
+          ],
+          "vocabUsed": [
+            "పేరు",
+            "ఏమిటి",
+            "ఇల్లు",
+            "అన్న",
+            "పుస్తకం"
+          ]
+        },
+        {
+          "id": "tecp2-p1-q2",
+          "type": "multi",
+          "difficulty": "medium",
+          "stem": "Which of these does the passage assert?",
+          "options": [
+            "ఇది నా ఇల్లు.",
+            "ఇది పెద్ద ఇల్లు.",
+            "అది మంచి పుస్తకం.",
+            "అతను మంచి అన్న."
+          ],
+          "correct": [
+            0,
+            2,
+            3
+          ],
+          "explanation": "The house is expressly *not* big: *పెద్ద ఇల్లు కాదు*. One word at the end reverses the whole statement, and it is easy to read past.",
+          "rulesTested": [
+            "kadu",
+            "no-copula",
+            "adjective-invariable"
+          ],
+          "vocabUsed": [
+            "ఇది",
+            "నా",
+            "ఇల్లు",
+            "పెద్ద",
+            "మంచి",
+            "పుస్తకం",
+            "అతను",
+            "అన్న"
+          ]
+        },
+        {
+          "id": "tecp2-p1-q3",
+          "type": "integer",
+          "difficulty": "hard",
+          "stem": "How many verbs does the passage contain?",
+          "answer": 0,
+          "unit": "verbs",
+          "explanation": "None. Seven statements, every one an equation of two nouns, and not a verb among them — the most surprising fact about elementary Telugu for a speaker of a European language.",
+          "rulesTested": [
+            "no-copula",
+            "kadu"
+          ],
+          "vocabUsed": [
+            "ఇది",
+            "అది",
+            "కాదు"
+          ]
+        }
+      ]
+    }
+  ]
+}

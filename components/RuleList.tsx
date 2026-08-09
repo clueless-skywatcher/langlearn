@@ -1,5 +1,6 @@
 import type { Paradigm, Rule } from "@/content/schema";
 import { inline } from "@/lib/markdown";
+import { hasTelugu, transliterateTelugu } from "@/lib/translit";
 
 function ParadigmTable({ paradigm }: { paradigm: Paradigm }) {
   return (
@@ -68,6 +69,11 @@ export function RuleList({ rules }: { rules: Rule[] }) {
               {rule.examples.map((ex, i) => (
                 <div key={i} className="flex flex-wrap items-baseline gap-x-2">
                   <dt className="target">{ex.target}</dt>
+                  {(ex.roman ?? (hasTelugu(ex.target) ? transliterateTelugu(ex.target) : "")) && (
+                    <dd className="text-ink-faint">
+                      {ex.roman ?? transliterateTelugu(ex.target)}
+                    </dd>
+                  )}
                   <dd className="text-ink-soft">
                     {ex.gloss}
                     {ex.note && (

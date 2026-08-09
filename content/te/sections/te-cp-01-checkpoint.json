@@ -1,0 +1,658 @@
+{
+  "id": "te-cp-01",
+  "kind": "checkpoint",
+  "level": "A1",
+  "order": 4,
+  "title": "Checkpoint: The Varṇamāla",
+  "summary": "A cumulative examination of the whole alphabet: the sixteen vowels, the twenty-five letters of the varga grid, the eleven outside it, and the two marks counted with neither. Twenty-eight questions in the four examination formats.",
+  "covers": [
+    "te-01",
+    "te-02",
+    "te-03"
+  ],
+  "passThreshold": 60,
+  "drills": [
+    {
+      "id": "tecp1-q1",
+      "type": "integer",
+      "difficulty": "easy",
+      "fromSection": "te-01",
+      "stem": "How many అచ్చులు does the traditional varṇamāla count?",
+      "answer": 16,
+      "unit": "vowels",
+      "explanation": "Sixteen vowels, against thirty-six consonants — fifty-two letters in all.",
+      "rulesTested": [
+        "vowel-count"
+      ],
+      "vocabUsed": [
+        "అచ్చులు",
+        "వర్ణమాల"
+      ]
+    },
+    {
+      "id": "tecp1-q2",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "te-01",
+      "stem": "Which letter is **ఈ**?",
+      "options": [
+        "i",
+        "ī",
+        "e",
+        "ē"
+      ],
+      "correct": 1,
+      "explanation": "ఈ is long ī. Short i is ఇ, and the two differ by a loop — one of the pairs that must be told apart at speed.",
+      "rulesTested": [
+        "vowel-length"
+      ],
+      "vocabUsed": [
+        "అచ్చులు"
+      ]
+    },
+    {
+      "id": "tecp1-q3",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "te-01",
+      "stem": "Which letter is the **long** partner of ఒ?",
+      "options": [
+        "ఓ",
+        "ఔ",
+        "ఊ",
+        "ఆ"
+      ],
+      "correct": 0,
+      "explanation": "ఒ pairs with ఓ. ఔ is the diphthong au, which closes the o-group but is nobody's length-partner.",
+      "rulesTested": [
+        "vowel-length",
+        "vowel-e-o"
+      ],
+      "vocabUsed": [
+        "అచ్చులు"
+      ]
+    },
+    {
+      "id": "tecp1-q4",
+      "type": "multi",
+      "difficulty": "medium",
+      "fromSection": "te-01",
+      "stem": "Which of these letters are **diphthongs**?",
+      "options": [
+        "ఐ",
+        "ఏ",
+        "ఔ",
+        "ఊ"
+      ],
+      "correct": [
+        0,
+        2
+      ],
+      "explanation": "ఐ and ఔ are the two diphthongs and have no short partner. ఏ and ఊ are long vowels, which is a different thing entirely.",
+      "rulesTested": [
+        "vowel-diphthongs",
+        "vowel-length"
+      ],
+      "vocabUsed": [
+        "అచ్చులు"
+      ]
+    },
+    {
+      "id": "tecp1-q5",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "te-01",
+      "stem": "What is the **తలకట్టు**, and why does it matter?",
+      "options": [
+        "A mark of vowel length; it matters because length distinguishes words.",
+        "The headstroke forming part of most letters; it matters because a subjoined consonant loses it.",
+        "A punctuation mark; it matters because it ends a sentence.",
+        "The mark that mutes the inherent vowel."
+      ],
+      "correct": 1,
+      "explanation": "It carries no meaning of its own — it is part of the letter's shape. Its importance is negative: losing it is what makes subjoined forms hard to recognise.",
+      "rulesTested": [
+        "talakattu"
+      ],
+      "vocabUsed": [
+        "తలకట్టు",
+        "అక్షరం"
+      ]
+    },
+    {
+      "id": "tecp1-q6",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "te-01",
+      "stem": "When is an **independent** vowel letter such as ఇ written?",
+      "options": [
+        "Wherever the sound i occurs.",
+        "Only where the vowel is not preceded by a consonant.",
+        "Only at the end of a word.",
+        "Only where the vowel is long."
+      ],
+      "correct": 1,
+      "explanation": "After a consonant a vowel is written as an attached sign instead. ఇల్లు begins with a vowel and so is written with ఇ; తెలుగు begins with a consonant and so is not.",
+      "rulesTested": [
+        "independent-vowels"
+      ],
+      "vocabUsed": [
+        "ఇల్లు",
+        "తెలుగు",
+        "అచ్చులు"
+      ]
+    },
+    {
+      "id": "tecp1-q7",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "te-01",
+      "stem": "Telugu has separate letters for short **e** and short **o**. What does that tell you about the language?",
+      "options": [
+        "That it borrowed its script from Latin.",
+        "That it is Dravidian, and needs letters for sounds Sanskrit has not got.",
+        "That its vowels are all long.",
+        "That the letters are ornamental."
+      ],
+      "correct": 1,
+      "explanation": "Sanskrit has no short e or o; the southern languages do, and their scripts had to provide for it. Keeping ఎ and ఏ apart is a mark of a Dravidian script.",
+      "rulesTested": [
+        "vowel-e-o"
+      ],
+      "vocabUsed": [
+        "తెలుగు",
+        "అచ్చులు"
+      ]
+    },
+    {
+      "id": "tecp1-q8",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "te-01",
+      "stem": "How does Telugu sound the letter **ఋ**?",
+      "options": [
+        "as 'ri', as Hindi does",
+        "as 'ru'",
+        "as a bare r with no vowel",
+        "as a long ū"
+      ],
+      "correct": 1,
+      "explanation": "ఋ is a vocalic r inherited from Sanskrit. Hindi sounds it *ri* and Telugu *ru* — ఋషి is *rushi*. It is the only one of the four vocalic letters a modern reader meets.",
+      "rulesTested": [
+        "vowel-vocalic"
+      ],
+      "vocabUsed": [
+        "ఋషి"
+      ]
+    },
+    {
+      "id": "tecp1-q9",
+      "type": "integer",
+      "difficulty": "hard",
+      "fromSection": "te-01",
+      "stem": "Of the sixteen vowels, how many would a reader of modern Telugu actually meet in print?",
+      "answer": 13,
+      "unit": "letters",
+      "explanation": "Thirteen: the ten of the five short–long pairs, the two diphthongs, and ఋ. ౠ, ఌ and ౡ are dead letters that the traditional list keeps out of respect for Sanskrit.",
+      "rulesTested": [
+        "vowel-vocalic",
+        "vowel-count",
+        "vowel-length"
+      ],
+      "vocabUsed": [
+        "అచ్చులు",
+        "ఋషి"
+      ]
+    },
+    {
+      "id": "tecp1-q10",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "te-02",
+      "stem": "What sound does the letter **మ** stand for?",
+      "options": [
+        "m",
+        "ma",
+        "am",
+        "mha"
+      ],
+      "correct": 1,
+      "explanation": "*ma*. Every consonant letter carries the vowel అ inside it — that is what makes the script an abugida and not an alphabet.",
+      "rulesTested": [
+        "inherent-vowel"
+      ],
+      "vocabUsed": [
+        "హల్లు",
+        "అక్షరం"
+      ]
+    },
+    {
+      "id": "tecp1-q11",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "te-02",
+      "stem": "Which letter is **న** (na)?",
+      "options": [
+        "ణ",
+        "న",
+        "మ",
+        "ఞ"
+      ],
+      "correct": 1,
+      "explanation": "న is the dental nasal. ణ is the retroflex nasal, ఞ the palatal, మ the labial — four of the five nasals, and telling them apart is much of the work of the grid.",
+      "rulesTested": [
+        "varga-grid",
+        "varga-nasals"
+      ],
+      "vocabUsed": [
+        "అనునాసికం",
+        "దంత్యం"
+      ]
+    },
+    {
+      "id": "tecp1-q12",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "te-02",
+      "stem": "Which letter is the **nasal** of the velar varga?",
+      "options": [
+        "ఙ",
+        "ఞ",
+        "ణ",
+        "మ"
+      ],
+      "correct": 0,
+      "explanation": "ఙ, fifth of the ka-varga — the ng of \"sing\". It is rarely written, the anusvāra doing its work, but it is a letter of the alphabet all the same.",
+      "rulesTested": [
+        "varga-nasals",
+        "varga-grid"
+      ],
+      "vocabUsed": [
+        "కంఠ్యం",
+        "అనునాసికం"
+      ]
+    },
+    {
+      "id": "tecp1-q13",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "te-02",
+      "stem": "Which letter is the **voiced aspirate** of the dental varga?",
+      "options": [
+        "త",
+        "థ",
+        "ద",
+        "ధ"
+      ],
+      "correct": 3,
+      "explanation": "Fourth in the varga is always the voiced aspirate, giving ధ. త is unvoiced, థ unvoiced aspirated, ద voiced but unaspirated.",
+      "rulesTested": [
+        "varga-columns",
+        "aspiration"
+      ],
+      "vocabUsed": [
+        "దంత్యం",
+        "మహాప్రాణం"
+      ]
+    },
+    {
+      "id": "tecp1-q14",
+      "type": "multi",
+      "difficulty": "medium",
+      "fromSection": "te-02",
+      "stem": "Which of these letters are **retroflex**?",
+      "options": [
+        "ట",
+        "త",
+        "డ",
+        "ణ"
+      ],
+      "correct": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "ట, డ and ణ belong to the retroflex varga. త is its dental counterpart — the pair English speakers hear as one sound and Telugu keeps rigidly apart.",
+      "rulesTested": [
+        "retroflex-dental",
+        "varga-grid"
+      ],
+      "vocabUsed": [
+        "మూర్ధన్యం",
+        "దంత్యం"
+      ]
+    },
+    {
+      "id": "tecp1-q15",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "te-02",
+      "stem": "What do **గ, జ, డ, ద, బ** have in common?",
+      "options": [
+        "They are made at the same place in the mouth.",
+        "They are all third in their varga — voiced and unaspirated.",
+        "They are all nasals.",
+        "They are all aspirated."
+      ],
+      "correct": 1,
+      "explanation": "They share a column, one from each varga: voiced, unaspirated, differing only in place. Sharing a place would mean sharing a varga, and they come from five different ones.",
+      "rulesTested": [
+        "varga-columns",
+        "varga-grid"
+      ],
+      "vocabUsed": [
+        "వర్గం",
+        "అల్పప్రాణం"
+      ]
+    },
+    {
+      "id": "tecp1-q16",
+      "type": "integer",
+      "difficulty": "hard",
+      "fromSection": "te-02",
+      "stem": "**తలుపు** is written with three consonant letters and one vowel sign. Setting the sign aside, how many sounds do the three letters alone stand for?",
+      "answer": 6,
+      "unit": "sounds",
+      "explanation": "Six: each consonant letter carries its own vowel, so three letters give three consonants and three vowels. Counting three is the error of a reader trained on an alphabet, where a letter is one sound.",
+      "rulesTested": [
+        "inherent-vowel"
+      ],
+      "vocabUsed": [
+        "అక్షరం",
+        "హల్లు"
+      ]
+    },
+    {
+      "id": "tecp1-q17",
+      "type": "integer",
+      "difficulty": "easy",
+      "fromSection": "te-03",
+      "stem": "How many హల్లులు does the traditional varṇamāla count?",
+      "answer": 36,
+      "unit": "consonants",
+      "explanation": "Thirty-six: twenty-five in the vargas and eleven outside them.",
+      "rulesTested": [
+        "outside-grid"
+      ],
+      "vocabUsed": [
+        "హల్లులు",
+        "వర్ణమాల"
+      ]
+    },
+    {
+      "id": "tecp1-q18",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "te-03",
+      "stem": "Which letter is **వ** (va)?",
+      "options": [
+        "య",
+        "ర",
+        "వ",
+        "ల"
+      ],
+      "correct": 2,
+      "explanation": "వ is the semivowel sounded between English v and w. య, ర and ల are the other three అంతస్థాలు.",
+      "rulesTested": [
+        "semivowels"
+      ],
+      "vocabUsed": [
+        "అంతస్థాలు"
+      ]
+    },
+    {
+      "id": "tecp1-q19",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "te-03",
+      "stem": "Which sibilant is **palatal** — the ordinary *sh*?",
+      "options": [
+        "స",
+        "శ",
+        "ష",
+        "హ"
+      ],
+      "correct": 1,
+      "explanation": "శ is palatal, ష retroflex, స dental. The three differ only in place, exactly as the vargas do, and an English ear hears the first two as one sound.",
+      "rulesTested": [
+        "sibilants"
+      ],
+      "vocabUsed": [
+        "ఊష్మాలు",
+        "తాలవ్యం"
+      ]
+    },
+    {
+      "id": "tecp1-q20",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "te-03",
+      "stem": "What is unusual about **క్ష**, the thirty-sixth letter?",
+      "options": [
+        "It is a vowel listed among the consonants.",
+        "It is not a simple sound but the conjunct of క and ష.",
+        "It has no inherent vowel.",
+        "It is written only at the end of a word."
+      ],
+      "correct": 1,
+      "explanation": "It is two consonants written together, admitted to the alphabet by tradition. Its inherent vowel it carries like any other consonant.",
+      "rulesTested": [
+        "three-alone",
+        "inherent-vowel"
+      ],
+      "vocabUsed": [
+        "హల్లులు",
+        "అక్షరం"
+      ]
+    },
+    {
+      "id": "tecp1-q21",
+      "type": "multi",
+      "difficulty": "medium",
+      "fromSection": "te-03",
+      "stem": "Which of these letters are made with the tongue **curled back**?",
+      "options": [
+        "ష",
+        "ళ",
+        "స",
+        "ల"
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanation": "ష is the retroflex sibilant and ళ the retroflex lateral. స and ల are their plain counterparts. The retroflex series runs through the whole alphabet, inside the vargas and outside them alike.",
+      "rulesTested": [
+        "sibilants",
+        "three-alone",
+        "retroflex-dental"
+      ],
+      "vocabUsed": [
+        "మూర్ధన్యం",
+        "ఊష్మాలు",
+        "నీళ్ళు"
+      ]
+    },
+    {
+      "id": "tecp1-q22",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "te-03",
+      "stem": "The same mark ం is sounded *ṇ* in పండు and *m* in పుస్తకం. Why?",
+      "options": [
+        "Because ం is silent and the reader supplies a sound.",
+        "Because the anusvāra has no place of its own: it takes the nasal of the varga after it, and is m at the end of a word.",
+        "Because పండు is a loanword.",
+        "Because ం is a vowel whose length varies."
+      ],
+      "correct": 1,
+      "explanation": "One mark, five possible sounds. డ is retroflex, so ం is ṇ; at the end of a word there is nothing following to borrow from, and it is sounded m.",
+      "rulesTested": [
+        "anusvara",
+        "varga-nasals",
+        "varga-grid"
+      ],
+      "vocabUsed": [
+        "అనుస్వారం",
+        "పండు",
+        "పుస్తకం"
+      ]
+    },
+    {
+      "id": "tecp1-q23",
+      "type": "multi",
+      "difficulty": "hard",
+      "fromSection": "te-03",
+      "stem": "Which statements about ం and ః are correct?",
+      "options": [
+        "They are called the ఉభయాక్షరాలు.",
+        "They are counted among the sixteen vowels.",
+        "Each is a mark written upon a vowel rather than a letter of its own.",
+        "Leaving them out of the count is why the alphabet totals fifty-two."
+      ],
+      "correct": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "They are counted with neither vowels nor consonants — hence 'of both kinds'. Counting them in would give fifty-four.",
+      "rulesTested": [
+        "visarga",
+        "anusvara",
+        "vowel-count",
+        "outside-grid"
+      ],
+      "vocabUsed": [
+        "ఉభయాక్షరాలు",
+        "అనుస్వారం",
+        "విసర్గ",
+        "వర్ణమాల"
+      ]
+    },
+    {
+      "id": "tecp1-q24",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "te-03",
+      "stem": "What has become of **ఱ** in modern Telugu?",
+      "options": [
+        "It is the commonest letter in the script.",
+        "It is obsolete, and ర is written in its place.",
+        "It has become a vowel.",
+        "It is written only before a nasal."
+      ],
+      "correct": 1,
+      "explanation": "*Baṇḍi ra* was once a separate trilled r and is now dead. The traditional count of thirty-six keeps it, which is why the taught alphabet and the working one differ.",
+      "rulesTested": [
+        "three-alone",
+        "outside-grid"
+      ],
+      "vocabUsed": [
+        "హల్లులు"
+      ]
+    },
+    {
+      "id": "tecp1-q25",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "te-03",
+      "stem": "Which letter is **ళ**?",
+      "options": [
+        "a retroflex l",
+        "a nasal",
+        "an aspirated l",
+        "a vowel"
+      ],
+      "correct": 0,
+      "explanation": "ళ is a retroflex lateral — a Dravidian sound absent from Sanskrit, and very common in Telugu: నీళ్ళు, water, contains two.",
+      "rulesTested": [
+        "three-alone"
+      ],
+      "vocabUsed": [
+        "నీళ్ళు"
+      ]
+    },
+    {
+      "id": "tecp1-p1",
+      "type": "comprehension",
+      "difficulty": "medium",
+      "fromSection": "te-02",
+      "title": "A page from the varṇamāla",
+      "passage": "క ఖ గ ఘ ఙ\nచ ఛ జ ఝ ఞ\nట ఠ డ ఢ ణ\nత థ ద ధ న\nప ఫ బ భ మ",
+      "translation": "The varga grid: velar, palatal, retroflex, dental and labial, each row running unvoiced, unvoiced aspirated, voiced, voiced aspirated, nasal.",
+      "glossary": {},
+      "questions": [
+        {
+          "id": "tecp1-p1-q1",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "Which letter stands in the **last column of the third row**?",
+          "options": [
+            "ఙ",
+            "ణ",
+            "న",
+            "మ"
+          ],
+          "correct": 1,
+          "explanation": "The third row is the retroflex varga and the last column the nasal, giving ణ. న is the dental nasal in the row below.",
+          "rulesTested": [
+            "varga-grid",
+            "varga-nasals"
+          ],
+          "vocabUsed": [
+            "వర్గం",
+            "అనునాసికం",
+            "మూర్ధన్యం"
+          ]
+        },
+        {
+          "id": "tecp1-p1-q2",
+          "type": "multi",
+          "difficulty": "medium",
+          "stem": "Reading the chart, which statements are correct?",
+          "options": [
+            "Every row has five letters.",
+            "The second and fourth columns hold the aspirates.",
+            "The rows run from the front of the mouth to the back.",
+            "The letters of one column share a manner of articulation."
+          ],
+          "correct": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "The rows run **back to front** — velar, palatal, retroflex, dental, labial — not front to back. Everything else the chart shows plainly once the two axes are understood.",
+          "rulesTested": [
+            "varga-grid",
+            "varga-columns",
+            "aspiration"
+          ],
+          "vocabUsed": [
+            "వర్గం",
+            "మహాప్రాణం",
+            "కంఠ్యం",
+            "ఓష్ఠ్యం"
+          ]
+        },
+        {
+          "id": "tecp1-p1-q3",
+          "type": "integer",
+          "difficulty": "hard",
+          "stem": "Reading down the **fourth column** of the chart, how many of those letters are voiced?",
+          "answer": 5,
+          "unit": "letters",
+          "explanation": "All five. The fourth column is the voiced aspirates — ఘ ఝ ఢ ధ భ — so voicing is what the whole column has in common, and the count is the height of the chart. A reader who checks each letter separately gets the same answer more slowly.",
+          "rulesTested": [
+            "varga-columns",
+            "aspiration",
+            "varga-grid"
+          ],
+          "vocabUsed": [
+            "వర్గం",
+            "మహాప్రాణం"
+          ]
+        }
+      ]
+    }
+  ]
+}

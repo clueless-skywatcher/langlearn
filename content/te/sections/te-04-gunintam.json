@@ -1,0 +1,909 @@
+{
+  "id": "te-04",
+  "kind": "lesson",
+  "level": "A1",
+  "order": 5,
+  "title": "The Vowel Signs — గుణింతం",
+  "summary": "How a consonant is made to carry a vowel other than its own. Sixteen signs, one for each vowel but the first, attached above, below, to the right, or in two places at once — and the single most important thing to know about reading Telugu.",
+  "script": {
+    "heading": "The గుణింతం of క — one consonant through all sixteen vowels",
+    "letters": [
+      {
+        "glyph": "క",
+        "name": "ka",
+        "ipa": "/ka/",
+        "approx": "the bare letter; అ is inherent and no sign is written"
+      },
+      {
+        "glyph": "కా",
+        "name": "kā",
+        "ipa": "/kaː/",
+        "approx": "sign ా, written to the right"
+      },
+      {
+        "glyph": "కి",
+        "name": "ki",
+        "ipa": "/ki/",
+        "approx": "sign ి, written above"
+      },
+      {
+        "glyph": "కీ",
+        "name": "kī",
+        "ipa": "/kiː/",
+        "approx": "sign ీ, written above"
+      },
+      {
+        "glyph": "కు",
+        "name": "ku",
+        "ipa": "/ku/",
+        "approx": "sign ు, written below"
+      },
+      {
+        "glyph": "కూ",
+        "name": "kū",
+        "ipa": "/kuː/",
+        "approx": "sign ూ, written below"
+      },
+      {
+        "glyph": "కృ",
+        "name": "kr̥",
+        "ipa": "/kru/",
+        "approx": "sign ృ, written below"
+      },
+      {
+        "glyph": "కౄ",
+        "name": "kr̥̄",
+        "ipa": "/kruː/",
+        "approx": "sign ౄ; obsolete, like its vowel"
+      },
+      {
+        "glyph": "కె",
+        "name": "ke",
+        "ipa": "/ke/",
+        "approx": "sign ె, written above"
+      },
+      {
+        "glyph": "కే",
+        "name": "kē",
+        "ipa": "/keː/",
+        "approx": "sign ే, written above"
+      },
+      {
+        "glyph": "కై",
+        "name": "kai",
+        "ipa": "/kai/",
+        "approx": "sign ై, written above"
+      },
+      {
+        "glyph": "కొ",
+        "name": "ko",
+        "ipa": "/ko/",
+        "approx": "sign ొ, made of parts in two places"
+      },
+      {
+        "glyph": "కో",
+        "name": "kō",
+        "ipa": "/koː/",
+        "approx": "sign ో, made of parts in two places"
+      },
+      {
+        "glyph": "కౌ",
+        "name": "kau",
+        "ipa": "/kau/",
+        "approx": "sign ౌ, made of parts in two places"
+      },
+      {
+        "glyph": "కం",
+        "name": "kaṃ",
+        "ipa": "/kaⁿ/",
+        "approx": "anusvāra written after the letter"
+      },
+      {
+        "glyph": "కః",
+        "name": "kaḥ",
+        "ipa": "/kah/",
+        "approx": "visarga written after the letter"
+      }
+    ],
+    "notes": [
+      "This series is a గుణింతం. Every one of the thirty-six consonants has one, built with the same signs in the same order, so that learning the signs once gives you all thirty-six series.",
+      "Notice how much the letter's own shape changes: క, కి and కు are the same consonant, but the second and third have had their headstroke altered or replaced. This is why a beginner who has learned the bare letters can still fail to read a word.",
+      "The first form carries no sign at all, because అ is already inside the letter (¶8). There is no sign for అ anywhere in the script."
+    ]
+  },
+  "rules": [
+    {
+      "id": "vowel-signs",
+      "number": "20",
+      "heading": "The Vowel Sign",
+      "statement": "A consonant carries the vowel అ of itself (¶8). To make it carry any **other** vowel, a **sign** is attached to it, and that sign **replaces** the inherent vowel rather than adding to it: కి is *ki*, not *kai* or *kai*. The signs are not the independent vowel letters of ¶7 but a separate set of shapes, and the two must never be confused.",
+      "examples": [
+        {
+          "target": "క → కి",
+          "gloss": "ka → ki",
+          "note": "the sign replaces అ; it does not add to it"
+        },
+        {
+          "target": "క → కు",
+          "gloss": "ka → ku"
+        },
+        {
+          "target": "ఇ against ి",
+          "gloss": "the letter i against the sign i",
+          "note": "different shapes for the same vowel, used in different places"
+        }
+      ],
+      "footnotes": [
+        "An abugida is defined by exactly this: a default vowel that a mark may override. An alphabet writes every vowel; a syllabary gives every syllable an unrelated sign; Telugu does neither."
+      ],
+      "seeAlso": [
+        "inherent-vowel",
+        "independent-vowels"
+      ],
+      "core": true
+    },
+    {
+      "id": "gunintam",
+      "number": "21",
+      "heading": "The Guṇintam",
+      "statement": "The series of one consonant taken through all sixteen vowels is called its **గుణింతం**. Every consonant has one, and every guṇintam uses **the same signs in the same order**, so that the sixteen signs learned once serve all thirty-six consonants — five hundred and seventy-six syllables from fifty-two letters and sixteen marks. This is the economy that makes an abugida worth learning.",
+      "paradigms": [
+        {
+          "caption": "The same signs on three different consonants",
+          "columns": [
+            "a",
+            "ā",
+            "i",
+            "u",
+            "e",
+            "o"
+          ],
+          "rows": [
+            {
+              "label": "క",
+              "cells": [
+                "క",
+                "కా",
+                "కి",
+                "కు",
+                "కె",
+                "కొ"
+              ]
+            },
+            {
+              "label": "మ",
+              "cells": [
+                "మ",
+                "మా",
+                "మి",
+                "ము",
+                "మె",
+                "మొ"
+              ]
+            },
+            {
+              "label": "త",
+              "cells": [
+                "త",
+                "తా",
+                "తి",
+                "తు",
+                "తె",
+                "తొ"
+              ]
+            }
+          ],
+          "footnote": "The sign is the same in each row; only the consonant beneath it differs."
+        }
+      ],
+      "examples": [
+        {
+          "target": "కా కి కు కె",
+          "gloss": "kā ki ku ke",
+          "note": "one consonant, four vowels"
+        },
+        {
+          "target": "మా మి ము మె",
+          "gloss": "mā mi mu me",
+          "note": "the same four signs"
+        }
+      ],
+      "seeAlso": [
+        "vowel-signs"
+      ],
+      "core": true
+    },
+    {
+      "id": "sign-positions",
+      "number": "22",
+      "heading": "Where the Signs Are Written",
+      "statement": "A vowel sign is not written after its consonant as a letter would be. Some stand **above** the consonant, some **below** it, some to its **right**, and some are made of parts in more than one place at once. This is why Telugu cannot be read letter by letter from left to right as English is: the eye must take in a whole syllable, with everything attached to it, before it can be sounded.",
+      "paradigms": [
+        {
+          "caption": "Signs by position",
+          "columns": [
+            "position",
+            "signs",
+            "example"
+          ],
+          "rows": [
+            {
+              "label": "to the right",
+              "cells": [
+                "ా",
+                "కా — kā"
+              ]
+            },
+            {
+              "label": "above",
+              "cells": [
+                "ి ీ ె ే ై",
+                "కి కీ కె కే కై"
+              ]
+            },
+            {
+              "label": "below",
+              "cells": [
+                "ు ూ ృ",
+                "కు కూ కృ"
+              ]
+            },
+            {
+              "label": "in two places",
+              "cells": [
+                "ొ ో ౌ",
+                "కొ కో కౌ"
+              ]
+            },
+            {
+              "label": "written after",
+              "cells": [
+                "ం ః",
+                "కం కః"
+              ]
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "target": "కు",
+          "gloss": "ku — the sign hangs below"
+        },
+        {
+          "target": "కే",
+          "gloss": "kē — the sign sits above"
+        },
+        {
+          "target": "కో",
+          "gloss": "kō — the sign has parts in two places"
+        }
+      ],
+      "seeAlso": [
+        "vowel-signs",
+        "talakattu"
+      ],
+      "core": true
+    },
+    {
+      "id": "no-sign-for-a",
+      "number": "23",
+      "heading": "There Is No Sign for అ",
+      "statement": "Of the sixteen vowels, fifteen have a sign and **అ has none**, because a consonant already carries it. It follows that the bare consonant letter *is* the first member of its own guṇintam, and that anything written on a consonant is by definition **not** అ. A learner who looks for a sign meaning *a* is looking for something that does not exist.",
+      "examples": [
+        {
+          "target": "క",
+          "gloss": "ka — the first of the guṇintam, with no sign"
+        },
+        {
+          "target": "కా",
+          "gloss": "kā — the second, with the ā sign"
+        }
+      ],
+      "seeAlso": [
+        "vowel-signs",
+        "inherent-vowel",
+        "gunintam"
+      ],
+      "core": true
+    },
+    {
+      "id": "sign-shape-change",
+      "number": "24",
+      "heading": "How the Consonant Changes Shape",
+      "statement": "Several signs do not merely sit beside the consonant but **alter it**, taking the place of the తలకట్టు (¶6) or reshaping the top of the letter. క, కి and కె are one consonant in three dresses. This is the point at which a learner who knows the bare alphabet discovers they still cannot read: the letters on the page are not quite the letters on the chart.",
+      "examples": [
+        {
+          "target": "క / కి / కె",
+          "gloss": "ka / ki / ke",
+          "note": "the same consonant, its top altered by the sign"
+        },
+        {
+          "target": "మ / మి / మె",
+          "gloss": "ma / mi / me",
+          "note": "the same alteration on another letter"
+        }
+      ],
+      "seeAlso": [
+        "talakattu",
+        "sign-positions"
+      ],
+      "core": true
+    },
+    {
+      "id": "reading-syllable",
+      "number": "25",
+      "heading": "Reading a Syllable",
+      "statement": "To read a Telugu syllable, take the consonant, then look **above, below and to the right** for a sign, and sound the consonant with whatever vowel that sign names — or with అ if there is none. A Telugu word therefore has as many syllables as it has consonant-clusters, and a word of three written units is a word of three syllables.",
+      "examples": [
+        {
+          "target": "కల",
+          "gloss": "kala — a dream",
+          "note": "two letters, no signs, so both vowels are అ"
+        },
+        {
+          "target": "కాలు",
+          "gloss": "kālu — a leg",
+          "note": "ā on the first, u on the second"
+        },
+        {
+          "target": "పులి",
+          "gloss": "puli — a tiger",
+          "note": "u below the first, i above the second"
+        }
+      ],
+      "seeAlso": [
+        "vowel-signs",
+        "sign-positions",
+        "no-sign-for-a"
+      ],
+      "core": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "lemma": "గుణింతం",
+      "gloss": "the series of a consonant through all the vowels",
+      "pos": "noun",
+      "forms": {
+        "nom": "గుణింతం",
+        "translit": "guṇintaṃ"
+      }
+    },
+    {
+      "lemma": "కల",
+      "gloss": "dream",
+      "pos": "noun",
+      "forms": {
+        "nom": "కల",
+        "translit": "kala"
+      }
+    },
+    {
+      "lemma": "కాలు",
+      "gloss": "leg, foot",
+      "pos": "noun",
+      "forms": {
+        "nom": "కాలు",
+        "translit": "kālu"
+      }
+    },
+    {
+      "lemma": "పులి",
+      "gloss": "tiger",
+      "pos": "noun",
+      "forms": {
+        "nom": "పులి",
+        "translit": "puli"
+      }
+    },
+    {
+      "lemma": "తల",
+      "gloss": "head",
+      "pos": "noun",
+      "forms": {
+        "nom": "తల",
+        "translit": "tala"
+      }
+    },
+    {
+      "lemma": "పని",
+      "gloss": "work",
+      "pos": "noun",
+      "forms": {
+        "nom": "పని",
+        "translit": "pani"
+      }
+    },
+    {
+      "lemma": "మనసు",
+      "gloss": "mind, heart",
+      "pos": "noun",
+      "forms": {
+        "nom": "మనసు",
+        "translit": "manasu"
+      }
+    },
+    {
+      "lemma": "నది",
+      "gloss": "river",
+      "pos": "noun",
+      "forms": {
+        "nom": "నది",
+        "translit": "nadi"
+      }
+    }
+  ],
+  "drills": [
+    {
+      "id": "te104-q1",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "What does **కా** stand for?",
+      "options": [
+        "ka",
+        "kā",
+        "kai",
+        "aka"
+      ],
+      "correct": 1,
+      "explanation": "The sign ా replaces the inherent అ with ā. It does not add to it: కా is *kā*, of one syllable, not *ka-a*.",
+      "rulesTested": [
+        "vowel-signs"
+      ],
+      "vocabUsed": [
+        "గుణింతం"
+      ]
+    },
+    {
+      "id": "te104-q2",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "What does **కు** stand for?",
+      "options": [
+        "ku",
+        "kū",
+        "ka",
+        "kr̥"
+      ],
+      "correct": 0,
+      "explanation": "The sign ు, written below, gives short u. Long ū is ూ, a fuller shape in the same place.",
+      "rulesTested": [
+        "vowel-signs",
+        "sign-positions"
+      ],
+      "vocabUsed": [
+        "గుణింతం"
+      ]
+    },
+    {
+      "id": "te104-q3",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "What does **మి** stand for?",
+      "options": [
+        "ma",
+        "mi",
+        "mī",
+        "mu"
+      ],
+      "correct": 1,
+      "explanation": "The same sign that gave కి gives మి. One set of signs serves all thirty-six consonants — that is the whole economy of the guṇintam.",
+      "rulesTested": [
+        "gunintam",
+        "vowel-signs"
+      ],
+      "vocabUsed": [
+        "గుణింతం"
+      ]
+    },
+    {
+      "id": "te104-q4",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Which of these is **tu**?",
+      "options": [
+        "తా",
+        "తి",
+        "తు",
+        "తె"
+      ],
+      "correct": 2,
+      "explanation": "తు — the u sign hangs below the consonant. తా is tā, తి is ti, తె is te.",
+      "rulesTested": [
+        "vowel-signs",
+        "sign-positions"
+      ],
+      "vocabUsed": [
+        "గుణింతం"
+      ]
+    },
+    {
+      "id": "te104-q5",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Which vowel has **no sign at all**?",
+      "options": [
+        "అ",
+        "ఆ",
+        "ఇ",
+        "ఉ"
+      ],
+      "correct": 0,
+      "explanation": "అ needs none: it is already inside every consonant. Fifteen of the sixteen vowels have signs and అ is the one that does not.",
+      "rulesTested": [
+        "no-sign-for-a",
+        "inherent-vowel"
+      ],
+      "vocabUsed": [
+        "అచ్చులు",
+        "గుణింతం"
+      ]
+    },
+    {
+      "id": "te104-q6",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which of these signs are written **below** the consonant?",
+      "options": [
+        "ు",
+        "ా",
+        "ూ",
+        "ృ"
+      ],
+      "correct": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "ు, ూ and ృ all hang below. ా is written to the right — the only one of the four that is.",
+      "rulesTested": [
+        "sign-positions"
+      ],
+      "vocabUsed": [
+        "గుణింతం"
+      ]
+    },
+    {
+      "id": "te104-q7",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Read **కల**.",
+      "options": [
+        "kala",
+        "kāla",
+        "kali",
+        "kula"
+      ],
+      "correct": 0,
+      "explanation": "Two consonants and no signs, so both vowels are the inherent అ: *kala*, a dream. A reader who supplies nothing where nothing is written has read correctly.",
+      "rulesTested": [
+        "reading-syllable",
+        "no-sign-for-a"
+      ],
+      "vocabUsed": [
+        "కల"
+      ]
+    },
+    {
+      "id": "te104-q8",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Read **పులి**.",
+      "options": [
+        "pali",
+        "puli",
+        "pulī",
+        "pila"
+      ],
+      "correct": 1,
+      "explanation": "u below the first consonant, i above the second: *puli*, a tiger. The two signs sit in different places, which is why the syllable and not the letter is the unit of reading.",
+      "rulesTested": [
+        "reading-syllable",
+        "sign-positions"
+      ],
+      "vocabUsed": [
+        "పులి"
+      ]
+    },
+    {
+      "id": "te104-q9",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Read **నది**.",
+      "options": [
+        "nadi",
+        "nādi",
+        "nadī",
+        "nidi"
+      ],
+      "correct": 0,
+      "explanation": "The first consonant carries no sign and so keeps అ; the second has the i sign above it. *nadi*, a river.",
+      "rulesTested": [
+        "reading-syllable",
+        "no-sign-for-a"
+      ],
+      "vocabUsed": [
+        "నది"
+      ]
+    },
+    {
+      "id": "te104-q10",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Read **కాలు**.",
+      "options": [
+        "kalu",
+        "kālu",
+        "kālū",
+        "kulā"
+      ],
+      "correct": 1,
+      "explanation": "ā to the right of the first consonant, u below the second: *kālu*, a leg. Compare కల, where neither consonant bears a sign.",
+      "rulesTested": [
+        "reading-syllable",
+        "sign-positions"
+      ],
+      "vocabUsed": [
+        "కాలు",
+        "కల"
+      ]
+    },
+    {
+      "id": "te104-q11",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Why can Telugu not be read strictly left to right, one mark at a time?",
+      "options": [
+        "Because it is written right to left.",
+        "Because a vowel sign may sit above or below its consonant, so the eye must take in a whole syllable at once.",
+        "Because the vowels are written before the consonants.",
+        "Because the letters have no fixed order."
+      ],
+      "correct": 1,
+      "explanation": "The script runs left to right, but the unit is the syllable and not the mark: a sign above or below belongs to the consonant it sits on, and must be read with it.",
+      "rulesTested": [
+        "sign-positions",
+        "reading-syllable"
+      ],
+      "vocabUsed": [
+        "గుణింతం",
+        "అక్షరం"
+      ]
+    },
+    {
+      "id": "te104-q12",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which statements about the vowel signs are correct?",
+      "options": [
+        "A sign replaces the inherent vowel rather than adding to it.",
+        "The signs are the same shapes as the independent vowel letters.",
+        "The same set of signs is used on every consonant.",
+        "There is a sign for అ."
+      ],
+      "correct": [
+        0,
+        2
+      ],
+      "explanation": "The signs are a separate set of shapes from the letters — ఇ and ి are the same vowel written two ways for two situations. And అ has no sign, having no need of one.",
+      "rulesTested": [
+        "vowel-signs",
+        "gunintam",
+        "no-sign-for-a",
+        "independent-vowels"
+      ],
+      "vocabUsed": [
+        "గుణింతం",
+        "అచ్చులు"
+      ]
+    },
+    {
+      "id": "te104-q13",
+      "type": "integer",
+      "difficulty": "medium",
+      "stem": "How many forms does a full గుణింతం contain, counting the bare consonant?",
+      "answer": 16,
+      "unit": "forms",
+      "explanation": "Sixteen — one for each vowel, the first being the bare letter itself with its inherent అ. The last two of the sixteen are the anusvāra and visarga forms.",
+      "rulesTested": [
+        "gunintam",
+        "no-sign-for-a"
+      ],
+      "vocabUsed": [
+        "గుణింతం",
+        "అచ్చులు"
+      ]
+    },
+    {
+      "id": "te104-q14",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "In **కం**, what has been added to క?",
+      "options": [
+        "the vowel sign for ā",
+        "the anusvāra, a nasal written after the letter",
+        "the mark that mutes the inherent vowel",
+        "nothing; it is a different consonant"
+      ],
+      "correct": 1,
+      "explanation": "కం is *kaṃ*: the inherent vowel stays and the anusvāra follows it. The mark that mutes the vowel is a different one, taken up next.",
+      "rulesTested": [
+        "gunintam",
+        "anusvara"
+      ],
+      "vocabUsed": [
+        "అనుస్వారం",
+        "గుణింతం"
+      ]
+    },
+    {
+      "id": "te104-q15",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which of these are the **same consonant** wearing different vowels?",
+      "options": [
+        "క",
+        "కి",
+        "గ",
+        "కె"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "క, కి and కె are all *k*, their tops altered by the sign. గ is a different consonant altogether — voiced where క is unvoiced. Telling an altered shape from a different letter is the skill this section exists to build.",
+      "rulesTested": [
+        "sign-shape-change",
+        "gunintam",
+        "varga-grid"
+      ],
+      "vocabUsed": [
+        "గుణింతం",
+        "వర్గం"
+      ]
+    },
+    {
+      "id": "te104-q16",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "A learner who has memorised the bare alphabet still cannot read a page of Telugu. What is the likeliest reason?",
+      "options": [
+        "The letters on the page are in a different order.",
+        "Several vowel signs alter the shape of the consonant, so the letters on the page do not look like the letters on the chart.",
+        "Printed Telugu uses a different alphabet.",
+        "Words are written right to left."
+      ],
+      "correct": 1,
+      "explanation": "The signs take the place of the headstroke or reshape the top of the letter (¶24). The chart teaches thirty-six shapes; the page shows those shapes in sixteen dresses apiece.",
+      "rulesTested": [
+        "sign-shape-change",
+        "talakattu"
+      ],
+      "vocabUsed": [
+        "తలకట్టు",
+        "గుణింతం"
+      ]
+    },
+    {
+      "id": "te104-q17",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "Thirty-six consonants, each with a full guṇintam. How many distinct syllables does that give?",
+      "answer": 576,
+      "unit": "syllables",
+      "explanation": "36 × 16 = 576, and they are written with fifty-two letters and fifteen signs. A syllabary would need five hundred and seventy-six unrelated symbols; this is the economy an abugida buys.",
+      "rulesTested": [
+        "gunintam",
+        "vowel-signs"
+      ],
+      "vocabUsed": [
+        "గుణింతం",
+        "హల్లులు",
+        "అచ్చులు"
+      ]
+    },
+    {
+      "id": "te104-q18",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "How many **vowel signs** must be learned, given that every consonant uses the same set?",
+      "answer": 15,
+      "unit": "signs",
+      "explanation": "Fifteen: sixteen vowels less అ, which needs none. Learning fifteen marks unlocks all thirty-six guṇintams at once — which is why the signs repay study more than the letters do.",
+      "rulesTested": [
+        "no-sign-for-a",
+        "gunintam",
+        "vowel-signs"
+      ],
+      "vocabUsed": [
+        "గుణింతం",
+        "అచ్చులు"
+      ]
+    },
+    {
+      "id": "te104-q19",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "**మనసు** is written with three consonant letters. How many vowel signs does it carry?",
+      "answer": 1,
+      "unit": "signs",
+      "explanation": "One, the u below the last consonant. The first two vowels are అ and are written with nothing at all — *ma-na-su*. Counting three signs is the error of expecting a mark for every vowel.",
+      "rulesTested": [
+        "no-sign-for-a",
+        "reading-syllable",
+        "inherent-vowel"
+      ],
+      "vocabUsed": [
+        "మనసు"
+      ]
+    },
+    {
+      "id": "te104-q20",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "**పని** is written with two consonant letters and one sign. How many sounds does it stand for?",
+      "answer": 4,
+      "unit": "sounds",
+      "explanation": "Four: *p-a-n-i*. Two consonants and two vowels, of which only the second vowel is written. The count of sounds is twice the count of letters, and the signs change which vowels those are without changing how many.",
+      "rulesTested": [
+        "reading-syllable",
+        "inherent-vowel",
+        "no-sign-for-a"
+      ],
+      "vocabUsed": [
+        "పని"
+      ]
+    },
+    {
+      "id": "te104-q21",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Why are **ఇ** and **ి** two different shapes for one vowel?",
+      "options": [
+        "They are different vowels that happen to be transliterated alike.",
+        "ఇ is written where no consonant precedes; ి is written on a consonant.",
+        "ఇ is long and ి is short.",
+        "ఇ is archaic and ి has replaced it."
+      ],
+      "correct": 1,
+      "explanation": "One vowel, two situations, two shapes — the independent letter for the start of a word (¶7), the sign for everywhere else. Every vowel but అ has both.",
+      "rulesTested": [
+        "vowel-signs",
+        "independent-vowels"
+      ],
+      "vocabUsed": [
+        "అచ్చులు",
+        "గుణింతం",
+        "ఇల్లు"
+      ]
+    },
+    {
+      "id": "te104-q22",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Reading **తల** and **తలు**, which statements are correct?",
+      "options": [
+        "Both begin with the same consonant.",
+        "The first word's two vowels are both అ.",
+        "The second word differs only in the vowel of its last syllable.",
+        "The second word has one more syllable than the first."
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Adding a vowel sign never adds a syllable — it changes the vowel of a syllable already there. Both words are of two syllables, and only the second vowel differs.",
+      "rulesTested": [
+        "reading-syllable",
+        "no-sign-for-a",
+        "vowel-signs"
+      ],
+      "vocabUsed": [
+        "తల"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,359 @@
+{
+  "id": "a1-09",
+  "kind": "lesson",
+  "level": "A1",
+  "order": 11,
+  "title": "The Locative and Place",
+  "summary": "Where a thing is and where it is going: the locative, which needs no preposition at all, against *į* with the accusative for direction, and the place prepositions with the cases they govern.",
+  "rules": [
+    {
+      "id": "locative-singular",
+      "number": "59",
+      "heading": "The Locative Singular",
+      "statement": "The **locative** answers *kur?* (where?) and means *in* or *at*. It is remarkable for needing **no preposition**: the ending alone carries the sense that English must express with a separate word. *Vilniuje* is \"in Vilnius\" entire.",
+      "paradigms": [
+        {
+          "caption": "Nominative → locative singular",
+          "columns": ["nominative", "locative", "example"],
+          "rows": [
+            { "label": "masc. -as", "cells": ["-as", "-e", "miestas → mieste"] },
+            { "label": "masc. -is", "cells": ["-is", "-yje", "brolis → brolyje"] },
+            { "label": "masc. -ys", "cells": ["-ys", "-yje", "obuolys → obuolyje"] },
+            { "label": "masc. -us", "cells": ["-us", "-uje", "sūnus → sūnuje"] },
+            { "label": "fem. -a", "cells": ["-a", "-oje", "knyga → knygoje"] },
+            { "label": "fem. -ė", "cells": ["-ė", "-ėje", "katė → katėje"] }
+          ]
+        }
+      ],
+      "examples": [
+        { "target": "Aš gyvenu Vilniuje.", "gloss": "I live in Vilnius.", "note": "Vilnius is a -us noun" },
+        { "target": "Ji dirba universitete.", "gloss": "She works at the university." },
+        { "target": "Knyga yra kavinėje.", "gloss": "The book is in the café." }
+      ],
+      "footnotes": [
+        "\"At home\" is *namie*, an old form standing outside the paradigm; *name* would be understood as \"in the building\"."
+      ],
+      "seeAlso": ["noun-endings", "genitive-endings"],
+      "core": true
+    },
+    {
+      "id": "locative-plural",
+      "number": "60",
+      "heading": "The Locative Plural",
+      "statement": "The locative plural is built on the plural stem and ends in **-uose**, **-ose** or **-ėse**. It too takes no preposition.",
+      "paradigms": [
+        {
+          "caption": "Locative plural",
+          "columns": ["nominative", "locative pl.", "meaning"],
+          "rows": [
+            { "label": "masc. -as", "cells": ["namas", "namuose", "in the houses"] },
+            { "label": "masc. -is", "cells": ["brolis", "broliuose", "in the brothers"] },
+            { "label": "fem. -a", "cells": ["knyga", "knygose", "in the books"] },
+            { "label": "fem. -ė", "cells": ["katė", "katėse", "in the cats"] }
+          ]
+        }
+      ],
+      "examples": [
+        { "target": "Vaikai yra namuose.", "gloss": "The children are at home.", "note": "the plural is the ordinary way of saying 'at home' of several people" },
+        { "target": "Ką tu skaitai knygose?", "gloss": "What do you read in books?" }
+      ],
+      "seeAlso": ["locative-singular", "plural-nominative"],
+      "core": true
+    },
+    {
+      "id": "direction-i",
+      "number": "61",
+      "heading": "Direction with Į",
+      "statement": "Where the locative says where a thing **is**, the preposition **į** with the **accusative** says where it is **going**. The pair is exact, and the case is what carries the difference: *mieste*, in the town; *į miestą*, into the town. Verbs of motion — *eiti*, to go on foot; *važiuoti*, to go by vehicle — take it.",
+      "paradigms": [
+        {
+          "caption": "Rest against motion",
+          "columns": ["where? (locative)", "where to? (į + accusative)"],
+          "rows": [
+            { "label": "town", "cells": ["mieste — in town", "į miestą — into town"] },
+            { "label": "university", "cells": ["universitete", "į universitetą"] },
+            { "label": "café", "cells": ["kavinėje", "į kavinę"] },
+            { "label": "Lithuania", "cells": ["Lietuvoje", "į Lietuvą"] }
+          ]
+        }
+      ],
+      "examples": [
+        { "target": "Aš einu į kavinę.", "gloss": "I am going to the café." },
+        { "target": "Aš esu kavinėje.", "gloss": "I am in the café." },
+        { "target": "Jie važiuoja į Vilnių.", "gloss": "They are travelling to Vilnius." }
+      ],
+      "seeAlso": ["locative-singular", "accusative-nouns"],
+      "core": true
+    },
+    {
+      "id": "place-prepositions",
+      "number": "62",
+      "heading": "The Place Prepositions",
+      "statement": "Prepositions of place govern the **genitive**, with the single exception of *į*. *Ant* (on), *prie* (by, near), *už* (behind), *po* (under, in the sense of place, with the instrumental) and *iš* (out of) were begun in ¶33; set beside the locative they complete the ways of saying where a thing is.",
+      "paradigms": [
+        {
+          "caption": "Saying where",
+          "columns": ["form", "case", "meaning"],
+          "rows": [
+            { "label": "mieste", "cells": ["locative, no preposition", "in the town"] },
+            { "label": "ant stalo", "cells": ["ant + genitive", "on the table"] },
+            { "label": "prie lango", "cells": ["prie + genitive", "by the window"] },
+            { "label": "už namo", "cells": ["už + genitive", "behind the house"] },
+            { "label": "į miestą", "cells": ["į + accusative", "into the town"] }
+          ],
+          "footnote": "*po* meaning \"under\" takes the instrumental — *po stalu*, under the table — and is left until that case is taken up. *po* with the genitive means \"after\" and is temporal (¶33)."
+        }
+      ],
+      "examples": [
+        { "target": "Katė yra po stalu, o knyga ant stalo.", "gloss": "The cat is under the table, and the book on it." },
+        { "target": "Mes stovime prie namo.", "gloss": "We are standing by the house." }
+      ],
+      "seeAlso": ["genitive-prepositions", "locative-singular", "direction-i"],
+      "core": true
+    },
+    {
+      "id": "place-adverbs",
+      "number": "63",
+      "heading": "The Place Adverbs",
+      "statement": "Three adverbs answer *kur?* without any noun: **čia** (here), **ten** (there), **namie** (at home). Like all adverbs they never change. *Kur* itself asks the question, and a place answer stands in whatever form the sense requires — a locative, or a preposition with its case.",
+      "examples": [
+        { "target": "Kur tu esi? — Čia.", "gloss": "Where are you? — Here." },
+        { "target": "Jis yra namie.", "gloss": "He is at home." },
+        { "target": "Ten dirba mano brolis.", "gloss": "My brother works there." }
+      ],
+      "seeAlso": ["question-adverbs", "locative-singular"],
+      "core": true
+    },
+    {
+      "id": "motion-verbs",
+      "number": "64",
+      "heading": "Going on Foot and Going by Vehicle",
+      "statement": "Lithuanian distinguishes what English does not: **eiti** is to go on foot, **važiuoti** to go by any vehicle. Choosing wrongly is not a small error — *einu į Vilnių* says you propose to walk there. Both take *į* with the accusative for the destination.",
+      "paradigms": [
+        {
+          "caption": "eiti (eina) and važiuoti (važiuoja) — present",
+          "columns": ["eiti — to go on foot", "važiuoti — to go by vehicle"],
+          "rows": [
+            { "label": "aš", "cells": ["einu", "važiuoju"] },
+            { "label": "tu", "cells": ["eini", "važiuoji"] },
+            { "label": "jis, ji", "cells": ["eina", "važiuoja"] },
+            { "label": "mes", "cells": ["einame", "važiuojame"] },
+            { "label": "jūs", "cells": ["einate", "važiuojate"] },
+            { "label": "jie, jos", "cells": ["eina", "važiuoja"] }
+          ],
+          "footnote": "Both are of the first conjugation; the -j- of važiuoti belongs to the stem."
+        }
+      ],
+      "examples": [
+        { "target": "Aš einu į kavinę.", "gloss": "I am walking to the café." },
+        { "target": "Aš važiuoju į Kauną.", "gloss": "I am travelling to Kaunas." }
+      ],
+      "seeAlso": ["direction-i", "present-conj-i"],
+      "core": true
+    }
+  ],
+  "vocabulary": [
+    { "lemma": "važiuoti", "gloss": "to go by vehicle, to drive, to ride", "pos": "verb", "forms": { "inf": "važiuoti", "pres3": "važiuoja", "past3": "važiavo", "conj": "I" } },
+    { "lemma": "stovėti", "gloss": "to stand", "pos": "verb", "forms": { "inf": "stovėti", "pres3": "stovi", "past3": "stovėjo", "conj": "II" } },
+    { "lemma": "į", "gloss": "into, to (+ acc.)", "pos": "preposition", "forms": {} },
+    { "lemma": "už", "gloss": "behind (+ gen.)", "pos": "preposition", "forms": {} },
+    { "lemma": "po", "gloss": "under (+ instr.); after (+ gen.)", "pos": "preposition", "forms": {} },
+    { "lemma": "čia", "gloss": "here", "pos": "adverb", "forms": {} },
+    { "lemma": "ten", "gloss": "there", "pos": "adverb", "forms": {} },
+    { "lemma": "namie", "gloss": "at home", "pos": "adverb", "forms": {} },
+    { "lemma": "kavinė", "gloss": "café", "pos": "noun", "forms": { "nom": "kavinė", "gen": "kavinės", "acc": "kavinę", "gender": "f." } },
+    { "lemma": "parduotuvė", "gloss": "shop", "pos": "noun", "forms": { "nom": "parduotuvė", "gen": "parduotuvės", "acc": "parduotuvę", "gender": "f." } },
+    { "lemma": "mokykla", "gloss": "school", "pos": "noun", "forms": { "nom": "mokykla", "gen": "mokyklos", "acc": "mokyklą", "gender": "f." } },
+    { "lemma": "autobusas", "gloss": "bus", "pos": "noun", "forms": { "nom": "autobusas", "gen": "autobuso", "acc": "autobusą", "gender": "m." } },
+    { "lemma": "Vilnius", "gloss": "Vilnius", "pos": "noun", "forms": { "nom": "Vilnius", "gen": "Vilniaus", "acc": "Vilnių", "gender": "m." } },
+    { "lemma": "Kaunas", "gloss": "Kaunas", "pos": "noun", "forms": { "nom": "Kaunas", "gen": "Kauno", "acc": "Kauną", "gender": "m." } }
+  ],
+  "drills": [
+    {
+      "id": "a109-q1",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "What is the locative singular of **miestas**?",
+      "options": ["miestą", "mieste", "miesto", "miestui"],
+      "correct": 1,
+      "explanation": "Masculine -as makes -e. *miestą* is the accusative and *miesto* the genitive.",
+      "rulesTested": ["locative-singular"],
+      "vocabUsed": ["miestas"]
+    },
+    {
+      "id": "a109-q2",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Translate: **I live in Vilnius.**",
+      "options": [
+        "Aš gyvenu į Vilnių.",
+        "Aš gyvenu Vilniuje.",
+        "Aš gyvenu Vilniaus.",
+        "Aš gyvenu in Vilnius."
+      ],
+      "correct": 1,
+      "explanation": "The locative needs no preposition: the ending -uje carries the whole of \"in\". *į Vilnių* would say you are moving there, not living there.",
+      "rulesTested": ["locative-singular", "direction-i"],
+      "vocabUsed": ["gyventi", "Vilnius", "į"]
+    },
+    {
+      "id": "a109-q3",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete: **Aš einu ____ kavinę.** (I am going to the café.)",
+      "options": ["į", "ant", "prie", "iš"],
+      "correct": 0,
+      "explanation": "*į* with the accusative expresses motion towards. The other three govern the genitive, and *kavinę* here is an accusative — the case shows which preposition is wanted.",
+      "rulesTested": ["direction-i", "place-prepositions"],
+      "vocabUsed": ["eiti", "į", "kavinė", "ant", "prie", "iš"]
+    },
+    {
+      "id": "a109-q4",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which of these say where something **is**, rather than where it is going?",
+      "options": [
+        "Knyga yra ant stalo.",
+        "Aš važiuoju į Kauną.",
+        "Vaikai yra namuose.",
+        "Ji dirba universitete."
+      ],
+      "correct": [0, 2, 3],
+      "explanation": "A genitive after *ant* and a locative both state a position. Only *į* with the accusative expresses motion — it is the case, not the verb, that marks the difference.",
+      "rulesTested": ["locative-singular", "locative-plural", "place-prepositions", "direction-i"],
+      "vocabUsed": ["knyga", "ant", "stalas", "važiuoti", "į", "Kaunas", "vaikas", "dirbti", "universitetas"]
+    },
+    {
+      "id": "a109-q5",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "You are in Vilnius and mean to reach Kaunas, a hundred kilometres away. Which do you say?",
+      "options": [
+        "Aš einu į Kauną.",
+        "Aš važiuoju į Kauną.",
+        "Aš einu Kaune.",
+        "Aš važiuoju Kaune."
+      ],
+      "correct": 1,
+      "explanation": "*eiti* is to go on foot, and a hundred kilometres is not a walk; *važiuoti* is to go by vehicle. The last two use the locative, which would say you are already there.",
+      "rulesTested": ["motion-verbs", "direction-i", "locative-singular"],
+      "vocabUsed": ["eiti", "važiuoti", "į", "Kaunas"]
+    },
+    {
+      "id": "a109-q6",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Katė yra ____ stalu.** (The cat is under the table.)",
+      "options": ["ant", "po", "prie", "į"],
+      "correct": 1,
+      "explanation": "*po* meaning \"under\" takes the instrumental, which is why *stalas* stands as *stalu* and not as the genitive *stalo*. *ant* and *prie* would require the genitive.",
+      "rulesTested": ["place-prepositions"],
+      "vocabUsed": ["katė", "po", "stalas", "ant", "prie", "į"]
+    },
+    {
+      "id": "a109-q7",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which of these are correct locatives?",
+      "options": ["kavinėje", "mokykloje", "Vilniuje", "namo"],
+      "correct": [0, 1, 2],
+      "explanation": "-ėje, -oje and -uje are all locative endings. *namo* is the genitive of *namas*; the locative would be *name*, and \"at home\" is the special form *namie*.",
+      "rulesTested": ["locative-singular"],
+      "vocabUsed": ["kavinė", "mokykla", "Vilnius", "namas", "namie"]
+    },
+    {
+      "id": "a109-q8",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "What does the case alone tell you in *Jis yra mieste* against *Jis eina į miestą*?",
+      "options": [
+        "Nothing; the verbs carry the difference.",
+        "The locative states a position, the accusative with *į* a destination.",
+        "The accusative marks the definite, the locative the indefinite.",
+        "The locative is singular and the accusative plural."
+      ],
+      "correct": 1,
+      "explanation": "Lithuanian marks rest and motion by case. The verbs help, but the case is decisive: *eina mieste* would mean he walks about within the town, and is perfectly grammatical.",
+      "rulesTested": ["locative-singular", "direction-i", "motion-verbs"],
+      "vocabUsed": ["miestas", "eiti", "į"]
+    },
+    {
+      "id": "a109-q9",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which of these prepositions do **not** govern the genitive?",
+      "options": ["ant", "į", "prie", "po (meaning 'under')"],
+      "correct": [1, 3],
+      "explanation": "*į* takes the accusative and *po* meaning \"under\" the instrumental. *po* meaning \"after\" does take the genitive — the same preposition with two cases and two meanings.",
+      "rulesTested": ["place-prepositions", "genitive-prepositions", "direction-i"],
+      "vocabUsed": ["ant", "į", "prie", "po"]
+    },
+    {
+      "id": "a109-q10",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "**Aš esu didelėje kavinėje.** How many words change form if you are going *into* the big café instead of being in it?",
+      "answer": 2,
+      "unit": "words",
+      "explanation": "Two: *didelėje kavinėje* → *didelę kavinę*, the adjective following its noun out of the locative into the accusative that *į* governs. The verb would change too, but that is a change of word rather than of form — *esu* becoming *einu*.",
+      "rulesTested": ["direction-i", "locative-singular", "adjective-agreement"],
+      "vocabUsed": ["būti", "didelis", "kavinė", "į", "eiti"]
+    },
+    {
+      "id": "a109-p1",
+      "type": "comprehension",
+      "difficulty": "medium",
+      "title": "Rytas Vilniuje",
+      "passage": "Tomas gyvena Vilniuje, bet dirba Kaune. Rytą jis eina į parduotuvę, o po to važiuoja į Kauną autobusu. Parduotuvė yra prie namo. Tomo knygos guli ant stalo, o katė miega po stalu. Vakare Tomas yra namie. Jo šeima laukia jo mokykloje — ten dirba jo žmona.",
+      "translation": "Tomas lives in Vilnius but works in Kaunas. In the morning he goes to the shop, and after that travels to Kaunas by bus. The shop is near the house. Tomas's books lie on the table, and the cat sleeps under the table. In the evening Tomas is at home. His family waits for him at the school — his wife works there.",
+      "glossary": {
+        "rytą": "in the morning",
+        "po to": "after that",
+        "autobusu": "by bus (instrumental, taken up later)",
+        "vakare": "in the evening",
+        "laukia": "waits for (+ gen.)",
+        "žmona": "wife (f.)"
+      },
+      "questions": [
+        {
+          "id": "a109-p1-q1",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "Kur dirba Tomas?",
+          "options": ["Vilniuje", "Kaune", "parduotuvėje", "mokykloje"],
+          "correct": 1,
+          "explanation": "*gyvena Vilniuje, bet dirba Kaune* — the passage sets living and working deliberately apart. The school is where his wife works.",
+          "rulesTested": ["locative-singular"],
+          "vocabUsed": ["dirbti", "Vilnius", "Kaunas", "parduotuvė", "mokykla"]
+        },
+        {
+          "id": "a109-p1-q2",
+          "type": "multi",
+          "difficulty": "medium",
+          "stem": "Which of these does the passage support?",
+          "options": [
+            "Katė miega po stalu.",
+            "Parduotuvė yra prie namo.",
+            "Tomas eina į Kauną.",
+            "Vakare Tomas yra namie."
+          ],
+          "correct": [0, 1, 3],
+          "explanation": "He *važiuoja* to Kaunas, by bus — going on foot is what *eiti* would claim, and the passage keeps the two verbs apart (¶64).",
+          "rulesTested": ["motion-verbs", "place-prepositions", "place-adverbs"],
+          "vocabUsed": ["katė", "miegoti", "po", "stalas", "parduotuvė", "prie", "namas", "eiti", "į", "Kaunas", "namie"]
+        },
+        {
+          "id": "a109-p1-q3",
+          "type": "integer",
+          "difficulty": "hard",
+          "stem": "The passage has **jis eina į parduotuvę**. How many words change form if he is *in* the shop rather than going to it?",
+          "answer": 1,
+          "unit": "words",
+          "explanation": "One: *į parduotuvę* → *parduotuvėje*, the accusative of destination giving way to the locative of position — and the preposition disappearing altogether, since the locative needs none (¶59). The verb would be replaced rather than reshaped.",
+          "rulesTested": ["direction-i", "locative-singular"],
+          "vocabUsed": ["eiti", "į", "parduotuvė"]
+        }
+      ]
+    }
+  ]
+}

@@ -53,6 +53,11 @@ export const ScriptSection = z.strictObject({
 /** A `target, gloss` line of the kind that follows every rule in Kellerman. */
 export const Example = z.strictObject({
   target: z.string().min(1),
+  /**
+   * The target text in Latin letters. Required by courses whose script a
+   * learner may not have learned — see `Course.transliteration`.
+   */
+  roman: z.string().optional(),
   gloss: z.string().min(1),
   /** Parenthetical aside, e.g. why this form and not the obvious one. */
   note: z.string().optional(),
@@ -183,6 +188,8 @@ export const ComprehensionDrill = z.strictObject({
   title: z.string().min(1),
   /** The passage, in the target language. */
   passage: z.string().min(1),
+  /** The whole passage in Latin letters, for a learner who has skipped the script. */
+  romanization: z.string().optional(),
   /** Full translation, revealed only after the block is answered. */
   translation: z.string().optional(),
   /** Glosses for words the learner has not met yet, keyed by surface form. */
@@ -253,6 +260,18 @@ export const Course = z.strictObject({
    * follow a source text closely; others only borrow its manner of exposition.
    */
   attribution: z.string().optional(),
+  /**
+   * Declared by a course written in a script the learner may not read. When
+   * `required`, the validator refuses any target-language string that carries
+   * no Latin alongside it, so that the course stays completable by someone who
+   * skipped the sections teaching the script.
+   */
+  transliteration: z
+    .strictObject({
+      scheme: z.string().min(1),
+      required: z.boolean().default(true),
+    })
+    .optional(),
   /**
    * Ordered, human-readable labels for the keys of `VocabEntry.forms`, per
    * part of speech. Keys absent here are still rendered, after the listed ones.

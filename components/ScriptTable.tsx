@@ -1,4 +1,5 @@
 import type { ScriptSection } from "@/content/schema";
+import { hasTelugu, transliterateTelugu } from "@/lib/translit";
 
 /** The alphabet table of a script section. */
 export function ScriptTable({ script }: { script: ScriptSection }) {
@@ -25,6 +26,11 @@ export function ScriptTable({ script }: { script: ScriptSection }) {
                   <span className="target text-lg not-italic">
                     {l.upper ? `${l.upper} ${l.glyph}` : l.glyph}
                   </span>
+                  {hasTelugu(l.glyph) && (
+                    <span className="ml-2 text-xs text-ink-faint">
+                      {transliterateTelugu(l.glyph)}
+                    </span>
+                  )}
                 </td>
                 <td className="whitespace-nowrap px-3 py-2 text-ink-soft">
                   {l.name}

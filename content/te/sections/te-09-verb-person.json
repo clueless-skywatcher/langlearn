@@ -1,0 +1,808 @@
+{
+  "id": "te-09",
+  "kind": "lesson",
+  "level": "A1",
+  "order": 11,
+  "title": "The Verb: Person and the Present",
+  "summary": "The verb stands last, and it agrees with its subject in person, number and class — so that the division of ¶40 comes back as a set of endings. Two presents are distinguished where English has one.",
+  "rules": [
+    {
+      "id": "sov",
+      "number": "51",
+      "heading": "The Verb Comes Last",
+      "statement": "Telugu is a **subject–object–verb** language: the verb closes the sentence, and everything it governs comes before it. What English puts after the verb, Telugu puts in front of it, and the ordering runs all the way down — a modifier before its noun, a suffix after its stem, the main clause after the subordinate one.",
+      "examples": [
+        {
+          "target": "నేను పుస్తకం చదువుతున్నాను.",
+          "gloss": "I am reading a book.",
+          "note": "I — book — am-reading"
+        },
+        {
+          "target": "అతను ఇంట్లో ఉన్నాడు.",
+          "gloss": "He is in the house."
+        },
+        {
+          "target": "మేము తెలుగు నేర్చుకుంటున్నాము.",
+          "gloss": "We are learning Telugu."
+        }
+      ],
+      "seeAlso": [
+        "no-copula",
+        "agglutination"
+      ],
+      "core": true
+    },
+    {
+      "id": "person-endings",
+      "number": "52",
+      "heading": "The Personal Endings",
+      "statement": "A Telugu verb ends with a syllable naming its subject. There are **seven** such endings, and they are the same in every tense: the tense is marked before them, the person after. Learn the seven once and they serve throughout the verb.",
+      "paradigms": [
+        {
+          "caption": "The personal endings",
+          "columns": [
+            "subject",
+            "ending",
+            "example (past of వెళ్ళు, to go)"
+          ],
+          "rows": [
+            {
+              "label": "నేను — I",
+              "cells": [
+                "-ను",
+                "వెళ్ళాను"
+              ]
+            },
+            {
+              "label": "నువ్వు — you",
+              "cells": [
+                "-వు",
+                "వెళ్ళావు"
+              ]
+            },
+            {
+              "label": "అతను — he",
+              "cells": [
+                "-డు",
+                "వెళ్ళాడు"
+              ]
+            },
+            {
+              "label": "ఆమె, అది — she, it",
+              "cells": [
+                "-ది",
+                "వెళ్ళింది"
+              ]
+            },
+            {
+              "label": "మేము, మనం — we",
+              "cells": [
+                "-ము",
+                "వెళ్ళాము"
+              ]
+            },
+            {
+              "label": "మీరు, వాళ్ళు — you, they (people)",
+              "cells": [
+                "-రు",
+                "వెళ్ళారు"
+              ]
+            },
+            {
+              "label": "అవి — they (things)",
+              "cells": [
+                "-యి",
+                "వెళ్ళాయి"
+              ]
+            }
+          ],
+          "footnote": "Seven endings for nine pronouns: మేము and మనం share one, and so do మీరు and వాళ్ళు."
+        }
+      ],
+      "examples": [
+        {
+          "target": "వెళ్ళాను / వెళ్ళావు / వెళ్ళాడు",
+          "gloss": "I went / you went / he went"
+        }
+      ],
+      "seeAlso": [
+        "personal-pronouns",
+        "sov"
+      ],
+      "core": true
+    },
+    {
+      "id": "class-agreement",
+      "number": "53",
+      "heading": "The Verb Agrees with the Class",
+      "statement": "The endings of ¶52 are not simply a list: they reproduce the class division of ¶41 and ¶42 exactly. In the **singular**, a man takes **-డు** and a woman takes **-ది** — the very ending a table or a dog takes. In the **plural**, men and women together take **-రు**, and only things take **-యి**. The grammar of class is therefore not a matter of choosing a pronoun but of choosing a verb ending, and it cannot be avoided.",
+      "paradigms": [
+        {
+          "caption": "Where the line falls",
+          "columns": [
+            "singular",
+            "plural"
+          ],
+          "rows": [
+            {
+              "label": "a man",
+              "cells": [
+                "-డు — వెళ్ళాడు",
+                "-రు — వెళ్ళారు"
+              ]
+            },
+            {
+              "label": "a woman",
+              "cells": [
+                "-ది — వెళ్ళింది",
+                "-రు — వెళ్ళారు"
+              ]
+            },
+            {
+              "label": "a dog, a book",
+              "cells": [
+                "-ది — వెళ్ళింది",
+                "-యి — వెళ్ళాయి"
+              ]
+            }
+          ],
+          "footnote": "Read the middle row across: a woman takes the ending of a book in the singular and the ending of a man in the plural."
+        }
+      ],
+      "examples": [
+        {
+          "target": "అతను వెళ్ళాడు.",
+          "gloss": "He went."
+        },
+        {
+          "target": "ఆమె వెళ్ళింది.",
+          "gloss": "She went.",
+          "note": "the same ending as అది వెళ్ళింది, it went"
+        },
+        {
+          "target": "వాళ్ళు వెళ్ళారు.",
+          "gloss": "They went.",
+          "note": "men and women alike"
+        }
+      ],
+      "seeAlso": [
+        "person-endings",
+        "class-singular",
+        "class-plural"
+      ],
+      "core": true
+    },
+    {
+      "id": "present-progressive",
+      "number": "54",
+      "heading": "The Present Progressive — తున్న",
+      "statement": "To say that an action is going on **now**, Telugu puts **-తున్న-** between the root and the personal ending. This is the tense to use for what English says with *am doing*, and it is the commoner of the two presents in conversation.",
+      "paradigms": [
+        {
+          "caption": "చదువు — present progressive",
+          "columns": [
+            "subject",
+            "form",
+            "English"
+          ],
+          "rows": [
+            {
+              "label": "నేను",
+              "cells": [
+                "చదువుతున్నాను",
+                "I am reading"
+              ]
+            },
+            {
+              "label": "నువ్వు",
+              "cells": [
+                "చదువుతున్నావు",
+                "you are reading"
+              ]
+            },
+            {
+              "label": "అతను",
+              "cells": [
+                "చదువుతున్నాడు",
+                "he is reading"
+              ]
+            },
+            {
+              "label": "ఆమె, అది",
+              "cells": [
+                "చదువుతోంది",
+                "she, it is reading"
+              ]
+            },
+            {
+              "label": "మేము",
+              "cells": [
+                "చదువుతున్నాము",
+                "we are reading"
+              ]
+            },
+            {
+              "label": "మీరు, వాళ్ళు",
+              "cells": [
+                "చదువుతున్నారు",
+                "you, they are reading"
+              ]
+            },
+            {
+              "label": "అవి",
+              "cells": [
+                "చదువుతున్నాయి",
+                "they are reading"
+              ]
+            }
+          ],
+          "footnote": "Root + tense marker + person: చదువు + తున్న + ను. The three pieces stay separable, as an agglutinative language requires (¶44)."
+        }
+      ],
+      "examples": [
+        {
+          "target": "నేను పుస్తకం చదువుతున్నాను.",
+          "gloss": "I am reading a book."
+        },
+        {
+          "target": "వాళ్ళు ఇంట్లో ఉన్నారు.",
+          "gloss": "They are in the house."
+        }
+      ],
+      "seeAlso": [
+        "person-endings",
+        "sov"
+      ],
+      "core": true
+    },
+    {
+      "id": "habitual-future",
+      "number": "55",
+      "heading": "The Habitual and Future — తా",
+      "statement": "**-తా-** in place of -తున్న- gives a quite different sense: what happens **habitually**, or what **will** happen. One Telugu form covers both, and the context decides. English divides this ground between *I read* and *I will read*, and a learner must resist translating -తా- as a simple present.",
+      "paradigms": [
+        {
+          "caption": "The two presents compared",
+          "columns": [
+            "form",
+            "sense"
+          ],
+          "rows": [
+            {
+              "label": "చదువుతున్నాను",
+              "cells": [
+                "I am reading — now"
+              ]
+            },
+            {
+              "label": "చదువుతాను",
+              "cells": [
+                "I read — habitually; or, I will read"
+              ]
+            },
+            {
+              "label": "వెళ్తున్నాను",
+              "cells": [
+                "I am going"
+              ]
+            },
+            {
+              "label": "వెళ్తాను",
+              "cells": [
+                "I go; I will go"
+              ]
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "target": "నేను రోజూ చదువుతాను.",
+          "gloss": "I read every day."
+        },
+        {
+          "target": "నేను రేపు వెళ్తాను.",
+          "gloss": "I will go tomorrow.",
+          "note": "the same form, the adverb deciding"
+        }
+      ],
+      "seeAlso": [
+        "present-progressive",
+        "person-endings"
+      ],
+      "core": true
+    },
+    {
+      "id": "verb-negation",
+      "number": "56",
+      "heading": "Denying an Action",
+      "statement": "An action is denied not by a separate word but by a **negative form of the verb**. For a past action, **లేదు** is added to the bare stem and the personal ending disappears altogether: *నేను వెళ్ళలేదు*, I did not go — and the same form serves every person. This is not the **కాదు** of ¶34, which denies an identity; the two are not interchangeable.",
+      "examples": [
+        {
+          "target": "నేను వెళ్ళాను. → నేను వెళ్ళలేదు.",
+          "gloss": "I went. → I did not go."
+        },
+        {
+          "target": "అతను వెళ్ళలేదు.",
+          "gloss": "He did not go.",
+          "note": "the same form, whoever the subject"
+        },
+        {
+          "target": "ఇది పుస్తకం కాదు.",
+          "gloss": "This is not a book.",
+          "note": "కాదు denies an identity, not an action"
+        }
+      ],
+      "footnotes": [
+        "That the negative loses the personal ending is worth noticing: it is one of the few places where Telugu tells you *less* than the affirmative did."
+      ],
+      "seeAlso": [
+        "kadu",
+        "person-endings"
+      ],
+      "core": true
+    },
+    {
+      "id": "dictionary-form",
+      "number": "57",
+      "heading": "How a Verb Is Cited",
+      "statement": "A Telugu dictionary cites a verb by its **root** — చదువు, వెళ్ళు, తిను — which is also the form used as a familiar command. Everything else is built on it by adding a tense marker and then a personal ending, in that order and never the other.",
+      "examples": [
+        {
+          "target": "చదువు",
+          "gloss": "read (root; also 'read!' to a friend)"
+        },
+        {
+          "target": "చదువు + తున్న + ను",
+          "gloss": "→ చదువుతున్నాను, I am reading"
+        },
+        {
+          "target": "చదువు + తా + ను",
+          "gloss": "→ చదువుతాను, I read / I will read"
+        }
+      ],
+      "seeAlso": [
+        "present-progressive",
+        "habitual-future",
+        "agglutination"
+      ],
+      "core": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "lemma": "చదువు",
+      "gloss": "to read, to study",
+      "pos": "verb",
+      "forms": {
+        "root": "చదువు",
+        "translit": "caduvu"
+      }
+    },
+    {
+      "lemma": "వెళ్ళు",
+      "gloss": "to go",
+      "pos": "verb",
+      "forms": {
+        "root": "వెళ్ళు",
+        "translit": "veḷḷu"
+      }
+    },
+    {
+      "lemma": "తిను",
+      "gloss": "to eat",
+      "pos": "verb",
+      "forms": {
+        "root": "తిను",
+        "translit": "tinu"
+      }
+    },
+    {
+      "lemma": "చూడు",
+      "gloss": "to see, to look",
+      "pos": "verb",
+      "forms": {
+        "root": "చూడు",
+        "translit": "cūḍu"
+      }
+    },
+    {
+      "lemma": "రా",
+      "gloss": "to come",
+      "pos": "verb",
+      "forms": {
+        "root": "రా",
+        "translit": "rā"
+      }
+    },
+    {
+      "lemma": "చెప్పు",
+      "gloss": "to say, to tell",
+      "pos": "verb",
+      "forms": {
+        "root": "చెప్పు",
+        "translit": "ceppu"
+      }
+    },
+    {
+      "lemma": "రోజూ",
+      "gloss": "every day",
+      "pos": "adverb",
+      "forms": {
+        "nom": "రోజూ",
+        "translit": "rōjū"
+      }
+    },
+    {
+      "lemma": "రేపు",
+      "gloss": "tomorrow",
+      "pos": "adverb",
+      "forms": {
+        "nom": "రేపు",
+        "translit": "rēpu"
+      }
+    },
+    {
+      "lemma": "ఇప్పుడు",
+      "gloss": "now",
+      "pos": "adverb",
+      "forms": {
+        "nom": "ఇప్పుడు",
+        "translit": "ippuḍu"
+      }
+    },
+    {
+      "lemma": "లేదు",
+      "gloss": "did not; is not there",
+      "pos": "particle",
+      "forms": {
+        "nom": "లేదు",
+        "translit": "lēdu"
+      }
+    }
+  ],
+  "drills": [
+    {
+      "id": "te109-q1",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Where does the verb stand in a Telugu sentence?",
+      "options": [
+        "first",
+        "second",
+        "last",
+        "it varies freely"
+      ],
+      "correct": 2,
+      "explanation": "Telugu is subject–object–verb: everything the verb governs comes before it. The same ordering runs through the language — modifier before noun, suffix after stem.",
+      "rulesTested": [
+        "sov"
+      ],
+      "vocabUsed": [
+        "చదువు"
+      ]
+    },
+    {
+      "id": "te109-q3",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "**నేను చదువుతున్నాను** means:",
+      "options": [
+        "I read every day.",
+        "I am reading.",
+        "I will read.",
+        "I did not read."
+      ],
+      "correct": 1,
+      "explanation": "-తున్న- is the progressive: the action is going on now. *I read every day* would be చదువుతాను, with -తా-.",
+      "rulesTested": [
+        "present-progressive",
+        "habitual-future"
+      ],
+      "vocabUsed": [
+        "నేను",
+        "చదువు"
+      ]
+    },
+    {
+      "id": "te109-q4",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Which ending does the verb take when the subject is **a woman**, in the singular?",
+      "options": [
+        "-డు",
+        "-ది",
+        "-రు",
+        "-యి"
+      ],
+      "correct": 1,
+      "explanation": "-ది — the same ending a dog or a book takes. In the singular the mahat class holds male human beings only (¶41), and the verb ending is where that fact bites.",
+      "rulesTested": [
+        "class-agreement",
+        "class-singular"
+      ],
+      "vocabUsed": [
+        "ఆమె",
+        "వెళ్ళు"
+      ]
+    },
+    {
+      "id": "te109-q5",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Which ending does the verb take when the subject is **several women**?",
+      "options": [
+        "-డు",
+        "-ది",
+        "-రు",
+        "-యి"
+      ],
+      "correct": 2,
+      "explanation": "-రు, the same ending men take. In the plural the line moves and all human beings are mahat together (¶42) — so a woman's verb ending changes class with her number.",
+      "rulesTested": [
+        "class-agreement",
+        "class-plural"
+      ],
+      "vocabUsed": [
+        "వాళ్ళు",
+        "వెళ్ళు"
+      ]
+    },
+    {
+      "id": "te109-q6",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "How does **చదువుతాను** differ from **చదువుతున్నాను**?",
+      "options": [
+        "The first is past, the second present.",
+        "The first is habitual or future, the second says the action is going on now.",
+        "The first is a question.",
+        "They are interchangeable."
+      ],
+      "correct": 1,
+      "explanation": "-తా- covers *I read* as a habit and *I will read*, one form for both; -తున్న- is the true present. Translating -తా- as a plain English present is the standard error.",
+      "rulesTested": [
+        "habitual-future",
+        "present-progressive"
+      ],
+      "vocabUsed": [
+        "చదువు",
+        "రోజూ",
+        "రేపు"
+      ]
+    },
+    {
+      "id": "te109-q7",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which of these are correctly matched?",
+      "options": [
+        "అతను — వెళ్ళాడు",
+        "ఆమె — వెళ్ళింది",
+        "వాళ్ళు — వెళ్ళాయి",
+        "అవి — వెళ్ళాయి"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "వాళ్ళు is the human plural and takes -రు, giving *వెళ్ళారు*. -యి belongs to అవి, the non-human plural — putting people there is the commonest agreement error.",
+      "rulesTested": [
+        "class-agreement",
+        "person-endings",
+        "class-plural"
+      ],
+      "vocabUsed": [
+        "అతను",
+        "ఆమె",
+        "వాళ్ళు",
+        "అవి",
+        "వెళ్ళు"
+      ]
+    },
+    {
+      "id": "te109-q8",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "How is **I did not go** said?",
+      "options": [
+        "నేను వెళ్ళాను కాదు.",
+        "నేను వెళ్ళలేదు.",
+        "నేను కాదు వెళ్ళాను.",
+        "నేను వెళ్ళానులేదు."
+      ],
+      "correct": 1,
+      "explanation": "లేదు is added to the bare stem and the personal ending drops away. కాదు denies an identity — *this is not a book* — and cannot deny an action.",
+      "rulesTested": [
+        "verb-negation",
+        "kadu"
+      ],
+      "vocabUsed": [
+        "నేను",
+        "వెళ్ళు",
+        "లేదు",
+        "కాదు"
+      ]
+    },
+    {
+      "id": "te109-q9",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "In what order are the pieces of **చదువుతున్నాను** assembled?",
+      "options": [
+        "person, then tense, then root",
+        "root, then tense, then person",
+        "tense, then root, then person",
+        "root, then person, then tense"
+      ],
+      "correct": 1,
+      "explanation": "చదువు + తున్న + ను. The order is fixed and never reversed, and each piece keeps its own shape — which is what being agglutinative means (¶44).",
+      "rulesTested": [
+        "dictionary-form",
+        "present-progressive",
+        "agglutination"
+      ],
+      "vocabUsed": [
+        "చదువు"
+      ]
+    },
+    {
+      "id": "te109-q10",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which statements about the negative **వెళ్ళలేదు** are correct?",
+      "options": [
+        "It denies an action, not an identity.",
+        "It is the same for every person.",
+        "It keeps the personal ending.",
+        "It could be replaced by కాదు."
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanation": "The personal ending disappears, so *నేను వెళ్ళలేదు* and *అతను వెళ్ళలేదు* have identical verbs — one of the few places Telugu tells you less than the affirmative did. కాదు denies an identity and cannot be used here.",
+      "rulesTested": [
+        "verb-negation",
+        "person-endings",
+        "kadu"
+      ],
+      "vocabUsed": [
+        "వెళ్ళు",
+        "లేదు",
+        "కాదు"
+      ]
+    },
+    {
+      "id": "te109-q11",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "**ఆమె వెళ్ళింది.** If the subject became *several women*, how many words would change form?",
+      "answer": 2,
+      "unit": "words",
+      "explanation": "Two: *ఆమె* → *వాళ్ళు*, and the verb with it, *వెళ్ళింది* → *వెళ్ళారు*. The ending changes not merely for number but for **class**: she leaves the amahat ending -ది for the mahat -రు on becoming plural (¶53). Answering one forgets that the verb carries the class.",
+      "rulesTested": [
+        "class-agreement",
+        "class-plural",
+        "person-endings"
+      ],
+      "vocabUsed": [
+        "ఆమె",
+        "వాళ్ళు",
+        "వెళ్ళు"
+      ]
+    },
+    {
+      "id": "te109-q12",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "How many **distinct personal endings** does the Telugu verb have, for its nine pronouns?",
+      "answer": 7,
+      "unit": "endings",
+      "explanation": "Seven. మేము and మనం share -ము, and మీరు and వాళ్ళు share -రు — so nine pronouns are served by seven endings, and the verb cannot always tell you which pronoun was meant.",
+      "rulesTested": [
+        "person-endings",
+        "personal-pronouns"
+      ],
+      "vocabUsed": [
+        "మేము",
+        "మనం",
+        "మీరు",
+        "వాళ్ళు"
+      ]
+    },
+    {
+      "id": "te109-p1",
+      "type": "comprehension",
+      "difficulty": "medium",
+      "title": "రోజూ",
+      "passage": "నేను రోజూ పుస్తకం చదువుతాను. ఇప్పుడు నేను ఇంట్లో ఉన్నాను. నా అన్న ఇక్కడ లేడు — అతను ఊరికి వెళ్ళాడు. అమ్మ వంట చేస్తోంది. కుక్కలు బయట ఉన్నాయి. రేపు మేము ఊరికి వెళ్తాము. నిన్న మేము వెళ్ళలేదు.",
+      "translation": "I read a book every day. Now I am at home. My elder brother is not here — he has gone to the village. Mother is cooking. The dogs are outside. Tomorrow we will go to the village. Yesterday we did not go.",
+      "glossary": {
+        "లేడు": "he is not (present)",
+        "వంట చేస్తోంది": "is cooking",
+        "బయట": "outside",
+        "నిన్న": "yesterday"
+      },
+      "questions": [
+        {
+          "id": "te109-p1-q1",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "What does **నేను రోజూ పుస్తకం చదువుతాను** say?",
+          "options": [
+            "I am reading a book now.",
+            "I read a book every day.",
+            "I did not read a book.",
+            "I will not read a book."
+          ],
+          "correct": 1,
+          "explanation": "-తా- with *రోజూ*, every day, gives the habitual. The next sentence uses the progressive instead, for what is true at this moment.",
+          "rulesTested": [
+            "habitual-future",
+            "present-progressive"
+          ],
+          "vocabUsed": [
+            "నేను",
+            "రోజూ",
+            "పుస్తకం",
+            "చదువు"
+          ]
+        },
+        {
+          "id": "te109-p1-q2",
+          "type": "multi",
+          "difficulty": "medium",
+          "stem": "Which of these does the passage support?",
+          "options": [
+            "అన్న ఊరికి వెళ్ళాడు.",
+            "కుక్కలు ఇంట్లో ఉన్నాయి.",
+            "మేము రేపు ఊరికి వెళ్తాము.",
+            "మేము నిన్న వెళ్ళలేదు."
+          ],
+          "correct": [
+            0,
+            2,
+            3
+          ],
+          "explanation": "The dogs are *బయట*, outside, not in the house. Note the three verb forms the passage sets side by side: -ఆడు for the past, -తా- for tomorrow, and లేదు for the denial.",
+          "rulesTested": [
+            "person-endings",
+            "habitual-future",
+            "verb-negation"
+          ],
+          "vocabUsed": [
+            "అన్న",
+            "ఊరు",
+            "వెళ్ళు",
+            "కుక్క",
+            "ఇల్లు",
+            "మేము",
+            "రేపు",
+            "లేదు"
+          ]
+        },
+        {
+          "id": "te109-p1-q3",
+          "type": "integer",
+          "difficulty": "hard",
+          "stem": "The passage has **కుక్కలు బయట ఉన్నాయి.** If it spoke of the brother and mother instead of the dogs, how many words would change form?",
+          "answer": 2,
+          "unit": "words",
+          "explanation": "Two: the subject, and the verb with it — *ఉన్నాయి* → *ఉన్నారు*, the amahat plural ending giving way to the mahat one, because people and dogs fall on opposite sides of the plural division (¶42). *బయట* is an adverb and never changes.",
+          "rulesTested": [
+            "class-agreement",
+            "class-plural",
+            "person-endings"
+          ],
+          "vocabUsed": [
+            "కుక్క",
+            "అన్న",
+            "అమ్మ"
+          ]
+        }
+      ]
+    }
+  ]
+}

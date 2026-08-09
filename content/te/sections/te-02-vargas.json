@@ -1,0 +1,988 @@
+{
+  "id": "te-02",
+  "kind": "lesson",
+  "level": "A1",
+  "order": 2,
+  "title": "The Consonants I — the Five Vargas",
+  "summary": "Twenty-five of the thirty-six consonants fall into a grid five wide and five deep, ordered by where the sound is made and how. Learn the grid and you have not a list of twenty-five letters but two facts about each one.",
+  "script": {
+    "heading": "The five వర్గాలు — twenty-five consonants",
+    "letters": [
+      {
+        "glyph": "క",
+        "name": "ka",
+        "ipa": "/ka/",
+        "approx": "velar, unvoiced, unaspirated — the k of 'skin'"
+      },
+      {
+        "glyph": "ఖ",
+        "name": "kha",
+        "ipa": "/kʰa/",
+        "approx": "velar, unvoiced, aspirated — the k of 'kin'"
+      },
+      {
+        "glyph": "గ",
+        "name": "ga",
+        "ipa": "/ɡa/",
+        "approx": "velar, voiced — the g of 'go'"
+      },
+      {
+        "glyph": "ఘ",
+        "name": "gha",
+        "ipa": "/ɡʱa/",
+        "approx": "velar, voiced, aspirated"
+      },
+      {
+        "glyph": "ఙ",
+        "name": "ṅa",
+        "ipa": "/ŋa/",
+        "approx": "velar nasal — the ng of 'sing'"
+      },
+      {
+        "glyph": "చ",
+        "name": "ca",
+        "ipa": "/tʃa/",
+        "approx": "palatal — the ch of 'church'"
+      },
+      {
+        "glyph": "ఛ",
+        "name": "cha",
+        "ipa": "/tʃʰa/",
+        "approx": "palatal, aspirated"
+      },
+      {
+        "glyph": "జ",
+        "name": "ja",
+        "ipa": "/dʒa/",
+        "approx": "palatal, voiced — the j of 'jar'"
+      },
+      {
+        "glyph": "ఝ",
+        "name": "jha",
+        "ipa": "/dʒʱa/",
+        "approx": "palatal, voiced, aspirated"
+      },
+      {
+        "glyph": "ఞ",
+        "name": "ña",
+        "ipa": "/ɲa/",
+        "approx": "palatal nasal — the ñ of 'señor'"
+      },
+      {
+        "glyph": "ట",
+        "name": "ṭa",
+        "ipa": "/ʈa/",
+        "approx": "retroflex — tongue curled back to the palate"
+      },
+      {
+        "glyph": "ఠ",
+        "name": "ṭha",
+        "ipa": "/ʈʰa/",
+        "approx": "retroflex, aspirated"
+      },
+      {
+        "glyph": "డ",
+        "name": "ḍa",
+        "ipa": "/ɖa/",
+        "approx": "retroflex, voiced"
+      },
+      {
+        "glyph": "ఢ",
+        "name": "ḍha",
+        "ipa": "/ɖʱa/",
+        "approx": "retroflex, voiced, aspirated"
+      },
+      {
+        "glyph": "ణ",
+        "name": "ṇa",
+        "ipa": "/ɳa/",
+        "approx": "retroflex nasal"
+      },
+      {
+        "glyph": "త",
+        "name": "ta",
+        "ipa": "/t̪a/",
+        "approx": "dental — tongue on the teeth, as in Spanish 'todo'"
+      },
+      {
+        "glyph": "థ",
+        "name": "tha",
+        "ipa": "/t̪ʰa/",
+        "approx": "dental, aspirated — never the th of 'thin'"
+      },
+      {
+        "glyph": "ద",
+        "name": "da",
+        "ipa": "/d̪a/",
+        "approx": "dental, voiced"
+      },
+      {
+        "glyph": "ధ",
+        "name": "dha",
+        "ipa": "/d̪ʱa/",
+        "approx": "dental, voiced, aspirated"
+      },
+      {
+        "glyph": "న",
+        "name": "na",
+        "ipa": "/n̪a/",
+        "approx": "dental nasal — the n of 'no'"
+      },
+      {
+        "glyph": "ప",
+        "name": "pa",
+        "ipa": "/pa/",
+        "approx": "labial — the p of 'spin'"
+      },
+      {
+        "glyph": "ఫ",
+        "name": "pha",
+        "ipa": "/pʰa/",
+        "approx": "labial, aspirated — the p of 'pin'"
+      },
+      {
+        "glyph": "బ",
+        "name": "ba",
+        "ipa": "/ba/",
+        "approx": "labial, voiced — the b of 'bed'"
+      },
+      {
+        "glyph": "భ",
+        "name": "bha",
+        "ipa": "/bʱa/",
+        "approx": "labial, voiced, aspirated"
+      },
+      {
+        "glyph": "మ",
+        "name": "ma",
+        "ipa": "/ma/",
+        "approx": "labial nasal — the m of 'me'"
+      }
+    ],
+    "notes": [
+      "Read the table five at a time. Each group of five is a వర్గం, a class of sounds made at one place in the mouth, and the five members always come in the same order: unvoiced, unvoiced aspirated, voiced, voiced aspirated, nasal.",
+      "Every consonant is named with an *a* after it — క is ka and not k — because the vowel is already inside the letter. This is the single fact that makes an abugida different from an alphabet.",
+      "Each varga is named after its first letter: క-వర్గం, చ-వర్గం, ట-వర్గం, త-వర్గం, ప-వర్గం."
+    ]
+  },
+  "rules": [
+    {
+      "id": "inherent-vowel",
+      "number": "8",
+      "heading": "The Inherent Vowel",
+      "statement": "A Telugu consonant letter does not stand for a bare consonant. It stands for that consonant **plus the vowel అ**: క is not *k* but **ka**. The vowel is said to be *inherent* in the letter, and it is there unless something is written to remove or replace it. A writing system built this way is an **abugida**, and it is neither an alphabet, in which vowels are letters, nor a syllabary, in which each syllable has an unrelated sign of its own.",
+      "examples": [
+        {
+          "target": "క",
+          "gloss": "ka — one letter, two sounds"
+        },
+        {
+          "target": "మ",
+          "gloss": "ma"
+        },
+        {
+          "target": "కమ",
+          "gloss": "kama — two letters, four sounds",
+          "note": "nothing is written for either vowel"
+        }
+      ],
+      "footnotes": [
+        "It follows that the thirty-six consonants are really thirty-six syllables, and that a Telugu word of three letters is a word of three syllables."
+      ],
+      "seeAlso": [
+        "independent-vowels"
+      ],
+      "core": true
+    },
+    {
+      "id": "varga-grid",
+      "number": "9",
+      "heading": "The Five Vargas",
+      "statement": "The first twenty-five consonants are arranged in five **వర్గాలు** (vargas), each of five letters. A varga is a class of sounds made at **one place in the mouth**, and the five vargas run from the back of the mouth to the front: velar, palatal, retroflex, dental, labial. The order is not arbitrary and not alphabetical — it is anatomical, and it was worked out by Indian grammarians more than two thousand years ago.",
+      "paradigms": [
+        {
+          "caption": "The varga grid",
+          "columns": [
+            "unvoiced",
+            "unvoiced asp.",
+            "voiced",
+            "voiced asp.",
+            "nasal"
+          ],
+          "rows": [
+            {
+              "label": "velar (కంఠ్యం)",
+              "cells": [
+                "క",
+                "ఖ",
+                "గ",
+                "ఘ",
+                "ఙ"
+              ]
+            },
+            {
+              "label": "palatal (తాలవ్యం)",
+              "cells": [
+                "చ",
+                "ఛ",
+                "జ",
+                "ఝ",
+                "ఞ"
+              ]
+            },
+            {
+              "label": "retroflex (మూర్ధన్యం)",
+              "cells": [
+                "ట",
+                "ఠ",
+                "డ",
+                "ఢ",
+                "ణ"
+              ]
+            },
+            {
+              "label": "dental (దంత్యం)",
+              "cells": [
+                "త",
+                "థ",
+                "ద",
+                "ధ",
+                "న"
+              ]
+            },
+            {
+              "label": "labial (ఓష్ఠ్యం)",
+              "cells": [
+                "ప",
+                "ఫ",
+                "బ",
+                "భ",
+                "మ"
+              ]
+            }
+          ],
+          "footnote": "Read across for the place of articulation, down for the manner. Every one of the twenty-five letters is fixed by its row and its column, and knowing either halves the work of learning it."
+        }
+      ],
+      "examples": [
+        {
+          "target": "క ఖ గ ఘ ఙ",
+          "gloss": "the velar varga, ka-varga"
+        },
+        {
+          "target": "ప ఫ బ భ మ",
+          "gloss": "the labial varga, pa-varga"
+        }
+      ],
+      "seeAlso": [
+        "inherent-vowel"
+      ],
+      "core": true
+    },
+    {
+      "id": "varga-columns",
+      "number": "10",
+      "heading": "The Five Columns",
+      "statement": "Within every varga the five letters stand in the same order, and that order is the second half of the system. The first is **unvoiced and unaspirated**, the second **unvoiced and aspirated**, the third **voiced**, the fourth **voiced and aspirated**, the fifth **nasal**. It follows that the *n*-th letter of any varga has the same manner as the *n*-th letter of any other: క, చ, ట, త, ప are all unvoiced unaspirated stops, differing only in where they are made.",
+      "examples": [
+        {
+          "target": "క చ ట త ప",
+          "gloss": "the first column — all unvoiced and unaspirated"
+        },
+        {
+          "target": "గ జ డ ద బ",
+          "gloss": "the third column — all voiced"
+        },
+        {
+          "target": "ఙ ఞ ణ న మ",
+          "gloss": "the fifth column — all nasal"
+        }
+      ],
+      "seeAlso": [
+        "varga-grid"
+      ],
+      "core": true
+    },
+    {
+      "id": "aspiration",
+      "number": "11",
+      "heading": "Aspiration",
+      "statement": "An **aspirated** consonant is released with an audible puff of breath; an **unaspirated** one is not. English has both but uses them without noticing: the *p* of *pin* is aspirated and the *p* of *spin* is not, and no English word is distinguished by the difference. In Telugu the difference **distinguishes words**, and an English speaker's difficulty is not making the sounds but hearing that they are two. The aspirated letters are those of the second and fourth columns, and each is written as its unaspirated partner with more of a flourish.",
+      "paradigms": [
+        {
+          "caption": "Unaspirated and aspirated",
+          "columns": [
+            "unaspirated",
+            "aspirated",
+            "English hint"
+          ],
+          "rows": [
+            {
+              "label": "velar",
+              "cells": [
+                "క ka",
+                "ఖ kha",
+                "the k of 'skin' vs of 'kin'"
+              ]
+            },
+            {
+              "label": "labial",
+              "cells": [
+                "ప pa",
+                "ఫ pha",
+                "the p of 'spin' vs of 'pin'"
+              ]
+            },
+            {
+              "label": "dental",
+              "cells": [
+                "త ta",
+                "థ tha",
+                "not the th of 'thin' — a t with breath"
+              ]
+            }
+          ],
+          "footnote": "The transliteration *th* is a trap for English readers: థ is an aspirated *t*, never the sound of 'the' or 'thin'."
+        }
+      ],
+      "examples": [
+        {
+          "target": "క / ఖ",
+          "gloss": "ka / kha"
+        },
+        {
+          "target": "ప / ఫ",
+          "gloss": "pa / pha"
+        }
+      ],
+      "seeAlso": [
+        "varga-columns"
+      ],
+      "core": true
+    },
+    {
+      "id": "retroflex-dental",
+      "number": "12",
+      "heading": "Retroflex against Dental",
+      "statement": "Two vargas sound alike to an English ear and are entirely distinct to a Telugu one. The **dental** letters త థ ద ధ న are made with the tongue against the **teeth**, as in Spanish or Italian. The **retroflex** letters ట ఠ డ ఢ ణ are made with the tongue curled **back** to touch the roof of the mouth. English *t* and *d* are made between the two, on the ridge behind the teeth, and so sound to a Telugu speaker like a poor attempt at the retroflex.",
+      "examples": [
+        {
+          "target": "త ta",
+          "gloss": "dental — tongue on the teeth"
+        },
+        {
+          "target": "ట ṭa",
+          "gloss": "retroflex — tongue curled back"
+        },
+        {
+          "target": "న na / ణ ṇa",
+          "gloss": "the same distinction in the nasals"
+        }
+      ],
+      "footnotes": [
+        "The retroflex series is the mark of an Indian language. It is not found in the languages of Europe, and it is what makes English spoken in India sound as it does."
+      ],
+      "seeAlso": [
+        "varga-grid"
+      ],
+      "core": true
+    },
+    {
+      "id": "varga-nasals",
+      "number": "13",
+      "heading": "The Nasals",
+      "statement": "Each varga ends with its own **nasal** — a sound made at that varga's place with the breath let out through the nose. Telugu therefore has five nasals where English has three. Two of them, **ఙ** and **ఞ**, are almost never written as separate letters in modern Telugu: the sounds occur, but before another consonant of their own varga they are written with the అనుస్వారం instead, which is taken up in the next section.",
+      "examples": [
+        {
+          "target": "ఙ ఞ ణ న మ",
+          "gloss": "ṅa ña ṇa na ma — one nasal to each varga"
+        },
+        {
+          "target": "మ",
+          "gloss": "ma — the labial nasal, the commonest of the five"
+        },
+        {
+          "target": "ణ / న",
+          "gloss": "ṇa / na — retroflex and dental, distinct words in Telugu"
+        }
+      ],
+      "seeAlso": [
+        "varga-grid",
+        "varga-columns",
+        "retroflex-dental"
+      ],
+      "core": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "lemma": "వర్గం",
+      "gloss": "varga, a class of five consonants",
+      "pos": "noun",
+      "forms": {
+        "nom": "వర్గం",
+        "translit": "vargaṃ"
+      }
+    },
+    {
+      "lemma": "హల్లు",
+      "gloss": "consonant (singular)",
+      "pos": "noun",
+      "forms": {
+        "nom": "హల్లు",
+        "translit": "hallu"
+      }
+    },
+    {
+      "lemma": "అల్పప్రాణం",
+      "gloss": "unaspirated consonant",
+      "pos": "noun",
+      "forms": {
+        "nom": "అల్పప్రాణం",
+        "translit": "alpaprāṇaṃ"
+      }
+    },
+    {
+      "lemma": "మహాప్రాణం",
+      "gloss": "aspirated consonant",
+      "pos": "noun",
+      "forms": {
+        "nom": "మహాప్రాణం",
+        "translit": "mahāprāṇaṃ"
+      }
+    },
+    {
+      "lemma": "అనునాసికం",
+      "gloss": "nasal consonant",
+      "pos": "noun",
+      "forms": {
+        "nom": "అనునాసికం",
+        "translit": "anunāsikaṃ"
+      }
+    },
+    {
+      "lemma": "కంఠ్యం",
+      "gloss": "velar (of the throat)",
+      "pos": "noun",
+      "forms": {
+        "nom": "కంఠ్యం",
+        "translit": "kaṇṭhyaṃ"
+      }
+    },
+    {
+      "lemma": "దంత్యం",
+      "gloss": "dental",
+      "pos": "noun",
+      "forms": {
+        "nom": "దంత్యం",
+        "translit": "dantyaṃ"
+      }
+    },
+    {
+      "lemma": "మూర్ధన్యం",
+      "gloss": "retroflex",
+      "pos": "noun",
+      "forms": {
+        "nom": "మూర్ధన్యం",
+        "translit": "mūrdhanyaṃ"
+      }
+    },
+    {
+      "lemma": "ఓష్ఠ్యం",
+      "gloss": "labial",
+      "pos": "noun",
+      "forms": {
+        "nom": "ఓష్ఠ్యం",
+        "translit": "ōṣṭhyaṃ"
+      }
+    },
+    {
+      "lemma": "తాలవ్యం",
+      "gloss": "palatal",
+      "pos": "noun",
+      "forms": {
+        "nom": "తాలవ్యం",
+        "translit": "tālavyaṃ"
+      }
+    }
+  ],
+  "drills": [
+    {
+      "id": "te102-q1",
+      "type": "integer",
+      "difficulty": "easy",
+      "stem": "How many letters are there in one varga?",
+      "answer": 5,
+      "unit": "letters",
+      "explanation": "Five, always in the same order: unvoiced, unvoiced aspirated, voiced, voiced aspirated, nasal.",
+      "rulesTested": [
+        "varga-grid",
+        "varga-columns"
+      ],
+      "vocabUsed": [
+        "వర్గం"
+      ]
+    },
+    {
+      "id": "te102-q2",
+      "type": "integer",
+      "difficulty": "easy",
+      "stem": "How many consonants do the five vargas account for between them?",
+      "answer": 25,
+      "unit": "letters",
+      "explanation": "Twenty-five, five vargas of five. The remaining eleven of the thirty-six consonants fall outside the grid and are taken up next.",
+      "rulesTested": [
+        "varga-grid"
+      ],
+      "vocabUsed": [
+        "వర్గం",
+        "హల్లు"
+      ]
+    },
+    {
+      "id": "te102-q3",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "What sound does the letter **క** stand for?",
+      "options": [
+        "k",
+        "ka",
+        "ak",
+        "kh"
+      ],
+      "correct": 1,
+      "explanation": "*ka*. The vowel అ is already inside the letter — a consonant letter in an abugida is a syllable, not a bare consonant.",
+      "rulesTested": [
+        "inherent-vowel"
+      ],
+      "vocabUsed": [
+        "హల్లు",
+        "అక్షరం"
+      ]
+    },
+    {
+      "id": "te102-q4",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Which letter is **గ** (ga)?",
+      "options": [
+        "క",
+        "గ",
+        "ఘ",
+        "ఖ"
+      ],
+      "correct": 1,
+      "explanation": "గ is voiced *ga*, third in the velar varga. క is ka, ఖ is kha, ఘ is gha — four letters of one varga that a beginner must learn to keep apart by shape.",
+      "rulesTested": [
+        "varga-grid"
+      ],
+      "vocabUsed": [
+        "వర్గం"
+      ]
+    },
+    {
+      "id": "te102-q5",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Which letter is **మ** (ma)?",
+      "options": [
+        "న",
+        "మ",
+        "ణ",
+        "బ"
+      ],
+      "correct": 1,
+      "explanation": "మ is the labial nasal, last of the pa-varga. న is the dental nasal and ణ the retroflex one.",
+      "rulesTested": [
+        "varga-nasals"
+      ],
+      "vocabUsed": [
+        "అనునాసికం"
+      ]
+    },
+    {
+      "id": "te102-q6",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Which varga does **ణ** belong to?",
+      "options": [
+        "velar",
+        "palatal",
+        "retroflex",
+        "dental"
+      ],
+      "correct": 2,
+      "explanation": "ణ is the retroflex nasal, fifth of the ṭa-varga. The dental nasal is న — the pair is the hardest in the alphabet for an English ear.",
+      "rulesTested": [
+        "varga-grid",
+        "retroflex-dental",
+        "varga-nasals"
+      ],
+      "vocabUsed": [
+        "మూర్ధన్యం",
+        "దంత్యం",
+        "అనునాసికం"
+      ]
+    },
+    {
+      "id": "te102-q7",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Which letter is the **voiced aspirate** of the labial varga?",
+      "options": [
+        "ప",
+        "ఫ",
+        "బ",
+        "భ"
+      ],
+      "correct": 3,
+      "explanation": "Fourth in the varga is always the voiced aspirate, so భ. ప is unvoiced, ఫ unvoiced aspirated, బ voiced unaspirated.",
+      "rulesTested": [
+        "varga-columns",
+        "aspiration"
+      ],
+      "vocabUsed": [
+        "ఓష్ఠ్యం",
+        "మహాప్రాణం"
+      ]
+    },
+    {
+      "id": "te102-q8",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Which letter is the **nasal** of the palatal varga?",
+      "options": [
+        "ఙ",
+        "ఞ",
+        "ణ",
+        "న"
+      ],
+      "correct": 1,
+      "explanation": "ఞ, fifth of the ca-varga — the sound of Spanish *señor*. ఙ is the velar nasal, ణ the retroflex, న the dental.",
+      "rulesTested": [
+        "varga-nasals",
+        "varga-grid"
+      ],
+      "vocabUsed": [
+        "తాలవ్యం",
+        "అనునాసికం"
+      ]
+    },
+    {
+      "id": "te102-q9",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which of these letters are **nasals**?",
+      "options": [
+        "మ",
+        "బ",
+        "ణ",
+        "ఞ"
+      ],
+      "correct": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "The nasal is always fifth in its varga: మ, ణ and ఞ are. బ is third in the pa-varga and merely voiced.",
+      "rulesTested": [
+        "varga-nasals",
+        "varga-columns"
+      ],
+      "vocabUsed": [
+        "అనునాసికం"
+      ]
+    },
+    {
+      "id": "te102-q10",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which of these letters are **aspirated**?",
+      "options": [
+        "ఖ",
+        "గ",
+        "ఢ",
+        "థ"
+      ],
+      "correct": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "Aspirates occupy the second and fourth columns: ఖ, ఢ and థ. గ is third in its varga — voiced, but unaspirated.",
+      "rulesTested": [
+        "aspiration",
+        "varga-columns"
+      ],
+      "vocabUsed": [
+        "మహాప్రాణం",
+        "అల్పప్రాణం"
+      ]
+    },
+    {
+      "id": "te102-q11",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "What do **క, చ, ట, త, ప** have in common?",
+      "options": [
+        "They are made at the same place in the mouth.",
+        "They are all first in their varga — unvoiced and unaspirated.",
+        "They are all nasals.",
+        "They are all aspirated."
+      ],
+      "correct": 1,
+      "explanation": "They share a column, not a row: one from each varga, all unvoiced and unaspirated, differing only in where they are made. Sharing a *place* would mean sharing a varga.",
+      "rulesTested": [
+        "varga-columns",
+        "varga-grid"
+      ],
+      "vocabUsed": [
+        "వర్గం",
+        "అల్పప్రాణం"
+      ]
+    },
+    {
+      "id": "te102-q12",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "How is **థ** pronounced?",
+      "options": [
+        "as the th of 'thin'",
+        "as the th of 'the'",
+        "as a t with a puff of breath after it",
+        "as an s"
+      ],
+      "correct": 2,
+      "explanation": "థ is an aspirated dental *t*. The transliteration *th* is a trap laid by the Roman alphabet: no Telugu letter has the sound of English *thin* or *the* at all.",
+      "rulesTested": [
+        "aspiration",
+        "retroflex-dental"
+      ],
+      "vocabUsed": [
+        "మహాప్రాణం",
+        "దంత్యం"
+      ]
+    },
+    {
+      "id": "te102-q13",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Which pair of English words shows the difference between **ప** and **ఫ**?",
+      "options": [
+        "pin / bin",
+        "spin / pin",
+        "pin / fin",
+        "pat / pad"
+      ],
+      "correct": 1,
+      "explanation": "The p of *spin* is unaspirated (ప) and the p of *pin* aspirated (ఫ). English has both sounds and never distinguishes words by them; Telugu does, which is why an English speaker must learn to *hear* a difference they already produce.",
+      "rulesTested": [
+        "aspiration"
+      ],
+      "vocabUsed": [
+        "అల్పప్రాణం",
+        "మహాప్రాణం",
+        "ఓష్ఠ్యం"
+      ]
+    },
+    {
+      "id": "te102-q14",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which of these letters belong to the **dental** varga?",
+      "options": [
+        "త",
+        "ట",
+        "ధ",
+        "న"
+      ],
+      "correct": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "త, ధ and న are dental. ట is the retroflex counterpart of త — the two look different and sound nearly alike to an English ear, which is why they must be learned as a pair.",
+      "rulesTested": [
+        "retroflex-dental",
+        "varga-grid"
+      ],
+      "vocabUsed": [
+        "దంత్యం",
+        "మూర్ధన్యం"
+      ]
+    },
+    {
+      "id": "te102-q15",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Which letter stands in the **third row, third column** of the varga grid?",
+      "options": [
+        "డ",
+        "ద",
+        "గ",
+        "జ"
+      ],
+      "correct": 0,
+      "explanation": "The third row is retroflex and the third column voiced unaspirated, giving డ. ద is the dental of the same column (fourth row) and గ the velar (first row).",
+      "rulesTested": [
+        "varga-grid",
+        "varga-columns",
+        "retroflex-dental"
+      ],
+      "vocabUsed": [
+        "మూర్ధన్యం",
+        "వర్గం"
+      ]
+    },
+    {
+      "id": "te102-q16",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**ఝ** — what two facts does its position give you?",
+      "options": [
+        "Palatal, and voiced aspirated.",
+        "Palatal, and unvoiced aspirated.",
+        "Retroflex, and voiced aspirated.",
+        "Velar, and nasal."
+      ],
+      "correct": 0,
+      "explanation": "It is fourth in the ca-varga: the row gives the place, palatal, and the column the manner, voiced and aspirated. Every one of the twenty-five is fixed this way, which is why the grid is worth more than a list.",
+      "rulesTested": [
+        "varga-grid",
+        "varga-columns",
+        "aspiration"
+      ],
+      "vocabUsed": [
+        "తాలవ్యం",
+        "మహాప్రాణం"
+      ]
+    },
+    {
+      "id": "te102-q17",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "How many of the twenty-five varga consonants are **unaspirated**?",
+      "answer": 15,
+      "unit": "letters",
+      "explanation": "Fifteen: three columns of five — the unvoiced, the voiced, and the nasal. The aspirates occupy two columns and so number ten. Counting by column rather than letter by letter is the point of the grid.",
+      "rulesTested": [
+        "varga-columns",
+        "aspiration"
+      ],
+      "vocabUsed": [
+        "అల్పప్రాణం",
+        "మహాప్రాణం",
+        "అనునాసికం"
+      ]
+    },
+    {
+      "id": "te102-q18",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "How many **nasal** consonants does the varga grid give Telugu?",
+      "answer": 5,
+      "unit": "letters",
+      "explanation": "Five, one to each varga — where English has three. Two of them, ఙ and ఞ, are seldom written as separate letters in modern Telugu, but they are letters of the alphabet all the same.",
+      "rulesTested": [
+        "varga-nasals"
+      ],
+      "vocabUsed": [
+        "అనునాసికం",
+        "వర్గం"
+      ]
+    },
+    {
+      "id": "te102-q19",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which statements about the ordering of the vargas are correct?",
+      "options": [
+        "The five vargas run from the back of the mouth towards the front.",
+        "Within a varga, the voiced letters come before the unvoiced.",
+        "The nasal always comes last.",
+        "The order is alphabetical by transliteration."
+      ],
+      "correct": [
+        0,
+        2
+      ],
+      "explanation": "Velar, palatal, retroflex, dental, labial is back to front. Within a varga the unvoiced come first and the nasal last. The arrangement is anatomical, and was worked out by Indian grammarians long before the Roman alphabet reached India.",
+      "rulesTested": [
+        "varga-grid",
+        "varga-columns",
+        "varga-nasals"
+      ],
+      "vocabUsed": [
+        "వర్గం",
+        "కంఠ్యం",
+        "ఓష్ఠ్యం"
+      ]
+    },
+    {
+      "id": "te102-q20",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "A learner writes **క** where they mean the single sound *k*, with no vowel. What is wrong?",
+      "options": [
+        "Nothing; క is the bare consonant.",
+        "క already contains the vowel అ, so it reads *ka*; removing that vowel needs a further mark.",
+        "క is a vowel, not a consonant.",
+        "క may only begin a word."
+      ],
+      "correct": 1,
+      "explanation": "This is the defining property of an abugida (¶8). A bare consonant must be written with the mark that mutes the inherent vowel, which is taken up later — until then, every consonant written is a syllable.",
+      "rulesTested": [
+        "inherent-vowel"
+      ],
+      "vocabUsed": [
+        "హల్లు",
+        "అక్షరం"
+      ]
+    },
+    {
+      "id": "te102-q21",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "**కపట** is written with three consonant letters and nothing else. How many sounds does it stand for?",
+      "answer": 6,
+      "unit": "sounds",
+      "explanation": "Six: *ka-pa-ṭa*. Each letter carries its inherent vowel, so three letters give three consonants and three vowels. Answering three counts letters instead of sounds, which is the error an alphabet-trained reader makes.",
+      "rulesTested": [
+        "inherent-vowel",
+        "varga-grid"
+      ],
+      "vocabUsed": [
+        "అక్షరం",
+        "హల్లు"
+      ]
+    },
+    {
+      "id": "te102-q22",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which of these letters share a **row** with ద — that is, belong to its varga?",
+      "options": [
+        "త",
+        "డ",
+        "ధ",
+        "న"
+      ],
+      "correct": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "ద is dental, so త, ధ and న are its varga-fellows. డ is its retroflex counterpart — same column, different row. Confusing a row-mate with a column-mate is the standard slip while the grid is still new.",
+      "rulesTested": [
+        "varga-grid",
+        "retroflex-dental",
+        "varga-columns"
+      ],
+      "vocabUsed": [
+        "దంత్యం",
+        "మూర్ధన్యం",
+        "వర్గం"
+      ]
+    }
+  ]
+}

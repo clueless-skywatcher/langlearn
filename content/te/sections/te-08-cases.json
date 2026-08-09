@@ -1,0 +1,720 @@
+{
+  "id": "te-08",
+  "kind": "lesson",
+  "level": "A1",
+  "order": 10,
+  "title": "The Case Suffixes",
+  "summary": "Telugu marks the work a noun does by gluing a suffix onto it. The suffixes are few, regular, and separable — a different arrangement from the fused endings of a European declension, and an easier one.",
+  "rules": [
+    {
+      "id": "agglutination",
+      "number": "44",
+      "heading": "Suffixes Are Glued, Not Fused",
+      "statement": "Telugu is an **agglutinative** language: it marks grammar by adding suffixes that keep their own shape and can be peeled off again. A Lithuanian ending fuses case and number into one syllable that cannot be divided; a Telugu suffix is a separate piece added to a stem that is still recognisable. It follows that the same case suffix is used with every noun, and that learning it once is learning it for all.",
+      "examples": [
+        {
+          "target": "పుస్తకం + లో = పుస్తకంలో",
+          "gloss": "book + in = in the book"
+        },
+        {
+          "target": "ఇల్లు + కి = ఇంటికి",
+          "gloss": "house + to = to the house",
+          "note": "the stem changes here; see ¶50"
+        },
+        {
+          "target": "నేను + కు = నాకు",
+          "gloss": "I + to = to me"
+        }
+      ],
+      "footnotes": [
+        "The suffixes may also stack: a plural ending and then a case suffix after it, which a fused declension cannot do."
+      ],
+      "seeAlso": [
+        "plural-lu"
+      ],
+      "core": true
+    },
+    {
+      "id": "accusative-ni",
+      "number": "45",
+      "heading": "The Accusative — ని / ను",
+      "statement": "The direct object of a verb takes **-ని** or **-ను**. The suffix is used chiefly where the object is a **person or an animal**; where it is a lifeless thing, Telugu commonly leaves the noun bare, and the word order alone shows what is the object. This is a real difference from the European accusative, which is written whether the object breathes or not.",
+      "examples": [
+        {
+          "target": "నేను అబ్బాయిని చూస్తున్నాను.",
+          "gloss": "I see the boy.",
+          "note": "a person, so the suffix is used"
+        },
+        {
+          "target": "నేను పుస్తకం చదువుతున్నాను.",
+          "gloss": "I am reading a book.",
+          "note": "a thing, so the noun stands bare"
+        },
+        {
+          "target": "కుక్కను",
+          "gloss": "the dog (as object)"
+        }
+      ],
+      "seeAlso": [
+        "agglutination",
+        "class-singular"
+      ],
+      "core": true
+    },
+    {
+      "id": "dative-ki",
+      "number": "46",
+      "heading": "The Dative — కి / కు",
+      "statement": "**-కి** or **-కు** marks the person to whom or for whom, and it is the busiest suffix in the language. Beside the indirect object it does work that English gives to a subject: with it Telugu says that a thing is liked, is needed, or is *had* — the last being the ordinary way of saying *have*, since Telugu has no such verb (¶65).",
+      "paradigms": [
+        {
+          "caption": "The dative of the pronouns",
+          "columns": [
+            "nominative",
+            "dative",
+            "English"
+          ],
+          "rows": [
+            {
+              "label": "1 sg.",
+              "cells": [
+                "నేను",
+                "నాకు",
+                "to me"
+              ]
+            },
+            {
+              "label": "2 sg.",
+              "cells": [
+                "నువ్వు",
+                "నీకు",
+                "to you"
+              ]
+            },
+            {
+              "label": "3 sg. m.",
+              "cells": [
+                "అతను",
+                "అతనికి",
+                "to him"
+              ]
+            },
+            {
+              "label": "3 sg. f.",
+              "cells": [
+                "ఆమె",
+                "ఆమెకు",
+                "to her"
+              ]
+            },
+            {
+              "label": "1 pl.",
+              "cells": [
+                "మేము",
+                "మాకు",
+                "to us"
+              ]
+            },
+            {
+              "label": "2 pl.",
+              "cells": [
+                "మీరు",
+                "మీకు",
+                "to you"
+              ]
+            },
+            {
+              "label": "3 pl.",
+              "cells": [
+                "వాళ్ళు",
+                "వాళ్ళకు",
+                "to them"
+              ]
+            }
+          ],
+          "footnote": "**-కి** follows a front vowel and **-కు** a back one; the choice is one of sound, not of meaning."
+        }
+      ],
+      "examples": [
+        {
+          "target": "నాకు పుస్తకం ఇవ్వు.",
+          "gloss": "Give me the book."
+        },
+        {
+          "target": "అమ్మాయికి",
+          "gloss": "to the girl"
+        },
+        {
+          "target": "నాకు తెలుగు వచ్చు.",
+          "gloss": "I know Telugu.",
+          "note": "literally: to-me Telugu comes"
+        }
+      ],
+      "seeAlso": [
+        "agglutination",
+        "personal-pronouns"
+      ],
+      "core": true
+    },
+    {
+      "id": "locative-lo",
+      "number": "47",
+      "heading": "The Locative — లో",
+      "statement": "**-లో** means *in* or *inside*, and **-మీద** means *on*. Both are added to the noun exactly as -కి is, and neither is a preposition: nothing in Telugu stands before its noun in the way English *in* and *on* do. Where English puts a little word in front, Telugu puts a suffix behind.",
+      "examples": [
+        {
+          "target": "ఇంట్లో",
+          "gloss": "in the house",
+          "note": "ఇల్లు with -లో, the stem changing"
+        },
+        {
+          "target": "పుస్తకంలో",
+          "gloss": "in the book"
+        },
+        {
+          "target": "బల్ల మీద",
+          "gloss": "on the table"
+        }
+      ],
+      "seeAlso": [
+        "agglutination"
+      ],
+      "core": true
+    },
+    {
+      "id": "instrumental-to",
+      "number": "48",
+      "heading": "With — తో",
+      "statement": "**-తో** covers both what English divides between *with* the instrument and *with* the companion: *written with a pen* and *came with a friend* take the same suffix. Telugu draws no line where English draws one.",
+      "examples": [
+        {
+          "target": "కలంతో",
+          "gloss": "with a pen"
+        },
+        {
+          "target": "స్నేహితుడితో",
+          "gloss": "with a friend"
+        },
+        {
+          "target": "నాతో",
+          "gloss": "with me"
+        }
+      ],
+      "seeAlso": [
+        "agglutination"
+      ],
+      "core": true
+    },
+    {
+      "id": "ablative-nundi",
+      "number": "49",
+      "heading": "From — నుండి",
+      "statement": "**-నుండి** (or **-నుంచి**, which is commoner in speech) means *from*, of place and of time alike. With it a learner can at last answer the question every foreigner is asked: *where are you from?*",
+      "examples": [
+        {
+          "target": "నేను ఇండియా నుండి.",
+          "gloss": "I am from India."
+        },
+        {
+          "target": "ఇంటి నుండి",
+          "gloss": "from the house"
+        },
+        {
+          "target": "మీరు ఎక్కడ నుండి?",
+          "gloss": "Where are you from?"
+        }
+      ],
+      "seeAlso": [
+        "agglutination",
+        "asking-what-who"
+      ],
+      "core": true
+    },
+    {
+      "id": "oblique-stem",
+      "number": "50",
+      "heading": "The Stem Before a Suffix",
+      "statement": "Before a suffix, many nouns take a special form called the **oblique stem** — a stem that never appears alone and exists only to be built on. **ఇల్లు** has the oblique **ఇంటి-**, so that *in the house* is **ఇంట్లో** and *to the house* **ఇంటికి**. This is the one real difficulty in the case system: the suffixes are regular, and it is the stems that must be learned.",
+      "paradigms": [
+        {
+          "caption": "Nominative and oblique",
+          "columns": [
+            "nominative",
+            "oblique",
+            "with -లో",
+            "with -కి"
+          ],
+          "rows": [
+            {
+              "label": "house",
+              "cells": [
+                "ఇల్లు",
+                "ఇంటి-",
+                "ఇంట్లో",
+                "ఇంటికి"
+              ]
+            },
+            {
+              "label": "book",
+              "cells": [
+                "పుస్తకం",
+                "పుస్తకం-",
+                "పుస్తకంలో",
+                "పుస్తకానికి"
+              ]
+            },
+            {
+              "label": "I",
+              "cells": [
+                "నేను",
+                "నా-",
+                "—",
+                "నాకు"
+              ]
+            }
+          ],
+          "footnote": "A noun whose oblique differs from its nominative should be learned with both, as a Lithuanian noun is learned with its genitive."
+        }
+      ],
+      "examples": [
+        {
+          "target": "ఇల్లు → ఇంటికి",
+          "gloss": "house → to the house"
+        },
+        {
+          "target": "నేను → నాకు",
+          "gloss": "I → to me"
+        }
+      ],
+      "seeAlso": [
+        "agglutination",
+        "dative-ki",
+        "locative-lo"
+      ],
+      "core": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "lemma": "నాకు",
+      "gloss": "to me",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "నేను",
+        "translit": "nāku"
+      }
+    },
+    {
+      "lemma": "నీకు",
+      "gloss": "to you (singular)",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "నువ్వు",
+        "translit": "nīku"
+      }
+    },
+    {
+      "lemma": "మాకు",
+      "gloss": "to us",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "మేము",
+        "translit": "māku"
+      }
+    },
+    {
+      "lemma": "మీకు",
+      "gloss": "to you (plural or polite)",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "మీరు",
+        "translit": "mīku"
+      }
+    },
+    {
+      "lemma": "బల్ల",
+      "gloss": "table",
+      "pos": "noun",
+      "forms": {
+        "nom": "బల్ల",
+        "translit": "balla"
+      }
+    },
+    {
+      "lemma": "కలం",
+      "gloss": "pen",
+      "pos": "noun",
+      "forms": {
+        "nom": "కలం",
+        "translit": "kalaṃ"
+      }
+    },
+    {
+      "lemma": "స్నేహితుడు",
+      "gloss": "friend (male)",
+      "pos": "noun",
+      "forms": {
+        "nom": "స్నేహితుడు",
+        "translit": "snēhituḍu",
+        "class": "mahat sg."
+      }
+    },
+    {
+      "lemma": "ఊరు",
+      "gloss": "town, village",
+      "pos": "noun",
+      "forms": {
+        "nom": "ఊరు",
+        "translit": "ūru"
+      }
+    },
+    {
+      "lemma": "ఎక్కడ",
+      "gloss": "where",
+      "pos": "adverb",
+      "forms": {
+        "nom": "ఎక్కడ",
+        "translit": "ekkaḍa"
+      }
+    },
+    {
+      "lemma": "విభక్తి",
+      "gloss": "case, case suffix",
+      "pos": "noun",
+      "forms": {
+        "nom": "విభక్తి",
+        "translit": "vibhakti"
+      }
+    }
+  ],
+  "drills": [
+    {
+      "id": "te108-q2",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "How is **to me** said?",
+      "options": [
+        "నేనుకు",
+        "నాకు",
+        "నాతో",
+        "నాలో"
+      ],
+      "correct": 1,
+      "explanation": "The oblique stem of నేను is నా-, and the dative suffix is added to that: *నాకు*. Adding -కు to the nominative gives a form that does not exist.",
+      "rulesTested": [
+        "dative-ki",
+        "oblique-stem"
+      ],
+      "vocabUsed": [
+        "నాకు",
+        "నేను"
+      ]
+    },
+    {
+      "id": "te108-q3",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Which suffix means **from**?",
+      "options": [
+        "-లో",
+        "-మీద",
+        "-నుండి",
+        "-ని"
+      ],
+      "correct": 2,
+      "explanation": "-నుండి, or -నుంచి in speech. -మీద means *on* and -ని marks a direct object.",
+      "rulesTested": [
+        "ablative-nundi"
+      ],
+      "vocabUsed": [
+        "విభక్తి"
+      ]
+    },
+    {
+      "id": "te108-q4",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "What does it mean to say that Telugu is **agglutinative**?",
+      "options": [
+        "That its words are very long.",
+        "That grammatical suffixes keep their own shape and can be separated from the stem.",
+        "That it has no cases.",
+        "That its endings fuse case and number into one syllable."
+      ],
+      "correct": 1,
+      "explanation": "The last option describes a fusional language such as Lithuanian, where one ending carries case and number together and cannot be divided. A Telugu suffix is a separate piece, the same on every noun.",
+      "rulesTested": [
+        "agglutination"
+      ],
+      "vocabUsed": [
+        "విభక్తి"
+      ]
+    },
+    {
+      "id": "te108-q5",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Why is there no word standing **before** the noun in *పుస్తకంలో* (in the book)?",
+      "options": [
+        "Because the word for *in* has been left out.",
+        "Because Telugu puts after the noun what English puts before it.",
+        "Because పుస్తకం is a special noun.",
+        "Because the phrase is in the plural."
+      ],
+      "correct": 1,
+      "explanation": "-లో is a suffix, not a preposition. Telugu has postpositions and suffixes and no prepositions at all — the head follows what depends on it throughout the language.",
+      "rulesTested": [
+        "locative-lo",
+        "agglutination"
+      ],
+      "vocabUsed": [
+        "పుస్తకం",
+        "విభక్తి"
+      ]
+    },
+    {
+      "id": "te108-q6",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which of these are correctly formed?",
+      "options": [
+        "నాకు",
+        "నీకు",
+        "మీకు",
+        "నేనుకు"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Each pronoun has an oblique stem — నా-, నీ-, మీ- — and the dative is built on that. *నేనుకు* adds the suffix to the nominative, which Telugu never does.",
+      "rulesTested": [
+        "dative-ki",
+        "oblique-stem"
+      ],
+      "vocabUsed": [
+        "నాకు",
+        "నీకు",
+        "మీకు",
+        "నేను"
+      ]
+    },
+    {
+      "id": "te108-q7",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "*నేను పుస్తకం చదువుతున్నాను* has no suffix on **పుస్తకం**, though it is the object. Why not?",
+      "options": [
+        "Because the sentence is in the present.",
+        "Because the object is a lifeless thing, and Telugu commonly leaves such an object bare.",
+        "Because పుస్తకం cannot take a suffix.",
+        "Because the suffix has been dropped in error."
+      ],
+      "correct": 1,
+      "explanation": "The accusative -ని is used chiefly of people and animals. A lifeless object usually stands bare, the word order showing what it is — a distinction the European accusative does not make.",
+      "rulesTested": [
+        "accusative-ni"
+      ],
+      "vocabUsed": [
+        "పుస్తకం",
+        "నేను"
+      ]
+    },
+    {
+      "id": "te108-q8",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "How would you say **with a friend**?",
+      "options": [
+        "స్నేహితుడికి",
+        "స్నేహితుడితో",
+        "స్నేహితుడిలో",
+        "స్నేహితుడి నుండి"
+      ],
+      "correct": 1,
+      "explanation": "-తో covers both the instrument and the companion — *with a pen* and *with a friend* alike. The others give *to*, *in* and *from*.",
+      "rulesTested": [
+        "instrumental-to"
+      ],
+      "vocabUsed": [
+        "స్నేహితుడు",
+        "విభక్తి"
+      ]
+    },
+    {
+      "id": "te108-q9",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "*ఇల్లు* becomes *ఇంటికి* in the dative. What has happened?",
+      "options": [
+        "The suffix is irregular for this noun.",
+        "The noun has taken its oblique stem ఇంటి- before the regular suffix.",
+        "The noun has become plural.",
+        "Two suffixes have been added."
+      ],
+      "correct": 1,
+      "explanation": "The suffix -కి is perfectly regular; it is the **stem** that changes. This is the real labour of the Telugu case system, and why a noun with an unpredictable oblique should be learned with it, as a Lithuanian noun is learned with its genitive.",
+      "rulesTested": [
+        "oblique-stem",
+        "dative-ki"
+      ],
+      "vocabUsed": [
+        "ఇల్లు",
+        "విభక్తి"
+      ]
+    },
+    {
+      "id": "te108-q10",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which statements contrast Telugu with a fusional language such as Lithuanian?",
+      "options": [
+        "A Telugu case suffix keeps one shape across all nouns.",
+        "A Telugu suffix can be separated from the stem it is added to.",
+        "Telugu fuses case and number into a single ending.",
+        "Telugu places its case markers after the noun rather than before."
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "Fusing case and number into one indivisible ending is exactly what Lithuanian does and Telugu does not: Telugu adds the plural, then the case, each keeping its own shape.",
+      "rulesTested": [
+        "agglutination",
+        "plural-lu"
+      ],
+      "vocabUsed": [
+        "విభక్తి",
+        "బహువచనం"
+      ]
+    },
+    {
+      "id": "te108-q11",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "**నేను ఇంట్లో ఉన్నాను** — how many of its three words carry a case suffix?",
+      "answer": 1,
+      "unit": "words",
+      "explanation": "One: *ఇంట్లో*, the oblique ఇంటి- with -లో. *నేను* is the bare nominative subject, which takes no suffix at all, and the third word is the verb. Counting two usually means mistaking the nominative for a marked case.",
+      "rulesTested": [
+        "locative-lo",
+        "oblique-stem",
+        "agglutination"
+      ],
+      "vocabUsed": [
+        "నేను",
+        "ఇల్లు"
+      ]
+    },
+    {
+      "id": "te108-q12",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "How many **different case suffixes** does this section teach?",
+      "answer": 5,
+      "unit": "suffixes",
+      "explanation": "Five: -ని for the object, -కి for the dative, -లో for the locative, -తో for *with*, -నుండి for *from*. Each is the same on every noun; it is the stems in front of them that vary.",
+      "rulesTested": [
+        "accusative-ni",
+        "dative-ki",
+        "locative-lo",
+        "instrumental-to",
+        "ablative-nundi"
+      ],
+      "vocabUsed": [
+        "విభక్తి"
+      ]
+    },
+    {
+      "id": "te108-p1",
+      "type": "comprehension",
+      "difficulty": "medium",
+      "title": "నా ఊరు",
+      "passage": "నా పేరు రవి. నేను ఒక చిన్న ఊరు నుండి. ఇప్పుడు నేను హైదరాబాద్‌లో ఉన్నాను. నాకు ఇక్కడ ఒక ఇల్లు ఉంది. ఇంట్లో నా పుస్తకాలు ఉన్నాయి. నేను స్నేహితుడితో ఇక్కడ ఉన్నాను. మా ఇంటికి రండి!",
+      "translation": "My name is Ravi. I am from a small town. Now I am in Hyderabad. I have a house here. My books are in the house. I am here with a friend. Come to our house!",
+      "glossary": {
+        "ఒక": "a, one",
+        "ఇప్పుడు": "now",
+        "హైదరాబాద్": "Hyderabad",
+        "ఉన్నాను": "I am (present)",
+        "ఉంది / ఉన్నాయి": "there is / there are",
+        "మా": "our",
+        "రండి": "come! (polite imperative)"
+      },
+      "questions": [
+        {
+          "id": "te108-p1-q1",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "Where is Ravi from?",
+          "options": [
+            "హైదరాబాద్ నుండి",
+            "ఒక చిన్న ఊరు నుండి",
+            "ఇంటి నుండి",
+            "స్నేహితుడి నుండి"
+          ],
+          "correct": 1,
+          "explanation": "*నేను ఒక చిన్న ఊరు నుండి* — the suffix -నుండి marks where he comes from. Hyderabad is where he is now, which the locative -లో marks instead.",
+          "rulesTested": [
+            "ablative-nundi",
+            "locative-lo"
+          ],
+          "vocabUsed": [
+            "ఊరు",
+            "చిన్న",
+            "ఇల్లు",
+            "స్నేహితుడు"
+          ]
+        },
+        {
+          "id": "te108-p1-q2",
+          "type": "multi",
+          "difficulty": "medium",
+          "stem": "Which words in the passage carry the suffix meaning **in**?",
+          "options": [
+            "హైదరాబాద్‌లో",
+            "ఇంట్లో",
+            "ఇంటికి",
+            "స్నేహితుడితో"
+          ],
+          "correct": [
+            0,
+            1
+          ],
+          "explanation": "-లో is *in*. *ఇంటికి* is the dative, *to the house*, and *స్నేహితుడితో* takes -తో, *with*. All four are built on the same principle and differ only in the suffix glued on.",
+          "rulesTested": [
+            "locative-lo",
+            "dative-ki",
+            "instrumental-to",
+            "agglutination"
+          ],
+          "vocabUsed": [
+            "ఇల్లు",
+            "స్నేహితుడు",
+            "విభక్తి"
+          ]
+        },
+        {
+          "id": "te108-p1-q3",
+          "type": "integer",
+          "difficulty": "hard",
+          "stem": "The passage uses the word for *house* three times — **ఇల్లు**, **ఇంట్లో**, **ఇంటికి**. How many distinct case suffixes are used with it?",
+          "answer": 2,
+          "unit": "suffixes",
+          "explanation": "Two: -లో and -కి. The first occurrence, *ఇల్లు*, is the bare nominative and carries none. Note also that both suffixed forms are built on the oblique ఇంటి-, which never appears alone (¶50).",
+          "rulesTested": [
+            "oblique-stem",
+            "locative-lo",
+            "dative-ki"
+          ],
+          "vocabUsed": [
+            "ఇల్లు",
+            "విభక్తి"
+          ]
+        }
+      ]
+    }
+  ]
+}

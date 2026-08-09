@@ -42,12 +42,12 @@
       "type": "integer",
       "difficulty": "easy",
       "fromSection": "eo-01",
-      "stem": "How many vowels does Esperanto have?",
-      "answer": 5,
-      "unit": "vowels",
-      "explanation": "Five: a, e, i, o, u. Each keeps a single value wherever it stands, accented or not.",
-      "rulesTested": ["vowels"],
-      "vocabUsed": ["vokalo"]
+      "stem": "Of the letters **a, j, ŭ, o, e**, how many are vowels?",
+      "answer": 3,
+      "unit": "letters",
+      "explanation": "Three: a, o and e. The vowels are a, e, i, o, u and no others — *j* and *ŭ* are the consonant letters with which the second element of a diphthong is written, chosen precisely so that a diphthong can never be mistaken for two vowels standing side by side (¶5).",
+      "rulesTested": ["vowels", "diphthongs", "alphabet"],
+      "vocabUsed": ["vokalo", "litero", "diftongo"]
     },
     {
       "id": "eocp1-q4",
@@ -136,12 +136,12 @@
       "type": "integer",
       "difficulty": "easy",
       "fromSection": "eo-02",
-      "stem": "In **Bela birdo kantas kaj forta knabo kuras**, how many verbs are there?",
-      "answer": 2,
-      "unit": "verbs",
-      "explanation": "Two, *kantas* and *kuras*, each recognisable by its -as. *bela* and *forta* are adjectives and *kaj* a conjunction.",
-      "rulesTested": ["present-as"],
-      "vocabUsed": ["bela", "birdo", "kantas", "kaj", "forta", "knabo", "kuras"]
+      "stem": "How many of these four words are **verbs**: *kanto, kanta, kantas, kante*?",
+      "answer": 1,
+      "unit": "words",
+      "explanation": "One: *kantas*. All four share a root and differ only in the ending, which is the whole of what fixes the part of speech — *kanto* is a noun (a song), *kanta* an adjective, *kante* an adverb, and only -as makes a verb in the present (¶14).",
+      "rulesTested": ["present-as", "noun-o", "adjective-a"],
+      "vocabUsed": ["kantas"]
     },
     {
       "id": "eocp1-q11",
@@ -298,10 +298,10 @@
       "type": "integer",
       "difficulty": "hard",
       "fromSection": "eo-03",
-      "stem": "In **La grandaj ĉevaloj kuras en la verda kampo**, how many words carry the plural ending **-j**?",
-      "answer": 2,
+      "stem": "**La granda ĉevalo kuras en la verda kampo.** If both the horse and the field were made plural, how many words would change form?",
+      "answer": 4,
       "unit": "words",
-      "explanation": "Two: *grandaj* and *ĉevaloj*. The field is singular, so *verda* and *kampo* keep the singular; *la*, *kuras* and *en* can never take -j at all.",
+      "explanation": "Four: *granda* → *grandaj*, *ĉevalo* → *ĉevaloj*, *verda* → *verdaj*, *kampo* → *kampoj*. Neither *la* changes, however many things it stands before (¶18); nor does *kuras*, one verb form serving both numbers; nor does the preposition *en*.",
       "rulesTested": ["plural-j", "adjective-plural", "article-invariable"],
       "vocabUsed": ["la", "granda", "ĉevalo", "kuras", "en", "verda", "kampo"]
     },
@@ -351,12 +351,12 @@
           "id": "eocp1-p1-q3",
           "type": "integer",
           "difficulty": "hard",
-          "stem": "How many **plural adjectives** — words ending in -aj — does the passage contain?",
-          "answer": 6,
-          "unit": "adjectives",
-          "explanation": "Six: bonaj, belaj, grandaj, fortaj, Ruĝaj, fortaj. *longa* stays singular because *ĉambro* is singular, and *la* is not an adjective at all.",
-          "rulesTested": ["adjective-plural", "predicate-agreement", "article-invariable"],
-          "vocabUsed": ["bona", "bela", "granda", "forta", "ruĝa", "longa", "la"]
+          "stem": "Take from the passage the sentence **La fortaj viroj sidas sur seĝoj en la longa ĉambro.** Put into the singular throughout, how many of its words change form?",
+          "answer": 3,
+          "unit": "words",
+          "explanation": "Three: *fortaj* → *forta*, *viroj* → *viro*, *seĝoj* → *seĝo*. The chairs are the ones usually missed, having no adjective beside them to draw the eye. Neither *la* nor *sidas* ever changes for number (¶18), and *la longa ĉambro* was singular already.",
+          "rulesTested": ["plural-j", "adjective-plural", "article-invariable"],
+          "vocabUsed": ["forta", "viro", "sidas", "sur", "seĝo", "en", "longa", "ĉambro"]
         }
       ]
     }

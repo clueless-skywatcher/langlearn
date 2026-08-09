@@ -353,12 +353,12 @@
       "id": "a101-q11",
       "type": "integer",
       "difficulty": "hard",
-      "stem": "In the word *abėcėlė*, how many letters carry a diacritical mark?",
-      "answer": 3,
-      "unit": "letters",
-      "explanation": "Three — the three instances of ė. Each is a long close vowel, so the word is a-BĖ-CĖ-LĖ with three long syllables after the first.",
-      "rulesTested": ["alphabet", "vowel-length"],
-      "vocabUsed": ["abėcėlė", "raidė"]
+      "stem": "How many syllables are there in **šiaurė** ('north')?",
+      "answer": 2,
+      "unit": "syllables",
+      "explanation": "Two: šiau-rė. Counting the written vowels gives three and is wrong twice over — the i is not a vowel at all but the mark of a soft š (¶6), and *au* is a single diphthong (¶7).",
+      "rulesTested": ["soft-i", "diphthongs"],
+      "vocabUsed": ["skiemuo", "balsis"]
     },
     {
       "id": "a101-q12",

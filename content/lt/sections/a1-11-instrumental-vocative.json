@@ -1,0 +1,388 @@
+{
+  "id": "a1-11",
+  "kind": "lesson",
+  "level": "A1",
+  "order": 14,
+  "title": "The Instrumental and the Vocative",
+  "summary": "The last two cases, and with them the whole declension. The instrumental says with what a thing is done, in whose company, and at what recurring time; the vocative does nothing but call a person by name.",
+  "rules": [
+    {
+      "id": "instrumental-singular",
+      "number": "71",
+      "heading": "The Instrumental Singular",
+      "statement": "The **instrumental** answers *kuo?* (with what? by what means?). Its singular endings are given below. Two of them deserve warning: the feminine **-a** declension has an instrumental spelled exactly like its nominative — *knyga* is both — and the masculine **-us** declension takes the long ending **-umi**, not the short *-u* of the other masculines.",
+      "paradigms": [
+        {
+          "caption": "Nominative → instrumental singular",
+          "columns": ["nominative", "instrumental", "example"],
+          "rows": [
+            { "label": "masc. -as", "cells": ["-as", "-u", "namas → namu"] },
+            { "label": "masc. -is", "cells": ["-is", "-iu", "brolis → broliu"] },
+            { "label": "masc. -ys", "cells": ["-ys", "-iu", "obuolys → obuoliu"] },
+            { "label": "masc. -us", "cells": ["-us", "-umi", "sūnus → sūnumi"] },
+            { "label": "fem. -a", "cells": ["-a", "-a", "knyga → knyga"] },
+            { "label": "fem. -ė", "cells": ["-ė", "-e", "katė → kate"] },
+            { "label": "fem. -is", "cells": ["-is", "-imi", "moteris → moterimi"] }
+          ],
+          "footnote": "The feminine *knyga → knyga* is a genuine homograph, distinguished in speech by tone and in writing by nothing at all; the sentence must settle it, and it always does, because a nominative and an instrumental never do the same work."
+        }
+      ],
+      "examples": [
+        { "target": "Rašau pieštuku.", "gloss": "I am writing with a pencil." },
+        { "target": "Važiuoju autobusu.", "gloss": "I am going by bus." },
+        { "target": "Valgau šaukštu.", "gloss": "I am eating with a spoon." }
+      ],
+      "seeAlso": ["noun-endings", "dative-endings", "locative-singular"],
+      "core": true
+    },
+    {
+      "id": "dative-plural",
+      "number": "72",
+      "heading": "The Dative and Instrumental Plural",
+      "statement": "The two cases are best learnt together in the plural, because their endings run in parallel: where the dative has **-ms**, the instrumental has **-is** or **-mis**. With these the declension is complete — every one of the seven cases has now been given in both numbers.",
+      "paradigms": [
+        {
+          "caption": "Dative and instrumental plural",
+          "columns": ["nominative sg.", "dative pl.", "instrumental pl."],
+          "rows": [
+            { "label": "masc. -as", "cells": ["namas", "namams", "namais"] },
+            { "label": "masc. -is", "cells": ["brolis", "broliams", "broliais"] },
+            { "label": "masc. -us", "cells": ["sūnus", "sūnums", "sūnumis"] },
+            { "label": "fem. -a", "cells": ["knyga", "knygoms", "knygomis"] },
+            { "label": "fem. -ė", "cells": ["katė", "katėms", "katėmis"] },
+            { "label": "fem. -is", "cells": ["moteris", "moterims", "moterimis"] }
+          ],
+          "footnote": "Adjectives take the same endings and agree as always: *geriems draugams*, to good friends; *gerais žodžiais*, with good words."
+        }
+      ],
+      "examples": [
+        { "target": "Rašau draugams.", "gloss": "I am writing to my friends." },
+        { "target": "Važiuojame traukiniais.", "gloss": "We travel by train.", "note": "plural where English keeps the singular, because more than one journey is meant" }
+      ],
+      "seeAlso": ["dative-endings", "instrumental-singular", "adjective-number"],
+      "core": true
+    },
+    {
+      "id": "instrumental-means",
+      "number": "73",
+      "heading": "The Instrumental of Means",
+      "statement": "The commonest use of the case, and the one that names it: the **thing by which** an action is performed stands in the instrumental, with **no preposition**. English needs *with* or *by*; Lithuanian needs only the ending, and adding a preposition where none belongs is the error to guard against.",
+      "examples": [
+        { "target": "Rašau ranka.", "gloss": "I am writing by hand." },
+        { "target": "Į darbą važiuoju dviračiu.", "gloss": "I go to work by bicycle." },
+        { "target": "Ji valgo šaukštu, o ne peiliu.", "gloss": "She eats with a spoon, not with a knife." }
+      ],
+      "footnotes": [
+        "Do not say *su pieštuku* for \"with a pencil\": *su* is for company, not for tools (¶74)."
+      ],
+      "seeAlso": ["instrumental-singular", "motion-verbs"],
+      "core": true
+    },
+    {
+      "id": "instrumental-su",
+      "number": "74",
+      "heading": "Company: Su and the Instrumental",
+      "statement": "**Su** governs the instrumental and means *together with* — in somebody's company, or with something added to something else. It is the difference between the tool and the companion: one writes *pieštuku*, with a pencil, but goes *su draugu*, with a friend. Coffee **su pienu** is coffee with milk added, and the same preposition serves.",
+      "paradigms": [
+        {
+          "caption": "Tool against company",
+          "columns": ["Lithuanian", "English", "why"],
+          "rows": [
+            { "label": "means", "cells": ["Rašau pieštuku.", "I write with a pencil.", "bare instrumental"] },
+            { "label": "company", "cells": ["Einu su draugu.", "I go with a friend.", "su + instrumental"] },
+            { "label": "addition", "cells": ["Kava su pienu.", "Coffee with milk.", "su + instrumental"] }
+          ]
+        }
+      ],
+      "examples": [
+        { "target": "Ji gyvena su mama.", "gloss": "She lives with her mother." },
+        { "target": "Su kuo tu kalbi?", "gloss": "Whom are you talking to?", "note": "literally: with whom" },
+        { "target": "Arbata su citrina.", "gloss": "Tea with lemon." }
+      ],
+      "seeAlso": ["instrumental-means", "genitive-prepositions", "kas-declined"],
+      "core": true
+    },
+    {
+      "id": "instrumental-po",
+      "number": "75",
+      "heading": "Po with the Instrumental, and Po with the Genitive",
+      "statement": "**Po** is two prepositions wearing one spelling, and the case tells them apart. With the **instrumental** it is *under*, of place; with the **genitive** it is *after*, of time (¶33). Nothing but the ending distinguishes them, which is why a preposition must always be learnt together with the case it governs.",
+      "examples": [
+        { "target": "Knyga po stalu.", "gloss": "The book is under the table.", "note": "instrumental: place" },
+        { "target": "Po pietų dirbu.", "gloss": "After lunch I work.", "note": "genitive: time" },
+        { "target": "Katė miega po lova.", "gloss": "The cat is sleeping under the bed." }
+      ],
+      "seeAlso": ["genitive-prepositions", "place-prepositions", "instrumental-singular"],
+      "core": true
+    },
+    {
+      "id": "instrumental-time-route",
+      "number": "76",
+      "heading": "The Instrumental of Recurring Time and of Route",
+      "statement": "Two further uses, both idiomatic and both frequent. A **plural** instrumental of a time-word means *on such days as a rule* — not one Monday but Mondays in general. And the surface **along which** motion happens stands in the instrumental too, where English says *along* or *down*.",
+      "paradigms": [
+        {
+          "caption": "Recurring time",
+          "columns": ["Lithuanian", "English"],
+          "rows": [
+            { "label": "days", "cells": ["pirmadieniais", "on Mondays"] },
+            { "label": "weekends", "cells": ["savaitgaliais", "at weekends"] },
+            { "label": "parts of the day", "cells": ["vakarais", "in the evenings"] },
+            { "label": "seasons", "cells": ["vasaromis", "in summers"] }
+          ],
+          "footnote": "A single occasion is not put here but in the accusative — *pirmadienį*, on Monday — which ¶83 will give with the rest of the ways of saying when."
+        }
+      ],
+      "examples": [
+        { "target": "Savaitgaliais mes nedirbame.", "gloss": "At weekends we do not work." },
+        { "target": "Vakarais skaitau knygas.", "gloss": "In the evenings I read books." },
+        { "target": "Eikite tiesiai Universiteto gatve.", "gloss": "Go straight along Universiteto Street.", "note": "route, not means" }
+      ],
+      "seeAlso": ["dative-plural", "place-adverbs"],
+      "core": false
+    },
+    {
+      "id": "instrumental-verbs",
+      "number": "77",
+      "heading": "Verbs Governing the Instrumental",
+      "statement": "A few verbs take the instrumental as their only object, and one of them is needed the first time a learner falls ill. **Sirgti**, to be ill, asks *kuo?* — one is ill *with* an illness, never *an* illness. **Kvėpuoti**, to breathe, does the same.",
+      "examples": [
+        { "target": "Aš sergu gripu.", "gloss": "I have flu.", "note": "not *sergu gripą*" },
+        { "target": "Kuo tu sergi?", "gloss": "What is wrong with you?", "note": "literally: with what are you ill" },
+        { "target": "Vaikas serga angina.", "gloss": "The child has a throat infection." }
+      ],
+      "seeAlso": ["instrumental-singular", "transitive-objects"],
+      "core": true
+    },
+    {
+      "id": "vocative",
+      "number": "78",
+      "heading": "The Vocative",
+      "statement": "The **vocative** is the case of address: it names the person spoken to and takes no part in the grammar of the sentence, which is why it is set off by a comma. It has no plural of its own — the nominative plural serves — and its singular endings are these. A few common exceptions must simply be known: names in *-as* take **-ai**, agent nouns in *-ėjas, -ojas* take **-au**, and familiar words in *-ukas* drop the ending altogether.",
+      "paradigms": [
+        {
+          "caption": "Nominative → vocative singular",
+          "columns": ["nominative", "vocative", "example"],
+          "rows": [
+            { "label": "masc. -as", "cells": ["-as", "-e", "draugas → drauge"] },
+            { "label": "masc. -as, personal name", "cells": ["-as", "-ai", "Vytautas → Vytautai"] },
+            { "label": "masc. -ėjas / -ojas", "cells": ["-jas", "-jau", "mokytojas → mokytojau"] },
+            { "label": "masc. -ukas", "cells": ["-ukas", "—", "berniukas → berniuk"] },
+            { "label": "masc. -is", "cells": ["-is", "-i", "brolis → broli"] },
+            { "label": "masc. -us", "cells": ["-us", "-au", "sūnus → sūnau"] },
+            { "label": "fem. -a", "cells": ["-a", "-a", "mama → mama"] },
+            { "label": "fem. -ė", "cells": ["-ė", "-e", "Eglė → Egle"] }
+          ],
+          "footnote": "The feminine *-a* words are unchanged, so *mama* is both nominative and vocative — as *knyga* was both nominative and instrumental in ¶71. Lithuanian tolerates such coincidences because the sentence never leaves both readings open."
+        }
+      ],
+      "examples": [
+        { "target": "Labas, Egle!", "gloss": "Hello, Eglė!" },
+        { "target": "Ačiū, mokytojau.", "gloss": "Thank you, teacher." },
+        { "target": "Kaip gyveni, Vytautai?", "gloss": "How are you, Vytautas?" },
+        { "target": "Labas rytas, pone direktoriau.", "gloss": "Good morning, director.", "note": "*ponas* → *pone*, and the title follows into the vocative" }
+      ],
+      "seeAlso": ["noun-endings", "polite-jus"],
+      "core": true
+    }
+  ],
+  "vocabulary": [
+    { "lemma": "su", "gloss": "with, in the company of (+ instr.)", "pos": "preposition" },
+    { "lemma": "pieštukas", "gloss": "pencil", "pos": "noun", "forms": { "nom": "pieštukas", "gen": "pieštuko", "acc": "pieštuką", "gender": "m." } },
+    { "lemma": "šaukštas", "gloss": "spoon", "pos": "noun", "forms": { "nom": "šaukštas", "gen": "šaukšto", "acc": "šaukštą", "gender": "m." } },
+    { "lemma": "peilis", "gloss": "knife", "pos": "noun", "forms": { "nom": "peilis", "gen": "peilio", "acc": "peilį", "gender": "m." } },
+    { "lemma": "traukinys", "gloss": "train", "pos": "noun", "forms": { "nom": "traukinys", "gen": "traukinio", "acc": "traukinį", "gender": "m." } },
+    { "lemma": "dviratis", "gloss": "bicycle", "pos": "noun", "forms": { "nom": "dviratis", "gen": "dviračio", "acc": "dviratį", "gender": "m." } },
+    { "lemma": "ranka", "gloss": "hand, arm", "pos": "noun", "forms": { "nom": "ranka", "gen": "rankos", "acc": "ranką", "gender": "f." } },
+    { "lemma": "lova", "gloss": "bed", "pos": "noun", "forms": { "nom": "lova", "gen": "lovos", "acc": "lovą", "gender": "f." } },
+    { "lemma": "vakaras", "gloss": "evening", "pos": "noun", "forms": { "nom": "vakaras", "gen": "vakaro", "acc": "vakarą", "gender": "m." } },
+    { "lemma": "rytas", "gloss": "morning", "pos": "noun", "forms": { "nom": "rytas", "gen": "ryto", "acc": "rytą", "gender": "m." } },
+    { "lemma": "savaitgalis", "gloss": "weekend", "pos": "noun", "forms": { "nom": "savaitgalis", "gen": "savaitgalio", "acc": "savaitgalį", "gender": "m." } },
+    { "lemma": "pirmadienis", "gloss": "Monday", "pos": "noun", "forms": { "nom": "pirmadienis", "gen": "pirmadienio", "acc": "pirmadienį", "gender": "m." } },
+    { "lemma": "sirgti", "gloss": "to be ill (+ instr.)", "pos": "verb", "forms": { "inf": "sirgti", "pres3": "serga", "past3": "sirgo", "conj": "I" }, "notes": "The illness stands in the instrumental: sergu gripu." },
+    { "lemma": "gripas", "gloss": "flu", "pos": "noun", "forms": { "nom": "gripas", "gen": "gripo", "acc": "gripą", "gender": "m." } },
+    { "lemma": "ponas", "gloss": "gentleman, Mr (in address)", "pos": "noun", "forms": { "nom": "ponas", "gen": "pono", "acc": "poną", "gender": "m." } },
+    { "lemma": "citrina", "gloss": "lemon", "pos": "noun", "forms": { "nom": "citrina", "gen": "citrinos", "acc": "citriną", "gender": "f." } },
+    { "lemma": "tiesiai", "gloss": "straight ahead", "pos": "adverb" }
+  ],
+  "drills": [
+    {
+      "id": "a111-q1",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "What is the instrumental singular of **sūnus**?",
+      "options": ["sūnu", "sūnui", "sūnumi", "sūnuje"],
+      "correct": 2,
+      "explanation": "The **-us** declension takes the long **-umi**, unlike the other masculines, which take a bare *-u*. *sūnui* is the dative and *sūnuje* the locative.",
+      "rulesTested": ["instrumental-singular"],
+      "vocabUsed": ["sūnus"]
+    },
+    {
+      "id": "a111-q2",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete: **Rašau ____.** (I am writing with a pencil.)",
+      "options": ["su pieštuku", "pieštuku", "pieštuką", "pieštuko"],
+      "correct": 1,
+      "explanation": "The means of an action takes a bare instrumental with no preposition. *su pieštuku* would make the pencil a companion rather than a tool (¶74); the accusative and genitive have no business here at all.",
+      "rulesTested": ["instrumental-means", "instrumental-su"],
+      "vocabUsed": ["rašyti", "pieštukas", "su"]
+    },
+    {
+      "id": "a111-q3",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "How do you address **Eglė**?",
+      "options": ["Eglė", "Eglei", "Egle", "Eglės"],
+      "correct": 2,
+      "explanation": "Feminine **-ė** makes the vocative **-e**: *Labas, Egle!* *Eglei* is the dative and *Eglės* the genitive — neither can call a person.",
+      "rulesTested": ["vocative"],
+      "vocabUsed": []
+    },
+    {
+      "id": "a111-q4",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "**Knyga po stalu** and **Po pietų dirbu** use the same preposition. What distinguishes them?",
+      "options": [
+        "Nothing; *po* means the same in both.",
+        "The case: instrumental gives *under*, genitive gives *after*.",
+        "Word order: before the noun it is place, after it is time.",
+        "The first is wrong; place needs *ant*."
+      ],
+      "correct": 1,
+      "explanation": "*po stalu* is instrumental and means *under the table*; *po pietų* is genitive and means *after lunch*. The preposition is a single word governing two cases, and the case carries the whole of the difference.",
+      "rulesTested": ["instrumental-po", "genitive-prepositions"],
+      "vocabUsed": ["knyga", "po", "stalas", "dirbti"]
+    },
+    {
+      "id": "a111-q5",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which of these are **correct**?",
+      "options": [
+        "Einu su draugu.",
+        "Rašau su pieštuku.",
+        "Kava su pienu.",
+        "Važiuoju su autobusu."
+      ],
+      "correct": [0, 2],
+      "explanation": "*su* is for company and for what is added — a friend, milk in coffee. A pencil and a bus are means, and take the bare instrumental: *rašau pieštuku*, *važiuoju autobusu*. Putting *su* before a means is the commonest error here, because English uses *with* and *by* for both.",
+      "rulesTested": ["instrumental-su", "instrumental-means"],
+      "vocabUsed": ["eiti", "su", "draugas", "rašyti", "pieštukas", "kava", "pienas", "važiuoti", "autobusas"]
+    },
+    {
+      "id": "a111-q6",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Aš sergu ____.** (I have flu.)",
+      "options": ["gripą", "gripo", "gripu", "su gripu"],
+      "correct": 2,
+      "explanation": "*sirgti* governs the instrumental and nothing else: one is ill *with* an illness. The accusative *gripą* is what English leads a learner to write, and it is wrong.",
+      "rulesTested": ["instrumental-verbs", "instrumental-singular"],
+      "vocabUsed": ["aš", "sirgti", "gripas", "su"]
+    },
+    {
+      "id": "a111-q7",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "What is the dative plural of **katė**?",
+      "options": ["katėmis", "katėms", "katėse", "katėje"],
+      "correct": 1,
+      "explanation": "The dative plural has **-ms**, the instrumental plural **-mis**: *katėms* to the cats, *katėmis* with the cats. The other two are locatives, plural and singular.",
+      "rulesTested": ["dative-plural"],
+      "vocabUsed": ["katė"]
+    },
+    {
+      "id": "a111-q8",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which of these forms of **mokytojas** are correctly matched to their case?",
+      "options": [
+        "mokytojau — vocative",
+        "mokytojui — dative",
+        "mokytoju — instrumental",
+        "mokytojams — instrumental plural"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Agent nouns in *-ojas* take **-au** in the vocative, which is why *mokytojau* and not *mokytojai*. The last is the **dative** plural; the instrumental plural is *mokytojais*.",
+      "rulesTested": ["vocative", "dative-plural", "instrumental-singular", "dative-endings"],
+      "vocabUsed": ["mokytojas"]
+    },
+    {
+      "id": "a111-q9",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**Savaitgaliais mes nedirbame.** Why is *savaitgaliais* plural?",
+      "options": [
+        "Because *dirbti* requires a plural complement.",
+        "Because the instrumental has no singular.",
+        "Because the plural instrumental of a time-word means the occasion as a rule, not one occasion.",
+        "Because the subject *mes* is plural and the time-word agrees with it."
+      ],
+      "correct": 2,
+      "explanation": "*savaitgaliais* is \"at weekends\" in general. One particular weekend would call for the accusative of time instead. Time-words do not agree with the subject; nothing in Lithuanian does that.",
+      "rulesTested": ["instrumental-time-route", "dative-plural"],
+      "vocabUsed": ["savaitgalis", "mes", "dirbti"]
+    },
+    {
+      "id": "a111-q10",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "Counting both numbers, how many distinct case forms does the full declension of a Lithuanian noun now comprise?",
+      "answer": 14,
+      "unit": "forms",
+      "explanation": "Seven cases — nominative, genitive, dative, accusative, instrumental, locative, vocative — in singular and plural. The vocative plural is not made separately but borrowed from the nominative, so a real paradigm shows fewer distinct shapes than fourteen; the question asks for the slots, and there are fourteen of them.",
+      "rulesTested": ["instrumental-singular", "dative-plural", "vocative"],
+      "vocabUsed": []
+    },
+    {
+      "id": "a111-p1",
+      "type": "comprehension",
+      "difficulty": "medium",
+      "title": "Rytas su Vytautu",
+      "passage": "Vytautas gyvena su broliu. Savaitgaliais jie nedirba, bet šiandien pirmadienis. Rytais Vytautas važiuoja į darbą dviračiu, o brolis — autobusu. Šiandien brolis serga gripu ir guli lovoje. Jis klausia: „Vytautai, ar turi vandens?“ Vytautas duoda broliui vandens ir važiuoja į darbą vienas.",
+      "translation": "Vytautas lives with his brother. At weekends they do not work, but today is Monday. In the mornings Vytautas goes to work by bicycle, and his brother by bus. Today the brother is ill with flu and is lying in bed. He asks: \"Vytautas, have you got some water?\" Vytautas gives his brother some water and goes to work alone.",
+      "glossary": {
+        "šiandien": "today",
+        "sako": "says (sakyti)",
+        "vienas": "alone, by himself"
+      },
+      "questions": [
+        {
+          "id": "a111-p1-q1",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "Kuo Vytautas važiuoja į darbą?",
+          "options": ["autobusu", "traukiniu", "dviračiu", "su broliu"],
+          "correct": 2,
+          "explanation": "*Rytais Vytautas važiuoja į darbą dviračiu* — the bus is the brother's. The question word *kuo* asks for exactly the case the answer is in (¶52).",
+          "rulesTested": ["instrumental-means", "answering-in-case"],
+          "vocabUsed": ["važiuoti", "darbas", "dviratis", "autobusas", "traukinys", "su", "brolis"]
+        },
+        {
+          "id": "a111-p1-q2",
+          "type": "multi",
+          "difficulty": "medium",
+          "stem": "Which words in the passage stand in the **instrumental**?",
+          "options": ["broliu", "savaitgaliais", "gripu", "broliui"],
+          "correct": [0, 1, 2],
+          "explanation": "*su broliu* is company, *savaitgaliais* recurring time, *gripu* the object of *sirgti*. *broliui* is the dative — the person to whom the water is given (¶66).",
+          "rulesTested": ["instrumental-su", "instrumental-time-route", "instrumental-verbs", "dative-endings"],
+          "vocabUsed": ["brolis", "savaitgalis", "gripas"]
+        },
+        {
+          "id": "a111-p1-q3",
+          "type": "integer",
+          "difficulty": "hard",
+          "stem": "The passage contains one word in the **vocative**. How many letters does it have?",
+          "answer": 8,
+          "unit": "letters",
+          "explanation": "*Vytautai*, eight letters. A personal name in *-as* takes **-ai**, not the *-e* an ordinary noun would take: *drauge* but *Vytautai*. The brother is addressed by name, and the vocative stands outside the sentence, marked off by its comma.",
+          "rulesTested": ["vocative"],
+          "vocabUsed": []
+        }
+      ]
+    }
+  ]
+}

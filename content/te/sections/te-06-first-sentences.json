@@ -1,0 +1,723 @@
+{
+  "id": "te-06",
+  "kind": "lesson",
+  "level": "A1",
+  "order": 7,
+  "title": "First Sentences",
+  "summary": "The script will now carry meaning. Telugu makes a statement of identity with no verb at all: two nouns set side by side are a sentence, and a single word turns it into a denial.",
+  "rules": [
+    {
+      "id": "no-copula",
+      "number": "32",
+      "heading": "The Sentence Without a Verb",
+      "statement": "To say that one thing **is** another, Telugu writes the two words side by side and supplies **no verb**. There is no word answering to English *is* or *are* in such a sentence, and inserting one is not merely unnecessary but wrong. The order is subject first, predicate second — the reverse of nothing, but worth stating, since the two nouns are otherwise unmarked.",
+      "examples": [
+        {
+          "target": "ఇది పుస్తకం.",
+          "gloss": "This is a book.",
+          "note": "idi pustakaṃ — literally 'this book'"
+        },
+        {
+          "target": "అది ఇల్లు.",
+          "gloss": "That is a house.",
+          "note": "adi illu"
+        },
+        {
+          "target": "నా పేరు రవి.",
+          "gloss": "My name is Ravi.",
+          "note": "nā pēru Ravi"
+        }
+      ],
+      "footnotes": [
+        "Telugu has verbs of existence — for *there is*, *he is present* — but they are a separate matter from the equational sentence, and they are not needed to say that one thing is another."
+      ],
+      "seeAlso": [
+        "reading-a-word"
+      ],
+      "core": true
+    },
+    {
+      "id": "idi-adi",
+      "number": "33",
+      "heading": "ఇది and అది",
+      "statement": "**ఇది** is *this* and **అది** is *that*, and the pair runs through the language: **ఇ-** points to what is near and **అ-** to what is far. So also **ఇక్కడ** (here) against **అక్కడ** (there). Both ఇది and అది are used of things and of animals; of a man Telugu says **అతను**, of a woman **ఆమె**.",
+      "paradigms": [
+        {
+          "caption": "Near and far",
+          "columns": [
+            "near (ఇ-)",
+            "far (అ-)",
+            "meaning"
+          ],
+          "rows": [
+            {
+              "label": "thing",
+              "cells": [
+                "ఇది",
+                "అది",
+                "this / that"
+              ]
+            },
+            {
+              "label": "place",
+              "cells": [
+                "ఇక్కడ",
+                "అక్కడ",
+                "here / there"
+              ]
+            }
+          ],
+          "footnote": "The pattern is worth noticing early: a great many Telugu word-pairs are distinguished by just this ఇ- / అ- prefix."
+        }
+      ],
+      "examples": [
+        {
+          "target": "ఇది పండు.",
+          "gloss": "This is a fruit."
+        },
+        {
+          "target": "అది నది.",
+          "gloss": "That is a river."
+        },
+        {
+          "target": "అతను ఎవరు?",
+          "gloss": "Who is he?"
+        }
+      ],
+      "seeAlso": [
+        "no-copula"
+      ],
+      "core": true
+    },
+    {
+      "id": "kadu",
+      "number": "34",
+      "heading": "Denying with కాదు",
+      "statement": "A sentence of the kind just described is denied by putting **కాదు** at the **end**. Nothing else changes: no verb appears, and no word is negated in itself. **కాదు** denies an identity — *this is not that*. It is not the word for the absence of a thing, which is **లేదు**, and the two must not be confused.",
+      "examples": [
+        {
+          "target": "ఇది పుస్తకం.",
+          "gloss": "This is a book."
+        },
+        {
+          "target": "ఇది పుస్తకం కాదు.",
+          "gloss": "This is not a book.",
+          "note": "the whole denial is one word, added at the end"
+        },
+        {
+          "target": "అది నది కాదు.",
+          "gloss": "That is not a river."
+        }
+      ],
+      "footnotes": [
+        "కాదు also answers a question with *no*, exactly as *avunu* answers it with *yes*."
+      ],
+      "seeAlso": [
+        "no-copula",
+        "idi-adi"
+      ],
+      "core": true
+    },
+    {
+      "id": "possessive-na",
+      "number": "35",
+      "heading": "నా and నీ — My and Your",
+      "statement": "**నా** is *my* and **నీ** is *your*, and both stand **before** the noun and never change their form. With పేరు, name, they make the first sentence a learner of any language needs: *nā pēru …*, my name is …",
+      "examples": [
+        {
+          "target": "నా పేరు రవి.",
+          "gloss": "My name is Ravi."
+        },
+        {
+          "target": "నీ పేరు ఏమిటి?",
+          "gloss": "What is your name?"
+        },
+        {
+          "target": "నా ఇల్లు",
+          "gloss": "my house"
+        }
+      ],
+      "seeAlso": [
+        "no-copula"
+      ],
+      "core": true
+    },
+    {
+      "id": "adjective-invariable",
+      "number": "36",
+      "heading": "The Adjective Does Not Change",
+      "statement": "An adjective stands **before** its noun and is **invariable**: it takes no ending for gender, number or case. A learner coming from Latin, Lithuanian or German should notice how much this removes — there is no agreement to get right, because there is no agreement at all.",
+      "examples": [
+        {
+          "target": "మంచి పుస్తకం",
+          "gloss": "a good book"
+        },
+        {
+          "target": "మంచి ఇల్లు",
+          "gloss": "a good house",
+          "note": "the adjective is unchanged"
+        },
+        {
+          "target": "పెద్ద నది",
+          "gloss": "a big river"
+        },
+        {
+          "target": "చిన్న పిల్ల",
+          "gloss": "a small child"
+        }
+      ],
+      "seeAlso": [
+        "no-copula"
+      ],
+      "core": true
+    },
+    {
+      "id": "asking-what-who",
+      "number": "37",
+      "heading": "Asking ఏమిటి and ఎవరు",
+      "statement": "**ఏమిటి** asks *what* of a thing and **ఎవరు** asks *who* of a person. Each stands where its answer would stand — at the end of the sentence — and no other word moves. A question of this kind is therefore the statement with one word exchanged, which is as simple a rule as any language offers. **అవును** answers *yes* and **కాదు** *no*.",
+      "examples": [
+        {
+          "target": "ఇది ఏమిటి? — ఇది పుస్తకం.",
+          "gloss": "What is this? — This is a book."
+        },
+        {
+          "target": "అతను ఎవరు? — అతను నా అన్న.",
+          "gloss": "Who is he? — He is my elder brother."
+        },
+        {
+          "target": "ఇది నది కాదా? — అవును.",
+          "gloss": "Isn't this a river? — Yes."
+        }
+      ],
+      "seeAlso": [
+        "kadu",
+        "idi-adi",
+        "no-copula"
+      ],
+      "core": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "lemma": "ఇది",
+      "gloss": "this",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "ఇది",
+        "translit": "idi"
+      }
+    },
+    {
+      "lemma": "అది",
+      "gloss": "that",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "అది",
+        "translit": "adi"
+      }
+    },
+    {
+      "lemma": "అతను",
+      "gloss": "he",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "అతను",
+        "translit": "atanu"
+      }
+    },
+    {
+      "lemma": "ఆమె",
+      "gloss": "she",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "ఆమె",
+        "translit": "āme"
+      }
+    },
+    {
+      "lemma": "నేను",
+      "gloss": "I",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "నేను",
+        "translit": "nēnu"
+      }
+    },
+    {
+      "lemma": "నా",
+      "gloss": "my",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "నా",
+        "translit": "nā"
+      }
+    },
+    {
+      "lemma": "నీ",
+      "gloss": "your (singular)",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "నీ",
+        "translit": "nī"
+      }
+    },
+    {
+      "lemma": "పేరు",
+      "gloss": "name",
+      "pos": "noun",
+      "forms": {
+        "nom": "పేరు",
+        "translit": "pēru"
+      }
+    },
+    {
+      "lemma": "అన్న",
+      "gloss": "elder brother",
+      "pos": "noun",
+      "forms": {
+        "nom": "అన్న",
+        "translit": "anna"
+      }
+    },
+    {
+      "lemma": "కాదు",
+      "gloss": "is not; no",
+      "pos": "particle",
+      "forms": {
+        "nom": "కాదు",
+        "translit": "kādu"
+      }
+    },
+    {
+      "lemma": "అవును",
+      "gloss": "yes",
+      "pos": "particle",
+      "forms": {
+        "nom": "అవును",
+        "translit": "avunu"
+      }
+    },
+    {
+      "lemma": "ఏమిటి",
+      "gloss": "what",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "ఏమిటి",
+        "translit": "ēmiṭi"
+      }
+    },
+    {
+      "lemma": "ఎవరు",
+      "gloss": "who",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "ఎవరు",
+        "translit": "evaru"
+      }
+    },
+    {
+      "lemma": "ఇక్కడ",
+      "gloss": "here",
+      "pos": "adverb",
+      "forms": {
+        "nom": "ఇక్కడ",
+        "translit": "ikkaḍa"
+      }
+    },
+    {
+      "lemma": "అక్కడ",
+      "gloss": "there",
+      "pos": "adverb",
+      "forms": {
+        "nom": "అక్కడ",
+        "translit": "akkaḍa"
+      }
+    },
+    {
+      "lemma": "మంచి",
+      "gloss": "good",
+      "pos": "adjective",
+      "forms": {
+        "nom": "మంచి",
+        "translit": "maṃci"
+      },
+      "notes": "Invariable, like every Telugu adjective."
+    },
+    {
+      "lemma": "పెద్ద",
+      "gloss": "big",
+      "pos": "adjective",
+      "forms": {
+        "nom": "పెద్ద",
+        "translit": "pedda"
+      }
+    },
+    {
+      "lemma": "చిన్న",
+      "gloss": "small",
+      "pos": "adjective",
+      "forms": {
+        "nom": "చిన్న",
+        "translit": "cinna"
+      }
+    }
+  ],
+  "drills": [
+    {
+      "id": "te106-q1",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Translate: **This is a book.**",
+      "options": [
+        "ఇది పుస్తకం.",
+        "ఇది ఉంది పుస్తకం.",
+        "పుస్తకం ఇది కాదు.",
+        "ఇది పుస్తకం కాదు."
+      ],
+      "correct": 0,
+      "explanation": "Two nouns side by side, and no verb at all. The last option denies the statement, and the second inserts a verb where Telugu wants none.",
+      "rulesTested": [
+        "no-copula",
+        "idi-adi"
+      ],
+      "vocabUsed": [
+        "ఇది",
+        "పుస్తకం",
+        "కాదు"
+      ]
+    },
+    {
+      "id": "te106-q2",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "What does **అది** mean?",
+      "options": [
+        "this",
+        "that",
+        "here",
+        "who"
+      ],
+      "correct": 1,
+      "explanation": "అది is *that*, pointing away; ఇది is *this*, pointing near. The ఇ- / అ- pair runs right through the language.",
+      "rulesTested": [
+        "idi-adi"
+      ],
+      "vocabUsed": [
+        "అది",
+        "ఇది"
+      ]
+    },
+    {
+      "id": "te106-q3",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "How is **ఇది పుస్తకం** denied?",
+      "options": [
+        "by putting కాదు at the end",
+        "by putting కాదు at the beginning",
+        "by changing పుస్తకం",
+        "by adding a verb"
+      ],
+      "correct": 0,
+      "explanation": "*ఇది పుస్తకం కాదు.* Nothing else moves and no word is altered — the whole denial is one word added at the end.",
+      "rulesTested": [
+        "kadu",
+        "no-copula"
+      ],
+      "vocabUsed": [
+        "ఇది",
+        "పుస్తకం",
+        "కాదు"
+      ]
+    },
+    {
+      "id": "te106-q4",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Translate: **My name is Ravi.**",
+      "options": [
+        "నా పేరు రవి.",
+        "పేరు నా రవి.",
+        "నేను పేరు రవి.",
+        "నా పేరు రవి కాదు."
+      ],
+      "correct": 0,
+      "explanation": "*నా* stands before its noun and the sentence needs no verb. *నేను* is \"I\", not \"my\", and the last option denies what was to be asserted.",
+      "rulesTested": [
+        "possessive-na",
+        "no-copula"
+      ],
+      "vocabUsed": [
+        "నా",
+        "పేరు",
+        "నేను",
+        "కాదు"
+      ]
+    },
+    {
+      "id": "te106-q5",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Which word asks **who**?",
+      "options": [
+        "ఏమిటి",
+        "ఎవరు",
+        "ఇక్కడ",
+        "అవును"
+      ],
+      "correct": 1,
+      "explanation": "ఎవరు asks who, of a person; ఏమిటి asks what, of a thing. ఇక్కడ is \"here\" and అవును is \"yes\".",
+      "rulesTested": [
+        "asking-what-who"
+      ],
+      "vocabUsed": [
+        "ఏమిటి",
+        "ఎవరు",
+        "ఇక్కడ",
+        "అవును"
+      ]
+    },
+    {
+      "id": "te106-q6",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which of these phrases are **correctly** formed?",
+      "options": [
+        "మంచి పుస్తకం",
+        "పుస్తకం మంచి",
+        "పెద్ద ఇల్లు",
+        "చిన్న పిల్ల"
+      ],
+      "correct": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "The adjective stands before its noun. *పుస్తకం మంచి* reverses them, which is not how a Telugu attribute is written, though the adjective itself is unchanged in every case.",
+      "rulesTested": [
+        "adjective-invariable"
+      ],
+      "vocabUsed": [
+        "మంచి",
+        "పుస్తకం",
+        "పెద్ద",
+        "ఇల్లు",
+        "చిన్న",
+        "పిల్ల"
+      ]
+    },
+    {
+      "id": "te106-q7",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "In **మంచి పుస్తకం** and **మంచి ఇల్లు**, the adjective is identical. What does that show?",
+      "options": [
+        "That both nouns are of the same gender.",
+        "That Telugu adjectives are invariable — they take no ending for gender, number or case.",
+        "That మంచి is a noun.",
+        "That the second phrase is wrong."
+      ],
+      "correct": 1,
+      "explanation": "There is no agreement to get right because there is none at all — a considerable relief after a language like Lithuanian, where an adjective follows its noun into every case and number.",
+      "rulesTested": [
+        "adjective-invariable"
+      ],
+      "vocabUsed": [
+        "మంచి",
+        "పుస్తకం",
+        "ఇల్లు"
+      ]
+    },
+    {
+      "id": "te106-q8",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "**ఇది ఏమిటి?** How is this question built from the statement *ఇది పుస్తకం*?",
+      "options": [
+        "By moving the words.",
+        "By exchanging the predicate for the question word, which stands where the answer will stand.",
+        "By adding a question word at the front.",
+        "By adding కాదు."
+      ],
+      "correct": 1,
+      "explanation": "The question word takes the place of what is being asked for and nothing else moves. The answer then fills the same slot: *ఇది పుస్తకం*.",
+      "rulesTested": [
+        "asking-what-who",
+        "no-copula"
+      ],
+      "vocabUsed": [
+        "ఇది",
+        "ఏమిటి",
+        "పుస్తకం"
+      ]
+    },
+    {
+      "id": "te106-q9",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which statements about the Telugu equational sentence are correct?",
+      "options": [
+        "It contains no verb.",
+        "Its denial adds one word at the end.",
+        "Its subject must be a pronoun.",
+        "A question is made by exchanging one word for a question word."
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "The subject may be any noun — *నా పేరు రవి* has none but nouns. The other three describe a system of unusual economy: one sentence pattern, one negator, one substitution.",
+      "rulesTested": [
+        "no-copula",
+        "kadu",
+        "asking-what-who",
+        "possessive-na"
+      ],
+      "vocabUsed": [
+        "నా",
+        "పేరు",
+        "కాదు",
+        "ఏమిటి"
+      ]
+    },
+    {
+      "id": "te106-q10",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**ఇక్కడ** and **అక్కడ** differ in the same way as **ఇది** and **అది**. What is the pattern?",
+      "options": [
+        "The first of each pair is a question word.",
+        "ఇ- points to what is near and అ- to what is far.",
+        "The first of each pair is singular and the second plural.",
+        "ఇ- marks a person and అ- a thing."
+      ],
+      "correct": 1,
+      "explanation": "*this* and *here* against *that* and *there*. A great many Telugu word-pairs are distinguished by exactly this prefix, and noticing it early saves learning each pair twice.",
+      "rulesTested": [
+        "idi-adi"
+      ],
+      "vocabUsed": [
+        "ఇక్కడ",
+        "అక్కడ",
+        "ఇది",
+        "అది"
+      ]
+    },
+    {
+      "id": "te106-q11",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "**ఇది మంచి పుస్తకం.** If this became a denial, how many of its words would change form?",
+      "answer": 0,
+      "unit": "words",
+      "explanation": "None. కాదు is *added* at the end and nothing already there is altered — the adjective is invariable, the nouns are unmarked, and there is no verb to negate. A learner expecting a language to change something is expecting the wrong thing.",
+      "rulesTested": [
+        "kadu",
+        "adjective-invariable",
+        "no-copula"
+      ],
+      "vocabUsed": [
+        "ఇది",
+        "మంచి",
+        "పుస్తకం",
+        "కాదు"
+      ]
+    },
+    {
+      "id": "te106-p1",
+      "type": "comprehension",
+      "difficulty": "medium",
+      "title": "ఇది ఏమిటి?",
+      "passage": "ఇది నా ఇల్లు. అది పెద్ద ఇల్లు కాదు, చిన్న ఇల్లు. ఇక్కడ నా పుస్తకం. అది మంచి పుస్తకం. అతను నా అన్న. అతని పేరు రవి. ఆమె ఎవరు? ఆమె నా అమ్మ.",
+      "translation": "This is my house. That is not a big house, it is a small house. Here is my book. That is a good book. He is my elder brother. His name is Ravi. Who is she? She is my mother.",
+      "glossary": {
+        "అతని": "his (the possessive of అతను)",
+        "రవి": "Ravi, a man's name"
+      },
+      "questions": [
+        {
+          "id": "te106-p1-q1",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "ఆమె ఎవరు?",
+          "options": [
+            "నా అన్న",
+            "నా అమ్మ",
+            "రవి",
+            "నా ఇల్లు"
+          ],
+          "correct": 1,
+          "explanation": "*ఆమె నా అమ్మ.* ఆమె is used of a woman and అతను of a man, which is what settles it before the answer is even read.",
+          "rulesTested": [
+            "asking-what-who",
+            "idi-adi",
+            "possessive-na"
+          ],
+          "vocabUsed": [
+            "ఆమె",
+            "ఎవరు",
+            "నా",
+            "అన్న",
+            "అమ్మ",
+            "ఇల్లు"
+          ]
+        },
+        {
+          "id": "te106-p1-q2",
+          "type": "multi",
+          "difficulty": "medium",
+          "stem": "Which of these does the passage assert?",
+          "options": [
+            "ఇది నా ఇల్లు.",
+            "అది పెద్ద ఇల్లు.",
+            "అది మంచి పుస్తకం.",
+            "అతను నా అన్న."
+          ],
+          "correct": [
+            0,
+            2,
+            3
+          ],
+          "explanation": "The house is expressly *not* big — *పెద్ద ఇల్లు కాదు* — and small instead. The one word కాదు at the end is what reverses it.",
+          "rulesTested": [
+            "kadu",
+            "adjective-invariable",
+            "no-copula"
+          ],
+          "vocabUsed": [
+            "ఇది",
+            "నా",
+            "ఇల్లు",
+            "పెద్ద",
+            "మంచి",
+            "పుస్తకం",
+            "అతను",
+            "అన్న"
+          ]
+        },
+        {
+          "id": "te106-p1-q3",
+          "type": "integer",
+          "difficulty": "hard",
+          "stem": "How many verbs does the whole passage contain?",
+          "answer": 0,
+          "unit": "verbs",
+          "explanation": "None at all. Eight statements and a question, every one of them an equation of two nouns, and not a verb among them — which is the single most surprising fact about elementary Telugu for a speaker of a European language.",
+          "rulesTested": [
+            "no-copula",
+            "kadu",
+            "asking-what-who"
+          ],
+          "vocabUsed": [
+            "ఇది",
+            "అది",
+            "కాదు",
+            "ఎవరు"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -204,12 +204,12 @@
       "type": "integer",
       "difficulty": "medium",
       "fromSection": "a1-02",
-      "stem": "In **Mokytojas yra geras ir naujas**, how many words stand in the nominative case?",
-      "answer": 3,
+      "stem": "Of these four words, how many could stand as the **subject** of a sentence just as they are: *mokytoją, mokytojas, knyga, knygą*?",
+      "answer": 2,
       "unit": "words",
-      "explanation": "Three: the subject *mokytojas* and the two predicate adjectives *geras* and *naujas*, which take the nominative because they name the subject. *yra* is a verb and *ir* a conjunction; neither has a case.",
-      "rulesTested": ["nominative", "predicate-nominative"],
-      "vocabUsed": ["mokytojas", "geras", "naujas", "ir", "būti"]
+      "explanation": "Two: *mokytojas* and *knyga*. A subject stands in the nominative (¶13), and the nosinė vowels ending *mokytoją* and *knygą* mark the accusative — the case of what is acted upon, never of what acts.",
+      "rulesTested": ["nominative", "noun-endings"],
+      "vocabUsed": ["mokytojas", "knyga"]
     },
     {
       "id": "cp1-q15",
@@ -355,12 +355,12 @@
           "id": "cp1-p1-q3",
           "type": "integer",
           "difficulty": "hard",
-          "stem": "How many **direct objects in the accusative** does the passage contain?",
-          "answer": 7,
-          "unit": "objects",
-          "explanation": "namą, katę, sūnų, knygą, obuolį, laišką, arbatą — seven. *laiko* in the last sentence is a genitive, because *neturi* is negated, and so does not count.",
-          "rulesTested": ["accusative-nouns", "negation-genitive"],
-          "vocabUsed": ["namas", "katė", "sūnus", "knyga", "obuolys", "laiškas", "arbata"]
+          "stem": "The passage says **Rūta turi katę ir sūnų.** If that sentence were negated, how many of its words would change form?",
+          "answer": 3,
+          "unit": "words",
+          "explanation": "Three: *turi* → *neturi*, and **both** objects leave the accusative for the genitive — *katę* → *katės*, *sūnų* → *sūnaus* (¶26). Two objects joined by *ir* are each affected, so answering two is the commonest slip.",
+          "rulesTested": ["negation", "negation-genitive", "accusative-nouns", "conjunction-ir"],
+          "vocabUsed": ["turėti", "katė", "sūnus"]
         }
       ]
     }

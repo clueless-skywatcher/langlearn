@@ -1,0 +1,335 @@
+{
+  "id": "a1-07",
+  "kind": "lesson",
+  "level": "A1",
+  "order": 8,
+  "title": "Questions",
+  "summary": "How to ask: the particle *ar* for a question answerable by yes or no, the declinable *kas*, the question adverbs, and *koks* asking after a quality. The case of the question word settles the case of the answer.",
+  "rules": [
+    {
+      "id": "ar-questions",
+      "number": "48",
+      "heading": "Questions Answerable by Yes or No",
+      "statement": "A question expecting *yes* or *no* is formed by putting **ar** at the head of the statement. Nothing else changes: the word order stays as it was, and no auxiliary is introduced as English introduces *do*. In speech *ar* is often dropped and the question carried by intonation alone, but in writing it should be kept.",
+      "examples": [
+        { "target": "Tu kalbi lietuviškai. → Ar tu kalbi lietuviškai?", "gloss": "You speak Lithuanian. → Do you speak Lithuanian?" },
+        { "target": "Ar tai tavo knyga?", "gloss": "Is this your book?" },
+        { "target": "Taip, kalbu. / Ne, nekalbu.", "gloss": "Yes, I do. / No, I don't.", "note": "the verb is repeated where English says 'do'" }
+      ],
+      "footnotes": [
+        "Lithuanian has no word for the English \"do\" of questions and negatives. *Ar tu dirbi?* is literally \"whether you work?\"."
+      ],
+      "seeAlso": ["word-order-basic", "negation"],
+      "core": true
+    },
+    {
+      "id": "kas-declined",
+      "number": "49",
+      "heading": "Kas and its Cases",
+      "statement": "**Kas** asks *who?* and *what?* alike — Lithuanian does not distinguish them in the nominative — and it **declines** like any pronoun. Which form is used depends on the job the missing word does in the answer, so that choosing the question word correctly means having decided in advance what case the answer will be in.",
+      "paradigms": [
+        {
+          "caption": "The interrogative kas",
+          "columns": ["form", "asks for", "example"],
+          "rows": [
+            { "label": "nominative", "cells": ["kas", "the subject", "Kas čia dirba? — Jonas."] },
+            { "label": "accusative", "cells": ["ką", "the object", "Ką tu matai? — Namą."] },
+            { "label": "genitive", "cells": ["ko", "an object after negation, or of quantity", "Ko tu neturi? — Pinigų."] },
+            { "label": "genitive of person", "cells": ["kieno", "the possessor", "Kieno tai knyga? — Brolio."] }
+          ]
+        }
+      ],
+      "examples": [
+        { "target": "Kas tai?", "gloss": "What is this? / Who is this?" },
+        { "target": "Ką jūs valgote?", "gloss": "What are you eating?" },
+        { "target": "Ko tu nori?", "gloss": "What do you want?", "note": "genitive, because norėti governs it (¶39)" }
+      ],
+      "seeAlso": ["genitive-questions", "accusative-nouns", "wanting-liking"],
+      "core": true
+    },
+    {
+      "id": "question-adverbs",
+      "number": "50",
+      "heading": "The Question Adverbs",
+      "statement": "Beside *kas* stand the invariable question words: **kur** (where), **kada** (when), **kaip** (how), **kodėl** (why), **kiek** (how much, how many). They open the sentence and are followed by the verb or by the subject indifferently. **Kodėl** is answered with **nes**, because.",
+      "paradigms": [
+        {
+          "caption": "The question adverbs",
+          "columns": ["word", "asks", "answered with"],
+          "rows": [
+            { "label": "kur", "cells": ["where", "a place"] },
+            { "label": "kada", "cells": ["when", "a time"] },
+            { "label": "kaip", "cells": ["how", "an adverb"] },
+            { "label": "kodėl", "cells": ["why", "nes …"] },
+            { "label": "kiek", "cells": ["how much, how many", "a number, with the genitive"] }
+          ]
+        }
+      ],
+      "examples": [
+        { "target": "Kur tu gyveni?", "gloss": "Where do you live?" },
+        { "target": "Kaip Jūsų vardas?", "gloss": "What is your name?", "note": "Lithuanian asks 'how', not 'what'" },
+        { "target": "Kodėl ji nedirba? — Nes ji studijuoja.", "gloss": "Why is she not working? — Because she is studying." },
+        { "target": "Kiek kavos tu nori?", "gloss": "How much coffee do you want?", "note": "kiek governs the genitive (¶32)" }
+      ],
+      "footnotes": [
+        "*Kaip Jūsų vardas?* is the ordinary way to ask a name. Asking *Kas Jūsų vardas?* is a translation from English and marks a foreigner at once."
+      ],
+      "seeAlso": ["genitive-quantity", "kas-declined"],
+      "core": true
+    },
+    {
+      "id": "koks",
+      "number": "51",
+      "heading": "Koks — What Kind of",
+      "statement": "**Koks** asks after a quality, as English *what kind of* or *what … like*. Unlike the question adverbs it is an adjective and **agrees in gender** with the noun it asks about: masculine *koks*, feminine *kokia*. It is answered with an adjective, which agrees in its turn.",
+      "paradigms": [
+        {
+          "caption": "koks in question and answer",
+          "columns": ["question", "answer"],
+          "rows": [
+            { "label": "masculine", "cells": ["Koks tavo namas?", "Didelis ir naujas."] },
+            { "label": "feminine", "cells": ["Kokia tavo knyga?", "Sena, bet gera."] }
+          ]
+        }
+      ],
+      "examples": [
+        { "target": "Koks yra Vilnius?", "gloss": "What is Vilnius like?" },
+        { "target": "Kokia tavo sesuo?", "gloss": "What is your sister like?" }
+      ],
+      "seeAlso": ["adjective-agreement", "question-adverbs"],
+      "core": true
+    },
+    {
+      "id": "answering-in-case",
+      "number": "52",
+      "heading": "Answering in the Case Asked",
+      "statement": "A short answer stands in **the case of the question word**, and in no other. *Ką?* is answered with an accusative, *ko?* with a genitive, *kas?* with a nominative. The question thus carries the grammar of its own answer, and a learner who has chosen the question word rightly cannot go wrong in answering it.",
+      "examples": [
+        { "target": "Kas dirba? — Mokytojas.", "gloss": "Who is working? — The teacher.", "note": "nominative" },
+        { "target": "Ką tu matai? — Mokytoją.", "gloss": "Whom do you see? — The teacher.", "note": "accusative" },
+        { "target": "Ko tu nematai? — Mokytojo.", "gloss": "Whom do you not see? — The teacher.", "note": "genitive after negation" }
+      ],
+      "seeAlso": ["kas-declined", "genitive-negation"],
+      "core": true
+    }
+  ],
+  "vocabulary": [
+    { "lemma": "ar", "gloss": "whether (marks a yes/no question)", "pos": "particle", "forms": {} },
+    { "lemma": "kas", "gloss": "who, what", "pos": "pronoun", "forms": { "nom": "kas", "acc": "ką" } },
+    { "lemma": "ką", "gloss": "whom, what (object)", "pos": "pronoun", "forms": { "nom": "kas", "acc": "ką" } },
+    { "lemma": "ko", "gloss": "of what, what (after negation)", "pos": "pronoun", "forms": { "nom": "kas" } },
+    { "lemma": "kur", "gloss": "where", "pos": "adverb", "forms": {} },
+    { "lemma": "kada", "gloss": "when", "pos": "adverb", "forms": {} },
+    { "lemma": "kodėl", "gloss": "why", "pos": "adverb", "forms": {} },
+    { "lemma": "koks", "gloss": "what kind of, what … like", "pos": "adjective", "forms": { "masc": "koks", "fem": "kokia" } },
+    { "lemma": "nes", "gloss": "because", "pos": "conjunction", "forms": {} },
+    { "lemma": "o", "gloss": "and, whereas (marking a contrast)", "pos": "conjunction", "forms": {} },
+    { "lemma": "klausimas", "gloss": "question", "pos": "noun", "forms": { "nom": "klausimas", "gen": "klausimo", "acc": "klausimą", "gender": "m." } },
+    { "lemma": "atsakymas", "gloss": "answer", "pos": "noun", "forms": { "nom": "atsakymas", "gen": "atsakymo", "acc": "atsakymą", "gender": "m." } },
+    { "lemma": "laikas", "gloss": "time", "pos": "noun", "forms": { "nom": "laikas", "gen": "laiko", "acc": "laiką", "gender": "m." } },
+    { "lemma": "senas", "gloss": "old", "pos": "adjective", "forms": { "masc": "senas", "fem": "sena" } },
+    { "lemma": "jaunas", "gloss": "young", "pos": "adjective", "forms": { "masc": "jaunas", "fem": "jauna" } },
+    { "lemma": "klausti", "gloss": "to ask", "pos": "verb", "forms": { "inf": "klausti", "pres3": "klausia", "past3": "klausė", "conj": "I" } },
+    { "lemma": "atsakyti", "gloss": "to answer", "pos": "verb", "forms": { "inf": "atsakyti", "pres3": "atsako", "past3": "atsakė", "conj": "III" } }
+  ],
+  "drills": [
+    {
+      "id": "a107-q1",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Turn **Tu dirbi Vilniuje** into a question expecting yes or no.",
+      "options": [
+        "Ar tu dirbi Vilniuje?",
+        "Kas tu dirbi Vilniuje?",
+        "Tu ar dirbi Vilniuje?",
+        "Dirbi ar tu Vilniuje?"
+      ],
+      "correct": 0,
+      "explanation": "*ar* goes at the head and nothing else moves. Lithuanian has no auxiliary answering to the English \"do\".",
+      "rulesTested": ["ar-questions"],
+      "vocabUsed": ["ar", "tu", "dirbti"]
+    },
+    {
+      "id": "a107-q2",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete: **____ tu matai?** (What do you see?)",
+      "options": ["Kas", "Ką", "Ko", "Kur"],
+      "correct": 1,
+      "explanation": "*matyti* takes a direct object, so the missing word is an accusative and the question word must be *ką*. *Kas* would ask who is doing the seeing.",
+      "rulesTested": ["kas-declined", "answering-in-case"],
+      "vocabUsed": ["ką", "kas", "matyti", "tu"]
+    },
+    {
+      "id": "a107-q3",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "How does a Lithuanian ask someone's name?",
+      "options": [
+        "Kas Jūsų vardas?",
+        "Kaip Jūsų vardas?",
+        "Kur Jūsų vardas?",
+        "Kokia Jūsų vardas?"
+      ],
+      "correct": 1,
+      "explanation": "*Kaip Jūsų vardas?* — Lithuanian asks \"how\", not \"what\". *Kas Jūsų vardas?* is a word-for-word translation from English and marks a foreigner immediately.",
+      "rulesTested": ["question-adverbs", "polite-jus"],
+      "vocabUsed": ["kaip", "jūsų", "vardas", "kas"]
+    },
+    {
+      "id": "a107-q4",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "**Ko tu nori?** Why is *ko* and not *ką* used here?",
+      "options": [
+        "Because the sentence is a question.",
+        "Because *norėti* governs the genitive.",
+        "Because the verb is negated.",
+        "Because *ką* is used only of persons."
+      ],
+      "correct": 1,
+      "explanation": "*norėti* governs the genitive (¶39), so what is wanted stands in the genitive and the question word must too. Negation would also produce *ko*, but there is no negation here.",
+      "rulesTested": ["kas-declined", "wanting-liking"],
+      "vocabUsed": ["ko", "ką", "norėti", "tu"]
+    },
+    {
+      "id": "a107-q5",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which questions are **correctly** matched to their answers?",
+      "options": [
+        "Kas dirba? — Mokytojas.",
+        "Ką tu matai? — Mokytoją.",
+        "Ko tu neturi? — Pinigus.",
+        "Kieno tai knyga? — Brolio."
+      ],
+      "correct": [0, 1, 3],
+      "explanation": "The answer stands in the case of the question word. *Ko* asks for a genitive, so the third should answer *Pinigų*, not the accusative *Pinigus*.",
+      "rulesTested": ["answering-in-case", "kas-declined", "genitive-negation"],
+      "vocabUsed": ["kas", "dirbti", "mokytojas", "ką", "matyti", "ko", "turėti", "pinigai", "kieno", "knyga", "brolis"]
+    },
+    {
+      "id": "a107-q6",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **____ tavo sesuo?** (What is your sister like?)",
+      "options": ["Koks", "Kokia", "Kaip", "Kas"],
+      "correct": 1,
+      "explanation": "*koks* is an adjective and agrees in gender with what it asks about; *sesuo* is feminine, so *kokia*. *Kaip* would ask how something is done, not what it is like.",
+      "rulesTested": ["koks", "adjective-agreement"],
+      "vocabUsed": ["koks", "kaip", "tavo", "sesuo"]
+    },
+    {
+      "id": "a107-q7",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "**Kodėl ji nedirba?** Which answer is well formed?",
+      "options": [
+        "Nes ji studijuoja.",
+        "Bet ji studijuoja.",
+        "Ar ji studijuoja.",
+        "O ji studijuoja."
+      ],
+      "correct": 0,
+      "explanation": "*kodėl* is answered with *nes*, because. *bet* contrasts, *o* marks a contrast of a milder kind, and *ar* opens a question rather than answering one.",
+      "rulesTested": ["question-adverbs"],
+      "vocabUsed": ["kodėl", "nes", "bet", "ar", "o", "studijuoti", "dirbti"]
+    },
+    {
+      "id": "a107-q8",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which of these question words **change form** according to what is asked about?",
+      "options": ["kas", "kur", "koks", "kodėl"],
+      "correct": [0, 2],
+      "explanation": "*kas* declines for case (kas, ką, ko) and *koks* agrees in gender (koks, kokia). *kur* and *kodėl* are adverbs and never change at all.",
+      "rulesTested": ["kas-declined", "koks", "question-adverbs"],
+      "vocabUsed": ["kas", "kur", "koks", "kodėl"]
+    },
+    {
+      "id": "a107-q9",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "You want to ask **How much bread do you want?** Which is right?",
+      "options": [
+        "Kiek duoną tu nori?",
+        "Kiek duonos tu nori?",
+        "Kiek duona tu nori?",
+        "Ką duonos tu nori?"
+      ],
+      "correct": 1,
+      "explanation": "Two rules point the same way here: *kiek* governs the genitive (¶32) and so does *norėti* (¶39). Either alone would give *duonos*.",
+      "rulesTested": ["question-adverbs", "genitive-quantity", "wanting-liking"],
+      "vocabUsed": ["kiek", "duona", "norėti", "ką"]
+    },
+    {
+      "id": "a107-q10",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "**Ką tu matai?** If the verb were negated, how many of the three words would change form?",
+      "answer": 2,
+      "unit": "words",
+      "explanation": "Two: *matai* → *nematai*, and the question word itself, *ką* → *ko*, because after a negated verb the object stands in the genitive (¶31) and the question word must stand in the case of its own answer (¶52). Answering one forgets that the question word is declined like anything else.",
+      "rulesTested": ["kas-declined", "answering-in-case", "genitive-negation"],
+      "vocabUsed": ["ką", "ko", "tu", "matyti"]
+    },
+    {
+      "id": "a107-p1",
+      "type": "comprehension",
+      "difficulty": "medium",
+      "title": "Pirmas pokalbis",
+      "passage": "— Labas! Kaip Jūsų vardas? — Mano vardas Anna. — Iš kur Jūs esate, Anna? — Aš esu iš Italijos, bet gyvenu Vilniuje. — Ką Jūs veikiate Lietuvoje? — Studijuoju universitete. — Ar Jūs kalbate lietuviškai? — Taip, truputį. Kartais nesuprantu, todėl dažnai klausiu. — Kodėl Jūs studijuojate lietuvių kalbą? — Nes mano draugė yra lietuvė.",
+      "translation": "— Hello! What is your name? — My name is Anna. — Where are you from, Anna? — I am from Italy, but I live in Vilnius. — What are you doing in Lithuania? — I am studying at the university. — Do you speak Lithuanian? — Yes, a little. Sometimes I do not understand, so I often ask. — Why are you studying the Lithuanian language? — Because my friend is Lithuanian.",
+      "glossary": {
+        "Anna": "Anna, a woman's name",
+        "Italijos": "Italy (gen. of Italija)",
+        "Lietuvoje": "in Lithuania",
+        "veikiate": "you are doing (veikti)",
+        "truputį": "a little",
+        "todėl": "therefore, so",
+        "lietuvių kalbą": "the Lithuanian language",
+        "lietuvė": "a Lithuanian woman"
+      },
+      "questions": [
+        {
+          "id": "a107-p1-q1",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "Kodėl Anna studijuoja lietuvių kalbą?",
+          "options": [
+            "Nes ji gyvena Vilniuje.",
+            "Nes jos draugė yra lietuvė.",
+            "Nes ji yra iš Italijos.",
+            "Nes ji dirba universitete."
+          ],
+          "correct": 1,
+          "explanation": "The last line answers it: *Nes mano draugė yra lietuvė.* She studies at the university rather than working there.",
+          "rulesTested": ["question-adverbs"],
+          "vocabUsed": ["kodėl", "nes", "draugė", "gyventi", "iš", "dirbti", "universitetas"]
+        },
+        {
+          "id": "a107-p1-q2",
+          "type": "multi",
+          "difficulty": "medium",
+          "stem": "Which question words does the passage use?",
+          "options": ["kaip", "kur", "ką", "kada"],
+          "correct": [0, 1, 2],
+          "explanation": "*Kaip Jūsų vardas*, *Iš kur Jūs esate*, *Ką Jūs veikiate*, and *Kodėl* at the end. Nothing in the conversation asks *kada*, when.",
+          "rulesTested": ["question-adverbs", "kas-declined"],
+          "vocabUsed": ["kaip", "kur", "ką", "kada"]
+        },
+        {
+          "id": "a107-p1-q3",
+          "type": "integer",
+          "difficulty": "hard",
+          "stem": "Anna is asked **Ar Jūs kalbate lietuviškai?** If a friend asked her the same thing, how many of the four words would change form?",
+          "answer": 2,
+          "unit": "words",
+          "explanation": "Two: *Jūs* → *tu*, and the verb with it, *kalbate* → *kalbi*, since the polite plural takes a plural verb and the familiar singular a singular one (¶45). *ar* and *lietuviškai* never change. Answering one is the standard slip — changing the pronoun and leaving the verb behind.",
+          "rulesTested": ["polite-jus", "ar-questions", "present-conj-i"],
+          "vocabUsed": ["ar", "jūs", "tu", "kalbėti", "lietuviškai"]
+        }
+      ]
+    }
+  ]
+}

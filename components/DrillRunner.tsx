@@ -19,6 +19,7 @@ import {
 } from "@/lib/scoring";
 import { progressStore, type SittingInput } from "@/lib/progress";
 import { inline } from "@/lib/markdown";
+import { hasTelugu, transliterateTelugu } from "@/lib/translit";
 
 const LETTERS = ["A", "B", "C", "D"];
 
@@ -219,11 +220,19 @@ function Passage({ drill }: { drill: Extract<Drill, { type: "comprehension" }> }
         Comprehension · {drill.title}
       </p>
       <p className="target text-lg leading-loose not-italic">{drill.passage}</p>
+      {(drill.romanization ?? (hasTelugu(drill.passage) ? transliterateTelugu(drill.passage) : "")) && (
+        <p className="mt-2 text-sm leading-relaxed text-ink-faint">
+          {drill.romanization ?? transliterateTelugu(drill.passage)}
+        </p>
+      )}
       {glossary.length > 0 && (
         <dl className="mt-3 flex flex-wrap gap-x-5 gap-y-1 border-t border-rule pt-3 text-xs text-ink-faint">
           {glossary.map(([word, gloss]) => (
             <div key={word} className="flex gap-1.5">
-              <dt className="target not-italic">{word}</dt>
+              <dt className="target not-italic">
+                {word}
+                {hasTelugu(word) && ` (${transliterateTelugu(word)})`}
+              </dt>
               <dd>— {gloss}</dd>
             </div>
           ))}

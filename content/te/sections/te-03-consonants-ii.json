@@ -1,0 +1,832 @@
+{
+  "id": "te-03",
+  "kind": "lesson",
+  "level": "A1",
+  "order": 3,
+  "title": "The Consonants II — Outside the Grid",
+  "summary": "The eleven consonants that no varga accounts for: the four semivowels, the three sibilants with *h*, the retroflex ళ, the dead ఱ, the conjunct క్ష — and the two marks that are counted with neither vowels nor consonants.",
+  "script": {
+    "heading": "The eleven consonants outside the vargas, and the two ఉభయాక్షరాలు",
+    "letters": [
+      {
+        "glyph": "య",
+        "name": "ya",
+        "ipa": "/ja/",
+        "approx": "the y of 'yes' — semivowel"
+      },
+      {
+        "glyph": "ర",
+        "name": "ra",
+        "ipa": "/ra/",
+        "approx": "a tapped r, as in Spanish 'pero'"
+      },
+      {
+        "glyph": "ల",
+        "name": "la",
+        "ipa": "/la/",
+        "approx": "the l of 'let'"
+      },
+      {
+        "glyph": "వ",
+        "name": "va",
+        "ipa": "/ʋa/",
+        "approx": "between English v and w"
+      },
+      {
+        "glyph": "శ",
+        "name": "śa",
+        "ipa": "/ʃa/",
+        "approx": "the sh of 'ship' — palatal"
+      },
+      {
+        "glyph": "ష",
+        "name": "ṣa",
+        "ipa": "/ʂa/",
+        "approx": "a retroflex sh, tongue curled back"
+      },
+      {
+        "glyph": "స",
+        "name": "sa",
+        "ipa": "/sa/",
+        "approx": "the s of 'see'"
+      },
+      {
+        "glyph": "హ",
+        "name": "ha",
+        "ipa": "/ha/",
+        "approx": "the h of 'hat'"
+      },
+      {
+        "glyph": "ళ",
+        "name": "ḷa",
+        "ipa": "/ɭa/",
+        "approx": "a retroflex l, tongue curled back"
+      },
+      {
+        "glyph": "ఱ",
+        "name": "ṟa",
+        "ipa": "/ra/",
+        "approx": "the old 'baṇḍi ra'; obsolete, now written ర"
+      },
+      {
+        "glyph": "క్ష",
+        "name": "kṣa",
+        "ipa": "/kʂa/",
+        "approx": "k + ṣ run together; a conjunct counted as a letter"
+      },
+      {
+        "glyph": "ం",
+        "name": "anusvāra",
+        "ipa": "/ⁿ/",
+        "approx": "a nasal, taking the quality of the consonant after it"
+      },
+      {
+        "glyph": "ః",
+        "name": "visarga",
+        "ipa": "/h/",
+        "approx": "a voiceless breath after a vowel"
+      }
+    ],
+    "notes": [
+      "The first four — య ర ల వ — are called అంతస్థాలు, 'those that stand between', because they lie between vowels and consonants in nature.",
+      "శ ష స హ are the ఊష్మాలు, 'the hot ones', so called for the breath that escapes continuously while they are sounded.",
+      "ం and ః are the ఉభయాక్షరాలు, 'letters of both kinds'. They are counted neither among the sixteen vowels nor among the thirty-six consonants, because they are neither: each is a mark written on a vowel."
+    ]
+  },
+  "rules": [
+    {
+      "id": "outside-grid",
+      "number": "14",
+      "heading": "The Eleven Outside the Grid",
+      "statement": "The five vargas account for twenty-five consonants (¶9). Eleven more complete the thirty-six: the four **semivowels** య ర ల వ, the four **sibilants and h** శ ష స హ, and three that stand alone — **ళ**, **ఱ** and **క్ష**. They are grouped by kind but not arranged in a grid, because their sounds do not fall into rows and columns as the stops do.",
+      "paradigms": [
+        {
+          "caption": "The eleven, by class",
+          "columns": [
+            "class",
+            "letters",
+            "count"
+          ],
+          "rows": [
+            {
+              "label": "అంతస్థాలు — semivowels",
+              "cells": [
+                "య ర ల వ",
+                "4"
+              ]
+            },
+            {
+              "label": "ఊష్మాలు — sibilants and h",
+              "cells": [
+                "శ ష స హ",
+                "4"
+              ]
+            },
+            {
+              "label": "standing alone",
+              "cells": [
+                "ళ ఱ క్ష",
+                "3"
+              ]
+            }
+          ],
+          "footnote": "25 + 4 + 4 + 3 = 36, the traditional count of హల్లులు."
+        }
+      ],
+      "examples": [
+        {
+          "target": "య ర ల వ",
+          "gloss": "ya ra la va — the semivowels"
+        },
+        {
+          "target": "శ ష స హ",
+          "gloss": "śa ṣa sa ha — the sibilants and h"
+        }
+      ],
+      "seeAlso": [
+        "varga-grid",
+        "vowel-count"
+      ],
+      "core": true
+    },
+    {
+      "id": "semivowels",
+      "number": "15",
+      "heading": "The Semivowels — అంతస్థాలు",
+      "statement": "**య, ర, ల, వ** are called *those that stand between*, being neither quite consonants nor quite vowels: each is close kin to a vowel — య to ఇ, వ to ఉ, ర and ల to the vocalic ఋ and ఌ met in ¶5. **ర** is a single tap of the tongue, not the English r; **వ** lies between English *v* and *w* and is neither.",
+      "examples": [
+        {
+          "target": "య",
+          "gloss": "ya — kin to the vowel ఇ"
+        },
+        {
+          "target": "వ",
+          "gloss": "va — kin to the vowel ఉ"
+        },
+        {
+          "target": "ర",
+          "gloss": "ra — one tap, as in Spanish 'pero', never the English r"
+        }
+      ],
+      "seeAlso": [
+        "outside-grid",
+        "vowel-vocalic"
+      ],
+      "core": true
+    },
+    {
+      "id": "sibilants",
+      "number": "16",
+      "heading": "The Sibilants — ఊష్మాలు",
+      "statement": "Three sibilants and an *h* make up the ఊష్మాలు. The three sibilants differ **only in place**, and in exactly the way the vargas differ: **స** is dental, **శ** palatal, **ష** retroflex. An English speaker hears శ and ష as one sound, *sh*, and must learn them apart as they learned త from ట.",
+      "paradigms": [
+        {
+          "caption": "The three sibilants by place",
+          "columns": [
+            "letter",
+            "place",
+            "English hint"
+          ],
+          "rows": [
+            {
+              "label": "స",
+              "cells": [
+                "dental",
+                "the s of 'see'"
+              ]
+            },
+            {
+              "label": "శ",
+              "cells": [
+                "palatal",
+                "the sh of 'ship'"
+              ]
+            },
+            {
+              "label": "ష",
+              "cells": [
+                "retroflex",
+                "sh with the tongue curled back"
+              ]
+            },
+            {
+              "label": "హ",
+              "cells": [
+                "glottal",
+                "the h of 'hat'"
+              ]
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "target": "శ / ష",
+          "gloss": "śa / ṣa — palatal against retroflex"
+        },
+        {
+          "target": "స",
+          "gloss": "sa — the plain s"
+        }
+      ],
+      "seeAlso": [
+        "outside-grid",
+        "retroflex-dental"
+      ],
+      "core": true
+    },
+    {
+      "id": "three-alone",
+      "number": "17",
+      "heading": "ళ, ఱ and క్ష",
+      "statement": "Three letters belong to no class. **ళ** is a retroflex *l*, a Dravidian sound with no counterpart in Sanskrit and very common in Telugu. **ఱ** — called *baṇḍi ra*, 'cart r' — was once a separate trilled r; it is obsolete, and modern Telugu writes ర for it. **క్ష** is not a simple sound at all but the conjunct of క and ష, admitted to the alphabet by tradition and counted as its thirty-sixth letter.",
+      "examples": [
+        {
+          "target": "ళ",
+          "gloss": "ḷa — retroflex l; Dravidian, not Sanskrit"
+        },
+        {
+          "target": "ఱ",
+          "gloss": "ṟa — baṇḍi ra, obsolete"
+        },
+        {
+          "target": "క్ష",
+          "gloss": "kṣa — a conjunct counted as a letter"
+        }
+      ],
+      "footnotes": [
+        "That the alphabet's last letter is a conjunct and its penultimate a dead one is a reminder that a traditional letter-count records the history of a script rather than its present state."
+      ],
+      "seeAlso": [
+        "outside-grid",
+        "sibilants"
+      ],
+      "core": true
+    },
+    {
+      "id": "anusvara",
+      "number": "18",
+      "heading": "The Anusvāra — ం",
+      "statement": "**ం** is a small circle written after a vowel, and it stands for a **nasal**. Its particular sound is not fixed: before a consonant it takes the nasal of that consonant's own varga, so that ం before a labial is sounded *m* and before a retroflex *ṇ*. At the end of a word it is sounded *m*. It is the commonest mark in written Telugu, because a great many nouns end in **-ం**.",
+      "examples": [
+        {
+          "target": "పుస్తకం",
+          "gloss": "book",
+          "note": "pustakaṃ — the final ం sounded m"
+        },
+        {
+          "target": "పండు",
+          "gloss": "fruit",
+          "note": "paṇḍu — ం before the retroflex డ is sounded ṇ"
+        },
+        {
+          "target": "అంబ",
+          "gloss": "mother (literary)",
+          "note": "amba — ం before the labial బ is sounded m"
+        }
+      ],
+      "footnotes": [
+        "This is why the separate nasal letters ఙ and ఞ are so rarely written (¶13): where their sound occurs, the anusvāra does the work."
+      ],
+      "seeAlso": [
+        "varga-nasals",
+        "varga-grid"
+      ],
+      "core": true
+    },
+    {
+      "id": "visarga",
+      "number": "19",
+      "heading": "The Visarga — ః",
+      "statement": "**ః**, written as two dots after a vowel, is a voiceless breath — an echo of the vowel before it. It belongs almost entirely to words borrowed from Sanskrit and is rare in native Telugu. With the anusvāra it makes up the **ఉభయాక్షరాలు**, the two letters of both kinds, counted neither with the vowels nor with the consonants because each is a mark upon a vowel rather than a letter of its own.",
+      "examples": [
+        {
+          "target": "ః",
+          "gloss": "visarga — a breath after the vowel"
+        },
+        {
+          "target": "దుఃఖం",
+          "gloss": "sorrow",
+          "note": "duḥkhaṃ — a Sanskrit loan, with both marks in one word"
+        }
+      ],
+      "seeAlso": [
+        "anusvara",
+        "vowel-count"
+      ],
+      "core": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "lemma": "అంతస్థాలు",
+      "gloss": "the semivowels",
+      "pos": "noun",
+      "forms": {
+        "nom": "అంతస్థాలు",
+        "translit": "antasthālu"
+      }
+    },
+    {
+      "lemma": "ఊష్మాలు",
+      "gloss": "the sibilants",
+      "pos": "noun",
+      "forms": {
+        "nom": "ఊష్మాలు",
+        "translit": "ūṣmālu"
+      }
+    },
+    {
+      "lemma": "ఉభయాక్షరాలు",
+      "gloss": "the two letters of both kinds",
+      "pos": "noun",
+      "forms": {
+        "nom": "ఉభయాక్షరాలు",
+        "translit": "ubhayākṣarālu"
+      }
+    },
+    {
+      "lemma": "అనుస్వారం",
+      "gloss": "the anusvāra, the nasal mark",
+      "pos": "noun",
+      "forms": {
+        "nom": "అనుస్వారం",
+        "translit": "anusvāraṃ"
+      }
+    },
+    {
+      "lemma": "విసర్గ",
+      "gloss": "the visarga, the breath mark",
+      "pos": "noun",
+      "forms": {
+        "nom": "విసర్గ",
+        "translit": "visarga"
+      }
+    },
+    {
+      "lemma": "పుస్తకం",
+      "gloss": "book",
+      "pos": "noun",
+      "forms": {
+        "nom": "పుస్తకం",
+        "translit": "pustakaṃ"
+      }
+    },
+    {
+      "lemma": "పండు",
+      "gloss": "fruit",
+      "pos": "noun",
+      "forms": {
+        "nom": "పండు",
+        "translit": "paṇḍu"
+      }
+    },
+    {
+      "lemma": "నీళ్ళు",
+      "gloss": "water",
+      "pos": "noun",
+      "forms": {
+        "nom": "నీళ్ళు",
+        "translit": "nīḷḷu"
+      },
+      "notes": "Plural in form, as English 'waters' is not."
+    }
+  ],
+  "drills": [
+    {
+      "id": "te103-q1",
+      "type": "integer",
+      "difficulty": "easy",
+      "stem": "How many consonants does the traditional varṇamāla count in all?",
+      "answer": 36,
+      "unit": "letters",
+      "explanation": "Thirty-six: twenty-five in the five vargas and eleven outside them.",
+      "rulesTested": [
+        "outside-grid"
+      ],
+      "vocabUsed": [
+        "హల్లులు",
+        "వర్ణమాల"
+      ]
+    },
+    {
+      "id": "te103-q2",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Which letter is **స** (sa)?",
+      "options": [
+        "శ",
+        "ష",
+        "స",
+        "హ"
+      ],
+      "correct": 2,
+      "explanation": "స is the plain dental s. శ and ష are the two *sh* sounds, palatal and retroflex.",
+      "rulesTested": [
+        "sibilants"
+      ],
+      "vocabUsed": [
+        "ఊష్మాలు"
+      ]
+    },
+    {
+      "id": "te103-q3",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Which letter is **ల** (la)?",
+      "options": [
+        "ర",
+        "ల",
+        "ళ",
+        "వ"
+      ],
+      "correct": 1,
+      "explanation": "ల is the plain l. ళ is its retroflex counterpart, made with the tongue curled back — a distinction English does not draw.",
+      "rulesTested": [
+        "semivowels",
+        "three-alone"
+      ],
+      "vocabUsed": [
+        "అంతస్థాలు"
+      ]
+    },
+    {
+      "id": "te103-q4",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Which letter is **హ** (ha)?",
+      "options": [
+        "హ",
+        "మ",
+        "భ",
+        "ఖ"
+      ],
+      "correct": 0,
+      "explanation": "హ is the h. మ and భ are labials from the pa-varga, and ఖ is the aspirated velar.",
+      "rulesTested": [
+        "sibilants"
+      ],
+      "vocabUsed": [
+        "ఊష్మాలు"
+      ]
+    },
+    {
+      "id": "te103-q5",
+      "type": "multi",
+      "difficulty": "easy",
+      "stem": "Which of these are **అంతస్థాలు**, the semivowels?",
+      "options": [
+        "య",
+        "శ",
+        "వ",
+        "ర"
+      ],
+      "correct": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "య, ర, ల and వ are the four semivowels. శ is a sibilant, one of the ఊష్మాలు.",
+      "rulesTested": [
+        "semivowels",
+        "outside-grid"
+      ],
+      "vocabUsed": [
+        "అంతస్థాలు",
+        "ఊష్మాలు"
+      ]
+    },
+    {
+      "id": "te103-q6",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Which sibilant is **retroflex**?",
+      "options": [
+        "స",
+        "శ",
+        "ష",
+        "హ"
+      ],
+      "correct": 2,
+      "explanation": "ష is retroflex, శ palatal, స dental. The three differ only in place, exactly as the vargas do — and an English ear hears శ and ష as one sound.",
+      "rulesTested": [
+        "sibilants",
+        "retroflex-dental"
+      ],
+      "vocabUsed": [
+        "ఊష్మాలు",
+        "మూర్ధన్యం"
+      ]
+    },
+    {
+      "id": "te103-q7",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "What is **ళ**?",
+      "options": [
+        "A retroflex l, a Dravidian sound absent from Sanskrit.",
+        "An aspirated l.",
+        "A nasal.",
+        "An obsolete form of ల."
+      ],
+      "correct": 0,
+      "explanation": "ళ is a retroflex lateral and is very common in Telugu — నీళ్ళు, water, has two of them. The obsolete letter is ఱ, not ళ.",
+      "rulesTested": [
+        "three-alone"
+      ],
+      "vocabUsed": [
+        "నీళ్ళు",
+        "మూర్ధన్యం"
+      ]
+    },
+    {
+      "id": "te103-q8",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "What is **ఱ**, and what does a modern writer do with it?",
+      "options": [
+        "A retroflex n; still written.",
+        "The old 'baṇḍi ra'; obsolete, and now written ర.",
+        "An aspirated r; written in Sanskrit loans.",
+        "A vowel sign."
+      ],
+      "correct": 1,
+      "explanation": "ఱ was once a separate trilled r. It is dead, and ర does its work — but the traditional count of thirty-six keeps it, which is why the count and the working alphabet differ.",
+      "rulesTested": [
+        "three-alone",
+        "outside-grid"
+      ],
+      "vocabUsed": [
+        "హల్లులు"
+      ]
+    },
+    {
+      "id": "te103-q9",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Why is **క్ష** unlike every other letter of the alphabet?",
+      "options": [
+        "It is a vowel written among the consonants.",
+        "It is not a simple sound but the conjunct of క and ష.",
+        "It is silent.",
+        "It has no inherent vowel."
+      ],
+      "correct": 1,
+      "explanation": "క్ష is two consonants written together and admitted to the list by tradition as the thirty-sixth letter. Its inherent vowel it has like any other consonant.",
+      "rulesTested": [
+        "three-alone",
+        "inherent-vowel"
+      ],
+      "vocabUsed": [
+        "హల్లులు",
+        "అక్షరం"
+      ]
+    },
+    {
+      "id": "te103-q10",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "In **పండు** (paṇḍu), what sound does the ం stand for?",
+      "options": [
+        "m",
+        "n",
+        "ṇ",
+        "nothing — it is silent"
+      ],
+      "correct": 2,
+      "explanation": "The anusvāra takes the nasal of the following consonant's varga. డ is retroflex, so ం is sounded ṇ. Before a labial it would be m, and at the end of a word it is m.",
+      "rulesTested": [
+        "anusvara",
+        "varga-nasals"
+      ],
+      "vocabUsed": [
+        "పండు",
+        "అనుస్వారం"
+      ]
+    },
+    {
+      "id": "te103-q11",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "In **పుస్తకం** (pustakaṃ), what does the final ం stand for?",
+      "options": [
+        "ṅ",
+        "m",
+        "ḥ",
+        "a long vowel"
+      ],
+      "correct": 1,
+      "explanation": "At the end of a word the anusvāra is sounded *m*. A great many Telugu nouns end in -ం, which is why the mark is the commonest in the script.",
+      "rulesTested": [
+        "anusvara"
+      ],
+      "vocabUsed": [
+        "పుస్తకం",
+        "అనుస్వారం"
+      ]
+    },
+    {
+      "id": "te103-q12",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which statements about the **ఉభయాక్షరాలు** are correct?",
+      "options": [
+        "They are ం and ః.",
+        "They are counted among the sixteen vowels.",
+        "Each is a mark written upon a vowel.",
+        "They are counted among the thirty-six consonants."
+      ],
+      "correct": [
+        0,
+        2
+      ],
+      "explanation": "They are counted with neither, which is exactly why they are called 'of both kinds'. It is because they are excluded that the alphabet totals fifty-two and not fifty-four.",
+      "rulesTested": [
+        "visarga",
+        "anusvara",
+        "vowel-count"
+      ],
+      "vocabUsed": [
+        "ఉభయాక్షరాలు",
+        "అనుస్వారం",
+        "విసర్గ",
+        "వర్ణమాల"
+      ]
+    },
+    {
+      "id": "te103-q13",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "How is **ర** sounded?",
+      "options": [
+        "as the r of English 'red'",
+        "as a single tap of the tongue, as in Spanish 'pero'",
+        "as a French uvular r",
+        "as an l"
+      ],
+      "correct": 1,
+      "explanation": "A tap, not the English approximant. The English r is one of the sounds that most marks a foreigner speaking Telugu.",
+      "rulesTested": [
+        "semivowels"
+      ],
+      "vocabUsed": [
+        "అంతస్థాలు"
+      ]
+    },
+    {
+      "id": "te103-q14",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which of these letters are made **retroflex** — with the tongue curled back?",
+      "options": [
+        "ష",
+        "ళ",
+        "శ",
+        "ల"
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanation": "ష is the retroflex sibilant and ళ the retroflex lateral. శ is palatal and ల a plain dental l. The retroflex series runs right through the alphabet, inside the vargas and outside them alike.",
+      "rulesTested": [
+        "sibilants",
+        "three-alone",
+        "retroflex-dental"
+      ],
+      "vocabUsed": [
+        "మూర్ధన్యం",
+        "ఊష్మాలు"
+      ]
+    },
+    {
+      "id": "te103-q15",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "Of the thirty-six consonants, how many lie **outside** the five vargas?",
+      "answer": 11,
+      "unit": "letters",
+      "explanation": "Eleven: four semivowels, four sibilants-and-h, and ళ, ఱ, క్ష. Twenty-five plus eleven makes thirty-six.",
+      "rulesTested": [
+        "outside-grid"
+      ],
+      "vocabUsed": [
+        "హల్లులు",
+        "వర్గం"
+      ]
+    },
+    {
+      "id": "te103-q16",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "Of the thirty-six consonants, how many would a reader of **modern** Telugu never meet as a separate letter?",
+      "answer": 3,
+      "unit": "letters",
+      "explanation": "Three: ఱ, which is dead, and ఙ and ఞ, whose sounds the anusvāra writes instead (¶13, ¶18). The alphabet a learner must recognise is again smaller than the alphabet they are taught.",
+      "rulesTested": [
+        "three-alone",
+        "anusvara",
+        "varga-nasals"
+      ],
+      "vocabUsed": [
+        "అనుస్వారం",
+        "హల్లులు"
+      ]
+    },
+    {
+      "id": "te103-q17",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Why is the separate letter **ఙ** so rarely written, though its sound is common enough?",
+      "options": [
+        "The sound has been lost from the language.",
+        "Where the sound occurs before a velar, the anusvāra writes it instead.",
+        "It is a Sanskrit letter with no Telugu use.",
+        "It has been replaced by గ."
+      ],
+      "correct": 1,
+      "explanation": "The anusvāra takes the nasal quality of whatever varga follows (¶18), so a nasal before క or గ is written ం. The letter survives in the alphabet without surviving in use.",
+      "rulesTested": [
+        "anusvara",
+        "varga-nasals"
+      ],
+      "vocabUsed": [
+        "అనుస్వారం",
+        "అనునాసికం"
+      ]
+    },
+    {
+      "id": "te103-q18",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which of these differ **only in place of articulation**, everything else being equal?",
+      "options": [
+        "స and ష",
+        "ల and ళ",
+        "క and ఖ",
+        "త and ట"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "Each of those three pairs is dental-or-palatal against retroflex. క and ఖ share a place and differ in aspiration — a difference of manner, not of place, and so of column rather than row.",
+      "rulesTested": [
+        "sibilants",
+        "three-alone",
+        "retroflex-dental",
+        "aspiration"
+      ],
+      "vocabUsed": [
+        "మూర్ధన్యం",
+        "దంత్యం",
+        "మహాప్రాణం"
+      ]
+    },
+    {
+      "id": "te103-q19",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "Counting the two ఉభయాక్షరాలు as well, how many characters does a complete varṇamāla chart show?",
+      "answer": 54,
+      "unit": "characters",
+      "explanation": "Fifty-four: sixteen vowels, thirty-six consonants, and ం and ః. The familiar figure of fifty-two leaves the last two out, because they are letters of neither kind (¶19).",
+      "rulesTested": [
+        "visarga",
+        "anusvara",
+        "outside-grid"
+      ],
+      "vocabUsed": [
+        "ఉభయాక్షరాలు",
+        "వర్ణమాల",
+        "అచ్చులు",
+        "హల్లులు"
+      ]
+    },
+    {
+      "id": "te103-q20",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "A learner sees ం in two words and gives it the same sound in both. Why is that wrong?",
+      "options": [
+        "ం is silent before a consonant.",
+        "ం has no fixed sound: it takes the nasal of the varga that follows, and is m at the end of a word.",
+        "ం is a vowel and its length varies.",
+        "ం is sounded only in Sanskrit loans."
+      ],
+      "correct": 1,
+      "explanation": "It is a nasal without a place of its own, borrowing one from its neighbour — *paṇḍu* with a retroflex, *amba* with a labial, *pustakaṃ* with an m at the end. One mark, five possible sounds.",
+      "rulesTested": [
+        "anusvara",
+        "varga-nasals",
+        "varga-grid"
+      ],
+      "vocabUsed": [
+        "అనుస్వారం",
+        "పండు",
+        "పుస్తకం"
+      ]
+    }
+  ]
+}

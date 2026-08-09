@@ -10,7 +10,7 @@ import {
   type LessonSection,
   type Section,
 } from "../content/schema";
-import { CHECKPOINT_TARGETS, LESSON_TARGETS } from "../content/validate";
+import { CHECKPOINT_TARGETS, LESSON_TARGETS, lessonMaxQuestions } from "../content/validate";
 
 /**
  * Offline drill generation — **not wired to a provider yet**.
@@ -108,7 +108,7 @@ export function buildPrompt(
       ]
     : [
         `This is a LESSON drill set for ${target.id}.`,
-        `Produce ${LESSON_TARGETS.minQuestions}–${LESSON_TARGETS.maxQuestions} questions in total.`,
+        `Produce ${LESSON_TARGETS.minQuestions}–${lessonMaxQuestions(!isCheckpoint(target) && !!target.script)} questions in total.`,
         `Every CORE rule of this section must be tested by at least one question.`,
         `Do not set "fromSection".`,
       ];

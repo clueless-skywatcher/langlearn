@@ -383,12 +383,12 @@
           "id": "a103-p1-q3",
           "type": "integer",
           "difficulty": "hard",
-          "stem": "How many **direct objects in the accusative** appear in the passage?",
-          "answer": 5,
-          "unit": "objects",
-          "explanation": "brolį, knygą, laišką, obuolį, arbatą — five. *brolio* in the last sentence is a genitive, because *nemato* is negated (¶26), and so does not count.",
-          "rulesTested": ["accusative-nouns", "negation-genitive"],
-          "vocabUsed": ["brolis", "knyga", "laiškas", "obuolys", "arbata"]
+          "stem": "The passage ends **Ji nemato brolio.** If the verb were not negated, how many words in that sentence would change form?",
+          "answer": 2,
+          "unit": "words",
+          "explanation": "Two. *nemato* loses its prefix and becomes *mato*, and the object comes back out of the genitive into the accusative: *brolio* → *brolį* (¶26). Answering one means remembering that negation changes the verb but forgetting that it changes the object's case with it.",
+          "rulesTested": ["negation", "negation-genitive", "accusative-nouns"],
+          "vocabUsed": ["ji", "matyti", "brolis"]
         }
       ]
     }

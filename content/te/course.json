@@ -1,0 +1,67 @@
+{
+  "id": "te",
+  "langCode": "te",
+  "name": "తెలుగు",
+  "englishName": "Telugu",
+  "description": "Telugu from the script upward. The alphabet is not a preliminary here but the first third of the course: an abugida of fifty-two letters, each consonant carrying a vowel of its own, is a system to be understood rather than a list to be memorised — and it is drilled at length before a single sentence is asked for.",
+  "direction": "ltr",
+  "attribution": "Letter inventory and classification follow the traditional వర్ణమాల as taught in Telugu schools; transliteration is ISO 15919. Grammar written after the manner of Ivy Kellerman Reed, A Complete Grammar of Esperanto (1910).",
+  "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2",
+    "C1",
+    "C2"
+  ],
+  "formLabels": {
+    "noun": [
+      {
+        "key": "nom",
+        "label": "nominative"
+      },
+      {
+        "key": "translit",
+        "label": "transliteration"
+      },
+      {
+        "key": "class",
+        "label": "class"
+      }
+    ],
+    "verb": [
+      {
+        "key": "root",
+        "label": "root"
+      },
+      {
+        "key": "translit",
+        "label": "transliteration"
+      }
+    ],
+    "pronoun": [
+      {
+        "key": "nom",
+        "label": "nominative"
+      },
+      {
+        "key": "translit",
+        "label": "transliteration"
+      }
+    ],
+    "letter": [
+      {
+        "key": "translit",
+        "label": "transliteration"
+      },
+      {
+        "key": "name",
+        "label": "name"
+      }
+    ]
+  },
+  "transliteration": {
+    "scheme": "ISO 15919",
+    "required": true
+  }
+}
