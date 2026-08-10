@@ -1,0 +1,1131 @@
+{
+  "id": "a2-05",
+  "kind": "lesson",
+  "level": "A2",
+  "order": 6,
+  "title": "Subordinate Clauses",
+  "summary": "Beyond the *kad* and *ar* of ¶104–¶105: time with *kai* and *kol*, concession with *nors*, and the Lithuanian habit of keeping the tense that was meant rather than shifting it as English does.",
+  "rules": [
+    {
+      "id": "kai-clause",
+      "number": "169",
+      "heading": "Kai: When",
+      "statement": "**Kai** introduces a **time** clause — *when*, *as*. It was listed among the vocabulary of the future (¶98); it is now needed as a full subordinator. The clause it opens is set off by a comma, as every subordinate clause is (¶104), and the tense inside it is the tense of the event itself: present for present, past for past, future for future.",
+      "examples": [
+        {
+          "target": "Kai lyja, aš skaitau namie.",
+          "gloss": "When it rains, I read at home."
+        },
+        {
+          "target": "Kai jis atėjo, mes jau valgėme.",
+          "gloss": "When he came, we were already eating."
+        },
+        {
+          "target": "Paskambink man, kai grįši.",
+          "gloss": "Ring me when you get back.",
+          "note": "future in the *kai*-clause, as the return is future"
+        }
+      ],
+      "footnotes": [
+        "*Kada* asks *when?*; *kai* answers it in a statement. The two are not interchangeable: *Kada grįši?* but *Paskambink, kai grįši.*"
+      ],
+      "seeAlso": [
+        "subordination-kad",
+        "question-adverbs",
+        "future-uses"
+      ],
+      "core": true
+    },
+    {
+      "id": "kol-clause",
+      "number": "170",
+      "heading": "Kol: While and Until",
+      "statement": "**Kol** covers the ground of English *while* and *until*, according to the sense of the verbs. With two actions that overlap it is *while*; with one that stops at the start of another it is *until*. A negative in the *kol*-clause often marks the *until* reading: *laukiau, kol jis atėjo* against *dirbau, kol jis neatėjo* — I waited until he came / I worked until he came (literally *while he had not come*).",
+      "paradigms": [
+        {
+          "caption": "Kol in two readings",
+          "columns": [
+            "Lithuanian",
+            "English",
+            "sense"
+          ],
+          "rows": [
+            {
+              "label": "overlap",
+              "cells": [
+                "Skaitau, kol važiuoju.",
+                "I read while I travel.",
+                "while"
+              ]
+            },
+            {
+              "label": "limit",
+              "cells": [
+                "Palauk, kol ateisiu.",
+                "Wait until I come.",
+                "until"
+              ]
+            },
+            {
+              "label": "limit + ne-",
+              "cells": [
+                "Dirbsiu, kol nebaigsiu.",
+                "I shall work until I finish.",
+                "until"
+              ]
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "target": "Laukiau, kol autobusas atvažiavo.",
+          "gloss": "I waited until the bus arrived."
+        },
+        {
+          "target": "Kol lyja, liksime namie.",
+          "gloss": "While it is raining, we shall stay at home."
+        }
+      ],
+      "seeAlso": [
+        "kai-clause",
+        "particles",
+        "negation"
+      ],
+      "core": true
+    },
+    {
+      "id": "nors-clause",
+      "number": "171",
+      "heading": "Nors: Although",
+      "statement": "**Nors** (and the fuller **nors ir**) introduces a **concession** — *although*, *even though*. The main clause often answers with **vis tiek** (*all the same*) or simply continues; nothing in the grammar of *nors* requires a special mood. English *although* with a past in the subordinate clause does not force a tense shift in Lithuanian either.",
+      "examples": [
+        {
+          "target": "Nors buvo šalta, ėjome į parką.",
+          "gloss": "Although it was cold, we went to the park."
+        },
+        {
+          "target": "Nors jis dirba daug, vis tiek nespėja.",
+          "gloss": "Although he works a lot, he still does not manage in time."
+        },
+        {
+          "target": "Aš ateisiu, nors ir lyja.",
+          "gloss": "I shall come even though it is raining."
+        }
+      ],
+      "footnotes": [
+        "*Bet* contradicts; *nors* concedes. *Norėjau eiti, bet nebuvo laiko* cancels the wish; *Nors nebuvo laiko, ėjau* admits the obstacle and goes anyway."
+      ],
+      "seeAlso": [
+        "o-contrast",
+        "coordinating-conjunctions",
+        "neuter-adjective"
+      ],
+      "core": true
+    },
+    {
+      "id": "subordinate-comma",
+      "number": "172",
+      "heading": "The Comma before Every Subordinate Clause",
+      "statement": "Lithuanian punctuates by **grammar**, not by pause. Wherever a clause introduced by *kad, ar, kai, kol, nors, jeigu, nes* begins, a **comma** stands before it — even when English would write none. The rule of ¶104 for *kad* is therefore the rule for the whole system: learn the comma with the conjunction.",
+      "examples": [
+        {
+          "target": "Žinau, kad tu dirbi.",
+          "gloss": "I know that you work."
+        },
+        {
+          "target": "Palauk, kol baigsiu.",
+          "gloss": "Wait until I finish."
+        },
+        {
+          "target": "Ateisiu, nors bus vėlu.",
+          "gloss": "I shall come although it will be late."
+        }
+      ],
+      "seeAlso": [
+        "subordination-kad",
+        "kai-clause",
+        "kol-clause",
+        "nors-clause",
+        "condition-jei"
+      ],
+      "core": true
+    },
+    {
+      "id": "sequence-of-tenses",
+      "number": "173",
+      "heading": "Sequence of Tenses",
+      "statement": "Lithuanian does **not** shift tenses in reported or subordinate clauses the way English does. What was said in the future stays in the future; what was present stays present. *Jis sakė, kad ateis* is *he said he would come*, but Lithuanian keeps *ateis*. The same honesty of tense holds after *kai, kol, nors* and *jeigu*: choose the tense that names the time of the event, not a tense forced by the main verb.",
+      "paradigms": [
+        {
+          "caption": "English shifts; Lithuanian keeps",
+          "columns": [
+            "Lithuanian",
+            "literal tense",
+            "natural English"
+          ],
+          "rows": [
+            {
+              "label": "kad + future",
+              "cells": [
+                "Sakė, kad ateis.",
+                "future",
+                "He said he would come."
+              ]
+            },
+            {
+              "label": "kai + past",
+              "cells": [
+                "Kai atėjau, jis skaitė.",
+                "past + past",
+                "When I came, he was reading."
+              ]
+            },
+            {
+              "label": "jeigu + future",
+              "cells": [
+                "Jeigu turėsi laiko, eisime.",
+                "future + future",
+                "If you have time, we shall go."
+              ]
+            }
+          ],
+          "footnote": "The English present after *if* and the English back-shift after *said* are both interference to unlearn. Lithuanian says what it means."
+        }
+      ],
+      "examples": [
+        {
+          "target": "Ji manė, kad aš sergu.",
+          "gloss": "She thought that I was ill.",
+          "note": "present *sergu* kept under a past main verb"
+        },
+        {
+          "target": "Kai grįšiu, papasakosiu.",
+          "gloss": "When I return, I shall tell you.",
+          "note": "both futures"
+        }
+      ],
+      "seeAlso": [
+        "subordination-kad",
+        "condition-jei",
+        "kai-clause",
+        "future-uses",
+        "past-narrative"
+      ],
+      "core": true
+    },
+    {
+      "id": "subordinate-inventory",
+      "number": "174",
+      "heading": "The Inventory so Far",
+      "statement": "The subordinators now in hand fall into clear jobs. **Kad** reports a statement; **ar** reports a yes-or-no question; **kai** and **kol** fix time; **nors** concedes; **jeigu** conditions; **nes** gives a reason that cannot open the sentence. Coordinators (*ir, bet, o, arba*) join equals and take no comma of subordination. Mixing the jobs — *jeigu* for *ar*, *kai* for *kada* in a question — is the usual error at this level.",
+      "paradigms": [
+        {
+          "caption": "Subordinator against job",
+          "columns": [
+            "word",
+            "job",
+            "example"
+          ],
+          "rows": [
+            {
+              "label": "kad",
+              "cells": [
+                "reported statement",
+                "Žinau, kad jis dirba."
+              ]
+            },
+            {
+              "label": "ar",
+              "cells": [
+                "reported yes/no",
+                "Nežinau, ar jis dirba."
+              ]
+            },
+            {
+              "label": "kai",
+              "cells": [
+                "when (statement)",
+                "Kai lyja, skaitau."
+              ]
+            },
+            {
+              "label": "kol",
+              "cells": [
+                "while / until",
+                "Palauk, kol ateisiu."
+              ]
+            },
+            {
+              "label": "nors",
+              "cells": [
+                "although",
+                "Nors lyja, einu."
+              ]
+            },
+            {
+              "label": "jeigu",
+              "cells": [
+                "if",
+                "Jeigu lyja, liksiu."
+              ]
+            },
+            {
+              "label": "nes",
+              "cells": [
+                "because",
+                "Liku, nes lyja."
+              ]
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "target": "Nežinau, ar jis ateis, kai lyja.",
+          "gloss": "I do not know whether he will come when it rains."
+        },
+        {
+          "target": "Nors jis sakė, kad ateis, aš lauksiu, kol paskambins.",
+          "gloss": "Although he said he would come, I shall wait until he rings."
+        }
+      ],
+      "seeAlso": [
+        "kai-clause",
+        "kol-clause",
+        "nors-clause",
+        "subordination-kad",
+        "indirect-questions",
+        "nes-todel"
+      ],
+      "core": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "lemma": "kol",
+      "gloss": "while; until",
+      "pos": "conjunction",
+      "notes": "Time subordinator; comma before the clause."
+    },
+    {
+      "lemma": "nors",
+      "gloss": "although, even though",
+      "pos": "conjunction",
+      "notes": "Also nors ir; often answered by vis tiek."
+    },
+    {
+      "lemma": "vis tiek",
+      "gloss": "all the same, nevertheless",
+      "pos": "adverb"
+    },
+    {
+      "lemma": "palaukti",
+      "gloss": "to wait (a while)",
+      "pos": "verb",
+      "forms": {
+        "inf": "palaukti",
+        "pres3": "palaukia",
+        "past3": "palaukė",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "baigti",
+      "gloss": "to finish, to end",
+      "pos": "verb",
+      "forms": {
+        "inf": "baigti",
+        "pres3": "baigia",
+        "past3": "baigė",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "atvažiuoti",
+      "gloss": "to arrive (by vehicle)",
+      "pos": "verb",
+      "forms": {
+        "inf": "atvažiuoti",
+        "pres3": "atvažiuoja",
+        "past3": "atvažiavo",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "papasakoti",
+      "gloss": "to tell, to narrate",
+      "pos": "verb",
+      "forms": {
+        "inf": "papasakoti",
+        "pres3": "papasakoja",
+        "past3": "papasakojo",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "nespėti",
+      "gloss": "not to manage in time, to fail to catch",
+      "pos": "verb",
+      "forms": {
+        "inf": "nespėti",
+        "pres3": "nespėja",
+        "past3": "nespėjo",
+        "conj": "II"
+      },
+      "notes": "Negation of spėti; cited as learners meet the form."
+    },
+    {
+      "lemma": "vėluoti",
+      "gloss": "to be late",
+      "pos": "verb",
+      "forms": {
+        "inf": "vėluoti",
+        "pres3": "vėluoja",
+        "past3": "vėlavo",
+        "conj": "I"
+      }
+    }
+  ],
+  "drills": [
+    {
+      "id": "a205-q1",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete: **____ lyja, aš skaitau namie.** (When it rains…)",
+      "options": [
+        "Kada",
+        "Kai",
+        "Kad",
+        "Ar"
+      ],
+      "correct": 1,
+      "explanation": "**Kai** introduces a time clause in a statement. *Kada* asks the question *when?*; *kad* reports a statement; *ar* reports a yes-or-no question.",
+      "rulesTested": [
+        "kai-clause",
+        "subordinate-inventory"
+      ],
+      "vocabUsed": [
+        "kai",
+        "lyti",
+        "skaityti",
+        "namie"
+      ]
+    },
+    {
+      "id": "a205-q2",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete: **Palauk, ____ ateisiu.** (Wait until I come.)",
+      "options": [
+        "kai",
+        "kol",
+        "nors",
+        "kad"
+      ],
+      "correct": 1,
+      "explanation": "**Kol** is *until* when one action waits for the start of another. *Kai* would be a plain *when*, and *nors* a concession.",
+      "rulesTested": [
+        "kol-clause"
+      ],
+      "vocabUsed": [
+        "palaukti",
+        "kol",
+        "ateiti"
+      ]
+    },
+    {
+      "id": "a205-q3",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Which conjunction means **although**?",
+      "options": [
+        "nes",
+        "nors",
+        "todėl",
+        "kol"
+      ],
+      "correct": 1,
+      "explanation": "**Nors** concedes. *nes* gives a reason, *todėl* a consequence, *kol* a time limit.",
+      "rulesTested": [
+        "nors-clause"
+      ],
+      "vocabUsed": [
+        "nors",
+        "nes",
+        "todėl",
+        "kol"
+      ]
+    },
+    {
+      "id": "a205-q4",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Nors buvo šalta, ____ į parką.**",
+      "options": [
+        "einame",
+        "ėjome",
+        "eisime",
+        "eiti"
+      ],
+      "correct": 1,
+      "explanation": "The concession is past (*buvo šalta*), and the main action is past with it: **ėjome**. Tense follows the time of the event (¶173).",
+      "rulesTested": [
+        "nors-clause",
+        "sequence-of-tenses"
+      ],
+      "vocabUsed": [
+        "nors",
+        "būti",
+        "šaltas",
+        "eiti",
+        "parkas"
+      ]
+    },
+    {
+      "id": "a205-q5",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which sentences are correctly punctuated?",
+      "options": [
+        "Žinau, kad tu dirbi.",
+        "Palauk kol baigsiu.",
+        "Ateisiu, nors bus vėlu.",
+        "Kai lyja aš skaitau."
+      ],
+      "correct": [
+        0,
+        2
+      ],
+      "explanation": "A comma stands before every subordinate clause. The second and fourth omit it before *kol* and before the main clause after a fronted *kai*-clause — both need the comma: *Palauk, kol…* and *Kai lyja, aš…*.",
+      "rulesTested": [
+        "subordinate-comma",
+        "kol-clause",
+        "kai-clause"
+      ],
+      "vocabUsed": [
+        "žinoti",
+        "kad",
+        "dirbti",
+        "palaukti",
+        "kol",
+        "baigti",
+        "ateiti",
+        "nors",
+        "kai",
+        "skaityti"
+      ]
+    },
+    {
+      "id": "a205-q6",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "**Jis sakė, kad ateis.** Why not a past in the second clause?",
+      "options": [
+        "Because *kad* always takes the future.",
+        "Because Lithuanian keeps the tense that was meant; he said *I shall come*.",
+        "Because *sakė* forbids any past after it.",
+        "Because *ateis* is a conditional."
+      ],
+      "correct": 1,
+      "explanation": "Sequence of tenses in Lithuanian is honest reporting: the future *ateis* stays. English back-shifts to *would come*; Lithuanian does not.",
+      "rulesTested": [
+        "sequence-of-tenses",
+        "subordination-kad"
+      ],
+      "vocabUsed": [
+        "sakyti",
+        "kad",
+        "ateiti"
+      ]
+    },
+    {
+      "id": "a205-q7",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Paskambink man, kai ____.** (Ring me when you get back.)",
+      "options": [
+        "grįžti",
+        "grįžai",
+        "grįši",
+        "grįžtum"
+      ],
+      "correct": 2,
+      "explanation": "The return is future, so the *kai*-clause takes the future **grįši**. The infinitive and the conditional are the wrong mood and tense.",
+      "rulesTested": [
+        "kai-clause",
+        "sequence-of-tenses",
+        "future-uses"
+      ],
+      "vocabUsed": [
+        "skambinti",
+        "kai",
+        "grįžti"
+      ]
+    },
+    {
+      "id": "a205-q8",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which uses of **kol** are correct?",
+      "options": [
+        "Skaitau, kol važiuoju.",
+        "Palauk, kol ateisiu.",
+        "Kol? — Rytoj.",
+        "Dirbsiu, kol nebaigsiu."
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "*Kol* is a subordinator, not a question word — *when?* is *kada?*. The first is *while*, the second and fourth *until*.",
+      "rulesTested": [
+        "kol-clause",
+        "kai-clause",
+        "subordinate-inventory"
+      ],
+      "vocabUsed": [
+        "kol",
+        "skaityti",
+        "važiuoti",
+        "palaukti",
+        "ateiti",
+        "dirbti",
+        "baigti",
+        "rytoj"
+      ]
+    },
+    {
+      "id": "a205-q9",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Which conjunction fits: **____ jis dirba daug, vis tiek nespėja.**",
+      "options": [
+        "Nes",
+        "Nors",
+        "Todėl",
+        "Kad"
+      ],
+      "correct": 1,
+      "explanation": "The main clause concedes an obstacle and continues anyway — that is **nors**, answered here by *vis tiek*. *Nes* would give a reason for the main clause, which is the wrong relation.",
+      "rulesTested": [
+        "nors-clause",
+        "subordinate-inventory"
+      ],
+      "vocabUsed": [
+        "nors",
+        "dirbti",
+        "daug",
+        "vis tiek",
+        "nes",
+        "todėl",
+        "kad"
+      ]
+    },
+    {
+      "id": "a205-q10",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which of these are **subordinators**?",
+      "explanation": "*kai*, *nors*, and *jeigu* open subordinate clauses. *ir* is a coordinator.",
+      "rulesTested": [
+        "subordinate-inventory"
+      ],
+      "vocabUsed": [
+        "kad",
+        "ar",
+        "kai",
+        "kol",
+        "nors",
+        "jeigu",
+        "nes"
+      ],
+      "options": [
+        "kai",
+        "nors",
+        "ir",
+        "jeigu"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "id": "a205-q11",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**Kai atėjau, jis skaitė.** What does the tense pair show?",
+      "options": [
+        "That *kai* requires two different tenses.",
+        "That each clause keeps the tense of its own event: both past.",
+        "That the main clause must be present after *kai*.",
+        "That Lithuanian back-shifts after *kai*."
+      ],
+      "correct": 1,
+      "explanation": "Both events are past, so both verbs are past. There is no special sequence rule beyond naming each event's time.",
+      "rulesTested": [
+        "sequence-of-tenses",
+        "kai-clause",
+        "past-narrative"
+      ],
+      "vocabUsed": [
+        "kai",
+        "ateiti",
+        "skaityti"
+      ]
+    },
+    {
+      "id": "a205-p1",
+      "type": "comprehension",
+      "difficulty": "medium",
+      "title": "Lietus ir darbas",
+      "passage": "Rūta sakė, kad rytoj dirbs namie, kai lyja. Kol lietus nustos, ji nesiruošia eiti į miestą. Nors draugė kvietė į kavinę, Rūta atsakė: „Ačiū, bet aš palauksiu, kol baigsiu darbą. Jeigu oras bus geresnis, paskambinsiu.“ Draugė nežinojo, ar Rūta tikrai ateis, nes Rūta dažnai keičia planus. „Gerai,“ — tarė ji. — „Lauksiu, nors ir vėluosiu į teatrą.“",
+      "translation": "Rūta said that tomorrow she would work at home when it rains. Until the rain stops, she does not mean to go into town. Although a friend invited her to a café, Rūta answered: \"Thanks, but I shall wait until I finish the work. If the weather is better, I shall ring.\" The friend did not know whether Rūta would really come, because Rūta often changes plans. \"All right,\" she said. \"I shall wait, even though I shall be late for the theatre.\"",
+      "glossary": {
+        "nustos": "will stop (nusti)",
+        "nesiruošia": "does not intend (nesiruošti)",
+        "kvietė": "invited (kviesti)",
+        "kavinę": "café (acc.)",
+        "keičia": "changes (keisti)",
+        "planus": "plans (acc. pl.)",
+        "tarė": "said (tarti)",
+        "vėluosiu": "I shall be late (vėluoti)"
+      },
+      "questions": [
+        {
+          "id": "a205-p1-q1",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "What did Rūta say she would do tomorrow if it rains?",
+          "options": [
+            "go to a café",
+            "work at home",
+            "go to the theatre",
+            "ring her friend at once"
+          ],
+          "correct": 1,
+          "explanation": "*sakė, kad rytoj dirbs namie, kai lyja* — reported statement with *kad*, time clause with *kai*, future kept under a past main verb.",
+          "rulesTested": [
+            "kai-clause",
+            "sequence-of-tenses",
+            "subordination-kad"
+          ],
+          "vocabUsed": [
+            "sakyti",
+            "kad",
+            "rytoj",
+            "dirbti",
+            "kai"
+          ]
+        },
+        {
+          "id": "a205-p1-q2",
+          "type": "multi",
+          "difficulty": "medium",
+          "stem": "Which subordinators appear in the passage?",
+          "options": [
+            "kad",
+            "kol",
+            "nors",
+            "arba"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "*kad*, *kol* (twice), *nors* (twice), and also *jeigu*, *ar*, *nes* — but *arba* is a coordinator and does not appear.",
+          "rulesTested": [
+            "subordinate-inventory",
+            "kol-clause",
+            "nors-clause"
+          ],
+          "vocabUsed": [
+            "kad",
+            "kol",
+            "nors",
+            "arba"
+          ]
+        },
+        {
+          "id": "a205-p1-q3",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "**Draugė nežinojo, ar Rūta tikrai ateis** — why *ar*?",
+          "options": [
+            "Because it is a condition.",
+            "Because a yes-or-no question is being reported.",
+            "Because *ar* means *because*.",
+            "Because the clause is a concession."
+          ],
+          "correct": 1,
+          "explanation": "Indirect yes-or-no questions take **ar** (¶105). *Jeigu* would make a condition; *nors* a concession; *nes* a reason.",
+          "rulesTested": [
+            "indirect-questions",
+            "subordinate-inventory"
+          ],
+          "vocabUsed": [
+            "žinoti",
+            "ar",
+            "ateiti"
+          ]
+        },
+        {
+          "id": "a205-p1-q4",
+          "type": "single",
+          "difficulty": "hard",
+          "stem": "**Lauksiu, nors ir vėluosiu į teatrą.** What is the relation between the clauses?",
+          "options": [
+            "Cause: she waits because she will be late.",
+            "Concession: she will wait even though it makes her late.",
+            "Time: she waits until she is late.",
+            "Reported speech."
+          ],
+          "correct": 1,
+          "explanation": "**Nors ir** concedes the drawback. The futures in both clauses name future events without English-style shifting.",
+          "rulesTested": [
+            "nors-clause",
+            "sequence-of-tenses"
+          ],
+          "vocabUsed": [
+            "laukti",
+            "nors",
+            "teatras"
+          ]
+        },
+        {
+          "id": "a205-p1-q5",
+          "type": "integer",
+          "difficulty": "hard",
+          "stem": "How many times does **kol** appear in the passage?",
+          "answer": 2,
+          "unit": "times",
+          "explanation": "Twice: *Kol lietus nustos…* and *palauksiu, kol baigsiu darbą* — both in the *until* reading.",
+          "rulesTested": [
+            "kol-clause"
+          ],
+          "vocabUsed": [
+            "kol",
+            "baigti"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a205-x1",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete: **Paskambink man, ____ grįši.** (Ring me when you get back.)",
+      "options": [
+        "kada",
+        "kai",
+        "kad",
+        "ar"
+      ],
+      "correct": 1,
+      "explanation": "**Kai** in a statement; *kada* asks the question *when?*",
+      "rulesTested": [
+        "kai-clause",
+        "subordinate-inventory"
+      ],
+      "vocabUsed": [
+        "kai"
+      ]
+    },
+    {
+      "id": "a205-x2",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete: **____ buvo šalta, ėjome į parką.** (Although it was cold…)",
+      "options": [
+        "Bet",
+        "Nors",
+        "Kai",
+        "Kad"
+      ],
+      "correct": 1,
+      "explanation": "**Nors** concedes. *Bet* would cancel rather than concede.",
+      "rulesTested": [
+        "nors-clause"
+      ],
+      "vocabUsed": [
+        "nors"
+      ]
+    },
+    {
+      "id": "a205-x3",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete: **Laukiau, ____ autobusas atvažiavo.** (I waited until the bus arrived.)",
+      "options": [
+        "kai",
+        "kol",
+        "kad",
+        "nors"
+      ],
+      "correct": 1,
+      "explanation": "**Kol** for *until* when one action stops at another's start.",
+      "rulesTested": [
+        "kol-clause"
+      ],
+      "vocabUsed": [
+        "kol",
+        "atvažiuoti"
+      ]
+    },
+    {
+      "id": "a205-x4",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Which is correctly punctuated?",
+      "options": [
+        "Žinau kad tu dirbi.",
+        "Žinau, kad tu dirbi.",
+        "Žinau kad, tu dirbi.",
+        "Žinau; kad tu dirbi."
+      ],
+      "correct": 1,
+      "explanation": "A comma stands **before** every subordinate clause: *Žinau, kad…*",
+      "rulesTested": [
+        "subordinate-comma"
+      ],
+      "vocabUsed": [
+        "kad"
+      ]
+    },
+    {
+      "id": "a205-x5",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "**Jis sakė, kad ateis.** Why *ateis*, not an English-style past?",
+      "options": [
+        "Lithuanian keeps the tense of the event itself.",
+        "Because *sakė* forces the future.",
+        "Because *kad* always takes future.",
+        "Because the speaker is guessing."
+      ],
+      "correct": 0,
+      "explanation": "No sequence-of-tenses shift: what was future stays future under a past main verb.",
+      "rulesTested": [
+        "sequence-of-tenses"
+      ],
+      "vocabUsed": [
+        "kad"
+      ]
+    },
+    {
+      "id": "a205-x6",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which subordinators introduce **time** clauses?",
+      "options": [
+        "kai",
+        "kol",
+        "nors",
+        "kad"
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanation": "*Kai* and *kol* fix time. *Nors* concedes; *kad* reports a statement.",
+      "rulesTested": [
+        "kai-clause",
+        "kol-clause",
+        "subordinate-inventory"
+      ],
+      "vocabUsed": [
+        "kai",
+        "kol",
+        "nors",
+        "kad"
+      ]
+    },
+    {
+      "id": "a205-x7",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Nors jis dirba daug, ____ nespėja.**",
+      "options": [
+        "bet",
+        "vis tiek",
+        "arba",
+        "nes"
+      ],
+      "correct": 1,
+      "explanation": "Concession is often answered by **vis tiek** (*all the same*).",
+      "rulesTested": [
+        "nors-clause"
+      ],
+      "vocabUsed": [
+        "nors",
+        "vis tiek",
+        "nespėti"
+      ]
+    },
+    {
+      "id": "a205-x8",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**Dirbsiu, kol nebaigsiu.** What does *kol* + *ne-* signal here?",
+      "options": [
+        "while (overlap only)",
+        "until (limit reading)",
+        "although",
+        "reported question"
+      ],
+      "correct": 1,
+      "explanation": "A negative in the *kol*-clause often marks the **until** reading.",
+      "rulesTested": [
+        "kol-clause"
+      ],
+      "vocabUsed": [
+        "kol",
+        "baigti"
+      ]
+    },
+    {
+      "id": "a205-x9",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which pairings of job are right?",
+      "options": [
+        "kad — reported statement",
+        "ar — reported yes/no",
+        "nors — although",
+        "kai — ask *when?*"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "*Kai* answers *when* in a statement; **kada** asks the question.",
+      "rulesTested": [
+        "subordinate-inventory",
+        "kai-clause"
+      ],
+      "vocabUsed": [
+        "kad",
+        "ar",
+        "nors",
+        "kai"
+      ]
+    },
+    {
+      "id": "a205-x10",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Complete: **Kai ____, papasakosiu.** (When I return, I shall tell you.)",
+      "options": [
+        "grįžtu",
+        "grįšiu",
+        "grįžau",
+        "grįžti"
+      ],
+      "correct": 1,
+      "explanation": "Both clauses future: *Kai grįšiu, papasakosiu* — tense of the event, not an English present after *when*.",
+      "rulesTested": [
+        "sequence-of-tenses",
+        "kai-clause"
+      ],
+      "vocabUsed": [
+        "kai",
+        "papasakoti"
+      ]
+    },
+    {
+      "id": "a205-x11",
+      "type": "multi",
+      "difficulty": "easy",
+      "stem": "Which of these are **subordinators**?",
+      "explanation": "*kai*, *kol*, and *nors* subordinate. *ir* coordinates.",
+      "rulesTested": [
+        "subordinate-inventory"
+      ],
+      "vocabUsed": [
+        "kai",
+        "kol",
+        "nors"
+      ],
+      "options": [
+        "kai",
+        "kol",
+        "ir",
+        "nors"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "id": "a205-x12",
+      "type": "integer",
+      "difficulty": "medium",
+      "stem": "In *Ateisiu, nors bus vėlu*, how many **commas** must stand before the subordinate clause?",
+      "answer": 1,
+      "unit": "commas",
+      "explanation": "Exactly one comma before *nors*, as before every subordinate clause.",
+      "rulesTested": [
+        "subordinate-comma",
+        "nors-clause"
+      ],
+      "vocabUsed": [
+        "nors",
+        "vėluoti"
+      ]
+    },
+    {
+      "id": "a205-x13",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "**Skaitau, kol važiuoju.** What is *kol* here?",
+      "options": [
+        "until",
+        "while (overlap)",
+        "although",
+        "because"
+      ],
+      "correct": 1,
+      "explanation": "Two overlapping actions → *kol* = **while**.",
+      "rulesTested": [
+        "kol-clause"
+      ],
+      "vocabUsed": [
+        "kol"
+      ]
+    },
+    {
+      "id": "a205-x14",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which sentences need a comma added or kept before the subordinator?",
+      "options": [
+        "Palauk, kol baigsiu.",
+        "Kai lyja, aš skaitau.",
+        "Nežinau ar jis ateis.",
+        "Nors lyja, einu."
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "*Nežinau ar…* needs the comma: *Nežinau, ar…*. The others are already correct.",
+      "rulesTested": [
+        "subordinate-comma"
+      ],
+      "vocabUsed": [
+        "kol",
+        "kai",
+        "ar",
+        "nors"
+      ]
+    }
+  ]
+}

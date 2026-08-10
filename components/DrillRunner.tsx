@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 
 import {
@@ -287,6 +287,26 @@ export function DrillRunner({
   const respond = (id: string, r: Response) =>
     setResponses((prev) => ({ ...prev, [id]: r }));
 
+  const lastStep = step === drills.length - 1;
+  const firstStep = step === 0;
+
+  useEffect(() => {
+    if (result) return;
+    function onKey(e: KeyboardEvent) {
+      const tag = (e.target as HTMLElement | null)?.tagName;
+      if (tag === "INPUT" || tag === "TEXTAREA") return;
+      if (e.key === "ArrowLeft") {
+        e.preventDefault();
+        setStep((s) => Math.max(0, s - 1));
+      } else if (e.key === "ArrowRight") {
+        e.preventDefault();
+        setStep((s) => Math.min(drills.length - 1, s + 1));
+      }
+    }
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [result, drills.length]);
+
   async function submit() {
     setSaving(true);
     setSaveError(null);
@@ -341,7 +361,8 @@ export function DrillRunner({
     );
   }
 
-  const lastStep = step === drills.length - 1;
+  const goPrev = () => setStep((s) => Math.max(0, s - 1));
+  const goNext = () => setStep((s) => Math.min(drills.length - 1, s + 1));
 
   return (
     <div>
@@ -387,7 +408,16 @@ export function DrillRunner({
         ))}
       </div>
 
-      <div className="mt-8 flex items-center gap-3 border-t border-rule pt-5">
+      <div className="mt-8 flex flex-wrap items-center gap-3 border-t border-rule pt-5">
+        <button
+          type="button"
+          disabled={firstStep}
+          onClick={goPrev}
+          className="rounded border border-rule px-4 py-2 text-sm hover:border-accent disabled:opacity-40"
+        >
+          Previous
+        </button>
+
         {!examMode && !isChecked && (
           <button
             type="button"
@@ -395,14 +425,14 @@ export function DrillRunner({
             onClick={() =>
               setChecked((prev) => new Set(prev).add(drill.id))
             }
-            className="rounded bg-accent px-4 py-2 text-sm font-medium text-paper disabled:opacity-40"
+            className="rounded border border-rule px-4 py-2 text-sm hover:border-accent disabled:opacity-40"
           >
             Check
           </button>
         )}
 
-        {(examMode || isChecked) &&
-          (lastStep ? (
+        <div className="ml-auto flex items-center gap-3">
+          {lastStep ? (
             <button
               type="button"
               disabled={saving}
@@ -414,16 +444,17 @@ export function DrillRunner({
           ) : (
             <button
               type="button"
-              onClick={() => setStep((s) => s + 1)}
+              onClick={goNext}
               className="rounded bg-accent px-4 py-2 text-sm font-medium text-paper"
             >
               Next
             </button>
-          ))}
+          )}
+        </div>
 
-        {examMode && !lastStep && (
-          <span className="text-xs text-ink-faint">
-            {allAnswered ? "" : "You may leave a question unanswered."}
+        {examMode && !lastStep && !allAnswered && (
+          <span className="w-full text-xs text-ink-faint">
+            You may leave a question unanswered.
           </span>
         )}
       </div>

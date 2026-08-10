@@ -12,10 +12,20 @@
       "heading": "Transitive Verbs and the Direct Object",
       "statement": "A **transitive verb** expresses an action that passes over from the subject to some other person or thing — one *sees* a house, *reads* a book. That other person or thing is the **direct object**, and in Lithuanian it is put into the **accusative case**. An intransitive verb, expressing an action confined to the subject, takes no object: *Berniukas dirba*, the boy works.",
       "examples": [
-        { "target": "Berniukas skaito knygą.", "gloss": "The boy reads a book.", "note": "knygą, accusative, the thing read" },
-        { "target": "Berniukas dirba.", "gloss": "The boy works.", "note": "intransitive; nothing is worked" }
+        {
+          "target": "Berniukas skaito knygą.",
+          "gloss": "The boy reads a book.",
+          "note": "knygą, accusative, the thing read"
+        },
+        {
+          "target": "Berniukas dirba.",
+          "gloss": "The boy works.",
+          "note": "intransitive; nothing is worked"
+        }
       ],
-      "seeAlso": ["nominative"],
+      "seeAlso": [
+        "nominative"
+      ],
       "core": true
     },
     {
@@ -26,24 +36,83 @@
       "paradigms": [
         {
           "caption": "Nominative → accusative singular",
-          "columns": ["nominative", "accusative", "example"],
+          "columns": [
+            "nominative",
+            "accusative",
+            "example"
+          ],
           "rows": [
-            { "label": "masc. -as", "cells": ["-as", "-ą", "namas → namą"] },
-            { "label": "masc. -is", "cells": ["-is", "-į", "brolis → brolį"] },
-            { "label": "masc. -ys", "cells": ["-ys", "-į", "obuolys → obuolį"] },
-            { "label": "masc. -us", "cells": ["-us", "-ų", "sūnus → sūnų"] },
-            { "label": "fem. -a", "cells": ["-a", "-ą", "knyga → knygą"] },
-            { "label": "fem. -ė", "cells": ["-ė", "-ę", "katė → katę"] }
+            {
+              "label": "masc. -as",
+              "cells": [
+                "-as",
+                "-ą",
+                "namas → namą"
+              ]
+            },
+            {
+              "label": "masc. -is",
+              "cells": [
+                "-is",
+                "-į",
+                "brolis → brolį"
+              ]
+            },
+            {
+              "label": "masc. -ys",
+              "cells": [
+                "-ys",
+                "-į",
+                "obuolys → obuolį"
+              ]
+            },
+            {
+              "label": "masc. -us",
+              "cells": [
+                "-us",
+                "-ų",
+                "sūnus → sūnų"
+              ]
+            },
+            {
+              "label": "fem. -a",
+              "cells": [
+                "-a",
+                "-ą",
+                "knyga → knygą"
+              ]
+            },
+            {
+              "label": "fem. -ė",
+              "cells": [
+                "-ė",
+                "-ę",
+                "katė → katę"
+              ]
+            }
           ],
           "footnote": "Every accusative singular ending is a nosinė vowel. This is the grammatical work the hook does, and the reason it may never be omitted (see ¶3)."
         }
       ],
       "examples": [
-        { "target": "Aš matau namą.", "gloss": "I see a house." },
-        { "target": "Ji myli brolį.", "gloss": "She loves her brother." },
-        { "target": "Mes turime katę.", "gloss": "We have a cat." }
+        {
+          "target": "Aš matau namą.",
+          "gloss": "I see a house."
+        },
+        {
+          "target": "Ji myli brolį.",
+          "gloss": "She loves her brother."
+        },
+        {
+          "target": "Mes turime katę.",
+          "gloss": "We have a cat."
+        }
       ],
-      "seeAlso": ["nosine", "noun-endings", "transitive-objects"],
+      "seeAlso": [
+        "nosine",
+        "noun-endings",
+        "transitive-objects"
+      ],
       "core": true
     },
     {
@@ -54,20 +123,53 @@
       "paradigms": [
         {
           "caption": "Adjective, nominative → accusative singular",
-          "columns": ["masculine", "feminine"],
+          "columns": [
+            "masculine",
+            "feminine"
+          ],
           "rows": [
-            { "label": "class I", "cells": ["geras → gerą", "gera → gerą"] },
-            { "label": "class II", "cells": ["gražus → gražų", "graži → gražią"] },
-            { "label": "class III", "cells": ["didelis → didelį", "didelė → didelę"] }
+            {
+              "label": "class I",
+              "cells": [
+                "geras → gerą",
+                "gera → gerą"
+              ]
+            },
+            {
+              "label": "class II",
+              "cells": [
+                "gražus → gražų",
+                "graži → gražią"
+              ]
+            },
+            {
+              "label": "class III",
+              "cells": [
+                "didelis → didelį",
+                "didelė → didelę"
+              ]
+            }
           ]
         }
       ],
       "examples": [
-        { "target": "Aš matau didelį namą.", "gloss": "I see a big house." },
-        { "target": "Ji skaito naują knygą.", "gloss": "She is reading a new book." },
-        { "target": "Mes turime gražią katę.", "gloss": "We have a beautiful cat." }
+        {
+          "target": "Aš matau didelį namą.",
+          "gloss": "I see a big house."
+        },
+        {
+          "target": "Ji skaito naują knygą.",
+          "gloss": "She is reading a new book."
+        },
+        {
+          "target": "Mes turime gražią katę.",
+          "gloss": "We have a beautiful cat."
+        }
       ],
-      "seeAlso": ["adjective-agreement", "accusative-nouns"],
+      "seeAlso": [
+        "adjective-agreement",
+        "accusative-nouns"
+      ],
       "core": true
     },
     {
@@ -78,24 +180,93 @@
       "paradigms": [
         {
           "caption": "Personal pronouns, nominative and accusative",
-          "columns": ["nominative", "accusative", "English"],
+          "columns": [
+            "nominative",
+            "accusative",
+            "English"
+          ],
           "rows": [
-            { "label": "1 sg.", "cells": ["aš", "mane", "me"] },
-            { "label": "2 sg.", "cells": ["tu", "tave", "you"] },
-            { "label": "3 sg. m.", "cells": ["jis", "jį", "him, it"] },
-            { "label": "3 sg. f.", "cells": ["ji", "ją", "her, it"] },
-            { "label": "1 pl.", "cells": ["mes", "mus", "us"] },
-            { "label": "2 pl.", "cells": ["jūs", "jus", "you"] },
-            { "label": "3 pl. m.", "cells": ["jie", "juos", "them"] },
-            { "label": "3 pl. f.", "cells": ["jos", "jas", "them"] }
+            {
+              "label": "1 sg.",
+              "cells": [
+                "aš",
+                "mane",
+                "me"
+              ]
+            },
+            {
+              "label": "2 sg.",
+              "cells": [
+                "tu",
+                "tave",
+                "you"
+              ]
+            },
+            {
+              "label": "3 sg. m.",
+              "cells": [
+                "jis",
+                "jį",
+                "him, it"
+              ]
+            },
+            {
+              "label": "3 sg. f.",
+              "cells": [
+                "ji",
+                "ją",
+                "her, it"
+              ]
+            },
+            {
+              "label": "1 pl.",
+              "cells": [
+                "mes",
+                "mus",
+                "us"
+              ]
+            },
+            {
+              "label": "2 pl.",
+              "cells": [
+                "jūs",
+                "jus",
+                "you"
+              ]
+            },
+            {
+              "label": "3 pl. m.",
+              "cells": [
+                "jie",
+                "juos",
+                "them"
+              ]
+            },
+            {
+              "label": "3 pl. f.",
+              "cells": [
+                "jos",
+                "jas",
+                "them"
+              ]
+            }
           ]
         }
       ],
       "examples": [
-        { "target": "Jis mane mato.", "gloss": "He sees me." },
-        { "target": "Aš tave myliu.", "gloss": "I love you." }
+        {
+          "target": "Jis mane mato.",
+          "gloss": "He sees me."
+        },
+        {
+          "target": "Aš tave myliu.",
+          "gloss": "I love you."
+        }
       ],
-      "seeAlso": ["pronouns-nom", "accusative-nouns"],
+      "seeAlso": [
+        "pronouns-nom",
+        "accusative-nouns"
+      ],
       "core": true
     },
     {
@@ -106,19 +277,54 @@
       "paradigms": [
         {
           "caption": "The three conjugations, third person present",
-          "columns": ["infinitive", "3rd pres.", "3rd past", "conjugation"],
+          "columns": [
+            "infinitive",
+            "3rd pres.",
+            "3rd past",
+            "conjugation"
+          ],
           "rows": [
-            { "label": "to work", "cells": ["dirbti", "dirba", "dirbo", "first"] },
-            { "label": "to have", "cells": ["turėti", "turi", "turėjo", "second"] },
-            { "label": "to read", "cells": ["skaityti", "skaito", "skaitė", "third"] }
+            {
+              "label": "to work",
+              "cells": [
+                "dirbti",
+                "dirba",
+                "dirbo",
+                "first"
+              ]
+            },
+            {
+              "label": "to have",
+              "cells": [
+                "turėti",
+                "turi",
+                "turėjo",
+                "second"
+              ]
+            },
+            {
+              "label": "to read",
+              "cells": [
+                "skaityti",
+                "skaito",
+                "skaitė",
+                "third"
+              ]
+            }
           ],
           "footnote": "The infinitive ending -ti is common to all three and says nothing about the conjugation."
         }
       ],
       "examples": [
-        { "target": "dirbti, dirba, dirbo", "gloss": "to work", "note": "the form in which a verb is memorised" }
+        {
+          "target": "dirbti, dirba, dirbo",
+          "gloss": "to work",
+          "note": "the form in which a verb is memorised"
+        }
       ],
-      "seeAlso": ["buti-present"],
+      "seeAlso": [
+        "buti-present"
+      ],
       "core": true
     },
     {
@@ -129,25 +335,82 @@
       "paradigms": [
         {
           "caption": "dirbti (dirba) — present tense",
-          "columns": ["ending", "form", "English"],
+          "columns": [
+            "ending",
+            "form",
+            "English"
+          ],
           "rows": [
-            { "label": "aš", "cells": ["-u", "dirbu", "I work"] },
-            { "label": "tu", "cells": ["-i", "dirbi", "you work"] },
-            { "label": "jis, ji", "cells": ["-a", "dirba", "he, she works"] },
-            { "label": "mes", "cells": ["-ame", "dirbame", "we work"] },
-            { "label": "jūs", "cells": ["-ate", "dirbate", "you work"] },
-            { "label": "jie, jos", "cells": ["-a", "dirba", "they work"] }
+            {
+              "label": "aš",
+              "cells": [
+                "-u",
+                "dirbu",
+                "I work"
+              ]
+            },
+            {
+              "label": "tu",
+              "cells": [
+                "-i",
+                "dirbi",
+                "you work"
+              ]
+            },
+            {
+              "label": "jis, ji",
+              "cells": [
+                "-a",
+                "dirba",
+                "he, she works"
+              ]
+            },
+            {
+              "label": "mes",
+              "cells": [
+                "-ame",
+                "dirbame",
+                "we work"
+              ]
+            },
+            {
+              "label": "jūs",
+              "cells": [
+                "-ate",
+                "dirbate",
+                "you work"
+              ]
+            },
+            {
+              "label": "jie, jos",
+              "cells": [
+                "-a",
+                "dirba",
+                "they work"
+              ]
+            }
           ]
         }
       ],
       "examples": [
-        { "target": "Aš dirbu.", "gloss": "I work, I am working.", "note": "Lithuanian has one present tense where English has two" },
-        { "target": "Kalbame lietuviškai.", "gloss": "We speak Lithuanian.", "note": "pronoun omitted" }
+        {
+          "target": "Aš dirbu.",
+          "gloss": "I work, I am working.",
+          "note": "Lithuanian has one present tense where English has two"
+        },
+        {
+          "target": "Kalbame lietuviškai.",
+          "gloss": "We speak Lithuanian.",
+          "note": "pronoun omitted"
+        }
       ],
       "footnotes": [
         "The present tense renders both the English simple present and the present progressive. *Jis rašo laišką* is equally \"he writes a letter\" and \"he is writing a letter\"."
       ],
-      "seeAlso": ["conjugations", "pronouns-nom"],
+      "seeAlso": [
+        "conjugations",
+        "pronouns-nom"
+      ],
       "core": true
     },
     {
@@ -156,14 +419,26 @@
       "heading": "Negation of the Verb",
       "statement": "A verb is negated by prefixing **ne-** and writing it as one word with the verb. The prefix draws the stress to itself in many words, but the spelling never separates it. The same *ne* standing alone is the word for \"no\".",
       "examples": [
-        { "target": "Aš nedirbu.", "gloss": "I do not work." },
-        { "target": "Jis neskaito.", "gloss": "He does not read." },
-        { "target": "Ne, ačiū.", "gloss": "No, thank you.", "note": "ne standing alone" }
+        {
+          "target": "Aš nedirbu.",
+          "gloss": "I do not work."
+        },
+        {
+          "target": "Jis neskaito.",
+          "gloss": "He does not read."
+        },
+        {
+          "target": "Ne, ačiū.",
+          "gloss": "No, thank you.",
+          "note": "ne standing alone"
+        }
       ],
       "footnotes": [
         "būti is irregular here: the third person negative is nėra, not *neyra (see ¶15)."
       ],
-      "seeAlso": ["buti-present"],
+      "seeAlso": [
+        "buti-present"
+      ],
       "core": true
     },
     {
@@ -172,11 +447,25 @@
       "heading": "The Object of a Negated Verb",
       "statement": "When a transitive verb is negated, its direct object leaves the accusative and takes the **genitive** instead. The reason is that a negated verb asserts that no part of the thing was affected, and the genitive is the case of the part rather than the whole. The genitive is treated fully in the next section; for the present, **recognise** the change and do not be surprised by it.",
       "examples": [
-        { "target": "Aš matau namą.", "gloss": "I see a house.", "note": "accusative" },
-        { "target": "Aš nematau namo.", "gloss": "I do not see a house.", "note": "genitive" },
-        { "target": "Ji turi knygą. → Ji neturi knygos.", "gloss": "She has a book. → She has no book." }
+        {
+          "target": "Aš matau namą.",
+          "gloss": "I see a house.",
+          "note": "accusative"
+        },
+        {
+          "target": "Aš nematau namo.",
+          "gloss": "I do not see a house.",
+          "note": "genitive"
+        },
+        {
+          "target": "Ji turi knygą. → Ji neturi knygos.",
+          "gloss": "She has a book. → She has no book."
+        }
       ],
-      "seeAlso": ["negation", "accusative-nouns"],
+      "seeAlso": [
+        "negation",
+        "accusative-nouns"
+      ],
       "core": true
     },
     {
@@ -185,34 +474,234 @@
       "heading": "The Conjunction Ir",
       "statement": "**Ir** joins words or clauses of like kind, as English *and*. Joined objects each stand in the accusative, the case being repeated and not merely understood.",
       "examples": [
-        { "target": "Ji valgo obuolį ir geria arbatą.", "gloss": "She eats an apple and drinks tea." },
-        { "target": "Aš matau namą ir katę.", "gloss": "I see a house and a cat." }
+        {
+          "target": "Ji valgo obuolį ir geria arbatą.",
+          "gloss": "She eats an apple and drinks tea."
+        },
+        {
+          "target": "Aš matau namą ir katę.",
+          "gloss": "I see a house and a cat."
+        }
       ],
-      "seeAlso": ["accusative-nouns"],
+      "seeAlso": [
+        "accusative-nouns"
+      ],
       "core": false
     }
   ],
   "vocabulary": [
-    { "lemma": "dirbti", "gloss": "to work", "pos": "verb", "forms": { "inf": "dirbti", "pres3": "dirba", "past3": "dirbo", "conj": "I" } },
-    { "lemma": "kalbėti", "gloss": "to speak, to talk", "pos": "verb", "forms": { "inf": "kalbėti", "pres3": "kalba", "past3": "kalbėjo", "conj": "I" } },
-    { "lemma": "gerti", "gloss": "to drink", "pos": "verb", "forms": { "inf": "gerti", "pres3": "geria", "past3": "gėrė", "conj": "I" } },
-    { "lemma": "turėti", "gloss": "to have", "pos": "verb", "forms": { "inf": "turėti", "pres3": "turi", "past3": "turėjo", "conj": "II" } },
-    { "lemma": "mylėti", "gloss": "to love", "pos": "verb", "forms": { "inf": "mylėti", "pres3": "myli", "past3": "mylėjo", "conj": "II" } },
-    { "lemma": "matyti", "gloss": "to see", "pos": "verb", "forms": { "inf": "matyti", "pres3": "mato", "past3": "matė", "conj": "III" } },
-    { "lemma": "skaityti", "gloss": "to read", "pos": "verb", "forms": { "inf": "skaityti", "pres3": "skaito", "past3": "skaitė", "conj": "III" } },
-    { "lemma": "rašyti", "gloss": "to write", "pos": "verb", "forms": { "inf": "rašyti", "pres3": "rašo", "past3": "rašė", "conj": "III" } },
-    { "lemma": "valgyti", "gloss": "to eat", "pos": "verb", "forms": { "inf": "valgyti", "pres3": "valgo", "past3": "valgė", "conj": "III" } },
-    { "lemma": "laiškas", "gloss": "letter (written)", "pos": "noun", "forms": { "nom": "laiškas", "gen": "laiško", "acc": "laišką", "gender": "m." } },
-    { "lemma": "langas", "gloss": "window", "pos": "noun", "forms": { "nom": "langas", "gen": "lango", "acc": "langą", "gender": "m." } },
-    { "lemma": "sūnus", "gloss": "son", "pos": "noun", "forms": { "nom": "sūnus", "gen": "sūnaus", "acc": "sūnų", "gender": "m." } },
-    { "lemma": "draugas", "gloss": "friend (male)", "pos": "noun", "forms": { "nom": "draugas", "gen": "draugo", "acc": "draugą", "gender": "m." } },
-    { "lemma": "obuolys", "gloss": "apple", "pos": "noun", "forms": { "nom": "obuolys", "gen": "obuolio", "acc": "obuolį", "gender": "m." } },
-    { "lemma": "duona", "gloss": "bread", "pos": "noun", "forms": { "nom": "duona", "gen": "duonos", "acc": "duoną", "gender": "f." } },
-    { "lemma": "arbata", "gloss": "tea", "pos": "noun", "forms": { "nom": "arbata", "gen": "arbatos", "acc": "arbatą", "gender": "f." } },
-    { "lemma": "mane", "gloss": "me", "pos": "pronoun", "forms": { "nom": "aš", "acc": "mane" } },
-    { "lemma": "tave", "gloss": "you (object, singular)", "pos": "pronoun", "forms": { "nom": "tu", "acc": "tave" } },
-    { "lemma": "jį", "gloss": "him, it (object)", "pos": "pronoun", "forms": { "nom": "jis", "acc": "jį" } },
-    { "lemma": "ją", "gloss": "her, it (object)", "pos": "pronoun", "forms": { "nom": "ji", "acc": "ją" } }
+    {
+      "lemma": "dirbti",
+      "gloss": "to work",
+      "pos": "verb",
+      "forms": {
+        "inf": "dirbti",
+        "pres3": "dirba",
+        "past3": "dirbo",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "kalbėti",
+      "gloss": "to speak, to talk",
+      "pos": "verb",
+      "forms": {
+        "inf": "kalbėti",
+        "pres3": "kalba",
+        "past3": "kalbėjo",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "gerti",
+      "gloss": "to drink",
+      "pos": "verb",
+      "forms": {
+        "inf": "gerti",
+        "pres3": "geria",
+        "past3": "gėrė",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "turėti",
+      "gloss": "to have",
+      "pos": "verb",
+      "forms": {
+        "inf": "turėti",
+        "pres3": "turi",
+        "past3": "turėjo",
+        "conj": "II"
+      }
+    },
+    {
+      "lemma": "mylėti",
+      "gloss": "to love",
+      "pos": "verb",
+      "forms": {
+        "inf": "mylėti",
+        "pres3": "myli",
+        "past3": "mylėjo",
+        "conj": "II"
+      }
+    },
+    {
+      "lemma": "matyti",
+      "gloss": "to see",
+      "pos": "verb",
+      "forms": {
+        "inf": "matyti",
+        "pres3": "mato",
+        "past3": "matė",
+        "conj": "III"
+      }
+    },
+    {
+      "lemma": "skaityti",
+      "gloss": "to read",
+      "pos": "verb",
+      "forms": {
+        "inf": "skaityti",
+        "pres3": "skaito",
+        "past3": "skaitė",
+        "conj": "III"
+      }
+    },
+    {
+      "lemma": "rašyti",
+      "gloss": "to write",
+      "pos": "verb",
+      "forms": {
+        "inf": "rašyti",
+        "pres3": "rašo",
+        "past3": "rašė",
+        "conj": "III"
+      }
+    },
+    {
+      "lemma": "valgyti",
+      "gloss": "to eat",
+      "pos": "verb",
+      "forms": {
+        "inf": "valgyti",
+        "pres3": "valgo",
+        "past3": "valgė",
+        "conj": "III"
+      }
+    },
+    {
+      "lemma": "laiškas",
+      "gloss": "letter (written)",
+      "pos": "noun",
+      "forms": {
+        "nom": "laiškas",
+        "gen": "laiško",
+        "acc": "laišką",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "langas",
+      "gloss": "window",
+      "pos": "noun",
+      "forms": {
+        "nom": "langas",
+        "gen": "lango",
+        "acc": "langą",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "sūnus",
+      "gloss": "son",
+      "pos": "noun",
+      "forms": {
+        "nom": "sūnus",
+        "gen": "sūnaus",
+        "acc": "sūnų",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "draugas",
+      "gloss": "friend (male)",
+      "pos": "noun",
+      "forms": {
+        "nom": "draugas",
+        "gen": "draugo",
+        "acc": "draugą",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "obuolys",
+      "gloss": "apple",
+      "pos": "noun",
+      "forms": {
+        "nom": "obuolys",
+        "gen": "obuolio",
+        "acc": "obuolį",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "duona",
+      "gloss": "bread",
+      "pos": "noun",
+      "forms": {
+        "nom": "duona",
+        "gen": "duonos",
+        "acc": "duoną",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "arbata",
+      "gloss": "tea",
+      "pos": "noun",
+      "forms": {
+        "nom": "arbata",
+        "gen": "arbatos",
+        "acc": "arbatą",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "mane",
+      "gloss": "me",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "aš",
+        "acc": "mane"
+      }
+    },
+    {
+      "lemma": "tave",
+      "gloss": "you (object, singular)",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "tu",
+        "acc": "tave"
+      }
+    },
+    {
+      "lemma": "jį",
+      "gloss": "him, it (object)",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "jis",
+        "acc": "jį"
+      }
+    },
+    {
+      "lemma": "ją",
+      "gloss": "her, it (object)",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "ji",
+        "acc": "ją"
+      }
+    }
   ],
   "drills": [
     {
@@ -220,11 +709,20 @@
       "type": "single",
       "difficulty": "easy",
       "stem": "What is the accusative singular of **knyga**?",
-      "options": ["knygos", "knygą", "knygę", "knyga"],
+      "options": [
+        "knygos",
+        "knygą",
+        "knygę",
+        "knyga"
+      ],
       "correct": 1,
-      "explanation": "Feminine -a makes -ą. *knygos* is the genitive, which appears after a negated verb (¶26).",
-      "rulesTested": ["accusative-nouns"],
-      "vocabUsed": ["knyga"]
+      "explanation": "Feminine -a → -ą (¶20). *knygos* is genitive (negation trap); *knygę* wrongly uses the -ė → -ę pattern; *knyga* is still nominative.",
+      "rulesTested": [
+        "accusative-nouns"
+      ],
+      "vocabUsed": [
+        "knyga"
+      ]
     },
     {
       "id": "a103-q2",
@@ -233,8 +731,10 @@
       "stem": "How many cases does the Lithuanian noun have?",
       "answer": 7,
       "unit": "cases",
-      "explanation": "Seven. Two of them — the nominative and the accusative — have now been met.",
-      "rulesTested": ["transitive-objects"],
+      "explanation": "Seven cases (¶13, ¶19). Nominative and accusative are the two met so far.",
+      "rulesTested": [
+        "transitive-objects"
+      ],
       "vocabUsed": []
     },
     {
@@ -249,31 +749,64 @@
         "Aš skaitau knygos."
       ],
       "correct": 1,
-      "explanation": "*skaitau* is the first person, and the object takes the accusative *knygą*. Note that one Lithuanian present serves for both \"I read\" and \"I am reading\".",
-      "rulesTested": ["accusative-nouns", "transitive-objects"],
-      "vocabUsed": ["skaityti", "knyga", "aš"]
+      "explanation": "*skaitau* is 1sg of the third conjugation; object is accusative *knygą*. *skaito* is 3rd person; *knygos* is genitive; bare *knyga* leaves the object nominative.",
+      "rulesTested": [
+        "accusative-nouns",
+        "transitive-objects"
+      ],
+      "vocabUsed": [
+        "skaityti",
+        "knyga",
+        "aš"
+      ]
     },
     {
       "id": "a103-q4",
       "type": "single",
       "difficulty": "medium",
       "stem": "Which form of *dirbti* goes with **tu**?",
-      "options": ["dirbu", "dirbi", "dirba", "dirbate"],
+      "options": [
+        "dirbu",
+        "dirbi",
+        "dirba",
+        "dirbate"
+      ],
       "correct": 1,
-      "explanation": "First-conjugation endings are -u, -i, -a, -ame, -ate, -a. *dirbate* belongs to jūs.",
-      "rulesTested": ["present-conj-i"],
-      "vocabUsed": ["dirbti", "tu"]
+      "explanation": "First conjugation: -u, -i, -a, -ame, -ate, -a (¶24). *dirbate* is jūs; *dirba* is 3rd person for both numbers.",
+      "rulesTested": [
+        "present-conj-i"
+      ],
+      "vocabUsed": [
+        "dirbti",
+        "tu"
+      ]
     },
     {
       "id": "a103-q5",
       "type": "multi",
       "difficulty": "medium",
-      "stem": "Which of these are correct **accusative singular** forms?",
-      "options": ["namą", "brolis", "katę", "sūnų"],
-      "correct": [0, 2, 3],
-      "explanation": "namas → namą, katė → katę, sūnus → sūnų. *brolis* is still the nominative; the accusative is *brolį*.",
-      "rulesTested": ["accusative-nouns"],
-      "vocabUsed": ["namas", "brolis", "katė", "sūnus"]
+      "stem": "Which are correct **accusative singular** forms?",
+      "options": [
+        "namą",
+        "brolis",
+        "katę",
+        "sūnų"
+      ],
+      "correct": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "namas→namą, katė→katę, sūnus→sūnų. *brolis* is still nominative; accusative is *brolį* (¶20). Note -is and -ys both make -į.",
+      "rulesTested": [
+        "accusative-nouns"
+      ],
+      "vocabUsed": [
+        "namas",
+        "brolis",
+        "katė",
+        "sūnus"
+      ]
     },
     {
       "id": "a103-q6",
@@ -287,9 +820,16 @@
         "Aš matau didelį namas."
       ],
       "correct": 2,
-      "explanation": "Both the adjective and the noun go into the accusative, and the adjective agrees in gender: *didelis* → *didelį* beside *namas* → *namą*.",
-      "rulesTested": ["accusative-adjectives", "accusative-nouns"],
-      "vocabUsed": ["matyti", "didelis", "namas"]
+      "explanation": "Both adjective and noun go into the accusative with gender agreement: *didelis*→*didelį*, *namas*→*namą* (¶21). Leaving either in the nominative is the usual near-miss.",
+      "rulesTested": [
+        "accusative-adjectives",
+        "accusative-nouns"
+      ],
+      "vocabUsed": [
+        "matyti",
+        "didelis",
+        "namas"
+      ]
     },
     {
       "id": "a103-q7",
@@ -302,16 +842,33 @@
         "Aš myliu tu.",
         "Jis rašo laiškas."
       ],
-      "correct": [0, 1],
-      "explanation": "The third needs the accusative pronoun *tave*, the fourth the accusative *laišką*. In the first, feminine *graži* makes *gražią*.",
-      "rulesTested": ["accusative-adjectives", "accusative-pronouns", "accusative-nouns"],
-      "vocabUsed": ["turėti", "gražus", "katė", "valgyti", "duona", "mylėti", "tave", "rašyti", "laiškas"]
+      "correct": [
+        0,
+        1
+      ],
+      "explanation": "Feminine class-II *graži* makes *gražią* (not *gražų*). Needs *tave* and *laišką*. *gražią* with the soft-i is the hard near-miss many learners miss.",
+      "rulesTested": [
+        "accusative-adjectives",
+        "accusative-pronouns",
+        "accusative-nouns"
+      ],
+      "vocabUsed": [
+        "turėti",
+        "gražus",
+        "katė",
+        "valgyti",
+        "duona",
+        "mylėti",
+        "tave",
+        "rašyti",
+        "laiškas"
+      ]
     },
     {
       "id": "a103-q8",
       "type": "single",
       "difficulty": "hard",
-      "stem": "*Aš matau namą* becomes, in the negative:",
+      "stem": "*Aš matau namą* in the negative becomes:",
       "options": [
         "Aš nematau namą.",
         "Aš nematau namo.",
@@ -319,37 +876,406 @@
         "Aš nematau namas."
       ],
       "correct": 1,
-      "explanation": "Two things change together: *ne-* is written onto the verb as one word, and the object leaves the accusative for the genitive *namo*.",
-      "rulesTested": ["negation", "negation-genitive"],
-      "vocabUsed": ["matyti", "namas"]
+      "explanation": "Two changes: *ne-* is fused to the verb, and the object leaves accusative for genitive *namo* (¶25–¶26). Keeping *namą* after *nematau* is the classic half-negation error.",
+      "rulesTested": [
+        "negation",
+        "negation-genitive"
+      ],
+      "vocabUsed": [
+        "matyti",
+        "namas"
+      ]
     },
     {
       "id": "a103-q9",
       "type": "multi",
       "difficulty": "hard",
-      "stem": "Which statements about the third person of a Lithuanian verb are correct?",
+      "stem": "Which statements about the **third person** of a Lithuanian verb are correct?",
       "options": [
-        "One form serves both the singular and the plural.",
+        "One form serves both singular and plural.",
         "It has separate masculine and feminine forms.",
-        "Its ending tells you which conjugation the verb belongs to.",
-        "It is the second of the three principal parts a dictionary gives."
+        "Its ending (-a / -i / -o) names the conjugation.",
+        "It is the second of the three principal parts."
       ],
-      "correct": [0, 2, 3],
-      "explanation": "*jis dirba* and *jie dirba* are alike, and gender makes no difference to the verb. The ending of that form — -a, -i or -o — names the conjugation, which is why dictionaries cite it.",
-      "rulesTested": ["conjugations", "present-conj-i"],
-      "vocabUsed": ["dirbti", "turėti", "skaityti"]
+      "correct": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "*jis dirba* = *jie dirba*; gender does not affect the verb. The 3rd-person ending identifies the conjugation and is the dictionary's second principal part (¶23–¶24).",
+      "rulesTested": [
+        "conjugations",
+        "present-conj-i"
+      ],
+      "vocabUsed": [
+        "dirbti",
+        "turėti",
+        "skaityti"
+      ]
+    },
+    {
+      "id": "a103-q10",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "The accusative singulars *namą, brolį, sūnų, katę* use how many **different nosinė endings** among them?",
+      "answer": 4,
+      "unit": "endings",
+      "explanation": "Four shapes: *-ą, -į, -ų, -ę*. Each noun in the list shows a different one.",
+      "rulesTested": [
+        "accusative-nouns",
+        "nosine"
+      ],
+      "vocabUsed": []
+    },
+    {
+      "id": "a103-q11",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Feminine *graži* in the accusative is:",
+      "options": [
+        "gražų",
+        "gražią",
+        "gražę",
+        "gražą"
+      ],
+      "correct": 1,
+      "explanation": "Class II feminine adds -ią: *gražią* (¶21). *gražų* is the masculine accusative; *gražę*/*gražą* borrow class III / class I patterns.",
+      "rulesTested": [
+        "accusative-adjectives"
+      ],
+      "vocabUsed": [
+        "gražus"
+      ]
+    },
+    {
+      "id": "a103-q12",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Accusative singular of **namas**?",
+      "options": [
+        "namo",
+        "namą",
+        "namui",
+        "name"
+      ],
+      "correct": 1,
+      "explanation": "*-as → -ą* (¶20). *namo* is genitive; *namui/name* are later cases.",
+      "rulesTested": [
+        "accusative-nouns"
+      ],
+      "vocabUsed": [
+        "namas"
+      ]
+    },
+    {
+      "id": "a103-q13",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Form of *kalbėti* (*kalba*) with **aš**:",
+      "options": [
+        "kalbi",
+        "kalba",
+        "kalbu",
+        "kalbame"
+      ],
+      "correct": 2,
+      "explanation": "1st conjugation: stem *kalb-* + *-u* → *kalbu* (¶24).",
+      "rulesTested": [
+        "present-conj-i",
+        "conjugations"
+      ],
+      "vocabUsed": [
+        "kalbėti",
+        "aš"
+      ]
+    },
+    {
+      "id": "a103-q14",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which are correct **accusative** singular nouns?",
+      "options": [
+        "brolį",
+        "sūnų",
+        "knygos",
+        "obuolį"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "*-is/-ys → -į*, *-us → -ų* (¶20). *knygos* is genitive of *knyga*, not accusative (*knygą*).",
+      "rulesTested": [
+        "accusative-nouns"
+      ],
+      "vocabUsed": [
+        "brolis",
+        "sūnus",
+        "knyga",
+        "obuolys"
+      ]
+    },
+    {
+      "id": "a103-q15",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Translate: **She is writing a letter.**",
+      "options": [
+        "Ji rašo laišką.",
+        "Ji rašo laiškas.",
+        "Ji rašyti laišką.",
+        "Ji rašo laiško."
+      ],
+      "correct": 0,
+      "explanation": "3rd conj. *rašo* + accusative *laišką* (¶19–¶20, ¶23). Nominative *laiškas* and genitive *laiško* are wrong as objects; bare infinitive is not a finite sentence.",
+      "rulesTested": [
+        "transitive-objects",
+        "accusative-nouns",
+        "conjugations"
+      ],
+      "vocabUsed": [
+        "rašyti",
+        "laiškas",
+        "ji"
+      ]
+    },
+    {
+      "id": "a103-q16",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which adjective + noun pairs are correctly **accusative**?",
+      "options": [
+        "gerą namą",
+        "gražią katę",
+        "didelis namą",
+        "naują knygą"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "Adjective agrees in accusative (¶21): *gerą/gražią/naują*. *didelis namą* leaves the adjective nominative.",
+      "rulesTested": [
+        "accusative-adjectives",
+        "accusative-nouns"
+      ],
+      "vocabUsed": [
+        "geras",
+        "namas",
+        "gražus",
+        "katė",
+        "didelis",
+        "naujas",
+        "knyga"
+      ]
+    },
+    {
+      "id": "a103-q17",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "**Jis mato ____.** (He sees me.)",
+      "options": [
+        "manęs",
+        "mane",
+        "aš",
+        "man"
+      ],
+      "correct": 1,
+      "explanation": "Accusative of *aš* is *mane* (¶22). *manęs* is genitive; *aš* nominative.",
+      "rulesTested": [
+        "accusative-pronouns"
+      ],
+      "vocabUsed": [
+        "matyti",
+        "mane",
+        "jis"
+      ]
+    },
+    {
+      "id": "a103-q18",
+      "type": "integer",
+      "difficulty": "medium",
+      "stem": "The third-person present endings *-a*, *-i* and *-o* mark how many **conjugations**?",
+      "answer": 3,
+      "unit": "conjugations",
+      "explanation": "Three conjugations, told apart by the 3rd-person present vowel: *-a / -i / -o*.",
+      "rulesTested": [
+        "conjugations"
+      ],
+      "vocabUsed": [
+        "dirbti"
+      ]
+    },
+    {
+      "id": "a103-q19",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "*Mes valgome duoną* negated becomes:",
+      "options": [
+        "Mes nevalgome duoną.",
+        "Mes nevalgome duonos.",
+        "Mes valgome ne duoną.",
+        "Mes neduonos valgome."
+      ],
+      "correct": 1,
+      "explanation": "*ne-* prefixes the verb as one word, and the object switches to genitive (¶25–¶26).",
+      "rulesTested": [
+        "negation",
+        "negation-genitive"
+      ],
+      "vocabUsed": [
+        "valgyti",
+        "duona",
+        "mes"
+      ]
+    },
+    {
+      "id": "a103-q20",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which statements about the **third person** present are correct?",
+      "options": [
+        "One form covers jis, ji, jie, jos",
+        "First conjugation 3rd person ends in -a",
+        "*dirbate* is a third-person form",
+        "Pronouns are often omitted because the ending shows person"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "¶23–¶24: one 3rd-person form; conj. I ends in -a; endings allow pronoun drop. *dirbate* is 2pl.",
+      "rulesTested": [
+        "present-conj-i",
+        "conjugations"
+      ],
+      "vocabUsed": [
+        "dirbti"
+      ]
+    },
+    {
+      "id": "a103-q21",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Accusative of **graži** (fem.) modifying a feminine noun:",
+      "options": [
+        "gražų",
+        "gražią",
+        "graži",
+        "gražą"
+      ],
+      "correct": 1,
+      "explanation": "Class II feminine accusative is *gražią* (¶21). *gražų* is masculine accusative.",
+      "rulesTested": [
+        "accusative-adjectives"
+      ],
+      "vocabUsed": [
+        "gražus"
+      ]
+    },
+    {
+      "id": "a103-q22",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "**Aš matau brolį ir katę.** How many words stand in the **accusative**?",
+      "answer": 2,
+      "unit": "words",
+      "explanation": "*brolį* and *katę* — *ir* joins two accusative objects (¶19, ¶27). Answering 1 treats only the first object as marked.",
+      "rulesTested": [
+        "transitive-objects",
+        "conjunction-ir",
+        "accusative-nouns"
+      ],
+      "vocabUsed": [
+        "matyti",
+        "brolis",
+        "katė",
+        "ir"
+      ]
+    },
+    {
+      "id": "a103-q23",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Negate *dirba* as one word:",
+      "options": [
+        "ne dirba",
+        "nedirba",
+        "dirbane",
+        "nėra dirba"
+      ],
+      "correct": 1,
+      "explanation": "*ne-* is written together with the verb: *nedirba* (¶25).",
+      "rulesTested": [
+        "negation"
+      ],
+      "vocabUsed": [
+        "dirbti",
+        "ne"
+      ]
+    },
+    {
+      "id": "a103-q24",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which are **first**-conjugation (3rd person ends in **-a**)?",
+      "options": [
+        "dirba",
+        "turi",
+        "kalba",
+        "skaito"
+      ],
+      "correct": [
+        0,
+        2
+      ],
+      "explanation": "*dirba/kalba* = conj. I; *turi* = II; *skaito* = III (¶23).",
+      "rulesTested": [
+        "conjugations"
+      ],
+      "vocabUsed": [
+        "dirbti",
+        "turėti",
+        "kalbėti",
+        "skaityti"
+      ]
+    },
+    {
+      "id": "a103-q25",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**Tu ____.** (*dirbti, dirba*)",
+      "options": [
+        "dirbu",
+        "dirbi",
+        "dirba",
+        "dirbate"
+      ],
+      "correct": 1,
+      "explanation": "1st conjugation *tu* ending is *-i*: *dirbi* (¶24). *dirba* is 3rd person; *dirbu* is 1sg; *dirbate* is 2pl.",
+      "rulesTested": [
+        "present-conj-i"
+      ],
+      "vocabUsed": [
+        "dirbti",
+        "tu"
+      ]
     },
     {
       "id": "a103-p1",
       "type": "comprehension",
-      "difficulty": "medium",
+      "difficulty": "hard",
       "title": "Petras ir Rūta",
-      "passage": "Jonas yra mokytojas. Jis turi brolį. Brolis yra Petras. Petras skaito naują knygą. Jonas rašo laišką. Rūta valgo obuolį ir geria arbatą. Ji nemato brolio.",
-      "translation": "Jonas is a teacher. He has a brother. The brother is Petras. Petras is reading a new book. Jonas is writing a letter. Rūta is eating an apple and drinking tea. She does not see the brother.",
+      "passage": "Jonas yra mokytojas. Jis turi brolį. Brolis yra Petras. Petras skaito naują knygą. Jonas rašo laišką. Rūta valgo obuolį ir geria arbatą. Ji myli gražią katę. Ji nemato brolio. Mes turime sūnų. Aš tave matau, o tu mane matai.",
+      "translation": "Jonas is a teacher. He has a brother. The brother is Petras. Petras is reading a new book. Jonas is writing a letter. Rūta is eating an apple and drinking tea. She loves a beautiful cat. She does not see the brother. We have a son. I see you, and you see me.",
       "glossary": {
         "Jonas": "Jonas, a man's name",
         "Petras": "Petras, a man's name",
-        "Rūta": "Rūta, a woman's name"
+        "Rūta": "Rūta, a woman's name",
+        "o": "and, whereas"
       },
       "questions": [
         {
@@ -357,11 +1283,26 @@
           "type": "single",
           "difficulty": "easy",
           "stem": "What is Petras reading?",
-          "options": ["laišką", "naują knygą", "obuolį", "arbatą"],
+          "options": [
+            "laišką",
+            "naują knygą",
+            "obuolį",
+            "arbatą"
+          ],
           "correct": 1,
           "explanation": "*Petras skaito naują knygą* — adjective and noun both accusative. The letter is Jonas's.",
-          "rulesTested": ["accusative-adjectives", "transitive-objects"],
-          "vocabUsed": ["skaityti", "knyga", "naujas", "laiškas", "obuolys", "arbata"]
+          "rulesTested": [
+            "accusative-adjectives",
+            "transitive-objects"
+          ],
+          "vocabUsed": [
+            "skaityti",
+            "knyga",
+            "naujas",
+            "laiškas",
+            "obuolys",
+            "arbata"
+          ]
         },
         {
           "id": "a103-p1-q2",
@@ -374,21 +1315,91 @@
             "Petras rašo laišką.",
             "Rūta valgo obuolį."
           ],
-          "correct": [0, 1, 3],
-          "explanation": "Petras reads; it is Jonas who writes. The other three are stated word for word.",
-          "rulesTested": ["transitive-objects", "accusative-nouns"],
-          "vocabUsed": ["rašyti", "laiškas", "gerti", "arbata", "valgyti", "obuolys"]
+          "correct": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "Petras reads; Jonas writes. The other three are stated.",
+          "rulesTested": [
+            "transitive-objects",
+            "accusative-nouns"
+          ],
+          "vocabUsed": [
+            "rašyti",
+            "laiškas",
+            "gerti",
+            "arbata",
+            "valgyti",
+            "obuolys"
+          ]
         },
         {
           "id": "a103-p1-q3",
           "type": "integer",
           "difficulty": "hard",
-          "stem": "The passage ends **Ji nemato brolio.** If the verb were not negated, how many words in that sentence would change form?",
+          "stem": "The passage has **Ji nemato brolio.** If the verb were not negated, how many words in that sentence would change form?",
           "answer": 2,
           "unit": "words",
-          "explanation": "Two. *nemato* loses its prefix and becomes *mato*, and the object comes back out of the genitive into the accusative: *brolio* → *brolį* (¶26). Answering one means remembering that negation changes the verb but forgetting that it changes the object's case with it.",
-          "rulesTested": ["negation", "negation-genitive", "accusative-nouns"],
-          "vocabUsed": ["ji", "matyti", "brolis"]
+          "explanation": "Two: *nemato*→*mato* and *brolio*→*brolį* (¶26). Changing only the verb leaves a genitive object after an affirmative verb.",
+          "rulesTested": [
+            "negation",
+            "negation-genitive",
+            "accusative-nouns"
+          ],
+          "vocabUsed": [
+            "ji",
+            "matyti",
+            "brolis"
+          ]
+        },
+        {
+          "id": "a103-p1-q4",
+          "type": "single",
+          "difficulty": "hard",
+          "stem": "In *Ji myli gražią katę*, why *gražią* and not *gražų*?",
+          "options": [
+            "Because *myli* is second conjugation.",
+            "Because *katė* is feminine, so class-II accusative is *gražią*.",
+            "Because *gražų* is genitive plural.",
+            "Because soft-i is never written in the accusative."
+          ],
+          "correct": 1,
+          "explanation": "Feminine *graži* → *gražią* with the written soft-i; masculine would be *gražų* (¶21).",
+          "rulesTested": [
+            "accusative-adjectives"
+          ],
+          "vocabUsed": [
+            "mylėti",
+            "gražus",
+            "katė"
+          ]
+        },
+        {
+          "id": "a103-p1-q5",
+          "type": "multi",
+          "difficulty": "hard",
+          "stem": "Which accusative **pronoun** forms appear in the passage?",
+          "options": [
+            "tave",
+            "mane",
+            "ją",
+            "jį"
+          ],
+          "correct": [
+            0,
+            1
+          ],
+          "explanation": "*Aš tave matau, o tu mane matai.* Third-person *ją/jį* do not appear as objects here (*brolio* is a noun in the genitive).",
+          "rulesTested": [
+            "accusative-pronouns"
+          ],
+          "vocabUsed": [
+            "tave",
+            "mane",
+            "ją",
+            "jį"
+          ]
         }
       ]
     }

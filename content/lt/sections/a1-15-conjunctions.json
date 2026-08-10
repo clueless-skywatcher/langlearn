@@ -14,21 +14,55 @@
       "paradigms": [
         {
           "caption": "The three plain coordinators",
-          "columns": ["conjunction", "English", "example"],
+          "columns": [
+            "conjunction",
+            "English",
+            "example"
+          ],
           "rows": [
-            { "label": "ir", "cells": ["and", "Ponai ir ponios!"] },
-            { "label": "bet", "cells": ["but", "Buvau parduotuvėje, bet nieko nepirkau."] },
-            { "label": "arba", "cells": ["or", "Skaitau arba rašau."] }
+            {
+              "label": "ir",
+              "cells": [
+                "and",
+                "Ponai ir ponios!"
+              ]
+            },
+            {
+              "label": "bet",
+              "cells": [
+                "but",
+                "Buvau parduotuvėje, bet nieko nepirkau."
+              ]
+            },
+            {
+              "label": "arba",
+              "cells": [
+                "or",
+                "Skaitau arba rašau."
+              ]
+            }
           ],
           "footnote": "**Ir … ir** doubled means *both … and*: *Man patinka ir kava, ir arbata* — I like both coffee and tea. Note the comma before the second *ir*, which English does not write."
         }
       ],
       "examples": [
-        { "target": "Aš dirbu, bet brolis studijuoja.", "gloss": "I work, but my brother studies." },
-        { "target": "Man patinka ir kava, ir arbata.", "gloss": "I like both coffee and tea." },
-        { "target": "Vakare skaitau arba žiūriu televizorių.", "gloss": "In the evening I read or watch television." }
+        {
+          "target": "Aš dirbu, bet brolis studijuoja.",
+          "gloss": "I work, but my brother studies."
+        },
+        {
+          "target": "Man patinka ir kava, ir arbata.",
+          "gloss": "I like both coffee and tea."
+        },
+        {
+          "target": "Vakare skaitau arba žiūriu televizorių.",
+          "gloss": "In the evening I read or watch television."
+        }
       ],
-      "seeAlso": ["conjunction-ir", "word-order-basic"],
+      "seeAlso": [
+        "conjunction-ir",
+        "word-order-basic"
+      ],
       "core": true
     },
     {
@@ -39,22 +73,55 @@
       "paradigms": [
         {
           "caption": "O against bet",
-          "columns": ["Lithuanian", "English", "relation"],
+          "columns": [
+            "Lithuanian",
+            "English",
+            "relation"
+          ],
           "rows": [
-            { "label": "contrast", "cells": ["Gyvenu Vilniuje, o dirbu Kaune.", "I live in Vilnius and work in Kaunas.", "two facts side by side"] },
-            { "label": "contradiction", "cells": ["Buvau parduotuvėje, bet nieko nepirkau.", "I was at the shop but bought nothing.", "the second cancels the expectation"] },
-            { "label": "contrast", "cells": ["Aš geriu kavą, o ji – arbatą.", "I drink coffee, and she tea.", "two parties compared"] }
+            {
+              "label": "contrast",
+              "cells": [
+                "Gyvenu Vilniuje, o dirbu Kaune.",
+                "I live in Vilnius and work in Kaunas.",
+                "two facts side by side"
+              ]
+            },
+            {
+              "label": "contradiction",
+              "cells": [
+                "Buvau parduotuvėje, bet nieko nepirkau.",
+                "I was at the shop but bought nothing.",
+                "the second cancels the expectation"
+              ]
+            },
+            {
+              "label": "contrast",
+              "cells": [
+                "Aš geriu kavą, o ji – arbatą.",
+                "I drink coffee, and she tea.",
+                "two parties compared"
+              ]
+            }
           ]
         }
       ],
       "examples": [
-        { "target": "Šiandien dirbu, o rytoj ilsiuosi.", "gloss": "Today I work, and tomorrow I rest." },
-        { "target": "Norėjau eiti, bet nebuvo laiko.", "gloss": "I wanted to go, but there was no time." }
+        {
+          "target": "Šiandien dirbu, o rytoj ilsiuosi.",
+          "gloss": "Today I work, and tomorrow I rest."
+        },
+        {
+          "target": "Norėjau eiti, bet nebuvo laiko.",
+          "gloss": "I wanted to go, but there was no time."
+        }
       ],
       "footnotes": [
         "*O* also opens a sentence to change the subject in conversation: *O kaip tu?* — And you? What about you?"
       ],
-      "seeAlso": ["coordinating-conjunctions"],
+      "seeAlso": [
+        "coordinating-conjunctions"
+      ],
       "core": true
     },
     {
@@ -63,11 +130,25 @@
       "heading": "Arba and Ar: the Two Kinds of Or",
       "statement": "**Arba** offers a choice in a statement. **Ar**, which ¶48 gave as the particle opening a yes-or-no question, is also the *or* that offers a choice **within a question**. The rule is simple: in a question use *ar*, in a statement use *arba*.",
       "examples": [
-        { "target": "Kavos su cukrumi ar be cukraus?", "gloss": "Coffee with sugar or without?", "note": "a question: *ar*" },
-        { "target": "Geriu kavą arba arbatą.", "gloss": "I drink coffee or tea.", "note": "a statement: *arba*" },
-        { "target": "Ar tu eini, ar lieki?", "gloss": "Are you going or staying?" }
+        {
+          "target": "Kavos su cukrumi ar be cukraus?",
+          "gloss": "Coffee with sugar or without?",
+          "note": "a question: *ar*"
+        },
+        {
+          "target": "Geriu kavą arba arbatą.",
+          "gloss": "I drink coffee or tea.",
+          "note": "a statement: *arba*"
+        },
+        {
+          "target": "Ar tu eini, ar lieki?",
+          "gloss": "Are you going or staying?"
+        }
       ],
-      "seeAlso": ["ar-questions", "coordinating-conjunctions"],
+      "seeAlso": [
+        "ar-questions",
+        "coordinating-conjunctions"
+      ],
       "core": true
     },
     {
@@ -78,18 +159,42 @@
       "paradigms": [
         {
           "caption": "The same fact, two ways round",
-          "columns": ["Lithuanian", "English"],
+          "columns": [
+            "Lithuanian",
+            "English"
+          ],
           "rows": [
-            { "label": "reason after", "cells": ["Neateisiu, nes sergu.", "I shall not come, because I am ill."] },
-            { "label": "reason first", "cells": ["Sergu, todėl neateisiu.", "I am ill, so I shall not come."] }
+            {
+              "label": "reason after",
+              "cells": [
+                "Neateisiu, nes sergu.",
+                "I shall not come, because I am ill."
+              ]
+            },
+            {
+              "label": "reason first",
+              "cells": [
+                "Sergu, todėl neateisiu.",
+                "I am ill, so I shall not come."
+              ]
+            }
           ]
         }
       ],
       "examples": [
-        { "target": "Kodėl nedirbi? – Nes šiandien sekmadienis.", "gloss": "Why aren't you working? — Because today is Sunday." },
-        { "target": "Buvo šalta, todėl likome namie.", "gloss": "It was cold, so we stayed at home." }
+        {
+          "target": "Kodėl nedirbi? – Nes šiandien sekmadienis.",
+          "gloss": "Why aren't you working? — Because today is Sunday."
+        },
+        {
+          "target": "Buvo šalta, todėl likome namie.",
+          "gloss": "It was cold, so we stayed at home."
+        }
       ],
-      "seeAlso": ["question-adverbs", "coordinating-conjunctions"],
+      "seeAlso": [
+        "question-adverbs",
+        "coordinating-conjunctions"
+      ],
       "core": true
     },
     {
@@ -98,14 +203,28 @@
       "heading": "Condition: Jei and Jeigu",
       "statement": "**Jei**, or in its longer and commoner form **jeigu**, introduces a condition. The two are the same word and interchangeable. Where the condition concerns the future, Lithuanian puts **both** clauses in the future — it says what it means, where English keeps a present after *if* (¶98).",
       "examples": [
-        { "target": "Jeigu turėsi laiko, eisime į teatrą.", "gloss": "If you have time, we shall go to the theatre.", "note": "*turėsi* is future, though English says *have*" },
-        { "target": "Jei nori, galiu padėti.", "gloss": "If you want, I can help.", "note": "present in both, because the condition is present" },
-        { "target": "Neisiu, jeigu bus šalta.", "gloss": "I shall not go if it is cold." }
+        {
+          "target": "Jeigu turėsi laiko, eisime į teatrą.",
+          "gloss": "If you have time, we shall go to the theatre.",
+          "note": "*turėsi* is future, though English says *have*"
+        },
+        {
+          "target": "Jei nori, galiu padėti.",
+          "gloss": "If you want, I can help.",
+          "note": "present in both, because the condition is present"
+        },
+        {
+          "target": "Neisiu, jeigu bus šalta.",
+          "gloss": "I shall not go if it is cold."
+        }
       ],
       "footnotes": [
         "The conditional clause may stand first or second; wherever it stands, it is marked off by a comma."
       ],
-      "seeAlso": ["future-uses", "coordinating-conjunctions"],
+      "seeAlso": [
+        "future-uses",
+        "coordinating-conjunctions"
+      ],
       "core": true
     },
     {
@@ -116,20 +235,51 @@
       "paradigms": [
         {
           "caption": "Where English drops the word and Lithuanian does not",
-          "columns": ["Lithuanian", "English"],
+          "columns": [
+            "Lithuanian",
+            "English"
+          ],
           "rows": [
-            { "label": "saying", "cells": ["Tomas sakė, kad ateis.", "Tomas said (that) he would come."] },
-            { "label": "knowing", "cells": ["Žinau, kad tu dirbi.", "I know (that) you work."] },
-            { "label": "thinking", "cells": ["Manau, kad bus gerai.", "I think (that) it will be all right."] }
+            {
+              "label": "saying",
+              "cells": [
+                "Tomas sakė, kad ateis.",
+                "Tomas said (that) he would come."
+              ]
+            },
+            {
+              "label": "knowing",
+              "cells": [
+                "Žinau, kad tu dirbi.",
+                "I know (that) you work."
+              ]
+            },
+            {
+              "label": "thinking",
+              "cells": [
+                "Manau, kad bus gerai.",
+                "I think (that) it will be all right."
+              ]
+            }
           ],
           "footnote": "Notice the tense: *Tomas sakė, kad ateis* keeps the future in the reported clause, where English shifts it back to *would come*. Lithuanian reports what was said, in the tense in which it was said."
         }
       ],
       "examples": [
-        { "target": "Ji sako, kad rytoj nedirbs.", "gloss": "She says that tomorrow she will not work." },
-        { "target": "Žinau, kad tu esi iš Lietuvos.", "gloss": "I know that you are from Lithuania." }
+        {
+          "target": "Ji sako, kad rytoj nedirbs.",
+          "gloss": "She says that tomorrow she will not work."
+        },
+        {
+          "target": "Žinau, kad tu esi iš Lietuvos.",
+          "gloss": "I know that you are from Lithuania."
+        }
       ],
-      "seeAlso": ["future-uses", "past-narrative", "coordinating-conjunctions"],
+      "seeAlso": [
+        "future-uses",
+        "past-narrative",
+        "coordinating-conjunctions"
+      ],
       "core": true
     },
     {
@@ -138,14 +288,27 @@
       "heading": "Indirect Questions",
       "statement": "A question reported inside another sentence keeps its own question word, and the word order does **not** change — because Lithuanian never inverted it to make the question in the first place (¶48). A yes-or-no question is reported with **ar**, which is *whether*; a question with *kas, kur, kada* keeps that word. The comma of ¶104 stands as before.",
       "examples": [
-        { "target": "Nežinau, ar rytoj ateisiu.", "gloss": "I do not know whether I shall come tomorrow." },
-        { "target": "Klausiu, kur tu gyveni.", "gloss": "I am asking where you live." },
-        { "target": "Ji nežino, kada bus susitikimas.", "gloss": "She does not know when the meeting will be." }
+        {
+          "target": "Nežinau, ar rytoj ateisiu.",
+          "gloss": "I do not know whether I shall come tomorrow."
+        },
+        {
+          "target": "Klausiu, kur tu gyveni.",
+          "gloss": "I am asking where you live."
+        },
+        {
+          "target": "Ji nežino, kada bus susitikimas.",
+          "gloss": "She does not know when the meeting will be."
+        }
       ],
       "footnotes": [
         "English says *I don't know if* as readily as *whether*; Lithuanian has one word, *ar*, for both."
       ],
-      "seeAlso": ["ar-questions", "question-adverbs", "subordination-kad"],
+      "seeAlso": [
+        "ar-questions",
+        "question-adverbs",
+        "subordination-kad"
+      ],
       "core": true
     },
     {
@@ -156,39 +319,175 @@
       "paradigms": [
         {
           "caption": "The everyday particles",
-          "columns": ["particle", "English", "example"],
+          "columns": [
+            "particle",
+            "English",
+            "example"
+          ],
           "rows": [
-            { "label": "gal", "cells": ["perhaps; would you mind", "Gal galite padėti? — Could you help?"] },
-            { "label": "dar", "cells": ["still; (with ne-) not yet", "Jis dar dirba. / Jis dar nedirba."] },
-            { "label": "jau", "cells": ["already", "Jie jau važiuoja namo."] },
-            { "label": "taip / ne", "cells": ["yes / no", "Taip, noriu kavos. / Ne, nenoriu."] }
+            {
+              "label": "gal",
+              "cells": [
+                "perhaps; would you mind",
+                "Gal galite padėti? — Could you help?"
+              ]
+            },
+            {
+              "label": "dar",
+              "cells": [
+                "still; (with ne-) not yet",
+                "Jis dar dirba. / Jis dar nedirba."
+              ]
+            },
+            {
+              "label": "jau",
+              "cells": [
+                "already",
+                "Jie jau važiuoja namo."
+              ]
+            },
+            {
+              "label": "taip / ne",
+              "cells": [
+                "yes / no",
+                "Taip, noriu kavos. / Ne, nenoriu."
+              ]
+            }
           ],
           "footnote": "*Gal* before a question is the ordinary way of being polite in Lithuanian, and is worth more to a beginner than any longer formula: *Gal turite laiko?* asks far more civilly than *Ar turite laiko?*"
         }
       ],
       "examples": [
-        { "target": "Gal eisiu namo.", "gloss": "Perhaps I shall go home.", "note": "*gal* in a statement is uncertainty, not politeness" },
-        { "target": "Jis dar negrįžo.", "gloss": "He has not come back yet." },
-        { "target": "Ar jau valgei? – Taip, jau.", "gloss": "Have you eaten already? — Yes, already." }
+        {
+          "target": "Gal eisiu namo.",
+          "gloss": "Perhaps I shall go home.",
+          "note": "*gal* in a statement is uncertainty, not politeness"
+        },
+        {
+          "target": "Jis dar negrįžo.",
+          "gloss": "He has not come back yet."
+        },
+        {
+          "target": "Ar jau valgei? – Taip, jau.",
+          "gloss": "Have you eaten already? — Yes, already."
+        }
       ],
-      "seeAlso": ["ar-questions", "negation", "polite-jus"],
+      "seeAlso": [
+        "ar-questions",
+        "negation",
+        "polite-jus"
+      ],
       "core": true
     }
   ],
   "vocabulary": [
-    { "lemma": "arba", "gloss": "or (in a statement)", "pos": "conjunction" },
-    { "lemma": "jeigu", "gloss": "if", "pos": "conjunction", "notes": "Also in the shorter form jei; the two are interchangeable." },
-    { "lemma": "kad", "gloss": "that (introducing a reported clause)", "pos": "conjunction", "notes": "Never omitted, unlike English *that*." },
-    { "lemma": "todėl", "gloss": "therefore, so", "pos": "conjunction" },
-    { "lemma": "gal", "gloss": "perhaps; (softening a request) would you mind", "pos": "particle" },
-    { "lemma": "dar", "gloss": "still; (with a negative) not yet", "pos": "particle" },
-    { "lemma": "žinoti", "gloss": "to know (a fact)", "pos": "verb", "forms": { "inf": "žinoti", "pres3": "žino", "past3": "žinojo", "conj": "II" } },
-    { "lemma": "manyti", "gloss": "to think, to be of the opinion", "pos": "verb", "forms": { "inf": "manyti", "pres3": "mano", "past3": "manė", "conj": "III" } },
-    { "lemma": "likti", "gloss": "to stay, to remain", "pos": "verb", "forms": { "inf": "likti", "pres3": "lieka", "past3": "liko", "conj": "I" } },
-    { "lemma": "ateiti", "gloss": "to come, to arrive (on foot)", "pos": "verb", "forms": { "inf": "ateiti", "pres3": "ateina", "past3": "atėjo", "conj": "I" } },
-    { "lemma": "teatras", "gloss": "theatre", "pos": "noun", "forms": { "nom": "teatras", "gen": "teatro", "acc": "teatrą", "gender": "m." } },
-    { "lemma": "šaltas", "gloss": "cold", "pos": "adjective", "forms": { "masc": "šaltas", "fem": "šalta" } },
-    { "lemma": "cukrus", "gloss": "sugar", "pos": "noun", "forms": { "nom": "cukrus", "gen": "cukraus", "acc": "cukrų", "gender": "m." } }
+    {
+      "lemma": "arba",
+      "gloss": "or (in a statement)",
+      "pos": "conjunction"
+    },
+    {
+      "lemma": "jeigu",
+      "gloss": "if",
+      "pos": "conjunction",
+      "notes": "Also in the shorter form jei; the two are interchangeable."
+    },
+    {
+      "lemma": "kad",
+      "gloss": "that (introducing a reported clause)",
+      "pos": "conjunction",
+      "notes": "Never omitted, unlike English *that*."
+    },
+    {
+      "lemma": "todėl",
+      "gloss": "therefore, so",
+      "pos": "conjunction"
+    },
+    {
+      "lemma": "gal",
+      "gloss": "perhaps; (softening a request) would you mind",
+      "pos": "particle"
+    },
+    {
+      "lemma": "dar",
+      "gloss": "still; (with a negative) not yet",
+      "pos": "particle"
+    },
+    {
+      "lemma": "žinoti",
+      "gloss": "to know (a fact)",
+      "pos": "verb",
+      "forms": {
+        "inf": "žinoti",
+        "pres3": "žino",
+        "past3": "žinojo",
+        "conj": "II"
+      }
+    },
+    {
+      "lemma": "manyti",
+      "gloss": "to think, to be of the opinion",
+      "pos": "verb",
+      "forms": {
+        "inf": "manyti",
+        "pres3": "mano",
+        "past3": "manė",
+        "conj": "III"
+      }
+    },
+    {
+      "lemma": "likti",
+      "gloss": "to stay, to remain",
+      "pos": "verb",
+      "forms": {
+        "inf": "likti",
+        "pres3": "lieka",
+        "past3": "liko",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "ateiti",
+      "gloss": "to come, to arrive (on foot)",
+      "pos": "verb",
+      "forms": {
+        "inf": "ateiti",
+        "pres3": "ateina",
+        "past3": "atėjo",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "teatras",
+      "gloss": "theatre",
+      "pos": "noun",
+      "forms": {
+        "nom": "teatras",
+        "gen": "teatro",
+        "acc": "teatrą",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "šaltas",
+      "gloss": "cold",
+      "pos": "adjective",
+      "forms": {
+        "masc": "šaltas",
+        "fem": "šalta"
+      }
+    },
+    {
+      "lemma": "cukrus",
+      "gloss": "sugar",
+      "pos": "noun",
+      "forms": {
+        "nom": "cukrus",
+        "gen": "cukraus",
+        "acc": "cukrų",
+        "gender": "m."
+      }
+    }
   ],
   "drills": [
     {
@@ -196,125 +495,221 @@
       "type": "single",
       "difficulty": "easy",
       "stem": "Complete: **Buvau parduotuvėje, ____ nieko nepirkau.**",
-      "options": ["ir", "bet", "arba", "kad"],
+      "options": [
+        "o",
+        "bet",
+        "arba",
+        "kad"
+      ],
       "correct": 1,
-      "explanation": "The second clause cancels what the first led one to expect, and that is **bet**. *o* would be wrong here too: it sets facts side by side rather than contradicting them.",
-      "rulesTested": ["coordinating-conjunctions", "o-contrast"],
-      "vocabUsed": ["būti", "parduotuvė", "bet", "pirkti"]
+      "explanation": "The second clause cancels the expectation raised by the first — that is **bet**. *o* would only set two facts side by side; *kad* opens a reported clause, not a contradiction.",
+      "rulesTested": [
+        "coordinating-conjunctions",
+        "o-contrast"
+      ],
+      "vocabUsed": [
+        "būti",
+        "parduotuvė",
+        "bet",
+        "pirkti",
+        "o",
+        "arba",
+        "kad"
+      ]
     },
     {
       "id": "a115-q2",
       "type": "single",
       "difficulty": "easy",
-      "stem": "Which word means **because**?",
-      "options": ["todėl", "nes", "kad", "jeigu"],
+      "stem": "**Sergu, todėl neateisiu** and **Neateisiu, nes sergu** — what is the difference?",
+      "options": [
+        "None; the two are free variants of one sentence.",
+        "The first states consequence first; the second states reason after — mirror images, never both in one clause.",
+        "*todėl* is only used in questions.",
+        "*nes* must begin the whole sentence."
+      ],
       "correct": 1,
-      "explanation": "*nes* gives the reason and answers *kodėl?*. *todėl* is its mirror — *therefore* — and gives the consequence instead.",
-      "rulesTested": ["nes-todel"],
-      "vocabUsed": ["nes", "todėl", "kad", "jeigu"]
+      "explanation": "**Nes** answers *kodėl?* and never opens the sentence; **todėl** heads the clause of consequence. A sentence uses one or the other, not both.",
+      "rulesTested": [
+        "nes-todel"
+      ],
+      "vocabUsed": [
+        "sirgti",
+        "todėl",
+        "ateiti",
+        "nes"
+      ]
     },
     {
       "id": "a115-q3",
       "type": "single",
-      "difficulty": "easy",
-      "stem": "Complete: **Ji sako, ____ rytoj nedirbs.**",
-      "options": ["kad", "ar", "kur", "nes"],
-      "correct": 0,
-      "explanation": "A reported statement is introduced by **kad**, and unlike the English *that* it can never be left out.",
-      "rulesTested": ["subordination-kad"],
-      "vocabUsed": ["sakyti", "kad", "rytoj", "dirbti"]
+      "difficulty": "medium",
+      "stem": "**Gyvenu Vilniuje, o dirbu Kaune.** Why not *bet*?",
+      "options": [
+        "Because *bet* cannot join two locatives.",
+        "Because the clauses contrast side by side without either contradicting the other.",
+        "Because *o* is required after every city name.",
+        "Because *bet* is only used after a negative."
+      ],
+      "correct": 1,
+      "explanation": "*bet* denies or corrects an expectation; *o* merely places two facts beside each other. English *and* covers both, which is why the distinction must be learnt rather than translated.",
+      "rulesTested": [
+        "o-contrast",
+        "coordinating-conjunctions"
+      ],
+      "vocabUsed": [
+        "gyventi",
+        "Vilnius",
+        "o",
+        "dirbti",
+        "Kaunas",
+        "bet"
+      ]
     },
     {
       "id": "a115-q4",
-      "type": "single",
-      "difficulty": "medium",
-      "stem": "**Gyvenu Vilniuje, o dirbu Kaune.** Why *o* and not *bet*?",
-      "options": [
-        "Because *bet* cannot join two verbs.",
-        "Because the two clauses are set side by side and contrast, without either contradicting the other.",
-        "Because *o* is required after a locative.",
-        "Because *bet* is only used in questions."
-      ],
-      "correct": 1,
-      "explanation": "*bet* denies or corrects an expectation; *o* merely places two facts beside each other. English uses *and* here, which is why the distinction has to be learnt rather than translated.",
-      "rulesTested": ["o-contrast", "coordinating-conjunctions"],
-      "vocabUsed": ["gyventi", "Vilnius", "o", "dirbti", "Kaunas", "bet"]
-    },
-    {
-      "id": "a115-q5",
       "type": "multi",
       "difficulty": "medium",
-      "stem": "Which of these are **correct**?",
+      "stem": "Which sentences use **ar** / **arba** correctly?",
       "options": [
         "Geriu kavą arba arbatą.",
         "Kavos su cukrumi ar be cukraus?",
         "Geriu kavą ar arbatą.",
         "Ar tu eini, ar lieki?"
       ],
-      "correct": [0, 1, 3],
-      "explanation": "In a statement the *or* is **arba**; *ar* belongs to questions. The third offers a choice in a plain statement and therefore wants *arba*.",
-      "rulesTested": ["arba-ar", "ar-questions"],
-      "vocabUsed": ["gerti", "kava", "arba", "arbata", "su", "cukrus", "be", "ar", "eiti", "likti"]
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "In a statement the *or* is **arba**; **ar** belongs inside questions (and as the yes/no particle). The third offers a choice in a plain statement and therefore wants *arba*.",
+      "rulesTested": [
+        "arba-ar",
+        "ar-questions"
+      ],
+      "vocabUsed": [
+        "gerti",
+        "kava",
+        "arba",
+        "arbata",
+        "su",
+        "cukrus",
+        "be",
+        "ar",
+        "eiti",
+        "likti"
+      ]
+    },
+    {
+      "id": "a115-q5",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Jeigu turėsi laiko, ____ į teatrą.**",
+      "options": [
+        "einame",
+        "eisime",
+        "ėjome",
+        "eitumėme"
+      ],
+      "correct": 1,
+      "explanation": "A future condition puts **both** clauses in the future: *turėsi … eisime*. English keeps a present after *if*; Lithuanian does not. *eitumėme* is conditional mood, not future.",
+      "rulesTested": [
+        "condition-jei",
+        "future-uses"
+      ],
+      "vocabUsed": [
+        "jeigu",
+        "turėti",
+        "laikas",
+        "eiti",
+        "teatras"
+      ]
     },
     {
       "id": "a115-q6",
       "type": "single",
       "difficulty": "medium",
-      "stem": "Complete: **Jeigu turėsi laiko, ____ į teatrą.**",
-      "options": ["einame", "eisime", "ėjome", "eiti"],
-      "correct": 1,
-      "explanation": "The condition concerns the future, so both clauses stand in the future: *turėsi … eisime*. English keeps a present after *if*, and Lithuanian does not.",
-      "rulesTested": ["condition-jei", "future-uses"],
-      "vocabUsed": ["jeigu", "turėti", "laikas", "eiti", "teatras"]
+      "stem": "Complete: **Ji sako, ____ rytoj nedirbs.**",
+      "options": [
+        "kad",
+        "ar",
+        "jeigu",
+        "nes"
+      ],
+      "correct": 0,
+      "explanation": "A reported statement is introduced by **kad**, which may never be omitted. *ar* would report a yes/no question (*whether*); *jeigu* is a condition; *nes* is a reason.",
+      "rulesTested": [
+        "subordination-kad",
+        "indirect-questions"
+      ],
+      "vocabUsed": [
+        "sakyti",
+        "kad",
+        "rytoj",
+        "dirbti",
+        "ar",
+        "jeigu",
+        "nes"
+      ]
     },
     {
       "id": "a115-q7",
       "type": "single",
       "difficulty": "medium",
-      "stem": "Complete: **Nežinau, ____ rytoj ateisiu.** (I do not know whether I shall come tomorrow.)",
-      "options": ["kad", "ar", "arba", "jeigu"],
+      "stem": "Complete: **Nežinau, ____ rytoj ateisiu.** (whether I shall come)",
+      "options": [
+        "kad",
+        "ar",
+        "arba",
+        "jeigu"
+      ],
       "correct": 1,
-      "explanation": "A reported yes-or-no question uses **ar**, which serves for both *whether* and *if* in this sense. *jeigu* is the *if* of a condition and cannot stand here.",
-      "rulesTested": ["indirect-questions", "arba-ar"],
-      "vocabUsed": ["žinoti", "ar", "rytoj", "ateiti"]
+      "explanation": "A reported yes-or-no question uses **ar** (*whether*). *jeigu* is the *if* of a condition; *kad* introduces a reported statement; *arba* is the *or* of statements.",
+      "rulesTested": [
+        "indirect-questions",
+        "arba-ar"
+      ],
+      "vocabUsed": [
+        "žinoti",
+        "ar",
+        "rytoj",
+        "ateiti",
+        "kad",
+        "arba",
+        "jeigu"
+      ]
     },
     {
       "id": "a115-q8",
-      "type": "single",
-      "difficulty": "medium",
-      "stem": "**Jis dar negrįžo.** What does *dar* add?",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which claims about **kad** are true?",
       "options": [
-        "That he returned long ago.",
-        "That he has not returned **yet**.",
-        "That he will never return.",
-        "That he returns often."
+        "It may be dropped, as English drops *that*.",
+        "A comma always stands before it.",
+        "It introduces objects of verbs of saying, thinking and knowing.",
+        "The reported clause keeps the tense in which the words were spoken."
       ],
-      "correct": 1,
-      "explanation": "*dar* with a negative is *not yet*; with an affirmative it is *still*. It is a particle, so it takes no ending and governs nothing.",
-      "rulesTested": ["particles"],
-      "vocabUsed": ["jis", "dar", "grįžti"]
+      "correct": [
+        1,
+        2,
+        3
+      ],
+      "explanation": "*kad* is never omitted — the first difference from English. *Tomas sakė, kad ateis* keeps the future where English shifts to *would come*.",
+      "rulesTested": [
+        "subordination-kad"
+      ],
+      "vocabUsed": [
+        "kad",
+        "sakyti",
+        "ateiti"
+      ]
     },
     {
       "id": "a115-q9",
-      "type": "multi",
-      "difficulty": "hard",
-      "stem": "Which statements about **kad** are correct?",
-      "options": [
-        "It may be omitted, as English omits *that*.",
-        "A comma always stands before it.",
-        "It introduces the object of verbs of saying, thinking and knowing.",
-        "The reported clause keeps the tense in which the words were spoken."
-      ],
-      "correct": [1, 2, 3],
-      "explanation": "*kad* is never omitted — that is the first difference from English, and the comma is the second. *Tomas sakė, kad ateis* keeps the future where English shifts to *would come*.",
-      "rulesTested": ["subordination-kad", "particles"],
-      "vocabUsed": ["kad", "sakyti", "ateiti"]
-    },
-    {
-      "id": "a115-q10",
       "type": "single",
       "difficulty": "hard",
-      "stem": "Which sentence is the **politest** way of asking for help?",
+      "stem": "Which is the **politest** request for help?",
       "options": [
         "Padėk man.",
         "Ar galite padėti?",
@@ -322,28 +717,144 @@
         "Jūs padedate man."
       ],
       "correct": 2,
-      "explanation": "**Gal** before a question softens it, and is the ordinary Lithuanian politeness. *Ar galite padėti?* is correct but blunt; the first is a bare order and the last is not a request at all.",
-      "rulesTested": ["particles", "ar-questions", "polite-jus"],
-      "vocabUsed": ["gal", "galėti", "padėti", "ar", "man", "jūs"]
+      "explanation": "**Gal** before a question softens it into ordinary Lithuanian politeness. *Ar galite padėti?* is correct but blunter; the first is a bare order; the last is a statement, not a request.",
+      "rulesTested": [
+        "particles",
+        "ar-questions",
+        "polite-jus"
+      ],
+      "vocabUsed": [
+        "gal",
+        "galėti",
+        "padėti",
+        "ar",
+        "man",
+        "jūs"
+      ]
+    },
+    {
+      "id": "a115-q10",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**Jis dar negrįžo** vs **Jis jau grįžo** — what do the particles do?",
+      "options": [
+        "Both mean the same; one is formal.",
+        "*dar* + negative = *not yet*; *jau* = *already*.",
+        "*dar* marks the future; *jau* marks the past.",
+        "Particles must agree with the subject in gender."
+      ],
+      "correct": 1,
+      "explanation": "*dar* with a negative is *not yet*; with an affirmative it is *still*. *jau* is *already*. Neither takes an ending or governs a case.",
+      "rulesTested": [
+        "particles"
+      ],
+      "vocabUsed": [
+        "jis",
+        "dar",
+        "grįžti",
+        "jau"
+      ]
     },
     {
       "id": "a115-q11",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which sentences are correctly joined?",
+      "options": [
+        "Aš dirbu, bet brolis studijuoja.",
+        "Man patinka ir kava, ir arbata.",
+        "Nes sergu, neateisiu.",
+        "Žinau, kad tu dirbi."
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "**Nes** never begins the sentence: *Neateisiu, nes sergu.* The doubled *ir … ir* is *both … and*; *kad* correctly opens the reported clause.",
+      "rulesTested": [
+        "coordinating-conjunctions",
+        "nes-todel",
+        "subordination-kad"
+      ],
+      "vocabUsed": [
+        "aš",
+        "dirbti",
+        "bet",
+        "brolis",
+        "studijuoti",
+        "man",
+        "patikti",
+        "ir",
+        "kava",
+        "arbata",
+        "nes",
+        "sirgti",
+        "ateiti",
+        "žinoti",
+        "kad",
+        "tu"
+      ]
+    },
+    {
+      "id": "a115-q12",
       "type": "integer",
       "difficulty": "hard",
-      "stem": "**Manau, kad rytoj bus šalta, todėl liksime namie.** How many commas does the sentence require?",
-      "answer": 2,
+      "stem": "**Nežinau, ar ateisiu, nes manau, kad bus šalta, todėl liksiu namie.** How many commas does the sentence require?",
+      "answer": 4,
       "unit": "commas",
-      "explanation": "Two: one before *kad*, opening the reported clause, and one before *todėl*, opening the clause of consequence. Lithuanian punctuates by grammar rather than by pause — wherever a clause of this kind begins, a comma stands before it, whether or not the voice would drop.",
-      "rulesTested": ["subordination-kad", "nes-todel", "particles"],
-      "vocabUsed": ["manyti", "kad", "rytoj", "būti", "šaltas", "todėl", "likti", "namie"]
+      "explanation": "Four: before *ar* (reported question), *nes* (reason), *kad* (reported statement), and *todėl* (consequence). Each subordinate or consequential clause boundary takes a comma.",
+      "rulesTested": [
+        "indirect-questions",
+        "nes-todel",
+        "subordination-kad"
+      ],
+      "vocabUsed": [
+        "žinoti",
+        "ar",
+        "ateiti",
+        "nes",
+        "manyti",
+        "kad",
+        "būti",
+        "šaltas",
+        "todėl",
+        "likti",
+        "namie"
+      ]
+    },
+    {
+      "id": "a115-q13",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "In **Gal eisiu namo, bet dar nedirbu, todėl jau lieku**, how many **particles** appear?",
+      "answer": 3,
+      "unit": "particles",
+      "explanation": "Three: *gal*, *dar*, and *jau*. *bet* and *todėl* are conjunctions, not particles of ¶106.",
+      "rulesTested": [
+        "particles",
+        "coordinating-conjunctions",
+        "nes-todel"
+      ],
+      "vocabUsed": [
+        "gal",
+        "eiti",
+        "namie",
+        "bet",
+        "dar",
+        "dirbti",
+        "todėl",
+        "jau",
+        "likti"
+      ]
     },
     {
       "id": "a115-p1",
       "type": "comprehension",
-      "difficulty": "medium",
+      "difficulty": "hard",
       "title": "Telefonu",
-      "passage": "– Labas, Rūta. Gal turi laiko rytoj?\n– Nežinau, ar būsiu laisva. Rytoj dirbu iki penktos, o vakare turiu susitikimą.\n– Jeigu baigsi anksti, galime eiti į teatrą arba į kavinę.\n– Manau, kad bus per vėlu. Bet šeštadienį esu laisva.\n– Gerai. Tada susitiksime šeštadienį, nes sekmadienį aš važiuoju pas mamą.\n– Puiku. Dar neturiu bilietų, todėl nupirksiu juos rytoj.",
-      "translation": "\"Hello, Rūta. Have you time tomorrow, by any chance?\" — \"I don't know whether I shall be free. Tomorrow I work until five, and in the evening I have a meeting.\" — \"If you finish early, we can go to the theatre or to a café.\" — \"I think it will be too late. But on Saturday I am free.\" — \"Good. Then we shall meet on Saturday, because on Sunday I am going to my mother's.\" — \"Splendid. I haven't got the tickets yet, so I shall buy them tomorrow.\"",
+      "passage": "– Labas, Rūta. Gal turi laiko rytoj?\n– Nežinau, ar būsiu laisva. Rytoj dirbu iki penktos, o vakare turiu susitikimą.\n– Jeigu baigsi anksti, galime eiti į teatrą arba į kavinę.\n– Manau, kad bus per vėlu. Bet šeštadienį esu laisva.\n– Gerai. Tada susitiksime šeštadienį, nes sekmadienį aš važiuoju pas mamą.\n– Puiku. Dar neturiu bilietų, todėl nupirksiu juos rytoj.\n– O kaip tu – jau turi bilietą, ar dar ne?",
+      "translation": "\"Hello, Rūta. Have you time tomorrow, by any chance?\" — \"I don't know whether I shall be free. Tomorrow I work until five, and in the evening I have a meeting.\" — \"If you finish early, we can go to the theatre or to a café.\" — \"I think it will be too late. But on Saturday I am free.\" — \"Good. Then we shall meet on Saturday, because on Sunday I am going to my mother's.\" — \"Splendid. I haven't got the tickets yet, so I shall buy them tomorrow.\" — \"And you — have you a ticket already, or not yet?\"",
       "glossary": {
         "laisva": "free (laisvas, f.)",
         "susitikimas": "meeting",
@@ -354,7 +865,8 @@
         "susitiksime": "we shall meet (susitikti)",
         "puiku": "splendid",
         "bilietas": "ticket",
-        "nupirksiu": "I shall buy (nupirkti)"
+        "nupirksiu": "I shall buy (nupirkti)",
+        "pas": "to / at (a person's place)"
       },
       "questions": [
         {
@@ -362,34 +874,511 @@
           "type": "single",
           "difficulty": "easy",
           "stem": "Kada jie susitiks?",
-          "options": ["rytoj", "penktadienį", "šeštadienį", "sekmadienį"],
+          "options": [
+            "rytoj",
+            "penktadienį",
+            "šeštadienį",
+            "sekmadienį"
+          ],
           "correct": 2,
           "explanation": "*Tada susitiksime šeštadienį* — Sunday is ruled out by the visit to the mother, and tomorrow by the meeting.",
-          "rulesTested": ["nes-todel", "accusative-of-time"],
-          "vocabUsed": ["rytoj", "penktadienis", "šeštadienis", "sekmadienis"]
+          "rulesTested": [
+            "nes-todel",
+            "accusative-of-time"
+          ],
+          "vocabUsed": [
+            "rytoj",
+            "penktadienis",
+            "šeštadienis",
+            "sekmadienis"
+          ]
         },
         {
           "id": "a115-p1-q2",
           "type": "multi",
           "difficulty": "medium",
-          "stem": "Which words in the dialogue open a **subordinate** clause?",
-          "options": ["ar", "kad", "jeigu", "arba"],
-          "correct": [0, 1, 2],
-          "explanation": "*ar* opens a reported question, *kad* a reported statement, *jeigu* a condition — each with its comma. *arba* joins two things of equal rank and subordinates nothing.",
-          "rulesTested": ["indirect-questions", "subordination-kad", "condition-jei", "arba-ar"],
-          "vocabUsed": ["ar", "kad", "jeigu", "arba"]
+          "stem": "Which words open a **subordinate** clause in the dialogue?",
+          "options": [
+            "ar",
+            "kad",
+            "jeigu",
+            "arba"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "*ar* opens a reported question, *kad* a reported statement, *jeigu* a condition — each with its comma. *arba* joins equals and subordinates nothing.",
+          "rulesTested": [
+            "indirect-questions",
+            "subordination-kad",
+            "condition-jei",
+            "arba-ar"
+          ],
+          "vocabUsed": [
+            "ar",
+            "kad",
+            "jeigu",
+            "arba"
+          ]
         },
         {
           "id": "a115-p1-q3",
+          "type": "single",
+          "difficulty": "hard",
+          "stem": "In *Rytoj dirbu iki penktos, o vakare turiu susitikimą*, why *o* rather than *bet*?",
+          "options": [
+            "Because *bet* cannot follow a time expression.",
+            "Because the clauses are set side by side in contrast, without contradiction.",
+            "Because *o* is required before every evening clause.",
+            "Because the second clause is a question."
+          ],
+          "correct": 1,
+          "explanation": "Work until five and a meeting in the evening are two facts contrasted, not one cancelling the other. That is exactly where *o* belongs and *bet* does not.",
+          "rulesTested": [
+            "o-contrast",
+            "coordinating-conjunctions"
+          ],
+          "vocabUsed": [
+            "rytoj",
+            "dirbti",
+            "iki",
+            "o",
+            "vakaras",
+            "turėti",
+            "bet"
+          ]
+        },
+        {
+          "id": "a115-p1-q4",
           "type": "integer",
           "difficulty": "hard",
-          "stem": "How many **particles** does the dialogue contain?",
-          "answer": 2,
+          "stem": "How many **particles** appear in the whole dialogue?",
+          "answer": 4,
           "unit": "particles",
-          "explanation": "Two: *gal*, softening the opening question into politeness, and *dar*, which with the negative *neturiu* gives *not yet*. *ar* here is a conjunction opening a reported question rather than the particle of ¶48, and *bet*, *o*, *nes*, *todėl* and *arba* are all conjunctions.",
-          "rulesTested": ["particles", "indirect-questions", "coordinating-conjunctions"],
-          "vocabUsed": ["gal", "dar", "ar", "bet", "o", "nes", "todėl", "arba"]
+          "explanation": "Four: *gal*, *dar* (twice across the dialogue), and *jau*. Conjunctions such as *ar*, *bet*, *o*, *nes* are a different class.",
+          "rulesTested": [
+            "particles",
+            "indirect-questions",
+            "coordinating-conjunctions"
+          ],
+          "vocabUsed": [
+            "gal",
+            "dar",
+            "jau",
+            "ar",
+            "bet",
+            "o",
+            "nes",
+            "todėl",
+            "arba"
+          ]
+        },
+        {
+          "id": "a115-p1-q5",
+          "type": "multi",
+          "difficulty": "hard",
+          "stem": "Which readings of the last line are correct?",
+          "options": [
+            "*O kaip tu?* changes the subject in conversation.",
+            "*jau … ar dar ne* contrasts *already* with *not yet*.",
+            "*ar* here is the statement *or* (*arba*).",
+            "The line asks about a ticket already held versus not yet held."
+          ],
+          "correct": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "Sentence-initial *o* shifts the topic (*And you?*). Inside the question the choice-word is *ar*, not *arba*. *jau* and *dar ne* are the particle pair *already / not yet*.",
+          "rulesTested": [
+            "o-contrast",
+            "particles",
+            "arba-ar"
+          ],
+          "vocabUsed": [
+            "o",
+            "kaip",
+            "tu",
+            "jau",
+            "ar",
+            "dar",
+            "ne",
+            "arba"
+          ]
         }
+      ]
+    },
+    {
+      "id": "a115-x1",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete: **Skaitau ____ rašau.** (I read or write — statement)",
+      "options": [
+        "ar",
+        "arba",
+        "o",
+        "kad"
+      ],
+      "correct": 1,
+      "explanation": "In a statement the choice-word is **arba**. **Ar** is for questions (and as the yes/no particle).",
+      "rulesTested": [
+        "arba-ar"
+      ],
+      "vocabUsed": [
+        "skaityti",
+        "rašyti",
+        "arba",
+        "ar",
+        "o",
+        "kad"
+      ]
+    },
+    {
+      "id": "a115-x2",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete: **Neateisiu, ____ sergu.**",
+      "options": [
+        "todėl",
+        "nes",
+        "kad",
+        "o"
+      ],
+      "correct": 1,
+      "explanation": "**Nes** gives the reason and answers *kodėl?*; it heads its own clause but never the whole sentence.",
+      "rulesTested": [
+        "nes-todel"
+      ],
+      "vocabUsed": [
+        "ateiti",
+        "nes",
+        "sirgti",
+        "todėl",
+        "kad",
+        "o"
+      ]
+    },
+    {
+      "id": "a115-x3",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Aš geriu kavą, ____ ji – arbatą.** (side-by-side contrast)",
+      "options": [
+        "bet",
+        "o",
+        "arba",
+        "nes"
+      ],
+      "correct": 1,
+      "explanation": "Two parties set side by side want **o**. **Bet** would cancel an expectation.",
+      "rulesTested": [
+        "o-contrast",
+        "coordinating-conjunctions"
+      ],
+      "vocabUsed": [
+        "aš",
+        "gerti",
+        "kava",
+        "o",
+        "ji",
+        "arbata",
+        "bet",
+        "arba",
+        "nes"
+      ]
+    },
+    {
+      "id": "a115-x4",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Manau, ____ rytoj bus šalta.**",
+      "options": [
+        "ar",
+        "nes",
+        "kad",
+        "o"
+      ],
+      "correct": 2,
+      "explanation": "**Kad** subordinates a reported clause after verbs of thinking/saying/knowing and may never be dropped.",
+      "rulesTested": [
+        "subordination-kad"
+      ],
+      "vocabUsed": [
+        "manyti",
+        "kad",
+        "rytoj",
+        "būti",
+        "šaltas",
+        "ar",
+        "nes",
+        "o"
+      ]
+    },
+    {
+      "id": "a115-x5",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which sentences use **o** correctly (contrast, not contradiction)?",
+      "options": [
+        "Šiandien dirbu, o rytoj skaitau.",
+        "Norėjau eiti, o nebuvo laiko.",
+        "Gyvenu Vilniuje, o dirbu Kaune.",
+        "Buvau parduotuvėje, o nieko nepirkau."
+      ],
+      "correct": [
+        0,
+        2
+      ],
+      "explanation": "Side-by-side facts take **o**. Cancelling an expectation needs **bet**.",
+      "rulesTested": [
+        "o-contrast",
+        "coordinating-conjunctions"
+      ],
+      "vocabUsed": [
+        "šiandien",
+        "dirbti",
+        "o",
+        "rytoj",
+        "skaityti",
+        "norėti",
+        "eiti",
+        "laikas",
+        "gyventi",
+        "Vilnius",
+        "Kaunas",
+        "būti",
+        "parduotuvė",
+        "pirkti",
+        "bet"
+      ]
+    },
+    {
+      "id": "a115-x6",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Jeigu ____ laiko, ateisiu.** (both clauses future)",
+      "options": [
+        "turiu",
+        "turėjau",
+        "turėsiu",
+        "turėčiau"
+      ],
+      "correct": 2,
+      "explanation": "With a future condition Lithuanian puts **both** clauses in the future.",
+      "rulesTested": [
+        "condition-jei",
+        "future-uses"
+      ],
+      "vocabUsed": [
+        "jeigu",
+        "laikas",
+        "ateiti",
+        "turėti"
+      ]
+    },
+    {
+      "id": "a115-x7",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**Ar tu eisi, ar liksi?** Why **ar … ar**, not *arba … arba*?",
+      "options": [
+        "Because *arba* cannot be doubled.",
+        "Because the choice sits inside a question, where the *or* is **ar**.",
+        "Because *arba* is only used with nouns.",
+        "Because *ar* always means *and*."
+      ],
+      "correct": 1,
+      "explanation": "Inside questions the alternative *or* is **ar**; **arba** belongs in statements.",
+      "rulesTested": [
+        "arba-ar",
+        "ar-questions"
+      ],
+      "vocabUsed": [
+        "ar",
+        "tu",
+        "eiti",
+        "likti",
+        "arba"
+      ]
+    },
+    {
+      "id": "a115-x8",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which claims about **nes** / **todėl** are true?",
+      "options": [
+        "*Nes* answers *kodėl?* and heads the reason clause.",
+        "*Todėl* heads the consequence clause.",
+        "A single clause freely stacks both *nes* and *todėl* as free variants.",
+        "*Nes* may open the whole sentence like English *because*."
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanation": "Mirror images: reason with **nes**, consequence with **todėl**.",
+      "rulesTested": [
+        "nes-todel"
+      ],
+      "vocabUsed": [
+        "nes",
+        "todėl"
+      ]
+    },
+    {
+      "id": "a115-x9",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Complete: **Klausiu, ____ tu ateisi.** (whether you will come)",
+      "options": [
+        "kad",
+        "ar",
+        "arba",
+        "nes"
+      ],
+      "correct": 1,
+      "explanation": "A reported yes/no question keeps **ar**. **Kad** reports a statement.",
+      "rulesTested": [
+        "indirect-questions",
+        "arba-ar"
+      ],
+      "vocabUsed": [
+        "klausti",
+        "ar",
+        "tu",
+        "ateiti",
+        "kad",
+        "arba",
+        "nes"
+      ]
+    },
+    {
+      "id": "a115-x10",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**Gal** in **Gal padėtumėte?** chiefly does what?",
+      "options": [
+        "Marks the sentence as a past narrative.",
+        "Softens a request / marks possibility — a particle, not a conjunction.",
+        "Forces the following verb into the genitive.",
+        "Replaces *kad* in reported speech."
+      ],
+      "correct": 1,
+      "explanation": "**Gal** is a particle: it colours without governing case or joining clauses.",
+      "rulesTested": [
+        "particles"
+      ],
+      "vocabUsed": [
+        "gal",
+        "padėti"
+      ]
+    },
+    {
+      "id": "a115-x11",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which joins are grammatically sound?",
+      "options": [
+        "Žinau, kad jis dirba.",
+        "Nežinau, ar jis ateis.",
+        "Manau jis nedirbs. (no *kad*)",
+        "Einu, nes turiu laiko."
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "**Kad** after *manau* may not be omitted.",
+      "rulesTested": [
+        "subordination-kad",
+        "indirect-questions",
+        "nes-todel"
+      ],
+      "vocabUsed": [
+        "žinoti",
+        "kad",
+        "jis",
+        "dirbti",
+        "ar",
+        "ateiti",
+        "manyti",
+        "eiti",
+        "nes",
+        "turėti",
+        "laikas"
+      ]
+    },
+    {
+      "id": "a115-x12",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "How many **coordinating** conjunctions in **Aš skaitau arba rašau, bet brolis dirba, o sesuo skaito**?",
+      "answer": 3,
+      "unit": "conjunctions",
+      "explanation": "**Arba**, **bet**, and **o** — three coordinators.",
+      "rulesTested": [
+        "coordinating-conjunctions",
+        "o-contrast",
+        "arba-ar"
+      ],
+      "vocabUsed": [
+        "aš",
+        "skaityti",
+        "arba",
+        "rašyti",
+        "bet",
+        "brolis",
+        "dirbti",
+        "o",
+        "sesuo"
+      ]
+    },
+    {
+      "id": "a115-x13",
+      "type": "integer",
+      "difficulty": "medium",
+      "stem": "In **Gal dar neateinu, jau dirbu**, how many **particles** are there?",
+      "answer": 3,
+      "unit": "particles",
+      "explanation": "*Gal*, *dar*, and *jau* — three particles.",
+      "rulesTested": [
+        "particles"
+      ],
+      "vocabUsed": [
+        "gal",
+        "dar",
+        "ateiti",
+        "jau",
+        "dirbti"
+      ]
+    },
+    {
+      "id": "a115-x14",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "**Jeigu turėsiu laiko, eisiu į teatrą, nes manau, kad bus šalta.** How many **subordinators** does the sentence contain?",
+      "answer": 3,
+      "unit": "subordinators",
+      "explanation": "Three: *jeigu*, *nes*, and *kad*, each opening a subordinate clause.",
+      "rulesTested": [
+        "condition-jei",
+        "nes-todel",
+        "subordination-kad"
+      ],
+      "vocabUsed": [
+        "jeigu",
+        "turėti",
+        "laikas",
+        "eiti",
+        "teatras",
+        "nes",
+        "manyti",
+        "kad",
+        "būti",
+        "šaltas"
       ]
     }
   ]

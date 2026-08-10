@@ -5,7 +5,11 @@
   "order": 26,
   "title": "Checkpoint: The A1 Boundary Examination",
   "summary": "A cumulative examination of sections eighteen to twenty, and the boundary exam of the level: the impersonal constructions, the demonstratives and determiners, and the prepositions taken as a whole system.",
-  "covers": ["a1-18", "a1-19", "a1-20"],
+  "covers": [
+    "a1-18",
+    "a1-19",
+    "a1-20"
+  ],
   "passThreshold": 60,
   "drills": [
     {
@@ -14,11 +18,21 @@
       "difficulty": "easy",
       "fromSection": "a1-18",
       "stem": "Complete: **Man ____.** (I find it difficult.)",
-      "options": ["sunkus", "sunki", "sunku", "sunkiai"],
+      "options": [
+        "sunkus",
+        "sunki",
+        "sunku",
+        "sunkiai"
+      ],
       "correct": 2,
-      "explanation": "Adjectives in **-us** make their non-gendered form in **-u**: *sunku*. There is no subject for an agreeing form to agree with, and *sunkiai* would be the adverb.",
-      "rulesTested": ["neuter-adjective"],
-      "vocabUsed": ["man", "sunkus"]
+      "explanation": "*-us* → non-gendered **-u**: *sunku*. *sunkiai* would be the adverb.",
+      "rulesTested": [
+        "neuter-adjective"
+      ],
+      "vocabUsed": [
+        "man",
+        "sunkus"
+      ]
     },
     {
       "id": "cp6-q2",
@@ -26,28 +40,47 @@
       "difficulty": "easy",
       "fromSection": "a1-18",
       "stem": "How is *It is snowing* said?",
-      "options": ["Jis sninga.", "Sninga.", "Tai sninga.", "Yra sninga."],
+      "options": [
+        "Jis sninga.",
+        "Sninga.",
+        "Tai sninga.",
+        "Yra sninga."
+      ],
       "correct": 1,
-      "explanation": "*sninga* has no subject and never will have one. English needs a dummy *it*; Lithuanian supplies nothing, and that absence is the construction.",
-      "rulesTested": ["weather-verbs", "impersonal-summary"],
-      "vocabUsed": ["snigti", "jis", "tai"]
+      "explanation": "*sninga* never takes a subject. English *it* must not be supplied.",
+      "rulesTested": [
+        "weather-verbs",
+        "impersonal-summary"
+      ],
+      "vocabUsed": [
+        "snigti",
+        "jis",
+        "tai"
+      ]
     },
     {
       "id": "cp6-q3",
       "type": "single",
       "difficulty": "medium",
       "fromSection": "a1-18",
-      "stem": "**Filmas įdomus** and **Man įdomu** — what is the difference?",
+      "stem": "**Filmas įdomus** vs **Man įdomu**:",
       "options": [
-        "None; the two are stylistic variants.",
-        "The first says the film is interesting; the second says the speaker finds it so.",
-        "The first is past and the second present.",
-        "The second is a question."
+        "Stylistic variants.",
+        "First: the film is interesting; second: the speaker finds it so.",
+        "First past, second present.",
+        "Second is a question."
       ],
       "correct": 1,
-      "explanation": "A nominative with an agreeing adjective states a property; a dative with the non-gendered form reports a person's experience of it. English uses one word for both.",
-      "rulesTested": ["personal-vs-impersonal", "neuter-adjective"],
-      "vocabUsed": ["filmas", "įdomus", "man"]
+      "explanation": "Nominative + agreeing adjective vs dative + non-gendered form. English uses one word for both.",
+      "rulesTested": [
+        "personal-vs-impersonal",
+        "neuter-adjective"
+      ],
+      "vocabUsed": [
+        "filmas",
+        "įdomus",
+        "man"
+      ]
     },
     {
       "id": "cp6-q4",
@@ -55,28 +88,57 @@
       "difficulty": "medium",
       "fromSection": "a1-18",
       "stem": "Complete: **Jai skauda ____.** (Her leg hurts.)",
-      "options": ["koja", "koją", "kojos", "kojai"],
+      "options": [
+        "koja",
+        "koją",
+        "kojos",
+        "kojai"
+      ],
       "correct": 1,
-      "explanation": "*skaudėti* is impersonal: the sufferer stands in the dative, the part that hurts in the **accusative**. English makes the leg the subject and Lithuanian makes it the object of a subjectless verb.",
-      "rulesTested": ["skaudeti"],
-      "vocabUsed": ["jai", "skaudėti", "koja"]
+      "explanation": "Dative sufferer + **accusative** part. Nominative *koja* is the English calque.",
+      "rulesTested": [
+        "skaudeti"
+      ],
+      "vocabUsed": [
+        "jai",
+        "skaudėti",
+        "koja"
+      ]
     },
     {
       "id": "cp6-q5",
       "type": "multi",
       "difficulty": "medium",
       "fromSection": "a1-18",
-      "stem": "Which of these are **correct**?",
+      "stem": "Which are correct impersonal sentences?",
       "options": [
         "Čia galima rūkyti?",
         "Man reikėjo dirbti.",
         "Aš galima eiti.",
         "Rytoj reikės anksti keltis."
       ],
-      "correct": [0, 1, 3],
-      "explanation": "*galima* is impersonal and can have no nominative subject: *aš galima* is impossible. The impersonals change only for tense — *reikia, reikėjo, reikės* — and never for person.",
-      "rulesTested": ["galima-reikia", "complementary-infinitive"],
-      "vocabUsed": ["čia", "galima", "rūkyti", "man", "reikia", "dirbti", "aš", "eiti", "rytoj", "anksti"]
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "*galima* cannot take a nominative subject. Impersonals change only for tense.",
+      "rulesTested": [
+        "galima-reikia",
+        "complementary-infinitive"
+      ],
+      "vocabUsed": [
+        "čia",
+        "galima",
+        "rūkyti",
+        "man",
+        "reikia",
+        "dirbti",
+        "aš",
+        "eiti",
+        "rytoj",
+        "anksti"
+      ]
     },
     {
       "id": "cp6-q6",
@@ -86,228 +148,529 @@
       "stem": "Why is *mano galva skauda* wrong?",
       "options": [
         "Because *galva* is masculine.",
-        "Because the construction is impersonal: no possessive and no nominative, but a dative and an accusative.",
-        "Because *skaudėti* has no present tense.",
+        "Because the construction is impersonal: dative + accusative, no possessive subject.",
+        "Because *skaudėti* has no present.",
         "Because the verb must be negated."
       ],
       "correct": 1,
-      "explanation": "*Man skauda galvą.* The possessive and the nominative both belong to the English sentence, and carrying them across is the commonest error a learner makes at the doctor's.",
-      "rulesTested": ["skaudeti", "impersonal-summary", "possessives"],
-      "vocabUsed": ["mano", "galva", "skaudėti", "man"]
+      "explanation": "*Man skauda galvą.* Possessive + nominative belong to English.",
+      "rulesTested": [
+        "skaudeti",
+        "impersonal-summary",
+        "possessives"
+      ],
+      "vocabUsed": [
+        "mano",
+        "galva",
+        "skaudėti",
+        "man"
+      ]
     },
     {
       "id": "cp6-q7",
       "type": "integer",
       "difficulty": "hard",
       "fromSection": "a1-18",
-      "stem": "**Vakar lijo, buvo šalta ir man reikėjo dirbti.** How many nominatives does the sentence contain?",
+      "stem": "**Vakar lijo, buvo šalta ir man reikėjo dirbti.** How many nominatives?",
       "answer": 0,
       "unit": "words",
-      "explanation": "None. All three clauses are impersonal, and *man* is a dative. English would need three separate dummy subjects to say the same thing.",
-      "rulesTested": ["impersonal-summary", "weather-verbs", "neuter-adjective", "galima-reikia"],
-      "vocabUsed": ["vakar", "lyti", "būti", "šaltas", "man", "reikia", "dirbti"]
+      "explanation": "None. Three impersonal clauses; *man* is dative.",
+      "rulesTested": [
+        "impersonal-summary",
+        "weather-verbs",
+        "neuter-adjective",
+        "galima-reikia"
+      ],
+      "vocabUsed": [
+        "vakar",
+        "lyti",
+        "būti",
+        "šaltas",
+        "man",
+        "reikia",
+        "dirbti"
+      ]
     },
     {
       "id": "cp6-q8",
-      "type": "single",
-      "difficulty": "easy",
-      "fromSection": "a1-19",
-      "stem": "What is the locative singular masculine of **tas**?",
-      "options": ["tam", "tuo", "tame", "to"],
-      "correct": 2,
-      "explanation": "*tame* — *tame name*, in that house. *tam* is the dative, *tuo* the instrumental, *to* the genitive.",
-      "rulesTested": ["sis-tas"],
-      "vocabUsed": ["tas"]
+      "type": "multi",
+      "difficulty": "hard",
+      "fromSection": "a1-18",
+      "stem": "Which pairs are correctly opposed?",
+      "options": [
+        "*Ji šalta* (character) vs *Jai šalta* (sensation)",
+        "*Filmas įdomus* (personal) vs *Man įdomu* (impersonal)",
+        "*Šiandien šaltas* (correct weather)",
+        "*Lyja* needs no dummy subject"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "Weather wants non-gendered *šalta*, not masculine *šaltas* with no noun to agree with.",
+      "rulesTested": [
+        "personal-vs-impersonal",
+        "weather-verbs",
+        "neuter-adjective"
+      ],
+      "vocabUsed": [
+        "ji",
+        "jai",
+        "šaltas",
+        "filmas",
+        "įdomus",
+        "man",
+        "lyti"
+      ]
     },
     {
       "id": "cp6-q9",
       "type": "single",
       "difficulty": "easy",
       "fromSection": "a1-19",
-      "stem": "Complete: **____ aukšte gyveni?** (Which floor do you live on?)",
-      "options": ["Kokiame", "Kuriame", "Tokiame", "Kiekviename"],
-      "correct": 1,
-      "explanation": "**Kuris** asks which one out of a known set — the floors of the building. *Koks* would ask what **kind** of floor it was.",
-      "rulesTested": ["kuris"],
-      "vocabUsed": ["kuris", "koks", "toks", "kiekvienas", "aukštas", "gyventi"]
+      "stem": "Locative singular masculine of **tas**:",
+      "options": [
+        "tam",
+        "tuo",
+        "tame",
+        "to"
+      ],
+      "correct": 2,
+      "explanation": "*tame* (*tame name*). *tam* dative, *tuo* instrumental, *to* genitive.",
+      "rulesTested": [
+        "sis-tas"
+      ],
+      "vocabUsed": [
+        "tas"
+      ]
     },
     {
       "id": "cp6-q10",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "a1-19",
+      "stem": "Complete: **____ aukšte gyveni?** (Which floor…)",
+      "options": [
+        "Kokiame",
+        "Kuriame",
+        "Tokiame",
+        "Kiekviename"
+      ],
+      "correct": 1,
+      "explanation": "**Kuris** picks from a known set of floors. *Koks* asks *what kind*.",
+      "rulesTested": [
+        "kuris"
+      ],
+      "vocabUsed": [
+        "kuris",
+        "koks",
+        "toks",
+        "kiekvienas",
+        "aukštas",
+        "gyventi"
+      ]
+    },
+    {
+      "id": "cp6-q11",
       "type": "multi",
       "difficulty": "medium",
       "fromSection": "a1-19",
-      "stem": "Which of these are **correct**?",
+      "stem": "Which negatives are correctly doubled?",
       "options": [
         "Nieko nematau.",
         "Niekas neatėjo.",
         "Niekur važiuoju.",
         "Niekada nebuvau Kaune."
       ],
-      "correct": [0, 1, 3],
-      "explanation": "The third leaves the verb unnegated. A negative word requires *ne-* on the verb beside it: *niekur nevažiuoju*. Lithuanian doubles its negatives where English forbids it.",
-      "rulesTested": ["niekas-negation", "negation"],
-      "vocabUsed": ["niekas", "matyti", "ateiti", "niekur", "važiuoti", "niekada", "būti", "Kaunas"]
-    },
-    {
-      "id": "cp6-q11",
-      "type": "single",
-      "difficulty": "medium",
-      "fromSection": "a1-19",
-      "stem": "**Visą dieną** and **kiekvieną dieną** — what is the difference?",
-      "options": [
-        "None; the two are interchangeable.",
-        "*Visą dieną* is *all day long*; *kiekvieną dieną* is *every day*.",
-        "*Visą dieną* is plural and *kiekvieną dieną* singular.",
-        "The first is a question."
+      "correct": [
+        0,
+        1,
+        3
       ],
-      "correct": 1,
-      "explanation": "*visas* in the singular is *the whole of*; *kiekvienas* is a distributive and distributes over separate occasions. Both stand in the accusative of time.",
-      "rulesTested": ["visas-kiekvienas", "accusative-of-time"],
-      "vocabUsed": ["visas", "diena", "kiekvienas"]
+      "explanation": "*Niekur važiuoju* leaves the verb affirmative — impossible. Need *niekur nevažiuoju*.",
+      "rulesTested": [
+        "niekas-negation",
+        "negation"
+      ],
+      "vocabUsed": [
+        "niekas",
+        "matyti",
+        "ateiti",
+        "niekur",
+        "važiuoti",
+        "niekada",
+        "būti",
+        "Kaunas"
+      ]
     },
     {
       "id": "cp6-q12",
       "type": "single",
       "difficulty": "medium",
       "fromSection": "a1-19",
-      "stem": "Complete: **____ oras man nepatinka.** (I do not like weather like this.)",
-      "options": ["Koks", "Toks", "Kuris", "Kiekvienas"],
-      "correct": 1,
-      "explanation": "**Toks** is *such, of that kind*, and is the answer to *koks?* as *tas* is to *kuris?*. It agrees with *oras* in the masculine nominative.",
-      "rulesTested": ["toks", "koks"],
-      "vocabUsed": ["toks", "koks", "kuris", "kiekvienas", "oras", "man", "patikti"]
+      "stem": "Complete: **____ savaitę einu į kursus.** (every week)",
+      "options": [
+        "Visą",
+        "Visi",
+        "Kiekvieną",
+        "Kiekvieni"
+      ],
+      "correct": 2,
+      "explanation": "*kiekvienas* always singular. *Visą savaitę* = the whole week.",
+      "rulesTested": [
+        "visas-kiekvienas",
+        "accusative-of-time"
+      ],
+      "vocabUsed": [
+        "visas",
+        "kiekvienas",
+        "savaitė",
+        "eiti"
+      ]
     },
     {
       "id": "cp6-q13",
       "type": "single",
-      "difficulty": "hard",
+      "difficulty": "medium",
       "fromSection": "a1-19",
-      "stem": "Complete: **Mes gyvename ____ name.** (We live in the same house.)",
-      "options": ["tas pats", "tame pačiame", "to paties", "ta pati"],
+      "stem": "Complete: **Mes gyvename ____ name.** (the same house)",
+      "options": [
+        "tas pats",
+        "tame pačiame",
+        "to paties",
+        "tą patį"
+      ],
       "correct": 1,
-      "explanation": "**Both** words of *tas pats* decline, each following the noun into its case; *name* is a locative, so *tame pačiame*. English has one invariable word here and Lithuanian two variable ones.",
-      "rulesTested": ["tas-pats", "locative-singular"],
-      "vocabUsed": ["mes", "gyventi", "namas"]
+      "explanation": "Both words of *tas pats* go into the locative with *name*.",
+      "rulesTested": [
+        "tas-pats",
+        "locative-singular"
+      ],
+      "vocabUsed": [
+        "mes",
+        "gyventi",
+        "namas"
+      ]
     },
     {
       "id": "cp6-q14",
       "type": "single",
       "difficulty": "hard",
       "fromSection": "a1-19",
-      "stem": "Complete: **Neskaityk ____ knygos.** (Don't read this book.)",
-      "options": ["ši", "šią", "šios", "šiai"],
-      "correct": 2,
-      "explanation": "Two rules act at once: the negated verb takes its object in the genitive, and the demonstrative agrees with the noun wherever the noun goes — *šios knygos*.",
-      "rulesTested": ["sis-tas", "imperative-negative", "negation-genitive"],
-      "vocabUsed": ["skaityti", "šis", "knyga"]
+      "stem": "**Toks oras man nepatinka.** *Toks* answers:",
+      "options": [
+        "kuris?",
+        "koks?",
+        "kelintas?",
+        "kas?"
+      ],
+      "correct": 1,
+      "explanation": "*toks* answers *koks?* (*such / of that kind*).",
+      "rulesTested": [
+        "toks",
+        "koks"
+      ],
+      "vocabUsed": [
+        "toks",
+        "oras",
+        "man",
+        "patikti",
+        "koks",
+        "kuris",
+        "kelintas"
+      ]
     },
     {
       "id": "cp6-q15",
-      "type": "single",
-      "difficulty": "easy",
-      "fromSection": "a1-20",
-      "stem": "Complete: **Vakar buvau ____ gydytoją.** (Yesterday I was at the doctor's.)",
-      "options": ["į", "pas", "prie", "virš"],
-      "correct": 1,
-      "explanation": "**Pas** with the accusative is used of people, and covers both going to somebody's place and being there. *į* is for places only.",
-      "rulesTested": ["pas-accusative"],
-      "vocabUsed": ["vakar", "būti", "pas", "gydytojas", "į", "prie", "virš"]
+      "type": "multi",
+      "difficulty": "hard",
+      "fromSection": "a1-19",
+      "stem": "Which are true?",
+      "options": [
+        "*Neskaityk šios knygos* — demonstrative agrees in genitive of negation.",
+        "*šią knygą* would be correct under a negated imperative.",
+        "*Anas* points further off than *tas*.",
+        "*Tas pats* declines in both words."
+      ],
+      "correct": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "Accusative under negation is wrong. Demonstrative must follow the noun's case.",
+      "rulesTested": [
+        "sis-tas",
+        "niekas-negation",
+        "anas",
+        "tas-pats",
+        "imperative-negative",
+        "negation-genitive"
+      ],
+      "vocabUsed": [
+        "skaityti",
+        "šis",
+        "knyga",
+        "anas",
+        "tas"
+      ]
     },
     {
       "id": "cp6-q16",
-      "type": "single",
-      "difficulty": "easy",
-      "fromSection": "a1-20",
-      "stem": "Complete: **Kiek mokėjai ____ bilietą?** (How much did you pay for the ticket?)",
-      "options": ["už", "per", "prie", "be"],
-      "correct": 0,
-      "explanation": "**Už** with the accusative is *for* in the sense of payment. With the genitive the same word means *behind*, and with the accusative it also serves for *than*.",
-      "rulesTested": ["uz-accusative"],
-      "vocabUsed": ["kiek", "mokėti", "už", "bilietas", "per", "prie", "be"]
+      "type": "integer",
+      "difficulty": "hard",
+      "fromSection": "a1-19",
+      "stem": "**Niekas niekada nieko nesakė.** How many negative elements (incl. *ne-* on the verb)?",
+      "answer": 4,
+      "unit": "elements",
+      "explanation": "*niekas*, *niekada*, *nieko*, *nesakė*.",
+      "rulesTested": [
+        "niekas-negation",
+        "negation",
+        "frequency-adverbs"
+      ],
+      "vocabUsed": [
+        "niekas",
+        "niekada",
+        "sakyti"
+      ]
     },
     {
       "id": "cp6-q17",
       "type": "single",
-      "difficulty": "medium",
+      "difficulty": "easy",
       "fromSection": "a1-20",
-      "stem": "**Prieš namą yra sodas.** What does *prieš* mean here?",
-      "options": ["an hour ago", "in front of", "across", "behind"],
+      "stem": "Complete: **Važiuoju ____ mamą.**",
+      "options": [
+        "į",
+        "pas",
+        "prie",
+        "už"
+      ],
       "correct": 1,
-      "explanation": "*Prieš* is *ago* of time and *in front of* of place, and takes the accusative in both senses. *Behind* would be *už* with the genitive.",
-      "rulesTested": ["per-priesa-place", "time-prepositions"],
-      "vocabUsed": ["prieš", "namas", "būti", "sodas"]
+      "explanation": "*pas* + accusative for people; *į* for places.",
+      "rulesTested": [
+        "pas-accusative",
+        "direction-i"
+      ],
+      "vocabUsed": [
+        "važiuoti",
+        "pas",
+        "mama",
+        "į"
+      ]
     },
     {
       "id": "cp6-q18",
       "type": "single",
-      "difficulty": "medium",
+      "difficulty": "easy",
       "fromSection": "a1-20",
-      "stem": "Complete: **Stalas yra ____ kambario.** (The table is in the middle of the room.)",
-      "options": ["vidury", "virš", "prie", "po"],
+      "stem": "Complete: **Ačiū ____ kavą.**",
+      "options": [
+        "už",
+        "prie",
+        "su",
+        "be"
+      ],
       "correct": 0,
-      "explanation": "**Vidury** governs the genitive — it is a locative noun doing a preposition's work, which is why a genitive follows it.",
-      "rulesTested": ["virs-vidury", "genitive-prepositions"],
-      "vocabUsed": ["stalas", "būti", "vidury", "kambarys", "virš", "prie", "po"]
+      "explanation": "*už* + accusative = *for* (thanks/payment). Genitive *už* would mean *behind*.",
+      "rulesTested": [
+        "uz-accusative"
+      ],
+      "vocabUsed": [
+        "ačiū",
+        "už",
+        "kava",
+        "prie",
+        "su",
+        "be"
+      ]
     },
     {
       "id": "cp6-q19",
-      "type": "multi",
+      "type": "single",
       "difficulty": "medium",
       "fromSection": "a1-20",
-      "stem": "**Po** governs three cases. Which pairings are right?",
+      "stem": "**Lempa kabo virš stalo** — why not *ant*?",
       "options": [
-        "po pietų — genitive, after",
-        "po stalu — instrumental, under",
-        "po parką — accusative, about",
-        "po namui — dative, near"
+        "*ant* takes accusative.",
+        "*virš* = above without contact; *ant* = resting on.",
+        "Lamps are feminine.",
+        "*ant* is only for people."
       ],
-      "correct": [0, 1, 2],
-      "explanation": "No preposition in Lithuanian governs the dative at all. *Po* in its three senses is the strongest argument for learning every preposition together with its case.",
-      "rulesTested": ["po-accusative", "instrumental-po", "prepositions-review"],
-      "vocabUsed": ["po", "parkas", "stalas", "namas"]
+      "correct": 1,
+      "explanation": "Both take genitive; contact decides.",
+      "rulesTested": [
+        "virs-vidury",
+        "genitive-prepositions"
+      ],
+      "vocabUsed": [
+        "virš",
+        "stalas",
+        "ant"
+      ]
     },
     {
       "id": "cp6-q20",
-      "type": "integer",
-      "difficulty": "hard",
+      "type": "multi",
+      "difficulty": "medium",
       "fromSection": "a1-20",
-      "stem": "How many cases are governed by prepositions at this level?",
-      "answer": 3,
-      "unit": "cases",
-      "explanation": "Three: the genitive, which takes much the largest share; the accusative, chiefly of motion, time and payment; and the instrumental, which has only *su* and *po*. Nothing governs the dative, the nominative or the vocative.",
-      "rulesTested": ["prepositions-review", "genitive-prepositions", "instrumental-su"],
-      "vocabUsed": ["su", "po"]
+      "stem": "Where does **po** take the **accusative**?",
+      "options": [
+        "Vaikščiojome po parką.",
+        "Knyga po stalu.",
+        "Po pietų dirbu.",
+        "Vaikščiojome po miestą."
+      ],
+      "correct": [
+        0,
+        3
+      ],
+      "explanation": "Accusative = about/around. Instrumental = under; genitive = after.",
+      "rulesTested": [
+        "po-accusative",
+        "instrumental-po",
+        "genitive-prepositions"
+      ],
+      "vocabUsed": [
+        "po",
+        "parkas",
+        "knyga",
+        "stalas",
+        "miestas"
+      ]
     },
     {
       "id": "cp6-q21",
       "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a1-20",
+      "stem": "Complete: **Einame ____ tiltą.** (across)",
+      "options": [
+        "per",
+        "prie",
+        "virš",
+        "po"
+      ],
+      "correct": 0,
+      "explanation": "*per* + accusative = across/through.",
+      "rulesTested": [
+        "per-priesa-place"
+      ],
+      "vocabUsed": [
+        "eiti",
+        "per",
+        "tiltas",
+        "prie",
+        "virš",
+        "po"
+      ]
+    },
+    {
+      "id": "cp6-q22",
+      "type": "single",
       "difficulty": "hard",
       "fromSection": "a1-20",
-      "stem": "**Mokausi lietuvių kalbos, bet dar nesimokau rašyti.** What has happened to the reflexive affix?",
+      "stem": "**mokausi** → negated correctly as:",
       "options": [
-        "It has been dropped after the negative.",
-        "It has moved from the end of the word to just after *ne-*.",
-        "It has become a separate word.",
-        "It has changed into a prefix meaning *not*."
+        "nemokausi",
+        "nesimokau",
+        "nemokau si",
+        "nesimokausi"
       ],
       "correct": 1,
-      "explanation": "Under negation the *-si-* migrates to the front: *mokausi* but *nesimokau*. Without this a negated reflexive is very hard to recognise, which is why it is worth knowing before the full paradigm.",
-      "rulesTested": ["reflexive-phrases", "negation"],
-      "vocabUsed": ["mokytis", "bet", "dar", "rašyti"]
+      "explanation": "Affix migrates after *ne-*: *nesimokau*. Leaving *-si* at the end is the near-miss.",
+      "rulesTested": [
+        "reflexive-phrases",
+        "negation"
+      ],
+      "vocabUsed": [
+        "mokytis"
+      ]
+    },
+    {
+      "id": "cp6-q23",
+      "type": "multi",
+      "difficulty": "hard",
+      "fromSection": "a1-20",
+      "stem": "Which preposition–case pairs are right?",
+      "options": [
+        "už + gen. — behind",
+        "už + acc. — for / than",
+        "pas + gen. — at somebody's",
+        "vidury + gen. — in the middle of"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "*pas* takes accusative only.",
+      "rulesTested": [
+        "prepositions-review",
+        "uz-accusative",
+        "pas-accusative",
+        "virs-vidury"
+      ],
+      "vocabUsed": [
+        "už",
+        "pas",
+        "vidury"
+      ]
+    },
+    {
+      "id": "cp6-q24",
+      "type": "integer",
+      "difficulty": "hard",
+      "fromSection": "a1-20",
+      "stem": "How many cases can **po** govern?",
+      "answer": 3,
+      "unit": "cases",
+      "explanation": "Genitive after, instrumental under, accusative about/around.",
+      "rulesTested": [
+        "po-accusative",
+        "instrumental-po",
+        "prepositions-review"
+      ],
+      "vocabUsed": [
+        "po"
+      ]
+    },
+    {
+      "id": "cp6-q25",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "a1-20",
+      "stem": "What does **Kaip sekasi?** mean?",
+      "options": [
+        "Where are you?",
+        "How are you getting on?",
+        "Who are you?",
+        "How much?"
+      ],
+      "correct": 1,
+      "explanation": "Reflexive set phrase from *sektis*; also impersonal.",
+      "rulesTested": [
+        "reflexive-phrases"
+      ],
+      "vocabUsed": [
+        "kaip",
+        "sektis"
+      ]
     },
     {
       "id": "cp6-p1",
       "type": "comprehension",
       "difficulty": "medium",
-      "fromSection": "a1-19",
-      "title": "Toks oras",
-      "passage": "Šiandien šalta ir lyja. Toks oras man nepatinka, bet nieko nepadarysi. Vaikščiojau po miestą visą rytą, ir dabar man skauda kojas.\n– Kuriame name gyveni? — paklausė draugas.\n– Tame pačiame, kaip ir pernai, virš kavinės. Ateik pas mane, jeigu nori. Bet lifto nėra, o aš gyvenu penktame aukšte.\n– Ar tau sunku lipti?\n– Kiekvieną dieną sunku. Bet jaučiuosi geriau negu žiemą: tada niekada neišeidavau.",
-      "translation": "Today it is cold and raining. I don't like weather like this, but there is nothing to be done. I walked about the town all morning, and now my legs ache. — \"Which house do you live in?\" a friend asked. — \"The same one as last year, above the café. Come to my place if you like. But there's no lift, and I live on the fifth floor.\" — \"Is it hard for you to climb?\" — \"Every day it's hard. But I feel better than in the winter: then I never used to go out.\"",
+      "fromSection": "a1-18",
+      "title": "Oras ir sveikata",
+      "passage": "Šiandien lyja ir šalta. Tomui skauda galvą. „Man sunku dirbti“, — sako jis. „Čia negalima rūkyti, o man reikia ilsėtis.“ Draugas klausia: „Ar tau šilta namie? Jeigu ne, ateik pas mane. Aš gyvenu tame pačiame name, trečiame aukšte. Už kavą nemokėsi nieko — aš nieko neimsiu.“ Tomas atsako: „Ačiū. Šiandien nesijaučiu gerai, todėl dar nesimokau eiti lauk.“",
+      "translation": "Today it is raining and cold. Tomas's head hurts. \"It is hard for me to work,\" he says. \"One may not smoke here, and I need to rest.\" A friend asks: \"Are you warm at home? If not, come to my place. I live in the same house, on the third floor. You will pay nothing for coffee — I shall take nothing.\" Tomas answers: \"Thanks. Today I don't feel well, so I am not yet learning to go out.\"",
       "glossary": {
-        "nieko nepadarysi": "there is nothing to be done",
-        "liftas": "lift",
-        "lipti": "to climb",
-        "neišeidavau": "I never used to go out"
+        "ilsėtis": "to rest",
+        "neimsiu": "I shall not take",
+        "lauk": "outdoors (direction)",
+        "klausia": "asks"
       },
       "questions": [
         {
@@ -315,37 +678,601 @@
           "type": "single",
           "difficulty": "easy",
           "fromSection": "a1-18",
-          "stem": "Koks šiandien oras?",
-          "options": ["šilta ir gražu", "šalta ir lyja", "karšta", "sninga"],
+          "stem": "Kas skauda Tomui?",
+          "options": [
+            "koją",
+            "galvą",
+            "ranką",
+            "nieko"
+          ],
           "correct": 1,
-          "explanation": "*Šiandien šalta ir lyja* — a non-gendered adjective and a subjectless verb, the two ways of reporting the weather, joined by *ir*.",
-          "rulesTested": ["neuter-adjective", "weather-verbs"],
-          "vocabUsed": ["oras", "šiltas", "šaltas", "lyti", "karštas", "snigti"]
+          "explanation": "*Tomui skauda galvą* — dative + accusative impersonal.",
+          "rulesTested": [
+            "skaudeti"
+          ],
+          "vocabUsed": [
+            "skaudėti",
+            "galva",
+            "koja",
+            "ranka"
+          ]
         },
         {
           "id": "cp6-p1-q2",
           "type": "multi",
           "difficulty": "medium",
-          "fromSection": "a1-19",
-          "stem": "Which of these words in the passage point at or quantify something?",
-          "options": ["Toks", "Kuriame", "Tame pačiame", "Kiekvieną"],
-          "correct": [0, 1, 2, 3],
-          "explanation": "All four. *Toks* is *of that kind*, *kuriame* asks which of several, *tame pačiame* is *the same*, and *kiekvieną* distributes over days. Each agrees with its noun in gender, number and case, as an adjective does.",
-          "rulesTested": ["toks", "kuris", "tas-pats", "visas-kiekvienas"],
-          "vocabUsed": ["toks", "kuris", "tas", "kiekvienas"]
+          "fromSection": "a1-18",
+          "stem": "Which expressions are impersonal?",
+          "options": [
+            "lyja",
+            "šalta",
+            "negalima",
+            "gyvenu"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "*gyvenu* is personal 1 sg. The others have no nominative subject.",
+          "rulesTested": [
+            "impersonal-summary",
+            "weather-verbs",
+            "galima-reikia",
+            "neuter-adjective"
+          ],
+          "vocabUsed": [
+            "lyti",
+            "šaltas",
+            "galima",
+            "gyventi"
+          ]
         },
         {
           "id": "cp6-p1-q3",
+          "type": "single",
+          "difficulty": "hard",
+          "fromSection": "a1-19",
+          "stem": "*tame pačiame name* — what must both words do?",
+          "options": [
+            "Only *tame* declines; *pačiame* is fixed.",
+            "Both decline into the locative agreeing with *name*.",
+            "Both stay nominative.",
+            "Only *pačiame* takes the case."
+          ],
+          "correct": 1,
+          "explanation": "*tas pats* declines throughout: *tame pačiame*.",
+          "rulesTested": [
+            "tas-pats",
+            "sis-tas",
+            "locative-singular"
+          ],
+          "vocabUsed": [
+            "tas",
+            "namas"
+          ]
+        },
+        {
+          "id": "cp6-p1-q4",
           "type": "integer",
           "difficulty": "hard",
+          "fromSection": "a1-19",
+          "stem": "How many negated verbs accompany the two *nieko* forms about the coffee?",
+          "answer": 2,
+          "unit": "verbs",
+          "explanation": "Two: *nemokėsi* and *neimsiu*. Each *nieko* needs its own *ne-*, and the genitive form is required under negation.",
+          "rulesTested": [
+            "niekas-negation",
+            "negation-genitive",
+            "uz-accusative"
+          ],
+          "vocabUsed": [
+            "niekas",
+            "mokėti",
+            "už",
+            "kava"
+          ]
+        },
+        {
+          "id": "cp6-p1-q5",
+          "type": "multi",
+          "difficulty": "hard",
           "fromSection": "a1-20",
-          "stem": "How many prepositions does the passage contain?",
-          "answer": 3,
-          "unit": "prepositions",
-          "explanation": "Three: *po miestą* (accusative, *about*), *virš kavinės* (genitive, *above*), and *pas mane* (accusative, to a person). *negu* is a conjunction and *tada* an adverb, neither of which governs a case.",
-          "rulesTested": ["po-accusative", "virs-vidury", "pas-accusative", "prepositions-review"],
-          "vocabUsed": ["po", "miestas", "virš", "kavinė", "pas", "mane", "negu"]
+          "stem": "About *pas mane*, *už kavą*, *nesijaučiu*, *nesimokau* — which are true?",
+          "options": [
+            "*pas mane* — people take *pas* + accusative.",
+            "*už kavą* — accusative *už* of thanks/payment.",
+            "*nesijaučiu* / *nesimokau* show reflexive affix migration under negation.",
+            "*į mane* would be equally correct for visiting a person."
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "*į* with a person is wrong. Reflexives move *-si-* after *ne-*.",
+          "rulesTested": [
+            "pas-accusative",
+            "uz-accusative",
+            "reflexive-phrases",
+            "direction-i"
+          ],
+          "vocabUsed": [
+            "pas",
+            "aš",
+            "už",
+            "kava",
+            "jaustis",
+            "mokytis",
+            "į"
+          ]
         }
+      ]
+    },
+    {
+      "id": "cp6-p2",
+      "type": "comprehension",
+      "difficulty": "hard",
+      "fromSection": "a1-20",
+      "title": "Po senamiestį",
+      "passage": "Ėjome per tiltą prieš katedrą ir vaikščiojome po aikštę. Vidury aikštės stovėjo žmonės. Paskui buvome pas draugą virš kavinės. „Kaip sekasi?“ — „Gerai, bet dar nesimokau greitai kalbėti lietuviškai. Tokia kalba man įdomu.“ Niekas nieko nesakė priešingai.",
+      "translation": "We went across the bridge in front of the cathedral and walked about the square. In the middle of the square people were standing. Afterwards we were at a friend's above a café. \"How are you getting on?\" — \"Well, but I am not yet learning to speak Lithuanian quickly. Such a language I find interesting.\" Nobody said anything to the contrary.",
+      "glossary": {
+        "aikštė": "square",
+        "stovėjo": "were standing",
+        "priešingai": "to the contrary",
+        "katedra": "cathedral"
+      },
+      "questions": [
+        {
+          "id": "cp6-p2-q1",
+          "type": "multi",
+          "difficulty": "medium",
+          "fromSection": "a1-20",
+          "stem": "Which prepositions here take the accusative?",
+          "options": [
+            "per",
+            "prieš",
+            "po (aikštę)",
+            "vidury"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "*vidury* takes genitive. The other three are accusative place uses.",
+          "rulesTested": [
+            "per-priesa-place",
+            "po-accusative",
+            "virs-vidury",
+            "prepositions-review"
+          ],
+          "vocabUsed": [
+            "per",
+            "prieš",
+            "po",
+            "vidury"
+          ]
+        },
+        {
+          "id": "cp6-p2-q2",
+          "type": "single",
+          "difficulty": "easy",
+          "fromSection": "a1-20",
+          "stem": "*pas draugą virš kavinės* — cases after the prepositions?",
+          "options": [
+            "pas + gen.; virš + acc.",
+            "pas + acc.; virš + gen.",
+            "both genitive",
+            "both accusative"
+          ],
+          "correct": 1,
+          "explanation": "*pas* accusative (person); *virš* genitive (above without contact).",
+          "rulesTested": [
+            "pas-accusative",
+            "virs-vidury"
+          ],
+          "vocabUsed": [
+            "pas",
+            "draugas",
+            "virš",
+            "kavinė"
+          ]
+        },
+        {
+          "id": "cp6-p2-q3",
+          "type": "single",
+          "difficulty": "hard",
+          "fromSection": "a1-19",
+          "stem": "*Tokia kalba man įdomu* — why *tokia* and *įdomu*?",
+          "options": [
+            "*tokia* agrees with *kalba*; *įdomu* is non-gendered impersonal with dative *man*.",
+            "Both must be masculine.",
+            "*įdomu* agrees with *kalba* in the nominative.",
+            "*tokia* is the adverb of *toks*."
+          ],
+          "correct": 0,
+          "explanation": "Demonstrative adjective agrees; the impersonal predicate stays non-gendered.",
+          "rulesTested": [
+            "toks",
+            "neuter-adjective",
+            "personal-vs-impersonal"
+          ],
+          "vocabUsed": [
+            "toks",
+            "man",
+            "įdomus"
+          ]
+        },
+        {
+          "id": "cp6-p2-q4",
+          "type": "integer",
+          "difficulty": "hard",
+          "fromSection": "a1-19",
+          "stem": "**Niekas nieko nesakė** — how many negative elements?",
+          "answer": 3,
+          "unit": "elements",
+          "explanation": "*niekas*, *nieko*, and *ne-* of *nesakė*.",
+          "rulesTested": [
+            "niekas-negation",
+            "negation"
+          ],
+          "vocabUsed": [
+            "niekas",
+            "sakyti"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cp6-x1",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "a1-18",
+      "stem": "Complete: **Man ____.** (I find it difficult.)",
+      "options": [
+        "sunkus",
+        "sunku",
+        "sunki",
+        "sunkiai"
+      ],
+      "correct": 1,
+      "explanation": "Neuter impersonal: *Man sunku.*",
+      "rulesTested": [
+        "neuter-adjective"
+      ],
+      "vocabUsed": [
+        "man",
+        "sunkus"
+      ]
+    },
+    {
+      "id": "cp6-x2",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "a1-18",
+      "stem": "How is *It is snowing* said?",
+      "options": [
+        "Jis sninga.",
+        "Sniga.",
+        "Sniegas eina.",
+        "Yra sniga."
+      ],
+      "correct": 1,
+      "explanation": "Impersonal weather: **Sniga.**",
+      "rulesTested": [
+        "weather-verbs"
+      ],
+      "vocabUsed": [
+        "snigti"
+      ]
+    },
+    {
+      "id": "cp6-x3",
+      "type": "multi",
+      "difficulty": "medium",
+      "fromSection": "a1-18",
+      "stem": "Which are impersonal?",
+      "options": [
+        "Lyja.",
+        "Man reikia eiti.",
+        "Filmas įdomus.",
+        "Negalima rūkyti."
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "*Filmas įdomus* is personal subject + agreeing adjective.",
+      "rulesTested": [
+        "impersonal-summary",
+        "galima-reikia",
+        "personal-vs-impersonal"
+      ],
+      "vocabUsed": [
+        "lyti",
+        "man",
+        "reikia",
+        "eiti",
+        "filmas",
+        "įdomus",
+        "galima",
+        "rūkyti"
+      ]
+    },
+    {
+      "id": "cp6-x4",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a1-18",
+      "stem": "Complete: **Jam skauda ____.** (His leg hurts.)",
+      "options": [
+        "koja",
+        "kojos",
+        "koją",
+        "kojui"
+      ],
+      "correct": 2,
+      "explanation": "Body part accusative: *koją*.",
+      "rulesTested": [
+        "skaudeti"
+      ],
+      "vocabUsed": [
+        "jis",
+        "skaudėti",
+        "koja"
+      ]
+    },
+    {
+      "id": "cp6-x5",
+      "type": "integer",
+      "difficulty": "hard",
+      "fromSection": "a1-18",
+      "stem": "Nominative subjects in **Snigo. Buvo šalta. Man reikėjo dirbti.**?",
+      "answer": 0,
+      "unit": "nominatives",
+      "explanation": "All impersonal — zero nominatives.",
+      "rulesTested": [
+        "impersonal-summary",
+        "weather-verbs",
+        "galima-reikia"
+      ],
+      "vocabUsed": [
+        "snigti",
+        "būti",
+        "šaltas",
+        "man",
+        "reikia",
+        "dirbti"
+      ]
+    },
+    {
+      "id": "cp6-x6",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "a1-19",
+      "stem": "Feminine nominative of **šis**:",
+      "options": [
+        "šis",
+        "ši",
+        "šio",
+        "šią"
+      ],
+      "correct": 1,
+      "explanation": "Feminine nom. sg. **ši**.",
+      "rulesTested": [
+        "sis-tas"
+      ],
+      "vocabUsed": [
+        "šis"
+      ]
+    },
+    {
+      "id": "cp6-x7",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a1-19",
+      "stem": "Complete: **____ aukšte gyveni?** (Which floor…)",
+      "options": [
+        "Kokiame",
+        "Kuriame",
+        "Tokiame",
+        "Visame"
+      ],
+      "correct": 1,
+      "explanation": "**Kuris** for which-of-a-set; locative *kuriame*.",
+      "rulesTested": [
+        "kuris"
+      ],
+      "vocabUsed": [
+        "kuris",
+        "gyventi",
+        "koks",
+        "toks",
+        "visas"
+      ]
+    },
+    {
+      "id": "cp6-x8",
+      "type": "multi",
+      "difficulty": "medium",
+      "fromSection": "a1-19",
+      "stem": "Which are correctly doubled negatives?",
+      "options": [
+        "Niekas nieko nežino.",
+        "Niekas žino.",
+        "Aš niekur neinu.",
+        "Jis niekada nedirba."
+      ],
+      "correct": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "Verb negation stays with negative pronouns/adverbs.",
+      "rulesTested": [
+        "niekas-negation",
+        "negation"
+      ],
+      "vocabUsed": [
+        "niekas",
+        "žinoti",
+        "aš",
+        "niekur",
+        "eiti",
+        "jis",
+        "niekada",
+        "dirbti"
+      ]
+    },
+    {
+      "id": "cp6-x9",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a1-19",
+      "stem": "Complete: **Gyvename ____ bute.** (the same flat)",
+      "options": [
+        "tame pačiame",
+        "tas pats",
+        "tokiame",
+        "aname"
+      ],
+      "correct": 0,
+      "explanation": "Both parts of **tas pats** decline: *tame pačiame bute*.",
+      "rulesTested": [
+        "tas-pats",
+        "locative-singular"
+      ],
+      "vocabUsed": [
+        "gyventi",
+        "tas",
+        "butas",
+        "toks",
+        "anas"
+      ]
+    },
+    {
+      "id": "cp6-x10",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a1-19",
+      "stem": "**Tokia kalba** — *tokia* answers:",
+      "options": [
+        "kuris?",
+        "koks?",
+        "kas?",
+        "kiek?"
+      ],
+      "correct": 1,
+      "explanation": "**Toks/tokia** answers **koks?**.",
+      "rulesTested": [
+        "toks",
+        "koks"
+      ],
+      "vocabUsed": [
+        "toks",
+        "kalba",
+        "kuris",
+        "koks"
+      ]
+    },
+    {
+      "id": "cp6-x11",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "a1-20",
+      "stem": "Complete: **Važiuoju ____ mamą.**",
+      "options": [
+        "į",
+        "pas",
+        "ant",
+        "su"
+      ],
+      "correct": 1,
+      "explanation": "To a person's place: **pas** + accusative.",
+      "rulesTested": [
+        "pas-accusative"
+      ],
+      "vocabUsed": [
+        "važiuoti",
+        "pas",
+        "mama",
+        "į",
+        "ant",
+        "su"
+      ]
+    },
+    {
+      "id": "cp6-x12",
+      "type": "multi",
+      "difficulty": "medium",
+      "fromSection": "a1-20",
+      "stem": "Which preposition–case pairs are right?",
+      "options": [
+        "*ačiū už* + accusative",
+        "*virš* + genitive",
+        "*per* + accusative (across)",
+        "*pas* + genitive"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "**Pas** takes the **accusative**, not genitive.",
+      "rulesTested": [
+        "uz-accusative",
+        "virs-vidury",
+        "per-priesa-place",
+        "pas-accusative"
+      ],
+      "vocabUsed": [
+        "ačiū",
+        "už",
+        "virš",
+        "per",
+        "pas"
+      ]
+    },
+    {
+      "id": "cp6-x13",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a1-20",
+      "stem": "**mokausi** → negated:",
+      "options": [
+        "nemokau",
+        "nesimokau",
+        "nesimokyti",
+        "ne mokausi"
+      ],
+      "correct": 1,
+      "explanation": "Reflexive survives negation: *nesimokau*.",
+      "rulesTested": [
+        "reflexive-phrases",
+        "negation"
+      ],
+      "vocabUsed": [
+        "mokytis"
+      ]
+    },
+    {
+      "id": "cp6-x14",
+      "type": "integer",
+      "difficulty": "hard",
+      "fromSection": "a1-20",
+      "stem": "How many cases can **po** govern at A1?",
+      "answer": 3,
+      "unit": "cases",
+      "explanation": "Genitive, instrumental, accusative.",
+      "rulesTested": [
+        "po-accusative",
+        "prepositions-review"
+      ],
+      "vocabUsed": [
+        "po"
       ]
     }
   ]

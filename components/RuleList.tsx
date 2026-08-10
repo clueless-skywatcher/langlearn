@@ -3,30 +3,47 @@ import { inline } from "@/lib/markdown";
 import { hasTelugu, transliterateTelugu } from "@/lib/translit";
 
 function ParadigmTable({ paradigm }: { paradigm: Paradigm }) {
+  const { columns, rows } = paradigm;
+  // Authors often put the row key both as columns[0] ("case", "figure", …)
+  // and as row.label, leaving cells one short. Treat columns[0] as the label
+  // header in that case so headers and cells line up.
+  const cellsMatchColumns = rows.every((r) => r.cells.length === columns.length);
+  const cellsMatchTail =
+    columns.length > 0 &&
+    rows.every((r) => r.cells.length === columns.length - 1);
+  const labelOwnsFirstColumn = cellsMatchTail && !cellsMatchColumns;
+  const labelHeader = labelOwnsFirstColumn ? columns[0] : null;
+  const dataColumns = labelOwnsFirstColumn ? columns.slice(1) : columns;
+
   return (
-    <figure className="my-4 overflow-x-auto rounded border border-rule bg-raised">
-      <table className="w-full min-w-[24rem] border-collapse text-sm">
+    <figure className="mx-auto my-4 w-fit max-w-full overflow-x-auto rounded border border-rule bg-raised">
+      <table className="border-collapse text-sm">
         <caption className="border-b border-rule px-3 py-2 text-left text-xs uppercase tracking-wide text-ink-faint">
           {paradigm.caption}
         </caption>
         <thead>
           <tr className="border-b border-rule text-left text-xs text-ink-faint">
-            <th className="px-3 py-2 font-medium" />
-            {paradigm.columns.map((c) => (
-              <th key={c} className="px-3 py-2 font-medium">
+            <th className="whitespace-nowrap px-3 py-2 font-medium">
+              {labelHeader}
+            </th>
+            {dataColumns.map((c) => (
+              <th key={c} className="whitespace-nowrap px-3 py-2 font-medium">
                 {c}
               </th>
             ))}
           </tr>
         </thead>
         <tbody>
-          {paradigm.rows.map((row) => (
+          {rows.map((row) => (
             <tr key={row.label} className="border-b border-rule/60 last:border-0">
-              <th className="whitespace-nowrap px-3 py-2 text-left font-normal text-ink-soft">
+              <th className="whitespace-nowrap px-3 py-2 text-left align-top font-normal text-ink-soft">
                 {row.label}
               </th>
               {row.cells.map((cell, i) => (
-                <td key={i} className="target px-3 py-2 not-italic">
+                <td
+                  key={i}
+                  className="target whitespace-nowrap px-3 py-2 align-top not-italic"
+                >
                   {cell}
                 </td>
               ))}
@@ -35,7 +52,7 @@ function ParadigmTable({ paradigm }: { paradigm: Paradigm }) {
         </tbody>
       </table>
       {paradigm.footnote && (
-        <figcaption className="border-t border-rule px-3 py-2 text-xs text-ink-faint">
+        <figcaption className="w-0 min-w-full border-t border-rule px-3 py-2 text-xs leading-relaxed text-ink-faint">
           {inline(paradigm.footnote)}
         </figcaption>
       )}

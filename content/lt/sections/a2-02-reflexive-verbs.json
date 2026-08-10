@@ -1,0 +1,1260 @@
+{
+  "id": "a2-02",
+  "kind": "lesson",
+  "level": "A2",
+  "order": 2,
+  "title": "Reflexive Verbs",
+  "summary": "The full paradigm behind the set phrases of ¶140: how the reflexive affix -si- conjugates in all three tenses, and how it migrates under negation and under prefixes.",
+  "rules": [
+    {
+      "id": "reflexive-affix-full",
+      "number": "149",
+      "heading": "The Reflexive Affix",
+      "statement": "A **reflexive** verb is marked by the affix **-si-** (infinitive **-tis**): *mokyti* \"to teach\", *mokytis* \"to learn\". The affix turns the action back on the doer, or marks a middle meaning that English often renders with a different verb altogether. At A1 the forms were learnt as phrases (¶140); here they are declined in full.",
+      "examples": [
+        {
+          "target": "mokyti → mokytis",
+          "gloss": "to teach → to learn / to study"
+        },
+        {
+          "target": "prausti → praustis",
+          "gloss": "to wash (someone) → to wash oneself"
+        },
+        {
+          "target": "matyti → matytis",
+          "gloss": "to see → to be visible; to meet (reciprocal)"
+        }
+      ],
+      "footnotes": [
+        "Not every *-tis* verb is literally reflexive: *sektis*, *patikti* (non-reflexive), and *atsiprašyti* show that the affix is also a word-forming device. The conjugation, however, is the same."
+      ],
+      "seeAlso": [
+        "reflexive-phrases",
+        "negation"
+      ],
+      "core": true
+    },
+    {
+      "id": "reflexive-present-paradigm",
+      "number": "150",
+      "heading": "The Present of a Reflexive Verb",
+      "statement": "In the present the affix sits **at the end** of the personal form as **-si** (after a vowel) or **-s** is absorbed into the ending. The first person singular ends in **-ausi / -uosi / -iuosi** according to conjugation; the third person in **-asi / -osi / -isi**. Person is marked as on a non-reflexive verb; only the *-si* is added.",
+      "paradigms": [
+        {
+          "caption": "mokytis — present (conj. II pattern)",
+          "columns": [
+            "person",
+            "form",
+            "English"
+          ],
+          "rows": [
+            {
+              "label": "1 sg.",
+              "cells": [
+                "(aš) mokausi",
+                "I learn"
+              ]
+            },
+            {
+              "label": "2 sg.",
+              "cells": [
+                "(tu) mokaisi",
+                "you learn"
+              ]
+            },
+            {
+              "label": "3",
+              "cells": [
+                "(jis/ji) mokosi",
+                "he/she learns"
+              ]
+            },
+            {
+              "label": "1 pl.",
+              "cells": [
+                "(mes) mokomės",
+                "we learn"
+              ]
+            },
+            {
+              "label": "2 pl.",
+              "cells": [
+                "(jūs) mokotės",
+                "you learn"
+              ]
+            },
+            {
+              "label": "3 pl.",
+              "cells": [
+                "(jie/jos) mokosi",
+                "they learn"
+              ]
+            }
+          ],
+          "footnote": "As always, one third-person form serves singular and plural. Further examples: *jaustis → jaučiuosi, jautiesi, jaučiasi*; *praustis → prausiuosi, prausiesi, prausiasi*."
+        }
+      ],
+      "examples": [
+        {
+          "target": "Aš mokausi lietuvių kalbos.",
+          "gloss": "I am learning Lithuanian."
+        },
+        {
+          "target": "Kaip tu jautiesi?",
+          "gloss": "How do you feel?"
+        },
+        {
+          "target": "Vaikai prausiasi.",
+          "gloss": "The children are washing."
+        }
+      ],
+      "seeAlso": [
+        "reflexive-affix-full",
+        "present-conj-ii",
+        "conjugation-summary"
+      ],
+      "core": true
+    },
+    {
+      "id": "reflexive-other-tenses",
+      "number": "151",
+      "heading": "Past and Future Reflexives",
+      "statement": "In the **past** and the **future** the same affix rides at the end: *mokėsi, mokysis*. The past follows the verb's ordinary type (*-o* or *-ė*); the future keeps the *-s-* marker and adds *-i(s)*. The infinitive is always **-tis**.",
+      "paradigms": [
+        {
+          "caption": "mokytis across the tenses (3rd person)",
+          "columns": [
+            "tense",
+            "non-reflexive",
+            "reflexive"
+          ],
+          "rows": [
+            {
+              "label": "infinitive",
+              "cells": [
+                "mokyti",
+                "mokytis"
+              ]
+            },
+            {
+              "label": "present",
+              "cells": [
+                "moko",
+                "mokosi"
+              ]
+            },
+            {
+              "label": "past",
+              "cells": [
+                "mokė",
+                "mokėsi"
+              ]
+            },
+            {
+              "label": "future",
+              "cells": [
+                "mokys",
+                "mokysis"
+              ]
+            }
+          ]
+        },
+        {
+          "caption": "mokytis — past, all persons",
+          "columns": [
+            "person",
+            "form"
+          ],
+          "rows": [
+            {
+              "label": "1 sg.",
+              "cells": [
+                "mokiausi"
+              ]
+            },
+            {
+              "label": "2 sg.",
+              "cells": [
+                "mokėisi"
+              ]
+            },
+            {
+              "label": "3",
+              "cells": [
+                "mokėsi"
+              ]
+            },
+            {
+              "label": "1 pl.",
+              "cells": [
+                "mokėmės"
+              ]
+            },
+            {
+              "label": "2 pl.",
+              "cells": [
+                "mokėtės"
+              ]
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "target": "Vakar mokiausi iki vakaro.",
+          "gloss": "Yesterday I studied until evening."
+        },
+        {
+          "target": "Rytoj mokysiuosi namie.",
+          "gloss": "Tomorrow I shall study at home."
+        },
+        {
+          "target": "Ji jautėsi geriau.",
+          "gloss": "She felt better."
+        }
+      ],
+      "seeAlso": [
+        "past-e-type",
+        "future-formation",
+        "reflexive-present-paradigm"
+      ],
+      "core": true
+    },
+    {
+      "id": "si-under-negation",
+      "number": "152",
+      "heading": "Migration under Negation",
+      "statement": "Under **negation** the affix leaves the end of the word and stands **immediately after *ne-***: *mokausi* but **nesimokau**; *jaučiuosi* but **nesijaučiu**. The personal ending is then the ordinary non-reflexive one. Without this rule a negated reflexive is unrecognisable.",
+      "paradigms": [
+        {
+          "caption": "Affirmative against negated",
+          "columns": [
+            "affirmative",
+            "negated"
+          ],
+          "rows": [
+            {
+              "label": "1 sg. present",
+              "cells": [
+                "mokausi",
+                "nesimokau"
+              ]
+            },
+            {
+              "label": "2 sg. present",
+              "cells": [
+                "mokaisi",
+                "nesimokai"
+              ]
+            },
+            {
+              "label": "3 present",
+              "cells": [
+                "mokosi",
+                "nesimoko"
+              ]
+            },
+            {
+              "label": "1 sg. past",
+              "cells": [
+                "mokiausi",
+                "nesimokiau"
+              ]
+            },
+            {
+              "label": "3 future",
+              "cells": [
+                "mokysis",
+                "nesimokys"
+              ]
+            }
+          ],
+          "footnote": "The same migration appears in set phrases: *atsiprašau* but *neatsiprašau* is a prefixed case (¶153); plain *nesijaučiu* is the bare pattern."
+        }
+      ],
+      "examples": [
+        {
+          "target": "Aš mokausi, bet dar nesimokau rašyti.",
+          "gloss": "I am learning, but I am not yet learning to write."
+        },
+        {
+          "target": "Šiandien nesijaučiu gerai.",
+          "gloss": "Today I do not feel well."
+        },
+        {
+          "target": "Jie nesiprausia rytais.",
+          "gloss": "They do not wash in the mornings."
+        }
+      ],
+      "seeAlso": [
+        "reflexive-phrases",
+        "negation",
+        "reflexive-present-paradigm"
+      ],
+      "core": true
+    },
+    {
+      "id": "si-under-prefix",
+      "number": "153",
+      "heading": "Migration under a Prefix",
+      "statement": "When the verb already carries a **prefix**, the reflexive affix sits **between the prefix and the stem**: *šypsotis* → *nusišypsoti* → *nusišypsau*; *sakyti* → *atsisakyti* → *atsisakau*. Negation then precedes the whole complex: **nenusišypsau**, **neatsisakau**. The order is always *ne- + prefix + -si- + stem*.",
+      "paradigms": [
+        {
+          "caption": "Where -si- stands",
+          "columns": [
+            "kind",
+            "example",
+            "pattern"
+          ],
+          "rows": [
+            {
+              "label": "plain",
+              "cells": [
+                "mokausi",
+                "stem + -si"
+              ]
+            },
+            {
+              "label": "negated plain",
+              "cells": [
+                "nesimokau",
+                "ne- + -si- + stem"
+              ]
+            },
+            {
+              "label": "prefixed",
+              "cells": [
+                "nusišypsau",
+                "prefix + -si- + stem"
+              ]
+            },
+            {
+              "label": "negated prefixed",
+              "cells": [
+                "nenusišypsau",
+                "ne- + prefix + -si- + stem"
+              ]
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "target": "Ji nusišypsojo.",
+          "gloss": "She smiled."
+        },
+        {
+          "target": "Aš atsisakau.",
+          "gloss": "I refuse / I decline."
+        },
+        {
+          "target": "Jis neatsisakė padėti.",
+          "gloss": "He did not refuse to help."
+        }
+      ],
+      "seeAlso": [
+        "si-under-negation",
+        "reflexive-affix-full"
+      ],
+      "core": true
+    },
+    {
+      "id": "reflexive-meanings",
+      "number": "154",
+      "heading": "What the Affix Can Mean",
+      "statement": "The same morphology covers several senses, and the dictionary — not the ending — chooses among them. **True reflexive**: the doer acts on himself (*prausiuosi*). **Reciprocal**: each acts on the other (*matomės*, we meet / see each other). **Middle / lexical**: a new verb whose English counterpart is rarely reflexive (*mokytis* learn, *jaustis* feel, *sektis* go well).",
+      "examples": [
+        {
+          "target": "Prausiuosi šaltu vandeniu.",
+          "gloss": "I wash myself with cold water.",
+          "note": "true reflexive"
+        },
+        {
+          "target": "Mes dažnai matomės.",
+          "gloss": "We meet often.",
+          "note": "reciprocal"
+        },
+        {
+          "target": "Kaip sekasi?",
+          "gloss": "How are you getting on?",
+          "note": "lexical / impersonal"
+        }
+      ],
+      "seeAlso": [
+        "reflexive-affix-full",
+        "reflexive-phrases"
+      ],
+      "core": true
+    },
+    {
+      "id": "reflexive-complements",
+      "number": "155",
+      "heading": "Complements of Reflexive Verbs",
+      "statement": "A reflexive verb may still govern a case. **Mokytis** takes the **genitive** of the subject studied (*mokausi lietuvių kalbos*); **domėtis** and **rūpintis** take the **instrumental** (taught with the unexpected-case verbs of the next section); many true reflexives take no object at all. Do not put an accusative after *mokytis* where English \"learn Lithuanian\" tempts one to.",
+      "examples": [
+        {
+          "target": "Mokausi lietuvių kalbos.",
+          "gloss": "I am learning Lithuanian.",
+          "note": "genitive"
+        },
+        {
+          "target": "Mokausi vairuoti.",
+          "gloss": "I am learning to drive.",
+          "note": "infinitive complement"
+        },
+        {
+          "target": "Jaučiuosi pavargęs.",
+          "gloss": "I feel tired.",
+          "note": "predicative adjective agreeing with the subject"
+        }
+      ],
+      "footnotes": [
+        "*Mokyti* (non-reflexive) takes an accusative of the person taught and often a genitive of the subject: *mokau vaiką matematikos*."
+      ],
+      "seeAlso": [
+        "reflexive-present-paradigm",
+        "genitive-quantity",
+        "complementary-infinitive"
+      ],
+      "core": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "lemma": "praustis",
+      "gloss": "to wash oneself",
+      "pos": "verb",
+      "forms": {
+        "inf": "praustis",
+        "pres3": "prausiasi",
+        "past3": "prausėsi"
+      },
+      "notes": "Reflexive of prausti."
+    },
+    {
+      "lemma": "šypsotis",
+      "gloss": "to smile",
+      "pos": "verb",
+      "forms": {
+        "inf": "šypsotis",
+        "pres3": "šypsosi",
+        "past3": "šypsojosi"
+      }
+    },
+    {
+      "lemma": "nusišypsoti",
+      "gloss": "to give a smile, to smile (once)",
+      "pos": "verb",
+      "forms": {
+        "inf": "nusišypsoti",
+        "pres3": "nusišypso",
+        "past3": "nusišypsojo"
+      },
+      "notes": "Prefixed reflexive: -si- after nu-."
+    },
+    {
+      "lemma": "atsisakyti",
+      "gloss": "to refuse, to decline",
+      "pos": "verb",
+      "forms": {
+        "inf": "atsisakyti",
+        "pres3": "atsisako",
+        "past3": "atsisakė"
+      },
+      "notes": "Prefixed reflexive from sakyti."
+    },
+    {
+      "lemma": "matytis",
+      "gloss": "to meet; to be visible",
+      "pos": "verb",
+      "forms": {
+        "inf": "matytis",
+        "pres3": "matosi",
+        "past3": "matėsi"
+      }
+    },
+    {
+      "lemma": "rengtis",
+      "gloss": "to get dressed",
+      "pos": "verb",
+      "forms": {
+        "inf": "rengtis",
+        "pres3": "rengiasi",
+        "past3": "rengėsi"
+      }
+    },
+    {
+      "lemma": "keltis",
+      "gloss": "to get up",
+      "pos": "verb",
+      "forms": {
+        "inf": "keltis",
+        "pres3": "keliasi",
+        "past3": "kėlėsi"
+      }
+    },
+    {
+      "lemma": "domėtis",
+      "gloss": "to be interested in (+ instr.)",
+      "pos": "verb",
+      "forms": {
+        "inf": "domėtis",
+        "pres3": "domisi",
+        "past3": "domėjosi"
+      }
+    },
+    {
+      "lemma": "rūpintis",
+      "gloss": "to take care of (+ instr.)",
+      "pos": "verb",
+      "forms": {
+        "inf": "rūpintis",
+        "pres3": "rūpinasi",
+        "past3": "rūpinosi"
+      }
+    },
+    {
+      "lemma": "vairuoti",
+      "gloss": "to drive",
+      "pos": "verb",
+      "forms": {
+        "inf": "vairuoti",
+        "pres3": "vairuoja",
+        "past3": "vairavo",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "pavargęs",
+      "gloss": "tired (masc. past participle used predicatively)",
+      "pos": "adjective",
+      "forms": {
+        "masc": "pavargęs",
+        "fem": "pavargusi"
+      }
+    },
+    {
+      "lemma": "atsiprašyti",
+      "gloss": "to apologise, to ask pardon",
+      "pos": "verb",
+      "forms": {
+        "inf": "atsiprašyti",
+        "pres3": "atsiprašo",
+        "past3": "atsiprašė"
+      },
+      "notes": "Source of the set phrase atsiprašau."
+    },
+    {
+      "lemma": "prausimas",
+      "gloss": "washing (noun)",
+      "pos": "noun",
+      "forms": {
+        "nom": "prausimas",
+        "gen": "prausimo",
+        "acc": "prausimą",
+        "gender": "m."
+      }
+    }
+  ],
+  "drills": [
+    {
+      "id": "a202-q1",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "What is the infinitive reflexive corresponding to **mokyti**?",
+      "options": [
+        "mokytis",
+        "mokausi",
+        "moksi",
+        "mokyti-si"
+      ],
+      "correct": 0,
+      "explanation": "The infinitive adds **-tis**: *mokytis*. *mokausi* is already a finite first-person form.",
+      "rulesTested": [
+        "reflexive-affix-full"
+      ],
+      "vocabUsed": [
+        "mokytis"
+      ]
+    },
+    {
+      "id": "a202-q2",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete: **Aš ____ lietuvių kalbos.** (I am learning Lithuanian.)",
+      "options": [
+        "moku",
+        "mokau",
+        "mokausi",
+        "mokosi"
+      ],
+      "correct": 2,
+      "explanation": "*mokausi* is 1 sg. present reflexive. *mokau* would mean \"I teach\"; *moku* \"I know how / I pay\".",
+      "rulesTested": [
+        "reflexive-present-paradigm",
+        "reflexive-complements"
+      ],
+      "vocabUsed": [
+        "mokytis",
+        "kalba"
+      ]
+    },
+    {
+      "id": "a202-q3",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Negate **mokausi**: which form is correct?",
+      "options": [
+        "nemokausi",
+        "nesimokau",
+        "nemokau-si",
+        "mokausi ne"
+      ],
+      "correct": 1,
+      "explanation": "Under negation *-si-* migrates after *ne-*: **nesimokau**. Leaving *-si* at the end (*nemokausi*) is the error the rule exists to prevent.",
+      "rulesTested": [
+        "si-under-negation"
+      ],
+      "vocabUsed": [
+        "mokytis"
+      ]
+    },
+    {
+      "id": "a202-q4",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "What is the 3rd-person past of **mokytis**?",
+      "options": [
+        "mokė",
+        "mokosi",
+        "mokėsi",
+        "mokysis"
+      ],
+      "correct": 2,
+      "explanation": "Past reflexive: *mokėsi*. *mokė* is the non-reflexive past; *mokosi* present; *mokysis* future.",
+      "rulesTested": [
+        "reflexive-other-tenses"
+      ],
+      "vocabUsed": [
+        "mokytis"
+      ]
+    },
+    {
+      "id": "a202-q5",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "In which forms has **-si-** migrated away from the end of the word?",
+      "options": [
+        "nesijaučiu",
+        "nusišypsojo",
+        "jaučiuosi",
+        "neatsisakė"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "Negation and prefixes pull *-si-* forward. Only *jaučiuosi* still has the affix at the end.",
+      "rulesTested": [
+        "si-under-negation",
+        "si-under-prefix"
+      ],
+      "vocabUsed": [
+        "jaustis",
+        "nusišypsoti",
+        "atsisakyti"
+      ]
+    },
+    {
+      "id": "a202-q6",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "**Mes dažnai matomės.** What sense of the reflexive is this?",
+      "options": [
+        "true reflexive (we see ourselves)",
+        "reciprocal (we see / meet each other)",
+        "passive",
+        "future"
+      ],
+      "correct": 1,
+      "explanation": "Reciprocal: each participant is both doer and undergoer. A true reflexive would be one person acting on himself.",
+      "rulesTested": [
+        "reflexive-meanings"
+      ],
+      "vocabUsed": [
+        "matytis",
+        "mes",
+        "dažnai"
+      ]
+    },
+    {
+      "id": "a202-q7",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Mokausi ____.** (I am learning Lithuanian — the language as object.)",
+      "options": [
+        "lietuvių kalbą",
+        "lietuvių kalbos",
+        "lietuvių kalba",
+        "lietuvių kalbai"
+      ],
+      "correct": 1,
+      "explanation": "*mokytis* governs the **genitive** of the subject studied. The accusative is what *mokyti* (to teach) or *mokėti* might lead a learner to write, and it is wrong here.",
+      "rulesTested": [
+        "reflexive-complements"
+      ],
+      "vocabUsed": [
+        "mokytis",
+        "kalba"
+      ]
+    },
+    {
+      "id": "a202-q8",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which statements about prefixed reflexives are **correct**?",
+      "options": [
+        "In *nusišypsau*, -si- stands after the prefix nu-.",
+        "The negation of *atsisakau* is *neatsisakau*.",
+        "The negation of *nusišypsau* is *nesinusišypsau*.",
+        "The order under negation is ne- + prefix + -si- + stem."
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "The wrong third option invents a double migration (*nesi-nu-*). Correct is **nenusišypsau**: *ne-* then *nu-* then *-si-* then the stem.",
+      "rulesTested": [
+        "si-under-prefix",
+        "si-under-negation"
+      ],
+      "vocabUsed": [
+        "nusišypsoti",
+        "atsisakyti"
+      ]
+    },
+    {
+      "id": "a202-q9",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "What is the 1 sg. future of **jaustis**?",
+      "options": [
+        "jausiuosi",
+        "jaučiuosi",
+        "nesijausiu",
+        "jausis"
+      ],
+      "correct": 0,
+      "explanation": "Future stem *jaus-* + 1 sg. + reflexive: **jausiuosi**. *jaučiuosi* is present; *nesijausiu* is the negated future (affix already migrated).",
+      "rulesTested": [
+        "reflexive-other-tenses",
+        "si-under-negation"
+      ],
+      "vocabUsed": [
+        "jaustis"
+      ]
+    },
+    {
+      "id": "a202-q10",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**Prausiuosi** against **mokausi** — same morphology, different meaning type. Which pairing is right?",
+      "options": [
+        "both reciprocal",
+        "prausiuosi true reflexive; mokausi lexical/middle",
+        "both true reflexive",
+        "prausiuosi passive; mokausi reciprocal"
+      ],
+      "correct": 1,
+      "explanation": "*praustis* is washing oneself (true reflexive); *mokytis* is a lexical middle whose English is \"learn\", not \"teach oneself\".",
+      "rulesTested": [
+        "reflexive-meanings",
+        "reflexive-affix-full"
+      ],
+      "vocabUsed": [
+        "praustis",
+        "mokytis"
+      ]
+    },
+    {
+      "id": "a202-q11",
+      "type": "integer",
+      "difficulty": "medium",
+      "stem": "In the present paradigm of **mokytis**, how many **distinct** written forms cover all six person/number slots?",
+      "answer": 5,
+      "unit": "forms",
+      "explanation": "Five: *mokausi, mokaisi, mokosi, mokomės, mokotės*. The third person *mokosi* covers both singular and plural, so six slots but five spellings.",
+      "rulesTested": [
+        "reflexive-present-paradigm"
+      ],
+      "vocabUsed": [
+        "mokytis"
+      ]
+    },
+    {
+      "id": "a202-q12",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "How many times does the letter sequence **si** appear in the correctly negated form of *jaučiuosi* (1 sg. present)?",
+      "answer": 1,
+      "unit": "times",
+      "explanation": "**nesijaučiu** contains one *si*, right after *ne-*. The final *-si* of the affirmative has gone; counting two would mean the affix was left at the end as well.",
+      "rulesTested": [
+        "si-under-negation"
+      ],
+      "vocabUsed": [
+        "jaustis"
+      ]
+    },
+    {
+      "id": "a202-q13",
+      "type": "multi",
+      "difficulty": "easy",
+      "stem": "Which of these are **reflexive** infinitives?",
+      "options": [
+        "mokytis",
+        "keltis",
+        "rengtis",
+        "mokyti"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "*mokyti* is the non-reflexive \"to teach\". The *-tis* ending marks the reflexive infinitive.",
+      "rulesTested": [
+        "reflexive-affix-full"
+      ],
+      "vocabUsed": [
+        "mokytis",
+        "keltis",
+        "rengtis"
+      ]
+    },
+    {
+      "id": "a202-p1",
+      "type": "comprehension",
+      "difficulty": "medium",
+      "title": "Rytas",
+      "passage": "Rytą aš keliuosi anksti, prausiuosi ir rengiuosi. Paskui mokausi lietuvių kalbos valandą, bet kartais nesimokau — tada jaučiuosi blogai. Sesuo nusišypso: „Kaip sekasi?“ — klausia ji. „Gerai, tik nesijaučiu žvali,“ — atsakau. Mes matomės vakare. Ji niekada neatsisako padėti, kai prašau.",
+      "translation": "In the morning I get up early, wash and dress. Afterwards I study Lithuanian for an hour, but sometimes I do not study — then I feel bad. My sister smiles: \"How are you getting on?\" she asks. \"Fine, only I do not feel lively,\" I answer. We meet in the evening. She never refuses to help when I ask.",
+      "glossary": {
+        "žvali": "lively, bright (fem.)",
+        "prašau": "I ask (prašyti)"
+      },
+      "questions": [
+        {
+          "id": "a202-p1-q1",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "Which form in the passage is a **negated** reflexive with migrated *-si-*?",
+          "options": [
+            "mokausi",
+            "nesimokau",
+            "nusišypso",
+            "matomės"
+          ],
+          "correct": 1,
+          "explanation": "*nesimokau* shows *ne- + si + stem*. *nusišypso* is prefixed but affirmative.",
+          "rulesTested": [
+            "si-under-negation"
+          ],
+          "vocabUsed": [
+            "mokytis"
+          ]
+        },
+        {
+          "id": "a202-p1-q2",
+          "type": "multi",
+          "difficulty": "medium",
+          "stem": "Which verbs in the passage are **prefixed** reflexives?",
+          "options": [
+            "nusišypso",
+            "neatsisako",
+            "keliuosi",
+            "prausiuosi"
+          ],
+          "correct": [
+            0,
+            1
+          ],
+          "explanation": "*nu-si-šypso* and *ne-at-si-sako* carry a prefix with *-si-* inside. *keltis* and *praustis* are plain reflexives.",
+          "rulesTested": [
+            "si-under-prefix"
+          ],
+          "vocabUsed": [
+            "nusišypsoti",
+            "atsisakyti",
+            "keltis",
+            "praustis"
+          ]
+        },
+        {
+          "id": "a202-p1-q3",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "**Mes matomės vakare.** What does the reflexive express here?",
+          "options": [
+            "each sees himself",
+            "they meet / see each other",
+            "passive voice",
+            "future intention"
+          ],
+          "correct": 1,
+          "explanation": "Reciprocal use of *matytis*.",
+          "rulesTested": [
+            "reflexive-meanings"
+          ],
+          "vocabUsed": [
+            "matytis",
+            "mes",
+            "vakaras"
+          ]
+        },
+        {
+          "id": "a202-p1-q4",
+          "type": "integer",
+          "difficulty": "hard",
+          "stem": "How many **finite reflexive verb forms** (affirmative or negated) appear in the passage? Count *keliuosi, prausiuosi, rengiuosi, mokausi, nesimokau, jaučiuosi, nusišypso, sekasi, nesijaučiu, matomės, neatsisako*.",
+          "answer": 11,
+          "unit": "forms",
+          "explanation": "Eleven finite reflexives as listed. *atsakau*, *klausia*, and *prašau* are not reflexive.",
+          "rulesTested": [
+            "reflexive-present-paradigm",
+            "si-under-negation",
+            "si-under-prefix"
+          ],
+          "vocabUsed": [
+            "keltis",
+            "praustis",
+            "rengtis",
+            "mokytis",
+            "jaustis",
+            "nusišypsoti",
+            "sektis",
+            "matytis",
+            "atsisakyti"
+          ]
+        },
+        {
+          "id": "a202-p1-q5",
+          "type": "single",
+          "difficulty": "hard",
+          "stem": "Why is it **lietuvių kalbos** after *mokausi*, not *kalbą*?",
+          "options": [
+            "Because *mokytis* takes a genitive complement of the subject studied.",
+            "Because the language is plural.",
+            "Because negation requires the genitive.",
+            "Because *kalba* has no accusative."
+          ],
+          "correct": 0,
+          "explanation": "¶155: *mokytis* + genitive. The verb is affirmative here, so negation-genitive is irrelevant.",
+          "rulesTested": [
+            "reflexive-complements"
+          ],
+          "vocabUsed": [
+            "mokytis",
+            "kalba"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a202-x1",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "What is the 1 sg. present of **praustis**?",
+      "options": [
+        "prausiuosi",
+        "prausiu",
+        "nesiprausiu",
+        "praustis"
+      ],
+      "correct": 0,
+      "explanation": "Present reflexive ends in **-uosi / -ausi**: *prausiuosi*.",
+      "rulesTested": [
+        "reflexive-present-paradigm",
+        "reflexive-affix-full"
+      ],
+      "vocabUsed": [
+        "praustis"
+      ]
+    },
+    {
+      "id": "a202-x2",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete: **Kaip tu ____?** (How do you feel?)",
+      "options": [
+        "jaučiuosi",
+        "jautiesi",
+        "jaučiasi",
+        "nesijauti"
+      ],
+      "correct": 1,
+      "explanation": "Second person singular present: *jautiesi*.",
+      "rulesTested": [
+        "reflexive-present-paradigm"
+      ],
+      "vocabUsed": [
+        "jaustis"
+      ]
+    },
+    {
+      "id": "a202-x3",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "The correct negation of **jaučiuosi** is:",
+      "options": [
+        "nejaučiuosi",
+        "nesijaučiu",
+        "nesijaučiuosi",
+        "jaučiuosi ne"
+      ],
+      "correct": 1,
+      "explanation": "Under negation *-si-* migrates after *ne-*: **nesijaučiu** — ordinary personal ending, no final *-si*.",
+      "rulesTested": [
+        "si-under-negation"
+      ],
+      "vocabUsed": [
+        "jaustis"
+      ]
+    },
+    {
+      "id": "a202-x4",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "What is the 3rd-person future of **mokytis**?",
+      "options": [
+        "mokysis",
+        "mokys",
+        "mokėsi",
+        "nesimokys"
+      ],
+      "correct": 0,
+      "explanation": "Future keeps the *-s-* marker and adds reflexive *-is*: *mokysis*.",
+      "rulesTested": [
+        "reflexive-other-tenses"
+      ],
+      "vocabUsed": [
+        "mokytis"
+      ]
+    },
+    {
+      "id": "a202-x5",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Where does **-si-** sit in **nusišypsojo**?",
+      "options": [
+        "at the end of the word",
+        "between the prefix and the stem",
+        "before the prefix",
+        "it has been dropped"
+      ],
+      "correct": 1,
+      "explanation": "Under a prefix the affix stands **between prefix and stem**: *nu- + -si- + šypsojo*.",
+      "rulesTested": [
+        "si-under-prefix"
+      ],
+      "vocabUsed": [
+        "nusišypsoti"
+      ]
+    },
+    {
+      "id": "a202-x6",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which forms show **-si-** migrated (not sitting at the word end)?",
+      "options": [
+        "nesiprausiu",
+        "atsisakau",
+        "prausiuosi",
+        "nenusišypsau"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "Negation and prefixes pull *-si-* forward. Only *prausiuosi* still has the affix finally.",
+      "rulesTested": [
+        "si-under-negation",
+        "si-under-prefix"
+      ],
+      "vocabUsed": [
+        "praustis",
+        "atsisakyti",
+        "nusišypsoti"
+      ]
+    },
+    {
+      "id": "a202-x7",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Mokausi ____.** (I am learning Lithuanian.)",
+      "options": [
+        "lietuvių kalbą",
+        "lietuvių kalbos",
+        "lietuvių kalba",
+        "lietuvių kalbai"
+      ],
+      "correct": 1,
+      "explanation": "*Mokytis* takes the **genitive** of the subject studied: *mokausi lietuvių kalbos*.",
+      "rulesTested": [
+        "reflexive-complements"
+      ],
+      "vocabUsed": [
+        "mokytis"
+      ]
+    },
+    {
+      "id": "a202-x8",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "What is the 1 sg. past of **mokytis**?",
+      "options": [
+        "mokėsi",
+        "mokiausi",
+        "mokausi",
+        "nesimokiau"
+      ],
+      "correct": 1,
+      "explanation": "Past 1 sg. reflexive: *mokiausi*. *mokėsi* is third person; *mokausi* is present.",
+      "rulesTested": [
+        "reflexive-other-tenses"
+      ],
+      "vocabUsed": [
+        "mokytis"
+      ]
+    },
+    {
+      "id": "a202-x9",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which sense labels fit?",
+      "options": [
+        "prausiuosi — true reflexive",
+        "matomės — reciprocal",
+        "kaip sekasi? — lexical / impersonal middle",
+        "mokausi — always reciprocal"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "*Mokytis* is a lexical middle ('learn'), not reciprocal. Reciprocal needs mutual action (*matomės*).",
+      "rulesTested": [
+        "reflexive-meanings"
+      ],
+      "vocabUsed": [
+        "praustis",
+        "matytis",
+        "mokytis"
+      ]
+    },
+    {
+      "id": "a202-x10",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Negated prefixed form of *nusišypsau* is:",
+      "options": [
+        "nesinusišypsau",
+        "nenusišypsau",
+        "nusišypsau ne",
+        "nenusišypsausi"
+      ],
+      "correct": 1,
+      "explanation": "Order is always *ne- + prefix + -si- + stem*: **nenusišypsau**.",
+      "rulesTested": [
+        "si-under-prefix",
+        "si-under-negation"
+      ],
+      "vocabUsed": [
+        "nusišypsoti"
+      ]
+    },
+    {
+      "id": "a202-x11",
+      "type": "integer",
+      "difficulty": "medium",
+      "stem": "How many times does the letter sequence **si** appear in **nesimokau**?",
+      "answer": 1,
+      "unit": "times",
+      "explanation": "One *si*, right after *ne-*. The final *-si* of *mokausi* is gone.",
+      "rulesTested": [
+        "si-under-negation"
+      ],
+      "vocabUsed": [
+        "mokytis"
+      ]
+    },
+    {
+      "id": "a202-x12",
+      "type": "integer",
+      "difficulty": "easy",
+      "stem": "How many **person/number slots** does the present of a reflexive verb such as *mokytis* fill?",
+      "answer": 6,
+      "unit": "slots",
+      "explanation": "Six. The third-person spelling is shared by singular and plural, but both slots exist.",
+      "rulesTested": [
+        "reflexive-present-paradigm"
+      ],
+      "vocabUsed": [
+        "mokytis"
+      ]
+    },
+    {
+      "id": "a202-x13",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "What is the infinitive of **rengtis**'s non-reflexive pair idea (to dress someone)? Approximate stem:",
+      "options": [
+        "rengti",
+        "rengiasi",
+        "rengtis ne",
+        "atsirengti"
+      ],
+      "correct": 0,
+      "explanation": "Infinitive reflexive **-tis** pairs with non-reflexive **-ti**: *rengti → rengtis*.",
+      "rulesTested": [
+        "reflexive-affix-full"
+      ],
+      "vocabUsed": [
+        "rengtis"
+      ]
+    },
+    {
+      "id": "a202-x14",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which sentences are correctly formed?",
+      "options": [
+        "Šiandien nesijaučiu gerai.",
+        "Aš atsisakau.",
+        "Aš mokausi ne.",
+        "Vaikai prausiasi."
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "Negation must migrate: not *mokausi ne* but *nesimokau*. The others follow ¶152–¶153 and the present paradigm.",
+      "rulesTested": [
+        "si-under-negation",
+        "si-under-prefix",
+        "reflexive-present-paradigm"
+      ],
+      "vocabUsed": [
+        "jaustis",
+        "atsisakyti",
+        "mokytis",
+        "praustis"
+      ]
+    }
+  ]
+}

@@ -5,7 +5,12 @@
   "order": 18,
   "title": "Checkpoint: The Last Cases and the Three Tenses",
   "summary": "A cumulative examination of sections eleven to fourteen: the instrumental and the vocative that complete the declension, the numerals with the hour and the date, and the past and future that complete the indicative.",
-  "covers": ["a1-11", "a1-12", "a1-13", "a1-14"],
+  "covers": [
+    "a1-11",
+    "a1-12",
+    "a1-13",
+    "a1-14"
+  ],
   "passThreshold": 60,
   "drills": [
     {
@@ -13,299 +18,975 @@
       "type": "single",
       "difficulty": "easy",
       "fromSection": "a1-11",
-      "stem": "What is the instrumental singular of **katė**?",
-      "options": ["katei", "kate", "katėje", "katės"],
+      "stem": "Instrumental singular of **katė**?",
+      "options": [
+        "katei",
+        "kate",
+        "katėje",
+        "katės"
+      ],
       "correct": 1,
-      "explanation": "The **-ė** declension makes its instrumental in **-e**: *kate*. *katei* is the dative, *katėje* the locative, *katės* the genitive.",
-      "rulesTested": ["instrumental-singular"],
-      "vocabUsed": ["katė"]
+      "explanation": "*-ė* → instrumental *-e*: *kate*. *katei* dative; *katėje* locative.",
+      "rulesTested": [
+        "instrumental-singular"
+      ],
+      "vocabUsed": [
+        "katė"
+      ]
     },
     {
       "id": "cp4-q2",
       "type": "single",
       "difficulty": "easy",
       "fromSection": "a1-11",
-      "stem": "How would you address **mokytojas**?",
-      "options": ["mokytojas", "mokytojai", "mokytojau", "mokytoje"],
+      "stem": "How do you address **mokytojas**?",
+      "options": [
+        "mokytojas",
+        "mokytojai",
+        "mokytojau",
+        "mokytoje"
+      ],
       "correct": 2,
-      "explanation": "Agent nouns in *-ojas* and *-ėjas* take **-au** in the vocative. *mokytojai* is the nominative plural; an ordinary noun in *-as* would give *-e*, but this class does not.",
-      "rulesTested": ["vocative"],
-      "vocabUsed": ["mokytojas"]
+      "explanation": "Agent *-ojas* → vocative **-au**. *mokytojai* is nominative plural.",
+      "rulesTested": [
+        "vocative"
+      ],
+      "vocabUsed": [
+        "mokytojas"
+      ]
     },
     {
       "id": "cp4-q3",
       "type": "multi",
       "difficulty": "medium",
       "fromSection": "a1-11",
-      "stem": "Which of these correctly use the instrumental?",
+      "stem": "Which correctly use the instrumental?",
       "options": [
         "Važiuoju autobusu.",
         "Einu su draugu.",
         "Rašau su pieštuku.",
         "Sergu gripą."
       ],
-      "correct": [0, 1],
-      "explanation": "A means takes the bare instrumental (*autobusu*), company takes *su* with it (*su draugu*). A pencil is a means and wants no *su*; *sirgti* governs the instrumental, so it must be *sergu gripu*.",
-      "rulesTested": ["instrumental-means", "instrumental-su", "instrumental-verbs"],
-      "vocabUsed": ["važiuoti", "autobusas", "eiti", "su", "draugas", "rašyti", "pieštukas", "sirgti", "gripas"]
+      "correct": [
+        0,
+        1
+      ],
+      "explanation": "Means = bare instrumental; company = *su*+instr. Pencil is means (no *su*); *sirgti* needs *gripu*, not accusative.",
+      "rulesTested": [
+        "instrumental-means",
+        "instrumental-su",
+        "instrumental-verbs"
+      ],
+      "vocabUsed": [
+        "važiuoti",
+        "autobusas",
+        "eiti",
+        "su",
+        "draugas",
+        "rašyti",
+        "pieštukas",
+        "sirgti",
+        "gripas"
+      ]
     },
     {
       "id": "cp4-q4",
       "type": "single",
       "difficulty": "medium",
       "fromSection": "a1-11",
-      "stem": "**Knyga po stalu.** What does the instrumental tell you here?",
+      "stem": "**Knyga po stalu** vs **Po pietų dirbu** — difference?",
       "options": [
-        "That the book is a means.",
-        "That *po* means *under*, of place, rather than *after*, of time.",
-        "That the book belongs to the table.",
-        "That the sentence is in the past."
+        "None.",
+        "Instrumental = under; genitive = after.",
+        "Word order alone.",
+        "First needs *ant*."
       ],
       "correct": 1,
-      "explanation": "*Po* governs two cases with two meanings: instrumental for *under*, genitive for *after*. Only the ending distinguishes *po stalu* from *po pietų*.",
-      "rulesTested": ["instrumental-po"],
-      "vocabUsed": ["knyga", "po", "stalas"]
+      "explanation": "Case selects meaning of *po* (¶75).",
+      "rulesTested": [
+        "instrumental-po",
+        "genitive-prepositions"
+      ],
+      "vocabUsed": [
+        "knyga",
+        "po",
+        "stalas",
+        "dirbti"
+      ]
     },
     {
       "id": "cp4-q5",
       "type": "single",
-      "difficulty": "medium",
+      "difficulty": "hard",
       "fromSection": "a1-11",
-      "stem": "Complete: **Rašau ____.** (I am writing to my friends.)",
-      "options": ["draugais", "draugams", "draugus", "draugų"],
+      "stem": "Dative plural of **knyga**?",
+      "options": [
+        "knygomis",
+        "knygoms",
+        "knygose",
+        "knygų"
+      ],
       "correct": 1,
-      "explanation": "The dative plural ends in **-ms**: *draugams*. *draugais* is the instrumental plural — with friends, not to them.",
-      "rulesTested": ["dative-plural"],
-      "vocabUsed": ["rašyti", "draugas"]
+      "explanation": "Dative pl. *-oms* vs instrumental pl. *-omis*. *knygose* locative; *knygų* genitive.",
+      "rulesTested": [
+        "dative-plural"
+      ],
+      "vocabUsed": [
+        "knyga"
+      ]
     },
     {
       "id": "cp4-q6",
       "type": "integer",
       "difficulty": "hard",
       "fromSection": "a1-11",
-      "stem": "In **Savaitgaliais važiuoju traukiniu pas brolį**, how many words stand in the instrumental?",
-      "answer": 2,
-      "unit": "words",
-      "explanation": "Two: *savaitgaliais*, a plural instrumental of recurring time, and *traukiniu*, the means. *pas brolį* is a preposition with the accusative and has nothing to do with the case.",
-      "rulesTested": ["instrumental-time-route", "instrumental-means", "instrumental-singular"],
-      "vocabUsed": ["savaitgalis", "važiuoti", "traukinys", "brolis"]
+      "stem": "How many letters in vocative **Vytautai**?",
+      "answer": 8,
+      "unit": "letters",
+      "explanation": "Eight. Names in *-as* take **-ai**, not ordinary *-e*.",
+      "rulesTested": [
+        "vocative"
+      ],
+      "vocabUsed": []
     },
     {
       "id": "cp4-q7",
       "type": "single",
       "difficulty": "easy",
       "fromSection": "a1-12",
-      "stem": "Which is **Friday**?",
-      "options": ["ketvirtadienis", "penktadienis", "šeštadienis", "sekmadienis"],
+      "stem": "Complete: **Turiu ____ seseris.**",
+      "options": [
+        "du",
+        "dvi",
+        "dvejos",
+        "dviejų"
+      ],
       "correct": 1,
-      "explanation": "The days count from Monday as the first, so the fifth day is *penktadienis*. Only *sekmadienis* stands outside the pattern.",
-      "rulesTested": ["days-of-week"],
-      "vocabUsed": ["penktadienis", "šeštadienis", "sekmadienis"]
+      "explanation": "Feminine **dvi**, not masculine *du*.",
+      "rulesTested": [
+        "cardinals-one-nine"
+      ],
+      "vocabUsed": [
+        "turėti",
+        "du",
+        "sesuo"
+      ]
     },
     {
       "id": "cp4-q8",
       "type": "single",
       "difficulty": "easy",
       "fromSection": "a1-12",
-      "stem": "Complete: **Čia yra ____ kėdės.** (There are four chairs here.)",
-      "options": ["keturi", "keturios", "keturių", "ketvirtos"],
+      "stem": "**Pusė dešimtos.** What time?",
+      "options": [
+        "10:30",
+        "9:30",
+        "10:00",
+        "9:00"
+      ],
       "correct": 1,
-      "explanation": "*kėdė* is feminine, and the numerals one to nine agree in gender: **keturios**. *ketvirtos* would be the ordinal, *the fourth*.",
-      "rulesTested": ["cardinals-one-nine", "numeral-case"],
-      "vocabUsed": ["čia", "būti", "keturi", "kėdė"]
+      "explanation": "Half of the tenth hour = 9:30.",
+      "rulesTested": [
+        "telling-the-hour",
+        "ordinals"
+      ],
+      "vocabUsed": [
+        "pusė",
+        "dešimtas"
+      ]
     },
     {
       "id": "cp4-q9",
-      "type": "single",
-      "difficulty": "medium",
-      "fromSection": "a1-12",
-      "stem": "**Be penkiolikos dešimta.** What time is it?",
-      "options": ["10:15", "9:45", "10:45", "9:15"],
-      "correct": 1,
-      "explanation": "Literally *without fifteen, the tenth* — a quarter before ten, that is 9:45. The hour named is the one being counted towards, exactly as in *pusė dešimtos* for half past nine.",
-      "rulesTested": ["telling-the-hour", "ordinals"],
-      "vocabUsed": ["be", "penkiolika", "dešimtas"]
-    },
-    {
-      "id": "cp4-q10",
       "type": "multi",
       "difficulty": "medium",
       "fromSection": "a1-12",
-      "stem": "Which of these are **correct**?",
+      "stem": "Which are correct?",
       "options": [
-        "Dvidešimt minučių.",
-        "Dvidešimt minutės.",
-        "Trys minutės.",
-        "Trys minučių."
+        "Penkiolika knygų.",
+        "Penkiolika knygos.",
+        "Dvidešimt vienas namas.",
+        "Dvidešimt vienas namai."
       ],
-      "correct": [0, 2],
-      "explanation": "From ten upwards a numeral fixes its noun in the genitive plural (*minučių*); from one to nine it agrees, so a nominative plural *minutės* follows *trys*.",
-      "rulesTested": ["cardinals-ten-up", "cardinals-one-nine", "numeral-case"],
-      "vocabUsed": ["dvidešimt", "minutė", "trys"]
+      "correct": [
+        0,
+        2
+      ],
+      "explanation": "Teen → genitive plural; last word *vienas* → singular noun.",
+      "rulesTested": [
+        "cardinals-ten-up",
+        "numeral-case",
+        "plural-genitive"
+      ],
+      "vocabUsed": [
+        "penkiolika",
+        "knyga",
+        "dvidešimt",
+        "vienas",
+        "namas"
+      ]
+    },
+    {
+      "id": "cp4-q10",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a1-12",
+      "stem": "How is **the tenth of May** written for a meeting day?",
+      "options": [
+        "gegužė dešimta",
+        "gegužės dešimtą",
+        "gegužei dešimta",
+        "gegužės dešimta"
+      ],
+      "correct": 1,
+      "explanation": "Month genitive + accusative ordinal of time: *gegužės dešimtą* (¶85 / ¶83).",
+      "rulesTested": [
+        "months-and-dates",
+        "accusative-of-time",
+        "ordinals"
+      ],
+      "vocabUsed": [
+        "gegužė",
+        "dešimtas"
+      ]
     },
     {
       "id": "cp4-q11",
-      "type": "single",
+      "type": "multi",
       "difficulty": "hard",
       "fromSection": "a1-12",
-      "stem": "**Londone buvau savaitę.** What does the accusative *savaitę* express?",
+      "stem": "Which correctly pair time preposition + case?",
       "options": [
-        "The day on which he arrived.",
-        "How long he stayed.",
-        "The means of travelling.",
-        "Possession of the week."
+        "prieš valandą — accusative",
+        "per valandą — accusative",
+        "po pietų — accusative",
+        "iki penktos — genitive"
       ],
-      "correct": 1,
-      "explanation": "The accusative of time covers both a point and a stretch; here it is duration, and no word answering to English *for* is used.",
-      "rulesTested": ["accusative-of-time"],
-      "vocabUsed": ["būti", "savaitė"]
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "*po* \"after\" takes genitive, never accusative.",
+      "rulesTested": [
+        "time-prepositions",
+        "genitive-prepositions",
+        "instrumental-po"
+      ],
+      "vocabUsed": [
+        "prieš",
+        "valanda",
+        "per",
+        "po",
+        "iki",
+        "penktas"
+      ]
     },
     {
       "id": "cp4-q12",
-      "type": "single",
+      "type": "integer",
       "difficulty": "hard",
       "fromSection": "a1-12",
-      "stem": "Which is correct for **on the tenth of May**?",
-      "options": ["gegužė dešimta", "gegužės dešimtą", "gegužei dešimta", "dešimta gegužė"],
-      "correct": 1,
-      "explanation": "The month goes into the genitive and the day into the ordinal; because the phrase says *when*, the ordinal takes the accusative of time: *gegužės dešimtą*.",
-      "rulesTested": ["months-and-dates", "accusative-of-time", "ordinals"],
-      "vocabUsed": ["gegužė", "dešimtas"]
+      "stem": "How many weekdays (Mon–Sat) are built on ordinal + *diena*?",
+      "answer": 6,
+      "unit": "days",
+      "explanation": "Six; only *sekmadienis* breaks the pattern.",
+      "rulesTested": [
+        "days-of-week",
+        "ordinals"
+      ],
+      "vocabUsed": [
+        "pirmadienis",
+        "sekmadienis"
+      ]
     },
     {
       "id": "cp4-q13",
       "type": "single",
       "difficulty": "medium",
       "fromSection": "a1-12",
-      "stem": "Which preposition of time takes the **accusative**?",
-      "options": ["po", "iki", "nuo", "prieš"],
-      "correct": 3,
-      "explanation": "*prieš valandą*, an hour ago, and *per valandą*, within an hour, both take the accusative. *po*, *iki* and *nuo* all take the genitive.",
-      "rulesTested": ["time-prepositions", "genitive-prepositions"],
-      "vocabUsed": ["po", "iki", "nuo", "prieš", "valanda"]
+      "stem": "**Pirmadienį** vs **pirmadieniais**?",
+      "options": [
+        "Interchangeable.",
+        "One occasion vs habit.",
+        "Past vs future.",
+        "Polite vs familiar."
+      ],
+      "correct": 1,
+      "explanation": "Accusative = once; plural instrumental = as a rule.",
+      "rulesTested": [
+        "accusative-of-time",
+        "instrumental-time-route"
+      ],
+      "vocabUsed": [
+        "pirmadienis"
+      ]
     },
     {
       "id": "cp4-q14",
       "type": "single",
       "difficulty": "easy",
       "fromSection": "a1-13",
-      "stem": "**gyventi, gyvena, gyveno.** What is *we lived*?",
-      "options": ["gyvename", "gyvenome", "gyvenome namie", "gyveno"],
+      "stem": "**dirbti, dirba, dirbo.** *I worked*?",
+      "options": [
+        "dirbu",
+        "dirbau",
+        "dirbo",
+        "dirbome"
+      ],
       "correct": 1,
-      "explanation": "The third principal part *gyveno* is an *-o* past, so the first person plural is **gyvenome**. *gyvename* is the present.",
-      "rulesTested": ["past-stem", "past-o-type"],
-      "vocabUsed": ["gyventi"]
+      "explanation": "*-o* past → *dirbau*.",
+      "rulesTested": [
+        "past-stem",
+        "past-o-type"
+      ],
+      "vocabUsed": [
+        "dirbti"
+      ]
     },
     {
       "id": "cp4-q15",
       "type": "single",
-      "difficulty": "medium",
+      "difficulty": "easy",
       "fromSection": "a1-13",
-      "stem": "**matyti, mato, matė.** What is *I saw*?",
-      "options": ["matiau", "mačiau", "matau", "matė"],
+      "stem": "**skaityti, skaito, skaitė.** *I read* (past)?",
+      "options": [
+        "skaitiau",
+        "skaičiau",
+        "skaitau",
+        "skaitė"
+      ],
       "correct": 1,
-      "explanation": "An *-ė* past takes **-iau**, and the *-iau* softens the preceding **t** to *č*: *mačiau*. *matau* is the present.",
-      "rulesTested": ["past-e-type"],
-      "vocabUsed": ["matyti"]
+      "explanation": "*-ė* + *-iau* with *t→č*: *skaičiau*.",
+      "rulesTested": [
+        "past-e-type"
+      ],
+      "vocabUsed": [
+        "skaityti"
+      ]
     },
     {
       "id": "cp4-q16",
       "type": "multi",
       "difficulty": "medium",
       "fromSection": "a1-13",
-      "stem": "Which of these are correct past forms of **būti**?",
-      "options": ["buvau", "buvome", "esu", "buvo"],
-      "correct": [0, 1, 3],
-      "explanation": "*esu* is the present. *būti* is perfectly regular in the past, taking the *-o* endings on *buvo*, and unlike the present it can never be left out.",
-      "rulesTested": ["past-buti", "past-o-type"],
-      "vocabUsed": ["būti"]
+      "stem": "Which are past forms?",
+      "options": [
+        "mačiau",
+        "matau",
+        "valgėme",
+        "gyvena"
+      ],
+      "correct": [
+        0,
+        2
+      ],
+      "explanation": "*mačiau* and *valgėme* past; others present.",
+      "rulesTested": [
+        "past-e-type",
+        "past-stem"
+      ],
+      "vocabUsed": [
+        "matyti",
+        "valgyti",
+        "gyventi"
+      ]
     },
     {
       "id": "cp4-q17",
       "type": "single",
-      "difficulty": "hard",
+      "difficulty": "medium",
       "fromSection": "a1-13",
-      "stem": "Complete: **Vakar nevalgiau ____.** (Yesterday I did not eat the bread.)",
-      "options": ["duona", "duoną", "duonos", "duonai"],
+      "stem": "Complete: **Ji neskaitė ____.**",
+      "options": [
+        "knyga",
+        "knygą",
+        "knygos",
+        "knygai"
+      ],
       "correct": 2,
-      "explanation": "A negated verb takes its object in the genitive, and the past tense alters nothing: *duonos*. Losing the genitive of negation when the tense changes is a standing trap.",
-      "rulesTested": ["past-negation", "negation-genitive"],
-      "vocabUsed": ["vakar", "valgyti", "duona"]
+      "explanation": "Negation → genitive object in the past too.",
+      "rulesTested": [
+        "past-negation",
+        "negation-genitive"
+      ],
+      "vocabUsed": [
+        "ji",
+        "skaityti",
+        "knyga"
+      ]
     },
     {
       "id": "cp4-q18",
       "type": "single",
-      "difficulty": "medium",
+      "difficulty": "hard",
       "fromSection": "a1-13",
-      "stem": "*Dirbau* can render three English tenses. Which three?",
+      "stem": "**Jis buvo mokytojas.** Why nominative?",
       "options": [
-        "I work, I shall work, I would work.",
-        "I worked, I was working, I have worked.",
-        "I work, I am working, I have worked.",
-        "I had worked, I would have worked, I work."
+        "Past governs nominative.",
+        "Predicate noun after *būti* is nominative.",
+        "*mokytojas* has no accusative.",
+        "Because of negation."
       ],
       "correct": 1,
-      "explanation": "Lithuanian has one past where English divides into simple, continuous and perfect. An adverb or the context supplies whatever difference is wanted.",
-      "rulesTested": ["past-narrative", "past-o-type"],
-      "vocabUsed": ["dirbti"]
+      "explanation": "*būti* links; predicate nominative holds in past (¶91).",
+      "rulesTested": [
+        "past-buti",
+        "predicate-nominative"
+      ],
+      "vocabUsed": [
+        "jis",
+        "būti",
+        "mokytojas"
+      ]
     },
     {
       "id": "cp4-q19",
-      "type": "single",
-      "difficulty": "easy",
-      "fromSection": "a1-14",
-      "stem": "What is the future of **skaityti** in the first person singular?",
-      "options": ["skaitau", "skaičiau", "skaitysiu", "skaitys"],
-      "correct": 2,
-      "explanation": "Infinitive stem *skaity-* plus **-s-** plus **-iu**: *skaitysiu*. *skaitys* is the third person, *skaičiau* the past.",
-      "rulesTested": ["future-formation"],
-      "vocabUsed": ["skaityti"]
+      "type": "integer",
+      "difficulty": "hard",
+      "fromSection": "a1-13",
+      "stem": "Distinct written past forms across six persons?",
+      "answer": 5,
+      "unit": "forms",
+      "explanation": "Five — third person shared by both numbers.",
+      "rulesTested": [
+        "past-o-type",
+        "verb-number"
+      ],
+      "vocabUsed": [
+        "dirbti"
+      ]
     },
     {
       "id": "cp4-q20",
-      "type": "multi",
+      "type": "single",
       "difficulty": "medium",
-      "fromSection": "a1-14",
-      "stem": "In which of these does the stem alter before the **-s-** of the future?",
-      "options": ["grįžti", "vesti", "kalbėti", "dirbti"],
-      "correct": [0, 1],
-      "explanation": "*grįž-* absorbs the marker to give *grįš-*, and *ved-* has its d turn to s. A vowel stem like *kalbė-* and a stem in b like *dirb-* are untouched.",
-      "rulesTested": ["future-consonant-changes", "future-formation"],
-      "vocabUsed": ["grįžti", "vesti", "kalbėti", "dirbti"]
+      "fromSection": "a1-13",
+      "stem": "Why can *dirbau* be three English tenses?",
+      "options": [
+        "Person ambiguity.",
+        "One Lithuanian past covers simple, continuous and perfect.",
+        "It is also present.",
+        "*-au* is shared by two conjugations."
+      ],
+      "correct": 1,
+      "explanation": "Context/adverbs supply the English nuance (¶93).",
+      "rulesTested": [
+        "past-narrative",
+        "past-o-type"
+      ],
+      "vocabUsed": [
+        "dirbti"
+      ]
     },
     {
       "id": "cp4-q21",
       "type": "single",
+      "difficulty": "easy",
+      "fromSection": "a1-14",
+      "stem": "Future 1sg of **dirbti**?",
+      "options": [
+        "dirbu",
+        "dirbau",
+        "dirbsiu",
+        "dirbs"
+      ],
+      "correct": 2,
+      "explanation": "*dirb-* + *-s-* + *-iu*.",
+      "rulesTested": [
+        "future-formation"
+      ],
+      "vocabUsed": [
+        "dirbti"
+      ]
+    },
+    {
+      "id": "cp4-q22",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a1-14",
+      "stem": "Why *grįšiu*, not *grįžsiu*?",
+      "options": [
+        "Irregular verb.",
+        "ž merges with -s- into š.",
+        "1sg always drops a consonant.",
+        "No future."
+      ],
+      "correct": 1,
+      "explanation": "Stems in s/z/š/ž absorb the marker (¶95).",
+      "rulesTested": [
+        "future-consonant-changes"
+      ],
+      "vocabUsed": [
+        "grįžti"
+      ]
+    },
+    {
+      "id": "cp4-q23",
+      "type": "multi",
+      "difficulty": "medium",
+      "fromSection": "a1-14",
+      "stem": "Which futures are correctly formed?",
+      "options": [
+        "važiuosime",
+        "mesiu",
+        "būsite",
+        "grįžsi"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "*grįžsi* → should be **grįši**.",
+      "rulesTested": [
+        "future-formation",
+        "future-consonant-changes",
+        "future-buti"
+      ],
+      "vocabUsed": [
+        "važiuoti",
+        "grįžti",
+        "būti"
+      ]
+    },
+    {
+      "id": "cp4-q24",
+      "type": "single",
       "difficulty": "hard",
       "fromSection": "a1-14",
-      "stem": "Complete: **Rytoj nepirksiu šios ____.** (Tomorrow I shall not buy this book.)",
-      "options": ["knyga", "knygą", "knygos", "knygai"],
+      "stem": "**Kai grįšiu, skambinsiu.** Why future after *kai*?",
+      "options": [
+        "*kai* governs future.",
+        "Lithuanian uses future for future meaning in both halves; English often uses present after *when*.",
+        "*grįžti* has no present.",
+        "Verbs must match."
+      ],
+      "correct": 1,
+      "explanation": "Lithuanian says what it means (¶98).",
+      "rulesTested": [
+        "future-uses",
+        "future-formation"
+      ],
+      "vocabUsed": [
+        "kai",
+        "grįžti",
+        "skambinti"
+      ]
+    },
+    {
+      "id": "cp4-q25",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "a1-14",
+      "stem": "Complete: **Aš nepirksiu šios ____.**",
+      "options": [
+        "knyga",
+        "knygą",
+        "knygos",
+        "knygai"
+      ],
       "correct": 2,
-      "explanation": "The genitive of negation holds in every tense, the future included: *knygos*, with *šios* agreeing in the genitive beside it. A learner who writes *knygą* has carried the affirmative construction across the negative.",
-      "rulesTested": ["future-negation", "negation-genitive", "future-formation"],
-      "vocabUsed": ["rytoj", "pirkti", "šis", "knyga"]
+      "explanation": "Future negation → genitive object.",
+      "rulesTested": [
+        "future-negation",
+        "negation-genitive"
+      ],
+      "vocabUsed": [
+        "aš",
+        "pirkti",
+        "šis",
+        "knyga"
+      ]
+    },
+    {
+      "id": "cp4-q26",
+      "type": "integer",
+      "difficulty": "hard",
+      "fromSection": "a1-14",
+      "stem": "Present + past + future: how many distinct personal-ending **sets**?",
+      "answer": 6,
+      "unit": "sets",
+      "explanation": "3 present + 2 past + 1 future = 6.",
+      "rulesTested": [
+        "future-formation",
+        "past-o-type",
+        "past-e-type",
+        "conjugation-summary"
+      ],
+      "vocabUsed": []
+    },
+    {
+      "id": "cp4-x1",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "a1-11",
+      "stem": "Instrumental singular of **autobusas**?",
+      "options": [
+        "autobusui",
+        "autobusu",
+        "autobuso",
+        "autobusą"
+      ],
+      "correct": 1,
+      "explanation": "*-as* → **-u**: *autobusu* (¶71).",
+      "rulesTested": [
+        "instrumental-singular"
+      ],
+      "vocabUsed": [
+        "autobusas"
+      ]
+    },
+    {
+      "id": "cp4-x2",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "a1-12",
+      "stem": "Complete: **Turiu ____ seseris.**",
+      "options": [
+        "du",
+        "dvi",
+        "dviejų",
+        "trys"
+      ],
+      "correct": 1,
+      "explanation": "Feminine **dvi** (¶79).",
+      "rulesTested": [
+        "cardinals-one-nine"
+      ],
+      "vocabUsed": [
+        "turėti",
+        "du",
+        "sesuo"
+      ]
+    },
+    {
+      "id": "cp4-x3",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "a1-13",
+      "stem": "Past 1sg of **dirbti** (*dirbo*)?",
+      "options": [
+        "dirbu",
+        "dirbau",
+        "dirbo",
+        "dirbsiu"
+      ],
+      "correct": 1,
+      "explanation": "*-o* type → *dirbau* (¶89).",
+      "rulesTested": [
+        "past-o-type",
+        "past-stem"
+      ],
+      "vocabUsed": [
+        "dirbti"
+      ]
+    },
+    {
+      "id": "cp4-x4",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "a1-14",
+      "stem": "Future 1sg of **dirbti**?",
+      "options": [
+        "dirbu",
+        "dirbau",
+        "dirbsiu",
+        "dirbs"
+      ],
+      "correct": 2,
+      "explanation": "*dirb-* + *-s-* + *-iu* (¶94).",
+      "rulesTested": [
+        "future-formation"
+      ],
+      "vocabUsed": [
+        "dirbti"
+      ]
+    },
+    {
+      "id": "cp4-x5",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a1-11",
+      "stem": "Complete: **Gyvenu ____ broliu.**",
+      "options": [
+        "į",
+        "su",
+        "ant",
+        "be"
+      ],
+      "correct": 1,
+      "explanation": "Company = *su* + instrumental (¶74).",
+      "rulesTested": [
+        "instrumental-su"
+      ],
+      "vocabUsed": [
+        "gyventi",
+        "su",
+        "brolis"
+      ]
+    },
+    {
+      "id": "cp4-x6",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a1-12",
+      "stem": "Complete: **Penkiolika ____.**",
+      "options": [
+        "vaikai",
+        "vaikus",
+        "vaikų",
+        "vaikas"
+      ],
+      "correct": 2,
+      "explanation": "Ten-up → genitive plural (¶80).",
+      "rulesTested": [
+        "cardinals-ten-up"
+      ],
+      "vocabUsed": [
+        "penkiolika",
+        "vaikas"
+      ]
+    },
+    {
+      "id": "cp4-x7",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a1-13",
+      "stem": "Complete: **Vakar ____ namie.**",
+      "options": [
+        "esu",
+        "buvau",
+        "būsiu",
+        "bus"
+      ],
+      "correct": 1,
+      "explanation": "Past of *būti*: *buvau* (¶91).",
+      "rulesTested": [
+        "past-buti"
+      ],
+      "vocabUsed": [
+        "vakar",
+        "būti",
+        "namie"
+      ]
+    },
+    {
+      "id": "cp4-x8",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a1-14",
+      "stem": "Future 1sg of **grįžti**?",
+      "options": [
+        "grįžsiu",
+        "grįšiu",
+        "grįžiu",
+        "grįš"
+      ],
+      "correct": 1,
+      "explanation": "*ž* merges with *-s-*: *grįšiu* (¶95).",
+      "rulesTested": [
+        "future-consonant-changes"
+      ],
+      "vocabUsed": [
+        "grįžti"
+      ]
+    },
+    {
+      "id": "cp4-x9",
+      "type": "multi",
+      "difficulty": "medium",
+      "fromSection": "a1-11",
+      "stem": "Which are **correct**?",
+      "options": [
+        "Rašau pieštuku.",
+        "Važiuoju autobusu.",
+        "Rašau su pieštuku.",
+        "Einu su draugu."
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "Means bare; company with *su*. *Rašau su pieštuku* is the near-miss (¶73–74).",
+      "rulesTested": [
+        "instrumental-means",
+        "instrumental-su"
+      ],
+      "vocabUsed": [
+        "rašyti",
+        "pieštukas",
+        "važiuoti",
+        "autobusas",
+        "su",
+        "eiti",
+        "draugas"
+      ]
+    },
+    {
+      "id": "cp4-x10",
+      "type": "multi",
+      "difficulty": "medium",
+      "fromSection": "a1-12",
+      "stem": "Which are **correct**?",
+      "options": [
+        "Šeštadienį nedirbu.",
+        "Dvidešimt vienas namas.",
+        "Dvidešimt vienas namai.",
+        "Kelinta valanda?"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "Last-word rule needs singular *namas* (¶80, ¶84, ¶82).",
+      "rulesTested": [
+        "days-of-week",
+        "cardinals-ten-up",
+        "telling-the-hour"
+      ],
+      "vocabUsed": [
+        "šeštadienis",
+        "dirbti",
+        "dvidešimt",
+        "vienas",
+        "namas",
+        "kelintas",
+        "valanda"
+      ]
+    },
+    {
+      "id": "cp4-x11",
+      "type": "multi",
+      "difficulty": "medium",
+      "fromSection": "a1-13",
+      "stem": "Which are **past**?",
+      "options": [
+        "mačiau",
+        "valgėme",
+        "gyvenome",
+        "gyvena"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "*gyvena* is present (¶89–90).",
+      "rulesTested": [
+        "past-e-type",
+        "past-o-type"
+      ],
+      "vocabUsed": [
+        "matyti",
+        "valgyti",
+        "gyventi"
+      ]
+    },
+    {
+      "id": "cp4-x12",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "a1-14",
+      "stem": "Complete: **Rytoj ____ šios knygos.** (I shall not buy this book.)",
+      "options": [
+        "nepirksiu",
+        "nepirkau",
+        "neperku",
+        "nepirks"
+      ],
+      "correct": 0,
+      "explanation": "Future negation + genitive object (¶97).",
+      "rulesTested": [
+        "future-negation"
+      ],
+      "vocabUsed": [
+        "rytoj",
+        "pirkti",
+        "šis",
+        "knyga"
+      ]
+    },
+    {
+      "id": "cp4-x13",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "a1-11",
+      "stem": "Complete: **Aš sergu ____.**",
+      "options": [
+        "gripą",
+        "gripu",
+        "gripo",
+        "gripas"
+      ],
+      "correct": 1,
+      "explanation": "*sirgti* + instrumental (¶77).",
+      "rulesTested": [
+        "instrumental-verbs"
+      ],
+      "vocabUsed": [
+        "sirgti",
+        "gripas",
+        "aš"
+      ]
+    },
+    {
+      "id": "cp4-x14",
+      "type": "multi",
+      "difficulty": "hard",
+      "fromSection": "a1-12",
+      "stem": "Which of these numerals force the noun into the **genitive plural**?",
+      "explanation": "*dešimt* and *penkiolika*. Numbers two to nine agree; ten and up take genitive plural.",
+      "rulesTested": [
+        "cardinals-one-nine",
+        "cardinals-ten-up"
+      ],
+      "vocabUsed": [
+        "du",
+        "dešimt",
+        "penkiolika",
+        "trys",
+        "penki"
+      ],
+      "options": [
+        "du",
+        "dešimt",
+        "penkiolika",
+        "trys"
+      ],
+      "correct": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "cp4-x15",
+      "type": "integer",
+      "difficulty": "hard",
+      "fromSection": "a1-13",
+      "stem": "Letters in past 1sg **buvau**?",
+      "answer": 5,
+      "unit": "letters",
+      "explanation": "Five: b-u-v-a-u (¶91).",
+      "rulesTested": [
+        "past-buti"
+      ],
+      "vocabUsed": [
+        "būti"
+      ]
     },
     {
       "id": "cp4-p1",
       "type": "comprehension",
-      "difficulty": "medium",
-      "fromSection": "a1-13",
-      "title": "Pernai ir kitąmet",
-      "passage": "Pernai birželį mes buvome Klaipėdoje. Važiavome traukiniu; kelionė truko keturias valandas. Ten gyvenome savaitę, valgėme žuvį ir kasdien ėjome prie jūros. Vakarais buvo vėsu, todėl nešiojau striukę. Aš nepirkau suvenyrų — pinigų buvo mažai. Kitą vasarą grįšime; važiuosime autobusu, nes bilietai bus pigesni, ir būsime ten dvi savaites.",
-      "translation": "Last year in June we were in Klaipėda. We travelled by train; the journey took four hours. We lived there for a week, ate fish and went to the sea every day. In the evenings it was cool, so I wore a jacket. I did not buy any souvenirs — there was little money. Next summer we shall return; we shall go by bus, because the tickets will be cheaper, and we shall be there for two weeks.",
+      "difficulty": "hard",
+      "fromSection": "a1-14",
+      "title": "Savaitgalio planai",
+      "passage": "Vakar buvau namie ir skaičiau knygą. Šiandien dirbu, o rytoj važiuosiu į Kauną su broliu. Važiuosime traukiniu. Savaitgaliais mes dažnai einame į kavinę; šeštadienį susitiksime antrą valandą. Kai grįšiu, skambinsiu mamai. Aš nepirksiu naujo dviračio — man nereikia dviračio. Po pietų katė miegos po stalu.",
+      "translation": "Yesterday I was at home and read a book. Today I work, and tomorrow I shall go to Kaunas with my brother. We shall go by train. At weekends we often go to a café; on Saturday we shall meet at two o'clock. When I get back, I shall ring mother. I shall not buy a new bicycle — I do not need a bicycle. After lunch the cat will sleep under the table.",
       "glossary": {
-        "Klaipėda": "Klaipėda (a port city)",
-        "truko": "took, lasted (trukti)",
-        "žuvis": "fish",
-        "kasdien": "every day",
-        "vėsu": "cool",
-        "todėl": "therefore, so",
-        "nešiojau": "I wore (nešioti)",
-        "striukė": "jacket",
-        "suvenyras": "souvenir",
-        "mažai": "little, few",
-        "bilietas": "ticket",
-        "pigesni": "cheaper"
+        "susitiksime": "we shall meet (susitikti)",
+        "miegos": "will sleep"
       },
       "questions": [
         {
@@ -313,41 +994,121 @@
           "type": "single",
           "difficulty": "easy",
           "fromSection": "a1-13",
-          "stem": "Kur jie buvo pernai?",
-          "options": ["Vilniuje", "Kaune", "Klaipėdoje", "prie jūros Palangoje"],
-          "correct": 2,
-          "explanation": "*Pernai birželį mes buvome Klaipėdoje* — a locative of place with the past of *būti*, which unlike the present can never be omitted.",
-          "rulesTested": ["past-buti", "locative-singular"],
-          "vocabUsed": ["pernai", "būti", "Vilnius", "Kaunas"]
+          "stem": "Kur buvau vakar?",
+          "options": [
+            "Kaune",
+            "namie",
+            "kavinėje",
+            "traukinyje"
+          ],
+          "correct": 1,
+          "explanation": "*Vakar buvau namie.*",
+          "rulesTested": [
+            "past-buti",
+            "place-adverbs",
+            "past-narrative"
+          ],
+          "vocabUsed": [
+            "vakar",
+            "būti",
+            "namie"
+          ]
         },
         {
           "id": "cp4-p1-q2",
           "type": "multi",
           "difficulty": "medium",
-          "fromSection": "a1-14",
-          "stem": "Which statements about the last sentence of the passage are correct?",
+          "fromSection": "a1-11",
+          "stem": "Which instrumental uses appear?",
           "options": [
-            "*grįšime* shows a stem whose final consonant merged with the -s- marker.",
-            "*važiuosime* keeps its stem unchanged because it ends in a vowel.",
-            "*bus* is the third person and would be the same for a plural subject.",
-            "*dvi savaites* is a genitive of quantity."
+            "su broliu — company",
+            "traukiniu — means",
+            "po stalu — under",
+            "antra valanda — means"
           ],
-          "correct": [0, 1, 2],
-          "explanation": "*dvi savaites* is an **accusative** of duration: the numeral agrees with its noun, and the phrase says how long. A genitive would appear only after a numeral of ten or more.",
-          "rulesTested": ["future-uses", "future-consonant-changes", "future-formation", "future-buti", "accusative-of-time", "cardinals-one-nine"],
-          "vocabUsed": ["grįžti", "važiuoti", "būti", "du", "savaitė"]
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "*antrą valandą* is accusative of time, not instrumental. The first three are company, means, and *po*+instrumental.",
+          "rulesTested": [
+            "instrumental-su",
+            "instrumental-means",
+            "instrumental-po"
+          ],
+          "vocabUsed": [
+            "su",
+            "brolis",
+            "traukinys",
+            "po",
+            "stalas",
+            "valanda"
+          ]
         },
         {
           "id": "cp4-p1-q3",
           "type": "integer",
           "difficulty": "hard",
+          "fromSection": "a1-12",
+          "stem": "At what o'clock do they meet on Saturday? (hour number)",
+          "answer": 2,
+          "unit": "o'clock",
+          "explanation": "*antrą valandą* — two o'clock, accusative of time.",
+          "rulesTested": [
+            "telling-the-hour",
+            "accusative-of-time",
+            "ordinals"
+          ],
+          "vocabUsed": [
+            "antras",
+            "valanda"
+          ]
+        },
+        {
+          "id": "cp4-p1-q4",
+          "type": "single",
+          "difficulty": "hard",
           "fromSection": "a1-14",
-          "stem": "How many **future** verb forms does the passage contain?",
-          "answer": 4,
+          "stem": "**Kai grįšiu, skambinsiu mamai.** Why *grįšiu* not *grįžiu*?",
+          "options": [
+            "Present after *kai*.",
+            "Future of *grįžti*: ž+s → š, and Lithuanian uses future in the *kai*-clause.",
+            "Past tense.",
+            "Dative forces future."
+          ],
+          "correct": 1,
+          "explanation": "Consonant absorption + future-in-both-halves (¶95 / ¶98).",
+          "rulesTested": [
+            "future-consonant-changes",
+            "future-uses",
+            "dative-endings"
+          ],
+          "vocabUsed": [
+            "kai",
+            "grįžti",
+            "skambinti",
+            "mama"
+          ]
+        },
+        {
+          "id": "cp4-p1-q5",
+          "type": "integer",
+          "difficulty": "hard",
+          "fromSection": "a1-14",
+          "stem": "How many **negated** verbs appear in the passage?",
+          "answer": 2,
           "unit": "verbs",
-          "explanation": "Four: *grįšime*, *važiuosime*, *bus* and *būsime*. Everything before the last sentence is past, and the whole of the future is marked by the one letter **s** between stem and ending.",
-          "rulesTested": ["future-formation", "future-consonant-changes", "future-buti"],
-          "vocabUsed": ["grįžti", "važiuoti", "būti"]
+          "explanation": "Two: *nepirksiu* and *nereikia*.",
+          "rulesTested": [
+            "future-negation",
+            "reikia",
+            "negation"
+          ],
+          "vocabUsed": [
+            "pirkti",
+            "reikia"
+          ]
         }
       ]
     }

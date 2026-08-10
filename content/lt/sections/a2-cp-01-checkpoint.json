@@ -1,0 +1,1054 @@
+{
+  "id": "a2-cp-01",
+  "kind": "checkpoint",
+  "level": "A2",
+  "order": 4,
+  "title": "Checkpoint: Cases, Reflexives, and Case Government",
+  "summary": "A cumulative examination of the first A2 block: the five declensions in full, the reflexive verb paradigm with -si- migration, and the new prepositions and unexpected case governors.",
+  "covers": [
+    "a2-01",
+    "a2-02",
+    "a2-03"
+  ],
+  "passThreshold": 60,
+  "drills": [
+    {
+      "id": "a2cp1-q1",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "a2-01",
+      "stem": "*Akis, akies* belongs to which declension?",
+      "options": [
+        "I",
+        "II",
+        "III",
+        "IV"
+      ],
+      "correct": 2,
+      "explanation": "Genitive *-ies* marks the **third** declension. First-declension *brolis* has genitive *brolio*.",
+      "rulesTested": [
+        "five-declensions",
+        "third-declension-paradigm"
+      ],
+      "vocabUsed": [
+        "akis"
+      ]
+    },
+    {
+      "id": "a2cp1-q2",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "a2-01",
+      "stem": "What is the instrumental singular of **sūnus**?",
+      "options": [
+        "sūnu",
+        "sūnumi",
+        "sūnui",
+        "sūnuje"
+      ],
+      "correct": 1,
+      "explanation": "Fourth declension: long **-umi**.",
+      "rulesTested": [
+        "fourth-declension-paradigm"
+      ],
+      "vocabUsed": [
+        "sūnus"
+      ]
+    },
+    {
+      "id": "a2cp1-q3",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a2-01",
+      "stem": "Complete: **Gyvenu su ____.** (I live with my sister.)",
+      "options": [
+        "sesuo",
+        "seserį",
+        "seserimi",
+        "sesers"
+      ],
+      "correct": 2,
+      "explanation": "*su* + instrumental; fifth-declension stem *seser-* → *seserimi*.",
+      "rulesTested": [
+        "fifth-declension-paradigm",
+        "seven-cases-uses"
+      ],
+      "vocabUsed": [
+        "gyventi",
+        "su",
+        "sesuo"
+      ]
+    },
+    {
+      "id": "a2cp1-q4",
+      "type": "multi",
+      "difficulty": "medium",
+      "fromSection": "a2-01",
+      "stem": "Which forms of **katė** are correctly matched?",
+      "options": [
+        "kačių — genitive plural",
+        "katėms — dative plural",
+        "katėmis — instrumental plural",
+        "katėse — dative plural"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "*katėse* is **locative** plural; dative is *katėms*.",
+      "rulesTested": [
+        "second-declension-paradigm"
+      ],
+      "vocabUsed": [
+        "katė"
+      ]
+    },
+    {
+      "id": "a2cp1-q5",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a2-01",
+      "stem": "What is the locative singular of **brolis**?",
+      "options": [
+        "brole",
+        "brolyje",
+        "broliuje",
+        "brolyjeje"
+      ],
+      "correct": 1,
+      "explanation": "Soft first-declension locative singular: **-yje**.",
+      "rulesTested": [
+        "first-declension-paradigm"
+      ],
+      "vocabUsed": [
+        "brolis"
+      ]
+    },
+    {
+      "id": "a2cp1-q6",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "a2-01",
+      "stem": "What is the nominative plural of **akis**?",
+      "options": [
+        "akiai",
+        "akys",
+        "akis",
+        "akės"
+      ],
+      "correct": 1,
+      "explanation": "Third declension nominative plural **-ys**. Bare *akis* as plural is the accusative.",
+      "rulesTested": [
+        "third-declension-paradigm"
+      ],
+      "vocabUsed": [
+        "akis"
+      ]
+    },
+    {
+      "id": "a2cp1-q7",
+      "type": "multi",
+      "difficulty": "hard",
+      "fromSection": "a2-01",
+      "stem": "Which nouns are **fifth** declension?",
+      "options": [
+        "vanduo",
+        "akmuo",
+        "medus",
+        "duktė"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "*medus* is fourth (*medaus*).",
+      "rulesTested": [
+        "five-declensions",
+        "fifth-declension-paradigm",
+        "fourth-declension-paradigm"
+      ],
+      "vocabUsed": [
+        "vanduo",
+        "akmuo",
+        "medus",
+        "duktė"
+      ]
+    },
+    {
+      "id": "a2cp1-q8",
+      "type": "integer",
+      "difficulty": "hard",
+      "fromSection": "a2-01",
+      "stem": "Seven cases × two numbers — how many **slots** does a full noun paradigm have?",
+      "answer": 14,
+      "unit": "slots",
+      "explanation": "Fourteen.",
+      "rulesTested": [
+        "seven-cases-uses"
+      ],
+      "vocabUsed": [
+        "linksnis"
+      ]
+    },
+    {
+      "id": "a2cp1-q9",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "a2-02",
+      "stem": "The infinitive of a reflexive verb ends in:",
+      "options": [
+        "-ti",
+        "-tis",
+        "-si",
+        "-s"
+      ],
+      "correct": 1,
+      "explanation": "Infinitive **-tis**: *mokytis, praustis*. Finite forms carry *-si* at the end (when unnegated and unprefixed).",
+      "rulesTested": [
+        "reflexive-affix-full"
+      ],
+      "vocabUsed": [
+        "mokytis"
+      ]
+    },
+    {
+      "id": "a2cp1-q10",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "a2-02",
+      "stem": "Complete: **Aš ____ lietuvių kalbos.**",
+      "options": [
+        "mokau",
+        "mokausi",
+        "moku",
+        "mokosi"
+      ],
+      "correct": 1,
+      "explanation": "1 sg. present reflexive *mokausi*.",
+      "rulesTested": [
+        "reflexive-present-paradigm",
+        "reflexive-complements"
+      ],
+      "vocabUsed": [
+        "mokytis",
+        "kalba"
+      ]
+    },
+    {
+      "id": "a2cp1-q11",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a2-02",
+      "stem": "The correct negation of **mokausi** is:",
+      "options": [
+        "nemokausi",
+        "nesimokau",
+        "mokausi ne",
+        "nesimokausi"
+      ],
+      "correct": 1,
+      "explanation": "*-si-* migrates after *ne-*: **nesimokau**.",
+      "rulesTested": [
+        "si-under-negation"
+      ],
+      "vocabUsed": [
+        "mokytis"
+      ]
+    },
+    {
+      "id": "a2cp1-q12",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a2-02",
+      "stem": "What is the 3rd-person past of **mokytis**?",
+      "options": [
+        "mokė",
+        "mokėsi",
+        "mokosi",
+        "mokysis"
+      ],
+      "correct": 1,
+      "explanation": "Past reflexive *mokėsi*.",
+      "rulesTested": [
+        "reflexive-other-tenses"
+      ],
+      "vocabUsed": [
+        "mokytis"
+      ]
+    },
+    {
+      "id": "a2cp1-q13",
+      "type": "multi",
+      "difficulty": "medium",
+      "fromSection": "a2-02",
+      "stem": "In which forms has **-si-** left the end of the word?",
+      "options": [
+        "nesijaučiu",
+        "nusišypsojo",
+        "jaučiuosi",
+        "neatsisakė"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "Only *jaučiuosi* still ends in the affix.",
+      "rulesTested": [
+        "si-under-negation",
+        "si-under-prefix"
+      ],
+      "vocabUsed": [
+        "jaustis",
+        "nusišypsoti",
+        "atsisakyti"
+      ]
+    },
+    {
+      "id": "a2cp1-q14",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "a2-02",
+      "stem": "**Mes matomės** — which sense of the reflexive?",
+      "options": [
+        "true reflexive",
+        "reciprocal",
+        "passive",
+        "imperative"
+      ],
+      "correct": 1,
+      "explanation": "Reciprocal: we meet / see each other.",
+      "rulesTested": [
+        "reflexive-meanings"
+      ],
+      "vocabUsed": [
+        "matytis",
+        "mes"
+      ]
+    },
+    {
+      "id": "a2cp1-q15",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "a2-02",
+      "stem": "After *mokausi*, the language studied stands in the:",
+      "options": [
+        "accusative",
+        "genitive",
+        "dative",
+        "instrumental"
+      ],
+      "correct": 1,
+      "explanation": "*mokytis* + **genitive**: *mokausi lietuvių kalbos*.",
+      "rulesTested": [
+        "reflexive-complements"
+      ],
+      "vocabUsed": [
+        "mokytis",
+        "kalba"
+      ]
+    },
+    {
+      "id": "a2cp1-q16",
+      "type": "integer",
+      "difficulty": "easy",
+      "fromSection": "a2-02",
+      "stem": "In the present of *mokytis*, how many **distinct spellings** cover the six person/number slots?",
+      "answer": 5,
+      "unit": "forms",
+      "explanation": "Five spellings; third person *mokosi* serves singular and plural.",
+      "rulesTested": [
+        "reflexive-present-paradigm"
+      ],
+      "vocabUsed": [
+        "mokytis"
+      ]
+    },
+    {
+      "id": "a2cp1-q17",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "a2-03",
+      "stem": "Complete: **Kalbate ____ filmą?**",
+      "options": [
+        "dėl",
+        "apie",
+        "tarp",
+        "link"
+      ],
+      "correct": 1,
+      "explanation": "**Apie** + accusative = about a topic.",
+      "rulesTested": [
+        "del-apie"
+      ],
+      "vocabUsed": [
+        "apie",
+        "filmas"
+      ]
+    },
+    {
+      "id": "a2cp1-q18",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "a2-03",
+      "stem": "Complete: **Laukiu ____.** (waiting for the bus)",
+      "options": [
+        "autobusą",
+        "autobuso",
+        "autobusui",
+        "autobusu"
+      ],
+      "correct": 1,
+      "explanation": "*laukti* + **genitive**.",
+      "rulesTested": [
+        "verbs-genitive-object"
+      ],
+      "vocabUsed": [
+        "laukti",
+        "autobusas"
+      ]
+    },
+    {
+      "id": "a2cp1-q19",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a2-03",
+      "stem": "Complete: **Ar gali ____ padėti?**",
+      "options": [
+        "mane",
+        "man",
+        "manęs",
+        "manimi"
+      ],
+      "correct": 1,
+      "explanation": "*padėti* (help) + **dative**.",
+      "rulesTested": [
+        "verbs-dative-unexpected"
+      ],
+      "vocabUsed": [
+        "padėti"
+      ]
+    },
+    {
+      "id": "a2cp1-q20",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a2-03",
+      "stem": "Complete: **Domiuosi ____.** (interested in history)",
+      "options": [
+        "istoriją",
+        "istorijos",
+        "istorija",
+        "istorijai"
+      ],
+      "correct": 2,
+      "explanation": "*domėtis* + **instrumental**; feminine *-a* instrumental looks like the nominative.",
+      "rulesTested": [
+        "verbs-instrumental-object"
+      ],
+      "vocabUsed": [
+        "domėtis",
+        "istorija"
+      ]
+    },
+    {
+      "id": "a2cp1-q21",
+      "type": "multi",
+      "difficulty": "medium",
+      "fromSection": "a2-03",
+      "stem": "Which prepositions take the **genitive**?",
+      "options": [
+        "dėl",
+        "tarp",
+        "apie",
+        "šalia"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "*apie* takes the accusative.",
+      "rulesTested": [
+        "del-apie",
+        "tarp-link-salia",
+        "case-government-summary"
+      ],
+      "vocabUsed": [
+        "dėl",
+        "tarp",
+        "apie",
+        "šalia"
+      ]
+    },
+    {
+      "id": "a2cp1-q22",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "a2-03",
+      "stem": "Complete: **Katė išėjo ____ duris.**",
+      "options": [
+        "per",
+        "pro",
+        "į",
+        "pas"
+      ],
+      "correct": 1,
+      "explanation": "**Pro** + accusative through an opening.",
+      "rulesTested": [
+        "pagal-pro-palei"
+      ],
+      "vocabUsed": [
+        "pro",
+        "durys",
+        "katė"
+      ]
+    },
+    {
+      "id": "a2cp1-q23",
+      "type": "multi",
+      "difficulty": "hard",
+      "fromSection": "a2-03",
+      "stem": "Which sentences are correct?",
+      "options": [
+        "Ieškau knygos.",
+        "Klausau muzikos.",
+        "Bijau šunį.",
+        "Skambinu draugui."
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "*bijoti* needs genitive *šuns*, not accusative *šunį*.",
+      "rulesTested": [
+        "verbs-genitive-object",
+        "verbs-dative-unexpected"
+      ],
+      "vocabUsed": [
+        "ieškoti",
+        "knyga",
+        "klausyti",
+        "muzika",
+        "bijoti",
+        "šuo",
+        "skambinti",
+        "draugas"
+      ]
+    },
+    {
+      "id": "a2cp1-q24",
+      "type": "integer",
+      "difficulty": "hard",
+      "fromSection": "a2-03",
+      "stem": "Of *dėl, apie, pagal, pro, palei, tarp, link, šalia*, how many take the **accusative**?",
+      "answer": 4,
+      "unit": "prepositions",
+      "explanation": "*apie, pagal, pro, palei* — four. The rest are genitive.",
+      "rulesTested": [
+        "case-government-summary",
+        "pagal-pro-palei"
+      ],
+      "vocabUsed": [
+        "dėl",
+        "apie",
+        "pagal",
+        "pro",
+        "palei",
+        "tarp",
+        "link",
+        "šalia"
+      ]
+    },
+    {
+      "id": "a2cp1-q25",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a2-03",
+      "stem": "Which case does **no** Lithuanian preposition govern?",
+      "options": [
+        "genitive",
+        "accusative",
+        "dative",
+        "instrumental"
+      ],
+      "correct": 2,
+      "explanation": "No preposition takes the dative; that remains a verbal case.",
+      "rulesTested": [
+        "case-government-summary"
+      ],
+      "vocabUsed": [
+        "dėl",
+        "apie",
+        "su"
+      ]
+    },
+    {
+      "id": "a2cp1-q26",
+      "type": "integer",
+      "difficulty": "medium",
+      "fromSection": "a2-01",
+      "stem": "How many **declension classes** does the school grammar recognise?",
+      "answer": 5,
+      "unit": "declensions",
+      "explanation": "Five linksniuotės.",
+      "rulesTested": [
+        "five-declensions"
+      ],
+      "vocabUsed": [
+        "linksniuotė"
+      ]
+    },
+    {
+      "id": "a2cp1-p1",
+      "type": "comprehension",
+      "difficulty": "medium",
+      "fromSection": "a2-02",
+      "title": "Pas seserį",
+      "passage": "Šiandien esu pas seserį. Ji mokosi istorijos ir niekada nesimoko be knygos. Rytais ji keliasi anksti, prausiasi ir nusišypso. „Kaip sekasi?“ — klausiu. „Gerai, tik nesijaučiu žvali dėl darbo,“ — sako ji. Vakare mes matomės su draugais šalia parko ir kalbame apie filmą. Aš laukiu autobuso, o ji ieško bilieto.",
+      "translation": "Today I am at my sister's. She is studying history and never studies without a book. In the mornings she gets up early, washes and smiles. \"How are you getting on?\" I ask. \"Fine, only I do not feel lively because of work,\" she says. In the evening we meet with friends beside the park and talk about a film. I wait for the bus, and she looks for a ticket.",
+      "glossary": {
+        "žvali": "lively (fem.)"
+      },
+      "questions": [
+        {
+          "id": "a2cp1-p1-q1",
+          "type": "single",
+          "difficulty": "easy",
+          "fromSection": "a2-02",
+          "stem": "Which form shows **-si-** migrated under negation?",
+          "options": [
+            "mokosi",
+            "nesimoko",
+            "nusišypso",
+            "matomės"
+          ],
+          "correct": 1,
+          "explanation": "*nesimoko* = *ne- + si + stem*: the third-person present of *mokytis* under negation.",
+          "rulesTested": [
+            "si-under-negation"
+          ],
+          "vocabUsed": [
+            "mokytis"
+          ]
+        },
+        {
+          "id": "a2cp1-p1-q2",
+          "type": "multi",
+          "difficulty": "medium",
+          "fromSection": "a2-03",
+          "stem": "Which case-government pairs does the passage illustrate?",
+          "options": [
+            "laukti + genitive (autobuso)",
+            "ieškoti + genitive (bilieto)",
+            "apie + accusative (filmą)",
+            "dėl + accusative (darbo)"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "*dėl* takes the **genitive** (*darbo*), not the accusative.",
+          "rulesTested": [
+            "verbs-genitive-object",
+            "del-apie",
+            "case-government-summary"
+          ],
+          "vocabUsed": [
+            "laukti",
+            "autobusas",
+            "ieškoti",
+            "bilietas",
+            "apie",
+            "filmas",
+            "dėl",
+            "darbas"
+          ]
+        },
+        {
+          "id": "a2cp1-p1-q3",
+          "type": "single",
+          "difficulty": "hard",
+          "fromSection": "a2-01",
+          "stem": "**Pas seserį** — which case is *seserį*, and why that preposition?",
+          "options": [
+            "accusative; *pas* is used of going to / being at a person",
+            "genitive; *pas* takes genitive",
+            "instrumental; company",
+            "locative; place in"
+          ],
+          "correct": 0,
+          "explanation": "*pas* + accusative of a person (¶134). *Seserį* is the fifth-declension accusative.",
+          "rulesTested": [
+            "fifth-declension-paradigm",
+            "seven-cases-uses"
+          ],
+          "vocabUsed": [
+            "pas",
+            "sesuo"
+          ]
+        },
+        {
+          "id": "a2cp1-p1-q4",
+          "type": "integer",
+          "difficulty": "hard",
+          "fromSection": "a2-02",
+          "stem": "How many **finite reflexive** forms appear in the passage?",
+          "answer": 8,
+          "unit": "forms",
+          "explanation": "Eight: *mokosi, nesimoko, keliasi, prausiasi, nusišypso, sekasi, nesijaučiu, matomės*. *klausiu*, *sako*, and *esu* are not reflexive.",
+          "rulesTested": [
+            "reflexive-present-paradigm",
+            "si-under-negation",
+            "si-under-prefix",
+            "reflexive-meanings"
+          ],
+          "vocabUsed": [
+            "mokytis",
+            "keltis",
+            "praustis",
+            "nusišypsoti",
+            "sektis",
+            "jaustis",
+            "matytis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2cp1-x1",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "a2-01",
+      "stem": "*Medus, medaus* belongs to which declension?",
+      "options": [
+        "I",
+        "III",
+        "IV",
+        "V"
+      ],
+      "correct": 2,
+      "explanation": "*-us / -aus* marks the **fourth** declension.",
+      "rulesTested": [
+        "five-declensions",
+        "fourth-declension-paradigm"
+      ],
+      "vocabUsed": [
+        "medus"
+      ]
+    },
+    {
+      "id": "a2cp1-x2",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a2-01",
+      "stem": "What is the instrumental singular of **akis**?",
+      "options": [
+        "akiu",
+        "akimi",
+        "akiais",
+        "akyje"
+      ],
+      "correct": 1,
+      "explanation": "Third declension: long **-imi** → *akimi*.",
+      "rulesTested": [
+        "third-declension-paradigm"
+      ],
+      "vocabUsed": [
+        "akis"
+      ]
+    },
+    {
+      "id": "a2cp1-x3",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a2-01",
+      "stem": "What is the accusative singular of **vanduo**?",
+      "options": [
+        "vanduo",
+        "vandens",
+        "vandenį",
+        "vandeniu"
+      ],
+      "correct": 2,
+      "explanation": "Fifth-class stem: *vandenį*.",
+      "rulesTested": [
+        "fifth-declension-paradigm"
+      ],
+      "vocabUsed": [
+        "vanduo"
+      ]
+    },
+    {
+      "id": "a2cp1-x4",
+      "type": "multi",
+      "difficulty": "hard",
+      "fromSection": "a2-01",
+      "stem": "Which spellings are **homographs** (same form, different case/number slots)?",
+      "options": [
+        "*akis* — nominative singular / accusative plural",
+        "*sūnus* — nominative singular / accusative plural",
+        "*knygos* — genitive singular / nominative plural",
+        "*brolyje* — locative / instrumental"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "*brolyje* is only locative singular; it is not instrumental.",
+      "rulesTested": [
+        "paradigm-homographs"
+      ],
+      "vocabUsed": [
+        "akis",
+        "sūnus",
+        "knyga",
+        "brolis"
+      ]
+    },
+    {
+      "id": "a2cp1-x5",
+      "type": "integer",
+      "difficulty": "hard",
+      "fromSection": "a2-01",
+      "stem": "How many **cases** does Lithuanian have, counting the vocative?",
+      "answer": 7,
+      "unit": "cases",
+      "explanation": "Seven cases in the full map of ¶148.",
+      "rulesTested": [
+        "seven-cases-uses"
+      ],
+      "vocabUsed": [
+        "linksnis"
+      ]
+    },
+    {
+      "id": "a2cp1-x6",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "a2-02",
+      "stem": "What is the 1 sg. present of **praustis**?",
+      "options": [
+        "prausiuosi",
+        "prausiu",
+        "nesiprausiu",
+        "praustis"
+      ],
+      "correct": 0,
+      "explanation": "Present reflexive: *prausiuosi*.",
+      "rulesTested": [
+        "reflexive-present-paradigm"
+      ],
+      "vocabUsed": [
+        "praustis"
+      ]
+    },
+    {
+      "id": "a2cp1-x7",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "a2-02",
+      "stem": "The correct negation of **jaučiuosi** is:",
+      "options": [
+        "nejaučiuosi",
+        "nesijaučiu",
+        "nesijaučiuosi",
+        "jaučiuosi ne"
+      ],
+      "correct": 1,
+      "explanation": "*-si-* migrates after *ne-*: **nesijaučiu**.",
+      "rulesTested": [
+        "si-under-negation"
+      ],
+      "vocabUsed": [
+        "jaustis"
+      ]
+    },
+    {
+      "id": "a2cp1-x8",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a2-02",
+      "stem": "Where does **-si-** sit in **atsisakau**?",
+      "options": [
+        "word-finally",
+        "between prefix and stem",
+        "before the prefix",
+        "dropped"
+      ],
+      "correct": 1,
+      "explanation": "Prefixed reflexives: *at- + -si- + sakau*.",
+      "rulesTested": [
+        "si-under-prefix"
+      ],
+      "vocabUsed": [
+        "atsisakyti"
+      ]
+    },
+    {
+      "id": "a2cp1-x9",
+      "type": "multi",
+      "difficulty": "medium",
+      "fromSection": "a2-02",
+      "stem": "Which forms show migrated **-si-**?",
+      "options": [
+        "nesimokau",
+        "nusišypsojo",
+        "mokausi",
+        "neatsisakė"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "Only *mokausi* still has final *-si*.",
+      "rulesTested": [
+        "si-under-negation",
+        "si-under-prefix"
+      ],
+      "vocabUsed": [
+        "mokytis",
+        "nusišypsoti",
+        "atsisakyti"
+      ]
+    },
+    {
+      "id": "a2cp1-x10",
+      "type": "integer",
+      "difficulty": "hard",
+      "fromSection": "a2-02",
+      "stem": "How many times does **si** appear in **nenusišypsau**?",
+      "answer": 1,
+      "unit": "times",
+      "explanation": "One *si*, between *nu-* and the stem; negation adds *ne-* in front of the whole complex.",
+      "rulesTested": [
+        "si-under-prefix",
+        "si-under-negation"
+      ],
+      "vocabUsed": [
+        "nusišypsoti"
+      ]
+    },
+    {
+      "id": "a2cp1-x11",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "a2-03",
+      "stem": "Complete: **Ieškau ____.** (I am looking for the keys.)",
+      "options": [
+        "raktus",
+        "raktų",
+        "raktams",
+        "raktais"
+      ],
+      "correct": 1,
+      "explanation": "*Ieškoti* + genitive: *ieškau raktų*.",
+      "rulesTested": [
+        "verbs-genitive-object"
+      ],
+      "vocabUsed": [
+        "ieškoti"
+      ]
+    },
+    {
+      "id": "a2cp1-x12",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a2-03",
+      "stem": "Complete: **Viskas vyksta ____ planą.**",
+      "options": [
+        "dėl",
+        "pagal",
+        "apie",
+        "tarp"
+      ],
+      "correct": 1,
+      "explanation": "**Pagal** + accusative: *according to*.",
+      "rulesTested": [
+        "pagal-pro-palei"
+      ],
+      "vocabUsed": [
+        "pagal",
+        "planas"
+      ]
+    },
+    {
+      "id": "a2cp1-x13",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a2-03",
+      "stem": "Complete: **Bijau ____.** (afraid of the dark)",
+      "options": [
+        "tamsą",
+        "tamsos",
+        "tamsai",
+        "tamsa"
+      ],
+      "correct": 1,
+      "explanation": "*Bijoti* + genitive: *bijau tamsos*.",
+      "rulesTested": [
+        "verbs-genitive-object"
+      ],
+      "vocabUsed": [
+        "bijoti",
+        "tamsa"
+      ]
+    },
+    {
+      "id": "a2cp1-x14",
+      "type": "multi",
+      "difficulty": "hard",
+      "fromSection": "a2-03",
+      "stem": "Which prepositions take the **accusative**?",
+      "options": [
+        "apie",
+        "pagal",
+        "pro",
+        "link"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "*link* takes the **genitive**.",
+      "rulesTested": [
+        "pagal-pro-palei",
+        "tarp-link-salia",
+        "case-government-summary"
+      ],
+      "vocabUsed": [
+        "apie",
+        "pagal",
+        "pro",
+        "link"
+      ]
+    },
+    {
+      "id": "a2cp1-x15",
+      "type": "integer",
+      "difficulty": "hard",
+      "fromSection": "a2-03",
+      "stem": "How many of *domėtis, rūpintis, laukti, bijoti* take an **instrumental** object?",
+      "answer": 2,
+      "unit": "verbs",
+      "explanation": "Two: *domėtis, rūpintis*. *Laukti* and *bijoti* take the genitive.",
+      "rulesTested": [
+        "verbs-instrumental-object",
+        "verbs-genitive-object"
+      ],
+      "vocabUsed": [
+        "domėtis",
+        "rūpintis",
+        "laukti",
+        "bijoti"
+      ]
+    }
+  ]
+}

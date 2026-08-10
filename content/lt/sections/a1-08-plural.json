@@ -14,23 +14,78 @@
       "paradigms": [
         {
           "caption": "Nominative singular → nominative plural",
-          "columns": ["singular", "plural", "example"],
+          "columns": [
+            "singular",
+            "plural",
+            "example"
+          ],
           "rows": [
-            { "label": "masc. -as", "cells": ["-as", "-ai", "namas → namai"] },
-            { "label": "masc. -is", "cells": ["-is", "-iai", "brolis → broliai"] },
-            { "label": "masc. -ys", "cells": ["-ys", "-iai", "obuolys → obuoliai"] },
-            { "label": "masc. -us", "cells": ["-us", "-ūs", "sūnus → sūnūs"] },
-            { "label": "fem. -a", "cells": ["-a", "-os", "knyga → knygos"] },
-            { "label": "fem. -ė", "cells": ["-ė", "-ės", "katė → katės"] }
+            {
+              "label": "masc. -as",
+              "cells": [
+                "-as",
+                "-ai",
+                "namas → namai"
+              ]
+            },
+            {
+              "label": "masc. -is",
+              "cells": [
+                "-is",
+                "-iai",
+                "brolis → broliai"
+              ]
+            },
+            {
+              "label": "masc. -ys",
+              "cells": [
+                "-ys",
+                "-iai",
+                "obuolys → obuoliai"
+              ]
+            },
+            {
+              "label": "masc. -us",
+              "cells": [
+                "-us",
+                "-ūs",
+                "sūnus → sūnūs"
+              ]
+            },
+            {
+              "label": "fem. -a",
+              "cells": [
+                "-a",
+                "-os",
+                "knyga → knygos"
+              ]
+            },
+            {
+              "label": "fem. -ė",
+              "cells": [
+                "-ė",
+                "-ės",
+                "katė → katės"
+              ]
+            }
           ],
           "footnote": "The feminine plural in -os and -ės is identical to the genitive singular of the same word. Only the sentence tells them apart: *knygos yra naujos* (plural subject) beside *brolio knygos* (genitive singular)."
         }
       ],
       "examples": [
-        { "target": "Namai yra dideli.", "gloss": "The houses are big." },
-        { "target": "Katės miega.", "gloss": "The cats are sleeping." }
+        {
+          "target": "Namai yra dideli.",
+          "gloss": "The houses are big."
+        },
+        {
+          "target": "Katės miega.",
+          "gloss": "The cats are sleeping."
+        }
       ],
-      "seeAlso": ["noun-endings", "genitive-endings"],
+      "seeAlso": [
+        "noun-endings",
+        "genitive-endings"
+      ],
       "core": true
     },
     {
@@ -41,22 +96,70 @@
       "paradigms": [
         {
           "caption": "Accusative singular → accusative plural",
-          "columns": ["acc. sg.", "acc. pl.", "example"],
+          "columns": [
+            "acc. sg.",
+            "acc. pl.",
+            "example"
+          ],
           "rows": [
-            { "label": "masc. -as", "cells": ["-ą", "-us", "namą → namus"] },
-            { "label": "masc. -is", "cells": ["-į", "-ius", "brolį → brolius"] },
-            { "label": "masc. -us", "cells": ["-ų", "-us", "sūnų → sūnus"] },
-            { "label": "fem. -a", "cells": ["-ą", "-as", "knygą → knygas"] },
-            { "label": "fem. -ė", "cells": ["-ę", "-es", "katę → kates"] }
+            {
+              "label": "masc. -as",
+              "cells": [
+                "-ą",
+                "-us",
+                "namą → namus"
+              ]
+            },
+            {
+              "label": "masc. -is",
+              "cells": [
+                "-į",
+                "-ius",
+                "brolį → brolius"
+              ]
+            },
+            {
+              "label": "masc. -us",
+              "cells": [
+                "-ų",
+                "-us",
+                "sūnų → sūnus"
+              ]
+            },
+            {
+              "label": "fem. -a",
+              "cells": [
+                "-ą",
+                "-as",
+                "knygą → knygas"
+              ]
+            },
+            {
+              "label": "fem. -ė",
+              "cells": [
+                "-ę",
+                "-es",
+                "katę → kates"
+              ]
+            }
           ],
           "footnote": "Nouns in -us have the same form in the nominative singular and the accusative plural: *sūnus*. Only the sentence settles which is meant."
         }
       ],
       "examples": [
-        { "target": "Aš matau namus.", "gloss": "I see the houses." },
-        { "target": "Ji mėgsta kates.", "gloss": "She likes cats." }
+        {
+          "target": "Aš matau namus.",
+          "gloss": "I see the houses."
+        },
+        {
+          "target": "Ji mėgsta kates.",
+          "gloss": "She likes cats."
+        }
       ],
-      "seeAlso": ["accusative-nouns", "plural-nominative"],
+      "seeAlso": [
+        "accusative-nouns",
+        "plural-nominative"
+      ],
       "core": true
     },
     {
@@ -65,15 +168,31 @@
       "heading": "The Genitive Plural",
       "statement": "The genitive plural ends in **-ų** for every noun of every gender and declension without exception — the one ending in the language that need never be looked up. A soft consonant before it may change: *katė* gives *kačių*, *t* becoming *č*.",
       "examples": [
-        { "target": "namas → namų", "gloss": "of the houses" },
-        { "target": "knyga → knygų", "gloss": "of the books" },
-        { "target": "brolis → brolių", "gloss": "of the brothers" },
-        { "target": "katė → kačių", "gloss": "of the cats", "note": "t softens to č before -ių" }
+        {
+          "target": "namas → namų",
+          "gloss": "of the houses"
+        },
+        {
+          "target": "knyga → knygų",
+          "gloss": "of the books"
+        },
+        {
+          "target": "brolis → brolių",
+          "gloss": "of the brothers"
+        },
+        {
+          "target": "katė → kačių",
+          "gloss": "of the cats",
+          "note": "t softens to č before -ių"
+        }
       ],
       "footnotes": [
         "This is the ending met already in *kilogramas obuolių* (¶32) and *daug pinigų*."
       ],
-      "seeAlso": ["genitive-quantity", "genitive-endings"],
+      "seeAlso": [
+        "genitive-quantity",
+        "genitive-endings"
+      ],
       "core": true
     },
     {
@@ -84,21 +203,58 @@
       "paradigms": [
         {
           "caption": "geras, gera — singular and plural",
-          "columns": ["masculine", "feminine"],
+          "columns": [
+            "masculine",
+            "feminine"
+          ],
           "rows": [
-            { "label": "nom. sg.", "cells": ["geras namas", "gera knyga"] },
-            { "label": "nom. pl.", "cells": ["geri namai", "geros knygos"] },
-            { "label": "acc. sg.", "cells": ["gerą namą", "gerą knygą"] },
-            { "label": "acc. pl.", "cells": ["gerus namus", "geras knygas"] }
+            {
+              "label": "nom. sg.",
+              "cells": [
+                "geras namas",
+                "gera knyga"
+              ]
+            },
+            {
+              "label": "nom. pl.",
+              "cells": [
+                "geri namai",
+                "geros knygos"
+              ]
+            },
+            {
+              "label": "acc. sg.",
+              "cells": [
+                "gerą namą",
+                "gerą knygą"
+              ]
+            },
+            {
+              "label": "acc. pl.",
+              "cells": [
+                "gerus namus",
+                "geras knygas"
+              ]
+            }
           ],
           "footnote": "Adjectives of the other two classes follow suit: *didelis → dideli*, *didelė → didelės*; *gražus → gražūs*, *graži → gražios*."
         }
       ],
       "examples": [
-        { "target": "Geri berniukai skaito knygas.", "gloss": "Good boys read books." },
-        { "target": "Aš matau naujas knygas.", "gloss": "I see new books." }
+        {
+          "target": "Geri berniukai skaito knygas.",
+          "gloss": "Good boys read books."
+        },
+        {
+          "target": "Aš matau naujas knygas.",
+          "gloss": "I see new books."
+        }
       ],
-      "seeAlso": ["adjective-agreement", "accusative-adjectives", "plural-nominative"],
+      "seeAlso": [
+        "adjective-agreement",
+        "accusative-adjectives",
+        "plural-nominative"
+      ],
       "core": true
     },
     {
@@ -107,10 +263,19 @@
       "heading": "The Verb and the Plural",
       "statement": "The verb was said (¶24) to have **one form for the whole third person**, and the plural does not disturb it: *katė miega* and *katės miega* differ only in the noun. Where the subject is *mes*, *jūs*, *jie* or *jos*, the first- and second-person endings apply as before; the third person alone is indifferent to number.",
       "examples": [
-        { "target": "Berniukas dirba. / Berniukai dirba.", "gloss": "The boy works. / The boys work." },
-        { "target": "Jos skaito knygas.", "gloss": "They are reading books." }
+        {
+          "target": "Berniukas dirba. / Berniukai dirba.",
+          "gloss": "The boy works. / The boys work."
+        },
+        {
+          "target": "Jos skaito knygas.",
+          "gloss": "They are reading books."
+        }
       ],
-      "seeAlso": ["present-conj-i", "conjugation-summary"],
+      "seeAlso": [
+        "present-conj-i",
+        "conjugation-summary"
+      ],
       "core": true
     },
     {
@@ -121,196 +286,842 @@
       "paradigms": [
         {
           "caption": "Numeral and noun",
-          "columns": ["number", "case required", "example"],
+          "columns": [
+            "number",
+            "case required",
+            "example"
+          ],
           "rows": [
-            { "label": "1", "cells": ["agrees, singular", "vienas namas / matau vieną namą"] },
-            { "label": "2–9", "cells": ["agrees, plural", "penki namai / matau penkis namus"] },
-            { "label": "10, 20, 30 …", "cells": ["genitive plural, fixed", "dešimt namų / matau dešimt namų"] },
-            { "label": "11–19", "cells": ["genitive plural, fixed", "vienuolika namų"] },
-            { "label": "21, 31 …", "cells": ["the last word decides", "dvidešimt vienas namas"] }
+            {
+              "label": "1",
+              "cells": [
+                "agrees, singular",
+                "vienas namas / matau vieną namą"
+              ]
+            },
+            {
+              "label": "2–9",
+              "cells": [
+                "agrees, plural",
+                "penki namai / matau penkis namus"
+              ]
+            },
+            {
+              "label": "10, 20, 30 …",
+              "cells": [
+                "genitive plural, fixed",
+                "dešimt namų / matau dešimt namų"
+              ]
+            },
+            {
+              "label": "11–19",
+              "cells": [
+                "genitive plural, fixed",
+                "vienuolika namų"
+              ]
+            },
+            {
+              "label": "21, 31 …",
+              "cells": [
+                "the last word decides",
+                "dvidešimt vienas namas"
+              ]
+            }
           ],
           "footnote": "*vienas* and *du* have feminine forms: *viena knyga*, *dvi knygos*. That a numeral of ten or more keeps its noun in the genitive plural even when the phrase is an object — *matau dešimt namų* — is the point an English speaker finds hardest. The numerals themselves are taken up in full later."
         }
       ],
       "examples": [
-        { "target": "Aš turiu du brolius.", "gloss": "I have two brothers.", "note": "accusative plural, the verb governing it" },
-        { "target": "Ji turi dešimt knygų.", "gloss": "She has ten books.", "note": "genitive plural after dešimt, whatever the verb wants" }
+        {
+          "target": "Aš turiu du brolius.",
+          "gloss": "I have two brothers.",
+          "note": "accusative plural, the verb governing it"
+        },
+        {
+          "target": "Ji turi dešimt knygų.",
+          "gloss": "She has ten books.",
+          "note": "genitive plural after dešimt, whatever the verb wants"
+        }
       ],
-      "seeAlso": ["plural-genitive", "plural-nominative"],
+      "seeAlso": [
+        "plural-genitive",
+        "plural-nominative"
+      ],
       "core": true
     }
   ],
   "vocabulary": [
-    { "lemma": "vienas", "gloss": "one", "pos": "numeral", "forms": { "masc": "vienas", "fem": "viena" } },
-    { "lemma": "du", "gloss": "two", "pos": "numeral", "forms": { "masc": "du", "fem": "dvi" } },
-    { "lemma": "trys", "gloss": "three", "pos": "numeral", "forms": { "masc": "trys", "fem": "trys" } },
-    { "lemma": "penki", "gloss": "five", "pos": "numeral", "forms": { "masc": "penki", "fem": "penkios" } },
-    { "lemma": "dešimt", "gloss": "ten", "pos": "numeral", "forms": {}, "notes": "Governs the genitive plural." },
-    { "lemma": "vaikas", "gloss": "child", "pos": "noun", "forms": { "nom": "vaikas", "gen": "vaiko", "acc": "vaiką", "gender": "m." } },
-    { "lemma": "žmogus", "gloss": "person, man", "pos": "noun", "forms": { "nom": "žmogus", "gen": "žmogaus", "acc": "žmogų", "gender": "m." }, "notes": "Plural is irregular: žmonės, žmonių." },
-    { "lemma": "diena", "gloss": "day", "pos": "noun", "forms": { "nom": "diena", "gen": "dienos", "acc": "dieną", "gender": "f." } },
-    { "lemma": "metai", "gloss": "year", "pos": "noun", "forms": { "nom": "metai", "gen": "metų", "gender": "m." }, "notes": "Plural only." },
-    { "lemma": "miegoti", "gloss": "to sleep", "pos": "verb", "forms": { "inf": "miegoti", "pres3": "miega", "past3": "miegojo", "conj": "I" } },
-    { "lemma": "daiktas", "gloss": "thing, object", "pos": "noun", "forms": { "nom": "daiktas", "gen": "daikto", "acc": "daiktą", "gender": "m." } }
+    {
+      "lemma": "vienas",
+      "gloss": "one",
+      "pos": "numeral",
+      "forms": {
+        "masc": "vienas",
+        "fem": "viena"
+      }
+    },
+    {
+      "lemma": "du",
+      "gloss": "two",
+      "pos": "numeral",
+      "forms": {
+        "masc": "du",
+        "fem": "dvi"
+      }
+    },
+    {
+      "lemma": "trys",
+      "gloss": "three",
+      "pos": "numeral",
+      "forms": {
+        "masc": "trys",
+        "fem": "trys"
+      }
+    },
+    {
+      "lemma": "penki",
+      "gloss": "five",
+      "pos": "numeral",
+      "forms": {
+        "masc": "penki",
+        "fem": "penkios"
+      }
+    },
+    {
+      "lemma": "dešimt",
+      "gloss": "ten",
+      "pos": "numeral",
+      "forms": {},
+      "notes": "Governs the genitive plural."
+    },
+    {
+      "lemma": "vaikas",
+      "gloss": "child",
+      "pos": "noun",
+      "forms": {
+        "nom": "vaikas",
+        "gen": "vaiko",
+        "acc": "vaiką",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "žmogus",
+      "gloss": "person, man",
+      "pos": "noun",
+      "forms": {
+        "nom": "žmogus",
+        "gen": "žmogaus",
+        "acc": "žmogų",
+        "gender": "m."
+      },
+      "notes": "Plural is irregular: žmonės, žmonių."
+    },
+    {
+      "lemma": "diena",
+      "gloss": "day",
+      "pos": "noun",
+      "forms": {
+        "nom": "diena",
+        "gen": "dienos",
+        "acc": "dieną",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "metai",
+      "gloss": "year",
+      "pos": "noun",
+      "forms": {
+        "nom": "metai",
+        "gen": "metų",
+        "gender": "m."
+      },
+      "notes": "Plural only."
+    },
+    {
+      "lemma": "miegoti",
+      "gloss": "to sleep",
+      "pos": "verb",
+      "forms": {
+        "inf": "miegoti",
+        "pres3": "miega",
+        "past3": "miegojo",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "daiktas",
+      "gloss": "thing, object",
+      "pos": "noun",
+      "forms": {
+        "nom": "daiktas",
+        "gen": "daikto",
+        "acc": "daiktą",
+        "gender": "m."
+      }
+    }
   ],
   "drills": [
     {
       "id": "a108-q1",
       "type": "single",
       "difficulty": "easy",
-      "stem": "What is the nominative plural of **namas**?",
-      "options": ["namos", "namai", "namus", "namų"],
+      "stem": "What is the nominative plural of **sūnus**?",
+      "options": [
+        "sūnai",
+        "sūnūs",
+        "sūnus",
+        "sūnų"
+      ],
       "correct": 1,
-      "explanation": "Masculine -as makes -ai. *namus* is the accusative plural and *namų* the genitive plural.",
-      "rulesTested": ["plural-nominative"],
-      "vocabUsed": ["namas"]
+      "explanation": "Masculine **-us** makes **-ūs** with a long vowel (¶53). *sūnai* wrongly copies the *-as → -ai* pattern; *sūnus* is either nominative singular or accusative plural; *sūnų* is genitive plural.",
+      "rulesTested": [
+        "plural-nominative"
+      ],
+      "vocabUsed": [
+        "sūnus"
+      ]
     },
     {
       "id": "a108-q2",
       "type": "single",
       "difficulty": "easy",
-      "stem": "Translate: **I see the houses.**",
+      "stem": "Complete: **Aš matau naujas ____.** (I see new books.)",
       "options": [
-        "Aš matau namai.",
-        "Aš matau namus.",
-        "Aš matau namų.",
-        "Aš matau namą."
+        "knygos",
+        "knygas",
+        "knygų",
+        "knygą"
       ],
       "correct": 1,
-      "explanation": "A direct object takes the accusative, and the accusative plural of a -as noun is -us. *namai* is the nominative and could only be a subject.",
-      "rulesTested": ["plural-accusative", "transitive-objects"],
-      "vocabUsed": ["matyti", "namas", "aš"]
+      "explanation": "A direct object takes the accusative plural: *knygas*. *naujas* already shows the feminine accusative plural of the adjective (¶56). *knygos* is nominative/genitive singular — the classic subject-for-object slip.",
+      "rulesTested": [
+        "plural-accusative",
+        "adjective-number"
+      ],
+      "vocabUsed": [
+        "matyti",
+        "naujas",
+        "knyga",
+        "aš"
+      ]
     },
     {
       "id": "a108-q3",
       "type": "single",
       "difficulty": "easy",
-      "stem": "What is the genitive plural of **knyga**?",
-      "options": ["knygos", "knygas", "knygų", "knygai"],
+      "stem": "What is the genitive plural of **katė**?",
+      "options": [
+        "katės",
+        "kates",
+        "kačių",
+        "katėms"
+      ],
       "correct": 2,
-      "explanation": "-ų, as for every noun of every gender. *knygos* is at once the genitive singular and the nominative plural, which is why the sentence and not the ending must settle it.",
-      "rulesTested": ["plural-genitive"],
-      "vocabUsed": ["knyga"]
+      "explanation": "Every noun takes **-ų** in the genitive plural; here *t* softens to *č* before the ending: *kačių* (¶55). *katės* is nominative plural / genitive singular; *kates* accusative plural; *katėms* dative plural.",
+      "rulesTested": [
+        "plural-genitive"
+      ],
+      "vocabUsed": [
+        "katė"
+      ]
     },
     {
       "id": "a108-q4",
       "type": "multi",
       "difficulty": "medium",
-      "stem": "Which of these phrases are **correct**?",
+      "stem": "Which phrases show **correct** adjective–noun agreement in the plural?",
       "options": [
-        "geri namai",
+        "geri berniukai",
         "geros knygos",
         "geri knygos",
         "gerus namus"
       ],
-      "correct": [0, 1, 3],
-      "explanation": "The adjective agrees in gender as well as number, and *knygos* is feminine, so *geros* and never *geri*. The fourth is a correct accusative plural, as after *matau*.",
-      "rulesTested": ["adjective-number"],
-      "vocabUsed": ["geras", "namas", "knyga"]
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "*knygos* is feminine, so *geri knygos* mismatches gender. The first two are nominative plurals; *gerus namus* is a correct accusative plural (as after *matau*).",
+      "rulesTested": [
+        "adjective-number",
+        "plural-nominative",
+        "plural-accusative"
+      ],
+      "vocabUsed": [
+        "geras",
+        "berniukas",
+        "knyga",
+        "namas"
+      ]
     },
     {
       "id": "a108-q5",
       "type": "single",
       "difficulty": "medium",
-      "stem": "Complete: **Aš turiu du ____.** (I have two brothers.)",
-      "options": ["brolis", "brolį", "brolius", "brolių"],
+      "stem": "Complete: **Ji turi dešimt ____.** (She has ten apples.)",
+      "options": [
+        "obuoliai",
+        "obuolius",
+        "obuolių",
+        "obuolį"
+      ],
       "correct": 2,
-      "explanation": "Two rules meet here and agree: *turėti* takes an accusative, and *du* takes a plural. The accusative plural of *brolis* is *brolius*.",
-      "rulesTested": ["numeral-case", "plural-accusative"],
-      "vocabUsed": ["turėti", "du", "brolis"]
+      "explanation": "*dešimt* freezes the noun in the **genitive plural** whatever case *turėti* would otherwise want (¶58). *obuolius* is the accusative plural that *du* or *penki* would leave to the verb — the near-miss.",
+      "rulesTested": [
+        "numeral-case",
+        "plural-genitive"
+      ],
+      "vocabUsed": [
+        "turėti",
+        "dešimt",
+        "obuolys",
+        "ji"
+      ]
     },
     {
       "id": "a108-q6",
       "type": "single",
       "difficulty": "medium",
-      "stem": "Complete: **Ji turi dešimt ____.** (She has ten books.)",
-      "options": ["knygos", "knygas", "knygų", "knyga"],
-      "correct": 2,
-      "explanation": "*dešimt* governs the genitive plural, and it does so whatever case the verb would otherwise have required. The numeral overrides the verb.",
-      "rulesTested": ["numeral-case", "plural-genitive"],
-      "vocabUsed": ["turėti", "dešimt", "knyga"]
+      "stem": "*Katės miega* and *Katė miega* differ only in the noun. What does that show?",
+      "options": [
+        "That Lithuanian verbs agree with the subject in number.",
+        "That the third-person form is indifferent to number.",
+        "That *miegoti* is irregular in the plural.",
+        "That plural subjects take a different conjugation."
+      ],
+      "correct": 1,
+      "explanation": "One third-person form serves singular and plural alike (¶57). First and second persons have separate plural endings; the third does not. *Kates miega* would wrongly put an accusative in subject position.",
+      "rulesTested": [
+        "verb-number",
+        "plural-nominative"
+      ],
+      "vocabUsed": [
+        "katė",
+        "miegoti"
+      ]
     },
     {
       "id": "a108-q7",
-      "type": "single",
-      "difficulty": "medium",
-      "stem": "*Katė miega* means \"the cat is sleeping\". How is \"the cats are sleeping\" said?",
-      "options": [
-        "Katės miega.",
-        "Katės miegos.",
-        "Katės miegame.",
-        "Kates miega."
-      ],
-      "correct": 0,
-      "explanation": "Only the noun changes. One verb form serves the whole third person, singular and plural alike (¶57), and *kates* is the accusative, which cannot be a subject.",
-      "rulesTested": ["verb-number", "plural-nominative"],
-      "vocabUsed": ["katė", "miegoti"]
-    },
-    {
-      "id": "a108-q8",
       "type": "multi",
-      "difficulty": "hard",
-      "stem": "In which of these does a numeral **override** the case the verb would otherwise require?",
+      "difficulty": "medium",
+      "stem": "In which sentences does a numeral **override** the case the verb would otherwise require?",
       "options": [
         "Aš turiu dešimt knygų.",
         "Aš turiu du brolius.",
         "Aš matau vienuolika namų.",
         "Aš matau penkis namus."
       ],
-      "correct": [0, 2],
-      "explanation": "*dešimt* and *vienuolika* impose the genitive plural where *turėti* and *matyti* would have taken an accusative. *du* and *penki* impose a plural but leave the case to the verb.",
-      "rulesTested": ["numeral-case", "plural-genitive", "plural-accusative"],
-      "vocabUsed": ["turėti", "dešimt", "knyga", "du", "brolis", "matyti", "namas", "penki"]
+      "correct": [
+        0,
+        2
+      ],
+      "explanation": "*dešimt* and *vienuolika* impose genitive plural where *turėti*/*matyti* want accusative. *du* and *penki* force plural number but leave case to the verb — *brolius*, *namus*.",
+      "rulesTested": [
+        "numeral-case",
+        "plural-genitive",
+        "plural-accusative"
+      ],
+      "vocabUsed": [
+        "turėti",
+        "dešimt",
+        "knyga",
+        "du",
+        "brolis",
+        "matyti",
+        "namas",
+        "penki"
+      ]
+    },
+    {
+      "id": "a108-q8",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "*Knygos* is ambiguous. In **Brolio knygos yra ant stalo**, which reading is forced?",
+      "options": [
+        "nominative plural — the books are the subject",
+        "genitive singular — the brother's book(s) as possessed thing",
+        "accusative plural — the books are an object",
+        "genitive plural — after a quantity word"
+      ],
+      "correct": 1,
+      "explanation": "*brolio* (genitive) marks possession of what follows, so *knygos* is genitive singular here (¶53 footnote). In *Knygos yra naujos* the same shape would be nominative plural — only the sentence settles it.",
+      "rulesTested": [
+        "plural-nominative",
+        "genitive-endings"
+      ],
+      "vocabUsed": [
+        "knyga",
+        "brolis",
+        "stalas",
+        "ant"
+      ]
     },
     {
       "id": "a108-q9",
       "type": "single",
       "difficulty": "hard",
-      "stem": "*Knygos* can be two different things. Which?",
+      "stem": "Complete: **Aš matau ____ namus.** (I see five houses.)",
       "options": [
-        "the genitive singular and the nominative plural",
-        "the accusative singular and the nominative plural",
-        "the genitive plural and the accusative plural",
-        "the dative singular and the nominative plural"
+        "penki",
+        "penkis",
+        "penkių",
+        "penkios"
       ],
-      "correct": 0,
-      "explanation": "*brolio knygos*, the brother's book, has the genitive singular; *knygos yra naujos*, the books are new, has the nominative plural. Nothing in the word distinguishes them and the sentence must.",
-      "rulesTested": ["plural-nominative", "genitive-endings"],
-      "vocabUsed": ["knyga", "brolis", "naujas"]
+      "correct": 1,
+      "explanation": "Two-to-nine numerals decline and agree: after *matyti* the whole phrase is accusative plural, so **penkis namus** (¶58). *penki* is nominative; *penkių* genitive; *penkios* feminine nominative.",
+      "rulesTested": [
+        "numeral-case",
+        "plural-accusative"
+      ],
+      "vocabUsed": [
+        "matyti",
+        "penki",
+        "namas",
+        "aš"
+      ]
     },
     {
       "id": "a108-q10",
-      "type": "integer",
+      "type": "multi",
       "difficulty": "hard",
-      "stem": "**Aš matau gerą knygą.** How many words change form if the object becomes plural?",
-      "answer": 2,
-      "unit": "words",
-      "explanation": "Two: *gerą knygą* → *geras knygas*. The adjective follows its noun into the plural as it followed it into the case (¶56), and the subject and verb are untouched. Answering one leaves the adjective behind.",
-      "rulesTested": ["adjective-number", "plural-accusative"],
-      "vocabUsed": ["matyti", "geras", "knyga", "aš"]
+      "stem": "Which forms of **namas** are correctly paired with their case and number?",
+      "options": [
+        "namai — nominative plural",
+        "namus — accusative plural",
+        "namų — genitive plural",
+        "namą — accusative plural"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "*namą* is accusative **singular** (with the nosinė hook). Accusative plural is *namus* and never carries a hook (¶54).",
+      "rulesTested": [
+        "plural-nominative",
+        "plural-accusative",
+        "plural-genitive",
+        "accusative-nouns"
+      ],
+      "vocabUsed": [
+        "namas"
+      ]
     },
     {
       "id": "a108-q11",
       "type": "integer",
       "difficulty": "hard",
-      "stem": "**Vaikas turi vieną obuolį.** How many words change form if *vieną* becomes *dešimt*?",
-      "answer": 2,
+      "stem": "The plurals *namai, broliai, sūnūs, knygos, katės* show how many **different nominative-plural endings**?",
+      "answer": 5,
+      "unit": "endings",
+      "explanation": "Five endings: *-ai, -iai, -ūs, -os, -ės*.",
+      "rulesTested": [
+        "plural-nominative"
+      ],
+      "vocabUsed": [
+        "namas",
+        "brolis",
+        "obuolys",
+        "sūnus",
+        "knyga",
+        "katė"
+      ]
+    },
+    {
+      "id": "a108-q12",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "**Vaikas turi vieną gerą obuolį.** If *vieną* becomes *dešimt*, how many of the five words change form?",
+      "answer": 3,
       "unit": "words",
-      "explanation": "Two: *vieną* → *dešimt*, and *obuolį* → *obuolių*, the genitive plural that *dešimt* governs (¶58). *vaikas* and *turi* are untouched. Answering one forgets that the numeral, not the verb, is deciding the case of the object.",
-      "rulesTested": ["numeral-case", "plural-genitive"],
-      "vocabUsed": ["vaikas", "turėti", "vienas", "obuolys", "dešimt"]
+      "explanation": "Three: *vieną* → *dešimt*, and *gerą obuolį* → *gerų obuolių* (genitive plural under *dešimt*, adjective agreeing). *Vaikas* and *turi* are untouched — the numeral overrides the object's case, not the subject's.",
+      "rulesTested": [
+        "numeral-case",
+        "plural-genitive",
+        "adjective-number"
+      ],
+      "vocabUsed": [
+        "vaikas",
+        "turėti",
+        "vienas",
+        "geras",
+        "obuolys",
+        "dešimt"
+      ]
+    },
+    {
+      "id": "a108-x1",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Nominative plural of **namas**?",
+      "options": [
+        "namų",
+        "namus",
+        "namai",
+        "namą"
+      ],
+      "correct": 2,
+      "explanation": "*-as* → **-ai**: *namai* (¶53). *namus* is accusative plural; *namų* genitive plural; *namą* accusative singular with the hook.",
+      "rulesTested": [
+        "plural-nominative"
+      ],
+      "vocabUsed": [
+        "namas"
+      ]
+    },
+    {
+      "id": "a108-x2",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Nominative plural of **knyga**?",
+      "options": [
+        "knygas",
+        "knygos",
+        "knygų",
+        "knygą"
+      ],
+      "correct": 1,
+      "explanation": "Feminine *-a* → **-os**: *knygos* (¶53). *knygas* is accusative plural; *knygų* genitive plural; *knygą* accusative singular.",
+      "rulesTested": [
+        "plural-nominative"
+      ],
+      "vocabUsed": [
+        "knyga"
+      ]
+    },
+    {
+      "id": "a108-x3",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Accusative plural of **brolis**?",
+      "options": [
+        "brolius",
+        "broliai",
+        "brolių",
+        "brolį"
+      ],
+      "correct": 0,
+      "explanation": "Masculine *-is* → accusative plural **-ius**: *brolius* (¶54). *broliai* nominative plural; *brolių* genitive; *brolį* accusative singular.",
+      "rulesTested": [
+        "plural-accusative"
+      ],
+      "vocabUsed": [
+        "brolis"
+      ]
+    },
+    {
+      "id": "a108-x4",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Mes turime ____ knygas.** (We have three books.)",
+      "options": [
+        "trys",
+        "tris",
+        "trių",
+        "trijų"
+      ],
+      "correct": 1,
+      "explanation": "2–9 decline with the noun: after *turėti* the phrase is accusative plural → **tris knygas** (¶58). *trys* is nominative; genitive forms would follow *reikia* or *dešimt*.",
+      "rulesTested": [
+        "numeral-case",
+        "plural-accusative"
+      ],
+      "vocabUsed": [
+        "turėti",
+        "trys",
+        "knyga",
+        "mes"
+      ]
+    },
+    {
+      "id": "a108-x5",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Geri ____ skaito.** (Good boys are reading.)",
+      "options": [
+        "berniukus",
+        "berniukai",
+        "berniukų",
+        "berniukas"
+      ],
+      "correct": 1,
+      "explanation": "Subject + agreeing adjective → nominative plural: *geri berniukai* (¶56, ¶53). *berniukus* would be an object; *berniukų* genitive plural.",
+      "rulesTested": [
+        "adjective-number",
+        "plural-nominative"
+      ],
+      "vocabUsed": [
+        "geras",
+        "berniukas",
+        "skaityti"
+      ]
+    },
+    {
+      "id": "a108-x6",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Aš matau didelius ____.** (I see big houses.)",
+      "options": [
+        "namai",
+        "namus",
+        "namų",
+        "namą"
+      ],
+      "correct": 1,
+      "explanation": "Object of *matyti* → accusative plural, and the adjective already shows *-us*: **didelius namus** (¶54, ¶56). *namai* is nominative — the classic subject-for-object slip.",
+      "rulesTested": [
+        "plural-accusative",
+        "adjective-number"
+      ],
+      "vocabUsed": [
+        "matyti",
+        "didelis",
+        "namas",
+        "aš"
+      ]
+    },
+    {
+      "id": "a108-x7",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which are **correct** genitive plurals?",
+      "options": [
+        "namų",
+        "knygų",
+        "kačių",
+        "katų"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Every noun takes **-ų**; *katė* softens *t*→*č* → *kačių*, not *katų* (¶55).",
+      "rulesTested": [
+        "plural-genitive"
+      ],
+      "vocabUsed": [
+        "namas",
+        "knyga",
+        "katė"
+      ]
+    },
+    {
+      "id": "a108-x8",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which sentences keep **third-person** verb form the same in singular and plural?",
+      "options": [
+        "Katė miega. / Katės miega.",
+        "Berniukas dirba. / Berniukai dirba.",
+        "Aš dirbu. / Mes dirbame.",
+        "Ji skaito. / Jos skaito."
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "Third person is number-indifferent (¶57). First person changes: *dirbu* / *dirbame*.",
+      "rulesTested": [
+        "verb-number"
+      ],
+      "vocabUsed": [
+        "katė",
+        "miegoti",
+        "berniukas",
+        "dirbti",
+        "aš",
+        "mes",
+        "ji",
+        "jos",
+        "skaityti"
+      ]
+    },
+    {
+      "id": "a108-x9",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Complete: **Mokytojas mato ____ vaikų.** (The teacher sees ten children.)",
+      "options": [
+        "dešimt",
+        "dešimtis",
+        "dešimties",
+        "dešimtį"
+      ],
+      "correct": 0,
+      "explanation": "*dešimt* and upwards freeze the noun in genitive plural and the numeral itself does not agree: **dešimt vaikų** (¶58). Declined *dešimtį* would be wrong here.",
+      "rulesTested": [
+        "numeral-case",
+        "plural-genitive"
+      ],
+      "vocabUsed": [
+        "mokytojas",
+        "matyti",
+        "dešimt",
+        "vaikas"
+      ]
+    },
+    {
+      "id": "a108-x10",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "*sūnus* can be nominative singular **or** accusative plural. Which sentence forces the **plural** reading?",
+      "options": [
+        "Sūnus yra čia.",
+        "Aš matau sūnus.",
+        "Sūnus skaito.",
+        "Mano sūnus dirba."
+      ],
+      "correct": 1,
+      "explanation": "After *matau* an object is needed → accusative plural *sūnus* (¶54 footnote). The others treat *sūnus* as a singular subject.",
+      "rulesTested": [
+        "plural-accusative"
+      ],
+      "vocabUsed": [
+        "sūnus",
+        "matyti",
+        "aš",
+        "būti",
+        "čia",
+        "skaityti",
+        "mano",
+        "dirbti"
+      ]
+    },
+    {
+      "id": "a108-x11",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which phrases are **correct** after *turėti*?",
+      "options": [
+        "turiu du brolius",
+        "turiu dešimt knygų",
+        "turiu dešimt knygas",
+        "turiu penkis obuolius"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "2–9 leave case to the verb (*du brolius*, *penkis obuolius*); *dešimt* overrides to genitive plural (*knygų*), so *dešimt knygas* is the near-miss (¶58).",
+      "rulesTested": [
+        "numeral-case",
+        "plural-accusative",
+        "plural-genitive"
+      ],
+      "vocabUsed": [
+        "turėti",
+        "du",
+        "brolis",
+        "dešimt",
+        "knyga",
+        "penki",
+        "obuolys"
+      ]
+    },
+    {
+      "id": "a108-x12",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Feminine accusative plural of **naujas** + **knyga**?",
+      "options": [
+        "naujos knygos",
+        "naujas knygas",
+        "naujų knygų",
+        "naują knygą"
+      ],
+      "correct": 1,
+      "explanation": "Adjective and noun both take feminine accusative plural: **naujas knygas** (¶56). *naujos knygos* is nominative; *naujų knygų* follows quantity words.",
+      "rulesTested": [
+        "adjective-number",
+        "plural-accusative"
+      ],
+      "vocabUsed": [
+        "naujas",
+        "knyga"
+      ]
+    },
+    {
+      "id": "a108-x13",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which of these are **nominative plural**?",
+      "explanation": "*namai*, *knygos*, and *sūnūs* are nominative plural. *namus* is accusative plural.",
+      "rulesTested": [
+        "plural-nominative",
+        "plural-accusative"
+      ],
+      "vocabUsed": [
+        "namas",
+        "knyga",
+        "sūnus"
+      ],
+      "options": [
+        "namai",
+        "knygos",
+        "namus",
+        "sūnūs"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "id": "a108-x14",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "**Aš turiu penkis gerus obuolius.** If *penkis* is replaced by *dešimt*, how many words must change form?",
+      "answer": 4,
+      "unit": "words",
+      "explanation": "Four: *penkis* → *dešimt*, *gerus* → *gerų*, *obuolius* → *obuolių*. *Aš* and *turiu* stay. Under *dešimt* the counted phrase goes genitive plural.",
+      "rulesTested": [
+        "numeral-case",
+        "plural-genitive",
+        "adjective-number"
+      ],
+      "vocabUsed": [
+        "turėti",
+        "penki",
+        "geras",
+        "obuolys",
+        "dešimt",
+        "aš"
+      ]
+    },
+    {
+      "id": "a108-x15",
+      "type": "integer",
+      "difficulty": "easy",
+      "stem": "The genitive plurals *namų, knygų, kačių* all end in the same letter. How many **letters** is that shared ending?",
+      "answer": 1,
+      "unit": "letters",
+      "explanation": "One letter: **-ų**. Softening (*katė* → *kačių*) changes the stem, not the ending.",
+      "rulesTested": [
+        "plural-genitive"
+      ],
+      "vocabUsed": [
+        "katė"
+      ]
     },
     {
       "id": "a108-p1",
       "type": "comprehension",
-      "difficulty": "medium",
+      "difficulty": "hard",
       "title": "Mokykloje",
-      "passage": "Tai mokykla. Čia dirba geri mokytojai. Vaikai skaito naujas knygas. Ant stalų guli daiktai: knygos, laiškai, obuoliai. Vienas berniukas turi du obuolius, o mergaitė turi dešimt knygų. Mokytojos yra jaunos ir geros. Vaikai jų klauso.",
-      "translation": "This is a school. Good teachers work here. The children are reading new books. On the tables lie things: books, letters, apples. One boy has two apples, and a girl has ten books. The (female) teachers are young and good. The children listen to them.",
+      "passage": "Tai mokykla. Čia dirba geri mokytojai. Vaikai skaito naujas knygas. Ant stalų guli daiktai: knygos, laiškai, obuoliai. Vienas berniukas turi du obuolius, o mergaitė turi dešimt knygų. Mokytojos yra jaunos ir geros. Vaikai jų klauso. Penki berniukai žaidžia, o trys mergaitės skaito. Mokytojas mato septynis vaikus.",
+      "translation": "This is a school. Good teachers work here. The children are reading new books. On the tables lie things: books, letters, apples. One boy has two apples, and a girl has ten books. The (female) teachers are young and good. The children listen to them. Five boys are playing, and three girls are reading. The teacher sees seven children.",
       "glossary": {
         "mokykla": "school (f.)",
         "čia": "here",
-        "stalų": "of the tables (gen. pl.)"
+        "stalų": "of the tables (gen. pl.)",
+        "žaidžia": "are playing (žaisti)",
+        "septynis": "seven (acc. m.)"
       },
       "questions": [
         {
@@ -318,38 +1129,124 @@
           "type": "single",
           "difficulty": "easy",
           "stem": "Ką skaito vaikai?",
-          "options": ["naujos knygos", "naujas knygas", "naujų knygų", "nauja knyga"],
+          "options": [
+            "naujos knygos",
+            "naujas knygas",
+            "naujų knygų",
+            "nauja knyga"
+          ],
           "correct": 1,
-          "explanation": "*Vaikai skaito naujas knygas* — accusative plural, since the books are the object of the reading. *naujos knygos* is the nominative and could only be a subject.",
-          "rulesTested": ["plural-accusative", "adjective-number"],
-          "vocabUsed": ["skaityti", "vaikas", "naujas", "knyga"]
+          "explanation": "*Vaikai skaito naujas knygas* — accusative plural object. *naujos knygos* is nominative and could only be a subject; *naujų knygų* would follow *dešimt* or *daug*.",
+          "rulesTested": [
+            "plural-accusative",
+            "adjective-number"
+          ],
+          "vocabUsed": [
+            "skaityti",
+            "vaikas",
+            "naujas",
+            "knyga"
+          ]
         },
         {
           "id": "a108-p1-q2",
           "type": "multi",
           "difficulty": "medium",
-          "stem": "Which of these does the passage support?",
+          "stem": "Which of these does the passage support **and** state grammatically?",
           "options": [
             "Mokykloje dirba geri mokytojai.",
             "Berniukas turi du obuolius.",
             "Mergaitė turi dešimt knygos.",
             "Mokytojos yra jaunos."
           ],
-          "correct": [0, 1, 3],
-          "explanation": "The third is ungrammatical as well as unsupported: *dešimt* governs the genitive plural, so it must be *dešimt knygų*, which is what the passage in fact says.",
-          "rulesTested": ["numeral-case", "adjective-number", "plural-nominative"],
-          "vocabUsed": ["dirbti", "geras", "mokytojas", "berniukas", "turėti", "du", "obuolys", "mergaitė", "dešimt", "knyga", "mokytoja", "jaunas"]
+          "correct": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "The third is ungrammatical: *dešimt* requires *knygų*. The passage actually has the correct genitive plural.",
+          "rulesTested": [
+            "numeral-case",
+            "adjective-number",
+            "plural-nominative"
+          ],
+          "vocabUsed": [
+            "dirbti",
+            "geras",
+            "mokytojas",
+            "berniukas",
+            "turėti",
+            "du",
+            "obuolys",
+            "mergaitė",
+            "dešimt",
+            "knyga",
+            "mokytoja",
+            "jaunas"
+          ]
         },
         {
           "id": "a108-p1-q3",
           "type": "integer",
           "difficulty": "hard",
-          "stem": "The passage has **Vienas berniukas turi du obuolius.** If *du* became *dešimt*, how many words would change form?",
-          "answer": 1,
+          "stem": "How many **children** does the teacher see (as a bare number)?",
+          "answer": 7,
+          "unit": "children",
+          "explanation": "*Mokytojas mato septynis vaikus* — seven. Note *septynis vaikus*: 2–9 agree in the accusative plural; had it been *dešimt*, the noun would have been *vaikų*.",
+          "rulesTested": [
+            "numeral-case",
+            "plural-accusative"
+          ],
+          "vocabUsed": [
+            "mokytojas",
+            "matyti",
+            "vaikas"
+          ]
+        },
+        {
+          "id": "a108-p1-q4",
+          "type": "single",
+          "difficulty": "hard",
+          "stem": "In **Penki berniukai žaidžia**, why is *berniukai* nominative plural rather than genitive plural?",
+          "options": [
+            "Because *penki* is ten or more.",
+            "Because 2–9 agree with a plural noun in the case the sentence requires — here nominative as subject.",
+            "Because *žaisti* governs the nominative.",
+            "Because masculine nouns never take genitive plural after numerals."
+          ],
+          "correct": 1,
+          "explanation": "*penki* (2–9) declines along with the noun; as subject that is nominative plural. Genitive plural would be forced by *dešimt* and upwards (¶58).",
+          "rulesTested": [
+            "numeral-case",
+            "plural-nominative",
+            "verb-number"
+          ],
+          "vocabUsed": [
+            "penki",
+            "berniukas"
+          ]
+        },
+        {
+          "id": "a108-p1-q5",
+          "type": "integer",
+          "difficulty": "hard",
+          "stem": "The passage has **du obuolius**. If *du* became *dešimt*, how many words would change form?",
+          "answer": 2,
           "unit": "words",
-          "explanation": "One besides the numeral itself: *obuolius* → *obuolių*, the genitive plural that *dešimt* governs. *vienas berniukas* is the subject and is not touched by a change in the object — the trap is to think *vienas* must change because a numeral has.",
-          "rulesTested": ["numeral-case", "plural-genitive", "plural-accusative"],
-          "vocabUsed": ["vienas", "berniukas", "turėti", "du", "obuolys", "dešimt"]
+          "explanation": "Two: *du* → *dešimt*, *obuolius* → *obuolių*. The subject and verb stay put.",
+          "rulesTested": [
+            "numeral-case",
+            "plural-genitive",
+            "plural-accusative"
+          ],
+          "vocabUsed": [
+            "du",
+            "obuolys",
+            "dešimt",
+            "turėti",
+            "vienas",
+            "berniukas"
+          ]
         }
       ]
     }

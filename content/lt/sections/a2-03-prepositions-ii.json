@@ -1,0 +1,1292 @@
+{
+  "id": "a2-03",
+  "kind": "lesson",
+  "level": "A2",
+  "order": 3,
+  "title": "Prepositions II and Case Government",
+  "summary": "Prepositions not met at A1, and the verbs that govern a case an English speaker does not expect — genitive, dative, or instrumental as the sole object.",
+  "rules": [
+    {
+      "id": "del-apie",
+      "number": "156",
+      "heading": "Dėl and Apie",
+      "statement": "Two of the most useful prepositions still missing. **Dėl** with the **genitive** means *because of* or *for the sake of*. **Apie** with the **accusative** means *about, concerning* — of a topic of speech or thought. They are easy to confuse with each other in English (*talk about* / *worry because of*), and the case keeps them apart.",
+      "examples": [
+        {
+          "target": "Negaliu ateiti dėl darbo.",
+          "gloss": "I cannot come because of work."
+        },
+        {
+          "target": "Kalbate apie filmą?",
+          "gloss": "Are you talking about the film?"
+        },
+        {
+          "target": "Ačiū dėl pagalbos.",
+          "gloss": "Thank you on account of the help.",
+          "note": "also common: ačiū už + acc. (¶136)"
+        }
+      ],
+      "seeAlso": [
+        "prepositions-review",
+        "uz-accusative",
+        "genitive-prepositions"
+      ],
+      "core": true
+    },
+    {
+      "id": "pagal-pro-palei",
+      "number": "157",
+      "heading": "Pagal, Pro, and Palei",
+      "statement": "Three further prepositions that take the **accusative**. **Pagal** is *according to* or *along* a line (*pagal planą*, *pagal upę*). **Pro** is *through* or *past* (*pro langą*, *pro miestą*). **Palei** is *along* the side of something (*palei sieną*). *Per* (¶135) remains *across/through* of a surface; *pro* is the opening or the passing-by.",
+      "paradigms": [
+        {
+          "caption": "Accusative companions of motion and measure",
+          "columns": [
+            "preposition",
+            "gloss",
+            "example"
+          ],
+          "rows": [
+            {
+              "label": "pagal",
+              "cells": [
+                "according to; along",
+                "pagal taisykles — according to the rules"
+              ]
+            },
+            {
+              "label": "pro",
+              "cells": [
+                "through; past",
+                "pro duris — through the door"
+              ]
+            },
+            {
+              "label": "palei",
+              "cells": [
+                "along (beside)",
+                "palei upę — along the river"
+              ]
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "target": "Dirbame pagal planą.",
+          "gloss": "We are working according to the plan."
+        },
+        {
+          "target": "Katė išėjo pro duris.",
+          "gloss": "The cat went out through the door."
+        },
+        {
+          "target": "Einame palei upę.",
+          "gloss": "We are walking along the river."
+        }
+      ],
+      "seeAlso": [
+        "per-priesa-place",
+        "direction-i",
+        "prepositions-review"
+      ],
+      "core": true
+    },
+    {
+      "id": "tarp-link-salia",
+      "number": "158",
+      "heading": "Tarp, Link, and Šalia",
+      "statement": "Three place-prepositions with the **genitive**. **Tarp** is *between* or *among*; **link** is *towards* (direction without the firm arrival of *į*); **šalia** is *beside, next to*. *Prie* (¶33) remains *at/by* with contact of purpose; *šalia* is mere adjacency.",
+      "examples": [
+        {
+          "target": "Stalas stovi tarp lango ir durų.",
+          "gloss": "The table stands between the window and the door."
+        },
+        {
+          "target": "Einame link centro.",
+          "gloss": "We are going towards the centre."
+        },
+        {
+          "target": "Jis sėdi šalia manęs.",
+          "gloss": "He is sitting beside me."
+        }
+      ],
+      "footnotes": [
+        "*Greta* is a near-synonym of *šalia* and likewise takes the genitive. *Netoli* (*not far from*) also takes the genitive: *netoli mokyklos*."
+      ],
+      "seeAlso": [
+        "genitive-prepositions",
+        "place-prepositions",
+        "direction-i"
+      ],
+      "core": true
+    },
+    {
+      "id": "verbs-genitive-object",
+      "number": "159",
+      "heading": "Verbs That Take a Genitive Object",
+      "statement": "A handful of common verbs take the **genitive** as their only object, where English uses a direct object or a preposition. **Laukti** *wait for*, **ieškoti** *look for*, **bijoti** *be afraid of*, **klausyti** *listen to*, and **norėti** in the sense *want some of* all ask *ko?* — never *ką?* Learn the verb together with the case; translating the English preposition into a Lithuanian one is the error to avoid.",
+      "paradigms": [
+        {
+          "caption": "Genitive-object verbs",
+          "columns": [
+            "verb",
+            "asks",
+            "example"
+          ],
+          "rows": [
+            {
+              "label": "laukti",
+              "cells": [
+                "ko?",
+                "Laukiu autobuso. — I am waiting for the bus."
+              ]
+            },
+            {
+              "label": "ieškoti",
+              "cells": [
+                "ko?",
+                "Ieškau knygos. — I am looking for a book."
+              ]
+            },
+            {
+              "label": "bijoti",
+              "cells": [
+                "ko?",
+                "Bijau šuns. — I am afraid of the dog."
+              ]
+            },
+            {
+              "label": "klausyti",
+              "cells": [
+                "ko?",
+                "Klausau muzikos. — I am listening to music."
+              ]
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "target": "Ko tu lauki?",
+          "gloss": "What are you waiting for?"
+        },
+        {
+          "target": "Ieškome gero buto.",
+          "gloss": "We are looking for a good flat."
+        },
+        {
+          "target": "Vaikai bijo tamsos.",
+          "gloss": "The children are afraid of the dark."
+        }
+      ],
+      "seeAlso": [
+        "genitive-questions",
+        "wanting-liking",
+        "kas-declined"
+      ],
+      "core": true
+    },
+    {
+      "id": "verbs-dative-unexpected",
+      "number": "160",
+      "heading": "Verbs That Take a Dative Alone",
+      "statement": "Some verbs take a **dative** where English expects a direct object. **Padėti** *help*, **skambinti** *telephone*, **linkėti** *wish*, and **atstovauti** *represent* all ask *kam?* The person helped or telephoned is not accusative. (*Patikti* and *tikti* were already taught at ¶67–¶68.*)",
+      "examples": [
+        {
+          "target": "Ar gali man padėti?",
+          "gloss": "Can you help me?"
+        },
+        {
+          "target": "Skambinu draugui.",
+          "gloss": "I am ringing a friend."
+        },
+        {
+          "target": "Linkiu jums sėkmės.",
+          "gloss": "I wish you success.",
+          "note": "person in dative, thing wished often genitive"
+        }
+      ],
+      "footnotes": [
+        "*Padėti* can also mean \"to put\", and then takes an accusative of the thing placed — another reason to learn sense and case together."
+      ],
+      "seeAlso": [
+        "indirect-object",
+        "dative-endings",
+        "other-dative-verbs",
+        "patikti"
+      ],
+      "core": true
+    },
+    {
+      "id": "verbs-instrumental-object",
+      "number": "161",
+      "heading": "Verbs That Take an Instrumental Object",
+      "statement": "A third group takes the **instrumental** as object. **Domėtis** *be interested in*, **rūpintis** *take care of*, and **tikėti** *believe (in)* ask *kuo?* — interest, care, and belief are expressed as the means-case. *Sirgti* (¶77) already showed the pattern with illnesses.",
+      "examples": [
+        {
+          "target": "Domiuosi istorija.",
+          "gloss": "I am interested in history."
+        },
+        {
+          "target": "Ji rūpinasi vaikais.",
+          "gloss": "She takes care of the children."
+        },
+        {
+          "target": "Ar tiki Dievu?",
+          "gloss": "Do you believe in God?"
+        }
+      ],
+      "seeAlso": [
+        "instrumental-verbs",
+        "instrumental-singular",
+        "reflexive-complements"
+      ],
+      "core": true
+    },
+    {
+      "id": "case-government-summary",
+      "number": "162",
+      "heading": "Case Government Summarised",
+      "statement": "A verb or preposition **governs** a case: the ending is required by the governor, not freely chosen for meaning. Prepositions of this section add *dėl, tarp, link, šalia* to the genitive column and *apie, pagal, pro, palei* to the accusative. Verbs add a genitive set (*laukti, ieškoti, bijoti, klausyti*), a dative set (*padėti, skambinti, linkėti*), and an instrumental set (*domėtis, rūpintis, tikėti*). When in doubt, ask the question-word the governor licenses — *ko? kam? kuo?* — and answer in that case.",
+      "paradigms": [
+        {
+          "caption": "New governors by case",
+          "columns": [
+            "case",
+            "prepositions",
+            "verbs"
+          ],
+          "rows": [
+            {
+              "label": "genitive",
+              "cells": [
+                "dėl, tarp, link, šalia, greta, netoli",
+                "laukti, ieškoti, bijoti, klausyti"
+              ]
+            },
+            {
+              "label": "accusative",
+              "cells": [
+                "apie, pagal, pro, palei",
+                "(ordinary transitives)"
+              ]
+            },
+            {
+              "label": "dative",
+              "cells": [
+                "—",
+                "padėti, skambinti, linkėti"
+              ]
+            },
+            {
+              "label": "instrumental",
+              "cells": [
+                "—",
+                "domėtis, rūpintis, tikėti"
+              ]
+            }
+          ],
+          "footnote": "Still no preposition governs the dative. The dative column of verbs is large; the instrumental column is small but frequent."
+        }
+      ],
+      "examples": [
+        {
+          "target": "Laukiu autobuso šalia mokyklos.",
+          "gloss": "I am waiting for the bus beside the school."
+        },
+        {
+          "target": "Kalbu apie knygą ir domiuosi istorija.",
+          "gloss": "I talk about a book and am interested in history."
+        }
+      ],
+      "seeAlso": [
+        "prepositions-review",
+        "del-apie",
+        "verbs-genitive-object",
+        "verbs-instrumental-object"
+      ],
+      "core": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "lemma": "dėl",
+      "gloss": "because of, for the sake of (+ gen.)",
+      "pos": "preposition"
+    },
+    {
+      "lemma": "apie",
+      "gloss": "about, concerning (+ acc.)",
+      "pos": "preposition"
+    },
+    {
+      "lemma": "pagal",
+      "gloss": "according to; along (+ acc.)",
+      "pos": "preposition"
+    },
+    {
+      "lemma": "pro",
+      "gloss": "through, past (+ acc.)",
+      "pos": "preposition"
+    },
+    {
+      "lemma": "palei",
+      "gloss": "along (beside) (+ acc.)",
+      "pos": "preposition"
+    },
+    {
+      "lemma": "tarp",
+      "gloss": "between, among (+ gen.)",
+      "pos": "preposition"
+    },
+    {
+      "lemma": "link",
+      "gloss": "towards (+ gen.)",
+      "pos": "preposition"
+    },
+    {
+      "lemma": "šalia",
+      "gloss": "beside, next to (+ gen.)",
+      "pos": "preposition"
+    },
+    {
+      "lemma": "greta",
+      "gloss": "beside, next to (+ gen.)",
+      "pos": "preposition"
+    },
+    {
+      "lemma": "netoli",
+      "gloss": "not far from (+ gen.)",
+      "pos": "preposition"
+    },
+    {
+      "lemma": "laukti",
+      "gloss": "to wait (for) (+ gen.)",
+      "pos": "verb",
+      "forms": {
+        "inf": "laukti",
+        "pres3": "laukia",
+        "past3": "laukė",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "ieškoti",
+      "gloss": "to look for (+ gen.)",
+      "pos": "verb",
+      "forms": {
+        "inf": "ieškoti",
+        "pres3": "ieško",
+        "past3": "ieškojo",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "bijoti",
+      "gloss": "to be afraid (of) (+ gen.)",
+      "pos": "verb",
+      "forms": {
+        "inf": "bijoti",
+        "pres3": "bijo",
+        "past3": "bijojo",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "linkėti",
+      "gloss": "to wish (+ dat. of person)",
+      "pos": "verb",
+      "forms": {
+        "inf": "linkėti",
+        "pres3": "linki",
+        "past3": "linkėjo",
+        "conj": "III"
+      }
+    },
+    {
+      "lemma": "tikėti",
+      "gloss": "to believe (in) (+ instr.)",
+      "pos": "verb",
+      "forms": {
+        "inf": "tikėti",
+        "pres3": "tiki",
+        "past3": "tikėjo",
+        "conj": "III"
+      }
+    },
+    {
+      "lemma": "planas",
+      "gloss": "plan",
+      "pos": "noun",
+      "forms": {
+        "nom": "planas",
+        "gen": "plano",
+        "acc": "planą",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "taisyklė",
+      "gloss": "rule",
+      "pos": "noun",
+      "forms": {
+        "nom": "taisyklė",
+        "gen": "taisyklės",
+        "acc": "taisyklę",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "durys",
+      "gloss": "door (usually plural)",
+      "pos": "noun",
+      "forms": {
+        "nom": "durys",
+        "gen": "durų",
+        "acc": "duris",
+        "gender": "f."
+      },
+      "notes": "Pluralia tantum in common use."
+    },
+    {
+      "lemma": "siena",
+      "gloss": "wall",
+      "pos": "noun",
+      "forms": {
+        "nom": "siena",
+        "gen": "sienos",
+        "acc": "sieną",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "istorija",
+      "gloss": "history; story",
+      "pos": "noun",
+      "forms": {
+        "nom": "istorija",
+        "gen": "istorijos",
+        "acc": "istoriją",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "pagalba",
+      "gloss": "help",
+      "pos": "noun",
+      "forms": {
+        "nom": "pagalba",
+        "gen": "pagalbos",
+        "acc": "pagalbą",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "sėkmė",
+      "gloss": "success",
+      "pos": "noun",
+      "forms": {
+        "nom": "sėkmė",
+        "gen": "sėkmės",
+        "acc": "sėkmę",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "tamsa",
+      "gloss": "darkness",
+      "pos": "noun",
+      "forms": {
+        "nom": "tamsa",
+        "gen": "tamsos",
+        "acc": "tamsą",
+        "gender": "f."
+      }
+    }
+  ],
+  "drills": [
+    {
+      "id": "a203-q1",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete: **Kalbate ____ filmą?** (Are you talking about the film?)",
+      "options": [
+        "dėl",
+        "apie",
+        "su",
+        "iš"
+      ],
+      "correct": 1,
+      "explanation": "**Apie** + accusative is *about* a topic. *Dėl* would be *because of* and takes the genitive.",
+      "rulesTested": [
+        "del-apie"
+      ],
+      "vocabUsed": [
+        "apie",
+        "filmas",
+        "dėl"
+      ]
+    },
+    {
+      "id": "a203-q2",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete: **Laukiu ____.** (I am waiting for the bus.)",
+      "options": [
+        "autobusą",
+        "autobuso",
+        "autobusui",
+        "autobusu"
+      ],
+      "correct": 1,
+      "explanation": "*laukti* governs the **genitive**: *autobuso*. The accusative is the trap English *wait for the bus* sets.",
+      "rulesTested": [
+        "verbs-genitive-object"
+      ],
+      "vocabUsed": [
+        "laukti",
+        "autobusas"
+      ]
+    },
+    {
+      "id": "a203-q3",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete: **Negaliu ateiti ____ darbo.** (I cannot come because of work.)",
+      "options": [
+        "apie",
+        "dėl",
+        "pagal",
+        "pro"
+      ],
+      "correct": 1,
+      "explanation": "**Dėl** + genitive = because of. *Apie* is about a topic; *pagal* according to; *pro* through.",
+      "rulesTested": [
+        "del-apie"
+      ],
+      "vocabUsed": [
+        "dėl",
+        "darbas",
+        "apie",
+        "pagal",
+        "pro"
+      ]
+    },
+    {
+      "id": "a203-q4",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Katė išėjo ____ duris.** (The cat went out through the door.)",
+      "options": [
+        "per",
+        "pro",
+        "į",
+        "pas"
+      ],
+      "correct": 1,
+      "explanation": "**Pro** + accusative for going through an opening. *Per* is across a surface; both take the accusative, but the noun chooses the preposition.",
+      "rulesTested": [
+        "pagal-pro-palei",
+        "per-priesa-place"
+      ],
+      "vocabUsed": [
+        "katė",
+        "pro",
+        "durys",
+        "per"
+      ]
+    },
+    {
+      "id": "a203-q5",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which prepositions govern the **genitive**?",
+      "options": [
+        "tarp",
+        "šalia",
+        "apie",
+        "link"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "*apie* takes the **accusative**. *Tarp, šalia, link* are genitive place-prepositions of this section.",
+      "rulesTested": [
+        "tarp-link-salia",
+        "del-apie",
+        "case-government-summary"
+      ],
+      "vocabUsed": [
+        "tarp",
+        "šalia",
+        "apie",
+        "link"
+      ]
+    },
+    {
+      "id": "a203-q6",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Ar gali ____ padėti?** (Can you help me?)",
+      "options": [
+        "mane",
+        "manęs",
+        "man",
+        "manimi"
+      ],
+      "correct": 2,
+      "explanation": "*padėti* \"help\" takes the **dative** of the person helped: *man*. *Mane* is the accusative trap.",
+      "rulesTested": [
+        "verbs-dative-unexpected"
+      ],
+      "vocabUsed": [
+        "padėti",
+        "aš"
+      ]
+    },
+    {
+      "id": "a203-q7",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Domiuosi ____.** (I am interested in history.)",
+      "options": [
+        "istoriją",
+        "istorijos",
+        "istorija",
+        "istorijai"
+      ],
+      "correct": 2,
+      "explanation": "*domėtis* takes the **instrumental**: *istorija*. (Feminine *-a* instrumental = nominative spelling.)",
+      "rulesTested": [
+        "verbs-instrumental-object"
+      ],
+      "vocabUsed": [
+        "domėtis",
+        "istorija"
+      ]
+    },
+    {
+      "id": "a203-q8",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which sentences are **correct**?",
+      "options": [
+        "Ieškau knygos.",
+        "Bijau šuns.",
+        "Klausau muziką.",
+        "Skambinu draugui."
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "*klausyti* needs the genitive: *Klausau muzikos*, not the accusative. *Ieškoti* and *bijoti* take genitive; *skambinti* takes dative.",
+      "rulesTested": [
+        "verbs-genitive-object",
+        "verbs-dative-unexpected"
+      ],
+      "vocabUsed": [
+        "ieškoti",
+        "knyga",
+        "bijoti",
+        "šuo",
+        "klausyti",
+        "muzika",
+        "skambinti",
+        "draugas"
+      ]
+    },
+    {
+      "id": "a203-q9",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**Einame link centro** against **Einame į centrą** — what is the difference?",
+      "options": [
+        "None; free variants.",
+        "*Link* is towards without stressing arrival; *į* is motion into/to as goal.",
+        "*Link* takes the accusative and *į* the genitive.",
+        "*Į* is only for people."
+      ],
+      "correct": 1,
+      "explanation": "Both are directional, but *į* + accusative marks the goal reached; *link* + genitive marks orientation towards. Cases differ too: genitive vs accusative.",
+      "rulesTested": [
+        "tarp-link-salia",
+        "direction-i"
+      ],
+      "vocabUsed": [
+        "link",
+        "centras",
+        "į"
+      ]
+    },
+    {
+      "id": "a203-q10",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Which case does **no** Lithuanian preposition govern?",
+      "options": [
+        "genitive",
+        "accusative",
+        "instrumental",
+        "dative"
+      ],
+      "correct": 3,
+      "explanation": "Still true after this section's additions: the dative is a verbal case for prepositional purposes. Prepositions take genitive, accusative, or (rarely) instrumental.",
+      "rulesTested": [
+        "case-government-summary",
+        "prepositions-review"
+      ],
+      "vocabUsed": [
+        "dėl",
+        "apie",
+        "su"
+      ]
+    },
+    {
+      "id": "a203-q11",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which of these verbs take a **genitive** object?",
+      "explanation": "*laukti*, *ieškoti*, and *bijoti* take the genitive. *padėti* (help) takes the dative.",
+      "rulesTested": [
+        "verbs-genitive-object",
+        "verbs-dative-unexpected"
+      ],
+      "vocabUsed": [
+        "laukti",
+        "ieškoti",
+        "bijoti",
+        "klausyti",
+        "padėti"
+      ],
+      "options": [
+        "laukti",
+        "ieškoti",
+        "padėti",
+        "bijoti"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "id": "a203-q12",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "Of the new prepositions *dėl, apie, pagal, pro, palei, tarp, link, šalia*, how many govern the **accusative**?",
+      "answer": 4,
+      "unit": "prepositions",
+      "explanation": "Four: *apie, pagal, pro, palei*. The other four (*dėl, tarp, link, šalia*) take the genitive.",
+      "rulesTested": [
+        "case-government-summary",
+        "del-apie",
+        "pagal-pro-palei",
+        "tarp-link-salia"
+      ],
+      "vocabUsed": [
+        "dėl",
+        "apie",
+        "pagal",
+        "pro",
+        "palei",
+        "tarp",
+        "link",
+        "šalia"
+      ]
+    },
+    {
+      "id": "a203-q13",
+      "type": "multi",
+      "difficulty": "easy",
+      "stem": "Which verbs take an **instrumental** object?",
+      "options": [
+        "domėtis",
+        "rūpintis",
+        "tikėti",
+        "laukti"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "*laukti* takes the genitive. The instrumental set is *domėtis, rūpintis, tikėti* (and *sirgti* from A1).",
+      "rulesTested": [
+        "verbs-instrumental-object"
+      ],
+      "vocabUsed": [
+        "domėtis",
+        "rūpintis",
+        "tikėti",
+        "laukti"
+      ]
+    },
+    {
+      "id": "a203-p1",
+      "type": "comprehension",
+      "difficulty": "medium",
+      "title": "Prie mokyklos",
+      "passage": "Laukiu autobuso šalia mokyklos. Greta manęs stovi draugas; jis ieško bilieto. Kalbame apie filmą ir apie istoriją — jis domisi istorija. Katė išėjo pro duris ir bėga palei sieną link parko. Dėl lietaus negalime eiti tarp medžių. „Skambink man!“ — sakau. Jis linki man sėkmės.",
+      "translation": "I am waiting for the bus beside the school. Next to me stands a friend; he is looking for a ticket. We talk about a film and about history — he is interested in history. A cat went out through the door and runs along the wall towards the park. Because of the rain we cannot go among the trees. \"Ring me!\" I say. He wishes me success.",
+      "glossary": {
+        "lietaus": "of the rain (lietus)",
+        "medžių": "of the trees (gen. pl. of medis)",
+        "skambink": "ring! (imperative)"
+      },
+      "questions": [
+        {
+          "id": "a203-p1-q1",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "Ko laukia pasakotojas?",
+          "options": [
+            "autobusą",
+            "autobuso",
+            "autobusui",
+            "su autobusu"
+          ],
+          "correct": 1,
+          "explanation": "*Laukiu autobuso* — genitive object of *laukti*.",
+          "rulesTested": [
+            "verbs-genitive-object"
+          ],
+          "vocabUsed": [
+            "laukti",
+            "autobusas"
+          ]
+        },
+        {
+          "id": "a203-p1-q2",
+          "type": "multi",
+          "difficulty": "medium",
+          "stem": "Which prepositions in the passage govern the **accusative**?",
+          "options": [
+            "apie (filmą)",
+            "pro (duris)",
+            "palei (sieną)",
+            "šalia (mokyklos)"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "*šalia* takes the genitive (*mokyklos*). The other three are accusative governors of this section.",
+          "rulesTested": [
+            "del-apie",
+            "pagal-pro-palei",
+            "tarp-link-salia"
+          ],
+          "vocabUsed": [
+            "apie",
+            "pro",
+            "palei",
+            "šalia",
+            "filmas",
+            "durys",
+            "siena",
+            "mokykla"
+          ]
+        },
+        {
+          "id": "a203-p1-q3",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "**Jis domisi istorija.** Why *istorija* and not *istoriją*?",
+          "options": [
+            "Because *domėtis* takes the instrumental, and feminine *-a* looks like the nominative.",
+            "Because it is the subject.",
+            "Because *apie* was omitted.",
+            "Because history is uncountable."
+          ],
+          "correct": 0,
+          "explanation": "Instrumental singular of a feminine *-a* noun is spelled like the nominative. The accusative *istoriją* would be wrong after *domėtis*.",
+          "rulesTested": [
+            "verbs-instrumental-object"
+          ],
+          "vocabUsed": [
+            "domėtis",
+            "istorija"
+          ]
+        },
+        {
+          "id": "a203-p1-q4",
+          "type": "integer",
+          "difficulty": "hard",
+          "stem": "How many **different cases** are governed by prepositions in the passage?",
+          "answer": 2,
+          "unit": "cases",
+          "explanation": "Two: **genitive** (*šalia, greta, link, dėl, tarp*) and **accusative** (*apie, pro, palei*). No instrumental or dative preposition appears.",
+          "rulesTested": [
+            "case-government-summary",
+            "tarp-link-salia",
+            "pagal-pro-palei",
+            "del-apie"
+          ],
+          "vocabUsed": [
+            "šalia",
+            "greta",
+            "apie",
+            "pro",
+            "palei",
+            "link",
+            "dėl",
+            "tarp"
+          ]
+        },
+        {
+          "id": "a203-p1-q5",
+          "type": "single",
+          "difficulty": "hard",
+          "stem": "**Skambink man!** and **Linki man sėkmės.** What case is *man* in both?",
+          "options": [
+            "accusative",
+            "genitive",
+            "dative",
+            "instrumental"
+          ],
+          "correct": 2,
+          "explanation": "Both *skambinti* and *linkėti* take a **dative** of the person. *Sėkmės* is a further genitive of the thing wished.",
+          "rulesTested": [
+            "verbs-dative-unexpected"
+          ],
+          "vocabUsed": [
+            "skambinti",
+            "linkėti",
+            "sėkmė"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a203-x1",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete: **Einu ____ upės.** (I am walking along the river.)",
+      "options": [
+        "apie",
+        "palei",
+        "dėl",
+        "tarp"
+      ],
+      "correct": 1,
+      "explanation": "**Palei** + accusative means *along*. *Apie* is *about*; *dėl* is *because of*.",
+      "rulesTested": [
+        "pagal-pro-palei"
+      ],
+      "vocabUsed": [
+        "palei"
+      ]
+    },
+    {
+      "id": "a203-x2",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete: **Namai stovi ____ miško.** (The houses stand beside the forest.)",
+      "options": [
+        "šalia",
+        "apie",
+        "pro",
+        "pagal"
+      ],
+      "correct": 0,
+      "explanation": "**Šalia** + genitive is *beside / next to*.",
+      "rulesTested": [
+        "tarp-link-salia"
+      ],
+      "vocabUsed": [
+        "šalia"
+      ]
+    },
+    {
+      "id": "a203-x3",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete: **Ieškau ____.** (I am looking for the keys.)",
+      "options": [
+        "raktus",
+        "raktų",
+        "raktams",
+        "raktais"
+      ],
+      "correct": 1,
+      "explanation": "*Ieškoti* takes a **genitive** object: *ieškau raktų*.",
+      "rulesTested": [
+        "verbs-genitive-object"
+      ],
+      "vocabUsed": [
+        "ieškoti"
+      ]
+    },
+    {
+      "id": "a203-x4",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Viskas vyksta ____ planą.** (Everything goes according to the plan.)",
+      "options": [
+        "dėl",
+        "pagal",
+        "apie",
+        "tarp"
+      ],
+      "correct": 1,
+      "explanation": "**Pagal** + accusative: *according to*.",
+      "rulesTested": [
+        "pagal-pro-palei"
+      ],
+      "vocabUsed": [
+        "pagal",
+        "planas"
+      ]
+    },
+    {
+      "id": "a203-x5",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Bijau ____.** (I am afraid of the dark.)",
+      "options": [
+        "tamsą",
+        "tamsos",
+        "tamsai",
+        "tamsąja"
+      ],
+      "correct": 1,
+      "explanation": "*Bijoti* takes the **genitive**: *bijau tamsos*.",
+      "rulesTested": [
+        "verbs-genitive-object"
+      ],
+      "vocabUsed": [
+        "bijoti",
+        "tamsa"
+      ]
+    },
+    {
+      "id": "a203-x6",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which prepositions take the **accusative**?",
+      "options": [
+        "apie",
+        "pagal",
+        "pro",
+        "dėl"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "*dėl* takes the **genitive**. *Apie, pagal, pro* (and *palei*) take the accusative.",
+      "rulesTested": [
+        "del-apie",
+        "pagal-pro-palei",
+        "case-government-summary"
+      ],
+      "vocabUsed": [
+        "apie",
+        "pagal",
+        "pro",
+        "dėl"
+      ]
+    },
+    {
+      "id": "a203-x7",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Linkiu jums ____.** (I wish you success.)",
+      "options": [
+        "sėkmę",
+        "sėkmės",
+        "sėkmei",
+        "sėkme"
+      ],
+      "correct": 1,
+      "explanation": "*Linkėti* takes a dative of the person and a **genitive** of what is wished: *linkiu jums sėkmės*.",
+      "rulesTested": [
+        "verbs-dative-unexpected"
+      ],
+      "vocabUsed": [
+        "linkėti",
+        "sėkmė"
+      ]
+    },
+    {
+      "id": "a203-x8",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**Ar tiki Dievu?** Which case does *tikėti* require of its object here?",
+      "options": [
+        "accusative",
+        "genitive",
+        "dative",
+        "instrumental"
+      ],
+      "correct": 3,
+      "explanation": "*Tikėti* (*believe in*) takes the **instrumental** (*kuo?*): *tiki Dievu*.",
+      "rulesTested": [
+        "verbs-instrumental-object"
+      ],
+      "vocabUsed": [
+        "tikėti"
+      ]
+    },
+    {
+      "id": "a203-x9",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which sentences are **correct**?",
+      "options": [
+        "Laukiu autobuso.",
+        "Kalbu apie filmą.",
+        "Domiuosi istoriją.",
+        "Einame pro parką."
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "*Domėtis* takes the **instrumental**: *domiuosi istorija*, not accusative *istoriją*.",
+      "rulesTested": [
+        "verbs-genitive-object",
+        "del-apie",
+        "verbs-instrumental-object",
+        "pagal-pro-palei"
+      ],
+      "vocabUsed": [
+        "laukti",
+        "apie",
+        "domėtis",
+        "istorija",
+        "pro"
+      ]
+    },
+    {
+      "id": "a203-x10",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Complete: **Sėdžiu ____ sienos.** (I sit next to / by the wall — using *greta*.)",
+      "options": [
+        "greta",
+        "apie",
+        "pro",
+        "pagal"
+      ],
+      "correct": 0,
+      "explanation": "**Greta** (like *šalia*) takes the genitive: *greta sienos*.",
+      "rulesTested": [
+        "tarp-link-salia"
+      ],
+      "vocabUsed": [
+        "greta",
+        "siena"
+      ]
+    },
+    {
+      "id": "a203-x11",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which of these verbs take the **instrumental**?",
+      "explanation": "*domėtis*, *rūpintis*, and *tikėti* take the instrumental. *bijoti* takes the genitive.",
+      "rulesTested": [
+        "verbs-instrumental-object",
+        "verbs-genitive-object"
+      ],
+      "vocabUsed": [
+        "domėtis",
+        "rūpintis",
+        "tikėti",
+        "bijoti"
+      ],
+      "options": [
+        "domėtis",
+        "rūpintis",
+        "bijoti",
+        "tikėti"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "id": "a203-x12",
+      "type": "integer",
+      "difficulty": "easy",
+      "stem": "Of *dėl, apie, pagal, pro, palei, tarp, link, šalia*, how many govern the **genitive**?",
+      "answer": 4,
+      "unit": "prepositions",
+      "explanation": "Four: *dėl, tarp, link, šalia*. The other four take the accusative.",
+      "rulesTested": [
+        "case-government-summary",
+        "del-apie",
+        "tarp-link-salia"
+      ],
+      "vocabUsed": [
+        "dėl",
+        "apie",
+        "pagal",
+        "pro",
+        "palei",
+        "tarp",
+        "link",
+        "šalia"
+      ]
+    },
+    {
+      "id": "a203-x13",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete: **Knyga guli ____ stalo ir kėdės.** (The book lies between the table and the chair.)",
+      "options": [
+        "tarp",
+        "apie",
+        "pro",
+        "pagal"
+      ],
+      "correct": 0,
+      "explanation": "**Tarp** + genitive: *between*.",
+      "rulesTested": [
+        "tarp-link-salia"
+      ],
+      "vocabUsed": [
+        "tarp"
+      ]
+    },
+    {
+      "id": "a203-x14",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which verbs take a **genitive** object?",
+      "options": [
+        "laukti",
+        "ieškoti",
+        "padėti",
+        "bijoti"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "*Padėti* takes the **dative**. *Laukti, ieškoti, bijoti* are genitive-object verbs.",
+      "rulesTested": [
+        "verbs-genitive-object",
+        "verbs-dative-unexpected"
+      ],
+      "vocabUsed": [
+        "laukti",
+        "ieškoti",
+        "padėti",
+        "bijoti"
+      ]
+    }
+  ]
+}

@@ -177,8 +177,8 @@ export const AtomicQuestion = z.discriminatedUnion("type", [
 ]);
 
 /**
- * A reading passage with 2–3 dependent questions, as in JEE's comprehension
- * blocks. The passage's own score is the sum of its children.
+ * A reading passage with 2–5 dependent questions, as in JEE Advanced paragraph
+ * and comprehension blocks. The passage's own score is the sum of its children.
  */
 export const ComprehensionDrill = z.strictObject({
   id: Id,
@@ -194,7 +194,7 @@ export const ComprehensionDrill = z.strictObject({
   translation: z.string().optional(),
   /** Glosses for words the learner has not met yet, keyed by surface form. */
   glossary: z.record(z.string(), z.string()).default({}),
-  questions: z.array(AtomicQuestion).min(2).max(3),
+  questions: z.array(AtomicQuestion).min(2).max(5),
   fromSection: Id.optional(),
 });
 

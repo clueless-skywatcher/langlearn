@@ -12,11 +12,26 @@
       "heading": "Getting the Present Stem",
       "statement": "Every present form is built on the **present stem**, which is got by removing the ending of the third person present — the second of the three principal parts (¶23). *dirba* gives the stem *dirb-*, *turi* gives *tur-*, *skaito* gives *skait-*. Because the third person is cited in every dictionary, no present form ever has to be guessed.",
       "examples": [
-        { "target": "dirbti, dirba, dirbo → dirb-", "gloss": "to work", "note": "first conjugation" },
-        { "target": "turėti, turi, turėjo → tur-", "gloss": "to have", "note": "second conjugation" },
-        { "target": "skaityti, skaito, skaitė → skait-", "gloss": "to read", "note": "third conjugation" }
+        {
+          "target": "dirbti, dirba, dirbo → dirb-",
+          "gloss": "to work",
+          "note": "first conjugation"
+        },
+        {
+          "target": "turėti, turi, turėjo → tur-",
+          "gloss": "to have",
+          "note": "second conjugation"
+        },
+        {
+          "target": "skaityti, skaito, skaitė → skait-",
+          "gloss": "to read",
+          "note": "third conjugation"
+        }
       ],
-      "seeAlso": ["conjugations", "present-conj-i"],
+      "seeAlso": [
+        "conjugations",
+        "present-conj-i"
+      ],
       "core": true
     },
     {
@@ -27,23 +42,81 @@
       "paradigms": [
         {
           "caption": "turėti (turi) — present tense",
-          "columns": ["ending", "form", "English"],
+          "columns": [
+            "ending",
+            "form",
+            "English"
+          ],
           "rows": [
-            { "label": "aš", "cells": ["-iu", "turiu", "I have"] },
-            { "label": "tu", "cells": ["-i", "turi", "you have"] },
-            { "label": "jis, ji", "cells": ["-i", "turi", "he, she has"] },
-            { "label": "mes", "cells": ["-ime", "turime", "we have"] },
-            { "label": "jūs", "cells": ["-ite", "turite", "you have"] },
-            { "label": "jie, jos", "cells": ["-i", "turi", "they have"] }
+            {
+              "label": "aš",
+              "cells": [
+                "-iu",
+                "turiu",
+                "I have"
+              ]
+            },
+            {
+              "label": "tu",
+              "cells": [
+                "-i",
+                "turi",
+                "you have"
+              ]
+            },
+            {
+              "label": "jis, ji",
+              "cells": [
+                "-i",
+                "turi",
+                "he, she has"
+              ]
+            },
+            {
+              "label": "mes",
+              "cells": [
+                "-ime",
+                "turime",
+                "we have"
+              ]
+            },
+            {
+              "label": "jūs",
+              "cells": [
+                "-ite",
+                "turite",
+                "you have"
+              ]
+            },
+            {
+              "label": "jie, jos",
+              "cells": [
+                "-i",
+                "turi",
+                "they have"
+              ]
+            }
           ]
         }
       ],
       "examples": [
-        { "target": "Aš noriu kavos.", "gloss": "I want coffee." },
-        { "target": "Ar tu turi brolį?", "gloss": "Have you a brother?" },
-        { "target": "Mes žiūrime televizorių.", "gloss": "We are watching television." }
+        {
+          "target": "Aš noriu kavos.",
+          "gloss": "I want coffee."
+        },
+        {
+          "target": "Ar tu turi brolį?",
+          "gloss": "Have you a brother?"
+        },
+        {
+          "target": "Mes žiūrime televizorių.",
+          "gloss": "We are watching television."
+        }
       ],
-      "seeAlso": ["present-stem", "conjugations"],
+      "seeAlso": [
+        "present-stem",
+        "conjugations"
+      ],
       "core": true
     },
     {
@@ -54,23 +127,81 @@
       "paradigms": [
         {
           "caption": "skaityti (skaito) — present tense",
-          "columns": ["ending", "form", "English"],
+          "columns": [
+            "ending",
+            "form",
+            "English"
+          ],
           "rows": [
-            { "label": "aš", "cells": ["-au", "skaitau", "I read"] },
-            { "label": "tu", "cells": ["-ai", "skaitai", "you read"] },
-            { "label": "jis, ji", "cells": ["-o", "skaito", "he, she reads"] },
-            { "label": "mes", "cells": ["-ome", "skaitome", "we read"] },
-            { "label": "jūs", "cells": ["-ote", "skaitote", "you read"] },
-            { "label": "jie, jos", "cells": ["-o", "skaito", "they read"] }
+            {
+              "label": "aš",
+              "cells": [
+                "-au",
+                "skaitau",
+                "I read"
+              ]
+            },
+            {
+              "label": "tu",
+              "cells": [
+                "-ai",
+                "skaitai",
+                "you read"
+              ]
+            },
+            {
+              "label": "jis, ji",
+              "cells": [
+                "-o",
+                "skaito",
+                "he, she reads"
+              ]
+            },
+            {
+              "label": "mes",
+              "cells": [
+                "-ome",
+                "skaitome",
+                "we read"
+              ]
+            },
+            {
+              "label": "jūs",
+              "cells": [
+                "-ote",
+                "skaitote",
+                "you read"
+              ]
+            },
+            {
+              "label": "jie, jos",
+              "cells": [
+                "-o",
+                "skaito",
+                "they read"
+              ]
+            }
           ]
         }
       ],
       "examples": [
-        { "target": "Aš rašau laišką.", "gloss": "I am writing a letter." },
-        { "target": "Ką jūs valgote?", "gloss": "What are you eating?" },
-        { "target": "Jie mato namą.", "gloss": "They see the house." }
+        {
+          "target": "Aš rašau laišką.",
+          "gloss": "I am writing a letter."
+        },
+        {
+          "target": "Ką jūs valgote?",
+          "gloss": "What are you eating?"
+        },
+        {
+          "target": "Jie mato namą.",
+          "gloss": "They see the house."
+        }
       ],
-      "seeAlso": ["present-stem", "conjugations"],
+      "seeAlso": [
+        "present-stem",
+        "conjugations"
+      ],
       "core": true
     },
     {
@@ -81,22 +212,75 @@
       "paradigms": [
         {
           "caption": "The present tense in full",
-          "columns": ["I (dirbti)", "II (turėti)", "III (skaityti)"],
+          "columns": [
+            "I (dirbti)",
+            "II (turėti)",
+            "III (skaityti)"
+          ],
           "rows": [
-            { "label": "aš", "cells": ["dirbu", "turiu", "skaitau"] },
-            { "label": "tu", "cells": ["dirbi", "turi", "skaitai"] },
-            { "label": "jis, ji", "cells": ["dirba", "turi", "skaito"] },
-            { "label": "mes", "cells": ["dirbame", "turime", "skaitome"] },
-            { "label": "jūs", "cells": ["dirbate", "turite", "skaitote"] },
-            { "label": "jie, jos", "cells": ["dirba", "turi", "skaito"] }
+            {
+              "label": "aš",
+              "cells": [
+                "dirbu",
+                "turiu",
+                "skaitau"
+              ]
+            },
+            {
+              "label": "tu",
+              "cells": [
+                "dirbi",
+                "turi",
+                "skaitai"
+              ]
+            },
+            {
+              "label": "jis, ji",
+              "cells": [
+                "dirba",
+                "turi",
+                "skaito"
+              ]
+            },
+            {
+              "label": "mes",
+              "cells": [
+                "dirbame",
+                "turime",
+                "skaitome"
+              ]
+            },
+            {
+              "label": "jūs",
+              "cells": [
+                "dirbate",
+                "turite",
+                "skaitote"
+              ]
+            },
+            {
+              "label": "jie, jos",
+              "cells": [
+                "dirba",
+                "turi",
+                "skaito"
+              ]
+            }
           ],
           "footnote": "In every conjugation one form serves the whole third person, and the plural is the third person plus -me or -te."
         }
       ],
       "examples": [
-        { "target": "Aš gyvenu Vilniuje ir dirbu.", "gloss": "I live in Vilnius and work." }
+        {
+          "target": "Aš gyvenu Vilniuje ir dirbu.",
+          "gloss": "I live in Vilnius and work."
+        }
       ],
-      "seeAlso": ["present-conj-i", "present-conj-ii", "present-conj-iii"],
+      "seeAlso": [
+        "present-conj-i",
+        "present-conj-ii",
+        "present-conj-iii"
+      ],
       "core": true
     },
     {
@@ -105,14 +289,28 @@
       "heading": "Wanting and Liking, and the Cases They Govern",
       "statement": "Two very common verbs differ in the case they take, and the difference must be learned with them. **Norėti**, to want, governs the **genitive**; **mėgti**, to like, governs the **accusative**. The reason is the old one: what is wanted is not yet had, and so is a part rather than a whole, while what is liked is liked entire.",
       "examples": [
-        { "target": "Noriu kavos.", "gloss": "I want coffee.", "note": "genitive after norėti" },
-        { "target": "Mėgstu kavą.", "gloss": "I like coffee.", "note": "accusative after mėgti" },
-        { "target": "Ji nori duonos, bet mėgsta obuolius.", "gloss": "She wants bread, but likes apples." }
+        {
+          "target": "Noriu kavos.",
+          "gloss": "I want coffee.",
+          "note": "genitive after norėti"
+        },
+        {
+          "target": "Mėgstu kavą.",
+          "gloss": "I like coffee.",
+          "note": "accusative after mėgti"
+        },
+        {
+          "target": "Ji nori duonos, bet mėgsta obuolius.",
+          "gloss": "She wants bread, but likes apples."
+        }
       ],
       "footnotes": [
         "*klausyti*, to listen to, likewise governs the genitive: *klausau muzikos*, I am listening to music."
       ],
-      "seeAlso": ["genitive-quantity", "accusative-nouns"],
+      "seeAlso": [
+        "genitive-quantity",
+        "accusative-nouns"
+      ],
       "core": true
     },
     {
@@ -121,12 +319,27 @@
       "heading": "The Complementary Infinitive",
       "statement": "**Galėti** (to be able), **norėti** (to want) and **mėgti** (to like) may be completed by an **infinitive** instead of by a noun. The infinitive ends in *-ti* and never changes; the finite verb alone carries the person. Note that when *norėti* is completed by an infinitive there is no noun to put in the genitive, and the question of case does not arise.",
       "examples": [
-        { "target": "Aš galiu dirbti.", "gloss": "I can work." },
-        { "target": "Ji nori skaityti.", "gloss": "She wants to read." },
-        { "target": "Mes mėgstame dainuoti.", "gloss": "We like to sing." },
-        { "target": "Ar jūs galite kalbėti lietuviškai?", "gloss": "Can you speak Lithuanian?" }
+        {
+          "target": "Aš galiu dirbti.",
+          "gloss": "I can work."
+        },
+        {
+          "target": "Ji nori skaityti.",
+          "gloss": "She wants to read."
+        },
+        {
+          "target": "Mes mėgstame dainuoti.",
+          "gloss": "We like to sing."
+        },
+        {
+          "target": "Ar jūs galite kalbėti lietuviškai?",
+          "gloss": "Can you speak Lithuanian?"
+        }
       ],
-      "seeAlso": ["wanting-liking", "conjugations"],
+      "seeAlso": [
+        "wanting-liking",
+        "conjugations"
+      ],
       "core": true
     },
     {
@@ -135,39 +348,228 @@
       "heading": "Adverbs of Frequency",
       "statement": "Because Lithuanian has one present tense where English has two (¶24), how often an action happens is said with an **adverb** rather than with a change of tense: *visada* (always), *dažnai* (often), *kartais* (sometimes), *retai* (rarely), *niekada* (never). They stand before the verb. **Niekada** requires the verb to be negated as well — Lithuanian doubles its negatives where English refuses to.",
       "examples": [
-        { "target": "Aš dažnai skaitau.", "gloss": "I often read." },
-        { "target": "Ji kartais dirba namuose.", "gloss": "She sometimes works at home." },
-        { "target": "Mes niekada nevalgome duonos.", "gloss": "We never eat bread.", "note": "niekada and ne- together" }
+        {
+          "target": "Aš dažnai skaitau.",
+          "gloss": "I often read."
+        },
+        {
+          "target": "Ji kartais dirba namuose.",
+          "gloss": "She sometimes works at home."
+        },
+        {
+          "target": "Mes niekada nevalgome duonos.",
+          "gloss": "We never eat bread.",
+          "note": "niekada and ne- together"
+        }
       ],
       "footnotes": [
         "The double negative is obligatory, not emphatic: *niekada valgome* is simply ungrammatical."
       ],
-      "seeAlso": ["negation", "present-conj-i"],
+      "seeAlso": [
+        "negation",
+        "present-conj-i"
+      ],
       "core": true
     }
   ],
   "vocabulary": [
-    { "lemma": "norėti", "gloss": "to want (+ gen.)", "pos": "verb", "forms": { "inf": "norėti", "pres3": "nori", "past3": "norėjo", "conj": "II" } },
-    { "lemma": "galėti", "gloss": "to be able, can", "pos": "verb", "forms": { "inf": "galėti", "pres3": "gali", "past3": "galėjo", "conj": "II" } },
-    { "lemma": "žiūrėti", "gloss": "to watch, to look", "pos": "verb", "forms": { "inf": "žiūrėti", "pres3": "žiūri", "past3": "žiūrėjo", "conj": "II" } },
-    { "lemma": "klausyti", "gloss": "to listen to (+ gen.)", "pos": "verb", "forms": { "inf": "klausyti", "pres3": "klauso", "past3": "klausė", "conj": "III" } },
-    { "lemma": "mėgti", "gloss": "to like (+ acc.)", "pos": "verb", "forms": { "inf": "mėgti", "pres3": "mėgsta", "past3": "mėgo", "conj": "I" } },
-    { "lemma": "gyventi", "gloss": "to live", "pos": "verb", "forms": { "inf": "gyventi", "pres3": "gyvena", "past3": "gyveno", "conj": "I" } },
-    { "lemma": "studijuoti", "gloss": "to study", "pos": "verb", "forms": { "inf": "studijuoti", "pres3": "studijuoja", "past3": "studijavo", "conj": "I" } },
-    { "lemma": "suprasti", "gloss": "to understand", "pos": "verb", "forms": { "inf": "suprasti", "pres3": "supranta", "past3": "suprato", "conj": "I" } },
-    { "lemma": "eiti", "gloss": "to go, to walk", "pos": "verb", "forms": { "inf": "eiti", "pres3": "eina", "past3": "ėjo", "conj": "I" } },
-    { "lemma": "dainuoti", "gloss": "to sing", "pos": "verb", "forms": { "inf": "dainuoti", "pres3": "dainuoja", "past3": "dainavo", "conj": "I" } },
-    { "lemma": "muzika", "gloss": "music", "pos": "noun", "forms": { "nom": "muzika", "gen": "muzikos", "acc": "muziką", "gender": "f." } },
-    { "lemma": "televizorius", "gloss": "television set", "pos": "noun", "forms": { "nom": "televizorius", "gen": "televizoriaus", "acc": "televizorių", "gender": "m." } },
-    { "lemma": "darbas", "gloss": "work, job", "pos": "noun", "forms": { "nom": "darbas", "gen": "darbo", "acc": "darbą", "gender": "m." } },
-    { "lemma": "universitetas", "gloss": "university", "pos": "noun", "forms": { "nom": "universitetas", "gen": "universiteto", "acc": "universitetą", "gender": "m." } },
-    { "lemma": "lietuviškai", "gloss": "in Lithuanian", "pos": "adverb", "forms": {} },
-    { "lemma": "visada", "gloss": "always", "pos": "adverb", "forms": {} },
-    { "lemma": "dažnai", "gloss": "often", "pos": "adverb", "forms": {} },
-    { "lemma": "kartais", "gloss": "sometimes", "pos": "adverb", "forms": {} },
-    { "lemma": "retai", "gloss": "rarely", "pos": "adverb", "forms": {} },
-    { "lemma": "niekada", "gloss": "never", "pos": "adverb", "forms": {}, "notes": "Requires the verb to be negated as well." },
-    { "lemma": "bet", "gloss": "but", "pos": "conjunction", "forms": {} }
+    {
+      "lemma": "norėti",
+      "gloss": "to want (+ gen.)",
+      "pos": "verb",
+      "forms": {
+        "inf": "norėti",
+        "pres3": "nori",
+        "past3": "norėjo",
+        "conj": "II"
+      }
+    },
+    {
+      "lemma": "galėti",
+      "gloss": "to be able, can",
+      "pos": "verb",
+      "forms": {
+        "inf": "galėti",
+        "pres3": "gali",
+        "past3": "galėjo",
+        "conj": "II"
+      }
+    },
+    {
+      "lemma": "žiūrėti",
+      "gloss": "to watch, to look",
+      "pos": "verb",
+      "forms": {
+        "inf": "žiūrėti",
+        "pres3": "žiūri",
+        "past3": "žiūrėjo",
+        "conj": "II"
+      }
+    },
+    {
+      "lemma": "klausyti",
+      "gloss": "to listen to (+ gen.)",
+      "pos": "verb",
+      "forms": {
+        "inf": "klausyti",
+        "pres3": "klauso",
+        "past3": "klausė",
+        "conj": "III"
+      }
+    },
+    {
+      "lemma": "mėgti",
+      "gloss": "to like (+ acc.)",
+      "pos": "verb",
+      "forms": {
+        "inf": "mėgti",
+        "pres3": "mėgsta",
+        "past3": "mėgo",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "gyventi",
+      "gloss": "to live",
+      "pos": "verb",
+      "forms": {
+        "inf": "gyventi",
+        "pres3": "gyvena",
+        "past3": "gyveno",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "studijuoti",
+      "gloss": "to study",
+      "pos": "verb",
+      "forms": {
+        "inf": "studijuoti",
+        "pres3": "studijuoja",
+        "past3": "studijavo",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "suprasti",
+      "gloss": "to understand",
+      "pos": "verb",
+      "forms": {
+        "inf": "suprasti",
+        "pres3": "supranta",
+        "past3": "suprato",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "eiti",
+      "gloss": "to go, to walk",
+      "pos": "verb",
+      "forms": {
+        "inf": "eiti",
+        "pres3": "eina",
+        "past3": "ėjo",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "dainuoti",
+      "gloss": "to sing",
+      "pos": "verb",
+      "forms": {
+        "inf": "dainuoti",
+        "pres3": "dainuoja",
+        "past3": "dainavo",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "muzika",
+      "gloss": "music",
+      "pos": "noun",
+      "forms": {
+        "nom": "muzika",
+        "gen": "muzikos",
+        "acc": "muziką",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "televizorius",
+      "gloss": "television set",
+      "pos": "noun",
+      "forms": {
+        "nom": "televizorius",
+        "gen": "televizoriaus",
+        "acc": "televizorių",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "darbas",
+      "gloss": "work, job",
+      "pos": "noun",
+      "forms": {
+        "nom": "darbas",
+        "gen": "darbo",
+        "acc": "darbą",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "universitetas",
+      "gloss": "university",
+      "pos": "noun",
+      "forms": {
+        "nom": "universitetas",
+        "gen": "universiteto",
+        "acc": "universitetą",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "lietuviškai",
+      "gloss": "in Lithuanian",
+      "pos": "adverb",
+      "forms": {}
+    },
+    {
+      "lemma": "visada",
+      "gloss": "always",
+      "pos": "adverb",
+      "forms": {}
+    },
+    {
+      "lemma": "dažnai",
+      "gloss": "often",
+      "pos": "adverb",
+      "forms": {}
+    },
+    {
+      "lemma": "kartais",
+      "gloss": "sometimes",
+      "pos": "adverb",
+      "forms": {}
+    },
+    {
+      "lemma": "retai",
+      "gloss": "rarely",
+      "pos": "adverb",
+      "forms": {}
+    },
+    {
+      "lemma": "niekada",
+      "gloss": "never",
+      "pos": "adverb",
+      "forms": {},
+      "notes": "Requires the verb to be negated as well."
+    },
+    {
+      "lemma": "bet",
+      "gloss": "but",
+      "pos": "conjunction",
+      "forms": {}
+    }
   ],
   "drills": [
     {
@@ -175,39 +577,71 @@
       "type": "single",
       "difficulty": "easy",
       "stem": "Which form of *turėti* goes with **aš**?",
-      "options": ["turu", "turiu", "turi", "turime"],
+      "options": [
+        "turu",
+        "turiu",
+        "turi",
+        "turime"
+      ],
       "correct": 1,
-      "explanation": "The second conjugation takes -iu in the first person singular, not the -u of the first conjugation. *turi* serves both *tu* and the whole third person.",
-      "rulesTested": ["present-conj-ii"],
-      "vocabUsed": ["turėti", "aš"]
+      "explanation": "Second conjugation 1sg is **-iu**, not first-conjugation *-u* (¶36). *turi* serves both *tu* and the whole third person — the merge trap.",
+      "rulesTested": [
+        "present-conj-ii"
+      ],
+      "vocabUsed": [
+        "turėti",
+        "aš"
+      ]
     },
     {
       "id": "a105-q2",
       "type": "single",
       "difficulty": "easy",
       "stem": "Which form of *skaityti* goes with **tu**?",
-      "options": ["skaitai", "skaiti", "skaitau", "skaito"],
+      "options": [
+        "skaitai",
+        "skaiti",
+        "skaitau",
+        "skaito"
+      ],
       "correct": 0,
-      "explanation": "The third conjugation takes -ai in the second person singular. *skaitau* is the first person and *skaito* the third.",
-      "rulesTested": ["present-conj-iii"],
-      "vocabUsed": ["skaityti", "tu"]
+      "explanation": "Third conjugation 2sg is **-ai** (¶37). *skaiti* invents a second-conjugation ending; *skaitau* is 1sg; *skaito* is 3rd.",
+      "rulesTested": [
+        "present-conj-iii"
+      ],
+      "vocabUsed": [
+        "skaityti",
+        "tu"
+      ]
     },
     {
       "id": "a105-q3",
       "type": "single",
       "difficulty": "easy",
       "stem": "Complete: **Aš ____ kavos.** (I want coffee.)",
-      "options": ["noriu", "nori", "norime", "norėti"],
+      "options": [
+        "noriu",
+        "nori",
+        "norime",
+        "norėti"
+      ],
       "correct": 0,
-      "explanation": "*norėti* is of the second conjugation, so the first person is *noriu*. The genitive *kavos* is what *norėti* governs (¶39).",
-      "rulesTested": ["present-conj-ii", "wanting-liking"],
-      "vocabUsed": ["norėti", "kava", "aš"]
+      "explanation": "*norėti* is conj. II → *noriu*; genitive *kavos* is what *norėti* governs (¶39). *nori* is 2sg/3rd; infinitive cannot be finite.",
+      "rulesTested": [
+        "present-conj-ii",
+        "wanting-liking"
+      ],
+      "vocabUsed": [
+        "norėti",
+        "kava",
+        "aš"
+      ]
     },
     {
       "id": "a105-q4",
       "type": "single",
       "difficulty": "medium",
-      "stem": "A dictionary gives **klausyti, klauso, klausė**. Which conjugation is it, and what is the present stem?",
+      "stem": "Dictionary: **klausyti, klauso, klausė**. Conjugation and present stem?",
       "options": [
         "first; klausy-",
         "second; klaus-",
@@ -215,25 +649,41 @@
         "third; klauso-"
       ],
       "correct": 2,
-      "explanation": "The third person present *klauso* ends in -o, which names the third conjugation, and removing that ending leaves the stem *klaus-*. The infinitive tells you nothing about the conjugation.",
-      "rulesTested": ["present-stem", "conjugations", "present-conj-iii"],
-      "vocabUsed": ["klausyti"]
+      "explanation": "3rd present *-o* → third conjugation; drop *-o* → stem *klaus-* (¶35). Infinitive *-yti* does not name the conjugation; keeping *-o* on the stem is wrong.",
+      "rulesTested": [
+        "present-stem",
+        "conjugations",
+        "present-conj-iii"
+      ],
+      "vocabUsed": [
+        "klausyti"
+      ]
     },
     {
       "id": "a105-q5",
       "type": "multi",
       "difficulty": "medium",
-      "stem": "Which of these sentences are **correct**?",
+      "stem": "Which sentences are **correct**?",
       "options": [
         "Aš noriu kavos.",
         "Aš mėgstu kavos.",
         "Ji mėgsta obuolius.",
         "Ji nori obuolius."
       ],
-      "correct": [0, 2],
-      "explanation": "*norėti* governs the genitive and *mėgti* the accusative, so the second and fourth have their cases exchanged: *mėgstu kavą*, *nori obuolių*.",
-      "rulesTested": ["wanting-liking"],
-      "vocabUsed": ["norėti", "kava", "mėgti", "obuolys"]
+      "correct": [
+        0,
+        2
+      ],
+      "explanation": "*norėti* + genitive; *mėgti* + accusative (¶39). The wrong pair simply swap cases: need *mėgstu kavą*, *nori obuolių*.",
+      "rulesTested": [
+        "wanting-liking"
+      ],
+      "vocabUsed": [
+        "norėti",
+        "kava",
+        "mėgti",
+        "obuolys"
+      ]
     },
     {
       "id": "a105-q6",
@@ -247,74 +697,487 @@
         "Mes galime darbą."
       ],
       "correct": 0,
-      "explanation": "Only the finite verb carries the person; what completes it stays in the infinitive. Two finite verbs in a row is impossible, and *darbą* is a noun where a verb is wanted.",
-      "rulesTested": ["complementary-infinitive", "present-conj-ii"],
-      "vocabUsed": ["galėti", "dirbti", "darbas", "mes"]
+      "explanation": "Finite verb + complementary infinitive (¶40). Two finite forms, infinitive as finite, or a noun object are near-misses.",
+      "rulesTested": [
+        "complementary-infinitive",
+        "present-conj-ii"
+      ],
+      "vocabUsed": [
+        "galėti",
+        "dirbti",
+        "darbas",
+        "mes"
+      ]
     },
     {
       "id": "a105-q7",
       "type": "multi",
       "difficulty": "medium",
-      "stem": "*Ji ____ studijuoja.* Which adverbs could fill the gap as the sentence stands?",
-      "options": ["dažnai", "niekada", "kartais", "visada"],
-      "correct": [0, 2, 3],
-      "explanation": "*niekada* cannot: it requires the verb to be negated as well, giving *Ji niekada nestudijuoja*. Lithuanian doubles its negatives where English will not.",
-      "rulesTested": ["frequency-adverbs"],
-      "vocabUsed": ["studijuoti", "dažnai", "niekada", "kartais", "visada", "ji"]
+      "stem": "*Ji ____ studijuoja.* Which adverbs fit **as the sentence stands** (verb affirmative)?",
+      "options": [
+        "dažnai",
+        "niekada",
+        "kartais",
+        "visada"
+      ],
+      "correct": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "*niekada* requires a negated verb: *niekada nestudijuoja* (¶41). Double negative is obligatory, not optional emphasis.",
+      "rulesTested": [
+        "frequency-adverbs"
+      ],
+      "vocabUsed": [
+        "studijuoti",
+        "dažnai",
+        "niekada",
+        "kartais",
+        "visada",
+        "ji"
+      ]
     },
     {
       "id": "a105-q8",
       "type": "single",
       "difficulty": "hard",
-      "stem": "*Tu turi* and *jis turi* are identical. Why can the pronoun not be dropped here, when it usually can?",
+      "stem": "*Tu turi* and *jis turi* look identical. Why can the pronoun often **not** be dropped here?",
       "options": [
         "Because *turėti* is irregular.",
-        "Because in the second conjugation the second and third persons singular fall together, so only the pronoun tells them apart.",
-        "Because the second conjugation has no personal endings.",
+        "Because conj. II merges 2sg and 3rd in *-i*, so only the pronoun distinguishes them.",
+        "Because conj. II has no personal endings.",
         "Because *turėti* governs the accusative."
       ],
       "correct": 1,
-      "explanation": "Normally the ending names the person and the pronoun is left out (¶24). In the second conjugation *-i* serves *tu*, *jis*, *ji*, *jie* and *jos* alike, so the ending has nothing left to say and the pronoun must carry the sense.",
-      "rulesTested": ["present-conj-ii", "pronouns-nom"],
-      "vocabUsed": ["turėti", "tu", "jis"]
+      "explanation": "Normally endings name the person (¶24); in conj. II *-i* serves *tu/jis/ji/jie/jos*, so dropping the pronoun loses the person (¶36).",
+      "rulesTested": [
+        "present-conj-ii",
+        "pronouns-nom"
+      ],
+      "vocabUsed": [
+        "turėti",
+        "tu",
+        "jis"
+      ]
     },
     {
       "id": "a105-q9",
       "type": "multi",
       "difficulty": "hard",
-      "stem": "Of the verbs *dirbti, turėti, skaityti, mėgti*, which take **-ame** or **-ome** in the first person plural?",
-      "options": ["dirbti", "turėti", "skaityti", "mėgti"],
-      "correct": [0, 2, 3],
-      "explanation": "The plural is the third-person form plus -me: *dirba* → *dirbame*, *skaito* → *skaitome*, *mėgsta* → *mėgstame*. Only *turėti*, of the second conjugation, gives *turime*. Note that *mėgti* belongs to the first conjugation despite its infinitive, its third person being *mėgsta*.",
-      "rulesTested": ["conjugation-summary", "present-stem", "present-conj-ii"],
-      "vocabUsed": ["dirbti", "turėti", "skaityti", "mėgti"]
+      "stem": "Of *dirbti, turėti, skaityti, mėgti*, which take **-ame** or **-ome** in 1pl?",
+      "options": [
+        "dirbti",
+        "turėti",
+        "skaityti",
+        "mėgti"
+      ],
+      "correct": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "Plural = 3rd person + *-me*: *dirbame*, *skaitome*, *mėgstame*. *turėti* → *turime* (conj. II). *mėgti* is conj. I despite the infinitive (*mėgsta*).",
+      "rulesTested": [
+        "conjugation-summary",
+        "present-stem",
+        "present-conj-ii"
+      ],
+      "vocabUsed": [
+        "dirbti",
+        "turėti",
+        "skaityti",
+        "mėgti"
+      ]
     },
     {
       "id": "a105-q10",
       "type": "integer",
       "difficulty": "hard",
-      "stem": "**Ji nori obuolio.** How many words change form if *ji* is replaced by *jie* and the verb by *mėgti*?",
+      "stem": "**Ji nori obuolio.** Replace *ji* by *jie* and *norėti* by *mėgti*. How many words change form?",
       "answer": 2,
       "unit": "words",
-      "explanation": "Two: *nori* → *mėgsta*, and *obuolio* → *obuolį*, because *mėgti* governs the accusative where *norėti* governed the genitive (¶39). The third person is one form for both numbers, so changing *ji* to *jie* changes the verb not at all.",
-      "rulesTested": ["wanting-liking", "conjugation-summary", "accusative-nouns"],
-      "vocabUsed": ["norėti", "mėgti", "obuolys", "ji", "jis"]
+      "explanation": "Two: *nori*→*mėgsta* and *obuolio*→*obuolį* (case government flips). Third person is one form for both numbers, so *ji*→*jie* alone would change **zero** verb forms — answering 3 wrongly \"plurals\" the verb.",
+      "rulesTested": [
+        "wanting-liking",
+        "conjugation-summary",
+        "accusative-nouns"
+      ],
+      "vocabUsed": [
+        "norėti",
+        "mėgti",
+        "obuolys",
+        "ji",
+        "jis"
+      ]
+    },
+    {
+      "id": "a105-q11",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which of these are **frequency** adverbs?",
+      "explanation": "*visada*, *dažnai*, and *niekada* say how often. *greitai* is manner (*quickly*).",
+      "rulesTested": [
+        "frequency-adverbs"
+      ],
+      "vocabUsed": [
+        "visada",
+        "dažnai",
+        "kartais",
+        "retai",
+        "niekada"
+      ],
+      "options": [
+        "visada",
+        "dažnai",
+        "greitai",
+        "niekada"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "id": "a105-q12",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Present stem of *skaityti* (*skaito*)?",
+      "options": [
+        "skaity-",
+        "skait-",
+        "skaito-",
+        "skaitė-"
+      ],
+      "correct": 1,
+      "explanation": "Drop 3rd-person *-o*: *skait-* (¶35).",
+      "rulesTested": [
+        "present-stem"
+      ],
+      "vocabUsed": [
+        "skaityti"
+      ]
+    },
+    {
+      "id": "a105-q13",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Form of *turėti* with **aš**:",
+      "options": [
+        "turu",
+        "turiu",
+        "turau",
+        "turėju"
+      ],
+      "correct": 1,
+      "explanation": "2nd conjugation 1sg is *-iu*: *turiu* (¶36).",
+      "rulesTested": [
+        "present-conj-ii"
+      ],
+      "vocabUsed": [
+        "turėti",
+        "aš"
+      ]
+    },
+    {
+      "id": "a105-q14",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which forms belong to the **second** conjugation?",
+      "options": [
+        "turiu",
+        "noriu",
+        "skaitau",
+        "žiūrime"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "*turėti/norėti/žiūrėti* are conj. II (*-i* in 3rd person). *skaitau* is conj. III (¶36–¶38).",
+      "rulesTested": [
+        "present-conj-ii",
+        "conjugation-summary"
+      ],
+      "vocabUsed": [
+        "turėti",
+        "norėti",
+        "skaityti",
+        "žiūrėti"
+      ]
+    },
+    {
+      "id": "a105-q15",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "**Mes ____ knygą.** (*skaityti*)",
+      "options": [
+        "skaitame",
+        "skaitome",
+        "skaitime",
+        "skaitėme"
+      ],
+      "correct": 1,
+      "explanation": "Conj. III plural: 3rd person *skaito* + *-me* → *skaitome* (¶37–¶38). *skaitame* wrongly uses the conj. I vowel.",
+      "rulesTested": [
+        "present-conj-iii",
+        "conjugation-summary"
+      ],
+      "vocabUsed": [
+        "skaityti",
+        "knyga",
+        "mes"
+      ]
+    },
+    {
+      "id": "a105-q16",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which sentences are **correct**?",
+      "options": [
+        "Noriu kavos.",
+        "Mėgstu kavą.",
+        "Noriu kavą.",
+        "Mėgstu kavos."
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanation": "*norėti* → genitive; *mėgti* → accusative (¶39). Swapped cases are the classic near-miss.",
+      "rulesTested": [
+        "wanting-liking"
+      ],
+      "vocabUsed": [
+        "norėti",
+        "mėgti",
+        "kava"
+      ]
+    },
+    {
+      "id": "a105-q17",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete with a complementary infinitive: **Aš galiu ____.**",
+      "options": [
+        "dirbu",
+        "dirbti",
+        "dirba",
+        "dirbame"
+      ],
+      "correct": 1,
+      "explanation": "Infinitive *-ti* completes *galėti*; the finite verb alone marks person (¶40).",
+      "rulesTested": [
+        "complementary-infinitive"
+      ],
+      "vocabUsed": [
+        "galėti",
+        "dirbti",
+        "aš"
+      ]
+    },
+    {
+      "id": "a105-q18",
+      "type": "integer",
+      "difficulty": "medium",
+      "stem": "Given *dirba*, *turi* and *skaito* as 3rd-person presents, how many **conjugations** do they represent?",
+      "answer": 3,
+      "unit": "conjugations",
+      "explanation": "Three different thematic vowels (*-a / -i / -o*) — one for each conjugation.",
+      "rulesTested": [
+        "conjugation-summary"
+      ],
+      "vocabUsed": [
+        "dirbti",
+        "turėti",
+        "skaityti"
+      ]
+    },
+    {
+      "id": "a105-q19",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Why is *Ji niekada valgo duonos* wrong?",
+      "options": [
+        "*niekada* cannot precede the verb",
+        "*niekada* requires a negated verb as well",
+        "*duonos* should be accusative with *niekada*",
+        "Frequency adverbs are banned with food nouns"
+      ],
+      "correct": 1,
+      "explanation": "*niekada* needs *ne-* on the verb: *niekada nevalgo* (¶41).",
+      "rulesTested": [
+        "frequency-adverbs"
+      ],
+      "vocabUsed": [
+        "niekada",
+        "valgyti",
+        "duona"
+      ]
+    },
+    {
+      "id": "a105-q20",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which use a **complementary infinitive** correctly?",
+      "options": [
+        "Ji nori skaityti.",
+        "Mes mėgstame dainuoti.",
+        "Aš galiu kalbu.",
+        "Ar jūs galite kalbėti lietuviškai?"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "¶40: finite + infinitive. *galiu kalbu* wrongly stacks two finite forms.",
+      "rulesTested": [
+        "complementary-infinitive"
+      ],
+      "vocabUsed": [
+        "norėti",
+        "skaityti",
+        "mėgti",
+        "dainuoti",
+        "galėti",
+        "kalbėti",
+        "lietuviškai"
+      ]
+    },
+    {
+      "id": "a105-q21",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**Tu ____** and **jis ____** share the same written verb form for *turėti*:",
+      "options": [
+        "turiu",
+        "turi",
+        "turime",
+        "turite"
+      ],
+      "correct": 1,
+      "explanation": "Conj. II: 2sg and 3rd person are both *turi* (¶36).",
+      "rulesTested": [
+        "present-conj-ii"
+      ],
+      "vocabUsed": [
+        "turėti",
+        "tu",
+        "jis"
+      ]
+    },
+    {
+      "id": "a105-q22",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "Of *gyventi, turėti, klausyti, žiūrėti*, how many are **second** conjugation?",
+      "answer": 2,
+      "unit": "verbs",
+      "explanation": "*turi* and *žiūri* mark II; *gyvena* is I; *klauso* is III (¶36–¶38).",
+      "rulesTested": [
+        "conjugation-summary",
+        "present-conj-ii"
+      ],
+      "vocabUsed": [
+        "gyventi",
+        "turėti",
+        "klausyti",
+        "žiūrėti"
+      ]
+    },
+    {
+      "id": "a105-q23",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Which adverb means **often**?",
+      "options": [
+        "visada",
+        "dažnai",
+        "retai",
+        "niekada"
+      ],
+      "correct": 1,
+      "explanation": "*dažnai* = often (¶41).",
+      "rulesTested": [
+        "frequency-adverbs"
+      ],
+      "vocabUsed": [
+        "dažnai",
+        "visada",
+        "retai",
+        "niekada"
+      ]
+    },
+    {
+      "id": "a105-q24",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which 1sg forms are correctly matched to their conjugation?",
+      "options": [
+        "dirbu — I",
+        "turiu — II",
+        "skaitau — III",
+        "norau — II"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "¶38: *dirbu/turiu/skaitau*. *norėti* makes *noriu*, not *norau*.",
+      "rulesTested": [
+        "conjugation-summary",
+        "present-stem"
+      ],
+      "vocabUsed": [
+        "dirbti",
+        "turėti",
+        "skaityti",
+        "norėti"
+      ]
+    },
+    {
+      "id": "a105-q25",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**Aš mėgstu ____.** (I like to sing.)",
+      "options": [
+        "dainuoju",
+        "dainuoti",
+        "dainuoja",
+        "dainavimą"
+      ],
+      "correct": 1,
+      "explanation": "Complementary infinitive after *mėgti*: *dainuoti* (¶40).",
+      "rulesTested": [
+        "complementary-infinitive",
+        "wanting-liking"
+      ],
+      "vocabUsed": [
+        "mėgti",
+        "dainuoti",
+        "aš"
+      ]
     },
     {
       "id": "a105-p1",
       "type": "comprehension",
-      "difficulty": "medium",
+      "difficulty": "hard",
       "title": "Rūtos diena",
-      "passage": "Rūta gyvena Vilniuje. Ji studijuoja universitete ir dirba kavinėje. Rūta mėgsta muziką ir dažnai klauso muzikos. Vakare ji nori skaityti, bet kartais žiūri televizorių. Ji niekada nevalgo duonos be sviesto. Rūta gerai kalba lietuviškai ir supranta angliškai.",
-      "translation": "Rūta lives in Vilnius. She studies at the university and works in a café. Rūta likes music and often listens to music. In the evening she wants to read, but sometimes she watches television. She never eats bread without butter. Rūta speaks Lithuanian well and understands English.",
+      "passage": "Rūta gyvena Vilniuje. Ji studijuoja universitete ir dirba kavinėje. Rūta mėgsta muziką ir dažnai klauso muzikos. Vakare ji nori skaityti, bet kartais žiūri televizorių. Ji niekada nevalgo duonos be sviesto. Rūta gerai kalba lietuviškai ir supranta angliškai. Mes galime dainuoti, o ji mėgsta klausyti.",
+      "translation": "Rūta lives in Vilnius. She studies at university and works in a café. Rūta likes music and often listens to music. In the evening she wants to read, but sometimes watches television. She never eats bread without butter. Rūta speaks Lithuanian well and understands English. We can sing, and she likes to listen.",
       "glossary": {
         "Vilniuje": "in Vilnius",
         "universitete": "at the university",
         "kavinėje": "in a café",
         "vakare": "in the evening",
-        "sviesto": "butter (gen. of sviestas)",
+        "sviesto": "butter (gen.)",
         "gerai": "well",
-        "angliškai": "in English"
+        "angliškai": "in English",
+        "o": "and, whereas"
       },
       "questions": [
         {
@@ -322,33 +1185,122 @@
           "type": "single",
           "difficulty": "easy",
           "stem": "Ką Rūta mėgsta?",
-          "options": ["muzikos", "muziką", "televizorių", "duoną"],
+          "options": [
+            "muzikos",
+            "muziką",
+            "televizorių",
+            "duoną"
+          ],
           "correct": 1,
-          "explanation": "*Rūta mėgsta muziką* — *mėgti* governs the accusative. *muzikos* is the genitive the passage uses after *klauso*, which governs the genitive instead.",
-          "rulesTested": ["wanting-liking"],
-          "vocabUsed": ["mėgti", "muzika", "televizorius", "duona"]
+          "explanation": "*mėgsta muziką* — accusative after *mėgti*. *muzikos* is the genitive used after *klauso*.",
+          "rulesTested": [
+            "wanting-liking"
+          ],
+          "vocabUsed": [
+            "mėgti",
+            "muzika",
+            "televizorius",
+            "duona"
+          ]
         },
         {
           "id": "a105-p1-q2",
           "type": "multi",
           "difficulty": "medium",
-          "stem": "Which of these verbs in the passage belong to the **second** conjugation?",
-          "options": ["gyvena", "nori", "žiūri", "klauso"],
-          "correct": [1, 2],
-          "explanation": "*nori* and *žiūri* end in -i and so belong to the second conjugation. *gyvena* in -a is the first and *klauso* in -o the third.",
-          "rulesTested": ["conjugations", "present-conj-ii", "conjugation-summary"],
-          "vocabUsed": ["gyventi", "norėti", "žiūrėti", "klausyti"]
+          "stem": "Which verbs in the passage belong to the **second** conjugation?",
+          "options": [
+            "gyvena",
+            "nori",
+            "žiūri",
+            "klauso"
+          ],
+          "correct": [
+            1,
+            2
+          ],
+          "explanation": "*nori*, *žiūri* end in *-i*. *gyvena* (*-a*) is I; *klauso* (*-o*) is III.",
+          "rulesTested": [
+            "conjugations",
+            "present-conj-ii",
+            "conjugation-summary"
+          ],
+          "vocabUsed": [
+            "gyventi",
+            "norėti",
+            "žiūrėti",
+            "klausyti"
+          ]
         },
         {
           "id": "a105-p1-q3",
           "type": "integer",
           "difficulty": "hard",
-          "stem": "The passage says **Ji niekada nevalgo duonos.** How many words would change form if *niekada* were replaced by *dažnai*?",
+          "stem": "**Ji niekada nevalgo duonos.** Replace *niekada* by *dažnai*. How many words change form?",
           "answer": 2,
           "unit": "words",
-          "explanation": "Two: *nevalgo* → *valgo*, since only *niekada* required the negative, and *duonos* → *duoną*, the object leaving the genitive of negation for the accusative (¶31). Answering one forgets that the case of the object hangs on the negation.",
-          "rulesTested": ["frequency-adverbs", "genitive-negation", "accusative-nouns"],
-          "vocabUsed": ["niekada", "dažnai", "valgyti", "duona"]
+          "explanation": "Two: *nevalgo*→*valgo* and *duonos*→*duoną* (negation drops, object returns to accusative). Answering 1 forgets case hangs on negation.",
+          "rulesTested": [
+            "frequency-adverbs",
+            "genitive-negation",
+            "accusative-nouns"
+          ],
+          "vocabUsed": [
+            "niekada",
+            "dažnai",
+            "valgyti",
+            "duona"
+          ]
+        },
+        {
+          "id": "a105-p1-q4",
+          "type": "single",
+          "difficulty": "hard",
+          "stem": "Why *klauso muzikos* but *mėgsta muziką*?",
+          "options": [
+            "Because one verb is negated.",
+            "Because *klausyti* governs the genitive and *mėgti* the accusative.",
+            "Because *muzika* changes gender.",
+            "Because frequency adverbs force the genitive."
+          ],
+          "correct": 1,
+          "explanation": "¶39 and its footnote: *klausyti* + genitive, *mėgti* + accusative — same noun, different cases by government.",
+          "rulesTested": [
+            "wanting-liking"
+          ],
+          "vocabUsed": [
+            "klausyti",
+            "mėgti",
+            "muzika"
+          ]
+        },
+        {
+          "id": "a105-p1-q5",
+          "type": "multi",
+          "difficulty": "hard",
+          "stem": "Which lines illustrate a **complementary infinitive**?",
+          "options": [
+            "ji nori skaityti",
+            "Mes galime dainuoti",
+            "ji mėgsta klausyti",
+            "dažnai klauso muzikos"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "*norėti/galėti/mėgti* + infinitive (¶40). *klauso muzikos* is finite + noun object.",
+          "rulesTested": [
+            "complementary-infinitive"
+          ],
+          "vocabUsed": [
+            "norėti",
+            "galėti",
+            "mėgti",
+            "skaityti",
+            "dainuoti",
+            "klausyti"
+          ]
         }
       ]
     }

@@ -1,0 +1,1641 @@
+{
+  "id": "a2-01",
+  "kind": "lesson",
+  "level": "A2",
+  "order": 1,
+  "title": "The Seven Cases in Full",
+  "summary": "The five declensions completed: every case in singular and plural, including the third and fifth paradigms that A1 only gestured at, and a review of what each case is for.",
+  "rules": [
+    {
+      "id": "five-declensions",
+      "number": "141",
+      "heading": "The Five Declensions",
+      "statement": "Lithuanian nouns fall into **five declensions**, sorted by the nominative singular ending and by the genitive that goes with it. A1 taught endings case by case; A2 puts the whole word in one table. The first two declensions cover most of the vocabulary already met; the third (*akis*), the fourth (*sūnus*), and the fifth (*vanduo, sesuo*) complete what was only sampled.",
+      "paradigms": [
+        {
+          "caption": "How the declensions are told apart",
+          "columns": [
+            "declension",
+            "nominative",
+            "genitive sg.",
+            "chiefly"
+          ],
+          "rows": [
+            {
+              "label": "I",
+              "cells": [
+                "-as, -is, -ys",
+                "-o, -io",
+                "masculine: namas, brolis, obuolys"
+              ]
+            },
+            {
+              "label": "II",
+              "cells": [
+                "-a, -ė",
+                "-os, -ės",
+                "feminine: knyga, katė (some masc. dėdė)"
+              ]
+            },
+            {
+              "label": "III",
+              "cells": [
+                "-is",
+                "-ies / -ers",
+                "mostly feminine: akis, moteris; some masc. dantis"
+              ]
+            },
+            {
+              "label": "IV",
+              "cells": [
+                "-us",
+                "-aus",
+                "masculine: sūnus, medus"
+              ]
+            },
+            {
+              "label": "V",
+              "cells": [
+                "-uo / duktė",
+                "-ens / -ers",
+                "vanduo, akmuo, sesuo, duktė"
+              ]
+            }
+          ],
+          "footnote": "The genitive is the citation form that settles the class: *akis, akies* is III; *brolis, brolio* is I, though both end in *-is* in the nominative."
+        }
+      ],
+      "examples": [
+        {
+          "target": "brolis, brolio — I",
+          "gloss": "brother (genitive -io)"
+        },
+        {
+          "target": "akis, akies — III",
+          "gloss": "eye (genitive -ies)"
+        },
+        {
+          "target": "vanduo, vandens — V",
+          "gloss": "water (genitive -ens)"
+        }
+      ],
+      "seeAlso": [
+        "noun-endings",
+        "noun-gender",
+        "genitive-endings"
+      ],
+      "core": true
+    },
+    {
+      "id": "first-declension-paradigm",
+      "number": "142",
+      "heading": "The First Declension in Full",
+      "statement": "Masculines in **-as, -is, -ys** form one class. The soft stems (*brolis, obuolys*) insert **i** before most endings; the locative singular of *-is/-ys* is **-yje**, not *-e*. The vocative of a common noun in *-as* is **-e**; personal names take **-ai** (¶78).",
+      "paradigms": [
+        {
+          "caption": "namas, brolis — singular and plural",
+          "columns": [
+            "case",
+            "namas sg.",
+            "namas pl.",
+            "brolis sg.",
+            "brolis pl."
+          ],
+          "rows": [
+            {
+              "label": "nom.",
+              "cells": [
+                "namas",
+                "namai",
+                "brolis",
+                "broliai"
+              ]
+            },
+            {
+              "label": "gen.",
+              "cells": [
+                "namo",
+                "namų",
+                "brolio",
+                "brolių"
+              ]
+            },
+            {
+              "label": "dat.",
+              "cells": [
+                "namui",
+                "namams",
+                "broliui",
+                "broliams"
+              ]
+            },
+            {
+              "label": "acc.",
+              "cells": [
+                "namą",
+                "namus",
+                "brolį",
+                "brolius"
+              ]
+            },
+            {
+              "label": "instr.",
+              "cells": [
+                "namu",
+                "namais",
+                "broliu",
+                "broliais"
+              ]
+            },
+            {
+              "label": "loc.",
+              "cells": [
+                "name",
+                "namuose",
+                "brolyje",
+                "broliuose"
+              ]
+            },
+            {
+              "label": "voc.",
+              "cells": [
+                "name",
+                "namai",
+                "broli",
+                "broliai"
+              ]
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "target": "Gyvenu name.",
+          "gloss": "I live in a house."
+        },
+        {
+          "target": "Kalbu su broliu.",
+          "gloss": "I am talking with my brother."
+        },
+        {
+          "target": "Rašau broliams.",
+          "gloss": "I am writing to my brothers."
+        }
+      ],
+      "seeAlso": [
+        "plural-nominative",
+        "locative-singular",
+        "instrumental-singular",
+        "vocative"
+      ],
+      "core": true
+    },
+    {
+      "id": "second-declension-paradigm",
+      "number": "143",
+      "heading": "The Second Declension in Full",
+      "statement": "Feminines in **-a** and **-ė** (and a few masculines like *dėdė*) make the second class. Watch the instrumental singular of *-a*: it is spelled like the nominative (**knyga**), and only the sentence chooses. Softening before the genitive plural is regular: *katė → kačių*.",
+      "paradigms": [
+        {
+          "caption": "knyga, katė — singular and plural",
+          "columns": [
+            "case",
+            "knyga sg.",
+            "knyga pl.",
+            "katė sg.",
+            "katė pl."
+          ],
+          "rows": [
+            {
+              "label": "nom.",
+              "cells": [
+                "knyga",
+                "knygos",
+                "katė",
+                "katės"
+              ]
+            },
+            {
+              "label": "gen.",
+              "cells": [
+                "knygos",
+                "knygų",
+                "katės",
+                "kačių"
+              ]
+            },
+            {
+              "label": "dat.",
+              "cells": [
+                "knygai",
+                "knygoms",
+                "katei",
+                "katėms"
+              ]
+            },
+            {
+              "label": "acc.",
+              "cells": [
+                "knygą",
+                "knygas",
+                "katę",
+                "kates"
+              ]
+            },
+            {
+              "label": "instr.",
+              "cells": [
+                "knyga",
+                "knygomis",
+                "kate",
+                "katėmis"
+              ]
+            },
+            {
+              "label": "loc.",
+              "cells": [
+                "knygoje",
+                "knygose",
+                "katėje",
+                "katėse"
+              ]
+            },
+            {
+              "label": "voc.",
+              "cells": [
+                "knyga",
+                "knygos",
+                "kate",
+                "katės"
+              ]
+            }
+          ],
+          "footnote": "*knygos* is at once genitive singular and nominative plural; *knyga* is nominative, instrumental, and vocative singular. Homography is settled by syntax, never by the spelling alone."
+        }
+      ],
+      "examples": [
+        {
+          "target": "Skaitau knygoje.",
+          "gloss": "I am reading in the book."
+        },
+        {
+          "target": "Žaidžiu su kate.",
+          "gloss": "I am playing with the cat."
+        },
+        {
+          "target": "Dovanoju knygas seserims.",
+          "gloss": "I am giving books to the sisters."
+        }
+      ],
+      "seeAlso": [
+        "instrumental-singular",
+        "plural-genitive",
+        "dative-plural"
+      ],
+      "core": true
+    },
+    {
+      "id": "third-declension-paradigm",
+      "number": "144",
+      "heading": "The Third Declension: -is",
+      "statement": "Nouns in **-is** with genitive **-ies** (or the short **-ers** of *moteris*) are a class of their own. Most are feminine (*akis, naktis, ausis*); a few are masculine (*dantis, debesis*). The nominative plural is **-ys**, the accusative plural repeats the nominative singular (**akis**), and the instrumental singular takes the long **-imi**.",
+      "paradigms": [
+        {
+          "caption": "akis (f.), dantis (m.)",
+          "columns": [
+            "case",
+            "akis sg.",
+            "akis pl.",
+            "dantis sg.",
+            "dantis pl."
+          ],
+          "rows": [
+            {
+              "label": "nom.",
+              "cells": [
+                "akis",
+                "akys",
+                "dantis",
+                "dantys"
+              ]
+            },
+            {
+              "label": "gen.",
+              "cells": [
+                "akies",
+                "akių",
+                "danties",
+                "dantų"
+              ]
+            },
+            {
+              "label": "dat.",
+              "cells": [
+                "akiai",
+                "akims",
+                "dančiui",
+                "dantims"
+              ]
+            },
+            {
+              "label": "acc.",
+              "cells": [
+                "akį",
+                "akis",
+                "dantį",
+                "dantis"
+              ]
+            },
+            {
+              "label": "instr.",
+              "cells": [
+                "akimi",
+                "akimis",
+                "dantimi",
+                "dantimis"
+              ]
+            },
+            {
+              "label": "loc.",
+              "cells": [
+                "akyje",
+                "akyse",
+                "dantyje",
+                "dantyse"
+              ]
+            },
+            {
+              "label": "voc.",
+              "cells": [
+                "akie",
+                "akys",
+                "dantie",
+                "dantys"
+              ]
+            }
+          ],
+          "footnote": "*moteris* shortens the genitive: *moters*, not *moteries*. The dative singular of *dantis* softens: *dančiui*."
+        }
+      ],
+      "examples": [
+        {
+          "target": "Matau akimis.",
+          "gloss": "I see with my eyes."
+        },
+        {
+          "target": "Naktį sninga.",
+          "gloss": "It snows at night.",
+          "note": "accusative of time from naktis"
+        },
+        {
+          "target": "Man skauda dantį.",
+          "gloss": "My tooth hurts."
+        }
+      ],
+      "seeAlso": [
+        "five-declensions",
+        "instrumental-singular",
+        "skaudeti"
+      ],
+      "core": true
+    },
+    {
+      "id": "fourth-declension-paradigm",
+      "number": "145",
+      "heading": "The Fourth Declension: -us",
+      "statement": "Masculines in **-us** are few but frequent (*sūnus, medus, žmogus* — the last irregular in the plural). The genitive is **-aus**, the instrumental the long **-umi**, the nominative plural the long **-ūs**. Do not confuse *sūnus* the nominative singular with *sūnus* the accusative plural: they are spelled alike.",
+      "paradigms": [
+        {
+          "caption": "sūnus",
+          "columns": [
+            "case",
+            "singular",
+            "plural"
+          ],
+          "rows": [
+            {
+              "label": "nom.",
+              "cells": [
+                "sūnus",
+                "sūnūs"
+              ]
+            },
+            {
+              "label": "gen.",
+              "cells": [
+                "sūnaus",
+                "sūnų"
+              ]
+            },
+            {
+              "label": "dat.",
+              "cells": [
+                "sūnui",
+                "sūnums"
+              ]
+            },
+            {
+              "label": "acc.",
+              "cells": [
+                "sūnų",
+                "sūnus"
+              ]
+            },
+            {
+              "label": "instr.",
+              "cells": [
+                "sūnumi",
+                "sūnumis"
+              ]
+            },
+            {
+              "label": "loc.",
+              "cells": [
+                "sūnuje",
+                "sūnuose"
+              ]
+            },
+            {
+              "label": "voc.",
+              "cells": [
+                "sūnau",
+                "sūnūs"
+              ]
+            }
+          ],
+          "footnote": "*žmogus* follows IV in the singular (*žmogaus, žmogui, žmogų, žmogumi, žmoguje, žmogau*) but takes an irregular plural *žmonės, žmonių, žmonėms…*."
+        }
+      ],
+      "examples": [
+        {
+          "target": "Kalbu su sūnumi.",
+          "gloss": "I am talking with my son."
+        },
+        {
+          "target": "Duodu medaus.",
+          "gloss": "I am giving some honey.",
+          "note": "partitive genitive"
+        },
+        {
+          "target": "Sūnau, ateik čia!",
+          "gloss": "Son, come here!"
+        }
+      ],
+      "seeAlso": [
+        "instrumental-singular",
+        "vocative",
+        "plural-nominative"
+      ],
+      "core": true
+    },
+    {
+      "id": "fifth-declension-paradigm",
+      "number": "146",
+      "heading": "The Fifth Declension: -uo and Kin",
+      "statement": "The fifth class holds the **-uo** nouns (*vanduo, akmuo, šuo*) and the kinship pair *sesuo, duktė*. The stem lengthens by **-en-** or **-er-** outside the nominative singular: *vanduo → vandens → vandenį*. Learn the genitive with the word; from it the rest follows the soft pattern of III.",
+      "paradigms": [
+        {
+          "caption": "vanduo, sesuo",
+          "columns": [
+            "case",
+            "vanduo sg.",
+            "vanduo pl.",
+            "sesuo sg.",
+            "sesuo pl."
+          ],
+          "rows": [
+            {
+              "label": "nom.",
+              "cells": [
+                "vanduo",
+                "vandenys",
+                "sesuo",
+                "seserys"
+              ]
+            },
+            {
+              "label": "gen.",
+              "cells": [
+                "vandens",
+                "vandenų",
+                "sesers",
+                "seserų"
+              ]
+            },
+            {
+              "label": "dat.",
+              "cells": [
+                "vandeniui",
+                "vandenims",
+                "seseriai",
+                "seserims"
+              ]
+            },
+            {
+              "label": "acc.",
+              "cells": [
+                "vandenį",
+                "vandenis",
+                "seserį",
+                "seseris"
+              ]
+            },
+            {
+              "label": "instr.",
+              "cells": [
+                "vandeniu",
+                "vandenimis",
+                "seserimi",
+                "seserimis"
+              ]
+            },
+            {
+              "label": "loc.",
+              "cells": [
+                "vandenyje",
+                "vandenyse",
+                "seseryje",
+                "seseryse"
+              ]
+            },
+            {
+              "label": "voc.",
+              "cells": [
+                "vandenie",
+                "vandenys",
+                "seserie",
+                "seserys"
+              ]
+            }
+          ],
+          "footnote": "*duktė* declines like *sesuo* (*dukters, dukteriai, dukterį…*). *akmuo → akmens*; *šuo → šuns* (short genitive)."
+        }
+      ],
+      "examples": [
+        {
+          "target": "Stiklinėje yra vandens.",
+          "gloss": "There is some water in the glass."
+        },
+        {
+          "target": "Gyvenu su seserimi.",
+          "gloss": "I live with my sister."
+        },
+        {
+          "target": "Rašau seserims.",
+          "gloss": "I am writing to my sisters."
+        }
+      ],
+      "seeAlso": [
+        "five-declensions",
+        "genitive-quantity",
+        "third-declension-paradigm"
+      ],
+      "core": true
+    },
+    {
+      "id": "paradigm-homographs",
+      "number": "147",
+      "heading": "Forms That Coincide",
+      "statement": "Several slots share a spelling. The sentence must choose, and it always can, because two readings never do the same grammatical work. The coincidences worth knowing by heart are listed below; they are not exceptions but regular overlaps.",
+      "paradigms": [
+        {
+          "caption": "Common homographs",
+          "columns": [
+            "form",
+            "can be",
+            "and also"
+          ],
+          "rows": [
+            {
+              "label": "knyga",
+              "cells": [
+                "nom. sg.",
+                "instr. / voc. sg."
+              ]
+            },
+            {
+              "label": "knygos",
+              "cells": [
+                "gen. sg.",
+                "nom. / voc. pl."
+              ]
+            },
+            {
+              "label": "akis",
+              "cells": [
+                "nom. sg.",
+                "acc. pl."
+              ]
+            },
+            {
+              "label": "sūnus",
+              "cells": [
+                "nom. sg.",
+                "acc. pl."
+              ]
+            },
+            {
+              "label": "moteris",
+              "cells": [
+                "nom. sg.",
+                "acc. pl."
+              ]
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "target": "Knyga yra nauja. / Rašau knyga.",
+          "gloss": "The book is new. / I write with a book (as means — rare, but grammatical)."
+        },
+        {
+          "target": "Matau akis. / Akis skauda.",
+          "gloss": "I see eyes. / An eye hurts.",
+          "note": "acc. pl. against nom. sg."
+        }
+      ],
+      "seeAlso": [
+        "second-declension-paradigm",
+        "third-declension-paradigm",
+        "fourth-declension-paradigm"
+      ],
+      "core": false
+    },
+    {
+      "id": "seven-cases-uses",
+      "number": "148",
+      "heading": "What Each Case Is For",
+      "statement": "With the paradigms complete, the uses already taught can be stated as one map. The **nominative** names the subject and the predicate noun; the **genitive** shows possession, quantity, origin, and follows most prepositions and negation; the **dative** is the indirect object and the experiencer; the **accusative** is the direct object and the goal of motion; the **instrumental** is means, company (with *su*), and recurring time; the **locative** is place *in/at/on* without a preposition; the **vocative** only addresses.",
+      "paradigms": [
+        {
+          "caption": "The seven cases at a glance",
+          "columns": [
+            "case",
+            "asks",
+            "chief work"
+          ],
+          "rows": [
+            {
+              "label": "nominative",
+              "cells": [
+                "kas?",
+                "subject; predicate noun"
+              ]
+            },
+            {
+              "label": "genitive",
+              "cells": [
+                "ko?",
+                "possession, partitive, after ne-, most prepositions"
+              ]
+            },
+            {
+              "label": "dative",
+              "cells": [
+                "kam?",
+                "indirect object; experiencer (patinka, reikia)"
+              ]
+            },
+            {
+              "label": "accusative",
+              "cells": [
+                "ką?",
+                "direct object; direction with į, pas; time when"
+              ]
+            },
+            {
+              "label": "instrumental",
+              "cells": [
+                "kuo?",
+                "means; su + company; recurring time"
+              ]
+            },
+            {
+              "label": "locative",
+              "cells": [
+                "kur?",
+                "place in/at, no preposition"
+              ]
+            },
+            {
+              "label": "vocative",
+              "cells": [
+                "—",
+                "address only"
+              ]
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "target": "Brolis duoda seseriai knygą.",
+          "gloss": "The brother gives the sister a book.",
+          "note": "nom. — dat. — acc."
+        },
+        {
+          "target": "Rašau pieštuku name.",
+          "gloss": "I write with a pencil in the house.",
+          "note": "instr. — loc."
+        }
+      ],
+      "seeAlso": [
+        "nominative",
+        "genitive-possession",
+        "indirect-object",
+        "transitive-objects",
+        "instrumental-means",
+        "locative-singular",
+        "vocative"
+      ],
+      "core": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "lemma": "akis",
+      "gloss": "eye",
+      "pos": "noun",
+      "forms": {
+        "nom": "akis",
+        "gen": "akies",
+        "acc": "akį",
+        "gender": "f.",
+        "decl": "III"
+      }
+    },
+    {
+      "lemma": "naktis",
+      "gloss": "night",
+      "pos": "noun",
+      "forms": {
+        "nom": "naktis",
+        "gen": "nakties",
+        "acc": "naktį",
+        "gender": "f.",
+        "decl": "III"
+      }
+    },
+    {
+      "lemma": "ausis",
+      "gloss": "ear",
+      "pos": "noun",
+      "forms": {
+        "nom": "ausis",
+        "gen": "ausies",
+        "acc": "ausį",
+        "gender": "f.",
+        "decl": "III"
+      }
+    },
+    {
+      "lemma": "akmuo",
+      "gloss": "stone",
+      "pos": "noun",
+      "forms": {
+        "nom": "akmuo",
+        "gen": "akmens",
+        "acc": "akmenį",
+        "gender": "m.",
+        "decl": "V"
+      }
+    },
+    {
+      "lemma": "duktė",
+      "gloss": "daughter",
+      "pos": "noun",
+      "forms": {
+        "nom": "duktė",
+        "gen": "dukters",
+        "acc": "dukterį",
+        "gender": "f.",
+        "decl": "V"
+      }
+    },
+    {
+      "lemma": "šuo",
+      "gloss": "dog",
+      "pos": "noun",
+      "forms": {
+        "nom": "šuo",
+        "gen": "šuns",
+        "acc": "šunį",
+        "gender": "m.",
+        "decl": "V"
+      },
+      "notes": "Short genitive šuns."
+    },
+    {
+      "lemma": "medus",
+      "gloss": "honey",
+      "pos": "noun",
+      "forms": {
+        "nom": "medus",
+        "gen": "medaus",
+        "acc": "medų",
+        "gender": "m.",
+        "decl": "IV"
+      }
+    },
+    {
+      "lemma": "debesis",
+      "gloss": "cloud",
+      "pos": "noun",
+      "forms": {
+        "nom": "debesis",
+        "gen": "debesies",
+        "acc": "debesį",
+        "gender": "m.",
+        "decl": "III"
+      }
+    },
+    {
+      "lemma": "stiklinė",
+      "gloss": "glass (drinking)",
+      "pos": "noun",
+      "forms": {
+        "nom": "stiklinė",
+        "gen": "stiklinės",
+        "acc": "stiklinę",
+        "gender": "f.",
+        "decl": "II"
+      }
+    },
+    {
+      "lemma": "žaisti",
+      "gloss": "to play",
+      "pos": "verb",
+      "forms": {
+        "inf": "žaisti",
+        "pres3": "žaidžia",
+        "past3": "žaidė",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "dovanoti",
+      "gloss": "to give as a gift",
+      "pos": "verb",
+      "forms": {
+        "inf": "dovanoti",
+        "pres3": "dovanoja",
+        "past3": "dovanojo",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "linksnis",
+      "gloss": "case (grammatical)",
+      "pos": "noun",
+      "forms": {
+        "nom": "linksnis",
+        "gen": "linksnio",
+        "acc": "linksnį",
+        "gender": "m.",
+        "decl": "I"
+      }
+    },
+    {
+      "lemma": "linksniuotė",
+      "gloss": "declension class",
+      "pos": "noun",
+      "forms": {
+        "nom": "linksniuotė",
+        "gen": "linksniuotės",
+        "acc": "linksniuotę",
+        "gender": "f.",
+        "decl": "II"
+      }
+    },
+    {
+      "lemma": "dėdė",
+      "gloss": "uncle",
+      "pos": "noun",
+      "forms": {
+        "nom": "dėdė",
+        "gen": "dėdės",
+        "acc": "dėdę",
+        "gender": "m.",
+        "decl": "II"
+      },
+      "notes": "Masculine of the second declension."
+    }
+  ],
+  "drills": [
+    {
+      "id": "a201-q1",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "*Akis, akies* and *brolis, brolio* both end in **-is** in the nominative. Which declensions are they?",
+      "options": [
+        "both I",
+        "akis III, brolis I",
+        "both III",
+        "akis I, brolis III"
+      ],
+      "correct": 1,
+      "explanation": "The **genitive** settles the class: *-ies* is III, *-io* is I. The nominative ending alone is not enough.",
+      "rulesTested": [
+        "five-declensions",
+        "third-declension-paradigm",
+        "first-declension-paradigm"
+      ],
+      "vocabUsed": [
+        "akis",
+        "brolis"
+      ]
+    },
+    {
+      "id": "a201-q2",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "What is the instrumental singular of **sūnus**?",
+      "options": [
+        "sūnu",
+        "sūnui",
+        "sūnumi",
+        "sūnuje"
+      ],
+      "correct": 2,
+      "explanation": "Fourth-declension masculines take the long **-umi**. *sūnui* is dative and *sūnuje* locative.",
+      "rulesTested": [
+        "fourth-declension-paradigm"
+      ],
+      "vocabUsed": [
+        "sūnus"
+      ]
+    },
+    {
+      "id": "a201-q3",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete: **Stiklinėje yra ____.** (There is some water in the glass.)",
+      "options": [
+        "vanduo",
+        "vandenį",
+        "vandens",
+        "vandeniu"
+      ],
+      "correct": 2,
+      "explanation": "Existence of an indefinite amount takes the **partitive genitive**: *vandens*, from the fifth-declension stem. The nominative would assert the water as a definite subject.",
+      "rulesTested": [
+        "fifth-declension-paradigm",
+        "seven-cases-uses"
+      ],
+      "vocabUsed": [
+        "stiklinė",
+        "vanduo"
+      ]
+    },
+    {
+      "id": "a201-q4",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "What is the nominative plural of **akis**?",
+      "options": [
+        "akiai",
+        "akys",
+        "akis",
+        "akės"
+      ],
+      "correct": 1,
+      "explanation": "Third declension: nominative plural **-ys**. *akis* as a plural form is the **accusative** plural; *akiai* would be first-declension soft.",
+      "rulesTested": [
+        "third-declension-paradigm"
+      ],
+      "vocabUsed": [
+        "akis"
+      ]
+    },
+    {
+      "id": "a201-q5",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which forms of **katė** are correctly matched?",
+      "options": [
+        "kačių — genitive plural",
+        "katėms — dative plural",
+        "katėse — locative plural",
+        "katėmis — dative plural"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "*katėmis* is the **instrumental** plural; the dative has **-ms** (*katėms*). Softening *t → č* before *-ių* is regular in the genitive plural.",
+      "rulesTested": [
+        "second-declension-paradigm"
+      ],
+      "vocabUsed": [
+        "katė"
+      ]
+    },
+    {
+      "id": "a201-q6",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Gyvenu su ____.** (I live with my sister.)",
+      "options": [
+        "sesuo",
+        "seserį",
+        "seserimi",
+        "sesers"
+      ],
+      "correct": 2,
+      "explanation": "*su* takes the instrumental. The fifth-declension stem of *sesuo* is *seser-*, so *seserimi*.",
+      "rulesTested": [
+        "fifth-declension-paradigm",
+        "seven-cases-uses"
+      ],
+      "vocabUsed": [
+        "gyventi",
+        "su",
+        "sesuo"
+      ]
+    },
+    {
+      "id": "a201-q7",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "What is the locative singular of **brolis**?",
+      "options": [
+        "brole",
+        "brolyje",
+        "brolyjeje",
+        "broliuje"
+      ],
+      "correct": 1,
+      "explanation": "Soft first-declension stems take **-yje** in the locative singular: *brolyje*, not the hard *-e* of *name*.",
+      "rulesTested": [
+        "first-declension-paradigm"
+      ],
+      "vocabUsed": [
+        "brolis"
+      ]
+    },
+    {
+      "id": "a201-q8",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which of these are **fifth** declension?",
+      "options": [
+        "vanduo",
+        "akmuo",
+        "medus",
+        "duktė"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "*medus* is **IV** (*medaus*). *vanduo, akmuo, duktė* (with *sesuo*) are V.",
+      "rulesTested": [
+        "five-declensions",
+        "fifth-declension-paradigm",
+        "fourth-declension-paradigm"
+      ],
+      "vocabUsed": [
+        "vanduo",
+        "akmuo",
+        "medus",
+        "duktė"
+      ]
+    },
+    {
+      "id": "a201-q9",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**Matau akis.** Which case and number is *akis* here?",
+      "options": [
+        "nominative singular",
+        "accusative plural",
+        "genitive singular",
+        "It could be either nominative singular or accusative plural, and the verb decides."
+      ],
+      "correct": 3,
+      "explanation": "The spelling is shared (¶147), but after *matau* only the **accusative plural** is possible. A nominative singular could not be the object of a transitive verb.",
+      "rulesTested": [
+        "third-declension-paradigm",
+        "seven-cases-uses"
+      ],
+      "vocabUsed": [
+        "matyti",
+        "akis"
+      ]
+    },
+    {
+      "id": "a201-q10",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "What is the dative singular of **dantis**?",
+      "options": [
+        "dančiui",
+        "dantui",
+        "dančiai",
+        "dantiui"
+      ],
+      "correct": 0,
+      "explanation": "Third-declension masculine: the dative softens *t → č*, giving **dančiui**. *dantui* would be a hard first-declension guess; *dančiai* looks like a feminine dative plural.",
+      "rulesTested": [
+        "third-declension-paradigm"
+      ],
+      "vocabUsed": [
+        "dantis"
+      ]
+    },
+    {
+      "id": "a201-q11",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "Lithuanian has seven cases and two numbers. How many **case slots** does that give a noun in all?",
+      "answer": 14,
+      "unit": "slots",
+      "explanation": "7 × 2 = 14 slots. Vocative plural borrows the nominative spelling, but the paradigm still has fourteen places.",
+      "rulesTested": [
+        "seven-cases-uses",
+        "five-declensions"
+      ],
+      "vocabUsed": [
+        "linksnis"
+      ]
+    },
+    {
+      "id": "a201-q12",
+      "type": "integer",
+      "difficulty": "medium",
+      "stem": "How many **declension classes** does the standard school grammar recognise?",
+      "answer": 5,
+      "unit": "declensions",
+      "explanation": "Five: I *-as/-is/-ys*, II *-a/-ė*, III *-is* (*-ies*), IV *-us*, V *-uo* and kin.",
+      "rulesTested": [
+        "five-declensions"
+      ],
+      "vocabUsed": [
+        "linksniuotė"
+      ]
+    },
+    {
+      "id": "a201-q13",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "In **Brolis duoda seseriai knygą**, which case-role pairs are correct?",
+      "options": [
+        "brolis — nominative subject",
+        "seseriai — dative indirect object",
+        "knygą — accusative direct object",
+        "seseriai — genitive of possession"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "The classic three-case sentence: giver, receiver, gift. *seseriai* is the fifth-declension dative, not a genitive.",
+      "rulesTested": [
+        "seven-cases-uses",
+        "fifth-declension-paradigm"
+      ],
+      "vocabUsed": [
+        "brolis",
+        "duoti",
+        "sesuo",
+        "knyga"
+      ]
+    },
+    {
+      "id": "a201-p1",
+      "type": "comprehension",
+      "difficulty": "medium",
+      "title": "Sesuo ir duktė",
+      "passage": "Mano sesuo gyvena name prie upės. Jos duktė mėgsta žaisti su šunimi soduose. Vakare jos geria arbatą su medumi ir skaito knygas. Kartais seseriai skauda akis, tada ji guli lovoje. „Seserie,“ — sakau, — „ar nori vandens?“ Ji atsako: „Ačiū, duok stiklinėje.“",
+      "translation": "My sister lives in a house by the river. Her daughter likes to play with the dog in the gardens. In the evening they drink tea with honey and read books. Sometimes the sister's eyes hurt, then she lies in bed. \"Sister,\" I say, \"do you want some water?\" She answers: \"Thanks, give it in a glass.\"",
+      "glossary": {
+        "upės": "of the river (upė)",
+        "tada": "then",
+        "duok": "give! (imperative of duoti)"
+      },
+      "questions": [
+        {
+          "id": "a201-p1-q1",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "Which form is the **vocative** in the passage?",
+          "options": [
+            "sesuo",
+            "seseriai",
+            "seserie",
+            "seserimi"
+          ],
+          "correct": 2,
+          "explanation": "*Seserie* is the fifth-declension vocative of address. *seseriai* is dative; *seserimi* would be instrumental.",
+          "rulesTested": [
+            "fifth-declension-paradigm",
+            "seven-cases-uses"
+          ],
+          "vocabUsed": [
+            "sesuo"
+          ]
+        },
+        {
+          "id": "a201-p1-q2",
+          "type": "multi",
+          "difficulty": "medium",
+          "stem": "Which words in the passage stand in the **instrumental**?",
+          "options": [
+            "šunimi",
+            "medumi",
+            "akys",
+            "name"
+          ],
+          "correct": [
+            0,
+            1
+          ],
+          "explanation": "*su šunimi* and *su medumi* are instrumental. *akys* is nominative plural (subject of *skauda* in the impersonal frame with dative *seseriai*); *name* is locative.",
+          "rulesTested": [
+            "fifth-declension-paradigm",
+            "fourth-declension-paradigm",
+            "seven-cases-uses"
+          ],
+          "vocabUsed": [
+            "šuo",
+            "medus",
+            "akis",
+            "namas"
+          ]
+        },
+        {
+          "id": "a201-p1-q3",
+          "type": "single",
+          "difficulty": "hard",
+          "stem": "**Seseriai skauda akis.** Why *seseriai* and not *sesuo*?",
+          "options": [
+            "Because *skauda* takes a dative experiencer.",
+            "Because *seseriai* is nominative plural.",
+            "Because kinship nouns cannot be subjects.",
+            "Because the verb agrees with the dative."
+          ],
+          "correct": 0,
+          "explanation": "Impersonal *skaudėti* puts the sufferer in the **dative** and the hurting part in the accusative (*akis* here as accusative plural, coinciding with the nominative singular spelling).",
+          "rulesTested": [
+            "seven-cases-uses",
+            "third-declension-paradigm",
+            "fifth-declension-paradigm"
+          ],
+          "vocabUsed": [
+            "sesuo",
+            "skaudėti",
+            "akis"
+          ]
+        },
+        {
+          "id": "a201-p1-q4",
+          "type": "integer",
+          "difficulty": "hard",
+          "stem": "How many **different declension classes** are represented by *sesuo, duktė, šuo, medus, akis, knygas, name* in the passage?",
+          "answer": 5,
+          "unit": "classes",
+          "explanation": "V (*sesuo, duktė, šuo*), IV (*medumi*), III (*akis*), II (*knygas*), I (*name*). All five classes appear.",
+          "rulesTested": [
+            "five-declensions",
+            "first-declension-paradigm",
+            "second-declension-paradigm",
+            "third-declension-paradigm",
+            "fourth-declension-paradigm",
+            "fifth-declension-paradigm"
+          ],
+          "vocabUsed": [
+            "sesuo",
+            "duktė",
+            "šuo",
+            "medus",
+            "akis",
+            "knyga",
+            "namas"
+          ]
+        },
+        {
+          "id": "a201-p1-q5",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "What is the case of **soduose**?",
+          "options": [
+            "instrumental plural",
+            "locative plural",
+            "dative plural",
+            "genitive plural"
+          ],
+          "correct": 1,
+          "explanation": "*-uose* is the locative plural of a first-declension masculine: *in the gardens*.",
+          "rulesTested": [
+            "first-declension-paradigm",
+            "seven-cases-uses"
+          ],
+          "vocabUsed": [
+            "sodas"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a201-x1",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "What is the genitive singular of **akis**?",
+      "options": [
+        "akio",
+        "akies",
+        "akės",
+        "akiojo"
+      ],
+      "correct": 1,
+      "explanation": "Third declension: genitive **-ies**. *akio* would be first-declension soft.",
+      "rulesTested": [
+        "third-declension-paradigm",
+        "five-declensions"
+      ],
+      "vocabUsed": [
+        "akis"
+      ]
+    },
+    {
+      "id": "a201-x2",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete: **Kalbu su ____.** (I am talking with my son.)",
+      "options": [
+        "sūnus",
+        "sūnų",
+        "sūnumi",
+        "sūnui"
+      ],
+      "correct": 2,
+      "explanation": "*su* takes the instrumental; fourth declension uses long **-umi**: *sūnumi*.",
+      "rulesTested": [
+        "fourth-declension-paradigm",
+        "seven-cases-uses"
+      ],
+      "vocabUsed": [
+        "sūnus"
+      ]
+    },
+    {
+      "id": "a201-x3",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "What is the accusative singular of **vanduo**?",
+      "options": [
+        "vanduo",
+        "vandens",
+        "vandenį",
+        "vandeniu"
+      ],
+      "correct": 2,
+      "explanation": "Fifth class lengthens the stem: *vanduo → vandenį* in the accusative.",
+      "rulesTested": [
+        "fifth-declension-paradigm"
+      ],
+      "vocabUsed": [
+        "vanduo"
+      ]
+    },
+    {
+      "id": "a201-x4",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "What is the instrumental singular of **akis**?",
+      "options": [
+        "akiu",
+        "akimi",
+        "akiais",
+        "akyje"
+      ],
+      "correct": 1,
+      "explanation": "Third declension takes long **-imi** in the instrumental singular: *akimi*.",
+      "rulesTested": [
+        "third-declension-paradigm"
+      ],
+      "vocabUsed": [
+        "akis"
+      ]
+    },
+    {
+      "id": "a201-x5",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "**knygos** can be which two of these at once?",
+      "options": [
+        "genitive singular and nominative plural",
+        "only genitive singular",
+        "only nominative plural",
+        "accusative singular and instrumental"
+      ],
+      "correct": 0,
+      "explanation": "¶147: *knygos* is genitive singular and nominative (and vocative) plural — a regular overlap.",
+      "rulesTested": [
+        "paradigm-homographs",
+        "second-declension-paradigm"
+      ],
+      "vocabUsed": [
+        "knyga"
+      ]
+    },
+    {
+      "id": "a201-x6",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which forms of **namas** are correctly matched?",
+      "options": [
+        "namui — dative singular",
+        "name — locative singular",
+        "namais — instrumental plural",
+        "namuose — genitive plural"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "*namuose* is **locative** plural. Genitive plural is *namų*.",
+      "rulesTested": [
+        "first-declension-paradigm"
+      ],
+      "vocabUsed": [
+        "namas"
+      ]
+    },
+    {
+      "id": "a201-x7",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "What is the nominative plural of **sūnus**?",
+      "options": [
+        "sūnūs",
+        "sūnai",
+        "sūnus",
+        "sūnūsiai"
+      ],
+      "correct": 0,
+      "explanation": "Fourth declension nominative plural is long **-ūs**: *sūnūs*. *sūnus* as a plural spelling is the accusative.",
+      "rulesTested": [
+        "fourth-declension-paradigm",
+        "paradigm-homographs"
+      ],
+      "vocabUsed": [
+        "sūnus"
+      ]
+    },
+    {
+      "id": "a201-x8",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "What is the genitive singular of **šuo**?",
+      "options": [
+        "šuns",
+        "šunio",
+        "šunsio",
+        "šunsies"
+      ],
+      "correct": 0,
+      "explanation": "Fifth-declension *šuo* has the short genitive **šuns**.",
+      "rulesTested": [
+        "fifth-declension-paradigm"
+      ],
+      "vocabUsed": [
+        "šuo"
+      ]
+    },
+    {
+      "id": "a201-x9",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which are correctly labelled **homographs** (same spelling, different slots)?",
+      "options": [
+        "akis — nom. sg. and acc. pl.",
+        "sūnus — nom. sg. and acc. pl.",
+        "knyga — nom. sg. and instr./voc. sg.",
+        "brolyje — loc. sg. and instr. sg."
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "*brolyje* is only the locative singular of *brolis*; it is not a listed overlap.",
+      "rulesTested": [
+        "paradigm-homographs",
+        "third-declension-paradigm",
+        "fourth-declension-paradigm",
+        "second-declension-paradigm"
+      ],
+      "vocabUsed": [
+        "akis",
+        "sūnus",
+        "knyga",
+        "brolis"
+      ]
+    },
+    {
+      "id": "a201-x10",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "What is the dative plural of **sesuo**?",
+      "options": [
+        "seserims",
+        "seserėms",
+        "seseroms",
+        "seserams"
+      ],
+      "correct": 0,
+      "explanation": "Fifth-declension plural dative follows the soft pattern: **seserims**.",
+      "rulesTested": [
+        "fifth-declension-paradigm"
+      ],
+      "vocabUsed": [
+        "sesuo"
+      ]
+    },
+    {
+      "id": "a201-x11",
+      "type": "integer",
+      "difficulty": "medium",
+      "stem": "How many **cases** does Lithuanian have (including the vocative)?",
+      "answer": 7,
+      "unit": "cases",
+      "explanation": "Seven: nominative, genitive, dative, accusative, instrumental, locative, vocative.",
+      "rulesTested": [
+        "seven-cases-uses"
+      ],
+      "vocabUsed": [
+        "linksnis"
+      ]
+    },
+    {
+      "id": "a201-x12",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "Of *vanduo, akmuo, medus, duktė, šuo*, how many belong to the **fifth** declension?",
+      "answer": 4,
+      "unit": "nouns",
+      "explanation": "Four. *medus* is **IV** (*medaus*); *vanduo, akmuo, duktė, šuo* are V.",
+      "rulesTested": [
+        "five-declensions",
+        "fifth-declension-paradigm",
+        "fourth-declension-paradigm"
+      ],
+      "vocabUsed": [
+        "vanduo",
+        "akmuo",
+        "medus",
+        "duktė",
+        "šuo"
+      ]
+    },
+    {
+      "id": "a201-x13",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "*Medus, medaus* belongs to which declension?",
+      "options": [
+        "I",
+        "III",
+        "IV",
+        "V"
+      ],
+      "correct": 2,
+      "explanation": "Nominative *-us* with genitive **-aus** marks the **fourth** declension.",
+      "rulesTested": [
+        "five-declensions",
+        "fourth-declension-paradigm"
+      ],
+      "vocabUsed": [
+        "medus"
+      ]
+    },
+    {
+      "id": "a201-x14",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which case–use pairs are **correct**?",
+      "options": [
+        "dative — experiencer of *patinka*",
+        "locative — place in/at without a preposition",
+        "instrumental — means and *su* + company",
+        "vocative — possession"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "The vocative only addresses; possession belongs to the genitive.",
+      "rulesTested": [
+        "seven-cases-uses"
+      ],
+      "vocabUsed": []
+    }
+  ]
+}

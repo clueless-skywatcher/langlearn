@@ -14,23 +14,74 @@
       "paradigms": [
         {
           "caption": "Adjective → adverb",
-          "columns": ["adjective", "adverb", "English"],
+          "columns": [
+            "adjective",
+            "adverb",
+            "English"
+          ],
           "rows": [
-            { "label": "-as → -ai", "cells": ["geras", "gerai", "well"] },
-            { "label": "-as → -ai", "cells": ["greitas", "greitai", "quickly"] },
-            { "label": "-as → -ai", "cells": ["lėtas", "lėtai", "slowly"] },
-            { "label": "-us → -iai", "cells": ["gražus", "gražiai", "beautifully"] },
-            { "label": "-us → -iai", "cells": ["įdomus", "įdomiai", "interestingly"] }
+            {
+              "label": "-as → -ai",
+              "cells": [
+                "geras",
+                "gerai",
+                "well"
+              ]
+            },
+            {
+              "label": "-as → -ai",
+              "cells": [
+                "greitas",
+                "greitai",
+                "quickly"
+              ]
+            },
+            {
+              "label": "-as → -ai",
+              "cells": [
+                "lėtas",
+                "lėtai",
+                "slowly"
+              ]
+            },
+            {
+              "label": "-us → -iai",
+              "cells": [
+                "gražus",
+                "gražiai",
+                "beautifully"
+              ]
+            },
+            {
+              "label": "-us → -iai",
+              "cells": [
+                "įdomus",
+                "įdomiai",
+                "interestingly"
+              ]
+            }
           ],
           "footnote": "Compare ¶17: an **adjective** agrees with its noun in gender, number and case, and so has dozens of forms; an **adverb** made from the same word has exactly one."
         }
       ],
       "examples": [
-        { "target": "Troleibusas važiuoja lėtai.", "gloss": "The trolleybus goes slowly." },
-        { "target": "Mokytojas pasakoja įdomiai.", "gloss": "The teacher tells it interestingly." },
-        { "target": "Ji gražiai dainuoja.", "gloss": "She sings beautifully." }
+        {
+          "target": "Troleibusas važiuoja lėtai.",
+          "gloss": "The trolleybus goes slowly."
+        },
+        {
+          "target": "Mokytojas pasakoja įdomiai.",
+          "gloss": "The teacher tells it interestingly."
+        },
+        {
+          "target": "Ji gražiai dainuoja.",
+          "gloss": "She sings beautifully."
+        }
       ],
-      "seeAlso": ["adjective-agreement", "adjective-number"],
+      "seeAlso": [
+        "adjective-agreement",
+        "adjective-number"
+      ],
       "core": true
     },
     {
@@ -39,14 +90,25 @@
       "heading": "Adverbs in -iškai",
       "statement": "A separate suffix, **-iškai**, makes adverbs of *manner after the fashion of* — and above all the names of languages. **Kalbėti lietuviškai** is to speak Lithuanian, and the construction is an adverb throughout: the language is never a noun and never takes a case.",
       "examples": [
-        { "target": "Aš kalbu lietuviškai ir angliškai.", "gloss": "I speak Lithuanian and English." },
-        { "target": "Ar tu kalbi rusiškai?", "gloss": "Do you speak Russian?" },
-        { "target": "Jis gyvena kaimiškai.", "gloss": "He lives in a country fashion." }
+        {
+          "target": "Aš kalbu lietuviškai ir angliškai.",
+          "gloss": "I speak Lithuanian and English."
+        },
+        {
+          "target": "Ar tu kalbi rusiškai?",
+          "gloss": "Do you speak Russian?"
+        },
+        {
+          "target": "Jis gyvena kaimiškai.",
+          "gloss": "He lives in a country fashion."
+        }
       ],
       "footnotes": [
         "The noun *lietuvių kalba* exists and is used of the language as a subject of study: *mokausi lietuvių kalbos*. But *kalbėti* takes the adverb."
       ],
-      "seeAlso": ["adverb-formation"],
+      "seeAlso": [
+        "adverb-formation"
+      ],
       "core": true
     },
     {
@@ -57,22 +119,71 @@
       "paradigms": [
         {
           "caption": "Positive → comparative",
-          "columns": ["masculine", "feminine", "English"],
+          "columns": [
+            "masculine",
+            "feminine",
+            "English"
+          ],
           "rows": [
-            { "label": "geras", "cells": ["geresnis", "geresnė", "better"] },
-            { "label": "mažas", "cells": ["mažesnis", "mažesnė", "smaller"] },
-            { "label": "didelis", "cells": ["didesnis", "didesnė", "bigger"] },
-            { "label": "gražus", "cells": ["gražesnis", "gražesnė", "more beautiful"] },
-            { "label": "įdomus", "cells": ["įdomesnis", "įdomesnė", "more interesting"] }
+            {
+              "label": "geras",
+              "cells": [
+                "geresnis",
+                "geresnė",
+                "better"
+              ]
+            },
+            {
+              "label": "mažas",
+              "cells": [
+                "mažesnis",
+                "mažesnė",
+                "smaller"
+              ]
+            },
+            {
+              "label": "didelis",
+              "cells": [
+                "didesnis",
+                "didesnė",
+                "bigger"
+              ]
+            },
+            {
+              "label": "gražus",
+              "cells": [
+                "gražesnis",
+                "gražesnė",
+                "more beautiful"
+              ]
+            },
+            {
+              "label": "įdomus",
+              "cells": [
+                "įdomesnis",
+                "įdomesnė",
+                "more interesting"
+              ]
+            }
           ],
           "footnote": "Lithuanian has no equivalent of the English choice between *-er* and *more*: every adjective forms its comparative the same way, however long it is."
         }
       ],
       "examples": [
-        { "target": "Šis butas didesnis.", "gloss": "This flat is bigger." },
-        { "target": "Ji turi geresnę knygą.", "gloss": "She has a better book.", "note": "the comparative takes the accusative like any adjective" }
+        {
+          "target": "Šis butas didesnis.",
+          "gloss": "This flat is bigger."
+        },
+        {
+          "target": "Ji turi geresnę knygą.",
+          "gloss": "She has a better book.",
+          "note": "the comparative takes the accusative like any adjective"
+        }
       ],
-      "seeAlso": ["adjective-agreement", "accusative-adjectives"],
+      "seeAlso": [
+        "adjective-agreement",
+        "accusative-adjectives"
+      ],
       "core": true
     },
     {
@@ -83,22 +194,71 @@
       "paradigms": [
         {
           "caption": "The three degrees",
-          "columns": ["positive", "comparative", "superlative"],
+          "columns": [
+            "positive",
+            "comparative",
+            "superlative"
+          ],
           "rows": [
-            { "label": "good", "cells": ["geras", "geresnis", "geriausias"] },
-            { "label": "small", "cells": ["mažas", "mažesnis", "mažiausias"] },
-            { "label": "big", "cells": ["didelis", "didesnis", "didžiausias"] },
-            { "label": "quick", "cells": ["greitas", "greitesnis", "greičiausias"] },
-            { "label": "interesting", "cells": ["įdomus", "įdomesnis", "įdomiausias"] }
+            {
+              "label": "good",
+              "cells": [
+                "geras",
+                "geresnis",
+                "geriausias"
+              ]
+            },
+            {
+              "label": "small",
+              "cells": [
+                "mažas",
+                "mažesnis",
+                "mažiausias"
+              ]
+            },
+            {
+              "label": "big",
+              "cells": [
+                "didelis",
+                "didesnis",
+                "didžiausias"
+              ]
+            },
+            {
+              "label": "quick",
+              "cells": [
+                "greitas",
+                "greitesnis",
+                "greičiausias"
+              ]
+            },
+            {
+              "label": "interesting",
+              "cells": [
+                "įdomus",
+                "įdomesnis",
+                "įdomiausias"
+              ]
+            }
           ],
           "footnote": "*geriausias* is built on a different stem from *geras*, as *best* is from *good*; it is the one irregularity worth noticing, and it is the commonest word of the three."
         }
       ],
       "examples": [
-        { "target": "Tai geriausias filmas.", "gloss": "That is the best film." },
-        { "target": "Vilnius yra didžiausias Lietuvos miestas.", "gloss": "Vilnius is the biggest city in Lithuania.", "note": "genitive *Lietuvos*, where English says *in*" }
+        {
+          "target": "Tai geriausias filmas.",
+          "gloss": "That is the best film."
+        },
+        {
+          "target": "Vilnius yra didžiausias Lietuvos miestas.",
+          "gloss": "Vilnius is the biggest city in Lithuania.",
+          "note": "genitive *Lietuvos*, where English says *in*"
+        }
       ],
-      "seeAlso": ["adjective-comparative", "genitive-possession"],
+      "seeAlso": [
+        "adjective-comparative",
+        "genitive-possession"
+      ],
       "core": true
     },
     {
@@ -109,22 +269,67 @@
       "paradigms": [
         {
           "caption": "The three degrees of the adverb",
-          "columns": ["positive", "comparative", "superlative"],
+          "columns": [
+            "positive",
+            "comparative",
+            "superlative"
+          ],
           "rows": [
-            { "label": "well", "cells": ["gerai", "geriau", "geriausiai"] },
-            { "label": "near", "cells": ["arti", "arčiau", "arčiausiai"] },
-            { "label": "quickly", "cells": ["greitai", "greičiau", "greičiausiai"] },
-            { "label": "beautifully", "cells": ["gražiai", "gražiau", "gražiausiai"] }
+            {
+              "label": "well",
+              "cells": [
+                "gerai",
+                "geriau",
+                "geriausiai"
+              ]
+            },
+            {
+              "label": "near",
+              "cells": [
+                "arti",
+                "arčiau",
+                "arčiausiai"
+              ]
+            },
+            {
+              "label": "quickly",
+              "cells": [
+                "greitai",
+                "greičiau",
+                "greičiausiai"
+              ]
+            },
+            {
+              "label": "beautifully",
+              "cells": [
+                "gražiai",
+                "gražiau",
+                "gražiausiai"
+              ]
+            }
           ],
           "footnote": "*arti → arčiau* and *greitai → greičiau* show the softening of **t** before the back vowel of the ending, as in ¶117."
         }
       ],
       "examples": [
-        { "target": "Kalbėkite lėčiau, prašom.", "gloss": "Speak more slowly, please." },
-        { "target": "Dabar jaučiuosi geriau.", "gloss": "I feel better now." },
-        { "target": "Jis gyvena arčiau.", "gloss": "He lives nearer." }
+        {
+          "target": "Kalbėkite lėčiau, prašom.",
+          "gloss": "Speak more slowly, please."
+        },
+        {
+          "target": "Dabar jaučiuosi geriau.",
+          "gloss": "I feel better now."
+        },
+        {
+          "target": "Jis gyvena arčiau.",
+          "gloss": "He lives nearer."
+        }
       ],
-      "seeAlso": ["adverb-formation", "adjective-superlative", "imperative-formation"],
+      "seeAlso": [
+        "adverb-formation",
+        "adjective-superlative",
+        "imperative-formation"
+      ],
       "core": true
     },
     {
@@ -135,21 +340,59 @@
       "paradigms": [
         {
           "caption": "The two constructions",
-          "columns": ["Lithuanian", "English", "case of the second term"],
+          "columns": [
+            "Lithuanian",
+            "English",
+            "case of the second term"
+          ],
           "rows": [
-            { "label": "negu", "cells": ["Čia geriau negu ten.", "It is better here than there.", "adverb, unchanged"] },
-            { "label": "negu", "cells": ["Jis didesnis negu aš.", "He is bigger than I.", "nominative, matching *jis*"] },
-            { "label": "už", "cells": ["Jis didesnis už mane.", "He is bigger than I.", "accusative after *už*"] }
+            {
+              "label": "negu",
+              "cells": [
+                "Čia geriau negu ten.",
+                "It is better here than there.",
+                "adverb, unchanged"
+              ]
+            },
+            {
+              "label": "negu",
+              "cells": [
+                "Jis didesnis negu aš.",
+                "He is bigger than I.",
+                "nominative, matching *jis*"
+              ]
+            },
+            {
+              "label": "už",
+              "cells": [
+                "Jis didesnis už mane.",
+                "He is bigger than I.",
+                "accusative after *už*"
+              ]
+            }
           ],
           "footnote": "*Už* with the genitive means *behind* (¶62) and with the accusative *for* or *than*; the case decides, as with *po* (¶75)."
         }
       ],
       "examples": [
-        { "target": "Traukinys greitesnis negu autobusas.", "gloss": "The train is faster than the bus." },
-        { "target": "Ši knyga įdomesnė už tą.", "gloss": "This book is more interesting than that one." },
-        { "target": "Kava geriau negu arbata.", "gloss": "Coffee is better than tea." }
+        {
+          "target": "Traukinys greitesnis negu autobusas.",
+          "gloss": "The train is faster than the bus."
+        },
+        {
+          "target": "Ši knyga įdomesnė už tą.",
+          "gloss": "This book is more interesting than that one."
+        },
+        {
+          "target": "Kava geriau negu arbata.",
+          "gloss": "Coffee is better than tea."
+        }
       ],
-      "seeAlso": ["adjective-comparative", "place-prepositions", "coordinating-conjunctions"],
+      "seeAlso": [
+        "adjective-comparative",
+        "place-prepositions",
+        "coordinating-conjunctions"
+      ],
       "core": true
     },
     {
@@ -160,134 +403,353 @@
       "paradigms": [
         {
           "caption": "The five groups",
-          "columns": ["kind", "examples"],
+          "columns": [
+            "kind",
+            "examples"
+          ],
           "rows": [
-            { "label": "place", "cells": ["arti, toli, dešinėje, kairėje, namie, kur, čia, ten"] },
-            { "label": "direction", "cells": ["kairėn, dešinėn, aukštyn, žemyn, tiesiai"] },
-            { "label": "time", "cells": ["dabar, rytoj, vakar, šiandien, seniai, pernai, tuoj, greitai"] },
-            { "label": "manner", "cells": ["gerai, puikiai, lėtai, gražiai, lietuviškai"] },
-            { "label": "quantity", "cells": ["daug, mažai, šiek tiek, truputį, kiek, tiek"] }
+            {
+              "label": "place",
+              "cells": [
+                "arti, toli, dešinėje, kairėje, namie, kur, čia, ten"
+              ]
+            },
+            {
+              "label": "direction",
+              "cells": [
+                "kairėn, dešinėn, aukštyn, žemyn, tiesiai"
+              ]
+            },
+            {
+              "label": "time",
+              "cells": [
+                "dabar, rytoj, vakar, šiandien, seniai, pernai, tuoj, greitai"
+              ]
+            },
+            {
+              "label": "manner",
+              "cells": [
+                "gerai, puikiai, lėtai, gražiai, lietuviškai"
+              ]
+            },
+            {
+              "label": "quantity",
+              "cells": [
+                "daug, mažai, šiek tiek, truputį, kiek, tiek"
+              ]
+            }
           ],
           "footnote": "The direction adverbs in **-n** — *kairėn*, to the left — are the remains of an old case, and are the shortest way of giving a direction: *Eikite tiesiai, paskui kairėn.*"
         }
       ],
       "examples": [
-        { "target": "Turiu mažai laiko.", "gloss": "I have little time.", "note": "genitive after an adverb of quantity" },
-        { "target": "Eikite tiesiai, paskui dešinėn.", "gloss": "Go straight on, then to the right." },
-        { "target": "Jis gyvena toli, o dirba arti.", "gloss": "He lives far away but works near by." }
+        {
+          "target": "Turiu mažai laiko.",
+          "gloss": "I have little time.",
+          "note": "genitive after an adverb of quantity"
+        },
+        {
+          "target": "Eikite tiesiai, paskui dešinėn.",
+          "gloss": "Go straight on, then to the right."
+        },
+        {
+          "target": "Jis gyvena toli, o dirba arti.",
+          "gloss": "He lives far away but works near by."
+        }
       ],
-      "seeAlso": ["place-adverbs", "genitive-quantity", "frequency-adverbs"],
+      "seeAlso": [
+        "place-adverbs",
+        "genitive-quantity",
+        "frequency-adverbs"
+      ],
       "core": true
     }
   ],
   "vocabulary": [
-    { "lemma": "gerai", "gloss": "well, all right", "pos": "adverb" },
-    { "lemma": "greitai", "gloss": "quickly; soon", "pos": "adverb" },
-    { "lemma": "lėtai", "gloss": "slowly", "pos": "adverb" },
-    { "lemma": "puikiai", "gloss": "splendidly, very well", "pos": "adverb" },
-    { "lemma": "arti", "gloss": "near", "pos": "adverb" },
-    { "lemma": "toli", "gloss": "far", "pos": "adverb" },
-    { "lemma": "mažai", "gloss": "little, few (+ gen.)", "pos": "adverb" },
-    { "lemma": "truputį", "gloss": "a little (+ gen.)", "pos": "adverb" },
-    { "lemma": "seniai", "gloss": "long ago", "pos": "adverb" },
-    { "lemma": "dešinėn", "gloss": "to the right", "pos": "adverb" },
-    { "lemma": "kairėn", "gloss": "to the left", "pos": "adverb" },
-    { "lemma": "angliškai", "gloss": "English (in the manner of), in English", "pos": "adverb" },
-    { "lemma": "negu", "gloss": "than", "pos": "conjunction" },
-    { "lemma": "greitas", "gloss": "quick, fast", "pos": "adjective", "forms": { "masc": "greitas", "fem": "greita" } },
-    { "lemma": "lėtas", "gloss": "slow", "pos": "adjective", "forms": { "masc": "lėtas", "fem": "lėta" } },
-    { "lemma": "įdomus", "gloss": "interesting", "pos": "adjective", "forms": { "masc": "įdomus", "fem": "įdomi" } },
-    { "lemma": "brangus", "gloss": "expensive; dear", "pos": "adjective", "forms": { "masc": "brangus", "fem": "brangi" } },
-    { "lemma": "pigus", "gloss": "cheap", "pos": "adjective", "forms": { "masc": "pigus", "fem": "pigi" } },
-    { "lemma": "troleibusas", "gloss": "trolleybus", "pos": "noun", "forms": { "nom": "troleibusas", "gen": "troleibuso", "acc": "troleibusą", "gender": "m." } }
+    {
+      "lemma": "gerai",
+      "gloss": "well, all right",
+      "pos": "adverb"
+    },
+    {
+      "lemma": "greitai",
+      "gloss": "quickly; soon",
+      "pos": "adverb"
+    },
+    {
+      "lemma": "lėtai",
+      "gloss": "slowly",
+      "pos": "adverb"
+    },
+    {
+      "lemma": "puikiai",
+      "gloss": "splendidly, very well",
+      "pos": "adverb"
+    },
+    {
+      "lemma": "arti",
+      "gloss": "near",
+      "pos": "adverb"
+    },
+    {
+      "lemma": "toli",
+      "gloss": "far",
+      "pos": "adverb"
+    },
+    {
+      "lemma": "mažai",
+      "gloss": "little, few (+ gen.)",
+      "pos": "adverb"
+    },
+    {
+      "lemma": "truputį",
+      "gloss": "a little (+ gen.)",
+      "pos": "adverb"
+    },
+    {
+      "lemma": "seniai",
+      "gloss": "long ago",
+      "pos": "adverb"
+    },
+    {
+      "lemma": "dešinėn",
+      "gloss": "to the right",
+      "pos": "adverb"
+    },
+    {
+      "lemma": "kairėn",
+      "gloss": "to the left",
+      "pos": "adverb"
+    },
+    {
+      "lemma": "angliškai",
+      "gloss": "English (in the manner of), in English",
+      "pos": "adverb"
+    },
+    {
+      "lemma": "negu",
+      "gloss": "than",
+      "pos": "conjunction"
+    },
+    {
+      "lemma": "greitas",
+      "gloss": "quick, fast",
+      "pos": "adjective",
+      "forms": {
+        "masc": "greitas",
+        "fem": "greita"
+      }
+    },
+    {
+      "lemma": "lėtas",
+      "gloss": "slow",
+      "pos": "adjective",
+      "forms": {
+        "masc": "lėtas",
+        "fem": "lėta"
+      }
+    },
+    {
+      "lemma": "įdomus",
+      "gloss": "interesting",
+      "pos": "adjective",
+      "forms": {
+        "masc": "įdomus",
+        "fem": "įdomi"
+      }
+    },
+    {
+      "lemma": "brangus",
+      "gloss": "expensive; dear",
+      "pos": "adjective",
+      "forms": {
+        "masc": "brangus",
+        "fem": "brangi"
+      }
+    },
+    {
+      "lemma": "pigus",
+      "gloss": "cheap",
+      "pos": "adjective",
+      "forms": {
+        "masc": "pigus",
+        "fem": "pigi"
+      }
+    },
+    {
+      "lemma": "troleibusas",
+      "gloss": "trolleybus",
+      "pos": "noun",
+      "forms": {
+        "nom": "troleibusas",
+        "gen": "troleibuso",
+        "acc": "troleibusą",
+        "gender": "m."
+      }
+    }
   ],
   "drills": [
     {
       "id": "a117-q1",
       "type": "single",
       "difficulty": "easy",
-      "stem": "What is the adverb from **gražus**?",
-      "options": ["gražai", "gražiai", "gražus", "gražesnis"],
+      "stem": "Adverb from **gražus**:",
+      "options": [
+        "gražai",
+        "gražiai",
+        "gražus",
+        "gražesnis"
+      ],
       "correct": 1,
-      "explanation": "An adjective in **-us** makes its adverb in **-iai**: *gražiai*. Only adjectives in *-as* give *-ai*.",
-      "rulesTested": ["adverb-formation"],
-      "vocabUsed": ["gražus"]
+      "explanation": "*-us* → **-iai**: *gražiai*. Only *-as* adjectives give *-ai*. *gražesnis* is the comparative adjective.",
+      "rulesTested": [
+        "adverb-formation"
+      ],
+      "vocabUsed": [
+        "gražus"
+      ]
     },
     {
       "id": "a117-q2",
       "type": "single",
       "difficulty": "easy",
       "stem": "Complete: **Aš kalbu ____.** (I speak Lithuanian.)",
-      "options": ["lietuvių", "lietuviškai", "lietuvis", "lietuviška"],
+      "options": [
+        "lietuvių",
+        "lietuviškai",
+        "lietuvis",
+        "lietuviška"
+      ],
       "correct": 1,
-      "explanation": "A language after *kalbėti* is an **adverb** in *-iškai*, not a noun: *lietuviškai*. It therefore never takes a case.",
-      "rulesTested": ["adverbs-iskai"],
-      "vocabUsed": ["kalbėti", "lietuviškai"]
+      "explanation": "After *kalbėti* a language is an adverb in **-iškai**, never a declined noun: *lietuviškai*.",
+      "rulesTested": [
+        "adverbs-iskai"
+      ],
+      "vocabUsed": [
+        "kalbėti",
+        "lietuviškai"
+      ]
     },
     {
       "id": "a117-q3",
       "type": "single",
       "difficulty": "easy",
-      "stem": "What is the comparative of **mažas**?",
-      "options": ["mažiausias", "mažesnis", "mažai", "mažiau"],
+      "stem": "Comparative of **mažas**:",
+      "options": [
+        "mažiausias",
+        "mažesnis",
+        "mažai",
+        "mažiau"
+      ],
       "correct": 1,
-      "explanation": "The comparative of an adjective is **-esnis**: *mažesnis*. *mažiausias* is the superlative, and *mažai / mažiau* are adverbs.",
-      "rulesTested": ["adjective-comparative"],
-      "vocabUsed": ["mažas", "mažai"]
+      "explanation": "Adjective comparative **-esnis**: *mažesnis*. *mažiausias* is superlative; *mažai/mažiau* are adverbs.",
+      "rulesTested": [
+        "adjective-comparative"
+      ],
+      "vocabUsed": [
+        "mažas",
+        "mažai"
+      ]
     },
     {
       "id": "a117-q4",
       "type": "single",
       "difficulty": "medium",
-      "stem": "Why is the superlative of **greitas** *greičiausias* and not *greitiausias*?",
+      "stem": "Why *greičiausias*, not *greitiausias*?",
       "options": [
-        "Because *greitas* is irregular.",
-        "Because the ending begins with a back vowel, before which t softens to č.",
+        "Because *greitas* is irregular like *geras*.",
+        "Because *-iausias* begins with a back vowel, before which *t* softens to *č*.",
         "Because superlatives never keep the stem consonant.",
         "Because it is feminine."
       ],
       "correct": 1,
-      "explanation": "The same softening met in the genitive (*savaitė → savaičių*) and in the past (*skaitė → skaičiau*). It is a rule of sound, not a peculiarity of this word.",
-      "rulesTested": ["adjective-superlative", "past-e-type"],
-      "vocabUsed": ["greitas"]
+      "explanation": "The same softening as in genitive plurals and past *-iau* forms. Sound rule, not a lexical quirk — except that *geriausias* uses a different stem from *geras*.",
+      "rulesTested": [
+        "adjective-superlative",
+        "past-e-type"
+      ],
+      "vocabUsed": [
+        "greitas",
+        "geras"
+      ]
     },
     {
       "id": "a117-q5",
       "type": "single",
       "difficulty": "medium",
-      "stem": "Complete: **Kalbėkite ____, prašom.** (Speak more slowly, please.)",
-      "options": ["lėtas", "lėtai", "lėčiau", "lėčiausiai"],
+      "stem": "Complete: **Kalbėkite ____, prašom.** (Speak more slowly.)",
+      "options": [
+        "lėtas",
+        "lėtai",
+        "lėčiau",
+        "lėčiausiai"
+      ],
       "correct": 2,
-      "explanation": "The comparative of an adverb is **-iau**, with the t softening: *lėčiau*. *lėtai* would be merely *slowly*, and *lėčiausiai* *most slowly of all*.",
-      "rulesTested": ["adverb-degree", "imperative-formation"],
-      "vocabUsed": ["kalbėti", "lėtas", "lėtai", "prašom"]
+      "explanation": "Adverb comparative **-iau** with *t→č*: *lėčiau*. *lėtai* is the plain degree; *lėčiausiai* the superlative.",
+      "rulesTested": [
+        "adverb-degree",
+        "imperative-formation"
+      ],
+      "vocabUsed": [
+        "kalbėti",
+        "lėtas",
+        "lėtai",
+        "prašom"
+      ]
     },
     {
       "id": "a117-q6",
       "type": "multi",
       "difficulty": "medium",
-      "stem": "Which of these are **correct**?",
+      "stem": "Which comparisons are correctly formed?",
       "options": [
         "Jis didesnis negu aš.",
         "Jis didesnis už mane.",
         "Jis didesnis negu manęs.",
         "Jis didesnis už aš."
       ],
-      "correct": [0, 1],
-      "explanation": "After **negu** the second term matches the case of the first, so the nominative *aš*. After **už** it stands in the accusative, so *mane*. The third and fourth mix the two constructions.",
-      "rulesTested": ["comparison-negu", "adjective-comparative", "pronouns-cases"],
-      "vocabUsed": ["jis", "didelis", "negu", "aš", "už", "mane", "manęs"]
+      "correct": [
+        0,
+        1
+      ],
+      "explanation": "After **negu** the second term matches the first (*aš* nominative). After **už** it is accusative (*mane*). Mixing the constructions is the usual error.",
+      "rulesTested": [
+        "comparison-negu",
+        "adjective-comparative",
+        "pronouns-cases"
+      ],
+      "vocabUsed": [
+        "jis",
+        "didelis",
+        "negu",
+        "aš",
+        "už",
+        "mane",
+        "manęs"
+      ]
     },
     {
       "id": "a117-q7",
       "type": "single",
       "difficulty": "medium",
       "stem": "Complete: **Turiu mažai ____.** (I have little time.)",
-      "options": ["laikas", "laiką", "laiko", "laikui"],
+      "options": [
+        "laikas",
+        "laiką",
+        "laiko",
+        "laikui"
+      ],
       "correct": 2,
-      "explanation": "An adverb of quantity governs the genitive, exactly as a word of measure does (¶32): *mažai laiko*.",
-      "rulesTested": ["adverb-kinds", "genitive-quantity"],
-      "vocabUsed": ["turėti", "mažai", "laikas"]
+      "explanation": "Quantity adverbs govern the genitive: *mažai laiko* — the same rule as numerals of measure (¶32).",
+      "rulesTested": [
+        "adverb-kinds",
+        "genitive-quantity"
+      ],
+      "vocabUsed": [
+        "turėti",
+        "mažai",
+        "laikas"
+      ]
     },
     {
       "id": "a117-q8",
@@ -296,55 +758,155 @@
       "stem": "Which statements are correct?",
       "options": [
         "An adverb has no gender, number or case.",
-        "Lithuanian chooses between *-esnis* and a word meaning *more*, as English chooses between *-er* and *more*.",
+        "Lithuanian chooses between *-esnis* and a separate *more*, as English chooses *-er* / *more*.",
         "*geriausias* is built on a different stem from *geras*.",
-        "The comparative of an adjective still agrees with its noun."
+        "A comparative adjective still agrees with its noun."
       ],
-      "correct": [0, 2, 3],
-      "explanation": "There is no choice of construction: every Lithuanian adjective, however long, forms its comparative in *-esnis*. The comparative remains an adjective and goes on agreeing.",
-      "rulesTested": ["adverb-formation", "adjective-comparative", "adjective-superlative"],
-      "vocabUsed": ["geras"]
+      "correct": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "Every adjective forms its comparative in *-esnis*; there is no *more* construction. The comparative remains an agreeing adjective.",
+      "rulesTested": [
+        "adverb-formation",
+        "adjective-comparative",
+        "adjective-superlative"
+      ],
+      "vocabUsed": [
+        "geras"
+      ]
     },
     {
       "id": "a117-q9",
       "type": "single",
       "difficulty": "hard",
-      "stem": "**Vilnius yra didžiausias Lietuvos miestas.** Why is *Lietuvos* genitive?",
+      "stem": "**Vilnius yra didžiausias Lietuvos miestas.** Why genitive *Lietuvos*?",
       "options": [
         "Because superlatives govern the genitive.",
-        "Because Lithuanian says *Lithuania's biggest city* where English says *the biggest city in Lithuania*.",
+        "Because Lithuanian says *Lithuania's biggest city* where English says *in Lithuania*.",
         "Because *miestas* is negated.",
         "Because *didžiausias* is an adverb."
       ],
       "correct": 1,
-      "explanation": "The genitive of possession (¶29) does the work of the English *in*. The superlative governs nothing; it is an ordinary adjective agreeing with *miestas*.",
-      "rulesTested": ["adjective-superlative", "genitive-possession"],
-      "vocabUsed": ["Vilnius", "būti", "didelis", "Lietuva", "miestas"]
+      "explanation": "Possessive genitive (¶29) does the work of English *in*. The superlative governs nothing; it agrees with *miestas*.",
+      "rulesTested": [
+        "adjective-superlative",
+        "genitive-possession"
+      ],
+      "vocabUsed": [
+        "Vilnius",
+        "būti",
+        "didelis",
+        "Lietuva",
+        "miestas"
+      ]
     },
     {
       "id": "a117-q10",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**Ši knyga įdomesnė už mane.** What case is *mane*, and why?",
+      "options": [
+        "Nominative, matching *ši knyga*.",
+        "Accusative after *už* in the *than* construction.",
+        "Genitive after *už* meaning *behind*.",
+        "Dative, because comparisons need a recipient."
+      ],
+      "correct": 1,
+      "explanation": "¶119: *už* + accusative = *than*. The same preposition with the genitive means *behind*. With *negu* one would say *negu aš*, matching nominative.",
+      "rulesTested": [
+        "comparison-negu",
+        "pronouns-cases"
+      ],
+      "vocabUsed": [
+        "šis",
+        "knyga",
+        "įdomus",
+        "už",
+        "mane",
+        "aš",
+        "negu"
+      ]
+    },
+    {
+      "id": "a117-q11",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Classify correctly — which are **adverbs** (any degree)?",
+      "options": [
+        "geriau",
+        "greičiau",
+        "arčiau",
+        "brangesnis"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "*-iau* forms are unchanging adverbs. *brangesnis* is an agreeing comparative **adjective**.",
+      "rulesTested": [
+        "adverb-degree",
+        "adjective-comparative"
+      ],
+      "vocabUsed": [
+        "gerai",
+        "greitai",
+        "arti",
+        "brangus"
+      ]
+    },
+    {
+      "id": "a117-q12",
       "type": "integer",
       "difficulty": "hard",
-      "stem": "Into how many groups does ¶120 divide the adverbs?",
+      "stem": "How many **semantic kinds** of adverb are recognised at this level?",
       "answer": 5,
-      "unit": "groups",
-      "explanation": "Five: place, direction, time, manner and quantity. Only the fourth is regularly made from adjectives; the rest are words in their own right, and those of quantity govern the genitive as numerals do.",
-      "rulesTested": ["adverb-kinds", "adverb-formation"],
+      "unit": "kinds",
+      "explanation": "Five: place, direction, time, manner, and quantity. Only manner is regularly built from adjectives.",
+      "rulesTested": [
+        "adverb-kinds",
+        "adverb-formation"
+      ],
       "vocabUsed": []
+    },
+    {
+      "id": "a117-q13",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "In **Turiu truputį laiko ir mažai pinigų**, how many genitive nouns are there?",
+      "answer": 2,
+      "unit": "nouns",
+      "explanation": "*laiko* and *pinigų* — each after a quantity adverb. The adverbs themselves do not decline.",
+      "rulesTested": [
+        "adverb-kinds",
+        "genitive-quantity"
+      ],
+      "vocabUsed": [
+        "turėti",
+        "truputį",
+        "laikas",
+        "ir",
+        "mažai",
+        "pinigai"
+      ]
     },
     {
       "id": "a117-p1",
       "type": "comprehension",
-      "difficulty": "medium",
+      "difficulty": "hard",
       "title": "Kuris butas geresnis?",
-      "passage": "Rūta ieško buto. Pirmas butas yra centre. Jis didesnis ir gražesnis, bet daug brangesnis. Antras butas mažesnis ir pigesnis, o iki darbo eiti tik dešimt minučių — jis arčiau negu pirmas. „Manau, kad antras geriau“, — sako Rūta. „Turiu mažai pinigų, todėl brangiausio buto nepirksiu.“ Draugė sako: „Eik greičiau, kitaip jį nupirks kitas žmogus.“",
-      "translation": "Rūta is looking for a flat. The first flat is in the centre. It is bigger and more beautiful, but much more expensive. The second flat is smaller and cheaper, and it is only ten minutes' walk to work — it is nearer than the first. \"I think the second is better,\" says Rūta. \"I have little money, so I shall not buy the most expensive flat.\" Her friend says: \"Go quicker, or somebody else will buy it.\"",
+      "passage": "Rūta ieško buto. Pirmas butas yra centre. Jis didesnis ir gražesnis, bet daug brangesnis. Antras butas mažesnis ir pigesnis, o iki darbo eiti tik dešimt minučių — jis arčiau negu pirmas. „Manau, kad antras geriau“, — sako Rūta. „Turiu mažai pinigų, todėl brangiausio buto nepirksiu.“ Draugė sako: „Eik greičiau, kitaip jį nupirks kitas žmogus. Kalbėk lietuviškai su agentu — jis supranta geriausiai.“",
+      "translation": "Rūta is looking for a flat. The first flat is in the centre. It is bigger and more beautiful, but much more expensive. The second flat is smaller and cheaper, and it is only ten minutes' walk to work — it is nearer than the first. \"I think the second is better,\" says Rūta. \"I have little money, so I shall not buy the most expensive flat.\" Her friend says: \"Go quicker, or somebody else will buy it. Speak Lithuanian with the agent — he understands best.\"",
       "glossary": {
         "ieško": "is looking for (ieškoti, + gen.)",
         "centre": "in the centre (centras)",
         "tik": "only",
         "kitaip": "otherwise",
-        "nupirks": "will buy (nupirkti)"
+        "nupirks": "will buy (nupirkti)",
+        "agentas": "estate agent",
+        "butas": "flat"
       },
       "questions": [
         {
@@ -352,34 +914,444 @@
           "type": "single",
           "difficulty": "easy",
           "stem": "Kuris butas pigesnis?",
-          "options": ["pirmas", "antras", "abu vienodi", "brangiausias"],
+          "options": [
+            "pirmas",
+            "antras",
+            "abu vienodi",
+            "brangiausias"
+          ],
           "correct": 1,
-          "explanation": "*Antras butas mažesnis ir pigesnis.* The comparatives agree with *butas* in the masculine nominative, as ordinary adjectives do.",
-          "rulesTested": ["adjective-comparative", "ordinals"],
-          "vocabUsed": ["pirmas", "antras", "pigus", "brangus"]
+          "explanation": "*Antras butas mažesnis ir pigesnis.* Comparatives agree with *butas* as ordinary adjectives.",
+          "rulesTested": [
+            "adjective-comparative",
+            "ordinals"
+          ],
+          "vocabUsed": [
+            "pirmas",
+            "antras",
+            "pigus",
+            "brangus"
+          ]
         },
         {
           "id": "a117-p1-q2",
           "type": "multi",
           "difficulty": "medium",
-          "stem": "Which words in the passage are **adverbs** in the comparative or superlative degree?",
-          "options": ["geriau", "greičiau", "arčiau", "brangesnis"],
-          "correct": [0, 1, 2],
-          "explanation": "*geriau*, *greičiau* and *arčiau* end in **-iau** and never change; *brangesnis* ends in *-esnis* and is an adjective, agreeing with its noun.",
-          "rulesTested": ["adverb-degree", "adjective-comparative"],
-          "vocabUsed": ["gerai", "greitai", "arti", "brangus"]
+          "stem": "Which words are **adverbs** in comparative or superlative degree?",
+          "options": [
+            "geriau",
+            "greičiau",
+            "arčiau",
+            "brangesnis"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "*geriau, greičiau, arčiau* end in *-iau*. *brangesnis* is an adjective. (*geriausiai* appears later as adverb superlative.)",
+          "rulesTested": [
+            "adverb-degree",
+            "adjective-comparative"
+          ],
+          "vocabUsed": [
+            "gerai",
+            "greitai",
+            "arti",
+            "brangus"
+          ]
         },
         {
           "id": "a117-p1-q3",
+          "type": "single",
+          "difficulty": "hard",
+          "stem": "*Kalbėk lietuviškai* — why not *lietuvių kalbą*?",
+          "options": [
+            "Because the imperative forbids nouns.",
+            "Because *kalbėti* takes the language as an *-iškai* adverb, not a noun object.",
+            "Because *lietuvių* is only genitive plural of people.",
+            "Because *lietuviškai* is the comparative of *lietuvis*."
+          ],
+          "correct": 1,
+          "explanation": "¶115: *kalbėti lietuviškai* is adverb throughout. *mokausi lietuvių kalbos* uses the noun for the language as a study subject.",
+          "rulesTested": [
+            "adverbs-iskai",
+            "imperative-formation"
+          ],
+          "vocabUsed": [
+            "kalbėti",
+            "lietuviškai"
+          ]
+        },
+        {
+          "id": "a117-p1-q4",
           "type": "integer",
           "difficulty": "hard",
-          "stem": "How many minutes does it take Rūta to walk to work from the second flat?",
+          "stem": "How many minutes to walk to work from the second flat?",
           "answer": 10,
           "unit": "minutes",
-          "explanation": "*tik dešimt minučių* — ten. *dešimt* fixes the noun in the genitive plural (¶80), and *t* softens to *č* before the ending, as it does before every back vowel in the language.",
-          "rulesTested": ["cardinals-ten-up", "plural-genitive"],
-          "vocabUsed": ["dešimt", "minutė"]
+          "explanation": "*tik dešimt minučių* — *dešimt* fixes genitive plural (¶80).",
+          "rulesTested": [
+            "cardinals-ten-up",
+            "plural-genitive"
+          ],
+          "vocabUsed": [
+            "dešimt",
+            "minutė"
+          ]
+        },
+        {
+          "id": "a117-p1-q5",
+          "type": "multi",
+          "difficulty": "hard",
+          "stem": "Which claims about *brangiausio buto nepirksiu* are true?",
+          "options": [
+            "*brangiausio* is a superlative adjective in the genitive.",
+            "The genitive is required by negation of *pirkti*.",
+            "*brangiausio* is an adverb in *-iausiai*.",
+            "*negu* could replace the genitive here."
+          ],
+          "correct": [
+            0,
+            1
+          ],
+          "explanation": "Superlative adjective agreeing in genitive under negation. It is not an adverb; *negu* is for comparisons, not for negated objects.",
+          "rulesTested": [
+            "adjective-superlative",
+            "negation-genitive"
+          ],
+          "vocabUsed": [
+            "brangus",
+            "pirkti",
+            "negu"
+          ]
         }
+      ]
+    },
+    {
+      "id": "a117-x1",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Adverb from **greitas**:",
+      "options": [
+        "greitai",
+        "greitasai",
+        "greičiau",
+        "greit"
+      ],
+      "correct": 0,
+      "explanation": "Masculine **-as** → adverb **-ai**: *greitai*.",
+      "rulesTested": [
+        "adverb-formation"
+      ],
+      "vocabUsed": [
+        "greitas",
+        "greitai"
+      ]
+    },
+    {
+      "id": "a117-x2",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete: **Aš kalbu ____.** (I speak English.)",
+      "options": [
+        "anglų",
+        "angliškai",
+        "angliškas",
+        "anglų kalba"
+      ],
+      "correct": 1,
+      "explanation": "Language manner uses **-iškai**: *angliškai*.",
+      "rulesTested": [
+        "adverbs-iskai"
+      ],
+      "vocabUsed": [
+        "aš",
+        "kalbėti",
+        "angliškai"
+      ]
+    },
+    {
+      "id": "a117-x3",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Comparative of **pigus** (masc. nom. sg.):",
+      "options": [
+        "pigiausias",
+        "pigesnis",
+        "pigiau",
+        "pigusnis"
+      ],
+      "correct": 1,
+      "explanation": "Adjective comparative: **-esnis/-esnė**. *Pigiau* is the adverb.",
+      "rulesTested": [
+        "adjective-comparative"
+      ],
+      "vocabUsed": [
+        "pigus"
+      ]
+    },
+    {
+      "id": "a117-x4",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Superlative of **brangus** (masc.):",
+      "options": [
+        "brangesnis",
+        "brangiausiai",
+        "brangiausias",
+        "brangusis"
+      ],
+      "correct": 2,
+      "explanation": "Superlative **-iausias**: *brangiausias*.",
+      "rulesTested": [
+        "adjective-superlative"
+      ],
+      "vocabUsed": [
+        "brangus"
+      ]
+    },
+    {
+      "id": "a117-x5",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Važiuokite ____.** (Go more quickly.)",
+      "options": [
+        "greitas",
+        "greitai",
+        "greičiau",
+        "greičiausias"
+      ],
+      "correct": 2,
+      "explanation": "Adverb comparative **-iau**: *greičiau* (with *t→č*).",
+      "rulesTested": [
+        "adverb-degree",
+        "imperative-formation"
+      ],
+      "vocabUsed": [
+        "važiuoti",
+        "greitai",
+        "greitas"
+      ]
+    },
+    {
+      "id": "a117-x6",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which comparisons are correctly formed?",
+      "options": [
+        "Jis didesnis negu aš.",
+        "Ši knyga įdomesnė už mane.",
+        "Jis didesnis negu manęs.",
+        "Filmas geresnis negu knyga."
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "**Negu** keeps the same case (*aš*, not *manęs*). **Už** takes accusative (*mane*).",
+      "rulesTested": [
+        "comparison-negu",
+        "adjective-comparative",
+        "pronouns-cases"
+      ],
+      "vocabUsed": [
+        "jis",
+        "didelis",
+        "negu",
+        "aš",
+        "knyga",
+        "įdomus",
+        "už",
+        "mane",
+        "filmas",
+        "geras"
+      ]
+    },
+    {
+      "id": "a117-x7",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Turiu truputį ____.** (a little money)",
+      "options": [
+        "pinigai",
+        "pinigus",
+        "pinigų",
+        "pinigams"
+      ],
+      "correct": 2,
+      "explanation": "Quantity words take a **genitive** complement.",
+      "rulesTested": [
+        "adverb-kinds",
+        "genitive-quantity"
+      ],
+      "vocabUsed": [
+        "turėti",
+        "truputį",
+        "pinigai"
+      ]
+    },
+    {
+      "id": "a117-x8",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which forms are **adverbs** (any degree)?",
+      "options": [
+        "gerai",
+        "geriau",
+        "geresnis",
+        "geriausiai"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "*Geresnis* is an adjective; the others are adverbs.",
+      "rulesTested": [
+        "adverb-formation",
+        "adverb-degree",
+        "adjective-comparative"
+      ],
+      "vocabUsed": [
+        "gerai",
+        "geras"
+      ]
+    },
+    {
+      "id": "a117-x9",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**Ši knyga brangesnė už mane.** Why accusative *mane*?",
+      "options": [
+        "Because *už* always takes genitive.",
+        "Because comparative *už* (*than*) governs the accusative.",
+        "Because *mane* must agree with *knyga*.",
+        "Because comparison requires the locative."
+      ],
+      "correct": 1,
+      "explanation": "Beside *negu*, comparative **už** takes the **accusative**.",
+      "rulesTested": [
+        "comparison-negu",
+        "pronouns-cases"
+      ],
+      "vocabUsed": [
+        "knyga",
+        "brangus",
+        "už",
+        "mane"
+      ]
+    },
+    {
+      "id": "a117-x10",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Why *įdomiausias*, not *įdomesniausias*?",
+      "options": [
+        "Because superlatives never soften consonants.",
+        "Because the superlative is **-iausias** on the stem, not comparative + another suffix.",
+        "Because *įdomus* has no comparative.",
+        "Because only adverbs take *-iausias*."
+      ],
+      "correct": 1,
+      "explanation": "Superlative **-iausias/-iausia** attaches to the adjective stem.",
+      "rulesTested": [
+        "adjective-superlative",
+        "adjective-comparative"
+      ],
+      "vocabUsed": [
+        "įdomus"
+      ]
+    },
+    {
+      "id": "a117-x11",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which statements are correct?",
+      "options": [
+        "*Lietuviškai* is an **-iškai** manner/language adverb.",
+        "*Lėtesnis* is an adjective comparative.",
+        "*Lėčiau* is an adverb comparative.",
+        "*Mažai* still agrees in gender with its noun."
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Adverbs never agree; *mažai* is invariable.",
+      "rulesTested": [
+        "adverbs-iskai",
+        "adjective-comparative",
+        "adverb-degree",
+        "adverb-kinds"
+      ],
+      "vocabUsed": [
+        "lietuviškai",
+        "lėtas",
+        "mažai"
+      ]
+    },
+    {
+      "id": "a117-x12",
+      "type": "integer",
+      "difficulty": "medium",
+      "stem": "How many letters in the adverb from **lėtas** (*lėtai*)?",
+      "answer": 5,
+      "unit": "letters",
+      "explanation": "*Lėtai* has 5 letters.",
+      "rulesTested": [
+        "adverb-formation"
+      ],
+      "vocabUsed": [
+        "lėtas",
+        "lėtai"
+      ]
+    },
+    {
+      "id": "a117-x13",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "In **Turiu mažai laiko, truputį pinigų ir daug darbo**, how many genitive noun complements follow quantity words?",
+      "answer": 3,
+      "unit": "genitives",
+      "explanation": "*Laiko*, *pinigų*, *darbo* — three genitives.",
+      "rulesTested": [
+        "adverb-kinds",
+        "genitive-quantity"
+      ],
+      "vocabUsed": [
+        "turėti",
+        "mažai",
+        "laikas",
+        "truputį",
+        "pinigai",
+        "daug",
+        "darbas"
+      ]
+    },
+    {
+      "id": "a117-x14",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "Count comparative forms in **Šis filmas įdomesnis; kalbėkime greičiau ir lėčiau skaitykime.**",
+      "answer": 3,
+      "unit": "comparatives",
+      "explanation": "*Įdomesnis*, *greičiau*, *lėčiau* — three.",
+      "rulesTested": [
+        "adjective-comparative",
+        "adverb-degree"
+      ],
+      "vocabUsed": [
+        "šis",
+        "filmas",
+        "įdomus",
+        "kalbėti",
+        "greitai",
+        "ir",
+        "lėtai",
+        "skaityti"
       ]
     }
   ]

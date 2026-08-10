@@ -8,38 +8,230 @@
   "script": {
     "heading": "The Lithuanian Alphabet",
     "letters": [
-      { "glyph": "a", "upper": "A", "name": "a", "ipa": "/ɐ/, /aː/", "approx": "short, as in 'cup'; long when stressed, as in 'father'" },
-      { "glyph": "ą", "upper": "Ą", "name": "a nosinė", "ipa": "/aː/", "approx": "always long 'ah'" },
-      { "glyph": "b", "upper": "B", "name": "bė", "ipa": "/b/", "approx": "as in 'bed'" },
-      { "glyph": "c", "upper": "C", "name": "cė", "ipa": "/ts/", "approx": "as in 'cats'" },
-      { "glyph": "č", "upper": "Č", "name": "čė", "ipa": "/tʃ/", "approx": "as in 'church'" },
-      { "glyph": "d", "upper": "D", "name": "dė", "ipa": "/d/", "approx": "as in 'do'" },
-      { "glyph": "e", "upper": "E", "name": "e", "ipa": "/ɛ/, /æː/", "approx": "short, as in 'bet'; long, a broad 'aa' as in 'bad' drawn out" },
-      { "glyph": "ę", "upper": "Ę", "name": "e nosinė", "ipa": "/æː/", "approx": "always the long broad 'aa'" },
-      { "glyph": "ė", "upper": "Ė", "name": "ė", "ipa": "/eː/", "approx": "always a long close 'ay', as in French 'été'" },
-      { "glyph": "f", "upper": "F", "name": "ef", "ipa": "/f/", "approx": "as in 'if'; occurs almost only in loanwords" },
-      { "glyph": "g", "upper": "G", "name": "gė", "ipa": "/ɡ/", "approx": "always hard, as in 'go'" },
-      { "glyph": "h", "upper": "H", "name": "ha", "ipa": "/ɣ/", "approx": "a voiced breath, softer than English 'h'; rare outside loanwords" },
-      { "glyph": "i", "upper": "I", "name": "i trumpoji", "ipa": "/ɪ/", "approx": "short, as in 'sit'" },
-      { "glyph": "į", "upper": "Į", "name": "i nosinė", "ipa": "/iː/", "approx": "always long 'ee'" },
-      { "glyph": "y", "upper": "Y", "name": "i ilgoji", "ipa": "/iː/", "approx": "always long 'ee'; a vowel, never a consonant" },
-      { "glyph": "j", "upper": "J", "name": "jot", "ipa": "/j/", "approx": "as the y in 'yes'" },
-      { "glyph": "k", "upper": "K", "name": "ka", "ipa": "/k/", "approx": "as in 'skin', without the puff of air" },
-      { "glyph": "l", "upper": "L", "name": "el", "ipa": "/ɫ/, /lʲ/", "approx": "dark as in 'full', or soft before i" },
-      { "glyph": "m", "upper": "M", "name": "em", "ipa": "/m/", "approx": "as in 'me'" },
-      { "glyph": "n", "upper": "N", "name": "en", "ipa": "/n/", "approx": "as in 'no'" },
-      { "glyph": "o", "upper": "O", "name": "o", "ipa": "/oː/, /ɔ/", "approx": "long 'oh' in native words; short in loanwords" },
-      { "glyph": "p", "upper": "P", "name": "pė", "ipa": "/p/", "approx": "as in 'spin', without the puff of air" },
-      { "glyph": "r", "upper": "R", "name": "er", "ipa": "/r/", "approx": "trilled with the tip of the tongue, as in Italian" },
-      { "glyph": "s", "upper": "S", "name": "es", "ipa": "/s/", "approx": "always voiceless, as in 'see'" },
-      { "glyph": "š", "upper": "Š", "name": "eš", "ipa": "/ʃ/", "approx": "as in 'she'" },
-      { "glyph": "t", "upper": "T", "name": "tė", "ipa": "/t/", "approx": "as in 'stop', without the puff of air" },
-      { "glyph": "u", "upper": "U", "name": "u", "ipa": "/ʊ/", "approx": "short, as in 'put'" },
-      { "glyph": "ų", "upper": "Ų", "name": "u nosinė", "ipa": "/uː/", "approx": "always long 'oo'" },
-      { "glyph": "ū", "upper": "Ū", "name": "u ilgoji", "ipa": "/uː/", "approx": "always long 'oo'" },
-      { "glyph": "v", "upper": "V", "name": "vė", "ipa": "/ʋ/", "approx": "between English v and w" },
-      { "glyph": "z", "upper": "Z", "name": "zė", "ipa": "/z/", "approx": "as in 'zoo'" },
-      { "glyph": "ž", "upper": "Ž", "name": "žė", "ipa": "/ʒ/", "approx": "as the s in 'measure'" }
+      {
+        "glyph": "a",
+        "upper": "A",
+        "name": "a",
+        "ipa": "/ɐ/, /aː/",
+        "approx": "short, as in 'cup'; long when stressed, as in 'father'"
+      },
+      {
+        "glyph": "ą",
+        "upper": "Ą",
+        "name": "a nosinė",
+        "ipa": "/aː/",
+        "approx": "always long 'ah'"
+      },
+      {
+        "glyph": "b",
+        "upper": "B",
+        "name": "bė",
+        "ipa": "/b/",
+        "approx": "as in 'bed'"
+      },
+      {
+        "glyph": "c",
+        "upper": "C",
+        "name": "cė",
+        "ipa": "/ts/",
+        "approx": "as in 'cats'"
+      },
+      {
+        "glyph": "č",
+        "upper": "Č",
+        "name": "čė",
+        "ipa": "/tʃ/",
+        "approx": "as in 'church'"
+      },
+      {
+        "glyph": "d",
+        "upper": "D",
+        "name": "dė",
+        "ipa": "/d/",
+        "approx": "as in 'do'"
+      },
+      {
+        "glyph": "e",
+        "upper": "E",
+        "name": "e",
+        "ipa": "/ɛ/, /æː/",
+        "approx": "short, as in 'bet'; long, a broad 'aa' as in 'bad' drawn out"
+      },
+      {
+        "glyph": "ę",
+        "upper": "Ę",
+        "name": "e nosinė",
+        "ipa": "/æː/",
+        "approx": "always the long broad 'aa'"
+      },
+      {
+        "glyph": "ė",
+        "upper": "Ė",
+        "name": "ė",
+        "ipa": "/eː/",
+        "approx": "always a long close 'ay', as in French 'été'"
+      },
+      {
+        "glyph": "f",
+        "upper": "F",
+        "name": "ef",
+        "ipa": "/f/",
+        "approx": "as in 'if'; occurs almost only in loanwords"
+      },
+      {
+        "glyph": "g",
+        "upper": "G",
+        "name": "gė",
+        "ipa": "/ɡ/",
+        "approx": "always hard, as in 'go'"
+      },
+      {
+        "glyph": "h",
+        "upper": "H",
+        "name": "ha",
+        "ipa": "/ɣ/",
+        "approx": "a voiced breath, softer than English 'h'; rare outside loanwords"
+      },
+      {
+        "glyph": "i",
+        "upper": "I",
+        "name": "i trumpoji",
+        "ipa": "/ɪ/",
+        "approx": "short, as in 'sit'"
+      },
+      {
+        "glyph": "į",
+        "upper": "Į",
+        "name": "i nosinė",
+        "ipa": "/iː/",
+        "approx": "always long 'ee'"
+      },
+      {
+        "glyph": "y",
+        "upper": "Y",
+        "name": "i ilgoji",
+        "ipa": "/iː/",
+        "approx": "always long 'ee'; a vowel, never a consonant"
+      },
+      {
+        "glyph": "j",
+        "upper": "J",
+        "name": "jot",
+        "ipa": "/j/",
+        "approx": "as the y in 'yes'"
+      },
+      {
+        "glyph": "k",
+        "upper": "K",
+        "name": "ka",
+        "ipa": "/k/",
+        "approx": "as in 'skin', without the puff of air"
+      },
+      {
+        "glyph": "l",
+        "upper": "L",
+        "name": "el",
+        "ipa": "/ɫ/, /lʲ/",
+        "approx": "dark as in 'full', or soft before i"
+      },
+      {
+        "glyph": "m",
+        "upper": "M",
+        "name": "em",
+        "ipa": "/m/",
+        "approx": "as in 'me'"
+      },
+      {
+        "glyph": "n",
+        "upper": "N",
+        "name": "en",
+        "ipa": "/n/",
+        "approx": "as in 'no'"
+      },
+      {
+        "glyph": "o",
+        "upper": "O",
+        "name": "o",
+        "ipa": "/oː/, /ɔ/",
+        "approx": "long 'oh' in native words; short in loanwords"
+      },
+      {
+        "glyph": "p",
+        "upper": "P",
+        "name": "pė",
+        "ipa": "/p/",
+        "approx": "as in 'spin', without the puff of air"
+      },
+      {
+        "glyph": "r",
+        "upper": "R",
+        "name": "er",
+        "ipa": "/r/",
+        "approx": "trilled with the tip of the tongue, as in Italian"
+      },
+      {
+        "glyph": "s",
+        "upper": "S",
+        "name": "es",
+        "ipa": "/s/",
+        "approx": "always voiceless, as in 'see'"
+      },
+      {
+        "glyph": "š",
+        "upper": "Š",
+        "name": "eš",
+        "ipa": "/ʃ/",
+        "approx": "as in 'she'"
+      },
+      {
+        "glyph": "t",
+        "upper": "T",
+        "name": "tė",
+        "ipa": "/t/",
+        "approx": "as in 'stop', without the puff of air"
+      },
+      {
+        "glyph": "u",
+        "upper": "U",
+        "name": "u",
+        "ipa": "/ʊ/",
+        "approx": "short, as in 'put'"
+      },
+      {
+        "glyph": "ų",
+        "upper": "Ų",
+        "name": "u nosinė",
+        "ipa": "/uː/",
+        "approx": "always long 'oo'"
+      },
+      {
+        "glyph": "ū",
+        "upper": "Ū",
+        "name": "u ilgoji",
+        "ipa": "/uː/",
+        "approx": "always long 'oo'"
+      },
+      {
+        "glyph": "v",
+        "upper": "V",
+        "name": "vė",
+        "ipa": "/ʋ/",
+        "approx": "between English v and w"
+      },
+      {
+        "glyph": "z",
+        "upper": "Z",
+        "name": "zė",
+        "ipa": "/z/",
+        "approx": "as in 'zoo'"
+      },
+      {
+        "glyph": "ž",
+        "upper": "Ž",
+        "name": "žė",
+        "ipa": "/ʒ/",
+        "approx": "as the s in 'measure'"
+      }
     ],
     "notes": [
       "The letters q, w and x do not belong to the alphabet. They appear only in untranslated foreign names.",
@@ -53,9 +245,19 @@
       "heading": "The Alphabet",
       "statement": "The Lithuanian alphabet has **thirty-two** letters. It is the Latin alphabet with **q**, **w** and **x** removed, and nine letters added by means of three diacritical marks: the *nosinė* or hook (**ą ę į ų**), the *paukščiukas* or háček (**č š ž**), and the length marks on **ė** and **ū**. A tenth addition, **y**, is written without a diacritic but is nonetheless a distinct letter.",
       "examples": [
-        { "target": "abėcėlė", "gloss": "alphabet", "note": "itself contains three ė" },
-        { "target": "žodis", "gloss": "word" },
-        { "target": "kalba", "gloss": "language" }
+        {
+          "target": "abėcėlė",
+          "gloss": "alphabet",
+          "note": "itself contains three ė"
+        },
+        {
+          "target": "žodis",
+          "gloss": "word"
+        },
+        {
+          "target": "kalba",
+          "gloss": "language"
+        }
       ],
       "footnotes": [
         "The diacritics are not optional ornaments. Dropping the hook from ą or the bar from ū changes the word, and often the grammar: kąsti, to bite, is not kasti, to dig."
@@ -71,20 +273,51 @@
       "paradigms": [
         {
           "caption": "Vowel letters by length",
-          "columns": ["always short", "variable", "always long"],
+          "columns": [
+            "always short",
+            "variable",
+            "always long"
+          ],
           "rows": [
-            { "label": "front", "cells": ["i", "e", "ė, ę, į, y"] },
-            { "label": "back", "cells": ["u", "a, o", "ą, ū, ų"] }
+            {
+              "label": "front",
+              "cells": [
+                "i",
+                "e",
+                "ė, ę, į, y"
+              ]
+            },
+            {
+              "label": "back",
+              "cells": [
+                "u",
+                "a, o",
+                "ą, ū, ų"
+              ]
+            }
           ],
           "footnote": "In loanwords o is short: *toma*, *opera*."
         }
       ],
       "examples": [
-        { "target": "butas", "gloss": "flat, apartment", "note": "short u" },
-        { "target": "būtas", "gloss": "been (participle)", "note": "long ū — a different word entirely" },
-        { "target": "lietus", "gloss": "rain" }
+        {
+          "target": "butas",
+          "gloss": "flat, apartment",
+          "note": "short u"
+        },
+        {
+          "target": "būtas",
+          "gloss": "been (participle)",
+          "note": "long ū — a different word entirely"
+        },
+        {
+          "target": "lietus",
+          "gloss": "rain"
+        }
       ],
-      "seeAlso": ["alphabet"],
+      "seeAlso": [
+        "alphabet"
+      ],
       "core": true
     },
     {
@@ -93,14 +326,27 @@
       "heading": "The Nosinė Letters",
       "statement": "The four letters **ą, ę, į, ų** carry a hook called the *nosinė*, \"the nasal one\". They once marked a nasalised vowel, as the name records; in the modern language the nasality is gone and they are simply **long vowels**. The hook is retained because it marks grammatical endings — the accusative singular of nouns ends in a nosinė vowel — and because it distinguishes otherwise identical words.",
       "examples": [
-        { "target": "ranka → ranką", "gloss": "hand → hand (as object)", "note": "the hook is the whole of the accusative ending" },
-        { "target": "kąsti", "gloss": "to bite" },
-        { "target": "kasti", "gloss": "to dig", "note": "the same letters without the hook" }
+        {
+          "target": "ranka → ranką",
+          "gloss": "hand → hand (as object)",
+          "note": "the hook is the whole of the accusative ending"
+        },
+        {
+          "target": "kąsti",
+          "gloss": "to bite"
+        },
+        {
+          "target": "kasti",
+          "gloss": "to dig",
+          "note": "the same letters without the hook"
+        }
       ],
       "footnotes": [
         "Because the nosinė is a long vowel and nothing more, ų and ū sound alike, as do į and y. Which is written is fixed by grammar and etymology, not by sound."
       ],
-      "seeAlso": ["vowel-length"],
+      "seeAlso": [
+        "vowel-length"
+      ],
       "core": true
     },
     {
@@ -109,11 +355,28 @@
       "heading": "Consonants Differing from English",
       "statement": "Most consonants have their expected values. Six require attention: **c** is always /ts/, never /k/ or /s/; **č** is *ch* as in \"church\"; **š** is *sh*; **ž** is the *s* of \"measure\"; **j** is the *y* of \"yes\", never the *j* of \"jam\"; and **r** is trilled with the tip of the tongue. **p, t, k** are unaspirated: they lack the puff of breath that follows them in English \"pin, tin, kin\".",
       "examples": [
-        { "target": "centas", "gloss": "cent", "note": "TSEN-tas, not SEN-tas" },
-        { "target": "čia", "gloss": "here" },
-        { "target": "šuo", "gloss": "dog" },
-        { "target": "žodis", "gloss": "word" },
-        { "target": "jūra", "gloss": "sea", "note": "YOO-ra" }
+        {
+          "target": "centas",
+          "gloss": "cent",
+          "note": "TSEN-tas, not SEN-tas"
+        },
+        {
+          "target": "čia",
+          "gloss": "here"
+        },
+        {
+          "target": "šuo",
+          "gloss": "dog"
+        },
+        {
+          "target": "žodis",
+          "gloss": "word"
+        },
+        {
+          "target": "jūra",
+          "gloss": "sea",
+          "note": "YOO-ra"
+        }
       ],
       "seeAlso": [],
       "core": true
@@ -124,11 +387,22 @@
       "heading": "The Consonant Digraphs Ch, Dz, Dž",
       "statement": "Three pairs of letters stand for **single consonants**: **ch** is /x/, the *ch* of Scottish \"loch\"; **dz** is /dz/, the voiced counterpart of c; and **dž** is /dʒ/, the *j* of \"jam\". They are not separate letters of the alphabet and are alphabetised as the two letters they are written with.",
       "examples": [
-        { "target": "chemija", "gloss": "chemistry" },
-        { "target": "dzūkas", "gloss": "a Dzūkian, southern Lithuanian" },
-        { "target": "džiaugtis", "gloss": "to rejoice" }
+        {
+          "target": "chemija",
+          "gloss": "chemistry"
+        },
+        {
+          "target": "dzūkas",
+          "gloss": "a Dzūkian, southern Lithuanian"
+        },
+        {
+          "target": "džiaugtis",
+          "gloss": "to rejoice"
+        }
       ],
-      "seeAlso": ["consonants"],
+      "seeAlso": [
+        "consonants"
+      ],
       "core": true
     },
     {
@@ -137,14 +411,28 @@
       "heading": "The Softening I",
       "statement": "Before the back vowels **a, ą, o, u, ų, ū** an **i** is written that is **not pronounced as a vowel**. Its office is to mark the preceding consonant as *soft* (palatalised), the consonant being pronounced with the tongue raised towards the palate, much as in English \"onion\" or \"million\". Reading such an i as a full vowel is the commonest mistake a beginner makes.",
       "examples": [
-        { "target": "siūlas", "gloss": "thread", "note": "SYOO-las, two syllables, not si-ū-las" },
-        { "target": "šiaurė", "gloss": "north", "note": "the i softens š; the vowel is the diphthong au" },
-        { "target": "žiema", "gloss": "winter", "note": "the i softens ž; the vowel is e" }
+        {
+          "target": "siūlas",
+          "gloss": "thread",
+          "note": "SYOO-las, two syllables, not si-ū-las"
+        },
+        {
+          "target": "šiaurė",
+          "gloss": "north",
+          "note": "the i softens š; the vowel is the diphthong au"
+        },
+        {
+          "target": "žiema",
+          "gloss": "winter",
+          "note": "the i softens ž; the vowel is e"
+        }
       ],
       "footnotes": [
         "Before the front vowels e, ė, ę, i, į, y a consonant is soft automatically, and no i is written."
       ],
-      "seeAlso": ["consonants"],
+      "seeAlso": [
+        "consonants"
+      ],
       "core": true
     },
     {
@@ -155,22 +443,78 @@
       "paradigms": [
         {
           "caption": "Diphthongs",
-          "columns": ["written", "value", "example"],
+          "columns": [
+            "written",
+            "value",
+            "example"
+          ],
           "rows": [
-            { "label": "ai", "cells": ["/ɐɪ/", "as in 'eye'", "laikas — time"] },
-            { "label": "au", "cells": ["/ɐʊ/", "as in 'how'", "auksas — gold"] },
-            { "label": "ei", "cells": ["/ɛɪ/", "as in 'day'", "eiti — to go"] },
-            { "label": "ie", "cells": ["/iɛ/", "no English equivalent", "diena — day"] },
-            { "label": "ui", "cells": ["/ʊɪ/", "as in 'gooey', quickly", "puikus — splendid"] },
-            { "label": "uo", "cells": ["/ʊɔ/", "no English equivalent", "duona — bread"] }
+            {
+              "label": "ai",
+              "cells": [
+                "/ɐɪ/",
+                "as in 'eye'",
+                "laikas — time"
+              ]
+            },
+            {
+              "label": "au",
+              "cells": [
+                "/ɐʊ/",
+                "as in 'how'",
+                "auksas — gold"
+              ]
+            },
+            {
+              "label": "ei",
+              "cells": [
+                "/ɛɪ/",
+                "as in 'day'",
+                "eiti — to go"
+              ]
+            },
+            {
+              "label": "ie",
+              "cells": [
+                "/iɛ/",
+                "no English equivalent",
+                "diena — day"
+              ]
+            },
+            {
+              "label": "ui",
+              "cells": [
+                "/ʊɪ/",
+                "as in 'gooey', quickly",
+                "puikus — splendid"
+              ]
+            },
+            {
+              "label": "uo",
+              "cells": [
+                "/ʊɔ/",
+                "no English equivalent",
+                "duona — bread"
+              ]
+            }
           ]
         }
       ],
       "examples": [
-        { "target": "namai", "gloss": "home, house (pl.)" },
-        { "target": "duona", "gloss": "bread", "note": "two syllables: duo-na" }
+        {
+          "target": "namai",
+          "gloss": "home, house (pl.)"
+        },
+        {
+          "target": "duona",
+          "gloss": "bread",
+          "note": "two syllables: duo-na"
+        }
       ],
-      "seeAlso": ["vowel-length", "soft-i"],
+      "seeAlso": [
+        "vowel-length",
+        "soft-i"
+      ],
       "core": true
     },
     {
@@ -179,10 +523,21 @@
       "heading": "Spelling and Pronunciation",
       "statement": "Lithuanian spelling is very nearly phonemic: every letter written is pronounced, no letter is silent, and one letter stands for one sound. The exceptions are the softening **i** of ¶6, the three digraphs of ¶5, and the assimilation of voice in consonant clusters, whereby a consonant takes the voicing of the one following it.",
       "examples": [
-        { "target": "dirbti", "gloss": "to work", "note": "pronounced *dirpti*: b takes the voicelessness of t" },
-        { "target": "aukštas", "gloss": "tall, high", "note": "every letter sounded" }
+        {
+          "target": "dirbti",
+          "gloss": "to work",
+          "note": "pronounced *dirpti*: b takes the voicelessness of t"
+        },
+        {
+          "target": "aukštas",
+          "gloss": "tall, high",
+          "note": "every letter sounded"
+        }
       ],
-      "seeAlso": ["soft-i", "digraphs"],
+      "seeAlso": [
+        "soft-i",
+        "digraphs"
+      ],
       "core": false
     },
     {
@@ -191,32 +546,160 @@
       "heading": "Stress",
       "statement": "Stress in Lithuanian is **free** — it may fall on any syllable of a word — and **mobile** — it may move from one syllable to another as the word is inflected. It is therefore not predictable from the spelling and must be learned with each word. In ordinary writing it is **not marked at all**; the accent marks are used only in dictionaries, grammars and schoolbooks. This course marks stress in vocabulary lists and omits it in reading passages, as printed Lithuanian does.",
       "examples": [
-        { "target": "kalba", "gloss": "language", "note": "stressed on the first syllable" },
-        { "target": "namas → namai", "gloss": "house → houses", "note": "the stress moves to the ending in the plural" }
+        {
+          "target": "kalba",
+          "gloss": "language",
+          "note": "stressed on the first syllable"
+        },
+        {
+          "target": "namas → namai",
+          "gloss": "house → houses",
+          "note": "the stress moves to the ending in the plural"
+        }
       ],
       "footnotes": [
         "Three marks are used when stress is shown: the grave ` on short stressed vowels, and the acute ´ and tilde ˜ on long ones, which distinguish two tones. Tone is taken up at C1; for now, note only the position of the stress."
       ],
-      "seeAlso": ["vowel-length"],
+      "seeAlso": [
+        "vowel-length"
+      ],
       "core": true
     }
   ],
   "vocabulary": [
-    { "lemma": "abėcėlė", "gloss": "alphabet", "pos": "noun", "forms": { "nom": "abėcėlė", "gen": "abėcėlės", "gender": "f." } },
-    { "lemma": "raidė", "gloss": "letter (of the alphabet)", "pos": "noun", "forms": { "nom": "raidė", "gen": "raidės", "gender": "f." } },
-    { "lemma": "garsas", "gloss": "sound", "pos": "noun", "forms": { "nom": "garsas", "gen": "garso", "gender": "m." } },
-    { "lemma": "balsis", "gloss": "vowel", "pos": "noun", "forms": { "nom": "balsis", "gen": "balsio", "gender": "m." } },
-    { "lemma": "priebalsis", "gloss": "consonant", "pos": "noun", "forms": { "nom": "priebalsis", "gen": "priebalsio", "gender": "m." } },
-    { "lemma": "žodis", "gloss": "word", "pos": "noun", "forms": { "nom": "žodis", "gen": "žodžio", "gender": "m." } },
-    { "lemma": "kalba", "gloss": "language, speech", "pos": "noun", "forms": { "nom": "kalba", "gen": "kalbos", "gender": "f." } },
-    { "lemma": "kirtis", "gloss": "stress, accent", "pos": "noun", "forms": { "nom": "kirtis", "gen": "kirčio", "gender": "m." } },
-    { "lemma": "skiemuo", "gloss": "syllable", "pos": "noun", "forms": { "nom": "skiemuo", "gen": "skiemens", "gender": "m." } },
-    { "lemma": "ilgas", "gloss": "long", "pos": "adjective", "forms": { "masc": "ilgas", "fem": "ilga" } },
-    { "lemma": "trumpas", "gloss": "short", "pos": "adjective", "forms": { "masc": "trumpas", "fem": "trumpa" } },
-    { "lemma": "labas", "gloss": "hello", "pos": "interjection", "forms": {} },
-    { "lemma": "ačiū", "gloss": "thank you", "pos": "interjection", "forms": {}, "notes": "Pronounced AH-choo: the i softens č and is not a vowel." },
-    { "lemma": "taip", "gloss": "yes", "pos": "particle", "forms": {} },
-    { "lemma": "ne", "gloss": "no, not", "pos": "particle", "forms": {} }
+    {
+      "lemma": "abėcėlė",
+      "gloss": "alphabet",
+      "pos": "noun",
+      "forms": {
+        "nom": "abėcėlė",
+        "gen": "abėcėlės",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "raidė",
+      "gloss": "letter (of the alphabet)",
+      "pos": "noun",
+      "forms": {
+        "nom": "raidė",
+        "gen": "raidės",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "garsas",
+      "gloss": "sound",
+      "pos": "noun",
+      "forms": {
+        "nom": "garsas",
+        "gen": "garso",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "balsis",
+      "gloss": "vowel",
+      "pos": "noun",
+      "forms": {
+        "nom": "balsis",
+        "gen": "balsio",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "priebalsis",
+      "gloss": "consonant",
+      "pos": "noun",
+      "forms": {
+        "nom": "priebalsis",
+        "gen": "priebalsio",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "žodis",
+      "gloss": "word",
+      "pos": "noun",
+      "forms": {
+        "nom": "žodis",
+        "gen": "žodžio",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "kalba",
+      "gloss": "language, speech",
+      "pos": "noun",
+      "forms": {
+        "nom": "kalba",
+        "gen": "kalbos",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "kirtis",
+      "gloss": "stress, accent",
+      "pos": "noun",
+      "forms": {
+        "nom": "kirtis",
+        "gen": "kirčio",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "skiemuo",
+      "gloss": "syllable",
+      "pos": "noun",
+      "forms": {
+        "nom": "skiemuo",
+        "gen": "skiemens",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "ilgas",
+      "gloss": "long",
+      "pos": "adjective",
+      "forms": {
+        "masc": "ilgas",
+        "fem": "ilga"
+      }
+    },
+    {
+      "lemma": "trumpas",
+      "gloss": "short",
+      "pos": "adjective",
+      "forms": {
+        "masc": "trumpas",
+        "fem": "trumpa"
+      }
+    },
+    {
+      "lemma": "labas",
+      "gloss": "hello",
+      "pos": "interjection",
+      "forms": {}
+    },
+    {
+      "lemma": "ačiū",
+      "gloss": "thank you",
+      "pos": "interjection",
+      "forms": {},
+      "notes": "Pronounced AH-choo: the i softens č and is not a vowel."
+    },
+    {
+      "lemma": "taip",
+      "gloss": "yes",
+      "pos": "particle",
+      "forms": {}
+    },
+    {
+      "lemma": "ne",
+      "gloss": "no, not",
+      "pos": "particle",
+      "forms": {}
+    }
   ],
   "drills": [
     {
@@ -226,112 +709,185 @@
       "stem": "How many letters are there in the Lithuanian alphabet?",
       "answer": 32,
       "unit": "letters",
-      "explanation": "Thirty-two: the Latin alphabet without q, w and x, with ą ę į ų, č š ž, ė ū and y added.",
-      "rulesTested": ["alphabet"],
-      "vocabUsed": ["abėcėlė", "raidė"]
+      "explanation": "Thirty-two: Latin without q, w, x, plus ą ę į ų, č š ž, ė ū and y (¶1). Tempting 26 counts only the English alphabet; 29 forgets the three háček letters or the nosinė set.",
+      "rulesTested": [
+        "alphabet"
+      ],
+      "vocabUsed": [
+        "abėcėlė",
+        "raidė"
+      ]
     },
     {
       "id": "a101-q2",
       "type": "single",
       "difficulty": "easy",
-      "stem": "Which of these letters does **not** belong to the Lithuanian alphabet?",
-      "options": ["ų", "w", "š", "ė"],
+      "stem": "Which letter does **not** belong to the Lithuanian alphabet?",
+      "options": [
+        "ų",
+        "w",
+        "š",
+        "ė"
+      ],
       "correct": 1,
-      "explanation": "q, w and x were left out of the alphabet and appear only in untranslated foreign names.",
-      "rulesTested": ["alphabet"],
+      "explanation": "q, w and x were left out and appear only in untranslated foreign names (¶1). ų, š and ė are all native letters formed with diacritics.",
+      "rulesTested": [
+        "alphabet"
+      ],
       "vocabUsed": []
     },
     {
       "id": "a101-q3",
       "type": "single",
-      "difficulty": "easy",
-      "stem": "The letter **ė** is pronounced:",
+      "difficulty": "medium",
+      "stem": "The letter **ę** is pronounced:",
       "options": [
         "as a short e, like English 'bet'",
-        "as a long close vowel, like the é of French 'été'",
+        "as a long close vowel, like French 'été'",
         "as a long broad vowel, like a drawn-out 'bad'",
-        "as the y of 'yes'"
+        "identically to ė in every position"
       ],
-      "correct": 1,
-      "explanation": "ė is always long and close. The long broad vowel is ę; the short e is plain e.",
-      "rulesTested": ["vowel-length"],
-      "vocabUsed": ["raidė"]
+      "correct": 2,
+      "explanation": "ę is always the long broad /æː/. The close long vowel is ė; short e is plain e; ę and ė are different letters and different sounds (¶2–¶3).",
+      "rulesTested": [
+        "vowel-length",
+        "nosine"
+      ],
+      "vocabUsed": [
+        "raidė",
+        "balsis"
+      ]
     },
     {
       "id": "a101-q4",
       "type": "multi",
       "difficulty": "medium",
-      "stem": "Which of the following letters represent a **long** vowel in every word they occur in?",
-      "options": ["ą", "i", "ū", "a"],
-      "correct": [0, 2],
-      "explanation": "ą and ū are fixed long. i is always short; a varies, being long only when stressed.",
-      "rulesTested": ["vowel-length", "nosine"],
-      "vocabUsed": ["ilgas", "trumpas"]
+      "stem": "Which letters represent a **long** vowel in every word they occur in?",
+      "options": [
+        "ą",
+        "i",
+        "ū",
+        "a"
+      ],
+      "correct": [
+        0,
+        2
+      ],
+      "explanation": "ą and ū are fixed long (¶2–¶3). i is always short; a is variable — long only when stressed. Choosing a is the classic trap of confusing \"can be long\" with \"always long\".",
+      "rulesTested": [
+        "vowel-length",
+        "nosine"
+      ],
+      "vocabUsed": [
+        "ilgas",
+        "trumpas"
+      ]
     },
     {
       "id": "a101-q5",
       "type": "single",
       "difficulty": "medium",
-      "stem": "*butas* means \"flat, apartment\" and *būtas* is a participle meaning \"been\". What distinguishes them?",
+      "stem": "*butas* \"apartment\" vs *būtas* \"been\". What alone distinguishes them in speech?",
       "options": [
         "the position of the stress",
-        "the length of the vowel u",
-        "the softness of the preceding b",
-        "nothing — they are pronounced identically"
+        "the length of the vowel written u / ū",
+        "softness of the preceding b",
+        "nothing — they are homophones"
       ],
       "correct": 1,
-      "explanation": "u is always short and ū always long. Vowel length alone separates the two words, which is why the length marks may never be dropped.",
-      "rulesTested": ["vowel-length"],
-      "vocabUsed": ["ilgas", "trumpas", "žodis"]
+      "explanation": "u is always short and ū always long (¶2). Length alone separates the words; stress position and soft-i are red herrings here.",
+      "rulesTested": [
+        "vowel-length"
+      ],
+      "vocabUsed": [
+        "ilgas",
+        "trumpas",
+        "žodis"
+      ]
     },
     {
       "id": "a101-q6",
       "type": "single",
       "difficulty": "medium",
-      "stem": "In the word *siūlas* (\"thread\"), what is the function of the letter **i**?",
+      "stem": "In *ačiū* (\"thank you\"), what is the letter **i** doing?",
       "options": [
-        "It forms a diphthong with ū.",
-        "It marks the preceding s as soft, and is not itself a vowel.",
-        "It carries the stress of the word.",
-        "It is silent and merely historical."
+        "It forms a diphthong iu with ū.",
+        "It softens č and is not itself a pronounced vowel.",
+        "It is a separate syllable: a-či-ū.",
+        "It is silent historical spelling with no phonetic effect."
       ],
       "correct": 1,
-      "explanation": "Before a back vowel, a written i palatalises the consonant before it and is not pronounced separately. *siūlas* has two syllables, not three.",
-      "rulesTested": ["soft-i"],
-      "vocabUsed": ["skiemuo"]
+      "explanation": "Before a back vowel, written i only marks soft č; the word has two syllables, AH-choo (¶6). Reading i as a full vowel (three syllables) is the beginner's most common soft-i error.",
+      "rulesTested": [
+        "soft-i"
+      ],
+      "vocabUsed": [
+        "ačiū",
+        "skiemuo"
+      ]
     },
     {
       "id": "a101-q7",
       "type": "multi",
       "difficulty": "medium",
-      "stem": "Which of the following are **diphthongs**, that is, two vowel letters pronounced as one glide?",
-      "options": ["uo", "ch", "ie", "dž"],
-      "correct": [0, 2],
-      "explanation": "uo and ie are the two diphthongs peculiar to Lithuanian. ch and dž are digraphs standing for single consonants.",
-      "rulesTested": ["diphthongs", "digraphs"],
-      "vocabUsed": ["balsis", "priebalsis"]
+      "stem": "Which of the following are **diphthongs** (two vowel letters as one glide)?",
+      "options": [
+        "uo",
+        "ch",
+        "ie",
+        "dž"
+      ],
+      "correct": [
+        0,
+        2
+      ],
+      "explanation": "uo and ie are native diphthongs (¶7). ch and dž are digraphs for single consonants (¶5) — near-miss if you confuse \"two letters\" with \"two vowels\".",
+      "rulesTested": [
+        "diphthongs",
+        "digraphs"
+      ],
+      "vocabUsed": [
+        "balsis",
+        "priebalsis"
+      ]
     },
     {
       "id": "a101-q8",
       "type": "single",
       "difficulty": "medium",
       "stem": "The letter **c** in *centas* is pronounced:",
-      "options": ["as /k/", "as /s/", "as /ts/", "as /tʃ/"],
+      "options": [
+        "as /k/",
+        "as /s/",
+        "as /ts/",
+        "as /tʃ/"
+      ],
       "correct": 2,
-      "explanation": "c is invariably /ts/, whatever follows it. /tʃ/ is written č.",
-      "rulesTested": ["consonants"],
-      "vocabUsed": ["garsas"]
+      "explanation": "c is invariably /ts/ (¶4). /tʃ/ is č; /s/ and /k/ are English transfer errors.",
+      "rulesTested": [
+        "consonants"
+      ],
+      "vocabUsed": [
+        "garsas"
+      ]
     },
     {
       "id": "a101-q9",
       "type": "integer",
       "difficulty": "medium",
-      "stem": "How many *nosinė* letters — vowels written with a hook — does the alphabet contain?",
-      "answer": 4,
+      "stem": "How many vowel letters are **always long**, regardless of stress?",
+      "answer": 7,
       "unit": "letters",
-      "explanation": "Four: ą, ę, į, ų. All four are simply long vowels today; the nasality their name records has been lost.",
-      "rulesTested": ["nosine"],
-      "vocabUsed": ["raidė", "balsis"]
+      "explanation": "Seven: ą, ę, ė, į, y, ų, ū (¶2). Answering 4 counts only the nosinė set; answering 5 adds ė ū but forgets y; answering 9 wrongly includes variable a, e, o.",
+      "rulesTested": [
+        "vowel-length",
+        "nosine"
+      ],
+      "vocabUsed": [
+        "balsis",
+        "ilgas",
+        "raidė"
+      ]
     },
     {
       "id": "a101-q10",
@@ -344,21 +900,36 @@
         "In alphabetical order it stands immediately after į.",
         "It represents the consonant glide of English 'yes'."
       ],
-      "correct": [0, 1, 2],
-      "explanation": "y is the long i, sounding exactly like į, and is filed among the i-letters as i, į, y. The glide of 'yes' is written j.",
-      "rulesTested": ["alphabet", "vowel-length"],
-      "vocabUsed": ["raidė", "balsis"]
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "y is long i, sounding like į, and is filed i, į, y (¶1–¶2). The glide of 'yes' is j (¶4) — the classic English transfer distractor.",
+      "rulesTested": [
+        "alphabet",
+        "vowel-length"
+      ],
+      "vocabUsed": [
+        "raidė",
+        "balsis"
+      ]
     },
     {
       "id": "a101-q11",
       "type": "integer",
       "difficulty": "hard",
-      "stem": "How many syllables are there in **šiaurė** ('north')?",
-      "answer": 2,
-      "unit": "syllables",
-      "explanation": "Two: šiau-rė. Counting the written vowels gives three and is wrong twice over — the i is not a vowel at all but the mark of a soft š (¶6), and *au* is a single diphthong (¶7).",
-      "rulesTested": ["soft-i", "diphthongs"],
-      "vocabUsed": ["skiemuo", "balsis"]
+      "stem": "In *chemija*, *dzūkas* and *džiaugtis*, how many **digraphs** (two letters for one consonant sound) appear in total?",
+      "answer": 3,
+      "unit": "digraphs",
+      "explanation": "Three: *ch* in *chemija*, *dz* in *dzūkas*, *dž* in *džiaugtis*. Each is one sound, not two.",
+      "rulesTested": [
+        "digraphs"
+      ],
+      "vocabUsed": [
+        "priebalsis",
+        "raidė"
+      ]
     },
     {
       "id": "a101-q12",
@@ -372,9 +943,549 @@
         "It is marked with an acute accent in all printed texts."
       ],
       "correct": 1,
-      "explanation": "Stress may fall on any syllable and may shift when the word is inflected (*namas* → *namai*). Accent marks belong to dictionaries and grammars, not to ordinary print.",
-      "rulesTested": ["stress"],
-      "vocabUsed": ["kirtis", "skiemuo", "žodis"]
+      "explanation": "Stress may fall on any syllable and may shift under inflection (*namas* → *namai*); accent marks belong to dictionaries, not ordinary print (¶9).",
+      "rulesTested": [
+        "stress"
+      ],
+      "vocabUsed": [
+        "kirtis",
+        "skiemuo",
+        "žodis"
+      ]
+    },
+    {
+      "id": "a101-q13",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which pairs are **homophones** in modern Lithuanian (same sound, different spelling)?",
+      "options": [
+        "į and y",
+        "ų and ū",
+        "ę and ė",
+        "ą and a (when a is unstressed)"
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanation": "į/y and ų/ū are both simply long /iː/ and /uː/ (¶3 footnote). ę is broad /æː/ while ė is close /eː/; unstressed a is short, never equal to always-long ą (¶2).",
+      "rulesTested": [
+        "nosine",
+        "vowel-length"
+      ],
+      "vocabUsed": [
+        "balsis",
+        "garsas"
+      ]
+    },
+    {
+      "id": "a101-q14",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which of the following are **diphthongs**?",
+      "explanation": "*ai* and *uo* are vowel glides. *ch* and *dž* are consonant digraphs, not diphthongs.",
+      "rulesTested": [
+        "diphthongs"
+      ],
+      "vocabUsed": [
+        "balsis"
+      ],
+      "options": [
+        "ai",
+        "ch",
+        "uo",
+        "dž"
+      ],
+      "correct": [
+        0,
+        2
+      ]
+    },
+    {
+      "id": "a101-q15",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "The digraph **ch** is alphabetised as:",
+      "options": [
+        "a separate letter between c and č",
+        "the two letters c then h, not a letter of its own",
+        "a variant of č",
+        "after h, as in Czech"
+      ],
+      "correct": 1,
+      "explanation": "ch, dz and dž are digraphs for single sounds but are not separate alphabet letters; they are filed as the two letters written (¶5).",
+      "rulesTested": [
+        "digraphs",
+        "alphabet"
+      ],
+      "vocabUsed": [
+        "raidė",
+        "priebalsis"
+      ]
+    },
+    {
+      "id": "a101-q16",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Which letter is **always** a long close /eː/?",
+      "options": [
+        "e",
+        "ę",
+        "ė",
+        "ie"
+      ],
+      "correct": 2,
+      "explanation": "*ė* is always the long close 'ay' (¶2). Plain *e* varies with stress; *ę* is the long broad /æː/; *ie* is a diphthong (¶7).",
+      "rulesTested": [
+        "vowel-length",
+        "alphabet"
+      ],
+      "vocabUsed": [
+        "balsis",
+        "raidė"
+      ]
+    },
+    {
+      "id": "a101-q17",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "In *žiema* (“winter”), what is **i** doing before **e**?",
+      "options": [
+        "Marking soft ž before a back vowel",
+        "Standing as a full vowel syllable",
+        "Forming the diphthong ie with e",
+        "Silencing the ž"
+      ],
+      "correct": 2,
+      "explanation": "*ie* is a native diphthong (¶7). Soft-i (¶6) appears only before back vowels a/ą/o/u/ų/ū — not before *e*.",
+      "rulesTested": [
+        "diphthongs",
+        "soft-i"
+      ],
+      "vocabUsed": [
+        "žodis",
+        "balsis"
+      ]
+    },
+    {
+      "id": "a101-q18",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which statements about **c / č / š / ž** are correct?",
+      "options": [
+        "c is always /ts/",
+        "č is like English *ch* in *church*",
+        "š is like English *sh*",
+        "ž is pronounced like English *z* in *zoo*"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "¶4: c=/ts/, č=church, š=sh, ž=measure (not English *zoo* /z/).",
+      "rulesTested": [
+        "consonants"
+      ],
+      "vocabUsed": [
+        "garsas",
+        "raidė"
+      ]
+    },
+    {
+      "id": "a101-q19",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "*kąsti* “to bite” vs *kasti* “to dig”. What alone distinguishes them in **spelling**?",
+      "options": [
+        "Stress mark",
+        "The nosinė hook on ą",
+        "Vowel length of a",
+        "A silent softening i"
+      ],
+      "correct": 1,
+      "explanation": "The nosinė *ą* marks the always-long vowel historically nasal; modern speech may sound similar, but spelling keeps the hook (¶3).",
+      "rulesTested": [
+        "nosine",
+        "vowel-length"
+      ],
+      "vocabUsed": [
+        "žodis",
+        "raidė"
+      ]
+    },
+    {
+      "id": "a101-q20",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which statements about Lithuanian spelling are **correct**?",
+      "options": [
+        "Almost every letter written is pronounced",
+        "Silent letters are common as in English",
+        "Softening i is an exception that is written but not a vowel nucleus",
+        "Digraphs ch, dz, dž count as one sound each"
+      ],
+      "correct": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "Spelling is nearly phonemic: almost every letter is sounded. Softening *i* is written but not a vowel nucleus; *ch, dz, dž* are one sound each. English-style silent letters are not the rule.",
+      "rulesTested": [
+        "spelling-phonemic",
+        "soft-i",
+        "digraphs"
+      ],
+      "vocabUsed": [
+        "raidė",
+        "garsas"
+      ]
+    },
+    {
+      "id": "a101-q21",
+      "type": "integer",
+      "difficulty": "medium",
+      "stem": "How many letters does the Lithuanian alphabet contain that are **not** in the basic Latin set of twenty-six?",
+      "answer": 9,
+      "unit": "letters",
+      "explanation": "¶1 adds nine letters with diacritics: ą ę į ų, č š ž, ė ū (y already exists in Latin). Tempting 6 forgets ė/ū/y-count mistakes; 3 counts only háčeks.",
+      "rulesTested": [
+        "alphabet"
+      ],
+      "vocabUsed": [
+        "abėcėlė",
+        "raidė"
+      ]
+    },
+    {
+      "id": "a101-q22",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Alphabetising **chemija**: where does **ch** sort relative to **c** and **č**?",
+      "options": [
+        "As its own letter after h",
+        "Under c, as the digraph beginning with c",
+        "Under č, because it sounds similar",
+        "At the end of the alphabet"
+      ],
+      "correct": 1,
+      "explanation": "¶5: digraphs are not separate alphabet letters; *ch* is filed under *c*.",
+      "rulesTested": [
+        "digraphs",
+        "alphabet"
+      ],
+      "vocabUsed": [
+        "abėcėlė",
+        "raidė"
+      ]
+    },
+    {
+      "id": "a101-q23",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which words contain a **softening i** (not a vowel nucleus)?",
+      "options": [
+        "siūlas",
+        "duona",
+        "šiaurė",
+        "lietus"
+      ],
+      "correct": [
+        0,
+        2
+      ],
+      "explanation": "*siūlas* and *šiaurė* have i before back vowels ū/a (¶6). *duona* has diphthong *uo*; *lietus* has sequential vowels in separate roles, not soft-i before a back vowel.",
+      "rulesTested": [
+        "soft-i",
+        "diphthongs"
+      ],
+      "vocabUsed": [
+        "žodis",
+        "skiemuo"
+      ]
+    },
+    {
+      "id": "a101-q24",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Why must stress be learned **word by word**?",
+      "options": [
+        "It always falls on the first syllable",
+        "It is free and may also move under inflection",
+        "Dictionaries never mark it",
+        "It is identical to Polish fixed stress"
+      ],
+      "correct": 1,
+      "explanation": "¶9: free and mobile; ordinary print omits marks, so each lemma’s stress must be learned.",
+      "rulesTested": [
+        "stress"
+      ],
+      "vocabUsed": [
+        "kirtis",
+        "žodis",
+        "skiemuo"
+      ]
+    },
+    {
+      "id": "a101-q25",
+      "type": "integer",
+      "difficulty": "easy",
+      "stem": "How many of **q, w, x** appear in the Lithuanian alphabet?",
+      "answer": 0,
+      "unit": "letters",
+      "explanation": "¶1 removes q, w, x from Latin. Answering 3 confuses “Latin letters known to Lithuanians” with alphabet membership.",
+      "rulesTested": [
+        "alphabet"
+      ],
+      "vocabUsed": [
+        "abėcėlė",
+        "raidė"
+      ]
+    },
+    {
+      "id": "a101-q26",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "The digraph **dz** is:",
+      "options": [
+        "two separate alphabet letters counted in the 32",
+        "the voiced counterpart of c (/dz/)",
+        "the same sound as English *th*",
+        "alphabetised as its own letter after d"
+      ],
+      "correct": 1,
+      "explanation": "¶5: dz=/dz/, voiced counterpart of c; digraphs are not separate alphabet letters.",
+      "rulesTested": [
+        "digraphs",
+        "consonants"
+      ],
+      "vocabUsed": [
+        "garsas",
+        "raidė"
+      ]
+    },
+    {
+      "id": "a101-q27",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which letters are **always long** wherever they occur?",
+      "options": [
+        "ū",
+        "i",
+        "y",
+        "ą"
+      ],
+      "correct": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "¶2: ė ū į y ų ą ę are always long; plain *i* is short.",
+      "rulesTested": [
+        "vowel-length",
+        "nosine"
+      ],
+      "vocabUsed": [
+        "balsis",
+        "ilgas",
+        "trumpas"
+      ]
+    },
+    {
+      "id": "a101-q28",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "**j** in *labas* is pronounced like:",
+      "options": [
+        "English *j* in *jam*",
+        "English *y* in *yes*",
+        "English *g* in *genre*",
+        "a silent letter"
+      ],
+      "correct": 1,
+      "explanation": "¶4: *j* is the glide /j/ as in *yes*. English *jam* is closer to digraph *dž*.",
+      "rulesTested": [
+        "consonants"
+      ],
+      "vocabUsed": [
+        "labas",
+        "garsas"
+      ]
+    },
+    {
+      "id": "a101-q29",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "How many **syllables** are there in *šiaurė*?",
+      "answer": 2,
+      "unit": "syllables",
+      "explanation": "Two: *šiau-rė*. Soft-*i* is not a nucleus, and *au* is a single diphthong. Treating soft-*i* as a vowel wrongly gives three.",
+      "rulesTested": [
+        "soft-i",
+        "diphthongs"
+      ],
+      "vocabUsed": [
+        "skiemuo",
+        "žodis"
+      ]
+    },
+    {
+      "id": "a101-q30",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Which pair differs **only** by vowel length in speech?",
+      "options": [
+        "butas / būtas",
+        "centas / čentas",
+        "ačiū / ačiu",
+        "duona / dona"
+      ],
+      "correct": 0,
+      "explanation": "*butas* (short *u*) vs *būtas* (long *ū*) is the classic length contrast. The others invent contrasts or change consonants.",
+      "rulesTested": [
+        "vowel-length"
+      ],
+      "vocabUsed": [
+        "žodis",
+        "balsis"
+      ]
+    },
+    {
+      "id": "a101-p1",
+      "type": "comprehension",
+      "difficulty": "hard",
+      "title": "Abėcėlė ir garsai",
+      "passage": "Lietuvių abėcėlė turi trisdešimt dvi raides. Raidė y yra balsis, ne priebalsis. Žodyje ačiū raidė i minkština č. Žodyje duona yra diftongas uo. Žodyje šiaurė yra minkštinantis i ir diftongas au. Kirtis lietuvių kalboje yra laisvas: jis gali kristi ant bet kurio skiemens.",
+      "translation": "The Lithuanian alphabet has thirty-two letters. The letter y is a vowel, not a consonant. In the word ačiū the letter i softens č. In the word duona there is the diphthong uo. In the word šiaurė there is a softening i and the diphthong au. Stress in the Lithuanian language is free: it may fall on any syllable.",
+      "glossary": {
+        "Lietuvių": "Lithuanian (gen. pl.)",
+        "turi": "has",
+        "trisdešimt": "thirty",
+        "dvi": "two (f.)",
+        "minkština": "softens",
+        "minkštinantis": "softening",
+        "diftongas": "diphthong",
+        "laisvas": "free",
+        "gali": "can, may",
+        "kristi": "to fall",
+        "ant": "on",
+        "bet": "any / but",
+        "kurio": "which (gen.)"
+      },
+      "questions": [
+        {
+          "id": "a101-p1-q1",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "According to the passage, what is **y**?",
+          "options": [
+            "a consonant like English 'yes'",
+            "a vowel",
+            "a digraph with i",
+            "always short"
+          ],
+          "correct": 1,
+          "explanation": "The passage states *Raidė y yra balsis, ne priebalsis* — y is a vowel (¶1–¶2). The 'yes' glide is j.",
+          "rulesTested": [
+            "alphabet",
+            "vowel-length"
+          ],
+          "vocabUsed": [
+            "raidė",
+            "balsis",
+            "priebalsis"
+          ]
+        },
+        {
+          "id": "a101-p1-q2",
+          "type": "multi",
+          "difficulty": "medium",
+          "stem": "Which claims does the passage make about **šiaurė**?",
+          "options": [
+            "It contains a softening i.",
+            "It contains the diphthong au.",
+            "It contains three full vowel syllables from i, a and ė.",
+            "The i before au is itself a pronounced vowel."
+          ],
+          "correct": [
+            0,
+            1
+          ],
+          "explanation": "The passage names soft-i and diphthong au. Treating i as a full vowel would invent a third syllable the text never asserts (¶6–¶7).",
+          "rulesTested": [
+            "soft-i",
+            "diphthongs"
+          ],
+          "vocabUsed": [
+            "skiemuo",
+            "balsis"
+          ]
+        },
+        {
+          "id": "a101-p1-q3",
+          "type": "integer",
+          "difficulty": "hard",
+          "stem": "How many syllables does the passage's analysis imply for **ačiū**?",
+          "answer": 2,
+          "unit": "syllables",
+          "explanation": "Soft-i means i is not a vowel nucleus, so ačiū is a-čiū — two syllables (¶6). Answering 3 treats the soft-i as a vowel.",
+          "rulesTested": [
+            "soft-i"
+          ],
+          "vocabUsed": [
+            "ačiū",
+            "skiemuo"
+          ]
+        },
+        {
+          "id": "a101-p1-q4",
+          "type": "single",
+          "difficulty": "hard",
+          "stem": "The passage says stress is *laisvas*. What does that mean?",
+          "options": [
+            "Stress always falls on the first syllable.",
+            "Stress may fall on any syllable and need not be predictable from spelling.",
+            "Stress is printed with an acute in every book.",
+            "Stress is fixed once learned for the nominative and never moves."
+          ],
+          "correct": 1,
+          "explanation": "Free stress: it may fall on any syllable and is not predictable from ordinary spelling. It is also unmarked in print and may move under inflection.",
+          "rulesTested": [
+            "stress"
+          ],
+          "vocabUsed": [
+            "kirtis",
+            "skiemuo",
+            "kalba"
+          ]
+        },
+        {
+          "id": "a101-p1-q5",
+          "type": "multi",
+          "difficulty": "hard",
+          "stem": "Which words does the passage explicitly treat as containing a **diphthong**?",
+          "options": [
+            "duona",
+            "ačiū",
+            "šiaurė",
+            "abėcėlė"
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "*duona* has uo; *šiaurė* has au. *ačiū* has soft-i + ū, not a diphthong iu; *abėcėlė* has sequential vowels in separate syllables.",
+          "rulesTested": [
+            "diphthongs",
+            "soft-i"
+          ],
+          "vocabUsed": [
+            "žodis",
+            "abėcėlė",
+            "ačiū"
+          ]
+        }
+      ]
     }
   ]
 }

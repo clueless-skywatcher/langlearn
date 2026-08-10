@@ -84,7 +84,7 @@ Routes are `/` (course index), `/<course>`, `/<course>/learn/<section>`,
 review list are all scoped by course id in SQLite.
 
 A **lesson** section carries numbered rules, vocabulary, optionally an alphabet
-table, and 8–14 drill questions. A **checkpoint** carries no teaching of its
+table, and 8–40 drill questions. A **checkpoint** carries no teaching of its
 own: it names the 3–4 lesson sections it `covers` and examines them with 20–30
 questions.
 
@@ -106,7 +106,7 @@ Drills use the JEE Advanced formats and marking scheme, implemented once in
 | `single` | four options, one correct | +4 / −1 |
 | `multi` | four options, one or more correct | +4 all; +1 per correct option if the selection is an error-free subset; −2 if any wrong option is chosen |
 | `integer` | a non-negative integer | +4 / 0 |
-| `comprehension` | a passage with 2–3 dependent questions | sum of its children |
+| `comprehension` | a passage with 2–5 dependent questions | sum of its children |
 
 Grading happens on the server (`app/api/attempts`), so a recorded score is one
 the server computed and the rubric has exactly one implementation. The route

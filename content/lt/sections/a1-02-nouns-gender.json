@@ -12,8 +12,16 @@
       "heading": "Gender",
       "statement": "Every Lithuanian noun is either **masculine** or **feminine**. There is no neuter. Gender is not a statement about the thing named — a table is masculine and a book feminine for no reason outside the grammar — but it governs the form of every adjective, pronoun and participle that refers to the noun, and so must be known for each word. Fortunately the ending usually declares it.",
       "examples": [
-        { "target": "namas", "gloss": "house", "note": "masculine" },
-        { "target": "knyga", "gloss": "book", "note": "feminine" }
+        {
+          "target": "namas",
+          "gloss": "house",
+          "note": "masculine"
+        },
+        {
+          "target": "knyga",
+          "gloss": "book",
+          "note": "feminine"
+        }
       ],
       "seeAlso": [],
       "core": true
@@ -26,23 +34,79 @@
       "paradigms": [
         {
           "caption": "Nominative singular endings",
-          "columns": ["ending", "example", "meaning"],
+          "columns": [
+            "ending",
+            "example",
+            "meaning"
+          ],
           "rows": [
-            { "label": "masculine -as", "cells": ["-as", "namas", "house"] },
-            { "label": "masculine -is", "cells": ["-is", "brolis", "brother"] },
-            { "label": "masculine -ys", "cells": ["-ys", "arklys", "horse"] },
-            { "label": "masculine -us", "cells": ["-us", "sūnus", "son"] },
-            { "label": "feminine -a", "cells": ["-a", "knyga", "book"] },
-            { "label": "feminine -ė", "cells": ["-ė", "katė", "cat"] }
+            {
+              "label": "masculine -as",
+              "cells": [
+                "-as",
+                "namas",
+                "house"
+              ]
+            },
+            {
+              "label": "masculine -is",
+              "cells": [
+                "-is",
+                "brolis",
+                "brother"
+              ]
+            },
+            {
+              "label": "masculine -ys",
+              "cells": [
+                "-ys",
+                "arklys",
+                "horse"
+              ]
+            },
+            {
+              "label": "masculine -us",
+              "cells": [
+                "-us",
+                "sūnus",
+                "son"
+              ]
+            },
+            {
+              "label": "feminine -a",
+              "cells": [
+                "-a",
+                "knyga",
+                "book"
+              ]
+            },
+            {
+              "label": "feminine -ė",
+              "cells": [
+                "-ė",
+                "katė",
+                "cat"
+              ]
+            }
           ],
           "footnote": "Feminine in -is: moteris (woman), akis (eye), naktis (night), širdis (heart). These must be learned individually."
         }
       ],
       "examples": [
-        { "target": "berniukas ir mergaitė", "gloss": "a boy and a girl", "note": "-as masculine, -ė feminine" },
-        { "target": "moteris", "gloss": "woman", "note": "feminine in spite of the -is" }
+        {
+          "target": "berniukas ir mergaitė",
+          "gloss": "a boy and a girl",
+          "note": "-as masculine, -ė feminine"
+        },
+        {
+          "target": "moteris",
+          "gloss": "woman",
+          "note": "feminine in spite of the -is"
+        }
       ],
-      "seeAlso": ["noun-gender"],
+      "seeAlso": [
+        "noun-gender"
+      ],
       "core": true
     },
     {
@@ -51,8 +115,14 @@
       "heading": "Absence of the Article",
       "statement": "Lithuanian has **neither a definite nor an indefinite article**. *Namas* is at once \"a house\" and \"the house\", and which is meant is settled by the context, or, where it matters, by a demonstrative such as *tas*, that. The beginner whose own language has articles must resist the urge to supply one.",
       "examples": [
-        { "target": "Namas yra didelis.", "gloss": "The house is big." },
-        { "target": "Tai namas.", "gloss": "This is a house." }
+        {
+          "target": "Namas yra didelis.",
+          "gloss": "The house is big."
+        },
+        {
+          "target": "Tai namas.",
+          "gloss": "This is a house."
+        }
       ],
       "seeAlso": [],
       "core": true
@@ -63,10 +133,19 @@
       "heading": "The Nominative Case",
       "statement": "Lithuanian nouns are declined in **seven cases**, of which the first is the **nominative**. The nominative is the form given in dictionaries, and it is used for the **subject** of the sentence — the person or thing of which something is asserted. The remaining cases are taken up in the lessons that follow.",
       "examples": [
-        { "target": "Mergaitė yra maža.", "gloss": "The girl is small.", "note": "mergaitė, subject, nominative" },
-        { "target": "Mokytojas yra geras.", "gloss": "The teacher is good." }
+        {
+          "target": "Mergaitė yra maža.",
+          "gloss": "The girl is small.",
+          "note": "mergaitė, subject, nominative"
+        },
+        {
+          "target": "Mokytojas yra geras.",
+          "gloss": "The teacher is good."
+        }
       ],
-      "seeAlso": ["noun-endings"],
+      "seeAlso": [
+        "noun-endings"
+      ],
       "core": true
     },
     {
@@ -77,21 +156,57 @@
       "paradigms": [
         {
           "caption": "Personal pronouns, nominative",
-          "columns": ["singular", "plural"],
+          "columns": [
+            "singular",
+            "plural"
+          ],
           "rows": [
-            { "label": "1st person", "cells": ["aš — I", "mes — we"] },
-            { "label": "2nd person", "cells": ["tu — you (one person)", "jūs — you (more than one, or polite)"] },
-            { "label": "3rd person masc.", "cells": ["jis — he, it", "jie — they"] },
-            { "label": "3rd person fem.", "cells": ["ji — she, it", "jos — they"] }
+            {
+              "label": "1st person",
+              "cells": [
+                "aš — I",
+                "mes — we"
+              ]
+            },
+            {
+              "label": "2nd person",
+              "cells": [
+                "tu — you (one person)",
+                "jūs — you (more than one, or polite)"
+              ]
+            },
+            {
+              "label": "3rd person masc.",
+              "cells": [
+                "jis — he, it",
+                "jie — they"
+              ]
+            },
+            {
+              "label": "3rd person fem.",
+              "cells": [
+                "ji — she, it",
+                "jos — they"
+              ]
+            }
           ],
           "footnote": "*jie* is used of a mixed company; *jos* only where every member is feminine."
         }
       ],
       "examples": [
-        { "target": "Aš esu mokytojas.", "gloss": "I am a teacher." },
-        { "target": "Esu mokytojas.", "gloss": "I am a teacher.", "note": "the pronoun dropped; the ending -u says 'I' already" }
+        {
+          "target": "Aš esu mokytojas.",
+          "gloss": "I am a teacher."
+        },
+        {
+          "target": "Esu mokytojas.",
+          "gloss": "I am a teacher.",
+          "note": "the pronoun dropped; the ending -u says 'I' already"
+        }
       ],
-      "seeAlso": ["noun-gender"],
+      "seeAlso": [
+        "noun-gender"
+      ],
       "core": true
     },
     {
@@ -102,24 +217,74 @@
       "paradigms": [
         {
           "caption": "būti — present tense",
-          "columns": ["Lithuanian", "English"],
+          "columns": [
+            "Lithuanian",
+            "English"
+          ],
           "rows": [
-            { "label": "aš", "cells": ["esu", "I am"] },
-            { "label": "tu", "cells": ["esi", "you are"] },
-            { "label": "jis, ji", "cells": ["yra", "he, she, it is"] },
-            { "label": "mes", "cells": ["esame", "we are"] },
-            { "label": "jūs", "cells": ["esate", "you are"] },
-            { "label": "jie, jos", "cells": ["yra", "they are"] }
+            {
+              "label": "aš",
+              "cells": [
+                "esu",
+                "I am"
+              ]
+            },
+            {
+              "label": "tu",
+              "cells": [
+                "esi",
+                "you are"
+              ]
+            },
+            {
+              "label": "jis, ji",
+              "cells": [
+                "yra",
+                "he, she, it is"
+              ]
+            },
+            {
+              "label": "mes",
+              "cells": [
+                "esame",
+                "we are"
+              ]
+            },
+            {
+              "label": "jūs",
+              "cells": [
+                "esate",
+                "you are"
+              ]
+            },
+            {
+              "label": "jie, jos",
+              "cells": [
+                "yra",
+                "they are"
+              ]
+            }
           ],
           "footnote": "Negated by prefixing ne-: nesu, nesi, nesame, nesate. The third person is irregular: **nėra**, not *neyra*."
         }
       ],
       "examples": [
-        { "target": "Mes esame namie.", "gloss": "We are at home." },
-        { "target": "Jie yra geri.", "gloss": "They are good." },
-        { "target": "Knyga nėra nauja.", "gloss": "The book is not new." }
+        {
+          "target": "Mes esame namie.",
+          "gloss": "We are at home."
+        },
+        {
+          "target": "Jie yra geri.",
+          "gloss": "They are good."
+        },
+        {
+          "target": "Knyga nėra nauja.",
+          "gloss": "The book is not new."
+        }
       ],
-      "seeAlso": ["pronouns-nom"],
+      "seeAlso": [
+        "pronouns-nom"
+      ],
       "core": true
     },
     {
@@ -128,10 +293,21 @@
       "heading": "The Predicate Noun and Adjective",
       "statement": "When a noun or adjective is joined to the subject by *būti* and forms part of what is asserted of it, it is called a **predicate noun** or **predicate adjective**. Such a word stands in the **nominative**, exactly like the subject, because it names the subject rather than being acted upon by it.",
       "examples": [
-        { "target": "Jonas yra mokytojas.", "gloss": "Jonas is a teacher.", "note": "predicate noun, nominative" },
-        { "target": "Diena yra graži.", "gloss": "The day is beautiful.", "note": "predicate adjective, nominative" }
+        {
+          "target": "Jonas yra mokytojas.",
+          "gloss": "Jonas is a teacher.",
+          "note": "predicate noun, nominative"
+        },
+        {
+          "target": "Diena yra graži.",
+          "gloss": "The day is beautiful.",
+          "note": "predicate adjective, nominative"
+        }
       ],
-      "seeAlso": ["nominative", "buti-present"],
+      "seeAlso": [
+        "nominative",
+        "buti-present"
+      ],
       "core": true
     },
     {
@@ -142,24 +318,67 @@
       "paradigms": [
         {
           "caption": "Adjective classes",
-          "columns": ["masculine", "feminine", "meaning"],
+          "columns": [
+            "masculine",
+            "feminine",
+            "meaning"
+          ],
           "rows": [
-            { "label": "class I", "cells": ["geras", "gera", "good"] },
-            { "label": "class II", "cells": ["gražus", "graži", "beautiful"] },
-            { "label": "class III", "cells": ["didelis", "didelė", "big"] }
+            {
+              "label": "class I",
+              "cells": [
+                "geras",
+                "gera",
+                "good"
+              ]
+            },
+            {
+              "label": "class II",
+              "cells": [
+                "gražus",
+                "graži",
+                "beautiful"
+              ]
+            },
+            {
+              "label": "class III",
+              "cells": [
+                "didelis",
+                "didelė",
+                "big"
+              ]
+            }
           ]
         }
       ],
       "examples": [
-        { "target": "geras mokytojas", "gloss": "a good teacher", "note": "masculine" },
-        { "target": "gera mokytoja", "gloss": "a good teacher", "note": "feminine" },
-        { "target": "Katė yra maža.", "gloss": "The cat is small.", "note": "katė is feminine, so maža and not mažas" },
-        { "target": "Namas yra didelis.", "gloss": "The house is big." }
+        {
+          "target": "geras mokytojas",
+          "gloss": "a good teacher",
+          "note": "masculine"
+        },
+        {
+          "target": "gera mokytoja",
+          "gloss": "a good teacher",
+          "note": "feminine"
+        },
+        {
+          "target": "Katė yra maža.",
+          "gloss": "The cat is small.",
+          "note": "katė is feminine, so maža and not mažas"
+        },
+        {
+          "target": "Namas yra didelis.",
+          "gloss": "The house is big."
+        }
       ],
       "footnotes": [
         "An attributive adjective normally precedes its noun, as in English."
       ],
-      "seeAlso": ["noun-gender", "predicate-nominative"],
+      "seeAlso": [
+        "noun-gender",
+        "predicate-nominative"
+      ],
       "core": true
     },
     {
@@ -168,41 +387,265 @@
       "heading": "Word Order",
       "statement": "Because the endings show what each word is doing, word order is **freer than in English** and is used for emphasis rather than for grammar. The ordinary, unemphatic order is nevertheless subject – verb – predicate, and the learner should keep to it until the effect of departing from it is understood.",
       "examples": [
-        { "target": "Namas yra naujas.", "gloss": "The house is new.", "note": "ordinary order" },
-        { "target": "Naujas yra namas.", "gloss": "It is new, the house.", "note": "emphatic; the same words, a different point" }
+        {
+          "target": "Namas yra naujas.",
+          "gloss": "The house is new.",
+          "note": "ordinary order"
+        },
+        {
+          "target": "Naujas yra namas.",
+          "gloss": "It is new, the house.",
+          "note": "emphatic; the same words, a different point"
+        }
       ],
       "seeAlso": [],
       "core": false
     }
   ],
   "vocabulary": [
-    { "lemma": "namas", "gloss": "house", "pos": "noun", "forms": { "nom": "namas", "gen": "namo", "gender": "m." } },
-    { "lemma": "stalas", "gloss": "table", "pos": "noun", "forms": { "nom": "stalas", "gen": "stalo", "gender": "m." } },
-    { "lemma": "berniukas", "gloss": "boy", "pos": "noun", "forms": { "nom": "berniukas", "gen": "berniuko", "gender": "m." } },
-    { "lemma": "brolis", "gloss": "brother", "pos": "noun", "forms": { "nom": "brolis", "gen": "brolio", "gender": "m." } },
-    { "lemma": "vyras", "gloss": "man, husband", "pos": "noun", "forms": { "nom": "vyras", "gen": "vyro", "gender": "m." } },
-    { "lemma": "mokytojas", "gloss": "teacher (male)", "pos": "noun", "forms": { "nom": "mokytojas", "gen": "mokytojo", "gender": "m." } },
-    { "lemma": "knyga", "gloss": "book", "pos": "noun", "forms": { "nom": "knyga", "gen": "knygos", "gender": "f." } },
-    { "lemma": "mergaitė", "gloss": "girl", "pos": "noun", "forms": { "nom": "mergaitė", "gen": "mergaitės", "gender": "f." } },
-    { "lemma": "katė", "gloss": "cat", "pos": "noun", "forms": { "nom": "katė", "gen": "katės", "gender": "f." } },
-    { "lemma": "diena", "gloss": "day", "pos": "noun", "forms": { "nom": "diena", "gen": "dienos", "gender": "f." } },
-    { "lemma": "moteris", "gloss": "woman", "pos": "noun", "forms": { "nom": "moteris", "gen": "moters", "gender": "f." }, "notes": "Feminine although it ends in -is. Compare akis (eye), naktis (night), širdis (heart)." },
-    { "lemma": "mokytoja", "gloss": "teacher (female)", "pos": "noun", "forms": { "nom": "mokytoja", "gen": "mokytojos", "gender": "f." } },
-    { "lemma": "geras", "gloss": "good", "pos": "adjective", "forms": { "masc": "geras", "fem": "gera" } },
-    { "lemma": "naujas", "gloss": "new", "pos": "adjective", "forms": { "masc": "naujas", "fem": "nauja" } },
-    { "lemma": "mažas", "gloss": "small", "pos": "adjective", "forms": { "masc": "mažas", "fem": "maža" } },
-    { "lemma": "didelis", "gloss": "big, large", "pos": "adjective", "forms": { "masc": "didelis", "fem": "didelė" } },
-    { "lemma": "gražus", "gloss": "beautiful, handsome", "pos": "adjective", "forms": { "masc": "gražus", "fem": "graži" } },
-    { "lemma": "būti", "gloss": "to be", "pos": "verb", "forms": { "inf": "būti", "pres3": "yra", "past3": "buvo" }, "notes": "Irregular throughout the present." },
-    { "lemma": "aš", "gloss": "I", "pos": "pronoun", "forms": { "nom": "aš" } },
-    { "lemma": "tu", "gloss": "you (singular)", "pos": "pronoun", "forms": { "nom": "tu" } },
-    { "lemma": "jis", "gloss": "he, it", "pos": "pronoun", "forms": { "nom": "jis" } },
-    { "lemma": "ji", "gloss": "she, it", "pos": "pronoun", "forms": { "nom": "ji" } },
-    { "lemma": "mes", "gloss": "we", "pos": "pronoun", "forms": { "nom": "mes" } },
-    { "lemma": "jūs", "gloss": "you (plural or polite)", "pos": "pronoun", "forms": { "nom": "jūs" } },
-    { "lemma": "tai", "gloss": "this is, that is", "pos": "particle", "forms": {} },
-    { "lemma": "čia", "gloss": "here", "pos": "adverb", "forms": {} },
-    { "lemma": "ir", "gloss": "and", "pos": "conjunction", "forms": {} }
+    {
+      "lemma": "namas",
+      "gloss": "house",
+      "pos": "noun",
+      "forms": {
+        "nom": "namas",
+        "gen": "namo",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "stalas",
+      "gloss": "table",
+      "pos": "noun",
+      "forms": {
+        "nom": "stalas",
+        "gen": "stalo",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "berniukas",
+      "gloss": "boy",
+      "pos": "noun",
+      "forms": {
+        "nom": "berniukas",
+        "gen": "berniuko",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "brolis",
+      "gloss": "brother",
+      "pos": "noun",
+      "forms": {
+        "nom": "brolis",
+        "gen": "brolio",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "vyras",
+      "gloss": "man, husband",
+      "pos": "noun",
+      "forms": {
+        "nom": "vyras",
+        "gen": "vyro",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "mokytojas",
+      "gloss": "teacher (male)",
+      "pos": "noun",
+      "forms": {
+        "nom": "mokytojas",
+        "gen": "mokytojo",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "knyga",
+      "gloss": "book",
+      "pos": "noun",
+      "forms": {
+        "nom": "knyga",
+        "gen": "knygos",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "mergaitė",
+      "gloss": "girl",
+      "pos": "noun",
+      "forms": {
+        "nom": "mergaitė",
+        "gen": "mergaitės",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "katė",
+      "gloss": "cat",
+      "pos": "noun",
+      "forms": {
+        "nom": "katė",
+        "gen": "katės",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "diena",
+      "gloss": "day",
+      "pos": "noun",
+      "forms": {
+        "nom": "diena",
+        "gen": "dienos",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "moteris",
+      "gloss": "woman",
+      "pos": "noun",
+      "forms": {
+        "nom": "moteris",
+        "gen": "moters",
+        "gender": "f."
+      },
+      "notes": "Feminine although it ends in -is. Compare akis (eye), naktis (night), širdis (heart)."
+    },
+    {
+      "lemma": "mokytoja",
+      "gloss": "teacher (female)",
+      "pos": "noun",
+      "forms": {
+        "nom": "mokytoja",
+        "gen": "mokytojos",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "geras",
+      "gloss": "good",
+      "pos": "adjective",
+      "forms": {
+        "masc": "geras",
+        "fem": "gera"
+      }
+    },
+    {
+      "lemma": "naujas",
+      "gloss": "new",
+      "pos": "adjective",
+      "forms": {
+        "masc": "naujas",
+        "fem": "nauja"
+      }
+    },
+    {
+      "lemma": "mažas",
+      "gloss": "small",
+      "pos": "adjective",
+      "forms": {
+        "masc": "mažas",
+        "fem": "maža"
+      }
+    },
+    {
+      "lemma": "didelis",
+      "gloss": "big, large",
+      "pos": "adjective",
+      "forms": {
+        "masc": "didelis",
+        "fem": "didelė"
+      }
+    },
+    {
+      "lemma": "gražus",
+      "gloss": "beautiful, handsome",
+      "pos": "adjective",
+      "forms": {
+        "masc": "gražus",
+        "fem": "graži"
+      }
+    },
+    {
+      "lemma": "būti",
+      "gloss": "to be",
+      "pos": "verb",
+      "forms": {
+        "inf": "būti",
+        "pres3": "yra",
+        "past3": "buvo"
+      },
+      "notes": "Irregular throughout the present."
+    },
+    {
+      "lemma": "aš",
+      "gloss": "I",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "aš"
+      }
+    },
+    {
+      "lemma": "tu",
+      "gloss": "you (singular)",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "tu"
+      }
+    },
+    {
+      "lemma": "jis",
+      "gloss": "he, it",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "jis"
+      }
+    },
+    {
+      "lemma": "ji",
+      "gloss": "she, it",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "ji"
+      }
+    },
+    {
+      "lemma": "mes",
+      "gloss": "we",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "mes"
+      }
+    },
+    {
+      "lemma": "jūs",
+      "gloss": "you (plural or polite)",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "jūs"
+      }
+    },
+    {
+      "lemma": "tai",
+      "gloss": "this is, that is",
+      "pos": "particle",
+      "forms": {}
+    },
+    {
+      "lemma": "čia",
+      "gloss": "here",
+      "pos": "adverb",
+      "forms": {}
+    },
+    {
+      "lemma": "ir",
+      "gloss": "and",
+      "pos": "conjunction",
+      "forms": {}
+    }
   ],
   "drills": [
     {
@@ -210,21 +653,36 @@
       "type": "single",
       "difficulty": "easy",
       "stem": "Which of these nouns is **feminine**?",
-      "options": ["namas", "brolis", "knyga", "stalas"],
+      "options": [
+        "namas",
+        "brolis",
+        "knyga",
+        "stalas"
+      ],
       "correct": 2,
-      "explanation": "The ending -a marks a feminine noun. -as and -is here mark masculines.",
-      "rulesTested": ["noun-gender", "noun-endings"],
-      "vocabUsed": ["namas", "brolis", "knyga", "stalas"]
+      "explanation": "Ending -a marks feminine (¶11). -as and -is here are masculine; *brolis* is the tempting near-miss because -is *can* be feminine in a tiny closed class (*moteris*), but *brolis* is not in that class.",
+      "rulesTested": [
+        "noun-gender",
+        "noun-endings"
+      ],
+      "vocabUsed": [
+        "namas",
+        "brolis",
+        "knyga",
+        "stalas"
+      ]
     },
     {
       "id": "a102-q2",
       "type": "integer",
       "difficulty": "easy",
-      "stem": "How many genders does Lithuanian distinguish?",
+      "stem": "How many genders does Lithuanian distinguish for nouns?",
       "answer": 2,
       "unit": "genders",
-      "explanation": "Two, masculine and feminine. Unlike Latin, German or Russian, Lithuanian has no neuter noun.",
-      "rulesTested": ["noun-gender"],
+      "explanation": "Two: masculine and feminine. There is no neuter (¶10). Answering 3 imports Latin/German/Russian.",
+      "rulesTested": [
+        "noun-gender"
+      ],
       "vocabUsed": []
     },
     {
@@ -239,36 +697,70 @@
         "Knyga nėra nauja."
       ],
       "correct": 1,
-      "explanation": "*knyga* is feminine, so the predicate adjective takes the feminine -a. *esu* is the first person, and *nėra* negates.",
-      "rulesTested": ["adjective-agreement", "predicate-nominative", "buti-present"],
-      "vocabUsed": ["knyga", "naujas", "būti"]
+      "explanation": "*knyga* is feminine, so the predicate adjective is *nauja* (¶17). *naujas* is masculine agreement error; *esu* is 1sg; *nėra* negates.",
+      "rulesTested": [
+        "adjective-agreement",
+        "predicate-nominative",
+        "buti-present"
+      ],
+      "vocabUsed": [
+        "knyga",
+        "naujas",
+        "būti"
+      ]
     },
     {
       "id": "a102-q4",
       "type": "single",
       "difficulty": "medium",
       "stem": "Which form of *būti* goes with **mes**?",
-      "options": ["esu", "esate", "esame", "yra"],
+      "options": [
+        "esu",
+        "esate",
+        "esame",
+        "yra"
+      ],
       "correct": 2,
-      "explanation": "*mes esame*, we are. *esate* belongs to jūs, *esu* to aš, and *yra* serves the whole third person.",
-      "rulesTested": ["buti-present", "pronouns-nom"],
-      "vocabUsed": ["mes", "būti"]
+      "explanation": "*mes esame*. *esate* is jūs; *esu* is aš; *yra* covers the whole third person singular and plural (¶15) — tempting if you think \"plural = yra\".",
+      "rulesTested": [
+        "buti-present",
+        "pronouns-nom"
+      ],
+      "vocabUsed": [
+        "mes",
+        "būti"
+      ]
     },
     {
       "id": "a102-q5",
       "type": "multi",
       "difficulty": "medium",
-      "stem": "Which of these sentences are **correct**?",
+      "stem": "Which sentences show **correct** gender agreement?",
       "options": [
         "Namas yra didelis.",
         "Katė yra mažas.",
         "Mergaitė yra graži.",
         "Brolis yra nauja."
       ],
-      "correct": [0, 2],
-      "explanation": "*katė* and *mergaitė* are feminine and *namas* and *brolis* masculine; the adjective must follow suit. *Katė yra maža* and *Brolis yra naujas* would be right.",
-      "rulesTested": ["adjective-agreement", "predicate-nominative"],
-      "vocabUsed": ["namas", "didelis", "katė", "mažas", "mergaitė", "gražus", "brolis", "naujas"]
+      "correct": [
+        0,
+        2
+      ],
+      "explanation": "*didelis* (class III) matches masculine *namas*; *graži* (class II) matches feminine *mergaitė*. *Katė yra mažas* and *Brolis yra nauja* reverse gender (¶17). Class-II *graži* (not *graža*) is itself a near-miss pattern.",
+      "rulesTested": [
+        "adjective-agreement",
+        "predicate-nominative"
+      ],
+      "vocabUsed": [
+        "namas",
+        "didelis",
+        "katė",
+        "mažas",
+        "mergaitė",
+        "gražus",
+        "brolis",
+        "naujas"
+      ]
     },
     {
       "id": "a102-q6",
@@ -282,98 +774,600 @@
         "Because the adjective follows the noun."
       ],
       "correct": 1,
-      "explanation": "There is no word for \"a\" or \"the\". Definiteness is left to the context, or shown by a demonstrative where it matters.",
-      "rulesTested": ["no-article"],
-      "vocabUsed": ["namas", "didelis"]
+      "explanation": "No article exists (¶12). Definiteness is contextual or shown by a demonstrative. The other options describe real facts that do not explain the a/the ambiguity.",
+      "rulesTested": [
+        "no-article"
+      ],
+      "vocabUsed": [
+        "namas",
+        "didelis"
+      ]
     },
     {
       "id": "a102-q7",
       "type": "multi",
       "difficulty": "medium",
       "stem": "Which of these nouns are **masculine**?",
-      "options": ["mokytojas", "mergaitė", "brolis", "diena"],
-      "correct": [0, 2],
-      "explanation": "-as and -is mark masculines here; -ė and -a mark feminines.",
-      "rulesTested": ["noun-endings"],
-      "vocabUsed": ["mokytojas", "mergaitė", "brolis", "diena"]
+      "options": [
+        "mokytojas",
+        "mergaitė",
+        "brolis",
+        "diena"
+      ],
+      "correct": [
+        0,
+        2
+      ],
+      "explanation": "-as and -is mark masculines here; -ė and -a mark feminines (¶11). *brolis* is masculine despite the -is trap class.",
+      "rulesTested": [
+        "noun-endings"
+      ],
+      "vocabUsed": [
+        "mokytojas",
+        "mergaitė",
+        "brolis",
+        "diena"
+      ]
     },
     {
       "id": "a102-q8",
       "type": "single",
       "difficulty": "hard",
-      "stem": "*Moteris*, woman, ends in -is, yet takes feminine adjectives. What does this show?",
+      "stem": "*Moteris* ends in -is yet takes feminine adjectives. What does this show?",
       "options": [
-        "That -is nouns are feminine and -as nouns masculine.",
-        "That gender in Lithuanian follows the meaning of the word.",
-        "That the ending -is is mostly masculine but has a small feminine class, so gender must be learned with the word.",
+        "That all -is nouns are feminine.",
+        "That gender always follows natural sex.",
+        "That -is is mostly masculine but has a small feminine class that must be memorised.",
         "That *moteris* is an indeclinable loanword."
       ],
       "correct": 2,
-      "explanation": "Endings are a good guide, not a law. -is is chiefly masculine, but a closed set — moteris, akis, naktis, širdis — is feminine and must be memorised.",
-      "rulesTested": ["noun-endings", "noun-gender"],
-      "vocabUsed": ["moteris"]
+      "explanation": "Endings are a guide, not a law: *moteris, akis, naktis, širdis* are the closed feminine -is set (¶11). Option A overgeneralises; B fails for *stalas* (m.) etc.",
+      "rulesTested": [
+        "noun-endings",
+        "noun-gender"
+      ],
+      "vocabUsed": [
+        "moteris"
+      ]
     },
     {
       "id": "a102-q9",
       "type": "integer",
       "difficulty": "hard",
-      "stem": "**Mokytoja yra gera ir nauja.** If the subject were *mokytojas* instead, how many of the remaining words would have to change form?",
+      "stem": "**Mokytoja yra gera ir nauja.** If the subject became *mokytojas*, how many of the remaining words would change form?",
       "answer": 2,
       "unit": "words",
-      "explanation": "Two: *gera* → *geras* and *nauja* → *naujas*. Both stand in the nominative as predicate adjectives (¶16), and both must follow the subject's gender (¶17). *yra* is a verb and *ir* a conjunction; neither has a gender to agree in.",
-      "rulesTested": ["nominative", "predicate-nominative", "adjective-agreement"],
-      "vocabUsed": ["mokytoja", "mokytojas", "geras", "naujas", "ir", "būti"]
+      "explanation": "Two: *gera* → *geras* and *nauja* → *naujas* (¶16–¶17). *yra* and *ir* have no gender. Answering 3 wrongly genders the verb; answering 1 forgets the second adjective.",
+      "rulesTested": [
+        "nominative",
+        "predicate-nominative",
+        "adjective-agreement"
+      ],
+      "vocabUsed": [
+        "mokytoja",
+        "mokytojas",
+        "geras",
+        "naujas",
+        "ir",
+        "būti"
+      ]
+    },
+    {
+      "id": "a102-q10",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Translate: **The book is not new.**",
+      "options": [
+        "Knyga neyra nauja.",
+        "Knyga nėra nauja.",
+        "Knyga ne yra nauja.",
+        "Knyga nėra naujas."
+      ],
+      "correct": 1,
+      "explanation": "Third-person negative of *būti* is irregular **nėra**, one word (¶15). *neyra* and *ne yra* are spelling traps; *naujas* fails feminine agreement.",
+      "rulesTested": [
+        "buti-present",
+        "adjective-agreement"
+      ],
+      "vocabUsed": [
+        "knyga",
+        "naujas",
+        "būti",
+        "ne"
+      ]
+    },
+    {
+      "id": "a102-q11",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "For the adjective **gražus**, which feminine forms are correct in the nominative?",
+      "options": [
+        "graža",
+        "graži",
+        "gražė",
+        "gražus"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "Class II is *-us / -i*: feminine nominative is *graži*, not *graža* (class I pattern) or *gražė* (class III pattern) (¶17). *gražus* is masculine.",
+      "rulesTested": [
+        "adjective-agreement"
+      ],
+      "vocabUsed": [
+        "gražus"
+      ]
+    },
+    {
+      "id": "a102-q12",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Which ending typically marks a **masculine** nominative singular?",
+      "options": [
+        "-ė",
+        "-a",
+        "-as",
+        "-os"
+      ],
+      "correct": 2,
+      "explanation": "¶11: masculine dictionary forms end in -as/-is/-ys/-us; -a/-ė are feminine. *-os* is genitive feminine, not nominative.",
+      "rulesTested": [
+        "noun-endings",
+        "noun-gender"
+      ],
+      "vocabUsed": [
+        "namas",
+        "knyga"
+      ]
+    },
+    {
+      "id": "a102-q13",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Translate: **She is a teacher.**",
+      "options": [
+        "Ji yra mokytojas.",
+        "Ji yra mokytoja.",
+        "Ji esu mokytoja.",
+        "Ji yra mokytoją."
+      ],
+      "correct": 1,
+      "explanation": "Predicate noun matches gender: *mokytoja* (¶16–¶17). *mokytojas* is masculine; *esu* is 1sg; *mokytoją* is accusative.",
+      "rulesTested": [
+        "predicate-nominative",
+        "adjective-agreement",
+        "buti-present"
+      ],
+      "vocabUsed": [
+        "ji",
+        "būti",
+        "mokytoja"
+      ]
+    },
+    {
+      "id": "a102-q14",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which nouns are **feminine** by the usual ending guide?",
+      "options": [
+        "knyga",
+        "mergaitė",
+        "stalas",
+        "diena"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "*-a/*-ė → feminine (¶11). *stalas* (-as) is masculine.",
+      "rulesTested": [
+        "noun-endings",
+        "noun-gender"
+      ],
+      "vocabUsed": [
+        "knyga",
+        "mergaitė",
+        "stalas",
+        "diena"
+      ]
+    },
+    {
+      "id": "a102-q15",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Which form of *būti* goes with **jie**?",
+      "options": [
+        "esame",
+        "esate",
+        "yra",
+        "esi"
+      ],
+      "correct": 2,
+      "explanation": "Third person *yra* serves singular and plural, both genders (¶15). *esame/esate* are 1pl/2pl; *esi* is 2sg.",
+      "rulesTested": [
+        "buti-present",
+        "pronouns-nom"
+      ],
+      "vocabUsed": [
+        "būti",
+        "jis"
+      ]
+    },
+    {
+      "id": "a102-q16",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which sentences are well formed?",
+      "options": [
+        "Namas yra didelis.",
+        "Knyga yra didelis.",
+        "Katė yra maža.",
+        "Berniukas yra maža."
+      ],
+      "correct": [
+        0,
+        2
+      ],
+      "explanation": "Adjective agrees in gender (¶17): *didelis* with *namas*, *maža* with *katė*. *knyga…didelis* and *berniukas…maža* mismatch.",
+      "rulesTested": [
+        "adjective-agreement",
+        "predicate-nominative"
+      ],
+      "vocabUsed": [
+        "namas",
+        "knyga",
+        "katė",
+        "berniukas",
+        "didelis",
+        "mažas"
+      ]
+    },
+    {
+      "id": "a102-q17",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "**Aš ____ mokytojas.** Which form fits?",
+      "options": [
+        "yra",
+        "esi",
+        "esu",
+        "esame"
+      ],
+      "correct": 2,
+      "explanation": "1sg of *būti* is *esu* (¶15).",
+      "rulesTested": [
+        "buti-present",
+        "pronouns-nom"
+      ],
+      "vocabUsed": [
+        "aš",
+        "būti",
+        "mokytojas"
+      ]
+    },
+    {
+      "id": "a102-q18",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which of these are **third-person nominative** pronouns?",
+      "explanation": "*jis*, *ji*, and *jie* are third person. *aš* is first person singular.",
+      "rulesTested": [
+        "pronouns-nom"
+      ],
+      "vocabUsed": [
+        "jis",
+        "ji"
+      ],
+      "options": [
+        "jis",
+        "ji",
+        "aš",
+        "jie"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "id": "a102-q19",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Why can *Tai namas* mean “This is a house” with no article?",
+      "options": [
+        "*Tai* is the definite article",
+        "Lithuanian has no articles; context decides",
+        "*Namas* is always indefinite",
+        "The verb *yra* supplies definiteness"
+      ],
+      "correct": 1,
+      "explanation": "¶12: no articles; *tai* introduces/identifies but is not an article.",
+      "rulesTested": [
+        "no-article"
+      ],
+      "vocabUsed": [
+        "tai",
+        "namas"
+      ]
+    },
+    {
+      "id": "a102-q20",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "For **didelis**, which feminine nominative forms are correct?",
+      "options": [
+        "didelė",
+        "dideli",
+        "didele",
+        "didelią"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Class III: masc. *didelis* / fem. *didelė* (¶17). The other shapes are wrong or other cases.",
+      "rulesTested": [
+        "adjective-agreement"
+      ],
+      "vocabUsed": [
+        "didelis"
+      ]
+    },
+    {
+      "id": "a102-q21",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "*Brolis* ends in **-is**. Gender?",
+      "options": [
+        "Feminine, because -is matches *moteris*",
+        "Masculine; ending is only a guide, and *brolis* is masc.",
+        "Neuter",
+        "Ambiguous until an adjective appears"
+      ],
+      "correct": 1,
+      "explanation": "¶11: -is is usually masculine (*brolis*); *moteris* is a known feminine exception — endings nearly reliable, not absolute.",
+      "rulesTested": [
+        "noun-endings",
+        "noun-gender"
+      ],
+      "vocabUsed": [
+        "brolis",
+        "moteris"
+      ]
+    },
+    {
+      "id": "a102-q22",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "**Katė yra graži.** Change the subject to *namas*. How many of the other two words must change for agreement?",
+      "answer": 1,
+      "unit": "words",
+      "explanation": "*yra* is unchanged (3rd person one form). Only the adjective *graži* → *gražus* (¶15–¶17). Answering 2 wrongly changes *yra*.",
+      "rulesTested": [
+        "adjective-agreement",
+        "buti-present",
+        "predicate-nominative"
+      ],
+      "vocabUsed": [
+        "katė",
+        "namas",
+        "gražus",
+        "būti"
+      ]
+    },
+    {
+      "id": "a102-q23",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "The nominative is the case of the:",
+      "options": [
+        "direct object",
+        "possessor",
+        "subject (and dictionary citation form)",
+        "object of *be*"
+      ],
+      "correct": 2,
+      "explanation": "¶13: nominative = subject / dictionary form.",
+      "rulesTested": [
+        "nominative"
+      ],
+      "vocabUsed": [
+        "žodis"
+      ]
+    },
+    {
+      "id": "a102-q24",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which use **nominative** predicate nouns/adjectives correctly after *būti*?",
+      "options": [
+        "Jonas yra mokytojas.",
+        "Diena yra graži.",
+        "Mergaitė yra mažą.",
+        "Vyras yra geras."
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "Predicate stands in nominative (¶16). *mažą* is accusative — wrong after *yra*.",
+      "rulesTested": [
+        "predicate-nominative",
+        "adjective-agreement"
+      ],
+      "vocabUsed": [
+        "mokytojas",
+        "diena",
+        "gražus",
+        "mergaitė",
+        "mažas",
+        "vyras",
+        "geras"
+      ]
+    },
+    {
+      "id": "a102-q25",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**Mes ____ geri.**",
+      "options": [
+        "yra",
+        "esame",
+        "esi",
+        "esu"
+      ],
+      "correct": 1,
+      "explanation": "1pl *esame* (¶15). *yra* is 3rd person only.",
+      "rulesTested": [
+        "buti-present",
+        "pronouns-nom"
+      ],
+      "vocabUsed": [
+        "mes",
+        "būti",
+        "geras"
+      ]
     },
     {
       "id": "a102-p1",
       "type": "comprehension",
-      "difficulty": "medium",
-      "title": "Namas",
-      "passage": "Tai namas. Namas yra didelis ir naujas. Čia yra Jonas. Jonas yra mokytojas. Jis yra geras mokytojas. Čia yra Rūta. Rūta yra mokytoja. Ji yra graži. Namas yra mokykla.",
-      "translation": "This is a house. The house is big and new. Here is Jonas. Jonas is a teacher. He is a good teacher. Here is Rūta. Rūta is a teacher. She is beautiful. The house is a school.",
+      "difficulty": "hard",
+      "title": "Namas ir mokytojai",
+      "passage": "Tai namas. Namas yra didelis ir naujas. Čia yra Jonas. Jonas yra mokytojas. Jis yra geras mokytojas. Čia yra Rūta. Rūta yra mokytoja. Ji yra graži. Namas yra mokykla. Mergaitė yra maža, o berniukas yra didelis. Moteris yra gera. Knyga nėra nauja.",
+      "translation": "This is a house. The house is big and new. Here is Jonas. Jonas is a teacher. He is a good teacher. Here is Rūta. Rūta is a teacher. She is beautiful. The house is a school. The girl is small, and the boy is big. The woman is good. The book is not new.",
       "glossary": {
         "mokykla": "school (f.)",
         "Jonas": "Jonas, a man's name",
-        "Rūta": "Rūta, a woman's name"
+        "Rūta": "Rūta, a woman's name",
+        "o": "and, whereas"
       },
       "questions": [
         {
           "id": "a102-p1-q1",
           "type": "single",
           "difficulty": "easy",
-          "stem": "Kas yra Jonas? (What is Jonas?)",
-          "options": ["mokytoja", "mokytojas", "namas", "mokykla"],
+          "stem": "Kas yra Jonas?",
+          "options": [
+            "mokytoja",
+            "mokytojas",
+            "namas",
+            "mokykla"
+          ],
           "correct": 1,
-          "explanation": "*Jonas yra mokytojas* — the masculine form. *mokytoja* would be a woman.",
-          "rulesTested": ["predicate-nominative", "noun-endings"],
-          "vocabUsed": ["mokytojas", "mokytoja", "namas"]
+          "explanation": "*Jonas yra mokytojas* — masculine predicate noun. *mokytoja* is the feminine near-miss.",
+          "rulesTested": [
+            "predicate-nominative",
+            "noun-endings"
+          ],
+          "vocabUsed": [
+            "mokytojas",
+            "mokytoja",
+            "namas"
+          ]
         },
         {
           "id": "a102-p1-q2",
           "type": "multi",
           "difficulty": "medium",
-          "stem": "Which statements does the passage make about **namas**?",
+          "stem": "Which statements about **namas** does the passage support?",
           "options": [
             "Namas yra didelis.",
             "Namas yra naujas.",
             "Namas yra maža.",
             "Namas yra mokykla."
           ],
-          "correct": [0, 1, 3],
-          "explanation": "The passage calls the house big, new, and a school. *Namas yra maža* is doubly wrong: the passage does not say it, and *maža* is feminine where *mažas* would be required.",
-          "rulesTested": ["adjective-agreement", "predicate-nominative"],
-          "vocabUsed": ["namas", "didelis", "naujas", "mažas"]
+          "correct": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "Big, new, and a school. *Namas yra maža* is unsupported and wrongly feminine.",
+          "rulesTested": [
+            "adjective-agreement",
+            "predicate-nominative"
+          ],
+          "vocabUsed": [
+            "namas",
+            "didelis",
+            "naujas",
+            "mažas"
+          ]
         },
         {
           "id": "a102-p1-q3",
           "type": "integer",
-          "difficulty": "medium",
-          "stem": "In how many of the passage's sentences is the thing asserted of the subject an **adjective** rather than a noun?",
-          "answer": 2,
+          "difficulty": "hard",
+          "stem": "In how many sentences is the thing asserted of the subject a bare **predicate adjective** (not a noun, and not an attributive adjective inside a noun phrase)?",
+          "answer": 5,
           "unit": "sentences",
-          "explanation": "Two: *Namas yra didelis ir naujas* and *Ji yra graži*. The trap is *Jis yra geras mokytojas*, where the predicate is the noun *mokytojas* and *geras* only modifies it — an attributive adjective, not a predicate one (¶17).",
-          "rulesTested": ["predicate-nominative", "adjective-agreement"],
-          "vocabUsed": ["namas", "didelis", "naujas", "ji", "gražus", "jis", "geras", "mokytojas"]
+          "explanation": "Five sentences: *Namas yra didelis ir naujas*; *Ji yra graži*; *Mergaitė yra maža, o berniukas yra didelis* (one sentence, two clauses); *Moteris yra gera*; *Knyga nėra nauja*. Trap: *Jis yra geras mokytojas* — the predicate is the noun *mokytojas*; *geras* is only attributive (¶16–¶17). Answering 6 double-counts the coordinated *Mergaitė… berniukas…* sentence.",
+          "rulesTested": [
+            "predicate-nominative",
+            "adjective-agreement"
+          ],
+          "vocabUsed": [
+            "namas",
+            "didelis",
+            "naujas",
+            "ji",
+            "gražus",
+            "jis",
+            "geras",
+            "mokytojas",
+            "mergaitė",
+            "mažas",
+            "berniukas",
+            "moteris",
+            "knyga"
+          ]
+        },
+        {
+          "id": "a102-p1-q4",
+          "type": "single",
+          "difficulty": "hard",
+          "stem": "Why is *Moteris yra gera* well formed despite the ending **-is**?",
+          "options": [
+            "Because all -is nouns are feminine.",
+            "Because *moteris* belongs to the closed feminine -is class, so adjectives are feminine.",
+            "Because *gera* agrees with natural sex only, never with grammatical gender.",
+            "Because *yra* forces feminine agreement."
+          ],
+          "correct": 1,
+          "explanation": "*moteris* is the textbook feminine -is noun (¶11); *gera* follows grammatical gender, not a special sex rule.",
+          "rulesTested": [
+            "noun-endings",
+            "adjective-agreement"
+          ],
+          "vocabUsed": [
+            "moteris",
+            "geras"
+          ]
+        },
+        {
+          "id": "a102-p1-q5",
+          "type": "multi",
+          "difficulty": "hard",
+          "stem": "Which forms of *būti* appear in the passage?",
+          "options": [
+            "yra",
+            "nėra",
+            "esu",
+            "esame"
+          ],
+          "correct": [
+            0,
+            1
+          ],
+          "explanation": "Affirmative *yra* throughout and negative *nėra* in *Knyga nėra nauja*. First-person forms do not appear.",
+          "rulesTested": [
+            "buti-present"
+          ],
+          "vocabUsed": [
+            "būti",
+            "ne"
+          ]
         }
       ]
     }

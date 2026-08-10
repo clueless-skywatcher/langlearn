@@ -10,6 +10,7 @@ Sections marked ✅ are authored. The rest are targets for the generator
 Rule numbering is continuous across the whole course, as in Kellerman.
 A1 sections 01–03 occupy ¶1–¶27, 04–07 ¶28–¶52, 08–10 ¶53–¶70,
 11–14 ¶71–¶98, 15–17 ¶99–¶120, 18–20 ¶121–¶140.
+A2 sections 21–23 occupy ¶141–¶162, 24–26 ¶163–¶180.
 
 ---
 
@@ -65,14 +66,14 @@ repeated here; A2 completes the paradigms and adds what A1 only gestured at.
 
 | # | Section | Contents |
 |---|---|---|
-| 21 | The Seven Cases in Full | all five declensions, singular and plural, in one table |
-| 22 | Reflexive Verbs | the full paradigm behind the set phrases of ¶140; the *-si-* affix and its migration to the prefix under negation |
-| 23 | Prepositions II and Case Government | the prepositions not met at A1; verbs governing an unexpected case |
-| — | **Checkpoint 7** | covers 21–23 |
-| 24 | The Definite Adjective | *geras* against *gerasis*; when the pronominal form is required |
-| 25 | Subordinate Clauses | beyond the *kad* and *ar* of ¶104–¶105: *kai, kol, nors*; sequence of tenses |
-| 26 | The Infinitive and its Uses | complementary, purposive, and nominal infinitive |
-| — | **Checkpoint 8** | covers 24–26 |
+| 21 | ✅ The Seven Cases in Full | all five declensions, singular and plural, in one table |
+| 22 | ✅ Reflexive Verbs | the full paradigm behind the set phrases of ¶140; the *-si-* affix and its migration to the prefix under negation |
+| 23 | ✅ Prepositions II and Case Government | the prepositions not met at A1; verbs governing an unexpected case |
+| — | ✅ **Checkpoint 7** | covers 21–23 |
+| 24 | ✅ The Definite Adjective | *geras* against *gerasis*; when the pronominal form is required |
+| 25 | ✅ Subordinate Clauses | beyond the *kad* and *ar* of ¶104–¶105: *kai, kol, nors*; sequence of tenses |
+| 26 | ✅ The Infinitive and its Uses | complementary, purposive, and nominal infinitive |
+| — | ✅ **Checkpoint 8** | covers 24–26 |
 
 ## B1 — Intermediate
 

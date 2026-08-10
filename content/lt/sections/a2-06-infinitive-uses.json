@@ -1,0 +1,1102 @@
+{
+  "id": "a2-06",
+  "kind": "lesson",
+  "level": "A2",
+  "order": 7,
+  "title": "The Infinitive and its Uses",
+  "summary": "The infinitive of ¶40 was only a complement after *galėti* and *norėti*. It also names purpose after a verb of motion, stands as a subject like a noun, and completes the impersonals already met — three jobs that must not be confused.",
+  "rules": [
+    {
+      "id": "complementary-infinitive-range",
+      "number": "175",
+      "heading": "The Complementary Infinitive Extended",
+      "statement": "¶40 gave the infinitive after **galėti**, **norėti** and **mėgti**. The same construction completes a much longer list of verbs that need a second action rather than a noun: **pradėti** (to begin), **baigti** (to finish), **turėti** in the sense *to have to*, **bandyti** (to try), **mokėti** (to know how), **norėti** and **galėti** as before. The finite verb alone carries person and tense; the infinitive never changes.",
+      "paradigms": [
+        {
+          "caption": "Finite verb + infinitive",
+          "columns": [
+            "Lithuanian",
+            "English"
+          ],
+          "rows": [
+            {
+              "label": "ability",
+              "cells": [
+                "Galiu dirbti.",
+                "I can work."
+              ]
+            },
+            {
+              "label": "wish",
+              "cells": [
+                "Noriu skaityti.",
+                "I want to read."
+              ]
+            },
+            {
+              "label": "begin",
+              "cells": [
+                "Pradedu mokytis.",
+                "I begin to study."
+              ]
+            },
+            {
+              "label": "finish",
+              "cells": [
+                "Baigiu rašyti.",
+                "I finish writing."
+              ]
+            },
+            {
+              "label": "obligation",
+              "cells": [
+                "Turiu eiti.",
+                "I have to go."
+              ]
+            },
+            {
+              "label": "try",
+              "cells": [
+                "Bandau kalbėti lietuviškai.",
+                "I try to speak Lithuanian."
+              ]
+            }
+          ],
+          "footnote": "*Turėti* with a noun still means *to have* (*turiu knygą*); with an infinitive it means *must / have to*. The complement decides the sense."
+        }
+      ],
+      "examples": [
+        {
+          "target": "Ji pradėjo dirbti anksti.",
+          "gloss": "She began to work early."
+        },
+        {
+          "target": "Mes turime grįžti.",
+          "gloss": "We have to return."
+        },
+        {
+          "target": "Ar moki plaukti?",
+          "gloss": "Can you swim? (do you know how)"
+        }
+      ],
+      "seeAlso": [
+        "complementary-infinitive",
+        "wanting-liking",
+        "galima-reikia"
+      ],
+      "core": true
+    },
+    {
+      "id": "purposive-infinitive",
+      "number": "176",
+      "heading": "The Purposive Infinitive after Motion",
+      "statement": "After a verb of **motion** — *eiti, važiuoti, ateiti, eiti namo* and their kin — an infinitive states the **purpose** of the going: *einu pirkti* is *I am going (in order) to buy*. English often inserts *to* or *in order to*; Lithuanian puts the bare infinitive next to the motion verb. No *kad* is needed for this short construction.",
+      "examples": [
+        {
+          "target": "Einu pirkti duonos.",
+          "gloss": "I am going to buy bread.",
+          "note": "genitive after a verb of obtaining, as at ¶32"
+        },
+        {
+          "target": "Važiuojame mokytis į Vilnių.",
+          "gloss": "We are going to Vilnius to study."
+        },
+        {
+          "target": "Ji atėjo padėti.",
+          "gloss": "She came to help."
+        },
+        {
+          "target": "Grįžau pailsėti.",
+          "gloss": "I came back to rest."
+        }
+      ],
+      "footnotes": [
+        "The motion verb is finite and carries the tense; the infinitive only names the purpose. *Einu pirkti* is present going; *ėjau pirkti* was past going for that purpose."
+      ],
+      "seeAlso": [
+        "complementary-infinitive-range",
+        "place-prepositions"
+      ],
+      "core": true
+    },
+    {
+      "id": "purpose-kad",
+      "number": "177",
+      "heading": "Purpose with Kad and the Conditional",
+      "statement": "When the purpose is a full clause — especially when its subject differs, or when no motion verb is present — Lithuanian uses **kad** with the **conditional**: *Dirbu, kad uždirbčiau* — I work so that I may earn. The conditional here is not politeness (¶112) but the mood of a purpose not yet achieved. **Tam, kad** makes the purpose explicit when the clause is heavy.",
+      "examples": [
+        {
+          "target": "Mokausi, kad galėčiau kalbėti lietuviškai.",
+          "gloss": "I study so that I can speak Lithuanian."
+        },
+        {
+          "target": "Jis dirba, kad šeima gyventų geriau.",
+          "gloss": "He works so that the family may live better."
+        },
+        {
+          "target": "Ateik anksčiau, kad spėtume.",
+          "gloss": "Come earlier so that we may manage in time."
+        }
+      ],
+      "footnotes": [
+        "Do not use a bare infinitive for this: *Dirbu uždirbti* is not Lithuanian. Motion + infinitive (¶176) is one construction; *kad* + conditional is the other."
+      ],
+      "seeAlso": [
+        "purposive-infinitive",
+        "subordination-kad",
+        "conditional-formation",
+        "sequence-of-tenses"
+      ],
+      "core": true
+    },
+    {
+      "id": "nominal-infinitive",
+      "number": "178",
+      "heading": "The Nominal Infinitive",
+      "statement": "An infinitive may stand as the **subject** (or predicative complement) of a sentence, naming the action as a thing is named. The predicate is then usually a **neuter** adjective of the kind met at ¶121 — *gera, sunku, naudinga, brangu* — which agrees with nothing, because the subject is not a gendered noun. English often uses a gerund (*reading is useful*); Lithuanian keeps the infinitive.",
+      "examples": [
+        {
+          "target": "Skaityti yra naudinga.",
+          "gloss": "To read / reading is useful."
+        },
+        {
+          "target": "Gyventi Vilniuje brangu.",
+          "gloss": "Living in Vilnius is expensive."
+        },
+        {
+          "target": "Mokytis lietuvių kalbos sunku, bet įdomu.",
+          "gloss": "Learning Lithuanian is hard but interesting."
+        },
+        {
+          "target": "Rūkyti čia negalima.",
+          "gloss": "Smoking is not allowed here.",
+          "note": "impersonal *negalima* with an infinitive subject-complement"
+        }
+      ],
+      "seeAlso": [
+        "neuter-adjective",
+        "galima-reikia",
+        "complementary-infinitive-range"
+      ],
+      "core": true
+    },
+    {
+      "id": "infinitive-with-object",
+      "number": "179",
+      "heading": "The Infinitive Keeps its Own Government",
+      "statement": "Whatever case a verb governs as a finite form, it governs in the **infinitive** too. *Skaityti knygą* keeps the accusative; *norėti kavos* in a larger phrase still shows the genitive on the noun if *norėti* is the governing verb; *eiti į mokyklą* keeps *į* + accusative. The complementary or purposive frame does not rewrite the inner case.",
+      "examples": [
+        {
+          "target": "Noriu skaityti šią knygą.",
+          "gloss": "I want to read this book.",
+          "note": "*skaityti* takes accusative *knygą*; *norėti* here takes the infinitive, not a genitive noun"
+        },
+        {
+          "target": "Einu pirkti pieno.",
+          "gloss": "I am going to buy milk.",
+          "note": "genitive after *pirkti* in the partitive sense"
+        },
+        {
+          "target": "Turime padėti draugui.",
+          "gloss": "We have to help a friend.",
+          "note": "dative after *padėti*"
+        }
+      ],
+      "seeAlso": [
+        "purposive-infinitive",
+        "complementary-infinitive-range",
+        "accusative-nouns",
+        "wanting-liking",
+        "other-dative-verbs"
+      ],
+      "core": true
+    },
+    {
+      "id": "infinitive-choice",
+      "number": "180",
+      "heading": "Choosing the Construction",
+      "statement": "Three questions decide the form. Is the infinitive completing a verb such as *galėti, norėti, pradėti*? → complementary (¶175). Is it the purpose of a verb of motion, with no new subject? → bare purposive infinitive (¶176). Is the purpose a full clause, often with a different subject? → *kad* + conditional (¶177). Is the action itself the subject of *yra sunku / naudinga*? → nominal infinitive (¶178). Mixing them — *einu, kad pirkti* or *dirbu uždirbti* — is the error this section exists to prevent.",
+      "paradigms": [
+        {
+          "caption": "Same idea, right construction",
+          "columns": [
+            "job",
+            "Lithuanian",
+            "not"
+          ],
+          "rows": [
+            {
+              "label": "complement",
+              "cells": [
+                "Noriu eiti.",
+                "*Noriu, kad eiti."
+              ]
+            },
+            {
+              "label": "motion purpose",
+              "cells": [
+                "Einu pirkti.",
+                "*Einu, kad pirkti."
+              ]
+            },
+            {
+              "label": "clause purpose",
+              "cells": [
+                "Dirbu, kad uždirbčiau.",
+                "*Dirbu uždirbti."
+              ]
+            },
+            {
+              "label": "nominal",
+              "cells": [
+                "Skaityti naudinga.",
+                "*Skaitymas yra naudingas* is possible but a different style"
+              ]
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "target": "Pradedu rašyti, kad baigčiau šiandien.",
+          "gloss": "I begin to write so that I may finish today.",
+          "note": "complementary *pradedu rašyti* + purpose clause *kad baigčiau*"
+        }
+      ],
+      "seeAlso": [
+        "complementary-infinitive-range",
+        "purposive-infinitive",
+        "purpose-kad",
+        "nominal-infinitive"
+      ],
+      "core": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "lemma": "pradėti",
+      "gloss": "to begin (+ infinitive)",
+      "pos": "verb",
+      "forms": {
+        "inf": "pradėti",
+        "pres3": "pradeda",
+        "past3": "pradėjo",
+        "conj": "II"
+      }
+    },
+    {
+      "lemma": "bandyti",
+      "gloss": "to try (+ infinitive)",
+      "pos": "verb",
+      "forms": {
+        "inf": "bandyti",
+        "pres3": "bando",
+        "past3": "bandė",
+        "conj": "III"
+      }
+    },
+    {
+      "lemma": "mokėti",
+      "gloss": "to know how; to be able (skill) (+ infinitive)",
+      "pos": "verb",
+      "forms": {
+        "inf": "mokėti",
+        "pres3": "moka",
+        "past3": "mokėjo",
+        "conj": "II"
+      },
+      "notes": "Distinct from mokytis, to study."
+    },
+    {
+      "lemma": "plaukti",
+      "gloss": "to swim; to float",
+      "pos": "verb",
+      "forms": {
+        "inf": "plaukti",
+        "pres3": "plaukia",
+        "past3": "plaukė",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "pailsėti",
+      "gloss": "to rest, to have a rest",
+      "pos": "verb",
+      "forms": {
+        "inf": "pailsėti",
+        "pres3": "pailsi",
+        "past3": "pailėjo",
+        "conj": "II"
+      }
+    },
+    {
+      "lemma": "uždirbti",
+      "gloss": "to earn (money)",
+      "pos": "verb",
+      "forms": {
+        "inf": "uždirbti",
+        "pres3": "uždirba",
+        "past3": "uždirbo",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "naudingas",
+      "gloss": "useful",
+      "pos": "adjective",
+      "forms": {
+        "masc": "naudingas",
+        "fem": "naudinga"
+      },
+      "notes": "Neuter predicate naudinga with a nominal infinitive."
+    },
+    {
+      "lemma": "anksti",
+      "gloss": "early",
+      "pos": "adverb"
+    },
+    {
+      "lemma": "tam kad",
+      "gloss": "so that, in order that",
+      "pos": "conjunction",
+      "notes": "Introduces a purpose clause; usually with the conditional."
+    },
+    {
+      "lemma": "spėti",
+      "gloss": "to manage in time, to catch",
+      "pos": "verb",
+      "forms": {
+        "inf": "spėti",
+        "pres3": "spėja",
+        "past3": "spėjo",
+        "conj": "II"
+      }
+    },
+    {
+      "lemma": "ilsėtis",
+      "gloss": "to rest, to take a rest",
+      "pos": "verb",
+      "forms": {
+        "inf": "ilsėtis",
+        "pres3": "ilsisi",
+        "past3": "ilsėjosi"
+      },
+      "notes": "Reflexive; see ¶149–¶155 for the affix."
+    }
+  ],
+  "drills": [
+    {
+      "id": "a206-q1",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete: **Pradedu ____.** (I begin to study.)",
+      "options": [
+        "mokytis",
+        "mokausi",
+        "mokiausi",
+        "mokyklos"
+      ],
+      "correct": 0,
+      "explanation": "**Pradėti** takes a complementary infinitive: *pradedu mokytis*. The finite forms *mokausi / mokiausi* would make a second finite verb without a conjunction.",
+      "rulesTested": [
+        "complementary-infinitive-range"
+      ],
+      "vocabUsed": [
+        "pradėti",
+        "mokytis"
+      ]
+    },
+    {
+      "id": "a206-q2",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete: **Einu ____ duonos.** (I am going to buy bread.)",
+      "options": [
+        "perku",
+        "pirkti",
+        "pirksiu",
+        "pirkau"
+      ],
+      "correct": 1,
+      "explanation": "Motion + purpose takes the bare infinitive **pirkti**. A second finite verb would need its own clause.",
+      "rulesTested": [
+        "purposive-infinitive"
+      ],
+      "vocabUsed": [
+        "eiti",
+        "pirkti",
+        "duona"
+      ]
+    },
+    {
+      "id": "a206-q3",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete: **Skaityti yra ____.** (Reading is useful.)",
+      "options": [
+        "naudingas",
+        "naudinga",
+        "naudingo",
+        "naudingą"
+      ],
+      "correct": 1,
+      "explanation": "A nominal infinitive takes a **neuter** predicate: *naudinga*. The masculine *naudingas* would agree with a masculine noun, which the infinitive is not.",
+      "rulesTested": [
+        "nominal-infinitive",
+        "neuter-adjective"
+      ],
+      "vocabUsed": [
+        "skaityti",
+        "būti",
+        "naudingas"
+      ]
+    },
+    {
+      "id": "a206-q4",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "**Turiu eiti** means:",
+      "options": [
+        "I have a going.",
+        "I have to go.",
+        "I had gone.",
+        "I am able to go."
+      ],
+      "correct": 1,
+      "explanation": "*Turėti* + infinitive is obligation — *have to*. Ability is *galiu eiti*; possession is *turiu* + a noun.",
+      "rulesTested": [
+        "complementary-infinitive-range"
+      ],
+      "vocabUsed": [
+        "turėti",
+        "eiti",
+        "galėti"
+      ]
+    },
+    {
+      "id": "a206-q5",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which sentences correctly use a **purposive** infinitive after motion?",
+      "options": [
+        "Važiuojame mokytis į Vilnių.",
+        "Ji atėjo padėti.",
+        "Dirbu uždirbti.",
+        "Grįžau pailsėti."
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "The first, second and fourth follow a motion verb. *Dirbu uždirbti* wrongly uses a bare infinitive where purpose needs *kad* + conditional (¶177).",
+      "rulesTested": [
+        "purposive-infinitive",
+        "purpose-kad",
+        "infinitive-choice"
+      ],
+      "vocabUsed": [
+        "važiuoti",
+        "mokytis",
+        "Vilnius",
+        "ateiti",
+        "padėti",
+        "dirbti",
+        "uždirbti",
+        "grįžti",
+        "pailsėti"
+      ]
+    },
+    {
+      "id": "a206-q6",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Mokausi, kad ____ kalbėti lietuviškai.**",
+      "options": [
+        "galiu",
+        "galėčiau",
+        "galėti",
+        "galėsiu"
+      ],
+      "correct": 1,
+      "explanation": "A purpose clause with **kad** takes the **conditional**: *galėčiau*. The indicative and the bare infinitive are the usual interference errors.",
+      "rulesTested": [
+        "purpose-kad",
+        "conditional-formation"
+      ],
+      "vocabUsed": [
+        "mokytis",
+        "kad",
+        "galėti",
+        "kalbėti",
+        "lietuviškai"
+      ]
+    },
+    {
+      "id": "a206-q7",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Noriu skaityti ____ knygą.**",
+      "options": [
+        "ši",
+        "šios",
+        "šią",
+        "šiam"
+      ],
+      "correct": 2,
+      "explanation": "The governing verb for the noun is *skaityti*, which takes the accusative: **šią knygą**. *Norėti* here takes the infinitive, so it does not put the book into the genitive.",
+      "rulesTested": [
+        "infinitive-with-object",
+        "complementary-infinitive-range",
+        "sis-tas"
+      ],
+      "vocabUsed": [
+        "norėti",
+        "skaityti",
+        "šis",
+        "knyga"
+      ]
+    },
+    {
+      "id": "a206-q8",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which statements are correct?",
+      "options": [
+        "*Einu pirkti* needs no *kad*.",
+        "*Dirbu, kad uždirbčiau* uses the conditional of purpose.",
+        "*Turiu knygą* and *turiu eiti* use *turėti* in the same sense.",
+        "A nominal infinitive often takes a neuter adjective as predicate."
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "*Turiu knygą* is possession; *turiu eiti* is obligation. The complement — noun against infinitive — decides the sense (¶175).",
+      "rulesTested": [
+        "purposive-infinitive",
+        "purpose-kad",
+        "complementary-infinitive-range",
+        "nominal-infinitive"
+      ],
+      "vocabUsed": [
+        "eiti",
+        "pirkti",
+        "dirbti",
+        "uždirbti",
+        "turėti",
+        "knyga"
+      ]
+    },
+    {
+      "id": "a206-q9",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Which is the correct purpose clause?",
+      "options": [
+        "Dirbu uždirbti pinigų.",
+        "Dirbu, kad uždirbčiau pinigų.",
+        "Dirbu, kad uždirbti pinigų.",
+        "Dirbu pirkti pinigų."
+      ],
+      "correct": 1,
+      "explanation": "Without a motion verb, purpose is **kad** + conditional. A bare infinitive after *dirbti* is not available; *kad* + infinitive is equally wrong.",
+      "rulesTested": [
+        "purpose-kad",
+        "infinitive-choice"
+      ],
+      "vocabUsed": [
+        "dirbti",
+        "uždirbti",
+        "pinigai",
+        "kad"
+      ]
+    },
+    {
+      "id": "a206-q10",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "How many distinct **jobs** can the infinitive do at this level?",
+      "answer": 4,
+      "unit": "jobs",
+      "explanation": "Four: complement, purpose after motion, purpose with *kad* + conditional, and nominal subject. Mixing them is the usual error.",
+      "rulesTested": [
+        "infinitive-choice"
+      ],
+      "vocabUsed": []
+    },
+    {
+      "id": "a206-q11",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**Einu pirkti pieno.** Why is *pieno* genitive?",
+      "options": [
+        "Because all purposive infinitives govern the genitive.",
+        "Because *pirkti* here takes the partitive genitive of what is obtained, as at A1.",
+        "Because *eiti* always takes the genitive.",
+        "Because the sentence is negated."
+      ],
+      "correct": 1,
+      "explanation": "The infinitive keeps the government of its verb (¶179). *Pirkti* with an indefinite amount takes the genitive; *eiti* only supplies the motion.",
+      "rulesTested": [
+        "infinitive-with-object",
+        "purposive-infinitive",
+        "genitive-quantity"
+      ],
+      "vocabUsed": [
+        "eiti",
+        "pirkti",
+        "pienas"
+      ]
+    },
+    {
+      "id": "a206-p1",
+      "type": "comprehension",
+      "difficulty": "medium",
+      "title": "Kodėl Tomas mokosi?",
+      "passage": "Tomas nori mokytis lietuvių kalbos, nes gyventi Vilniuje be kalbos sunku. Kiekvieną rytą jis eina į biblioteką skaityti. Jis pradeda dirbti anksti, kad vakare galėtų pailsėti. Draugai sako: „Tu turi daugiau ilsėtis!“ Bet Tomas atsako: „Bandau baigti knygą šiandien. Skaityti man naudinga, o kalbėti lietuviškai — dar naudingiau. Važiuoju į kursus mokytis, ne tik klausyti.“ Jeigu spės, jis ateis padėti man pirkti dovaną.",
+      "translation": "Tomas wants to learn Lithuanian, because living in Vilnius without the language is hard. Every morning he goes to the library to read. He begins to work early so that in the evening he can rest. Friends say: \"You have to rest more!\" But Tomas answers: \"I am trying to finish the book today. Reading is useful for me, and speaking Lithuanian is even more useful. I go to the courses to study, not only to listen.\" If he manages in time, he will come to help me buy a gift.",
+      "glossary": {
+        "biblioteką": "library (acc.)",
+        "kursus": "courses (acc. pl.)",
+        "dovaną": "gift (acc.)",
+        "naudingiau": "more useful (adv.)"
+      },
+      "questions": [
+        {
+          "id": "a206-p1-q1",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "Why does Tomas want to learn Lithuanian?",
+          "options": [
+            "Because reading is forbidden.",
+            "Because living in Vilnius without the language is hard.",
+            "Because he must buy a gift today.",
+            "Because his friends forbid resting."
+          ],
+          "correct": 1,
+          "explanation": "*gyventi Vilniuje be kalbos sunku* — a nominal infinitive with the neuter predicate *sunku*, giving the reason after *nes*.",
+          "rulesTested": [
+            "nominal-infinitive",
+            "nes-todel"
+          ],
+          "vocabUsed": [
+            "norėti",
+            "mokytis",
+            "gyventi",
+            "Vilnius",
+            "nes"
+          ]
+        },
+        {
+          "id": "a206-p1-q2",
+          "type": "multi",
+          "difficulty": "medium",
+          "stem": "Which phrases are **motion + purposive infinitive**?",
+          "options": [
+            "eina į biblioteką skaityti",
+            "Važiuoju į kursus mokytis",
+            "ateis padėti",
+            "pradeda dirbti"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "The first three follow *eiti / važiuoti / ateiti*. *Pradeda dirbti* is a complementary infinitive after *pradėti*, not purpose of motion.",
+          "rulesTested": [
+            "purposive-infinitive",
+            "complementary-infinitive-range",
+            "infinitive-choice"
+          ],
+          "vocabUsed": [
+            "eiti",
+            "skaityti",
+            "važiuoti",
+            "mokytis",
+            "ateiti",
+            "padėti",
+            "pradėti",
+            "dirbti"
+          ]
+        },
+        {
+          "id": "a206-p1-q3",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "**kad vakare galėtų pailsėti** — which construction is this?",
+          "options": [
+            "complementary infinitive only",
+            "purpose clause with *kad* + conditional",
+            "nominal infinitive",
+            "motion + bare infinitive"
+          ],
+          "correct": 1,
+          "explanation": "*Kad* + conditional *galėtų* is the purpose clause of ¶177, here completing why he begins work early.",
+          "rulesTested": [
+            "purpose-kad",
+            "conditional-formation"
+          ],
+          "vocabUsed": [
+            "kad",
+            "galėti",
+            "pailsėti"
+          ]
+        },
+        {
+          "id": "a206-p1-q4",
+          "type": "single",
+          "difficulty": "hard",
+          "stem": "**Skaityti man naudinga** — why *naudinga* not *naudingas*?",
+          "options": [
+            "Because *man* is dative.",
+            "Because the subject is an infinitive and the predicate is neuter.",
+            "Because the sentence is future.",
+            "Because *skaityti* is feminine."
+          ],
+          "correct": 1,
+          "explanation": "Nominal infinitive + neuter adjective (¶178, ¶121). *Man* is the person concerned (dative), not the subject that would force agreement.",
+          "rulesTested": [
+            "nominal-infinitive",
+            "neuter-adjective"
+          ],
+          "vocabUsed": [
+            "skaityti",
+            "man",
+            "naudingas"
+          ]
+        },
+        {
+          "id": "a206-p1-q5",
+          "type": "integer",
+          "difficulty": "hard",
+          "stem": "How many complementary infinitives depend on **bandyti**, **pradėti**, or **turėti** in the passage?",
+          "answer": 3,
+          "unit": "infinitives",
+          "explanation": "Three: *pradeda dirbti*, *turi … ilsėtis*, *Bandau baigti*. (*Nori mokytis* is also complementary, but after *norėti*, not one of the three verbs named in the question.)",
+          "rulesTested": [
+            "complementary-infinitive-range"
+          ],
+          "vocabUsed": [
+            "pradėti",
+            "dirbti",
+            "turėti",
+            "bandyti",
+            "baigti"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a206-x1",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete: **Bandau ____ lietuviškai.** (I try to speak Lithuanian.)",
+      "options": [
+        "kalbėti",
+        "kalbu",
+        "kalbėčiau",
+        "kalbos"
+      ],
+      "correct": 0,
+      "explanation": "**Bandyti** takes a complementary infinitive: *bandau kalbėti*.",
+      "rulesTested": [
+        "complementary-infinitive-range"
+      ],
+      "vocabUsed": [
+        "bandyti"
+      ]
+    },
+    {
+      "id": "a206-x2",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete: **Ar moki ____?** (Can you swim? / do you know how)",
+      "options": [
+        "plaukti",
+        "plaukiu",
+        "plaukčiau",
+        "plaukimo"
+      ],
+      "correct": 0,
+      "explanation": "*Mokėti* (know how) + infinitive: *moki plaukti*.",
+      "rulesTested": [
+        "complementary-infinitive-range"
+      ],
+      "vocabUsed": [
+        "mokėti",
+        "plaukti"
+      ]
+    },
+    {
+      "id": "a206-x3",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete: **Ji atėjo ____.** (She came to help.)",
+      "options": [
+        "padėti",
+        "padeda",
+        "kad padėti",
+        "padėčiau"
+      ],
+      "correct": 0,
+      "explanation": "Motion + bare purposive infinitive: *atėjo padėti*. No *kad* needed.",
+      "rulesTested": [
+        "purposive-infinitive"
+      ],
+      "vocabUsed": [
+        "padėti"
+      ]
+    },
+    {
+      "id": "a206-x4",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **____ yra naudinga.** (Reading is useful.)",
+      "options": [
+        "Skaityti",
+        "Skaitymas geras",
+        "Skaitau",
+        "Kad skaityti"
+      ],
+      "correct": 0,
+      "explanation": "Nominal infinitive as subject with neuter *naudinga*: *Skaityti yra naudinga*.",
+      "rulesTested": [
+        "nominal-infinitive"
+      ],
+      "vocabUsed": [
+        "naudingas"
+      ]
+    },
+    {
+      "id": "a206-x5",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Dirbu, kad ____.** (I work so that I may earn.)",
+      "options": [
+        "uždirbti",
+        "uždirbu",
+        "uždirbčiau",
+        "uždirbsiu"
+      ],
+      "correct": 2,
+      "explanation": "Purpose with *kad* takes the **conditional**: *kad uždirbčiau*.",
+      "rulesTested": [
+        "purpose-kad",
+        "infinitive-choice"
+      ],
+      "vocabUsed": [
+        "uždirbti",
+        "tam kad"
+      ]
+    },
+    {
+      "id": "a206-x6",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which correctly use a **complementary** infinitive?",
+      "options": [
+        "Pradedu rašyti.",
+        "Turiu eiti.",
+        "Einu pirkti.",
+        "Baigiu skaityti."
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "*Einu pirkti* is **purposive** after motion, not complementary. The others complete *pradėti / turėti / baigti*.",
+      "rulesTested": [
+        "complementary-infinitive-range",
+        "purposive-infinitive",
+        "infinitive-choice"
+      ],
+      "vocabUsed": [
+        "pradėti",
+        "turėti",
+        "pirkti",
+        "baigti"
+      ]
+    },
+    {
+      "id": "a206-x7",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "**Noriu skaityti šią knygą.** Who governs *šią knygą*?",
+      "options": [
+        "norėti (genitive)",
+        "skaityti (accusative)",
+        "norėti (accusative)",
+        "the whole phrase as one case"
+      ],
+      "correct": 1,
+      "explanation": "The infinitive keeps its own government: *skaityti* takes accusative *knygą*; *norėti* here takes the infinitive.",
+      "rulesTested": [
+        "infinitive-with-object"
+      ],
+      "vocabUsed": [
+        "norėti",
+        "skaityti"
+      ]
+    },
+    {
+      "id": "a206-x8",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Which is **wrong**?",
+      "options": [
+        "Einu pirkti.",
+        "Dirbu, kad uždirbčiau.",
+        "Dirbu uždirbti.",
+        "Grįžau pailsėti."
+      ],
+      "correct": 2,
+      "explanation": "Bare infinitive purpose without motion is not Lithuanian: use *kad* + conditional, not *dirbu uždirbti*.",
+      "rulesTested": [
+        "purpose-kad",
+        "infinitive-choice",
+        "purposive-infinitive"
+      ],
+      "vocabUsed": [
+        "uždirbti",
+        "pailsėti"
+      ]
+    },
+    {
+      "id": "a206-x9",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Match the job correctly:",
+      "options": [
+        "Noriu eiti — complementary",
+        "Einu pirkti — purposive after motion",
+        "Dirbu, kad uždirbčiau — kad + conditional purpose",
+        "Skaityti naudinga — complementary after galėti"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "*Skaityti naudinga* is the **nominal** infinitive, not a complement of *galėti*.",
+      "rulesTested": [
+        "infinitive-choice",
+        "complementary-infinitive-range",
+        "purposive-infinitive",
+        "purpose-kad",
+        "nominal-infinitive"
+      ],
+      "vocabUsed": [
+        "naudingas"
+      ]
+    },
+    {
+      "id": "a206-x10",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Complete: **Turime padėti ____.** (We have to help a friend.)",
+      "options": [
+        "draugą",
+        "draugo",
+        "draugui",
+        "draugu"
+      ],
+      "correct": 2,
+      "explanation": "*Padėti* keeps its **dative** under the infinitive: *padėti draugui*.",
+      "rulesTested": [
+        "infinitive-with-object",
+        "complementary-infinitive-range"
+      ],
+      "vocabUsed": []
+    },
+    {
+      "id": "a206-x11",
+      "type": "multi",
+      "difficulty": "easy",
+      "stem": "Which of these verbs take a **complementary** infinitive?",
+      "explanation": "*pradėti*, *bandyti*, and *mokėti* take a complementary infinitive. *eiti* takes a purposive infinitive of motion.",
+      "rulesTested": [
+        "complementary-infinitive-range",
+        "purposive-infinitive"
+      ],
+      "vocabUsed": [
+        "pradėti",
+        "bandyti",
+        "mokėti"
+      ],
+      "options": [
+        "pradėti",
+        "bandyti",
+        "eiti",
+        "mokėti"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "id": "a206-x12",
+      "type": "integer",
+      "difficulty": "medium",
+      "stem": "How many distinct **infinitive uses** must be kept apart at this level?",
+      "answer": 4,
+      "unit": "uses",
+      "explanation": "Four: complementary, motion-purpose, *kad* + conditional purpose, and nominal.",
+      "rulesTested": [
+        "infinitive-choice"
+      ],
+      "vocabUsed": []
+    },
+    {
+      "id": "a206-x13",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "**Turiu eiti** against **turiu knygą** — what decides the sense?",
+      "options": [
+        "The tense",
+        "The complement (infinitive vs noun)",
+        "The person ending",
+        "Whether *turėti* is reflexive"
+      ],
+      "correct": 1,
+      "explanation": "Infinitive → *must / have to*; noun → *have*. The complement decides.",
+      "rulesTested": [
+        "complementary-infinitive-range"
+      ],
+      "vocabUsed": []
+    },
+    {
+      "id": "a206-x14",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which are correct purposive-after-motion sentences?",
+      "options": [
+        "Važiuojame mokytis į Vilnių.",
+        "Grįžau pailsėti.",
+        "Pradedu mokytis.",
+        "Ji atėjo padėti."
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "*Pradedu mokytis* is complementary (*pradėti* + infinitive), not motion purpose.",
+      "rulesTested": [
+        "purposive-infinitive",
+        "complementary-infinitive-range"
+      ],
+      "vocabUsed": [
+        "mokytis",
+        "pailsėti",
+        "pradėti",
+        "padėti"
+      ]
+    }
+  ]
+}

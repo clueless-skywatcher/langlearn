@@ -119,7 +119,7 @@ FORMATS (JEE Advanced):
   single         four options, exactly one correct. Marked +4 / −1.
   multi          four options, one or more correct. Partial credit; −2 if any wrong option is chosen.
   integer        a non-negative integer answer, no options. Marked +4 / 0.
-  comprehension  a short passage in ${course.englishName} with 2–3 dependent questions of the above types.
+  comprehension  a short passage in ${course.englishName} with 2–5 dependent questions of the above types.
 
 REQUESTED MIX:
   single ${spec.counts.single}, multi ${spec.counts.multi}, integer ${spec.counts.integer}, comprehension ${spec.counts.comprehension}
@@ -233,8 +233,8 @@ export function defaultSpec(section: Section): GenerationSpec {
         covers: section.covers,
       }
     : {
-        counts: { single: 6, multi: 2, integer: 2, comprehension: 1 },
-        difficultyMix: { easy: 35, medium: 40, hard: 25 },
+        counts: { single: 10, multi: 4, integer: 3, comprehension: 1 },
+        difficultyMix: { easy: 25, medium: 40, hard: 35 },
       };
 }
 

@@ -1,0 +1,1120 @@
+{
+  "id": "a2-04",
+  "kind": "lesson",
+  "level": "A2",
+  "order": 5,
+  "title": "The Definite Adjective",
+  "summary": "Beside the short adjective of ¶17 Lithuanian keeps a long, pronominal form — *gerasis* against *geras* — used when the quality itself picks out a known individual. This section states when that form is required and how it declines.",
+  "rules": [
+    {
+      "id": "definite-adjective-nature",
+      "number": "163",
+      "heading": "Geras and Gerasis: the Two Series",
+      "statement": "Every qualitative adjective in Lithuanian has **two** full paradigms. The short form — *geras, gera* — is the ordinary one taught at ¶17: it describes. The long form — *gerasis, geroji* — is called **įvardžiuotinis**, the *pronominal* or *definite* adjective: it **identifies**. English has only the article to mark the difference (*a good teacher* against *the good teacher*); Lithuanian writes the difference into the adjective itself.",
+      "examples": [
+        {
+          "target": "Geras mokytojas padeda.",
+          "gloss": "A good teacher helps.",
+          "note": "any good teacher: short form"
+        },
+        {
+          "target": "Gerasis mokytojas padeda.",
+          "gloss": "The good teacher helps.",
+          "note": "the particular one already known: long form"
+        },
+        {
+          "target": "Naujas direktorius atėjo.",
+          "gloss": "A new director has come."
+        },
+        {
+          "target": "Naujasis direktorius atėjo.",
+          "gloss": "The new director has come."
+        }
+      ],
+      "footnotes": [
+        "The long form is historically the short adjective plus a worn-down demonstrative. The learner need not reconstruct the history: what matters is that the two series are kept distinct in every case."
+      ],
+      "seeAlso": [
+        "adjective-agreement",
+        "sis-tas"
+      ],
+      "core": true
+    },
+    {
+      "id": "definite-adjective-formation",
+      "number": "164",
+      "heading": "How the Long Form is Made",
+      "statement": "The long endings are added to the **stem** of the short adjective. From *-as* the masculine nominative singular is **-asis** and the feminine **-oji**; from *-us*, **-usis** and **-ioji**; from *-is*, **-ysis** and **-ėji** is not the pattern — *-is* adjectives give **-ysis, -ioji**. The stem softens where the short form already softens: *žalias* gives *žaliasis*, *gražus* gives *gražusis*.",
+      "paradigms": [
+        {
+          "caption": "Short → long, nominative singular",
+          "columns": [
+            "short m.",
+            "long m.",
+            "short f.",
+            "long f."
+          ],
+          "rows": [
+            {
+              "label": "-as",
+              "cells": [
+                "geras",
+                "gerasis",
+                "gera",
+                "geroji"
+              ]
+            },
+            {
+              "label": "-as",
+              "cells": [
+                "naujas",
+                "naujasis",
+                "nauja",
+                "naujoji"
+              ]
+            },
+            {
+              "label": "-as",
+              "cells": [
+                "senas",
+                "senasis",
+                "sena",
+                "senoji"
+              ]
+            },
+            {
+              "label": "-us",
+              "cells": [
+                "gražus",
+                "gražusis",
+                "graži",
+                "gražioji"
+              ]
+            },
+            {
+              "label": "-is",
+              "cells": [
+                "didelis",
+                "didysis",
+                "didelė",
+                "didžioji"
+              ]
+            }
+          ],
+          "footnote": "*didysis* keeps the soft stem of *didelis*; the short feminine *didelė* corresponds to long *didžioji*. Learn the pair with the word, as with any irregular stem."
+        }
+      ],
+      "examples": [
+        {
+          "target": "Senasis miestas yra gražus.",
+          "gloss": "The old town is beautiful."
+        },
+        {
+          "target": "Didžioji salė pilna.",
+          "gloss": "The great hall is full."
+        }
+      ],
+      "seeAlso": [
+        "definite-adjective-nature",
+        "adjective-agreement"
+      ],
+      "core": true
+    },
+    {
+      "id": "definite-adjective-declension",
+      "number": "165",
+      "heading": "The Long Form Declines in Full",
+      "statement": "The definite adjective agrees with its noun in **gender, number and case**, exactly as the short one does. What changes is only the ending series: the long endings are longer in every case, and they must be recognised in reading as readily as produced. A sample of *gerasis* shows the pattern; the other stems follow it.",
+      "paradigms": [
+        {
+          "caption": "gerasis / geroji, singular",
+          "columns": [
+            "case",
+            "masculine",
+            "feminine"
+          ],
+          "rows": [
+            {
+              "label": "nominative",
+              "cells": [
+                "gerasis",
+                "geroji"
+              ]
+            },
+            {
+              "label": "genitive",
+              "cells": [
+                "gerojo",
+                "gerosios"
+              ]
+            },
+            {
+              "label": "dative",
+              "cells": [
+                "gerajam",
+                "gerajai"
+              ]
+            },
+            {
+              "label": "accusative",
+              "cells": [
+                "gerąjį",
+                "gerąją"
+              ]
+            },
+            {
+              "label": "instrumental",
+              "cells": [
+                "geruoju",
+                "gerąja"
+              ]
+            },
+            {
+              "label": "locative",
+              "cells": [
+                "gerajame",
+                "gerojoje"
+              ]
+            }
+          ],
+          "footnote": "Plural nominative: *gerieji, gerosios*; genitive *gerųjų*; accusative *geruosius, gerąsias*. The vocative of the long form is rare and need not be practised at A2."
+        }
+      ],
+      "examples": [
+        {
+          "target": "Aš kalbu su naujuoju mokytoju.",
+          "gloss": "I am speaking with the new teacher.",
+          "note": "instrumental long form"
+        },
+        {
+          "target": "Gyvenu senojoje gatvėje.",
+          "gloss": "I live in the old street.",
+          "note": "locative feminine"
+        },
+        {
+          "target": "Ar matei gerąjį filmą?",
+          "gloss": "Did you see the good film?"
+        }
+      ],
+      "seeAlso": [
+        "definite-adjective-formation",
+        "adjective-agreement",
+        "adjective-number"
+      ],
+      "core": true
+    },
+    {
+      "id": "definite-when-required",
+      "number": "166",
+      "heading": "When the Long Form is Required",
+      "statement": "Use the definite adjective when the quality **picks out** a particular, already identifiable person or thing — the one the speaker and hearer can both point to. The short form remains the default for ordinary description, for predicates (*jis geras*), and for anything newly introduced. A useful test: if English would want *the* because the adjective itself is doing the identifying, Lithuanian wants the long form.",
+      "paradigms": [
+        {
+          "caption": "Short against long",
+          "columns": [
+            "situation",
+            "Lithuanian",
+            "why"
+          ],
+          "rows": [
+            {
+              "label": "description",
+              "cells": [
+                "Gera knyga.",
+                "any good book — short"
+              ]
+            },
+            {
+              "label": "identification",
+              "cells": [
+                "Geroji knyga ant stalo.",
+                "the particular good one — long"
+              ]
+            },
+            {
+              "label": "predicate",
+              "cells": [
+                "Ši knyga gera.",
+                "predicate: always short"
+              ]
+            },
+            {
+              "label": "first mention",
+              "cells": [
+                "Mačiau naują filmą.",
+                "not yet identified — short"
+              ]
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "target": "Kur yra senasis tiltas?",
+          "gloss": "Where is the old bridge?"
+        },
+        {
+          "target": "Naujasis studentas kalba lietuviškai.",
+          "gloss": "The new student speaks Lithuanian."
+        },
+        {
+          "target": "Filmas buvo geras.",
+          "gloss": "The film was good.",
+          "note": "predicate: short form only"
+        }
+      ],
+      "footnotes": [
+        "Speech often prefers the short form where careful writing keeps the long one. The learner should recognise both and produce the long form in the clear cases of ¶167 and in fixed names (¶168)."
+      ],
+      "seeAlso": [
+        "definite-adjective-nature",
+        "sis-tas",
+        "personal-vs-impersonal"
+      ],
+      "core": true
+    },
+    {
+      "id": "definite-substantivised",
+      "number": "167",
+      "heading": "The Adjective Standing Alone",
+      "statement": "When the noun is left out and the adjective stands for it — *the red one*, *the old one* — Lithuanian almost always uses the **long** form. The ending then carries gender and case as a pronoun would, which is why the series is called pronominal.",
+      "examples": [
+        {
+          "target": "Noriu raudonosios.",
+          "gloss": "I want the red one.",
+          "note": "feminine genitive after norėti (¶39)"
+        },
+        {
+          "target": "Duok man naująjį.",
+          "gloss": "Give me the new one.",
+          "note": "masculine accusative"
+        },
+        {
+          "target": "Senoji jau išėjo.",
+          "gloss": "The old woman (the old one) has already left."
+        }
+      ],
+      "seeAlso": [
+        "definite-when-required",
+        "wanting-liking",
+        "sis-tas"
+      ],
+      "core": true
+    },
+    {
+      "id": "definite-fixed-names",
+      "number": "168",
+      "heading": "Fixed Names and Titles",
+      "statement": "A number of proper names and set titles are built on the long form and are not optional: **Naujieji metai** (New Year), street and institution names (*Senoji gatvė*), chapter headings, and many book titles. Here the long form is part of the name, not a choice of style — the short form would simply be a different phrase.",
+      "examples": [
+        {
+          "target": "Naujieji metai prasideda sausio pirmą.",
+          "gloss": "New Year begins on the first of January."
+        },
+        {
+          "target": "Gyvenu Senosiose Vilniaus gatvėse.",
+          "gloss": "I live in the Old Streets of Vilnius.",
+          "note": "a fixed local name may keep the long plural"
+        },
+        {
+          "target": "Skaitau Didžiąją knygą.",
+          "gloss": "I am reading the Great Book."
+        }
+      ],
+      "footnotes": [
+        "Ordinals and superlatives often look definite (*pirmasis, geriausiasis*) in older or elevated style; the everyday superlative of ¶117 (*geriausias*) is already enough for A2 production."
+      ],
+      "seeAlso": [
+        "definite-adjective-nature",
+        "ordinals",
+        "adjective-superlative"
+      ],
+      "core": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "lemma": "gerasis",
+      "gloss": "the good (one) — definite/pronominal adjective",
+      "pos": "adjective",
+      "forms": {
+        "masc": "gerasis",
+        "fem": "geroji"
+      },
+      "notes": "Long form of geras; declines in full (¶165)."
+    },
+    {
+      "lemma": "naujasis",
+      "gloss": "the new (one) — definite adjective",
+      "pos": "adjective",
+      "forms": {
+        "masc": "naujasis",
+        "fem": "naujoji"
+      }
+    },
+    {
+      "lemma": "senasis",
+      "gloss": "the old (one) — definite adjective",
+      "pos": "adjective",
+      "forms": {
+        "masc": "senasis",
+        "fem": "senoji"
+      }
+    },
+    {
+      "lemma": "raudonas",
+      "gloss": "red",
+      "pos": "adjective",
+      "forms": {
+        "masc": "raudonas",
+        "fem": "raudona"
+      }
+    },
+    {
+      "lemma": "žalias",
+      "gloss": "green",
+      "pos": "adjective",
+      "forms": {
+        "masc": "žalias",
+        "fem": "žalia"
+      }
+    },
+    {
+      "lemma": "direktorius",
+      "gloss": "director, headmaster",
+      "pos": "noun",
+      "forms": {
+        "nom": "direktorius",
+        "gen": "direktoriaus",
+        "acc": "direktorių",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "tiltas",
+      "gloss": "bridge",
+      "pos": "noun",
+      "forms": {
+        "nom": "tiltas",
+        "gen": "tilto",
+        "acc": "tiltą",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "salė",
+      "gloss": "hall, auditorium",
+      "pos": "noun",
+      "forms": {
+        "nom": "salė",
+        "gen": "salės",
+        "acc": "salę",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "pilnas",
+      "gloss": "full",
+      "pos": "adjective",
+      "forms": {
+        "masc": "pilnas",
+        "fem": "pilna"
+      }
+    },
+    {
+      "lemma": "Naujieji metai",
+      "gloss": "New Year",
+      "pos": "noun",
+      "notes": "Fixed plural name; always the long form."
+    }
+  ],
+  "drills": [
+    {
+      "id": "a204-q1",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "What is the definite (long) masculine nominative of **geras**?",
+      "options": [
+        "gerasis",
+        "geresnis",
+        "geriausias",
+        "gerai"
+      ],
+      "correct": 0,
+      "explanation": "The long form adds **-asis** to the stem of an *-as* adjective: *gerasis*. *geresnis* is the comparative and *geriausias* the superlative.",
+      "rulesTested": [
+        "definite-adjective-formation",
+        "definite-adjective-nature"
+      ],
+      "vocabUsed": [
+        "geras",
+        "gerasis"
+      ]
+    },
+    {
+      "id": "a204-q2",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete: **____ mokytojas atėjo.** (The new teacher has come — the particular one.)",
+      "options": [
+        "Naujas",
+        "Naujasis",
+        "Naujesnis",
+        "Naujausias"
+      ],
+      "correct": 1,
+      "explanation": "Identification of a known individual wants the long form **naujasis**. The short *naujas* would introduce someone as merely new.",
+      "rulesTested": [
+        "definite-when-required",
+        "definite-adjective-nature"
+      ],
+      "vocabUsed": [
+        "naujasis",
+        "naujas",
+        "mokytojas",
+        "ateiti"
+      ]
+    },
+    {
+      "id": "a204-q3",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete: **Filmas buvo ____.** (The film was good.)",
+      "options": [
+        "gerasis",
+        "geras",
+        "gerąjį",
+        "geroji"
+      ],
+      "correct": 1,
+      "explanation": "A predicate adjective is always the **short** form: *geras*. The long form identifies a noun; it does not stand after *būti* as a description.",
+      "rulesTested": [
+        "definite-when-required"
+      ],
+      "vocabUsed": [
+        "filmas",
+        "būti",
+        "geras",
+        "gerasis"
+      ]
+    },
+    {
+      "id": "a204-q4",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "What is the feminine nominative long form of **naujas**?",
+      "options": [
+        "nauja",
+        "naujoji",
+        "naująją",
+        "naujosios"
+      ],
+      "correct": 1,
+      "explanation": "From *-as* the feminine long nominative is **-oji**: *naujoji*. *nauja* is the short form; *naująją* is accusative and *naujosios* genitive.",
+      "rulesTested": [
+        "definite-adjective-formation",
+        "definite-adjective-declension"
+      ],
+      "vocabUsed": [
+        "naujas",
+        "naujasis"
+      ]
+    },
+    {
+      "id": "a204-q5",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Gyvenu ____ gatvėje.** (I live in the old street.)",
+      "options": [
+        "sena",
+        "senoje",
+        "senojoje",
+        "senąja"
+      ],
+      "correct": 2,
+      "explanation": "Locative singular feminine of the long form is **senojoje**, agreeing with *gatvėje*. *senoje* would be the short locative.",
+      "rulesTested": [
+        "definite-adjective-declension",
+        "definite-when-required"
+      ],
+      "vocabUsed": [
+        "gyventi",
+        "senasis",
+        "senas",
+        "gatvė"
+      ]
+    },
+    {
+      "id": "a204-q6",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which sentences correctly use a **definite** adjective?",
+      "options": [
+        "Naujasis direktorius kalba.",
+        "Jis yra gerasis.",
+        "Noriu raudonosios.",
+        "Naujieji metai prasideda sausį."
+      ],
+      "correct": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "The first identifies a known director; the third is the adjective standing alone (*the red one*); the fourth is a fixed name. A predicate wants the short form — *jis yra geras*, not *gerasis*.",
+      "rulesTested": [
+        "definite-when-required",
+        "definite-substantivised",
+        "definite-fixed-names"
+      ],
+      "vocabUsed": [
+        "naujasis",
+        "direktorius",
+        "kalbėti",
+        "geras",
+        "gerasis",
+        "norėti",
+        "raudonas",
+        "Naujieji metai"
+      ]
+    },
+    {
+      "id": "a204-q7",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Duok man ____.** (Give me the new one — masculine.)",
+      "options": [
+        "naują",
+        "naująjį",
+        "naująją",
+        "naujojo"
+      ],
+      "correct": 1,
+      "explanation": "Standing alone for a masculine noun in the accusative, the long form is **naująjį**. *naują* is the short accusative; *naująją* is feminine.",
+      "rulesTested": [
+        "definite-substantivised",
+        "definite-adjective-declension"
+      ],
+      "vocabUsed": [
+        "duoti",
+        "naujasis",
+        "naujas"
+      ]
+    },
+    {
+      "id": "a204-q8",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Why is **Didžioji salė** long-form, not *Didelė salė*?",
+      "options": [
+        "Because *salė* is always feminine.",
+        "Because the phrase names a particular hall — the quality identifies it, as a title would.",
+        "Because long forms are required after every noun.",
+        "Because *didžioji* is the comparative."
+      ],
+      "correct": 1,
+      "explanation": "Titles and identifying names take the long form (¶166–¶168). *didžioji* is the definite of *didelė*, not a comparative (*didesnė*).",
+      "rulesTested": [
+        "definite-when-required",
+        "definite-fixed-names",
+        "definite-adjective-formation"
+      ],
+      "vocabUsed": [
+        "salė",
+        "didelis",
+        "pilnas"
+      ]
+    },
+    {
+      "id": "a204-q9",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which statements are correct?",
+      "options": [
+        "The long form agrees in gender, number and case.",
+        "After *būti* the predicate adjective is normally short.",
+        "English *the* always forces the long form in Lithuanian.",
+        "*gerasis* and *geresnis* are the same series."
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanation": "English *the* is only a rough guide: Lithuanian uses the long form for identification, not for every definite noun. *geresnis* is the comparative, a different formation entirely.",
+      "rulesTested": [
+        "definite-adjective-declension",
+        "definite-when-required",
+        "definite-adjective-nature"
+      ],
+      "vocabUsed": [
+        "gerasis",
+        "būti",
+        "geras"
+      ]
+    },
+    {
+      "id": "a204-q10",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "How many **singular forms** does the definite adjective have when both genders are declined through the six main cases?",
+      "answer": 12,
+      "unit": "forms",
+      "explanation": "Six cases × two genders = twelve (*gerasis/geroji* through *gerajame/gerojoje*). The vocative is set aside here.",
+      "rulesTested": [
+        "definite-adjective-declension"
+      ],
+      "vocabUsed": [
+        "gerasis"
+      ]
+    },
+    {
+      "id": "a204-q11",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Complete: **Aš kalbu su ____ mokytoju.** (I am speaking with the new teacher.)",
+      "options": [
+        "nauju",
+        "naujuoju",
+        "naujuojuo",
+        "naujuo"
+      ],
+      "correct": 1,
+      "explanation": "Instrumental singular masculine of the long form is **naujuoju**, matching *mokytoju*. The short instrumental is *nauju*.",
+      "rulesTested": [
+        "definite-adjective-declension"
+      ],
+      "vocabUsed": [
+        "kalbėti",
+        "su",
+        "naujasis",
+        "mokytojas"
+      ]
+    },
+    {
+      "id": "a204-p1",
+      "type": "comprehension",
+      "difficulty": "medium",
+      "title": "Naujasis direktorius",
+      "passage": "Šiandien mokykloje kalbėjo naujasis direktorius. Jis jaunas, bet geras. Senasis direktorius išėjo pernai, ir visi jo dar ilgai lauks. Po susitikimo studentai sakė: „Norime klausyti naujojo, nes jis kalba aiškiai.“ Viena mergina pridūrė: „O man patinka senoji salė — joje geriau girdėti negu naujojoje.“ Naujieji metai netoli, todėl direktorius prašė ateiti į didžiąją šventę.",
+      "translation": "Today the new director spoke at the school. He is young, but good. The old director left last year, and everyone will still miss him for a long time. After the meeting the students said: \"We want to listen to the new one, because he speaks clearly.\" One girl added: \"And I like the old hall — one hears better in it than in the new one.\" New Year is not far off, so the director asked them to come to the great celebration.",
+      "glossary": {
+        "mokykloje": "at school (mokykla)",
+        "pernai": "last year",
+        "lauks": "will wait for / miss (laukti)",
+        "susitikimo": "meeting (gen.)",
+        "pridūrė": "added (pridurti)",
+        "girdėti": "to hear",
+        "šventę": "celebration, feast (acc.)"
+      },
+      "questions": [
+        {
+          "id": "a204-p1-q1",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "Who spoke at the school today?",
+          "options": [
+            "the old director",
+            "the new director",
+            "a student",
+            "nobody"
+          ],
+          "correct": 1,
+          "explanation": "*naujasis direktorius* — the long form marks the particular new director now in office.",
+          "rulesTested": [
+            "definite-when-required",
+            "definite-adjective-nature"
+          ],
+          "vocabUsed": [
+            "naujasis",
+            "direktorius",
+            "senasis"
+          ]
+        },
+        {
+          "id": "a204-p1-q2",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Why is **Jis jaunas, bet geras** short-form?",
+          "options": [
+            "Because *jis* forbids long adjectives.",
+            "Because both adjectives are predicates after the implied *yra*.",
+            "Because the director is not yet known.",
+            "Because short forms are always past-tense."
+          ],
+          "correct": 1,
+          "explanation": "Predicate adjectives stay short: *jaunas*, *geras*. The long forms earlier in the passage (*naujasis, senasis*) modify nouns and identify them.",
+          "rulesTested": [
+            "definite-when-required"
+          ],
+          "vocabUsed": [
+            "jaunas",
+            "geras",
+            "būti"
+          ]
+        },
+        {
+          "id": "a204-p1-q3",
+          "type": "multi",
+          "difficulty": "medium",
+          "stem": "Which long forms appear in the passage?",
+          "options": [
+            "naujasis",
+            "senasis",
+            "senoji",
+            "geresnis"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "*naujasis*, *senasis* and *senoji* (in *senoji salė*) are definite adjectives. *geresnis* would be a comparative and does not occur here; the passage has the adverb *geriau*.",
+          "rulesTested": [
+            "definite-adjective-formation",
+            "definite-adjective-declension"
+          ],
+          "vocabUsed": [
+            "naujasis",
+            "senasis",
+            "salė"
+          ]
+        },
+        {
+          "id": "a204-p1-q4",
+          "type": "single",
+          "difficulty": "hard",
+          "stem": "**Norime klausyti naujojo** — why *naujojo*?",
+          "options": [
+            "It is nominative plural.",
+            "It is the genitive singular masculine long form, governed by *klausyti*.",
+            "It is the short genitive of *naujas*.",
+            "It is an adverb."
+          ],
+          "correct": 1,
+          "explanation": "*klausyti* takes the genitive (¶39 footnote). The long masculine genitive is *naujojo* — *the new one* as object of listening.",
+          "rulesTested": [
+            "definite-substantivised",
+            "definite-adjective-declension",
+            "wanting-liking"
+          ],
+          "vocabUsed": [
+            "norėti",
+            "naujasis"
+          ]
+        },
+        {
+          "id": "a204-p1-q5",
+          "type": "integer",
+          "difficulty": "hard",
+          "stem": "How many times does a form of the fixed name **Naujieji metai** (or the same long stem in that name) appear?",
+          "answer": 1,
+          "unit": "times",
+          "explanation": "Once: *Naujieji metai netoli*. It is the set plural name of ¶168, not a free choice of adjective.",
+          "rulesTested": [
+            "definite-fixed-names"
+          ],
+          "vocabUsed": [
+            "Naujieji metai",
+            "metai"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a204-x1",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "What is the definite feminine nominative of **gera**?",
+      "options": [
+        "geroji",
+        "geresinė",
+        "geriausia",
+        "gerąją"
+      ],
+      "correct": 0,
+      "explanation": "Long feminine nominative of an *-as/-a* adjective is **-oji**: *geroji*.",
+      "rulesTested": [
+        "definite-adjective-formation"
+      ],
+      "vocabUsed": [
+        "gerasis"
+      ]
+    },
+    {
+      "id": "a204-x2",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete: **____ direktorius atėjo.** (The new director has come — identified.)",
+      "options": [
+        "Naujas",
+        "Naujasis",
+        "Naujesnis",
+        "Naujausias"
+      ],
+      "correct": 1,
+      "explanation": "When the adjective identifies a known individual, use the long form: *naujasis*.",
+      "rulesTested": [
+        "definite-when-required",
+        "definite-adjective-nature"
+      ],
+      "vocabUsed": [
+        "naujasis",
+        "direktorius"
+      ]
+    },
+    {
+      "id": "a204-x3",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete: **Ši knyga ____.** (This book is good — predicate.)",
+      "options": [
+        "geroji",
+        "gera",
+        "gerasis",
+        "gerąją"
+      ],
+      "correct": 1,
+      "explanation": "Predicates take the **short** form: *ši knyga gera*.",
+      "rulesTested": [
+        "definite-when-required"
+      ],
+      "vocabUsed": [
+        "geras"
+      ]
+    },
+    {
+      "id": "a204-x4",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "What is the accusative singular masculine of **gerasis**?",
+      "options": [
+        "gerąjį",
+        "gerąją",
+        "gerąjįjį",
+        "gerą"
+      ],
+      "correct": 0,
+      "explanation": "Long masculine accusative singular: **gerąjį**. *gerąją* is feminine.",
+      "rulesTested": [
+        "definite-adjective-declension"
+      ],
+      "vocabUsed": [
+        "gerasis"
+      ]
+    },
+    {
+      "id": "a204-x5",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Gyvenu ____ gatvėje.** (I live in the old street.)",
+      "options": [
+        "senoje",
+        "senojoje",
+        "senojo",
+        "senąja"
+      ],
+      "correct": 1,
+      "explanation": "Locative feminine long form: *senojoje*.",
+      "rulesTested": [
+        "definite-adjective-declension",
+        "definite-when-required"
+      ],
+      "vocabUsed": [
+        "senasis"
+      ]
+    },
+    {
+      "id": "a204-x6",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which correctly use a **long** form?",
+      "options": [
+        "Kur yra senasis tiltas?",
+        "Filmas buvo gerasis.",
+        "Noriu žaliosios.",
+        "Naujieji metai prasideda sausį."
+      ],
+      "correct": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "Predicate wants short *geras*. Identification, substantivised adjective, and the fixed name *Naujieji metai* take the long form.",
+      "rulesTested": [
+        "definite-when-required",
+        "definite-substantivised",
+        "definite-fixed-names"
+      ],
+      "vocabUsed": [
+        "senasis",
+        "tiltas",
+        "gerasis",
+        "žalias",
+        "Naujieji metai"
+      ]
+    },
+    {
+      "id": "a204-x7",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "What is the definite masculine nominative of **gražus**?",
+      "options": [
+        "gražusis",
+        "gražiasis",
+        "gražiausias",
+        "gražusysis"
+      ],
+      "correct": 0,
+      "explanation": "From *-us*: long masculine **-usis** → *gražusis*.",
+      "rulesTested": [
+        "definite-adjective-formation"
+      ],
+      "vocabUsed": []
+    },
+    {
+      "id": "a204-x8",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "What is the instrumental singular masculine of **naujasis**?",
+      "options": [
+        "naujuoju",
+        "naujuo",
+        "naujuojuo",
+        "nauju"
+      ],
+      "correct": 0,
+      "explanation": "Long instrumental masculine: **-uoju** → *naujuoju* (*kalbu su naujuoju mokytoju*).",
+      "rulesTested": [
+        "definite-adjective-declension"
+      ],
+      "vocabUsed": [
+        "naujasis"
+      ]
+    },
+    {
+      "id": "a204-x9",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which statements are true?",
+      "options": [
+        "Long form identifies; short form describes.",
+        "Predicate adjectives are short.",
+        "Standing alone (*the red one*) usually wants the long form.",
+        "*Naujieji metai* may freely use the short form."
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "*Naujieji metai* is a fixed name — the long form is required, not optional.",
+      "rulesTested": [
+        "definite-adjective-nature",
+        "definite-when-required",
+        "definite-substantivised",
+        "definite-fixed-names"
+      ],
+      "vocabUsed": [
+        "Naujieji metai"
+      ]
+    },
+    {
+      "id": "a204-x10",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "What is the definite feminine nominative of **didelis**?",
+      "options": [
+        "didelėji",
+        "didžioji",
+        "didžiojiė",
+        "didžiojiis"
+      ],
+      "correct": 1,
+      "explanation": "Soft stem: short *didelė* ↔ long **didžioji**.",
+      "rulesTested": [
+        "definite-adjective-formation"
+      ],
+      "vocabUsed": [
+        "salė"
+      ]
+    },
+    {
+      "id": "a204-x11",
+      "type": "integer",
+      "difficulty": "medium",
+      "stem": "How many **genders** does the long-form nominative pair *gerasis / geroji* distinguish?",
+      "answer": 2,
+      "unit": "genders",
+      "explanation": "Two: masculine *gerasis* and feminine *geroji*.",
+      "rulesTested": [
+        "definite-adjective-formation",
+        "definite-adjective-nature"
+      ],
+      "vocabUsed": [
+        "gerasis"
+      ]
+    },
+    {
+      "id": "a204-x12",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "How many **feminine singular** forms does *geroji* have in the six main cases?",
+      "answer": 6,
+      "unit": "forms",
+      "explanation": "Six: *geroji, gerosios, gerajai, gerąją, gerąja, gerojoje*.",
+      "rulesTested": [
+        "definite-adjective-declension"
+      ],
+      "vocabUsed": [
+        "gerasis"
+      ]
+    },
+    {
+      "id": "a204-x13",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete: **Duok man ____.** (Give me the new one — masculine.)",
+      "options": [
+        "naują",
+        "naująjį",
+        "naujojo",
+        "naujuoju"
+      ],
+      "correct": 1,
+      "explanation": "Substantivised long accusative masculine: *naująjį*.",
+      "rulesTested": [
+        "definite-substantivised",
+        "definite-adjective-declension"
+      ],
+      "vocabUsed": [
+        "naujasis"
+      ]
+    },
+    {
+      "id": "a204-x14",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Match short → long correctly:",
+      "options": [
+        "senas → senasis",
+        "nauja → naujoji",
+        "geras → geresnis",
+        "žalias → žaliasis"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "*geresnis* is the **comparative**, not the long form (*gerasis*).",
+      "rulesTested": [
+        "definite-adjective-formation"
+      ],
+      "vocabUsed": [
+        "senasis",
+        "naujasis",
+        "gerasis",
+        "žalias"
+      ]
+    }
+  ]
+}

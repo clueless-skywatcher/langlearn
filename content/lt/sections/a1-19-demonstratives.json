@@ -14,24 +14,92 @@
       "paradigms": [
         {
           "caption": "šis and tas, singular",
-          "columns": ["case", "šis (m.)", "ši (f.)", "tas (m.)", "ta (f.)"],
+          "columns": [
+            "case",
+            "šis (m.)",
+            "ši (f.)",
+            "tas (m.)",
+            "ta (f.)"
+          ],
           "rows": [
-            { "label": "nominative", "cells": ["šis", "ši", "tas", "ta"] },
-            { "label": "genitive", "cells": ["šio", "šios", "to", "tos"] },
-            { "label": "dative", "cells": ["šiam", "šiai", "tam", "tai"] },
-            { "label": "accusative", "cells": ["šį", "šią", "tą", "tą"] },
-            { "label": "instrumental", "cells": ["šiuo", "šia", "tuo", "ta"] },
-            { "label": "locative", "cells": ["šiame", "šioje", "tame", "toje"] }
+            {
+              "label": "nominative",
+              "cells": [
+                "šis",
+                "ši",
+                "tas",
+                "ta"
+              ]
+            },
+            {
+              "label": "genitive",
+              "cells": [
+                "šio",
+                "šios",
+                "to",
+                "tos"
+              ]
+            },
+            {
+              "label": "dative",
+              "cells": [
+                "šiam",
+                "šiai",
+                "tam",
+                "tai"
+              ]
+            },
+            {
+              "label": "accusative",
+              "cells": [
+                "šį",
+                "šią",
+                "tą",
+                "tą"
+              ]
+            },
+            {
+              "label": "instrumental",
+              "cells": [
+                "šiuo",
+                "šia",
+                "tuo",
+                "ta"
+              ]
+            },
+            {
+              "label": "locative",
+              "cells": [
+                "šiame",
+                "šioje",
+                "tame",
+                "toje"
+              ]
+            }
           ],
           "footnote": "In the plural: *šie, šios* and *tie, tos* in the nominative; *šių, tų* in the genitive; *šiuos, šias* and *tuos, tas* in the accusative."
         }
       ],
       "examples": [
-        { "target": "Šis butas didesnis negu tas.", "gloss": "This flat is bigger than that one." },
-        { "target": "Neskaityk šios knygos.", "gloss": "Don't read this book.", "note": "genitive of negation, the demonstrative agreeing" },
-        { "target": "Tame name gyvena mano brolis.", "gloss": "My brother lives in that house." }
+        {
+          "target": "Šis butas didesnis negu tas.",
+          "gloss": "This flat is bigger than that one."
+        },
+        {
+          "target": "Neskaityk šios knygos.",
+          "gloss": "Don't read this book.",
+          "note": "genitive of negation, the demonstrative agreeing"
+        },
+        {
+          "target": "Tame name gyvena mano brolis.",
+          "gloss": "My brother lives in that house."
+        }
       ],
-      "seeAlso": ["adjective-agreement", "negation-genitive", "comparison-negu"],
+      "seeAlso": [
+        "adjective-agreement",
+        "negation-genitive",
+        "comparison-negu"
+      ],
       "core": true
     },
     {
@@ -40,13 +108,22 @@
       "heading": "Anas: the Further Demonstrative",
       "statement": "Lithuanian has a **third** degree of pointing that English lacks. **Anas** is *that one over there* — further off than *tas*, or the second of two already contrasted. It declines like *geras*, with no irregularity at all, and it is much the rarest of the three.",
       "examples": [
-        { "target": "Šis namas naujas, o anas senas.", "gloss": "This house is new, and that one over there is old." },
-        { "target": "Ne šitą, aną!", "gloss": "Not this one — that one!" }
+        {
+          "target": "Šis namas naujas, o anas senas.",
+          "gloss": "This house is new, and that one over there is old."
+        },
+        {
+          "target": "Ne šitą, aną!",
+          "gloss": "Not this one — that one!"
+        }
       ],
       "footnotes": [
         "In speech *šitas* is often heard for *šis*; it is the colloquial form of the same word and declines like *geras*."
       ],
-      "seeAlso": ["sis-tas", "adjective-agreement"],
+      "seeAlso": [
+        "sis-tas",
+        "adjective-agreement"
+      ],
       "core": false
     },
     {
@@ -55,11 +132,23 @@
       "heading": "Toks: Such",
       "statement": "**Toks, tokia** is *such* or *of that kind*, and it is the answer to *koks?* (¶51) as *tas* is the answer to *kuris?*. Note the idiom **Koks tu geras!** — *how kind of you* — where Lithuanian uses the question word for an exclamation, and **toks** answers it.",
       "examples": [
-        { "target": "Noriu tokios pat knygos.", "gloss": "I want the same sort of book." },
-        { "target": "Toks oras man nepatinka.", "gloss": "I do not like weather like this." },
-        { "target": "Koks gražus miestas!", "gloss": "What a beautiful city!" }
+        {
+          "target": "Noriu tokios pat knygos.",
+          "gloss": "I want the same sort of book."
+        },
+        {
+          "target": "Toks oras man nepatinka.",
+          "gloss": "I do not like weather like this."
+        },
+        {
+          "target": "Koks gražus miestas!",
+          "gloss": "What a beautiful city!"
+        }
       ],
-      "seeAlso": ["koks", "adjective-agreement"],
+      "seeAlso": [
+        "koks",
+        "adjective-agreement"
+      ],
       "core": true
     },
     {
@@ -70,19 +159,51 @@
       "paradigms": [
         {
           "caption": "Three question words compared",
-          "columns": ["word", "asks for", "example"],
+          "columns": [
+            "word",
+            "asks for",
+            "example"
+          ],
           "rows": [
-            { "label": "koks", "cells": ["what kind", "Kokia tai knyga? — What sort of book is it?"] },
-            { "label": "kuris", "cells": ["which of several", "Kurią knygą skaitai? — Which book are you reading?"] },
-            { "label": "kelintas", "cells": ["position in order", "Kelinta valanda? — What time is it?"] }
+            {
+              "label": "koks",
+              "cells": [
+                "what kind",
+                "Kokia tai knyga? — What sort of book is it?"
+              ]
+            },
+            {
+              "label": "kuris",
+              "cells": [
+                "which of several",
+                "Kurią knygą skaitai? — Which book are you reading?"
+              ]
+            },
+            {
+              "label": "kelintas",
+              "cells": [
+                "position in order",
+                "Kelinta valanda? — What time is it?"
+              ]
+            }
           ]
         }
       ],
       "examples": [
-        { "target": "Kuris autobusas važiuoja į centrą?", "gloss": "Which bus goes to the centre?" },
-        { "target": "Kuriame aukšte gyveni?", "gloss": "Which floor do you live on?" }
+        {
+          "target": "Kuris autobusas važiuoja į centrą?",
+          "gloss": "Which bus goes to the centre?"
+        },
+        {
+          "target": "Kuriame aukšte gyveni?",
+          "gloss": "Which floor do you live on?"
+        }
       ],
-      "seeAlso": ["koks", "question-adverbs", "telling-the-hour"],
+      "seeAlso": [
+        "koks",
+        "question-adverbs",
+        "telling-the-hour"
+      ],
       "core": true
     },
     {
@@ -93,20 +214,56 @@
       "paradigms": [
         {
           "caption": "Whole, all, each",
-          "columns": ["Lithuanian", "English", "number"],
+          "columns": [
+            "Lithuanian",
+            "English",
+            "number"
+          ],
           "rows": [
-            { "label": "visas", "cells": ["visą dieną — all day", "singular: the whole of it"] },
-            { "label": "visi", "cells": ["visi studentai — all the students", "plural"] },
-            { "label": "kiekvienas", "cells": ["kiekvienas studentas — every student", "always singular"] }
+            {
+              "label": "visas",
+              "cells": [
+                "visą dieną — all day",
+                "singular: the whole of it"
+              ]
+            },
+            {
+              "label": "visi",
+              "cells": [
+                "visi studentai — all the students",
+                "plural"
+              ]
+            },
+            {
+              "label": "kiekvienas",
+              "cells": [
+                "kiekvienas studentas — every student",
+                "always singular"
+              ]
+            }
           ]
         }
       ],
       "examples": [
-        { "target": "Vakar lijo visą dieną.", "gloss": "Yesterday it rained all day.", "note": "accusative of duration (¶83)" },
-        { "target": "Visi jau grįžo.", "gloss": "They have all come back already." },
-        { "target": "Kiekvieną savaitę einu į kursus.", "gloss": "Every week I go to the classes." }
+        {
+          "target": "Vakar lijo visą dieną.",
+          "gloss": "Yesterday it rained all day.",
+          "note": "accusative of duration (¶83)"
+        },
+        {
+          "target": "Visi jau grįžo.",
+          "gloss": "They have all come back already."
+        },
+        {
+          "target": "Kiekvieną savaitę einu į kursus.",
+          "gloss": "Every week I go to the classes."
+        }
       ],
-      "seeAlso": ["adjective-number", "accusative-of-time", "particles"],
+      "seeAlso": [
+        "adjective-number",
+        "accusative-of-time",
+        "particles"
+      ],
       "core": true
     },
     {
@@ -117,21 +274,63 @@
       "paradigms": [
         {
           "caption": "The negative words and their doubling",
-          "columns": ["Lithuanian", "English", "the verb"],
+          "columns": [
+            "Lithuanian",
+            "English",
+            "the verb"
+          ],
           "rows": [
-            { "label": "nobody", "cells": ["Niekas neatėjo.", "Nobody came.", "negated"] },
-            { "label": "nothing", "cells": ["Nieko nematau.", "I see nothing.", "negated"] },
-            { "label": "never", "cells": ["Niekada nebuvau Kaune.", "I have never been to Kaunas.", "negated"] },
-            { "label": "nowhere", "cells": ["Niekur nevažiuoju.", "I am going nowhere.", "negated"] }
+            {
+              "label": "nobody",
+              "cells": [
+                "Niekas neatėjo.",
+                "Nobody came.",
+                "negated"
+              ]
+            },
+            {
+              "label": "nothing",
+              "cells": [
+                "Nieko nematau.",
+                "I see nothing.",
+                "negated"
+              ]
+            },
+            {
+              "label": "never",
+              "cells": [
+                "Niekada nebuvau Kaune.",
+                "I have never been to Kaunas.",
+                "negated"
+              ]
+            },
+            {
+              "label": "nowhere",
+              "cells": [
+                "Niekur nevažiuoju.",
+                "I am going nowhere.",
+                "negated"
+              ]
+            }
           ],
           "footnote": "Three negatives in one clause are perfectly ordinary: *Niekas niekada nieko nesakė* — nobody ever said anything."
         }
       ],
       "examples": [
-        { "target": "Buvau parduotuvėje, bet nieko nepirkau.", "gloss": "I was at the shop but bought nothing." },
-        { "target": "Mums nereikia nieko.", "gloss": "We need nothing." }
+        {
+          "target": "Buvau parduotuvėje, bet nieko nepirkau.",
+          "gloss": "I was at the shop but bought nothing."
+        },
+        {
+          "target": "Mums nereikia nieko.",
+          "gloss": "We need nothing."
+        }
       ],
-      "seeAlso": ["negation", "negation-genitive", "frequency-adverbs"],
+      "seeAlso": [
+        "negation",
+        "negation-genitive",
+        "frequency-adverbs"
+      ],
       "core": true
     },
     {
@@ -142,137 +341,379 @@
       "paradigms": [
         {
           "caption": "tas pats declined",
-          "columns": ["case", "masculine", "feminine"],
+          "columns": [
+            "case",
+            "masculine",
+            "feminine"
+          ],
           "rows": [
-            { "label": "nominative", "cells": ["tas pats", "ta pati"] },
-            { "label": "genitive", "cells": ["to paties", "tos pačios"] },
-            { "label": "dative", "cells": ["tam pačiam", "tai pačiai"] },
-            { "label": "accusative", "cells": ["tą patį", "tą pačią"] },
-            { "label": "locative", "cells": ["tame pačiame", "toje pačioje"] }
+            {
+              "label": "nominative",
+              "cells": [
+                "tas pats",
+                "ta pati"
+              ]
+            },
+            {
+              "label": "genitive",
+              "cells": [
+                "to paties",
+                "tos pačios"
+              ]
+            },
+            {
+              "label": "dative",
+              "cells": [
+                "tam pačiam",
+                "tai pačiai"
+              ]
+            },
+            {
+              "label": "accusative",
+              "cells": [
+                "tą patį",
+                "tą pačią"
+              ]
+            },
+            {
+              "label": "locative",
+              "cells": [
+                "tame pačiame",
+                "toje pačioje"
+              ]
+            }
           ],
           "footnote": "The *č* of *paties, pačios* is the softening of *t* before a back vowel, met for the fourth time now (¶28, ¶90, ¶117)."
         }
       ],
       "examples": [
-        { "target": "Mes gyvename tame pačiame name.", "gloss": "We live in the same house." },
-        { "target": "Tai ta pati knyga.", "gloss": "That is the same book." },
-        { "target": "Kitą savaitę važiuosime.", "gloss": "Next week we shall go." }
+        {
+          "target": "Mes gyvename tame pačiame name.",
+          "gloss": "We live in the same house."
+        },
+        {
+          "target": "Tai ta pati knyga.",
+          "gloss": "That is the same book."
+        },
+        {
+          "target": "Kitą savaitę važiuosime.",
+          "gloss": "Next week we shall go."
+        }
       ],
-      "seeAlso": ["sis-tas", "adjective-agreement", "future-uses"],
+      "seeAlso": [
+        "sis-tas",
+        "adjective-agreement",
+        "future-uses"
+      ],
       "core": true
     }
   ],
   "vocabulary": [
-    { "lemma": "tas", "gloss": "that", "pos": "pronoun", "forms": { "nom": "tas", "acc": "tą" }, "notes": "Feminine ta; declines and agrees like an adjective." },
-    { "lemma": "anas", "gloss": "that one over there", "pos": "pronoun", "forms": { "nom": "anas", "acc": "aną" } },
-    { "lemma": "toks", "gloss": "such, of that kind", "pos": "pronoun", "forms": { "nom": "toks", "acc": "tokį" }, "notes": "Feminine tokia." },
-    { "lemma": "kuris", "gloss": "which (of several)", "pos": "pronoun", "forms": { "nom": "kuris", "acc": "kurį" }, "notes": "Feminine kuri." },
-    { "lemma": "visas", "gloss": "whole; (plural) all", "pos": "adjective", "forms": { "masc": "visas", "fem": "visa" } },
-    { "lemma": "kiekvienas", "gloss": "each, every", "pos": "adjective", "forms": { "masc": "kiekvienas", "fem": "kiekviena" }, "notes": "Always singular." },
-    { "lemma": "niekas", "gloss": "nobody, nothing", "pos": "pronoun", "forms": { "nom": "niekas", "acc": "nieką" }, "notes": "Genitive nieko; requires the verb to be negated as well." },
-    { "lemma": "niekur", "gloss": "nowhere", "pos": "adverb", "notes": "Requires the verb to be negated as well." },
-    { "lemma": "centras", "gloss": "centre", "pos": "noun", "forms": { "nom": "centras", "gen": "centro", "acc": "centrą", "gender": "m." } },
-    { "lemma": "butas", "gloss": "flat, apartment", "pos": "noun", "forms": { "nom": "butas", "gen": "buto", "acc": "butą", "gender": "m." } },
-    { "lemma": "studentas", "gloss": "student", "pos": "noun", "forms": { "nom": "studentas", "gen": "studento", "acc": "studentą", "gender": "m." } }
+    {
+      "lemma": "tas",
+      "gloss": "that",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "tas",
+        "acc": "tą"
+      },
+      "notes": "Feminine ta; declines and agrees like an adjective."
+    },
+    {
+      "lemma": "anas",
+      "gloss": "that one over there",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "anas",
+        "acc": "aną"
+      }
+    },
+    {
+      "lemma": "toks",
+      "gloss": "such, of that kind",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "toks",
+        "acc": "tokį"
+      },
+      "notes": "Feminine tokia."
+    },
+    {
+      "lemma": "kuris",
+      "gloss": "which (of several)",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "kuris",
+        "acc": "kurį"
+      },
+      "notes": "Feminine kuri."
+    },
+    {
+      "lemma": "visas",
+      "gloss": "whole; (plural) all",
+      "pos": "adjective",
+      "forms": {
+        "masc": "visas",
+        "fem": "visa"
+      }
+    },
+    {
+      "lemma": "kiekvienas",
+      "gloss": "each, every",
+      "pos": "adjective",
+      "forms": {
+        "masc": "kiekvienas",
+        "fem": "kiekviena"
+      },
+      "notes": "Always singular."
+    },
+    {
+      "lemma": "niekas",
+      "gloss": "nobody, nothing",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "niekas",
+        "acc": "nieką"
+      },
+      "notes": "Genitive nieko; requires the verb to be negated as well."
+    },
+    {
+      "lemma": "niekur",
+      "gloss": "nowhere",
+      "pos": "adverb",
+      "notes": "Requires the verb to be negated as well."
+    },
+    {
+      "lemma": "centras",
+      "gloss": "centre",
+      "pos": "noun",
+      "forms": {
+        "nom": "centras",
+        "gen": "centro",
+        "acc": "centrą",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "butas",
+      "gloss": "flat, apartment",
+      "pos": "noun",
+      "forms": {
+        "nom": "butas",
+        "gen": "buto",
+        "acc": "butą",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "studentas",
+      "gloss": "student",
+      "pos": "noun",
+      "forms": {
+        "nom": "studentas",
+        "gen": "studento",
+        "acc": "studentą",
+        "gender": "m."
+      }
+    }
   ],
   "drills": [
     {
       "id": "a119-q1",
       "type": "single",
       "difficulty": "easy",
-      "stem": "What is the accusative singular feminine of **šis**?",
-      "options": ["šį", "šią", "šios", "šioje"],
+      "stem": "Accusative singular feminine of **šis**:",
+      "options": [
+        "šį",
+        "šią",
+        "šios",
+        "šioje"
+      ],
       "correct": 1,
-      "explanation": "*šią*. *šį* is the masculine accusative, *šios* the feminine genitive, *šioje* the feminine locative.",
-      "rulesTested": ["sis-tas"],
-      "vocabUsed": ["šis"]
+      "explanation": "*šią*. *šį* is masculine accusative; *šios* feminine genitive; *šioje* feminine locative.",
+      "rulesTested": [
+        "sis-tas"
+      ],
+      "vocabUsed": [
+        "šis"
+      ]
     },
     {
       "id": "a119-q2",
       "type": "single",
       "difficulty": "easy",
-      "stem": "Complete: **____ autobusas važiuoja į centrą?** (Which bus goes to the centre?)",
-      "options": ["Koks", "Kuris", "Kelintas", "Toks"],
+      "stem": "Complete: **____ autobusas važiuoja į centrą?** (Which bus…)",
+      "options": [
+        "Koks",
+        "Kuris",
+        "Kelintas",
+        "Toks"
+      ],
       "correct": 1,
-      "explanation": "**Kuris** asks which one out of a known set — the buses at the stop. *Koks* would ask what **kind** of bus it is.",
-      "rulesTested": ["kuris", "koks"],
-      "vocabUsed": ["kuris", "koks", "kelintas", "toks", "autobusas", "važiuoti", "centras"]
+      "explanation": "**Kuris** selects from a known set. *Koks* asks *what kind*; *kelintas* asks ordinal position.",
+      "rulesTested": [
+        "kuris",
+        "koks"
+      ],
+      "vocabUsed": [
+        "kuris",
+        "koks",
+        "kelintas",
+        "toks",
+        "autobusas",
+        "važiuoti",
+        "centras"
+      ]
     },
     {
       "id": "a119-q3",
       "type": "single",
       "difficulty": "easy",
       "stem": "How is *Nobody came* said?",
-      "options": ["Niekas atėjo.", "Niekas neatėjo.", "Ne niekas atėjo.", "Neniekas atėjo."],
+      "options": [
+        "Niekas atėjo.",
+        "Niekas neatėjo.",
+        "Ne niekas atėjo.",
+        "Neniekas atėjo."
+      ],
       "correct": 1,
-      "explanation": "A negative word requires the verb to be negated as well: *Niekas neatėjo*. Lithuanian doubles its negatives where English forbids it.",
-      "rulesTested": ["niekas-negation", "negation"],
-      "vocabUsed": ["niekas", "ateiti"]
+      "explanation": "A negative word requires the verb negated as well: *Niekas neatėjo*. Single negation is simply wrong.",
+      "rulesTested": [
+        "niekas-negation",
+        "negation"
+      ],
+      "vocabUsed": [
+        "niekas",
+        "ateiti"
+      ]
     },
     {
       "id": "a119-q4",
       "type": "single",
       "difficulty": "medium",
-      "stem": "**Kurią knygą skaitai?** and **Kokią knygą skaitai?** — what is the difference?",
+      "stem": "**Kurią knygą skaitai?** vs **Kokią knygą skaitai?**",
       "options": [
-        "None; the two are interchangeable.",
-        "The first asks which of the books before you; the second asks what sort of book it is.",
-        "The first is polite and the second familiar.",
-        "The first is plural."
+        "Interchangeable.",
+        "First: which of the books before you; second: what sort of book.",
+        "First is polite; second familiar.",
+        "First is plural."
       ],
       "correct": 1,
-      "explanation": "*kuris* selects from a known set, *koks* asks after quality or kind. English says *which* for both and gives the learner no help.",
-      "rulesTested": ["kuris", "toks", "koks"],
-      "vocabUsed": ["kuris", "knyga", "skaityti", "koks"]
+      "explanation": "*kuris* selects from a known set; *koks* asks quality/kind. English *which* covers both.",
+      "rulesTested": [
+        "kuris",
+        "toks",
+        "koks"
+      ],
+      "vocabUsed": [
+        "kuris",
+        "knyga",
+        "skaityti",
+        "koks"
+      ]
     },
     {
       "id": "a119-q5",
       "type": "single",
       "difficulty": "medium",
-      "stem": "Complete: **____ savaitę einu į kursus.** (Every week I go to the classes.)",
-      "options": ["Visą", "Visi", "Kiekvieną", "Kiekvieni"],
+      "stem": "Complete: **____ savaitę einu į kursus.** (Every week…)",
+      "options": [
+        "Visą",
+        "Visi",
+        "Kiekvieną",
+        "Kiekvieni"
+      ],
       "correct": 2,
-      "explanation": "*kiekvienas* is a distributive and is always singular; the accusative of recurring occasions gives *kiekvieną savaitę*. *Visą savaitę* would mean *for the whole week*.",
-      "rulesTested": ["visas-kiekvienas", "accusative-of-time"],
-      "vocabUsed": ["visas", "kiekvienas", "savaitė", "eiti"]
+      "explanation": "*kiekvienas* is always singular: *kiekvieną savaitę*. *Visą savaitę* = *for the whole week*.",
+      "rulesTested": [
+        "visas-kiekvienas",
+        "accusative-of-time"
+      ],
+      "vocabUsed": [
+        "visas",
+        "kiekvienas",
+        "savaitė",
+        "eiti"
+      ]
     },
     {
       "id": "a119-q6",
       "type": "multi",
       "difficulty": "medium",
-      "stem": "Which of these are **correct**?",
+      "stem": "Which negatives are correctly doubled?",
       "options": [
         "Nieko nematau.",
         "Nieko matau.",
         "Niekur nevažiuoju.",
         "Niekada nebuvau Kaune."
       ],
-      "correct": [0, 2, 3],
-      "explanation": "The second leaves the verb unnegated, which is impossible: *niekas, niekur, niekada* all require *ne-* on the verb beside them.",
-      "rulesTested": ["niekas-negation", "negation", "frequency-adverbs"],
-      "vocabUsed": ["niekas", "matyti", "niekur", "važiuoti", "niekada", "būti", "Kaunas"]
+      "correct": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "The second leaves the verb affirmative — impossible beside *nieko*. Every negative word needs *ne-* on the verb.",
+      "rulesTested": [
+        "niekas-negation",
+        "negation",
+        "frequency-adverbs"
+      ],
+      "vocabUsed": [
+        "niekas",
+        "matyti",
+        "niekur",
+        "važiuoti",
+        "niekada",
+        "būti",
+        "Kaunas"
+      ]
     },
     {
       "id": "a119-q7",
       "type": "single",
       "difficulty": "medium",
-      "stem": "Complete: **Mes gyvename ____ name.** (We live in the same house.)",
-      "options": ["tas pats", "tame pačiame", "to paties", "tą patį"],
+      "stem": "Complete: **Mes gyvename ____ name.** (in the same house)",
+      "options": [
+        "tas pats",
+        "tame pačiame",
+        "to paties",
+        "tą patį"
+      ],
       "correct": 1,
-      "explanation": "*name* is a locative, and **both** words of *tas pats* must follow it into that case: *tame pačiame*. English has one invariable word here and Lithuanian two variable ones.",
-      "rulesTested": ["tas-pats", "locative-singular"],
-      "vocabUsed": ["mes", "gyventi", "namas"]
+      "explanation": "Both words of *tas pats* follow *name* into the locative: *tame pačiame*. English has one invariable word.",
+      "rulesTested": [
+        "tas-pats",
+        "locative-singular"
+      ],
+      "vocabUsed": [
+        "mes",
+        "gyventi",
+        "namas"
+      ]
     },
     {
       "id": "a119-q8",
       "type": "single",
       "difficulty": "hard",
       "stem": "Complete: **Neskaityk ____ knygos.** (Don't read this book.)",
-      "options": ["ši", "šią", "šios", "šiai"],
+      "options": [
+        "ši",
+        "šią",
+        "šios",
+        "šiai"
+      ],
       "correct": 2,
-      "explanation": "The negated imperative puts its object in the genitive, and the demonstrative agrees with it: *šios knygos*. Two rules act at once, and the demonstrative follows the noun wherever the noun goes.",
-      "rulesTested": ["sis-tas", "imperative-negative", "negation-genitive"],
-      "vocabUsed": ["skaityti", "šis", "knyga"]
+      "explanation": "Negated imperative → genitive object; demonstrative agrees: *šios knygos*. Accusative *šią* is the near-miss.",
+      "rulesTested": [
+        "sis-tas",
+        "imperative-negative",
+        "negation-genitive"
+      ],
+      "vocabUsed": [
+        "skaityti",
+        "šis",
+        "knyga"
+      ]
     },
     {
       "id": "a119-q9",
@@ -282,38 +723,134 @@
       "options": [
         "*Kiekvienas* is always singular.",
         "*Visas* in the plural means *all*.",
-        "*Anas* points at something further off than *tas*.",
+        "*Anas* points further off than *tas*.",
         "*Tas pats* declines only in its first word."
       ],
-      "correct": [0, 1, 2],
-      "explanation": "Both words of *tas pats* decline — *to paties*, *tam pačiam*, *tame pačiame* — each agreeing with the noun. Lithuanian's three degrees of pointing, *šis, tas, anas*, are one more than English has.",
-      "rulesTested": ["visas-kiekvienas", "anas", "tas-pats"],
-      "vocabUsed": ["kiekvienas", "visas", "anas", "tas"]
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Both halves of *tas pats* decline (*to paties*, *tame pačiame*). *šis / tas / anas* are three degrees of pointing.",
+      "rulesTested": [
+        "visas-kiekvienas",
+        "anas",
+        "tas-pats"
+      ],
+      "vocabUsed": [
+        "kiekvienas",
+        "visas",
+        "anas",
+        "tas"
+      ]
     },
     {
       "id": "a119-q10",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**Toks oras man nepatinka.** *Toks* answers which question word?",
+      "options": [
+        "kuris?",
+        "koks?",
+        "kelintas?",
+        "kas?"
+      ],
+      "correct": 1,
+      "explanation": "**Toks** answers *koks?* (*what kind / such*). *tas* answers *kuris?*; *kelintas* asks ordinal position.",
+      "rulesTested": [
+        "toks",
+        "koks",
+        "kuris"
+      ],
+      "vocabUsed": [
+        "toks",
+        "oras",
+        "man",
+        "patikti",
+        "koks",
+        "kuris",
+        "kelintas"
+      ]
+    },
+    {
+      "id": "a119-q11",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which forms of *tas pats* correctly agree?",
+      "options": [
+        "tame pačiame name",
+        "ta pati knyga",
+        "to paties namas",
+        "tas pats knyga"
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanation": "*to paties namas* mismatches cases (genitive determiner + nominative noun as if one phrase). *tas pats knyga* fails gender. *ta pati knyga* and locative *tame pačiame name* agree throughout.",
+      "rulesTested": [
+        "tas-pats",
+        "sis-tas",
+        "adjective-agreement"
+      ],
+      "vocabUsed": [
+        "tas",
+        "namas",
+        "knyga"
+      ]
+    },
+    {
+      "id": "a119-q12",
       "type": "integer",
       "difficulty": "hard",
-      "stem": "**Niekas niekada nieko nesakė.** How many negative words does the sentence contain?",
+      "stem": "**Niekas niekada nieko nesakė.** How many negative words (including *ne-* on the verb)?",
       "answer": 4,
       "unit": "words",
-      "explanation": "Four: *niekas*, *niekada*, *nieko* and the *ne-* of *nesakė*. English would allow exactly one; Lithuanian requires that every negative word be accompanied by a negated verb, and piling them up is perfectly ordinary.",
-      "rulesTested": ["niekas-negation", "negation", "frequency-adverbs"],
-      "vocabUsed": ["niekas", "niekada", "sakyti"]
+      "explanation": "Four: *niekas*, *niekada*, *nieko*, and *ne-* of *nesakė*. English allows one; Lithuanian piles them.",
+      "rulesTested": [
+        "niekas-negation",
+        "negation",
+        "frequency-adverbs"
+      ],
+      "vocabUsed": [
+        "niekas",
+        "niekada",
+        "sakyti"
+      ]
+    },
+    {
+      "id": "a119-q13",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "How many **degrees of pointing** does Lithuanian distinguish among *šis*, *tas*, and *anas*?",
+      "answer": 3,
+      "unit": "degrees",
+      "explanation": "Three: near (*šis*), further/already mentioned (*tas*), further still / the other one (*anas*). English has only two.",
+      "rulesTested": [
+        "sis-tas",
+        "anas"
+      ],
+      "vocabUsed": [
+        "šis",
+        "tas",
+        "anas"
+      ]
     },
     {
       "id": "a119-p1",
       "type": "comprehension",
-      "difficulty": "medium",
+      "difficulty": "hard",
       "title": "Kuriame name?",
-      "passage": "– Atsiprašau, kuriame name gyvena Petras?\n– Tame pačiame, kuriame ir aš. Šitas namas naujas, o anas, prie parduotuvės, senas. Petras gyvena šiame, trečiame aukšte.\n– Ačiū. Vakar skambinau, bet niekas neatsakė.\n– Vakar jo nebuvo. Jis kiekvieną šeštadienį važiuoja pas mamą ir grįžta tik sekmadienį.\n– Tokia tvarka? Tada ateisiu rytoj.\n– Ateikite. Bet visą rytą jo nebus — jis dirba iki pirmos.",
-      "translation": "\"Excuse me, which house does Petras live in?\" — \"The same one I do. This house is new, and that one over there, by the shop, is old. Petras lives in this one, on the third floor.\" — \"Thank you. Yesterday I rang, but nobody answered.\" — \"He wasn't there yesterday. Every Saturday he goes to his mother's and doesn't come back until Sunday.\" — \"Is that the routine? Then I'll come tomorrow.\" — \"Do. But all morning he won't be in — he works until one.\"",
+      "passage": "– Atsiprašau, kuriame name gyvena Petras?\n– Tame pačiame, kuriame ir aš. Šitas namas naujas, o anas, prie parduotuvės, senas. Petras gyvena šiame, trečiame aukšte.\n– Ačiū. Vakar skambinau, bet niekas neatsakė.\n– Vakar jo nebuvo. Jis kiekvieną šeštadienį važiuoja pas mamą ir grįžta tik sekmadienį.\n– Tokia tvarka? Tada ateisiu rytoj.\n– Ateikite. Bet visą rytą jo nebus — jis dirba iki pirmos.\n– Gerai. Tokio pat buto aš irgi ieškau — ne to seno, o šito.",
+      "translation": "\"Excuse me, which house does Petras live in?\" — \"The same one I do. This house is new, and that one over there, by the shop, is old. Petras lives in this one, on the third floor.\" — \"Thank you. Yesterday I rang, but nobody answered.\" — \"He wasn't there yesterday. Every Saturday he goes to his mother's and doesn't come back until Sunday.\" — \"Is that the routine? Then I'll come tomorrow.\" — \"Do. But all morning he won't be in — he works until one.\" — \"Good. I am looking for the same sort of flat too — not that old one, but this one.\"",
       "glossary": {
         "Atsiprašau": "excuse me",
         "Petras": "Petras (a man's name)",
         "šitas": "this (colloquial for šis)",
         "tvarka": "order, routine",
-        "tik": "only, not until"
+        "tik": "only, not until",
+        "ieškau": "I am looking for (ieškoti)",
+        "pas": "to / at (a person's place)"
       },
       "questions": [
         {
@@ -321,34 +858,475 @@
           "type": "single",
           "difficulty": "easy",
           "stem": "Kuriame aukšte gyvena Petras?",
-          "options": ["pirmame", "antrame", "trečiame", "ketvirtame"],
+          "options": [
+            "pirmame",
+            "antrame",
+            "trečiame",
+            "ketvirtame"
+          ],
           "correct": 2,
-          "explanation": "*trečiame aukšte* — the ordinal in the locative, agreeing with *aukšte* as an adjective does (¶81).",
-          "rulesTested": ["kuris", "ordinals", "locative-singular"],
-          "vocabUsed": ["kuris", "aukštas", "gyventi", "pirmas", "antras", "trečias"]
+          "explanation": "*trečiame aukšte* — ordinal locative agreeing with *aukšte*.",
+          "rulesTested": [
+            "kuris",
+            "ordinals",
+            "locative-singular"
+          ],
+          "vocabUsed": [
+            "kuris",
+            "aukštas",
+            "gyventi",
+            "pirmas",
+            "antras",
+            "trečias"
+          ]
         },
         {
           "id": "a119-p1-q2",
           "type": "multi",
           "difficulty": "medium",
-          "stem": "Which words in the dialogue point at something — that is, are demonstratives?",
-          "options": ["Tame pačiame", "Šitas", "anas", "kiekvieną"],
-          "correct": [0, 1, 2],
-          "explanation": "*kiekvieną* quantifies rather than points: it distributes over Saturdays. The other three are the three degrees of pointing — the same one, this one, and that one over there.",
-          "rulesTested": ["tas-pats", "sis-tas", "anas", "visas-kiekvienas"],
-          "vocabUsed": ["tas", "šis", "anas", "kiekvienas"]
+          "stem": "Which items **point** (demonstratives), rather than merely quantify?",
+          "options": [
+            "Tame pačiame",
+            "Šitas",
+            "anas",
+            "kiekvieną"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "*kiekvieną* distributes over Saturdays; it does not point. The others are the three degrees of pointing.",
+          "rulesTested": [
+            "tas-pats",
+            "sis-tas",
+            "anas",
+            "visas-kiekvienas"
+          ],
+          "vocabUsed": [
+            "tas",
+            "šis",
+            "anas",
+            "kiekvienas"
+          ]
         },
         {
           "id": "a119-p1-q3",
+          "type": "single",
+          "difficulty": "hard",
+          "stem": "*Tokia tvarka?* and *Tokio pat buto* — what does *toks* do here?",
+          "options": [
+            "It selects which floor out of several.",
+            "It marks *such / of that kind*, answering *koks?*.",
+            "It is the colloquial form of *tas*.",
+            "It is always plural."
+          ],
+          "correct": 1,
+          "explanation": "*toks/tokia* = *such*. *kuris* would pick from a known set; *šitas* is colloquial *šis*, not *toks*.",
+          "rulesTested": [
+            "toks",
+            "koks",
+            "sis-tas"
+          ],
+          "vocabUsed": [
+            "toks",
+            "koks",
+            "šis",
+            "butas"
+          ]
+        },
+        {
+          "id": "a119-p1-q4",
           "type": "integer",
           "difficulty": "hard",
-          "stem": "How many negated verbs does the dialogue contain?",
+          "stem": "How many negated verb forms appear in the dialogue?",
           "answer": 3,
           "unit": "verbs",
-          "explanation": "Three: *neatsakė*, *nebuvo* and *nebus*. The first is required by *niekas* beside it — a negative word cannot stand with an unnegated verb (¶132) — and the other two are ordinary negatives of *būti* in the past and the future.",
-          "rulesTested": ["niekas-negation", "past-negation", "future-negation"],
-          "vocabUsed": ["niekas", "atsakyti", "būti"]
+          "explanation": "Three: *neatsakė* (required by *niekas*), *nebuvo*, and *nebus*.",
+          "rulesTested": [
+            "niekas-negation",
+            "past-negation",
+            "future-negation"
+          ],
+          "vocabUsed": [
+            "niekas",
+            "atsakyti",
+            "būti"
+          ]
+        },
+        {
+          "id": "a119-p1-q5",
+          "type": "multi",
+          "difficulty": "hard",
+          "stem": "*visą rytą jo nebus* — which are true?",
+          "options": [
+            "*visą* is singular *the whole* (accusative of duration).",
+            "*visi rytai* would be the correct distributive here.",
+            "The future of *būti* is negated: *nebus*.",
+            "*kiekvieną rytą* would mean *every morning*, not *all morning*."
+          ],
+          "correct": [
+            0,
+            2,
+            3
+          ],
+          "explanation": "Singular *visas* = the whole stretch; *kiekvienas* distributes. Mixing them is a near-miss distractor learners hit constantly.",
+          "rulesTested": [
+            "visas-kiekvienas",
+            "accusative-of-time",
+            "future-negation"
+          ],
+          "vocabUsed": [
+            "visas",
+            "kiekvienas",
+            "būti",
+            "rytas"
+          ]
         }
+      ]
+    },
+    {
+      "id": "a119-x1",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Nominative singular feminine of **tas**:",
+      "options": [
+        "tas",
+        "ta",
+        "tos",
+        "tą"
+      ],
+      "correct": 1,
+      "explanation": "**Tas / ta / tai…** — feminine nominative singular is **ta**.",
+      "rulesTested": [
+        "sis-tas"
+      ],
+      "vocabUsed": [
+        "tas"
+      ]
+    },
+    {
+      "id": "a119-x2",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete: **____ knygą nori?** (Which book do you want — from a set)",
+      "options": [
+        "Kokią",
+        "Kurią",
+        "Tokią",
+        "Visą"
+      ],
+      "correct": 1,
+      "explanation": "**Kuris** = which (of a set); **koks** = what kind.",
+      "rulesTested": [
+        "kuris",
+        "koks"
+      ],
+      "vocabUsed": [
+        "kuris",
+        "knyga",
+        "norėti",
+        "koks",
+        "toks",
+        "visas"
+      ]
+    },
+    {
+      "id": "a119-x3",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "**Anas** points to:",
+      "options": [
+        "Only what is nearest the speaker",
+        "That one further off / the other of two — beyond *tas*",
+        "Any interrogative *which*",
+        "The same thing as *šis* always"
+      ],
+      "correct": 1,
+      "explanation": "**Anas** is the third degree of pointing English lacks.",
+      "rulesTested": [
+        "anas"
+      ],
+      "vocabUsed": [
+        "anas",
+        "tas",
+        "šis"
+      ]
+    },
+    {
+      "id": "a119-x4",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **____ savaitę einu į teatrą.** (every week)",
+      "options": [
+        "Visą",
+        "Kiekvieną",
+        "Tokią",
+        "Aną"
+      ],
+      "correct": 1,
+      "explanation": "**Kiekvienas** is distributive *each/every* and stays singular.",
+      "rulesTested": [
+        "visas-kiekvienas",
+        "accusative-of-time"
+      ],
+      "vocabUsed": [
+        "kiekvienas",
+        "savaitė",
+        "eiti",
+        "teatras",
+        "visas",
+        "toks",
+        "anas"
+      ]
+    },
+    {
+      "id": "a119-x5",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which negatives are correctly doubled?",
+      "options": [
+        "Niekas nieko nesako.",
+        "Niekas sako.",
+        "Aš niekur neinu.",
+        "Jis niekada neateina."
+      ],
+      "correct": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "Lithuanian keeps negation on the verb **and** on the negative pronoun/adverb.",
+      "rulesTested": [
+        "niekas-negation",
+        "negation"
+      ],
+      "vocabUsed": [
+        "niekas",
+        "sakyti",
+        "aš",
+        "niekur",
+        "eiti",
+        "jis",
+        "niekada",
+        "ateiti"
+      ]
+    },
+    {
+      "id": "a119-x6",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Gyvename ____ name.** (in the same house)",
+      "options": [
+        "tame pačiame",
+        "tas pats",
+        "tokiame",
+        "šiame pačiame"
+      ],
+      "correct": 0,
+      "explanation": "**Tas pats** — both words decline and agree: locative *tame pačiame name*.",
+      "rulesTested": [
+        "tas-pats",
+        "locative-singular"
+      ],
+      "vocabUsed": [
+        "gyventi",
+        "tas",
+        "namas",
+        "toks",
+        "šis"
+      ]
+    },
+    {
+      "id": "a119-x7",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "**Toks oras man nepatinka.** *Toks* answers:",
+      "options": [
+        "kuris?",
+        "koks?",
+        "kas?",
+        "kada?"
+      ],
+      "correct": 1,
+      "explanation": "**Toks** answers **koks?** (*what kind / such*).",
+      "rulesTested": [
+        "toks",
+        "koks"
+      ],
+      "vocabUsed": [
+        "toks",
+        "oras",
+        "man",
+        "patikti",
+        "kuris",
+        "koks"
+      ]
+    },
+    {
+      "id": "a119-x8",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which claims are true?",
+      "options": [
+        "*Šis* is nearer; *tas* further / already mentioned.",
+        "*Visas* singular = the whole; plural *visi* = all.",
+        "*Kiekvienas* is always plural when many people are meant.",
+        "*Niekas* often appears as genitive *nieko* under negation."
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "**Kiekvienas** stays singular even when the set is large.",
+      "rulesTested": [
+        "sis-tas",
+        "visas-kiekvienas",
+        "niekas-negation"
+      ],
+      "vocabUsed": [
+        "šis",
+        "tas",
+        "visas",
+        "kiekvienas",
+        "niekas"
+      ]
+    },
+    {
+      "id": "a119-x9",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Locative singular masculine of **šis**:",
+      "options": [
+        "šis",
+        "šio",
+        "šiame",
+        "šią"
+      ],
+      "correct": 2,
+      "explanation": "Locative masc. sg. **šiame** (like adjective locatives).",
+      "rulesTested": [
+        "sis-tas",
+        "locative-singular"
+      ],
+      "vocabUsed": [
+        "šis"
+      ]
+    },
+    {
+      "id": "a119-x10",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Complete: **____ studentai skaito.** (All the students are reading)",
+      "options": [
+        "Visas",
+        "Visi",
+        "Kiekvienas",
+        "Tokie"
+      ],
+      "correct": 1,
+      "explanation": "Plural *all* is **visi** (masc.). *Kiekvienas* would be *each* and singular.",
+      "rulesTested": [
+        "visas-kiekvienas"
+      ],
+      "vocabUsed": [
+        "visas",
+        "studentas",
+        "skaityti",
+        "kiekvienas",
+        "toks"
+      ]
+    },
+    {
+      "id": "a119-x11",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which are well-formed?",
+      "options": [
+        "Niekas niekada nieko nesakė.",
+        "Tas pats studentas gyvena centre.",
+        "Anas butas brangesnis negu šis.",
+        "Kiekvienas žmonės dirba."
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "*Kiekvienas* cannot take a plural noun *žmonės*; it stays singular (*kiekvienas žmogus*).",
+      "rulesTested": [
+        "niekas-negation",
+        "tas-pats",
+        "anas",
+        "visas-kiekvienas"
+      ],
+      "vocabUsed": [
+        "niekas",
+        "niekada",
+        "sakyti",
+        "tas",
+        "studentas",
+        "gyventi",
+        "centras",
+        "anas",
+        "butas",
+        "brangus",
+        "negu",
+        "šis",
+        "kiekvienas",
+        "žmogus",
+        "dirbti"
+      ]
+    },
+    {
+      "id": "a119-x12",
+      "type": "integer",
+      "difficulty": "medium",
+      "stem": "How many letters in feminine nominative **ta** (from *tas*)?",
+      "answer": 2,
+      "unit": "letters",
+      "explanation": "*Ta* has 2 letters.",
+      "rulesTested": [
+        "sis-tas"
+      ],
+      "vocabUsed": [
+        "tas"
+      ]
+    },
+    {
+      "id": "a119-x13",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "**Niekas niekada nieko nesakė.** How many negative elements (incl. *ne-* on the verb)?",
+      "answer": 4,
+      "unit": "negatives",
+      "explanation": "*Niekas*, *niekada*, *nieko*, and *ne-* on *nesakė* — four.",
+      "rulesTested": [
+        "niekas-negation",
+        "negation",
+        "frequency-adverbs"
+      ],
+      "vocabUsed": [
+        "niekas",
+        "niekada",
+        "sakyti"
+      ]
+    },
+    {
+      "id": "a119-x14",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "In **tame pačiame name**, how many words must decline to agree with *name*?",
+      "answer": 2,
+      "unit": "words",
+      "explanation": "Both **tas** and **pats** decline: *tame pačiame*.",
+      "rulesTested": [
+        "tas-pats"
+      ],
+      "vocabUsed": [
+        "tas",
+        "namas"
       ]
     }
   ]

@@ -14,22 +14,70 @@
       "paradigms": [
         {
           "caption": "Nominative → dative singular",
-          "columns": ["nominative", "dative", "example"],
+          "columns": [
+            "nominative",
+            "dative",
+            "example"
+          ],
           "rows": [
-            { "label": "masc. -as", "cells": ["-as", "-ui", "brolis → broliui, namas → namui"] },
-            { "label": "masc. -is", "cells": ["-is", "-iui", "brolis → broliui"] },
-            { "label": "masc. -us", "cells": ["-us", "-ui", "sūnus → sūnui"] },
-            { "label": "fem. -a", "cells": ["-a", "-ai", "mama → mamai"] },
-            { "label": "fem. -ė", "cells": ["-ė", "-ei", "katė → katei"] }
+            {
+              "label": "masc. -as",
+              "cells": [
+                "-as",
+                "-ui",
+                "brolis → broliui, namas → namui"
+              ]
+            },
+            {
+              "label": "masc. -is",
+              "cells": [
+                "-is",
+                "-iui",
+                "brolis → broliui"
+              ]
+            },
+            {
+              "label": "masc. -us",
+              "cells": [
+                "-us",
+                "-ui",
+                "sūnus → sūnui"
+              ]
+            },
+            {
+              "label": "fem. -a",
+              "cells": [
+                "-a",
+                "-ai",
+                "mama → mamai"
+              ]
+            },
+            {
+              "label": "fem. -ė",
+              "cells": [
+                "-ė",
+                "-ei",
+                "katė → katei"
+              ]
+            }
           ],
           "footnote": "The dative plural ends in -ams, -iams, -oms, -ėms: broliams, mamoms, katėms."
         }
       ],
       "examples": [
-        { "target": "Rašau broliui.", "gloss": "I am writing to my brother." },
-        { "target": "Duodu knygą mamai.", "gloss": "I am giving the book to my mother." }
+        {
+          "target": "Rašau broliui.",
+          "gloss": "I am writing to my brother."
+        },
+        {
+          "target": "Duodu knygą mamai.",
+          "gloss": "I am giving the book to my mother."
+        }
       ],
-      "seeAlso": ["noun-endings", "locative-singular"],
+      "seeAlso": [
+        "noun-endings",
+        "locative-singular"
+      ],
       "core": true
     },
     {
@@ -38,11 +86,24 @@
       "heading": "The Indirect Object",
       "statement": "A verb of giving, sending, saying or showing may have **two** objects: the thing, in the accusative, and the person, in the dative. English marks the person with *to* or by word order; Lithuanian marks it with the ending, and the order of the two is therefore free.",
       "examples": [
-        { "target": "Aš duodu knygą broliui.", "gloss": "I give the book to my brother." },
-        { "target": "Aš duodu broliui knygą.", "gloss": "I give my brother the book.", "note": "the same sentence; the endings settle which is which" },
-        { "target": "Mokytoja rašo laišką tėvui.", "gloss": "The teacher writes a letter to the father." }
+        {
+          "target": "Aš duodu knygą broliui.",
+          "gloss": "I give the book to my brother."
+        },
+        {
+          "target": "Aš duodu broliui knygą.",
+          "gloss": "I give my brother the book.",
+          "note": "the same sentence; the endings settle which is which"
+        },
+        {
+          "target": "Mokytoja rašo laišką tėvui.",
+          "gloss": "The teacher writes a letter to the father."
+        }
       ],
-      "seeAlso": ["dative-endings", "transitive-objects"],
+      "seeAlso": [
+        "dative-endings",
+        "transitive-objects"
+      ],
       "core": true
     },
     {
@@ -53,24 +114,93 @@
       "paradigms": [
         {
           "caption": "Personal pronouns in the dative",
-          "columns": ["nominative", "dative", "English"],
+          "columns": [
+            "nominative",
+            "dative",
+            "English"
+          ],
           "rows": [
-            { "label": "1 sg.", "cells": ["aš", "man", "to me"] },
-            { "label": "2 sg.", "cells": ["tu", "tau", "to you"] },
-            { "label": "3 sg. m.", "cells": ["jis", "jam", "to him"] },
-            { "label": "3 sg. f.", "cells": ["ji", "jai", "to her"] },
-            { "label": "1 pl.", "cells": ["mes", "mums", "to us"] },
-            { "label": "2 pl.", "cells": ["jūs", "jums", "to you"] },
-            { "label": "3 pl. m.", "cells": ["jie", "jiems", "to them"] },
-            { "label": "3 pl. f.", "cells": ["jos", "joms", "to them"] }
+            {
+              "label": "1 sg.",
+              "cells": [
+                "aš",
+                "man",
+                "to me"
+              ]
+            },
+            {
+              "label": "2 sg.",
+              "cells": [
+                "tu",
+                "tau",
+                "to you"
+              ]
+            },
+            {
+              "label": "3 sg. m.",
+              "cells": [
+                "jis",
+                "jam",
+                "to him"
+              ]
+            },
+            {
+              "label": "3 sg. f.",
+              "cells": [
+                "ji",
+                "jai",
+                "to her"
+              ]
+            },
+            {
+              "label": "1 pl.",
+              "cells": [
+                "mes",
+                "mums",
+                "to us"
+              ]
+            },
+            {
+              "label": "2 pl.",
+              "cells": [
+                "jūs",
+                "jums",
+                "to you"
+              ]
+            },
+            {
+              "label": "3 pl. m.",
+              "cells": [
+                "jie",
+                "jiems",
+                "to them"
+              ]
+            },
+            {
+              "label": "3 pl. f.",
+              "cells": [
+                "jos",
+                "joms",
+                "to them"
+              ]
+            }
           ]
         }
       ],
       "examples": [
-        { "target": "Duok man knygą.", "gloss": "Give me the book." },
-        { "target": "Mes jai rašome.", "gloss": "We are writing to her." }
+        {
+          "target": "Duok man knygą.",
+          "gloss": "Give me the book."
+        },
+        {
+          "target": "Mes jai rašome.",
+          "gloss": "We are writing to her."
+        }
       ],
-      "seeAlso": ["pronouns-cases", "dative-endings"],
+      "seeAlso": [
+        "pronouns-cases",
+        "dative-endings"
+      ],
       "core": true
     },
     {
@@ -81,21 +211,58 @@
       "paradigms": [
         {
           "caption": "The construction compared",
-          "columns": ["Lithuanian", "literally", "English"],
+          "columns": [
+            "Lithuanian",
+            "literally",
+            "English"
+          ],
           "rows": [
-            { "label": "singular thing", "cells": ["Man patinka knyga.", "to-me pleases book", "I like the book."] },
-            { "label": "plural thing", "cells": ["Man patinka knygos.", "to-me please books", "I like the books."] },
-            { "label": "another person", "cells": ["Jam patinka kava.", "to-him pleases coffee", "He likes coffee."] }
+            {
+              "label": "singular thing",
+              "cells": [
+                "Man patinka knyga.",
+                "to-me pleases book",
+                "I like the book."
+              ]
+            },
+            {
+              "label": "plural thing",
+              "cells": [
+                "Man patinka knygos.",
+                "to-me please books",
+                "I like the books."
+              ]
+            },
+            {
+              "label": "another person",
+              "cells": [
+                "Jam patinka kava.",
+                "to-him pleases coffee",
+                "He likes coffee."
+              ]
+            }
           ],
           "footnote": "Compare *mėgti* (¶39), which is built as English builds it: *aš mėgstu knygą*, with the liker as subject and the thing in the accusative. Both are correct; *patikti* is the commoner in speech."
         }
       ],
       "examples": [
-        { "target": "Man patinka Vilnius.", "gloss": "I like Vilnius." },
-        { "target": "Ar tau patinka kava?", "gloss": "Do you like coffee?" },
-        { "target": "Man nepatinka miestas.", "gloss": "I do not like the city." }
+        {
+          "target": "Man patinka Vilnius.",
+          "gloss": "I like Vilnius."
+        },
+        {
+          "target": "Ar tau patinka kava?",
+          "gloss": "Do you like coffee?"
+        },
+        {
+          "target": "Man nepatinka miestas.",
+          "gloss": "I do not like the city."
+        }
       ],
-      "seeAlso": ["dative-pronouns", "wanting-liking"],
+      "seeAlso": [
+        "dative-pronouns",
+        "wanting-liking"
+      ],
       "core": true
     },
     {
@@ -104,15 +271,33 @@
       "heading": "Needing: Reikia with the Dative",
       "statement": "**Reikia** — it is necessary — is **impersonal**: it has no subject at all and never changes its form. The person who needs stands in the **dative**, and what is needed follows either in the **genitive** or as an **infinitive**. English turns the person into a subject and Lithuanian does not.",
       "examples": [
-        { "target": "Man reikia pinigų.", "gloss": "I need money.", "note": "literally: to-me is-necessary of-money" },
-        { "target": "Man reikia dirbti.", "gloss": "I need to work.", "note": "infinitive instead of a noun" },
-        { "target": "Jai reikia kavos.", "gloss": "She needs coffee." },
-        { "target": "Mums nereikia nieko.", "gloss": "We need nothing." }
+        {
+          "target": "Man reikia pinigų.",
+          "gloss": "I need money.",
+          "note": "literally: to-me is-necessary of-money"
+        },
+        {
+          "target": "Man reikia dirbti.",
+          "gloss": "I need to work.",
+          "note": "infinitive instead of a noun"
+        },
+        {
+          "target": "Jai reikia kavos.",
+          "gloss": "She needs coffee."
+        },
+        {
+          "target": "Mums nereikia nieko.",
+          "gloss": "We need nothing."
+        }
       ],
       "footnotes": [
         "*reikia* never takes an ending for person or number: *man reikia*, *jiems reikia*, alike."
       ],
-      "seeAlso": ["dative-pronouns", "genitive-quantity", "complementary-infinitive"],
+      "seeAlso": [
+        "dative-pronouns",
+        "genitive-quantity",
+        "complementary-infinitive"
+      ],
       "core": true
     },
     {
@@ -123,61 +308,242 @@
       "paradigms": [
         {
           "caption": "Verbs with the dative",
-          "columns": ["Lithuanian", "English"],
+          "columns": [
+            "Lithuanian",
+            "English"
+          ],
           "rows": [
-            { "label": "tikti", "cells": ["Man netinka kava.", "Coffee does not suit me."] },
-            { "label": "skambinti", "cells": ["Skambinu draugui.", "I am telephoning a friend."] },
-            { "label": "padėti", "cells": ["Ji padeda mamai.", "She is helping her mother."] }
+            {
+              "label": "tikti",
+              "cells": [
+                "Man netinka kava.",
+                "Coffee does not suit me."
+              ]
+            },
+            {
+              "label": "skambinti",
+              "cells": [
+                "Skambinu draugui.",
+                "I am telephoning a friend."
+              ]
+            },
+            {
+              "label": "padėti",
+              "cells": [
+                "Ji padeda mamai.",
+                "She is helping her mother."
+              ]
+            }
           ]
         }
       ],
       "examples": [
-        { "target": "Aš padedu broliui.", "gloss": "I am helping my brother.", "note": "not *padedu brolį*" },
-        { "target": "Ar tau tinka šis laikas?", "gloss": "Does this time suit you?" }
+        {
+          "target": "Aš padedu broliui.",
+          "gloss": "I am helping my brother.",
+          "note": "not *padedu brolį*"
+        },
+        {
+          "target": "Ar tau tinka šis laikas?",
+          "gloss": "Does this time suit you?"
+        }
       ],
-      "seeAlso": ["dative-endings", "patikti"],
+      "seeAlso": [
+        "dative-endings",
+        "patikti"
+      ],
       "core": true
     }
   ],
   "vocabulary": [
-    { "lemma": "duoti", "gloss": "to give", "pos": "verb", "forms": { "inf": "duoti", "pres3": "duoda", "past3": "davė", "conj": "I" } },
-    { "lemma": "patikti", "gloss": "to please, to be liked (+ dat.)", "pos": "verb", "forms": { "inf": "patikti", "pres3": "patinka", "past3": "patiko", "conj": "I" } },
-    { "lemma": "reikia", "gloss": "it is necessary (+ dat. and gen. or infinitive)", "pos": "verb", "forms": { "inf": "reikėti", "pres3": "reikia", "past3": "reikėjo" }, "notes": "Impersonal: never changes for person or number." },
-    { "lemma": "tikti", "gloss": "to suit (+ dat.)", "pos": "verb", "forms": { "inf": "tikti", "pres3": "tinka", "past3": "tiko", "conj": "I" } },
-    { "lemma": "skambinti", "gloss": "to telephone (+ dat.)", "pos": "verb", "forms": { "inf": "skambinti", "pres3": "skambina", "past3": "skambino", "conj": "I" } },
-    { "lemma": "padėti", "gloss": "to help (+ dat.)", "pos": "verb", "forms": { "inf": "padėti", "pres3": "padeda", "past3": "padėjo", "conj": "I" } },
-    { "lemma": "man", "gloss": "to me", "pos": "pronoun", "forms": { "nom": "aš" } },
-    { "lemma": "tau", "gloss": "to you (singular)", "pos": "pronoun", "forms": { "nom": "tu" } },
-    { "lemma": "jam", "gloss": "to him", "pos": "pronoun", "forms": { "nom": "jis" } },
-    { "lemma": "jai", "gloss": "to her", "pos": "pronoun", "forms": { "nom": "ji" } },
-    { "lemma": "mums", "gloss": "to us", "pos": "pronoun", "forms": { "nom": "mes" } },
-    { "lemma": "jums", "gloss": "to you (plural or polite)", "pos": "pronoun", "forms": { "nom": "jūs" } },
-    { "lemma": "jiems", "gloss": "to them (masculine or mixed)", "pos": "pronoun", "forms": { "nom": "jie" } },
-    { "lemma": "dovana", "gloss": "gift, present", "pos": "noun", "forms": { "nom": "dovana", "gen": "dovanos", "acc": "dovaną", "gender": "f." } },
-    { "lemma": "šis", "gloss": "this", "pos": "adjective", "forms": { "masc": "šis", "fem": "ši" } }
+    {
+      "lemma": "duoti",
+      "gloss": "to give",
+      "pos": "verb",
+      "forms": {
+        "inf": "duoti",
+        "pres3": "duoda",
+        "past3": "davė",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "patikti",
+      "gloss": "to please, to be liked (+ dat.)",
+      "pos": "verb",
+      "forms": {
+        "inf": "patikti",
+        "pres3": "patinka",
+        "past3": "patiko",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "reikia",
+      "gloss": "it is necessary (+ dat. and gen. or infinitive)",
+      "pos": "verb",
+      "forms": {
+        "inf": "reikėti",
+        "pres3": "reikia",
+        "past3": "reikėjo"
+      },
+      "notes": "Impersonal: never changes for person or number."
+    },
+    {
+      "lemma": "tikti",
+      "gloss": "to suit (+ dat.)",
+      "pos": "verb",
+      "forms": {
+        "inf": "tikti",
+        "pres3": "tinka",
+        "past3": "tiko",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "skambinti",
+      "gloss": "to telephone (+ dat.)",
+      "pos": "verb",
+      "forms": {
+        "inf": "skambinti",
+        "pres3": "skambina",
+        "past3": "skambino",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "padėti",
+      "gloss": "to help (+ dat.)",
+      "pos": "verb",
+      "forms": {
+        "inf": "padėti",
+        "pres3": "padeda",
+        "past3": "padėjo",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "man",
+      "gloss": "to me",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "aš"
+      }
+    },
+    {
+      "lemma": "tau",
+      "gloss": "to you (singular)",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "tu"
+      }
+    },
+    {
+      "lemma": "jam",
+      "gloss": "to him",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "jis"
+      }
+    },
+    {
+      "lemma": "jai",
+      "gloss": "to her",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "ji"
+      }
+    },
+    {
+      "lemma": "mums",
+      "gloss": "to us",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "mes"
+      }
+    },
+    {
+      "lemma": "jums",
+      "gloss": "to you (plural or polite)",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "jūs"
+      }
+    },
+    {
+      "lemma": "jiems",
+      "gloss": "to them (masculine or mixed)",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "jie"
+      }
+    },
+    {
+      "lemma": "dovana",
+      "gloss": "gift, present",
+      "pos": "noun",
+      "forms": {
+        "nom": "dovana",
+        "gen": "dovanos",
+        "acc": "dovaną",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "šis",
+      "gloss": "this",
+      "pos": "adjective",
+      "forms": {
+        "masc": "šis",
+        "fem": "ši"
+      }
+    }
   ],
   "drills": [
     {
       "id": "a110-q1",
       "type": "single",
       "difficulty": "easy",
-      "stem": "What is the dative singular of **mama**?",
-      "options": ["mamos", "mamą", "mamai", "mamoje"],
+      "stem": "What is the dative singular of **katė**?",
+      "options": [
+        "katės",
+        "katę",
+        "katei",
+        "katėje"
+      ],
       "correct": 2,
-      "explanation": "Feminine -a makes -ai. *mamos* is the genitive and *mamoje* the locative.",
-      "rulesTested": ["dative-endings"],
-      "vocabUsed": ["mama"]
+      "explanation": "Feminine **-ė** makes **-ei**: *katei*. *katės* is genitive/nominative plural; *katę* accusative; *katėje* locative.",
+      "rulesTested": [
+        "dative-endings"
+      ],
+      "vocabUsed": [
+        "katė"
+      ]
     },
     {
       "id": "a110-q2",
       "type": "single",
       "difficulty": "easy",
-      "stem": "Complete: **Man ____ kava.** (I like coffee.)",
-      "options": ["patinka", "patinku", "mėgstu", "reikia"],
+      "stem": "Complete: **Man ____ kava.** (I like coffee — with *patikti*.)",
+      "options": [
+        "patinka",
+        "patinku",
+        "mėgstu",
+        "reikia"
+      ],
       "correct": 0,
-      "explanation": "*patikti* agrees with the thing liked, which is the subject *kava*, so the third person *patinka* stands. *mėgstu* would need *aš* and an accusative, and *reikia* means \"is necessary\".",
-      "rulesTested": ["patikti", "dative-pronouns"],
-      "vocabUsed": ["man", "patikti", "kava", "mėgti", "reikia"]
+      "explanation": "*patikti* agrees with the thing liked (*kava*), so third person *patinka*. *patinku* wrongly treats the liker as subject; *mėgstu* needs *aš* + accusative; *reikia* means necessity.",
+      "rulesTested": [
+        "patikti",
+        "dative-pronouns"
+      ],
+      "vocabUsed": [
+        "man",
+        "patikti",
+        "kava",
+        "mėgti",
+        "reikia"
+      ]
     },
     {
       "id": "a110-q3",
@@ -191,84 +557,155 @@
         "Man reikia pinigus."
       ],
       "correct": 1,
-      "explanation": "*reikia* is impersonal and has no subject; the needer stands in the dative and what is needed in the genitive. There is no such form as *reikiu*.",
-      "rulesTested": ["reikia", "dative-pronouns"],
-      "vocabUsed": ["man", "reikia", "pinigai", "aš"]
+      "explanation": "*reikia* is impersonal: needer in dative, needed thing in **genitive**. There is no *reikiu*; accusative *pinigus* is the English-transfer error (¶69).",
+      "rulesTested": [
+        "reikia",
+        "dative-pronouns"
+      ],
+      "vocabUsed": [
+        "man",
+        "reikia",
+        "pinigai",
+        "aš"
+      ]
     },
     {
       "id": "a110-q4",
       "type": "multi",
       "difficulty": "medium",
-      "stem": "Which of these sentences are **correct**?",
+      "stem": "Which sentences are **correct**?",
       "options": [
         "Aš duodu knygą broliui.",
         "Aš duodu broliui knygą.",
         "Aš duodu knygą brolį.",
         "Aš padedu brolį."
       ],
-      "correct": [0, 1],
-      "explanation": "The thing given takes the accusative and the person the dative, and their order is free because the endings settle the roles. The third makes the brother a second accusative; the fourth gives *padėti* an accusative where it requires a dative (¶70).",
-      "rulesTested": ["indirect-object", "other-dative-verbs", "dative-endings"],
-      "vocabUsed": ["duoti", "knyga", "brolis", "padėti"]
+      "correct": [
+        0,
+        1
+      ],
+      "explanation": "Thing = accusative, person = dative; order is free (¶66). The third makes two accusatives; the fourth gives *padėti* an accusative where it requires dative (¶70).",
+      "rulesTested": [
+        "indirect-object",
+        "other-dative-verbs",
+        "dative-endings"
+      ],
+      "vocabUsed": [
+        "duoti",
+        "knyga",
+        "brolis",
+        "padėti",
+        "aš"
+      ]
     },
     {
       "id": "a110-q5",
       "type": "single",
       "difficulty": "medium",
-      "stem": "**Man patinka knygos.** Why is the verb not *patinku*?",
+      "stem": "**Man patinka knygos.** Why not *patinku*?",
       "options": [
         "Because *patikti* is impersonal and never changes.",
         "Because the subject is *knygos*, not *man* — the verb agrees with the thing liked.",
-        "Because the dative always takes a third-person verb.",
+        "Because the dative always forces a third-person verb.",
         "Because *knygos* is genitive singular."
       ],
       "correct": 1,
-      "explanation": "In this construction the thing liked is the subject and the liker stands in the dative. The verb therefore agrees with *knygos*, and the third person serves both numbers (¶57). *reikia* is the impersonal one; *patikti* has a subject.",
-      "rulesTested": ["patikti", "verb-number"],
-      "vocabUsed": ["man", "patikti", "knyga"]
+      "explanation": "Thing liked = subject (nominative); liker = dative. Verb agrees with *knygos*. *reikia* is the impersonal one; *patikti* has a real subject (¶68).",
+      "rulesTested": [
+        "patikti",
+        "verb-number"
+      ],
+      "vocabUsed": [
+        "man",
+        "patikti",
+        "knyga"
+      ]
     },
     {
       "id": "a110-q6",
       "type": "single",
       "difficulty": "medium",
       "stem": "Complete: **Ji ____ mamai.** (She is helping her mother.)",
-      "options": ["padeda", "padeda į", "mėgsta", "duoda"],
+      "options": [
+        "padeda",
+        "padeda į",
+        "mėgsta",
+        "duoda"
+      ],
       "correct": 0,
-      "explanation": "*padėti* governs the dative, and *mamai* is already in it — no preposition is wanted. *duoti* would need something given as well.",
-      "rulesTested": ["other-dative-verbs", "dative-endings"],
-      "vocabUsed": ["padėti", "mama", "mėgti", "duoti", "ji"]
+      "explanation": "*padėti* takes dative alone — *mamai* is already enough. *duoti* would need a thing given as well; *mėgsta* would take accusative.",
+      "rulesTested": [
+        "other-dative-verbs",
+        "dative-endings"
+      ],
+      "vocabUsed": [
+        "padėti",
+        "mama",
+        "mėgti",
+        "duoti",
+        "ji"
+      ]
     },
     {
       "id": "a110-q7",
       "type": "multi",
       "difficulty": "medium",
-      "stem": "In which of these does the **dative** name the person concerned?",
+      "stem": "In which does the **dative** name the person concerned?",
       "options": [
         "Man reikia dirbti.",
         "Aš dirbu Vilniuje.",
         "Jam patinka muzika.",
         "Skambinu draugui."
       ],
-      "correct": [0, 2, 3],
-      "explanation": "*man*, *jam* and *draugui* are datives. In the second the person is the subject in the nominative, and *Vilniuje* a locative of place.",
-      "rulesTested": ["reikia", "patikti", "other-dative-verbs", "dative-pronouns"],
-      "vocabUsed": ["man", "reikia", "dirbti", "aš", "Vilnius", "jam", "patikti", "muzika", "skambinti", "draugas"]
+      "correct": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "*man*, *jam*, *draugui* are datives. In the second the person is nominative subject and *Vilniuje* is locative.",
+      "rulesTested": [
+        "reikia",
+        "patikti",
+        "other-dative-verbs",
+        "dative-pronouns"
+      ],
+      "vocabUsed": [
+        "man",
+        "reikia",
+        "dirbti",
+        "aš",
+        "Vilnius",
+        "jam",
+        "patikti",
+        "muzika",
+        "skambinti",
+        "draugas"
+      ]
     },
     {
       "id": "a110-q8",
       "type": "single",
       "difficulty": "hard",
-      "stem": "*Aš mėgstu kavą* and *Man patinka kava* both render \"I like coffee\". What is the grammatical difference?",
+      "stem": "*Aš mėgstu kavą* vs *Man patinka kava* — grammatical difference?",
       "options": [
-        "None; they are interchangeable in form as well as sense.",
-        "In the first the liker is the subject and coffee the object; in the second coffee is the subject and the liker stands in the dative.",
-        "The first is present and the second impersonal.",
-        "The second is a question."
+        "None; forms are interchangeable.",
+        "First: liker = subject, coffee = object. Second: coffee = subject, liker = dative.",
+        "First is present; second is impersonal.",
+        "Second is a question."
       ],
       "correct": 1,
-      "explanation": "*mėgti* is built as English builds \"like\"; *patikti* reverses the roles, so that the verb agrees with the coffee and would become plural if several things were liked. Both are correct and *patikti* is the commoner in speech.",
-      "rulesTested": ["patikti", "wanting-liking"],
-      "vocabUsed": ["mėgti", "kava", "man", "patikti"]
+      "explanation": "*mėgti* mirrors English; *patikti* reverses roles so the verb agrees with the coffee. Both correct; *patikti* is commoner in speech (¶68).",
+      "rulesTested": [
+        "patikti",
+        "wanting-liking"
+      ],
+      "vocabUsed": [
+        "mėgti",
+        "kava",
+        "man",
+        "patikti",
+        "aš"
+      ]
     },
     {
       "id": "a110-q9",
@@ -281,36 +718,472 @@
         "What is needed stands in the accusative.",
         "It may be completed by an infinitive."
       ],
-      "correct": [0, 1, 3],
-      "explanation": "What is needed stands in the **genitive** — *man reikia pinigų* — or is replaced by an infinitive. An accusative after *reikia* is one of the commonest errors a learner makes, because English supplies a direct object there.",
-      "rulesTested": ["reikia", "dative-pronouns", "complementary-infinitive"],
-      "vocabUsed": ["reikia", "man", "pinigai"]
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "What is needed is **genitive** (*pinigų*) or an infinitive — never accusative. That accusative after *reikia* is the classic learner error.",
+      "rulesTested": [
+        "reikia",
+        "dative-pronouns",
+        "complementary-infinitive"
+      ],
+      "vocabUsed": [
+        "reikia",
+        "man",
+        "pinigai"
+      ]
     },
     {
       "id": "a110-q10",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Feminine dative *-ai* (*mamai*) looks like masculine nominative plural *-ai* (*namai*). How do you tell them apart?",
+      "options": [
+        "You cannot; the forms are always ambiguous.",
+        "By gender and syntactic role: dative names the person concerned; nominative plural is a plural subject.",
+        "Dative always follows *į*.",
+        "Nominative plural always has a long vowel."
+      ],
+      "correct": 1,
+      "explanation": "Same letters, different jobs (¶65 vs ¶53). *Duodu knygą mamai* vs *Namai yra dideli* — sentence structure and gender of the stem decide.",
+      "rulesTested": [
+        "dative-endings",
+        "plural-nominative"
+      ],
+      "vocabUsed": [
+        "mama",
+        "namas",
+        "duoti",
+        "knyga"
+      ]
+    },
+    {
+      "id": "a110-q11",
       "type": "integer",
       "difficulty": "hard",
-      "stem": "**Aš mėgstu šią knygą.** Rewritten with *patikti*, how many words of the new sentence differ in form from the old?",
-      "answer": 3,
+      "stem": "**Aš mėgstu šią knygą.** Rewritten with *patikti*: how many words of the new sentence differ in form from the old?",
+      "answer": 4,
       "unit": "words",
-      "explanation": "The sentence becomes *Man patinka ši knyga*: *aš* → *man*, *mėgstu* → *patinka*, and *šią knygą* → *ši knyga*, the object turning into the subject and losing its accusative. Every word changes, and only the number of them is asked.",
-      "rulesTested": ["patikti", "wanting-liking", "dative-pronouns"],
-      "vocabUsed": ["aš", "mėgti", "šis", "knyga", "man", "patikti"]
+      "explanation": "Becomes *Man patinka ši knyga*: *aš*→*man*, *mėgstu*→*patinka*, *šią*→*ši*, *knygą*→*knyga*. All four words change form.",
+      "rulesTested": [
+        "patikti",
+        "wanting-liking",
+        "dative-pronouns"
+      ],
+      "vocabUsed": [
+        "aš",
+        "mėgti",
+        "šis",
+        "knyga",
+        "man",
+        "patikti"
+      ]
+    },
+    {
+      "id": "a110-q12",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which of these are **dative** personal pronouns?",
+      "explanation": "*man*, *jam*, and *joms* are dative. *mane* is accusative of *aš*.",
+      "rulesTested": [
+        "dative-pronouns"
+      ],
+      "vocabUsed": [
+        "man",
+        "tau",
+        "jam",
+        "jai",
+        "mums",
+        "jums",
+        "jiems"
+      ],
+      "options": [
+        "man",
+        "jam",
+        "mane",
+        "joms"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "id": "a110-x1",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Dative singular of **brolis**?",
+      "options": [
+        "brolį",
+        "broliui",
+        "brolio",
+        "broliai"
+      ],
+      "correct": 1,
+      "explanation": "Masculine *-is* → **-iui**: *broliui* (¶65). *brolį* accusative; *brolio* genitive.",
+      "rulesTested": [
+        "dative-endings"
+      ],
+      "vocabUsed": [
+        "brolis"
+      ]
+    },
+    {
+      "id": "a110-x2",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Dative singular of **mama**?",
+      "options": [
+        "mamą",
+        "mamos",
+        "mamai",
+        "mamoje"
+      ],
+      "correct": 2,
+      "explanation": "Feminine *-a* → **-ai**: *mamai* (¶65).",
+      "rulesTested": [
+        "dative-endings"
+      ],
+      "vocabUsed": [
+        "mama"
+      ]
+    },
+    {
+      "id": "a110-x3",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Dative of **aš**?",
+      "options": [
+        "mane",
+        "manęs",
+        "man",
+        "mano"
+      ],
+      "correct": 2,
+      "explanation": "**man** is the dative (¶67). *mane* accusative; *manęs* genitive; *mano* possessive.",
+      "rulesTested": [
+        "dative-pronouns"
+      ],
+      "vocabUsed": [
+        "aš",
+        "man"
+      ]
+    },
+    {
+      "id": "a110-x4",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Aš duodu knygą ____.** (I give the book to my brother.)",
+      "options": [
+        "brolį",
+        "broliui",
+        "brolio",
+        "broliai"
+      ],
+      "correct": 1,
+      "explanation": "Thing = accusative, person = dative: *knygą broliui* (¶66).",
+      "rulesTested": [
+        "indirect-object",
+        "dative-endings"
+      ],
+      "vocabUsed": [
+        "duoti",
+        "knyga",
+        "brolis",
+        "aš"
+      ]
+    },
+    {
+      "id": "a110-x5",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Rewrite liking with *patikti*: **Aš mėgstu kavą.** → ?",
+      "options": [
+        "Aš patinku kavą.",
+        "Man patinka kava.",
+        "Man patinka kavą.",
+        "Aš patinku kava."
+      ],
+      "correct": 1,
+      "explanation": "Person → dative *man*; liked thing → nominative subject *kava*; verb *patinka* (¶68). Keeping *kavą* accusative is the near-miss.",
+      "rulesTested": [
+        "patikti"
+      ],
+      "vocabUsed": [
+        "patikti",
+        "mėgti",
+        "kava",
+        "aš",
+        "man"
+      ]
+    },
+    {
+      "id": "a110-x6",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Man reikia ____.** (I need money.)",
+      "options": [
+        "pinigai",
+        "pinigus",
+        "pinigų",
+        "pinigams"
+      ],
+      "correct": 2,
+      "explanation": "*reikia* takes genitive (or infinitive) of what is needed: *pinigų* (¶69).",
+      "rulesTested": [
+        "reikia"
+      ],
+      "vocabUsed": [
+        "reikia",
+        "man",
+        "pinigai"
+      ]
+    },
+    {
+      "id": "a110-x7",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which are **correct**?",
+      "options": [
+        "Aš padedu broliui.",
+        "Aš skambinu draugui.",
+        "Aš padedu brolį.",
+        "Ar tau tinka šis laikas?"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "*padėti* and *skambinti* take the dative; *padedu brolį* wrongly uses accusative (¶70).",
+      "rulesTested": [
+        "other-dative-verbs"
+      ],
+      "vocabUsed": [
+        "padėti",
+        "brolis",
+        "skambinti",
+        "draugas",
+        "tikti",
+        "tu",
+        "šis",
+        "laikas",
+        "aš",
+        "tau"
+      ]
+    },
+    {
+      "id": "a110-x8",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which dative pronouns are correctly paired?",
+      "options": [
+        "aš → man",
+        "tu → tau",
+        "jis → jam",
+        "ji → ją"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "*ji* → **jai**, not *ją* (accusative) (¶67).",
+      "rulesTested": [
+        "dative-pronouns"
+      ],
+      "vocabUsed": [
+        "aš",
+        "man",
+        "tu",
+        "tau",
+        "jis",
+        "jam",
+        "ji",
+        "jai"
+      ]
+    },
+    {
+      "id": "a110-x9",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Complete: **Mokytoja rašo laišką ____.** (The teacher writes a letter to father.)",
+      "options": [
+        "tėvą",
+        "tėvui",
+        "tėvo",
+        "tėvas"
+      ],
+      "correct": 1,
+      "explanation": "Indirect object = dative *tėvui*; the letter stays accusative (¶66).",
+      "rulesTested": [
+        "indirect-object",
+        "dative-endings"
+      ],
+      "vocabUsed": [
+        "mokytoja",
+        "rašyti",
+        "laiškas",
+        "tėvas"
+      ]
+    },
+    {
+      "id": "a110-x10",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**Man nepatinka miestas.** Why is *miestas* nominative?",
+      "options": [
+        "Because negation always takes nominative",
+        "Because with *patikti* the liked thing is the subject",
+        "Because *miestas* cannot decline",
+        "Because *man* forces nominative on everything"
+      ],
+      "correct": 1,
+      "explanation": "With *patikti* the thing liked is the grammatical subject (¶68); negation does not change that case role here.",
+      "rulesTested": [
+        "patikti"
+      ],
+      "vocabUsed": [
+        "patikti",
+        "man",
+        "miestas"
+      ]
+    },
+    {
+      "id": "a110-x11",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which correctly use **reikia**?",
+      "options": [
+        "Man reikia kavos.",
+        "Man reikia dirbti.",
+        "Aš reikia pinigų.",
+        "Jai reikia knygos."
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "*reikia* is impersonal — never *aš reikia*. Person = dative; need = genitive or infinitive (¶69).",
+      "rulesTested": [
+        "reikia"
+      ],
+      "vocabUsed": [
+        "reikia",
+        "man",
+        "kava",
+        "dirbti",
+        "aš",
+        "pinigai",
+        "ji",
+        "jai",
+        "knyga"
+      ]
+    },
+    {
+      "id": "a110-x12",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Word order with two objects: which is **also** correct beside *Aš duodu knygą broliui*?",
+      "options": [
+        "Aš duodu broliui knygą.",
+        "Aš duodu knygą brolį.",
+        "Aš duodu knyga broliui.",
+        "Aš duodu knygą brolio."
+      ],
+      "correct": 0,
+      "explanation": "Order is free once cases mark roles (¶66). The others break case: second object must stay dative *broliui*, thing accusative *knygą*.",
+      "rulesTested": [
+        "indirect-object"
+      ],
+      "vocabUsed": [
+        "duoti",
+        "knyga",
+        "brolis",
+        "aš"
+      ]
+    },
+    {
+      "id": "a110-x13",
+      "type": "multi",
+      "difficulty": "easy",
+      "stem": "Which of these are **dative**?",
+      "explanation": "*man*, *tau*, and *jam* are dative. *ją* is accusative of *ji*.",
+      "rulesTested": [
+        "dative-pronouns"
+      ],
+      "vocabUsed": [
+        "man",
+        "tau",
+        "jam",
+        "ji"
+      ],
+      "options": [
+        "man",
+        "tau",
+        "ją",
+        "jam"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "id": "a110-x14",
+      "type": "integer",
+      "difficulty": "medium",
+      "stem": "**Aš mėgstu šią knygą** → *Man patinka ši knyga*. How many of the four content words change form?",
+      "answer": 4,
+      "unit": "words",
+      "explanation": "All four: *aš*→*man*, *mėgstu*→*patinka*, *šią*→*ši*, *knygą*→*knyga* (¶68).",
+      "rulesTested": [
+        "patikti"
+      ],
+      "vocabUsed": [
+        "mėgti",
+        "patikti",
+        "aš",
+        "man",
+        "šis",
+        "knyga"
+      ]
+    },
+    {
+      "id": "a110-x15",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "How many letters are in the dative form **mamai**?",
+      "answer": 5,
+      "unit": "letters",
+      "explanation": "Five: m-a-m-a-i. Feminine *-a* → **-ai** (¶65).",
+      "rulesTested": [
+        "dative-endings"
+      ],
+      "vocabUsed": [
+        "mama"
+      ]
     },
     {
       "id": "a110-p1",
       "type": "comprehension",
-      "difficulty": "medium",
+      "difficulty": "hard",
       "title": "Dovana mamai",
-      "passage": "Šiandien mamos gimtadienis. Tomas nori nupirkti jai dovaną. Jam patinka knygos, bet mamai knygos nepatinka. Jai patinka gėlės. Tomas skambina seseriai ir klausia: „Ką pirkti mamai?“ Sesuo sako: „Jai reikia naujo puodelio.“ Tomas eina į parduotuvę ir perka mamai puodelį ir gėlių.",
-      "translation": "Today is mother's birthday. Tomas wants to buy her a present. He likes books, but mother does not like books. She likes flowers. Tomas telephones his sister and asks: \"What should I buy for mother?\" The sister says: \"She needs a new cup.\" Tomas goes to the shop and buys mother a cup and some flowers.",
+      "passage": "Šiandien mamos gimtadienis. Tomas nori nupirkti jai dovaną. Jam patinka knygos, bet mamai knygos nepatinka. Jai patinka gėlės. Tomas skambina seseriai ir klausia: „Ką pirkti mamai?“ Sesuo sako: „Jai reikia naujo puodelio.“ Tomas eina į parduotuvę ir perka mamai puodelį ir gėlių. Jis duoda dovaną mamai. Mamai tinka šis puodelis.",
+      "translation": "Today is mother's birthday. Tomas wants to buy her a present. He likes books, but mother does not like books. She likes flowers. Tomas telephones his sister and asks: \"What should I buy for mother?\" The sister says: \"She needs a new cup.\" Tomas goes to the shop and buys mother a cup and some flowers. He gives the present to mother. This cup suits mother.",
       "glossary": {
         "šiandien": "today",
         "gimtadienis": "birthday (m.)",
         "nupirkti": "to buy",
         "gėlės": "flowers (gėlė, f.)",
         "sako": "says (sakyti)",
-        "perka": "buys (pirkti)"
+        "perka": "buys (pirkti)",
+        "puodelio": "of a cup (gen.)"
       },
       "questions": [
         {
@@ -318,33 +1191,128 @@
           "type": "single",
           "difficulty": "easy",
           "stem": "Kas patinka mamai?",
-          "options": ["knygos", "gėlės", "kava", "puodelis"],
+          "options": [
+            "knygos",
+            "gėlės",
+            "kava",
+            "puodelis"
+          ],
           "correct": 1,
-          "explanation": "*Jai patinka gėlės.* The books are what Tomas likes — the passage sets the two people's tastes against each other, and the datives *jam* and *mamai* are what keep them apart.",
-          "rulesTested": ["patikti", "dative-pronouns"],
-          "vocabUsed": ["patikti", "mama", "knyga", "kava", "puodelis"]
+          "explanation": "*Jai patinka gėlės.* Books are what Tomas likes — datives *jam* vs *mamai* keep the tastes apart.",
+          "rulesTested": [
+            "patikti",
+            "dative-pronouns"
+          ],
+          "vocabUsed": [
+            "patikti",
+            "mama",
+            "knyga",
+            "kava",
+            "puodelis"
+          ]
         },
         {
           "id": "a110-p1-q2",
           "type": "multi",
           "difficulty": "medium",
           "stem": "Which words in the passage stand in the **dative**?",
-          "options": ["jai", "mamai", "seseriai", "dovaną"],
-          "correct": [0, 1, 2],
-          "explanation": "*jai*, *mamai* and *seseriai* all name the person concerned. *dovaną* is the thing bought and stands in the accusative — the two objects of *nupirkti* are in different cases (¶66).",
-          "rulesTested": ["dative-endings", "dative-pronouns", "indirect-object"],
-          "vocabUsed": ["jai", "mama", "sesuo", "dovana"]
+          "options": [
+            "jai",
+            "mamai",
+            "seseriai",
+            "dovaną"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "*jai*, *mamai*, *seseriai* name the person concerned. *dovaną* is the thing bought — accusative.",
+          "rulesTested": [
+            "dative-endings",
+            "dative-pronouns",
+            "indirect-object"
+          ],
+          "vocabUsed": [
+            "jai",
+            "mama",
+            "sesuo",
+            "dovana"
+          ]
         },
         {
           "id": "a110-p1-q3",
           "type": "integer",
           "difficulty": "hard",
-          "stem": "The sister says **Jai reikia naujo puodelio.** How many words would change form if she said instead that mother needs *new cups*?",
+          "stem": "**Jai reikia naujo puodelio.** If she needs *new cups* instead, how many words change form?",
           "answer": 2,
           "unit": "words",
-          "explanation": "Two: *naujo puodelio* → *naujų puodelių*, the genitive plural, the adjective following its noun. *jai* and *reikia* are untouched — *reikia* never changes for anything at all (¶69), and the person needing has not altered.",
-          "rulesTested": ["reikia", "plural-genitive", "adjective-number"],
-          "vocabUsed": ["jai", "reikia", "naujas", "puodelis"]
+          "explanation": "Two: *naujo puodelio* → *naujų puodelių*. *jai* and *reikia* never move — *reikia* is immutable (¶69).",
+          "rulesTested": [
+            "reikia",
+            "plural-genitive",
+            "adjective-number"
+          ],
+          "vocabUsed": [
+            "jai",
+            "reikia",
+            "naujas",
+            "puodelis"
+          ]
+        },
+        {
+          "id": "a110-p1-q4",
+          "type": "single",
+          "difficulty": "hard",
+          "stem": "**Mamai tinka šis puodelis.** What is the grammatical subject?",
+          "options": [
+            "mamai",
+            "tinka",
+            "šis puodelis",
+            "there is none"
+          ],
+          "correct": 2,
+          "explanation": "*tikti* patterns like *patikti*: the thing that suits is the subject; the person is dative (¶70). *mamai* is the person concerned, not the subject.",
+          "rulesTested": [
+            "other-dative-verbs",
+            "dative-endings"
+          ],
+          "vocabUsed": [
+            "mama",
+            "tikti",
+            "šis",
+            "puodelis"
+          ]
+        },
+        {
+          "id": "a110-p1-q5",
+          "type": "multi",
+          "difficulty": "hard",
+          "stem": "Which verbs in the passage govern a **dative** of the person?",
+          "options": [
+            "skambina",
+            "patinka",
+            "reikia",
+            "eina"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "*skambinti*, *patikti* and *reikia* all put the person in the dative. *eina* is motion and takes *į* + accusative for destination.",
+          "rulesTested": [
+            "other-dative-verbs",
+            "patikti",
+            "reikia",
+            "direction-i"
+          ],
+          "vocabUsed": [
+            "skambinti",
+            "patikti",
+            "reikia",
+            "eiti"
+          ]
         }
       ]
     }

@@ -4,8 +4,13 @@
   "level": "A1",
   "order": 9,
   "title": "Checkpoint: The Genitive, the Verb, and Asking",
-  "summary": "A cumulative examination of sections four to seven: the genitive in all its offices, the present tense of all three conjugations, the pronouns and possessives, and the forming of questions. Twenty-four questions in the four examination formats.",
-  "covers": ["a1-04", "a1-05", "a1-06", "a1-07"],
+  "summary": "A cumulative examination of sections four to seven: the genitive in all its offices, the present tense of all three conjugations, the pronouns and possessives, and the forming of questions. Thirty-two questions in the four examination formats.",
+  "covers": [
+    "a1-04",
+    "a1-05",
+    "a1-06",
+    "a1-07"
+  ],
   "passThreshold": 60,
   "drills": [
     {
@@ -13,89 +18,227 @@
       "type": "single",
       "difficulty": "easy",
       "fromSection": "a1-04",
-      "stem": "What is the genitive singular of **sūnus**?",
-      "options": ["sūnų", "sūnaus", "sūnuje", "sūno"],
+      "stem": "Genitive singular of **sūnus**?",
+      "options": [
+        "sūnų",
+        "sūnaus",
+        "sūnuje",
+        "sūno"
+      ],
       "correct": 1,
-      "explanation": "Masculine -us makes -aus. *sūnų* is the accusative; the genitive of a -us noun is the one ending that cannot be guessed from the others.",
-      "rulesTested": ["genitive-endings"],
-      "vocabUsed": ["sūnus"]
+      "explanation": "-us → -aus. *sūnų* is accusative (¶28).",
+      "rulesTested": [
+        "genitive-endings"
+      ],
+      "vocabUsed": [
+        "sūnus"
+      ]
     },
     {
       "id": "cp2-q2",
       "type": "single",
       "difficulty": "easy",
       "fromSection": "a1-04",
-      "stem": "Complete: **Knyga guli ____ stalo.** (The book is lying on the table.)",
-      "options": ["į", "ant", "iš", "be"],
+      "stem": "Complete: **Knyga guli ____ stalo.**",
+      "options": [
+        "į",
+        "ant",
+        "iš",
+        "be"
+      ],
       "correct": 1,
-      "explanation": "*ant* is \"on\" and governs the genitive, which is why *stalas* stands as *stalo*. *iš* and *be* also take the genitive but mean \"out of\" and \"without\".",
-      "rulesTested": ["genitive-prepositions"],
-      "vocabUsed": ["knyga", "guli", "ant", "iš", "be", "stalas"]
+      "explanation": "*ant* + genitive \"on\". *iš*/*be* take genitive but wrong meaning (¶33).",
+      "rulesTested": [
+        "genitive-prepositions"
+      ],
+      "vocabUsed": [
+        "knyga",
+        "guli",
+        "ant",
+        "iš",
+        "be",
+        "stalas"
+      ]
     },
     {
       "id": "cp2-q3",
       "type": "multi",
       "difficulty": "medium",
       "fromSection": "a1-04",
-      "stem": "In which of these is the genitive required for a reason **other** than a preposition?",
+      "stem": "Genitive required for a reason **other than** a preposition?",
       "options": [
         "Aš neturiu laiko.",
         "Kava be pieno.",
         "Puodelis kavos.",
         "Ji yra iš Kauno."
       ],
-      "correct": [0, 2],
-      "explanation": "Negation and quantity respectively. *be* and *iš* are prepositions governing the genitive, so those two are excluded by the question.",
-      "rulesTested": ["genitive-negation", "genitive-quantity", "genitive-prepositions", "genitive-origin"],
-      "vocabUsed": ["turėti", "laikas", "kava", "be", "pienas", "puodelis", "iš"]
+      "correct": [
+        0,
+        2
+      ],
+      "explanation": "Negation and quantity. *be*/*iš* are prepositions (¶31–¶33).",
+      "rulesTested": [
+        "genitive-negation",
+        "genitive-quantity",
+        "genitive-prepositions",
+        "genitive-origin"
+      ],
+      "vocabUsed": [
+        "turėti",
+        "laikas",
+        "kava",
+        "be",
+        "pienas",
+        "puodelis",
+        "iš"
+      ]
     },
     {
       "id": "cp2-q4",
       "type": "integer",
       "difficulty": "hard",
       "fromSection": "a1-04",
-      "stem": "**Aš turiu naują knygą.** If the verb were negated, how many words would change form?",
+      "stem": "**Aš turiu naują knygą.** If negated, how many words change?",
       "answer": 3,
       "unit": "words",
-      "explanation": "Three: *turiu* → *neturiu*, and the object goes into the genitive with its adjective following it — *naują knygą* → *naujos knygos*. Answering two forgets that an adjective goes wherever its noun goes (¶21).",
-      "rulesTested": ["genitive-negation", "genitive-endings", "accusative-adjectives"],
-      "vocabUsed": ["turėti", "naujas", "knyga"]
+      "explanation": "*turiu*→*neturiu*, *naują*→*naujos*, *knygą*→*knygos*. Adjective follows the noun (¶31).",
+      "rulesTested": [
+        "genitive-negation",
+        "genitive-endings",
+        "accusative-adjectives"
+      ],
+      "vocabUsed": [
+        "turėti",
+        "naujas",
+        "knyga"
+      ]
     },
     {
       "id": "cp2-q5",
       "type": "single",
       "difficulty": "medium",
       "fromSection": "a1-04",
-      "stem": "*Mokytojo namas* means \"the teacher's house\". What does *namo mokytojas* mean?",
+      "stem": "*Mokytojo namas* vs *namo mokytojas*?",
       "options": [
         "The same thing.",
         "The house's teacher.",
-        "It is ungrammatical.",
+        "Ungrammatical.",
         "The teacher is at home."
       ],
       "correct": 1,
-      "explanation": "The genitive names the possessor and stands first; reversing the order reverses which word possesses which. Both phrases are perfectly grammatical and mean different things.",
-      "rulesTested": ["genitive-possession"],
-      "vocabUsed": ["mokytojas", "namas"]
+      "explanation": "Reversing genitive order reverses possession (¶29).",
+      "rulesTested": [
+        "genitive-possession"
+      ],
+      "vocabUsed": [
+        "mokytojas",
+        "namas"
+      ]
     },
     {
       "id": "cp2-q6",
       "type": "single",
-      "difficulty": "easy",
-      "fromSection": "a1-05",
-      "stem": "Which form of *skaityti* goes with **mes**?",
-      "options": ["skaitame", "skaitome", "skaitime", "skaitau"],
+      "difficulty": "medium",
+      "fromSection": "a1-04",
+      "stem": "Complete: **Aš esu ____ Lietuvos.**",
+      "options": [
+        "ant",
+        "iš",
+        "be",
+        "prie"
+      ],
       "correct": 1,
-      "explanation": "The third conjugation builds its plural on the third-person form: *skaito* → *skaitome*. *skaitame* would be first-conjugation and *skaitime* second.",
-      "rulesTested": ["present-conj-iii", "conjugation-summary"],
-      "vocabUsed": ["skaityti", "mes"]
+      "explanation": "*iš* + genitive for origin (¶30).",
+      "rulesTested": [
+        "genitive-origin",
+        "genitive-prepositions"
+      ],
+      "vocabUsed": [
+        "iš",
+        "Lietuva",
+        "ant",
+        "be",
+        "prie"
+      ]
     },
     {
       "id": "cp2-q7",
+      "type": "multi",
+      "difficulty": "hard",
+      "fromSection": "a1-04",
+      "stem": "Which genitive endings are correct?",
+      "options": [
+        "brolio",
+        "knygos",
+        "katę",
+        "sūnaus"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "*katę* is accusative; genitive is *katės* (¶28).",
+      "rulesTested": [
+        "genitive-endings"
+      ],
+      "vocabUsed": [
+        "brolis",
+        "knyga",
+        "katė",
+        "sūnus"
+      ]
+    },
+    {
+      "id": "cp2-q8",
+      "type": "integer",
+      "difficulty": "medium",
+      "fromSection": "a1-04",
+      "stem": "Of *iš, nuo, iki, prie, ant, be, po, į*, how many govern the **genitive**?",
+      "answer": 7,
+      "unit": "prepositions",
+      "explanation": "Seven. *Į* takes the accusative of direction.",
+      "rulesTested": [
+        "genitive-prepositions"
+      ],
+      "vocabUsed": [
+        "iš",
+        "ant",
+        "be",
+        "prie",
+        "iki",
+        "nuo"
+      ]
+    },
+    {
+      "id": "cp2-q9",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "a1-05",
+      "stem": "Form of *skaityti* with **mes**?",
+      "options": [
+        "skaitame",
+        "skaitome",
+        "skaitime",
+        "skaitau"
+      ],
+      "correct": 1,
+      "explanation": "Conj. III: *skaito* + *-me* → *skaitome* (¶37–¶38).",
+      "rulesTested": [
+        "present-conj-iii",
+        "conjugation-summary"
+      ],
+      "vocabUsed": [
+        "skaityti",
+        "mes"
+      ]
+    },
+    {
+      "id": "cp2-q10",
       "type": "single",
       "difficulty": "medium",
       "fromSection": "a1-05",
-      "stem": "A dictionary gives **gyventi, gyvena, gyveno**. Which conjugation, and what is the first person singular?",
+      "stem": "**gyventi, gyvena, gyveno** — conjugation and 1sg?",
       "options": [
         "first; gyvenu",
         "second; gyveniu",
@@ -103,29 +246,48 @@
         "first; gyvenau"
       ],
       "correct": 0,
-      "explanation": "The third person *gyvena* ends in -a, naming the first conjugation, whose first person singular ending is -u on the stem *gyven-*.",
-      "rulesTested": ["present-stem", "conjugations", "present-conj-i"],
-      "vocabUsed": ["gyventi"]
+      "explanation": "*-a* → conj. I; stem *gyven-* + *-u* (¶35).",
+      "rulesTested": [
+        "present-stem",
+        "conjugations",
+        "present-conj-i"
+      ],
+      "vocabUsed": [
+        "gyventi"
+      ]
     },
     {
-      "id": "cp2-q8",
+      "id": "cp2-q11",
       "type": "multi",
       "difficulty": "medium",
       "fromSection": "a1-05",
-      "stem": "Which of these sentences are **correct**?",
+      "stem": "Which sentences are **correct**?",
       "options": [
         "Aš noriu kavos.",
         "Aš mėgstu kavą.",
         "Mes galime dirbame.",
         "Ji nori obuolius."
       ],
-      "correct": [0, 1],
-      "explanation": "*norėti* takes the genitive and *mėgti* the accusative. The third puts two finite verbs together where the second should be an infinitive, and the fourth gives *norėti* an accusative.",
-      "rulesTested": ["wanting-liking", "complementary-infinitive"],
-      "vocabUsed": ["norėti", "kava", "mėgti", "galėti", "dirbti", "obuolys"]
+      "correct": [
+        0,
+        1
+      ],
+      "explanation": "Case government + complementary infinitive (¶39–¶40).",
+      "rulesTested": [
+        "wanting-liking",
+        "complementary-infinitive"
+      ],
+      "vocabUsed": [
+        "norėti",
+        "kava",
+        "mėgti",
+        "galėti",
+        "dirbti",
+        "obuolys"
+      ]
     },
     {
-      "id": "cp2-q9",
+      "id": "cp2-q12",
       "type": "single",
       "difficulty": "hard",
       "fromSection": "a1-05",
@@ -134,77 +296,174 @@
         "Because *niekada* must follow the verb.",
         "Because *niekada* requires the verb to be negated as well.",
         "Because *duonos* should be *duoną*.",
-        "Because *valgo* is of the wrong conjugation."
+        "Because *valgo* is the wrong conjugation."
       ],
       "correct": 1,
-      "explanation": "Lithuanian doubles its negatives: *niekada* requires *nevalgo*. Once the verb is negated, the genitive *duonos* is then correct — so the sentence has one error and not two.",
-      "rulesTested": ["frequency-adverbs", "genitive-negation"],
-      "vocabUsed": ["niekada", "valgyti", "duona"]
+      "explanation": "Double negative obligatory: *niekada nevalgo* (¶41). Once negated, genitive *duonos* is then correct.",
+      "rulesTested": [
+        "frequency-adverbs",
+        "genitive-negation"
+      ],
+      "vocabUsed": [
+        "niekada",
+        "valgyti",
+        "duona"
+      ]
     },
     {
-      "id": "cp2-q10",
+      "id": "cp2-q13",
       "type": "integer",
       "difficulty": "hard",
       "fromSection": "a1-05",
-      "stem": "Of these four verbs, how many belong to the **second** conjugation: *gyventi, turėti, klausyti, žiūrėti*?",
+      "stem": "Of *gyventi, turėti, klausyti, žiūrėti*, how many are **second** conjugation?",
       "answer": 2,
       "unit": "verbs",
-      "explanation": "Two: *turėti* (turi) and *žiūrėti* (žiūri). *gyventi* gives *gyvena*, of the first, and *klausyti* gives *klauso*, of the third. The infinitive in -ėti is no guide at all — *kalbėti* gives *kalba* and is of the first.",
-      "rulesTested": ["conjugations", "present-conj-ii", "present-stem"],
-      "vocabUsed": ["gyventi", "turėti", "klausyti", "žiūrėti", "kalbėti"]
+      "explanation": "*turėti* (*turi*), *žiūrėti* (*žiūri*). *gyvena* is I; *klauso* is III (¶35–¶36).",
+      "rulesTested": [
+        "conjugations",
+        "present-conj-ii",
+        "present-stem"
+      ],
+      "vocabUsed": [
+        "gyventi",
+        "turėti",
+        "klausyti",
+        "žiūrėti"
+      ]
     },
     {
-      "id": "cp2-q11",
+      "id": "cp2-q15",
+      "type": "multi",
+      "difficulty": "hard",
+      "fromSection": "a1-05",
+      "stem": "Which use a **complementary infinitive** correctly?",
+      "options": [
+        "Aš galiu dirbti.",
+        "Ji nori skaityti.",
+        "Mes mėgstame dainuoti.",
+        "Jis nori kavą."
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Finite + infinitive (¶40). *nori kavą* fails because *norėti* needs genitive *kavos* when the complement is a noun.",
+      "rulesTested": [
+        "complementary-infinitive",
+        "wanting-liking"
+      ],
+      "vocabUsed": [
+        "galėti",
+        "dirbti",
+        "norėti",
+        "skaityti",
+        "mėgti",
+        "dainuoti",
+        "kava"
+      ]
+    },
+    {
+      "id": "cp2-q16",
+      "type": "integer",
+      "difficulty": "easy",
+      "fromSection": "a1-05",
+      "stem": "How many conjugations are there?",
+      "answer": 3,
+      "unit": "conjugations",
+      "explanation": "Three, by 3rd-person present *-a/-i/-o* (¶23, ¶38).",
+      "rulesTested": [
+        "conjugations",
+        "conjugation-summary"
+      ],
+      "vocabUsed": []
+    },
+    {
+      "id": "cp2-q17",
       "type": "single",
       "difficulty": "easy",
       "fromSection": "a1-06",
       "stem": "Translate: **our house**",
-      "options": ["mūsas namas", "mūsų namas", "mus namas", "mūsų namo"],
+      "options": [
+        "mūsas namas",
+        "mūsų namas",
+        "mus namas",
+        "mūsų namo"
+      ],
       "correct": 1,
-      "explanation": "*mūsų* is the possessive and never changes; the noun stays in the nominative because the phrase is a subject. *mūsų namo* would be the genitive of the whole phrase, \"of our house\".",
-      "rulesTested": ["possessives"],
-      "vocabUsed": ["mūsų", "namas", "mus"]
+      "explanation": "Indeclinable *mūsų* + nominative noun as subject phrase (¶43).",
+      "rulesTested": [
+        "possessives"
+      ],
+      "vocabUsed": [
+        "mūsų",
+        "namas",
+        "mus"
+      ]
     },
     {
-      "id": "cp2-q12",
+      "id": "cp2-q18",
       "type": "single",
       "difficulty": "medium",
       "fromSection": "a1-06",
-      "stem": "**Rūta myli jos katę.** Whose cat is it?",
+      "stem": "**Rūta myli jos katę.** Whose cat?",
       "options": [
         "Rūta's own.",
         "Another woman's.",
-        "Either — the sentence is ambiguous.",
-        "The sentence is ungrammatical."
+        "Ambiguous.",
+        "Ungrammatical."
       ],
       "correct": 1,
-      "explanation": "*jos* points away from the subject. Rūta's own cat would be *savo katę* (¶44). English \"her cat\" covers both readings and Lithuanian covers only one.",
-      "rulesTested": ["savo", "possessives"],
-      "vocabUsed": ["mylėti", "jos", "katė", "savo"]
+      "explanation": "*jos* ≠ subject; own cat needs *savo* (¶44).",
+      "rulesTested": [
+        "savo",
+        "possessives"
+      ],
+      "vocabUsed": [
+        "mylėti",
+        "jos",
+        "katė",
+        "savo"
+      ]
     },
     {
-      "id": "cp2-q13",
+      "id": "cp2-q19",
       "type": "multi",
       "difficulty": "medium",
       "fromSection": "a1-06",
-      "stem": "Which of these are correct forms of the pronouns?",
+      "stem": "Which pronoun facts are correct?",
       "options": [
-        "the accusative of *jie* is *juos*",
-        "the genitive of *aš* is *mano*",
-        "the genitive of *jūs* is *jūsų*",
-        "the accusative of *jos* is *jas*"
+        "accusative of *jie* is *juos*",
+        "genitive of *aš* is *mano*",
+        "genitive of *jūs* is *jūsų*",
+        "accusative of *jos* is *jas*"
       ],
-      "correct": [0, 2, 3],
-      "explanation": "The genitive of *aš* is *manęs*; *mano* is the possessive, which has drifted apart from it. In the plural the two have not drifted: *mūsų*, *jūsų* and *jų* serve as both.",
-      "rulesTested": ["pronouns-cases", "possessives"],
-      "vocabUsed": ["jie", "aš", "mano", "manęs", "jūs", "jūsų", "jos"]
+      "correct": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "Genitive of *aš* is *manęs*; *mano* is the possessive (¶42–¶43).",
+      "rulesTested": [
+        "pronouns-cases",
+        "possessives"
+      ],
+      "vocabUsed": [
+        "jie",
+        "aš",
+        "mano",
+        "manęs",
+        "jūs",
+        "jūsų",
+        "jos"
+      ]
     },
     {
-      "id": "cp2-q14",
+      "id": "cp2-q20",
       "type": "single",
       "difficulty": "medium",
       "fromSection": "a1-06",
-      "stem": "You are speaking to your professor. Which is correct?",
+      "stem": "To your professor:",
       "options": [
         "Ar tu kalbi angliškai?",
         "Ar Jūs kalbate angliškai?",
@@ -212,28 +471,45 @@
         "Ar tu kalbate angliškai?"
       ],
       "correct": 1,
-      "explanation": "*Jūs* is the polite form and carries a plural verb even when one person is meant. Mixing the pronoun of one number with the verb of the other is the usual error.",
-      "rulesTested": ["polite-jus", "ar-questions"],
-      "vocabUsed": ["ar", "jūs", "tu", "kalbėti"]
+      "explanation": "Polite *Jūs* + plural verb (¶45).",
+      "rulesTested": [
+        "polite-jus",
+        "ar-questions"
+      ],
+      "vocabUsed": [
+        "ar",
+        "jūs",
+        "tu",
+        "kalbėti"
+      ]
     },
     {
-      "id": "cp2-q15",
+      "id": "cp2-q21",
       "type": "integer",
       "difficulty": "hard",
       "fromSection": "a1-06",
-      "stem": "**Aš matau tavo brolį.** How many of the four words change form if the object becomes *your sister*?",
+      "stem": "**Aš matau tavo brolį.** Object → *your sister*. How many words change?",
       "answer": 1,
       "unit": "words",
-      "explanation": "One: *brolį* → *seserį*. The possessive *tavo* is indeclinable and has no feminine (¶43), and the subject and verb are untouched. Answering two means giving the possessive a gender, which Lithuanian never does.",
-      "rulesTested": ["possessives", "accusative-nouns"],
-      "vocabUsed": ["aš", "matyti", "tavo", "brolis", "sesuo"]
+      "explanation": "Only *brolį*→*seserį*. *tavo* never genders (¶43).",
+      "rulesTested": [
+        "possessives",
+        "accusative-nouns"
+      ],
+      "vocabUsed": [
+        "aš",
+        "matyti",
+        "tavo",
+        "brolis",
+        "sesuo"
+      ]
     },
     {
-      "id": "cp2-q16",
+      "id": "cp2-q22",
       "type": "single",
       "difficulty": "hard",
       "fromSection": "a1-06",
-      "stem": "In which sentence may the subject pronoun **not** be dropped?",
+      "stem": "In which may the subject pronoun **not** be dropped?",
       "options": [
         "Aš gyvenu Kaune.",
         "Tu turi seserį.",
@@ -241,78 +517,590 @@
         "Jūs dirbate universitete."
       ],
       "correct": 1,
-      "explanation": "*turi* is a second-conjugation form serving *tu*, *jis*, *ji*, *jie* and *jos* alike, so without the pronoun the person is unknown. The other three endings each name one person only.",
-      "rulesTested": ["pronoun-omission", "present-conj-ii"],
-      "vocabUsed": ["aš", "gyventi", "tu", "turėti", "sesuo", "mes", "skaityti", "jūs", "dirbti"]
+      "explanation": "Conj. II *turi* is ambiguous without the pronoun (¶46).",
+      "rulesTested": [
+        "pronoun-omission",
+        "present-conj-ii"
+      ],
+      "vocabUsed": [
+        "aš",
+        "gyventi",
+        "tu",
+        "turėti",
+        "sesuo",
+        "mes",
+        "skaityti",
+        "jūs",
+        "dirbti"
+      ]
     },
     {
-      "id": "cp2-q17",
+      "id": "cp2-q23",
+      "type": "multi",
+      "difficulty": "hard",
+      "fromSection": "a1-06",
+      "stem": "Which are correct after negation?",
+      "options": [
+        "Mes jų nematome.",
+        "Mes juos nematome.",
+        "Aš tavęs nematau.",
+        "Aš tave nematau."
+      ],
+      "correct": [
+        0,
+        2
+      ],
+      "explanation": "Negation → genitive pronouns *jų*, *tavęs* (¶31, ¶42).",
+      "rulesTested": [
+        "pronouns-cases",
+        "genitive-negation"
+      ],
+      "vocabUsed": [
+        "mes",
+        "jų",
+        "matyti",
+        "tavęs",
+        "tave"
+      ]
+    },
+    {
+      "id": "cp2-q24",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "a1-06",
+      "stem": "**Jis myli savo brolį** means:",
+      "options": [
+        "He loves his own brother.",
+        "He loves another man's brother.",
+        "Ambiguous.",
+        "He loves my brother."
+      ],
+      "correct": 0,
+      "explanation": "*savo* = subject's own (¶44).",
+      "rulesTested": [
+        "savo"
+      ],
+      "vocabUsed": [
+        "savo",
+        "mylėti",
+        "brolis",
+        "jis"
+      ]
+    },
+    {
+      "id": "cp2-q25",
       "type": "single",
       "difficulty": "easy",
       "fromSection": "a1-07",
-      "stem": "Which word turns a statement into a question expecting yes or no?",
-      "options": ["kas", "ar", "koks", "nes"],
+      "stem": "Which turns a statement into a yes/no question?",
+      "options": [
+        "kas",
+        "ar",
+        "koks",
+        "nes"
+      ],
       "correct": 1,
-      "explanation": "*ar* stands at the head and nothing else moves. *kas* and *koks* ask for information rather than for yes or no, and *nes* answers a *kodėl*.",
-      "rulesTested": ["ar-questions"],
-      "vocabUsed": ["ar", "kas", "koks", "nes"]
+      "explanation": "*ar* at the head (¶48).",
+      "rulesTested": [
+        "ar-questions"
+      ],
+      "vocabUsed": [
+        "ar",
+        "kas",
+        "koks",
+        "nes"
+      ]
     },
     {
-      "id": "cp2-q18",
+      "id": "cp2-q26",
       "type": "single",
       "difficulty": "medium",
       "fromSection": "a1-07",
       "stem": "Complete: **____ tavo namas?** (What is your house like?)",
-      "options": ["Kokia", "Koks", "Kaip", "Kur"],
+      "options": [
+        "Kokia",
+        "Koks",
+        "Kaip",
+        "Kur"
+      ],
       "correct": 1,
-      "explanation": "*koks* asks after a quality and agrees in gender; *namas* is masculine, so *koks*. *Kaip* would ask in what manner something is done.",
-      "rulesTested": ["koks", "question-adverbs", "adjective-agreement"],
-      "vocabUsed": ["koks", "kaip", "kur", "tavo", "namas"]
+      "explanation": "*koks* agrees: masculine *namas* → *Koks* (¶51).",
+      "rulesTested": [
+        "koks",
+        "question-adverbs",
+        "adjective-agreement"
+      ],
+      "vocabUsed": [
+        "koks",
+        "kaip",
+        "kur",
+        "tavo",
+        "namas"
+      ]
     },
     {
-      "id": "cp2-q19",
+      "id": "cp2-q27",
       "type": "multi",
       "difficulty": "medium",
       "fromSection": "a1-07",
-      "stem": "Which question and answer are **correctly** matched in case?",
+      "stem": "Which question–answer pairs match in case?",
       "options": [
         "Kas dirba? — Tėvas.",
         "Ką tu matai? — Namą.",
         "Ko tu nori? — Kavą.",
         "Kieno tai katė? — Sesers."
       ],
-      "correct": [0, 1, 3],
-      "explanation": "A short answer stands in the case of its question word. *Ko* asks for a genitive, so the third should answer *Kavos* — and *norėti* would require the genitive in any case.",
-      "rulesTested": ["answering-in-case", "kas-declined", "wanting-liking"],
-      "vocabUsed": ["kas", "dirbti", "tėvas", "ką", "matyti", "namas", "ko", "norėti", "kava", "kieno", "katė", "sesuo"]
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "*Ko* needs genitive *Kavos* (¶52, ¶39).",
+      "rulesTested": [
+        "answering-in-case",
+        "kas-declined",
+        "wanting-liking"
+      ],
+      "vocabUsed": [
+        "kas",
+        "dirbti",
+        "tėvas",
+        "ką",
+        "matyti",
+        "namas",
+        "ko",
+        "norėti",
+        "kava",
+        "kieno",
+        "katė",
+        "sesuo"
+      ]
     },
     {
-      "id": "cp2-q20",
+      "id": "cp2-q28",
       "type": "integer",
       "difficulty": "hard",
       "fromSection": "a1-07",
-      "stem": "**Ką jis mato?** If the verb were negated, how many of the three words would change form?",
+      "stem": "**Ką jis mato?** If negated, how many of the three words change?",
       "answer": 2,
       "unit": "words",
-      "explanation": "Two: *mato* → *nemato*, and the question word *ką* → *ko*, since the object of a negated verb stands in the genitive (¶31) and the question word must stand in the case of its own answer (¶52). *jis* is the subject and is untouched.",
-      "rulesTested": ["kas-declined", "answering-in-case", "genitive-negation"],
-      "vocabUsed": ["ką", "ko", "jis", "matyti"]
+      "explanation": "*mato*→*nemato*, *ką*→*ko* (¶31, ¶52).",
+      "rulesTested": [
+        "kas-declined",
+        "answering-in-case",
+        "genitive-negation"
+      ],
+      "vocabUsed": [
+        "ką",
+        "ko",
+        "jis",
+        "matyti"
+      ]
+    },
+    {
+      "id": "cp2-q29",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "a1-07",
+      "stem": "How does one ask a name politely?",
+      "options": [
+        "Kas Jūsų vardas?",
+        "Kaip Jūsų vardas?",
+        "Koks Jūsų vardas?",
+        "Kur Jūsų vardas?"
+      ],
+      "correct": 1,
+      "explanation": "*Kaip Jūsų vardas?* (¶50). *Kas…* is an English calque.",
+      "rulesTested": [
+        "question-adverbs",
+        "polite-jus"
+      ],
+      "vocabUsed": [
+        "kaip",
+        "jūsų",
+        "vardas",
+        "kas"
+      ]
+    },
+    {
+      "id": "cp2-q30",
+      "type": "multi",
+      "difficulty": "hard",
+      "fromSection": "a1-07",
+      "stem": "Which question words **inflect**?",
+      "options": [
+        "kas",
+        "kur",
+        "koks",
+        "kodėl"
+      ],
+      "correct": [
+        0,
+        2
+      ],
+      "explanation": "*kas* by case; *koks* by gender. Adverbs invariable (¶49–¶51).",
+      "rulesTested": [
+        "kas-declined",
+        "koks",
+        "question-adverbs"
+      ],
+      "vocabUsed": [
+        "kas",
+        "kur",
+        "koks",
+        "kodėl"
+      ]
+    },
+    {
+      "id": "cp2-q31",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "a1-04",
+      "stem": "Genitive singular of **katė**?",
+      "options": [
+        "katę",
+        "katės",
+        "katė",
+        "katęi"
+      ],
+      "correct": 1,
+      "explanation": "*-ė → -ės* (¶28). *katę* is accusative.",
+      "rulesTested": [
+        "genitive-endings"
+      ],
+      "vocabUsed": [
+        "katė"
+      ]
+    },
+    {
+      "id": "cp2-q32",
+      "type": "multi",
+      "difficulty": "medium",
+      "fromSection": "a1-04",
+      "stem": "Which correctly use a **genitive** preposition?",
+      "options": [
+        "ant stalo",
+        "be pieno",
+        "iš Lietuvos",
+        "su stalo"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "*ant/be/iš* take genitive (¶33). *su* is not among ¶33’s genitive prepositions.",
+      "rulesTested": [
+        "genitive-prepositions"
+      ],
+      "vocabUsed": [
+        "ant",
+        "stalas",
+        "be",
+        "pienas",
+        "iš",
+        "Lietuva"
+      ]
+    },
+    {
+      "id": "cp2-q33",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a1-04",
+      "stem": "**puodelis ____** (a cup of coffee)",
+      "options": [
+        "kava",
+        "kavą",
+        "kavos",
+        "kavai"
+      ],
+      "correct": 2,
+      "explanation": "Quantity + genitive *kavos* (¶32).",
+      "rulesTested": [
+        "genitive-quantity"
+      ],
+      "vocabUsed": [
+        "puodelis",
+        "kava"
+      ]
+    },
+    {
+      "id": "cp2-q34",
+      "type": "integer",
+      "difficulty": "hard",
+      "fromSection": "a1-04",
+      "stem": "**Ji turi knygą.** Negate it. How many of the three words change form?",
+      "answer": 2,
+      "unit": "words",
+      "explanation": "*turi→neturi*, *knygą→knygos*; *ji* unchanged (¶31).",
+      "rulesTested": [
+        "genitive-negation"
+      ],
+      "vocabUsed": [
+        "turėti",
+        "knyga",
+        "ji"
+      ]
+    },
+    {
+      "id": "cp2-q35",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "a1-05",
+      "stem": "Form of *žiūrėti* with **mes**:",
+      "options": [
+        "žiūrame",
+        "žiūrime",
+        "žiūrome",
+        "žiūrėme"
+      ],
+      "correct": 1,
+      "explanation": "Conj. II: *žiūri* + *-me* → *žiūrime* (¶36).",
+      "rulesTested": [
+        "present-conj-ii"
+      ],
+      "vocabUsed": [
+        "žiūrėti",
+        "mes"
+      ]
+    },
+    {
+      "id": "cp2-q36",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a1-05",
+      "stem": "**Noriu ____** vs **Mėgstu ____** for coffee:",
+      "options": [
+        "kavą / kavos",
+        "kavos / kavą",
+        "kava / kava",
+        "kavos / kavos"
+      ],
+      "correct": 1,
+      "explanation": "*norėti* + genitive; *mėgti* + accusative (¶39).",
+      "rulesTested": [
+        "wanting-liking"
+      ],
+      "vocabUsed": [
+        "norėti",
+        "mėgti",
+        "kava"
+      ]
+    },
+    {
+      "id": "cp2-q37",
+      "type": "multi",
+      "difficulty": "medium",
+      "fromSection": "a1-05",
+      "stem": "Which sentences are correct?",
+      "options": [
+        "Aš galiu dirbti.",
+        "Ji nori skaityti.",
+        "Mes mėgstame dainuoju.",
+        "Aš dažnai skaitau."
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "Complementary infinitive needs *-ti* (¶40); *dainuoju* is finite. Frequency adverb before the verb is fine (¶41).",
+      "rulesTested": [
+        "complementary-infinitive",
+        "frequency-adverbs"
+      ],
+      "vocabUsed": [
+        "galėti",
+        "dirbti",
+        "norėti",
+        "skaityti",
+        "mėgti",
+        "dainuoti",
+        "dažnai"
+      ]
+    },
+    {
+      "id": "cp2-q38",
+      "type": "integer",
+      "difficulty": "easy",
+      "fromSection": "a1-05",
+      "stem": "Present stem of *turėti* (*turi*) has how many letters before the ending?",
+      "answer": 3,
+      "unit": "letters",
+      "explanation": "Stem *tur-* — three letters (¶35).",
+      "rulesTested": [
+        "present-stem"
+      ],
+      "vocabUsed": [
+        "turėti"
+      ]
+    },
+    {
+      "id": "cp2-q39",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "a1-05",
+      "stem": "**Mes ____.** (*skaityti*)",
+      "options": [
+        "skaitame",
+        "skaitome",
+        "skaitime",
+        "skaitėme"
+      ],
+      "correct": 1,
+      "explanation": "Conj. III *skaitome* (¶37).",
+      "rulesTested": [
+        "present-conj-iii",
+        "conjugation-summary"
+      ],
+      "vocabUsed": [
+        "skaityti",
+        "mes"
+      ]
+    },
+    {
+      "id": "cp2-q40",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "a1-06",
+      "stem": "Translate: **my brother**",
+      "options": [
+        "manęs brolis",
+        "mano brolis",
+        "mane brolis",
+        "aš brolis"
+      ],
+      "correct": 1,
+      "explanation": "Possessive *mano*, not genitive *manęs* (¶43).",
+      "rulesTested": [
+        "possessives"
+      ],
+      "vocabUsed": [
+        "mano",
+        "brolis"
+      ]
+    },
+    {
+      "id": "cp2-q41",
+      "type": "multi",
+      "difficulty": "medium",
+      "fromSection": "a1-06",
+      "stem": "Which correctly require **savo**?",
+      "options": [
+        "Jis skaito savo knygą.",
+        "Ji myli savo seserį.",
+        "Jis myli jo brolį. (another man’s brother)",
+        "Aš matau savo draugę."
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "Subject’s own possession → *savo* (¶44). *jo* for another man is the contrasting correct sentence, not a *savo* case.",
+      "rulesTested": [
+        "savo"
+      ],
+      "vocabUsed": [
+        "savo",
+        "knyga",
+        "sesuo",
+        "brolis",
+        "draugė"
+      ]
+    },
+    {
+      "id": "cp2-q42",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a1-06",
+      "stem": "Polite “What is your name?”:",
+      "options": [
+        "Kaip tavo vardas?",
+        "Kaip Jūsų vardas?",
+        "Kas Jūs vardas?",
+        "Koks tu vardas?"
+      ],
+      "correct": 1,
+      "explanation": "Polite *Jūsų* with *Kaip … vardas?* (¶45).",
+      "rulesTested": [
+        "polite-jus",
+        "possessives"
+      ],
+      "vocabUsed": [
+        "jūsų",
+        "vardas",
+        "kaip"
+      ]
+    },
+    {
+      "id": "cp2-q43",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a1-07",
+      "stem": "Complete: **____ tu dirbi?** (Where do you work?)",
+      "options": [
+        "Kas",
+        "Kur",
+        "Ką",
+        "Koks"
+      ],
+      "correct": 1,
+      "explanation": "*kur* = where (¶50).",
+      "rulesTested": [
+        "question-adverbs"
+      ],
+      "vocabUsed": [
+        "kur",
+        "dirbti"
+      ]
+    },
+    {
+      "id": "cp2-q44",
+      "type": "multi",
+      "difficulty": "hard",
+      "fromSection": "a1-07",
+      "stem": "Which question–answer pairs match in case?",
+      "options": [
+        "Ką tu matai? — Mokytoją.",
+        "Ko tu nori? — Kavos.",
+        "Kas tai? — Mano knyga.",
+        "Ko tu nori? — Kava."
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "*Ko* needs genitive *Kavos*, not nominative *Kava* (¶52).",
+      "rulesTested": [
+        "answering-in-case",
+        "kas-declined"
+      ],
+      "vocabUsed": [
+        "ką",
+        "ko",
+        "kas",
+        "matyti",
+        "norėti",
+        "kava",
+        "knyga"
+      ]
     },
     {
       "id": "cp2-p1",
       "type": "comprehension",
-      "difficulty": "medium",
+      "difficulty": "hard",
       "fromSection": "a1-07",
       "title": "Kavinėje su drauge",
-      "passage": "— Labas, Eglė! Ar tu nori kavos? — Ne, ačiū. Aš niekada negeriu kavos. Noriu vandens. — Kodėl? — Nes kava man netinka. — O ko tu nori valgyti? — Duonos su sūriu. Kiek ji kainuoja? — Nežinau. Klausiu draugo — jis čia dirba. — Ar tai tavo draugas? — Ne, tai mano brolio draugas.",
-      "translation": "— Hello, Eglė! Do you want coffee? — No, thank you. I never drink coffee. I want water. — Why? — Because coffee does not suit me. — And what do you want to eat? — Bread with cheese. How much does it cost? — I don't know. I'll ask a friend — he works here. — Is that your friend? — No, that's my brother's friend.",
+      "passage": "— Labas, Eglė! Ar tu nori kavos? — Ne, ačiū. Aš niekada negeriu kavos. Noriu vandens. — Kodėl? — Nes kava man netinka. — O ko tu nori valgyti? — Duonos su sūriu. Kiek ji kainuoja? — Nežinau. Klausiu draugo — jis čia dirba. — Ar tai tavo draugas? — Ne, tai mano brolio draugas. — Kokia tavo sesuo? — Ji yra jauna ir gera.",
+      "translation": "— Hello, Eglė! Do you want coffee? — No, thank you. I never drink coffee. I want water. — Why? — Because coffee does not suit me. — And what do you want to eat? — Bread with cheese. How much does it cost? — I don't know. I'll ask a friend — he works here. — Is that your friend? — No, that's my brother's friend. — What is your sister like? — She is young and good.",
       "glossary": {
         "Eglė": "Eglė, a woman's name",
         "man netinka": "does not suit me",
-        "sūriu": "cheese (with cheese)",
+        "sūriu": "cheese (instrumental)",
         "kainuoja": "costs",
-        "nežinau": "I don't know",
-        "čia": "here"
+        "nežinau": "I don't know"
       },
       "questions": [
         {
@@ -320,38 +1108,132 @@
           "type": "single",
           "difficulty": "easy",
           "stem": "Ko nori Eglė?",
-          "options": ["kavos", "vandens", "sūrio", "pieno"],
+          "options": [
+            "kavos",
+            "vandens",
+            "sūrio",
+            "pieno"
+          ],
           "correct": 1,
-          "explanation": "*Noriu vandens.* She refuses the coffee outright — she never drinks it. Note that both the question and the answer stand in the genitive, because *norėti* governs it (¶39).",
-          "rulesTested": ["wanting-liking", "answering-in-case", "kas-declined"],
-          "vocabUsed": ["ko", "norėti", "kava", "vanduo", "pienas"]
+          "explanation": "*Noriu vandens.* Genitive after *norėti*.",
+          "rulesTested": [
+            "wanting-liking",
+            "answering-in-case",
+            "kas-declined"
+          ],
+          "vocabUsed": [
+            "ko",
+            "norėti",
+            "kava",
+            "vanduo",
+            "pienas"
+          ]
         },
         {
           "id": "cp2-p1-q2",
           "type": "multi",
           "difficulty": "medium",
-          "stem": "Which of these does the conversation support?",
+          "stem": "Which does the conversation support?",
           "options": [
             "Eglė niekada negeria kavos.",
             "Eglė nori valgyti duonos.",
             "Kavinėje dirba Eglės brolis.",
             "Draugas yra brolio draugas."
           ],
-          "correct": [0, 1, 3],
-          "explanation": "The man who works there is the *brother's friend*, not the brother himself — the genitive *brolio* names whose friend he is (¶29).",
-          "rulesTested": ["frequency-adverbs", "genitive-possession", "wanting-liking"],
-          "vocabUsed": ["niekada", "gerti", "kava", "norėti", "valgyti", "duona", "dirbti", "brolis", "draugas"]
+          "correct": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "Worker is the *brother's friend*, not the brother — genitive possession (¶29).",
+          "rulesTested": [
+            "frequency-adverbs",
+            "genitive-possession",
+            "wanting-liking"
+          ],
+          "vocabUsed": [
+            "niekada",
+            "gerti",
+            "kava",
+            "norėti",
+            "valgyti",
+            "duona",
+            "dirbti",
+            "brolis",
+            "draugas"
+          ]
         },
         {
           "id": "cp2-p1-q3",
           "type": "integer",
           "difficulty": "hard",
-          "stem": "The conversation has **Aš niekada negeriu kavos.** If *niekada* were replaced by *dažnai*, how many of the remaining words would change form?",
+          "stem": "**Aš niekada negeriu kavos.** Replace *niekada* by *dažnai*. How many of the remaining words change?",
           "answer": 2,
           "unit": "words",
-          "explanation": "Two: *negeriu* → *geriu*, since only *niekada* required the negative (¶41), and *kavos* → *kavą*, the object leaving the genitive of negation for the accusative (¶31). Answering one forgets that the case of the object hangs on the negation and not on the adverb.",
-          "rulesTested": ["frequency-adverbs", "genitive-negation", "accusative-nouns"],
-          "vocabUsed": ["niekada", "dažnai", "gerti", "kava"]
+          "explanation": "*negeriu*→*geriu* and *kavos*→*kavą* (¶41, ¶31).",
+          "rulesTested": [
+            "frequency-adverbs",
+            "genitive-negation",
+            "accusative-nouns"
+          ],
+          "vocabUsed": [
+            "niekada",
+            "dažnai",
+            "gerti",
+            "kava"
+          ]
+        },
+        {
+          "id": "cp2-p1-q4",
+          "type": "single",
+          "difficulty": "hard",
+          "stem": "Why *Kokia tavo sesuo?* not *Koks…*?",
+          "options": [
+            "Because *tavo* is feminine.",
+            "Because *sesuo* is feminine, so *koks* agrees as *kokia*.",
+            "Because *koks* cannot ask about people.",
+            "Because the answer will be genitive."
+          ],
+          "correct": 1,
+          "explanation": "*koks* agrees with the noun asked about (¶51).",
+          "rulesTested": [
+            "koks",
+            "adjective-agreement"
+          ],
+          "vocabUsed": [
+            "koks",
+            "tavo",
+            "sesuo"
+          ]
+        },
+        {
+          "id": "cp2-p1-q5",
+          "type": "multi",
+          "difficulty": "hard",
+          "stem": "Which question words appear in the dialogue?",
+          "options": [
+            "ar",
+            "kodėl",
+            "ko",
+            "kada"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "*Ar*, *Kodėl*, *ko*, *Kiek*, *Kokia*. Nothing asks *kada*.",
+          "rulesTested": [
+            "ar-questions",
+            "question-adverbs",
+            "kas-declined"
+          ],
+          "vocabUsed": [
+            "ar",
+            "kodėl",
+            "ko",
+            "kada"
+          ]
         }
       ]
     }

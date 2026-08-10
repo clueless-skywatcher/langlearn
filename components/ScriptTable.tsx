@@ -9,14 +9,14 @@ export function ScriptTable({ script }: { script: ScriptSection }) {
         {script.heading}
       </h2>
 
-      <div className="overflow-x-auto rounded border border-rule bg-raised">
-        <table className="w-full min-w-[34rem] border-collapse text-sm">
+      <div className="mx-auto max-w-full w-fit overflow-x-auto rounded border border-rule bg-raised">
+        <table className="border-collapse text-sm">
           <thead>
             <tr className="border-b border-rule text-left text-xs uppercase tracking-wide text-ink-faint">
-              <th className="px-3 py-2 font-medium">Letter</th>
-              <th className="px-3 py-2 font-medium">Name</th>
-              <th className="px-3 py-2 font-medium">IPA</th>
-              <th className="px-3 py-2 font-medium">Approximately</th>
+              <th className="whitespace-nowrap px-3 py-2 font-medium">Letter</th>
+              <th className="whitespace-nowrap px-3 py-2 font-medium">Name</th>
+              <th className="whitespace-nowrap px-3 py-2 font-medium">IPA</th>
+              <th className="whitespace-nowrap px-3 py-2 font-medium">Approximately</th>
             </tr>
           </thead>
           <tbody>
@@ -38,7 +38,9 @@ export function ScriptTable({ script }: { script: ScriptSection }) {
                 <td className="whitespace-nowrap px-3 py-2 font-mono text-xs text-ink-soft">
                   {l.ipa}
                 </td>
-                <td className="px-3 py-2 text-ink-soft">{l.approx}</td>
+                <td className="whitespace-nowrap px-3 py-2 text-ink-soft">
+                  {l.approx}
+                </td>
               </tr>
             ))}
           </tbody>

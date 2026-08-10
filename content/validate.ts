@@ -28,24 +28,24 @@ export interface Problem {
 /** Composition targets for a checkpoint, enforced rather than left to taste. */
 export const CHECKPOINT_TARGETS = {
   minQuestions: 20,
-  maxQuestions: 30,
+  maxQuestions: 55,
   minPerCoveredSection: 3,
   /** Intended share of each difficulty band, in percent. */
-  difficultyMix: { easy: 30, medium: 40, hard: 30 },
+  difficultyMix: { easy: 25, medium: 40, hard: 35 },
   /** How far a band may stray from its target, in percentage points. */
-  difficultyTolerance: 10,
+  difficultyTolerance: 15,
 } as const;
 
 /** Lesson drill sets are shorter; a checkpoint is where breadth is demanded. */
 export const LESSON_TARGETS = {
   minQuestions: 8,
-  maxQuestions: 14,
+  maxQuestions: 40,
   /**
    * A section teaching a writing system may run longer. A grammatical rule has
    * a handful of applications worth drilling; an alphabet has one atom per
    * letter, and a learner meeting a new script needs volume rather than depth.
    */
-  maxQuestionsWithScript: 24,
+  maxQuestionsWithScript: 50,
 } as const;
 
 /** The drill-set ceiling for a lesson, which depends on whether it teaches a script. */

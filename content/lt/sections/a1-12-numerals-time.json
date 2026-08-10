@@ -14,27 +14,100 @@
       "paradigms": [
         {
           "caption": "One to nine, masculine and feminine",
-          "columns": ["figure", "masculine", "feminine"],
+          "columns": [
+            "figure",
+            "masculine",
+            "feminine"
+          ],
           "rows": [
-            { "label": "1", "cells": ["vienas", "viena"] },
-            { "label": "2", "cells": ["du", "dvi"] },
-            { "label": "3", "cells": ["trys", "trys"] },
-            { "label": "4", "cells": ["keturi", "keturios"] },
-            { "label": "5", "cells": ["penki", "penkios"] },
-            { "label": "6", "cells": ["šeši", "šešios"] },
-            { "label": "7", "cells": ["septyni", "septynios"] },
-            { "label": "8", "cells": ["aštuoni", "aštuonios"] },
-            { "label": "9", "cells": ["devyni", "devynios"] }
+            {
+              "label": "1",
+              "cells": [
+                "vienas",
+                "viena"
+              ]
+            },
+            {
+              "label": "2",
+              "cells": [
+                "du",
+                "dvi"
+              ]
+            },
+            {
+              "label": "3",
+              "cells": [
+                "trys",
+                "trys"
+              ]
+            },
+            {
+              "label": "4",
+              "cells": [
+                "keturi",
+                "keturios"
+              ]
+            },
+            {
+              "label": "5",
+              "cells": [
+                "penki",
+                "penkios"
+              ]
+            },
+            {
+              "label": "6",
+              "cells": [
+                "šeši",
+                "šešios"
+              ]
+            },
+            {
+              "label": "7",
+              "cells": [
+                "septyni",
+                "septynios"
+              ]
+            },
+            {
+              "label": "8",
+              "cells": [
+                "aštuoni",
+                "aštuonios"
+              ]
+            },
+            {
+              "label": "9",
+              "cells": [
+                "devyni",
+                "devynios"
+              ]
+            }
           ],
           "footnote": "*Trys* is the same in both genders, as *šis* is not; it is the only one that does not distinguish them."
         }
       ],
       "examples": [
-        { "target": "Turiu du brolius ir dvi seseris.", "gloss": "I have two brothers and two sisters.", "note": "the numeral takes the gender of its noun and the case of the sentence" },
-        { "target": "Čia yra keturios kėdės.", "gloss": "There are four chairs here." },
-        { "target": "Reikia dviejų stiklinių vandens.", "gloss": "Two glasses of water are needed.", "note": "*reikia* puts everything after it in the genitive (¶69), the numeral included" }
+        {
+          "target": "Turiu du brolius ir dvi seseris.",
+          "gloss": "I have two brothers and two sisters.",
+          "note": "the numeral takes the gender of its noun and the case of the sentence"
+        },
+        {
+          "target": "Čia yra keturios kėdės.",
+          "gloss": "There are four chairs here."
+        },
+        {
+          "target": "Reikia dviejų stiklinių vandens.",
+          "gloss": "Two glasses of water are needed.",
+          "note": "*reikia* puts everything after it in the genitive (¶69), the numeral included"
+        }
       ],
-      "seeAlso": ["numeral-case", "adjective-agreement", "reikia"],
+      "seeAlso": [
+        "numeral-case",
+        "adjective-agreement",
+        "reikia"
+      ],
       "core": true
     },
     {
@@ -45,23 +118,66 @@
       "paradigms": [
         {
           "caption": "Ten to a thousand",
-          "columns": ["figure", "Lithuanian"],
+          "columns": [
+            "figure",
+            "Lithuanian"
+          ],
           "rows": [
-            { "label": "10", "cells": ["dešimt"] },
-            { "label": "11–19", "cells": ["vienuolika, dvylika, trylika, keturiolika, penkiolika, šešiolika, septyniolika, aštuoniolika, devyniolika"] },
-            { "label": "20–50", "cells": ["dvidešimt, trisdešimt, keturiasdešimt, penkiasdešimt"] },
-            { "label": "60–90", "cells": ["šešiasdešimt, septyniasdešimt, aštuoniasdešimt, devyniasdešimt"] },
-            { "label": "100, 1000", "cells": ["šimtas, tūkstantis"] }
+            {
+              "label": "10",
+              "cells": [
+                "dešimt"
+              ]
+            },
+            {
+              "label": "11–19",
+              "cells": [
+                "vienuolika, dvylika, trylika, keturiolika, penkiolika, šešiolika, septyniolika, aštuoniolika, devyniolika"
+              ]
+            },
+            {
+              "label": "20–50",
+              "cells": [
+                "dvidešimt, trisdešimt, keturiasdešimt, penkiasdešimt"
+              ]
+            },
+            {
+              "label": "60–90",
+              "cells": [
+                "šešiasdešimt, septyniasdešimt, aštuoniasdešimt, devyniasdešimt"
+              ]
+            },
+            {
+              "label": "100, 1000",
+              "cells": [
+                "šimtas, tūkstantis"
+              ]
+            }
           ],
           "footnote": "In a compound number the **last word** decides the construction: *dvidešimt vienas namas* has a singular noun agreeing with *vienas*, while *dvidešimt du namai* has a plural agreeing with *du*, and *dvidešimt penki namai* likewise."
         }
       ],
       "examples": [
-        { "target": "Penkiolika knygų.", "gloss": "Fifteen books.", "note": "genitive plural, fixed" },
-        { "target": "Šimtas eurų.", "gloss": "A hundred euros." },
-        { "target": "Dvidešimt vienas žmogus.", "gloss": "Twenty-one people.", "note": "singular, because *vienas* is the last word" }
+        {
+          "target": "Penkiolika knygų.",
+          "gloss": "Fifteen books.",
+          "note": "genitive plural, fixed"
+        },
+        {
+          "target": "Šimtas eurų.",
+          "gloss": "A hundred euros."
+        },
+        {
+          "target": "Dvidešimt vienas žmogus.",
+          "gloss": "Twenty-one people.",
+          "note": "singular, because *vienas* is the last word"
+        }
       ],
-      "seeAlso": ["numeral-case", "plural-genitive", "cardinals-one-nine"],
+      "seeAlso": [
+        "numeral-case",
+        "plural-genitive",
+        "cardinals-one-nine"
+      ],
       "core": true
     },
     {
@@ -72,27 +188,101 @@
       "paradigms": [
         {
           "caption": "The first ten ordinals",
-          "columns": ["figure", "masculine", "feminine"],
+          "columns": [
+            "figure",
+            "masculine",
+            "feminine"
+          ],
           "rows": [
-            { "label": "1st", "cells": ["pirmas", "pirma"] },
-            { "label": "2nd", "cells": ["antras", "antra"] },
-            { "label": "3rd", "cells": ["trečias", "trečia"] },
-            { "label": "4th", "cells": ["ketvirtas", "ketvirta"] },
-            { "label": "5th", "cells": ["penktas", "penkta"] },
-            { "label": "6th", "cells": ["šeštas", "šešta"] },
-            { "label": "7th", "cells": ["septintas", "septinta"] },
-            { "label": "8th", "cells": ["aštuntas", "aštunta"] },
-            { "label": "9th", "cells": ["devintas", "devinta"] },
-            { "label": "10th", "cells": ["dešimtas", "dešimta"] }
+            {
+              "label": "1st",
+              "cells": [
+                "pirmas",
+                "pirma"
+              ]
+            },
+            {
+              "label": "2nd",
+              "cells": [
+                "antras",
+                "antra"
+              ]
+            },
+            {
+              "label": "3rd",
+              "cells": [
+                "trečias",
+                "trečia"
+              ]
+            },
+            {
+              "label": "4th",
+              "cells": [
+                "ketvirtas",
+                "ketvirta"
+              ]
+            },
+            {
+              "label": "5th",
+              "cells": [
+                "penktas",
+                "penkta"
+              ]
+            },
+            {
+              "label": "6th",
+              "cells": [
+                "šeštas",
+                "šešta"
+              ]
+            },
+            {
+              "label": "7th",
+              "cells": [
+                "septintas",
+                "septinta"
+              ]
+            },
+            {
+              "label": "8th",
+              "cells": [
+                "aštuntas",
+                "aštunta"
+              ]
+            },
+            {
+              "label": "9th",
+              "cells": [
+                "devintas",
+                "devinta"
+              ]
+            },
+            {
+              "label": "10th",
+              "cells": [
+                "dešimtas",
+                "dešimta"
+              ]
+            }
           ],
           "footnote": "Above ten they are formed straightforwardly: *vienuoliktas*, *dvyliktas*, *dvidešimtas*. In a compound only the last word is an ordinal: *dvidešimt pirmas*."
         }
       ],
       "examples": [
-        { "target": "Aš gyvenu pirmame aukšte.", "gloss": "I live on the first floor.", "note": "locative, because the floor is a place" },
-        { "target": "Tai antra knyga.", "gloss": "That is the second book." }
+        {
+          "target": "Aš gyvenu pirmame aukšte.",
+          "gloss": "I live on the first floor.",
+          "note": "locative, because the floor is a place"
+        },
+        {
+          "target": "Tai antra knyga.",
+          "gloss": "That is the second book."
+        }
       ],
-      "seeAlso": ["adjective-agreement", "locative-singular"],
+      "seeAlso": [
+        "adjective-agreement",
+        "locative-singular"
+      ],
       "core": true
     },
     {
@@ -103,23 +293,76 @@
       "paradigms": [
         {
           "caption": "Saying the time",
-          "columns": ["Lithuanian", "English", "literally"],
+          "columns": [
+            "Lithuanian",
+            "English",
+            "literally"
+          ],
           "rows": [
-            { "label": "on the hour", "cells": ["Dabar pirma.", "It is one o'clock.", "now first"] },
-            { "label": "on the hour", "cells": ["Dabar dešimta valanda.", "It is ten o'clock.", "now tenth hour"] },
-            { "label": "half", "cells": ["Pusė dešimtos.", "Half past nine.", "half of the tenth"] },
-            { "label": "before the hour", "cells": ["Be penkiolikos dešimta.", "A quarter to ten.", "without fifteen, the tenth"] },
-            { "label": "at what hour", "cells": ["Pirmą valandą.", "At one o'clock.", "accusative of time (¶83)"] }
+            {
+              "label": "on the hour",
+              "cells": [
+                "Dabar pirma.",
+                "It is one o'clock.",
+                "now first"
+              ]
+            },
+            {
+              "label": "on the hour",
+              "cells": [
+                "Dabar dešimta valanda.",
+                "It is ten o'clock.",
+                "now tenth hour"
+              ]
+            },
+            {
+              "label": "half",
+              "cells": [
+                "Pusė dešimtos.",
+                "Half past nine.",
+                "half of the tenth"
+              ]
+            },
+            {
+              "label": "before the hour",
+              "cells": [
+                "Be penkiolikos dešimta.",
+                "A quarter to ten.",
+                "without fifteen, the tenth"
+              ]
+            },
+            {
+              "label": "at what hour",
+              "cells": [
+                "Pirmą valandą.",
+                "At one o'clock.",
+                "accusative of time (¶83)"
+              ]
+            }
           ],
           "footnote": "*Pusė dešimtos* is half past **nine**, not half past ten. The Lithuanian names the hour being filled, as the clock face does; the English names the one just past. Mistaking this costs an hour."
         }
       ],
       "examples": [
-        { "target": "Kelinta valanda?", "gloss": "What time is it?" },
-        { "target": "Dirbu nuo aštuntos iki penktos.", "gloss": "I work from eight until five.", "note": "*nuo* and *iki* both take the genitive (¶33)" },
-        { "target": "Susitinkame antrą valandą.", "gloss": "We are meeting at two o'clock." }
+        {
+          "target": "Kelinta valanda?",
+          "gloss": "What time is it?"
+        },
+        {
+          "target": "Dirbu nuo aštuntos iki penktos.",
+          "gloss": "I work from eight until five.",
+          "note": "*nuo* and *iki* both take the genitive (¶33)"
+        },
+        {
+          "target": "Susitinkame antrą valandą.",
+          "gloss": "We are meeting at two o'clock."
+        }
       ],
-      "seeAlso": ["ordinals", "genitive-prepositions", "question-adverbs"],
+      "seeAlso": [
+        "ordinals",
+        "genitive-prepositions",
+        "question-adverbs"
+      ],
       "core": true
     },
     {
@@ -130,20 +373,63 @@
       "paradigms": [
         {
           "caption": "Point and stretch",
-          "columns": ["Lithuanian", "English", "use"],
+          "columns": [
+            "Lithuanian",
+            "English",
+            "use"
+          ],
           "rows": [
-            { "label": "day", "cells": ["Susitinkame pirmadienį.", "We are meeting on Monday.", "point"] },
-            { "label": "season", "cells": ["Žiemą grįšiu.", "In winter I shall return.", "point"] },
-            { "label": "hour", "cells": ["Pirmą valandą.", "At one o'clock.", "point"] },
-            { "label": "duration", "cells": ["Londone buvau savaitę.", "I was in London for a week.", "stretch"] }
+            {
+              "label": "day",
+              "cells": [
+                "Susitinkame pirmadienį.",
+                "We are meeting on Monday.",
+                "point"
+              ]
+            },
+            {
+              "label": "season",
+              "cells": [
+                "Žiemą grįšiu.",
+                "In winter I shall return.",
+                "point"
+              ]
+            },
+            {
+              "label": "hour",
+              "cells": [
+                "Pirmą valandą.",
+                "At one o'clock.",
+                "point"
+              ]
+            },
+            {
+              "label": "duration",
+              "cells": [
+                "Londone buvau savaitę.",
+                "I was in London for a week.",
+                "stretch"
+              ]
+            }
           ]
         }
       ],
       "examples": [
-        { "target": "Vieną dieną dirbu, kitą ilsiuosi.", "gloss": "One day I work, the next I rest." },
-        { "target": "Mes gyvenome Kaune metus.", "gloss": "We lived in Kaunas for a year.", "note": "duration; no *for* is needed" }
+        {
+          "target": "Vieną dieną dirbu, kitą ilsiuosi.",
+          "gloss": "One day I work, the next I rest."
+        },
+        {
+          "target": "Mes gyvenome Kaune metus.",
+          "gloss": "We lived in Kaunas for a year.",
+          "note": "duration; no *for* is needed"
+        }
       ],
-      "seeAlso": ["accusative-nouns", "instrumental-time-route", "question-adverbs"],
+      "seeAlso": [
+        "accusative-nouns",
+        "instrumental-time-route",
+        "question-adverbs"
+      ],
       "core": true
     },
     {
@@ -154,23 +440,86 @@
       "paradigms": [
         {
           "caption": "The week",
-          "columns": ["Lithuanian", "English", "built from"],
+          "columns": [
+            "Lithuanian",
+            "English",
+            "built from"
+          ],
           "rows": [
-            { "label": "Mon.", "cells": ["pirmadienis", "Monday", "pirmas + diena"] },
-            { "label": "Tue.", "cells": ["antradienis", "Tuesday", "antras + diena"] },
-            { "label": "Wed.", "cells": ["trečiadienis", "Wednesday", "trečias + diena"] },
-            { "label": "Thu.", "cells": ["ketvirtadienis", "Thursday", "ketvirtas + diena"] },
-            { "label": "Fri.", "cells": ["penktadienis", "Friday", "penktas + diena"] },
-            { "label": "Sat.", "cells": ["šeštadienis", "Saturday", "šeštas + diena"] },
-            { "label": "Sun.", "cells": ["sekmadienis", "Sunday", "not from an ordinal"] }
+            {
+              "label": "Mon.",
+              "cells": [
+                "pirmadienis",
+                "Monday",
+                "pirmas + diena"
+              ]
+            },
+            {
+              "label": "Tue.",
+              "cells": [
+                "antradienis",
+                "Tuesday",
+                "antras + diena"
+              ]
+            },
+            {
+              "label": "Wed.",
+              "cells": [
+                "trečiadienis",
+                "Wednesday",
+                "trečias + diena"
+              ]
+            },
+            {
+              "label": "Thu.",
+              "cells": [
+                "ketvirtadienis",
+                "Thursday",
+                "ketvirtas + diena"
+              ]
+            },
+            {
+              "label": "Fri.",
+              "cells": [
+                "penktadienis",
+                "Friday",
+                "penktas + diena"
+              ]
+            },
+            {
+              "label": "Sat.",
+              "cells": [
+                "šeštadienis",
+                "Saturday",
+                "šeštas + diena"
+              ]
+            },
+            {
+              "label": "Sun.",
+              "cells": [
+                "sekmadienis",
+                "Sunday",
+                "not from an ordinal"
+              ]
+            }
           ]
         }
       ],
       "examples": [
-        { "target": "Šeštadienį ir sekmadienį nedirbu.", "gloss": "On Saturday and Sunday I do not work.", "note": "accusative of time" },
-        { "target": "Penktadieniais einame į kavinę.", "gloss": "On Fridays we go to a café." }
+        {
+          "target": "Šeštadienį ir sekmadienį nedirbu.",
+          "gloss": "On Saturday and Sunday I do not work.",
+          "note": "accusative of time"
+        },
+        {
+          "target": "Penktadieniais einame į kavinę.",
+          "gloss": "On Fridays we go to a café."
+        }
       ],
-      "seeAlso": ["ordinals", "accusative-of-time"],
+      "seeAlso": [
+        "ordinals",
+        "accusative-of-time"
+      ],
       "core": true
     },
     {
@@ -181,29 +530,128 @@
       "paradigms": [
         {
           "caption": "The twelve months",
-          "columns": ["Lithuanian", "genitive", "English"],
+          "columns": [
+            "Lithuanian",
+            "genitive",
+            "English"
+          ],
           "rows": [
-            { "label": "1", "cells": ["sausis", "sausio", "January"] },
-            { "label": "2", "cells": ["vasaris", "vasario", "February"] },
-            { "label": "3", "cells": ["kovas", "kovo", "March"] },
-            { "label": "4", "cells": ["balandis", "balandžio", "April"] },
-            { "label": "5", "cells": ["gegužė", "gegužės", "May"] },
-            { "label": "6", "cells": ["birželis", "birželio", "June"] },
-            { "label": "7", "cells": ["liepa", "liepos", "July"] },
-            { "label": "8", "cells": ["rugpjūtis", "rugpjūčio", "August"] },
-            { "label": "9", "cells": ["rugsėjis", "rugsėjo", "September"] },
-            { "label": "10", "cells": ["spalis", "spalio", "October"] },
-            { "label": "11", "cells": ["lapkritis", "lapkričio", "November"] },
-            { "label": "12", "cells": ["gruodis", "gruodžio", "December"] }
+            {
+              "label": "1",
+              "cells": [
+                "sausis",
+                "sausio",
+                "January"
+              ]
+            },
+            {
+              "label": "2",
+              "cells": [
+                "vasaris",
+                "vasario",
+                "February"
+              ]
+            },
+            {
+              "label": "3",
+              "cells": [
+                "kovas",
+                "kovo",
+                "March"
+              ]
+            },
+            {
+              "label": "4",
+              "cells": [
+                "balandis",
+                "balandžio",
+                "April"
+              ]
+            },
+            {
+              "label": "5",
+              "cells": [
+                "gegužė",
+                "gegužės",
+                "May"
+              ]
+            },
+            {
+              "label": "6",
+              "cells": [
+                "birželis",
+                "birželio",
+                "June"
+              ]
+            },
+            {
+              "label": "7",
+              "cells": [
+                "liepa",
+                "liepos",
+                "July"
+              ]
+            },
+            {
+              "label": "8",
+              "cells": [
+                "rugpjūtis",
+                "rugpjūčio",
+                "August"
+              ]
+            },
+            {
+              "label": "9",
+              "cells": [
+                "rugsėjis",
+                "rugsėjo",
+                "September"
+              ]
+            },
+            {
+              "label": "10",
+              "cells": [
+                "spalis",
+                "spalio",
+                "October"
+              ]
+            },
+            {
+              "label": "11",
+              "cells": [
+                "lapkritis",
+                "lapkričio",
+                "November"
+              ]
+            },
+            {
+              "label": "12",
+              "cells": [
+                "gruodis",
+                "gruodžio",
+                "December"
+              ]
+            }
           ],
           "footnote": "*balandis → balandžio* and *lapkritis → lapkričio* show the softening of *d* and *t* before a back vowel that ¶28 gave for the genitive generally."
         }
       ],
       "examples": [
-        { "target": "Šiandien kovo penkta.", "gloss": "Today is the fifth of March." },
-        { "target": "Susitinkame gegužės dešimtą.", "gloss": "We are meeting on the tenth of May.", "note": "accusative of time on the ordinal" }
+        {
+          "target": "Šiandien kovo penkta.",
+          "gloss": "Today is the fifth of March."
+        },
+        {
+          "target": "Susitinkame gegužės dešimtą.",
+          "gloss": "We are meeting on the tenth of May.",
+          "note": "accusative of time on the ordinal"
+        }
       ],
-      "seeAlso": ["genitive-endings", "ordinals", "accusative-of-time"],
+      "seeAlso": [
+        "genitive-endings",
+        "ordinals",
+        "accusative-of-time"
+      ],
       "core": true
     },
     {
@@ -212,13 +660,23 @@
       "heading": "The Year",
       "statement": "A year stands in the **instrumental plural** with *metais*, and only the **last** element of the number is made an ordinal. This is the one construction of the level that looks alarming written out, and it is entirely mechanical: read the number as a cardinal until the final word, make that an ordinal, and put both into the instrumental plural.",
       "examples": [
-        { "target": "Gimiau tūkstantis devyni šimtai devyniasdešimt penktaisiais metais.", "gloss": "I was born in 1995." },
-        { "target": "Du tūkstančiai dvidešimtaisiais metais.", "gloss": "In the year 2020." }
+        {
+          "target": "Gimiau tūkstantis devyni šimtai devyniasdešimt penktaisiais metais.",
+          "gloss": "I was born in 1995."
+        },
+        {
+          "target": "Du tūkstančiai dvidešimtaisiais metais.",
+          "gloss": "In the year 2020."
+        }
       ],
       "footnotes": [
         "In speech the whole phrase is often cut down to the last word: *devyniasdešimt penktaisiais*, in ninety-five."
       ],
-      "seeAlso": ["ordinals", "instrumental-time-route", "cardinals-ten-up"],
+      "seeAlso": [
+        "ordinals",
+        "instrumental-time-route",
+        "cardinals-ten-up"
+      ],
       "core": false
     },
     {
@@ -229,62 +687,408 @@
       "paradigms": [
         {
           "caption": "Time prepositions and their cases",
-          "columns": ["preposition", "case", "example"],
+          "columns": [
+            "preposition",
+            "case",
+            "example"
+          ],
           "rows": [
-            { "label": "prieš", "cells": ["accusative", "prieš valandą — an hour ago"] },
-            { "label": "per", "cells": ["accusative", "per valandą — within an hour"] },
-            { "label": "po", "cells": ["genitive", "po pietų — after lunch"] },
-            { "label": "nuo … iki", "cells": ["genitive", "nuo aštuntos iki penktos — from eight to five"] }
+            {
+              "label": "prieš",
+              "cells": [
+                "accusative",
+                "prieš valandą — an hour ago"
+              ]
+            },
+            {
+              "label": "per",
+              "cells": [
+                "accusative",
+                "per valandą — within an hour"
+              ]
+            },
+            {
+              "label": "po",
+              "cells": [
+                "genitive",
+                "po pietų — after lunch"
+              ]
+            },
+            {
+              "label": "nuo … iki",
+              "cells": [
+                "genitive",
+                "nuo aštuntos iki penktos — from eight to five"
+              ]
+            }
           ]
         }
       ],
       "examples": [
-        { "target": "Prieš metus atvažiavau į Lietuvą.", "gloss": "I came to Lithuania a year ago." },
-        { "target": "Per valandą viską padarysiu.", "gloss": "I shall do everything within an hour." },
-        { "target": "Nuo šiandien iki penktadienio nedirbu.", "gloss": "From today until Friday I am not working." }
+        {
+          "target": "Prieš metus atvažiavau į Lietuvą.",
+          "gloss": "I came to Lithuania a year ago."
+        },
+        {
+          "target": "Per valandą viską padarysiu.",
+          "gloss": "I shall do everything within an hour."
+        },
+        {
+          "target": "Nuo šiandien iki penktadienio nedirbu.",
+          "gloss": "From today until Friday I am not working."
+        }
       ],
-      "seeAlso": ["genitive-prepositions", "accusative-of-time", "instrumental-po"],
+      "seeAlso": [
+        "genitive-prepositions",
+        "accusative-of-time",
+        "instrumental-po"
+      ],
       "core": true
     }
   ],
   "vocabulary": [
-    { "lemma": "valanda", "gloss": "hour, o'clock", "pos": "noun", "forms": { "nom": "valanda", "gen": "valandos", "acc": "valandą", "gender": "f." } },
-    { "lemma": "minutė", "gloss": "minute", "pos": "noun", "forms": { "nom": "minutė", "gen": "minutės", "acc": "minutę", "gender": "f." } },
-    { "lemma": "savaitė", "gloss": "week", "pos": "noun", "forms": { "nom": "savaitė", "gen": "savaitės", "acc": "savaitę", "gender": "f." } },
-    { "lemma": "mėnuo", "gloss": "month", "pos": "noun", "forms": { "nom": "mėnuo", "gen": "mėnesio", "acc": "mėnesį", "gender": "m." } },
-    { "lemma": "pusė", "gloss": "half", "pos": "noun", "forms": { "nom": "pusė", "gen": "pusės", "acc": "pusę", "gender": "f." } },
-    { "lemma": "kėdė", "gloss": "chair", "pos": "noun", "forms": { "nom": "kėdė", "gen": "kėdės", "acc": "kėdę", "gender": "f." } },
-    { "lemma": "aukštas", "gloss": "floor, storey", "pos": "noun", "forms": { "nom": "aukštas", "gen": "aukšto", "acc": "aukštą", "gender": "m." } },
-    { "lemma": "žiema", "gloss": "winter", "pos": "noun", "forms": { "nom": "žiema", "gen": "žiemos", "acc": "žiemą", "gender": "f." } },
-    { "lemma": "vasara", "gloss": "summer", "pos": "noun", "forms": { "nom": "vasara", "gen": "vasaros", "acc": "vasarą", "gender": "f." } },
-    { "lemma": "keturi", "gloss": "four", "pos": "numeral", "forms": { "masc": "keturi", "fem": "keturios" } },
-    { "lemma": "šeši", "gloss": "six", "pos": "numeral", "forms": { "masc": "šeši", "fem": "šešios" } },
-    { "lemma": "septyni", "gloss": "seven", "pos": "numeral", "forms": { "masc": "septyni", "fem": "septynios" } },
-    { "lemma": "aštuoni", "gloss": "eight", "pos": "numeral", "forms": { "masc": "aštuoni", "fem": "aštuonios" } },
-    { "lemma": "devyni", "gloss": "nine", "pos": "numeral", "forms": { "masc": "devyni", "fem": "devynios" } },
-    { "lemma": "penkiolika", "gloss": "fifteen", "pos": "numeral", "notes": "Governs the genitive plural." },
-    { "lemma": "dvidešimt", "gloss": "twenty", "pos": "numeral", "notes": "Indeclinable; governs the genitive plural." },
-    { "lemma": "šimtas", "gloss": "hundred", "pos": "numeral", "forms": { "nom": "šimtas", "gen": "šimto" } },
-    { "lemma": "tūkstantis", "gloss": "thousand", "pos": "numeral", "forms": { "nom": "tūkstantis", "gen": "tūkstančio" } },
-    { "lemma": "pirmas", "gloss": "first", "pos": "adjective", "forms": { "masc": "pirmas", "fem": "pirma" } },
-    { "lemma": "antras", "gloss": "second", "pos": "adjective", "forms": { "masc": "antras", "fem": "antra" } },
-    { "lemma": "trečias", "gloss": "third", "pos": "adjective", "forms": { "masc": "trečias", "fem": "trečia" } },
-    { "lemma": "penktas", "gloss": "fifth", "pos": "adjective", "forms": { "masc": "penktas", "fem": "penkta" } },
-    { "lemma": "dešimtas", "gloss": "tenth", "pos": "adjective", "forms": { "masc": "dešimtas", "fem": "dešimta" } },
-    { "lemma": "kelintas", "gloss": "which (in order), the how-manieth", "pos": "adjective", "forms": { "masc": "kelintas", "fem": "kelinta" } },
-    { "lemma": "antradienis", "gloss": "Tuesday", "pos": "noun", "forms": { "nom": "antradienis", "gen": "antradienio", "acc": "antradienį", "gender": "m." } },
-    { "lemma": "penktadienis", "gloss": "Friday", "pos": "noun", "forms": { "nom": "penktadienis", "gen": "penktadienio", "acc": "penktadienį", "gender": "m." } },
-    { "lemma": "šeštadienis", "gloss": "Saturday", "pos": "noun", "forms": { "nom": "šeštadienis", "gen": "šeštadienio", "acc": "šeštadienį", "gender": "m." } },
-    { "lemma": "sekmadienis", "gloss": "Sunday", "pos": "noun", "forms": { "nom": "sekmadienis", "gen": "sekmadienio", "acc": "sekmadienį", "gender": "m." } },
-    { "lemma": "sausis", "gloss": "January", "pos": "noun", "forms": { "nom": "sausis", "gen": "sausio", "gender": "m." } },
-    { "lemma": "kovas", "gloss": "March", "pos": "noun", "forms": { "nom": "kovas", "gen": "kovo", "gender": "m." } },
-    { "lemma": "gegužė", "gloss": "May", "pos": "noun", "forms": { "nom": "gegužė", "gen": "gegužės", "gender": "f." } },
-    { "lemma": "birželis", "gloss": "June", "pos": "noun", "forms": { "nom": "birželis", "gen": "birželio", "gender": "m." } },
-    { "lemma": "gruodis", "gloss": "December", "pos": "noun", "forms": { "nom": "gruodis", "gen": "gruodžio", "gender": "m." } },
-    { "lemma": "per", "gloss": "within, during (+ acc.)", "pos": "preposition" },
-    { "lemma": "prieš", "gloss": "ago, before (+ acc.)", "pos": "preposition" },
-    { "lemma": "dabar", "gloss": "now", "pos": "adverb" },
-    { "lemma": "šiandien", "gloss": "today", "pos": "adverb" }
+    {
+      "lemma": "valanda",
+      "gloss": "hour, o'clock",
+      "pos": "noun",
+      "forms": {
+        "nom": "valanda",
+        "gen": "valandos",
+        "acc": "valandą",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "minutė",
+      "gloss": "minute",
+      "pos": "noun",
+      "forms": {
+        "nom": "minutė",
+        "gen": "minutės",
+        "acc": "minutę",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "savaitė",
+      "gloss": "week",
+      "pos": "noun",
+      "forms": {
+        "nom": "savaitė",
+        "gen": "savaitės",
+        "acc": "savaitę",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "mėnuo",
+      "gloss": "month",
+      "pos": "noun",
+      "forms": {
+        "nom": "mėnuo",
+        "gen": "mėnesio",
+        "acc": "mėnesį",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "pusė",
+      "gloss": "half",
+      "pos": "noun",
+      "forms": {
+        "nom": "pusė",
+        "gen": "pusės",
+        "acc": "pusę",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "kėdė",
+      "gloss": "chair",
+      "pos": "noun",
+      "forms": {
+        "nom": "kėdė",
+        "gen": "kėdės",
+        "acc": "kėdę",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "aukštas",
+      "gloss": "floor, storey",
+      "pos": "noun",
+      "forms": {
+        "nom": "aukštas",
+        "gen": "aukšto",
+        "acc": "aukštą",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "žiema",
+      "gloss": "winter",
+      "pos": "noun",
+      "forms": {
+        "nom": "žiema",
+        "gen": "žiemos",
+        "acc": "žiemą",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "vasara",
+      "gloss": "summer",
+      "pos": "noun",
+      "forms": {
+        "nom": "vasara",
+        "gen": "vasaros",
+        "acc": "vasarą",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "keturi",
+      "gloss": "four",
+      "pos": "numeral",
+      "forms": {
+        "masc": "keturi",
+        "fem": "keturios"
+      }
+    },
+    {
+      "lemma": "šeši",
+      "gloss": "six",
+      "pos": "numeral",
+      "forms": {
+        "masc": "šeši",
+        "fem": "šešios"
+      }
+    },
+    {
+      "lemma": "septyni",
+      "gloss": "seven",
+      "pos": "numeral",
+      "forms": {
+        "masc": "septyni",
+        "fem": "septynios"
+      }
+    },
+    {
+      "lemma": "aštuoni",
+      "gloss": "eight",
+      "pos": "numeral",
+      "forms": {
+        "masc": "aštuoni",
+        "fem": "aštuonios"
+      }
+    },
+    {
+      "lemma": "devyni",
+      "gloss": "nine",
+      "pos": "numeral",
+      "forms": {
+        "masc": "devyni",
+        "fem": "devynios"
+      }
+    },
+    {
+      "lemma": "penkiolika",
+      "gloss": "fifteen",
+      "pos": "numeral",
+      "notes": "Governs the genitive plural."
+    },
+    {
+      "lemma": "dvidešimt",
+      "gloss": "twenty",
+      "pos": "numeral",
+      "notes": "Indeclinable; governs the genitive plural."
+    },
+    {
+      "lemma": "šimtas",
+      "gloss": "hundred",
+      "pos": "numeral",
+      "forms": {
+        "nom": "šimtas",
+        "gen": "šimto"
+      }
+    },
+    {
+      "lemma": "tūkstantis",
+      "gloss": "thousand",
+      "pos": "numeral",
+      "forms": {
+        "nom": "tūkstantis",
+        "gen": "tūkstančio"
+      }
+    },
+    {
+      "lemma": "pirmas",
+      "gloss": "first",
+      "pos": "adjective",
+      "forms": {
+        "masc": "pirmas",
+        "fem": "pirma"
+      }
+    },
+    {
+      "lemma": "antras",
+      "gloss": "second",
+      "pos": "adjective",
+      "forms": {
+        "masc": "antras",
+        "fem": "antra"
+      }
+    },
+    {
+      "lemma": "trečias",
+      "gloss": "third",
+      "pos": "adjective",
+      "forms": {
+        "masc": "trečias",
+        "fem": "trečia"
+      }
+    },
+    {
+      "lemma": "penktas",
+      "gloss": "fifth",
+      "pos": "adjective",
+      "forms": {
+        "masc": "penktas",
+        "fem": "penkta"
+      }
+    },
+    {
+      "lemma": "dešimtas",
+      "gloss": "tenth",
+      "pos": "adjective",
+      "forms": {
+        "masc": "dešimtas",
+        "fem": "dešimta"
+      }
+    },
+    {
+      "lemma": "kelintas",
+      "gloss": "which (in order), the how-manieth",
+      "pos": "adjective",
+      "forms": {
+        "masc": "kelintas",
+        "fem": "kelinta"
+      }
+    },
+    {
+      "lemma": "antradienis",
+      "gloss": "Tuesday",
+      "pos": "noun",
+      "forms": {
+        "nom": "antradienis",
+        "gen": "antradienio",
+        "acc": "antradienį",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "penktadienis",
+      "gloss": "Friday",
+      "pos": "noun",
+      "forms": {
+        "nom": "penktadienis",
+        "gen": "penktadienio",
+        "acc": "penktadienį",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "šeštadienis",
+      "gloss": "Saturday",
+      "pos": "noun",
+      "forms": {
+        "nom": "šeštadienis",
+        "gen": "šeštadienio",
+        "acc": "šeštadienį",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "sekmadienis",
+      "gloss": "Sunday",
+      "pos": "noun",
+      "forms": {
+        "nom": "sekmadienis",
+        "gen": "sekmadienio",
+        "acc": "sekmadienį",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "sausis",
+      "gloss": "January",
+      "pos": "noun",
+      "forms": {
+        "nom": "sausis",
+        "gen": "sausio",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "kovas",
+      "gloss": "March",
+      "pos": "noun",
+      "forms": {
+        "nom": "kovas",
+        "gen": "kovo",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "gegužė",
+      "gloss": "May",
+      "pos": "noun",
+      "forms": {
+        "nom": "gegužė",
+        "gen": "gegužės",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "birželis",
+      "gloss": "June",
+      "pos": "noun",
+      "forms": {
+        "nom": "birželis",
+        "gen": "birželio",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "gruodis",
+      "gloss": "December",
+      "pos": "noun",
+      "forms": {
+        "nom": "gruodis",
+        "gen": "gruodžio",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "per",
+      "gloss": "within, during (+ acc.)",
+      "pos": "preposition"
+    },
+    {
+      "lemma": "prieš",
+      "gloss": "ago, before (+ acc.)",
+      "pos": "preposition"
+    },
+    {
+      "lemma": "dabar",
+      "gloss": "now",
+      "pos": "adverb"
+    },
+    {
+      "lemma": "šiandien",
+      "gloss": "today",
+      "pos": "adverb"
+    }
   ],
   "drills": [
     {
@@ -292,138 +1096,641 @@
       "type": "single",
       "difficulty": "easy",
       "stem": "Complete: **Turiu ____ seseris.** (I have two sisters.)",
-      "options": ["du", "dvi", "dvejos", "dviejų"],
+      "options": [
+        "du",
+        "dvi",
+        "dvejos",
+        "dviejų"
+      ],
       "correct": 1,
-      "explanation": "*du* is masculine; a sister is feminine and takes **dvi**. The numerals one to nine agree in gender with what they count, and *du/dvi* is the pair that must simply be memorised.",
-      "rulesTested": ["cardinals-one-nine"],
-      "vocabUsed": ["turėti", "du", "sesuo"]
+      "explanation": "*du* is masculine; feminine takes **dvi** (¶79). *dviejų* is genitive — wanted after *reikia*, not after *turėti* here.",
+      "rulesTested": [
+        "cardinals-one-nine"
+      ],
+      "vocabUsed": [
+        "turėti",
+        "du",
+        "sesuo"
+      ]
     },
     {
       "id": "a112-q2",
       "type": "single",
       "difficulty": "easy",
       "stem": "Which is **Wednesday**?",
-      "options": ["antradienis", "trečiadienis", "ketvirtadienis", "sekmadienis"],
+      "options": [
+        "antradienis",
+        "trečiadienis",
+        "ketvirtadienis",
+        "sekmadienis"
+      ],
       "correct": 1,
-      "explanation": "The days are ordinals plus *diena*, counting from Monday as the first: *trečiadienis* is the third day. Only *sekmadienis* is outside the pattern.",
-      "rulesTested": ["days-of-week"],
-      "vocabUsed": ["antradienis", "sekmadienis"]
+      "explanation": "Days = ordinals + *diena* from Monday: *trečiadienis* is the third. Only *sekmadienis* breaks the pattern (¶84).",
+      "rulesTested": [
+        "days-of-week"
+      ],
+      "vocabUsed": [
+        "antradienis",
+        "sekmadienis"
+      ]
     },
     {
       "id": "a112-q3",
       "type": "single",
       "difficulty": "easy",
       "stem": "How is **the fifth of March** written?",
-      "options": ["kovas penkta", "kovo penkta", "penkta kovas", "kovui penkta"],
+      "options": [
+        "kovas penkta",
+        "kovo penkta",
+        "penkta kovas",
+        "kovui penkta"
+      ],
       "correct": 1,
-      "explanation": "The month goes into the **genitive** and the day is a feminine ordinal: *kovo penkta*, March's fifth. The order is month first, unlike the English.",
-      "rulesTested": ["months-and-dates", "ordinals"],
-      "vocabUsed": ["kovas", "penktas"]
+      "explanation": "Month in **genitive** + feminine ordinal day: *kovo penkta* (¶85). Month first, unlike English.",
+      "rulesTested": [
+        "months-and-dates",
+        "ordinals"
+      ],
+      "vocabUsed": [
+        "kovas",
+        "penktas"
+      ]
     },
     {
       "id": "a112-q4",
       "type": "single",
       "difficulty": "medium",
       "stem": "**Pusė dešimtos.** What time is it?",
-      "options": ["10:30", "9:30", "10:00", "9:00"],
+      "options": [
+        "10:30",
+        "9:30",
+        "10:00",
+        "9:00"
+      ],
       "correct": 1,
-      "explanation": "Half **of the tenth** hour — the hour being filled, not the one just past. It is 9:30. This is the trap of the construction, and it costs an hour every time it is missed.",
-      "rulesTested": ["telling-the-hour", "ordinals"],
-      "vocabUsed": ["pusė", "dešimtas"]
+      "explanation": "Half **of the tenth** hour — the hour being filled: 9:30 (¶82). Naming the hour just past is the English trap and costs an hour.",
+      "rulesTested": [
+        "telling-the-hour",
+        "ordinals"
+      ],
+      "vocabUsed": [
+        "pusė",
+        "dešimtas"
+      ]
     },
     {
       "id": "a112-q5",
       "type": "multi",
       "difficulty": "medium",
-      "stem": "Which of these are **correct**?",
+      "stem": "Which are **correct**?",
       "options": [
         "Penkiolika knygų.",
         "Penkiolika knygos.",
         "Dvidešimt vienas namas.",
         "Dvidešimt vienas namai."
       ],
-      "correct": [0, 2],
-      "explanation": "Numerals from ten up take the genitive **plural**, so *knygų* and not *knygos*. In a compound the last word governs: *vienas* is singular and gives *namas*, so a plural *namai* after it is wrong.",
-      "rulesTested": ["cardinals-ten-up", "numeral-case", "plural-genitive"],
-      "vocabUsed": ["penkiolika", "knyga", "dvidešimt", "vienas", "namas"]
+      "correct": [
+        0,
+        2
+      ],
+      "explanation": "From ten up: genitive **plural** (*knygų*). In a compound the last word governs: *vienas* → singular *namas*, not *namai* (¶80).",
+      "rulesTested": [
+        "cardinals-ten-up",
+        "numeral-case",
+        "plural-genitive"
+      ],
+      "vocabUsed": [
+        "penkiolika",
+        "knyga",
+        "dvidešimt",
+        "vienas",
+        "namas"
+      ]
     },
     {
       "id": "a112-q6",
       "type": "single",
       "difficulty": "medium",
-      "stem": "Complete: **Dirbu nuo aštuntos iki ____.** (I work from eight until five.)",
-      "options": ["penkta", "penktą", "penktos", "penktai"],
+      "stem": "Complete: **Dirbu nuo aštuntos iki ____.** (… until five.)",
+      "options": [
+        "penkta",
+        "penktą",
+        "penktos",
+        "penktai"
+      ],
       "correct": 2,
-      "explanation": "*iki* governs the genitive, and the hour is a feminine ordinal: *penktos*. *penktą* would be the accusative, which is what tells the hour of an appointment (*penktą valandą*), not the end of a range.",
-      "rulesTested": ["telling-the-hour", "genitive-prepositions", "time-prepositions"],
-      "vocabUsed": ["dirbti", "nuo", "iki", "penktas"]
+      "explanation": "*iki* + genitive of the feminine ordinal: *penktos*. *penktą* is accusative of time for an appointment (*penktą valandą*), not the end of a *nuo…iki* range.",
+      "rulesTested": [
+        "telling-the-hour",
+        "genitive-prepositions",
+        "time-prepositions"
+      ],
+      "vocabUsed": [
+        "dirbti",
+        "nuo",
+        "iki",
+        "penktas"
+      ]
     },
     {
       "id": "a112-q7",
       "type": "single",
       "difficulty": "medium",
-      "stem": "**Pirmadienį** and **pirmadieniais** both answer *kada?* What is the difference?",
+      "stem": "**Pirmadienį** vs **pirmadieniais** — both answer *kada?* Difference?",
       "options": [
-        "None; the two are interchangeable.",
-        "*Pirmadienį* is one particular Monday; *pirmadieniais* is Mondays as a rule.",
-        "*Pirmadienį* is the past and *pirmadieniais* the future.",
+        "None; interchangeable.",
+        "*Pirmadienį* = one Monday; *pirmadieniais* = Mondays as a rule.",
+        "Past vs future.",
         "*Pirmadieniais* is the polite form."
       ],
       "correct": 1,
-      "explanation": "The accusative marks a single occasion (¶83), the plural instrumental a habit (¶76). Lithuanian keeps the two apart by case where English needs the extra words *on* and *on … s*.",
-      "rulesTested": ["accusative-of-time", "instrumental-time-route"],
-      "vocabUsed": ["pirmadienis", "kada"]
+      "explanation": "Accusative = single occasion (¶83); plural instrumental = habit (¶76).",
+      "rulesTested": [
+        "accusative-of-time",
+        "instrumental-time-route"
+      ],
+      "vocabUsed": [
+        "pirmadienis",
+        "kada"
+      ]
     },
     {
       "id": "a112-q8",
       "type": "multi",
       "difficulty": "hard",
-      "stem": "Which of these correctly pair a time preposition with its case?",
+      "stem": "Which correctly pair a time preposition with its case?",
       "options": [
         "prieš valandą — accusative",
         "per valandą — accusative",
         "po pietų — accusative",
         "iki penktos — genitive"
       ],
-      "correct": [0, 1, 3],
-      "explanation": "*po* in the sense *after* takes the **genitive** (¶33); with the instrumental it means *under* (¶75). It never takes an accusative. The rest are right.",
-      "rulesTested": ["time-prepositions", "genitive-prepositions", "instrumental-po"],
-      "vocabUsed": ["prieš", "valanda", "per", "po", "iki", "penktas"]
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "*po* \"after\" takes **genitive**, never accusative (¶87 / ¶33). With instrumental it means \"under\".",
+      "rulesTested": [
+        "time-prepositions",
+        "genitive-prepositions",
+        "instrumental-po"
+      ],
+      "vocabUsed": [
+        "prieš",
+        "valanda",
+        "per",
+        "po",
+        "iki",
+        "penktas"
+      ]
     },
     {
       "id": "a112-q9",
       "type": "single",
       "difficulty": "hard",
-      "stem": "**Mes gyvenome Kaune metus.** What does the accusative *metus* express?",
+      "stem": "**Mes gyvenome Kaune metus.** What does accusative *metus* express?",
       "options": [
-        "The point at which they arrived.",
+        "The point of arrival.",
         "How long they lived there.",
         "Possession of the year.",
-        "The means by which they lived there."
+        "Means of living there."
       ],
       "correct": 1,
-      "explanation": "The accusative of time serves for a **stretch** as well as a point: *metus*, for a year. No preposition answering to English *for* is used or wanted.",
-      "rulesTested": ["accusative-of-time"],
-      "vocabUsed": ["mes", "gyventi", "Kaunas", "metai"]
+      "explanation": "Accusative of time covers a **stretch** as well as a point: *metus* = for a year — no English-style *for* (¶83).",
+      "rulesTested": [
+        "accusative-of-time"
+      ],
+      "vocabUsed": [
+        "mes",
+        "gyventi",
+        "Kaunas",
+        "metai"
+      ]
     },
     {
       "id": "a112-q10",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**Be penkiolikos dešimta.** What time?",
+      "options": [
+        "10:15",
+        "9:45",
+        "10:45",
+        "9:15"
+      ],
+      "correct": 1,
+      "explanation": "\"Without fifteen, the tenth\" = a quarter **to** ten = 9:45 (¶82). Counting up from nine is the English habit that fails here.",
+      "rulesTested": [
+        "telling-the-hour",
+        "ordinals"
+      ],
+      "vocabUsed": [
+        "penkiolika",
+        "dešimtas"
+      ]
+    },
+    {
+      "id": "a112-q11",
       "type": "integer",
       "difficulty": "hard",
-      "stem": "In **Gimiau tūkstantis devyni šimtai devyniasdešimt penktaisiais metais**, how many words of the number itself are ordinals?",
+      "stem": "In **Gimiau tūkstantis devyni šimtai devyniasdešimt penktaisiais metais**, how many words of the number itself are **ordinals**?",
       "answer": 1,
       "unit": "words",
-      "explanation": "One: *penktaisiais*. Everything before it is read as an ordinary cardinal, and only the last element is made an ordinal and put into the instrumental plural along with *metais* (¶86).",
-      "rulesTested": ["the-year", "ordinals", "cardinals-ten-up"],
-      "vocabUsed": ["metai", "penktas"]
+      "explanation": "Only *penktaisiais* — the last element becomes ordinal + instrumental plural with *metais* (¶86). Everything before stays cardinal.",
+      "rulesTested": [
+        "the-year",
+        "ordinals",
+        "cardinals-ten-up"
+      ],
+      "vocabUsed": [
+        "metai",
+        "penktas"
+      ]
+    },
+    {
+      "id": "a112-q12",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "How many **day-of-week** names are built on an ordinal + *diena* (i.e. not *sekmadienis*)?",
+      "answer": 6,
+      "unit": "days",
+      "explanation": "Six: Monday–Saturday. Only Sunday (*sekmadienis*) stands outside the ordinal pattern (¶84).",
+      "rulesTested": [
+        "days-of-week",
+        "ordinals"
+      ],
+      "vocabUsed": [
+        "pirmadienis",
+        "antradienis",
+        "penktadienis",
+        "šeštadienis",
+        "sekmadienis"
+      ]
+    },
+    {
+      "id": "a112-x1",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete: **Turiu ____ brolius.** (I have two brothers.)",
+      "options": [
+        "dvi",
+        "du",
+        "dviejų",
+        "dvejos"
+      ],
+      "correct": 1,
+      "explanation": "Masculine takes **du**; *dvi* is feminine (¶79).",
+      "rulesTested": [
+        "cardinals-one-nine"
+      ],
+      "vocabUsed": [
+        "turėti",
+        "du",
+        "brolis"
+      ]
+    },
+    {
+      "id": "a112-x2",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete: **Penkiolika ____.** (fifteen books)",
+      "options": [
+        "knygos",
+        "knygas",
+        "knygų",
+        "knyga"
+      ],
+      "correct": 2,
+      "explanation": "From ten up: genitive plural *knygų* (¶80).",
+      "rulesTested": [
+        "cardinals-ten-up"
+      ],
+      "vocabUsed": [
+        "penkiolika",
+        "knyga"
+      ]
+    },
+    {
+      "id": "a112-x3",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Which asks the hour?",
+      "options": [
+        "Kiek valandų?",
+        "Kelinta valanda?",
+        "Koks laikas yra didelis?",
+        "Kur valanda?"
+      ],
+      "correct": 1,
+      "explanation": "**Kelinta valanda?** is the clock question (¶82).",
+      "rulesTested": [
+        "telling-the-hour"
+      ],
+      "vocabUsed": [
+        "kelintas",
+        "valanda",
+        "kiek",
+        "laikas",
+        "koks",
+        "kur"
+      ]
+    },
+    {
+      "id": "a112-x4",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Dvidešimt vienas ____.** (twenty-one houses)",
+      "options": [
+        "namai",
+        "namų",
+        "namas",
+        "namus"
+      ],
+      "correct": 2,
+      "explanation": "Last word governs: *vienas* → singular *namas* (¶80).",
+      "rulesTested": [
+        "cardinals-ten-up"
+      ],
+      "vocabUsed": [
+        "dvidešimt",
+        "vienas",
+        "namas"
+      ]
+    },
+    {
+      "id": "a112-x5",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **____ dirbu.** (On Saturday I work — one Saturday.)",
+      "options": [
+        "Šeštadieniais",
+        "Šeštadienį",
+        "Šeštadienis",
+        "Šeštadienio"
+      ],
+      "correct": 1,
+      "explanation": "Accusative of time for a dated day: *šeštadienį* (¶84, ¶83). Plural instrumental would mean Saturdays as a rule.",
+      "rulesTested": [
+        "days-of-week",
+        "accusative-of-time"
+      ],
+      "vocabUsed": [
+        "šeštadienis",
+        "dirbti"
+      ]
+    },
+    {
+      "id": "a112-x6",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Aš gyvenu ____ aukšte.** (I live on the first floor.)",
+      "options": [
+        "pirmas",
+        "pirmame",
+        "pirmo",
+        "pirmą"
+      ],
+      "correct": 1,
+      "explanation": "Ordinal agrees in locative: *pirmame aukšte* (¶81).",
+      "rulesTested": [
+        "ordinals"
+      ],
+      "vocabUsed": [
+        "gyventi",
+        "pirmas",
+        "aukštas",
+        "aš"
+      ]
+    },
+    {
+      "id": "a112-x7",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which are **correct**?",
+      "options": [
+        "Turiu dvi seseris.",
+        "Turiu du seseris.",
+        "Penkiolika knygų.",
+        "Dvidešimt vienas namai."
+      ],
+      "correct": [
+        0,
+        2
+      ],
+      "explanation": "*dvi* with feminine *seseris*; *penkiolika knygų* genitive plural. *du seseris* wrong gender; *dvidešimt vienas namai* should be singular *namas* (¶79–80).",
+      "rulesTested": [
+        "cardinals-one-nine",
+        "cardinals-ten-up"
+      ],
+      "vocabUsed": [
+        "turėti",
+        "du",
+        "sesuo",
+        "penkiolika",
+        "knyga",
+        "dvidešimt",
+        "vienas",
+        "namas"
+      ]
+    },
+    {
+      "id": "a112-x8",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which use the **accusative of time**?",
+      "options": [
+        "Vieną dieną dirbu.",
+        "Antradienį važiuoju.",
+        "Savaitgaliais nedirbu.",
+        "Penktadienį skaitau."
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "Singular time spans take accusative (¶83–84). *Savaitgaliais* is plural instrumental of habit (¶76).",
+      "rulesTested": [
+        "accusative-of-time",
+        "days-of-week"
+      ],
+      "vocabUsed": [
+        "vienas",
+        "diena",
+        "dirbti",
+        "antradienis",
+        "važiuoti",
+        "savaitgalis",
+        "penktadienis",
+        "skaityti"
+      ]
+    },
+    {
+      "id": "a112-x9",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Complete: **Šiandien ____ penkta.** (Today is the fifth of March.)",
+      "options": [
+        "kovas",
+        "kovo",
+        "kovą",
+        "kove"
+      ],
+      "correct": 1,
+      "explanation": "Month in genitive before the date: *kovo penkta* (¶85).",
+      "rulesTested": [
+        "months-and-dates"
+      ],
+      "vocabUsed": [
+        "šiandien",
+        "kovas",
+        "penktas"
+      ]
+    },
+    {
+      "id": "a112-x10",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "In year expressions with *metais*, which part becomes **ordinal + instrumental plural**?",
+      "options": [
+        "Every numeral word",
+        "Only the last element",
+        "Only *tūkstantis*",
+        "Only *šimtai*"
+      ],
+      "correct": 1,
+      "explanation": "Only the last element is ordinal instrumental plural with *metais* (¶86).",
+      "rulesTested": [
+        "the-year"
+      ],
+      "vocabUsed": [
+        "metai",
+        "tūkstantis",
+        "šimtas"
+      ]
+    },
+    {
+      "id": "a112-x11",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which correctly use time **prepositions**?",
+      "options": [
+        "Prieš metus dirbau.",
+        "Dirbu nuo aštuntos iki penktos.",
+        "Per savaitę skaitau.",
+        "Prieš su metais."
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "*prieš* + accusative, *nuo…iki*, *per* + accusative are the patterns (¶87). *Prieš su metais* mixes constructions.",
+      "rulesTested": [
+        "time-prepositions"
+      ],
+      "vocabUsed": [
+        "prieš",
+        "metai",
+        "dirbti",
+        "nuo",
+        "iki",
+        "per",
+        "savaitė",
+        "skaityti"
+      ]
+    },
+    {
+      "id": "a112-x12",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Half past nine in the usual A1 pattern with *pusė*?",
+      "options": [
+        "pusė dešimtos",
+        "pusė devynios",
+        "devynios ir pusė",
+        "pusė nuo dešimt"
+      ],
+      "correct": 0,
+      "explanation": "*pusė* + genitive of the **coming** hour: *pusė dešimtos* = 9:30 (¶82).",
+      "rulesTested": [
+        "telling-the-hour"
+      ],
+      "vocabUsed": [
+        "pusė",
+        "dešimtas",
+        "devyni"
+      ]
+    },
+    {
+      "id": "a112-x13",
+      "type": "multi",
+      "difficulty": "easy",
+      "stem": "Which of these numerals force the noun into the **genitive plural**?",
+      "explanation": "*dešimt* and *penkiolika* (ten and up) freeze the noun in the genitive plural. *trys* and *du* agree in the plural.",
+      "rulesTested": [
+        "cardinals-one-nine",
+        "cardinals-ten-up"
+      ],
+      "vocabUsed": [
+        "trys",
+        "dešimt",
+        "penkiolika",
+        "du"
+      ],
+      "options": [
+        "trys",
+        "dešimt",
+        "penkiolika",
+        "du"
+      ],
+      "correct": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "a112-x14",
+      "type": "integer",
+      "difficulty": "medium",
+      "stem": "Letters in **antradienį** (accusative time form)?",
+      "answer": 11,
+      "unit": "letters",
+      "explanation": "Eleven letters: the day-name in accusative for 'on Tuesday' (¶84).",
+      "rulesTested": [
+        "days-of-week",
+        "accusative-of-time"
+      ],
+      "vocabUsed": [
+        "antradienis"
+      ]
+    },
+    {
+      "id": "a112-x15",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "**Gimiau tūkstantis devyni šimtai devyniasdešimt penktaisiais metais.** How many words before *metais* are **not** ordinals?",
+      "answer": 4,
+      "unit": "words",
+      "explanation": "Four cardinals (*tūkstantis, devyni, šimtai, devyniasdešimt*); only *penktaisiais* is ordinal (¶86).",
+      "rulesTested": [
+        "the-year"
+      ],
+      "vocabUsed": [
+        "tūkstantis",
+        "šimtas",
+        "metai",
+        "penktas"
+      ]
     },
     {
       "id": "a112-p1",
       "type": "comprehension",
-      "difficulty": "medium",
+      "difficulty": "hard",
       "title": "Antradienio darbotvarkė",
-      "passage": "Antradienį Rūta dirba nuo aštuntos iki penktos. Ryte ji važiuoja į darbą autobusu — kelionė trunka dvidešimt minučių. Pusę dešimtos ji geria kavą su kolege. Pirmą valandą pietūs. Po pietų ji turi du susitikimus. Šeštadieniais ir sekmadieniais Rūta nedirba; tada ji skaito knygas arba važiuoja pas mamą į Kauną. Gegužės dešimtą jos gimtadienis.",
-      "translation": "On Tuesday Rūta works from eight until five. In the morning she goes to work by bus — the journey takes twenty minutes. At half past nine she drinks coffee with a colleague. At one o'clock, lunch. After lunch she has two meetings. On Saturdays and Sundays Rūta does not work; then she reads books or goes to her mother's in Kaunas. Her birthday is on the tenth of May.",
+      "passage": "Antradienį Rūta dirba nuo aštuntos iki penktos. Ryte ji važiuoja į darbą autobusu — kelionė trunka dvidešimt minučių. Pusę dešimtos ji geria kavą su kolege. Pirmą valandą pietūs. Po pietų ji turi du susitikimus. Šeštadieniais ir sekmadieniais Rūta nedirba; tada ji skaito knygas arba važiuoja pas mamą į Kauną. Gegužės dešimtą jos gimtadienis. Prieš savaitę ji turėjo penkiolika knygų.",
+      "translation": "On Tuesday Rūta works from eight until five. In the morning she goes to work by bus — the journey takes twenty minutes. At half past nine she drinks coffee with a colleague. At one o'clock, lunch. After lunch she has two meetings. On Saturdays and Sundays Rūta does not work; then she reads books or goes to her mother's in Kaunas. Her birthday is on the tenth of May. A week ago she had fifteen books.",
       "glossary": {
         "trunka": "takes, lasts (trukti)",
         "kolege": "colleague (kolegė, f., instrumental)",
@@ -431,7 +1738,8 @@
         "susitikimas": "meeting",
         "tada": "then",
         "arba": "or",
-        "gimtadienis": "birthday"
+        "gimtadienis": "birthday",
+        "kelionė": "journey"
       },
       "questions": [
         {
@@ -439,33 +1747,113 @@
           "type": "single",
           "difficulty": "easy",
           "stem": "Kelintą valandą Rūta geria kavą?",
-          "options": ["9:30", "10:30", "8:00", "13:00"],
+          "options": [
+            "9:30",
+            "10:30",
+            "8:00",
+            "13:00"
+          ],
           "correct": 0,
-          "explanation": "*Pusę dešimtos* — half of the tenth hour, that is 9:30. The accusative *pusę* is here because the phrase answers *kada?* for a single occasion (¶83).",
-          "rulesTested": ["telling-the-hour", "accusative-of-time"],
-          "vocabUsed": ["valanda", "kava", "pusė", "dešimtas"]
+          "explanation": "*Pusę dešimtos* = half of the tenth = 9:30. Accusative *pusę* because it answers *kada?* once (¶83).",
+          "rulesTested": [
+            "telling-the-hour",
+            "accusative-of-time"
+          ],
+          "vocabUsed": [
+            "valanda",
+            "kava",
+            "pusė",
+            "dešimtas"
+          ]
         },
         {
           "id": "a112-p1-q2",
           "type": "multi",
           "difficulty": "medium",
-          "stem": "Which time expressions in the passage name a **habit** rather than a single occasion?",
-          "options": ["Antradienį", "Šeštadieniais", "sekmadieniais", "Gegužės dešimtą"],
-          "correct": [1, 2],
-          "explanation": "The plural instrumentals *šeštadieniais* and *sekmadieniais* mean Saturdays and Sundays in general. *Antradienį* and *gegužės dešimtą* are accusatives naming one particular day.",
-          "rulesTested": ["instrumental-time-route", "accusative-of-time", "months-and-dates"],
-          "vocabUsed": ["antradienis", "šeštadienis", "sekmadienis", "gegužė", "dešimtas"]
+          "stem": "Which time expressions name a **habit** rather than one occasion?",
+          "options": [
+            "Antradienį",
+            "Šeštadieniais",
+            "sekmadieniais",
+            "Gegužės dešimtą"
+          ],
+          "correct": [
+            1,
+            2
+          ],
+          "explanation": "Plural instrumentals = habit. Accusatives *Antradienį* and *gegužės dešimtą* name one day.",
+          "rulesTested": [
+            "instrumental-time-route",
+            "accusative-of-time",
+            "months-and-dates"
+          ],
+          "vocabUsed": [
+            "antradienis",
+            "šeštadienis",
+            "sekmadienis",
+            "gegužė",
+            "dešimtas"
+          ]
         },
         {
           "id": "a112-p1-q3",
           "type": "integer",
           "difficulty": "hard",
-          "stem": "How many minutes does Rūta's journey to work take?",
+          "stem": "How many minutes does Rūta's journey take?",
           "answer": 20,
           "unit": "minutes",
-          "explanation": "*dvidešimt minučių* — twenty. Note the genitive plural *minučių*: from ten upwards a numeral fixes its noun in that case whatever the sentence is doing (¶80), and *t* softens to *č* before the ending.",
-          "rulesTested": ["cardinals-ten-up", "plural-genitive"],
-          "vocabUsed": ["dvidešimt", "minutė"]
+          "explanation": "*dvidešimt minučių* — twenty, with genitive plural after a ten-and-up numeral (¶80).",
+          "rulesTested": [
+            "cardinals-ten-up",
+            "plural-genitive"
+          ],
+          "vocabUsed": [
+            "dvidešimt",
+            "minutė"
+          ]
+        },
+        {
+          "id": "a112-p1-q4",
+          "type": "single",
+          "difficulty": "hard",
+          "stem": "**Prieš savaitę ji turėjo penkiolika knygų.** Why *knygų*?",
+          "options": [
+            "Because *turėti* always takes genitive.",
+            "Because *penkiolika* (11–19) freezes the noun in genitive plural.",
+            "Because the verb is past.",
+            "Because *prieš* governs the books."
+          ],
+          "correct": 1,
+          "explanation": "*penkiolika* overrides the accusative *turėti* would want (¶80 / ¶58). *prieš savaitę* is a separate time phrase with its own accusative.",
+          "rulesTested": [
+            "cardinals-ten-up",
+            "numeral-case",
+            "time-prepositions"
+          ],
+          "vocabUsed": [
+            "prieš",
+            "savaitė",
+            "turėti",
+            "penkiolika",
+            "knyga"
+          ]
+        },
+        {
+          "id": "a112-p1-q5",
+          "type": "integer",
+          "difficulty": "hard",
+          "stem": "How many **books** did she have a week ago?",
+          "answer": 15,
+          "unit": "books",
+          "explanation": "*penkiolika knygų* — fifteen. The genitive plural ending is forced by the teen numeral.",
+          "rulesTested": [
+            "cardinals-ten-up",
+            "plural-genitive"
+          ],
+          "vocabUsed": [
+            "penkiolika",
+            "knyga"
+          ]
         }
       ]
     }

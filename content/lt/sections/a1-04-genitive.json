@@ -14,23 +14,78 @@
       "paradigms": [
         {
           "caption": "Nominative → genitive singular",
-          "columns": ["nominative", "genitive", "example"],
+          "columns": [
+            "nominative",
+            "genitive",
+            "example"
+          ],
           "rows": [
-            { "label": "masc. -as", "cells": ["-as", "-o", "namas → namo"] },
-            { "label": "masc. -is", "cells": ["-is", "-io", "brolis → brolio"] },
-            { "label": "masc. -ys", "cells": ["-ys", "-io", "obuolys → obuolio"] },
-            { "label": "masc. -us", "cells": ["-us", "-aus", "sūnus → sūnaus"] },
-            { "label": "fem. -a", "cells": ["-a", "-os", "knyga → knygos"] },
-            { "label": "fem. -ė", "cells": ["-ė", "-ės", "katė → katės"] }
+            {
+              "label": "masc. -as",
+              "cells": [
+                "-as",
+                "-o",
+                "namas → namo"
+              ]
+            },
+            {
+              "label": "masc. -is",
+              "cells": [
+                "-is",
+                "-io",
+                "brolis → brolio"
+              ]
+            },
+            {
+              "label": "masc. -ys",
+              "cells": [
+                "-ys",
+                "-io",
+                "obuolys → obuolio"
+              ]
+            },
+            {
+              "label": "masc. -us",
+              "cells": [
+                "-us",
+                "-aus",
+                "sūnus → sūnaus"
+              ]
+            },
+            {
+              "label": "fem. -a",
+              "cells": [
+                "-a",
+                "-os",
+                "knyga → knygos"
+              ]
+            },
+            {
+              "label": "fem. -ė",
+              "cells": [
+                "-ė",
+                "-ės",
+                "katė → katės"
+              ]
+            }
           ],
           "footnote": "The feminines in -is decline apart: moteris → moters, naktis → nakties."
         }
       ],
       "examples": [
-        { "target": "brolio knyga", "gloss": "the brother's book" },
-        { "target": "namo langas", "gloss": "the window of the house" }
+        {
+          "target": "brolio knyga",
+          "gloss": "the brother's book"
+        },
+        {
+          "target": "namo langas",
+          "gloss": "the window of the house"
+        }
       ],
-      "seeAlso": ["accusative-nouns", "noun-endings"],
+      "seeAlso": [
+        "accusative-nouns",
+        "noun-endings"
+      ],
       "core": true
     },
     {
@@ -39,14 +94,26 @@
       "heading": "The Genitive of Possession",
       "statement": "The possessor stands in the genitive and **precedes** the thing possessed, as in English \"the brother's book\" and never as in \"the book of the brother\". Lithuanian has no word answering to *of*: the ending does the whole work.",
       "examples": [
-        { "target": "mokytojo namas", "gloss": "the teacher's house" },
-        { "target": "Rūtos katė", "gloss": "Rūta's cat", "note": "proper names decline like any other noun" },
-        { "target": "mergaitės knyga", "gloss": "the girl's book" }
+        {
+          "target": "mokytojo namas",
+          "gloss": "the teacher's house"
+        },
+        {
+          "target": "Rūtos katė",
+          "gloss": "Rūta's cat",
+          "note": "proper names decline like any other noun"
+        },
+        {
+          "target": "mergaitės knyga",
+          "gloss": "the girl's book"
+        }
       ],
       "footnotes": [
         "Reversing the order reverses the sense: *mokytojo namas* is the teacher's house, *namo mokytojas* the house's teacher."
       ],
-      "seeAlso": ["genitive-endings"],
+      "seeAlso": [
+        "genitive-endings"
+      ],
       "core": true
     },
     {
@@ -55,11 +122,25 @@
       "heading": "The Genitive of Origin",
       "statement": "**Iš** (from, out of) governs the genitive, and with it a speaker says where they come from — one of the first things asked of a foreigner in Lithuania. The question is *Iš kur tu esi?*",
       "examples": [
-        { "target": "Aš esu iš Lietuvos.", "gloss": "I am from Lithuania.", "note": "Lietuva → Lietuvos" },
-        { "target": "Ji yra iš Vilniaus.", "gloss": "She is from Vilnius.", "note": "Vilnius → Vilniaus, a -us noun" },
-        { "target": "Iš kur tu esi?", "gloss": "Where are you from?" }
+        {
+          "target": "Aš esu iš Lietuvos.",
+          "gloss": "I am from Lithuania.",
+          "note": "Lietuva → Lietuvos"
+        },
+        {
+          "target": "Ji yra iš Vilniaus.",
+          "gloss": "She is from Vilnius.",
+          "note": "Vilnius → Vilniaus, a -us noun"
+        },
+        {
+          "target": "Iš kur tu esi?",
+          "gloss": "Where are you from?"
+        }
       ],
-      "seeAlso": ["genitive-endings", "buti-present"],
+      "seeAlso": [
+        "genitive-endings",
+        "buti-present"
+      ],
       "core": true
     },
     {
@@ -68,11 +149,24 @@
       "heading": "The Genitive after a Negated Verb",
       "statement": "The rule stated for recognition in ¶26 may now be given its reason. A negated verb asserts that **no part** of the thing was affected, and the genitive is the case of the part rather than of the whole; so the direct object of a negated transitive verb leaves the accusative and takes the genitive. This is not optional and admits no exception.",
       "examples": [
-        { "target": "Aš matau namą. → Aš nematau namo.", "gloss": "I see a house. → I do not see a house." },
-        { "target": "Ji turi knygą. → Ji neturi knygos.", "gloss": "She has a book. → She has no book." },
-        { "target": "Mes valgome duoną. → Mes nevalgome duonos.", "gloss": "We eat bread. → We do not eat bread." }
+        {
+          "target": "Aš matau namą. → Aš nematau namo.",
+          "gloss": "I see a house. → I do not see a house."
+        },
+        {
+          "target": "Ji turi knygą. → Ji neturi knygos.",
+          "gloss": "She has a book. → She has no book."
+        },
+        {
+          "target": "Mes valgome duoną. → Mes nevalgome duonos.",
+          "gloss": "We eat bread. → We do not eat bread."
+        }
       ],
-      "seeAlso": ["negation-genitive", "genitive-endings", "accusative-nouns"],
+      "seeAlso": [
+        "negation-genitive",
+        "genitive-endings",
+        "accusative-nouns"
+      ],
       "core": true
     },
     {
@@ -81,15 +175,30 @@
       "heading": "The Genitive of Quantity",
       "statement": "A word of measure or quantity is followed by the **genitive** of the thing measured — the partitive genitive, so called because it names the whole out of which a part is taken. This is how prices are asked and shopping done, and it governs *kiek?* (how much, how many) as well.",
       "examples": [
-        { "target": "kilogramas obuolių", "gloss": "a kilogram of apples", "note": "obuoliai → obuolių, genitive plural" },
-        { "target": "puodelis kavos", "gloss": "a cup of coffee" },
-        { "target": "daug vandens", "gloss": "much water" },
-        { "target": "Kiek duonos?", "gloss": "How much bread?" }
+        {
+          "target": "kilogramas obuolių",
+          "gloss": "a kilogram of apples",
+          "note": "obuoliai → obuolių, genitive plural"
+        },
+        {
+          "target": "puodelis kavos",
+          "gloss": "a cup of coffee"
+        },
+        {
+          "target": "daug vandens",
+          "gloss": "much water"
+        },
+        {
+          "target": "Kiek duonos?",
+          "gloss": "How much bread?"
+        }
       ],
       "footnotes": [
         "The genitive plural ends in -ų for every declension: namų, brolių, knygų, kačių. It is taken up in full with the plural."
       ],
-      "seeAlso": ["genitive-endings"],
+      "seeAlso": [
+        "genitive-endings"
+      ],
       "core": true
     },
     {
@@ -100,24 +209,78 @@
       "paradigms": [
         {
           "caption": "Prepositions with the genitive",
-          "columns": ["preposition", "meaning", "example"],
+          "columns": [
+            "preposition",
+            "meaning",
+            "example"
+          ],
           "rows": [
-            { "label": "iš", "cells": ["from, out of", "iš namo — out of the house"] },
-            { "label": "nuo", "cells": ["from, off", "nuo stalo — off the table"] },
-            { "label": "iki", "cells": ["until, as far as", "iki vakaro — until evening"] },
-            { "label": "prie", "cells": ["near, at", "prie lango — by the window"] },
-            { "label": "ant", "cells": ["on", "ant stalo — on the table"] },
-            { "label": "be", "cells": ["without", "be duonos — without bread"] },
-            { "label": "po", "cells": ["after (of time)", "po pietų — after lunch"] }
+            {
+              "label": "iš",
+              "cells": [
+                "from, out of",
+                "iš namo — out of the house"
+              ]
+            },
+            {
+              "label": "nuo",
+              "cells": [
+                "from, off",
+                "nuo stalo — off the table"
+              ]
+            },
+            {
+              "label": "iki",
+              "cells": [
+                "until, as far as",
+                "iki vakaro — until evening"
+              ]
+            },
+            {
+              "label": "prie",
+              "cells": [
+                "near, at",
+                "prie lango — by the window"
+              ]
+            },
+            {
+              "label": "ant",
+              "cells": [
+                "on",
+                "ant stalo — on the table"
+              ]
+            },
+            {
+              "label": "be",
+              "cells": [
+                "without",
+                "be duonos — without bread"
+              ]
+            },
+            {
+              "label": "po",
+              "cells": [
+                "after (of time)",
+                "po pietų — after lunch"
+              ]
+            }
           ],
           "footnote": "Note that *ant*, on, takes the genitive where English feeling would expect a place-case; and that *po* with the instrumental means \"under\" instead, which is taken up with that case."
         }
       ],
       "examples": [
-        { "target": "Knyga guli ant stalo.", "gloss": "The book is lying on the table." },
-        { "target": "Kava be pieno.", "gloss": "Coffee without milk." }
+        {
+          "target": "Knyga guli ant stalo.",
+          "gloss": "The book is lying on the table."
+        },
+        {
+          "target": "Kava be pieno.",
+          "gloss": "Coffee without milk."
+        }
       ],
-      "seeAlso": ["genitive-endings"],
+      "seeAlso": [
+        "genitive-endings"
+      ],
       "core": true
     },
     {
@@ -126,34 +289,203 @@
       "heading": "Asking with the Genitive",
       "statement": "The interrogative *kas* has its own genitive **ko** (of what), and for persons **kieno** (whose). A question is answered in the case the question word stands in — which is why knowing the case of a question word is knowing the shape of its answer.",
       "examples": [
-        { "target": "Kieno tai knyga? — Brolio.", "gloss": "Whose book is this? — The brother's." },
-        { "target": "Ko tu neturi? — Pinigų.", "gloss": "What do you not have? — Money." }
+        {
+          "target": "Kieno tai knyga? — Brolio.",
+          "gloss": "Whose book is this? — The brother's."
+        },
+        {
+          "target": "Ko tu neturi? — Pinigų.",
+          "gloss": "What do you not have? — Money."
+        }
       ],
-      "seeAlso": ["genitive-possession", "genitive-negation"],
+      "seeAlso": [
+        "genitive-possession",
+        "genitive-negation"
+      ],
       "core": false
     }
   ],
   "vocabulary": [
-    { "lemma": "Lietuva", "gloss": "Lithuania", "pos": "noun", "forms": { "nom": "Lietuva", "gen": "Lietuvos", "acc": "Lietuvą", "gender": "f." } },
-    { "lemma": "šalis", "gloss": "country", "pos": "noun", "forms": { "nom": "šalis", "gen": "šalies", "acc": "šalį", "gender": "f." }, "notes": "Feminine in -is, like moteris." },
-    { "lemma": "miestas", "gloss": "city, town", "pos": "noun", "forms": { "nom": "miestas", "gen": "miesto", "acc": "miestą", "gender": "m." } },
-    { "lemma": "gatvė", "gloss": "street", "pos": "noun", "forms": { "nom": "gatvė", "gen": "gatvės", "acc": "gatvę", "gender": "f." } },
-    { "lemma": "kava", "gloss": "coffee", "pos": "noun", "forms": { "nom": "kava", "gen": "kavos", "acc": "kavą", "gender": "f." } },
-    { "lemma": "pienas", "gloss": "milk", "pos": "noun", "forms": { "nom": "pienas", "gen": "pieno", "acc": "pieną", "gender": "m." } },
-    { "lemma": "vanduo", "gloss": "water", "pos": "noun", "forms": { "nom": "vanduo", "gen": "vandens", "acc": "vandenį", "gender": "m." }, "notes": "Irregular; learn the genitive with the word." },
-    { "lemma": "puodelis", "gloss": "cup", "pos": "noun", "forms": { "nom": "puodelis", "gen": "puodelio", "acc": "puodelį", "gender": "m." } },
-    { "lemma": "pinigai", "gloss": "money", "pos": "noun", "forms": { "nom": "pinigai", "gen": "pinigų", "gender": "m." }, "notes": "Plural only, as in English 'funds'." },
-    { "lemma": "kilogramas", "gloss": "kilogram", "pos": "noun", "forms": { "nom": "kilogramas", "gen": "kilogramo", "acc": "kilogramą", "gender": "m." } },
-    { "lemma": "iš", "gloss": "from, out of (+ gen.)", "pos": "preposition", "forms": {} },
-    { "lemma": "nuo", "gloss": "from, off (+ gen.)", "pos": "preposition", "forms": {} },
-    { "lemma": "iki", "gloss": "until, as far as (+ gen.)", "pos": "preposition", "forms": {} },
-    { "lemma": "prie", "gloss": "near, at (+ gen.)", "pos": "preposition", "forms": {} },
-    { "lemma": "ant", "gloss": "on (+ gen.)", "pos": "preposition", "forms": {} },
-    { "lemma": "be", "gloss": "without (+ gen.)", "pos": "preposition", "forms": {} },
-    { "lemma": "daug", "gloss": "much, many (+ gen.)", "pos": "adverb", "forms": {} },
-    { "lemma": "kiek", "gloss": "how much, how many (+ gen.)", "pos": "adverb", "forms": {} },
-    { "lemma": "kieno", "gloss": "whose", "pos": "pronoun", "forms": { "nom": "kas", "gen": "kieno" } },
-    { "lemma": "guli", "gloss": "lies, is lying", "pos": "verb", "forms": { "inf": "gulėti", "pres3": "guli", "past3": "gulėjo", "conj": "II" } }
+    {
+      "lemma": "Lietuva",
+      "gloss": "Lithuania",
+      "pos": "noun",
+      "forms": {
+        "nom": "Lietuva",
+        "gen": "Lietuvos",
+        "acc": "Lietuvą",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "šalis",
+      "gloss": "country",
+      "pos": "noun",
+      "forms": {
+        "nom": "šalis",
+        "gen": "šalies",
+        "acc": "šalį",
+        "gender": "f."
+      },
+      "notes": "Feminine in -is, like moteris."
+    },
+    {
+      "lemma": "miestas",
+      "gloss": "city, town",
+      "pos": "noun",
+      "forms": {
+        "nom": "miestas",
+        "gen": "miesto",
+        "acc": "miestą",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "gatvė",
+      "gloss": "street",
+      "pos": "noun",
+      "forms": {
+        "nom": "gatvė",
+        "gen": "gatvės",
+        "acc": "gatvę",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "kava",
+      "gloss": "coffee",
+      "pos": "noun",
+      "forms": {
+        "nom": "kava",
+        "gen": "kavos",
+        "acc": "kavą",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "pienas",
+      "gloss": "milk",
+      "pos": "noun",
+      "forms": {
+        "nom": "pienas",
+        "gen": "pieno",
+        "acc": "pieną",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "vanduo",
+      "gloss": "water",
+      "pos": "noun",
+      "forms": {
+        "nom": "vanduo",
+        "gen": "vandens",
+        "acc": "vandenį",
+        "gender": "m."
+      },
+      "notes": "Irregular; learn the genitive with the word."
+    },
+    {
+      "lemma": "puodelis",
+      "gloss": "cup",
+      "pos": "noun",
+      "forms": {
+        "nom": "puodelis",
+        "gen": "puodelio",
+        "acc": "puodelį",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "pinigai",
+      "gloss": "money",
+      "pos": "noun",
+      "forms": {
+        "nom": "pinigai",
+        "gen": "pinigų",
+        "gender": "m."
+      },
+      "notes": "Plural only, as in English 'funds'."
+    },
+    {
+      "lemma": "kilogramas",
+      "gloss": "kilogram",
+      "pos": "noun",
+      "forms": {
+        "nom": "kilogramas",
+        "gen": "kilogramo",
+        "acc": "kilogramą",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "iš",
+      "gloss": "from, out of (+ gen.)",
+      "pos": "preposition",
+      "forms": {}
+    },
+    {
+      "lemma": "nuo",
+      "gloss": "from, off (+ gen.)",
+      "pos": "preposition",
+      "forms": {}
+    },
+    {
+      "lemma": "iki",
+      "gloss": "until, as far as (+ gen.)",
+      "pos": "preposition",
+      "forms": {}
+    },
+    {
+      "lemma": "prie",
+      "gloss": "near, at (+ gen.)",
+      "pos": "preposition",
+      "forms": {}
+    },
+    {
+      "lemma": "ant",
+      "gloss": "on (+ gen.)",
+      "pos": "preposition",
+      "forms": {}
+    },
+    {
+      "lemma": "be",
+      "gloss": "without (+ gen.)",
+      "pos": "preposition",
+      "forms": {}
+    },
+    {
+      "lemma": "daug",
+      "gloss": "much, many (+ gen.)",
+      "pos": "adverb",
+      "forms": {}
+    },
+    {
+      "lemma": "kiek",
+      "gloss": "how much, how many (+ gen.)",
+      "pos": "adverb",
+      "forms": {}
+    },
+    {
+      "lemma": "kieno",
+      "gloss": "whose",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "kas",
+        "gen": "kieno"
+      }
+    },
+    {
+      "lemma": "guli",
+      "gloss": "lies, is lying",
+      "pos": "verb",
+      "forms": {
+        "inf": "gulėti",
+        "pres3": "guli",
+        "past3": "gulėjo",
+        "conj": "II"
+      }
+    }
   ],
   "drills": [
     {
@@ -161,17 +493,26 @@
       "type": "single",
       "difficulty": "easy",
       "stem": "What is the genitive singular of **brolis**?",
-      "options": ["brolį", "brolio", "brolyje", "broliui"],
+      "options": [
+        "brolį",
+        "brolio",
+        "brolyje",
+        "broliui"
+      ],
       "correct": 1,
-      "explanation": "Masculine -is makes -io. *brolį* is the accusative, which ends in a nosinė vowel (¶20).",
-      "rulesTested": ["genitive-endings"],
-      "vocabUsed": ["brolis"]
+      "explanation": "Masculine -is → -io (¶28). *brolį* is accusative (nosinė trap); *brolyje*/*broliui* are later cases.",
+      "rulesTested": [
+        "genitive-endings"
+      ],
+      "vocabUsed": [
+        "brolis"
+      ]
     },
     {
       "id": "a104-q2",
       "type": "single",
       "difficulty": "easy",
-      "stem": "Translate: **the teacher's house** (a male teacher).",
+      "stem": "Translate: **the teacher's house** (male teacher).",
       "options": [
         "mokytojas namas",
         "mokytojo namas",
@@ -179,36 +520,71 @@
         "mokytoją namas"
       ],
       "correct": 1,
-      "explanation": "The possessor takes the genitive and stands first, as in English \"the teacher's house\". *namas mokytojo* would be understood but reverses the natural order; *mokytojas* is the nominative and *mokytoją* the accusative.",
-      "rulesTested": ["genitive-possession", "genitive-endings"],
-      "vocabUsed": ["mokytojas", "namas"]
+      "explanation": "Possessor in genitive precedes the thing possessed (¶29). *namas mokytojo* reverses natural order; *mokytojas* is nominative; *mokytoją* accusative.",
+      "rulesTested": [
+        "genitive-possession",
+        "genitive-endings"
+      ],
+      "vocabUsed": [
+        "mokytojas",
+        "namas"
+      ]
     },
     {
       "id": "a104-q3",
       "type": "single",
       "difficulty": "easy",
-      "stem": "Complete: **Aš esu ____ Lietuvos.** (I am from Lithuania.)",
-      "options": ["į", "iš", "ant", "be"],
+      "stem": "Complete: **Aš esu ____ Lietuvos.**",
+      "options": [
+        "į",
+        "iš",
+        "ant",
+        "be"
+      ],
       "correct": 1,
-      "explanation": "*iš* is \"from, out of\" and governs the genitive, which is why *Lietuva* appears as *Lietuvos*. *ant* and *be* also take the genitive but mean \"on\" and \"without\".",
-      "rulesTested": ["genitive-origin", "genitive-prepositions"],
-      "vocabUsed": ["iš", "Lietuva", "ant", "be", "būti"]
+      "explanation": "*iš* \"from\" + genitive (¶30). *ant*/*be* also take genitive but mean \"on\"/\"without\" — right case, wrong preposition.",
+      "rulesTested": [
+        "genitive-origin",
+        "genitive-prepositions"
+      ],
+      "vocabUsed": [
+        "iš",
+        "Lietuva",
+        "ant",
+        "be",
+        "būti"
+      ]
     },
     {
       "id": "a104-q4",
       "type": "multi",
       "difficulty": "medium",
-      "stem": "Which of these phrases are **correctly** formed?",
+      "stem": "Which phrases are **correctly** formed?",
       "options": [
         "puodelis kavos",
         "kilogramas obuolių",
         "daug vanduo",
         "be pieną"
       ],
-      "correct": [0, 1],
-      "explanation": "A word of quantity takes the genitive of what is measured, and so do *daug* and the preposition *be*. The last two should be *daug vandens* and *be pieno*.",
-      "rulesTested": ["genitive-quantity", "genitive-prepositions"],
-      "vocabUsed": ["puodelis", "kava", "kilogramas", "obuolys", "daug", "vanduo", "be", "pienas"]
+      "correct": [
+        0,
+        1
+      ],
+      "explanation": "Quantity and *be* take the genitive: need *daug vandens*, *be pieno* (¶32–¶33). Accusative after *be* or nominative after *daug* are near-miss case errors.",
+      "rulesTested": [
+        "genitive-quantity",
+        "genitive-prepositions"
+      ],
+      "vocabUsed": [
+        "puodelis",
+        "kava",
+        "kilogramas",
+        "obuolys",
+        "daug",
+        "vanduo",
+        "be",
+        "pienas"
+      ]
     },
     {
       "id": "a104-q5",
@@ -222,47 +598,98 @@
         "Mes nevalgome duonai."
       ],
       "correct": 1,
-      "explanation": "The prefix *ne-* is written onto the verb, and the object leaves the accusative for the genitive *duonos* — the negated verb asserts that no part of the bread was eaten, and the genitive is the case of the part (¶31).",
-      "rulesTested": ["genitive-negation"],
-      "vocabUsed": ["valgyti", "duona", "mes"]
+      "explanation": "*ne-* fuses to the verb and the object becomes genitive *duonos* (¶31). Keeping accusative *duoną* after negation is the half-rule trap.",
+      "rulesTested": [
+        "genitive-negation"
+      ],
+      "vocabUsed": [
+        "valgyti",
+        "duona",
+        "mes"
+      ]
     },
     {
       "id": "a104-q6",
       "type": "multi",
       "difficulty": "medium",
       "stem": "Which prepositions govern the **genitive**?",
-      "options": ["ant", "iki", "į", "prie"],
-      "correct": [0, 1, 3],
-      "explanation": "*ant*, *iki* and *prie* all take the genitive. *į* takes the accusative and is the preposition of direction, taken up with the locative.",
-      "rulesTested": ["genitive-prepositions"],
-      "vocabUsed": ["ant", "iki", "prie"]
+      "options": [
+        "ant",
+        "iki",
+        "į",
+        "prie"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "*ant, iki, prie* take genitive (¶33). *į* takes accusative (direction) — same \"place\" intuition, wrong case.",
+      "rulesTested": [
+        "genitive-prepositions"
+      ],
+      "vocabUsed": [
+        "ant",
+        "iki",
+        "prie"
+      ]
     },
     {
       "id": "a104-q7",
       "type": "single",
       "difficulty": "medium",
-      "stem": "Complete: **Knyga guli ant ____.** (The book is lying on the table.)",
-      "options": ["stalas", "stalą", "stalo", "stalui"],
+      "stem": "Complete: **Knyga guli ant ____.**",
+      "options": [
+        "stalas",
+        "stalą",
+        "stalo",
+        "stalui"
+      ],
       "correct": 2,
-      "explanation": "*ant* governs the genitive, so *stalas* becomes *stalo*. An English speaker expects a place-case here and must simply learn that *ant* is one of the genitive prepositions.",
-      "rulesTested": ["genitive-prepositions", "genitive-endings"],
-      "vocabUsed": ["knyga", "guli", "ant", "stalas"]
+      "explanation": "*ant* + genitive → *stalo* (¶33). Accusative *stalą* is the English \"onto\" transfer error.",
+      "rulesTested": [
+        "genitive-prepositions",
+        "genitive-endings"
+      ],
+      "vocabUsed": [
+        "knyga",
+        "guli",
+        "ant",
+        "stalas"
+      ]
     },
     {
       "id": "a104-q8",
       "type": "multi",
       "difficulty": "hard",
-      "stem": "In which of these is the genitive used for a reason **other** than possession?",
+      "stem": "In which is the genitive used for a reason **other** than possession?",
       "options": [
         "Aš neturiu pinigų.",
         "Rūtos katė yra maža.",
         "Puodelis kavos, prašau.",
         "Ji yra iš Vilniaus."
       ],
-      "correct": [0, 2, 3],
-      "explanation": "Negation, quantity and origin respectively. Only *Rūtos katė* is possessive. The genitive is the busiest case in the language precisely because it does all four of these jobs.",
-      "rulesTested": ["genitive-negation", "genitive-quantity", "genitive-origin", "genitive-possession"],
-      "vocabUsed": ["turėti", "pinigai", "katė", "mažas", "puodelis", "kava", "iš"]
+      "correct": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "Negation, quantity, origin. Only *Rūtos katė* is possessive (¶29–¶32).",
+      "rulesTested": [
+        "genitive-negation",
+        "genitive-quantity",
+        "genitive-origin",
+        "genitive-possession"
+      ],
+      "vocabUsed": [
+        "turėti",
+        "pinigai",
+        "katė",
+        "mažas",
+        "puodelis",
+        "kava",
+        "iš"
+      ]
     },
     {
       "id": "a104-q9",
@@ -271,43 +698,404 @@
       "stem": "**Aš matau didelį namą.** If the verb were negated, how many words would change form?",
       "answer": 3,
       "unit": "words",
-      "explanation": "Three: *matau* → *nematau*, and the object goes into the genitive with its adjective agreeing — *didelį namą* → *didelio namo*. Answering two means forgetting that the adjective follows its noun into the new case.",
-      "rulesTested": ["genitive-negation", "genitive-endings", "accusative-adjectives"],
-      "vocabUsed": ["matyti", "didelis", "namas"]
+      "explanation": "Three: *matau*→*nematau*, *didelį*→*didelio*, *namą*→*namo*. Answering 2 forgets the adjective follows the noun into the genitive.",
+      "rulesTested": [
+        "genitive-negation",
+        "genitive-endings",
+        "accusative-adjectives"
+      ],
+      "vocabUsed": [
+        "matyti",
+        "didelis",
+        "namas"
+      ]
     },
     {
       "id": "a104-q10",
       "type": "single",
       "difficulty": "hard",
-      "stem": "*Vanduo* (water) has the genitive *vandens*, not *vanduo* → *vanduos*. What does this show?",
+      "stem": "*Vanduo* has genitive *vandens*, not a regular -uo pattern you can guess. What does this show?",
       "options": [
         "That neuter nouns decline differently.",
-        "That a few common nouns decline irregularly and must be learned with their genitive.",
-        "That the genitive of -uo nouns is always -ens.",
+        "That a few common nouns are irregular and must be learned with their genitive.",
+        "That every -uo noun makes -ens.",
         "That *vanduo* is indeclinable."
       ],
       "correct": 1,
-      "explanation": "The endings of ¶28 cover the great majority, but a handful of everyday words — *vanduo*, *skiemuo*, *sesuo* — stand outside them. This is why the dictionary cites the genitive: it is the form that cannot be guessed. Lithuanian has no neuter noun at all (¶10).",
-      "rulesTested": ["genitive-endings", "noun-gender"],
-      "vocabUsed": ["vanduo", "skiemuo"]
+      "explanation": "Dictionary cites genitive because some everyday words stand outside ¶28. Lithuanian has no neuter (¶10).",
+      "rulesTested": [
+        "genitive-endings",
+        "noun-gender"
+      ],
+      "vocabUsed": [
+        "vanduo",
+        "skiemuo"
+      ]
+    },
+    {
+      "id": "a104-q11",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which of these prepositions govern the **genitive**?",
+      "explanation": "*iš*, *ant*, and *be* take the genitive. *Į* takes the accusative of direction.",
+      "rulesTested": [
+        "genitive-prepositions"
+      ],
+      "vocabUsed": [
+        "iš",
+        "nuo",
+        "iki",
+        "prie",
+        "ant",
+        "be"
+      ],
+      "options": [
+        "iš",
+        "ant",
+        "į",
+        "be"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "id": "a104-q12",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Genitive singular of **knyga**?",
+      "options": [
+        "knygą",
+        "knygos",
+        "knygai",
+        "knygoje"
+      ],
+      "correct": 1,
+      "explanation": "*-a → -os* (¶28). *knygą* is accusative.",
+      "rulesTested": [
+        "genitive-endings"
+      ],
+      "vocabUsed": [
+        "knyga"
+      ]
+    },
+    {
+      "id": "a104-q13",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete: **Aš esu ____ Vilniaus.**",
+      "options": [
+        "į",
+        "iš",
+        "ant",
+        "be"
+      ],
+      "correct": 1,
+      "explanation": "*iš* + genitive for origin (¶30).",
+      "rulesTested": [
+        "genitive-origin",
+        "genitive-prepositions"
+      ],
+      "vocabUsed": [
+        "iš",
+        "miestas"
+      ]
+    },
+    {
+      "id": "a104-q14",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which genitive singular endings are correct?",
+      "options": [
+        "namas → namo",
+        "brolis → brolio",
+        "katė → katę",
+        "sūnus → sūnaus"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "¶28 paradigms. *katė → katės*, not accusative *katę*.",
+      "rulesTested": [
+        "genitive-endings"
+      ],
+      "vocabUsed": [
+        "namas",
+        "brolis",
+        "katė",
+        "sūnus"
+      ]
+    },
+    {
+      "id": "a104-q15",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "**mokytojo namas** means:",
+      "options": [
+        "the house of the teacher (possessor first)",
+        "the teacher of the house",
+        "a teacher-house compound with no case",
+        "accusative of teacher plus nominative house"
+      ],
+      "correct": 0,
+      "explanation": "Possessor genitive precedes the possessed noun (¶29).",
+      "rulesTested": [
+        "genitive-possession"
+      ],
+      "vocabUsed": [
+        "mokytojas",
+        "namas"
+      ]
+    },
+    {
+      "id": "a104-q16",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which phrases correctly use the **genitive of quantity**?",
+      "options": [
+        "puodelis kavos",
+        "kilogramas obuolių",
+        "daug vanduo",
+        "kiek duonos"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "Measure/quantity + genitive (¶32). *daug vanduo* wrongly leaves nominative; need *vandens*.",
+      "rulesTested": [
+        "genitive-quantity"
+      ],
+      "vocabUsed": [
+        "puodelis",
+        "kava",
+        "kilogramas",
+        "obuolys",
+        "daug",
+        "vanduo",
+        "kiek",
+        "duona"
+      ]
+    },
+    {
+      "id": "a104-q17",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "**Knyga guli ____ stalo.**",
+      "options": [
+        "į",
+        "su",
+        "ant",
+        "per"
+      ],
+      "correct": 2,
+      "explanation": "*ant* governs genitive: *ant stalo* (¶33).",
+      "rulesTested": [
+        "genitive-prepositions"
+      ],
+      "vocabUsed": [
+        "ant",
+        "stalas",
+        "knyga",
+        "guli"
+      ]
+    },
+    {
+      "id": "a104-q18",
+      "type": "integer",
+      "difficulty": "medium",
+      "stem": "Of *iš, ant, be, į, su*, how many take a **genitive** object?",
+      "answer": 3,
+      "unit": "prepositions",
+      "explanation": "Three: *iš, ant, be*. *Į* takes accusative; *su* takes instrumental.",
+      "rulesTested": [
+        "genitive-prepositions"
+      ],
+      "vocabUsed": [
+        "iš",
+        "ant",
+        "be"
+      ]
+    },
+    {
+      "id": "a104-q19",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "*Ji turi knygą* → negated object form:",
+      "options": [
+        "knygą",
+        "knyga",
+        "knygos",
+        "knygai"
+      ],
+      "correct": 2,
+      "explanation": "Negated transitive → genitive object *knygos* (¶31).",
+      "rulesTested": [
+        "genitive-negation"
+      ],
+      "vocabUsed": [
+        "turėti",
+        "knyga",
+        "ji"
+      ]
+    },
+    {
+      "id": "a104-q20",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which correctly answer **Kieno tai knyga?**",
+      "options": [
+        "Brolio.",
+        "Brolis.",
+        "Mokytojo.",
+        "Mokytoją."
+      ],
+      "correct": [
+        0,
+        2
+      ],
+      "explanation": "Answer in the case of the question word — genitive (¶34, ¶29). Nominative/accusative forms do not match *kieno*.",
+      "rulesTested": [
+        "genitive-questions",
+        "genitive-possession"
+      ],
+      "vocabUsed": [
+        "kieno",
+        "brolis",
+        "mokytojas",
+        "knyga"
+      ]
+    },
+    {
+      "id": "a104-q21",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Genitive of **obuolys**:",
+      "options": [
+        "obuolio",
+        "obuolį",
+        "obuoly",
+        "obuolių"
+      ],
+      "correct": 0,
+      "explanation": "*-ys → -io* (¶28). *obuolį* is accusative; *obuolių* is genitive plural (later).",
+      "rulesTested": [
+        "genitive-endings"
+      ],
+      "vocabUsed": [
+        "obuolys"
+      ]
+    },
+    {
+      "id": "a104-q22",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "**Mes valgome duoną.** Negate the sentence. How many of the three words change form?",
+      "answer": 2,
+      "unit": "words",
+      "explanation": "*valgome→nevalgome* and *duoną→duonos*; *mes* unchanged (¶31, ¶25).",
+      "rulesTested": [
+        "genitive-negation"
+      ],
+      "vocabUsed": [
+        "valgyti",
+        "duona",
+        "mes"
+      ]
+    },
+    {
+      "id": "a104-q23",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "**Kava ____ pieno.** (coffee without milk)",
+      "options": [
+        "su",
+        "be",
+        "į",
+        "per"
+      ],
+      "correct": 1,
+      "explanation": "*be* + genitive: *be pieno* (¶33).",
+      "rulesTested": [
+        "genitive-prepositions"
+      ],
+      "vocabUsed": [
+        "be",
+        "kava",
+        "pienas"
+      ]
+    },
+    {
+      "id": "a104-q24",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which use **iš** + genitive for origin correctly?",
+      "options": [
+        "Aš esu iš Lietuvos.",
+        "Ji yra iš Vilniaus.",
+        "Mes esame iš Lietuva.",
+        "Tu esi iš miesto."
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "*iš* needs genitive (¶30). *Lietuva* nominative is wrong after *iš*.",
+      "rulesTested": [
+        "genitive-origin",
+        "genitive-prepositions"
+      ],
+      "vocabUsed": [
+        "iš",
+        "Lietuva",
+        "miestas"
+      ]
+    },
+    {
+      "id": "a104-q25",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "*namo mokytojas* against *mokytojo namas* — which is the normal way to say \"the teacher's house\"?",
+      "options": [
+        "Both mean the same",
+        "Only *mokytojo namas* — the possessor stands before the thing possessed",
+        "*namo mokytojas* is required for possession",
+        "The genitive must follow the possessed noun"
+      ],
+      "correct": 1,
+      "explanation": "The possessor comes first: *mokytojo namas*. *namo mokytojas* would be \"the house's teacher\".",
+      "rulesTested": [
+        "genitive-possession"
+      ],
+      "vocabUsed": [
+        "mokytojas",
+        "namas"
+      ]
     },
     {
       "id": "a104-p1",
       "type": "comprehension",
-      "difficulty": "medium",
+      "difficulty": "hard",
       "title": "Kavinėje",
-      "passage": "Petras yra iš Kauno. Jis dirba Vilniuje. Rytas. Petras eina į kavinę. Jis nori puodelio kavos ir duonos. Jis neturi pinigų — piniginė guli ant stalo namuose. Draugas Jonas duoda pinigų. Petras geria kavą be pieno.",
-      "translation": "Petras is from Kaunas. He works in Vilnius. It is morning. Petras goes to a café. He wants a cup of coffee and some bread. He has no money — his wallet is lying on the table at home. His friend Jonas gives him money. Petras drinks coffee without milk.",
+      "passage": "Petras yra iš Kauno. Jis dirba Vilniuje. Rytas. Petras eina į kavinę. Jis nori puodelio kavos ir duonos. Jis neturi pinigų — piniginė guli ant stalo namuose. Draugas Jonas duoda pinigų. Petras geria kavą be pieno. Knyga guli prie lango. Po pietų Petras eina prie namo.",
+      "translation": "Petras is from Kaunas. He works in Vilnius. It is morning. Petras goes to a café. He wants a cup of coffee and some bread. He has no money — his wallet is lying on the table at home. His friend Jonas gives him money. Petras drinks coffee without milk. A book is lying by the window. After lunch Petras goes near the house.",
       "glossary": {
-        "Kaunas": "Kaunas, a Lithuanian city; gen. Kauno",
-        "Vilniuje": "in Vilnius; the locative case, taken up later",
+        "Kaunas": "Kaunas; gen. Kauno",
+        "Vilniuje": "in Vilnius (locative)",
         "rytas": "morning (m.)",
-        "eina": "goes (eiti)",
-        "kavinę": "café (acc. of kavinė)",
-        "nori": "wants (norėti, + gen.)",
+        "eina": "goes",
+        "kavinę": "café (acc.)",
+        "nori": "wants (+ gen.)",
         "piniginė": "wallet (f.)",
         "namuose": "at home",
-        "duoda": "gives (duoti)"
+        "duoda": "gives",
+        "pietų": "lunch (gen. pl.)"
       },
       "questions": [
         {
@@ -315,22 +1103,51 @@
           "type": "single",
           "difficulty": "easy",
           "stem": "Iš kur yra Petras?",
-          "options": ["iš Vilniaus", "iš Kauno", "iš Lietuvos gatvės", "iš kavinės"],
+          "options": [
+            "iš Vilniaus",
+            "iš Kauno",
+            "iš Lietuvos gatvės",
+            "iš kavinės"
+          ],
           "correct": 1,
-          "explanation": "*Petras yra iš Kauno.* Vilnius is where he works, not where he is from — the passage keeps the two apart deliberately.",
-          "rulesTested": ["genitive-origin"],
-          "vocabUsed": ["iš", "gatvė"]
+          "explanation": "*Petras yra iš Kauno.* Vilnius is where he works.",
+          "rulesTested": [
+            "genitive-origin"
+          ],
+          "vocabUsed": [
+            "iš",
+            "gatvė"
+          ]
         },
         {
           "id": "a104-p1-q2",
           "type": "multi",
           "difficulty": "medium",
-          "stem": "In the passage, which words stand in the genitive because of a **preposition**?",
-          "options": ["Kauno", "pinigų", "stalo", "pieno"],
-          "correct": [0, 2, 3],
-          "explanation": "*iš Kauno*, *ant stalo*, *be pieno*. *pinigų* is genitive for a different reason — the verb *neturi* is negated (¶31).",
-          "rulesTested": ["genitive-prepositions", "genitive-negation"],
-          "vocabUsed": ["iš", "ant", "be", "pinigai", "stalas", "pienas"]
+          "stem": "Which words stand in the genitive because of a **preposition**?",
+          "options": [
+            "Kauno",
+            "pinigų",
+            "stalo",
+            "pieno"
+          ],
+          "correct": [
+            0,
+            2,
+            3
+          ],
+          "explanation": "*iš Kauno*, *ant stalo*, *be pieno*. *pinigų* is genitive of negation after *neturi*.",
+          "rulesTested": [
+            "genitive-prepositions",
+            "genitive-negation"
+          ],
+          "vocabUsed": [
+            "iš",
+            "ant",
+            "be",
+            "pinigai",
+            "stalas",
+            "pienas"
+          ]
         },
         {
           "id": "a104-p1-q3",
@@ -339,9 +1156,65 @@
           "stem": "**Jis neturi pinigų.** If the verb were not negated, how many of the three words would change form?",
           "answer": 2,
           "unit": "words",
-          "explanation": "Two: *neturi* → *turi*, and *pinigų* → *pinigus*, the accusative plural. The pronoun *jis* is the subject and is untouched. Answering one is the usual slip: the case of the object changes with the verb, not merely the verb itself.",
-          "rulesTested": ["genitive-negation", "accusative-nouns"],
-          "vocabUsed": ["turėti", "pinigai", "jis"]
+          "explanation": "Two: *neturi*→*turi* and *pinigų*→*pinigus* (accusative plural). *jis* unchanged.",
+          "rulesTested": [
+            "genitive-negation",
+            "accusative-nouns"
+          ],
+          "vocabUsed": [
+            "turėti",
+            "pinigai",
+            "jis"
+          ]
+        },
+        {
+          "id": "a104-p1-q4",
+          "type": "single",
+          "difficulty": "hard",
+          "stem": "In *Jis nori puodelio kavos ir duonos*, why are *kavos* and *duonos* genitive?",
+          "options": [
+            "Because the whole sentence is negated.",
+            "Because a measure word like *puodelis* takes the genitive of what is measured (and *duonos* is likewise partitive here).",
+            "Because they are subjects.",
+            "Because *ir* always forces the genitive."
+          ],
+          "correct": 1,
+          "explanation": "A measure phrase *puodelis X* takes the genitive of what is measured, and *duonos* likewise stands as a partitive after *nori* (glossed in the passage) (¶32). The sentence is not negated, so negation-genitive is not the reason.",
+          "rulesTested": [
+            "genitive-quantity"
+          ],
+          "vocabUsed": [
+            "puodelis",
+            "kava",
+            "duona"
+          ]
+        },
+        {
+          "id": "a104-p1-q5",
+          "type": "multi",
+          "difficulty": "hard",
+          "stem": "Which of these genitive prepositions appear in the passage?",
+          "options": [
+            "ant",
+            "be",
+            "prie",
+            "iki"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "*ant stalo*, *be pieno*, *prie lango* / *prie namo* are in the passage. *iki* is not among them here.",
+          "rulesTested": [
+            "genitive-prepositions"
+          ],
+          "vocabUsed": [
+            "ant",
+            "be",
+            "prie",
+            "iki"
+          ]
         }
       ]
     }
