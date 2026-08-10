@@ -1,14 +1,14 @@
 {
-  "id": "a1-17",
+  "id": "a1-18",
   "kind": "lesson",
   "level": "A1",
-  "order": 21,
+  "order": 23,
   "title": "Adverbs and Degree",
   "summary": "How an adverb is made out of an adjective, what kinds of adverb there are, and how both adjective and adverb are compared — better, best; more cheaply, most cheaply.",
   "rules": [
     {
       "id": "adverb-formation",
-      "number": "114",
+      "number": "119",
       "heading": "Adverbs in -ai and -iai",
       "statement": "An adverb of manner is made from the **masculine** form of a qualitative adjective by changing **-as** to **-ai** and **-us** to **-iai**. It then never changes again: an adverb has no gender, no number and no case, because it belongs to the verb and not to any noun.",
       "paradigms": [
@@ -82,11 +82,12 @@
         "adjective-agreement",
         "adjective-number"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "adverbs-iskai",
-      "number": "115",
+      "number": "120",
       "heading": "Adverbs in -iškai",
       "statement": "A separate suffix, **-iškai**, makes adverbs of *manner after the fashion of* — and above all the names of languages. **Kalbėti lietuviškai** is to speak Lithuanian, and the construction is an adverb throughout: the language is never a noun and never takes a case.",
       "examples": [
@@ -113,7 +114,7 @@
     },
     {
       "id": "adjective-comparative",
-      "number": "116",
+      "number": "121",
       "heading": "The Comparative of the Adjective",
       "statement": "The comparative — *aukštesnysis laipsnis* — is made with **-esnis** for the masculine and **-esnė** for the feminine, added to the stem. It then declines and agrees like any other adjective (¶17), because it is one.",
       "paradigms": [
@@ -184,13 +185,14 @@
         "adjective-agreement",
         "accusative-adjectives"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "adjective-superlative",
-      "number": "117",
+      "number": "122",
       "heading": "The Superlative of the Adjective",
-      "statement": "The superlative — *aukščiausiasis laipsnis* — is made with **-iausias, -iausia**. The ending begins with a back vowel, so a preceding **t** softens to *č* and **d** to *dž*, exactly as in the genitive and the past (¶28, ¶90): *greitas* gives *greičiausias*, *didelis* gives *didžiausias*.",
+      "statement": "The superlative — *aukščiausiasis laipsnis* — is made with **-iausias, -iausia**. The ending begins with a back vowel, so a preceding **t** softens to *č* and **d** to *dž*, exactly as in the genitive and the past (¶28, ¶95): *greitas* gives *greičiausias*, *didelis* gives *didžiausias*.",
       "paradigms": [
         {
           "caption": "The three degrees",
@@ -259,11 +261,12 @@
         "adjective-comparative",
         "genitive-possession"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "adverb-degree",
-      "number": "118",
+      "number": "123",
       "heading": "Comparing the Adverb",
       "statement": "An adverb is compared with **-iau** and **-iausiai**, and undergoes the same softening before them. Because the adverb never agrees with anything, its comparative and superlative have one form each — which makes the adverb far easier to compare than the adjective.",
       "paradigms": [
@@ -308,7 +311,7 @@
               ]
             }
           ],
-          "footnote": "*arti → arčiau* and *greitai → greičiau* show the softening of **t** before the back vowel of the ending, as in ¶117."
+          "footnote": "*arti → arčiau* and *greitai → greičiau* show the softening of **t** before the back vowel of the ending, as in ¶122."
         }
       ],
       "examples": [
@@ -317,8 +320,8 @@
           "gloss": "Speak more slowly, please."
         },
         {
-          "target": "Dabar jaučiuosi geriau.",
-          "gloss": "I feel better now."
+          "target": "Dabar man geriau.",
+          "gloss": "Now I feel better."
         },
         {
           "target": "Jis gyvena arčiau.",
@@ -330,11 +333,12 @@
         "adjective-superlative",
         "imperative-formation"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "comparison-negu",
-      "number": "119",
+      "number": "124",
       "heading": "Than: Negu and Už",
       "statement": "What is compared with is introduced by **negu** — *than* — with the second term in the **same case** as the first, since the two are being weighed against each other. Beside it stands **už** with the **accusative**, which does the same work more briefly: *didesnis už mane*, bigger than I.",
       "paradigms": [
@@ -393,11 +397,12 @@
         "place-prepositions",
         "coordinating-conjunctions"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "adverb-kinds",
-      "number": "120",
+      "number": "125",
       "heading": "The Kinds of Adverb",
       "statement": "Not every adverb is made from an adjective; most of the commonest are words in their own right, and they fall into five groups. Those of **quantity** deserve particular note: *daug*, *mažai*, *truputį* and *šiek tiek* all govern the **genitive** (¶32), as a numeral does.",
       "paradigms": [
@@ -462,14 +467,16 @@
         "genitive-quantity",
         "frequency-adverbs"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     }
   ],
   "vocabulary": [
     {
       "lemma": "gerai",
       "gloss": "well, all right",
-      "pos": "adverb"
+      "pos": "adverb",
+      "notes": "Also in impersonal feeling phrases with a dative person: man gerai (I am fine) — taught with the impersonal constructions."
     },
     {
       "lemma": "greitai",
@@ -814,7 +821,7 @@
         "Dative, because comparisons need a recipient."
       ],
       "correct": 1,
-      "explanation": "¶119: *už* + accusative = *than*. The same preposition with the genitive means *behind*. With *negu* one would say *negu aš*, matching nominative.",
+      "explanation": "¶124: *už* + accusative = *than*. The same preposition with the genitive means *behind*. With *negu* one would say *negu aš*, matching nominative.",
       "rulesTested": [
         "comparison-negu",
         "pronouns-cases"
@@ -973,7 +980,7 @@
             "Because *lietuviškai* is the comparative of *lietuvis*."
           ],
           "correct": 1,
-          "explanation": "¶115: *kalbėti lietuviškai* is adverb throughout. *mokausi lietuvių kalbos* uses the noun for the language as a study subject.",
+          "explanation": "¶120: *kalbėti lietuviškai* is adverb throughout. *mokausi lietuvių kalbos* uses the noun for the language as a study subject.",
           "rulesTested": [
             "adverbs-iskai",
             "imperative-formation"

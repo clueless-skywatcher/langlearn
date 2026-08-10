@@ -1,14 +1,14 @@
 {
-  "id": "a1-19",
+  "id": "a1-20",
   "kind": "lesson",
   "level": "A1",
-  "order": 24,
+  "order": 26,
   "title": "Demonstratives and Determiners",
   "summary": "The words that point — this, that, such, which — and those that quantify — all, every, nobody. They are adjectives in their behaviour: they decline and they agree, and the learner who has ¶17 has most of them already.",
   "rules": [
     {
       "id": "sis-tas",
-      "number": "127",
+      "number": "132",
       "heading": "Šis and Tas",
       "statement": "**Šis** points at what is near — *this*; **tas** at what is further off or already spoken of — *that*. Both decline and agree with their noun in gender, number and case, exactly as an adjective does (¶17). Their endings are largely the adjective endings; what has to be learnt is the short stem and the handful of forms that do not follow it.",
       "paradigms": [
@@ -100,11 +100,12 @@
         "negation-genitive",
         "comparison-negu"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "anas",
-      "number": "128",
+      "number": "133",
       "heading": "Anas: the Further Demonstrative",
       "statement": "Lithuanian has a **third** degree of pointing that English lacks. **Anas** is *that one over there* — further off than *tas*, or the second of two already contrasted. It declines like *geras*, with no irregularity at all, and it is much the rarest of the three.",
       "examples": [
@@ -128,7 +129,7 @@
     },
     {
       "id": "toks",
-      "number": "129",
+      "number": "134",
       "heading": "Toks: Such",
       "statement": "**Toks, tokia** is *such* or *of that kind*, and it is the answer to *koks?* (¶51) as *tas* is the answer to *kuris?*. Note the idiom **Koks tu geras!** — *how kind of you* — where Lithuanian uses the question word for an exclamation, and **toks** answers it.",
       "examples": [
@@ -149,11 +150,12 @@
         "koks",
         "adjective-agreement"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "kuris",
-      "number": "130",
+      "number": "135",
       "heading": "Kuris: Which of Several",
       "statement": "**Kuris, kuri** asks *which one* out of a known set, where **koks** asks *what kind*. The distinction is real and English blurs it: *which book?* is *kuri knyga?* if the books are before you and *kokia knyga?* if you are asking what sort of book it was. **Kelintas** asks the position in an order — *the how-manieth* (¶82).",
       "paradigms": [
@@ -204,11 +206,12 @@
         "question-adverbs",
         "telling-the-hour"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "visas-kiekvienas",
-      "number": "131",
+      "number": "136",
       "heading": "Visas and Kiekvienas",
       "statement": "**Visas** in the singular is *the whole*; in the plural, **visi, visos**, it is *all*. **Kiekvienas** is *each, every*, and being a distributive it is always **singular**, however many people are meant — in this it agrees with English *every* and not with *all*.",
       "paradigms": [
@@ -264,11 +267,12 @@
         "accusative-of-time",
         "particles"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "niekas-negation",
-      "number": "132",
+      "number": "137",
       "heading": "Niekas and the Doubled Negative",
       "statement": "**Niekas** is *nobody* and *nothing* together; its genitive **nieko** is met oftener than its nominative, because a negated verb governs the genitive (¶26). The rule that governs it is the one already given for *niekada* (¶41): a negative word requires the **verb to be negated as well**. Lithuanian doubles its negatives where English forbids it, and a single negative in such a sentence is simply wrong.",
       "paradigms": [
@@ -331,13 +335,14 @@
         "negation-genitive",
         "frequency-adverbs"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "tas-pats",
-      "number": "133",
+      "number": "138",
       "heading": "Tas Pats: the Same",
-      "statement": "*The same* is **tas pats, ta pati** — literally *that itself* — and **both** words decline, each agreeing with the noun. English has one invariable word here and Lithuanian has two variable ones, so the phrase repays a moment's attention. Beside it stands **kitas**, *other* or *another* (¶98), which is its opposite.",
+      "statement": "*The same* is **tas pats, ta pati** — literally *that itself* — and **both** words decline, each agreeing with the noun. English has one invariable word here and Lithuanian has two variable ones, so the phrase repays a moment's attention. Beside it stands **kitas**, *other* or *another* (¶103), which is its opposite.",
       "paradigms": [
         {
           "caption": "tas pats declined",
@@ -383,7 +388,7 @@
               ]
             }
           ],
-          "footnote": "The *č* of *paties, pačios* is the softening of *t* before a back vowel, met for the fourth time now (¶28, ¶90, ¶117)."
+          "footnote": "The *č* of *paties, pačios* is the softening of *t* before a back vowel, met for the fourth time now (¶28, ¶95, ¶122)."
         }
       ],
       "examples": [
@@ -405,7 +410,8 @@
         "adjective-agreement",
         "future-uses"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     }
   ],
   "vocabulary": [

@@ -2,13 +2,13 @@
   "id": "a2-04",
   "kind": "lesson",
   "level": "A2",
-  "order": 5,
+  "order": 6,
   "title": "The Definite Adjective",
   "summary": "Beside the short adjective of ¶17 Lithuanian keeps a long, pronominal form — *gerasis* against *geras* — used when the quality itself picks out a known individual. This section states when that form is required and how it declines.",
   "rules": [
     {
       "id": "definite-adjective-nature",
-      "number": "163",
+      "number": "173",
       "heading": "Geras and Gerasis: the Two Series",
       "statement": "Every qualitative adjective in Lithuanian has **two** full paradigms. The short form — *geras, gera* — is the ordinary one taught at ¶17: it describes. The long form — *gerasis, geroji* — is called **įvardžiuotinis**, the *pronominal* or *definite* adjective: it **identifies**. English has only the article to mark the difference (*a good teacher* against *the good teacher*); Lithuanian writes the difference into the adjective itself.",
       "examples": [
@@ -42,7 +42,7 @@
     },
     {
       "id": "definite-adjective-formation",
-      "number": "164",
+      "number": "174",
       "heading": "How the Long Form is Made",
       "statement": "The long endings are added to the **stem** of the short adjective. From *-as* the masculine nominative singular is **-asis** and the feminine **-oji**; from *-us*, **-usis** and **-ioji**; from *-is*, **-ysis** and **-ėji** is not the pattern — *-is* adjectives give **-ysis, -ioji**. The stem softens where the short form already softens: *žalias* gives *žaliasis*, *gražus* gives *gražusis*.",
       "paradigms": [
@@ -118,11 +118,12 @@
         "definite-adjective-nature",
         "adjective-agreement"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "definite-adjective-declension",
-      "number": "165",
+      "number": "175",
       "heading": "The Long Form Declines in Full",
       "statement": "The definite adjective agrees with its noun in **gender, number and case**, exactly as the short one does. What changes is only the ending series: the long endings are longer in every case, and they must be recognised in reading as readily as produced. A sample of *gerasis* shows the pattern; the other stems follow it.",
       "paradigms": [
@@ -201,11 +202,12 @@
         "adjective-agreement",
         "adjective-number"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "definite-when-required",
-      "number": "166",
+      "number": "176",
       "heading": "When the Long Form is Required",
       "statement": "Use the definite adjective when the quality **picks out** a particular, already identifiable person or thing — the one the speaker and hearer can both point to. The short form remains the default for ordinary description, for predicates (*jis geras*), and for anything newly introduced. A useful test: if English would want *the* because the adjective itself is doing the identifying, Lithuanian wants the long form.",
       "paradigms": [
@@ -264,7 +266,7 @@
         }
       ],
       "footnotes": [
-        "Speech often prefers the short form where careful writing keeps the long one. The learner should recognise both and produce the long form in the clear cases of ¶167 and in fixed names (¶168)."
+        "Speech often prefers the short form where careful writing keeps the long one. The learner should recognise both and produce the long form in the clear cases of ¶177 and in fixed names (¶178)."
       ],
       "seeAlso": [
         "definite-adjective-nature",
@@ -275,7 +277,7 @@
     },
     {
       "id": "definite-substantivised",
-      "number": "167",
+      "number": "177",
       "heading": "The Adjective Standing Alone",
       "statement": "When the noun is left out and the adjective stands for it — *the red one*, *the old one* — Lithuanian almost always uses the **long** form. The ending then carries gender and case as a pronoun would, which is why the series is called pronominal.",
       "examples": [
@@ -299,11 +301,12 @@
         "wanting-liking",
         "sis-tas"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "definite-fixed-names",
-      "number": "168",
+      "number": "178",
       "heading": "Fixed Names and Titles",
       "statement": "A number of proper names and set titles are built on the long form and are not optional: **Naujieji metai** (New Year), street and institution names (*Senoji gatvė*), chapter headings, and many book titles. Here the long form is part of the name, not a choice of style — the short form would simply be a different phrase.",
       "examples": [
@@ -322,7 +325,7 @@
         }
       ],
       "footnotes": [
-        "Ordinals and superlatives often look definite (*pirmasis, geriausiasis*) in older or elevated style; the everyday superlative of ¶117 (*geriausias*) is already enough for A2 production."
+        "Ordinals and superlatives often look definite (*pirmasis, geriausiasis*) in older or elevated style; the everyday superlative of ¶122 (*geriausias*) is already enough for A2 production."
       ],
       "seeAlso": [
         "definite-adjective-nature",
@@ -612,7 +615,7 @@
         "Because *didžioji* is the comparative."
       ],
       "correct": 1,
-      "explanation": "Titles and identifying names take the long form (¶166–¶168). *didžioji* is the definite of *didelė*, not a comparative (*didesnė*).",
+      "explanation": "Titles and identifying names take the long form (¶176–¶178). *didžioji* is the definite of *didelė*, not a comparative (*didesnė*).",
       "rulesTested": [
         "definite-when-required",
         "definite-fixed-names",
@@ -808,7 +811,7 @@
           "stem": "How many times does a form of the fixed name **Naujieji metai** (or the same long stem in that name) appear?",
           "answer": 1,
           "unit": "times",
-          "explanation": "Once: *Naujieji metai netoli*. It is the set plural name of ¶168, not a free choice of adjective.",
+          "explanation": "Once: *Naujieji metai netoli*. It is the set plural name of ¶178, not a free choice of adjective.",
           "rulesTested": [
             "definite-fixed-names"
           ],

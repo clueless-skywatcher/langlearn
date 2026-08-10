@@ -2,12 +2,13 @@
   "id": "a2-cp-01",
   "kind": "checkpoint",
   "level": "A2",
-  "order": 4,
-  "title": "Checkpoint: Cases, Reflexives, and Case Government",
-  "summary": "A cumulative examination of the first A2 block: the five declensions in full, the reflexive verb paradigm with -si- migration, and the new prepositions and unexpected case governors.",
+  "order": 5,
+  "title": "Checkpoint: Cases, Reflexives, Nebe-, and Case Government",
+  "summary": "A cumulative examination of the first A2 block: the five declensions in full, the reflexive verb paradigm with -si- migration, the discontinuative prefix nebe- (and tebe-), and the new prepositions and unexpected case governors.",
   "covers": [
     "a2-01",
     "a2-02",
+    "a2-nebe",
     "a2-03"
   ],
   "passThreshold": 60,
@@ -603,123 +604,6 @@
       ]
     },
     {
-      "id": "a2cp1-p1",
-      "type": "comprehension",
-      "difficulty": "medium",
-      "fromSection": "a2-02",
-      "title": "Pas seserį",
-      "passage": "Šiandien esu pas seserį. Ji mokosi istorijos ir niekada nesimoko be knygos. Rytais ji keliasi anksti, prausiasi ir nusišypso. „Kaip sekasi?“ — klausiu. „Gerai, tik nesijaučiu žvali dėl darbo,“ — sako ji. Vakare mes matomės su draugais šalia parko ir kalbame apie filmą. Aš laukiu autobuso, o ji ieško bilieto.",
-      "translation": "Today I am at my sister's. She is studying history and never studies without a book. In the mornings she gets up early, washes and smiles. \"How are you getting on?\" I ask. \"Fine, only I do not feel lively because of work,\" she says. In the evening we meet with friends beside the park and talk about a film. I wait for the bus, and she looks for a ticket.",
-      "glossary": {
-        "žvali": "lively (fem.)"
-      },
-      "questions": [
-        {
-          "id": "a2cp1-p1-q1",
-          "type": "single",
-          "difficulty": "easy",
-          "fromSection": "a2-02",
-          "stem": "Which form shows **-si-** migrated under negation?",
-          "options": [
-            "mokosi",
-            "nesimoko",
-            "nusišypso",
-            "matomės"
-          ],
-          "correct": 1,
-          "explanation": "*nesimoko* = *ne- + si + stem*: the third-person present of *mokytis* under negation.",
-          "rulesTested": [
-            "si-under-negation"
-          ],
-          "vocabUsed": [
-            "mokytis"
-          ]
-        },
-        {
-          "id": "a2cp1-p1-q2",
-          "type": "multi",
-          "difficulty": "medium",
-          "fromSection": "a2-03",
-          "stem": "Which case-government pairs does the passage illustrate?",
-          "options": [
-            "laukti + genitive (autobuso)",
-            "ieškoti + genitive (bilieto)",
-            "apie + accusative (filmą)",
-            "dėl + accusative (darbo)"
-          ],
-          "correct": [
-            0,
-            1,
-            2
-          ],
-          "explanation": "*dėl* takes the **genitive** (*darbo*), not the accusative.",
-          "rulesTested": [
-            "verbs-genitive-object",
-            "del-apie",
-            "case-government-summary"
-          ],
-          "vocabUsed": [
-            "laukti",
-            "autobusas",
-            "ieškoti",
-            "bilietas",
-            "apie",
-            "filmas",
-            "dėl",
-            "darbas"
-          ]
-        },
-        {
-          "id": "a2cp1-p1-q3",
-          "type": "single",
-          "difficulty": "hard",
-          "fromSection": "a2-01",
-          "stem": "**Pas seserį** — which case is *seserį*, and why that preposition?",
-          "options": [
-            "accusative; *pas* is used of going to / being at a person",
-            "genitive; *pas* takes genitive",
-            "instrumental; company",
-            "locative; place in"
-          ],
-          "correct": 0,
-          "explanation": "*pas* + accusative of a person (¶134). *Seserį* is the fifth-declension accusative.",
-          "rulesTested": [
-            "fifth-declension-paradigm",
-            "seven-cases-uses"
-          ],
-          "vocabUsed": [
-            "pas",
-            "sesuo"
-          ]
-        },
-        {
-          "id": "a2cp1-p1-q4",
-          "type": "integer",
-          "difficulty": "hard",
-          "fromSection": "a2-02",
-          "stem": "How many **finite reflexive** forms appear in the passage?",
-          "answer": 8,
-          "unit": "forms",
-          "explanation": "Eight: *mokosi, nesimoko, keliasi, prausiasi, nusišypso, sekasi, nesijaučiu, matomės*. *klausiu*, *sako*, and *esu* are not reflexive.",
-          "rulesTested": [
-            "reflexive-present-paradigm",
-            "si-under-negation",
-            "si-under-prefix",
-            "reflexive-meanings"
-          ],
-          "vocabUsed": [
-            "mokytis",
-            "keltis",
-            "praustis",
-            "nusišypsoti",
-            "sektis",
-            "jaustis",
-            "matytis"
-          ]
-        }
-      ]
-    },
-    {
       "id": "a2cp1-x1",
       "type": "single",
       "difficulty": "easy",
@@ -819,7 +703,7 @@
       "stem": "How many **cases** does Lithuanian have, counting the vocative?",
       "answer": 7,
       "unit": "cases",
-      "explanation": "Seven cases in the full map of ¶148.",
+      "explanation": "Seven cases in the full map of ¶153.",
       "rulesTested": [
         "seven-cases-uses"
       ],
@@ -1048,6 +932,425 @@
         "rūpintis",
         "laukti",
         "bijoti"
+      ]
+    },
+    {
+      "id": "a2cp1-b1",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "a2-02",
+      "stem": "Complete: **Aš ______ lietuvių kalbos.**",
+      "options": [
+        "mokausi",
+        "mokau",
+        "mokiausi",
+        "mokytis"
+      ],
+      "correct": 0,
+      "explanation": "Present reflexive *mokausi*. *Mokau* is transitive 'I teach'.",
+      "rulesTested": [
+        "reflexive-present-paradigm"
+      ],
+      "vocabUsed": [
+        "mokytis"
+      ]
+    },
+    {
+      "id": "a2cp1-b2",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "a2-02",
+      "stem": "Complete: **Aš ______ gerai.**",
+      "options": [
+        "nesijaučiu",
+        "nejaučiuosi",
+        "jaučiuosi ne",
+        "nesijaučiuosi"
+      ],
+      "correct": 0,
+      "explanation": "Negated reflexive: *nesijaučiu*.",
+      "rulesTested": [
+        "si-under-negation"
+      ],
+      "vocabUsed": [
+        "jaustis"
+      ]
+    },
+    {
+      "id": "a2cp1-b3",
+      "type": "multi",
+      "difficulty": "medium",
+      "fromSection": "a2-03",
+      "stem": "Complete: **Kalbu ______ knygą.** Which prepositions fit 'about'?",
+      "options": [
+        "apie",
+        "dėl",
+        "pro",
+        "pagal"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "*Apie* + accusative = about a topic. *Dėl* is 'because of'.",
+      "rulesTested": [
+        "del-apie"
+      ],
+      "vocabUsed": [
+        "kalbėti",
+        "apie",
+        "knyga"
+      ]
+    },
+    {
+      "id": "a2cp1-p1",
+      "type": "comprehension",
+      "difficulty": "medium",
+      "fromSection": "a2-02",
+      "title": "Pas seserį",
+      "passage": "Šiandien esu pas seserį. Ji mokosi istorijos ir niekada nesimoko be knygos. Rytais ji keliasi anksti, prausiasi ir nusišypso. „Kaip sekasi?“ — klausiu. „Gerai, tik nesijaučiu žvali dėl darbo,“ — sako ji. Vakare mes matomės su draugais šalia parko ir kalbame apie filmą. Aš laukiu autobuso, o ji ieško bilieto.",
+      "translation": "Today I am at my sister's. She is studying history and never studies without a book. In the mornings she gets up early, washes and smiles. \"How are you getting on?\" I ask. \"Fine, only I do not feel lively because of work,\" she says. In the evening we meet with friends beside the park and talk about a film. I wait for the bus, and she looks for a ticket.",
+      "glossary": {
+        "žvali": "lively (fem.)"
+      },
+      "questions": [
+        {
+          "id": "a2cp1-p1-q1",
+          "type": "single",
+          "difficulty": "easy",
+          "fromSection": "a2-02",
+          "stem": "Which form shows **-si-** migrated under negation?",
+          "options": [
+            "mokosi",
+            "nesimoko",
+            "nusišypso",
+            "matomės"
+          ],
+          "correct": 1,
+          "explanation": "*nesimoko* = *ne- + si + stem*: the third-person present of *mokytis* under negation.",
+          "rulesTested": [
+            "si-under-negation"
+          ],
+          "vocabUsed": [
+            "mokytis"
+          ]
+        },
+        {
+          "id": "a2cp1-p1-q2",
+          "type": "multi",
+          "difficulty": "medium",
+          "fromSection": "a2-03",
+          "stem": "Which case-government pairs does the passage illustrate?",
+          "options": [
+            "laukti + genitive (autobuso)",
+            "ieškoti + genitive (bilieto)",
+            "apie + accusative (filmą)",
+            "dėl + accusative (darbo)"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "*dėl* takes the **genitive** (*darbo*), not the accusative.",
+          "rulesTested": [
+            "verbs-genitive-object",
+            "del-apie",
+            "case-government-summary"
+          ],
+          "vocabUsed": [
+            "laukti",
+            "autobusas",
+            "ieškoti",
+            "bilietas",
+            "apie",
+            "filmas",
+            "dėl",
+            "darbas"
+          ]
+        },
+        {
+          "id": "a2cp1-p1-q3",
+          "type": "single",
+          "difficulty": "hard",
+          "fromSection": "a2-01",
+          "stem": "**Pas seserį** — which case is *seserį*, and why that preposition?",
+          "options": [
+            "accusative; *pas* is used of going to / being at a person",
+            "genitive; *pas* takes genitive",
+            "instrumental; company",
+            "locative; place in"
+          ],
+          "correct": 0,
+          "explanation": "*pas* + accusative of a person (¶139). *Seserį* is the fifth-declension accusative.",
+          "rulesTested": [
+            "fifth-declension-paradigm",
+            "seven-cases-uses"
+          ],
+          "vocabUsed": [
+            "pas",
+            "sesuo"
+          ]
+        },
+        {
+          "id": "a2cp1-p1-q4",
+          "type": "integer",
+          "difficulty": "hard",
+          "fromSection": "a2-02",
+          "stem": "How many **finite reflexive** forms appear in the passage?",
+          "answer": 8,
+          "unit": "forms",
+          "explanation": "Eight: *mokosi, nesimoko, keliasi, prausiasi, nusišypso, sekasi, nesijaučiu, matomės*. *klausiu*, *sako*, and *esu* are not reflexive.",
+          "rulesTested": [
+            "reflexive-present-paradigm",
+            "si-under-negation",
+            "si-under-prefix",
+            "reflexive-meanings"
+          ],
+          "vocabUsed": [
+            "mokytis",
+            "keltis",
+            "praustis",
+            "nusišypsoti",
+            "sektis",
+            "jaustis",
+            "matytis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2cp1-nebe1",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "a2-nebe",
+      "stem": "Complete: **Aš ______ čia.** (I no longer work here.)",
+      "options": [
+        "nebedirbu",
+        "nedirbu",
+        "dar nedirbu",
+        "tebedirbu"
+      ],
+      "correct": 0,
+      "explanation": "*Nebedirbu* = no longer. *Dar nedirbu* = not yet; *tebedirbu* = still.",
+      "rulesTested": [
+        "nebe-meaning",
+        "nebe-vs-dar-ne"
+      ],
+      "vocabUsed": [
+        "dirbti",
+        "nebe-"
+      ]
+    },
+    {
+      "id": "a2cp1-nebe2",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a2-nebe",
+      "stem": "Complete: **Jis ______.** (He is not working yet.)",
+      "options": [
+        "dar nedirba",
+        "nebedirba",
+        "jau nedirba",
+        "tebedirba"
+      ],
+      "correct": 0,
+      "explanation": "*Dar nedirba* = not yet. *Nebe-* / *jau ne-* = no longer.",
+      "rulesTested": [
+        "nebe-vs-dar-ne",
+        "particles"
+      ],
+      "vocabUsed": [
+        "dar",
+        "dirbti"
+      ]
+    },
+    {
+      "id": "a2cp1-nebe3",
+      "type": "multi",
+      "difficulty": "medium",
+      "fromSection": "a2-nebe",
+      "stem": "Which mean *no longer* in the standard language?",
+      "options": [
+        "nebegyvena",
+        "jau negyvena",
+        "dar negyvena",
+        "tebegyvena"
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanation": "*Nebe-* and *jau ne-* are interchangeable discontinuatives (Ostrowski 2016).",
+      "rulesTested": [
+        "nebe-vs-dar-ne"
+      ],
+      "vocabUsed": [
+        "gyventi",
+        "nebe-",
+        "jau",
+        "dar",
+        "tebe-"
+      ]
+    },
+    {
+      "id": "a2cp1-nebe4",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "a2-nebe",
+      "stem": "Complete: **Aš ______.** (I no longer study.)",
+      "options": [
+        "nebesimokau",
+        "nebemokausi",
+        "nesimokau",
+        "tebesimokau"
+      ],
+      "correct": 0,
+      "explanation": "*Nebe-* then *-si-*: *nebesimokau*.",
+      "rulesTested": [
+        "nebe-syntax",
+        "si-under-negation"
+      ],
+      "vocabUsed": [
+        "mokytis",
+        "nebe-"
+      ]
+    },
+    {
+      "id": "a2cp1-nebe5",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "a2-nebe",
+      "stem": "Complete: **Jis nebeturi ______.**",
+      "options": [
+        "laiko",
+        "laiką",
+        "laikas",
+        "laike"
+      ],
+      "correct": 0,
+      "explanation": "Genitive of negation under *nebe-*: *laiko*.",
+      "rulesTested": [
+        "nebe-syntax",
+        "negation-genitive"
+      ],
+      "vocabUsed": [
+        "turėti",
+        "laikas",
+        "nebe-"
+      ]
+    },
+    {
+      "id": "a2cp1-nebe6",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "a2-nebe",
+      "stem": "Complete: **Ji ______ Vilniuje.** (She still lives in Vilnius — prefix.)",
+      "options": [
+        "tebegyvena",
+        "nebegyvena",
+        "dar negyvena",
+        "jau negyvena"
+      ],
+      "correct": 0,
+      "explanation": "*Tebe-* = still on the verb.",
+      "rulesTested": [
+        "tebe-counterpart"
+      ],
+      "vocabUsed": [
+        "tebe-",
+        "gyventi"
+      ]
+    },
+    {
+      "id": "a2cp1-nebe7",
+      "type": "multi",
+      "difficulty": "hard",
+      "fromSection": "a2-nebe",
+      "stem": "Which are written together as one word?",
+      "options": [
+        "nebegaliu",
+        "nebegeras",
+        "nebe laikas",
+        "Nebe skaito, o rašo"
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanation": "Together with verbs/adjectives; apart before nouns and under contrast.",
+      "rulesTested": [
+        "nebe-formation"
+      ],
+      "vocabUsed": [
+        "nebe-",
+        "galėti"
+      ]
+    },
+    {
+      "id": "a2cp1-nebe8",
+      "type": "integer",
+      "difficulty": "medium",
+      "fromSection": "a2-nebe",
+      "stem": "In *dar dirba / dar nedirba / jau dirba / jau nedirba≈nebedirba*, how many cells mean **not yet**?",
+      "answer": 1,
+      "unit": "cells",
+      "explanation": "Only *dar nedirba* is ‘not yet’.",
+      "rulesTested": [
+        "nebe-vs-dar-ne"
+      ],
+      "vocabUsed": [
+        "dar",
+        "jau",
+        "nebe-",
+        "dirbti"
+      ]
+    },
+    {
+      "id": "a2cp1-nebe9",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "a2-nebe",
+      "stem": "Complete: **Jis ______.** (He no longer arrives by vehicle.)",
+      "options": [
+        "nebeatvažiuoja",
+        "atnebevažiuoja",
+        "neatvažiuoja be",
+        "ne atvažiuoja"
+      ],
+      "correct": 0,
+      "explanation": "External *nebe-* outside lexical *at-*: *nebeatvažiuoja*.",
+      "rulesTested": [
+        "nebe-syntax"
+      ],
+      "vocabUsed": [
+        "atvažiuoti",
+        "nebe-"
+      ]
+    },
+    {
+      "id": "a2cp1-nebe10",
+      "type": "multi",
+      "difficulty": "medium",
+      "fromSection": "a2-nebe",
+      "stem": "About *nebe-* and *tebe-*, which are true?",
+      "options": [
+        "*nebe-* marks that a former situation no longer holds",
+        "*tebe-* marks that a situation still holds",
+        "*nebe-* replaces the genitive of negation",
+        "*tebe-* is only a past-tense ending"
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanation": "Phasal outer prefixes (Arkadiev 2010; Ostrowski 2016). Case government is unchanged.",
+      "rulesTested": [
+        "nebe-meaning",
+        "tebe-counterpart"
+      ],
+      "vocabUsed": [
+        "nebe-",
+        "tebe-"
       ]
     }
   ]

@@ -2,13 +2,13 @@
   "id": "a1-15",
   "kind": "lesson",
   "level": "A1",
-  "order": 19,
+  "order": 20,
   "title": "Conjunctions, Particles, and Joining Sentences",
   "summary": "Everything so far has been said in single clauses. These are the small words that join two of them — and, but, or, because, if, that — together with the particles that colour a sentence without altering its grammar.",
   "rules": [
     {
       "id": "coordinating-conjunctions",
-      "number": "99",
+      "number": "104",
       "heading": "The Coordinating Conjunctions",
       "statement": "A **coordinating** conjunction joins two things of like rank — two words, or two clauses that could each stand alone. **Ir** (and) was given at ¶27; beside it stand **bet** (but) and **arba** (or). None of them governs a case: what they join keeps whatever case its own clause requires, and the second clause repeats the case rather than borrowing it.",
       "paradigms": [
@@ -63,11 +63,12 @@
         "conjunction-ir",
         "word-order-basic"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "o-contrast",
-      "number": "100",
+      "number": "105",
       "heading": "O: the Conjunction of Contrast",
       "statement": "**O** has no single English word. It joins two statements that are set **side by side** and differ — *I live in Vilnius, whereas I work in Kaunas* — where **bet** would deny or correct what came before. English uses *and* for the one and *but* for the other, and so gives the learner no help at all; the test is whether the second clause **contradicts** the first (*bet*) or merely **contrasts** with it (*o*).",
       "paradigms": [
@@ -126,7 +127,7 @@
     },
     {
       "id": "arba-ar",
-      "number": "101",
+      "number": "106",
       "heading": "Arba and Ar: the Two Kinds of Or",
       "statement": "**Arba** offers a choice in a statement. **Ar**, which ¶48 gave as the particle opening a yes-or-no question, is also the *or* that offers a choice **within a question**. The rule is simple: in a question use *ar*, in a statement use *arba*.",
       "examples": [
@@ -149,11 +150,12 @@
         "ar-questions",
         "coordinating-conjunctions"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "nes-todel",
-      "number": "102",
+      "number": "107",
       "heading": "Cause and Consequence: Nes and Todėl",
       "statement": "**Nes** gives the reason and answers *kodėl?* (¶50); it always stands at the head of its own clause and never begins the sentence. **Todėl** gives the consequence — *therefore*, *so* — and stands at the head of the clause that follows from the reason. The two are mirror images, and a sentence uses one or the other, not both.",
       "paradigms": [
@@ -195,13 +197,14 @@
         "question-adverbs",
         "coordinating-conjunctions"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "condition-jei",
-      "number": "103",
+      "number": "108",
       "heading": "Condition: Jei and Jeigu",
-      "statement": "**Jei**, or in its longer and commoner form **jeigu**, introduces a condition. The two are the same word and interchangeable. Where the condition concerns the future, Lithuanian puts **both** clauses in the future — it says what it means, where English keeps a present after *if* (¶98).",
+      "statement": "**Jei**, or in its longer and commoner form **jeigu**, introduces a condition. The two are the same word and interchangeable. Where the condition concerns the future, Lithuanian puts **both** clauses in the future — it says what it means, where English keeps a present after *if* (¶103).",
       "examples": [
         {
           "target": "Jeigu turėsi laiko, eisime į teatrą.",
@@ -229,7 +232,7 @@
     },
     {
       "id": "subordination-kad",
-      "number": "104",
+      "number": "109",
       "heading": "Subordination with Kad",
       "statement": "**Kad** — *that* — turns a whole sentence into the object of a verb of saying, thinking or knowing. Two things distinguish it from English. First, *kad* may **never** be omitted, where English drops *that* freely. Second, the clause is **always** set off by a comma, and Lithuanian punctuates by grammar rather than by pause: wherever a subordinate clause begins, a comma stands before it.",
       "paradigms": [
@@ -280,13 +283,14 @@
         "past-narrative",
         "coordinating-conjunctions"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "indirect-questions",
-      "number": "105",
+      "number": "110",
       "heading": "Indirect Questions",
-      "statement": "A question reported inside another sentence keeps its own question word, and the word order does **not** change — because Lithuanian never inverted it to make the question in the first place (¶48). A yes-or-no question is reported with **ar**, which is *whether*; a question with *kas, kur, kada* keeps that word. The comma of ¶104 stands as before.",
+      "statement": "A question reported inside another sentence keeps its own question word, and the word order does **not** change — because Lithuanian never inverted it to make the question in the first place (¶48). A yes-or-no question is reported with **ar**, which is *whether*; a question with *kas, kur, kada* keeps that word. The comma of ¶109 stands as before.",
       "examples": [
         {
           "target": "Nežinau, ar rytoj ateisiu.",
@@ -313,7 +317,7 @@
     },
     {
       "id": "particles",
-      "number": "106",
+      "number": "111",
       "heading": "The Particles",
       "statement": "A **particle** colours a sentence without belonging to its grammar: it takes no case, governs nothing, and could be struck out without leaving the sentence ungrammatical. Four are needed constantly. **Gal** is *perhaps*, and softens a request into politeness. **Dar** is *still* or, with a negative, *not yet*. **Jau** is *already*. **Taip** and **ne** are the words for yes and no.",
       "paradigms": [
@@ -377,7 +381,8 @@
         "negation",
         "polite-jus"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     }
   ],
   "vocabulary": [
@@ -798,12 +803,21 @@
     },
     {
       "id": "a115-q12",
-      "type": "integer",
+      "type": "multi",
       "difficulty": "hard",
-      "stem": "**Nežinau, ar ateisiu, nes manau, kad bus šalta, todėl liksiu namie.** How many commas does the sentence require?",
-      "answer": 4,
-      "unit": "commas",
-      "explanation": "Four: before *ar* (reported question), *nes* (reason), *kad* (reported statement), and *todėl* (consequence). Each subordinate or consequential clause boundary takes a comma.",
+      "stem": "In **Nežinau, ar ateisiu, nes manau, kad bus šalta, todėl liksiu namie.** which are true?",
+      "options": [
+        "*ar* reports a yes/no question (*whether*)",
+        "*nes* gives the reason for not knowing",
+        "*kad* reports the thought after *manau*",
+        "*todėl* opens a condition (*if*)"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "*Ar* = whether; *nes* = because; *kad* = that after *manau*. *Todėl* means *therefore* (consequence), not *if* (*jeigu*).",
       "rulesTested": [
         "indirect-questions",
         "nes-todel",
@@ -830,7 +844,7 @@
       "stem": "In **Gal eisiu namo, bet dar nedirbu, todėl jau lieku**, how many **particles** appear?",
       "answer": 3,
       "unit": "particles",
-      "explanation": "Three: *gal*, *dar*, and *jau*. *bet* and *todėl* are conjunctions, not particles of ¶106.",
+      "explanation": "Three: *gal*, *dar*, and *jau*. *bet* and *todėl* are conjunctions, not particles of ¶111.",
       "rulesTested": [
         "particles",
         "coordinating-conjunctions",

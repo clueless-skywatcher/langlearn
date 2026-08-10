@@ -2,15 +2,15 @@
   "id": "a2-05",
   "kind": "lesson",
   "level": "A2",
-  "order": 6,
+  "order": 7,
   "title": "Subordinate Clauses",
-  "summary": "Beyond the *kad* and *ar* of ¶104–¶105: time with *kai* and *kol*, concession with *nors*, and the Lithuanian habit of keeping the tense that was meant rather than shifting it as English does.",
+  "summary": "Beyond the *kad* and *ar* of ¶109–¶110: time with *kai* and *kol*, concession with *nors*, and the Lithuanian habit of keeping the tense that was meant rather than shifting it as English does.",
   "rules": [
     {
       "id": "kai-clause",
-      "number": "169",
+      "number": "179",
       "heading": "Kai: When",
-      "statement": "**Kai** introduces a **time** clause — *when*, *as*. It was listed among the vocabulary of the future (¶98); it is now needed as a full subordinator. The clause it opens is set off by a comma, as every subordinate clause is (¶104), and the tense inside it is the tense of the event itself: present for present, past for past, future for future.",
+      "statement": "**Kai** introduces a **time** clause — *when*, *as*. It was listed among the vocabulary of the future (¶103); it is now needed as a full subordinator. The clause it opens is set off by a comma, as every subordinate clause is (¶109), and the tense inside it is the tense of the event itself: present for present, past for past, future for future.",
       "examples": [
         {
           "target": "Kai lyja, aš skaitau namie.",
@@ -38,7 +38,7 @@
     },
     {
       "id": "kol-clause",
-      "number": "170",
+      "number": "180",
       "heading": "Kol: While and Until",
       "statement": "**Kol** covers the ground of English *while* and *until*, according to the sense of the verbs. With two actions that overlap it is *while*; with one that stops at the start of another it is *until*. A negative in the *kol*-clause often marks the *until* reading: *laukiau, kol jis atėjo* against *dirbau, kol jis neatėjo* — I waited until he came / I worked until he came (literally *while he had not come*).",
       "paradigms": [
@@ -92,11 +92,12 @@
         "particles",
         "negation"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "nors-clause",
-      "number": "171",
+      "number": "181",
       "heading": "Nors: Although",
       "statement": "**Nors** (and the fuller **nors ir**) introduces a **concession** — *although*, *even though*. The main clause often answers with **vis tiek** (*all the same*) or simply continues; nothing in the grammar of *nors* requires a special mood. English *although* with a past in the subordinate clause does not force a tense shift in Lithuanian either.",
       "examples": [
@@ -125,9 +126,9 @@
     },
     {
       "id": "subordinate-comma",
-      "number": "172",
+      "number": "182",
       "heading": "The Comma before Every Subordinate Clause",
-      "statement": "Lithuanian punctuates by **grammar**, not by pause. Wherever a clause introduced by *kad, ar, kai, kol, nors, jeigu, nes* begins, a **comma** stands before it — even when English would write none. The rule of ¶104 for *kad* is therefore the rule for the whole system: learn the comma with the conjunction.",
+      "statement": "Lithuanian punctuates by **grammar**, not by pause. Wherever a clause introduced by *kad, ar, kai, kol, nors, jeigu, nes* begins, a **comma** stands before it — even when English would write none. The rule of ¶109 for *kad* is therefore the rule for the whole system: learn the comma with the conjunction.",
       "examples": [
         {
           "target": "Žinau, kad tu dirbi.",
@@ -149,11 +150,12 @@
         "nors-clause",
         "condition-jei"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "sequence-of-tenses",
-      "number": "173",
+      "number": "183",
       "heading": "Sequence of Tenses",
       "statement": "Lithuanian does **not** shift tenses in reported or subordinate clauses the way English does. What was said in the future stays in the future; what was present stays present. *Jis sakė, kad ateis* is *he said he would come*, but Lithuanian keeps *ateis*. The same honesty of tense holds after *kai, kol, nors* and *jeigu*: choose the tense that names the time of the event, not a tense forced by the main verb.",
       "paradigms": [
@@ -212,11 +214,12 @@
         "future-uses",
         "past-narrative"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "subordinate-inventory",
-      "number": "174",
+      "number": "184",
       "heading": "The Inventory so Far",
       "statement": "The subordinators now in hand fall into clear jobs. **Kad** reports a statement; **ar** reports a yes-or-no question; **kai** and **kol** fix time; **nors** concedes; **jeigu** conditions; **nes** gives a reason that cannot open the sentence. Coordinators (*ir, bet, o, arba*) join equals and take no comma of subordination. Mixing the jobs — *jeigu* for *ar*, *kai* for *kada* in a question — is the usual error at this level.",
       "paradigms": [
@@ -298,7 +301,8 @@
         "indirect-questions",
         "nes-todel"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     }
   ],
   "vocabulary": [
@@ -469,7 +473,7 @@
         "eiti"
       ],
       "correct": 1,
-      "explanation": "The concession is past (*buvo šalta*), and the main action is past with it: **ėjome**. Tense follows the time of the event (¶173).",
+      "explanation": "The concession is past (*buvo šalta*), and the main action is past with it: **ėjome**. Tense follows the time of the event (¶183).",
       "rulesTested": [
         "nors-clause",
         "sequence-of-tenses"
@@ -762,7 +766,7 @@
             "Because the clause is a concession."
           ],
           "correct": 1,
-          "explanation": "Indirect yes-or-no questions take **ar** (¶105). *Jeigu* would make a condition; *nors* a concession; *nes* a reason.",
+          "explanation": "Indirect yes-or-no questions take **ar** (¶110). *Jeigu* would make a condition; *nors* a concession; *nes* a reason.",
           "rulesTested": [
             "indirect-questions",
             "subordinate-inventory"
@@ -1065,14 +1069,18 @@
     },
     {
       "id": "a205-x12",
-      "type": "integer",
+      "type": "single",
       "difficulty": "medium",
-      "stem": "In *Ateisiu, nors bus vėlu*, how many **commas** must stand before the subordinate clause?",
-      "answer": 1,
-      "unit": "commas",
-      "explanation": "Exactly one comma before *nors*, as before every subordinate clause.",
+      "stem": "**Ateisiu, nors bus vėlu.** What does *nors* do here?",
+      "options": [
+        "It gives a reason (*because*)",
+        "It concedes (*although*)",
+        "It sets a time limit (*until*)",
+        "It reports a yes/no question (*whether*)"
+      ],
+      "correct": 1,
+      "explanation": "*Nors* = *although*: I will come, although it will be late.",
       "rulesTested": [
-        "subordinate-comma",
         "nors-clause"
       ],
       "vocabUsed": [

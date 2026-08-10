@@ -2,13 +2,13 @@
   "id": "a1-13",
   "kind": "lesson",
   "level": "A1",
-  "order": 16,
+  "order": 17,
   "title": "The Past Simple",
   "summary": "The *būtasis kartinis laikas*: one past tense doing the work of the English simple past, perfect and continuous together. It has two sets of endings, and which of them a verb takes is settled by the third form given in the dictionary.",
   "rules": [
     {
       "id": "past-stem",
-      "number": "88",
+      "number": "93",
       "heading": "The Third Principal Part",
       "statement": "Every Lithuanian verb is cited with **three** forms — *dirbti, dirba, dirbo* — and the third of them is the past. It is not derivable from the other two, which is exactly why the dictionary gives it: the past stem must be learnt with the verb, as the present stem was (¶35). Once it is known, the whole tense follows, because the past has only **two** patterns of ending against the present's three.",
       "paradigms": [
@@ -94,11 +94,12 @@
         "conjugations",
         "conjugation-summary"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "past-o-type",
-      "number": "89",
+      "number": "94",
       "heading": "The Past of the -o Type",
       "statement": "Where the third principal part ends in **-o**, the personal endings are those below. Cut the *-o* from the cited form and add them; the third person is the cited form itself, and serves both numbers as it does in the present (¶57).",
       "paradigms": [
@@ -149,11 +150,12 @@
         "past-stem",
         "verb-number"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "past-e-type",
-      "number": "90",
+      "number": "95",
       "heading": "The Past of the -ė Type",
       "statement": "Where the third principal part ends in **-ė**, the endings differ in the first and second person singular: **-iau** and **-ei**. The *-iau* is a back vowel, and it therefore softens a preceding **t** to *č* and **d** to *dž*, exactly as the genitive does (¶28) — *skaitė* gives *skaičiau*, not *skaitiau*.",
       "paradigms": [
@@ -208,13 +210,14 @@
         "past-stem",
         "genitive-endings"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "past-buti",
-      "number": "91",
+      "number": "96",
       "heading": "The Past of Būti",
-      "statement": "**Būti** is regular in the past, whatever it does in the present: its third principal part is *buvo*, and the *-o* endings of ¶89 apply without exception. Note that where the present tense may drop *yra* altogether (¶16), the past may **not** — *buvo* has to be said.",
+      "statement": "**Būti** is regular in the past, whatever it does in the present: its third principal part is *buvo*, and the *-o* endings of ¶94 apply without exception. Note that where the present tense may drop *yra* altogether (¶16), the past may **not** — *buvo* has to be said.",
       "paradigms": [
         {
           "caption": "būti, yra, buvo — past",
@@ -268,11 +271,12 @@
         "predicate-nominative",
         "past-o-type"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "past-negation",
-      "number": "92",
+      "number": "97",
       "heading": "Negation in the Past",
       "statement": "Negation works in the past exactly as in the present: **ne-** is written onto the front of the verb as one word (¶25), and the object of the negated verb goes into the **genitive** (¶26). Nothing about the past tense alters either rule — which is worth stating plainly, because learners commonly keep the accusative once the sentence moves out of the present.",
       "examples": [
@@ -295,11 +299,12 @@
         "negation-genitive",
         "past-o-type"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "past-narrative",
-      "number": "93",
+      "number": "98",
       "heading": "Telling What Happened",
       "statement": "The one past tense covers what English divides among three: *dirbau* is *I worked*, *I was working* and *I have worked* alike, and the context or an adverb supplies the difference. The adverbs that most often supply it are **vakar** (yesterday), **pernai** (last year) and **prieš** with the accusative (¶87). This is also the tense of a biography — where one was born, where one studied, where one worked.",
       "paradigms": [
@@ -353,18 +358,14 @@
         "time-prepositions",
         "frequency-adverbs"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     }
   ],
   "vocabulary": [
     {
       "lemma": "vakar",
       "gloss": "yesterday",
-      "pos": "adverb"
-    },
-    {
-      "lemma": "pernai",
-      "gloss": "last year",
       "pos": "adverb"
     },
     {
@@ -376,17 +377,6 @@
       "lemma": "jau",
       "gloss": "already",
       "pos": "particle"
-    },
-    {
-      "lemma": "gimti",
-      "gloss": "to be born",
-      "pos": "verb",
-      "forms": {
-        "inf": "gimti",
-        "pres3": "gimsta",
-        "past3": "gimė",
-        "conj": "I"
-      }
     },
     {
       "lemma": "pirkti",
@@ -467,7 +457,7 @@
         "būti"
       ],
       "correct": 1,
-      "explanation": "*būti* past is regular *-o*: *buvau*. Unlike present *yra*, past *buvo/buvau* must be said (¶91).",
+      "explanation": "*būti* past is regular *-o*: *buvau*. Unlike present *yra*, past *buvo/buvau* must be said (¶96).",
       "rulesTested": [
         "past-buti"
       ],
@@ -535,7 +525,7 @@
         "knygai"
       ],
       "correct": 2,
-      "explanation": "Negated verb → object in **genitive**, past unchanged: *knygos*. Keeping accusative *knygą* after *ne-* is the classic slip (¶92).",
+      "explanation": "Negated verb → object in **genitive**, past unchanged: *knygos*. Keeping accusative *knygą* after *ne-* is the classic slip (¶97).",
       "rulesTested": [
         "past-negation",
         "negation-genitive"
@@ -558,7 +548,7 @@
         "Because *-au* belongs to two conjugations."
       ],
       "correct": 1,
-      "explanation": "*I worked / was working / have worked* are all *dirbau*; adverbs supply the nuance (¶93).",
+      "explanation": "*I worked / was working / have worked* are all *dirbau*; adverbs supply the nuance (¶98).",
       "rulesTested": [
         "past-narrative",
         "past-o-type"
@@ -583,7 +573,7 @@
         1,
         3
       ],
-      "explanation": "Present type ≠ past type: *valgyti* is 3rd-conj present + *-ė* past; *kalbėti* 2nd-conj present + *-o* past — hence three dictionary forms (¶88).",
+      "explanation": "Present type ≠ past type: *valgyti* is 3rd-conj present + *-ė* past; *kalbėti* 2nd-conj present + *-o* past — hence three dictionary forms (¶93).",
       "rulesTested": [
         "past-stem",
         "past-o-type",
@@ -628,7 +618,7 @@
         "Because the past tense governs the nominative."
       ],
       "correct": 1,
-      "explanation": "*būti* links, not governs — predicate nominative (¶16 / ¶91). Tense changes nothing.",
+      "explanation": "*būti* links, not governs — predicate nominative (¶16 / ¶96). Tense changes nothing.",
       "rulesTested": [
         "past-buti",
         "predicate-nominative"
@@ -654,7 +644,7 @@
         0,
         1
       ],
-      "explanation": "*t→č* and *d→dž* before *-iau*. *valgiau* keeps *g*; *dirbau* is *-o* type with no softening (¶90).",
+      "explanation": "*t→č* and *d→dž* before *-iau*. *valgiau* keeps *g*; *dirbau* is *-o* type with no softening (¶95).",
       "rulesTested": [
         "past-e-type",
         "past-o-type"
@@ -673,7 +663,7 @@
       "stem": "How many **distinct written forms** does a Lithuanian verb have in the past across all six persons?",
       "answer": 5,
       "unit": "forms",
-      "explanation": "Five: 3rd person is one form for both numbers — *dirbau, dirbai, dirbo, dirbome, dirbote* (¶89 / ¶57).",
+      "explanation": "Five: 3rd person is one form for both numbers — *dirbau, dirbai, dirbo, dirbome, dirbote* (¶94 / ¶57).",
       "rulesTested": [
         "past-o-type",
         "verb-number"
@@ -689,7 +679,7 @@
       "stem": "**Vakar skaičiau gerą knygą.** Negated: how many of the four words change form?",
       "answer": 3,
       "unit": "words",
-      "explanation": "Three: *skaičiau*→*neskaičiau*, *gerą*→*geros*, *knygą*→*knygos*. *Vakar* is untouched. Negation pulls both adjective and noun into the genitive (¶92).",
+      "explanation": "Three: *skaičiau*→*neskaičiau*, *gerą*→*geros*, *knygą*→*knygos*. *Vakar* is untouched. Negation pulls both adjective and noun into the genitive (¶97).",
       "rulesTested": [
         "past-negation",
         "negation-genitive",
@@ -714,7 +704,7 @@
         "gyvensime"
       ],
       "correct": 1,
-      "explanation": "*-o* past → 1pl **-ome**: *gyvenome* (¶89).",
+      "explanation": "*-o* past → 1pl **-ome**: *gyvenome* (¶94).",
       "rulesTested": [
         "past-o-type",
         "past-stem"
@@ -735,7 +725,7 @@
         "matysiu"
       ],
       "correct": 1,
-      "explanation": "*-ė* past → 1sg **-iau** with *t*→*č*: *mačiau* (¶90).",
+      "explanation": "*-ė* past → 1sg **-iau** with *t*→*č*: *mačiau* (¶95).",
       "rulesTested": [
         "past-e-type",
         "past-stem"
@@ -756,7 +746,7 @@
         "būsiu"
       ],
       "correct": 1,
-      "explanation": "*buvo* + *-o* endings → *buvau* (¶91).",
+      "explanation": "*buvo* + *-o* endings → *buvau* (¶96).",
       "rulesTested": [
         "past-buti"
       ],
@@ -776,7 +766,7 @@
         "buvo"
       ],
       "correct": 1,
-      "explanation": "Past of *būti*: *buvau* (¶91). *buvo* is 3rd person.",
+      "explanation": "Past of *būti*: *buvau* (¶96). *buvo* is 3rd person.",
       "rulesTested": [
         "past-buti",
         "past-narrative"
@@ -799,7 +789,7 @@
         "neskaitys knygos"
       ],
       "correct": 0,
-      "explanation": "Past negation: *ne-* on the verb and object in the genitive — *neskaitė knygos* (¶92). Keeping *knygą* accusative is the near-miss; *neskaito* is present.",
+      "explanation": "Past negation: *ne-* on the verb and object in the genitive — *neskaitė knygos* (¶97). Keeping *knygą* accusative is the near-miss; *neskaito* is present.",
       "rulesTested": [
         "past-negation"
       ],
@@ -821,7 +811,7 @@
         "gyvena"
       ],
       "correct": 1,
-      "explanation": "*pernai* marks past narrative: *gyvenome* (¶89, ¶93).",
+      "explanation": "*pernai* marks past narrative: *gyvenome* (¶94, ¶98).",
       "rulesTested": [
         "past-o-type",
         "past-narrative"
@@ -848,7 +838,7 @@
         1,
         2
       ],
-      "explanation": "*dirba* is present; the others are past (¶88–90).",
+      "explanation": "*dirba* is present; the others are past (¶93–90).",
       "rulesTested": [
         "past-stem",
         "past-o-type",
@@ -876,7 +866,7 @@
         1,
         2
       ],
-      "explanation": "*ne-* is written onto the verb as one word (¶92). *ne dirbau* is the near-miss.",
+      "explanation": "*ne-* is written onto the verb as one word (¶97). *ne dirbau* is the near-miss.",
       "rulesTested": [
         "past-negation"
       ],
@@ -903,7 +893,7 @@
         "Because *vakar* is a noun object"
       ],
       "correct": 1,
-      "explanation": "Dictionary third part *matė* selects *-ė* endings; 1sg softens to *mačiau* (¶88, ¶90).",
+      "explanation": "Dictionary third part *matė* selects *-ė* endings; 1sg softens to *mačiau* (¶93, ¶95).",
       "rulesTested": [
         "past-stem",
         "past-e-type"
@@ -926,7 +916,7 @@
         "atvažiuoti"
       ],
       "correct": 1,
-      "explanation": "Narrative past with *prieš metus*: *atvažiavau* (¶93).",
+      "explanation": "Narrative past with *prieš metus*: *atvažiavau* (¶98).",
       "rulesTested": [
         "past-narrative",
         "past-o-type"
@@ -955,7 +945,7 @@
         1,
         3
       ],
-      "explanation": "Third person is number-indifferent in the past too (¶89 / ¶57). First person changes.",
+      "explanation": "Third person is number-indifferent in the past too (¶94 / ¶57). First person changes.",
       "rulesTested": [
         "past-o-type",
         "past-e-type",
@@ -986,7 +976,7 @@
         "būti"
       ],
       "correct": 1,
-      "explanation": "Past of *būti* in 3rd person: *buvo* (¶91).",
+      "explanation": "Past of *būti* in 3rd person: *buvo* (¶96).",
       "rulesTested": [
         "past-buti"
       ],
@@ -1019,7 +1009,7 @@
       "stem": "How many letters in past 1sg **mačiau**?",
       "answer": 6,
       "unit": "letters",
-      "explanation": "Six: m-a-č-i-a-u — the *-ė* type 1sg with *t*→*č* (¶90).",
+      "explanation": "Six: m-a-č-i-a-u — the *-ė* type 1sg with *t*→*č* (¶95).",
       "rulesTested": [
         "past-e-type"
       ],
@@ -1034,7 +1024,7 @@
       "stem": "**Ji skaitė knygą** → negate in the past. How many words change form (verb + object)?",
       "answer": 2,
       "unit": "words",
-      "explanation": "Two: *skaitė*→*neskaitė*, *knygą*→*knygos*. *Ji* unchanged (¶92).",
+      "explanation": "Two: *skaitė*→*neskaitė*, *knygą*→*knygos*. *Ji* unchanged (¶97).",
       "rulesTested": [
         "past-negation"
       ],
@@ -1141,7 +1131,7 @@
             "Because the letter is plural."
           ],
           "correct": 1,
-          "explanation": "Negation-genitive holds in every tense (¶92). Affirmative would be *skaitė mano laišką*.",
+          "explanation": "Negation-genitive holds in every tense (¶97). Affirmative would be *skaitė mano laišką*.",
           "rulesTested": [
             "past-negation",
             "negation-genitive"

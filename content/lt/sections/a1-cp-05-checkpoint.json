@@ -2,13 +2,14 @@
   "id": "a1-cp-05",
   "kind": "checkpoint",
   "level": "A1",
-  "order": 22,
-  "title": "Checkpoint: Joining, Asking, and Comparing",
-  "summary": "A cumulative examination of sections fifteen to seventeen: the conjunctions and particles that build a sentence out of clauses, the imperative and the conditional, and the three degrees of the adjective and the adverb.",
+  "order": 24,
+  "title": "Checkpoint: Joining, Commanding, Wishing, and Comparing",
+  "summary": "A cumulative examination of conjunctions, the imperative, the conditional, and adverbs of degree.",
   "covers": [
     "a1-15",
     "a1-16",
-    "a1-17"
+    "a1-17",
+    "a1-18"
   ],
   "passThreshold": 60,
   "drills": [
@@ -242,13 +243,22 @@
     },
     {
       "id": "cp5-q9",
-      "type": "integer",
+      "type": "multi",
       "difficulty": "hard",
       "fromSection": "a1-15",
-      "stem": "**Nežinau, ar ateisiu, nes manau, kad bus šalta, todėl liksiu namie.** How many commas?",
-      "answer": 4,
-      "unit": "commas",
-      "explanation": "Four clause boundaries: *ar*, *nes*, *kad*, *todėl*.",
+      "stem": "In **Nežinau, ar ateisiu, nes manau, kad bus šalta, todėl liksiu namie.** which are true?",
+      "options": [
+        "*ar* reports a yes/no question (*whether*)",
+        "*nes* gives the reason for not knowing",
+        "*kad* reports the thought after *manau*",
+        "*todėl* opens a condition (*if*)"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "*Ar* = whether; *nes* = because; *kad* = that after *manau*. *Todėl* means *therefore*, not *if*.",
       "rulesTested": [
         "indirect-questions",
         "nes-todel",
@@ -364,7 +374,7 @@
       "id": "cp5-q14",
       "type": "single",
       "difficulty": "medium",
-      "fromSection": "a1-16",
+      "fromSection": "a1-17",
       "stem": "**galėti**, conditional 1 sg.:",
       "options": [
         "galiu",
@@ -385,7 +395,7 @@
       "id": "cp5-q15",
       "type": "single",
       "difficulty": "hard",
-      "fromSection": "a1-16",
+      "fromSection": "a1-17",
       "stem": "In a café, ordinary way to order:",
       "options": [
         "Duok kavos.",
@@ -411,7 +421,7 @@
       "id": "cp5-q16",
       "type": "multi",
       "difficulty": "hard",
-      "fromSection": "a1-16",
+      "fromSection": "a1-17",
       "stem": "Which statements about the moods are correct?",
       "options": [
         "The imperative has three forms and no 1 sg.",
@@ -482,7 +492,7 @@
       "id": "cp5-q19",
       "type": "single",
       "difficulty": "easy",
-      "fromSection": "a1-17",
+      "fromSection": "a1-18",
       "stem": "Adverb from **įdomus**:",
       "options": [
         "įdomai",
@@ -503,7 +513,7 @@
       "id": "cp5-q20",
       "type": "single",
       "difficulty": "easy",
-      "fromSection": "a1-17",
+      "fromSection": "a1-18",
       "stem": "Complete: **Ar tu kalbi ____?** (English)",
       "options": [
         "anglų",
@@ -527,7 +537,7 @@
       "id": "cp5-q21",
       "type": "single",
       "difficulty": "medium",
-      "fromSection": "a1-17",
+      "fromSection": "a1-18",
       "stem": "**Ji turi geresnę knygą.** What does *-ę* on *geresnę* show?",
       "options": [
         "That comparatives are indeclinable.",
@@ -552,7 +562,7 @@
       "id": "cp5-q22",
       "type": "multi",
       "difficulty": "medium",
-      "fromSection": "a1-17",
+      "fromSection": "a1-18",
       "stem": "Which superlatives are correctly formed?",
       "options": [
         "geriausias",
@@ -579,7 +589,7 @@
       "id": "cp5-q23",
       "type": "single",
       "difficulty": "medium",
-      "fromSection": "a1-17",
+      "fromSection": "a1-18",
       "stem": "Complete: **Dabar jaučiuosi ____.** (I feel better.)",
       "options": [
         "geras",
@@ -601,7 +611,7 @@
       "id": "cp5-q24",
       "type": "single",
       "difficulty": "hard",
-      "fromSection": "a1-17",
+      "fromSection": "a1-18",
       "stem": "Correct for *He is bigger than I*:",
       "options": [
         "Jis didesnis negu manęs.",
@@ -629,7 +639,7 @@
       "id": "cp5-q25",
       "type": "integer",
       "difficulty": "hard",
-      "fromSection": "a1-17",
+      "fromSection": "a1-18",
       "stem": "In **Turiu truputį laiko, mažai pinigų ir daug darbo**, how many genitive nouns follow quantity adverbs?",
       "answer": 3,
       "unit": "nouns",
@@ -647,276 +657,6 @@
         "ir",
         "daug",
         "darbas"
-      ]
-    },
-    {
-      "id": "cp5-p1",
-      "type": "comprehension",
-      "difficulty": "medium",
-      "fromSection": "a1-15",
-      "title": "Kursai",
-      "passage": "Skelbimas: „Ateikite ir išmokite kalbėti lietuviškai! Mūsų kursai pigesni negu kitur, o mokytojai geriausi mieste. Skambinkite šiandien!“\n– Nežinau, ar turėsiu laiko, — sako Tomas. — Dirbu iki penktos.\n– Gal galėtumėte ateiti vakarais? Vakariniai kursai prasideda šeštą.\n– Tada gerai. Bet kalbėkite lėčiau, prašom: dar nesuprantu greitai.\n– Nesijaudinkite. Jeigu ateisite kiekvieną savaitę, po mėnesio suprasite daug geriau.",
-      "translation": "Advertisement: \"Come and learn to speak Lithuanian! Our courses are cheaper than elsewhere, and our teachers are the best in town. Ring today!\" — \"I don't know whether I shall have time,\" says Tomas. \"I work until five.\" — \"Could you come in the evenings? Evening courses begin at six.\" — \"Then fine. But speak more slowly, please: I still don't understand quickly.\" — \"Don't worry. If you come every week, in a month you will understand much better.\"",
-      "glossary": {
-        "skelbimas": "advertisement",
-        "kursai": "courses",
-        "kitur": "elsewhere",
-        "vakariniai": "evening (adj.)",
-        "prasideda": "begin",
-        "nesijaudinkite": "don't worry",
-        "kiekvieną": "every",
-        "mėnuo": "month"
-      },
-      "questions": [
-        {
-          "id": "cp5-p1-q1",
-          "type": "single",
-          "difficulty": "easy",
-          "fromSection": "a1-15",
-          "stem": "Kodėl Tomas nežino, ar ateis?",
-          "options": [
-            "Nes kursai brangūs.",
-            "Nes jis dirba iki penktos.",
-            "Nes jis nekalba lietuviškai.",
-            "Nes kursai prasideda šeštą."
-          ],
-          "correct": 1,
-          "explanation": "*Nežinau, ar turėsiu laiko … Dirbu iki penktos.* Reported yes/no uses **ar**.",
-          "rulesTested": [
-            "indirect-questions",
-            "nes-todel"
-          ],
-          "vocabUsed": [
-            "nes",
-            "dirbti",
-            "iki",
-            "penktas",
-            "kalbėti",
-            "lietuviškai",
-            "brangus"
-          ]
-        },
-        {
-          "id": "cp5-p1-q2",
-          "type": "multi",
-          "difficulty": "medium",
-          "fromSection": "a1-16",
-          "stem": "Which forms are **imperatives**?",
-          "options": [
-            "Ateikite",
-            "Skambinkite",
-            "kalbėkite",
-            "galėtumėte"
-          ],
-          "correct": [
-            0,
-            1,
-            2
-          ],
-          "explanation": "First three are plural imperatives. *galėtumėte* is conditional.",
-          "rulesTested": [
-            "imperative-formation",
-            "imperative-notices",
-            "conditional-formation"
-          ],
-          "vocabUsed": [
-            "ateiti",
-            "skambinti",
-            "kalbėti",
-            "galėti"
-          ]
-        },
-        {
-          "id": "cp5-p1-q3",
-          "type": "single",
-          "difficulty": "hard",
-          "fromSection": "a1-16",
-          "stem": "*Gal galėtumėte ateiti* — why this shape rather than *Ateikite*?",
-          "options": [
-            "Because *ateiti* has no imperative.",
-            "Because conditional + *gal* is markedly more courteous than a bare plural imperative.",
-            "Because the courses are in the evening.",
-            "Because *gal* turns the verb into a future."
-          ],
-          "correct": 1,
-          "explanation": "¶112–113: imperative tells; conditional asks. With *gal*, this is the politest ordinary request.",
-          "rulesTested": [
-            "conditional-politeness",
-            "mood-choice",
-            "particles"
-          ],
-          "vocabUsed": [
-            "gal",
-            "galėti",
-            "ateiti"
-          ]
-        },
-        {
-          "id": "cp5-p1-q4",
-          "type": "integer",
-          "difficulty": "hard",
-          "fromSection": "a1-17",
-          "stem": "How many **comparative** forms (adjective or adverb) appear in the passage?",
-          "answer": 3,
-          "unit": "forms",
-          "explanation": "*pigesni*, *lėčiau*, *geriau*. *geriausi* is superlative; *greitai* is positive degree.",
-          "rulesTested": [
-            "adjective-comparative",
-            "adverb-degree",
-            "adjective-superlative"
-          ],
-          "vocabUsed": [
-            "pigus",
-            "lėtai",
-            "gerai",
-            "greitai"
-          ]
-        },
-        {
-          "id": "cp5-p1-q5",
-          "type": "multi",
-          "difficulty": "hard",
-          "fromSection": "a1-17",
-          "stem": "Which claims about *pigesni negu kitur* / *geriausi* are true?",
-          "options": [
-            "*pigesni* is a comparative adjective agreeing with *kursai*.",
-            "*negu* introduces the standard of comparison.",
-            "*geriausi* is a superlative, not a comparative.",
-            "*lietuviškai* is a declined noun object of *kalbėti*."
-          ],
-          "correct": [
-            0,
-            1,
-            2
-          ],
-          "explanation": "*lietuviškai* is an *-iškai* adverb (¶115), not a noun.",
-          "rulesTested": [
-            "comparison-negu",
-            "adjective-comparative",
-            "adjective-superlative",
-            "adverbs-iskai"
-          ],
-          "vocabUsed": [
-            "pigus",
-            "negu",
-            "geras",
-            "lietuviškai",
-            "kalbėti"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "cp5-p2",
-      "type": "comprehension",
-      "difficulty": "hard",
-      "fromSection": "a1-17",
-      "title": "Du butai",
-      "passage": "Pirmas butas didesnis už antrą, bet antras arčiau. „Jeigu turėsiu mažai pinigų, nepirksiu brangesnio“, — sako Rūta. Draugė atsako: „Eik greičiau! O aš manau, kad pigesnis geriau. Kalbėk lietuviškai su agentu.“",
-      "translation": "The first flat is bigger than the second, but the second is nearer. \"If I have little money, I shall not buy the more expensive one,\" says Rūta. Her friend answers: \"Go quicker! And I think the cheaper is better. Speak Lithuanian with the agent.\"",
-      "glossary": {
-        "butas": "flat",
-        "agentas": "agent",
-        "nepirksiu": "I shall not buy"
-      },
-      "questions": [
-        {
-          "id": "cp5-p2-q1",
-          "type": "single",
-          "difficulty": "medium",
-          "fromSection": "a1-17",
-          "stem": "*didesnis už antrą* — case of *antrą*?",
-          "options": [
-            "nominative",
-            "genitive",
-            "accusative after *už* = *than*",
-            "locative"
-          ],
-          "correct": 2,
-          "explanation": "*už* + accusative for *than*. *negu antras* would keep nominative.",
-          "rulesTested": [
-            "comparison-negu",
-            "adjective-comparative"
-          ],
-          "vocabUsed": [
-            "didelis",
-            "už",
-            "antras",
-            "negu"
-          ]
-        },
-        {
-          "id": "cp5-p2-q2",
-          "type": "multi",
-          "difficulty": "hard",
-          "fromSection": "a1-15",
-          "stem": "Which clause-joiners appear, and with which jobs?",
-          "options": [
-            "*bet* — contradiction of expectation (bigger vs nearer)",
-            "*o* — shifting to the friend's view",
-            "*jeigu* — future-leaning condition",
-            "*arba* — exclusive choice between flats"
-          ],
-          "correct": [
-            0,
-            1,
-            2
-          ],
-          "explanation": "No *arba* in the passage. *o* changes conversational subject; *bet* contrasts; *jeigu* conditions.",
-          "rulesTested": [
-            "o-contrast",
-            "coordinating-conjunctions",
-            "condition-jei"
-          ],
-          "vocabUsed": [
-            "bet",
-            "o",
-            "jeigu",
-            "arba"
-          ]
-        },
-        {
-          "id": "cp5-p2-q3",
-          "type": "single",
-          "difficulty": "easy",
-          "fromSection": "a1-16",
-          "stem": "*Eik greičiau!* and *Kalbėk lietuviškai* are:",
-          "options": [
-            "conditionals",
-            "2 sg. imperatives",
-            "futures",
-            "impersonal forms"
-          ],
-          "correct": 1,
-          "explanation": "Familiar singular imperatives in *-k*.",
-          "rulesTested": [
-            "imperative-formation"
-          ],
-          "vocabUsed": [
-            "eiti",
-            "kalbėti",
-            "greitai",
-            "lietuviškai"
-          ]
-        },
-        {
-          "id": "cp5-p2-q4",
-          "type": "integer",
-          "difficulty": "hard",
-          "fromSection": "a1-17",
-          "stem": "How many distinct **-iau** adverb comparatives appear?",
-          "answer": 3,
-          "unit": "adverbs",
-          "explanation": "Three: *arčiau*, *greičiau*, and *geriau*. All are unchanging adverb comparatives in *-iau*.",
-          "rulesTested": [
-            "adverb-degree"
-          ],
-          "vocabUsed": [
-            "arti",
-            "greitai",
-            "gerai"
-          ]
-        }
       ]
     },
     {
@@ -1102,7 +842,7 @@
       "id": "cp5-x8",
       "type": "multi",
       "difficulty": "medium",
-      "fromSection": "a1-16",
+      "fromSection": "a1-17",
       "stem": "Which are **conditional** forms?",
       "options": [
         "norėčiau",
@@ -1155,7 +895,7 @@
       "id": "cp5-x10",
       "type": "single",
       "difficulty": "hard",
-      "fromSection": "a1-16",
+      "fromSection": "a1-17",
       "stem": "Best polite order to a stranger:",
       "options": [
         "Duok kavos!",
@@ -1182,7 +922,7 @@
       "id": "cp5-x11",
       "type": "single",
       "difficulty": "easy",
-      "fromSection": "a1-17",
+      "fromSection": "a1-18",
       "stem": "Adverb from **lėtas**:",
       "options": [
         "lėtai",
@@ -1204,7 +944,7 @@
       "id": "cp5-x12",
       "type": "multi",
       "difficulty": "medium",
-      "fromSection": "a1-17",
+      "fromSection": "a1-18",
       "stem": "Which are correctly formed?",
       "options": [
         "pigesnis",
@@ -1234,7 +974,7 @@
       "id": "cp5-x13",
       "type": "single",
       "difficulty": "medium",
-      "fromSection": "a1-17",
+      "fromSection": "a1-18",
       "stem": "Complete: **Kalbėkite ____.** (more slowly)",
       "options": [
         "lėtas",
@@ -1257,7 +997,7 @@
       "id": "cp5-x14",
       "type": "integer",
       "difficulty": "hard",
-      "fromSection": "a1-17",
+      "fromSection": "a1-18",
       "stem": "Genitive complements in **Turiu mažai laiko ir truputį pinigų**?",
       "answer": 2,
       "unit": "genitives",
@@ -1272,6 +1012,631 @@
         "laikas",
         "truputį",
         "pinigai"
+      ]
+    },
+    {
+      "id": "cp5-b1",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a1-15",
+      "stem": "Complete: **Noriu eiti, ______ esu pavargęs.**",
+      "options": [
+        "bet",
+        "o",
+        "ir",
+        "arba"
+      ],
+      "correct": 0,
+      "explanation": "*Bet* contrasts: I want to go, but I am tired.",
+      "rulesTested": [
+        "coordinating-conjunctions"
+      ],
+      "vocabUsed": [
+        "norėti",
+        "eiti",
+        "būti"
+      ]
+    },
+    {
+      "id": "cp5-b2",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "a1-15",
+      "stem": "Complete: **Nežinau, ______ jis ateis.**",
+      "options": [
+        "ar",
+        "kad",
+        "jeigu",
+        "nes"
+      ],
+      "correct": 0,
+      "explanation": "Indirect yes/no questions take *ar*. *Kad* reports a statement; *jeigu* conditions; *nes* gives a reason.",
+      "rulesTested": [
+        "indirect-questions",
+        "subordination-kad"
+      ],
+      "vocabUsed": [
+        "žinoti",
+        "ateiti"
+      ]
+    },
+    {
+      "id": "cp5-b3",
+      "type": "multi",
+      "difficulty": "hard",
+      "fromSection": "a1-15",
+      "stem": "Complete: **______ turėsiu laiko, ateisiu.** Which fit a real condition?",
+      "options": [
+        "Jeigu",
+        "Jei",
+        "Kai",
+        "Nors"
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanation": "*Jeigu* / *jei* open real conditions. *Kai* is 'when'; *nors* is 'although'.",
+      "rulesTested": [
+        "condition-jei"
+      ],
+      "vocabUsed": [
+        "turėti",
+        "laikas",
+        "ateiti"
+      ]
+    },
+    {
+      "id": "cp5-b4",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "a1-16",
+      "stem": "Complete: **______ namo!**",
+      "options": [
+        "Eik",
+        "Eisi",
+        "Eitum",
+        "Eina"
+      ],
+      "correct": 0,
+      "explanation": "Command: imperative *eik*. The others are future, conditional, and present.",
+      "rulesTested": [
+        "imperative-formation"
+      ],
+      "vocabUsed": [
+        "eiti"
+      ]
+    },
+    {
+      "id": "cp5-b5",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "a1-16",
+      "stem": "Complete: **Neimk ______!**",
+      "options": [
+        "mano knygos",
+        "mano knygą",
+        "mano knyga",
+        "mano knygoje"
+      ],
+      "correct": 0,
+      "explanation": "Negated imperative → genitive of the object: *knygos*, not accusative *knygą*.",
+      "rulesTested": [
+        "imperative-negative",
+        "negation-genitive"
+      ],
+      "vocabUsed": [
+        "imti",
+        "mano",
+        "knyga"
+      ]
+    },
+    {
+      "id": "cp5-b6",
+      "type": "multi",
+      "difficulty": "medium",
+      "fromSection": "a1-16",
+      "stem": "Complete the notice: **______ ir išmokite!** Which fit?",
+      "options": [
+        "Ateikite",
+        "Ateik",
+        "Ateikime",
+        "Ateitų"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Public writing wants plural/polite *ateikite*.",
+      "rulesTested": [
+        "imperative-notices",
+        "imperative-formation"
+      ],
+      "vocabUsed": [
+        "ateiti",
+        "išmokti"
+      ]
+    },
+    {
+      "id": "cp5-b7",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a1-16",
+      "stem": "Complete: **Tegu ______.**",
+      "options": [
+        "jie ateina",
+        "jie ateikite",
+        "jie ateitų",
+        "jie ateik"
+      ],
+      "correct": 0,
+      "explanation": "*Tegu* + present: *jie ateina*.",
+      "rulesTested": [
+        "imperative-third-person"
+      ],
+      "vocabUsed": [
+        "tegu",
+        "ateiti"
+      ]
+    },
+    {
+      "id": "cp5-b8",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a1-17",
+      "stem": "Complete: **Jeigu aš turėčiau ilgus plaukus, ______.**",
+      "options": [
+        "būčiau laiminga",
+        "būsiu laiminga",
+        "esu laiminga",
+        "būk laiminga"
+      ],
+      "correct": 0,
+      "explanation": "Unreal condition: conditional *būčiau* in the result clause too.",
+      "rulesTested": [
+        "conditional-jeigu",
+        "conditional-formation"
+      ],
+      "vocabUsed": [
+        "turėti",
+        "plaukai",
+        "ilgas",
+        "laimingas",
+        "būti"
+      ]
+    },
+    {
+      "id": "cp5-b9",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "a1-17",
+      "stem": "Complete: **Jeigu turėčiau pinigų, ______.**",
+      "options": [
+        "pirkčiau namą",
+        "pirkčiau namo",
+        "perku namą",
+        "pirk namą"
+      ],
+      "correct": 0,
+      "explanation": "Conditional + accusative *namą*. Genitive *namo* and indicative/imperative are the traps.",
+      "rulesTested": [
+        "conditional-jeigu",
+        "accusative-nouns"
+      ],
+      "vocabUsed": [
+        "turėti",
+        "pinigai",
+        "pirkti",
+        "namas"
+      ]
+    },
+    {
+      "id": "cp5-b10",
+      "type": "multi",
+      "difficulty": "hard",
+      "fromSection": "a1-17",
+      "stem": "Complete: **Gal ______ padėti?** Which are polite requests?",
+      "options": [
+        "galėtumėte",
+        "galite",
+        "galėk",
+        "padėtumėte"
+      ],
+      "correct": [
+        0,
+        3
+      ],
+      "explanation": "Polite conditional *galėtumėte* / *padėtumėte*. *Galite* is blunter present; *galėk* is not a form.",
+      "rulesTested": [
+        "conditional-politeness",
+        "conditional-formation"
+      ],
+      "vocabUsed": [
+        "galėti",
+        "padėti"
+      ]
+    },
+    {
+      "id": "cp5-b11",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "a1-17",
+      "stem": "Complete: **Norėčiau ______.**",
+      "options": [
+        "kavos",
+        "kava",
+        "kavą",
+        "kavoje"
+      ],
+      "correct": 0,
+      "explanation": "*Norėti* + genitive: *kavos*.",
+      "rulesTested": [
+        "conditional-politeness",
+        "wanting-liking"
+      ],
+      "vocabUsed": [
+        "norėti",
+        "kava"
+      ]
+    },
+    {
+      "id": "cp5-b12",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "a1-17",
+      "stem": "Complete: **Jeigu būčiau ten, ______.**",
+      "options": [
+        "padėčiau jam",
+        "padėčiau jį",
+        "padėsiu jam",
+        "padėk jam"
+      ],
+      "correct": 0,
+      "explanation": "Conditional *padėčiau* with dative *jam*. Accusative *jį* is the wrong case; future and imperative break the unreal pattern.",
+      "rulesTested": [
+        "conditional-jeigu",
+        "dative-pronouns"
+      ],
+      "vocabUsed": [
+        "būti",
+        "padėti"
+      ]
+    },
+    {
+      "id": "cp5-b13",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a1-18",
+      "stem": "Complete: **Jis kalba ______.**",
+      "options": [
+        "greitai",
+        "greitas",
+        "greitą",
+        "greito"
+      ],
+      "correct": 0,
+      "explanation": "Manner adverb in *-ai*: *greitai*. The others are adjective forms.",
+      "rulesTested": [
+        "adverb-formation"
+      ],
+      "vocabUsed": [
+        "kalbėti"
+      ]
+    },
+    {
+      "id": "cp5-b14",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "a1-18",
+      "stem": "Complete: **Šis namas ______ už antrą.**",
+      "options": [
+        "didesnis",
+        "didesnį",
+        "didžiausias",
+        "didelis"
+      ],
+      "correct": 0,
+      "explanation": "Comparative predicate: *didesnis*. Accusative and superlative are near-misses.",
+      "rulesTested": [
+        "adjective-comparative"
+      ],
+      "vocabUsed": [
+        "namas",
+        "didelis"
+      ]
+    },
+    {
+      "id": "cp5-b15",
+      "type": "multi",
+      "difficulty": "hard",
+      "fromSection": "a1-18",
+      "stem": "Complete: **Ji kalba ______.** Which are well-formed manner forms?",
+      "options": [
+        "gražiai",
+        "graži",
+        "gražią",
+        "gražios"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Only *gražiai* is the manner adverb. The others are adjective forms in various cases/genders.",
+      "rulesTested": [
+        "adverb-formation",
+        "adverb-degree"
+      ],
+      "vocabUsed": [
+        "kalbėti",
+        "gražus"
+      ]
+    },
+    {
+      "id": "cp5-p1",
+      "type": "comprehension",
+      "difficulty": "medium",
+      "fromSection": "a1-15",
+      "title": "Kursai",
+      "passage": "Skelbimas: „Ateikite ir išmokite kalbėti lietuviškai! Mūsų kursai pigesni negu kitur, o mokytojai geriausi mieste. Skambinkite šiandien!“\n– Nežinau, ar turėsiu laiko, — sako Tomas. — Dirbu iki penktos.\n– Gal galėtumėte ateiti vakarais? Vakariniai kursai prasideda šeštą.\n– Tada gerai. Bet kalbėkite lėčiau, prašom: dar nesuprantu greitai.\n– Nesijaudinkite. Jeigu ateisite kiekvieną savaitę, po mėnesio suprasite daug geriau.",
+      "translation": "Advertisement: \"Come and learn to speak Lithuanian! Our courses are cheaper than elsewhere, and our teachers are the best in town. Ring today!\" — \"I don't know whether I shall have time,\" says Tomas. \"I work until five.\" — \"Could you come in the evenings? Evening courses begin at six.\" — \"Then fine. But speak more slowly, please: I still don't understand quickly.\" — \"Don't worry. If you come every week, in a month you will understand much better.\"",
+      "glossary": {
+        "skelbimas": "advertisement",
+        "kursai": "courses",
+        "kitur": "elsewhere",
+        "vakariniai": "evening (adj.)",
+        "prasideda": "begin",
+        "nesijaudinkite": "don't worry",
+        "kiekvieną": "every",
+        "mėnuo": "month"
+      },
+      "questions": [
+        {
+          "id": "cp5-p1-q1",
+          "type": "single",
+          "difficulty": "easy",
+          "fromSection": "a1-15",
+          "stem": "Kodėl Tomas nežino, ar ateis?",
+          "options": [
+            "Nes kursai brangūs.",
+            "Nes jis dirba iki penktos.",
+            "Nes jis nekalba lietuviškai.",
+            "Nes kursai prasideda šeštą."
+          ],
+          "correct": 1,
+          "explanation": "*Nežinau, ar turėsiu laiko … Dirbu iki penktos.* Reported yes/no uses **ar**.",
+          "rulesTested": [
+            "indirect-questions",
+            "nes-todel"
+          ],
+          "vocabUsed": [
+            "nes",
+            "dirbti",
+            "iki",
+            "penktas",
+            "kalbėti",
+            "lietuviškai",
+            "brangus"
+          ]
+        },
+        {
+          "id": "cp5-p1-q2",
+          "type": "multi",
+          "difficulty": "medium",
+          "fromSection": "a1-16",
+          "stem": "Which forms are **imperatives**?",
+          "options": [
+            "Ateikite",
+            "Skambinkite",
+            "kalbėkite",
+            "galėtumėte"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "First three are plural imperatives. *galėtumėte* is conditional.",
+          "rulesTested": [
+            "imperative-formation",
+            "imperative-notices",
+            "conditional-formation"
+          ],
+          "vocabUsed": [
+            "ateiti",
+            "skambinti",
+            "kalbėti",
+            "galėti"
+          ]
+        },
+        {
+          "id": "cp5-p1-q3",
+          "type": "single",
+          "difficulty": "hard",
+          "fromSection": "a1-17",
+          "stem": "*Gal galėtumėte ateiti* — why this shape rather than *Ateikite*?",
+          "options": [
+            "Because *ateiti* has no imperative.",
+            "Because conditional + *gal* is markedly more courteous than a bare plural imperative.",
+            "Because the courses are in the evening.",
+            "Because *gal* turns the verb into a future."
+          ],
+          "correct": 1,
+          "explanation": "¶117–113: imperative tells; conditional asks. With *gal*, this is the politest ordinary request.",
+          "rulesTested": [
+            "conditional-politeness",
+            "mood-choice",
+            "particles"
+          ],
+          "vocabUsed": [
+            "gal",
+            "galėti",
+            "ateiti"
+          ]
+        },
+        {
+          "id": "cp5-p1-q4",
+          "type": "integer",
+          "difficulty": "hard",
+          "fromSection": "a1-18",
+          "stem": "How many **comparative** forms (adjective or adverb) appear in the passage?",
+          "answer": 3,
+          "unit": "forms",
+          "explanation": "*pigesni*, *lėčiau*, *geriau*. *geriausi* is superlative; *greitai* is positive degree.",
+          "rulesTested": [
+            "adjective-comparative",
+            "adverb-degree",
+            "adjective-superlative"
+          ],
+          "vocabUsed": [
+            "pigus",
+            "lėtai",
+            "gerai",
+            "greitai"
+          ]
+        },
+        {
+          "id": "cp5-p1-q5",
+          "type": "multi",
+          "difficulty": "hard",
+          "fromSection": "a1-18",
+          "stem": "Which claims about *pigesni negu kitur* / *geriausi* are true?",
+          "options": [
+            "*pigesni* is a comparative adjective agreeing with *kursai*.",
+            "*negu* introduces the standard of comparison.",
+            "*geriausi* is a superlative, not a comparative.",
+            "*lietuviškai* is a declined noun object of *kalbėti*."
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "*lietuviškai* is an *-iškai* adverb (¶120), not a noun.",
+          "rulesTested": [
+            "comparison-negu",
+            "adjective-comparative",
+            "adjective-superlative",
+            "adverbs-iskai"
+          ],
+          "vocabUsed": [
+            "pigus",
+            "negu",
+            "geras",
+            "lietuviškai",
+            "kalbėti"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cp5-p2",
+      "type": "comprehension",
+      "difficulty": "hard",
+      "fromSection": "a1-18",
+      "title": "Du butai",
+      "passage": "Pirmas butas didesnis už antrą, bet antras arčiau. „Jeigu turėsiu mažai pinigų, nepirksiu brangesnio“, — sako Rūta. Draugė atsako: „Eik greičiau! O aš manau, kad pigesnis geriau. Kalbėk lietuviškai su agentu.“",
+      "translation": "The first flat is bigger than the second, but the second is nearer. \"If I have little money, I shall not buy the more expensive one,\" says Rūta. Her friend answers: \"Go quicker! And I think the cheaper is better. Speak Lithuanian with the agent.\"",
+      "glossary": {
+        "butas": "flat",
+        "agentas": "agent",
+        "nepirksiu": "I shall not buy"
+      },
+      "questions": [
+        {
+          "id": "cp5-p2-q1",
+          "type": "single",
+          "difficulty": "medium",
+          "fromSection": "a1-18",
+          "stem": "*didesnis už antrą* — case of *antrą*?",
+          "options": [
+            "nominative",
+            "genitive",
+            "accusative after *už* = *than*",
+            "locative"
+          ],
+          "correct": 2,
+          "explanation": "*už* + accusative for *than*. *negu antras* would keep nominative.",
+          "rulesTested": [
+            "comparison-negu",
+            "adjective-comparative"
+          ],
+          "vocabUsed": [
+            "didelis",
+            "už",
+            "antras",
+            "negu"
+          ]
+        },
+        {
+          "id": "cp5-p2-q2",
+          "type": "multi",
+          "difficulty": "hard",
+          "fromSection": "a1-15",
+          "stem": "Which clause-joiners appear, and with which jobs?",
+          "options": [
+            "*bet* — contradiction of expectation (bigger vs nearer)",
+            "*o* — shifting to the friend's view",
+            "*jeigu* — future-leaning condition",
+            "*arba* — exclusive choice between flats"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "No *arba* in the passage. *o* changes conversational subject; *bet* contrasts; *jeigu* conditions.",
+          "rulesTested": [
+            "o-contrast",
+            "coordinating-conjunctions",
+            "condition-jei"
+          ],
+          "vocabUsed": [
+            "bet",
+            "o",
+            "jeigu",
+            "arba"
+          ]
+        },
+        {
+          "id": "cp5-p2-q3",
+          "type": "single",
+          "difficulty": "easy",
+          "fromSection": "a1-16",
+          "stem": "*Eik greičiau!* and *Kalbėk lietuviškai* are:",
+          "options": [
+            "conditionals",
+            "2 sg. imperatives",
+            "futures",
+            "impersonal forms"
+          ],
+          "correct": 1,
+          "explanation": "Familiar singular imperatives in *-k*.",
+          "rulesTested": [
+            "imperative-formation"
+          ],
+          "vocabUsed": [
+            "eiti",
+            "kalbėti",
+            "greitai",
+            "lietuviškai"
+          ]
+        },
+        {
+          "id": "cp5-p2-q4",
+          "type": "integer",
+          "difficulty": "hard",
+          "fromSection": "a1-18",
+          "stem": "How many distinct **-iau** adverb comparatives appear?",
+          "answer": 3,
+          "unit": "adverbs",
+          "explanation": "Three: *arčiau*, *greičiau*, and *geriau*. All are unchanging adverb comparatives in *-iau*.",
+          "rulesTested": [
+            "adverb-degree"
+          ],
+          "vocabUsed": [
+            "arti",
+            "greitai",
+            "gerai"
+          ]
+        }
       ]
     }
   ]

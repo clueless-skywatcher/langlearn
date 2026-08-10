@@ -19,16 +19,16 @@ function ParadigmTable({ paradigm }: { paradigm: Paradigm }) {
     <figure className="mx-auto my-4 w-fit max-w-full overflow-x-auto rounded border border-rule bg-raised">
       <table className="border-collapse text-sm">
         <caption className="border-b border-rule px-3 py-2 text-left text-xs uppercase tracking-wide text-ink-faint">
-          {paradigm.caption}
+          {inline(paradigm.caption)}
         </caption>
         <thead>
           <tr className="border-b border-rule text-left text-xs text-ink-faint">
             <th className="whitespace-nowrap px-3 py-2 font-medium">
-              {labelHeader}
+              {labelHeader ? inline(labelHeader) : null}
             </th>
             {dataColumns.map((c) => (
               <th key={c} className="whitespace-nowrap px-3 py-2 font-medium">
-                {c}
+                {inline(c)}
               </th>
             ))}
           </tr>
@@ -37,14 +37,14 @@ function ParadigmTable({ paradigm }: { paradigm: Paradigm }) {
           {rows.map((row) => (
             <tr key={row.label} className="border-b border-rule/60 last:border-0">
               <th className="whitespace-nowrap px-3 py-2 text-left align-top font-normal text-ink-soft">
-                {row.label}
+                {inline(row.label)}
               </th>
               {row.cells.map((cell, i) => (
                 <td
                   key={i}
                   className="target whitespace-nowrap px-3 py-2 align-top not-italic"
                 >
-                  {cell}
+                  {inline(cell)}
                 </td>
               ))}
             </tr>

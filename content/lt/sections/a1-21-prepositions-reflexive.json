@@ -1,14 +1,14 @@
 {
-  "id": "a1-20",
+  "id": "a1-21",
   "kind": "lesson",
   "level": "A1",
-  "order": 25,
+  "order": 27,
   "title": "The Remaining Prepositions, and Reflexive Phrases",
   "summary": "The prepositions not yet given, set out with the whole system in one table; and the reflexive verbs, which at this level are learnt as set phrases rather than as a paradigm.",
   "rules": [
     {
       "id": "pas-accusative",
-      "number": "134",
+      "number": "139",
       "heading": "Pas: to a Person",
       "statement": "**Pas** with the **accusative** means *to* or *at somebody's place*. It is used of **people only** — one goes *į Vilnių* but *pas brolį* — and it covers both the going and the being there, where English needs *to my brother's* and *at my brother's*.",
       "examples": [
@@ -37,7 +37,7 @@
     },
     {
       "id": "per-priesa-place",
-      "number": "135",
+      "number": "140",
       "heading": "Per and Prieš of Place",
       "statement": "¶87 gave both of these as prepositions of **time**. Each has a use of **place** as well, and the case is the accusative in either sense. **Per** is *across* or *through*; **prieš** is *in front of*, and is the opposite of *už* (¶62).",
       "paradigms": [
@@ -80,13 +80,14 @@
         "time-prepositions",
         "place-prepositions"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "uz-accusative",
-      "number": "136",
+      "number": "141",
       "heading": "Už with the Accusative: Payment and Thanks",
-      "statement": "**Už** was given at ¶62 with the **genitive**, meaning *behind*. With the **accusative** it means *for* in the sense of payment or return — and it is the *už* of *ačiū už*, thank you for. It is also the *than* of ¶119. One word, three cases of meaning, and the ending decides which.",
+      "statement": "**Už** was given at ¶62 with the **genitive**, meaning *behind*. With the **accusative** it means *for* in the sense of payment or return — and it is the *už* of *ačiū už*, thank you for. It is also the *than* of ¶124. One word, three cases of meaning, and the ending decides which.",
       "paradigms": [
         {
           "caption": "Už in its three uses",
@@ -135,11 +136,12 @@
         "comparison-negu",
         "accusative-nouns"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "virs-vidury",
-      "number": "137",
+      "number": "142",
       "heading": "Virš and Vidury",
       "statement": "Two more prepositions of place, both governing the **genitive**. **Virš** is *above* — not touching, and so the opposite of *ant* (¶33). **Vidury** is *in the middle of*, and is a noun in the locative pressed into service as a preposition, which is why it takes a genitive after it.",
       "examples": [
@@ -161,11 +163,12 @@
         "genitive-prepositions",
         "place-prepositions"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "po-accusative",
-      "number": "138",
+      "number": "143",
       "heading": "Po in a Third Sense",
       "statement": "**Po** has now been met with the genitive (*after*, ¶33) and with the instrumental (*under*, ¶75). With the **accusative** it means motion **about** or **around** a place, with no particular destination — *vaikščiojome po parką*, we walked about the park. Three cases, three meanings, one word: it is the clearest demonstration in the language of why a preposition must be learnt together with its case.",
       "paradigms": [
@@ -212,11 +215,12 @@
         "genitive-prepositions",
         "visas-kiekvienas"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "prepositions-review",
-      "number": "139",
+      "number": "144",
       "heading": "The Prepositions Reviewed",
       "statement": "Every preposition of the level, set out by the case it governs. The genitive takes much the largest share; the accusative belongs chiefly to motion and to time; the instrumental has only two. Where a word appears twice, the **case** carries the difference in meaning, and it always does.",
       "paradigms": [
@@ -269,11 +273,12 @@
         "time-prepositions",
         "instrumental-su"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "reflexive-phrases",
-      "number": "140",
+      "number": "145",
       "heading": "Reflexive Verbs as Set Phrases",
       "statement": "A **reflexive** verb carries the affix **-si**, which turns the action back on the doer: *mokyti* is to teach, *mokytis* to learn. The full paradigm belongs to a later level; what an A1 learner needs is to **recognise** the affix and to know a handful of phrases by heart, because several of the commonest sentences in the language are reflexive and cannot be avoided.",
       "paradigms": [
@@ -348,7 +353,8 @@
         "adverb-degree",
         "particles"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     }
   ],
   "vocabulary": [
@@ -464,7 +470,7 @@
         "pres3": "jaučiasi",
         "past3": "jautėsi"
       },
-      "notes": "Reflexive."
+      "notes": "Reflexive. 1 sg. present: jaučiuosi; under negation the affix migrates: nesijaučiu."
     },
     {
       "lemma": "sektis",
@@ -731,7 +737,7 @@
         "Locative; there is no time use."
       ],
       "correct": 1,
-      "explanation": "¶135: *per* and *prieš* keep the **accusative** in both time and place senses. Case does not flip; meaning does.",
+      "explanation": "¶140: *per* and *prieš* keep the **accusative** in both time and place senses. Case does not flip; meaning does.",
       "rulesTested": [
         "per-priesa-place",
         "time-prepositions"
@@ -909,7 +915,7 @@
             "*į* is forbidden after *buvome*."
           ],
           "correct": 1,
-          "explanation": "¶134: *pas* is people-only. *į* with a person is the classic interference error from direction prepositions.",
+          "explanation": "¶139: *pas* is people-only. *į* with a person is the classic interference error from direction prepositions.",
           "rulesTested": [
             "pas-accusative",
             "direction-i"

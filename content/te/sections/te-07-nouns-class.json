@@ -214,16 +214,28 @@
       ],
       "examples": [
         {
-          "target": "వాళ్ళు",
-          "gloss": "they, of people — mahat"
+          "target": "అమ్మాయిలు ఇక్కడ. వాళ్ళు నా స్నేహితులు.",
+          "roman": "ammāyilu ikkaḍa. vāḷḷu nā snēhitulu.",
+          "gloss": "The girls are here. They are my friends.",
+          "note": "girls are human, so mahat — వాళ్ళు, never అవి"
         },
         {
-          "target": "అవి",
-          "gloss": "they, of things — amahat"
+          "target": "కుక్కలు అక్కడ. అవి పెద్దవి.",
+          "roman": "kukkalu akkaḍa. avi peddavi.",
+          "gloss": "The dogs are there. They are big.",
+          "note": "dogs are not human, so amahat — అవి"
         },
         {
-          "target": "అబ్బాయిలు, అమ్మాయిలు → వాళ్ళు",
-          "gloss": "boys, girls — both mahat in the plural"
+          "target": "ఆమె నా అమ్మ. అమ్మాయిలు నా స్నేహితులు — వాళ్ళు.",
+          "roman": "āme nā amma. ammāyilu nā snēhitulu — vāḷḷu.",
+          "gloss": "She is my mother. The girls are my friends — they.",
+          "note": "one woman is amahat; women together are mahat — the line has moved"
+        },
+        {
+          "target": "అబ్బాయిలు, అమ్మాయిలు ఇక్కడ — వాళ్ళు. పుస్తకాలు, చెట్లు అక్కడ — అవి.",
+          "roman": "abbāyilu, ammāyilu ikkaḍa — vāḷḷu. pustakālu, ceṭlu akkaḍa — avi.",
+          "gloss": "Boys and girls are here — they (people). Books and trees are there — they (things).",
+          "note": "both sexes share one plural pronoun; only the non-human takes అవి"
         }
       ],
       "seeAlso": [
@@ -236,7 +248,7 @@
       "id": "personal-pronouns",
       "number": "43",
       "heading": "The Personal Pronouns",
-      "statement": "The pronouns are given below. Note the first person plural, where Telugu makes a distinction English has not got: **మేము** excludes the person spoken to, **మనం** includes them. *Shall we go* is a different word according to whether you are inviting your hearer or telling them what you and your friends will do.",
+      "statement": "The pronouns are given below. Note the first person plural, where Telugu makes a distinction English has not got: **మేము** excludes the person spoken to, **మనం** includes them. *We are here* is a different word according to whether you are including your hearer or speaking of yourself and others without them.",
       "paradigms": [
         {
           "caption": "The personal pronouns",
@@ -324,16 +336,34 @@
       ],
       "examples": [
         {
-          "target": "నేను",
-          "gloss": "I"
+          "target": "నేను రవి. నువ్వు నా అన్న.",
+          "roman": "nēnu ravi. nuvvu nā anna.",
+          "gloss": "I am Ravi. You are my elder brother.",
+          "note": "నువ్వు is the familiar singular — a friend, a child, an intimate"
         },
         {
-          "target": "మేము / మనం",
-          "gloss": "we, excluding you / we, including you"
+          "target": "మనం ఇక్కడ.",
+          "roman": "manaṁ ikkaḍa.",
+          "gloss": "We are here (you and I).",
+          "note": "మనం includes the hearer"
         },
         {
-          "target": "మీరు",
-          "gloss": "you, plural or polite"
+          "target": "మేము ఇక్కడ. మీరు అక్కడ.",
+          "roman": "mēmu ikkaḍa. mīru akkaḍa.",
+          "gloss": "We are here. You are there.",
+          "note": "మేము excludes the hearer; the second sentence is what shows the exclusion"
+        },
+        {
+          "target": "మీరు ఎవరు?",
+          "roman": "mīru evaru?",
+          "gloss": "Who are you?",
+          "note": "మీరు to one person, politely — as well as to many"
+        },
+        {
+          "target": "ఆమె నా అమ్మ. అతను నా అన్న. వాళ్ళు నా స్నేహితులు. అవి నా పుస్తకాలు.",
+          "roman": "āme nā amma. atanu nā anna. vāḷḷu nā snēhitulu. avi nā pustakālu.",
+          "gloss": "She is my mother. He is my elder brother. They are my friends. They are my books.",
+          "note": "third person: class and number choose the pronoun — ఆమె / అతను / వాళ్ళు / అవి"
         }
       ],
       "seeAlso": [
@@ -382,6 +412,26 @@
         "nom": "చెట్టు",
         "translit": "ceṭṭu",
         "class": "amahat"
+      }
+    },
+    {
+      "lemma": "స్నేహితులు",
+      "gloss": "friends",
+      "pos": "noun",
+      "forms": {
+        "nom": "స్నేహితులు",
+        "translit": "snēhitulu",
+        "class": "mahat pl."
+      }
+    },
+    {
+      "lemma": "అమ్మ",
+      "gloss": "mother",
+      "pos": "noun",
+      "forms": {
+        "nom": "అమ్మ",
+        "translit": "amma",
+        "class": "amahat sg."
       }
     },
     {
@@ -547,24 +597,25 @@
       "id": "te107-q5",
       "type": "single",
       "difficulty": "medium",
-      "stem": "In the **plural**, which of these belongs to the మహత్ class?",
+      "stem": "**అమ్మాయిలు ఇక్కడ. ___ నా స్నేహితులు.** Which pronoun fills the blank?",
       "options": [
-        "dogs",
-        "trees",
-        "women",
-        "books"
+        "అవి",
+        "అది",
+        "వాళ్ళు",
+        "ఆమె"
       ],
       "correct": 2,
-      "explanation": "In the plural the line moves: all human beings are mahat, women with men. Only the non-human is amahat.",
+      "explanation": "Girls are human, and in the plural every human being is mahat — so *వాళ్ళు*, not *అవి*. *అది* and *ఆమె* are singular.",
       "rulesTested": [
         "class-plural",
+        "personal-pronouns",
         "mahat-amahat"
       ],
       "vocabUsed": [
-        "మహత్",
-        "కుక్క",
-        "చెట్టు",
-        "పుస్తకం"
+        "అమ్మాయి",
+        "వాళ్ళు",
+        "అవి",
+        "స్నేహితులు"
       ]
     },
     {
@@ -599,15 +650,15 @@
       "id": "te107-q7",
       "type": "single",
       "difficulty": "medium",
-      "stem": "You are inviting the person you are speaking to. Which word for **we** do you use?",
+      "stem": "You are speaking to a friend and mean *we* — yourself and that friend. Which sentence is right?",
       "options": [
-        "మేము",
-        "మనం",
-        "మీరు",
-        "వాళ్ళు"
+        "మేము ఇక్కడ.",
+        "మనం ఇక్కడ.",
+        "మీరు ఇక్కడ.",
+        "వాళ్ళు ఇక్కడ."
       ],
       "correct": 1,
-      "explanation": "మనం includes the hearer; మేము excludes them. English has one word for both and Telugu will not let you be vague about which you mean.",
+      "explanation": "*మనం ఇక్కడ* includes the hearer. *మేము ఇక్కడ* would mean you and others, but not the person you are talking to.",
       "rulesTested": [
         "personal-pronouns"
       ],
@@ -622,15 +673,15 @@
       "id": "te107-q8",
       "type": "single",
       "difficulty": "medium",
-      "stem": "Which pronoun is used to one person, politely?",
+      "stem": "**మీరు ఎవరు?** — said to one stranger. Why *మీరు* and not *నువ్వు*?",
       "options": [
-        "నువ్వు",
-        "మీరు",
-        "మనం",
-        "అతను"
+        "Because the stranger is plural.",
+        "Because *మీరు* is the polite singular as well as the plural.",
+        "Because *నువ్వు* is only used of women.",
+        "Because *మీరు* means *they*."
       ],
       "correct": 1,
-      "explanation": "మీరు serves as both the plural and the polite singular, as *jūs* does in Lithuanian. నువ్వు is for a friend, a child, or an intimate.",
+      "explanation": "*మీరు* serves as both the plural and the polite singular, as *jūs* does in Lithuanian. *నువ్వు* is for a friend, a child, or an intimate.",
       "rulesTested": [
         "personal-pronouns"
       ],
@@ -733,11 +784,156 @@
       ]
     },
     {
+      "id": "te107-q13",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "**కుక్కలు అక్కడ. ___ పెద్దవి.** Which pronoun fills the blank?",
+      "options": [
+        "వాళ్ళు",
+        "అవి",
+        "అది",
+        "ఆమె"
+      ],
+      "correct": 1,
+      "explanation": "Dogs are not human, so in the plural they remain amahat — *అవి*. *వాళ్ళు* is only for people.",
+      "rulesTested": [
+        "class-plural",
+        "personal-pronouns"
+      ],
+      "vocabUsed": [
+        "కుక్క",
+        "అవి",
+        "వాళ్ళు"
+      ]
+    },
+    {
+      "id": "te107-q14",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "You and your friends are here; the person you are talking to is somewhere else. Which sentence fits?",
+      "options": [
+        "మనం ఇక్కడ.",
+        "మేము ఇక్కడ. మీరు అక్కడ.",
+        "మీరు ఇక్కడ. మేము అక్కడ.",
+        "వాళ్ళు ఇక్కడ."
+      ],
+      "correct": 1,
+      "explanation": "*మేము* excludes the hearer; *మీరు అక్కడ* makes the exclusion plain. *మనం ఇక్కడ* would pull the hearer into the group.",
+      "rulesTested": [
+        "personal-pronouns"
+      ],
+      "vocabUsed": [
+        "మేము",
+        "మనం",
+        "మీరు"
+      ]
+    },
+    {
+      "id": "te107-q15",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which of these sentences choose the **right** third-person pronoun?",
+      "options": [
+        "అమ్మాయిలు ఇక్కడ. వాళ్ళు నా స్నేహితులు.",
+        "కుక్కలు అక్కడ. వాళ్ళు పెద్దవి.",
+        "పుస్తకాలు ఇక్కడ. అవి నా పుస్తకాలు.",
+        "ఆమె నా అమ్మ."
+      ],
+      "correct": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "The second is wrong: dogs take *అవి*, not *వాళ్ళు*. Girls take *వాళ్ళు*; books take *అవి*; one woman takes *ఆమె* (or *అది*) — each by class and number.",
+      "rulesTested": [
+        "class-plural",
+        "class-singular",
+        "personal-pronouns"
+      ],
+      "vocabUsed": [
+        "అమ్మాయి",
+        "కుక్క",
+        "వాళ్ళు",
+        "అవి",
+        "స్నేహితులు",
+        "అమ్మ"
+      ]
+    },
+    {
+      "id": "te107-q16",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Compare **ఆమె నా అమ్మ** with **అమ్మాయిలు నా స్నేహితులు — వాళ్ళు**. What has moved?",
+      "options": [
+        "Nothing: a woman is amahat in both numbers.",
+        "The line of class: one woman is amahat, women together are mahat.",
+        "Only the vocabulary: *అమ్మ* against *స్నేహితులు*.",
+        "The pronoun is optional in the plural."
+      ],
+      "correct": 1,
+      "explanation": "That is the whole surprise of ¶42: the sexes are distinguished when alone and not when together. The same person who is *ఆమె* in the singular is one of *వాళ్ళు* in the plural.",
+      "rulesTested": [
+        "class-plural",
+        "class-singular",
+        "mahat-amahat"
+      ],
+      "vocabUsed": [
+        "అమ్మ",
+        "అమ్మాయి",
+        "వాళ్ళు",
+        "స్నేహితులు",
+        "మహత్",
+        "అమహత్"
+      ]
+    },
+    {
+      "id": "te107-q17",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "**నేను రవి. నువ్వు నా అన్న.** What does **నువ్వు** mark about the relationship?",
+      "options": [
+        "Polite distance from a stranger.",
+        "Familiar address — a friend, a child, an intimate.",
+        "Plural *you*.",
+        "Exclusive *we*."
+      ],
+      "correct": 1,
+      "explanation": "*నువ్వు* is the familiar singular. To a stranger one would ask *మీరు ఎవరు?*",
+      "rulesTested": [
+        "personal-pronouns"
+      ],
+      "vocabUsed": [
+        "నువ్వు",
+        "మీరు"
+      ]
+    },
+    {
+      "id": "te107-q18",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "In **ఆమె నా అమ్మ. అతను నా అన్న. వాళ్ళు నా స్నేహితులు. అవి నా పుస్తకాలు.** how many **different** third-person pronouns appear?",
+      "answer": 4,
+      "unit": "pronouns",
+      "explanation": "Four: *ఆమె*, *అతను*, *వాళ్ళు*, *అవి* — singular woman, singular man, plural people, plural things. Telugu will not let one *they* cover the last two.",
+      "rulesTested": [
+        "personal-pronouns",
+        "class-plural",
+        "class-singular"
+      ],
+      "vocabUsed": [
+        "వాళ్ళు",
+        "అవి",
+        "అమ్మ",
+        "స్నేహితులు"
+      ]
+    },
+    {
       "id": "te107-p1",
       "type": "comprehension",
       "difficulty": "medium",
       "title": "ఇక్కడ ఎవరు?",
       "passage": "ఇక్కడ అబ్బాయిలు, అమ్మాయిలు. వాళ్ళు నా స్నేహితులు. అక్కడ కుక్కలు, చెట్లు. అవి పెద్దవి. ఇది నా ఇల్లు. అక్కడ రెండు ఇళ్ళు. ఆమె నా అమ్మ. అతను నా అన్న.",
+      "romanization": "ikkaḍa abbāyilu, ammāyilu. vāḷḷu nā snēhitulu. akkaḍa kukkalu, ceṭlu. avi peddavi. idi nā illu. akkaḍa reṇḍu iḷḷu. āme nā amma. atanu nā anna.",
       "translation": "Here are boys and girls. They are my friends. There are dogs and trees. They are big. This is my house. There are two houses. She is my mother. He is my elder brother.",
       "glossary": {
         "స్నేహితులు": "friends (snēhitulu)",

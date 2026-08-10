@@ -8,7 +8,7 @@
   "rules": [
     {
       "id": "five-declensions",
-      "number": "141",
+      "number": "146",
       "heading": "The Five Declensions",
       "statement": "Lithuanian nouns fall into **five declensions**, sorted by the nominative singular ending and by the genitive that goes with it. A1 taught endings case by case; A2 puts the whole word in one table. The first two declensions cover most of the vocabulary already met; the third (*akis*), the fourth (*sūnus*), and the fifth (*vanduo, sesuo*) complete what was only sampled.",
       "paradigms": [
@@ -84,11 +84,12 @@
         "noun-gender",
         "genitive-endings"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "first-declension-paradigm",
-      "number": "142",
+      "number": "147",
       "heading": "The First Declension in Full",
       "statement": "Masculines in **-as, -is, -ys** form one class. The soft stems (*brolis, obuolys*) insert **i** before most endings; the locative singular of *-is/-ys* is **-yje**, not *-e*. The vocative of a common noun in *-as* is **-e**; personal names take **-ai** (¶78).",
       "paradigms": [
@@ -188,11 +189,12 @@
         "instrumental-singular",
         "vocative"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "second-declension-paradigm",
-      "number": "143",
+      "number": "148",
       "heading": "The Second Declension in Full",
       "statement": "Feminines in **-a** and **-ė** (and a few masculines like *dėdė*) make the second class. Watch the instrumental singular of *-a*: it is spelled like the nominative (**knyga**), and only the sentence chooses. Softening before the genitive plural is regular: *katė → kačių*.",
       "paradigms": [
@@ -292,11 +294,12 @@
         "plural-genitive",
         "dative-plural"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "third-declension-paradigm",
-      "number": "144",
+      "number": "149",
       "heading": "The Third Declension: -is",
       "statement": "Nouns in **-is** with genitive **-ies** (or the short **-ers** of *moteris*) are a class of their own. Most are feminine (*akis, naktis, ausis*); a few are masculine (*dantis, debesis*). The nominative plural is **-ys**, the accusative plural repeats the nominative singular (**akis**), and the instrumental singular takes the long **-imi**.",
       "paradigms": [
@@ -397,11 +400,12 @@
         "instrumental-singular",
         "skaudeti"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "fourth-declension-paradigm",
-      "number": "145",
+      "number": "150",
       "heading": "The Fourth Declension: -us",
       "statement": "Masculines in **-us** are few but frequent (*sūnus, medus, žmogus* — the last irregular in the plural). The genitive is **-aus**, the instrumental the long **-umi**, the nominative plural the long **-ūs**. Do not confuse *sūnus* the nominative singular with *sūnus* the accusative plural: they are spelled alike.",
       "paradigms": [
@@ -486,11 +490,12 @@
         "vocative",
         "plural-nominative"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "fifth-declension-paradigm",
-      "number": "146",
+      "number": "151",
       "heading": "The Fifth Declension: -uo and Kin",
       "statement": "The fifth class holds the **-uo** nouns (*vanduo, akmuo, šuo*) and the kinship pair *sesuo, duktė*. The stem lengthens by **-en-** or **-er-** outside the nominative singular: *vanduo → vandens → vandenį*. Learn the genitive with the word; from it the rest follows the soft pattern of III.",
       "paradigms": [
@@ -590,11 +595,12 @@
         "genitive-quantity",
         "third-declension-paradigm"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "paradigm-homographs",
-      "number": "147",
+      "number": "152",
       "heading": "Forms That Coincide",
       "statement": "Several slots share a spelling. The sentence must choose, and it always can, because two readings never do the same grammatical work. The coincidences worth knowing by heart are listed below; they are not exceptions but regular overlaps.",
       "paradigms": [
@@ -660,11 +666,12 @@
         "third-declension-paradigm",
         "fourth-declension-paradigm"
       ],
-      "core": false
+      "core": false,
+      "footnotes": []
     },
     {
       "id": "seven-cases-uses",
-      "number": "148",
+      "number": "153",
       "heading": "What Each Case Is For",
       "statement": "With the paradigms complete, the uses already taught can be stated as one map. The **nominative** names the subject and the predicate noun; the **genitive** shows possession, quantity, origin, and follows most prepositions and negation; the **dative** is the indirect object and the experiencer; the **accusative** is the direct object and the goal of motion; the **instrumental** is means, company (with *su*), and recurring time; the **locative** is place *in/at/on* without a preposition; the **vocative** only addresses.",
       "paradigms": [
@@ -749,7 +756,8 @@
         "locative-singular",
         "vocative"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     }
   ],
   "vocabulary": [
@@ -1116,7 +1124,7 @@
         "It could be either nominative singular or accusative plural, and the verb decides."
       ],
       "correct": 3,
-      "explanation": "The spelling is shared (¶147), but after *matau* only the **accusative plural** is possible. A nominative singular could not be the object of a transitive verb.",
+      "explanation": "The spelling is shared (¶152), but after *matau* only the **accusative plural** is possible. A nominative singular could not be the object of a transitive verb.",
       "rulesTested": [
         "third-declension-paradigm",
         "seven-cases-uses"
@@ -1434,7 +1442,7 @@
         "accusative singular and instrumental"
       ],
       "correct": 0,
-      "explanation": "¶147: *knygos* is genitive singular and nominative (and vocative) plural — a regular overlap.",
+      "explanation": "¶152: *knygos* is genitive singular and nominative (and vocative) plural — a regular overlap.",
       "rulesTested": [
         "paradigm-homographs",
         "second-declension-paradigm"

@@ -1,0 +1,906 @@
+{
+  "id": "a2-nebe",
+  "kind": "lesson",
+  "level": "A2",
+  "order": 3,
+  "title": "The Prefix Nebe-",
+  "summary": "Simple *ne-* denies a state; **nebe-** denies that the state still holds — *no longer / not anymore*. Its positive counterpart is **tebe-** (*still*), and both sit in the same slot as *ne-* relative to the stem and to reflexive *-si-*.",
+  "rules": [
+    {
+      "id": "nebe-meaning",
+      "number": "161",
+      "heading": "Nebe- Means No Longer",
+      "statement": "The prefix **nebe-** marks a **discontinuative**: the situation held before, and it does **not** hold now. English usually says *no longer* or *not anymore*; Lithuanian writes the idea onto the verb as one word — *nebedirbu*, *nebegaliu*, *nebelyja*. It is not a stronger form of ordinary *ne-* (¶25): *nedirbu* is *I do not work* (at this time, or habitually), while *nebedirbu* is *I no longer work* (I used to, and have stopped).",
+      "examples": [
+        {
+          "target": "Aš nebedirbu čia.",
+          "gloss": "I no longer work here."
+        },
+        {
+          "target": "Ji nebegali ateiti.",
+          "gloss": "She can no longer come. / She is no longer able to come."
+        },
+        {
+          "target": "Šiandien nebelyja.",
+          "gloss": "It is no longer raining today."
+        }
+      ],
+      "paradigms": [],
+      "footnotes": [
+        "Sources: Ambrazas (ed.), *Lithuanian Grammar* (Vilnius: Baltos lankos, 1997), on the outer verbal prefixes; P. Arkadiev, “Typological peculiarities of Lithuanian verbal morphosyntax” (SLE 2010), glossing *ne-be-* as ‘no longer’ against *te-be-* ‘still’; school morphology (Keinys; Šukys; Paulauskienė) stating that *nebe-* marks an action that has been interrupted and is no longer performed (*nebeateiti, nebelyti, nebenorėti*)."
+      ],
+      "seeAlso": [
+        "negation"
+      ],
+      "core": true
+    },
+    {
+      "id": "nebe-formation",
+      "number": "162",
+      "heading": "How Nebe- Is Built and Written",
+      "statement": "**Nebe-** is historically **ne-** + the continuative element **be-** (‘still’): literally *not-still*. In the modern standard it is treated as **one** prefix written **together** with the verb (and with adjectives and adjectival adverbs formed the same way): *nebegaliu*, *nebegeras*, *nebetoli*. It is written **apart** from nouns, pronouns, numerals, and from those adverbs that also take separate *ne*: *nebe laikas*, *nebe tas*, *nebe vienas*. Under **contrast** (*not X, but Y*) it is likewise separate: *Nebe skaito, o rašo.*",
+      "examples": [
+        {
+          "target": "Aš nebegaliu.",
+          "gloss": "I can no longer (do it).",
+          "note": "together with the verb"
+        },
+        {
+          "target": "Jis nebegeras.",
+          "gloss": "He is no longer good / kind.",
+          "note": "together with the adjective"
+        },
+        {
+          "target": "Nebe laikas miegoti.",
+          "gloss": "It is no longer time to sleep.",
+          "note": "separate before a noun"
+        },
+        {
+          "target": "Nebe skaito, o rašo.",
+          "gloss": "He is no longer reading, but writing.",
+          "note": "separate under contrast"
+        }
+      ],
+      "paradigms": [
+        {
+          "caption": "nebe- on a finite verb (dirbti)",
+          "columns": [
+            "affirmative",
+            "ne-",
+            "nebe-"
+          ],
+          "rows": [
+            {
+              "label": "1 sg.",
+              "cells": [
+                "dirbu",
+                "nedirbu",
+                "nebedirbu"
+              ]
+            },
+            {
+              "label": "3",
+              "cells": [
+                "dirba",
+                "nedirba",
+                "nebedirba"
+              ]
+            },
+            {
+              "label": "past 3",
+              "cells": [
+                "dirbo",
+                "nedirbo",
+                "nebedirbo"
+              ]
+            },
+            {
+              "label": "future 3",
+              "cells": [
+                "dirbs",
+                "nedirbs",
+                "nebedirbs"
+              ]
+            }
+          ],
+          "footnote": "Tense and person endings are unchanged; only the prefix differs."
+        }
+      ],
+      "footnotes": [
+        "Sources: N. Ostrowski, “Lithuanian discontinuatives *nebe-* / *jau nebe-* …”, *Folia Scandinavica* 20 (2016), deriving *nebe-* from outer negation *ne* + continuative *be(-)* ‘still’; official school orthography (eMokykla *Dalelyčių rašyba*; VLKK practice as taught in secondary curricula) — *nebe* with verbs/adjectives/adjectival adverbs together, with nouns/pronouns/numerals apart, and apart under contrast (*Nebe skaito, o rašo*)."
+      ],
+      "seeAlso": [
+        "nebe-meaning",
+        "negation"
+      ],
+      "core": true
+    },
+    {
+      "id": "nebe-vs-dar-ne",
+      "number": "163",
+      "heading": "Nebe- against Dar Ne- and Jau Ne-",
+      "statement": "Lithuanian has two ordinary ways of saying *no longer*, and they must not be confused with *not yet*. **Dar** + **ne-** (*dar nedirba*) is *still not / not yet*. **Jau** + **ne-** (*jau nedirba*) is the *already-not* discontinuative — *no longer*, built with the particle *jau* of ¶111. **Nebe-** (*nebedirba*) is the prefixed discontinuative of the same meaning, interchangeable with *jau ne-* in the standard language. The four-way square with the particles of ¶111 is therefore: *dar* ‘still’, *dar ne-* ‘not yet’, *jau* ‘already’, *jau ne-* / *nebe-* ‘no longer’.",
+      "examples": [
+        {
+          "target": "Jis dar dirba.",
+          "gloss": "He is still working."
+        },
+        {
+          "target": "Jis dar nedirba.",
+          "gloss": "He is not working yet. / He still does not work."
+        },
+        {
+          "target": "Jis jau dirba.",
+          "gloss": "He is already working."
+        },
+        {
+          "target": "Jis jau nedirba. / Jis nebedirba.",
+          "gloss": "He no longer works. (both standard)"
+        }
+      ],
+      "paradigms": [
+        {
+          "caption": "Phasal square (dirbti, 3rd person)",
+          "columns": [
+            "positive",
+            "negative"
+          ],
+          "rows": [
+            {
+              "label": "still / not yet",
+              "cells": [
+                "dar dirba",
+                "dar nedirba"
+              ]
+            },
+            {
+              "label": "already / no longer",
+              "cells": [
+                "jau dirba",
+                "jau nedirba ≈ nebedirba"
+              ]
+            }
+          ],
+          "footnote": "*Jau nebedirba* also occurs as an emphatic ‘already no longer’ (Ostrowski’s *jau nebe-*)."
+        }
+      ],
+      "footnotes": [
+        "Source: Ostrowski (2016), §§1–2 — the pan-Lithuanian inchoative discontinuative *jau ne-*, the West-Aukštaitian / standard prefixed discontinuative *nebe-*, their interchangeability in the literary language, and the Slavic-like square *dar / dar ne / jau / jau ne*. Do not invent a difference of ‘strength’ between *jau nedirba* and *nebedirba*; both mean *no longer*."
+      ],
+      "seeAlso": [
+        "nebe-meaning",
+        "particles",
+        "negation"
+      ],
+      "core": true
+    },
+    {
+      "id": "tebe-counterpart",
+      "number": "164",
+      "heading": "The Positive Counterpart Tebe-",
+      "statement": "The continuative partner of **nebe-** in modern standard Lithuanian is **tebe-**: *tebedirba* ‘is still working’, *tebelyja* ‘is still raining’. Where *dar* is a free particle (*jis dar dirba*), *tebe-* is a **prefix** written on the verb like *nebe-*. At A2 it is enough to **recognise** *tebe-* as ‘still’ on the verb and to **produce** *nebe-* for ‘no longer’; *dar* remains the everyday particle already learnt.",
+      "examples": [
+        {
+          "target": "Jis tebedirba čia.",
+          "gloss": "He is still working here."
+        },
+        {
+          "target": "Jis nebedirba čia.",
+          "gloss": "He no longer works here."
+        },
+        {
+          "target": "Ar tebegyveni Vilniuje?",
+          "gloss": "Do you still live in Vilnius?"
+        }
+      ],
+      "paradigms": [],
+      "footnotes": [
+        "Sources: Arkadiev (2010), examples of *te-be-* ‘still’ vs *ne-be-* ‘no longer’ as a typologically rare morphological encoding of phasal meanings; Ostrowski (2016), noting that *tebe-* superseded older continuative *be(-)* in the standard. Wikipedia-style sketches that invent other senses for *be-* without a grammar behind them are not used here."
+      ],
+      "seeAlso": [
+        "nebe-meaning",
+        "nebe-vs-dar-ne"
+      ],
+      "core": true
+    },
+    {
+      "id": "nebe-syntax",
+      "number": "165",
+      "heading": "Case, Reflexives, and Stacking",
+      "statement": "Everything that holds for **ne-** holds for **nebe-**. A transitive verb with *nebe-* still takes the **genitive of negation** (¶26): *nebeturi laiko*, not *nebeturi laiką*. On a **reflexive** verb the affix **-si-** stands **after** the outer prefix, as after *ne-* (¶157): *mokausi → nesimokau → nebesimokau*. *Nebe-* (like *ne-*, *te-*, *be-*, *tebe-*) may stand **outside** a lexical prefix: *nebeatvažiuoja* ‘no longer arrives’. Do not write a space inside the verb, and do not stack a second *ne-* beside *nebe-*.",
+      "examples": [
+        {
+          "target": "Jis nebeturi laiko.",
+          "gloss": "He no longer has time.",
+          "note": "genitive *laiko*"
+        },
+        {
+          "target": "Aš nebesimokau.",
+          "gloss": "I no longer study / learn.",
+          "note": "*nebe-* + *-si-* + stem"
+        },
+        {
+          "target": "Jis nebeatvažiuoja.",
+          "gloss": "He no longer comes (by vehicle).",
+          "note": "*nebe-* outside lexical *at-*"
+        }
+      ],
+      "paradigms": [],
+      "footnotes": [
+        "Sources: the genitive after negation is Ambrazas (1997) and ¶26 of this course; reflexive migration after outer prefixes including *nebe-* is the same rule as Ambrazas / standard descriptions summarised in Arkadiev and in the A1–A2 reflexive sections (*nesimokau*, *nebesimokau*); co-occurrence of *ne- / te- / be- / nebe- / tebe-* outside lexical prefixes is the standard inventory of ‘external’ prefixes (Arkadiev, “External verbal prefixes in Lithuanian”)."
+      ],
+      "seeAlso": [
+        "nebe-formation",
+        "negation-genitive",
+        "si-under-negation",
+        "si-under-prefix"
+      ],
+      "core": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "lemma": "nebe-",
+      "gloss": "no longer, not anymore (verbal prefix)",
+      "pos": "prefix",
+      "notes": "Written together with verbs: nebedirbu. Contrast dar ne- (not yet)."
+    },
+    {
+      "lemma": "tebe-",
+      "gloss": "still (verbal prefix)",
+      "pos": "prefix",
+      "notes": "Positive counterpart of nebe-: tebedirba ‘is still working’."
+    }
+  ],
+  "drills": [
+    {
+      "id": "a2nebe-q1",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete: **Aš ______ čia.** (I no longer work here.)",
+      "options": [
+        "nebedirbu",
+        "nedirbu",
+        "dar nedirbu",
+        "tebedirbu"
+      ],
+      "correct": 0,
+      "explanation": "*Nebedirbu* = no longer work. *Nedirbu* is plain negation; *dar nedirbu* is not yet; *tebedirbu* is still working.",
+      "rulesTested": [
+        "nebe-meaning",
+        "nebe-vs-dar-ne"
+      ],
+      "vocabUsed": [
+        "dirbti",
+        "nebe-"
+      ]
+    },
+    {
+      "id": "a2nebe-q2",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "**Nebe-** is historically:",
+      "options": [
+        "ne- + be- (‘not’ + ‘still’)",
+        "ne- doubled for emphasis",
+        "a past-tense marker",
+        "the same as the particle *dar*"
+      ],
+      "correct": 0,
+      "explanation": "Ostrowski: *nebe-* joins outer negation *ne* with continuative *be(-)* ‘still’.",
+      "rulesTested": [
+        "nebe-formation"
+      ],
+      "vocabUsed": [
+        "nebe-"
+      ]
+    },
+    {
+      "id": "a2nebe-q3",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Jis ______.** (He is not working yet.)",
+      "options": [
+        "dar nedirba",
+        "nebedirba",
+        "jau nedirba",
+        "tebedirba"
+      ],
+      "correct": 0,
+      "explanation": "*Dar nedirba* = not yet / still does not. *Nebedirba* and *jau nedirba* mean no longer; *tebedirba* means still does.",
+      "rulesTested": [
+        "nebe-vs-dar-ne",
+        "particles"
+      ],
+      "vocabUsed": [
+        "dar",
+        "dirbti"
+      ]
+    },
+    {
+      "id": "a2nebe-q4",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which correctly mean *no longer works* in the standard language?",
+      "options": [
+        "Jis nebedirba.",
+        "Jis jau nedirba.",
+        "Jis dar nedirba.",
+        "Jis tebedirba."
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanation": "*Nebe-* and *jau ne-* are interchangeable discontinuatives. *Dar nedirba* is not yet; *tebedirba* is still.",
+      "rulesTested": [
+        "nebe-vs-dar-ne",
+        "tebe-counterpart"
+      ],
+      "vocabUsed": [
+        "nebe-",
+        "jau",
+        "dar",
+        "tebe-",
+        "dirbti"
+      ]
+    },
+    {
+      "id": "a2nebe-q5",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Jis ______ Vilniuje.** (He still lives in Vilnius — prefixed form.)",
+      "options": [
+        "tebegyvena",
+        "nebegyvena",
+        "dar negyvena",
+        "jau negyvena"
+      ],
+      "correct": 0,
+      "explanation": "*Tebe-* is the prefixed ‘still’. *Nebe-* would be no longer; *dar negyvena* is not yet living there.",
+      "rulesTested": [
+        "tebe-counterpart"
+      ],
+      "vocabUsed": [
+        "tebe-",
+        "gyventi"
+      ]
+    },
+    {
+      "id": "a2nebe-q6",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Complete: **Jis nebeturi ______.**",
+      "options": [
+        "laiko",
+        "laiką",
+        "laikas",
+        "laike"
+      ],
+      "correct": 0,
+      "explanation": "Genitive of negation holds under *nebe-* exactly as under *ne-*: *laiko*, not accusative *laiką*.",
+      "rulesTested": [
+        "nebe-syntax",
+        "negation-genitive"
+      ],
+      "vocabUsed": [
+        "turėti",
+        "laikas",
+        "nebe-"
+      ]
+    },
+    {
+      "id": "a2nebe-q7",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "The correct form of *I no longer study* (*mokytis*) is:",
+      "options": [
+        "nebesimokau",
+        "nemokausi",
+        "nebemokausi",
+        "nesimokau"
+      ],
+      "correct": 0,
+      "explanation": "Outer *nebe-* then *-si-* then the stem: *nebesimokau*. Leaving *-si* at the end (*nebemokausi*) is the classic error; *nesimokau* is plain ‘I do not study’.",
+      "rulesTested": [
+        "nebe-syntax",
+        "si-under-negation"
+      ],
+      "vocabUsed": [
+        "mokytis",
+        "nebe-"
+      ]
+    },
+    {
+      "id": "a2nebe-q8",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which are written **together** as one word?",
+      "options": [
+        "nebegaliu",
+        "nebegeras",
+        "nebe laikas",
+        "Nebe skaito, o rašo"
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanation": "Together with verbs and adjectives; apart before nouns (*nebe laikas*) and under contrast (*Nebe skaito, o rašo*).",
+      "rulesTested": [
+        "nebe-formation"
+      ],
+      "vocabUsed": [
+        "nebe-",
+        "galėti"
+      ]
+    },
+    {
+      "id": "a2nebe-q9",
+      "type": "integer",
+      "difficulty": "medium",
+      "stem": "In the phasal square *dar / dar ne / jau / jau ne≈nebe*, how many cells mean **no longer**?",
+      "answer": 1,
+      "unit": "cells",
+      "explanation": "One meaning, two writings: *jau ne-* and *nebe-* occupy the same discontinuative cell.",
+      "rulesTested": [
+        "nebe-vs-dar-ne"
+      ],
+      "vocabUsed": [
+        "nebe-",
+        "jau",
+        "dar"
+      ]
+    },
+    {
+      "id": "a2nebe-q10",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete: **Šiandien ______.** (It is no longer raining.)",
+      "options": [
+        "nebelyja",
+        "nelyja",
+        "dar nelyja",
+        "tebelyja"
+      ],
+      "correct": 0,
+      "explanation": "*Nebelyja* = no longer raining. *Nelyja* is plain ‘is not raining’; *dar nelyja* is ‘is not raining yet’; *tebelyja* is ‘is still raining’.",
+      "rulesTested": [
+        "nebe-meaning"
+      ],
+      "vocabUsed": [
+        "lyti",
+        "nebe-"
+      ]
+    },
+    {
+      "id": "a2nebe-q11",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "About **nebe-** and **tebe-**, which are true?",
+      "options": [
+        "*nebe-* means the situation no longer holds",
+        "*tebe-* means the situation still holds",
+        "*nebe-* is only used in the past tense",
+        "*tebe-* is the free particle *dar* written twice"
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanation": "They are outer prefixes for ‘no longer’ and ‘still’, usable in any tense. *Dar* remains a separate particle.",
+      "rulesTested": [
+        "nebe-meaning",
+        "tebe-counterpart"
+      ],
+      "vocabUsed": [
+        "nebe-",
+        "tebe-"
+      ]
+    },
+    {
+      "id": "a2nebe-q12",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Complete: **Jis ______.** (He no longer arrives / comes by vehicle.)",
+      "options": [
+        "nebeatvažiuoja",
+        "neatvažiuoja be",
+        "atnebevažiuoja",
+        "ne atvažiuoja be"
+      ],
+      "correct": 0,
+      "explanation": "External *nebe-* stands **outside** the lexical prefix *at-*: *nebeatvažiuoja*. It is not inserted inside the stem.",
+      "rulesTested": [
+        "nebe-syntax",
+        "nebe-formation"
+      ],
+      "vocabUsed": [
+        "atvažiuoti",
+        "nebe-"
+      ]
+    },
+    {
+      "id": "a2nebe-q13",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Aš ______ kavos.** (I no longer want coffee.)",
+      "options": [
+        "nebenoriu",
+        "nenoriu",
+        "dar nenoriu",
+        "tebenoriu"
+      ],
+      "correct": 0,
+      "explanation": "*Nebenoriu* = no longer want. Genitive *kavos* follows from negation of *norėti*.",
+      "rulesTested": [
+        "nebe-meaning",
+        "negation-genitive"
+      ],
+      "vocabUsed": [
+        "norėti",
+        "kava",
+        "nebe-"
+      ]
+    },
+    {
+      "id": "a2nebe-q14",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "How many **external** prefixes of the set *ne-, te-, be-, nebe-, tebe-* appear in **jau nebesimokau**?",
+      "answer": 1,
+      "unit": "prefixes",
+      "explanation": "One outer complex: *nebe-*. *Jau* is a free particle; *-si-* is the reflexive affix, not one of those five prefixes.",
+      "rulesTested": [
+        "nebe-syntax",
+        "nebe-formation"
+      ],
+      "vocabUsed": [
+        "nebe-",
+        "mokytis",
+        "jau"
+      ]
+    },
+    {
+      "id": "a2nebe-p1",
+      "type": "comprehension",
+      "difficulty": "hard",
+      "title": "Laiškas draugui",
+      "passage": "Labas, Tomai.\nAš jau nebegyvenu Kaune — dabar esu Vilniuje. Dar nedirbu naujame darbe, bet tebegyvenu pas seserį. Seniau mokausi vokiečių kalbos, bet dabar nebesimokau: nebeturiu laiko. Jeigu atvažiuosi, parašyk. Nebeskambink vėlai vakare — miegame anksti.\nIki,\nRūta",
+      "translation": "Hello, Tomas.\nI no longer live in Kaunas — I am in Vilnius now. I am not working in the new job yet, but I am still living at my sister's. I used to study German, but I no longer study it: I no longer have time. If you come, write. Do not call late in the evening any more — we sleep early.\nBye,\nRūta",
+      "glossary": {
+        "seniau": "formerly, in the past",
+        "vėlai": "late"
+      },
+      "questions": [
+        {
+          "id": "a2nebe-p1-q1",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "*Aš jau nebegyvenu Kaune* means:",
+          "options": [
+            "I no longer live in Kaunas",
+            "I do not yet live in Kaunas",
+            "I still live in Kaunas",
+            "I never lived in Kaunas"
+          ],
+          "correct": 0,
+          "explanation": "*Jau nebe-* is the emphatic discontinuative: no longer.",
+          "rulesTested": [
+            "nebe-meaning",
+            "nebe-vs-dar-ne"
+          ],
+          "vocabUsed": [
+            "gyventi",
+            "nebe-",
+            "jau"
+          ]
+        },
+        {
+          "id": "a2nebe-p1-q2",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "*Dar nedirbu* against *tebegyvenu* — which reading is right?",
+          "options": [
+            "not working yet; still living (at the sister's)",
+            "no longer working; no longer living",
+            "still working; not living yet",
+            "already working; still living"
+          ],
+          "correct": 0,
+          "explanation": "*Dar ne-* = not yet; *tebe-* = still (prefixed).",
+          "rulesTested": [
+            "nebe-vs-dar-ne",
+            "tebe-counterpart"
+          ],
+          "vocabUsed": [
+            "dar",
+            "dirbti",
+            "tebe-",
+            "gyventi"
+          ]
+        },
+        {
+          "id": "a2nebe-p1-q3",
+          "type": "multi",
+          "difficulty": "hard",
+          "stem": "Which forms in the letter correctly show **nebe-** + grammar already learnt?",
+          "options": [
+            "*nebesimokau* — *nebe-* then *-si-*",
+            "*nebeturiu laiko* — genitive under negation",
+            "*nebeskambink* — *nebe-* on an imperative",
+            "*nebegyvenu* written as *ne be gyvenu*"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "Reflexive migration, genitive of negation, and prefixed imperative are all real. Splitting *nebe-* from the verb is wrong.",
+          "rulesTested": [
+            "nebe-syntax",
+            "nebe-formation"
+          ],
+          "vocabUsed": [
+            "mokytis",
+            "turėti",
+            "laikas",
+            "nebe-"
+          ]
+        },
+        {
+          "id": "a2nebe-p1-q4",
+          "type": "integer",
+          "difficulty": "hard",
+          "stem": "How many **nebe-** verb forms appear in the letter?",
+          "answer": 4,
+          "unit": "forms",
+          "explanation": "*nebegyvenu*, *nebesimokau*, *nebeturiu*, *nebeskambink* — four.",
+          "rulesTested": [
+            "nebe-meaning"
+          ],
+          "vocabUsed": [
+            "nebe-"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2nebe-x1",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete: **Mes ______ duonos.** (We no longer eat bread.)",
+      "options": [
+        "nebevalgome",
+        "nevalgome",
+        "dar nevalgome",
+        "tebevalgome"
+      ],
+      "correct": 0,
+      "explanation": "*Nebevalgome* + genitive *duonos*.",
+      "rulesTested": [
+        "nebe-meaning",
+        "negation-genitive"
+      ],
+      "vocabUsed": [
+        "valgyti",
+        "duona",
+        "nebe-"
+      ]
+    },
+    {
+      "id": "a2nebe-x2",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Which is the best gloss of **tebeaplanko**?",
+      "options": [
+        "still visits",
+        "no longer visits",
+        "does not visit yet",
+        "will visit"
+      ],
+      "correct": 0,
+      "explanation": "*Tebe-* = still (Arkadiev’s *te-be-* continuative).",
+      "rulesTested": [
+        "tebe-counterpart"
+      ],
+      "vocabUsed": [
+        "tebe-"
+      ]
+    },
+    {
+      "id": "a2nebe-x3",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Complete: **______ pinigų.** Which fit *I no longer have money*?",
+      "options": [
+        "Nebeturiu",
+        "Jau neturiu",
+        "Dar neturiu",
+        "Tebeturiu"
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanation": "*Nebeturiu* and *jau neturiu* = no longer have (genitive *pinigų*). *Dar neturiu* = do not have yet; *tebeturiu* = still have.",
+      "rulesTested": [
+        "nebe-vs-dar-ne",
+        "nebe-syntax"
+      ],
+      "vocabUsed": [
+        "turėti",
+        "pinigai",
+        "nebe-",
+        "jau",
+        "dar"
+      ]
+    },
+    {
+      "id": "a2nebe-x4",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Why is ***nebemokausi*** wrong for *I no longer study*?",
+      "options": [
+        "Because *-si-* must stand after the outer prefix: *nebesimokau*",
+        "Because *nebe-* cannot combine with reflexives",
+        "Because the verb must stay affirmative",
+        "Because only *tebe-* is allowed with *-si-*"
+      ],
+      "correct": 0,
+      "explanation": "Same migration rule as *nesimokau*: prefix first, then *-si-*, then the personal form.",
+      "rulesTested": [
+        "nebe-syntax",
+        "si-under-negation"
+      ],
+      "vocabUsed": [
+        "mokytis",
+        "nebe-"
+      ]
+    },
+    {
+      "id": "a2nebe-x5",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Oras ______ šiltas.** (The weather is no longer warm — adjective.)",
+      "options": [
+        "nebe",
+        "nebešiltas",
+        "dar ne šiltas",
+        "tebešiltas"
+      ],
+      "correct": 1,
+      "explanation": "With adjectives *nebe-* is written together: *nebešiltas*. (*Nebe šiltas, o šaltas* would be contrast with a space.)",
+      "rulesTested": [
+        "nebe-formation"
+      ],
+      "vocabUsed": [
+        "nebe-",
+        "šiltas"
+      ]
+    },
+    {
+      "id": "a2nebe-x6",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete: **______ laikas eiti.** (It is no longer time to go — before a noun.)",
+      "options": [
+        "Nebe",
+        "Nebe-",
+        "Nebelaikas",
+        "Tebe"
+      ],
+      "correct": 0,
+      "explanation": "Before a noun *nebe* is a separate word: *Nebe laikas eiti.*",
+      "rulesTested": [
+        "nebe-formation"
+      ],
+      "vocabUsed": [
+        "nebe-",
+        "laikas",
+        "eiti"
+      ]
+    },
+    {
+      "id": "a2nebe-x7",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which pairs are real antonyms on the verb?",
+      "options": [
+        "*tebedirba* ↔ *nebedirba*",
+        "*dar dirba* ↔ *dar nedirba*",
+        "*jau dirba* ↔ *jau nedirba*",
+        "*nedirba* ↔ *tebedirba* as the only allowed pair"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Prefixed *tebe-/nebe-* and the particle squares with *dar* and *jau* are all real. Plain *ne-* is not the dedicated partner of *tebe-*.",
+      "rulesTested": [
+        "tebe-counterpart",
+        "nebe-vs-dar-ne"
+      ],
+      "vocabUsed": [
+        "tebe-",
+        "nebe-",
+        "dar",
+        "jau",
+        "dirbti"
+      ]
+    },
+    {
+      "id": "a2nebe-x8",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete: **Ji ______.** (She can no longer.)",
+      "options": [
+        "nebegali",
+        "negali be",
+        "dar negali",
+        "tebegali"
+      ],
+      "correct": 0,
+      "explanation": "*Nebegali* — one word. *Dar negali* would be ‘cannot yet’.",
+      "rulesTested": [
+        "nebe-meaning",
+        "nebe-formation"
+      ],
+      "vocabUsed": [
+        "galėti",
+        "nebe-"
+      ]
+    },
+    {
+      "id": "a2nebe-x9",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "In Ostrowski’s terms, *Jonas nebeturi laiko* paraphrases as:",
+      "options": [
+        "It is not true that Jonas still has time",
+        "It is not true that Jonas already has time",
+        "Jonas has time but denies it politely",
+        "Jonas never had time"
+      ],
+      "correct": 0,
+      "explanation": "Outer negation over continuative *be-*: ¬(still p) = no longer p.",
+      "rulesTested": [
+        "nebe-formation",
+        "nebe-meaning"
+      ],
+      "vocabUsed": [
+        "turėti",
+        "laikas",
+        "nebe-"
+      ]
+    },
+    {
+      "id": "a2nebe-x10",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Complete: **______ namie.** Which mean *He no longer is at home / does not live at home any more* with a verb of living or being?",
+      "options": [
+        "Jis nebegyvena",
+        "Jis jau negyvena",
+        "Jis dar negyvena",
+        "Jis tebegyvena"
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanation": "*Nebe-* and *jau ne-* = no longer. *Dar negyvena* = does not live there yet; *tebe-* = still.",
+      "rulesTested": [
+        "nebe-vs-dar-ne"
+      ],
+      "vocabUsed": [
+        "gyventi",
+        "nebe-",
+        "jau",
+        "dar",
+        "tebe-"
+      ]
+    }
+  ]
+}

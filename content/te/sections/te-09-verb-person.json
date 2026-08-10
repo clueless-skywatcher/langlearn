@@ -15,15 +15,18 @@
         {
           "target": "నేను పుస్తకం చదువుతున్నాను.",
           "gloss": "I am reading a book.",
-          "note": "I — book — am-reading"
+          "note": "I — book — am-reading",
+          "roman": "nēnu pustakaṁ caduvutunnānu."
         },
         {
           "target": "అతను ఇంట్లో ఉన్నాడు.",
-          "gloss": "He is in the house."
+          "gloss": "He is in the house.",
+          "roman": "atanu iṇṭlō unnāḍu."
         },
         {
           "target": "మేము తెలుగు నేర్చుకుంటున్నాము.",
-          "gloss": "We are learning Telugu."
+          "gloss": "We are learning Telugu.",
+          "roman": "mēmu telugu nērcukuṇṭunnāmu."
         }
       ],
       "seeAlso": [
@@ -102,7 +105,8 @@
       "examples": [
         {
           "target": "వెళ్ళాను / వెళ్ళావు / వెళ్ళాడు",
-          "gloss": "I went / you went / he went"
+          "gloss": "I went / you went / he went",
+          "roman": "veḷḷānu / veḷḷāvu / veḷḷāḍu"
         }
       ],
       "seeAlso": [
@@ -152,17 +156,20 @@
       "examples": [
         {
           "target": "అతను వెళ్ళాడు.",
-          "gloss": "He went."
+          "gloss": "He went.",
+          "roman": "atanu veḷḷāḍu."
         },
         {
           "target": "ఆమె వెళ్ళింది.",
           "gloss": "She went.",
-          "note": "the same ending as అది వెళ్ళింది, it went"
+          "note": "the same ending as అది వెళ్ళింది, it went",
+          "roman": "āme veḷḷindi."
         },
         {
           "target": "వాళ్ళు వెళ్ళారు.",
           "gloss": "They went.",
-          "note": "men and women alike"
+          "note": "men and women alike",
+          "roman": "vāḷḷu veḷḷāru."
         }
       ],
       "seeAlso": [
@@ -242,11 +249,13 @@
       "examples": [
         {
           "target": "నేను పుస్తకం చదువుతున్నాను.",
-          "gloss": "I am reading a book."
+          "gloss": "I am reading a book.",
+          "roman": "nēnu pustakaṁ caduvutunnānu."
         },
         {
           "target": "వాళ్ళు ఇంట్లో ఉన్నారు.",
-          "gloss": "They are in the house."
+          "gloss": "They are in the house.",
+          "roman": "vāḷḷu iṇṭlō unnāru."
         }
       ],
       "seeAlso": [
@@ -298,12 +307,14 @@
       "examples": [
         {
           "target": "నేను రోజూ చదువుతాను.",
-          "gloss": "I read every day."
+          "gloss": "I read every day.",
+          "roman": "nēnu rōjū caduvutānu."
         },
         {
           "target": "నేను రేపు వెళ్తాను.",
           "gloss": "I will go tomorrow.",
-          "note": "the same form, the adverb deciding"
+          "note": "the same form, the adverb deciding",
+          "roman": "nēnu rēpu veḷtānu."
         }
       ],
       "seeAlso": [
@@ -320,17 +331,20 @@
       "examples": [
         {
           "target": "నేను వెళ్ళాను. → నేను వెళ్ళలేదు.",
-          "gloss": "I went. → I did not go."
+          "gloss": "I went. → I did not go.",
+          "roman": "nēnu veḷḷānu. → nēnu veḷḷalēdu."
         },
         {
           "target": "అతను వెళ్ళలేదు.",
           "gloss": "He did not go.",
-          "note": "the same form, whoever the subject"
+          "note": "the same form, whoever the subject",
+          "roman": "atanu veḷḷalēdu."
         },
         {
           "target": "ఇది పుస్తకం కాదు.",
           "gloss": "This is not a book.",
-          "note": "కాదు denies an identity, not an action"
+          "note": "కాదు denies an identity, not an action",
+          "roman": "idi pustakaṁ kādu."
         }
       ],
       "footnotes": [
@@ -350,15 +364,18 @@
       "examples": [
         {
           "target": "చదువు",
-          "gloss": "read (root; also 'read!' to a friend)"
+          "gloss": "read (root; also 'read!' to a friend)",
+          "roman": "caduvu"
         },
         {
           "target": "చదువు + తున్న + ను",
-          "gloss": "→ చదువుతున్నాను, I am reading"
+          "gloss": "→ చదువుతున్నాను, I am reading",
+          "roman": "caduvu + tunna + nu"
         },
         {
           "target": "చదువు + తా + ను",
-          "gloss": "→ చదువుతాను, I read / I will read"
+          "gloss": "→ చదువుతాను, I read / I will read",
+          "roman": "caduvu + tā + nu"
         }
       ],
       "seeAlso": [
@@ -802,7 +819,8 @@
             "అమ్మ"
           ]
         }
-      ]
+      ],
+      "romanization": "nēnu rōjū pustakaṁ caduvutānu. ippuḍu nēnu iṇṭlō unnānu. nā anna ikkaḍa lēḍu — atanu ūriki veḷḷāḍu. amma vaṇṭa cēstōndi. kukkalu bayaṭa unnāyi. rēpu mēmu ūriki veḷtāmu. ninna mēmu veḷḷalēdu."
     }
   ]
 }

@@ -2,153 +2,17 @@
   "id": "a1-cp-04",
   "kind": "checkpoint",
   "level": "A1",
-  "order": 18,
-  "title": "Checkpoint: The Last Cases and the Three Tenses",
-  "summary": "A cumulative examination of sections eleven to fourteen: the instrumental and the vocative that complete the declension, the numerals with the hour and the date, and the past and future that complete the indicative.",
+  "order": 19,
+  "title": "Checkpoint: Time, Years and Age, and the Past and Future",
+  "summary": "A cumulative examination of numerals with the hour and the date, years and age, and the past and future that complete the indicative.",
   "covers": [
-    "a1-11",
     "a1-12",
+    "a1-years-age",
     "a1-13",
     "a1-14"
   ],
   "passThreshold": 60,
   "drills": [
-    {
-      "id": "cp4-q1",
-      "type": "single",
-      "difficulty": "easy",
-      "fromSection": "a1-11",
-      "stem": "Instrumental singular of **katė**?",
-      "options": [
-        "katei",
-        "kate",
-        "katėje",
-        "katės"
-      ],
-      "correct": 1,
-      "explanation": "*-ė* → instrumental *-e*: *kate*. *katei* dative; *katėje* locative.",
-      "rulesTested": [
-        "instrumental-singular"
-      ],
-      "vocabUsed": [
-        "katė"
-      ]
-    },
-    {
-      "id": "cp4-q2",
-      "type": "single",
-      "difficulty": "easy",
-      "fromSection": "a1-11",
-      "stem": "How do you address **mokytojas**?",
-      "options": [
-        "mokytojas",
-        "mokytojai",
-        "mokytojau",
-        "mokytoje"
-      ],
-      "correct": 2,
-      "explanation": "Agent *-ojas* → vocative **-au**. *mokytojai* is nominative plural.",
-      "rulesTested": [
-        "vocative"
-      ],
-      "vocabUsed": [
-        "mokytojas"
-      ]
-    },
-    {
-      "id": "cp4-q3",
-      "type": "multi",
-      "difficulty": "medium",
-      "fromSection": "a1-11",
-      "stem": "Which correctly use the instrumental?",
-      "options": [
-        "Važiuoju autobusu.",
-        "Einu su draugu.",
-        "Rašau su pieštuku.",
-        "Sergu gripą."
-      ],
-      "correct": [
-        0,
-        1
-      ],
-      "explanation": "Means = bare instrumental; company = *su*+instr. Pencil is means (no *su*); *sirgti* needs *gripu*, not accusative.",
-      "rulesTested": [
-        "instrumental-means",
-        "instrumental-su",
-        "instrumental-verbs"
-      ],
-      "vocabUsed": [
-        "važiuoti",
-        "autobusas",
-        "eiti",
-        "su",
-        "draugas",
-        "rašyti",
-        "pieštukas",
-        "sirgti",
-        "gripas"
-      ]
-    },
-    {
-      "id": "cp4-q4",
-      "type": "single",
-      "difficulty": "medium",
-      "fromSection": "a1-11",
-      "stem": "**Knyga po stalu** vs **Po pietų dirbu** — difference?",
-      "options": [
-        "None.",
-        "Instrumental = under; genitive = after.",
-        "Word order alone.",
-        "First needs *ant*."
-      ],
-      "correct": 1,
-      "explanation": "Case selects meaning of *po* (¶75).",
-      "rulesTested": [
-        "instrumental-po",
-        "genitive-prepositions"
-      ],
-      "vocabUsed": [
-        "knyga",
-        "po",
-        "stalas",
-        "dirbti"
-      ]
-    },
-    {
-      "id": "cp4-q5",
-      "type": "single",
-      "difficulty": "hard",
-      "fromSection": "a1-11",
-      "stem": "Dative plural of **knyga**?",
-      "options": [
-        "knygomis",
-        "knygoms",
-        "knygose",
-        "knygų"
-      ],
-      "correct": 1,
-      "explanation": "Dative pl. *-oms* vs instrumental pl. *-omis*. *knygose* locative; *knygų* genitive.",
-      "rulesTested": [
-        "dative-plural"
-      ],
-      "vocabUsed": [
-        "knyga"
-      ]
-    },
-    {
-      "id": "cp4-q6",
-      "type": "integer",
-      "difficulty": "hard",
-      "fromSection": "a1-11",
-      "stem": "How many letters in vocative **Vytautai**?",
-      "answer": 8,
-      "unit": "letters",
-      "explanation": "Eight. Names in *-as* take **-ai**, not ordinary *-e*.",
-      "rulesTested": [
-        "vocative"
-      ],
-      "vocabUsed": []
-    },
     {
       "id": "cp4-q7",
       "type": "single",
@@ -428,7 +292,7 @@
         "Because of negation."
       ],
       "correct": 1,
-      "explanation": "*būti* links; predicate nominative holds in past (¶91).",
+      "explanation": "*būti* links; predicate nominative holds in past (¶96).",
       "rulesTested": [
         "past-buti",
         "predicate-nominative"
@@ -469,7 +333,7 @@
         "*-au* is shared by two conjugations."
       ],
       "correct": 1,
-      "explanation": "Context/adverbs supply the English nuance (¶93).",
+      "explanation": "Context/adverbs supply the English nuance (¶98).",
       "rulesTested": [
         "past-narrative",
         "past-o-type"
@@ -512,7 +376,7 @@
         "No future."
       ],
       "correct": 1,
-      "explanation": "Stems in s/z/š/ž absorb the marker (¶95).",
+      "explanation": "Stems in s/z/š/ž absorb the marker (¶100).",
       "rulesTested": [
         "future-consonant-changes"
       ],
@@ -562,7 +426,7 @@
         "Verbs must match."
       ],
       "correct": 1,
-      "explanation": "Lithuanian says what it means (¶98).",
+      "explanation": "Lithuanian says what it means (¶103).",
       "rulesTested": [
         "future-uses",
         "future-formation"
@@ -616,27 +480,6 @@
       "vocabUsed": []
     },
     {
-      "id": "cp4-x1",
-      "type": "single",
-      "difficulty": "easy",
-      "fromSection": "a1-11",
-      "stem": "Instrumental singular of **autobusas**?",
-      "options": [
-        "autobusui",
-        "autobusu",
-        "autobuso",
-        "autobusą"
-      ],
-      "correct": 1,
-      "explanation": "*-as* → **-u**: *autobusu* (¶71).",
-      "rulesTested": [
-        "instrumental-singular"
-      ],
-      "vocabUsed": [
-        "autobusas"
-      ]
-    },
-    {
       "id": "cp4-x2",
       "type": "single",
       "difficulty": "easy",
@@ -672,7 +515,7 @@
         "dirbsiu"
       ],
       "correct": 1,
-      "explanation": "*-o* type → *dirbau* (¶89).",
+      "explanation": "*-o* type → *dirbau* (¶94).",
       "rulesTested": [
         "past-o-type",
         "past-stem"
@@ -694,35 +537,12 @@
         "dirbs"
       ],
       "correct": 2,
-      "explanation": "*dirb-* + *-s-* + *-iu* (¶94).",
+      "explanation": "*dirb-* + *-s-* + *-iu* (¶99).",
       "rulesTested": [
         "future-formation"
       ],
       "vocabUsed": [
         "dirbti"
-      ]
-    },
-    {
-      "id": "cp4-x5",
-      "type": "single",
-      "difficulty": "medium",
-      "fromSection": "a1-11",
-      "stem": "Complete: **Gyvenu ____ broliu.**",
-      "options": [
-        "į",
-        "su",
-        "ant",
-        "be"
-      ],
-      "correct": 1,
-      "explanation": "Company = *su* + instrumental (¶74).",
-      "rulesTested": [
-        "instrumental-su"
-      ],
-      "vocabUsed": [
-        "gyventi",
-        "su",
-        "brolis"
       ]
     },
     {
@@ -760,7 +580,7 @@
         "bus"
       ],
       "correct": 1,
-      "explanation": "Past of *būti*: *buvau* (¶91).",
+      "explanation": "Past of *būti*: *buvau* (¶96).",
       "rulesTested": [
         "past-buti"
       ],
@@ -783,44 +603,12 @@
         "grįš"
       ],
       "correct": 1,
-      "explanation": "*ž* merges with *-s-*: *grįšiu* (¶95).",
+      "explanation": "*ž* merges with *-s-*: *grįšiu* (¶100).",
       "rulesTested": [
         "future-consonant-changes"
       ],
       "vocabUsed": [
         "grįžti"
-      ]
-    },
-    {
-      "id": "cp4-x9",
-      "type": "multi",
-      "difficulty": "medium",
-      "fromSection": "a1-11",
-      "stem": "Which are **correct**?",
-      "options": [
-        "Rašau pieštuku.",
-        "Važiuoju autobusu.",
-        "Rašau su pieštuku.",
-        "Einu su draugu."
-      ],
-      "correct": [
-        0,
-        1,
-        3
-      ],
-      "explanation": "Means bare; company with *su*. *Rašau su pieštuku* is the near-miss (¶73–74).",
-      "rulesTested": [
-        "instrumental-means",
-        "instrumental-su"
-      ],
-      "vocabUsed": [
-        "rašyti",
-        "pieštukas",
-        "važiuoti",
-        "autobusas",
-        "su",
-        "eiti",
-        "draugas"
       ]
     },
     {
@@ -873,7 +661,7 @@
         1,
         2
       ],
-      "explanation": "*gyvena* is present (¶89–90).",
+      "explanation": "*gyvena* is present (¶94–90).",
       "rulesTested": [
         "past-e-type",
         "past-o-type"
@@ -897,7 +685,7 @@
         "nepirks"
       ],
       "correct": 0,
-      "explanation": "Future negation + genitive object (¶97).",
+      "explanation": "Future negation + genitive object (¶102).",
       "rulesTested": [
         "future-negation"
       ],
@@ -906,29 +694,6 @@
         "pirkti",
         "šis",
         "knyga"
-      ]
-    },
-    {
-      "id": "cp4-x13",
-      "type": "single",
-      "difficulty": "hard",
-      "fromSection": "a1-11",
-      "stem": "Complete: **Aš sergu ____.**",
-      "options": [
-        "gripą",
-        "gripu",
-        "gripo",
-        "gripas"
-      ],
-      "correct": 1,
-      "explanation": "*sirgti* + instrumental (¶77).",
-      "rulesTested": [
-        "instrumental-verbs"
-      ],
-      "vocabUsed": [
-        "sirgti",
-        "gripas",
-        "aš"
       ]
     },
     {
@@ -968,12 +733,56 @@
       "stem": "Letters in past 1sg **buvau**?",
       "answer": 5,
       "unit": "letters",
-      "explanation": "Five: b-u-v-a-u (¶91).",
+      "explanation": "Five: b-u-v-a-u (¶96).",
       "rulesTested": [
         "past-buti"
       ],
       "vocabUsed": [
         "būti"
+      ]
+    },
+    {
+      "id": "cp4-b2",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a1-13",
+      "stem": "Complete: **Vakar aš ______ namie.**",
+      "options": [
+        "buvau",
+        "esu",
+        "būsiu",
+        "būčiau"
+      ],
+      "correct": 0,
+      "explanation": "Past of *būti*: *buvau*.",
+      "rulesTested": [
+        "past-buti"
+      ],
+      "vocabUsed": [
+        "būti",
+        "vakar"
+      ]
+    },
+    {
+      "id": "cp4-b3",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "a1-14",
+      "stem": "Complete: **Rytoj aš ______.**",
+      "options": [
+        "dirbsiu",
+        "dirbau",
+        "dirbu",
+        "dirbėčiau"
+      ],
+      "correct": 0,
+      "explanation": "Future *dirbsiu* with *rytoj*.",
+      "rulesTested": [
+        "future-formation"
+      ],
+      "vocabUsed": [
+        "dirbti",
+        "rytoj"
       ]
     },
     {
@@ -1015,38 +824,6 @@
           ]
         },
         {
-          "id": "cp4-p1-q2",
-          "type": "multi",
-          "difficulty": "medium",
-          "fromSection": "a1-11",
-          "stem": "Which instrumental uses appear?",
-          "options": [
-            "su broliu — company",
-            "traukiniu — means",
-            "po stalu — under",
-            "antra valanda — means"
-          ],
-          "correct": [
-            0,
-            1,
-            2
-          ],
-          "explanation": "*antrą valandą* is accusative of time, not instrumental. The first three are company, means, and *po*+instrumental.",
-          "rulesTested": [
-            "instrumental-su",
-            "instrumental-means",
-            "instrumental-po"
-          ],
-          "vocabUsed": [
-            "su",
-            "brolis",
-            "traukinys",
-            "po",
-            "stalas",
-            "valanda"
-          ]
-        },
-        {
           "id": "cp4-p1-q3",
           "type": "integer",
           "difficulty": "hard",
@@ -1078,7 +855,7 @@
             "Dative forces future."
           ],
           "correct": 1,
-          "explanation": "Consonant absorption + future-in-both-halves (¶95 / ¶98).",
+          "explanation": "Consonant absorption + future-in-both-halves (¶100 / ¶103).",
           "rulesTested": [
             "future-consonant-changes",
             "future-uses",
@@ -1110,6 +887,243 @@
             "reikia"
           ]
         }
+      ]
+    },
+    {
+      "id": "cp4-ya1",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "a1-years-age",
+      "stem": "Complete: **______ tau metų?**",
+      "options": [
+        "Kiek",
+        "Koks",
+        "Kur",
+        "Kada"
+      ],
+      "correct": 0,
+      "explanation": "*Kiek tau metų?*",
+      "rulesTested": [
+        "dative-of-age"
+      ],
+      "vocabUsed": [
+        "metai"
+      ]
+    },
+    {
+      "id": "cp4-ya2",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "a1-years-age",
+      "stem": "Complete: **______ dvidešimt metų.**",
+      "options": [
+        "Man",
+        "Aš",
+        "Mano",
+        "Mane"
+      ],
+      "correct": 0,
+      "explanation": "Dative of age: *Man … metų*.",
+      "rulesTested": [
+        "dative-of-age"
+      ],
+      "vocabUsed": [
+        "metai",
+        "dvidešimt"
+      ]
+    },
+    {
+      "id": "cp4-ya3",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a1-years-age",
+      "stem": "Complete: **Jam ______.** (He is five.)",
+      "options": [
+        "penkeri metai",
+        "penki metai",
+        "penkių metų",
+        "penkis metus"
+      ],
+      "correct": 0,
+      "explanation": "*Penkeri metai* with the plural numeral.",
+      "rulesTested": [
+        "metai-plurale",
+        "dative-of-age"
+      ],
+      "vocabUsed": [
+        "penkeri",
+        "metai"
+      ]
+    },
+    {
+      "id": "cp4-ya4",
+      "type": "multi",
+      "difficulty": "medium",
+      "fromSection": "a1-years-age",
+      "stem": "Which correctly count years?",
+      "options": [
+        "vieneri metai",
+        "dešimt metų",
+        "dešimt metai",
+        "dveji metai"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "*Dešimt* takes genitive *metų*.",
+      "rulesTested": [
+        "metai-plurale"
+      ],
+      "vocabUsed": [
+        "vieneri",
+        "dešimt",
+        "dveji",
+        "metai"
+      ]
+    },
+    {
+      "id": "cp4-ya5",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "a1-years-age",
+      "stem": "Complete: **Gimiau 1995 ______.**",
+      "options": [
+        "metais",
+        "metų",
+        "metai",
+        "metus"
+      ],
+      "correct": 0,
+      "explanation": "Calendar year: instrumental *metais*.",
+      "rulesTested": [
+        "year-when"
+      ],
+      "vocabUsed": [
+        "gimti",
+        "metai"
+      ]
+    },
+    {
+      "id": "cp4-ya6",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "a1-years-age",
+      "stem": "Complete: **Gimiau 1995 metais ______ dešimtą.**",
+      "options": [
+        "birželio",
+        "birželis",
+        "birželį",
+        "birželyje"
+      ],
+      "correct": 0,
+      "explanation": "Month in the genitive.",
+      "rulesTested": [
+        "full-date-born",
+        "months-and-dates"
+      ],
+      "vocabUsed": [
+        "gimti",
+        "birželis"
+      ]
+    },
+    {
+      "id": "cp4-ya7",
+      "type": "multi",
+      "difficulty": "hard",
+      "fromSection": "a1-years-age",
+      "stem": "Which labels are right?",
+      "options": [
+        "*Man dvidešimt metų* — age",
+        "*dvejus metus* — duration",
+        "*prieš penkerius metus* — ago",
+        "*1995 metais* — present age"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "*Metais* with a year number answers *when?*, not how old someone is.",
+      "rulesTested": [
+        "age-time-contrast",
+        "year-when"
+      ],
+      "vocabUsed": [
+        "metai",
+        "dvidešimt",
+        "prieš",
+        "penkeri",
+        "dveji"
+      ]
+    },
+    {
+      "id": "cp4-ya8",
+      "type": "integer",
+      "difficulty": "medium",
+      "fromSection": "a1-years-age",
+      "stem": "In **tūkstantis … penktaisiais metais**, how many ordinals stand before *metais*?",
+      "answer": 1,
+      "unit": "ordinals",
+      "explanation": "Only the last element is ordinal.",
+      "rulesTested": [
+        "year-when"
+      ],
+      "vocabUsed": [
+        "tūkstantis",
+        "metai",
+        "penktas"
+      ]
+    },
+    {
+      "id": "cp4-ya9",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a1-years-age",
+      "stem": "Complete: **Prieš ______ grįžau.** (I returned five years ago.)",
+      "options": [
+        "penkerius metus",
+        "penkeri metai",
+        "penktaisiais metais",
+        "penkių metų"
+      ],
+      "correct": 0,
+      "explanation": "*Prieš* + accusative.",
+      "rulesTested": [
+        "age-time-contrast",
+        "time-prepositions"
+      ],
+      "vocabUsed": [
+        "prieš",
+        "penkeri",
+        "metai"
+      ]
+    },
+    {
+      "id": "cp4-ya10",
+      "type": "multi",
+      "difficulty": "easy",
+      "fromSection": "a1-years-age",
+      "stem": "Which ask or state age correctly?",
+      "options": [
+        "Kiek jums metų?",
+        "Man penkeri metai.",
+        "Aš esu penkeri metai.",
+        "Kiek tau metų?"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "Nominative *aš esu … metai* is wrong.",
+      "rulesTested": [
+        "dative-of-age"
+      ],
+      "vocabUsed": [
+        "metai",
+        "penkeri"
       ]
     }
   ]

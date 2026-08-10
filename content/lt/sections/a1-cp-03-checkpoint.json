@@ -2,13 +2,14 @@
   "id": "a1-cp-03",
   "kind": "checkpoint",
   "level": "A1",
-  "order": 13,
-  "title": "Checkpoint: Number, Place, and the Person Concerned",
-  "summary": "A cumulative examination of sections eight to ten: the plural in three cases with the numerals that govern them, the locative against the accusative of direction, and the dative with the constructions built on it.",
+  "order": 14,
+  "title": "Checkpoint: The Plural, Place, the Dative, and the Instrumental",
+  "summary": "A cumulative examination of sections eight to eleven: the plural and numeral government, the locative and place, the dative, and the instrumental and vocative that complete the singular declension.",
   "covers": [
     "a1-08",
     "a1-09",
-    "a1-10"
+    "a1-10",
+    "a1-11"
   ],
   "passThreshold": 60,
   "drills": [
@@ -970,6 +971,75 @@
       ]
     },
     {
+      "id": "cp3-b1",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a1-09",
+      "stem": "Complete: **Aš esu ______.**",
+      "options": [
+        "mokykloje",
+        "mokyklą",
+        "mokyklos",
+        "į mokyklą"
+      ],
+      "correct": 0,
+      "explanation": "Location: locative *mokykloje*. *Į mokyklą* is direction.",
+      "rulesTested": [
+        "locative-singular",
+        "direction-i"
+      ],
+      "vocabUsed": [
+        "būti",
+        "mokykla"
+      ]
+    },
+    {
+      "id": "cp3-b2",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "a1-09",
+      "stem": "Complete: **Einu ______.**",
+      "options": [
+        "į mokyklą",
+        "mokykloje",
+        "mokyklos",
+        "mokykla"
+      ],
+      "correct": 0,
+      "explanation": "Direction with *į* + accusative.",
+      "rulesTested": [
+        "direction-i"
+      ],
+      "vocabUsed": [
+        "eiti",
+        "mokykla",
+        "į"
+      ]
+    },
+    {
+      "id": "cp3-b3",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a1-10",
+      "stem": "Complete: **Aš duodu knygą ______.**",
+      "options": [
+        "jam",
+        "jį",
+        "jis",
+        "jo"
+      ],
+      "correct": 0,
+      "explanation": "Indirect object dative *jam*.",
+      "rulesTested": [
+        "indirect-object",
+        "dative-pronouns"
+      ],
+      "vocabUsed": [
+        "duoti",
+        "knyga"
+      ]
+    },
+    {
       "id": "cp3-p1",
       "type": "comprehension",
       "difficulty": "hard",
@@ -1113,6 +1183,295 @@
           ]
         }
       ]
+    },
+    {
+      "id": "cp4-q1",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "a1-11",
+      "stem": "Instrumental singular of **katė**?",
+      "options": [
+        "katei",
+        "kate",
+        "katėje",
+        "katės"
+      ],
+      "correct": 1,
+      "explanation": "*-ė* → instrumental *-e*: *kate*. *katei* dative; *katėje* locative.",
+      "rulesTested": [
+        "instrumental-singular"
+      ],
+      "vocabUsed": [
+        "katė"
+      ]
+    },
+    {
+      "id": "cp4-q2",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "a1-11",
+      "stem": "How do you address **mokytojas**?",
+      "options": [
+        "mokytojas",
+        "mokytojai",
+        "mokytojau",
+        "mokytoje"
+      ],
+      "correct": 2,
+      "explanation": "Agent *-ojas* → vocative **-au**. *mokytojai* is nominative plural.",
+      "rulesTested": [
+        "vocative"
+      ],
+      "vocabUsed": [
+        "mokytojas"
+      ]
+    },
+    {
+      "id": "cp4-q3",
+      "type": "multi",
+      "difficulty": "medium",
+      "fromSection": "a1-11",
+      "stem": "Which correctly use the instrumental?",
+      "options": [
+        "Važiuoju autobusu.",
+        "Einu su draugu.",
+        "Rašau su pieštuku.",
+        "Sergu gripą."
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanation": "Means = bare instrumental; company = *su*+instr. Pencil is means (no *su*); *sirgti* needs *gripu*, not accusative.",
+      "rulesTested": [
+        "instrumental-means",
+        "instrumental-su",
+        "instrumental-verbs"
+      ],
+      "vocabUsed": [
+        "važiuoti",
+        "autobusas",
+        "eiti",
+        "su",
+        "draugas",
+        "rašyti",
+        "pieštukas",
+        "sirgti",
+        "gripas"
+      ]
+    },
+    {
+      "id": "cp4-q4",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a1-11",
+      "stem": "**Knyga po stalu** vs **Po pietų dirbu** — difference?",
+      "options": [
+        "None.",
+        "Instrumental = under; genitive = after.",
+        "Word order alone.",
+        "First needs *ant*."
+      ],
+      "correct": 1,
+      "explanation": "Case selects meaning of *po* (¶75).",
+      "rulesTested": [
+        "instrumental-po",
+        "genitive-prepositions"
+      ],
+      "vocabUsed": [
+        "knyga",
+        "po",
+        "stalas",
+        "dirbti"
+      ]
+    },
+    {
+      "id": "cp4-q5",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "a1-11",
+      "stem": "Dative plural of **knyga**?",
+      "options": [
+        "knygomis",
+        "knygoms",
+        "knygose",
+        "knygų"
+      ],
+      "correct": 1,
+      "explanation": "Dative pl. *-oms* vs instrumental pl. *-omis*. *knygose* locative; *knygų* genitive.",
+      "rulesTested": [
+        "dative-plural"
+      ],
+      "vocabUsed": [
+        "knyga"
+      ]
+    },
+    {
+      "id": "cp4-q6",
+      "type": "integer",
+      "difficulty": "hard",
+      "fromSection": "a1-11",
+      "stem": "How many letters in vocative **Vytautai**?",
+      "answer": 8,
+      "unit": "letters",
+      "explanation": "Eight. Names in *-as* take **-ai**, not ordinary *-e*.",
+      "rulesTested": [
+        "vocative"
+      ],
+      "vocabUsed": []
+    },
+    {
+      "id": "cp4-x1",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "a1-11",
+      "stem": "Instrumental singular of **autobusas**?",
+      "options": [
+        "autobusui",
+        "autobusu",
+        "autobuso",
+        "autobusą"
+      ],
+      "correct": 1,
+      "explanation": "*-as* → **-u**: *autobusu* (¶71).",
+      "rulesTested": [
+        "instrumental-singular"
+      ],
+      "vocabUsed": [
+        "autobusas"
+      ]
+    },
+    {
+      "id": "cp4-x5",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a1-11",
+      "stem": "Complete: **Gyvenu ____ broliu.**",
+      "options": [
+        "į",
+        "su",
+        "ant",
+        "be"
+      ],
+      "correct": 1,
+      "explanation": "Company = *su* + instrumental (¶74).",
+      "rulesTested": [
+        "instrumental-su"
+      ],
+      "vocabUsed": [
+        "gyventi",
+        "su",
+        "brolis"
+      ]
+    },
+    {
+      "id": "cp4-x9",
+      "type": "multi",
+      "difficulty": "medium",
+      "fromSection": "a1-11",
+      "stem": "Which are **correct**?",
+      "options": [
+        "Rašau pieštuku.",
+        "Važiuoju autobusu.",
+        "Rašau su pieštuku.",
+        "Einu su draugu."
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "Means bare; company with *su*. *Rašau su pieštuku* is the near-miss (¶73–74).",
+      "rulesTested": [
+        "instrumental-means",
+        "instrumental-su"
+      ],
+      "vocabUsed": [
+        "rašyti",
+        "pieštukas",
+        "važiuoti",
+        "autobusas",
+        "su",
+        "eiti",
+        "draugas"
+      ]
+    },
+    {
+      "id": "cp4-x13",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "a1-11",
+      "stem": "Complete: **Aš sergu ____.**",
+      "options": [
+        "gripą",
+        "gripu",
+        "gripo",
+        "gripas"
+      ],
+      "correct": 1,
+      "explanation": "*sirgti* + instrumental (¶77).",
+      "rulesTested": [
+        "instrumental-verbs"
+      ],
+      "vocabUsed": [
+        "sirgti",
+        "gripas",
+        "aš"
+      ]
+    },
+    {
+      "id": "cp4-b1",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a1-11",
+      "stem": "Complete: **Rašau ______.**",
+      "options": [
+        "pieštuku",
+        "su pieštuku",
+        "pieštuką",
+        "pieštuko"
+      ],
+      "correct": 0,
+      "explanation": "Means = bare instrumental. *Su* would make the pencil a companion.",
+      "rulesTested": [
+        "instrumental-means"
+      ],
+      "vocabUsed": [
+        "rašyti",
+        "pieštukas"
+      ]
+    },
+    {
+      "id": "cp4-p1-q2",
+      "type": "multi",
+      "difficulty": "medium",
+      "fromSection": "a1-11",
+      "stem": "Which instrumental uses appear?",
+  "options": [
+    "su broliu — company",
+    "traukiniu — means",
+    "po stalu — under",
+    "namas — means"
+  ],
+  "correct": [
+    0,
+    1,
+    2
+  ],
+  "explanation": "Bare nominative *namas* is not an instrumental of means. The first three are company, means, and *po*+instrumental.",
+  "rulesTested": [
+    "instrumental-su",
+    "instrumental-means",
+    "instrumental-po"
+  ],
+  "vocabUsed": [
+    "su",
+    "brolis",
+    "traukinys",
+    "po",
+    "stalas",
+    "namas"
+  ]
     }
   ]
 }

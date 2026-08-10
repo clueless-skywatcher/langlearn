@@ -1088,6 +1088,76 @@
       ]
     },
     {
+      "id": "cp2-b1",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a1-04",
+      "stem": "Complete: **Knyga ______ ant stalo.**",
+      "options": [
+        "yra",
+        "yra knygą",
+        "turiu",
+        "nėra knygą"
+      ],
+      "correct": 0,
+      "explanation": "Simple locative existence with nominative subject.",
+      "rulesTested": [
+        "genitive-prepositions",
+        "buti-present"
+      ],
+      "vocabUsed": [
+        "knyga",
+        "ant",
+        "stalas",
+        "būti"
+      ]
+    },
+    {
+      "id": "cp2-b2",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "a1-04",
+      "stem": "Complete: **Aš neturiu ______.**",
+      "options": [
+        "knygos",
+        "knygą",
+        "knyga",
+        "knygai"
+      ],
+      "correct": 0,
+      "explanation": "Negation → genitive: *knygos*.",
+      "rulesTested": [
+        "negation-genitive"
+      ],
+      "vocabUsed": [
+        "turėti",
+        "knyga"
+      ]
+    },
+    {
+      "id": "cp2-b3",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a1-07",
+      "stem": "Complete: **______ tu gyveni?**",
+      "options": [
+        "Kur",
+        "Kas",
+        "Ką",
+        "Koks"
+      ],
+      "correct": 0,
+      "explanation": "Place question *kur*.",
+      "rulesTested": [
+        "question-adverbs"
+      ],
+      "vocabUsed": [
+        "kur",
+        "gyventi",
+        "tu"
+      ]
+    },
+    {
       "id": "cp2-p1",
       "type": "comprehension",
       "difficulty": "hard",

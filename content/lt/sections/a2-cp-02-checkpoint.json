@@ -2,7 +2,7 @@
   "id": "a2-cp-02",
   "kind": "checkpoint",
   "level": "A2",
-  "order": 8,
+  "order": 9,
   "title": "Checkpoint: Definite Forms, Clauses, and the Infinitive",
   "summary": "A cumulative examination of sections twenty-four to twenty-six: the definite adjective, the subordinators beyond *kad* and *ar*, and the complementary, purposive and nominal infinitive.",
   "covers": [
@@ -215,7 +215,7 @@
         "kad"
       ],
       "correct": 1,
-      "explanation": "**Kol** here is *until*. A comma stands before it (¶172).",
+      "explanation": "**Kol** here is *until*. A comma stands before it (¶182).",
       "rulesTested": [
         "kol-clause",
         "subordinate-comma"
@@ -276,7 +276,7 @@
         "That *ateis* is really a past form."
       ],
       "correct": 1,
-      "explanation": "Sequence of tenses in Lithuanian is honest reporting (¶173): he said *I shall come*, so *ateis* remains.",
+      "explanation": "Sequence of tenses in Lithuanian is honest reporting (¶183): he said *I shall come*, so *ateis* remains.",
       "rulesTested": [
         "sequence-of-tenses",
         "subordination-kad"
@@ -304,7 +304,7 @@
         1,
         3
       ],
-      "explanation": "*Jeigu* conditions; *although* is *nors*. The other three match the inventory of ¶174.",
+      "explanation": "*Jeigu* conditions; *although* is *nors*. The other three match the inventory of ¶184.",
       "rulesTested": [
         "subordinate-inventory",
         "nors-clause"
@@ -487,7 +487,7 @@
         "Because the sentence is future."
       ],
       "correct": 1,
-      "explanation": "The infinitive keeps its own government (¶179). *Norėti* + infinitive leaves no noun for the genitive of ¶39.",
+      "explanation": "The infinitive keeps its own government (¶189). *Norėti* + infinitive leaves no noun for the genitive of ¶39.",
       "rulesTested": [
         "infinitive-with-object",
         "complementary-infinitive-range",
@@ -527,7 +527,7 @@
         "Whether a comma follows."
       ],
       "correct": 1,
-      "explanation": "¶175: the same verb *turėti* means *have to* with an infinitive and *have* with a noun.",
+      "explanation": "¶185: the same verb *turėti* means *have to* with an infinitive and *have* with a noun.",
       "rulesTested": [
         "complementary-infinitive-range",
         "infinitive-choice"
@@ -580,7 +580,7 @@
         "That *papasakosiu* is really a present."
       ],
       "correct": 1,
-      "explanation": "Sequence of tenses (¶173): name the time of each event. Both are future, so both verbs are future.",
+      "explanation": "Sequence of tenses (¶183): name the time of each event. Both are future, so both verbs are future.",
       "rulesTested": [
         "sequence-of-tenses",
         "kai-clause",
@@ -605,153 +605,13 @@
         "Whether you are swimming now."
       ],
       "correct": 1,
-      "explanation": "**Mokėti** + infinitive is *know how* — a complementary infinitive of skill (¶175).",
+      "explanation": "**Mokėti** + infinitive is *know how* — a complementary infinitive of skill (¶185).",
       "rulesTested": [
         "complementary-infinitive-range"
       ],
       "vocabUsed": [
         "mokėti",
         "plaukti"
-      ]
-    },
-    {
-      "id": "a2cp2-p1",
-      "type": "comprehension",
-      "difficulty": "medium",
-      "fromSection": "a2-05",
-      "title": "Senoji salė",
-      "passage": "Kai naujasis direktorius atėjo, visi norėjo klausyti jo. Nors salė buvo sena, studentai sakė, kad senoji geresnė už naująją. „Eikime ten skaityti,“ — siūlė Rūta. — „Kol biblioteka dirba, galime baigti darbą.“ Tomas atsakė, kad ateis, kai baigs rašyti, kad mokytojas galėtų matyti gerąjį darbą. „Skaityti čia naudinga,“ — pridūrė jis. — „Naujieji metai netoli, todėl turime skubėti.“",
-      "translation": "When the new director came, everyone wanted to listen to him. Although the hall was old, the students said that the old one was better than the new one. \"Let us go there to read,\" suggested Rūta. \"While the library is open, we can finish the work.\" Tomas answered that he would come when he finished writing, so that the teacher could see the good piece of work. \"Reading here is useful,\" he added. \"New Year is not far off, so we have to hurry.\"",
-      "glossary": {
-        "siūlė": "suggested (siūlyti)",
-        "biblioteka": "library",
-        "pridūrė": "added",
-        "skubėti": "to hurry"
-      },
-      "questions": [
-        {
-          "id": "a2cp2-p1-q1",
-          "type": "single",
-          "difficulty": "easy",
-          "fromSection": "a2-04",
-          "stem": "Why **naujasis direktorius**, not *naujas*?",
-          "options": [
-            "Because all subjects are long-form.",
-            "Because the particular new director is being identified.",
-            "Because *direktorius* requires long adjectives.",
-            "Because the clause is negated."
-          ],
-          "correct": 1,
-          "explanation": "The long form picks out the known new director (¶166).",
-          "rulesTested": [
-            "definite-when-required",
-            "definite-adjective-nature"
-          ],
-          "vocabUsed": [
-            "naujasis",
-            "direktorius",
-            "naujas"
-          ]
-        },
-        {
-          "id": "a2cp2-p1-q2",
-          "type": "multi",
-          "difficulty": "medium",
-          "fromSection": "a2-04",
-          "stem": "Which long adjective forms appear?",
-          "options": [
-            "naujasis",
-            "senoji",
-            "naująją",
-            "geresnė"
-          ],
-          "correct": [
-            0,
-            1,
-            2
-          ],
-          "explanation": "*Naujasis*, *senoji* and *naująją* (accusative feminine long form after *už*) are definite. *Geresnė* is a comparative, not a definite adjective.",
-          "rulesTested": [
-            "definite-adjective-declension",
-            "definite-substantivised",
-            "comparison-negu"
-          ],
-          "vocabUsed": [
-            "naujasis",
-            "senasis",
-            "geras"
-          ]
-        },
-        {
-          "id": "a2cp2-p1-q3",
-          "type": "single",
-          "difficulty": "medium",
-          "fromSection": "a2-05",
-          "stem": "**Kol biblioteka dirba, galime baigti darbą.** What is *kol* here?",
-          "options": [
-            "until",
-            "while",
-            "although",
-            "because"
-          ],
-          "correct": 1,
-          "explanation": "Two overlapping actions: *while* the library is open. The *until* reading would usually stop one action at the start of another.",
-          "rulesTested": [
-            "kol-clause"
-          ],
-          "vocabUsed": [
-            "kol",
-            "dirbti",
-            "galėti",
-            "baigti"
-          ]
-        },
-        {
-          "id": "a2cp2-p1-q4",
-          "type": "single",
-          "difficulty": "hard",
-          "fromSection": "a2-06",
-          "stem": "Which pair correctly labels two infinitive uses in the passage?",
-          "options": [
-            "*Eikime ten skaityti* — motion purpose; *Skaityti čia naudinga* — nominal",
-            "*Eikime ten skaityti* — *kad*-purpose; *turime skubėti* — nominal",
-            "*kad mokytojas galėtų matyti* — complementary only; *baigti darbą* — nominal",
-            "*norėjo klausyti* — purposive after motion; *baigs rašyti* — nominal"
-          ],
-          "correct": 0,
-          "explanation": "*Eikime … skaityti* is ¶176; *Skaityti … naudinga* is ¶178. *Kad … galėtų* is a purpose clause with the conditional; *turime skubėti* is complementary obligation.",
-          "rulesTested": [
-            "purposive-infinitive",
-            "nominal-infinitive",
-            "purpose-kad",
-            "infinitive-choice"
-          ],
-          "vocabUsed": [
-            "eiti",
-            "skaityti",
-            "naudingas",
-            "turėti"
-          ]
-        },
-        {
-          "id": "a2cp2-p1-q5",
-          "type": "integer",
-          "difficulty": "hard",
-          "fromSection": "a2-05",
-          "stem": "In the passage, how many finite verbs are subordinated by **kad**?",
-          "answer": 2,
-          "unit": "clauses",
-          "explanation": "Two *kad*-clauses: the reported statement and the purpose clause with the conditional.",
-          "rulesTested": [
-            "subordination-kad",
-            "purpose-kad",
-            "sequence-of-tenses"
-          ],
-          "vocabUsed": [
-            "kad",
-            "sakyti"
-          ]
-        }
       ]
     },
     {
@@ -1080,6 +940,216 @@
         "infinitive-choice"
       ],
       "vocabUsed": []
+    },
+    {
+      "id": "a2cp2-b1",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "a2-05",
+      "stem": "Complete: **______ lyja, skaitau namie.**",
+      "options": [
+        "Kai",
+        "Kada",
+        "Kad",
+        "Ar"
+      ],
+      "correct": 0,
+      "explanation": "*Kai* opens a time clause in a statement. *Kada* asks 'when?'.",
+      "rulesTested": [
+        "kai-clause"
+      ],
+      "vocabUsed": [
+        "kai",
+        "lyti",
+        "skaityti"
+      ]
+    },
+    {
+      "id": "a2cp2-b2",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a2-06",
+      "stem": "Complete: **Noriu ______.**",
+      "options": [
+        "skaityti",
+        "skaitau",
+        "skaityčiau",
+        "skaityk"
+      ],
+      "correct": 0,
+      "explanation": "Complementary infinitive after *norėti*.",
+      "rulesTested": [
+        "complementary-infinitive-range"
+      ],
+      "vocabUsed": [
+        "norėti",
+        "skaityti"
+      ]
+    },
+    {
+      "id": "a2cp2-b3",
+      "type": "multi",
+      "difficulty": "hard",
+      "fromSection": "a2-04",
+      "stem": "Complete: **______ mokytojas padeda.** Which identify a known individual?",
+      "options": [
+        "Gerasis",
+        "Geras",
+        "Naujasis",
+        "Naujas"
+      ],
+      "correct": [
+        0,
+        2
+      ],
+      "explanation": "Definite *gerasis* / *naujasis* pick out a known one. Short forms merely describe.",
+      "rulesTested": [
+        "definite-when-required"
+      ],
+      "vocabUsed": [
+        "gerasis",
+        "mokytojas"
+      ]
+    },
+    {
+      "id": "a2cp2-p1",
+      "type": "comprehension",
+      "difficulty": "medium",
+      "fromSection": "a2-05",
+      "title": "Senoji salė",
+      "passage": "Kai naujasis direktorius atėjo, visi norėjo klausyti jo. Nors salė buvo sena, studentai sakė, kad senoji geresnė už naująją. „Eikime ten skaityti,“ — siūlė Rūta. — „Kol biblioteka dirba, galime baigti darbą.“ Tomas atsakė, kad ateis, kai baigs rašyti, kad mokytojas galėtų matyti gerąjį darbą. „Skaityti čia naudinga,“ — pridūrė jis. — „Naujieji metai netoli, todėl turime skubėti.“",
+      "translation": "When the new director came, everyone wanted to listen to him. Although the hall was old, the students said that the old one was better than the new one. \"Let us go there to read,\" suggested Rūta. \"While the library is open, we can finish the work.\" Tomas answered that he would come when he finished writing, so that the teacher could see the good piece of work. \"Reading here is useful,\" he added. \"New Year is not far off, so we have to hurry.\"",
+      "glossary": {
+        "siūlė": "suggested (siūlyti)",
+        "biblioteka": "library",
+        "pridūrė": "added",
+        "skubėti": "to hurry"
+      },
+      "questions": [
+        {
+          "id": "a2cp2-p1-q1",
+          "type": "single",
+          "difficulty": "easy",
+          "fromSection": "a2-04",
+          "stem": "Why **naujasis direktorius**, not *naujas*?",
+          "options": [
+            "Because all subjects are long-form.",
+            "Because the particular new director is being identified.",
+            "Because *direktorius* requires long adjectives.",
+            "Because the clause is negated."
+          ],
+          "correct": 1,
+          "explanation": "The long form picks out the known new director (¶176).",
+          "rulesTested": [
+            "definite-when-required",
+            "definite-adjective-nature"
+          ],
+          "vocabUsed": [
+            "naujasis",
+            "direktorius",
+            "naujas"
+          ]
+        },
+        {
+          "id": "a2cp2-p1-q2",
+          "type": "multi",
+          "difficulty": "medium",
+          "fromSection": "a2-04",
+          "stem": "Which long adjective forms appear?",
+          "options": [
+            "naujasis",
+            "senoji",
+            "naująją",
+            "geresnė"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "*Naujasis*, *senoji* and *naująją* (accusative feminine long form after *už*) are definite. *Geresnė* is a comparative, not a definite adjective.",
+          "rulesTested": [
+            "definite-adjective-declension",
+            "definite-substantivised",
+            "comparison-negu"
+          ],
+          "vocabUsed": [
+            "naujasis",
+            "senasis",
+            "geras"
+          ]
+        },
+        {
+          "id": "a2cp2-p1-q3",
+          "type": "single",
+          "difficulty": "medium",
+          "fromSection": "a2-05",
+          "stem": "**Kol biblioteka dirba, galime baigti darbą.** What is *kol* here?",
+          "options": [
+            "until",
+            "while",
+            "although",
+            "because"
+          ],
+          "correct": 1,
+          "explanation": "Two overlapping actions: *while* the library is open. The *until* reading would usually stop one action at the start of another.",
+          "rulesTested": [
+            "kol-clause"
+          ],
+          "vocabUsed": [
+            "kol",
+            "dirbti",
+            "galėti",
+            "baigti"
+          ]
+        },
+        {
+          "id": "a2cp2-p1-q4",
+          "type": "single",
+          "difficulty": "hard",
+          "fromSection": "a2-06",
+          "stem": "Which pair correctly labels two infinitive uses in the passage?",
+          "options": [
+            "*Eikime ten skaityti* — motion purpose; *Skaityti čia naudinga* — nominal",
+            "*Eikime ten skaityti* — *kad*-purpose; *turime skubėti* — nominal",
+            "*kad mokytojas galėtų matyti* — complementary only; *baigti darbą* — nominal",
+            "*norėjo klausyti* — purposive after motion; *baigs rašyti* — nominal"
+          ],
+          "correct": 0,
+          "explanation": "*Eikime … skaityti* is ¶186; *Skaityti … naudinga* is ¶188. *Kad … galėtų* is a purpose clause with the conditional; *turime skubėti* is complementary obligation.",
+          "rulesTested": [
+            "purposive-infinitive",
+            "nominal-infinitive",
+            "purpose-kad",
+            "infinitive-choice"
+          ],
+          "vocabUsed": [
+            "eiti",
+            "skaityti",
+            "naudingas",
+            "turėti"
+          ]
+        },
+        {
+          "id": "a2cp2-p1-q5",
+          "type": "integer",
+          "difficulty": "hard",
+          "fromSection": "a2-05",
+          "stem": "In the passage, how many finite verbs are subordinated by **kad**?",
+          "answer": 2,
+          "unit": "clauses",
+          "explanation": "Two *kad*-clauses: the reported statement and the purpose clause with the conditional.",
+          "rulesTested": [
+            "subordination-kad",
+            "purpose-kad",
+            "sequence-of-tenses"
+          ],
+          "vocabUsed": [
+            "kad",
+            "sakyti"
+          ]
+        }
+      ]
     }
   ]
 }

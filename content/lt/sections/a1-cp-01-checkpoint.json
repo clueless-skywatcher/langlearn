@@ -977,6 +977,75 @@
       ]
     },
     {
+      "id": "cp1-b1",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a1-02",
+      "stem": "Complete: **Jis ______ mokytojas.**",
+      "options": [
+        "yra",
+        "esu",
+        "esame",
+        "esi"
+      ],
+      "correct": 0,
+      "explanation": "Third person *yra*.",
+      "rulesTested": [
+        "buti-present"
+      ],
+      "vocabUsed": [
+        "būti",
+        "mokytojas"
+      ]
+    },
+    {
+      "id": "cp1-b2",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "a1-03",
+      "stem": "Complete: **Aš skaitau ______.**",
+      "options": [
+        "knygą",
+        "knyga",
+        "knygos",
+        "knygoje"
+      ],
+      "correct": 0,
+      "explanation": "Direct object accusative *knygą*.",
+      "rulesTested": [
+        "accusative-nouns"
+      ],
+      "vocabUsed": [
+        "skaityti",
+        "knyga"
+      ]
+    },
+    {
+      "id": "cp1-b3",
+      "type": "multi",
+      "difficulty": "hard",
+      "fromSection": "a1-03",
+      "stem": "Complete: **Aš ______ knygos.** Which negate correctly?",
+      "options": [
+        "neskaitau",
+        "skaitau ne",
+        "neskaitau ne",
+        "ne skaitau"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "*Ne-* is written on the verb as one word, and the object goes genitive.",
+      "rulesTested": [
+        "negation",
+        "negation-genitive"
+      ],
+      "vocabUsed": [
+        "skaityti",
+        "knyga"
+      ]
+    },
+    {
       "id": "cp1-p1",
       "type": "comprehension",
       "difficulty": "hard",

@@ -1,0 +1,935 @@
+{
+  "id": "a1-years-age",
+  "kind": "lesson",
+  "level": "A1",
+  "order": 16,
+  "title": "Years and Age",
+  "summary": "How old someone is, in which year something happened, and how to say one was born on a given date — the biographical uses of *metai* that ¶86 only sketched.",
+  "rules": [
+    {
+      "id": "metai-plurale",
+      "number": "88",
+      "heading": "Metai Is a Plural Word",
+      "statement": "**Metai** (*year / years*) is a **plurale tantum**: it has no everyday singular. One year is still plural in form — *vieneri metai* (or colloquial *vieni metai*). With the special **plural numerals** used for plural-only nouns, two to nine years are *dveji / treji / ketveri / penkeri … metai*. From ten upwards the ordinary rule of ¶58 applies and *metai* stands in the **genitive**: *dešimt metų*, *dvidešimt metų*.",
+      "examples": [
+        {
+          "target": "Vieneri metai.",
+          "gloss": "One year."
+        },
+        {
+          "target": "Penkeri metai.",
+          "gloss": "Five years."
+        },
+        {
+          "target": "Dešimt metų.",
+          "gloss": "Ten years."
+        },
+        {
+          "target": "Dvidešimt penkeri metai.",
+          "gloss": "Twenty-five years.",
+          "note": "last element 2–9 → plural numeral + nominative *metai*"
+        }
+      ],
+      "paradigms": [
+        {
+          "caption": "Counting years",
+          "columns": [
+            "number",
+            "form"
+          ],
+          "rows": [
+            {
+              "label": "1",
+              "cells": [
+                "vieneri metai"
+              ]
+            },
+            {
+              "label": "2",
+              "cells": [
+                "dveji metai"
+              ]
+            },
+            {
+              "label": "5",
+              "cells": [
+                "penkeri metai"
+              ]
+            },
+            {
+              "label": "10",
+              "cells": [
+                "dešimt metų"
+              ]
+            },
+            {
+              "label": "21",
+              "cells": [
+                "dvidešimt vieneri metai"
+              ]
+            },
+            {
+              "label": "27",
+              "cells": [
+                "dvidešimt septyneri metai"
+              ]
+            }
+          ],
+          "footnote": "The same plural numerals appear with other plural-only nouns (*durys*, *rinkimai*). Ordinary *du metai* occurs in speech; careful style keeps *dveji metai*."
+        }
+      ],
+      "footnotes": [
+        "Sources: Terje Mathiassen, *A Short Grammar of Lithuanian* (Slavica, 1996), §§ on pluralia tantum and special (plural) cardinals — *vieneri / dveji / penkeri metai*; Lithuanian school morphology of *dauginiai skaitvardžiai* (NSA / curriculum materials on the numeral); LSMU *Grammar paradigms* (medical Lithuanian) listing *penkeri metai*, *dvidešimt vieneri metai*, *dvidešimt septyneri metai*."
+      ],
+      "seeAlso": [
+        "numeral-case",
+        "cardinals-one-nine"
+      ],
+      "core": true
+    },
+    {
+      "id": "dative-of-age",
+      "number": "89",
+      "heading": "Saying How Old Someone Is",
+      "statement": "Age is not *I am twenty*. Lithuanian puts the person in the **dative** and states the years as the thing that ‘is’ to them: **Man (yra) dvidešimt metų** — literally *to me (there) are twenty years*. The verb *yra* is often dropped. The question is **Kiek tau / jums metų?** (*How many years to you?*). Do not say *Aš esu dvidešimt metų*.",
+      "examples": [
+        {
+          "target": "Kiek tau metų?",
+          "gloss": "How old are you? (familiar)"
+        },
+        {
+          "target": "Kiek jums metų?",
+          "gloss": "How old are you? (polite / plural)"
+        },
+        {
+          "target": "Man (yra) dvidešimt metų.",
+          "gloss": "I am twenty."
+        },
+        {
+          "target": "Jam penkeri metai.",
+          "gloss": "He is five.",
+          "note": "plural numeral + *metai*"
+        },
+        {
+          "target": "Jai aštuoniolika metų.",
+          "gloss": "She is eighteen."
+        },
+        {
+          "target": "Pacientui dvidešimt penkeri metai.",
+          "gloss": "The patient is twenty-five."
+        }
+      ],
+      "paradigms": [],
+      "footnotes": [
+        "Sources: Mathiassen (1996), “The dative of age” (Case chapter); Ambrazas (ed.), *Lithuanian Grammar* (Baltos lankos, 1997/2006), dative experiencer constructions; LSMU medical Lithuanian paradigms: *Kiek jums metų? — Man dvidešimt penkeri. / Pacientui dvidešimt penkeri metai.* The genitive *metų* after *kiek* and after numerals from ten up is the ordinary government of ¶58, not a special ‘age genitive’."
+      ],
+      "seeAlso": [
+        "metai-plurale",
+        "dative-pronouns",
+        "indirect-object"
+      ],
+      "core": true
+    },
+    {
+      "id": "year-when",
+      "number": "90",
+      "heading": "In Which Year: the Instrumental",
+      "statement": "To answer **kada?** for a calendar year, Lithuanian uses the **instrumental plural** **metais** with an **ordinal** on the **last** element of the number only — the construction sketched in ¶86. *Gimiau tūkstantis devyni šimtai devyniasdešimt penktaisiais metais* = *I was born in 1995*. In speech the opening *tūkstantis…* is often dropped: *devyniasdešimt penktaisiais (metais)*. Writing may shorten with a figure: *1995 m.*",
+      "examples": [
+        {
+          "target": "Gimiau tūkstantis devyni šimtai devyniasdešimt penktaisiais metais.",
+          "gloss": "I was born in 1995."
+        },
+        {
+          "target": "Du tūkstančiai dvidešimtaisiais metais grįžau.",
+          "gloss": "In 2020 I returned."
+        },
+        {
+          "target": "Ji gimė tūkstantis devyni šimtai pirmais metais.",
+          "gloss": "She was born in 1901.",
+          "note": "Mathiassen’s example type"
+        }
+      ],
+      "paradigms": [],
+      "footnotes": [
+        "Source: Mathiassen (1996), Numerals / years and dates: “To answer the question when? (*kada?*) the instrumental case is used for the year: *ji gimė tūkstantis devyni šimtai pirmais metais* ‘she was born in 1901’.” Only the last element is ordinal; earlier elements stay cardinal."
+      ],
+      "seeAlso": [
+        "the-year",
+        "ordinals",
+        "instrumental-time-route"
+      ],
+      "core": true
+    },
+    {
+      "id": "full-date-born",
+      "number": "91",
+      "heading": "Full Dates: Year, Month, and Day",
+      "statement": "A full birth (or other) date keeps Lithuanian order **year — month — day**. The **month** is in the **genitive**; the **day** is an **accusative** ordinal (¶85). The year may be instrumental (*… metais*) or, when a month/day follows, also **genitive** (*… metų*). Example pattern: *Gimiau tūkstantis devyni šimtai devyniasdešimt penktaisiais metais kovo dvidešimtą* — *I was born on the 20th of March, 1995*.",
+      "examples": [
+        {
+          "target": "Gimiau tūkstantis devyni šimtai pirmais metais kovo dvidešimtą.",
+          "gloss": "I was born on 20 March 1901."
+        },
+        {
+          "target": "Ji gimė tūkstantis devyni šimtai pirmų metų kovo dvidešimtą dieną.",
+          "gloss": "She was born on the twentieth day of March of the year 1901.",
+          "note": "year in genitive when the date is fully spelled"
+        },
+        {
+          "target": "Šiandien tūkstantis devyni šimtai devyniasdešimt ketvirtų metų kovo dvidešimta diena.",
+          "gloss": "Today is 20 March 1994.",
+          "note": "nominative *diena* when the date is the subject"
+        }
+      ],
+      "paradigms": [],
+      "footnotes": [
+        "Source: Mathiassen (1996), same section — year instrumental or genitive when accompanied by month/day; month genitive; day accusative for ‘when?’, but nominative when the date is what ‘today is’. Order is year before date, unlike English."
+      ],
+      "seeAlso": [
+        "year-when",
+        "months-and-dates",
+        "accusative-of-time"
+      ],
+      "core": true
+    },
+    {
+      "id": "age-time-contrast",
+      "number": "92",
+      "heading": "Age, Duration, and ‘Years Ago’",
+      "statement": "Three neighbouring constructions must stay distinct. **Age** takes the dative person + years (*Man dvidešimt metų*). **Duration** — *for two years* — takes the **accusative of time** (¶83): *dvejus metus* / *du metus*. **Ago** uses **prieš** + accusative (¶87): *prieš penkerius metus*, *prieš metus*. **Pernai** (*last year*) and **šiemet** (*this year*) are adverbs, not case forms of *metai*.",
+      "examples": [
+        {
+          "target": "Man dvidešimt metų.",
+          "gloss": "I am twenty. (age)"
+        },
+        {
+          "target": "Gyvenau Vilniuje dvejus metus.",
+          "gloss": "I lived in Vilnius for two years. (duration)"
+        },
+        {
+          "target": "Prieš penkerius metus atvažiavau.",
+          "gloss": "I arrived five years ago."
+        },
+        {
+          "target": "Pernai baigiau mokyklą.",
+          "gloss": "Last year I finished school."
+        }
+      ],
+      "paradigms": [],
+      "footnotes": [
+        "Sources: Mathiassen (1996) on accusative of duration with plural numerals (*ji prabuvo dvejus metus Vilniuje*) and on *prieš* + accusative; ¶83 and ¶87 of this course; *pernai* / *šiemet* as lexical time adverbs in standard descriptions and dictionaries (DLKT / school vocabularies)."
+      ],
+      "seeAlso": [
+        "dative-of-age",
+        "accusative-of-time",
+        "time-prepositions"
+      ],
+      "core": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "lemma": "gimti",
+      "gloss": "to be born",
+      "pos": "verb",
+      "forms": {
+        "inf": "gimti",
+        "pres3": "gimsta",
+        "past3": "gimė",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "pernai",
+      "gloss": "last year",
+      "pos": "adverb"
+    },
+    {
+      "lemma": "vieneri",
+      "gloss": "one (with plural-only nouns)",
+      "pos": "numeral",
+      "notes": "With metai: vieneri metai. Feminine vienerios."
+    },
+    {
+      "lemma": "dveji",
+      "gloss": "two (with plural-only nouns)",
+      "pos": "numeral",
+      "notes": "dveji metai; accusative dvejus metus (duration)."
+    },
+    {
+      "lemma": "penkeri",
+      "gloss": "five (with plural-only nouns)",
+      "pos": "numeral",
+      "notes": "penkeri metai; prieš penkerius metus."
+    },
+    {
+      "lemma": "aštuoniolika",
+      "gloss": "eighteen",
+      "pos": "numeral"
+    },
+    {
+      "lemma": "trisdešimt",
+      "gloss": "thirty",
+      "pos": "numeral"
+    },
+    {
+      "lemma": "amžius",
+      "gloss": "age (span of life); century",
+      "pos": "noun",
+      "forms": {
+        "nom": "amžius",
+        "gen": "amžiaus",
+        "acc": "amžių",
+        "gender": "m.",
+        "decl": "II"
+      }
+    },
+    {
+      "lemma": "šiemet",
+      "gloss": "this year",
+      "pos": "adverb"
+    },
+    {
+      "lemma": "kitąmet",
+      "gloss": "next year",
+      "pos": "adverb"
+    }
+  ],
+  "drills": [
+    {
+      "id": "a1ya-q1",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete: **______ tau metų?**",
+      "options": [
+        "Kiek",
+        "Koks",
+        "Kur",
+        "Kada"
+      ],
+      "correct": 0,
+      "explanation": "Age question: *Kiek tau metų?*",
+      "rulesTested": [
+        "dative-of-age"
+      ],
+      "vocabUsed": [
+        "metai"
+      ]
+    },
+    {
+      "id": "a1ya-q2",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete: **______ dvidešimt metų.** (I am twenty.)",
+      "options": [
+        "Man",
+        "Aš",
+        "Mano",
+        "Mane"
+      ],
+      "correct": 0,
+      "explanation": "Dative of age: *Man dvidešimt metų*, not nominative *aš*.",
+      "rulesTested": [
+        "dative-of-age"
+      ],
+      "vocabUsed": [
+        "metai",
+        "dvidešimt"
+      ]
+    },
+    {
+      "id": "a1ya-q3",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Jam ______.** (He is five.)",
+      "options": [
+        "penkeri metai",
+        "penki metai",
+        "penkių metų",
+        "penkerių metus"
+      ],
+      "correct": 0,
+      "explanation": "Plural numeral with plurale tantum *metai*: *penkeri metai*.",
+      "rulesTested": [
+        "metai-plurale",
+        "dative-of-age"
+      ],
+      "vocabUsed": [
+        "penkeri",
+        "metai"
+      ]
+    },
+    {
+      "id": "a1ya-q4",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Man ______.** (I am ten.)",
+      "options": [
+        "dešimt metų",
+        "dešimt metai",
+        "dešimti metai",
+        "dešimties metai"
+      ],
+      "correct": 0,
+      "explanation": "From ten up, *metai* → genitive *metų*: *dešimt metų*.",
+      "rulesTested": [
+        "metai-plurale",
+        "dative-of-age",
+        "numeral-case"
+      ],
+      "vocabUsed": [
+        "dešimt",
+        "metai"
+      ]
+    },
+    {
+      "id": "a1ya-q5",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which correctly say someone’s age?",
+      "options": [
+        "Man aštuoniolika metų.",
+        "Jam penkeri metai.",
+        "Aš esu dvidešimt metų.",
+        "Kiek jums metų?"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "*Aš esu … metų* is the English-shaped error. Questions and dative statements are fine.",
+      "rulesTested": [
+        "dative-of-age"
+      ],
+      "vocabUsed": [
+        "metai",
+        "dvidešimt",
+        "aštuoniolika",
+        "penkeri"
+      ]
+    },
+    {
+      "id": "a1ya-q6",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Complete: **Gimiau tūkstantis devyni šimtai devyniasdešimt ______.**",
+      "options": [
+        "penktaisiais metais",
+        "penki metais",
+        "penktų metai",
+        "penkti metai"
+      ],
+      "correct": 0,
+      "explanation": "Last element ordinal + instrumental plural *metais*: *penktaisiais metais*.",
+      "rulesTested": [
+        "year-when",
+        "the-year"
+      ],
+      "vocabUsed": [
+        "gimti",
+        "tūkstantis",
+        "metai",
+        "penktas"
+      ]
+    },
+    {
+      "id": "a1ya-q7",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Complete: **Gimiau 1901 metais ______ dvidešimtą.**",
+      "options": [
+        "kovo",
+        "kovas",
+        "kovą",
+        "kove"
+      ],
+      "correct": 0,
+      "explanation": "Month in the genitive before the day: *kovo dvidešimtą*.",
+      "rulesTested": [
+        "full-date-born",
+        "months-and-dates"
+      ],
+      "vocabUsed": [
+        "gimti",
+        "kovas"
+      ]
+    },
+    {
+      "id": "a1ya-q8",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Match the job of *metai* in each sentence — which labels are right?",
+      "options": [
+        "*Man dvidešimt metų* — age (dative person)",
+        "*Gyvenau dvejus metus* — duration (accusative)",
+        "*Prieš penkerius metus* — ago (*prieš* + acc.)",
+        "*1995 metais* — age of a person"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "*1995 metais* answers *when?* (calendar year), not how old someone is.",
+      "rulesTested": [
+        "age-time-contrast",
+        "year-when"
+      ],
+      "vocabUsed": [
+        "metai",
+        "prieš",
+        "dvidešimt",
+        "penkeri"
+      ]
+    },
+    {
+      "id": "a1ya-q9",
+      "type": "integer",
+      "difficulty": "medium",
+      "stem": "In **tūkstantis devyni šimtai devyniasdešimt penktaisiais metais**, how many words before *metais* are **ordinals**?",
+      "answer": 1,
+      "unit": "ordinals",
+      "explanation": "Only *penktaisiais* — the last element.",
+      "rulesTested": [
+        "year-when"
+      ],
+      "vocabUsed": [
+        "tūkstantis",
+        "metai",
+        "penktas"
+      ]
+    },
+    {
+      "id": "a1ya-q10",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete: **______ baigiau mokyklą.** (Last year I finished school.)",
+      "options": [
+        "Pernai",
+        "Prieš metai",
+        "Metais",
+        "Šiemet"
+      ],
+      "correct": 0,
+      "explanation": "*Pernai* = last year. *Šiemet* is this year; *prieš metus* would be ‘a year ago’.",
+      "rulesTested": [
+        "age-time-contrast"
+      ],
+      "vocabUsed": [
+        "pernai"
+      ]
+    },
+    {
+      "id": "a1ya-q11",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Prieš ______ atvažiavau.** (I arrived five years ago.)",
+      "options": [
+        "penkerius metus",
+        "penkeri metai",
+        "penkių metų",
+        "penktaisiais metais"
+      ],
+      "correct": 0,
+      "explanation": "*Prieš* + accusative: *penkerius metus*. Instrumental *metais* is for calendar years.",
+      "rulesTested": [
+        "age-time-contrast",
+        "time-prepositions"
+      ],
+      "vocabUsed": [
+        "prieš",
+        "penkeri",
+        "metai"
+      ]
+    },
+    {
+      "id": "a1ya-q12",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which year/date patterns are well-formed?",
+      "options": [
+        "Gimiau 1995 metais.",
+        "Gimiau 1995 metais kovo dvidešimtą.",
+        "Gimiau kovo 1995 metais dvidešimtą.",
+        "Šiandien yra kovo dvidešimta diena."
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "Year before month/day. English month-first order inside the Lithuanian phrase is wrong.",
+      "rulesTested": [
+        "full-date-born",
+        "year-when"
+      ],
+      "vocabUsed": [
+        "gimti",
+        "kovas",
+        "metai"
+      ]
+    },
+    {
+      "id": "a1ya-q13",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Complete: **Jai ______.** (She is twenty-one.)",
+      "options": [
+        "dvidešimt vieneri metai",
+        "dvidešimt vienas metai",
+        "dvidešimt vienas metų",
+        "dvidešimt vienerių metus"
+      ],
+      "correct": 0,
+      "explanation": "Last element *one* with *metai* → *vieneri metai*: *dvidešimt vieneri metai*.",
+      "rulesTested": [
+        "metai-plurale",
+        "dative-of-age"
+      ],
+      "vocabUsed": [
+        "vieneri",
+        "dvidešimt",
+        "metai"
+      ]
+    },
+    {
+      "id": "a1ya-q14",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "How many **different** time constructions appear in **Man dvidešimt metų, gyvenau ten dvejus metus, o prieš metus grįžau**?",
+      "answer": 3,
+      "unit": "constructions",
+      "explanation": "Age (*man … metų*), duration (*dvejus metus*), ago (*prieš metus*).",
+      "rulesTested": [
+        "age-time-contrast"
+      ],
+      "vocabUsed": [
+        "metai",
+        "dvidešimt",
+        "prieš",
+        "dveji"
+      ]
+    },
+    {
+      "id": "a1ya-p1",
+      "type": "comprehension",
+      "difficulty": "hard",
+      "title": "Apie Rūtą",
+      "passage": "Rūtai dabar dvidešimt penkeri metai. Ji gimė tūkstantis devyni šimtai devyniasdešimt devintaisiais metais birželio dešimtą. Penkerius metus ji gyveno Kaune, o prieš trejus metus atvažiavo į Vilnių. Pernai baigė mokyklą; šiemet studijuoja. — Kiek tau metų? — klausia draugė. — Man dvidešimt penkeri, — atsako Rūta.",
+      "translation": "Rūta is now twenty-five. She was born on the tenth of June, 1999. She lived in Kaunas for five years, and three years ago she came to Vilnius. Last year she finished school; this year she is studying. \"How old are you?\" asks a friend. \"I am twenty-five,\" answers Rūta.",
+      "glossary": {
+        "studijuoja": "studies (at university)"
+      },
+      "questions": [
+        {
+          "id": "a1ya-p1-q1",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "*Rūtai … dvidešimt penkeri metai* shows:",
+          "options": [
+            "dative of age + plural numeral with *metai*",
+            "nominative subject *Rūta* + adjective",
+            "instrumental year date",
+            "accusative of duration only"
+          ],
+          "correct": 0,
+          "explanation": "Person in the dative; years with *penkeri metai* because the last element is 2–9.",
+          "rulesTested": [
+            "dative-of-age",
+            "metai-plurale"
+          ],
+          "vocabUsed": [
+            "penkeri",
+            "metai",
+            "dvidešimt"
+          ]
+        },
+        {
+          "id": "a1ya-p1-q2",
+          "type": "single",
+          "difficulty": "hard",
+          "stem": "In the birth date, *birželio dešimtą* is:",
+          "options": [
+            "genitive month + accusative day",
+            "nominative month + genitive day",
+            "instrumental month + dative day",
+            "accusative month + nominative day"
+          ],
+          "correct": 0,
+          "explanation": "Month genitive, day accusative ordinal — Mathiassen’s full-date pattern.",
+          "rulesTested": [
+            "full-date-born",
+            "months-and-dates"
+          ],
+          "vocabUsed": [
+            "birželis"
+          ]
+        },
+        {
+          "id": "a1ya-p1-q3",
+          "type": "multi",
+          "difficulty": "hard",
+          "stem": "Which time readings in the passage are correct?",
+          "options": [
+            "*Penkerius metus … gyveno* — duration",
+            "*prieš trejus metus* — three years ago",
+            "*Pernai* — last year",
+            "*devyniasdešimt devintaisiais metais* — her age"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "The instrumental year is when she was born, not how old she is.",
+          "rulesTested": [
+            "age-time-contrast",
+            "year-when"
+          ],
+          "vocabUsed": [
+            "penkeri",
+            "prieš",
+            "pernai",
+            "metai"
+          ]
+        },
+        {
+          "id": "a1ya-p1-q4",
+          "type": "integer",
+          "difficulty": "medium",
+          "stem": "How many times does a **dative** person of age appear (*Rūtai* / *Man* / *tau*)?",
+          "answer": 3,
+          "unit": "forms",
+          "explanation": "*Rūtai*, *tau*, and *Man* — three.",
+          "rulesTested": [
+            "dative-of-age"
+          ],
+          "vocabUsed": [
+            "metai"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1ya-x1",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete: **Kiek ______ metų?** (polite)",
+      "options": [
+        "jums",
+        "jus",
+        "jūsų",
+        "jūs"
+      ],
+      "correct": 0,
+      "explanation": "Dative *jums* in the age question.",
+      "rulesTested": [
+        "dative-of-age"
+      ],
+      "vocabUsed": [
+        "metai"
+      ]
+    },
+    {
+      "id": "a1ya-x2",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **______ studijuoju.** (This year I study.)",
+      "options": [
+        "Šiemet",
+        "Šiais metais esu",
+        "Metai šie",
+        "Pernai"
+      ],
+      "correct": 0,
+      "explanation": "*Šiemet* = this year.",
+      "rulesTested": [
+        "age-time-contrast"
+      ],
+      "vocabUsed": [
+        "šiemet"
+      ]
+    },
+    {
+      "id": "a1ya-x3",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which forms correctly count years?",
+      "options": [
+        "vieneri metai",
+        "dveji metai",
+        "dešimt metų",
+        "dešimt metai"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "*Dešimt* forces genitive *metų*, not nominative *metai*.",
+      "rulesTested": [
+        "metai-plurale"
+      ],
+      "vocabUsed": [
+        "vieneri",
+        "dveji",
+        "dešimt",
+        "metai"
+      ]
+    },
+    {
+      "id": "a1ya-x4",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Why is ***Aš esu penkeri metai*** wrong?",
+      "options": [
+        "Age needs a dative person: *Man penkeri metai*",
+        "Because *penkeri* cannot be used with *metai*",
+        "Because age must use the instrumental *metais*",
+        "Because *yra* is forbidden in age sentences"
+      ],
+      "correct": 0,
+      "explanation": "Mathiassen’s dative of age — the experiencer is dative, not nominative.",
+      "rulesTested": [
+        "dative-of-age"
+      ],
+      "vocabUsed": [
+        "penkeri",
+        "metai"
+      ]
+    },
+    {
+      "id": "a1ya-x5",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Complete: **Gyvenau ten ______.** (I lived there for two years.)",
+      "options": [
+        "dvejus metus",
+        "dveji metai",
+        "dviejų metų",
+        "dvejais metais"
+      ],
+      "correct": 0,
+      "explanation": "Duration = accusative: *dvejus metus* (Mathiassen).",
+      "rulesTested": [
+        "age-time-contrast",
+        "accusative-of-time"
+      ],
+      "vocabUsed": [
+        "dveji",
+        "metai"
+      ]
+    },
+    {
+      "id": "a1ya-x6",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Complete: **Gimiau ______.** Which can answer *when were you born?* with a year?",
+      "options": [
+        "1990 metais",
+        "tūkstantis devyni šimtai devyniasdešimtaisiais metais",
+        "prieš trisdešimt metų",
+        "man trisdešimt metų"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Calendar year (*metais*), spelled year, or *ago* can situate birth in time. *Man trisdešimt metų* states present age, not the birth year.",
+      "rulesTested": [
+        "year-when",
+        "age-time-contrast"
+      ],
+      "vocabUsed": [
+        "gimti",
+        "metai",
+        "prieš"
+      ]
+    },
+    {
+      "id": "a1ya-x7",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **______ pradėsiu darbą.** (Next year I shall start work.)",
+      "options": [
+        "Kitąmet",
+        "Kitais",
+        "Pernai",
+        "Metais"
+      ],
+      "correct": 0,
+      "explanation": "*Kitąmet* = next year.",
+      "rulesTested": [
+        "age-time-contrast"
+      ],
+      "vocabUsed": [
+        "kitąmet"
+      ]
+    },
+    {
+      "id": "a1ya-x8",
+      "type": "integer",
+      "difficulty": "easy",
+      "stem": "In **Kiek jums metų?**, how many words stand in the **genitive**?",
+      "answer": 1,
+      "unit": "words",
+      "explanation": "Only *metų* — *kiek* takes the genitive. *Jums* is dative.",
+      "rulesTested": [
+        "dative-of-age"
+      ],
+      "vocabUsed": [
+        "metai"
+      ]
+    },
+    {
+      "id": "a1ya-x9",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Complete: **Du tūkstančiai ______ grįšiu.** (I shall return in 2030.)",
+      "options": [
+        "trisdešimtaisiais metais",
+        "trisdešimt metais",
+        "trisdešimtų metai",
+        "trisdešimt metus"
+      ],
+      "correct": 0,
+      "explanation": "Last element ordinal instrumental plural: *trisdešimtaisiais metais*.",
+      "rulesTested": [
+        "year-when"
+      ],
+      "vocabUsed": [
+        "tūkstantis",
+        "metai"
+      ]
+    },
+    {
+      "id": "a1ya-x10",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "About *metai*, which are true?",
+      "options": [
+        "It is a plurale tantum in ordinary use",
+        "Age puts the person in the dative",
+        "A calendar year ‘when?’ takes instrumental *metais*",
+        "*Aš esu … metai* is the standard age formula"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "The fourth is the interference error this section exists to kill.",
+      "rulesTested": [
+        "metai-plurale",
+        "dative-of-age",
+        "year-when"
+      ],
+      "vocabUsed": [
+        "metai"
+      ]
+    }
+  ]
+}

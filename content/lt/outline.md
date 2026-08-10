@@ -8,9 +8,9 @@ Sections marked ✅ are authored. The rest are targets for the generator
 (`scripts/generate-drills.ts`) and for hand-authoring of rules.
 
 Rule numbering is continuous across the whole course, as in Kellerman.
-A1 sections 01–03 occupy ¶1–¶27, 04–07 ¶28–¶52, 08–10 ¶53–¶70,
-11–14 ¶71–¶98, 15–17 ¶99–¶120, 18–20 ¶121–¶140.
-A2 sections 21–23 occupy ¶141–¶162, 24–26 ¶163–¶180.
+A1 sections 01–03 occupy ¶1–¶27, 04–07 ¶28–¶52, 08–11 ¶53–¶78,
+12–15 ¶79–¶103, 16–19 ¶104–¶125, 20–22 ¶126–¶145.
+A2 sections continue ¶146–¶190 (course section ids a2-01…a2-06 and a2-nebe).
 
 ---
 
@@ -22,6 +22,11 @@ itself built on the CEFR. That programme teaches grammar through communicative
 topics; this course reorders the same inventory so that each grammatical point
 is stated once, in full, before it is used — but nothing is added to it and
 nothing left out.
+
+Grammar statements are written from descriptive sources (chiefly Ambrazas
+(ed.), *Lithuanian Grammar*, 1997; the Lithuanian school / VLKK orthography
+rules; and named specialist papers where a point is narrow). Each section’s
+rules carry source footnotes; do not treat unsourced paraphrase as authority.
 
 | # | Section | CEFR programme items covered |
 |---|---|---|
@@ -37,20 +42,22 @@ nothing left out.
 | 08 | ✅ The Plural | nominative and accusative plural of nouns and adjectives; numeral + noun agreement |
 | 09 | ✅ The Locative and Place | the locative (*vietininkas*); *ant, prie, už, po* and the case each governs; direction with *į* + accusative |
 | 10 | ✅ The Dative | the indirect object; *patikti, tikti, reikėti* + dative; dative of the pronouns |
-| — | ✅ **Checkpoint 3** | covers 08–10 |
 | 11 | ✅ The Instrumental and the Vocative | *su kuo*; means of travel (*važiuoti autobusu*); *sirgti kuo*; the vocative in address; the dative and instrumental plural, completing the declension |
-| 12 | ✅ Numerals, Time, and Dates | cardinals to a thousand and the case each governs; ordinals; the hour; days and months; accusative of time (*pirmą valandą*), instrumental of time (*pirmadieniais*); *per, prieš, nuo … iki* |
-| 13 | ✅ The Past Simple | *būtasis kartinis laikas*, the *-o* and *-ė* types; the biographical past |
-| 14 | ✅ The Future | the *-s-* future; consonant changes before it |
-| — | ✅ **Checkpoint 4** | covers 11–14 |
-| 15 | ✅ Conjunctions, Particles, and Joining Sentences | *ir, bet, o, arba, ar, nes, todėl, jeigu*; subordination with *kad* and indirect questions with *ar*; the particles *gal, dar, jau, taip, ne* |
-| 16 | ✅ The Imperative and the Conditional | *liepiamoji nuosaka* (-k, -kime, -kite), *tegu*; *tariamoji nuosaka* (*norėčiau, galėčiau*) for polite request |
-| 17 | ✅ Adverbs and Degree | adverbs in -ai / -iai and -iškai; comparative and superlative of adjective and adverb; *negu* and *už* in comparison; the kinds of adverb |
-| — | ✅ **Checkpoint 5** | covers 15–17 |
-| 18 | ✅ Impersonal Constructions | *skaudėti, reikėti, galima* with the dative; weather verbs; the non-gendered adjective (*šalta, karšta, gera*) and how it differs from the personal forms |
-| 19 | ✅ Demonstratives and Determiners | *šis, tas, anas, toks*; *kuris* against *koks*; *visas, kiekvienas*; *niekas* and the doubled negative; *tas pats* |
-| 20 | ✅ The Remaining Prepositions, and Reflexive Phrases | *pas, per, prieš, už, virš, vidury*, and *po* in its three cases; the whole preposition system in one table; the reflexive affix and the set phrases built on it |
-| — | ✅ **Checkpoint 6** | covers 18–20; the A1 boundary examination |
+| — | ✅ **Checkpoint 3** | covers 08–11 |
+| 12 | ✅ Numerals, Time, and Dates | cardinals to a thousand and the case each governs; ordinals; the hour; days and months; accusative of time (*pirmą valandą*), instrumental of time (*pirmadieniais*); *per, prieš, nuo … iki*; year with *metais* sketched |
+| 13 | ✅ Years and Age | *metai* as plurale tantum (*penkeri metai* / *dešimt metų*); dative of age (*Man … metų*); calendar year (*… metais*); full birth dates; duration vs *prieš … metus* vs *pernai* (Mathiassen 1996) |
+| 14 | ✅ The Past Simple | *būtasis kartinis laikas*, the *-o* and *-ė* types; the biographical past |
+| 15 | ✅ The Future | the *-s-* future; consonant changes before it |
+| — | ✅ **Checkpoint 4** | covers 12–15 |
+| 16 | ✅ Conjunctions, Particles, and Joining Sentences | *ir, bet, o, arba, ar, nes, todėl, jeigu*; subordination with *kad* and indirect questions with *ar*; the particles *gal, dar, jau, taip, ne* |
+| 17 | ✅ The Imperative | *liepiamoji nuosaka* (-k, -kime, -kite), *tegu*; negative commands; the plural imperative of notices |
+| 18 | ✅ The Conditional | *tariamoji nuosaka* (*norėčiau, galėčiau*); mood choice for politeness; *jeigu* + conditional for unreal conditions |
+| 19 | ✅ Adverbs and Degree | adverbs in -ai / -iai and -iškai; comparative and superlative of adjective and adverb; *negu* and *už* in comparison; the kinds of adverb |
+| — | ✅ **Checkpoint 5** | covers 16–19 |
+| 20 | ✅ Impersonal Constructions | *skaudėti, reikėti, galima* with the dative; weather verbs (*lyti*, *vėjas*); the non-gendered adjective (*šalta, karšta, gera*) and *man gerai*; how these differ from personal forms |
+| 21 | ✅ Demonstratives and Determiners | *šis, tas, anas, toks*; *kuris* against *koks*; *visas, kiekvienas*; *niekas* and the doubled negative; *tas pats* |
+| 22 | ✅ The Remaining Prepositions, and Reflexive Phrases | *pas, per, prieš, už, virš, vidury*, and *po* in its three cases; the whole preposition system in one table; the reflexive affix and set phrases (*jaučiuosi*, *nesijaučiu*) |
+| — | ✅ **Checkpoint 6** | covers 20–22; the A1 boundary examination |
 
 The topics the programme attaches to these points — identity, buildings and
 home, transport, clothing, weather, food and drink, health, services, study and
@@ -66,66 +73,67 @@ repeated here; A2 completes the paradigms and adds what A1 only gestured at.
 
 | # | Section | Contents |
 |---|---|---|
-| 21 | ✅ The Seven Cases in Full | all five declensions, singular and plural, in one table |
-| 22 | ✅ Reflexive Verbs | the full paradigm behind the set phrases of ¶140; the *-si-* affix and its migration to the prefix under negation |
-| 23 | ✅ Prepositions II and Case Government | the prepositions not met at A1; verbs governing an unexpected case |
-| — | ✅ **Checkpoint 7** | covers 21–23 |
-| 24 | ✅ The Definite Adjective | *geras* against *gerasis*; when the pronominal form is required |
-| 25 | ✅ Subordinate Clauses | beyond the *kad* and *ar* of ¶104–¶105: *kai, kol, nors*; sequence of tenses |
-| 26 | ✅ The Infinitive and its Uses | complementary, purposive, and nominal infinitive |
-| — | ✅ **Checkpoint 8** | covers 24–26 |
+| 23 | ✅ The Seven Cases in Full | all five declensions, singular and plural, in one table |
+| 24 | ✅ Reflexive Verbs | the full paradigm behind the set phrases of ¶140; the *-si-* affix and its migration to the prefix under negation |
+| 25 | ✅ The Prefix Nebe- | *nebe-* ‘no longer’ vs *dar ne-* ‘not yet’ and *jau ne-*; counterpart *tebe-* ‘still’; writing together/apart; genitive and reflexive migration (Ostrowski 2016; Arkadiev 2010; school orthography) |
+| 26 | ✅ Prepositions II and Case Government | the prepositions not met at A1; verbs governing an unexpected case |
+| — | ✅ **Checkpoint 7** | covers 23–26 |
+| 27 | ✅ The Definite Adjective | *geras* against *gerasis*; when the pronominal form is required |
+| 28 | ✅ Subordinate Clauses | beyond the *kad* and *ar* of ¶104–¶105: *kai, kol, nors*; sequence of tenses |
+| 29 | ✅ The Infinitive and its Uses | complementary, purposive, and nominal infinitive |
+| — | ✅ **Checkpoint 8** | covers 27–29 |
 
 ## B1 — Intermediate
 
 | # | Section | Contents |
 |---|---|---|
-| 27 | The Past Frequentative | the tense in *-davo*; when Lithuanian prefers it to the past simple |
-| 28 | Aspect and Verbal Prefixes | *pa-, su-, iš-, at-, nu-* and the change of aspect and meaning |
-| 29 | Word Order and the Clitics | free order as a means of emphasis; the placement of particles |
-| — | **Checkpoint 9** | covers 27–29 |
-| 30 | Word Formation | the productive suffixes; diminutives; compounding |
-| 31 | Reported Speech | how a quotation is reported without a participle |
-| 32 | Conditions | real, unreal, and mixed conditions with the conditional mood |
-| — | **Checkpoint 10** | covers 30–32 |
+| 30 | The Past Frequentative | the tense in *-davo*; when Lithuanian prefers it to the past simple |
+| 31 | Aspect and Verbal Prefixes | *pa-, su-, iš-, at-, nu-* and the change of aspect and meaning |
+| 32 | Word Order and the Clitics | free order as a means of emphasis; the placement of particles |
+| — | **Checkpoint 9** | covers 30–32 |
+| 33 | Word Formation | the productive suffixes; diminutives; compounding |
+| 34 | Reported Speech | how a quotation is reported without a participle |
+| 35 | Conditions | real, unreal, and mixed conditions with the conditional mood |
+| — | **Checkpoint 10** | covers 33–35 |
 
 ## B2 — Upper intermediate
 
 | # | Section | Contents |
 |---|---|---|
-| 33 | Participles I: the Active Participles | present, past, past frequentative and future active |
-| 34 | Participles II: the Passive Participles | present and past passive; the passive voice |
-| 35 | The Half-Participle (*pusdalyvis*) | agreement with the subject; contrast with the gerund |
-| 36 | The Gerund (*padalyvis*) | the different-subject construction |
-| — | **Checkpoint 11** | covers 33–36 |
-| 37 | Indirect Speech through Participles | the evidential use of the participle |
-| 38 | The Necessitative and Other Minor Forms | forms in *-tinas*; impersonal passives |
-| 39 | Nominalisation | verbal nouns and the abstract style they make possible |
-| — | **Checkpoint 12** | covers 37–39 |
+| 36 | Participles I: the Active Participles | present, past, past frequentative and future active |
+| 37 | Participles II: the Passive Participles | present and past passive; the passive voice |
+| 38 | The Half-Participle (*pusdalyvis*) | agreement with the subject; contrast with the gerund |
+| 39 | The Gerund (*padalyvis*) | the different-subject construction |
+| — | **Checkpoint 11** | covers 36–39 |
+| 40 | Indirect Speech through Participles | the evidential use of the participle |
+| 41 | The Necessitative and Other Minor Forms | forms in *-tinas*; impersonal passives |
+| 42 | Nominalisation | verbal nouns and the abstract style they make possible |
+| — | **Checkpoint 12** | covers 40–42 |
 
 ## C1 — Advanced
 
 | # | Section | Contents |
 |---|---|---|
-| 40 | Accentuation I: the Four Accent Classes | the *kirčiuotės*; how the class is cited |
-| 41 | Accentuation II: Tone | acute against tilde on long syllables; minimal pairs |
-| 42 | Register and Style | the standard language, the spoken register, officialese |
-| 43 | Idiom and Fixed Expression | phrasal verbs; proverbs in common use |
-| — | **Checkpoint 13** | covers 40–43 |
-| 44 | The Language of the Press and of Scholarship | abstract style at length |
-| 45 | Rare and Archaic Forms in Reading | the dual; forms met in older texts and in poetry |
-| 46 | The Dialects | Aukštaitian and Samogitian; what a reader must recognise |
-| — | **Checkpoint 14** | covers 44–46 |
+| 43 | Accentuation I: the Four Accent Classes | the *kirčiuotės*; how the class is cited |
+| 44 | Accentuation II: Tone | acute against tilde on long syllables; minimal pairs |
+| 45 | Register and Style | the standard language, the spoken register, officialese |
+| 46 | Idiom and Fixed Expression | phrasal verbs; proverbs in common use |
+| — | **Checkpoint 13** | covers 43–46 |
+| 47 | The Language of the Press and of Scholarship | abstract style at length |
+| 48 | Rare and Archaic Forms in Reading | the dual; forms met in older texts and in poetry |
+| 49 | The Dialects | Aukštaitian and Samogitian; what a reader must recognise |
+| — | **Checkpoint 14** | covers 47–49 |
 
 ## C2 — Near-native
 
 | # | Section | Contents |
 |---|---|---|
-| 47 | Literary Syntax | period and inversion in prose of the classic authors |
-| 48 | Verse | metre, the accentual system in poetry, licence of elision |
-| 49 | Translation Problems | what English has and Lithuanian lacks, and the reverse |
-| 50 | The Language of Law and Administration | the fixed formulae |
-| — | **Checkpoint 15** | covers 47–50 |
-| 51 | Reading: Modern Prose | extended passages with critical questions |
-| 52 | Reading: The Essay | argument, register, implicature |
-| 53 | Composition | writing to a brief, at length |
-| — | **Checkpoint 16** | covers 51–53 |
+| 50 | Literary Syntax | period and inversion in prose of the classic authors |
+| 51 | Verse | metre, the accentual system in poetry, licence of elision |
+| 52 | Translation Problems | what English has and Lithuanian lacks, and the reverse |
+| 53 | The Language of Law and Administration | the fixed formulae |
+| — | **Checkpoint 15** | covers 50–53 |
+| 54 | Reading: Modern Prose | extended passages with critical questions |
+| 55 | Reading: The Essay | argument, register, implicature |
+| 56 | Composition | writing to a brief, at length |
+| — | **Checkpoint 16** | covers 54–56 |

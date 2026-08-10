@@ -28,7 +28,7 @@ export interface Problem {
 /** Composition targets for a checkpoint, enforced rather than left to taste. */
 export const CHECKPOINT_TARGETS = {
   minQuestions: 20,
-  maxQuestions: 55,
+  maxQuestions: 70,
   minPerCoveredSection: 3,
   /** Intended share of each difficulty band, in percent. */
   difficultyMix: { easy: 25, medium: 40, hard: 35 },

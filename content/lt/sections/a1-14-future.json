@@ -2,13 +2,13 @@
   "id": "a1-14",
   "kind": "lesson",
   "level": "A1",
-  "order": 17,
+  "order": 18,
   "title": "The Future",
   "summary": "The simplest tense in the language: one marker, **-s-**, inserted between the stem and the ending, and one set of endings for every verb there is. The only difficulty is what happens when the stem already ends in a consonant that will not stand beside an s.",
   "rules": [
     {
       "id": "future-formation",
-      "number": "94",
+      "number": "99",
       "heading": "The Future Formed with -s-",
       "statement": "The future is built from the **infinitive** stem — the infinitive less its *-ti* — with **-s-** and the endings below. There is no division into conjugations here and no second stem to learn: whatever a verb does in the present and the past, its future is regular.",
       "paradigms": [
@@ -64,11 +64,12 @@
         "past-stem",
         "verb-number"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "future-consonant-changes",
-      "number": "95",
+      "number": "100",
       "heading": "Consonant Changes before the -s-",
       "statement": "Where the infinitive stem already ends in **s, z, š, ž**, the marker cannot be heard beside it and the two merge into one consonant. Where it ends in **d** or **t**, that consonant becomes **s**. The endings are untouched; only the joint is affected, and the change is one of pronunciation written down rather than a grammatical irregularity.",
       "paradigms": [
@@ -145,11 +146,12 @@
         "future-formation",
         "spelling-phonemic"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "future-buti",
-      "number": "96",
+      "number": "101",
       "heading": "The Future of Būti",
       "statement": "**Būti** follows the rule exactly, and its third person **bus** is among the most useful words in the language: it does duty for *there will be*, *it will be*, and *they will be* together, and it is what a Lithuanian says when asked whether something is going to happen.",
       "paradigms": [
@@ -205,11 +207,12 @@
         "buti-present",
         "past-buti"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "future-negation",
-      "number": "97",
+      "number": "102",
       "heading": "Negation in the Future",
       "statement": "As in the other tenses, **ne-** is written onto the front of the verb and the object of the negated verb passes into the **genitive**. Nothing new is needed; what is needed is the habit, since a learner who has mastered the genitive of negation in the present often loses it the moment the tense changes.",
       "examples": [
@@ -232,11 +235,12 @@
         "negation-genitive",
         "past-negation"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "future-uses",
-      "number": "98",
+      "number": "103",
       "heading": "Saying What Will Happen",
       "statement": "The future serves for intention, for promise and for prediction alike; Lithuanian has no separate *going to*. Its usual markers are **rytoj** (tomorrow), **kitą savaitę** (next week) and **po** with the genitive (¶33). Note that where English uses a present tense after *when* and *if* in speaking of the future, Lithuanian uses the **future** there too, and says what it means.",
       "paradigms": [
@@ -290,7 +294,8 @@
         "time-prepositions",
         "accusative-of-time"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     }
   ],
   "vocabulary": [
@@ -446,7 +451,7 @@
         "Because *grįžti* has no future."
       ],
       "correct": 1,
-      "explanation": "Stems in **s, z, š, ž** absorb the marker (¶95). Endings stay ordinary — pronunciation written down, not a rogue paradigm.",
+      "explanation": "Stems in **s, z, š, ž** absorb the marker (¶100). Endings stay ordinary — pronunciation written down, not a rogue paradigm.",
       "rulesTested": [
         "future-consonant-changes"
       ],
@@ -493,7 +498,7 @@
         "knygai"
       ],
       "correct": 2,
-      "explanation": "Negated verb → genitive object in the future too: *knygos*. *šios* already shows genitive agreement (¶97).",
+      "explanation": "Negated verb → genitive object in the future too: *knygos*. *šios* already shows genitive agreement (¶102).",
       "rulesTested": [
         "future-negation",
         "negation-genitive"
@@ -517,7 +522,7 @@
         "Because the two verbs must always match."
       ],
       "correct": 1,
-      "explanation": "English *when I get back* uses present; Lithuanian says what it means and uses future (¶98). *kai* only joins.",
+      "explanation": "English *when I get back* uses present; Lithuanian says what it means and uses future (¶103). *kai* only joins.",
       "rulesTested": [
         "future-uses",
         "future-formation"
@@ -568,7 +573,7 @@
         "Because *kava* has no nominative."
       ],
       "correct": 1,
-      "explanation": "Existential construction: what may or may not exist goes genitive. *ar* is a particle and governs nothing (¶48 / ¶96).",
+      "explanation": "Existential construction: what may or may not exist goes genitive. *ar* is a particle and governs nothing (¶48 / ¶101).",
       "rulesTested": [
         "future-buti",
         "genitive-quantity",
@@ -653,7 +658,7 @@
         "skaitys"
       ],
       "correct": 2,
-      "explanation": "Infinitive stem + *-s-* + *-iu*: *skaitysiu* (¶94).",
+      "explanation": "Infinitive stem + *-s-* + *-iu*: *skaitysiu* (¶99).",
       "rulesTested": [
         "future-formation"
       ],
@@ -673,7 +678,7 @@
         "būti"
       ],
       "correct": 2,
-      "explanation": "**bus** — present/past/future third forms must not be mixed (¶96).",
+      "explanation": "**bus** — present/past/future third forms must not be mixed (¶101).",
       "rulesTested": [
         "future-buti"
       ],
@@ -693,7 +698,7 @@
         "bus"
       ],
       "correct": 2,
-      "explanation": "Future 1sg of *būti*: *būsiu* (¶96).",
+      "explanation": "Future 1sg of *būti*: *būsiu* (¶101).",
       "rulesTested": [
         "future-buti",
         "future-uses"
@@ -716,7 +721,7 @@
         "grįžiau"
       ],
       "correct": 1,
-      "explanation": "Stem ends in *ž*; marker merges → *grįšiu* (not *grįžsiu*) (¶95).",
+      "explanation": "Stem ends in *ž*; marker merges → *grįšiu* (not *grįžsiu*) (¶100).",
       "rulesTested": [
         "future-consonant-changes"
       ],
@@ -736,7 +741,7 @@
         "nešys"
       ],
       "correct": 1,
-      "explanation": "*neš-* already ends in *š*; future 3rd **neš** (¶95).",
+      "explanation": "*neš-* already ends in *š*; future 3rd **neš** (¶100).",
       "rulesTested": [
         "future-consonant-changes"
       ],
@@ -756,7 +761,7 @@
         "nedarbau"
       ],
       "correct": 1,
-      "explanation": "*ne-* + future *dirbsiu* → *nedirbsiu* (¶97).",
+      "explanation": "*ne-* + future *dirbsiu* → *nedirbsiu* (¶102).",
       "rulesTested": [
         "future-negation",
         "future-formation"
@@ -782,7 +787,7 @@
         1,
         2
       ],
-      "explanation": "*dirbau* is past; the others are future (¶94–95).",
+      "explanation": "*dirbau* is past; the others are future (¶99–95).",
       "rulesTested": [
         "future-formation",
         "future-consonant-changes"
@@ -809,7 +814,7 @@
         1,
         3
       ],
-      "explanation": "*ved-*→*ves-*; *neš-*/*grįž-* merge with *-s-*. *dirb-* is untouched: *dirbsiu* (¶95).",
+      "explanation": "*ved-*→*ves-*; *neš-*/*grįž-* merge with *-s-*. *dirb-* is untouched: *dirbsiu* (¶100).",
       "rulesTested": [
         "future-consonant-changes"
       ],
@@ -832,7 +837,7 @@
         "nepirkau šios knygos"
       ],
       "correct": 0,
-      "explanation": "Future negation: *nepirksiu* + genitive *šios knygos* (¶97). Accusative *šią knygą* is the near-miss; *nepirkau* is past.",
+      "explanation": "Future negation: *nepirksiu* + genitive *šios knygos* (¶102). Accusative *šią knygą* is the near-miss; *nepirkau* is past.",
       "rulesTested": [
         "future-negation"
       ],
@@ -855,7 +860,7 @@
         "važiuoti"
       ],
       "correct": 1,
-      "explanation": "*kitą savaitę* marks future intention: *važiuosime* (¶98).",
+      "explanation": "*kitą savaitę* marks future intention: *važiuosime* (¶103).",
       "rulesTested": [
         "future-uses",
         "future-formation"
@@ -884,7 +889,7 @@
         1,
         2
       ],
-      "explanation": "*bus* is 3rd person (and impersonal). 1sg is *būsiu*, not *aš bus* (¶96).",
+      "explanation": "*bus* is 3rd person (and impersonal). 1sg is *būsiu*, not *aš bus* (¶101).",
       "rulesTested": [
         "future-buti"
       ],
@@ -908,7 +913,7 @@
         "darei"
       ],
       "correct": 2,
-      "explanation": "Stem *dary-* + *-s-* + *-i*: *darysi* (¶94).",
+      "explanation": "Stem *dary-* + *-s-* + *-i*: *darysi* (¶99).",
       "rulesTested": [
         "future-formation"
       ],
@@ -951,7 +956,7 @@
       "stem": "Letters in future 1sg **skaitysiu**?",
       "answer": 9,
       "unit": "letters",
-      "explanation": "Nine: s-k-a-i-t-y-s-i-u (¶94).",
+      "explanation": "Nine: s-k-a-i-t-y-s-i-u (¶99).",
       "rulesTested": [
         "future-formation"
       ],
@@ -966,7 +971,7 @@
       "stem": "**Perku knygą.** Make it future negation (*I shall not buy the book*). How many words change form?",
       "answer": 2,
       "unit": "words",
-      "explanation": "Two: *perku*→*nepirksiu*, *knygą*→*knygos* (¶97).",
+      "explanation": "Two: *perku*→*nepirksiu*, *knygą*→*knygos* (¶102).",
       "rulesTested": [
         "future-negation",
         "future-formation"
@@ -1075,7 +1080,7 @@
             "Because *dviratis* has no accusative."
           ],
           "correct": 1,
-          "explanation": "Future negation still triggers genitive of the object (¶97). Affirmative would be *pirksiu naują dviratį*.",
+          "explanation": "Future negation still triggers genitive of the object (¶102). Affirmative would be *pirksiu naują dviratį*.",
           "rulesTested": [
             "future-negation",
             "negation-genitive"

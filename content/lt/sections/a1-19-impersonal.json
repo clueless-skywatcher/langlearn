@@ -1,14 +1,14 @@
 {
-  "id": "a1-18",
+  "id": "a1-19",
   "kind": "lesson",
   "level": "A1",
-  "order": 23,
+  "order": 25,
   "title": "Impersonal Constructions",
   "summary": "Sentences with no subject at all: the weather, how a person feels, what hurts, and what is permitted. Lithuanian says these with a special form of the adjective that agrees with nothing, and with the dative already met at ¶69.",
   "rules": [
     {
       "id": "neuter-adjective",
-      "number": "121",
+      "number": "126",
       "heading": "The Non-Gendered Adjective",
       "statement": "Beside its masculine and feminine forms every qualitative adjective has a third, **non-gendered** form — the *negimininė forma*. It is made from the masculine by changing **-as** to **-a** and **-us** to **-u**, and it agrees with **nothing**, because in these sentences there is nothing for it to agree with. It is the form used when a state is reported without any person or thing being said to be in it.",
       "paradigms": [
@@ -83,17 +83,26 @@
         {
           "target": "Kaip įdomu!",
           "gloss": "How interesting!"
+        },
+        {
+          "target": "Man gerai.",
+          "gloss": "I am fine. / I feel well."
+        },
+        {
+          "target": "Jam gerai, bet man ne.",
+          "gloss": "He is fine, but I am not."
         }
       ],
       "seeAlso": [
         "adjective-agreement",
         "adverb-formation"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "personal-vs-impersonal",
-      "number": "122",
+      "number": "127",
       "heading": "Personal against Impersonal",
       "statement": "This is the distinction on which the whole section turns. **Filmas įdomus** says that the film *is* interesting — a subject, and an adjective agreeing with it. **Man įdomu** says that *I find it* interesting — no subject, the person in the **dative**, and the non-gendered form. English uses the same word for both and gives no warning; Lithuanian keeps them wholly apart.",
       "paradigms": [
@@ -161,11 +170,12 @@
         "dative-pronouns",
         "past-buti"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "weather-verbs",
-      "number": "123",
+      "number": "128",
       "heading": "The Weather",
       "statement": "The weather is reported either with a non-gendered adjective — *šalta*, *šilta*, *karšta* — or with a verb that has **no subject and never will have one**. *Lyja* is *it is raining*; there is no word answering to the English *it*, and supplying one is wrong. These verbs exist only in the third person.",
       "paradigms": [
@@ -232,11 +242,12 @@
         "future-buti",
         "accusative-of-time"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "skaudeti",
-      "number": "124",
+      "number": "129",
       "heading": "What Hurts: Skaudėti",
       "statement": "**Skaudėti** is impersonal and takes two things: the sufferer in the **dative**, and the part that hurts in the **accusative**. English makes the part the subject — *my head aches* — and Lithuanian makes it the object of a verb with no subject at all. This is the sentence a learner needs at the doctor's, and it is worth learning whole.",
       "examples": [
@@ -270,7 +281,7 @@
     },
     {
       "id": "galima-reikia",
-      "number": "125",
+      "number": "130",
       "heading": "What Is Necessary and What Is Allowed",
       "statement": "**Reikia** was given at ¶69; it is one of a small family. **Galima** is *it is possible, one may*; **negalima** is *it is forbidden*; **verta** is *it is worth while*. All are impersonal, all are completed by an **infinitive**, and all take the person concerned in the **dative** if he is mentioned at all. Because they are impersonal they have no personal endings — they change only for tense.",
       "paradigms": [
@@ -337,11 +348,12 @@
         "complementary-infinitive",
         "neuter-adjective"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "impersonal-summary",
-      "number": "126",
+      "number": "131",
       "heading": "Recognising an Impersonal Sentence",
       "statement": "Three marks together identify one: there is **no nominative**, the verb or adjective stands in a form that **agrees with nothing**, and the person, if there is one, is in the **dative**. Where English inserts a dummy *it* — *it is cold*, *it is necessary*, *it hurts* — Lithuanian inserts nothing, and the absence is the construction.",
       "paradigms": [
@@ -404,7 +416,8 @@
         "galima-reikia",
         "nes-todel"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     }
   ],
   "vocabulary": [
@@ -533,6 +546,29 @@
       "lemma": "anksti",
       "gloss": "early",
       "pos": "adverb"
+    },
+    {
+      "lemma": "vėjas",
+      "gloss": "wind",
+      "pos": "noun",
+      "forms": {
+        "nom": "vėjas",
+        "gen": "vėjo",
+        "acc": "vėją",
+        "gender": "m.",
+        "decl": "I"
+      }
+    },
+    {
+      "lemma": "ilsėtis",
+      "gloss": "to rest",
+      "pos": "verb",
+      "forms": {
+        "inf": "ilsėtis",
+        "pres3": "ilsisi",
+        "past3": "ilsėjosi",
+        "conj": "III"
+      }
     }
   ],
   "drills": [
@@ -1329,6 +1365,71 @@
         "sunkus",
         "galima",
         "rūkyti"
+      ]
+    },
+    {
+      "id": "a119-b1",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete: **______ gerai.**",
+      "options": [
+        "Man",
+        "Aš",
+        "Mano",
+        "Mane"
+      ],
+      "correct": 0,
+      "explanation": "State of feeling uses the dative: *man gerai*. Nominative *aš* is the English-shaped trap.",
+      "rulesTested": [
+        "neuter-adjective"
+      ],
+      "vocabUsed": [
+        "gerai"
+      ]
+    },
+    {
+      "id": "a119-b2",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Complete: **Šiandien ______.** (the wind)",
+      "options": [
+        "vėjas",
+        "vėjo",
+        "vėją",
+        "vėjui"
+      ],
+      "correct": 0,
+      "explanation": "The wind as a named subject is nominative *vėjas*.",
+      "rulesTested": [
+        "weather-verbs"
+      ],
+      "vocabUsed": [
+        "vėjas",
+        "šiandien"
+      ]
+    },
+    {
+      "id": "a119-b3",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Complete: **______ reikia ilsėtis.** Which mark the experiencer?",
+      "options": [
+        "Man",
+        "Jam",
+        "Aš",
+        "Mano"
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanation": "*Reikia* takes a dative experiencer.",
+      "rulesTested": [
+        "galima-reikia"
+      ],
+      "vocabUsed": [
+        "reikia",
+        "ilsėtis"
       ]
     }
   ]

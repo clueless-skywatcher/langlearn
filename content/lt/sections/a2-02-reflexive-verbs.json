@@ -4,13 +4,13 @@
   "level": "A2",
   "order": 2,
   "title": "Reflexive Verbs",
-  "summary": "The full paradigm behind the set phrases of ¶140: how the reflexive affix -si- conjugates in all three tenses, and how it migrates under negation and under prefixes.",
+  "summary": "The full paradigm behind the set phrases of ¶145: how the reflexive affix -si- conjugates in all three tenses, and how it migrates under negation and under prefixes.",
   "rules": [
     {
       "id": "reflexive-affix-full",
-      "number": "149",
+      "number": "154",
       "heading": "The Reflexive Affix",
-      "statement": "A **reflexive** verb is marked by the affix **-si-** (infinitive **-tis**): *mokyti* \"to teach\", *mokytis* \"to learn\". The affix turns the action back on the doer, or marks a middle meaning that English often renders with a different verb altogether. At A1 the forms were learnt as phrases (¶140); here they are declined in full.",
+      "statement": "A **reflexive** verb is marked by the affix **-si-** (infinitive **-tis**): *mokyti* \"to teach\", *mokytis* \"to learn\". The affix turns the action back on the doer, or marks a middle meaning that English often renders with a different verb altogether. At A1 the forms were learnt as phrases (¶145); here they are declined in full.",
       "examples": [
         {
           "target": "mokyti → mokytis",
@@ -36,7 +36,7 @@
     },
     {
       "id": "reflexive-present-paradigm",
-      "number": "150",
+      "number": "155",
       "heading": "The Present of a Reflexive Verb",
       "statement": "In the present the affix sits **at the end** of the personal form as **-si** (after a vowel) or **-s** is absorbed into the ending. The first person singular ends in **-ausi / -uosi / -iuosi** according to conjugation; the third person in **-asi / -osi / -isi**. Person is marked as on a non-reflexive verb; only the *-si* is added.",
       "paradigms": [
@@ -113,11 +113,12 @@
         "present-conj-ii",
         "conjugation-summary"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "reflexive-other-tenses",
-      "number": "151",
+      "number": "156",
       "heading": "Past and Future Reflexives",
       "statement": "In the **past** and the **future** the same affix rides at the end: *mokėsi, mokysis*. The past follows the verb's ordinary type (*-o* or *-ė*); the future keeps the *-s-* marker and adds *-i(s)*. The infinitive is always **-tis**.",
       "paradigms": [
@@ -218,11 +219,12 @@
         "future-formation",
         "reflexive-present-paradigm"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "si-under-negation",
-      "number": "152",
+      "number": "157",
       "heading": "Migration under Negation",
       "statement": "Under **negation** the affix leaves the end of the word and stands **immediately after *ne-***: *mokausi* but **nesimokau**; *jaučiuosi* but **nesijaučiu**. The personal ending is then the ordinary non-reflexive one. Without this rule a negated reflexive is unrecognisable.",
       "paradigms": [
@@ -269,7 +271,7 @@
               ]
             }
           ],
-          "footnote": "The same migration appears in set phrases: *atsiprašau* but *neatsiprašau* is a prefixed case (¶153); plain *nesijaučiu* is the bare pattern."
+          "footnote": "The same migration appears in set phrases: *atsiprašau* but *neatsiprašau* is a prefixed case (¶158); plain *nesijaučiu* is the bare pattern."
         }
       ],
       "examples": [
@@ -291,11 +293,12 @@
         "negation",
         "reflexive-present-paradigm"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "si-under-prefix",
-      "number": "153",
+      "number": "158",
       "heading": "Migration under a Prefix",
       "statement": "When the verb already carries a **prefix**, the reflexive affix sits **between the prefix and the stem**: *šypsotis* → *nusišypsoti* → *nusišypsau*; *sakyti* → *atsisakyti* → *atsisakau*. Negation then precedes the whole complex: **nenusišypsau**, **neatsisakau**. The order is always *ne- + prefix + -si- + stem*.",
       "paradigms": [
@@ -356,11 +359,12 @@
         "si-under-negation",
         "reflexive-affix-full"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "reflexive-meanings",
-      "number": "154",
+      "number": "159",
       "heading": "What the Affix Can Mean",
       "statement": "The same morphology covers several senses, and the dictionary — not the ending — chooses among them. **True reflexive**: the doer acts on himself (*prausiuosi*). **Reciprocal**: each acts on the other (*matomės*, we meet / see each other). **Middle / lexical**: a new verb whose English counterpart is rarely reflexive (*mokytis* learn, *jaustis* feel, *sektis* go well).",
       "examples": [
@@ -384,11 +388,12 @@
         "reflexive-affix-full",
         "reflexive-phrases"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "reflexive-complements",
-      "number": "155",
+      "number": "160",
       "heading": "Complements of Reflexive Verbs",
       "statement": "A reflexive verb may still govern a case. **Mokytis** takes the **genitive** of the subject studied (*mokausi lietuvių kalbos*); **domėtis** and **rūpintis** take the **instrumental** (taught with the unexpected-case verbs of the next section); many true reflexives take no object at all. Do not put an accusative after *mokytis* where English \"learn Lithuanian\" tempts one to.",
       "examples": [
@@ -951,7 +956,7 @@
             "Because *kalba* has no accusative."
           ],
           "correct": 0,
-          "explanation": "¶155: *mokytis* + genitive. The verb is affirmative here, so negation-genitive is irrelevant.",
+          "explanation": "¶160: *mokytis* + genitive. The verb is affirmative here, so negation-genitive is irrelevant.",
           "rulesTested": [
             "reflexive-complements"
           ],
@@ -1243,7 +1248,7 @@
         1,
         3
       ],
-      "explanation": "Negation must migrate: not *mokausi ne* but *nesimokau*. The others follow ¶152–¶153 and the present paradigm.",
+      "explanation": "Negation must migrate: not *mokausi ne* but *nesimokau*. The others follow ¶157–¶158 and the present paradigm.",
       "rulesTested": [
         "si-under-negation",
         "si-under-prefix",
