@@ -1743,6 +1743,38 @@
       },
       "questions": [
         {
+          "id": "a112-p1-c1",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "Kada Rūta geria kavą su kolege?",
+          "explanation": "*Pusę dešimtos ji geria kavą su kolege.* One o'clock is lunch and five is when the working day ends.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "options": [
+            "aštuntą",
+            "pusę dešimtos",
+            "pirmą valandą",
+            "penktą"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "a112-p1-c2",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Kiek minučių trunka kelionė į darbą?",
+          "explanation": "*kelionė trunka dvidešimt minučių.* Fifteen is the number of books she had a week ago, which is the other number in the passage.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "options": [
+            "dešimt",
+            "penkiolika",
+            "dvidešimt",
+            "trisdešimt"
+          ],
+          "correct": 2
+        },
+        {
           "id": "a112-p1-q1",
           "type": "single",
           "difficulty": "easy",
@@ -1855,7 +1887,31 @@
             "knyga"
           ]
         }
+      ],
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+          "note": "Descriptive source for the paradigms and rule statements on this page."
+        }
       ]
+    }
+  ],
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+      "note": "Descriptive source for the paradigms and rule statements on this page."
+    },
+    {
+      "kind": "dictionary",
+      "citation": "*Dabartinės lietuvių kalbos žodynas*, Lietuvių kalbos institutas.",
+      "url": "https://ekalba.lt/dabartines-lietuviu-kalbos-zodynas/",
+      "note": "Citation forms, gender and stress class for this section's vocabulary."
     }
   ]
 }

@@ -1218,14 +1218,47 @@
       "type": "comprehension",
       "difficulty": "medium",
       "title": "Sesuo ir duktė",
-      "passage": "Mano sesuo gyvena name prie upės. Jos duktė mėgsta žaisti su šunimi soduose. Vakare jos geria arbatą su medumi ir skaito knygas. Kartais seseriai skauda akis, tada ji guli lovoje. „Seserie,“ — sakau, — „ar nori vandens?“ Ji atsako: „Ačiū, duok stiklinėje.“",
+      "passage": "Mano sesuo gyvena name prie upės. Jos duktė mėgsta žaisti su šunimi soduose. Vakare jos geria arbatą su medumi ir skaito knygas. Kartais seseriai skauda akis, tada ji guli lovoje.\nAŠ. Seserie, ar nori vandens?\nSESUO. Ačiū, duok stiklinėje.",
       "translation": "My sister lives in a house by the river. Her daughter likes to play with the dog in the gardens. In the evening they drink tea with honey and read books. Sometimes the sister's eyes hurt, then she lies in bed. \"Sister,\" I say, \"do you want some water?\" She answers: \"Thanks, give it in a glass.\"",
       "glossary": {
         "upės": "of the river (upė)",
         "tada": "then",
-        "duok": "give! (imperative of duoti)"
+        "duok": "give! (imperative of duoti)",
+        "sesuo": "sister"
       },
       "questions": [
+        {
+          "id": "a201-p1-c1",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Su kuo duktė mėgsta žaisti?",
+          "explanation": "*Jos duktė mėgsta žaisti su šunimi soduose.* *Su* takes the instrumental, and *šunimi* is the fifth-declension form.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "options": [
+            "su šunimi",
+            "su kate",
+            "su seserimi",
+            "su drauge"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "a201-p1-c2",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Ką sesuo prašo paduoti?",
+          "explanation": "*ar nori vandens?* — *Ačiū, duok stiklinėje.* The glass is what it is served in, not what is asked for.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "options": [
+            "arbatos",
+            "medaus",
+            "vandens",
+            "stiklinės"
+          ],
+          "correct": 2
+        },
         {
           "id": "a201-p1-q1",
           "type": "single",
@@ -1345,6 +1378,17 @@
           "vocabUsed": [
             "sodas"
           ]
+        }
+      ],
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+          "note": "Descriptive source for the paradigms and rule statements on this page."
         }
       ]
     },
@@ -1644,6 +1688,19 @@
         "seven-cases-uses"
       ],
       "vocabUsed": []
+    }
+  ],
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+      "note": "Descriptive source for the paradigms and rule statements on this page."
+    },
+    {
+      "kind": "dictionary",
+      "citation": "*Dabartinės lietuvių kalbos žodynas*, Lietuvių kalbos institutas.",
+      "url": "https://ekalba.lt/dabartines-lietuviu-kalbos-zodynas/",
+      "note": "Citation forms, gender and stress class for this section's vocabulary."
     }
   ]
 }

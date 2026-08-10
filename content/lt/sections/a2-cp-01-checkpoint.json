@@ -59,26 +59,29 @@
     {
       "id": "a2cp1-q3",
       "type": "single",
-      "difficulty": "medium",
-      "fromSection": "a2-01",
-      "stem": "Complete: **Gyvenu su ____.** (I live with my sister.)",
-      "options": [
-        "sesuo",
-        "seserį",
-        "seserimi",
-        "sesers"
-      ],
-      "correct": 2,
-      "explanation": "*su* + instrumental; fifth-declension stem *seser-* → *seserimi*.",
+      "difficulty": "hard",
+      "stem": "**Gyvenu su seserimi, o dukterį matau retai.** Both nouns belong to the fifth declension. What do the two endings show?",
+      "explanation": "*su* governs the instrumental (¶74) and a direct object stands in the accusative (¶19) — the declension supplies the endings but does not choose the case (¶151, ¶153). The fifth declension is irregular in shape, not in what its cases are for.",
       "rulesTested": [
         "fifth-declension-paradigm",
-        "seven-cases-uses"
+        "seven-cases-uses",
+        "instrumental-su",
+        "transitive-objects"
       ],
       "vocabUsed": [
-        "gyventi",
+        "sesuo",
+        "duktė",
         "su",
-        "sesuo"
-      ]
+        "matyti"
+      ],
+      "options": [
+        "*-imi* is instrumental after *su*, *-į* accusative as a direct object.",
+        "Both are instrumental; the second has simply lost its ending.",
+        "*-imi* is dative and *-į* accusative.",
+        "The fifth declension has one ending for both cases."
+      ],
+      "correct": 0,
+      "fromSection": "a2-01"
     },
     {
       "id": "a2cp1-q4",
@@ -128,24 +131,32 @@
     },
     {
       "id": "a2cp1-q6",
-      "type": "single",
+      "type": "multi",
       "difficulty": "hard",
-      "fromSection": "a2-01",
-      "stem": "What is the nominative plural of **akis**?",
-      "options": [
-        "akiai",
-        "akys",
-        "akis",
-        "akės"
-      ],
-      "correct": 1,
-      "explanation": "Third declension nominative plural **-ys**. Bare *akis* as plural is the accusative.",
+      "stem": "**Akys** and **naktys** are nominative plurals. Which statements about the third declension are true?",
+      "explanation": "The third declension in *-is* forms its plural in *-ys* and its instrumental singular in *-imi* (¶149). D describes what a learner *expects* after meeting first-declension *-is* nouns like *brolis*, where singular and plural differ elsewhere — the coincidences of ¶152 are real but this is not one of them.",
       "rulesTested": [
-        "third-declension-paradigm"
+        "third-declension-paradigm",
+        "paradigm-homographs",
+        "five-declensions",
+        "plural-nominative"
       ],
       "vocabUsed": [
-        "akis"
-      ]
+        "akis",
+        "naktis"
+      ],
+      "options": [
+        "The nominative plural ends in *-ys*.",
+        "The nominative singular ends in *-is* for both.",
+        "The instrumental singular ends in *-imi*.",
+        "The nominative plural is identical to the nominative singular."
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fromSection": "a2-01"
     },
     {
       "id": "a2cp1-q7",
@@ -605,67 +616,119 @@
     },
     {
       "id": "a2cp1-x1",
-      "type": "single",
-      "difficulty": "easy",
-      "fromSection": "a2-01",
-      "stem": "*Medus, medaus* belongs to which declension?",
-      "options": [
-        "I",
-        "III",
-        "IV",
-        "V"
-      ],
-      "correct": 2,
-      "explanation": "*-us / -aus* marks the **fourth** declension.",
+      "type": "matching",
+      "difficulty": "hard",
+      "stem": "Match each noun, cited with its genitive, to its declension.",
+      "explanation": "The declension is read from the **genitive**, not the nominative (¶146). *medaus* is fourth, *akies* third, *vandens* fifth, *brolio* first — and *brolis* and *akis* share a nominative ending while belonging to different declensions, which is exactly why the citation form includes the genitive. The second declension matches nothing here.",
       "rulesTested": [
         "five-declensions",
-        "fourth-declension-paradigm"
+        "fourth-declension-paradigm",
+        "third-declension-paradigm",
+        "fifth-declension-paradigm",
+        "first-declension-paradigm"
       ],
       "vocabUsed": [
-        "medus"
-      ]
+        "medus",
+        "akis",
+        "vanduo",
+        "brolis"
+      ],
+      "columnHeadings": [
+        "Noun",
+        "Declension"
+      ],
+      "columnI": [
+        "*medus, medaus*",
+        "*akis, akies*",
+        "*vanduo, vandens*",
+        "*brolis, brolio*"
+      ],
+      "columnII": [
+        "first",
+        "second",
+        "third",
+        "fourth",
+        "fifth"
+      ],
+      "options": [
+        [
+          3,
+          2,
+          4,
+          0
+        ],
+        [
+          0,
+          2,
+          4,
+          3
+        ],
+        [
+          3,
+          2,
+          0,
+          4
+        ],
+        [
+          3,
+          4,
+          2,
+          0
+        ]
+      ],
+      "correct": 0,
+      "fromSection": "a2-01"
     },
     {
       "id": "a2cp1-x2",
       "type": "single",
-      "difficulty": "medium",
-      "fromSection": "a2-01",
-      "stem": "What is the instrumental singular of **akis**?",
-      "options": [
-        "akiu",
-        "akimi",
-        "akiais",
-        "akyje"
-      ],
-      "correct": 1,
-      "explanation": "Third declension: long **-imi** → *akimi*.",
+      "difficulty": "hard",
+      "stem": "**Savo akimis mačiau.** Why is *akimis* instrumental plural rather than dative plural *akims*?",
+      "explanation": "The eyes are the means, so the instrumental of ¶73 applies; the third declension supplies *-imis* against dative *-ims* (¶149). *savo* is indeclinable and governs nothing (¶44), and *matyti* takes an accusative object — which is absent here, not instrumental.",
       "rulesTested": [
-        "third-declension-paradigm"
+        "third-declension-paradigm",
+        "instrumental-means",
+        "savo",
+        "seven-cases-uses"
       ],
       "vocabUsed": [
-        "akis"
-      ]
+        "akis",
+        "savo",
+        "matyti"
+      ],
+      "options": [
+        "Because seeing is done *by means of* the eyes — the instrumental of means.",
+        "Because *savo* requires the instrumental.",
+        "Because the third declension has no dative plural.",
+        "Because *matyti* governs the instrumental."
+      ],
+      "correct": 0,
+      "fromSection": "a2-01"
     },
     {
       "id": "a2cp1-x3",
       "type": "single",
-      "difficulty": "medium",
-      "fromSection": "a2-01",
-      "stem": "What is the accusative singular of **vanduo**?",
-      "options": [
-        "vanduo",
-        "vandens",
-        "vandenį",
-        "vandeniu"
-      ],
-      "correct": 2,
-      "explanation": "Fifth-class stem: *vandenį*.",
+      "difficulty": "hard",
+      "stem": "**Nebeturiu vandens** and **Geriu vandenį** use the same noun. Account for the two endings.",
+      "explanation": "*nebe-* is a negative prefix and carries the genitive of negation with it (¶165, ¶26); remove the negation and the object reverts to the accusative *vandenį* (¶151). The fifth declension has a perfectly ordinary accusative — the case is chosen by the sentence, not by the paradigm.",
       "rulesTested": [
-        "fifth-declension-paradigm"
+        "fifth-declension-paradigm",
+        "nebe-syntax",
+        "negation-genitive",
+        "accusative-nouns"
       ],
       "vocabUsed": [
-        "vanduo"
-      ]
+        "vanduo",
+        "gerti"
+      ],
+      "options": [
+        "*vandens* is genitive because the verb is negated; *vandenį* is the accusative object of a positive verb.",
+        "*vandens* is nominative and *vandenį* accusative.",
+        "*vandens* is genitive because the fifth declension has no accusative.",
+        "The two are free variants of the accusative."
+      ],
+      "correct": 0,
+      "fromSection": "a2-01"
     },
     {
       "id": "a2cp1-x4",
@@ -713,45 +776,55 @@
     },
     {
       "id": "a2cp1-x6",
-      "type": "single",
-      "difficulty": "easy",
-      "fromSection": "a2-02",
-      "stem": "What is the 1 sg. present of **praustis**?",
-      "options": [
-        "prausiuosi",
-        "prausiu",
-        "nesiprausiu",
-        "praustis"
-      ],
-      "correct": 0,
-      "explanation": "Present reflexive: *prausiuosi*.",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "**Prausiuosi**, **nesiprausiu**, **nusiprausiu**. Which statements are true?",
+      "explanation": "A simple reflexive carries *-si* at its end; any prefix — negative or lexical — moves it in after that prefix (¶154, ¶157, ¶158). D misreads the third: *nusiprausiu* has the prefix *nu-* and is not negative at all, which is the distinction ¶158 exists to draw.",
       "rulesTested": [
-        "reflexive-present-paradigm"
+        "reflexive-present-paradigm",
+        "si-under-negation",
+        "si-under-prefix",
+        "reflexive-affix-full"
       ],
       "vocabUsed": [
         "praustis"
-      ]
+      ],
+      "options": [
+        "In the first, the affix stands at the end of the verb.",
+        "In the second, the negative prefix has pulled the affix inside.",
+        "In the third, a verbal prefix has done the same thing.",
+        "The three are the present, the negated present, and the negated future."
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fromSection": "a2-02"
     },
     {
       "id": "a2cp1-x7",
       "type": "single",
-      "difficulty": "easy",
-      "fromSection": "a2-02",
-      "stem": "The correct negation of **jaučiuosi** is:",
-      "options": [
-        "nejaučiuosi",
-        "nesijaučiu",
-        "nesijaučiuosi",
-        "jaučiuosi ne"
-      ],
-      "correct": 1,
-      "explanation": "*-si-* migrates after *ne-*: **nesijaučiu**.",
+      "difficulty": "medium",
+      "stem": "A learner writes *nejaučiuosi* for ‘I don't feel’. What is wrong, and what is the rule?",
+      "explanation": "Negation is a prefix, and a prefix pulls the reflexive affix in behind it (¶157). The affix is not lost — it moves — so C is as wrong as leaving it at the end. Writing *ne* apart from a verb is never correct (¶25).",
       "rulesTested": [
-        "si-under-negation"
+        "si-under-negation",
+        "reflexive-affix-full",
+        "negation",
+        "reflexive-present-paradigm"
       ],
       "vocabUsed": [
         "jaustis"
-      ]
+      ],
+      "options": [
+        "The affix must migrate in after the negative prefix: *nesijaučiu*.",
+        "Nothing is wrong; both forms are standard.",
+        "The verb should lose its affix under negation: *nejaučiu*.",
+        "The negative should be written apart: *ne jaučiuosi*."
+      ],
+      "correct": 0,
+      "fromSection": "a2-02"
     },
     {
       "id": "a2cp1-x8",
@@ -821,24 +894,35 @@
     },
     {
       "id": "a2cp1-x11",
-      "type": "single",
-      "difficulty": "easy",
-      "fromSection": "a2-03",
-      "stem": "Complete: **Ieškau ____.** (I am looking for the keys.)",
-      "options": [
-        "raktus",
-        "raktų",
-        "raktams",
-        "raktais"
-      ],
-      "correct": 1,
-      "explanation": "*Ieškoti* + genitive: *ieškau raktų*.",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "**Ieškau raktų, laukiu draugo, bijau tamsos.** What do the three objects have in common, and why?",
+      "explanation": "*ieškoti*, *laukti* and *bijoti* take a genitive object because that is what those verbs do (¶169) — not because anything is negated (¶26) and not as an alternative to the accusative. Government is a property of the verb and has to be learned with it (¶172).",
       "rulesTested": [
-        "verbs-genitive-object"
+        "verbs-genitive-object",
+        "case-government-summary",
+        "negation-genitive"
       ],
       "vocabUsed": [
-        "ieškoti"
-      ]
+        "ieškoti",
+        "laukti",
+        "bijoti",
+        "durys",
+        "draugas",
+        "tamsa"
+      ],
+      "options": [
+        "All three are genitive.",
+        "All three verbs govern the genitive as a matter of lexical government.",
+        "The genitive here has nothing to do with negation.",
+        "All three could equally take the accusative."
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fromSection": "a2-03"
     },
     {
       "id": "a2cp1-x12",
@@ -1007,12 +1091,47 @@
       "difficulty": "medium",
       "fromSection": "a2-02",
       "title": "Pas seserį",
-      "passage": "Šiandien esu pas seserį. Ji mokosi istorijos ir niekada nesimoko be knygos. Rytais ji keliasi anksti, prausiasi ir nusišypso. „Kaip sekasi?“ — klausiu. „Gerai, tik nesijaučiu žvali dėl darbo,“ — sako ji. Vakare mes matomės su draugais šalia parko ir kalbame apie filmą. Aš laukiu autobuso, o ji ieško bilieto.",
+      "passage": "Šiandien esu pas seserį. Ji mokosi istorijos ir niekada nesimoko be knygos. Rytais ji keliasi anksti, prausiasi ir nusišypso.\nAŠ. Kaip sekasi?\nSESUO. Gerai, tik nesijaučiu žvali dėl darbo.\nVakare mes matomės su draugais šalia parko ir kalbame apie filmą. Aš laukiu autobuso, o ji ieško bilieto.",
       "translation": "Today I am at my sister's. She is studying history and never studies without a book. In the mornings she gets up early, washes and smiles. \"How are you getting on?\" I ask. \"Fine, only I do not feel lively because of work,\" she says. In the evening we meet with friends beside the park and talk about a film. I wait for the bus, and she looks for a ticket.",
       "glossary": {
-        "žvali": "lively (fem.)"
+        "žvali": "lively (fem.)",
+        "sesuo": "sister"
       },
       "questions": [
+        {
+          "id": "a2cp1-p1-c1",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Ko mokosi sesuo?",
+          "explanation": "*Ji mokosi istorijos* — *mokytis* governs the genitive, which is why it is *istorijos* and not *istoriją*.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "fromSection": "a2-01",
+          "options": [
+            "istorijos",
+            "kalbos",
+            "filmo",
+            "nieko"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "a2cp1-p1-c2",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Kur jie matosi vakare?",
+          "explanation": "*Vakare mes matomės su draugais šalia parko.* *Šalia* takes the genitive.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "fromSection": "a2-03",
+          "options": [
+            "bibliotekoje",
+            "šalia parko",
+            "kavinėje",
+            "stotyje"
+          ],
+          "correct": 1
+        },
         {
           "id": "a2cp1-p1-q1",
           "type": "single",
@@ -1116,53 +1235,110 @@
             "matytis"
           ]
         }
+      ],
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+          "note": "Descriptive source for the paradigms and rule statements on this page."
+        }
       ]
     },
     {
       "id": "a2cp1-nebe1",
       "type": "single",
-      "difficulty": "easy",
-      "fromSection": "a2-nebe",
-      "stem": "Complete: **Aš ______ čia.** (I no longer work here.)",
-      "options": [
-        "nebedirbu",
-        "nedirbu",
-        "dar nedirbu",
-        "tebedirbu"
-      ],
-      "correct": 0,
-      "explanation": "*Nebedirbu* = no longer. *Dar nedirbu* = not yet; *tebedirbu* = still.",
+      "difficulty": "hard",
+      "stem": "**Aš nebedirbu čia, bet dar nedirbu naujoje vietoje.** What does the pair of negatives express?",
+      "explanation": "*nebe-* says a state has stopped and *dar ne-* that it has not started (¶161, ¶163). The two point in opposite directions in time, which is why they can stand in one sentence without contradiction — and why reversing them, as C does, reverses the biography.",
       "rulesTested": [
         "nebe-meaning",
-        "nebe-vs-dar-ne"
+        "nebe-vs-dar-ne",
+        "particles",
+        "negation"
       ],
       "vocabUsed": [
+        "nebe-",
         "dirbti",
-        "nebe-"
-      ]
+        "dar",
+        "bet"
+      ],
+      "options": [
+        "A state that has ended, and one that has not yet begun.",
+        "The same thing twice, for emphasis.",
+        "A state that has not yet begun, and one that has ended.",
+        "Two future states."
+      ],
+      "correct": 0,
+      "fromSection": "a2-nebe"
     },
     {
       "id": "a2cp1-nebe2",
-      "type": "single",
-      "difficulty": "medium",
-      "fromSection": "a2-nebe",
-      "stem": "Complete: **Jis ______.** (He is not working yet.)",
-      "options": [
-        "dar nedirba",
-        "nebedirba",
-        "jau nedirba",
-        "tebedirba"
-      ],
-      "correct": 0,
-      "explanation": "*Dar nedirba* = not yet. *Nebe-* / *jau ne-* = no longer.",
+      "type": "matching",
+      "difficulty": "hard",
+      "stem": "Match each expression with what it says about the state of affairs.",
+      "explanation": "*nebe-* marks a state that has ended (¶161), *dar ne-* one not yet begun, *jau ne-* the same ending as *nebe-* but presented as news (¶163), and *tebe-* one that continues (¶164). Options A and D differ only in the fourth pair, which is where the distinction is finest.",
       "rulesTested": [
+        "nebe-meaning",
         "nebe-vs-dar-ne",
+        "tebe-counterpart",
         "particles"
       ],
       "vocabUsed": [
+        "nebe-",
+        "tebe-",
+        "dirbti",
         "dar",
-        "dirbti"
-      ]
+        "jau"
+      ],
+      "columnHeadings": [
+        "Expression",
+        "Meaning"
+      ],
+      "columnI": [
+        "**nebedirba**",
+        "**dar nedirba**",
+        "**tebedirba**",
+        "**jau nedirba**"
+      ],
+      "columnII": [
+        "has stopped",
+        "has not started yet",
+        "is still going on",
+        "has stopped, with the change treated as news",
+        "will start"
+      ],
+      "options": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          4
+        ]
+      ],
+      "correct": 0,
+      "fromSection": "a2-nebe"
     },
     {
       "id": "a2cp1-nebe3",
@@ -1219,25 +1395,28 @@
       "id": "a2cp1-nebe5",
       "type": "single",
       "difficulty": "hard",
-      "fromSection": "a2-nebe",
-      "stem": "Complete: **Jis nebeturi ______.**",
-      "options": [
-        "laiko",
-        "laiką",
-        "laikas",
-        "laike"
-      ],
-      "correct": 0,
-      "explanation": "Genitive of negation under *nebe-*: *laiko*.",
+      "stem": "**Jis nebeturi laiko** and **Jis nebesijaučia gerai.** What do the two sentences show about *nebe-*?",
+      "explanation": "*nebe-* is a negative prefix and behaves like one throughout: the object of *turėti* goes into the genitive (¶26), and the reflexive affix migrates in after the prefix exactly as it does after plain *ne-* (¶165, ¶157). One prefix, two consequences.",
       "rulesTested": [
         "nebe-syntax",
-        "negation-genitive"
+        "negation-genitive",
+        "si-under-negation",
+        "nebe-formation"
       ],
       "vocabUsed": [
+        "nebe-",
         "turėti",
         "laikas",
-        "nebe-"
-      ]
+        "jaustis"
+      ],
+      "options": [
+        "That it carries the genitive of negation to the object, and pulls a reflexive affix in behind it.",
+        "That it takes the accusative in the first and has no effect in the second.",
+        "That it is written apart from the verb before a reflexive.",
+        "That it negates only the tense, not the object."
+      ],
+      "correct": 0,
+      "fromSection": "a2-nebe"
     },
     {
       "id": "a2cp1-nebe6",
@@ -1265,26 +1444,32 @@
       "id": "a2cp1-nebe7",
       "type": "multi",
       "difficulty": "hard",
-      "fromSection": "a2-nebe",
-      "stem": "Which are written together as one word?",
-      "options": [
-        "nebegaliu",
-        "nebegeras",
-        "nebe laikas",
-        "Nebe skaito, o rašo"
-      ],
-      "correct": [
-        0,
-        1
-      ],
-      "explanation": "Together with verbs/adjectives; apart before nouns and under contrast.",
+      "stem": "Which of these are written as one word?",
+      "explanation": "*nebe-* joins to the word it negates, whether verb or adjective, and takes a migrating reflexive affix with it (¶162, ¶165). Before a word it does not negate — an adverb standing on its own, as in C — it is written apart. The rule is about what is being negated, not about the part of speech.",
       "rulesTested": [
-        "nebe-formation"
+        "nebe-formation",
+        "nebe-syntax",
+        "si-under-negation"
       ],
       "vocabUsed": [
         "nebe-",
-        "galėti"
-      ]
+        "turėti",
+        "naujas",
+        "šiandien",
+        "jaustis"
+      ],
+      "options": [
+        "**nebeturiu** ‘I no longer have’",
+        "**nebenaujas** ‘no longer new’",
+        "**nebe šiandien** ‘not today any more’",
+        "**nebesijaučiu** ‘I no longer feel’"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "fromSection": "a2-nebe"
     },
     {
       "id": "a2cp1-nebe8",
@@ -1352,6 +1537,19 @@
         "nebe-",
         "tebe-"
       ]
+    }
+  ],
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+      "note": "Descriptive source for the paradigms and rule statements on this page."
+    },
+    {
+      "kind": "dictionary",
+      "citation": "*Dabartinės lietuvių kalbos žodynas*, Lietuvių kalbos institutas.",
+      "url": "https://ekalba.lt/dabartines-lietuviu-kalbos-zodynas/",
+      "note": "Citation forms, gender and stress class for this section's vocabulary."
     }
   ]
 }

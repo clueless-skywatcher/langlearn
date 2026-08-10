@@ -5,7 +5,11 @@
   "order": 4,
   "title": "Checkpoint: Sounds, Endings, and Number",
   "summary": "A cumulative examination of the first three sections: the alphabet and its invariable sounds, the endings that mark the parts of speech, and the plural with the agreements it requires. Twenty-four questions in the four examination formats.",
-  "covers": ["eo-01", "eo-02", "eo-03"],
+  "covers": [
+    "eo-01",
+    "eo-02",
+    "eo-03"
+  ],
   "passThreshold": 60,
   "drills": [
     {
@@ -14,11 +18,21 @@
       "difficulty": "easy",
       "fromSection": "eo-01",
       "stem": "Which of these letters does **not** belong to the Esperanto alphabet?",
-      "options": ["ĵ", "x", "ŝ", "ŭ"],
+      "options": [
+        "ĵ",
+        "x",
+        "ŝ",
+        "ŭ"
+      ],
       "correct": 1,
       "explanation": "q, w, x and y were left out of the alphabet. The other three are among the six letters formed with a diacritic.",
-      "rulesTested": ["alphabet"],
-      "vocabUsed": ["litero", "alfabeto"]
+      "rulesTested": [
+        "alphabet"
+      ],
+      "vocabUsed": [
+        "litero",
+        "alfabeto"
+      ]
     },
     {
       "id": "eocp1-q2",
@@ -34,8 +48,13 @@
       ],
       "correct": 1,
       "explanation": "ĝ is the affricate of \"gem\" and \"jar\". Plain g is always hard, ĵ is the *z* of \"azure\", and ĥ the *ch* of \"loch\".",
-      "rulesTested": ["consonants"],
-      "vocabUsed": ["sono", "litero"]
+      "rulesTested": [
+        "consonants"
+      ],
+      "vocabUsed": [
+        "sono",
+        "litero"
+      ]
     },
     {
       "id": "eocp1-q3",
@@ -46,8 +65,16 @@
       "answer": 3,
       "unit": "letters",
       "explanation": "Three: a, o and e. The vowels are a, e, i, o, u and no others — *j* and *ŭ* are the consonant letters with which the second element of a diphthong is written, chosen precisely so that a diphthong can never be mistaken for two vowels standing side by side (¶5).",
-      "rulesTested": ["vowels", "diphthongs", "alphabet"],
-      "vocabUsed": ["vokalo", "litero", "diftongo"]
+      "rulesTested": [
+        "vowels",
+        "diphthongs",
+        "alphabet"
+      ],
+      "vocabUsed": [
+        "vokalo",
+        "litero",
+        "diftongo"
+      ]
     },
     {
       "id": "eocp1-q4",
@@ -55,11 +82,25 @@
       "difficulty": "medium",
       "fromSection": "eo-01",
       "stem": "Which of these words contain a **diphthong**?",
-      "options": ["hodiaŭ", "naiva", "ĉielo", "ĵaŭdo"],
-      "correct": [0, 3],
+      "options": [
+        "hodiaŭ",
+        "naiva",
+        "ĉielo",
+        "ĵaŭdo"
+      ],
+      "correct": [
+        0,
+        3
+      ],
       "explanation": "A diphthong always ends in written **j** or **ŭ**, so *hodiaŭ* and *ĵaŭdo* have one. In *naiva* and *ĉielo* the two vowels stand side by side and are separate syllables — precisely the confusion the j/ŭ spelling exists to prevent.",
-      "rulesTested": ["diphthongs", "vowels"],
-      "vocabUsed": ["diftongo", "vokalo"]
+      "rulesTested": [
+        "diphthongs",
+        "vowels"
+      ],
+      "vocabUsed": [
+        "diftongo",
+        "vokalo"
+      ]
     },
     {
       "id": "eocp1-q5",
@@ -67,11 +108,22 @@
       "difficulty": "medium",
       "fromSection": "eo-01",
       "stem": "Which syllable of **suspekti** ('to suspect') carries the accent?",
-      "options": ["sus-", "-pek-", "-ti", "it varies with the sentence"],
+      "options": [
+        "sus-",
+        "-pek-",
+        "-ti",
+        "it varies with the sentence"
+      ],
       "correct": 1,
       "explanation": "The word divides sus-pek-ti, and the accent falls invariably on the syllable before the last: sus-PEK-ti.",
-      "rulesTested": ["accent", "syllables"],
-      "vocabUsed": ["akcento", "silabo"]
+      "rulesTested": [
+        "accent",
+        "syllables"
+      ],
+      "vocabUsed": [
+        "akcento",
+        "silabo"
+      ]
     },
     {
       "id": "eocp1-q6",
@@ -87,8 +139,14 @@
       ],
       "correct": 2,
       "explanation": "Every consonant of a group is sounded fully, and no letter is ever silent. The English habit of reducing *x* to /gz/ or /ks/ has nothing to work on here.",
-      "rulesTested": ["consonant-clusters", "consonants"],
-      "vocabUsed": ["konsonanto", "sono"]
+      "rulesTested": [
+        "consonant-clusters",
+        "consonants"
+      ],
+      "vocabUsed": [
+        "konsonanto",
+        "sono"
+      ]
     },
     {
       "id": "eocp1-q7",
@@ -99,8 +157,15 @@
       "answer": 3,
       "unit": "syllables",
       "explanation": "Three: Eŭ-ro-po, hence Eŭ-RO-po. *Eŭ* is a diphthong and counts as one syllable.",
-      "rulesTested": ["syllables", "diphthongs", "accent"],
-      "vocabUsed": ["silabo", "diftongo"]
+      "rulesTested": [
+        "syllables",
+        "diphthongs",
+        "accent"
+      ],
+      "vocabUsed": [
+        "silabo",
+        "diftongo"
+      ]
     },
     {
       "id": "eocp1-q8",
@@ -114,10 +179,23 @@
         "There are no silent letters.",
         "The accent is never marked in writing."
       ],
-      "correct": [0, 2, 3],
+      "correct": [
+        0,
+        2,
+        3
+      ],
       "explanation": "One letter, one sound; nothing silent; and since the accent rule has no exceptions there is nothing to mark. The vanish of \"day\" is exactly what an English speaker must suppress — Esperanto *e* is the vowel of \"fiancé\".",
-      "rulesTested": ["alphabet", "vowels", "consonant-clusters", "accent"],
-      "vocabUsed": ["litero", "sono", "akcento"]
+      "rulesTested": [
+        "alphabet",
+        "vowels",
+        "consonant-clusters",
+        "accent"
+      ],
+      "vocabUsed": [
+        "litero",
+        "sono",
+        "akcento"
+      ]
     },
     {
       "id": "eocp1-q9",
@@ -125,11 +203,24 @@
       "difficulty": "easy",
       "fromSection": "eo-02",
       "stem": "Which of these words is a **noun**?",
-      "options": ["bela", "kantas", "tablo", "la"],
+      "options": [
+        "bela",
+        "kantas",
+        "tablo",
+        "la"
+      ],
       "correct": 2,
       "explanation": "-o marks a noun. -a marks an adjective, -as a verb in the present, and *la* is the article, which has no part-of-speech ending at all.",
-      "rulesTested": ["noun-o", "adjective-a"],
-      "vocabUsed": ["bela", "kantas", "tablo", "la"]
+      "rulesTested": [
+        "noun-o",
+        "adjective-a"
+      ],
+      "vocabUsed": [
+        "bela",
+        "kantas",
+        "tablo",
+        "la"
+      ]
     },
     {
       "id": "eocp1-q10",
@@ -140,8 +231,14 @@
       "answer": 1,
       "unit": "words",
       "explanation": "One: *kantas*. All four share a root and differ only in the ending, which is the whole of what fixes the part of speech — *kanto* is a noun (a song), *kanta* an adjective, *kante* an adverb, and only -as makes a verb in the present (¶14).",
-      "rulesTested": ["present-as", "noun-o", "adjective-a"],
-      "vocabUsed": ["kantas"]
+      "rulesTested": [
+        "present-as",
+        "noun-o",
+        "adjective-a"
+      ],
+      "vocabUsed": [
+        "kantas"
+      ]
     },
     {
       "id": "eocp1-q11",
@@ -157,8 +254,16 @@
       ],
       "correct": 1,
       "explanation": "*la* supplies \"the\"; without it the phrase would mean \"a large horse\". *grando* is a noun and *ĉevala* an adjective.",
-      "rulesTested": ["article", "attributive-adjective", "noun-o"],
-      "vocabUsed": ["la", "granda", "ĉevalo"]
+      "rulesTested": [
+        "article",
+        "attributive-adjective",
+        "noun-o"
+      ],
+      "vocabUsed": [
+        "la",
+        "granda",
+        "ĉevalo"
+      ]
     },
     {
       "id": "eocp1-q12",
@@ -166,11 +271,27 @@
       "difficulty": "medium",
       "fromSection": "eo-02",
       "stem": "Which of these are **correct** ways of saying \"a beautiful flower\"?",
-      "options": ["bela floro", "floro bela", "belo floro", "la bela floro"],
-      "correct": [0, 1],
+      "options": [
+        "bela floro",
+        "floro bela",
+        "belo floro",
+        "la bela floro"
+      ],
+      "correct": [
+        0,
+        1
+      ],
       "explanation": "An attributive adjective may stand before or after its noun, the ending and not the position marking it. *belo* is a noun, and *la* would make the phrase definite.",
-      "rulesTested": ["attributive-adjective", "adjective-a", "article"],
-      "vocabUsed": ["bela", "floro", "la"]
+      "rulesTested": [
+        "attributive-adjective",
+        "adjective-a",
+        "article"
+      ],
+      "vocabUsed": [
+        "bela",
+        "floro",
+        "la"
+      ]
     },
     {
       "id": "eocp1-q13",
@@ -178,11 +299,23 @@
       "difficulty": "medium",
       "fromSection": "eo-02",
       "stem": "In **La suno brilas**, what is the subject?",
-      "options": ["la", "suno", "brilas", "there is none"],
+      "options": [
+        "la",
+        "suno",
+        "brilas",
+        "there is none"
+      ],
       "correct": 1,
       "explanation": "*suno* is the thing whose action the verb expresses. Because -as says nothing about person or number, the subject alone supplies them.",
-      "rulesTested": ["subject", "present-as"],
-      "vocabUsed": ["la", "suno", "brilas"]
+      "rulesTested": [
+        "subject",
+        "present-as"
+      ],
+      "vocabUsed": [
+        "la",
+        "suno",
+        "brilas"
+      ]
     },
     {
       "id": "eocp1-q14",
@@ -198,8 +331,13 @@
       ],
       "correct": 1,
       "explanation": "There is simply no word for \"a\" or \"an\". *la* is the only article there is, and it is definite.",
-      "rulesTested": ["article"],
-      "vocabUsed": ["pomo", "la"]
+      "rulesTested": [
+        "article"
+      ],
+      "vocabUsed": [
+        "pomo",
+        "la"
+      ]
     },
     {
       "id": "eocp1-q15",
@@ -213,10 +351,20 @@
         "A boy sings.",
         "The boys sing."
       ],
-      "correct": [0, 1],
+      "correct": [
+        0,
+        1
+      ],
       "explanation": "One Esperanto present serves for both English presents. *La* is definite, ruling out \"a boy\"; and *knabo* is singular, the plural being *knaboj*.",
-      "rulesTested": ["present-as", "article"],
-      "vocabUsed": ["la", "knabo", "kantas"]
+      "rulesTested": [
+        "present-as",
+        "article"
+      ],
+      "vocabUsed": [
+        "la",
+        "knabo",
+        "kantas"
+      ]
     },
     {
       "id": "eocp1-q16",
@@ -224,11 +372,22 @@
       "difficulty": "hard",
       "fromSection": "eo-02",
       "stem": "From the noun *suno* (\"sun\"), how is the adjective \"solar, sunny\" formed?",
-      "options": ["sunoa", "suna", "sunas", "sunio"],
+      "options": [
+        "sunoa",
+        "suna",
+        "sunas",
+        "sunio"
+      ],
       "correct": 1,
       "explanation": "The part-of-speech ending is exchanged, never accumulated: -o gives way to -a. This one-letter change is the whole mechanism, and it works in both directions — *bela*, beautiful, yields *belo*, beauty.",
-      "rulesTested": ["adjective-a", "noun-o"],
-      "vocabUsed": ["suno", "bela"]
+      "rulesTested": [
+        "adjective-a",
+        "noun-o"
+      ],
+      "vocabUsed": [
+        "suno",
+        "bela"
+      ]
     },
     {
       "id": "eocp1-q17",
@@ -236,11 +395,20 @@
       "difficulty": "easy",
       "fromSection": "eo-03",
       "stem": "What is the plural of **domo**?",
-      "options": ["domos", "domoj", "domaj", "domi"],
+      "options": [
+        "domos",
+        "domoj",
+        "domaj",
+        "domi"
+      ],
       "correct": 1,
       "explanation": "-j is added to the singular, giving -oj. *domaj* would be a plural adjective.",
-      "rulesTested": ["plural-j"],
-      "vocabUsed": ["domo"]
+      "rulesTested": [
+        "plural-j"
+      ],
+      "vocabUsed": [
+        "domo"
+      ]
     },
     {
       "id": "eocp1-q18",
@@ -256,8 +424,14 @@
       ],
       "correct": 1,
       "explanation": "The article *la* and the verb are both invariable; only nouns and the adjectives agreeing with them take -j.",
-      "rulesTested": ["article-invariable", "adjective-plural", "plural-j"],
-      "vocabUsed": ["la"]
+      "rulesTested": [
+        "article-invariable",
+        "adjective-plural",
+        "plural-j"
+      ],
+      "vocabUsed": [
+        "la"
+      ]
     },
     {
       "id": "eocp1-q19",
@@ -271,10 +445,31 @@
         "La arboj estas alta.",
         "La ĉambroj estasj grandaj."
       ],
-      "correct": [0, 1],
+      "correct": [
+        0,
+        1
+      ],
       "explanation": "A predicate adjective agrees in number with what it is predicated of, so *alta* should be *altaj*; and two singular subjects joined by *kaj* are together plural, which is why *fortaj* is right. The verb never takes -j.",
-      "rulesTested": ["predicate-agreement", "predicate-adjective", "article-invariable"],
-      "vocabUsed": ["la", "rozo", "estas", "bela", "knabo", "kaj", "viro", "ŝajnas", "forta", "arbo", "alta", "ĉambro", "granda"]
+      "rulesTested": [
+        "predicate-agreement",
+        "predicate-adjective",
+        "article-invariable"
+      ],
+      "vocabUsed": [
+        "la",
+        "rozo",
+        "estas",
+        "bela",
+        "knabo",
+        "kaj",
+        "viro",
+        "ŝajnas",
+        "forta",
+        "arbo",
+        "alta",
+        "ĉambro",
+        "granda"
+      ]
     },
     {
       "id": "eocp1-q20",
@@ -290,8 +485,15 @@
       ],
       "correct": 2,
       "explanation": "It is a noun forming part of what is asserted of the subject *violoj*, and it agrees with it in number. An adjective would end in -a.",
-      "rulesTested": ["predicate-noun", "predicate-agreement"],
-      "vocabUsed": ["violo", "estas", "floro"]
+      "rulesTested": [
+        "predicate-noun",
+        "predicate-agreement"
+      ],
+      "vocabUsed": [
+        "violo",
+        "estas",
+        "floro"
+      ]
     },
     {
       "id": "eocp1-q21",
@@ -302,8 +504,20 @@
       "answer": 4,
       "unit": "words",
       "explanation": "Four: *granda* → *grandaj*, *ĉevalo* → *ĉevaloj*, *verda* → *verdaj*, *kampo* → *kampoj*. Neither *la* changes, however many things it stands before (¶18); nor does *kuras*, one verb form serving both numbers; nor does the preposition *en*.",
-      "rulesTested": ["plural-j", "adjective-plural", "article-invariable"],
-      "vocabUsed": ["la", "granda", "ĉevalo", "kuras", "en", "verda", "kampo"]
+      "rulesTested": [
+        "plural-j",
+        "adjective-plural",
+        "article-invariable"
+      ],
+      "vocabUsed": [
+        "la",
+        "granda",
+        "ĉevalo",
+        "kuras",
+        "en",
+        "verda",
+        "kampo"
+      ]
     },
     {
       "id": "eocp1-p1",
@@ -328,8 +542,22 @@
           ],
           "correct": 1,
           "explanation": "*Ruĝaj pomoj estas sur la tablo en la ĉambro.* The violets are in the field and the doves on the trees.",
-          "rulesTested": ["adjective-plural", "predicate-adjective"],
-          "vocabUsed": ["ruĝa", "pomo", "estas", "sur", "tablo", "en", "ĉambro", "kampo", "arbo", "ĝardeno"]
+          "rulesTested": [
+            "adjective-plural",
+            "predicate-adjective"
+          ],
+          "vocabUsed": [
+            "ruĝa",
+            "pomo",
+            "estas",
+            "sur",
+            "tablo",
+            "en",
+            "ĉambro",
+            "kampo",
+            "arbo",
+            "ĝardeno"
+          ]
         },
         {
           "id": "eocp1-p1-q2",
@@ -342,10 +570,31 @@
             "La violoj estas ruĝaj.",
             "La kolomboj kantas."
           ],
-          "correct": [0, 1, 3],
+          "correct": [
+            0,
+            1,
+            3
+          ],
           "explanation": "The violets are called *belaj*, not *ruĝaj* — it is the apples that are red. Note the second option: two singular subjects joined by *kaj* take a plural predicate.",
-          "rulesTested": ["predicate-agreement", "predicate-adjective", "subject"],
-          "vocabUsed": ["knabo", "ŝajnas", "forta", "luno", "kaj", "suno", "granda", "violo", "estas", "ruĝa", "kolombo", "kantas"]
+          "rulesTested": [
+            "predicate-agreement",
+            "predicate-adjective",
+            "subject"
+          ],
+          "vocabUsed": [
+            "knabo",
+            "ŝajnas",
+            "forta",
+            "luno",
+            "kaj",
+            "suno",
+            "granda",
+            "violo",
+            "estas",
+            "ruĝa",
+            "kolombo",
+            "kantas"
+          ]
         },
         {
           "id": "eocp1-p1-q3",
@@ -355,10 +604,43 @@
           "answer": 3,
           "unit": "words",
           "explanation": "Three: *fortaj* → *forta*, *viroj* → *viro*, *seĝoj* → *seĝo*. The chairs are the ones usually missed, having no adjective beside them to draw the eye. Neither *la* nor *sidas* ever changes for number (¶18), and *la longa ĉambro* was singular already.",
-          "rulesTested": ["plural-j", "adjective-plural", "article-invariable"],
-          "vocabUsed": ["forta", "viro", "sidas", "sur", "seĝo", "en", "longa", "ĉambro"]
+          "rulesTested": [
+            "plural-j",
+            "adjective-plural",
+            "article-invariable"
+          ],
+          "vocabUsed": [
+            "forta",
+            "viro",
+            "sidas",
+            "sur",
+            "seĝo",
+            "en",
+            "longa",
+            "ĉambro"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Reed, Ivy Kellerman, *A Complete Grammar of Esperanto*, 1910.",
+          "url": "https://www.gutenberg.org/ebooks/7787",
+          "note": "Public domain (Project Gutenberg ebook 7787). Source for the numbered rules and their examples."
         }
       ]
+    }
+  ],
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Reed, Ivy Kellerman, *A Complete Grammar of Esperanto*, 1910.",
+      "url": "https://www.gutenberg.org/ebooks/7787",
+      "note": "Public domain (Project Gutenberg ebook 7787). Source for the numbered rules and their examples."
     }
   ]
 }

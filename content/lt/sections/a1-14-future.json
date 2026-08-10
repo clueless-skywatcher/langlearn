@@ -1000,6 +1000,38 @@
       },
       "questions": [
         {
+          "id": "a114-p1-c1",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "Kada jie išvažiuos?",
+          "explanation": "*Išvažiuosime penktadienį vakare ir grįšime sekmadienį.* Sunday is the return, not the departure.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "options": [
+            "penktadienį vakare",
+            "šeštadienį rytą",
+            "sekmadienį",
+            "po mėnesio"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "a114-p1-c2",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Kodėl Rūta nevažiuos?",
+          "explanation": "*Rūta sakė, kad ji nevažiuos — ji dirbs.* The cool evenings are mentioned, but of the trip itself, not as her reason.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "options": [
+            "nes bus vėsu",
+            "nes ji dirbs",
+            "nes neturi krepšio",
+            "nes ji jau buvo prie jūros"
+          ],
+          "correct": 1
+        },
+        {
           "id": "a114-p1-q1",
           "type": "single",
           "difficulty": "easy",
@@ -1112,7 +1144,31 @@
             "dirbti"
           ]
         }
+      ],
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+          "note": "Descriptive source for the paradigms and rule statements on this page."
+        }
       ]
+    }
+  ],
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+      "note": "Descriptive source for the paradigms and rule statements on this page."
+    },
+    {
+      "kind": "dictionary",
+      "citation": "*Dabartinės lietuvių kalbos žodynas*, Lietuvių kalbos institutas.",
+      "url": "https://ekalba.lt/dabartines-lietuviu-kalbos-zodynas/",
+      "note": "Citation forms, gender and stress class for this section's vocabulary."
     }
   ]
 }

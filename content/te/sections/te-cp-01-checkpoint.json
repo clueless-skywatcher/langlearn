@@ -652,7 +652,25 @@
             "మహాప్రాణం"
           ]
         }
+      ],
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Krishnamurti, Bhadriraju & Gwynn, J. P. L., *A Grammar of Modern Telugu*. Delhi: Oxford University Press, 1985.",
+          "note": "Descriptive source for the paradigms and rule statements on this page."
+        }
       ]
+    }
+  ],
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Krishnamurti, Bhadriraju & Gwynn, J. P. L., *A Grammar of Modern Telugu*. Delhi: Oxford University Press, 1985.",
+      "note": "Descriptive source for the paradigms and rule statements on this page."
     }
   ]
 }

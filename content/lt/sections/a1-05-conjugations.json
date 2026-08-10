@@ -1181,6 +1181,38 @@
       },
       "questions": [
         {
+          "id": "a105-p1-c1",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "Kur dirba Rūta?",
+          "explanation": "*Ji studijuoja universitete ir dirba kavinėje.* One verb for each place: she studies at the university and works at the café.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "options": [
+            "universitete",
+            "kavinėje",
+            "mokykloje",
+            "parduotuvėje"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "a105-p1-c2",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Ko Rūta niekada nevalgo?",
+          "explanation": "*Ji niekada nevalgo duonos be sviesto* — she never eats bread *without* butter, so it is the butterless bread she refuses, not the butter.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "options": [
+            "duonos be sviesto",
+            "arbatos",
+            "obuolių",
+            "sviesto"
+          ],
+          "correct": 0
+        },
+        {
           "id": "a105-p1-q1",
           "type": "single",
           "difficulty": "easy",
@@ -1302,7 +1334,31 @@
             "klausyti"
           ]
         }
+      ],
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+          "note": "Descriptive source for the paradigms and rule statements on this page."
+        }
       ]
+    }
+  ],
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+      "note": "Descriptive source for the paradigms and rule statements on this page."
+    },
+    {
+      "kind": "dictionary",
+      "citation": "*Dabartinės lietuvių kalbos žodynas*, Lietuvių kalbos institutas.",
+      "url": "https://ekalba.lt/dabartines-lietuviu-kalbos-zodynas/",
+      "note": "Citation forms, gender and stress class for this section's vocabulary."
     }
   ]
 }

@@ -686,7 +686,7 @@
       "type": "comprehension",
       "difficulty": "medium",
       "title": "Lietus ir darbas",
-      "passage": "Rūta sakė, kad rytoj dirbs namie, kai lyja. Kol lietus nustos, ji nesiruošia eiti į miestą. Nors draugė kvietė į kavinę, Rūta atsakė: „Ačiū, bet aš palauksiu, kol baigsiu darbą. Jeigu oras bus geresnis, paskambinsiu.“ Draugė nežinojo, ar Rūta tikrai ateis, nes Rūta dažnai keičia planus. „Gerai,“ — tarė ji. — „Lauksiu, nors ir vėluosiu į teatrą.“",
+      "passage": "Rūta sakė, kad rytoj dirbs namie, kai lyja. Kol lietus nustos, ji nesiruošia eiti į miestą. Nors draugė kvietė į kavinę, Rūta atsakė:\nRŪTA. Ačiū, bet aš palauksiu, kol baigsiu darbą. Jeigu oras bus geresnis, paskambinsiu.\nDraugė nežinojo, ar Rūta tikrai ateis, nes Rūta dažnai keičia planus.\nDRAUGĖ. Gerai. Lauksiu, nors ir vėluosiu į teatrą.",
       "translation": "Rūta said that tomorrow she would work at home when it rains. Until the rain stops, she does not mean to go into town. Although a friend invited her to a café, Rūta answered: \"Thanks, but I shall wait until I finish the work. If the weather is better, I shall ring.\" The friend did not know whether Rūta would really come, because Rūta often changes plans. \"All right,\" she said. \"I shall wait, even though I shall be late for the theatre.\"",
       "glossary": {
         "nustos": "will stop (nusti)",
@@ -696,9 +696,42 @@
         "keičia": "changes (keisti)",
         "planus": "plans (acc. pl.)",
         "tarė": "said (tarti)",
-        "vėluosiu": "I shall be late (vėluoti)"
+        "vėluosiu": "I shall be late (vėluoti)",
+        "draugė": "friend (female)"
       },
       "questions": [
+        {
+          "id": "a205-p1-c1",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Ką Rūta darys rytoj?",
+          "explanation": "*Rūta sakė, kad rytoj dirbs namie, kai lyja.* The café is what the friend invited her to, and she put it off.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "options": [
+            "dirbs namie",
+            "eis į kavinę",
+            "važiuos į miestą",
+            "eis į teatrą"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "a205-p1-c2",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Kodėl draugė nežinojo, ar Rūta ateis?",
+          "explanation": "*nes Rūta dažnai keičia planus.* *Nes* introduces the reason directly.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "options": [
+            "nes Rūta dažnai keičia planus",
+            "nes Rūta nepaskambino",
+            "nes lijo",
+            "nes ji vėlavo į teatrą"
+          ],
+          "correct": 0
+        },
         {
           "id": "a205-p1-q1",
           "type": "single",
@@ -815,6 +848,17 @@
             "kol",
             "baigti"
           ]
+        }
+      ],
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+          "note": "Descriptive source for the paradigms and rule statements on this page."
         }
       ]
     },
@@ -1134,6 +1178,19 @@
         "ar",
         "nors"
       ]
+    }
+  ],
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+      "note": "Descriptive source for the paradigms and rule statements on this page."
+    },
+    {
+      "kind": "dictionary",
+      "citation": "*Dabartinės lietuvių kalbos žodynas*, Lietuvių kalbos institutas.",
+      "url": "https://ekalba.lt/dabartines-lietuviu-kalbos-zodynas/",
+      "note": "Citation forms, gender and stress class for this section's vocabulary."
     }
   ]
 }

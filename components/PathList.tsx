@@ -10,11 +10,21 @@ export interface PathEntry {
   title: string;
   summary: string;
   level: string;
-  isCheckpoint: boolean;
+  kind: "lesson" | "checkpoint" | "boundary";
   questions: number;
   marks: number;
   covers: number;
 }
+
+/** What each kind is called, and what its button offers to do. */
+const KIND = {
+  lesson: { badge: null, cta: "Drill" },
+  checkpoint: { badge: "Checkpoint", cta: "Sit the checkpoint" },
+  boundary: {
+    badge: "Boundary examination",
+    cta: "Sit the boundary examination",
+  },
+} as const;
 
 function ProgressBadge({
   row,
@@ -62,18 +72,25 @@ export function PathList({
           </h2>
 
           <ol className="space-y-3">
-            {sections.map((section) => (
+            {sections.map((section) => {
+              const kind = KIND[section.kind];
+              const isExam = section.kind !== "lesson";
+              return (
               <li
                 key={section.id}
                 className={`rounded border bg-raised p-4 ${
-                  section.isCheckpoint ? "border-accent/50" : "border-rule"
+                  section.kind === "boundary"
+                    ? "border-accent"
+                    : isExam
+                      ? "border-accent/50"
+                      : "border-rule"
                 }`}
               >
                 <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-2">
                   <h3 className="text-lg tracking-tight">
-                    {section.isCheckpoint && (
+                    {kind.badge && (
                       <span className="mr-2 text-xs uppercase tracking-wide text-accent">
-                        Checkpoint
+                        {kind.badge}
                       </span>
                     )}
                     {section.title}
@@ -89,7 +106,9 @@ export function PathList({
                 </p>
 
                 <div className="mt-4 flex flex-wrap items-center gap-3 text-sm">
-                  {!section.isCheckpoint && (
+                  {/* Only a lesson has anything to study; an exam teaches
+                      nothing of its own and has no /learn/ page. */}
+                  {!isExam && (
                     <Link
                       href={`/${courseId}/learn/${section.id}`}
                       className="rounded border border-rule px-3 py-1.5 hover:border-accent"
@@ -101,16 +120,16 @@ export function PathList({
                     href={`/${courseId}/drill/${section.id}`}
                     className="rounded bg-accent px-3 py-1.5 font-medium text-paper"
                   >
-                    {section.isCheckpoint ? "Sit the checkpoint" : "Drill"}
+                    {kind.cta}
                   </Link>
                   <span className="text-xs text-ink-faint">
                     {section.questions} questions · {section.marks} marks
-                    {section.isCheckpoint &&
-                      ` · covers ${section.covers} sections`}
+                    {isExam && ` · covers ${section.covers} sections`}
                   </span>
                 </div>
               </li>
-            ))}
+              );
+            })}
           </ol>
         </section>
       ))}

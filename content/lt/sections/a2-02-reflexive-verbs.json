@@ -844,13 +844,46 @@
       "type": "comprehension",
       "difficulty": "medium",
       "title": "Rytas",
-      "passage": "Rytą aš keliuosi anksti, prausiuosi ir rengiuosi. Paskui mokausi lietuvių kalbos valandą, bet kartais nesimokau — tada jaučiuosi blogai. Sesuo nusišypso: „Kaip sekasi?“ — klausia ji. „Gerai, tik nesijaučiu žvali,“ — atsakau. Mes matomės vakare. Ji niekada neatsisako padėti, kai prašau.",
+      "passage": "Rytą aš keliuosi anksti, prausiuosi ir rengiuosi. Paskui mokausi lietuvių kalbos valandą, bet kartais nesimokau — tada jaučiuosi blogai. Sesuo nusišypso.\nSESUO. Kaip sekasi?\nAŠ. Gerai, tik nesijaučiu žvali.\nMes matomės vakare. Ji niekada neatsisako padėti, kai prašau.",
       "translation": "In the morning I get up early, wash and dress. Afterwards I study Lithuanian for an hour, but sometimes I do not study — then I feel bad. My sister smiles: \"How are you getting on?\" she asks. \"Fine, only I do not feel lively,\" I answer. We meet in the evening. She never refuses to help when I ask.",
       "glossary": {
         "žvali": "lively, bright (fem.)",
-        "prašau": "I ask (prašyti)"
+        "prašau": "I ask (prašyti)",
+        "sesuo": "sister"
       },
       "questions": [
+        {
+          "id": "a202-p1-c1",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "Ką pasakotojas veikia rytą?",
+          "explanation": "*Rytą aš keliuosi anksti, prausiuosi ir rengiuosi.* Three reflexive verbs in a row, which is why the passage sits in this section.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "options": [
+            "keliasi, prausiasi ir rengiasi",
+            "miega ilgai",
+            "eina į darbą",
+            "mokosi vokiečių kalbos"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "a202-p1-c2",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Kada jie matosi?",
+          "explanation": "*Mes matomės vakare.* The mornings are the narrator's own routine, done alone.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "options": [
+            "rytą",
+            "per pietus",
+            "vakare",
+            "niekada"
+          ],
+          "correct": 2
+        },
         {
           "id": "a202-p1-q1",
           "type": "single",
@@ -964,6 +997,17 @@
             "mokytis",
             "kalba"
           ]
+        }
+      ],
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+          "note": "Descriptive source for the paradigms and rule statements on this page."
         }
       ]
     },
@@ -1260,6 +1304,19 @@
         "mokytis",
         "praustis"
       ]
+    }
+  ],
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+      "note": "Descriptive source for the paradigms and rule statements on this page."
+    },
+    {
+      "kind": "dictionary",
+      "citation": "*Dabartinės lietuvių kalbos žodynas*, Lietuvių kalbos institutas.",
+      "url": "https://ekalba.lt/dabartines-lietuviu-kalbos-zodynas/",
+      "note": "Citation forms, gender and stress class for this section's vocabulary."
     }
   ]
 }

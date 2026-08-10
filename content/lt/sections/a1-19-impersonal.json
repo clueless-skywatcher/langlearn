@@ -896,7 +896,7 @@
       "type": "comprehension",
       "difficulty": "hard",
       "title": "Pas gydytoją",
-      "passage": "– Laba diena. Kas jums yra?\n– Man skauda galvą ir dantį. Vakar buvo šalta, o aš ilgai laukiau lauke.\n– Ar jums sunku valgyti?\n– Taip, sunku. Ir naktį buvo labai karšta — manau, kad sergu gripu.\n– Suprantu. Jums reikės gerti vaistų ir ilsėtis. Dirbti negalima.\n– O kada bus galima grįžti į darbą?\n– Jeigu bus geriau, po savaitės. Bet jeigu skaudės ir toliau, ateikite dar kartą.\n– Ačiū. Šiandien lauke lyja — ar galima važiuoti autobusu?",
+      "passage": "GYDYTOJAS. Laba diena. Kas jums yra?\nPACIENTAS. Man skauda galvą ir dantį. Vakar buvo šalta, o aš ilgai laukiau lauke.\nGYDYTOJAS. Ar jums sunku valgyti?\nPACIENTAS. Taip, sunku. Ir naktį buvo labai karšta — manau, kad sergu gripu.\nGYDYTOJAS. Suprantu. Jums reikės gerti vaistų ir ilsėtis. Dirbti negalima.\nPACIENTAS. O kada bus galima grįžti į darbą?\nGYDYTOJAS. Jeigu bus geriau, po savaitės. Bet jeigu skaudės ir toliau, ateikite dar kartą.\nPACIENTAS. Ačiū. Šiandien lauke lyja — ar galima važiuoti autobusu?",
       "translation": "\"Good afternoon. What is the matter with you?\" — \"My head and my tooth ache. Yesterday it was cold, and I waited outside for a long time.\" — \"Is it difficult for you to eat?\" — \"Yes, it is. And in the night it was very hot — I think I have flu.\" — \"I see. You will have to take medicine and rest. Working is not allowed.\" — \"And when will it be possible to go back to work?\" — \"If you are better, in a week. But if it still hurts, come again.\" — \"Thank you. It is raining outside today — may one go by bus?\"",
       "glossary": {
         "Kas jums yra?": "What is the matter with you?",
@@ -908,9 +908,43 @@
         "ilsėtis": "to rest",
         "toliau": "further, still",
         "dar kartą": "once more",
-        "gripu": "with flu (instrumental)"
+        "gripu": "with flu (instrumental)",
+        "gydytojas": "doctor",
+        "pacientas": "patient"
       },
       "questions": [
+        {
+          "id": "a118-p1-c1",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "Kas skauda pacientui?",
+          "explanation": "*Man skauda galvą ir dantį.* Both are in the accusative, which is what *skaudėti* takes for the part that hurts.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "options": [
+            "galvą ir dantį",
+            "koją",
+            "akį",
+            "nieko"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "a118-p1-c2",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Kada pacientas galės grįžti į darbą?",
+          "explanation": "*Jeigu bus geriau, po savaitės.* The condition matters: if it still hurts, he is to come back instead.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "options": [
+            "rytoj",
+            "po savaitės, jeigu bus geriau",
+            "po mėnesio",
+            "niekada"
+          ],
+          "correct": 1
+        },
         {
           "id": "a118-p1-q1",
           "type": "single",
@@ -1038,6 +1072,17 @@
             "galėti",
             "būti"
           ]
+        }
+      ],
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+          "note": "Descriptive source for the paradigms and rule statements on this page."
         }
       ]
     },
@@ -1312,10 +1357,9 @@
       "id": "a118-x12",
       "type": "integer",
       "difficulty": "medium",
-      "stem": "How many letters in the neuter of **šiltas** (*šilta*)?",
-      "answer": 5,
-      "unit": "letters",
-      "explanation": "*Šilta* has 5 letters.",
+      "stem": "Which numbered rule governs the form **šilta** in *Šiandien šilta*? Give the paragraph number.",
+      "answer": 126,
+      "explanation": "¶126, the non-gendered adjective used where there is no subject to agree with. It is not ¶17: agreement is precisely what is absent here.",
       "rulesTested": [
         "neuter-adjective"
       ],
@@ -1431,6 +1475,19 @@
         "reikia",
         "ilsėtis"
       ]
+    }
+  ],
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+      "note": "Descriptive source for the paradigms and rule statements on this page."
+    },
+    {
+      "kind": "dictionary",
+      "citation": "*Dabartinės lietuvių kalbos žodynas*, Lietuvių kalbos institutas.",
+      "url": "https://ekalba.lt/dabartines-lietuviu-kalbos-zodynas/",
+      "note": "Citation forms, gender and stress class for this section's vocabulary."
     }
   ]
 }

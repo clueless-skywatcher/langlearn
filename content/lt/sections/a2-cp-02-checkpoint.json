@@ -38,26 +38,29 @@
     {
       "id": "a2cp2-q2",
       "type": "single",
-      "difficulty": "easy",
-      "fromSection": "a2-04",
-      "stem": "Complete: **Filmas buvo ____.** (The film was good.)",
-      "options": [
-        "gerasis",
-        "geras",
-        "gerąjį",
-        "geroji"
-      ],
-      "correct": 1,
-      "explanation": "A predicate adjective stays **short**: *geras*. The long form identifies a noun; it does not follow *būti* as a description.",
+      "difficulty": "hard",
+      "stem": "**Filmas buvo geras** and **Geriausias buvo naujasis.** Why is the definite form used in the second and not in the first?",
+      "explanation": "The long form picks out a particular one already in view, and can stand alone as a noun would (¶176, ¶177); a predicate adjective simply attributes a quality and takes the short form (¶173, ¶16). Tense has nothing to do with it — *buvo* appears in both.",
       "rulesTested": [
-        "definite-when-required"
+        "definite-when-required",
+        "definite-substantivised",
+        "definite-adjective-nature",
+        "predicate-nominative"
       ],
       "vocabUsed": [
-        "filmas",
-        "būti",
+        "gerasis",
+        "naujasis",
         "geras",
-        "gerasis"
-      ]
+        "būti"
+      ],
+      "options": [
+        "Because the long form singles one out of a known set, while a predicate merely ascribes a quality.",
+        "Because the second is in the past tense.",
+        "Because *geriausias* requires a definite adjective after it.",
+        "Because the first adjective is masculine and the second feminine."
+      ],
+      "correct": 0,
+      "fromSection": "a2-04"
     },
     {
       "id": "a2cp2-q3",
@@ -616,24 +619,64 @@
     },
     {
       "id": "a2cp2-x1",
-      "type": "single",
-      "difficulty": "easy",
-      "fromSection": "a2-04",
-      "stem": "What is the definite feminine nominative of **gera**?",
-      "options": [
-        "geroji",
-        "geresinė",
-        "geriausia",
-        "gerąją"
-      ],
-      "correct": 0,
-      "explanation": "Long feminine **-oji**: *geroji*.",
+      "type": "matching",
+      "difficulty": "hard",
+      "stem": "Match each adjective form with what it is.",
+      "explanation": "The long form is built by adding the pronoun to the short one, and then declines throughout (¶174, ¶175): *geroji* nominative, *gerąją* accusative. *geriausia* is a superlative and belongs to the short series (¶122) — degree and definiteness are separate axes, which is what option B confuses.",
       "rulesTested": [
-        "definite-adjective-formation"
+        "definite-adjective-formation",
+        "definite-adjective-declension",
+        "adjective-superlative",
+        "definite-adjective-nature"
       ],
       "vocabUsed": [
         "gerasis"
-      ]
+      ],
+      "columnHeadings": [
+        "Form",
+        "What it is"
+      ],
+      "columnI": [
+        "**gera**",
+        "**geroji**",
+        "**gerąją**",
+        "**geriausia**"
+      ],
+      "columnII": [
+        "short form, feminine nominative",
+        "long form, feminine nominative",
+        "long form, feminine accusative",
+        "superlative, short form",
+        "long form, feminine genitive"
+      ],
+      "options": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          2
+        ],
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          2,
+          1,
+          3
+        ]
+      ],
+      "correct": 0,
+      "fromSection": "a2-04"
     },
     {
       "id": "a2cp2-x2",
@@ -768,26 +811,35 @@
     },
     {
       "id": "a2cp2-x8",
-      "type": "single",
-      "difficulty": "medium",
-      "fromSection": "a2-05",
-      "stem": "Complete: **Nors jis dirba daug, ____ nespėja.**",
-      "options": [
-        "bet",
-        "vis tiek",
-        "arba",
-        "nes"
-      ],
-      "correct": 1,
-      "explanation": "Concession often answered by **vis tiek**.",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "**Nors jis dirba daug, vis tiek nespėja.** Which statements are true?",
+      "explanation": "*nors* is concessive (¶181) and pairs naturally with *vis tiek*; every subordinate clause is set off by a comma, without exception (¶182). Replacing it by *nes* would turn a concession into a cause and reverse the sentence's logic (¶107).",
       "rulesTested": [
-        "nors-clause"
+        "nors-clause",
+        "subordinate-comma",
+        "nes-todel",
+        "subordinate-inventory"
       ],
       "vocabUsed": [
         "nors",
         "vis tiek",
-        "nespėti"
-      ]
+        "nespėti",
+        "dirbti",
+        "daug"
+      ],
+      "options": [
+        "*Nors* concedes: it grants something that might have led to the opposite conclusion.",
+        "*vis tiek* reinforces the concession in the main clause.",
+        "The comma before the main clause is obligatory.",
+        "*Nors* could be replaced by *nes* without changing the meaning."
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fromSection": "a2-05"
     },
     {
       "id": "a2cp2-x9",
@@ -1017,15 +1069,50 @@
       "difficulty": "medium",
       "fromSection": "a2-05",
       "title": "Senoji salė",
-      "passage": "Kai naujasis direktorius atėjo, visi norėjo klausyti jo. Nors salė buvo sena, studentai sakė, kad senoji geresnė už naująją. „Eikime ten skaityti,“ — siūlė Rūta. — „Kol biblioteka dirba, galime baigti darbą.“ Tomas atsakė, kad ateis, kai baigs rašyti, kad mokytojas galėtų matyti gerąjį darbą. „Skaityti čia naudinga,“ — pridūrė jis. — „Naujieji metai netoli, todėl turime skubėti.“",
+      "passage": "Kai naujasis direktorius atėjo, visi norėjo klausyti jo. Nors salė buvo sena, studentai sakė, kad senoji geresnė už naująją.\nRŪTA. Eikime ten skaityti. Kol biblioteka dirba, galime baigti darbą.\nTomas atsakė, kad ateis, kai baigs rašyti, kad mokytojas galėtų matyti gerąjį darbą.\nTOMAS. Skaityti čia naudinga. Naujieji metai netoli, todėl turime skubėti.",
       "translation": "When the new director came, everyone wanted to listen to him. Although the hall was old, the students said that the old one was better than the new one. \"Let us go there to read,\" suggested Rūta. \"While the library is open, we can finish the work.\" Tomas answered that he would come when he finished writing, so that the teacher could see the good piece of work. \"Reading here is useful,\" he added. \"New Year is not far off, so we have to hurry.\"",
       "glossary": {
         "siūlė": "suggested (siūlyti)",
         "biblioteka": "library",
         "pridūrė": "added",
-        "skubėti": "to hurry"
+        "skubėti": "to hurry",
+        "Tomas": "Tomas, a man's name"
       },
       "questions": [
+        {
+          "id": "a2cp2-p1-c1",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Kuri salė, studentų nuomone, geresnė?",
+          "explanation": "*studentai sakė, kad senoji geresnė už naująją.* The definite forms are doing the picking out, and *už* + accusative the comparing.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "fromSection": "a2-04",
+          "options": [
+            "naujoji",
+            "senoji",
+            "abi vienodos",
+            "nesakoma"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "a2cp2-p1-c2",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Kada Tomas ateis?",
+          "explanation": "*Tomas atsakė, kad ateis, kai baigs rašyti.* *Kai* + future for a real condition in time.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "fromSection": "a2-05",
+          "options": [
+            "dabar",
+            "kai baigs rašyti",
+            "rytoj",
+            "kai biblioteka užsidarys"
+          ],
+          "correct": 1
+        },
         {
           "id": "a2cp2-p1-q1",
           "type": "single",
@@ -1149,7 +1236,31 @@
             "sakyti"
           ]
         }
+      ],
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+          "note": "Descriptive source for the paradigms and rule statements on this page."
+        }
       ]
+    }
+  ],
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+      "note": "Descriptive source for the paradigms and rule statements on this page."
+    },
+    {
+      "kind": "dictionary",
+      "citation": "*Dabartinės lietuvių kalbos žodynas*, Lietuvių kalbos institutas.",
+      "url": "https://ekalba.lt/dabartines-lietuviu-kalbos-zodynas/",
+      "note": "Citation forms, gender and stress class for this section's vocabulary."
     }
   ]
 }

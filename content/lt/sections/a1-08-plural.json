@@ -1125,6 +1125,38 @@
       },
       "questions": [
         {
+          "id": "a108-p1-c1",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "Kiek obuolių turi berniukas?",
+          "explanation": "*Vienas berniukas turi du obuolius.* The girl is the one with ten, and hers are books.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "options": [
+            "du",
+            "penkis",
+            "septynis",
+            "dešimt"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "a108-p1-c2",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Kiek vaikų mato mokytojas?",
+          "explanation": "*Mokytojas mato septynis vaikus.* Five boys play and three girls read, which adds to eight — the passage says seven, and the arithmetic is a trap rather than an answer.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "options": [
+            "penkis",
+            "tris",
+            "septynis",
+            "dešimt"
+          ],
+          "correct": 2
+        },
+        {
           "id": "a108-p1-q1",
           "type": "single",
           "difficulty": "easy",
@@ -1248,7 +1280,31 @@
             "berniukas"
           ]
         }
+      ],
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+          "note": "Descriptive source for the paradigms and rule statements on this page."
+        }
       ]
+    }
+  ],
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+      "note": "Descriptive source for the paradigms and rule statements on this page."
+    },
+    {
+      "kind": "dictionary",
+      "citation": "*Dabartinės lietuvių kalbos žodynas*, Lietuvių kalbos institutas.",
+      "url": "https://ekalba.lt/dabartines-lietuviu-kalbos-zodynas/",
+      "note": "Citation forms, gender and stress class for this section's vocabulary."
     }
   ]
 }

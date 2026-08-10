@@ -1,6 +1,6 @@
 import {
   atomicQuestions,
-  isCheckpoint,
+  isExam,
   sourceSection,
   type AtomicQuestion,
   type Drill,
@@ -17,6 +17,10 @@ import {
  *             0 unattempted
  *   integer   +4 correct, 0 otherwise — never negative, since there is
  *             nothing to guess between
+ *   matching  +4 correct, −1 wrong. The four options are four complete
+ *             pairings, so this is a single-correct question in every respect
+ *             that marking cares about: there is no credit for getting three
+ *             of the four pairs, which is the whole point of the format.
  *
  * A comprehension block is worth the sum of its questions; it carries no marks
  * of its own.
@@ -25,6 +29,7 @@ export const MARKS = {
   single: { correct: 4, wrong: -1 },
   multi: { full: 4, perCorrect: 1, wrong: -2 },
   integer: { correct: 4, wrong: 0 },
+  matching: { correct: 4, wrong: -1 },
 } as const;
 
 export type Response =
@@ -56,6 +61,8 @@ export function maxMarks(question: AtomicQuestion): number {
       return MARKS.multi.full;
     case "integer":
       return MARKS.integer.correct;
+    case "matching":
+      return MARKS.matching.correct;
   }
 }
 
@@ -96,12 +103,16 @@ export function gradeQuestion(
 
   const selected = new Set(response.selected);
 
-  if (question.type === "single") {
+  // `matching` presents four complete pairings and marks exactly like a
+  // single-correct question: three pairs out of four is worth nothing.
+  if (question.type === "single" || question.type === "matching") {
+    const rubric =
+      question.type === "single" ? MARKS.single : MARKS.matching;
     // More than one choice on a single-correct question is not a valid
     // attempt; treat it as wrong rather than silently taking the first.
     const ok = selected.size === 1 && selected.has(question.correct);
     return {
-      score: ok ? MARKS.single.correct : MARKS.single.wrong,
+      score: ok ? rubric.correct : rubric.wrong,
       max,
       verdict: ok ? "correct" : "incorrect",
     };
@@ -140,9 +151,9 @@ export interface DrillSetResult {
   /** Share of available marks, 0–100, floored at 0 so negative totals read as 0%. */
   percent: number;
   counts: Record<Verdict, number>;
-  /** Per covered section — meaningful on checkpoints, single-entry on lessons. */
+  /** Per covered section — meaningful on exams, single-entry on lessons. */
   breakdown: SectionBreakdown[];
-  /** Present only for checkpoints. */
+  /** Present only on exams: checkpoints and boundary papers. */
   passed?: boolean;
   passThreshold?: number;
 }
@@ -155,8 +166,8 @@ function emptyCounts(): Record<Verdict, number> {
  * Grade a whole drill set. `responses` is keyed by question id; questions
  * missing from it count as unattempted.
  *
- * For a checkpoint the breakdown is grouped by each question's `fromSection`,
- * which is what turns a failed exam into a list of sections to revisit.
+ * For an exam the breakdown is grouped by each question's `fromSection`,
+ * which is what turns a failed paper into a list of sections to revisit.
  */
 export function gradeDrillSet(
   section: Section,
@@ -212,7 +223,7 @@ export function gradeDrillSet(
 
   // Preserve the order the checkpoint declares, so the weakest-section list
   // reads in curriculum order rather than in whatever order questions appear.
-  const order = isCheckpoint(section) ? section.covers : [section.id];
+  const order = isExam(section) ? section.covers : [section.id];
   const breakdown = [...bySection.values()].sort((a, b) => {
     const ia = order.indexOf(a.sectionId);
     const ib = order.indexOf(b.sectionId);
@@ -230,7 +241,7 @@ export function gradeDrillSet(
     breakdown,
   };
 
-  if (isCheckpoint(section)) {
+  if (isExam(section)) {
     result.passThreshold = section.passThreshold;
     result.passed = percent >= section.passThreshold;
   }

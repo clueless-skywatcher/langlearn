@@ -526,10 +526,10 @@
       "id": "a116-x12",
       "type": "integer",
       "difficulty": "medium",
-      "stem": "How many letters in the 2 sg. imperative of **bėgti** (*bėk*)?",
+      "stem": "Of the forms **bėk, bėkime, bėkite, bėga**, how many are imperatives?",
       "answer": 3,
-      "unit": "letters",
-      "explanation": "*Bėk* = 3 letters.",
+      "unit": "forms",
+      "explanation": "The first three carry the imperative *-k-*: second singular, first plural and second plural (¶112). *bėga* is an ordinary third-person present.",
       "rulesTested": [
         "imperative-formation"
       ],
@@ -768,6 +768,136 @@
         "prašom",
         "duoti"
       ]
+    },
+    {
+      "id": "a116-p2",
+      "type": "comprehension",
+      "difficulty": "hard",
+      "title": "Stalelis, Avinėlis ir lazda (pradžia)",
+      "passage": "Senelis ir senutė turėjo tris vaikus. Jie buvo neturtingi. Vienas vaikas norėjo dirbti.\nTĖVAS. Eik!\nVaikas ėjo į mišką ir sutiko seną žmogų.\nSENIS. Kur eini?\nVAIKAS. Einu dirbti.\nSENIS. Dirbk čia. Ganyk mano aveles.\nRytą senis davė vaikui krepšelį ir pasakė:\nSENIS. Avelių nevaryk! Tegu jos eina, kur nori. Sek paskui ir parnešk man parodyti, ką jos ėda.\nVaikas sekė paskui aveles, bet prie upės pasiliko. Avelės perplaukė į kitą pusę. Vaikas nematė, ką jos ėda.\nSENIS. Nežinai, ką mano avelės ėda. Tu man netinki.",
+      "glossary": {
+        "senutė": "old woman",
+        "neturtingi": "poor",
+        "sutiko": "met",
+        "senis": "old man",
+        "ganyti": "to herd, to watch over",
+        "aveles": "sheep (acc. pl.)",
+        "avelių": "sheep (gen. pl.)",
+        "krepšelį": "small basket",
+        "nevaryk": "do not drive",
+        "sek paskui": "follow",
+        "parnešk": "bring back",
+        "parodyti": "to show",
+        "ėda": "eat (of animals)",
+        "upės": "river (gen.)",
+        "perplaukė": "swam across",
+        "pusę": "side",
+        "pasiliko": "stayed behind",
+        "netinki": "you do not suit me"
+      },
+      "questions": [
+        {
+          "id": "a116-p2-c1",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "Ką senis liepė vaikui ganyti?",
+          "explanation": "*Ganyk mano aveles* — the imperative takes a direct object, and the object of a positive verb is accusative (¶19). *avelės* is the nominative and could not follow *ganyk*.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "options": [
+            "avelės",
+            "aveles",
+            "arklius",
+            "vaikus"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "a116-p2-c2",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Kodėl vaikas nematė, ką avelės ėda?",
+          "explanation": "*bet prie upės pasiliko. Avelės perplaukė į kitą pusę.* The river is what separates him from the answer, and it costs him the job.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "options": [
+            "nes jos perplaukė upę, o jis pasiliko",
+            "nes jis miegojo",
+            "nes senis jo neišleido",
+            "nes buvo tamsu"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "a116-p2-q1",
+          "type": "single",
+          "difficulty": "hard",
+          "stem": "**Avelių nevaryk!** Why is the object *avelių* and not *aveles*?",
+          "explanation": "Negation converts the object to the genitive whatever the mood (¶26, ¶114) — compare *Ganyk aveles* two lines earlier, where the same noun is accusative because nothing is negated. The mood does not govern the case; the negation does.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "options": [
+            "Because the imperative always takes the genitive.",
+            "Because the verb is negated, and a negated verb takes the genitive.",
+            "Because *avelė* is feminine.",
+            "Because it is plural."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "a116-p2-q2",
+          "type": "single",
+          "difficulty": "hard",
+          "stem": "**Tegu jos eina, kur nori.** What is this form?",
+          "explanation": "*Tegu* + the present forms a command directed at somebody who is not being spoken to (¶113). The verb stays in the present indicative — the particle carries the mood, which is why *eina* looks unchanged.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "options": [
+            "a third-person imperative: the command is aimed at the sheep, not at the listener",
+            "a second-person plural imperative",
+            "an ordinary present tense",
+            "a conditional"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "a116-p2-q3",
+          "type": "integer",
+          "difficulty": "medium",
+          "stem": "Of the forms **Eik, Dirbk, Ganyk, nevaryk, eina**, how many are imperatives?",
+          "explanation": "The four carrying *-k*: *Eik, Dirbk, Ganyk, nevaryk* (¶112, ¶114). *eina* is the present indicative standing after *tegu* — the command in that line is expressed by the particle, not by the verb's own form (¶113).",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "answer": 4,
+          "unit": "forms"
+        }
+      ],
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Retold for this course after a Lithuanian folk tale from the collections of Jonas Basanavičius (1851–1927), which are in the public domain.",
+          "note": "A graded retelling of the tale's opening, kept to the imperative of ¶112–¶114 and the past simple of ¶93–¶98."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+          "note": "The forms the passage is chosen to illustrate."
+        }
+      ],
+      "translation": "An old man and an old woman had three children. They were poor. One child wanted to work. FATHER. Go! The child walked into the forest and met an old man. OLD MAN. Where are you going? CHILD. I am going to work. OLD MAN. Work here. Herd my sheep. In the morning the old man gave the child a basket and said: OLD MAN. Do not drive the sheep! Let them go where they want. Follow them and bring me back something to show what they eat. The child followed the sheep, but stayed behind at the river. The sheep swam to the other side. The child did not see what they ate. OLD MAN. You do not know what my sheep eat. You do not suit me."
+    }
+  ],
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+      "note": "Descriptive source for the paradigms and rule statements on this page."
+    },
+    {
+      "kind": "dictionary",
+      "citation": "*Dabartinės lietuvių kalbos žodynas*, Lietuvių kalbos institutas.",
+      "url": "https://ekalba.lt/dabartines-lietuviu-kalbos-zodynas/",
+      "note": "Citation forms, gender and stress class for this section's vocabulary."
     }
   ]
 }

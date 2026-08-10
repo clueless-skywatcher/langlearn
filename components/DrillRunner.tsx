@@ -5,8 +5,10 @@ import Link from "next/link";
 
 import {
   atomicQuestions,
+  isExam,
   type AtomicQuestion,
   type Drill,
+  type MatchingQuestion,
   type Section,
 } from "@/content/schema";
 import {
@@ -17,11 +19,14 @@ import {
   type Response,
   type Verdict,
 } from "@/lib/scoring";
+import { SourceFooter } from "@/components/SourceFooter";
 import { progressStore, type SittingInput } from "@/lib/progress";
-import { inline } from "@/lib/markdown";
+import { inline, lines } from "@/lib/markdown";
 import { hasTelugu, transliterateTelugu } from "@/lib/translit";
 
 const LETTERS = ["A", "B", "C", "D"];
+/** Column I is labelled P–S and Column II 1–n, as in a JEE matching block. */
+const COLUMN_I_KEYS = ["P", "Q", "R", "S"];
 
 const VERDICT_STYLE: Record<Verdict, string> = {
   correct: "bg-correct-soft text-correct",
@@ -96,12 +101,14 @@ function QuestionBody({
     response?.kind === "options" ? response.selected : [],
   );
   const correct = new Set(
-    question.type === "single" ? [question.correct] : question.correct,
+    question.type === "multi" ? question.correct : [question.correct],
   );
 
   const toggle = (i: number) => {
     if (locked) return;
-    if (question.type === "single") {
+    // Only `multi` accumulates a selection; `single` and `matching` both take
+    // exactly one option, and clicking the chosen one again clears it.
+    if (question.type !== "multi") {
       onRespond({ kind: "options", selected: selected.has(i) ? [] : [i] });
       return;
     }
@@ -111,9 +118,24 @@ function QuestionBody({
     onRespond({ kind: "options", selected: [...next].sort((a, b) => a - b) });
   };
 
+  // A matching option is a complete pairing rather than a string: render it in
+  // the "P→2, Q→1, …" form the format is read in.
+  const optionLabels =
+    question.type === "matching"
+      ? question.options.map((pairing, oi) => (
+          <span key={oi} className="font-mono text-sm tracking-tight">
+            {pairing
+              .map((ii, k) => `${COLUMN_I_KEYS[k]}→${ii + 1}`)
+              .join("   ")}
+          </span>
+        ))
+      : question.options.map((option) => inline(option));
+
   return (
-    <ul className="mt-3 space-y-2">
-      {question.options.map((option, i) => {
+    <>
+      {question.type === "matching" && <MatchingColumns question={question} />}
+      <ul className="mt-3 space-y-2">
+        {optionLabels.map((label, i) => {
         const isSelected = selected.has(i);
         const isCorrect = correct.has(i);
 
@@ -126,28 +148,73 @@ function QuestionBody({
           tone = "border-accent bg-accent-soft";
         }
 
-        return (
-          <li key={i}>
-            <button
-              type="button"
-              disabled={locked}
-              aria-pressed={isSelected}
-              onClick={() => toggle(i)}
-              className={`flex w-full items-baseline gap-3 rounded border px-3 py-2 text-left transition-colors disabled:cursor-default ${tone}`}
-            >
-              <span
-                className={`text-xs font-semibold ${
-                  isSelected ? "text-accent" : "text-ink-faint"
-                }`}
+          return (
+            <li key={i}>
+              <button
+                type="button"
+                disabled={locked}
+                aria-pressed={isSelected}
+                onClick={() => toggle(i)}
+                className={`flex w-full items-baseline gap-3 rounded border px-3 py-2 text-left transition-colors disabled:cursor-default ${tone}`}
               >
-                {LETTERS[i]}
-              </span>
-              <span className="flex-1">{inline(option)}</span>
-            </button>
-          </li>
-        );
-      })}
-    </ul>
+                <span
+                  className={`text-xs font-semibold ${
+                    isSelected ? "text-accent" : "text-ink-faint"
+                  }`}
+                >
+                  {LETTERS[i]}
+                </span>
+                <span className="flex-1">{label}</span>
+              </button>
+            </li>
+          );
+        })}
+      </ul>
+    </>
+  );
+}
+
+/**
+ * The two columns of a matching question. Column I is what the learner must
+ * classify; Column II holds the labels, and may carry one more label than
+ * there are items so that a pairing cannot be completed by elimination.
+ */
+function MatchingColumns({ question }: { question: MatchingQuestion }) {
+  const [headI, headII] = question.columnHeadings;
+  return (
+    <div className="mt-3 grid gap-3 sm:grid-cols-2">
+      <table className="w-full border-collapse overflow-hidden rounded border border-rule bg-raised text-sm">
+        <caption className="border-b border-rule px-3 py-1.5 text-left text-xs uppercase tracking-wide text-ink-faint">
+          Column I · {headI}
+        </caption>
+        <tbody>
+          {question.columnI.map((item, i) => (
+            <tr key={i} className="border-b border-rule/60 last:border-0">
+              <th className="w-8 px-3 py-1.5 text-left align-top font-medium text-ink-faint">
+                {COLUMN_I_KEYS[i]}
+              </th>
+              <td className="px-3 py-1.5 align-top">{inline(item)}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+
+      <table className="w-full border-collapse overflow-hidden rounded border border-rule bg-raised text-sm">
+        <caption className="border-b border-rule px-3 py-1.5 text-left text-xs uppercase tracking-wide text-ink-faint">
+          Column II · {headII}
+        </caption>
+        <tbody>
+          {question.columnII.map((item, i) => (
+            <tr key={i} className="border-b border-rule/60 last:border-0">
+              <th className="w-8 px-3 py-1.5 text-left align-top font-medium text-ink-faint">
+                {i + 1}
+              </th>
+              <td className="px-3 py-1.5 align-top">{inline(item)}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
   );
 }
 
@@ -173,8 +240,10 @@ function QuestionCard({
   return (
     <div className="border-t border-rule pt-5 first:border-0 first:pt-0">
       <div className="flex items-baseline justify-between gap-4">
+        {/* `difficulty` is authoring metadata and never reaches the learner:
+            a visible band is a hint, and a predictable ramp is a tell. */}
         <p className="text-xs uppercase tracking-wide text-ink-faint">
-          Q{index} · {TYPE_LABEL[question.type]} · {question.difficulty}
+          Q{index} · {TYPE_LABEL[question.type]}
         </p>
         {graded && (
           <span
@@ -208,6 +277,7 @@ const TYPE_LABEL: Record<string, string> = {
   single: "one option correct",
   multi: "one or more correct",
   integer: "integer answer",
+  matching: "match the columns",
 };
 
 /* ------------------------------------------------------------------ passage */
@@ -219,11 +289,16 @@ function Passage({ drill }: { drill: Extract<Drill, { type: "comprehension" }> }
       <p className="mb-2 text-xs uppercase tracking-wide text-ink-faint">
         Comprehension · {drill.title}
       </p>
-      <p className="target text-lg leading-loose not-italic">{drill.passage}</p>
+      {/* Every newline in a passage is meaningful — a dialogue turn, a line of
+          a notice — so the text is rendered line by line rather than as one
+          run-on paragraph. */}
+      <div className="target text-lg leading-loose not-italic">
+        {lines(drill.passage)}
+      </div>
       {(drill.romanization ?? (hasTelugu(drill.passage) ? transliterateTelugu(drill.passage) : "")) && (
-        <p className="mt-2 text-sm leading-relaxed text-ink-faint">
-          {drill.romanization ?? transliterateTelugu(drill.passage)}
-        </p>
+        <div className="mt-2 text-sm leading-relaxed text-ink-faint">
+          {lines(drill.romanization ?? transliterateTelugu(drill.passage))}
+        </div>
       )}
       {glossary.length > 0 && (
         <dl className="mt-3 flex flex-wrap gap-x-5 gap-y-1 border-t border-rule pt-3 text-xs text-ink-faint">
@@ -238,7 +313,69 @@ function Passage({ drill }: { drill: Extract<Drill, { type: "comprehension" }> }
           ))}
         </dl>
       )}
+
+      <SourceFooter sources={drill.sources} heading="Passage source" tight />
     </div>
+  );
+}
+
+/* --------------------------------------------------------------- navigator */
+
+/**
+ * Every question on the paper as a numbered button, so a learner can go
+ * straight to question 34 instead of pressing Next thirty-three times. In an
+ * examination this is what makes it practical to skip a question and come
+ * back, which the marking scheme already allows for.
+ *
+ * A filled button has an answer recorded; the ring marks the question on
+ * screen. Several buttons can point at one step when they belong to the same
+ * comprehension block, and all of them light up together.
+ */
+function QuestionNav({
+  nav,
+  step,
+  responses,
+  onJump,
+}: {
+  nav: { n: number; stepIndex: number; id: string }[];
+  step: number;
+  responses: Record<string, Response>;
+  onJump: (stepIndex: number) => void;
+}) {
+  const answered = (id: string) => {
+    const r = responses[id];
+    if (!r) return false;
+    if (r.kind === "options") return r.selected.length > 0;
+    return r.kind === "integer";
+  };
+
+  return (
+    <nav aria-label="Jump to a question" className="mb-6">
+      <ul className="flex flex-wrap gap-1.5">
+        {nav.map((item) => {
+          const here = item.stepIndex === step;
+          const done = answered(item.id);
+
+          let tone = "border-rule text-ink-faint hover:border-accent";
+          if (done) tone = "border-accent bg-accent-soft text-accent";
+          if (here) tone = `${tone} ring-2 ring-accent ring-offset-1 ring-offset-paper`;
+
+          return (
+            <li key={item.id}>
+              <button
+                type="button"
+                onClick={() => onJump(item.stepIndex)}
+                aria-current={here ? "step" : undefined}
+                aria-label={`Question ${item.n}${done ? ", answered" : ""}`}
+                className={`h-7 w-7 rounded border text-xs font-medium transition-colors ${tone}`}
+              >
+                {item.n}
+              </button>
+            </li>
+          );
+        })}
+      </ul>
+    </nav>
   );
 }
 
@@ -251,10 +388,10 @@ export function DrillRunner({
 }: {
   section: Section;
   courseId: string;
-  /** Titles of the sections a checkpoint covers, for the breakdown. */
+  /** Titles of the sections an exam covers, for the breakdown. */
   sectionTitles: Record<string, string>;
 }) {
-  const examMode = section.kind === "checkpoint";
+  const examMode = isExam(section);
   const drills = section.drills;
   const total = useMemo(() => atomicQuestions(drills).length, [drills]);
 
@@ -275,6 +412,23 @@ export function DrillRunner({
       (n, d) => n + (d.type === "comprehension" ? d.questions.length : 1),
       0,
     );
+
+  /**
+   * One entry per question, in paper order, carrying the step that shows it.
+   * A comprehension block is a single step holding several questions, so the
+   * mapping is many-to-one and the navigator has to be built from the drills
+   * rather than from a question count.
+   */
+  const nav = useMemo(() => {
+    const out: { n: number; stepIndex: number; id: string }[] = [];
+    drills.forEach((d, stepIndex) => {
+      const kids = d.type === "comprehension" ? d.questions : [d];
+      for (const q of kids) {
+        out.push({ n: out.length + 1, stepIndex, id: q.id });
+      }
+    });
+    return out;
+  }, [drills]);
 
   const isChecked = checked.has(drill?.id ?? "");
   const allAnswered = questions.every((q) => {
@@ -392,6 +546,13 @@ export function DrillRunner({
         />
       </div>
 
+      <QuestionNav
+        nav={nav}
+        step={step}
+        responses={responses}
+        onJump={setStep}
+      />
+
       {drill.type === "comprehension" && <Passage drill={drill} />}
 
       <div className="space-y-6">
@@ -489,7 +650,11 @@ function Summary({
     <div>
       <div className="rounded border border-rule bg-raised p-5">
         <p className="text-xs uppercase tracking-wide text-ink-faint">
-          {section.kind === "checkpoint" ? "Checkpoint result" : "Drill result"}
+          {section.kind === "boundary"
+            ? "Boundary examination result"
+            : section.kind === "checkpoint"
+              ? "Checkpoint result"
+              : "Drill result"}
         </p>
         <p className="mt-1 text-3xl font-semibold tracking-tight">
           {fmt(result.score)}{" "}

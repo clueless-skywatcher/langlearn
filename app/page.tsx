@@ -1,6 +1,6 @@
 import { CourseList, type CourseCard } from "@/components/CourseList";
 import { allCourses } from "@/content/loader";
-import { atomicQuestions, isCheckpoint } from "@/content/schema";
+import { atomicQuestions, isLesson } from "@/content/schema";
 
 /**
  * Fully static: the content is fixed at build time, and the learner's progress
@@ -8,7 +8,7 @@ import { atomicQuestions, isCheckpoint } from "@/content/schema";
  */
 export default function CourseIndex() {
   const courses: CourseCard[] = allCourses().map(({ course, sections }) => {
-    const lessons = sections.filter((s) => !isCheckpoint(s)).length;
+    const lessons = sections.filter(isLesson).length;
     return {
       id: course.id,
       name: course.name,

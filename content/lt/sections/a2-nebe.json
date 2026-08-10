@@ -574,6 +574,38 @@
       },
       "questions": [
         {
+          "id": "a2nebe-p1-c1",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Kur dabar gyvena Rūta?",
+          "explanation": "*Aš jau nebegyvenu Kaune — dabar esu Vilniuje … tebegyvenu pas seserį.* *Nebe-* ends the Kaunas years and *tebe-* continues the stay with her sister.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "options": [
+            "Kaune",
+            "Vilniuje pas seserį",
+            "naujame darbe",
+            "pas Tomą"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "a2nebe-p1-c2",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Ko Rūta prašo nedaryti?",
+          "explanation": "*Nebeskambink vėlai vakare — miegame anksti.* She asks him *to* write and *to* come; only the late calls are refused.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "options": [
+            "neatvažiuoti",
+            "nerašyti",
+            "neskambinti vėlai vakare",
+            "nesimokyti vokiečių kalbos"
+          ],
+          "correct": 2
+        },
+        {
           "id": "a2nebe-p1-q1",
           "type": "single",
           "difficulty": "medium",
@@ -662,6 +694,17 @@
           "vocabUsed": [
             "nebe-"
           ]
+        }
+      ],
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+          "note": "Descriptive source for the paradigms and rule statements on this page."
         }
       ]
     },
@@ -901,6 +944,19 @@
         "dar",
         "tebe-"
       ]
+    }
+  ],
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+      "note": "Descriptive source for the paradigms and rule statements on this page."
+    },
+    {
+      "kind": "dictionary",
+      "citation": "*Dabartinės lietuvių kalbos žodynas*, Lietuvių kalbos institutas.",
+      "url": "https://ekalba.lt/dabartines-lietuviu-kalbos-zodynas/",
+      "note": "Citation forms, gender and stress class for this section's vocabulary."
     }
   ]
 }

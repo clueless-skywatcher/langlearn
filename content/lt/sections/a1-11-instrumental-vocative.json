@@ -934,10 +934,9 @@
       "id": "a111-q12",
       "type": "integer",
       "difficulty": "hard",
-      "stem": "How many letters are in the vocative **mokytojau**?",
-      "answer": 9,
-      "unit": "letters",
-      "explanation": "Nine: m-o-k-y-t-o-j-a-u. Agent nouns in *-ojas* take **-au** (¶78) — not *-ai* (*mokytojai* is nominative plural).",
+      "stem": "Which numbered rule of this section governs the form used to address someone directly? Give the paragraph number.",
+      "answer": 78,
+      "explanation": "¶78 sets out the vocative. The near miss is ¶71, the instrumental singular, which shares the section but not the function.",
       "rulesTested": [
         "vocative"
       ],
@@ -1278,10 +1277,10 @@
       "id": "a111-x15",
       "type": "integer",
       "difficulty": "hard",
-      "stem": "**Rašau draugams.** How many letters does the **dative plural** ending **-ams** add after the stem *draug-*?",
-      "answer": 3,
-      "unit": "letters",
-      "explanation": "Three: **-ams** (¶72). Instrumental plural would be *draugais*.",
+      "stem": "In **Rašau draugams ir seserims**, how many words stand in the dative plural?",
+      "answer": 2,
+      "unit": "words",
+      "explanation": "*draugams* and *seserims* are both dative plurals, in *-ams* and *-ims* according to declension (¶72). *Rašau* is the verb and *ir* a conjunction, so neither stands in a case at all.",
       "rulesTested": [
         "dative-plural"
       ],
@@ -1303,6 +1302,38 @@
         "vandens": "of water (gen.)"
       },
       "questions": [
+        {
+          "id": "a111-p1-c1",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "Kuo Vytautas važiuoja į darbą?",
+          "explanation": "*Rytais Vytautas važiuoja į darbą dviračiu, o brolis — autobusu.* The bare instrumental names the means, and the dash stands in for the repeated verb.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "options": [
+            "autobusu",
+            "dviračiu",
+            "traukiniu",
+            "pėsčiomis"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "a111-p1-c2",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Kodėl brolis šiandien neina į darbą?",
+          "explanation": "*Šiandien brolis serga gripu ir guli lovoje.* The passage says plainly that today is Monday, so the weekend is ruled out by the text itself.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "options": [
+            "nes yra savaitgalis",
+            "nes serga gripu",
+            "nes neturi dviračio",
+            "nes jis miega"
+          ],
+          "correct": 1
+        },
         {
           "id": "a111-p1-q1",
           "type": "single",
@@ -1363,10 +1394,10 @@
           "id": "a111-p1-q3",
           "type": "integer",
           "difficulty": "hard",
-          "stem": "How many letters does the passage's one **vocative** word have?",
-          "answer": 8,
-          "unit": "letters",
-          "explanation": "*Vytautai* — eight letters. Name in *-as* → **-ai** (¶78).",
+          "stem": "Count the words in the passage that stand in the **vocative**.",
+          "answer": 1,
+          "unit": "words",
+          "explanation": "One: the person addressed by name. Every other noun in the passage is doing a job in the sentence — subject, object or complement — and only direct address takes the vocative (¶78).",
           "rulesTested": [
             "vocative"
           ],
@@ -1430,7 +1461,31 @@
             "pieštukas"
           ]
         }
+      ],
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+          "note": "Descriptive source for the paradigms and rule statements on this page."
+        }
       ]
+    }
+  ],
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+      "note": "Descriptive source for the paradigms and rule statements on this page."
+    },
+    {
+      "kind": "dictionary",
+      "citation": "*Dabartinės lietuvių kalbos žodynas*, Lietuvių kalbos institutas.",
+      "url": "https://ekalba.lt/dabartines-lietuviu-kalbos-zodynas/",
+      "note": "Citation forms, gender and stress class for this section's vocabulary."
     }
   ]
 }

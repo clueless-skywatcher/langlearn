@@ -5,6 +5,7 @@ import { getCourse, getSection, listCourseIds } from "../content/loader";
 import {
   Drill,
   isCheckpoint,
+  isLesson,
   type Course,
   type Drill as DrillType,
   type LessonSection,
@@ -108,7 +109,7 @@ export function buildPrompt(
       ]
     : [
         `This is a LESSON drill set for ${target.id}.`,
-        `Produce ${LESSON_TARGETS.minQuestions}–${lessonMaxQuestions(!isCheckpoint(target) && !!target.script)} questions in total.`,
+        `Produce ${LESSON_TARGETS.minQuestions}–${lessonMaxQuestions(isLesson(target) && !!target.script)} questions in total.`,
         `Every CORE rule of this section must be tested by at least one question.`,
         `Do not set "fromSection".`,
       ];
@@ -119,6 +120,9 @@ FORMATS (JEE Advanced):
   single         four options, exactly one correct. Marked +4 / −1.
   multi          four options, one or more correct. Partial credit; −2 if any wrong option is chosen.
   integer        a non-negative integer answer, no options. Marked +4 / 0.
+  matching       two columns to pair. Column I holds four items, Column II the labels;
+                 the four options are four COMPLETE pairings, exactly one right, so
+                 three correct pairs out of four score nothing. Marked +4 / −1.
   comprehension  a short passage in ${course.englishName} with 2–5 dependent questions of the above types.
 
 REQUESTED MIX:
@@ -146,6 +150,22 @@ CONSTRAINTS
   - "explanation" must say why the right answer is right AND why the tempting
     wrong one is wrong. Refer to rules by their ¶ number.
   - Ids are lowercase kebab-case and unique across the whole course.
+  - NEVER ask a question that counts surface features: how many letters, vowels,
+    commas or syllables a string has. Nor one answerable without knowing the
+    language (the option in another script, the odd one out by length), nor one
+    answerable by reading the rule text verbatim. A question earns its place
+    only if a learner who has not internalised the rule can plausibly get it wrong.
+  - Build a matching question's three wrong pairings from real confusions — an
+    ending shared across two declensions, a case governed by the same
+    preposition — never by shuffling at random.
+  - End the set with items that put EVERYTHING taught so far to the test, using
+    earlier rules as the trap. Confusion must come from the language, never from
+    the question: ambiguous stems and defensible-but-wrong options are bugs.
+  - Every comprehension drill carries "sources". A passage you write is
+    {"kind":"composed","citation":"Composed for this course."} plus a citation
+    for any grammar or idiom it leans on; a real excerpt names author, title,
+    publication, date, url and licence, and may only come from an open source.
+    Never invent a citation.
 
 Return a JSON array of drill objects conforming to this schema:
 ${JSON.stringify(z.toJSONSchema(Drill, { io: "input" }), null, 2)}`;

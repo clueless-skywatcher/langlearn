@@ -1279,30 +1279,36 @@
       },
       "questions": [
         {
-          "id": "a103-p1-q1",
+          "id": "a103-p1-c1",
           "type": "single",
           "difficulty": "easy",
-          "stem": "What is Petras reading?",
+          "stem": "Ką skaito Petras?",
+          "explanation": "*Petras skaito naują knygą.* Jonas is the one writing a letter, and the apple and tea belong to Rūta.",
+          "rulesTested": [],
+          "vocabUsed": [],
           "options": [
             "laišką",
             "naują knygą",
             "obuolį",
             "arbatą"
           ],
-          "correct": 1,
-          "explanation": "*Petras skaito naują knygą* — adjective and noun both accusative. The letter is Jonas's.",
-          "rulesTested": [
-            "accusative-adjectives",
-            "transitive-objects"
+          "correct": 1
+        },
+        {
+          "id": "a103-p1-c2",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Ko nemato Rūta?",
+          "explanation": "*Ji nemato brolio.* The genitive *brolio* is there because the verb is negated — reading the sentence correctly means reading the case.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "options": [
+            "katės",
+            "brolio",
+            "knygos",
+            "laiško"
           ],
-          "vocabUsed": [
-            "skaityti",
-            "knyga",
-            "naujas",
-            "laiškas",
-            "obuolys",
-            "arbata"
-          ]
+          "correct": 1
         },
         {
           "id": "a103-p1-q2",
@@ -1338,10 +1344,10 @@
           "id": "a103-p1-q3",
           "type": "integer",
           "difficulty": "hard",
-          "stem": "The passage has **Ji nemato brolio.** If the verb were not negated, how many words in that sentence would change form?",
+          "stem": "The passage has **Ji nemato brolio.** If the verb were not negated, how many of the three words would change form?",
           "answer": 2,
           "unit": "words",
-          "explanation": "Two: *nemato*→*mato* and *brolio*→*brolį* (¶26). Changing only the verb leaves a genitive object after an affirmative verb.",
+          "explanation": "Two: *nemato* would lose its negative prefix and become *mato*, and the object would revert from the genitive *brolio* to the accusative *brolį* (¶25, ¶26). *Ji* is the subject and is untouched — negation reaches the verb and its object, not the nominative.",
           "rulesTested": [
             "negation",
             "negation-genitive",
@@ -1401,7 +1407,31 @@
             "jį"
           ]
         }
+      ],
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+          "note": "Descriptive source for the paradigms and rule statements on this page."
+        }
       ]
+    }
+  ],
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+      "note": "Descriptive source for the paradigms and rule statements on this page."
+    },
+    {
+      "kind": "dictionary",
+      "citation": "*Dabartinės lietuvių kalbos žodynas*, Lietuvių kalbos institutas.",
+      "url": "https://ekalba.lt/dabartines-lietuviu-kalbos-zodynas/",
+      "note": "Citation forms, gender and stress class for this section's vocabulary."
     }
   ]
 }

@@ -710,6 +710,38 @@
       },
       "questions": [
         {
+          "id": "a204-p1-c1",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Kada išėjo senasis direktorius?",
+          "explanation": "*Senasis direktorius išėjo pernai.* The definite *senasis* picks him out against the new one.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "options": [
+            "šiandien",
+            "pernai",
+            "po susitikimo",
+            "prieš Naujuosius metus"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "a204-p1-c2",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Kodėl studentai nori klausyti naujojo direktoriaus?",
+          "explanation": "*Norime klausyti naujojo, nes jis kalba aiškiai.* His youth is mentioned, but the reason given is the clarity.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "options": [
+            "nes jis jaunas",
+            "nes jis kalba aiškiai",
+            "nes senoji salė geresnė",
+            "nes artėja šventė"
+          ],
+          "correct": 1
+        },
+        {
           "id": "a204-p1-q1",
           "type": "single",
           "difficulty": "easy",
@@ -819,6 +851,17 @@
             "Naujieji metai",
             "metai"
           ]
+        }
+      ],
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+          "note": "Descriptive source for the paradigms and rule statements on this page."
         }
       ]
     },
@@ -1118,6 +1161,19 @@
         "gerasis",
         "žalias"
       ]
+    }
+  ],
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+      "note": "Descriptive source for the paradigms and rule statements on this page."
+    },
+    {
+      "kind": "dictionary",
+      "citation": "*Dabartinės lietuvių kalbos žodynas*, Lietuvių kalbos institutas.",
+      "url": "https://ekalba.lt/dabartines-lietuviu-kalbos-zodynas/",
+      "note": "Citation forms, gender and stress class for this section's vocabulary."
     }
   ]
 }

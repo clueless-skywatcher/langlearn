@@ -1,7 +1,7 @@
 import { z } from "zod";
 
 import { findCourse, getSection } from "@/content/loader";
-import { atomicQuestions, isCheckpoint } from "@/content/schema";
+import { atomicQuestions, isExam } from "@/content/schema";
 import { SERVER_PERSISTS, type SittingInput } from "@/lib/progress";
 import { gradeDrillSet, type Response } from "@/lib/scoring";
 
@@ -69,7 +69,9 @@ export async function POST(request: Request) {
     setId: crypto.randomUUID(),
     courseId,
     sectionId,
-    isCheckpoint: isCheckpoint(section),
+    // Both exam kinds carry a pass threshold, so both are recorded
+    // as examinations for the progress rollup.
+    isCheckpoint: isExam(section),
     questionTypes: Object.fromEntries(questions.map((q) => [q.id, q.type])),
     difficulties: Object.fromEntries(questions.map((q) => [q.id, q.difficulty])),
     result,

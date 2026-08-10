@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 
 import { RuleList } from "@/components/RuleList";
 import { ScriptTable } from "@/components/ScriptTable";
+import { SourceFooter } from "@/components/SourceFooter";
 import { VocabList } from "@/components/VocabList";
 import {
   allCourses,
@@ -10,12 +11,12 @@ import {
   getSection,
   nextSection,
 } from "@/content/loader";
-import { isCheckpoint } from "@/content/schema";
+import { isExam, isLesson } from "@/content/schema";
 
 export function generateStaticParams() {
   return allCourses().flatMap(({ course, sections }) =>
     sections
-      .filter((s) => !isCheckpoint(s))
+      .filter(isLesson)
       .map((s) => ({ course: course.id, section: s.id })),
   );
 }
@@ -26,7 +27,7 @@ export default async function LearnPage(
   const { course: courseId, section: sectionId } = await props.params;
   const pack = findCourse(courseId);
   const section = getSection(courseId, sectionId);
-  if (!pack || !section || isCheckpoint(section)) notFound();
+  if (!pack || !section || !isLesson(section)) notFound();
 
   const next = nextSection(courseId, sectionId);
 
@@ -60,7 +61,7 @@ export default async function LearnPage(
         {next && (
           <Link
             href={
-              isCheckpoint(next)
+              isExam(next)
                 ? `/${courseId}/drill/${next.id}`
                 : `/${courseId}/learn/${next.id}`
             }
@@ -70,6 +71,8 @@ export default async function LearnPage(
           </Link>
         )}
       </div>
+
+      <SourceFooter sources={section.sources} />
     </article>
   );
 }

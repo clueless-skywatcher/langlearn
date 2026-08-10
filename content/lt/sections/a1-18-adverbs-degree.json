@@ -917,6 +917,38 @@
       },
       "questions": [
         {
+          "id": "a117-p1-c1",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Kuris butas pigesnis?",
+          "explanation": "*Antras butas mažesnis ir pigesnis.* The first is bigger and prettier but *daug brangesnis*.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "options": [
+            "pirmas",
+            "antras",
+            "abu vienodai",
+            "pasakojime nesakoma"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "a117-p1-c2",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Kodėl Rūta nepirks brangiausio buto?",
+          "explanation": "*Turiu mažai pinigų, todėl brangiausio buto nepirksiu.* *Todėl* marks the consequence, so the reason stands before it.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "options": [
+            "nes jis toli nuo darbo",
+            "nes turi mažai pinigų",
+            "nes jis mažesnis",
+            "nes draugė nepataria"
+          ],
+          "correct": 1
+        },
+        {
           "id": "a117-p1-q1",
           "type": "single",
           "difficulty": "easy",
@@ -1032,6 +1064,17 @@
             "pirkti",
             "negu"
           ]
+        }
+      ],
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+          "note": "Descriptive source for the paradigms and rule statements on this page."
         }
       ]
     },
@@ -1304,10 +1347,10 @@
       "id": "a117-x12",
       "type": "integer",
       "difficulty": "medium",
-      "stem": "How many letters in the adverb from **lėtas** (*lėtai*)?",
-      "answer": 5,
-      "unit": "letters",
-      "explanation": "*Lėtai* has 5 letters.",
+      "stem": "Of the words **lėtai, greitai, lėtas, angliškai**, how many are adverbs?",
+      "answer": 3,
+      "unit": "words",
+      "explanation": "*lėtai* and *greitai* are adverbs in *-ai* (¶119) and *angliškai* one in *-iškai* (¶120). *lėtas* is the adjective *lėtai* was formed from — the pair is the whole point of ¶119.",
       "rulesTested": [
         "adverb-formation"
       ],
@@ -1360,6 +1403,19 @@
         "lėtai",
         "skaityti"
       ]
+    }
+  ],
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+      "note": "Descriptive source for the paradigms and rule statements on this page."
+    },
+    {
+      "kind": "dictionary",
+      "citation": "*Dabartinės lietuvių kalbos žodynas*, Lietuvių kalbos institutas.",
+      "url": "https://ekalba.lt/dabartines-lietuviu-kalbos-zodynas/",
+      "note": "Citation forms, gender and stress class for this section's vocabulary."
     }
   ]
 }

@@ -1006,10 +1006,9 @@
       "id": "a113-x14",
       "type": "integer",
       "difficulty": "medium",
-      "stem": "How many letters in past 1sg **mačiau**?",
-      "answer": 6,
-      "unit": "letters",
-      "explanation": "Six: m-a-č-i-a-u — the *-ė* type 1sg with *t*→*č* (¶95).",
+      "stem": "**matyti** has the past *mačiau, matė*. Which numbered rule governs a past of this shape? Give the paragraph number.",
+      "answer": 95,
+      "explanation": "¶95 is the *-ė* past. ¶94 is the *-o* past, which is the form a learner produces by analogy with *dirbo* before noticing that *matė* has *-ė*.",
       "rulesTested": [
         "past-e-type"
       ],
@@ -1049,29 +1048,36 @@
       },
       "questions": [
         {
-          "id": "a113-p1-q1",
+          "id": "a113-p1-c1",
           "type": "single",
           "difficulty": "easy",
-          "stem": "Kur gimė šis žmogus?",
+          "stem": "Kur gimė pasakotojas?",
+          "explanation": "*Gimiau … Kaune. Ten gyvenau dešimt metų.* Vilnius comes later, after the family moves.",
+          "rulesTested": [],
+          "vocabUsed": [],
           "options": [
             "Vilniuje",
             "Kaune",
-            "mokykloje",
-            "universitete"
+            "prie jūros",
+            "kavinėje"
           ],
-          "correct": 1,
-          "explanation": "*Gimiau … Kaune.* Vilnius came later. *Kaune* is locative (¶59).",
-          "rulesTested": [
-            "past-narrative",
-            "locative-singular"
+          "correct": 1
+        },
+        {
+          "id": "a113-p1-c2",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Ką pasakotojas veikė pernai?",
+          "explanation": "*Pernai nedirbau — buvau namie ir mokiausi lietuvių kalbos.* The café work and the university belong to the earlier Vilnius years.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "options": [
+            "dirbo kavinėje",
+            "buvo namie ir mokėsi lietuvių kalbos",
+            "studijavo universitete",
+            "matė seną draugą"
           ],
-          "vocabUsed": [
-            "gimti",
-            "Kaunas",
-            "Vilnius",
-            "mokykla",
-            "universitetas"
-          ]
+          "correct": 1
         },
         {
           "id": "a113-p1-q2",
@@ -1158,7 +1164,241 @@
             "skaityti"
           ]
         }
+      ],
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+          "note": "Descriptive source for the paradigms and rule statements on this page."
+        }
       ]
+    },
+    {
+      "id": "a113-p2",
+      "type": "comprehension",
+      "difficulty": "hard",
+      "title": "Vištytė ir gaidžiukas",
+      "passage": "Senelis ir močiutė turėjo vištytę ir gaidžiuką. Vieną dieną gaidžiukas lipo į medį ir raškė riešutus. Vištytė stovėjo apačioje.\nVIŠTYTĖ. Ir aš noriu riešutų!\nGaidžiukas metė riešutą ir išmušė vištytei akį. Vištytė bėgo namo ir viską pasakė močiutei.\nMOČIUTĖ. Gaidžiuk, kodėl tu išmušei vištytei akį?\nGAIDŽIUKAS. Nes medis perplėšė mano kelnes.\nMOČIUTĖ. Medi, kodėl tu perplėšei kelnes?\nMEDIS. Nes ožka mane graužė.\nMOČIUTĖ. Ožka, kodėl tu graužei medį?\nOŽKA. Nes piemuo manęs neganė.",
+      "glossary": {
+        "senelis": "grandfather",
+        "močiutė": "grandmother",
+        "vištytė": "little hen",
+        "gaidžiukas": "little cockerel",
+        "lipo": "climbed",
+        "raškė": "was picking",
+        "riešutus": "nuts (acc. pl.)",
+        "apačioje": "below",
+        "metė": "threw",
+        "išmušė": "knocked out",
+        "akį": "eye (acc.)",
+        "bėgo": "ran",
+        "namo": "homewards",
+        "viską": "everything",
+        "kelnes": "trousers (acc. pl.)",
+        "perplėšė": "tore",
+        "ožka": "goat",
+        "graužė": "gnawed",
+        "piemuo": "shepherd boy",
+        "ganė": "herded, watched over"
+      },
+      "questions": [
+        {
+          "id": "a113-p2-c1",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "Ko norėjo vištytė?",
+          "explanation": "*Ir aš noriu riešutų!* — the hen wants what the cockerel is picking, which is what sets the whole chain going.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "options": [
+            "riešutų",
+            "medžio",
+            "kelnių",
+            "ožkos"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "a113-p2-c2",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Kas graužė medį?",
+          "explanation": "*Nes ožka mane graužė*, says the tree. The shepherd boy is blamed one link further on, for not watching the goat.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "options": [
+            "gaidžiukas",
+            "vištytė",
+            "ožka",
+            "piemuo"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "a113-p2-q1",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "Kas išmušė vištytei akį?",
+          "explanation": "*Gaidžiukas metė riešutą ir išmušė vištytei akį.* The rest of the passage is the chain of blame that follows, and each animal names the one before it — but only the cockerel did anything to the hen (¶98).",
+          "rulesTested": [
+            "past-narrative",
+            "past-e-type"
+          ],
+          "vocabUsed": [
+            "sakyti"
+          ],
+          "options": [
+            "gaidžiukas",
+            "medis",
+            "ožka",
+            "piemuo"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "a113-p2-q2",
+          "type": "matching",
+          "difficulty": "hard",
+          "stem": "Match each past-tense verb from the passage with the type it belongs to.",
+          "explanation": "*turėjo* and *bėgo* take *-o*; *metė* and *graužė* take *-ė* (¶94, ¶95). The type is a property of the verb's third principal part and cannot be predicted from the infinitive (¶93), so each has to be known — which is why the two labels are used twice each rather than once, as option D assumes.",
+          "rulesTested": [
+            "past-o-type",
+            "past-e-type",
+            "past-stem"
+          ],
+          "vocabUsed": [],
+          "columnHeadings": [
+            "Verb",
+            "Type of past"
+          ],
+          "columnI": [
+            "**turėjo**",
+            "**metė**",
+            "**bėgo**",
+            "**graužė**"
+          ],
+          "columnII": [
+            "the *-o* past",
+            "the *-ė* past",
+            "the present",
+            "the future"
+          ],
+          "options": [
+            [
+              0,
+              1,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              1,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              0,
+              2
+            ]
+          ],
+          "correct": 0
+        },
+        {
+          "id": "a113-p2-q3",
+          "type": "single",
+          "difficulty": "hard",
+          "stem": "The last line is **Nes piemuo manęs neganė.** What is *neganė*?",
+          "explanation": "Negation is a prefix and attaches to the finished past form: *ganė* → *neganė* (¶97, ¶25). The tense is carried by the *-ė* of the past (¶95), not by the negative, and the shepherd's line is the last link in the chain precisely because it explains why nothing was watched.",
+          "rulesTested": [
+            "past-negation",
+            "past-e-type",
+            "negation"
+          ],
+          "vocabUsed": [
+            "nes"
+          ],
+          "options": [
+            "a negated past, with *ne-* written onto the front of the past form",
+            "a negated present",
+            "a past form of a verb that is negative in itself",
+            "a negated future"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "a113-p2-q4",
+          "type": "single",
+          "difficulty": "hard",
+          "stem": "The grandmother addresses the cockerel as **Gaidžiuk** and the tree as **Medi**, not *gaidžiukas* and *medis*. Why?",
+          "explanation": "Direct address takes the vocative (¶78), whatever the sentence does afterwards. It is not an object — *tu* is the subject of *išmušei* and *perplėšei* — and it is not a contraction: *gaidžiuk* and *medi* are the regular vocatives of their declensions.",
+          "rulesTested": [
+            "vocative",
+            "question-adverbs",
+            "past-e-type"
+          ],
+          "vocabUsed": [
+            "kodėl"
+          ],
+          "options": [
+            "Because a person or thing spoken to directly stands in the vocative.",
+            "Because the nominative is not used after *kodėl*.",
+            "Because both nouns are objects of the verb.",
+            "Because the forms are shortened for speed in speech."
+          ],
+          "correct": 0
+        },
+        {
+          "id": "a113-p2-q5",
+          "type": "integer",
+          "difficulty": "medium",
+          "stem": "Which numbered rule governs the past of **metė** and **graužė**? Give the paragraph number.",
+          "explanation": "¶95, the *-ė* past. ¶94 is the *-o* past, which covers *turėjo* and *bėgo* in the same passage — the two types stand side by side here, which is what makes the tale worth reading at this point.",
+          "rulesTested": [
+            "past-e-type",
+            "past-o-type"
+          ],
+          "vocabUsed": [],
+          "answer": 95
+        }
+      ],
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Retold for this course after the Lithuanian folk tale *Vištytė ir gaidžiukas*, from the folklore collections of Jonas Basanavičius (1851–1927), which are in the public domain.",
+          "note": "A graded retelling, not a quotation: the wording is the course's own, kept to the past simple of ¶93–¶98. No phrasing is taken from any later edition of the tale."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+          "note": "The two past-tense types and negation in the past."
+        }
+      ],
+      "translation": "A grandfather and a grandmother had a little hen and a little cockerel. One day the cockerel climbed a tree and was picking nuts. The hen stood below. THE HEN. I want some nuts too! The cockerel threw a nut and knocked out the hen's eye. The hen ran home and told the grandmother everything. GRANDMOTHER. Cockerel, why did you knock out the hen's eye? COCKEREL. Because the tree tore my trousers. GRANDMOTHER. Tree, why did you tear his trousers? TREE. Because the goat gnawed me. GRANDMOTHER. Goat, why did you gnaw the tree? GOAT. Because the shepherd boy did not watch over me."
+    }
+  ],
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+      "note": "Descriptive source for the paradigms and rule statements on this page."
+    },
+    {
+      "kind": "dictionary",
+      "citation": "*Dabartinės lietuvių kalbos žodynas*, Lietuvių kalbos institutas.",
+      "url": "https://ekalba.lt/dabartines-lietuviu-kalbos-zodynas/",
+      "note": "Citation forms, gender and stress class for this section's vocabulary."
     }
   ]
 }

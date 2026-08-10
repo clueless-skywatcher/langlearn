@@ -829,7 +829,7 @@
       "type": "comprehension",
       "difficulty": "hard",
       "title": "Sekmadienį po miestą",
-      "passage": "Sekmadienį vaikščiojome po senamiestį. Prieš katedrą laukė daug žmonių, o vidury aikštės grojo muzikantai. Ėjome per tiltą prie upės; virš vandens skraidė paukščiai. Paskui buvome pas draugą — jis gyvena virš kavinės, trečiame aukšte. „Kaip sekasi?“ — paklausė jis. „Puikiai, tik pavargau. Šiandien nesijaučiu gerai“, — atsakiau. Už kavą nemokėjome nieko: jis nieko neėmė. Aš dar nesimokau greitai kalbėti, bet jau mokausi.",
+      "passage": "Sekmadienį vaikščiojome po senamiestį. Prieš katedrą laukė daug žmonių, o vidury aikštės grojo muzikantai. Ėjome per tiltą prie upės; virš vandens skraidė paukščiai. Paskui buvome pas draugą — jis gyvena virš kavinės, trečiame aukšte.\nDRAUGAS. Kaip sekasi?\nAŠ. Puikiai, tik pavargau. Šiandien nesijaučiu gerai.\nUž kavą nemokėjome nieko: jis nieko neėmė. Aš dar nesimokau greitai kalbėti, bet jau mokausi.",
       "translation": "On Sunday we walked about the old town. In front of the cathedral many people were waiting, and in the middle of the square musicians were playing. We went across the bridge by the river; birds were flying above the water. Afterwards we were at a friend's — he lives above a café, on the third floor. \"How are you getting on?\" he asked. \"Splendidly, only I'm tired. Today I don't feel well,\" I answered. We paid nothing for the coffee: he took nothing. I am not yet learning to speak quickly, but I am already learning.",
       "glossary": {
         "senamiestis": "old town",
@@ -842,9 +842,42 @@
         "skraidė": "were flying (skraidyti)",
         "paukščiai": "birds",
         "pavargau": "I got tired (pavargti)",
-        "neėmė": "took nothing (imti)"
+        "neėmė": "took nothing (imti)",
+        "draugas": "friend"
       },
       "questions": [
+        {
+          "id": "a120-p1-c1",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "Kur gyvena draugas?",
+          "explanation": "*jis gyvena virš kavinės, trečiame aukšte.* The river, the square and the cathedral are all passed on the way.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "options": [
+            "prie upės",
+            "virš kavinės",
+            "vidury aikštės",
+            "prieš katedrą"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "a120-p1-c2",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Kiek jie mokėjo už kavą?",
+          "explanation": "*Už kavą nemokėjome nieko: jis nieko neėmė.* Both halves are negative, which is how Lithuanian says it.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "options": [
+            "nieko",
+            "du eurus",
+            "keturis eurus",
+            "pasakojime nesakoma"
+          ],
+          "correct": 0
+        },
         {
           "id": "a120-p1-q1",
           "type": "single",
@@ -974,6 +1007,17 @@
             "dar",
             "jau"
           ]
+        }
+      ],
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+          "note": "Descriptive source for the paradigms and rule statements on this page."
         }
       ]
     },
@@ -1271,10 +1315,9 @@
       "id": "a120-x13",
       "type": "integer",
       "difficulty": "hard",
-      "stem": "How many letters in **atsiprašau**?",
-      "answer": 10,
-      "unit": "letters",
-      "explanation": "*Atsiprašau* has 10 letters.",
+      "stem": "In **atsiprašau** the reflexive element stands after the prefix rather than at the end of the verb. Which numbered rule governs this? Give the paragraph number.",
+      "answer": 145,
+      "explanation": "¶145. A simple reflexive verb carries *-si* at its end, but a prefix pulls it inside — which is why *atsiprašau*, not *atprašausi*.",
       "rulesTested": [
         "reflexive-phrases"
       ],
@@ -1309,6 +1352,19 @@
         "už",
         "kava"
       ]
+    }
+  ],
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+      "note": "Descriptive source for the paradigms and rule statements on this page."
+    },
+    {
+      "kind": "dictionary",
+      "citation": "*Dabartinės lietuvių kalbos žodynas*, Lietuvių kalbos institutas.",
+      "url": "https://ekalba.lt/dabartines-lietuviu-kalbos-zodynas/",
+      "note": "Citation forms, gender and stress class for this section's vocabulary."
     }
   ]
 }

@@ -56,6 +56,26 @@ function integer(id: string, answer: number): AtomicQuestion {
   };
 }
 
+function matching(id: string, correct: number): AtomicQuestion {
+  return {
+    ...base,
+    id,
+    type: "matching",
+    difficulty: "hard",
+    stem: "?",
+    columnHeadings: ["Form", "Case"],
+    columnI: ["p", "q", "r", "s"],
+    columnII: ["1", "2", "3", "4"],
+    options: [
+      [0, 1, 2, 3],
+      [1, 0, 2, 3],
+      [0, 1, 3, 2],
+      [3, 2, 1, 0],
+    ],
+    correct,
+  };
+}
+
 const chose = (...selected: number[]): Response => ({
   kind: "options",
   selected,
@@ -188,6 +208,7 @@ describe("lesson drill sets", () => {
     order: 2,
     title: "Nouns",
     summary: "…",
+  sources: [{ kind: "composed" as const, citation: "Fixture." }],
     rules: [],
     vocabulary: [],
     drills: [single("q1", 0), multi("q2", [1, 2]), integer("q3", 7)],
@@ -238,6 +259,7 @@ describe("checkpoint aggregation", () => {
     order: 4,
     title: "Checkpoint",
     summary: "…",
+  sources: [{ kind: "composed" as const, citation: "Fixture." }],
     covers: ["a1-01", "a1-02", "a1-03"],
     passThreshold: 60,
     drills: [
@@ -250,6 +272,7 @@ describe("checkpoint aggregation", () => {
         difficulty: "medium",
         title: "Passage",
         passage: "…",
+        sources: [{ kind: "composed" as const, citation: "Fixture." }],
         glossary: {},
         fromSection: "a1-03",
         questions: [single("c4", 0), integer("c5", 3)],
@@ -287,6 +310,7 @@ describe("checkpoint aggregation", () => {
           difficulty: "medium",
           title: "Passage",
           passage: "…",
+          sources: [{ kind: "composed" as const, citation: "Fixture." }],
           glossary: {},
           fromSection: "a1-03",
           questions: [
@@ -354,6 +378,7 @@ describe("helpers", () => {
           difficulty: "easy",
           title: "t",
           passage: "…",
+          sources: [{ kind: "composed" as const, citation: "Fixture." }],
           glossary: {},
           questions: [single("b", 0), multi("c", [1])],
         },
@@ -363,5 +388,43 @@ describe("helpers", () => {
 
   it("returns 0% when nothing is available to score", () => {
     expect(percentOf(0, 0)).toBe(0);
+  });
+});
+
+describe("matching questions", () => {
+  const q = matching("m1", 2);
+
+  it("awards +4 for the one correct pairing", () => {
+    expect(gradeQuestion(q, chose(2))).toEqual({
+      score: MARKS.matching.correct,
+      max: 4,
+      verdict: "correct",
+    });
+  });
+
+  it("gives nothing for a pairing that is three-quarters right", () => {
+    // option 0 differs from the correct option 2 in one pair only; the format
+    // exists precisely so that this earns no credit.
+    expect(gradeQuestion(q, chose(0))).toEqual({
+      score: MARKS.matching.wrong,
+      max: 4,
+      verdict: "incorrect",
+    });
+  });
+
+  it("treats an unattempted matching question as skipped, not wrong", () => {
+    expect(gradeQuestion(q, { kind: "skipped" })).toEqual({
+      score: 0,
+      max: 4,
+      verdict: "skipped",
+    });
+  });
+
+  it("rejects a selection of more than one pairing", () => {
+    expect(gradeQuestion(q, chose(0, 2)).verdict).toBe("incorrect");
+  });
+
+  it("is worth four marks, like every other format", () => {
+    expect(maxScoreOf([q])).toBe(4);
   });
 });

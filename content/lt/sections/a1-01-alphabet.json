@@ -4,7 +4,7 @@
   "level": "A1",
   "order": 1,
   "title": "The Alphabet, Sounds, and Stress",
-  "summary": "The thirty-two letters, the distinction between short and long vowels, the softening i, the diphthongs, and why Lithuanian stress must be learned word by word.",
+  "summary": "The thirty-two letters and the order they are filed in; how length is written and why it cannot always be read off the page; the softening i that is not a vowel; the diphthongs; and why stress must be learned with every word.",
   "script": {
     "heading": "The Lithuanian Alphabet",
     "letters": [
@@ -243,12 +243,11 @@
       "id": "alphabet",
       "number": "1",
       "heading": "The Alphabet",
-      "statement": "The Lithuanian alphabet has **thirty-two** letters. It is the Latin alphabet with **q**, **w** and **x** removed, and nine letters added by means of three diacritical marks: the *nosinė* or hook (**ą ę į ų**), the *paukščiukas* or háček (**č š ž**), and the length marks on **ė** and **ū**. A tenth addition, **y**, is written without a diacritic but is nonetheless a distinct letter.",
+      "statement": "The Lithuanian alphabet has **thirty-two** letters. It is the Latin alphabet with **q**, **w** and **x** removed, and nine letters added by three diacritics: the *nosinė* or hook (**ą ę į ų**), the *paukščiukas* or háček (**č š ž**), and the length marks on **ė** and **ū**. A tenth addition, **y**, carries no diacritic but is a letter in its own right and is alphabetised after **į**, not beside **i**. The order matters because it is the order of every dictionary and index the learner will use.",
       "examples": [
         {
           "target": "abėcėlė",
-          "gloss": "alphabet",
-          "note": "itself contains three ė"
+          "gloss": "alphabet"
         },
         {
           "target": "žodis",
@@ -259,8 +258,10 @@
           "gloss": "language"
         }
       ],
+      "paradigms": [],
       "footnotes": [
-        "The diacritics are not optional ornaments. Dropping the hook from ą or the bar from ū changes the word, and often the grammar: kąsti, to bite, is not kasti, to dig."
+        "The diacritics are not ornaments. Dropping the hook from **ą** or the bar from **ū** changes the word, and often the grammar: *kąsti* ‘to bite’ is not *kasti* ‘to dig’.",
+        "**q, w, x** appear only in unadapted foreign names and formulae; adapted borrowings are respelled (*taksi*, not *taxi*)."
       ],
       "seeAlso": [],
       "core": true
@@ -269,80 +270,59 @@
       "id": "vowel-length",
       "number": "2",
       "heading": "Short and Long Vowels",
-      "statement": "Every Lithuanian vowel is either **short** or **long**, and the difference distinguishes words. Some letters are fixed in length and some are not: **ė, ū, į, y, ų, ą, ę** are always long, **i** and **u** are always short, and **a, e, o** vary — short when unstressed, long when stressed (**o** being long in all native words). It follows that the spelling alone tells you the length of most vowels, but not of a, e and o.",
-      "paradigms": [
-        {
-          "caption": "Vowel letters by length",
-          "columns": [
-            "always short",
-            "variable",
-            "always long"
-          ],
-          "rows": [
-            {
-              "label": "front",
-              "cells": [
-                "i",
-                "e",
-                "ė, ę, į, y"
-              ]
-            },
-            {
-              "label": "back",
-              "cells": [
-                "u",
-                "a, o",
-                "ą, ū, ų"
-              ]
-            }
-          ],
-          "footnote": "In loanwords o is short: *toma*, *opera*."
-        }
-      ],
+      "statement": "Length distinguishes words, so it must be heard and written. The short vowels are **a e i u**; the long are **ą ę y ū ė o ų į** and long **a** and **e** in stressed syllables. Length is not marked by one consistent device: **y** and **ū** show it by their own shape, **ė** by a letter distinct from **e**, the *nosinė* letters by a hook that no longer stands for nasality, and long **a** and **e** by nothing at all. The learner therefore cannot read length off the page in every case, which is why vocabulary is learned with its stress.",
       "examples": [
         {
           "target": "butas",
-          "gloss": "flat, apartment",
+          "gloss": "flat",
           "note": "short u"
         },
         {
           "target": "būtas",
-          "gloss": "been (participle)",
-          "note": "long ū — a different word entirely"
+          "gloss": "been (past passive participle)",
+          "note": "long ū — a different word"
         },
         {
-          "target": "lietus",
-          "gloss": "rain"
+          "target": "lįsti",
+          "gloss": "to crawl in",
+          "note": "long į"
+        },
+        {
+          "target": "ilgas",
+          "gloss": "long"
         }
       ],
-      "seeAlso": [
-        "alphabet"
-      ],
+      "paradigms": [],
+      "footnotes": [],
+      "seeAlso": [],
       "core": true
     },
     {
       "id": "nosine",
       "number": "3",
       "heading": "The Nosinė Letters",
-      "statement": "The four letters **ą, ę, į, ų** carry a hook called the *nosinė*, \"the nasal one\". They once marked a nasalised vowel, as the name records; in the modern language the nasality is gone and they are simply **long vowels**. The hook is retained because it marks grammatical endings — the accusative singular of nouns ends in a nosinė vowel — and because it distinguishes otherwise identical words.",
+      "statement": "**ą ę į ų** are called *nosinės* (‘nasal’) after a nasal consonant that was lost centuries ago. They mark **length**, not nasality: nothing is pronounced through the nose. They are worth attention because the hook is very often grammatical — the accusative singular of most nouns ends in one — so a missing hook is usually a missing case ending rather than a slip of the pen.",
       "examples": [
         {
-          "target": "ranka → ranką",
-          "gloss": "hand → hand (as object)",
-          "note": "the hook is the whole of the accusative ending"
+          "target": "ąsotis",
+          "gloss": "jug"
         },
         {
-          "target": "kąsti",
-          "gloss": "to bite"
+          "target": "kęsti",
+          "gloss": "to endure"
         },
         {
-          "target": "kasti",
-          "gloss": "to dig",
-          "note": "the same letters without the hook"
+          "target": "grįžti",
+          "gloss": "to return"
+        },
+        {
+          "target": "siųsti",
+          "gloss": "to send"
         }
       ],
+      "paradigms": [],
       "footnotes": [
-        "Because the nosinė is a long vowel and nothing more, ų and ū sound alike, as do į and y. Which is written is fixed by grammar and etymology, not by sound."
+        "This is why **ą** and long **a** sound alike but are spelled differently: the hook records history and grammar, not a sound."
       ],
       "seeAlso": [
         "vowel-length"
@@ -353,31 +333,32 @@
       "id": "consonants",
       "number": "4",
       "heading": "Consonants Differing from English",
-      "statement": "Most consonants have their expected values. Six require attention: **c** is always /ts/, never /k/ or /s/; **č** is *ch* as in \"church\"; **š** is *sh*; **ž** is the *s* of \"measure\"; **j** is the *y* of \"yes\", never the *j* of \"jam\"; and **r** is trilled with the tip of the tongue. **p, t, k** are unaspirated: they lack the puff of breath that follows them in English \"pin, tin, kin\".",
+      "statement": "Most consonant letters have their expected values. Five do not: **c** is always /ts/, never /k/ or /s/; **č** is /tʃ/; **š** is /ʃ/; **ž** is /ʒ/; and **j** is the glide /j/ of English *yes*, never the affricate of *jam*. Lithuanian **r** is trilled in every position.",
       "examples": [
         {
-          "target": "centas",
-          "gloss": "cent",
-          "note": "TSEN-tas, not SEN-tas"
+          "target": "centras",
+          "gloss": "centre",
+          "note": "/tsɛntras/"
         },
         {
           "target": "čia",
           "gloss": "here"
         },
         {
-          "target": "šuo",
-          "gloss": "dog"
+          "target": "šalis",
+          "gloss": "country"
         },
         {
           "target": "žodis",
           "gloss": "word"
         },
         {
-          "target": "jūra",
-          "gloss": "sea",
-          "note": "YOO-ra"
+          "target": "jau",
+          "gloss": "already"
         }
       ],
+      "paradigms": [],
+      "footnotes": [],
       "seeAlso": [],
       "core": true
     },
@@ -385,7 +366,7 @@
       "id": "digraphs",
       "number": "5",
       "heading": "The Consonant Digraphs Ch, Dz, Dž",
-      "statement": "Three pairs of letters stand for **single consonants**: **ch** is /x/, the *ch* of Scottish \"loch\"; **dz** is /dz/, the voiced counterpart of c; and **dž** is /dʒ/, the *j* of \"jam\". They are not separate letters of the alphabet and are alphabetised as the two letters they are written with.",
+      "statement": "Three pairs of letters spell single sounds: **ch** is a single fricative /x/, **dz** the affricate /dz/, and **dž** the affricate /dʒ/. They are digraphs, not clusters — but they are *not* letters of the alphabet, and a dictionary files *džiaugsmas* under **d**, not between **d** and **e**.",
       "examples": [
         {
           "target": "chemija",
@@ -393,15 +374,17 @@
         },
         {
           "target": "dzūkas",
-          "gloss": "a Dzūkian, southern Lithuanian"
+          "gloss": "a Dzūkian"
         },
         {
-          "target": "džiaugtis",
-          "gloss": "to rejoice"
+          "target": "džiaugsmas",
+          "gloss": "joy"
         }
       ],
+      "paradigms": [],
+      "footnotes": [],
       "seeAlso": [
-        "consonants"
+        "alphabet"
       ],
       "core": true
     },
@@ -409,26 +392,32 @@
       "id": "soft-i",
       "number": "6",
       "heading": "The Softening I",
-      "statement": "Before the back vowels **a, ą, o, u, ų, ū** an **i** is written that is **not pronounced as a vowel**. Its office is to mark the preceding consonant as *soft* (palatalised), the consonant being pronounced with the tongue raised towards the palate, much as in English \"onion\" or \"million\". Reading such an i as a full vowel is the commonest mistake a beginner makes.",
+      "statement": "An **i** written between a consonant and a back vowel (**a o u ą ų ū**) is not a vowel: it marks the preceding consonant as **soft** (palatalised) and is itself silent. This is the single most common spelling trap in the language, because the same letter is a full vowel elsewhere. Compare *kiauras* ‘leaky’, where **i** softens the **k** and the vowel is *au*, with *kiaušinis*, where the same holds, against *iš* ‘out of’, where **i** is a vowel because no back vowel follows.",
       "examples": [
         {
-          "target": "siūlas",
-          "gloss": "thread",
-          "note": "SYOO-las, two syllables, not si-ū-las"
+          "target": "čia",
+          "gloss": "here",
+          "note": "soft č, vowel a"
         },
         {
-          "target": "šiaurė",
-          "gloss": "north",
-          "note": "the i softens š; the vowel is the diphthong au"
+          "target": "giria",
+          "gloss": "forest",
+          "note": "soft r; the final -ia is one syllable"
         },
         {
-          "target": "žiema",
-          "gloss": "winter",
-          "note": "the i softens ž; the vowel is e"
+          "target": "puodas",
+          "gloss": "pot",
+          "note": "no i, hard d"
+        },
+        {
+          "target": "ilgas",
+          "gloss": "long",
+          "note": "here i *is* the vowel"
         }
       ],
+      "paradigms": [],
       "footnotes": [
-        "Before the front vowels e, ė, ę, i, į, y a consonant is soft automatically, and no i is written."
+        "Before a front vowel (**e ė i y ę į**) a consonant is soft automatically and no **i** is written."
       ],
       "seeAlso": [
         "consonants"
@@ -439,81 +428,30 @@
       "id": "diphthongs",
       "number": "7",
       "heading": "Diphthongs",
-      "statement": "Two vowels written together in one syllable form a **diphthong**, pronounced as a single glide. The native diphthongs are **ai, au, ei, ie, ui, uo**; **oi** and **eu** occur chiefly in loanwords. Of these, **ie** and **uo** are peculiar to Lithuanian: they begin at the first vowel and glide towards a central sound, and they are never a sequence of two separate vowels.",
-      "paradigms": [
-        {
-          "caption": "Diphthongs",
-          "columns": [
-            "written",
-            "value",
-            "example"
-          ],
-          "rows": [
-            {
-              "label": "ai",
-              "cells": [
-                "/ɐɪ/",
-                "as in 'eye'",
-                "laikas — time"
-              ]
-            },
-            {
-              "label": "au",
-              "cells": [
-                "/ɐʊ/",
-                "as in 'how'",
-                "auksas — gold"
-              ]
-            },
-            {
-              "label": "ei",
-              "cells": [
-                "/ɛɪ/",
-                "as in 'day'",
-                "eiti — to go"
-              ]
-            },
-            {
-              "label": "ie",
-              "cells": [
-                "/iɛ/",
-                "no English equivalent",
-                "diena — day"
-              ]
-            },
-            {
-              "label": "ui",
-              "cells": [
-                "/ʊɪ/",
-                "as in 'gooey', quickly",
-                "puikus — splendid"
-              ]
-            },
-            {
-              "label": "uo",
-              "cells": [
-                "/ʊɔ/",
-                "no English equivalent",
-                "duona — bread"
-              ]
-            }
-          ]
-        }
-      ],
+      "statement": "Lithuanian has the proper diphthongs **ai au ei ie ui uo** and the mixed diphthongs — a short vowel followed by **l m n r** (**al, am, an, ar, el, en, il, im, in, ir, ul, um, un, ur**). Both count as a single long syllable and can carry either tone. **ie** and **uo** are the two that English speakers most often flatten: they are gliding sequences, not the monophthongs of *see* and *saw*.",
       "examples": [
         {
-          "target": "namai",
-          "gloss": "home, house (pl.)"
+          "target": "laikas",
+          "gloss": "time"
         },
         {
           "target": "duona",
-          "gloss": "bread",
-          "note": "two syllables: duo-na"
+          "gloss": "bread"
+        },
+        {
+          "target": "vienas",
+          "gloss": "one"
+        },
+        {
+          "target": "kalnas",
+          "gloss": "hill",
+          "note": "mixed diphthong *al*"
         }
       ],
+      "paradigms": [],
+      "footnotes": [],
       "seeAlso": [
-        "vowel-length",
-        "soft-i"
+        "vowel-length"
       ],
       "core": true
     },
@@ -521,49 +459,115 @@
       "id": "spelling-phonemic",
       "number": "8",
       "heading": "Spelling and Pronunciation",
-      "statement": "Lithuanian spelling is very nearly phonemic: every letter written is pronounced, no letter is silent, and one letter stands for one sound. The exceptions are the softening **i** of ¶6, the three digraphs of ¶5, and the assimilation of voice in consonant clusters, whereby a consonant takes the voicing of the one following it.",
+      "statement": "The orthography is close to phonemic but not a transcription. Two regular departures matter from the start. Voiced obstruents are **devoiced** before a voiceless consonant and at the end of a word, while voiceless ones are voiced before a voiced consonant — yet the spelling keeps the underlying letter, so *daug* is written with **g** and said with /k/. And the softening **i** of ¶6 is written but not sounded. Spelling records the word's identity; pronunciation records its surroundings.",
       "examples": [
+        {
+          "target": "daug",
+          "gloss": "much, many",
+          "note": "said /dauk/"
+        },
         {
           "target": "dirbti",
           "gloss": "to work",
-          "note": "pronounced *dirpti*: b takes the voicelessness of t"
+          "note": "the b is said /p/ before t"
         },
         {
-          "target": "aukštas",
-          "gloss": "tall, high",
-          "note": "every letter sounded"
+          "target": "ačiū",
+          "gloss": "thank you",
+          "note": "soft č; the i is silent"
         }
       ],
+      "paradigms": [],
+      "footnotes": [],
       "seeAlso": [
-        "soft-i",
-        "digraphs"
+        "soft-i"
       ],
-      "core": false
+      "core": false,
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Valstybinė lietuvių kalbos komisija, *Lietuvių kalbos rašyba: taisyklės, komentarai, patarimai*, approved by resolution No. N-1 (190) of 6 January 2022.",
+          "url": "https://www.vlkk.lt/",
+          "note": "The spelling rules that keep the underlying letter."
+        }
+      ]
     },
     {
       "id": "stress",
       "number": "9",
       "heading": "Stress",
-      "statement": "Stress in Lithuanian is **free** — it may fall on any syllable of a word — and **mobile** — it may move from one syllable to another as the word is inflected. It is therefore not predictable from the spelling and must be learned with each word. In ordinary writing it is **not marked at all**; the accent marks are used only in dictionaries, grammars and schoolbooks. This course marks stress in vocabulary lists and omits it in reading passages, as printed Lithuanian does.",
+      "statement": "Stress is **free** — it may fall on any syllable — and **mobile**: it moves between the forms of one word. *Because* it is mobile, it cannot be predicted from the written word, and a dictionary marks it with three signs: the grave `\\` on a short stressed syllable, the acute `´` for the falling tone on a long one, and the tilde `~` for the rising tone. A word is therefore learned with its stress, exactly as a noun is learned with its gender.",
       "examples": [
         {
-          "target": "kalba",
+          "target": "kalbà",
           "gloss": "language",
-          "note": "stressed on the first syllable"
+          "note": "stressed on the ending"
         },
         {
-          "target": "namas → namai",
-          "gloss": "house → houses",
-          "note": "the stress moves to the ending in the plural"
+          "target": "kal̃bos",
+          "gloss": "languages",
+          "note": "stress on the stem, and a rising tone"
+        },
+        {
+          "target": "nãmas",
+          "gloss": "house"
+        },
+        {
+          "target": "namè",
+          "gloss": "in the house"
+        }
+      ],
+      "paradigms": [
+        {
+          "caption": "The three stress marks",
+          "columns": [
+            "Mark",
+            "Name",
+            "Where it can stand",
+            "Example"
+          ],
+          "rows": [
+            {
+              "label": "`\\` grave",
+              "cells": [
+                "*kairinis*",
+                "short stressed syllable",
+                "kalbà"
+              ]
+            },
+            {
+              "label": "`´` acute",
+              "cells": [
+                "*dešininis*",
+                "long syllable, falling tone",
+                "várna"
+              ]
+            },
+            {
+              "label": "`~` tilde",
+              "cells": [
+                "*riestinis*",
+                "long syllable, rising tone",
+                "kal̃bos"
+              ]
+            }
+          ],
+          "footnote": "The marks belong to dictionaries and grammars. Running text is written without them."
         }
       ],
       "footnotes": [
-        "Three marks are used when stress is shown: the grave ` on short stressed vowels, and the acute ´ and tilde ˜ on long ones, which distinguish two tones. Tone is taken up at C1; for now, note only the position of the stress."
+        "Tone is a property of long syllables only, diphthongs included: a short syllable can be stressed but has no tone to contrast."
       ],
-      "seeAlso": [
-        "vowel-length"
-      ],
-      "core": true
+      "seeAlso": [],
+      "core": true,
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Mathiassen, Terje, *A Short Grammar of Lithuanian*. Columbus: Slavica Publishers, 1996.",
+          "url": "https://archive.org/details/mathiassen-short-grammar-of-lithuanian-1996",
+          "note": "The accentual system and the three marks."
+        }
+      ]
     }
   ],
   "vocabulary": [
@@ -574,17 +578,19 @@
       "forms": {
         "nom": "abėcėlė",
         "gen": "abėcėlės",
-        "gender": "f."
+        "gender": "f.",
+        "decl": "2"
       }
     },
     {
       "lemma": "raidė",
-      "gloss": "letter (of the alphabet)",
+      "gloss": "letter",
       "pos": "noun",
       "forms": {
         "nom": "raidė",
         "gen": "raidės",
-        "gender": "f."
+        "gender": "f.",
+        "decl": "2"
       }
     },
     {
@@ -594,7 +600,8 @@
       "forms": {
         "nom": "garsas",
         "gen": "garso",
-        "gender": "m."
+        "gender": "m.",
+        "decl": "1"
       }
     },
     {
@@ -604,7 +611,8 @@
       "forms": {
         "nom": "balsis",
         "gen": "balsio",
-        "gender": "m."
+        "gender": "m.",
+        "decl": "1"
       }
     },
     {
@@ -614,7 +622,8 @@
       "forms": {
         "nom": "priebalsis",
         "gen": "priebalsio",
-        "gender": "m."
+        "gender": "m.",
+        "decl": "1"
       }
     },
     {
@@ -624,17 +633,20 @@
       "forms": {
         "nom": "žodis",
         "gen": "žodžio",
-        "gender": "m."
-      }
+        "gender": "m.",
+        "decl": "1"
+      },
+      "notes": "The genitive shows the *d → dž* alternation before the soft ending."
     },
     {
       "lemma": "kalba",
-      "gloss": "language, speech",
+      "gloss": "language",
       "pos": "noun",
       "forms": {
         "nom": "kalba",
         "gen": "kalbos",
-        "gender": "f."
+        "gender": "f.",
+        "decl": "2"
       }
     },
     {
@@ -644,7 +656,8 @@
       "forms": {
         "nom": "kirtis",
         "gen": "kirčio",
-        "gender": "m."
+        "gender": "m.",
+        "decl": "1"
       }
     },
     {
@@ -654,7 +667,8 @@
       "forms": {
         "nom": "skiemuo",
         "gen": "skiemens",
-        "gender": "m."
+        "gender": "m.",
+        "decl": "5"
       }
     },
     {
@@ -685,8 +699,7 @@
       "lemma": "ačiū",
       "gloss": "thank you",
       "pos": "interjection",
-      "forms": {},
-      "notes": "Pronounced AH-choo: the i softens č and is not a vowel."
+      "forms": {}
     },
     {
       "lemma": "taip",
@@ -704,297 +717,65 @@
   "drills": [
     {
       "id": "a101-q1",
-      "type": "integer",
+      "type": "single",
       "difficulty": "easy",
-      "stem": "How many letters are there in the Lithuanian alphabet?",
-      "answer": 32,
-      "unit": "letters",
-      "explanation": "Thirty-two: Latin without q, w, x, plus ą ę į ų, č š ž, ė ū and y (¶1). Tempting 26 counts only the English alphabet; 29 forgets the three háček letters or the nosinė set.",
+      "stem": "A Lithuanian dictionary is being typeset. Where does **ypatingas** fall relative to **įdomus** and **iš**?",
+      "explanation": "**y** is a separate letter and is ordered after **į**, which is itself after **i** (¶1). So the run is *iš*, *įdomus*, *ypatingas*. The tempting answers all assume y is filed with i, which is what happens in English indexes and never in Lithuanian ones.",
       "rulesTested": [
         "alphabet"
       ],
       "vocabUsed": [
         "abėcėlė",
         "raidė"
-      ]
+      ],
+      "options": [
+        "before both, since y is a kind of i",
+        "between them: iš, ypatingas, įdomus",
+        "after both: iš, įdomus, ypatingas",
+        "immediately after iš, since y and i are alphabetised together"
+      ],
+      "correct": 2
     },
     {
       "id": "a101-q2",
       "type": "single",
       "difficulty": "easy",
-      "stem": "Which letter does **not** belong to the Lithuanian alphabet?",
+      "stem": "Which letter is **not** part of the Lithuanian alphabet?",
+      "explanation": "**q, w, x** were left out and survive only in unadapted foreign names (¶1). The other three are all formed by the three Lithuanian diacritics.",
+      "rulesTested": [
+        "alphabet"
+      ],
+      "vocabUsed": [
+        "raidė"
+      ],
       "options": [
         "ų",
         "w",
         "š",
         "ė"
       ],
-      "correct": 1,
-      "explanation": "q, w and x were left out and appear only in untranslated foreign names (¶1). ų, š and ė are all native letters formed with diacritics.",
-      "rulesTested": [
-        "alphabet"
-      ],
-      "vocabUsed": []
+      "correct": 1
     },
     {
       "id": "a101-q3",
-      "type": "single",
-      "difficulty": "medium",
-      "stem": "The letter **ę** is pronounced:",
-      "options": [
-        "as a short e, like English 'bet'",
-        "as a long close vowel, like French 'été'",
-        "as a long broad vowel, like a drawn-out 'bad'",
-        "identically to ė in every position"
-      ],
-      "correct": 2,
-      "explanation": "ę is always the long broad /æː/. The close long vowel is ė; short e is plain e; ę and ė are different letters and different sounds (¶2–¶3).",
-      "rulesTested": [
-        "vowel-length",
-        "nosine"
-      ],
-      "vocabUsed": [
-        "raidė",
-        "balsis"
-      ]
-    },
-    {
-      "id": "a101-q4",
       "type": "multi",
       "difficulty": "medium",
-      "stem": "Which letters represent a **long** vowel in every word they occur in?",
-      "options": [
-        "ą",
-        "i",
-        "ū",
-        "a"
-      ],
-      "correct": [
-        0,
-        2
-      ],
-      "explanation": "ą and ū are fixed long (¶2–¶3). i is always short; a is variable — long only when stressed. Choosing a is the classic trap of confusing \"can be long\" with \"always long\".",
+      "stem": "Select every statement about **ą** that is true.",
+      "explanation": "The *nosinė* marks length; the nasal consonant it records was lost long ago, so nothing is nasalised today (¶3). The hook is frequently the accusative singular ending, which is why a dropped hook is usually a lost case rather than a typo. It is its own letter and is not filed under **a** (¶1).",
       "rulesTested": [
-        "vowel-length",
-        "nosine"
-      ],
-      "vocabUsed": [
-        "ilgas",
-        "trumpas"
-      ]
-    },
-    {
-      "id": "a101-q5",
-      "type": "single",
-      "difficulty": "medium",
-      "stem": "*butas* \"apartment\" vs *būtas* \"been\". What alone distinguishes them in speech?",
-      "options": [
-        "the position of the stress",
-        "the length of the vowel written u / ū",
-        "softness of the preceding b",
-        "nothing — they are homophones"
-      ],
-      "correct": 1,
-      "explanation": "u is always short and ū always long (¶2). Length alone separates the words; stress position and soft-i are red herrings here.",
-      "rulesTested": [
-        "vowel-length"
-      ],
-      "vocabUsed": [
-        "ilgas",
-        "trumpas",
-        "žodis"
-      ]
-    },
-    {
-      "id": "a101-q6",
-      "type": "single",
-      "difficulty": "medium",
-      "stem": "In *ačiū* (\"thank you\"), what is the letter **i** doing?",
-      "options": [
-        "It forms a diphthong iu with ū.",
-        "It softens č and is not itself a pronounced vowel.",
-        "It is a separate syllable: a-či-ū.",
-        "It is silent historical spelling with no phonetic effect."
-      ],
-      "correct": 1,
-      "explanation": "Before a back vowel, written i only marks soft č; the word has two syllables, AH-choo (¶6). Reading i as a full vowel (three syllables) is the beginner's most common soft-i error.",
-      "rulesTested": [
-        "soft-i"
-      ],
-      "vocabUsed": [
-        "ačiū",
-        "skiemuo"
-      ]
-    },
-    {
-      "id": "a101-q7",
-      "type": "multi",
-      "difficulty": "medium",
-      "stem": "Which of the following are **diphthongs** (two vowel letters as one glide)?",
-      "options": [
-        "uo",
-        "ch",
-        "ie",
-        "dž"
-      ],
-      "correct": [
-        0,
-        2
-      ],
-      "explanation": "uo and ie are native diphthongs (¶7). ch and dž are digraphs for single consonants (¶5) — near-miss if you confuse \"two letters\" with \"two vowels\".",
-      "rulesTested": [
-        "diphthongs",
-        "digraphs"
-      ],
-      "vocabUsed": [
-        "balsis",
-        "priebalsis"
-      ]
-    },
-    {
-      "id": "a101-q8",
-      "type": "single",
-      "difficulty": "medium",
-      "stem": "The letter **c** in *centas* is pronounced:",
-      "options": [
-        "as /k/",
-        "as /s/",
-        "as /ts/",
-        "as /tʃ/"
-      ],
-      "correct": 2,
-      "explanation": "c is invariably /ts/ (¶4). /tʃ/ is č; /s/ and /k/ are English transfer errors.",
-      "rulesTested": [
-        "consonants"
-      ],
-      "vocabUsed": [
-        "garsas"
-      ]
-    },
-    {
-      "id": "a101-q9",
-      "type": "integer",
-      "difficulty": "medium",
-      "stem": "How many vowel letters are **always long**, regardless of stress?",
-      "answer": 7,
-      "unit": "letters",
-      "explanation": "Seven: ą, ę, ė, į, y, ų, ū (¶2). Answering 4 counts only the nosinė set; answering 5 adds ė ū but forgets y; answering 9 wrongly includes variable a, e, o.",
-      "rulesTested": [
-        "vowel-length",
-        "nosine"
-      ],
-      "vocabUsed": [
-        "balsis",
-        "ilgas",
-        "raidė"
-      ]
-    },
-    {
-      "id": "a101-q10",
-      "type": "multi",
-      "difficulty": "hard",
-      "stem": "Which statements about the letter **y** are correct?",
-      "options": [
-        "It is a vowel.",
-        "It is pronounced identically to į.",
-        "In alphabetical order it stands immediately after į.",
-        "It represents the consonant glide of English 'yes'."
-      ],
-      "correct": [
-        0,
-        1,
-        2
-      ],
-      "explanation": "y is long i, sounding like į, and is filed i, į, y (¶1–¶2). The glide of 'yes' is j (¶4) — the classic English transfer distractor.",
-      "rulesTested": [
+        "nosine",
         "alphabet",
         "vowel-length"
       ],
       "vocabUsed": [
         "raidė",
         "balsis"
-      ]
-    },
-    {
-      "id": "a101-q11",
-      "type": "integer",
-      "difficulty": "hard",
-      "stem": "In *chemija*, *dzūkas* and *džiaugtis*, how many **digraphs** (two letters for one consonant sound) appear in total?",
-      "answer": 3,
-      "unit": "digraphs",
-      "explanation": "Three: *ch* in *chemija*, *dz* in *dzūkas*, *dž* in *džiaugtis*. Each is one sound, not two.",
-      "rulesTested": [
-        "digraphs"
-      ],
-      "vocabUsed": [
-        "priebalsis",
-        "raidė"
-      ]
-    },
-    {
-      "id": "a101-q12",
-      "type": "single",
-      "difficulty": "hard",
-      "stem": "Which statement about Lithuanian stress is correct?",
-      "options": [
-        "It falls on the penultimate syllable, as in Polish.",
-        "It is free and mobile, and is not marked in ordinary writing.",
-        "It always falls on the first syllable, as in Finnish.",
-        "It is marked with an acute accent in all printed texts."
-      ],
-      "correct": 1,
-      "explanation": "Stress may fall on any syllable and may shift under inflection (*namas* → *namai*); accent marks belong to dictionaries, not ordinary print (¶9).",
-      "rulesTested": [
-        "stress"
-      ],
-      "vocabUsed": [
-        "kirtis",
-        "skiemuo",
-        "žodis"
-      ]
-    },
-    {
-      "id": "a101-q13",
-      "type": "multi",
-      "difficulty": "hard",
-      "stem": "Which pairs are **homophones** in modern Lithuanian (same sound, different spelling)?",
-      "options": [
-        "į and y",
-        "ų and ū",
-        "ę and ė",
-        "ą and a (when a is unstressed)"
-      ],
-      "correct": [
-        0,
-        1
-      ],
-      "explanation": "į/y and ų/ū are both simply long /iː/ and /uː/ (¶3 footnote). ę is broad /æː/ while ė is close /eː/; unstressed a is short, never equal to always-long ą (¶2).",
-      "rulesTested": [
-        "nosine",
-        "vowel-length"
-      ],
-      "vocabUsed": [
-        "balsis",
-        "garsas"
-      ]
-    },
-    {
-      "id": "a101-q14",
-      "type": "multi",
-      "difficulty": "hard",
-      "stem": "Which of the following are **diphthongs**?",
-      "explanation": "*ai* and *uo* are vowel glides. *ch* and *dž* are consonant digraphs, not diphthongs.",
-      "rulesTested": [
-        "diphthongs"
-      ],
-      "vocabUsed": [
-        "balsis"
       ],
       "options": [
-        "ai",
-        "ch",
-        "uo",
-        "dž"
+        "It marks a long vowel.",
+        "It is pronounced through the nose in the standard language.",
+        "It is very often a grammatical ending rather than part of a stem.",
+        "It is alphabetised as a variant of **a**."
       ],
       "correct": [
         0,
@@ -1002,490 +783,541 @@
       ]
     },
     {
-      "id": "a101-q15",
+      "id": "a101-q4",
       "type": "single",
-      "difficulty": "hard",
-      "stem": "The digraph **ch** is alphabetised as:",
-      "options": [
-        "a separate letter between c and č",
-        "the two letters c then h, not a letter of its own",
-        "a variant of č",
-        "after h, as in Czech"
-      ],
-      "correct": 1,
-      "explanation": "ch, dz and dž are digraphs for single sounds but are not separate alphabet letters; they are filed as the two letters written (¶5).",
+      "difficulty": "medium",
+      "stem": "**butas** and **būtas** are different words. What distinguishes them?",
+      "explanation": "*butas* ‘flat’ has short **u**, *būtas* ‘been’ has long **ū** (¶2). Length alone carries the difference, which is why it must be heard as well as written; the pair is not a spelling convention.",
       "rulesTested": [
+        "vowel-length"
+      ],
+      "vocabUsed": [
+        "garsas",
+        "balsis",
+        "ilgas",
+        "trumpas"
+      ],
+      "options": [
+        "the position of the stress",
+        "the length of the vowel, and nothing else",
+        "the tone on the vowel, the length being equal",
+        "nothing in speech; only the spelling differs"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "a101-q5",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match each letter with the value it has in the standard language.",
+      "explanation": "**ė** is the long close vowel, **y** is long /iː/, **c** is *always* /ts/ and never /k/ or /s/, and **dž** is a single affricate (¶2, ¶4, ¶5). Option B swaps the two affricates, which is the mistake of reading **c** as English *c*; option C swaps the two long vowels; option D gives **c** the value of **dž**. The fricative /x/ belongs to **ch** and is a decoy.",
+      "rulesTested": [
+        "consonants",
         "digraphs",
-        "alphabet"
+        "vowel-length"
       ],
       "vocabUsed": [
         "raidė",
-        "priebalsis"
-      ]
+        "garsas"
+      ],
+      "columnHeadings": [
+        "Letter",
+        "Value"
+      ],
+      "columnI": [
+        "**ė**",
+        "**y**",
+        "**c**",
+        "**dž**"
+      ],
+      "columnII": [
+        "long close /eː/",
+        "long /iː/",
+        "the affricate /ts/",
+        "the affricate /dʒ/",
+        "the fricative /x/"
+      ],
+      "options": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          2
+        ],
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          2,
+          1,
+          3
+        ]
+      ],
+      "correct": 0
     },
     {
-      "id": "a101-q16",
-      "type": "single",
-      "difficulty": "easy",
-      "stem": "Which letter is **always** a long close /eː/?",
-      "options": [
-        "e",
-        "ę",
-        "ė",
-        "ie"
-      ],
-      "correct": 2,
-      "explanation": "*ė* is always the long close 'ay' (¶2). Plain *e* varies with stress; *ę* is the long broad /æː/; *ie* is a diphthong (¶7).",
+      "id": "a101-q6",
+      "type": "integer",
+      "difficulty": "medium",
+      "stem": "Which numbered rule of this section states that **dž** spells one sound rather than two? Give the paragraph number.",
+      "explanation": "¶5 sets out the three digraphs **ch, dz, dž**. ¶4 covers the single consonant letters that differ from English, which is the near miss.",
       "rulesTested": [
-        "vowel-length",
-        "alphabet"
+        "digraphs"
+      ],
+      "vocabUsed": [],
+      "answer": 5
+    },
+    {
+      "id": "a101-q7",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "In which of these words is the written **i** silent — a mark of softening rather than a vowel?",
+      "explanation": "**i** softens when it stands between a consonant and a **back** vowel (¶6). In *čia* and *giria* it does exactly that and is not pronounced. In *iš* and *ilgas* nothing follows it that could make it a softener, so it is the vowel of the syllable.",
+      "rulesTested": [
+        "soft-i"
       ],
       "vocabUsed": [
+        "ilgas",
         "balsis",
-        "raidė"
+        "žodis"
+      ],
+      "options": [
+        "**čia** ‘here’",
+        "**iš** ‘out of’",
+        "**giria** ‘forest’",
+        "**ilgas** ‘long’"
+      ],
+      "correct": [
+        0,
+        2
       ]
     },
     {
-      "id": "a101-q17",
+      "id": "a101-q8",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Why is no softening **i** written in **ėsti** or **girdėti**, although the consonants before the vowels are soft?",
+      "explanation": "Softness is written only where it is unpredictable — before a back vowel. Before **e ė i y ę į** a consonant is soft as a matter of course, so no **i** is added (¶6, footnote). The spelling marks what could not be guessed and leaves the rest to the rule.",
+      "rulesTested": [
+        "soft-i"
+      ],
+      "vocabUsed": [
+        "priebalsis",
+        "balsis"
+      ],
+      "options": [
+        "Softening is only written after k and g.",
+        "A consonant is soft automatically before a front vowel, so the mark would be redundant.",
+        "These words are exceptions listed in the orthography rules.",
+        "The consonants in them are in fact hard."
+      ],
+      "correct": 1
+    },
+    {
+      "id": "a101-q9",
       "type": "single",
       "difficulty": "medium",
-      "stem": "In *žiema* (“winter”), what is **i** doing before **e**?",
-      "options": [
-        "Marking soft ž before a back vowel",
-        "Standing as a full vowel syllable",
-        "Forming the diphthong ie with e",
-        "Silencing the ž"
+      "stem": "**kalnas** ‘hill’ contains the sequence *al*. What is it?",
+      "explanation": "A short vowel plus **l m n r** is a *mixed* diphthong: it behaves as one long syllable and can carry tone (¶7). It is not a proper diphthong — those are the six vowel-plus-vowel sequences — but neither is it an ordinary vowel-consonant sequence, which is what the tone tells you.",
+      "rulesTested": [
+        "diphthongs"
       ],
-      "correct": 2,
-      "explanation": "*ie* is a native diphthong (¶7). Soft-i (¶6) appears only before back vowels a/ą/o/u/ų/ū — not before *e*.",
+      "vocabUsed": [
+        "skiemuo",
+        "ilgas"
+      ],
+      "options": [
+        "two syllables, since a and l cannot combine",
+        "a mixed diphthong, counting as one long syllable",
+        "a proper diphthong of the same kind as *au*",
+        "a short vowel followed by a consonant, with no special status"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "a101-q10",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which sequences are proper diphthongs in Lithuanian?",
+      "explanation": "The proper diphthongs are **ai au ei ie ui uo** (¶7). **io** is not among them: the **i** there is the softener of ¶6 and the vowel is **o**, as in *žodžio*. Hearing *io* as a diphthong is the direct consequence of missing the softening rule.",
       "rulesTested": [
         "diphthongs",
         "soft-i"
       ],
       "vocabUsed": [
-        "žodis",
-        "balsis"
-      ]
-    },
-    {
-      "id": "a101-q18",
-      "type": "multi",
-      "difficulty": "medium",
-      "stem": "Which statements about **c / č / š / ž** are correct?",
+        "žodis"
+      ],
       "options": [
-        "c is always /ts/",
-        "č is like English *ch* in *church*",
-        "š is like English *sh*",
-        "ž is pronounced like English *z* in *zoo*"
+        "**uo**",
+        "**ie**",
+        "**io**",
+        "**ui**"
       ],
       "correct": [
         0,
         1,
-        2
-      ],
-      "explanation": "¶4: c=/ts/, č=church, š=sh, ž=measure (not English *zoo* /z/).",
-      "rulesTested": [
-        "consonants"
-      ],
-      "vocabUsed": [
-        "garsas",
-        "raidė"
-      ]
-    },
-    {
-      "id": "a101-q19",
-      "type": "single",
-      "difficulty": "medium",
-      "stem": "*kąsti* “to bite” vs *kasti* “to dig”. What alone distinguishes them in **spelling**?",
-      "options": [
-        "Stress mark",
-        "The nosinė hook on ą",
-        "Vowel length of a",
-        "A silent softening i"
-      ],
-      "correct": 1,
-      "explanation": "The nosinė *ą* marks the always-long vowel historically nasal; modern speech may sound similar, but spelling keeps the hook (¶3).",
-      "rulesTested": [
-        "nosine",
-        "vowel-length"
-      ],
-      "vocabUsed": [
-        "žodis",
-        "raidė"
-      ]
-    },
-    {
-      "id": "a101-q20",
-      "type": "multi",
-      "difficulty": "medium",
-      "stem": "Which statements about Lithuanian spelling are **correct**?",
-      "options": [
-        "Almost every letter written is pronounced",
-        "Silent letters are common as in English",
-        "Softening i is an exception that is written but not a vowel nucleus",
-        "Digraphs ch, dz, dž count as one sound each"
-      ],
-      "correct": [
-        0,
-        2,
         3
-      ],
-      "explanation": "Spelling is nearly phonemic: almost every letter is sounded. Softening *i* is written but not a vowel nucleus; *ch, dz, dž* are one sound each. English-style silent letters are not the rule.",
-      "rulesTested": [
-        "spelling-phonemic",
-        "soft-i",
-        "digraphs"
-      ],
-      "vocabUsed": [
-        "raidė",
-        "garsas"
       ]
     },
     {
-      "id": "a101-q21",
-      "type": "integer",
-      "difficulty": "medium",
-      "stem": "How many letters does the Lithuanian alphabet contain that are **not** in the basic Latin set of twenty-six?",
-      "answer": 9,
-      "unit": "letters",
-      "explanation": "¶1 adds nine letters with diacritics: ą ę į ų, č š ž, ė ū (y already exists in Latin). Tempting 6 forgets ė/ū/y-count mistakes; 3 counts only háčeks.",
-      "rulesTested": [
-        "alphabet"
-      ],
-      "vocabUsed": [
-        "abėcėlė",
-        "raidė"
-      ]
-    },
-    {
-      "id": "a101-q22",
+      "id": "a101-q11",
       "type": "single",
       "difficulty": "hard",
-      "stem": "Alphabetising **chemija**: where does **ch** sort relative to **c** and **č**?",
-      "options": [
-        "As its own letter after h",
-        "Under c, as the digraph beginning with c",
-        "Under č, because it sounds similar",
-        "At the end of the alphabet"
-      ],
-      "correct": 1,
-      "explanation": "¶5: digraphs are not separate alphabet letters; *ch* is filed under *c*.",
+      "stem": "**daug** is pronounced with a final /k/. Why is it not spelled *dauk*?",
+      "explanation": "Final devoicing is automatic and therefore predictable, so the orthography keeps the underlying **g** and lets the rule supply the /k/ (¶8). The same principle keeps the **b** of *dirbti* although it is said /p/. Spelling records identity; pronunciation records context.",
       "rulesTested": [
-        "digraphs",
-        "alphabet"
-      ],
-      "vocabUsed": [
-        "abėcėlė",
-        "raidė"
-      ]
-    },
-    {
-      "id": "a101-q23",
-      "type": "multi",
-      "difficulty": "hard",
-      "stem": "Which words contain a **softening i** (not a vowel nucleus)?",
-      "options": [
-        "siūlas",
-        "duona",
-        "šiaurė",
-        "lietus"
-      ],
-      "correct": [
-        0,
-        2
-      ],
-      "explanation": "*siūlas* and *šiaurė* have i before back vowels ū/a (¶6). *duona* has diphthong *uo*; *lietus* has sequential vowels in separate roles, not soft-i before a back vowel.",
-      "rulesTested": [
-        "soft-i",
-        "diphthongs"
+        "spelling-phonemic"
       ],
       "vocabUsed": [
         "žodis",
-        "skiemuo"
-      ]
+        "garsas"
+      ],
+      "options": [
+        "Because the spelling records the word's own consonant, not what its surroundings do to it.",
+        "Because /k/ and /g/ are the same sound in Lithuanian.",
+        "Because the rule applies only to borrowed words.",
+        "Because *dauk* is an older spelling now abandoned."
+      ],
+      "correct": 0
     },
     {
-      "id": "a101-q24",
+      "id": "a101-q12",
       "type": "single",
-      "difficulty": "hard",
-      "stem": "Why must stress be learned **word by word**?",
-      "options": [
-        "It always falls on the first syllable",
-        "It is free and may also move under inflection",
-        "Dictionaries never mark it",
-        "It is identical to Polish fixed stress"
-      ],
-      "correct": 1,
-      "explanation": "¶9: free and mobile; ordinary print omits marks, so each lemma’s stress must be learned.",
+      "difficulty": "medium",
+      "stem": "*kalbà* and *kal̃bos* are two forms of one noun, stressed differently. What does this show?",
+      "explanation": "Stress is free *and* mobile: it may sit on any syllable, and it shifts from one form of a word to another (¶9). That mobility is exactly why stress cannot be read off the page and must be learned with the word.",
       "rulesTested": [
         "stress"
       ],
       "vocabUsed": [
+        "kalba",
         "kirtis",
-        "žodis",
-        "skiemuo"
-      ]
-    },
-    {
-      "id": "a101-q25",
-      "type": "integer",
-      "difficulty": "easy",
-      "stem": "How many of **q, w, x** appear in the Lithuanian alphabet?",
-      "answer": 0,
-      "unit": "letters",
-      "explanation": "¶1 removes q, w, x from Latin. Answering 3 confuses “Latin letters known to Lithuanians” with alphabet membership.",
-      "rulesTested": [
-        "alphabet"
-      ],
-      "vocabUsed": [
-        "abėcėlė",
-        "raidė"
-      ]
-    },
-    {
-      "id": "a101-q26",
-      "type": "single",
-      "difficulty": "medium",
-      "stem": "The digraph **dz** is:",
-      "options": [
-        "two separate alphabet letters counted in the 32",
-        "the voiced counterpart of c (/dz/)",
-        "the same sound as English *th*",
-        "alphabetised as its own letter after d"
-      ],
-      "correct": 1,
-      "explanation": "¶5: dz=/dz/, voiced counterpart of c; digraphs are not separate alphabet letters.",
-      "rulesTested": [
-        "digraphs",
-        "consonants"
-      ],
-      "vocabUsed": [
-        "garsas",
-        "raidė"
-      ]
-    },
-    {
-      "id": "a101-q27",
-      "type": "multi",
-      "difficulty": "hard",
-      "stem": "Which letters are **always long** wherever they occur?",
-      "options": [
-        "ū",
-        "i",
-        "y",
-        "ą"
-      ],
-      "correct": [
-        0,
-        2,
-        3
-      ],
-      "explanation": "¶2: ė ū į y ų ą ę are always long; plain *i* is short.",
-      "rulesTested": [
-        "vowel-length",
-        "nosine"
-      ],
-      "vocabUsed": [
-        "balsis",
-        "ilgas",
-        "trumpas"
-      ]
-    },
-    {
-      "id": "a101-q28",
-      "type": "single",
-      "difficulty": "easy",
-      "stem": "**j** in *labas* is pronounced like:",
-      "options": [
-        "English *j* in *jam*",
-        "English *y* in *yes*",
-        "English *g* in *genre*",
-        "a silent letter"
-      ],
-      "correct": 1,
-      "explanation": "¶4: *j* is the glide /j/ as in *yes*. English *jam* is closer to digraph *dž*.",
-      "rulesTested": [
-        "consonants"
-      ],
-      "vocabUsed": [
-        "labas",
-        "garsas"
-      ]
-    },
-    {
-      "id": "a101-q29",
-      "type": "integer",
-      "difficulty": "hard",
-      "stem": "How many **syllables** are there in *šiaurė*?",
-      "answer": 2,
-      "unit": "syllables",
-      "explanation": "Two: *šiau-rė*. Soft-*i* is not a nucleus, and *au* is a single diphthong. Treating soft-*i* as a vowel wrongly gives three.",
-      "rulesTested": [
-        "soft-i",
-        "diphthongs"
-      ],
-      "vocabUsed": [
-        "skiemuo",
         "žodis"
-      ]
+      ],
+      "options": [
+        "that the two forms belong to different words",
+        "that Lithuanian stress is mobile, moving between the forms of a word",
+        "that the plural is always stressed on the stem",
+        "that the stress mark is optional in both"
+      ],
+      "correct": 1
     },
     {
-      "id": "a101-q30",
+      "id": "a101-q13",
       "type": "single",
-      "difficulty": "medium",
-      "stem": "Which pair differs **only** by vowel length in speech?",
-      "options": [
-        "butas / būtas",
-        "centas / čentas",
-        "ačiū / ačiu",
-        "duona / dona"
-      ],
-      "correct": 0,
-      "explanation": "*butas* (short *u*) vs *būtas* (long *ū*) is the classic length contrast. The others invent contrasts or change consonants.",
+      "difficulty": "hard",
+      "stem": "A dictionary gives *kal̃bos* with a tilde. What does the tilde tell you that a grave accent could not?",
+      "explanation": "All three marks show stress; they differ in what else they encode. The grave stands on a **short** stressed syllable, which has no tone to contrast; the tilde and the acute distinguish rising from falling tone on a **long** one (¶9). So the tilde says *long, and rising*.",
       "rulesTested": [
+        "stress",
         "vowel-length"
       ],
       "vocabUsed": [
+        "kirtis",
+        "skiemuo",
+        "ilgas"
+      ],
+      "options": [
+        "that the syllable is stressed",
+        "that the syllable is long and carries the rising tone",
+        "that the stress moves in other forms of the word",
+        "that the vowel is nasal in origin"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "a101-q14",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "Of the four words **várna**, **kalbà**, **namè**, **kal̃bos**, how many carry a mark that can only stand on a long syllable?",
+      "explanation": "The acute and the tilde require a long syllable; the grave requires a short one (¶9). *várna* (acute) and *kal̃bos* (tilde) are the two. *kalbà* and *namè* both take the grave, so their stressed syllables are short and toneless.",
+      "rulesTested": [
+        "stress",
+        "vowel-length"
+      ],
+      "vocabUsed": [
+        "kirtis",
+        "skiemuo"
+      ],
+      "answer": 2,
+      "unit": "words"
+    },
+    {
+      "id": "a101-q15",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "**žodžio** is the genitive of *žodis*. Which statements about the written form are correct?",
+      "explanation": "Three rules meet in one word. **dž** is a digraph for one sound (¶5) but is not a letter, so it files under **d** (¶1, ¶5). The **i** stands between a consonant and the back vowel **o**, so it softens and is silent (¶6) — there is no diphthong *io* (¶7).",
+      "rulesTested": [
+        "digraphs",
+        "soft-i",
+        "alphabet",
+        "diphthongs"
+      ],
+      "vocabUsed": [
         "žodis",
-        "balsis"
+        "garsas"
+      ],
+      "options": [
+        "**dž** here spells a single affricate.",
+        "The **i** before **o** is a vowel forming a diphthong *io*.",
+        "The **i** before **o** is silent and marks **dž** as soft.",
+        "**dž** is alphabetised between **d** and **e**."
+      ],
+      "correct": [
+        0,
+        2
       ]
+    },
+    {
+      "id": "a101-q16",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "A learner writes *kasti* for ‘to bite’ and *ačiu* for ‘thank you’. What single principle have both errors broken?",
+      "explanation": "*kąsti* ‘to bite’ and *kasti* ‘to dig’ are separate words distinguished by the hook alone (¶1, ¶3); *ačiū* has a long **ū** (¶2). Neither mark is decoration: one carries the vowel's length, the other very often carries a grammatical ending.",
+      "rulesTested": [
+        "alphabet",
+        "nosine",
+        "vowel-length"
+      ],
+      "vocabUsed": [
+        "ačiū",
+        "raidė",
+        "žodis"
+      ],
+      "options": [
+        "Both letters are optional in careful handwriting.",
+        "A diacritic is part of the letter: dropping it produces a different letter, and often a different word or a different case.",
+        "Both words are irregular and simply have to be memorised.",
+        "Both errors are pronunciations, not spellings."
+      ],
+      "correct": 1
+    },
+    {
+      "id": "a101-q17",
+      "type": "matching",
+      "difficulty": "hard",
+      "stem": "Each word below is misspelled in one respect. Match it with the rule its spelling breaks.",
+      "explanation": "*ylgas* gives a short **i** the long letter **y**; *ča* drops the softening **i** required before the back vowel **a**; *dauk* spells the devoicing instead of the underlying **g**; *abecele* drops the length letters **ė**, which is again ¶2 — so ¶2 is used twice and ¶9 not at all. The distractors all assume each rule is used exactly once, which is the habit this item is built to break.",
+      "rulesTested": [
+        "vowel-length",
+        "soft-i",
+        "spelling-phonemic",
+        "alphabet"
+      ],
+      "vocabUsed": [
+        "ilgas",
+        "abėcėlė",
+        "raidė"
+      ],
+      "columnHeadings": [
+        "Misspelling",
+        "Rule broken"
+      ],
+      "columnI": [
+        "*ilgas* written as *ylgas*",
+        "*čia* written as *ča*",
+        "*daug* written as *dauk*",
+        "*abėcėlė* written as *abecele*"
+      ],
+      "columnII": [
+        "¶2 — length is written with the letter that carries it",
+        "¶6 — softening before a back vowel must be written",
+        "¶8 — spelling keeps the underlying consonant",
+        "¶9 — stress is not marked in running text"
+      ],
+      "options": [
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          2,
+          1,
+          0
+        ]
+      ],
+      "correct": 0
     },
     {
       "id": "a101-p1",
       "type": "comprehension",
-      "difficulty": "hard",
-      "title": "Abėcėlė ir garsai",
-      "passage": "Lietuvių abėcėlė turi trisdešimt dvi raides. Raidė y yra balsis, ne priebalsis. Žodyje ačiū raidė i minkština č. Žodyje duona yra diftongas uo. Žodyje šiaurė yra minkštinantis i ir diftongas au. Kirtis lietuvių kalboje yra laisvas: jis gali kristi ant bet kurio skiemens.",
-      "translation": "The Lithuanian alphabet has thirty-two letters. The letter y is a vowel, not a consonant. In the word ačiū the letter i softens č. In the word duona there is the diphthong uo. In the word šiaurė there is a softening i and the diphthong au. Stress in the Lithuanian language is free: it may fall on any syllable.",
+      "difficulty": "medium",
+      "title": "Pirmoji pamoka",
+      "passage": "JONAS. Labas! Kaip tavo vardas?\nRŪTA. Labas. Aš esu Rūta. O tu?\nJONAS. Aš Jonas. Rūta, kas tai?\nRŪTA. Tai abėcėlė. Lietuvių kalba turi trisdešimt dvi raides.\nJONAS. O kas yra „ą“?\nRŪTA. Tai balsė. Ji ilga. Nosinė nėra nosinis garsas — tik ilgas.\nJONAS. Ačiū!\nRŪTA. Prašom.",
       "glossary": {
-        "Lietuvių": "Lithuanian (gen. pl.)",
+        "vardas": "name",
+        "tai": "this is",
         "turi": "has",
-        "trisdešimt": "thirty",
-        "dvi": "two (f.)",
-        "minkština": "softens",
-        "minkštinantis": "softening",
-        "diftongas": "diphthong",
-        "laisvas": "free",
-        "gali": "can, may",
-        "kristi": "to fall",
-        "ant": "on",
-        "bet": "any / but",
-        "kurio": "which (gen.)"
+        "nėra": "is not",
+        "tik": "only",
+        "prašom": "you're welcome",
+        "balsė": "vowel (feminine form of balsis)",
+        "ji": "it, she",
+        "Jonas": "Jonas, a man's name",
+        "Rūta": "Rūta, a woman's name"
       },
       "questions": [
+        {
+          "id": "a101-p1-c1",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "Kiek raidžių turi lietuvių kalba, pasak Rūtos?",
+          "explanation": "Rūta says *Lietuvių kalba turi trisdešimt dvi raides.* Twenty-six is the basic Latin alphabet, which is what Lithuanian starts from and adds to.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "options": [
+            "dvidešimt šešias",
+            "dvidešimt devynias",
+            "trisdešimt dvi",
+            "trisdešimt tris"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "a101-p1-c2",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "Kas klausia apie raidę „ą“?",
+          "explanation": "Jonas asks *O kas yra „ą“?* and Rūta answers. The labels make the turns followable: Jonas is the one who does not yet know the alphabet.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "options": [
+            "Jonas",
+            "Rūta",
+            "mokytojas",
+            "niekas"
+          ],
+          "correct": 0
+        },
         {
           "id": "a101-p1-q1",
           "type": "single",
           "difficulty": "easy",
-          "stem": "According to the passage, what is **y**?",
-          "options": [
-            "a consonant like English 'yes'",
-            "a vowel",
-            "a digraph with i",
-            "always short"
-          ],
-          "correct": 1,
-          "explanation": "The passage states *Raidė y yra balsis, ne priebalsis* — y is a vowel (¶1–¶2). The 'yes' glide is j.",
+          "stem": "What does Rūta say the hook on **ą** indicates?",
+          "explanation": "*Nosinė nėra nosinis garsas — tik ilgas*: the hook marks length, not nasality, which is ¶3 put into the speaker's own words.",
           "rulesTested": [
-            "alphabet",
+            "nosine",
             "vowel-length"
           ],
           "vocabUsed": [
-            "raidė",
             "balsis",
-            "priebalsis"
-          ]
+            "ilgas",
+            "garsas"
+          ],
+          "options": [
+            "that the vowel is nasal",
+            "that the vowel is long",
+            "that the syllable is stressed",
+            "that the letter is foreign"
+          ],
+          "correct": 1
         },
         {
           "id": "a101-p1-q2",
-          "type": "multi",
+          "type": "single",
           "difficulty": "medium",
-          "stem": "Which claims does the passage make about **šiaurė**?",
-          "options": [
-            "It contains a softening i.",
-            "It contains the diphthong au.",
-            "It contains three full vowel syllables from i, a and ė.",
-            "The i before au is itself a pronounced vowel."
-          ],
-          "correct": [
-            0,
-            1
-          ],
-          "explanation": "The passage names soft-i and diphthong au. Treating i as a full vowel would invent a third syllable the text never asserts (¶6–¶7).",
+          "stem": "In **raides**, the final syllable is *-des*. Is the **d** soft?",
+          "explanation": "Before a front vowel a consonant is soft as a matter of course and nothing is written (¶6, footnote). The **i** of *raidės* belongs to the diphthong *ai*, not to the last syllable, so answer B misidentifies which vowel is doing the work.",
           "rulesTested": [
             "soft-i",
             "diphthongs"
           ],
           "vocabUsed": [
-            "skiemuo",
-            "balsis"
-          ]
+            "raidė",
+            "priebalsis"
+          ],
+          "options": [
+            "Yes — it stands before the front vowel **e**, so softness is automatic and unwritten.",
+            "Yes — the **i** of *raides* softens it.",
+            "No — **d** is never soft in Lithuanian.",
+            "No — softness would require a written **i**."
+          ],
+          "correct": 0
         },
         {
           "id": "a101-p1-q3",
-          "type": "integer",
-          "difficulty": "hard",
-          "stem": "How many syllables does the passage's analysis imply for **ačiū**?",
-          "answer": 2,
-          "unit": "syllables",
-          "explanation": "Soft-i means i is not a vowel nucleus, so ačiū is a-čiū — two syllables (¶6). Answering 3 treats the soft-i as a vowel.",
-          "rulesTested": [
-            "soft-i"
-          ],
-          "vocabUsed": [
-            "ačiū",
-            "skiemuo"
-          ]
-        },
-        {
-          "id": "a101-p1-q4",
           "type": "single",
           "difficulty": "hard",
-          "stem": "The passage says stress is *laisvas*. What does that mean?",
-          "options": [
-            "Stress always falls on the first syllable.",
-            "Stress may fall on any syllable and need not be predictable from spelling.",
-            "Stress is printed with an acute in every book.",
-            "Stress is fixed once learned for the nominative and never moves."
-          ],
-          "correct": 1,
-          "explanation": "Free stress: it may fall on any syllable and is not predictable from ordinary spelling. It is also unmarked in print and may move under inflection.",
+          "stem": "The dialogue writes **Ačiū** with a long **ū** and a soft **č**. If a learner wrote *Aciu*, how many of the section's rules would the spelling break?",
+          "explanation": "*Aciu* loses the bar on **ū** (¶2) and the háček on **č** (¶1, ¶4), turning /tʃ/ into /ts/. The **i** is still written, so the softening rule ¶6 is not broken — which is what separates this from the tempting answer D.",
           "rulesTested": [
-            "stress"
-          ],
-          "vocabUsed": [
-            "kirtis",
-            "skiemuo",
-            "kalba"
-          ]
-        },
-        {
-          "id": "a101-p1-q5",
-          "type": "multi",
-          "difficulty": "hard",
-          "stem": "Which words does the passage explicitly treat as containing a **diphthong**?",
-          "options": [
-            "duona",
-            "ačiū",
-            "šiaurė",
-            "abėcėlė"
-          ],
-          "correct": [
-            0,
-            2
-          ],
-          "explanation": "*duona* has uo; *šiaurė* has au. *ačiū* has soft-i + ū, not a diphthong iu; *abėcėlė* has sequential vowels in separate syllables.",
-          "rulesTested": [
-            "diphthongs",
+            "vowel-length",
+            "alphabet",
+            "consonants",
             "soft-i"
           ],
           "vocabUsed": [
-            "žodis",
-            "abėcėlė",
-            "ačiū"
-          ]
+            "ačiū",
+            "raidė",
+            "garsas"
+          ],
+          "options": [
+            "one — only the length mark",
+            "two — the length of **ū** and the softening **i**",
+            "two — the length of **ū** and the háček on **č**",
+            "three — length, softening, and the háček"
+          ],
+          "correct": 2
         }
-      ]
+      ],
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course.",
+          "note": "A first-meeting dialogue; the grammar it leans on is ¶1–¶6."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+          "note": "The letter inventory and the value of the nosinė."
+        }
+      ],
+      "translation": "— Hello! What is your name? — Hello. I am Rūta. And you? — I'm Jonas. Rūta, what is this? — That is the alphabet. Lithuanian has thirty-two letters. — And what is “ą”? — It is a vowel. It is long. The nosinė is not a nasal sound — only a long one. — Thank you! — You're welcome."
+    }
+  ],
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+      "note": "Phonology, the letter inventory and the accentual system."
+    },
+    {
+      "kind": "grammar",
+      "citation": "Valstybinė lietuvių kalbos komisija, *Lietuvių kalbos rašyba: taisyklės, komentarai, patarimai*, approved by resolution No. N-1 (190) of 6 January 2022.",
+      "url": "https://www.vlkk.lt/",
+      "note": "Orthography: what is written and what is left to rule."
+    },
+    {
+      "kind": "dictionary",
+      "citation": "*Dabartinės lietuvių kalbos žodynas*, Lietuvių kalbos institutas.",
+      "url": "https://ekalba.lt/dabartines-lietuviu-kalbos-zodynas/",
+      "note": "Citation forms, gender and stress class for this section's words."
     }
   ]
 }

@@ -1,0 +1,2863 @@
+{
+  "id": "a1-bx",
+  "kind": "boundary",
+  "level": "A1",
+  "order": 29,
+  "title": "A1 Boundary Examination",
+  "summary": "The examination that closes A1 and admits to A2. It examines the whole level at once: no question here turns on a single section, and every rule of A1 is assumed to be live.",
+  "covers": [
+    "a1-01",
+    "a1-02",
+    "a1-03",
+    "a1-04",
+    "a1-05",
+    "a1-06",
+    "a1-07",
+    "a1-08",
+    "a1-09",
+    "a1-10",
+    "a1-11",
+    "a1-12",
+    "a1-years-age",
+    "a1-13",
+    "a1-14",
+    "a1-15",
+    "a1-16",
+    "a1-17",
+    "a1-18",
+    "a1-19",
+    "a1-20",
+    "a1-21"
+  ],
+  "admitsTo": "A2",
+  "passThreshold": 70,
+  "drills": [
+    {
+      "id": "bx-q01",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**Mano sesuo turi gerą draugę.** Put the sentence into the plural throughout.",
+      "explanation": "Three rules at once. *sesuo* is a fifth-declension noun with plural *seserys* (¶53); the object takes the accusative plural *drauges*, and its adjective agrees in number, case **and gender** — feminine *geras*, not masculine *gerus* (¶54, ¶56). *mano* is indeclinable (¶43), so *manos* is impossible however plural the noun becomes. Option B is the trap for anyone who takes *draugė* to be masculine because *draugas* is.",
+      "rulesTested": [
+        "plural-nominative",
+        "plural-accusative",
+        "adjective-number",
+        "possessives"
+      ],
+      "vocabUsed": [
+        "sesuo",
+        "draugė",
+        "geras",
+        "turėti",
+        "mano"
+      ],
+      "fromSection": "a1-08",
+      "options": [
+        "Mano seserys turi geras drauges.",
+        "Mano seserys turi gerus draugus.",
+        "Mano sesuo turi geras drauges.",
+        "Manos seserys turi geras drauges."
+      ],
+      "correct": 0
+    },
+    {
+      "id": "bx-q02",
+      "type": "matching",
+      "difficulty": "hard",
+      "stem": "Each phrase below stands in one case. Match it with the reason that case is required.",
+      "explanation": "Negation converts an accusative object to the genitive (¶26, ¶31); the means of travel is a bare instrumental (¶73); the recipient is dative (¶66); and *Vilniuje* is a locative, which needs no preposition at all (¶59). The fifth label — a preposition governing the accusative — matches nothing here, so a learner who is pairing by elimination will place it and be wrong.",
+      "rulesTested": [
+        "negation-genitive",
+        "genitive-negation",
+        "instrumental-means",
+        "indirect-object",
+        "locative-singular"
+      ],
+      "vocabUsed": [
+        "pinigai",
+        "autobusas",
+        "brolis",
+        "knyga",
+        "duoti",
+        "Vilnius"
+      ],
+      "fromSection": "a1-11",
+      "columnHeadings": [
+        "Phrase",
+        "Why this case"
+      ],
+      "columnI": [
+        "Jis neturi **pinigų**.",
+        "Važiuoju **autobusu**.",
+        "Duodu knygą **broliui**.",
+        "Gyvenu **Vilniuje**."
+      ],
+      "columnII": [
+        "the object of a negated verb goes into the genitive",
+        "the instrumental of means, without a preposition",
+        "the indirect object stands in the dative",
+        "the locative answers *kur* without a preposition",
+        "a preposition governs the accusative"
+      ],
+      "options": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          2
+        ],
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          2,
+          1,
+          3
+        ]
+      ],
+      "correct": 0
+    },
+    {
+      "id": "bx-q03",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Which sentence is correct?",
+      "explanation": "*turėti* takes the accusative, but under negation the object goes into the genitive: *laiką* → *laiko* (¶25, ¶26). Option C keeps the genitive without the negation, which is the mirror error; option D replaces the nominative subject with a dative, confusing *turėti* with the dative constructions of ¶68–¶69.",
+      "rulesTested": [
+        "negation",
+        "negation-genitive",
+        "transitive-objects",
+        "genitive-negation"
+      ],
+      "vocabUsed": [
+        "turėti",
+        "laikas"
+      ],
+      "fromSection": "a1-03",
+      "options": [
+        "Aš neturiu laiko.",
+        "Aš neturiu laiką.",
+        "Aš turiu laiko.",
+        "Man neturiu laiko."
+      ],
+      "correct": 0
+    },
+    {
+      "id": "bx-q04",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "**Tai geras mokytojas.** Which changes leave a grammatical sentence?",
+      "explanation": "The predicate adjective agrees with its noun in gender (¶17), so a feminine noun forces *gera* — B leaves a masculine adjective on a feminine noun and is the only ungrammatical option. *tai* is a naming word and can be dropped, leaving the bare predicate nominative (¶16, ¶47). *gražus* is a different adjective type but agrees just as regularly.",
+      "rulesTested": [
+        "adjective-agreement",
+        "predicate-nominative",
+        "noun-gender",
+        "tai-naming"
+      ],
+      "vocabUsed": [
+        "mokytojas",
+        "mokytoja",
+        "knyga",
+        "geras",
+        "gražus",
+        "tai"
+      ],
+      "fromSection": "a1-02",
+      "options": [
+        "Replacing *mokytojas* by *mokytoja* and *geras* by *gera*.",
+        "Replacing *mokytojas* by *knyga*, leaving *geras* untouched.",
+        "Deleting *tai*.",
+        "Replacing *geras* by *gražus*."
+      ],
+      "correct": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "bx-q05",
+      "type": "integer",
+      "difficulty": "medium",
+      "stem": "In the answer *Tai mano seserų knygos*, how many of the three words after *Tai* stand in the genitive?",
+      "explanation": "Only *seserų*, the genitive plural marking possession (¶29, ¶55). *mano* is an indeclinable possessive and stands in no case at all (¶43), and *knygos* is the nominative plural subject. Counting *mano* is the whole trap.",
+      "rulesTested": [
+        "genitive-possession",
+        "plural-genitive",
+        "possessives",
+        "genitive-questions"
+      ],
+      "vocabUsed": [
+        "knyga",
+        "sesuo",
+        "mano",
+        "kieno"
+      ],
+      "fromSection": "a1-04",
+      "answer": 1,
+      "unit": "words"
+    },
+    {
+      "id": "bx-q06",
+      "type": "matching",
+      "difficulty": "hard",
+      "stem": "Match each verb form with the tense and mood it expresses.",
+      "explanation": "*dirbo* is the *-o* past (¶94), *dirbs* the *-s-* future (¶99), *dirbtų* the third-person conditional (¶116) and *tedirba* the third-person imperative in *te-* (¶113). The decoy label *present* fits *dirba*, which is not in the column — options C and D each place it, which is what a learner does when *tedirba* is misread as a present with a prefix.",
+      "rulesTested": [
+        "past-o-type",
+        "future-formation",
+        "conditional-formation",
+        "imperative-third-person"
+      ],
+      "vocabUsed": [
+        "dirbti"
+      ],
+      "fromSection": "a1-13",
+      "columnHeadings": [
+        "Form",
+        "Tense and mood"
+      ],
+      "columnI": [
+        "**dirbo**",
+        "**dirbs**",
+        "**dirbtų**",
+        "**tedirba**"
+      ],
+      "columnII": [
+        "past simple",
+        "future",
+        "conditional",
+        "third-person imperative",
+        "present"
+      ],
+      "options": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          2
+        ],
+        [
+          4,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4,
+          2,
+          3
+        ]
+      ],
+      "correct": 0
+    },
+    {
+      "id": "bx-q07",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**Jis neš** and **jis nešė** differ by one letter. Which pair of tenses is this?",
+      "explanation": "*neš* is the future of *nešti* — the *-s-* suffix meeting the stem-final consonant (¶99, ¶100) — and *nešė* is its *-ė* past (¶95). The present is *neša*. The pair is a real minimal pair in the language and the reason ¶100 has to be learned rather than guessed at.",
+      "rulesTested": [
+        "future-formation",
+        "future-consonant-changes",
+        "past-e-type",
+        "past-stem"
+      ],
+      "vocabUsed": [
+        "nešti"
+      ],
+      "fromSection": "a1-14",
+      "options": [
+        "present and past",
+        "future and past",
+        "future and present",
+        "conditional and past"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "bx-q08",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Which sentence correctly negates **Jis buvo namie**?",
+      "explanation": "The negative particle is written together with the verb, in every tense (¶97). B writes it apart; C negates the future instead of the past (¶102); D negates the present, and *nėra* is besides the special contracted negative of *yra* (¶96 against ¶15).",
+      "rulesTested": [
+        "past-negation",
+        "past-buti",
+        "negation",
+        "future-negation"
+      ],
+      "vocabUsed": [
+        "būti",
+        "namie"
+      ],
+      "fromSection": "a1-13",
+      "options": [
+        "Jis nebuvo namie.",
+        "Jis ne buvo namie.",
+        "Jis nebus namie.",
+        "Jis nėra namie."
+      ],
+      "correct": 0
+    },
+    {
+      "id": "bx-q09",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "**Norėčiau kavos.** Which statements about this sentence are true?",
+      "explanation": "The conditional softens a request (¶117); nothing here is negated, so B is false — the genitive is the partitive of quantity (¶32). The *-čiau* ending identifies the person, so the pronoun is droppable (¶46).",
+      "rulesTested": [
+        "conditional-politeness",
+        "genitive-quantity",
+        "pronoun-omission",
+        "conditional-formation"
+      ],
+      "vocabUsed": [
+        "norėti",
+        "kava",
+        "aš"
+      ],
+      "fromSection": "a1-17",
+      "options": [
+        "*Norėčiau* is a conditional used for politeness, not for an unreal condition.",
+        "*kavos* is genitive because the verb is negated.",
+        "*kavos* is a partitive genitive — some coffee, not the whole of it.",
+        "The subject pronoun *aš* has been left out and can be recovered from the ending."
+      ],
+      "correct": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "bx-q10",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**Jeigu turėčiau pinigų, nupirkčiau dovaną.** Why is the conditional used in *both* clauses?",
+      "explanation": "*jeigu* takes the indicative for a real condition and the conditional for an unreal one (¶108, ¶118a); the mood, not the conjunction, carries the unreality. That is also what separates this from the politeness use of ¶117, where there is no condition at all.",
+      "rulesTested": [
+        "conditional-jeigu",
+        "condition-jei",
+        "mood-choice",
+        "conditional-formation"
+      ],
+      "vocabUsed": [
+        "jeigu",
+        "turėti",
+        "pinigai",
+        "dovana"
+      ],
+      "fromSection": "a1-17",
+      "options": [
+        "Because *jeigu* always requires the conditional.",
+        "Because the condition is unreal: the speaker does not have the money.",
+        "Because the sentence is a polite request.",
+        "Because the main clause is in the past."
+      ],
+      "correct": 1
+    },
+    {
+      "id": "bx-q11",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Which is the correct negative command ‘don't write’ addressed to one person?",
+      "explanation": "The imperative in *-k* takes the negative particle prefixed to it (¶112, ¶114). C is a negated present and D a negated future — both statements about what is or will be the case, not commands.",
+      "rulesTested": [
+        "imperative-negative",
+        "imperative-formation",
+        "negation",
+        "future-negation"
+      ],
+      "vocabUsed": [
+        "rašyti"
+      ],
+      "fromSection": "a1-16",
+      "options": [
+        "Nerašyk!",
+        "Ne rašyk!",
+        "Nerašai!",
+        "Nerašysi!"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "bx-q12",
+      "type": "matching",
+      "difficulty": "hard",
+      "stem": "Match each preposition with the case it governs in the phrase given.",
+      "explanation": "*pas* takes the accusative (¶139), *iš* the genitive (¶33), *su* the instrumental (¶74) and *po* the instrumental when it means ‘under’ (¶75) — so the instrumental label is used **twice** and the locative not at all. Option B is the answer of a learner who assumes ‘under the table’ must be a place and therefore locative; option D swaps the first two.",
+      "rulesTested": [
+        "pas-accusative",
+        "genitive-prepositions",
+        "instrumental-su",
+        "instrumental-po",
+        "prepositions-review"
+      ],
+      "vocabUsed": [
+        "pas",
+        "gydytojas",
+        "iš",
+        "Lietuva",
+        "su",
+        "draugas",
+        "po",
+        "stalas"
+      ],
+      "fromSection": "a1-21",
+      "columnHeadings": [
+        "Preposition in use",
+        "Case governed"
+      ],
+      "columnI": [
+        "**pas** gydytoją",
+        "**iš** Lietuvos",
+        "**su** draugu",
+        "**po** stalu"
+      ],
+      "columnII": [
+        "accusative",
+        "genitive",
+        "instrumental",
+        "dative",
+        "locative"
+      ],
+      "options": [
+        [
+          0,
+          1,
+          2,
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          4
+        ],
+        [
+          0,
+          1,
+          3,
+          2
+        ],
+        [
+          1,
+          0,
+          2,
+          2
+        ]
+      ],
+      "correct": 0
+    },
+    {
+      "id": "bx-q13",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**Einu į parduotuvę** and **Esu parduotuvėje** use the same noun in different cases. What governs the difference?",
+      "explanation": "The contrast is *where to* against *where at*: *į* + accusative for motion towards, the bare locative for position (¶59, ¶61). It is the meaning that selects the case, not the verb — *stoviu į parduotuvę* is impossible, and *einu parduotuvėje* means walking about inside it.",
+      "rulesTested": [
+        "direction-i",
+        "locative-singular",
+        "place-prepositions",
+        "motion-verbs"
+      ],
+      "vocabUsed": [
+        "eiti",
+        "parduotuvė",
+        "būti",
+        "į"
+      ],
+      "fromSection": "a1-09",
+      "options": [
+        "Nothing grammatical; both are acceptable in either sentence.",
+        "Direction takes *į* with the accusative; location takes the bare locative.",
+        "The verb *eiti* requires the accusative and *būti* the locative, whatever the meaning.",
+        "The accusative is used with shops and the locative with towns."
+      ],
+      "correct": 1
+    },
+    {
+      "id": "bx-q14",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which of these sentences put the person in the **dative** for a reason the grammar requires?",
+      "explanation": "*patikti* makes the thing liked the subject and the liker the dative (¶68); *reikia* is impersonal and takes a dative with a genitive of what is needed (¶69); *skaudėti* is likewise impersonal (¶129). D is simply ungrammatical: *būti* takes a nominative subject, and *aš esu mokytojas* is the only possible form (¶15, ¶127).",
+      "rulesTested": [
+        "patikti",
+        "reikia",
+        "skaudeti",
+        "personal-vs-impersonal",
+        "dative-pronouns"
+      ],
+      "vocabUsed": [
+        "patikti",
+        "reikia",
+        "skaudėti",
+        "galva",
+        "pinigai",
+        "knyga",
+        "man"
+      ],
+      "fromSection": "a1-10",
+      "options": [
+        "Man patinka ši knyga.",
+        "Man reikia pinigų.",
+        "Man skauda galvą.",
+        "Man esu mokytojas."
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "bx-q15",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**Jis serga gripu.** Which other sentence uses its case for the same reason?",
+      "explanation": "*sirgti* governs a bare instrumental as a matter of lexical government — the illness is not an instrument (¶77). *domėtis* does the same. A and B are instrumentals **of means** (¶73), a different rule that happens to produce the same ending, and D is the instrumental of company with *su* (¶74).",
+      "rulesTested": [
+        "instrumental-verbs",
+        "instrumental-means",
+        "instrumental-su",
+        "instrumental-singular"
+      ],
+      "vocabUsed": [
+        "sirgti",
+        "gripas",
+        "traukinys",
+        "pieštukas",
+        "muzika",
+        "su",
+        "brolis"
+      ],
+      "fromSection": "a1-11",
+      "options": [
+        "Jis važiuoja traukiniu.",
+        "Jis rašo pieštuku.",
+        "Jis domisi muzika.",
+        "Jis eina su broliu."
+      ],
+      "correct": 2
+    },
+    {
+      "id": "bx-q16",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "**Ačiū už dovaną.** Why is *dovaną* in the accusative?",
+      "explanation": "*už* is one of the prepositions whose case follows its sense: accusative for what is paid for or thanked for (¶141), genitive for position behind (¶62). *ačiū* governs nothing — it is an interjection.",
+      "rulesTested": [
+        "uz-accusative",
+        "place-prepositions",
+        "prepositions-review"
+      ],
+      "vocabUsed": [
+        "už",
+        "dovana",
+        "ačiū"
+      ],
+      "fromSection": "a1-21",
+      "options": [
+        "*už* always takes the accusative.",
+        "*už* takes the accusative when it means payment or thanks, and the genitive when it means position behind.",
+        "Because *ačiū* governs the accusative.",
+        "Because the noun is feminine."
+      ],
+      "correct": 1
+    },
+    {
+      "id": "bx-q17",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**Ko tu klausai?** What does the case of *ko* tell you?",
+      "explanation": "A question word stands in the case its verb would give the answer (¶52). *klausyti* governs the genitive, so the question is *ko* and the answer *muzikos* (¶49). *ką* would be the accusative, which this verb never takes; and nothing here is negated, so the genitive of ¶26 is not in play.",
+      "rulesTested": [
+        "answering-in-case",
+        "kas-declined",
+        "question-adverbs"
+      ],
+      "vocabUsed": [
+        "klausyti",
+        "ko",
+        "kas",
+        "muzika"
+      ],
+      "fromSection": "a1-07",
+      "options": [
+        "that the question is about a person rather than a thing",
+        "that *klausyti* governs the genitive, so the question word matches",
+        "that the sentence is negated",
+        "that *ko* is the accusative of *kas*"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "bx-q18",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Which question expects the answer **Aštuntą valandą**?",
+      "explanation": "*aštuntą valandą* is an ordinal in the accusative of time — the answer to *kelintą valandą* (¶81, ¶82, ¶83). *kada* invites any time expression, so it is too loose to *expect* this one; *kiek valandų* asks a duration and takes the genitive plural (¶58); *koks* asks what kind (¶51).",
+      "rulesTested": [
+        "ordinals",
+        "telling-the-hour",
+        "accusative-of-time",
+        "question-adverbs",
+        "koks"
+      ],
+      "vocabUsed": [
+        "valanda",
+        "kelintas",
+        "kada",
+        "kiek",
+        "koks",
+        "grįžti"
+      ],
+      "fromSection": "a1-12",
+      "options": [
+        "Kada tu grįši?",
+        "Kelintą valandą tu grįši?",
+        "Kiek valandų tu dirbsi?",
+        "Koks laikas?"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "bx-q19",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "**Jis myli savo brolį** and **Jis myli jo brolį** are both grammatical. Which statements are true?",
+      "explanation": "*savo* refers back to the subject; *jo* points away from it (¶44, ¶43). That is a difference in meaning, so D is false. All the possessives, *savo* included, are indeclinable — which is exactly why the choice between them carries the whole burden.",
+      "rulesTested": [
+        "savo",
+        "possessives",
+        "pronouns-cases",
+        "accusative-pronouns"
+      ],
+      "vocabUsed": [
+        "savo",
+        "mano",
+        "jo",
+        "brolis",
+        "mylėti"
+      ],
+      "fromSection": "a1-06",
+      "options": [
+        "In the first, the brother is the subject's own.",
+        "In the second, the brother belongs to someone other than the subject.",
+        "*savo* is indeclinable, like *mano* and *jo*.",
+        "The two sentences are interchangeable."
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "bx-q20",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "You are addressing one stranger politely. Which is right?",
+      "explanation": "The polite form is *jūs* with the plural verb: pronoun and ending must agree (¶45). C and D each keep one half of the polite form and one half of the familiar, which is the commonest error; B is correct Lithuanian but familiar, and so wrong for a stranger.",
+      "rulesTested": [
+        "polite-jus",
+        "ar-questions",
+        "present-conj-ii",
+        "pronouns-cases"
+      ],
+      "vocabUsed": [
+        "jūs",
+        "tu",
+        "kalbėti",
+        "lietuviškai",
+        "ar"
+      ],
+      "fromSection": "a1-06",
+      "options": [
+        "Ar jūs kalbate lietuviškai?",
+        "Ar tu kalbi lietuviškai?",
+        "Ar jūs kalbi lietuviškai?",
+        "Ar tu kalbate lietuviškai?"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "bx-q21",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Which word turns **Jis dirba** into a yes-or-no question without changing the word order?",
+      "explanation": "*ar* stands at the head of a yes-or-no question and leaves everything after it alone (¶48). The others are content words: *kas* asks who, *kodėl* why, *koks* what kind (¶49–¶51), and none of them can be answered with *taip*.",
+      "rulesTested": [
+        "ar-questions",
+        "kas-declined",
+        "question-adverbs",
+        "koks"
+      ],
+      "vocabUsed": [
+        "ar",
+        "kas",
+        "kodėl",
+        "koks",
+        "dirbti"
+      ],
+      "fromSection": "a1-07",
+      "options": [
+        "Ar",
+        "Kas",
+        "Kodėl",
+        "Koks"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "bx-q22",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Which is correct?",
+      "explanation": "Two numeral rules collide. One to nine agree with the noun like adjectives, so *penkis draugus* is accusative throughout; from ten upwards the numeral takes the **genitive plural**, giving *dešimt draugų* (¶58, ¶79, ¶80). A and D are therefore both well formed — but D is *dešimt*, not *penkis*, so only A answers the question as set. B applies the ten-and-up rule to *penki*, and C the low-numeral rule to *dešimt*.",
+      "rulesTested": [
+        "numeral-case",
+        "cardinals-one-nine",
+        "cardinals-ten-up",
+        "plural-genitive",
+        "plural-accusative"
+      ],
+      "vocabUsed": [
+        "penki",
+        "dešimt",
+        "draugas",
+        "turėti"
+      ],
+      "fromSection": "a1-08",
+      "options": [
+        "Turiu penkis draugus.",
+        "Turiu penkių draugų.",
+        "Turiu dešimt draugus.",
+        "Turiu dešimt draugų."
+      ],
+      "correct": 0
+    },
+    {
+      "id": "bx-q23",
+      "type": "matching",
+      "difficulty": "hard",
+      "stem": "Match each time expression with the construction it uses.",
+      "explanation": "Recurring time is a bare instrumental plural (¶76); a point in the day is the accusative of time (¶83); the year is instrumental (¶90); and *prieš* + accusative measures backwards from now (¶92). The locative label matches none of them and is there to catch pairing by elimination.",
+      "rulesTested": [
+        "instrumental-time-route",
+        "accusative-of-time",
+        "year-when",
+        "age-time-contrast",
+        "time-prepositions"
+      ],
+      "vocabUsed": [
+        "pirmadienis",
+        "valanda",
+        "metai",
+        "prieš",
+        "penkeri"
+      ],
+      "fromSection": "a1-years-age",
+      "columnHeadings": [
+        "Expression",
+        "Construction"
+      ],
+      "columnI": [
+        "**pirmadieniais**",
+        "**pirmą valandą**",
+        "**tūkstantis devyni šimtai devyniasdešimt penktaisiais metais**",
+        "**prieš penkerius metus**"
+      ],
+      "columnII": [
+        "instrumental of recurring time",
+        "accusative of time",
+        "instrumental of the year",
+        "*prieš* + accusative, ‘ago’",
+        "locative of time"
+      ],
+      "options": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          2
+        ],
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          2,
+          1,
+          3
+        ]
+      ],
+      "correct": 0
+    },
+    {
+      "id": "bx-q24",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**Man dvidešimt penkeri metai.** Why *penkeri* rather than *penki*?",
+      "explanation": "*metai* has no singular, and plural-only nouns count with the collective numerals *vieneri, dveji, penkeri* (¶88, ¶89). The dative *man* marks whose age it is and has no say in the numeral's form; and *dvidešimt* would, if anything, pull towards the genitive plural of ¶80.",
+      "rulesTested": [
+        "metai-plurale",
+        "dative-of-age",
+        "cardinals-ten-up",
+        "numeral-case"
+      ],
+      "vocabUsed": [
+        "metai",
+        "penkeri",
+        "dvidešimt",
+        "man"
+      ],
+      "fromSection": "a1-years-age",
+      "options": [
+        "Because the speaker is female.",
+        "Because *metai* is a plural-only noun and takes the collective numeral.",
+        "Because the dative *man* requires it.",
+        "Because it follows *dvidešimt*."
+      ],
+      "correct": 1
+    },
+    {
+      "id": "bx-q25",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "**Gimiau tūkstantis devyni šimtai devyniasdešimt penktaisiais metais birželio penktą dieną.** How many of the numeral words in this date are **ordinals**?",
+      "explanation": "*penktaisiais* (of the year) and *penktą* (of the day) are ordinals; *tūkstantis*, *devyni* and *šimtai* are cardinals naming the number of the year, and *devyniasdešimt* is likewise cardinal (¶81, ¶91). Lithuanian marks only the last element of the year as an ordinal, which is what makes the count smaller than it looks.",
+      "rulesTested": [
+        "full-date-born",
+        "ordinals",
+        "year-when",
+        "months-and-dates"
+      ],
+      "vocabUsed": [
+        "gimti",
+        "metai",
+        "birželis",
+        "penktas",
+        "diena"
+      ],
+      "fromSection": "a1-years-age",
+      "answer": 2,
+      "unit": "words"
+    },
+    {
+      "id": "bx-q26",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Which sentence says ‘I work **on Mondays**’?",
+      "explanation": "Habitual, recurring time is the bare instrumental plural (¶76, ¶84). *pirmadienį* is the accusative and names one particular Monday (¶83); the locative of a weekday is not used this way, and *į* marks direction in space (¶61).",
+      "rulesTested": [
+        "instrumental-time-route",
+        "days-of-week",
+        "accusative-of-time",
+        "direction-i"
+      ],
+      "vocabUsed": [
+        "pirmadienis",
+        "dirbti",
+        "į"
+      ],
+      "fromSection": "a1-12",
+      "options": [
+        "Dirbu pirmadieniais.",
+        "Dirbu pirmadienį.",
+        "Dirbu pirmadienyje.",
+        "Dirbu į pirmadienį."
+      ],
+      "correct": 0
+    },
+    {
+      "id": "bx-q27",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**Šiandien šalta.** Why is the adjective *šalta* and not *šaltas* or *šalta diena*?",
+      "explanation": "The impersonal sentence has no subject for an adjective to agree with, so the non-gendered form is used (¶126, ¶127, ¶131). It looks like a feminine singular, which is precisely why option A is tempting — but *šalta diena* would be a noun phrase, not the weather statement this is.",
+      "rulesTested": [
+        "neuter-adjective",
+        "personal-vs-impersonal",
+        "impersonal-summary",
+        "weather-verbs"
+      ],
+      "vocabUsed": [
+        "šaltas",
+        "diena",
+        "šiandien"
+      ],
+      "fromSection": "a1-19",
+      "options": [
+        "Because *diena* is feminine and has been left out.",
+        "Because the sentence has no subject at all: this is the non-gendered form used impersonally.",
+        "Because adjectives lose their ending after adverbs of time.",
+        "Because *šiandien* is feminine."
+      ],
+      "correct": 1
+    },
+    {
+      "id": "bx-q28",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which sentences are impersonal — that is, have no nominative subject?",
+      "explanation": "Weather verbs stand alone (¶128); *skaudėti* takes a dative and an accusative of the part that hurts (¶129); *galima* is an impersonal predicate with an infinitive (¶130). D *looks* impersonal because of the dative, but *ši knyga* is a nominative subject — *patikti* is an ordinary personal verb whose subject is the thing liked (¶68, ¶127).",
+      "rulesTested": [
+        "weather-verbs",
+        "skaudeti",
+        "galima-reikia",
+        "personal-vs-impersonal",
+        "impersonal-summary",
+        "patikti"
+      ],
+      "vocabUsed": [
+        "lyti",
+        "skaudėti",
+        "dantis",
+        "galima",
+        "rūkyti",
+        "knyga",
+        "patikti",
+        "šis",
+        "man"
+      ],
+      "fromSection": "a1-19",
+      "options": [
+        "Lyja.",
+        "Man skauda dantį.",
+        "Čia galima rūkyti.",
+        "Ši knyga man patinka."
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "bx-q29",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**Niekas nieko nežino.** How many negatives does standard Lithuanian require here, and why?",
+      "explanation": "Lithuanian doubles — indeed triples — its negation as a matter of concord: *niekas*, *nieko* and *nežino* must all be negative (¶137). English does the opposite and cancels, which is why this sentence is so often corrected into ungrammaticality by learners.",
+      "rulesTested": [
+        "niekas-negation",
+        "negation",
+        "kas-declined"
+      ],
+      "vocabUsed": [
+        "niekas",
+        "žinoti"
+      ],
+      "fromSection": "a1-20",
+      "options": [
+        "One; the others are colloquial.",
+        "All of them: a negative pronoun requires the verb to be negated too.",
+        "Two; the verb may stay positive if a negative pronoun is present.",
+        "None; *niekas* is already negative enough."
+      ],
+      "correct": 1
+    },
+    {
+      "id": "bx-q30",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Which sentence uses **kuris** correctly rather than **koks**?",
+      "explanation": "*kuris* picks one out of a known, countable set — which of these buses (¶135); *koks* asks what kind or what something is like (¶51). B and C both want *koks*, and D asks for a definition rather than a selection.",
+      "rulesTested": [
+        "kuris",
+        "koks",
+        "sis-tas"
+      ],
+      "vocabUsed": [
+        "kuris",
+        "koks",
+        "autobusas",
+        "centras",
+        "oras",
+        "vardas",
+        "mokytojas"
+      ],
+      "fromSection": "a1-20",
+      "options": [
+        "Kuris autobusas važiuoja į centrą?",
+        "Kuris oras šiandien?",
+        "Kuris tavo vardas?",
+        "Kuris yra geras mokytojas?"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "bx-q31",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**Šis traukinys greitesnis negu tas.** Replace *negu* by *už* and adjust the sentence.",
+      "explanation": "*negu* is followed by the same case as the first term — here nominative *tas* — while *už* is a preposition and puts what follows into the **accusative**: *tą* (¶124, ¶141). The demonstrative declines like an adjective (¶132), so the accusative masculine singular is *tą*.",
+      "rulesTested": [
+        "comparison-negu",
+        "adjective-comparative",
+        "sis-tas",
+        "uz-accusative"
+      ],
+      "vocabUsed": [
+        "traukinys",
+        "greitas",
+        "negu",
+        "už",
+        "tas",
+        "šis"
+      ],
+      "fromSection": "a1-18",
+      "options": [
+        "Šis traukinys greitesnis už tą.",
+        "Šis traukinys greitesnis už tas.",
+        "Šis traukinys greitesnis už ta.",
+        "Šis traukinys greitesnis už tas yra."
+      ],
+      "correct": 0
+    },
+    {
+      "id": "bx-q32",
+      "type": "matching",
+      "difficulty": "hard",
+      "stem": "Match each word with what it is, grammatically.",
+      "explanation": "*gerai* is the adverb formed in *-ai* (¶119), *geriau* and *geriausiai* its comparative and superlative (¶123), and *geras* the adjective the adverb was formed from (¶121). Option B substitutes the adjectival superlative *geriausias*, which is not in the column — the difference between *geriausiai* and *geriausias* is the whole point of ¶123.",
+      "rulesTested": [
+        "adverb-formation",
+        "adverb-degree",
+        "adjective-comparative",
+        "adjective-superlative",
+        "adverb-kinds"
+      ],
+      "vocabUsed": [
+        "gerai",
+        "geras"
+      ],
+      "fromSection": "a1-18",
+      "columnHeadings": [
+        "Word",
+        "What it is"
+      ],
+      "columnI": [
+        "**gerai**",
+        "**geriau**",
+        "**geriausiai**",
+        "**geras**"
+      ],
+      "columnII": [
+        "adverb, positive degree",
+        "adverb, comparative",
+        "adverb, superlative",
+        "adjective, positive degree",
+        "adjective, superlative"
+      ],
+      "options": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          4
+        ],
+        [
+          3,
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          2,
+          1,
+          3
+        ]
+      ],
+      "correct": 0
+    },
+    {
+      "id": "bx-q33",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Which adverb is formed with the suffix that means ‘in the manner of’ a language or people?",
+      "explanation": "*-iškai* forms adverbs of manner from nouns, and is the regular way of saying ‘in English’, ‘in Lithuanian’ (¶120). *greitai* is the ordinary *-ai* adverb of ¶119; *toli* and *truputį* are adverbs of place and degree that are not derived this way at all (¶125).",
+      "rulesTested": [
+        "adverbs-iskai",
+        "adverb-formation",
+        "adverb-kinds"
+      ],
+      "vocabUsed": [
+        "angliškai",
+        "greitai",
+        "toli",
+        "truputį"
+      ],
+      "fromSection": "a1-18",
+      "options": [
+        "angliškai",
+        "greitai",
+        "toli",
+        "truputį"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "bx-q34",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "**Kiekvienas studentas turi knygą.** What does replacing *kiekvienas* by *visi* force?",
+      "explanation": "*kiekvienas* ‘each’ is singular and *visas/visi* ‘all’ is plural, so the subject and its verb follow (¶136, ¶57). The object need not change: each student may have one book.",
+      "rulesTested": [
+        "visas-kiekvienas",
+        "verb-number",
+        "plural-nominative"
+      ],
+      "vocabUsed": [
+        "kiekvienas",
+        "visas",
+        "studentas",
+        "knyga",
+        "turėti"
+      ],
+      "fromSection": "a1-20",
+      "options": [
+        "Nothing; the sentence is unchanged apart from the word.",
+        "The noun and verb must become plural: *Visi studentai turi knygą*.",
+        "The object must become plural.",
+        "The verb must become singular."
+      ],
+      "correct": 1
+    },
+    {
+      "id": "bx-q35",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**Nežinau, ar jis ateis.** Why *ar* and not *kad*?",
+      "explanation": "*kad* introduces a statement — *žinau, kad jis ateis* — while an embedded yes-or-no question keeps the *ar* it would have as a direct question (¶109, ¶110, ¶48). The negation of the main verb is what makes the question reading natural, but it is not what selects *ar*.",
+      "rulesTested": [
+        "indirect-questions",
+        "subordination-kad",
+        "ar-questions",
+        "future-uses"
+      ],
+      "vocabUsed": [
+        "žinoti",
+        "ar",
+        "kad",
+        "ateiti"
+      ],
+      "fromSection": "a1-15",
+      "options": [
+        "Because *kad* cannot follow a negated verb.",
+        "Because the subordinate clause is an indirect **question**, and *ar* is the word for an embedded yes-or-no question.",
+        "Because *ar* is required before a future tense.",
+        "Because *kad* is only used in spoken Lithuanian."
+      ],
+      "correct": 1
+    },
+    {
+      "id": "bx-q36",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Which conjunction fits: **Jis nedirba, ___ jis serga**?",
+      "explanation": "*nes* gives the cause and stands before it (¶107). *todėl* gives the consequence and would need the clauses reversed — *jis serga, todėl nedirba*. *o* contrasts (¶105) and *arba* offers an alternative (¶106); neither states a reason.",
+      "rulesTested": [
+        "nes-todel",
+        "coordinating-conjunctions",
+        "o-contrast",
+        "arba-ar"
+      ],
+      "vocabUsed": [
+        "nes",
+        "todėl",
+        "o",
+        "arba",
+        "dirbti",
+        "sirgti"
+      ],
+      "fromSection": "a1-15",
+      "options": [
+        "nes",
+        "todėl",
+        "o",
+        "arba"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "bx-q37",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "**Aš geriu arbatą, o jis geria kavą.** Which statements are true?",
+      "explanation": "*o* is the conjunction of parallel contrast — this one, that one (¶105). *ir* merely adds (¶104) and *bet* cancels an expectation, which is a different relation, so neither is a free substitute. Pronouns are usually droppable (¶46), but a contrast is exactly the case where they are kept.",
+      "rulesTested": [
+        "o-contrast",
+        "coordinating-conjunctions",
+        "pronoun-omission",
+        "present-conj-i"
+      ],
+      "vocabUsed": [
+        "o",
+        "ir",
+        "bet",
+        "gerti",
+        "arbata",
+        "kava",
+        "aš",
+        "jis"
+      ],
+      "fromSection": "a1-15",
+      "options": [
+        "*o* here marks a contrast between two parallel statements.",
+        "*o* could be replaced by *ir* with no change of meaning.",
+        "*o* could be replaced by *bet* with no change of meaning.",
+        "Both clauses have their subject expressed, which the contrast makes natural."
+      ],
+      "correct": [
+        0,
+        3
+      ]
+    },
+    {
+      "id": "bx-q38",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "The genitive of **žodis** is **žodžio**. Which statements about the written form are both true?",
+      "explanation": "**dž** is a digraph for a single affricate but is not itself a letter — it files under **d** (¶1, ¶5). The **i** stands between a consonant and the back vowel **o**, so it marks softness and is not pronounced (¶6). The spelling of a case ending is still a matter of ¶1–¶6 at the end of A1.",
+      "rulesTested": [
+        "digraphs",
+        "soft-i",
+        "alphabet",
+        "genitive-endings"
+      ],
+      "vocabUsed": [
+        "žodis"
+      ],
+      "fromSection": "a1-01",
+      "options": [
+        "**dž** spells one sound, and the **i** before **o** is silent.",
+        "**dž** spells two sounds, and the **i** is a vowel.",
+        "**dž** spells one sound, and the **i** is a vowel forming *io*.",
+        "**dž** is a letter of the alphabet, and the **i** is silent."
+      ],
+      "correct": 0
+    },
+    {
+      "id": "bx-q39",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Why can the stress of **kalba** not be read off the page?",
+      "explanation": "Stress may fall on any syllable and shifts between the forms of one word — *kalbà* against *kal̃bos* (¶9). That is why a dictionary marks it and why vocabulary is learned with it, exactly as a noun is learned with its gender (¶10).",
+      "rulesTested": [
+        "stress",
+        "vowel-length",
+        "noun-gender"
+      ],
+      "vocabUsed": [
+        "kalba",
+        "kirtis"
+      ],
+      "fromSection": "a1-01",
+      "options": [
+        "Because the word is foreign.",
+        "Because Lithuanian stress is free and mobile, so it must be learned with each form.",
+        "Because the first syllable is always stressed in two-syllable words.",
+        "Because the word has no long vowel."
+      ],
+      "correct": 1
+    },
+    {
+      "id": "bx-q40",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "A learner writes *neturiu laika*. Which two rules has the form *laika* broken?",
+      "explanation": "The negated *turėti* requires the genitive *laiko* (¶26, ¶31); had the learner meant the accusative it would be *laiką*, with the hook (¶3, ¶20). *laika* is neither, which is what makes the error a spelling failure and a case failure at once.",
+      "rulesTested": [
+        "negation-genitive",
+        "genitive-negation",
+        "nosine",
+        "accusative-nouns"
+      ],
+      "vocabUsed": [
+        "turėti",
+        "laikas"
+      ],
+      "fromSection": "a1-03",
+      "options": [
+        "The genitive after negation, and the writing of the nosinė.",
+        "The accusative after a positive verb, and vowel length.",
+        "The genitive of quantity, and the softening i.",
+        "Nothing: *laika* is a possible form."
+      ],
+      "correct": 0
+    },
+    {
+      "id": "bx-q41",
+      "type": "matching",
+      "difficulty": "hard",
+      "stem": "Match each verb with its conjugation, judged by the third-person present.",
+      "explanation": "The conjugation is read off the **present** ending, not the infinitive: *dirba* and *moka* are first (-a), *nori* second (-i), *skaito* third (-o) (¶23, ¶35–¶38). *norėti* and *mokėti* share an infinitive shape and belong to different conjugations, which is the confusion the item is built on; option B is what a learner produces by sorting on *-ėti*.",
+      "rulesTested": [
+        "conjugations",
+        "conjugation-summary",
+        "present-stem",
+        "present-conj-i",
+        "present-conj-ii",
+        "present-conj-iii"
+      ],
+      "vocabUsed": [
+        "dirbti",
+        "norėti",
+        "skaityti",
+        "mokėti"
+      ],
+      "fromSection": "a1-05",
+      "columnHeadings": [
+        "Verb (infinitive, 3rd sg. present)",
+        "Conjugation"
+      ],
+      "columnI": [
+        "**dirbti, dirba**",
+        "**norėti, nori**",
+        "**skaityti, skaito**",
+        "**mokėti, moka**"
+      ],
+      "columnII": [
+        "first (-a)",
+        "second (-i)",
+        "third (-o)",
+        "irregular, outside the three conjugations"
+      ],
+      "options": [
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          2,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          3
+        ]
+      ],
+      "correct": 0
+    },
+    {
+      "id": "bx-q42",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**Mėgstu skaityti** and **Mėgstu knygas** both follow *mėgti*. What does the pair show?",
+      "explanation": "*mėgti* and *norėti* take an accusative for a thing and a bare infinitive for an activity (¶39, ¶40). The infinitive is not inflected and is not an accusative in disguise — it simply completes the verb.",
+      "rulesTested": [
+        "wanting-liking",
+        "complementary-infinitive",
+        "transitive-objects",
+        "accusative-nouns"
+      ],
+      "vocabUsed": [
+        "mėgti",
+        "skaityti",
+        "knyga"
+      ],
+      "fromSection": "a1-05",
+      "options": [
+        "that *mėgti* is irregular",
+        "that *mėgti* takes either an accusative object or a complementary infinitive",
+        "that the infinitive is a kind of accusative",
+        "that *skaityti* is a noun here"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "bx-q43",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Where does **niekada** normally stand in **Jis niekada nevalgo duonos**?",
+      "explanation": "*niekada* is one of the negative words that require the verb to stay negated (¶137, ¶41), and it sits before the verb it modifies. The object *duonos* is genitive because the verb is negated (¶26) — a second consequence of the same negation.",
+      "rulesTested": [
+        "frequency-adverbs",
+        "niekas-negation",
+        "negation",
+        "negation-genitive"
+      ],
+      "vocabUsed": [
+        "niekada",
+        "valgyti",
+        "duona"
+      ],
+      "fromSection": "a1-05",
+      "options": [
+        "Before the negated verb, with the verb still negated.",
+        "After the verb, and the verb becomes positive.",
+        "At the end of the sentence only.",
+        "Before the subject, and the verb becomes positive."
+      ],
+      "correct": 0
+    },
+    {
+      "id": "bx-p1",
+      "type": "comprehension",
+      "difficulty": "hard",
+      "title": "Laiškas iš Vilniaus",
+      "passage": "Labas, Tomai!\n\nRašau tau iš Vilniaus. Atvažiavau čia pernai ir dabar gyvenu mažame bute centre. Butas nėra didelis, bet man jis patinka: pro langą matau seną parką.\n\nKiekvieną rytą einu į universitetą pėsčiomis, o vakarais grįžtu namo autobusu, nes būna šalta. Pirmadieniais ir trečiadieniais mokausi lietuvių kalbos. Mokytoja sako, kad kalbu jau geriau negu pernai, bet man vis dar sunku.\n\nJeigu turėčiau daugiau laiko, skaityčiau lietuviškas knygas. Dabar neturiu laiko — dirbu ir mokausi.\n\nKada tu atvažiuosi? Parašyk man!\n\nTavo Rūta",
+      "glossary": {
+        "pro": "through",
+        "pėsčiomis": "on foot",
+        "vis dar": "still",
+        "daugiau": "more",
+        "būna": "it tends to be",
+        "trečiadieniais": "on Wednesdays",
+        "namo": "homewards"
+      },
+      "questions": [
+        {
+          "id": "bx-p1-c1",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Kur gyvena Rūta?",
+          "explanation": "*dabar gyvenu mažame bute centre.* The park is what she sees through the window, not where she lives.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "fromSection": "a1-09",
+          "options": [
+            "dideliame name",
+            "mažame bute centre",
+            "pas Tomą",
+            "prie parko"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "bx-p1-c2",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Kada Rūta atvažiavo į Vilnių?",
+          "explanation": "*Atvažiavau čia pernai* — and the comparison later, *geriau negu pernai*, measures from the same point.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "fromSection": "a1-13",
+          "options": [
+            "šiemet",
+            "pernai",
+            "prieš mėnesį",
+            "prieš savaitę"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "bx-p1-q1",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "**gyvenu mažame bute** — why is *bute* in the locative and *mažame* agreeing with it?",
+          "explanation": "Position is the bare locative (¶59); no preposition is missing (¶62). The adjective agrees in gender, number **and case** (¶17, ¶56), which is what gives *mažame* rather than *mažas*.",
+          "rulesTested": [
+            "locative-singular",
+            "adjective-agreement",
+            "place-prepositions"
+          ],
+          "vocabUsed": [
+            "gyventi",
+            "butas",
+            "mažas"
+          ],
+          "options": [
+            "Because *gyventi* governs the locative as a matter of lexical government.",
+            "Because the locative answers *kur* without a preposition, and an attributive adjective agrees with its noun in case.",
+            "Because *mažame* is a fixed form used with all locatives.",
+            "Because the preposition has been left out."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "bx-p1-q2",
+          "type": "single",
+          "difficulty": "hard",
+          "stem": "**vakarais** and **Kiekvieną rytą** are both time expressions. Why are they in different cases?",
+          "explanation": "Habitual, repeated time takes the bare instrumental plural (¶76); a named occasion takes the accusative of time (¶83). Both are recurring in sense here, so the contrast is not one of meaning but of which construction the language uses — *kiekvienas* selects the accusative pattern but does not itself cause the case.",
+          "rulesTested": [
+            "instrumental-time-route",
+            "accusative-of-time",
+            "visas-kiekvienas"
+          ],
+          "vocabUsed": [
+            "vakaras",
+            "rytas",
+            "kiekvienas"
+          ],
+          "options": [
+            "*vakarais* is instrumental for recurring time; *kiekvieną rytą* is accusative because *kiekvienas* forces it.",
+            "*vakarais* is instrumental for recurring time; *kiekvieną rytą* is the accusative of time, naming an occasion.",
+            "They are interchangeable and the writer varies them for style.",
+            "*vakarais* is a plural noun and *rytą* a singular one, which is the whole difference."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "bx-p1-q3",
+          "type": "integer",
+          "difficulty": "hard",
+          "stem": "In the sentence **Jeigu turėčiau daugiau laiko, skaityčiau lietuviškas knygas**, how many verbs stand in the conditional?",
+          "explanation": "*turėčiau* and *skaityčiau* — both clauses of an unreal condition take the conditional (¶116, ¶118a). A learner who expects the English pattern, with a past tense in the *if*-clause and a modal in the main clause, counts one.",
+          "rulesTested": [
+            "conditional-formation",
+            "conditional-jeigu",
+            "condition-jei"
+          ],
+          "vocabUsed": [
+            "jeigu",
+            "turėti",
+            "skaityti"
+          ],
+          "answer": 2,
+          "unit": "verbs"
+        },
+        {
+          "id": "bx-p1-q4",
+          "type": "single",
+          "difficulty": "hard",
+          "stem": "**Dabar neturiu laiko** — and earlier, **daugiau laiko**. The same genitive appears twice for different reasons. Which pair is right?",
+          "explanation": "*daugiau laiko* is a quantity word governing the genitive (¶32); *neturiu laiko* is an accusative object converted by negation (¶26, ¶31). The form is identical and the reason is not, which is why the two rules have to be held apart.",
+          "rulesTested": [
+            "genitive-quantity",
+            "genitive-negation",
+            "negation-genitive",
+            "genitive-endings"
+          ],
+          "vocabUsed": [
+            "daug",
+            "laikas",
+            "turėti"
+          ],
+          "options": [
+            "Both are the genitive after negation.",
+            "The first is the genitive of quantity after *daugiau*; the second is the genitive after a negated verb.",
+            "Both are the partitive genitive.",
+            "The first is a possessive genitive; the second follows a preposition."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "bx-p1-q5",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "**Parašyk man!** What is this form, and what case is *man*?",
+          "explanation": "The *-k* ending is the imperative addressed to one person (¶112); the plural would be *parašykite*. *man* is the dative of the indirect object — the person written **to** (¶66, ¶67).",
+          "rulesTested": [
+            "imperative-formation",
+            "indirect-object",
+            "dative-pronouns"
+          ],
+          "vocabUsed": [
+            "parašyti",
+            "man"
+          ],
+          "options": [
+            "Second-person singular imperative; *man* is dative.",
+            "Second-person plural imperative; *man* is dative.",
+            "Future tense; *man* is accusative.",
+            "Conditional; *man* is dative."
+          ],
+          "correct": 0
+        }
+      ],
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course.",
+          "note": "A letter written for this examination; every construction in it is taught in A1."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+          "note": "Case government, the conditional, and the time expressions the passage turns on."
+        }
+      ],
+      "translation": "Hello, Tomas! I'm writing to you from Vilnius. I came here last year and now I live in a small flat in the centre. The flat isn't big, but I like it: through the window I can see an old park. Every morning I walk to the university, and in the evenings I come home by bus, because it tends to be cold. On Mondays and Wednesdays I study Lithuanian. My teacher says I speak better than last year, but it's still hard for me. If I had more time, I would read Lithuanian books. Right now I have no time — I work and I study. When will you come? Write to me! Yours, Rūta",
+      "fromSection": "a1-09"
+    },
+    {
+      "id": "bx-p2",
+      "type": "comprehension",
+      "difficulty": "hard",
+      "title": "Kavinėje",
+      "passage": "PADAVĖJAS. Laba diena! Ko norėtumėte?\nEGLĖ. Laba diena. Norėčiau puodelio kavos ir vieno obuolio.\nPADAVĖJAS. Su cukrumi?\nEGLĖ. Ne, ačiū, be cukraus. Kiek kainuoja?\nPADAVĖJAS. Keturi eurai. Ar mokėsite kortele?\nEGLĖ. Taip. Atsiprašau, o kur yra tualetas?\nPADAVĖJAS. Tiesiai ir po laiptais, ponia.\nEGLĖ. Ačiū už pagalbą!",
+      "glossary": {
+        "kainuoja": "costs",
+        "kortele": "by card",
+        "eurai": "euros",
+        "laiptais": "stairs",
+        "pagalba": "help",
+        "tualetas": "toilet",
+        "ponia": "madam",
+        "padavėjas": "waiter",
+        "Eglė": "Eglė, a woman's name"
+      },
+      "questions": [
+        {
+          "id": "bx-p2-c1",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Kiek kainuoja užsakymas?",
+          "explanation": "*Keturi eurai.* The waiter answers the question *Kiek kainuoja?* directly.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "fromSection": "a1-12",
+          "options": [
+            "du eurai",
+            "keturi eurai",
+            "penki eurai",
+            "nesakoma"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "bx-p2-c2",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Kaip Eglė geria kavą?",
+          "explanation": "*Ne, ačiū, be cukraus.* *Be* takes the genitive, *su* the instrumental — the two prepositions frame the exchange.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "fromSection": "a1-04",
+          "options": [
+            "su cukrumi",
+            "be cukraus",
+            "su pienu",
+            "nesakoma"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "bx-p2-q1",
+          "type": "single",
+          "difficulty": "hard",
+          "stem": "**Norėčiau puodelio kavos** contains two genitives in a row. What is each doing?",
+          "explanation": "*norėti* takes the genitive of what is wanted in part (¶32, ¶39), and a container word then governs a further genitive of its contents — *a cup of coffee* (¶32). Nothing is negated and no preposition is missing; the mood is conditional for politeness (¶117) and does not govern case at all.",
+          "rulesTested": [
+            "genitive-quantity",
+            "wanting-liking",
+            "conditional-politeness",
+            "genitive-endings"
+          ],
+          "vocabUsed": [
+            "norėti",
+            "puodelis",
+            "kava",
+            "obuolys"
+          ],
+          "options": [
+            "Both follow the conditional mood.",
+            "*puodelio* is a partitive after the verb; *kavos* depends on *puodelio* as a genitive of quantity.",
+            "*puodelio* is possessive; *kavos* follows a negation.",
+            "Both are governed by a preposition that has been left out."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "bx-p2-q2",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "**be cukraus** and **su cukrumi** put the same noun in two cases. Which rule pair explains it?",
+          "explanation": "*be* ‘without’ is one of the genitive prepositions (¶33); *su* ‘with’ governs the instrumental of company (¶74). The pair is the clearest case in A1 of two prepositions of opposite meaning taking different cases.",
+          "rulesTested": [
+            "genitive-prepositions",
+            "instrumental-su",
+            "instrumental-singular"
+          ],
+          "vocabUsed": [
+            "be",
+            "su",
+            "cukrus"
+          ],
+          "options": [
+            "*be* takes the genitive; *su* takes the instrumental.",
+            "*be* takes the accusative; *su* takes the genitive.",
+            "Both take the instrumental; *cukraus* is irregular.",
+            "*be* takes the genitive; *su* takes the dative."
+          ],
+          "correct": 0
+        },
+        {
+          "id": "bx-p2-q3",
+          "type": "single",
+          "difficulty": "hard",
+          "stem": "**Ar mokėsite kortele?** Identify the tense and the reason for the case of *kortele*.",
+          "explanation": "*mokėsite* is the *-s-* future in the polite plural (¶99, ¶45); the card is the means of payment, a bare instrumental (¶73). *mokėti* here is ‘to pay’ — the same shape as *mokėti* ‘to know how’, which is a lexical trap rather than a grammatical one.",
+          "rulesTested": [
+            "future-formation",
+            "instrumental-means",
+            "polite-jus"
+          ],
+          "vocabUsed": [
+            "mokėti",
+            "ar"
+          ],
+          "options": [
+            "Future; instrumental of means.",
+            "Present; instrumental of company.",
+            "Future; accusative object.",
+            "Conditional; instrumental of means."
+          ],
+          "correct": 0
+        },
+        {
+          "id": "bx-p2-q4",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "**ponia** at the end of the assistant's line is:",
+          "explanation": "A person addressed directly stands in the vocative (¶78). Second-declension feminines have a vocative in *-a* that coincides with the nominative, which is why it must be identified by its function in the sentence rather than by its ending.",
+          "rulesTested": [
+            "vocative",
+            "nominative"
+          ],
+          "vocabUsed": [
+            "ponas"
+          ],
+          "options": [
+            "a nominative used as a subject",
+            "a vocative of address",
+            "an accusative object",
+            "a dative of the person addressed"
+          ],
+          "correct": 1
+        }
+      ],
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course.",
+          "note": "A café exchange written for this examination."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+          "note": "Preposition government, the vocative, and the partitive genitive."
+        }
+      ],
+      "translation": "— Good day! What would you like? — Good day. I'd like a cup of coffee and one apple. — With sugar? — No thank you, without sugar. How much is it? — Four euros. Will you pay by card? — Yes. Excuse me, where is the toilet? — Straight on and under the stairs, madam. — Thanks for your help!",
+      "fromSection": "a1-21"
+    },
+    {
+      "id": "bx-q44",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "**Lietuva** is feminine and **miestas** masculine. What tells you so?",
+      "explanation": "Gender is largely predictable from the nominative ending: *-a* and *-ė* are feminine, *-as*, *-is*, *-us* masculine (¶10, ¶11). The exceptions exist and are learned with the word, but the ending is the rule, not a coincidence.",
+      "rulesTested": [
+        "noun-gender",
+        "noun-endings",
+        "nominative"
+      ],
+      "vocabUsed": [
+        "Lietuva",
+        "miestas"
+      ],
+      "fromSection": "a1-02",
+      "options": [
+        "Their meanings.",
+        "Their nominative singular endings, which is where gender is read off.",
+        "Their genitive endings only.",
+        "Nothing; gender must be memorised for every noun."
+      ],
+      "correct": 1
+    },
+    {
+      "id": "bx-q45",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Lithuanian has no word for *the*. How is **Knyga ant stalo** to be understood?",
+      "explanation": "There is no article, and definiteness is carried by context, word order or a demonstrative when it must be made explicit (¶12, ¶132). Insisting on one reading imports an English category the sentence does not have.",
+      "rulesTested": [
+        "no-article",
+        "sis-tas",
+        "place-prepositions",
+        "genitive-prepositions"
+      ],
+      "vocabUsed": [
+        "knyga",
+        "stalas",
+        "ant"
+      ],
+      "fromSection": "a1-02",
+      "options": [
+        "Only as ‘A book is on a table’.",
+        "Only as ‘The book is on the table’.",
+        "As either, definiteness being left to context.",
+        "As neither; the sentence needs a demonstrative to be complete."
+      ],
+      "correct": 2
+    },
+    {
+      "id": "bx-q46",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "**Jis iš Lietuvos.** What is the genitive doing?",
+      "explanation": "*iš* governs the genitive and the phrase states where someone is from (¶30, ¶33). The same ending would mark possession in *Lietuvos miestas* ‘a city of Lithuania’ — the case is one, the constructions several.",
+      "rulesTested": [
+        "genitive-origin",
+        "genitive-prepositions",
+        "genitive-possession"
+      ],
+      "vocabUsed": [
+        "iš",
+        "Lietuva"
+      ],
+      "fromSection": "a1-04",
+      "options": [
+        "marking possession",
+        "marking origin, governed by *iš*",
+        "marking quantity",
+        "marking the object of a negated verb"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "bx-q47",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "**Vaikai miega.** Which statement about the verb is correct?",
+      "explanation": "The third person has **one** form for both numbers: *jis miega*, *jie miega* (¶57). This is why the subject cannot be dropped as freely in the third person as in the first and second (¶46) — the ending no longer identifies it.",
+      "rulesTested": [
+        "verb-number",
+        "plural-nominative",
+        "pronoun-omission"
+      ],
+      "vocabUsed": [
+        "vaikas",
+        "miegoti"
+      ],
+      "fromSection": "a1-08",
+      "options": [
+        "It is singular, agreeing with a collective noun.",
+        "It is third person, which in Lithuanian does not distinguish singular from plural.",
+        "It is plural and would be *miegi* in the singular.",
+        "It is an impersonal form."
+      ],
+      "correct": 1
+    },
+    {
+      "id": "bx-q48",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**Duok man tą knygą.** Identify the case of each of the three words after the verb.",
+      "explanation": "*man* is the dative of the recipient (¶66, ¶67); *tą knygą* is the accusative direct object, the demonstrative agreeing with its noun (¶20, ¶132). The imperative *duok* changes none of this — mood does not govern case (¶112).",
+      "rulesTested": [
+        "indirect-object",
+        "dative-pronouns",
+        "accusative-nouns",
+        "sis-tas",
+        "imperative-formation"
+      ],
+      "vocabUsed": [
+        "duoti",
+        "man",
+        "tas",
+        "knyga"
+      ],
+      "fromSection": "a1-10",
+      "options": [
+        "dative, accusative, accusative",
+        "accusative, accusative, accusative",
+        "dative, genitive, accusative",
+        "dative, accusative, nominative"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "bx-q49",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Which sentence means ‘I am going **to** the doctor’s’?",
+      "explanation": "Motion towards a **person** is *pas* + accusative (¶139); *į* + accusative is for places (¶61). *gydytojui* is a dative recipient and *su gydytoju* means going in the doctor's company (¶74).",
+      "rulesTested": [
+        "pas-accusative",
+        "direction-i",
+        "indirect-object",
+        "instrumental-su"
+      ],
+      "vocabUsed": [
+        "pas",
+        "gydytojas",
+        "eiti",
+        "į",
+        "su"
+      ],
+      "fromSection": "a1-21",
+      "options": [
+        "Einu pas gydytoją.",
+        "Einu į gydytoją.",
+        "Einu gydytojui.",
+        "Einu su gydytoju."
+      ],
+      "correct": 0
+    },
+    {
+      "id": "bx-q50",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**Kaip tu jautiesi?** — the verb is reflexive. What happens to the reflexive element under negation?",
+      "explanation": "The reflexive affix sits at the end of a simple verb but migrates inside, after the prefix, when one is added — including the negative *ne-* (¶145). *nesijauti* is therefore the standard form, and *nejautiesi* the error the rule exists to prevent.",
+      "rulesTested": [
+        "reflexive-phrases",
+        "negation",
+        "present-conj-ii"
+      ],
+      "vocabUsed": [
+        "jaustis",
+        "kaip"
+      ],
+      "fromSection": "a1-21",
+      "options": [
+        "It disappears.",
+        "It moves from the end of the verb to a position after the negative prefix: *nesijauti*.",
+        "It stays at the end: *nejautiesi*.",
+        "It doubles, appearing in both positions."
+      ],
+      "correct": 1
+    },
+    {
+      "id": "bx-q51",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**Vakar jis nuėjo į teatrą, o paskui grįžo namo.** Which sequence of tenses does the sentence use, and what marks it?",
+      "explanation": "*nuėjo* and *grįžo* are both *-o* pasts (¶94); the tense is carried by the endings, and the adverbs *vakar* and *paskui* only order the events within it (¶98). Option D gets the tense right for the wrong reason — remove *vakar* and the sentence is still past.",
+      "rulesTested": [
+        "past-o-type",
+        "past-narrative",
+        "past-stem",
+        "coordinating-conjunctions"
+      ],
+      "vocabUsed": [
+        "vakar",
+        "paskui",
+        "eiti",
+        "grįžti",
+        "teatras",
+        "o"
+      ],
+      "fromSection": "a1-13",
+      "options": [
+        "present throughout, marked by *vakar*",
+        "past throughout, marked by the verb endings, with *vakar* and *paskui* ordering the events",
+        "past then future, marked by *paskui*",
+        "past throughout, marked by *vakar* alone"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "bx-q52",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Which is the future of **būti** in the third person?",
+      "explanation": "*bus* is the future (¶101); *buvo* is the past (¶96), *yra* the present (¶15) and *būtų* the conditional (¶116). *būti* is irregular enough in each tense that the four forms have to be known as a set.",
+      "rulesTested": [
+        "future-buti",
+        "past-buti",
+        "buti-present",
+        "conditional-formation"
+      ],
+      "vocabUsed": [
+        "būti"
+      ],
+      "fromSection": "a1-14",
+      "options": [
+        "bus",
+        "buvo",
+        "yra",
+        "būtų"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "bx-q53",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "**Rytoj nedirbsiu.** Where does the negation stand relative to the future marker?",
+      "explanation": "The negative prefix attaches to the front of the finished verb, whatever its tense: *ne-* + *dirbsiu* (¶102, ¶99). This is the same rule as in the present and the past (¶25, ¶97), which is why it is worth stating once for all three.",
+      "rulesTested": [
+        "future-negation",
+        "future-formation",
+        "negation",
+        "past-negation"
+      ],
+      "vocabUsed": [
+        "rytoj",
+        "dirbti"
+      ],
+      "fromSection": "a1-14",
+      "options": [
+        "Before the whole verb, prefixed: *ne-* + *dirbsiu*.",
+        "After the *-s-*, inside the verb.",
+        "As a separate word before the verb.",
+        "The future cannot be negated; the present is used instead."
+      ],
+      "correct": 0
+    },
+    {
+      "id": "bx-q54",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**Šiandien lyja, todėl liksiu namie.** Which analysis is right?",
+      "explanation": "*lyja* has no subject at all and cannot take one (¶128, ¶131); *todėl* introduces the consequence (¶107) and *liksiu* is a first-person future (¶99) with an ordinary subject that has merely been dropped (¶46). So exactly one of the two clauses is impersonal.",
+      "rulesTested": [
+        "weather-verbs",
+        "impersonal-summary",
+        "nes-todel",
+        "future-formation",
+        "pronoun-omission"
+      ],
+      "vocabUsed": [
+        "lyti",
+        "todėl",
+        "likti",
+        "namie",
+        "šiandien"
+      ],
+      "fromSection": "a1-19",
+      "options": [
+        "An impersonal weather verb, then a consequence clause with the future.",
+        "A personal verb with a dropped subject, then a purpose clause.",
+        "An impersonal verb, then a conditional.",
+        "Two impersonal clauses."
+      ],
+      "correct": 0
+    },
+    {
+      "id": "bx-q55",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "**Prašom nerūkyti** appears on a sign. What form is *nerūkyti*?",
+      "explanation": "Public notices use *prašom* with the infinitive, which addresses nobody in particular (¶115). The plural imperative *nerūkykite* would address the reader directly, which is why the infinitive is preferred on signs.",
+      "rulesTested": [
+        "imperative-notices",
+        "imperative-negative",
+        "imperative-formation"
+      ],
+      "vocabUsed": [
+        "prašom",
+        "rūkyti"
+      ],
+      "fromSection": "a1-16",
+      "options": [
+        "a negated infinitive, used for a general instruction",
+        "a negated second-person plural imperative",
+        "a negated third-person imperative",
+        "a negated present tense"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "bx-q56",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "**Tegu jis ateina.** What does *tegu* do?",
+      "explanation": "*tegu* (or the prefix *te-*) forms a command aimed at a third person, who is not the one being spoken to (¶113). The verb after it stays in the present indicative — the mood is carried by the particle.",
+      "rulesTested": [
+        "imperative-third-person",
+        "imperative-formation",
+        "particles"
+      ],
+      "vocabUsed": [
+        "tegu",
+        "ateiti"
+      ],
+      "fromSection": "a1-16",
+      "options": [
+        "It forms a third-person imperative — ‘let him come’.",
+        "It marks a polite request to the listener.",
+        "It negates the verb.",
+        "It marks the future."
+      ],
+      "correct": 0
+    },
+    {
+      "id": "bx-q57",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "**Tas pats žmogus** and **tas žmogus** differ how?",
+      "explanation": "*tas pats* is the fixed expression for identity — the same one — while *tas* alone merely points (¶138, ¶132). Both parts decline, so ‘the same book’ is *ta pati knyga*.",
+      "rulesTested": [
+        "tas-pats",
+        "sis-tas",
+        "adjective-agreement"
+      ],
+      "vocabUsed": [
+        "tas",
+        "žmogus"
+      ],
+      "fromSection": "a1-20",
+      "options": [
+        "Not at all; *pats* is an optional emphasis.",
+        "*tas pats* means ‘the same’; *tas* alone means ‘that’.",
+        "*tas pats* is plural.",
+        "*tas pats* is the polite form."
+      ],
+      "correct": 1
+    },
+    {
+      "id": "bx-q58",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**Jis kalba lietuviškai geriau negu aš.** Why is *aš* nominative rather than accusative?",
+      "explanation": "*negu* joins two terms and does not govern case, so the pronoun matches *jis*, the nominative it is compared with (¶124). Replace *negu* by the preposition *už* and the accusative *mane* becomes obligatory — which is the contrast the rule exists to draw.",
+      "rulesTested": [
+        "comparison-negu",
+        "adverb-degree",
+        "pronouns-cases",
+        "uz-accusative"
+      ],
+      "vocabUsed": [
+        "negu",
+        "kalbėti",
+        "lietuviškai",
+        "aš",
+        "gerai"
+      ],
+      "fromSection": "a1-18",
+      "options": [
+        "Because *negu* is a conjunction, not a preposition: what follows it keeps the case of what it is compared with.",
+        "Because pronouns have no accusative.",
+        "Because the sentence is a comparison of adverbs, which suspends case.",
+        "Because *aš* is the subject of the sentence."
+      ],
+      "correct": 0
+    },
+    {
+      "id": "bx-q59",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Which noun is in the **locative plural**?",
+      "explanation": "*-uose* is the locative plural of the first declension (¶60). *miestus* is accusative plural (¶54), *miestams* dative plural and *miestais* instrumental plural (¶72) — the four plural endings that are most often confused with one another.",
+      "rulesTested": [
+        "locative-plural",
+        "plural-accusative",
+        "dative-plural"
+      ],
+      "vocabUsed": [
+        "miestas"
+      ],
+      "fromSection": "a1-09",
+      "options": [
+        "miestuose",
+        "miestus",
+        "miestams",
+        "miestais"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "bx-q60",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "**Čia** and **ten** are:",
+      "explanation": "They are adverbs: they answer *kur* directly and take no ending at all (¶63). *šis* and *tas* are the corresponding demonstratives (¶132), which do decline — the pair of systems is easy to conflate.",
+      "rulesTested": [
+        "place-adverbs",
+        "sis-tas",
+        "locative-singular"
+      ],
+      "vocabUsed": [
+        "čia",
+        "ten"
+      ],
+      "fromSection": "a1-09",
+      "options": [
+        "place adverbs, answering *kur* without a case ending",
+        "prepositions governing the locative",
+        "demonstrative pronouns",
+        "locative forms of nouns"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "bx-q61",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**Man reikia eiti** and **Man reikia pinigų** both follow *reikia*. What governs the difference in what comes after it?",
+      "explanation": "*reikia* is impersonal and takes a dative of the person throughout (¶69, ¶130); what is needed appears as a bare infinitive if it is an action and as a genitive if it is a thing (¶40). Both are complements of the same impersonal verb.",
+      "rulesTested": [
+        "reikia",
+        "galima-reikia",
+        "complementary-infinitive",
+        "genitive-quantity",
+        "other-dative-verbs"
+      ],
+      "vocabUsed": [
+        "reikia",
+        "eiti",
+        "pinigai",
+        "man"
+      ],
+      "fromSection": "a1-10",
+      "options": [
+        "An infinitive when an action is needed, a genitive when a thing is.",
+        "An infinitive in the present, a genitive in the past.",
+        "The difference is free variation.",
+        "A genitive is required in both; *eiti* is an irregular genitive."
+      ],
+      "correct": 0
+    },
+    {
+      "id": "bx-q62",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**Ar tau tinka rytoj?** — *tikti* behaves like which other verb of A1?",
+      "explanation": "*tikti* ‘to suit’ joins *patikti* and *reikėti* among the verbs whose person stands in the dative (¶70, ¶68). What suits is the subject; the one it suits is never nominative.",
+      "rulesTested": [
+        "other-dative-verbs",
+        "patikti",
+        "dative-pronouns",
+        "ar-questions"
+      ],
+      "vocabUsed": [
+        "tikti",
+        "ar",
+        "rytoj"
+      ],
+      "fromSection": "a1-10",
+      "options": [
+        "*patikti*, in taking a dative of the person",
+        "*turėti*, in taking an accusative",
+        "*būti*, in taking a nominative predicate",
+        "*klausyti*, in taking a genitive"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "bx-q63",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "**Gegužės penktą dieną** names a date. Which statements are true?",
+      "explanation": "A Lithuanian date puts the month in the genitive and the day in the accusative of time, with the ordinal agreeing with *dieną* (¶85, ¶81, ¶83). D describes the English pattern of apposition, which the language does not use here.",
+      "rulesTested": [
+        "months-and-dates",
+        "ordinals",
+        "accusative-of-time",
+        "genitive-endings"
+      ],
+      "vocabUsed": [
+        "gegužė",
+        "penktas",
+        "diena"
+      ],
+      "fromSection": "a1-12",
+      "options": [
+        "*gegužės* is a genitive naming the month.",
+        "*penktą* is an ordinal in the accusative.",
+        "*dieną* is in the accusative of time.",
+        "The month is in the accusative, agreeing with *dieną*."
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "bx-q64",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "**Dirbu nuo devintos iki penktos.** Which case do *nuo* and *iki* govern, and what is being expressed?",
+      "explanation": "*nuo … iki* both take the genitive and mark the beginning and end of a span (¶33, ¶87). The ordinals *devintos* and *penktos* are genitive too, agreeing with an understood *valandos* (¶82).",
+      "rulesTested": [
+        "time-prepositions",
+        "genitive-prepositions",
+        "telling-the-hour",
+        "ordinals"
+      ],
+      "vocabUsed": [
+        "nuo",
+        "iki",
+        "dirbti",
+        "valanda"
+      ],
+      "fromSection": "a1-12",
+      "options": [
+        "genitive; the two ends of a span of time",
+        "accusative; a duration",
+        "genitive; a place of origin",
+        "dative; a point in time"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "bx-q65",
+      "type": "matching",
+      "difficulty": "hard",
+      "stem": "Match each written sequence with what it represents in speech.",
+      "explanation": "*ie* is one of the six proper diphthongs; *io* is not a diphthong at all — the **i** softens **dž** and the vowel is **o** (¶6, ¶7); **c** is always /ts/ (¶4); and a short vowel plus **l** is a mixed diphthong counting as one long syllable (¶7). Option B treats *io* as a diphthong, which is the error the softening rule exists to prevent; option D flattens *ie* into a monophthong, which is how English speakers usually say it.",
+      "rulesTested": [
+        "diphthongs",
+        "soft-i",
+        "consonants",
+        "vowel-length"
+      ],
+      "vocabUsed": [
+        "žodis",
+        "garsas",
+        "balsis"
+      ],
+      "fromSection": "a1-01",
+      "columnHeadings": [
+        "Written sequence",
+        "What it is"
+      ],
+      "columnI": [
+        "the **ie** of *vienas*",
+        "the **io** of *žodžio*",
+        "the **c** of *centras*",
+        "the **al** of *kalnas*"
+      ],
+      "columnII": [
+        "a proper diphthong",
+        "a soft consonant plus a back vowel",
+        "the affricate /ts/",
+        "a mixed diphthong",
+        "a long monophthong"
+      ],
+      "options": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          4,
+          1,
+          2,
+          3
+        ]
+      ],
+      "correct": 0
+    },
+    {
+      "id": "bx-q66",
+      "type": "matching",
+      "difficulty": "hard",
+      "stem": "Match each pronoun form with its case and person.",
+      "explanation": "*jie* is the masculine nominative plural (¶14, ¶42), *jį* the accusative singular (¶22), *jam* the dative (¶67) and *jo* both the genitive and the indeclinable possessive ‘his’ (¶43). The four differ by a single letter in places, and the instrumental *juo* — the decoy label — is the fifth form learners reach for when they cannot place *jo*.",
+      "rulesTested": [
+        "pronouns-nom",
+        "pronouns-cases",
+        "accusative-pronouns",
+        "dative-pronouns",
+        "possessives"
+      ],
+      "vocabUsed": [
+        "jie",
+        "jį",
+        "jam",
+        "jo"
+      ],
+      "fromSection": "a1-02",
+      "columnHeadings": [
+        "Form",
+        "Case and person"
+      ],
+      "columnI": [
+        "**jie**",
+        "**jį**",
+        "**jam**",
+        "**jo**"
+      ],
+      "columnII": [
+        "nominative plural",
+        "accusative singular",
+        "dative singular",
+        "genitive singular / indeclinable possessive",
+        "instrumental singular"
+      ],
+      "options": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          2
+        ],
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          4
+        ]
+      ],
+      "correct": 0
+    },
+    {
+      "id": "bx-q67",
+      "type": "matching",
+      "difficulty": "hard",
+      "stem": "Match each preposition of place with the case it takes and the relation it expresses.",
+      "explanation": "*per* and *prieš* of place take the accusative (¶140); *virš* and *vidury* take the genitive (¶142). The decoy — instrumental, ‘under’ — is *po* (¶75), which belongs to a different case again and completes the picture of ¶144: the case is a property of the preposition, and sometimes of the sense it is used in.",
+      "rulesTested": [
+        "per-priesa-place",
+        "virs-vidury",
+        "prepositions-review",
+        "instrumental-po"
+      ],
+      "vocabUsed": [
+        "per",
+        "prieš",
+        "virš",
+        "vidury",
+        "tiltas",
+        "namas",
+        "stalas",
+        "kambarys"
+      ],
+      "fromSection": "a1-21",
+      "columnHeadings": [
+        "Phrase",
+        "Case and relation"
+      ],
+      "columnI": [
+        "**per** tiltą",
+        "**prieš** namą",
+        "**virš** stalo",
+        "**vidury** kambario"
+      ],
+      "columnII": [
+        "accusative — across",
+        "accusative — in front of",
+        "genitive — above",
+        "genitive — in the middle of",
+        "instrumental — under"
+      ],
+      "options": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          2
+        ],
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          4
+        ]
+      ],
+      "correct": 0
+    },
+    {
+      "id": "bx-q69",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**po** appears in *po stalu*, *po pamokos* and *po obuolį*. Which statement about the three is correct?",
+      "explanation": "*po* is the clearest instance of ¶144: one preposition, three cases, and the case decides the sense. Instrumental for position under (¶75), genitive for time after (¶75), and accusative for the distributive ‘one each’ (¶143). A learner who has met only the first two produces answer D.",
+      "rulesTested": [
+        "po-accusative",
+        "instrumental-po",
+        "prepositions-review",
+        "genitive-prepositions"
+      ],
+      "vocabUsed": [
+        "po",
+        "stalas",
+        "obuolys"
+      ],
+      "fromSection": "a1-21",
+      "options": [
+        "All three are instrumental; the meaning is carried by context.",
+        "They are instrumental ‘under’, genitive ‘after’, and accusative distributive — ‘an apple each’.",
+        "They are instrumental ‘under’, accusative ‘after’, and genitive distributive.",
+        "*po obuolį* is ungrammatical; *po* never takes the accusative."
+      ],
+      "correct": 1
+    },
+    {
+      "id": "bx-q68",
+      "type": "matching",
+      "difficulty": "hard",
+      "stem": "Match each determiner with the question it answers.",
+      "explanation": "*koks* asks the kind and *toks* answers it — ‘such, of that kind’ (¶51, ¶134); *kuris* selects from a known set (¶135); *tas pats* asserts identity with something already mentioned (¶138). Option B swaps the two question words, which is the confusion ¶135 is written to settle.",
+      "rulesTested": [
+        "koks",
+        "kuris",
+        "toks",
+        "tas-pats",
+        "sis-tas"
+      ],
+      "vocabUsed": [
+        "koks",
+        "kuris",
+        "toks",
+        "tas"
+      ],
+      "fromSection": "a1-20",
+      "columnHeadings": [
+        "Determiner",
+        "What it answers"
+      ],
+      "columnI": [
+        "**koks**",
+        "**kuris**",
+        "**toks**",
+        "**tas pats**"
+      ],
+      "columnII": [
+        "what kind of?",
+        "which one of these?",
+        "of that kind (an answer, not a question)",
+        "the same one as before",
+        "how many?"
+      ],
+      "options": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          4
+        ]
+      ],
+      "correct": 0
+    },
+    {
+      "id": "bx-p3",
+      "type": "comprehension",
+      "difficulty": "hard",
+      "title": "Skelbimai universitete",
+      "passage": "**BIBLIOTEKA**\nPrašom nekalbėti garsiai. Telefonus išjunkite.\nBiblioteka dirba nuo aštuntos iki dvidešimtos valandos.\nŠeštadieniais ir sekmadieniais nedirbame.\n\n**SKELBIMAS**\nIeškome studento, kuris moka lietuviškai ir angliškai.\nDarbas ne kiekvieną dieną — tik antradieniais.\nJeigu norėtumėte dirbti, parašykite mums.\nTegu kiekvienas atsiunčia savo vardą ir pavardę.",
+      "glossary": {
+        "garsiai": "loudly",
+        "išjunkite": "switch off",
+        "ieškome": "we are looking for",
+        "atsiunčia": "sends in",
+        "mums": "to us",
+        "skelbimas": "notice",
+        "biblioteka": "library"
+      },
+      "questions": [
+        {
+          "id": "bx-p3-c1",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Kada biblioteka nedirba?",
+          "explanation": "*Šeštadieniais ir sekmadieniais nedirbame.* The hours given are the days it *is* open.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "fromSection": "a1-12",
+          "options": [
+            "nuo aštuntos iki dvidešimtos",
+            "šeštadieniais ir sekmadieniais",
+            "antradieniais",
+            "kiekvieną dieną"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "bx-p3-c2",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Kokio studento ieškoma?",
+          "explanation": "*Ieškome studento, kuris moka lietuviškai ir angliškai.* The work is explicitly *ne kiekvieną dieną — tik antradieniais*.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "fromSection": "a1-20",
+          "options": [
+            "kuris moka lietuviškai ir angliškai",
+            "kuris dirba kiekvieną dieną",
+            "kuris gyvena Vilniuje",
+            "kuris moka vokiškai"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "bx-p3-q1",
+          "type": "single",
+          "difficulty": "hard",
+          "stem": "**skaityčiau lietuviškas knygas** — account for the ending of *lietuviškas*.",
+          "explanation": "An attributive adjective agrees with its noun throughout (¶21, ¶56), so a feminine accusative plural noun takes a feminine accusative plural adjective. The tempting answer D confuses the adjective *lietuviškas* with the adverb *lietuviškai* of ¶120 — the same stem, a different part of speech.",
+          "rulesTested": [
+            "accusative-adjectives",
+            "adjective-number",
+            "plural-accusative",
+            "adverbs-iskai"
+          ],
+          "vocabUsed": [
+            "skaityti",
+            "knyga"
+          ],
+          "options": [
+            "It is a feminine accusative plural, agreeing with *knygas* in gender, number and case.",
+            "It is a nominative plural; adjectives do not decline for case.",
+            "It is a genitive plural after the conditional.",
+            "It is an adverb in *-iškai* with the final syllable elided."
+          ],
+          "correct": 0
+        },
+        {
+          "id": "bx-p3-q2",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "**Rašau tau** — why *tau* and not *tave*?",
+          "explanation": "The person a letter is written to is an indirect object and stands in the dative (¶65, ¶66, ¶67). *tave* is the accusative and would make the addressee the thing written, not the person written to.",
+          "rulesTested": [
+            "dative-endings",
+            "indirect-object",
+            "dative-pronouns",
+            "accusative-pronouns"
+          ],
+          "vocabUsed": [
+            "rašyti"
+          ],
+          "options": [
+            "*tau* is the dative, required for the person written to; *tave* is the accusative.",
+            "*tau* is the accusative and *tave* the genitive.",
+            "They are interchangeable forms of the same case.",
+            "*rašyti* governs the genitive."
+          ],
+          "correct": 0
+        },
+        {
+          "id": "bx-p3-q3",
+          "type": "single",
+          "difficulty": "hard",
+          "stem": "The notice uses **nekalbėti**, **išjunkite** and **parašykite**. What distinguishes the first from the other two?",
+          "explanation": "Notices prefer *prašom* with the infinitive, which issues an instruction without addressing anyone (¶115); *išjunkite* and *parašykite* are second-person plural imperatives in *-kite* and do address the reader (¶112). Both are correct on a sign, and the notice uses each where it belongs.",
+          "rulesTested": [
+            "imperative-notices",
+            "imperative-formation",
+            "imperative-negative"
+          ],
+          "vocabUsed": [
+            "prašom",
+            "kalbėti",
+            "parašyti"
+          ],
+          "options": [
+            "*nekalbėti* is a negated infinitive addressed to nobody in particular; the others are plural imperatives addressed to the reader.",
+            "*nekalbėti* is a negated imperative and the others are infinitives.",
+            "All three are imperatives; only the negation differs.",
+            "*nekalbėti* is a future and the others are imperatives."
+          ],
+          "correct": 0
+        },
+        {
+          "id": "bx-p3-q4",
+          "type": "single",
+          "difficulty": "hard",
+          "stem": "**Tegu kiekvienas atsiunčia savo vardą ir pavardę.** Which analysis is correct?",
+          "explanation": "*tegu* forms a command aimed at a third party (¶113); *kiekvienas* is grammatically singular however many people it covers (¶136), and the verb follows it. *savo* is the reflexive possessive and can only point back to the subject of its own clause (¶44) — *jo vardą* would mean somebody else's name.",
+          "rulesTested": [
+            "imperative-third-person",
+            "visas-kiekvienas",
+            "savo",
+            "verb-number"
+          ],
+          "vocabUsed": [
+            "tegu",
+            "kiekvienas",
+            "savo",
+            "vardas",
+            "pavardė"
+          ],
+          "options": [
+            "Third-person imperative; *kiekvienas* is singular, so the verb is singular; *savo* refers back to *kiekvienas*.",
+            "Second-person imperative; *savo* refers to the writer of the notice.",
+            "Third-person imperative; *kiekvienas* is plural in sense, so the verb is plural.",
+            "Present indicative; *tegu* merely emphasises."
+          ],
+          "correct": 0
+        }
+      ],
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course.",
+          "note": "Two university notices written for this examination."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+          "note": "The imperative, the reflexive possessive, and the time expressions used."
+        }
+      ],
+      "translation": "LIBRARY. Please do not talk loudly. Switch off your phones. The library is open from eight to twenty o'clock. On Saturdays and Sundays we are closed. NOTICE. We are looking for a student who knows Lithuanian and English. The work is not every day — only on Tuesdays. If you would like to work, write to us. Let everyone send in their first name and surname.",
+      "fromSection": "a1-16"
+    },
+    {
+      "id": "bx-q70",
+      "type": "matching",
+      "difficulty": "hard",
+      "stem": "Match each phrase from the three passages with the case its noun stands in.",
+      "explanation": "One case for each of four constructions the paper has already used: position in the bare locative (¶59), the partitive after a container word (¶32), the means of travel in the instrumental (¶73), and the recipient in the dative (¶66). The accusative is the decoy — every phrase here resists it.",
+      "rulesTested": [
+        "locative-singular",
+        "genitive-quantity",
+        "instrumental-means",
+        "indirect-object"
+      ],
+      "vocabUsed": [
+        "butas",
+        "kava",
+        "autobusas"
+      ],
+      "fromSection": "a1-11",
+      "columnHeadings": [
+        "Phrase",
+        "Case"
+      ],
+      "columnI": [
+        "gyvenu mažame **bute**",
+        "norėčiau puodelio **kavos**",
+        "grįžtu namo **autobusu**",
+        "parašyk **man**"
+      ],
+      "columnII": [
+        "locative",
+        "genitive",
+        "instrumental",
+        "dative",
+        "accusative"
+      ],
+      "options": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          2
+        ],
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          4
+        ]
+      ],
+      "correct": 0
+    }
+  ],
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+      "note": "The descriptive source for every rule this paper examines."
+    },
+    {
+      "kind": "grammar",
+      "citation": "Mathiassen, Terje, *A Short Grammar of Lithuanian*. Columbus: Slavica Publishers, 1996.",
+      "url": "https://archive.org/details/mathiassen-short-grammar-of-lithuanian-1996",
+      "note": "Consulted for the accentual and tense systems."
+    },
+    {
+      "kind": "dictionary",
+      "citation": "*Dabartinės lietuvių kalbos žodynas*, Lietuvių kalbos institutas.",
+      "url": "https://ekalba.lt/dabartines-lietuviu-kalbos-zodynas/",
+      "note": "Citation forms and stress class for the vocabulary used."
+    }
+  ]
+}

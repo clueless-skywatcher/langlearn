@@ -12,14 +12,26 @@
       "heading": "The Plural Number",
       "statement": "The **plural** of a noun — the form indicating more than one person or thing — is made by adding **-j** to the singular. The -o remains, so that the plural ending is in effect **-oj**, pronounced as the diphthong *oj* (¶5) and forming no new syllable.",
       "examples": [
-        { "target": "viro → viroj", "gloss": "man → men" },
-        { "target": "tablo → tabloj", "gloss": "table → tables" },
-        { "target": "domo → domoj", "gloss": "house → houses" }
+        {
+          "target": "viro → viroj",
+          "gloss": "man → men"
+        },
+        {
+          "target": "tablo → tabloj",
+          "gloss": "table → tables"
+        },
+        {
+          "target": "domo → domoj",
+          "gloss": "house → houses"
+        }
       ],
       "footnotes": [
         "-oj is one syllable and sounds like the \"oy\" of \"boy\", so *viroj* is VI-roj, of two syllables, and the accent stays where it was."
       ],
-      "seeAlso": ["noun-o", "diphthongs"],
+      "seeAlso": [
+        "noun-o",
+        "diphthongs"
+      ],
       "core": true
     },
     {
@@ -28,14 +40,27 @@
       "heading": "Agreement of the Adjective in Number",
       "statement": "An adjective modifying a plural noun **agrees with it in number**, taking the same -j. An adjective modifying two or more nouns together is of course plural. The agreement is not decoration: it is what tells the reader which noun a given adjective belongs to when the order of words is varied.",
       "examples": [
-        { "target": "bonaj viroj", "gloss": "good men" },
-        { "target": "grandaj ĉevaloj", "gloss": "large horses" },
-        { "target": "belaj birdo kaj floro", "gloss": "beautiful bird and flower", "note": "one adjective, two nouns, hence the plural" }
+        {
+          "target": "bonaj viroj",
+          "gloss": "good men"
+        },
+        {
+          "target": "grandaj ĉevaloj",
+          "gloss": "large horses"
+        },
+        {
+          "target": "belaj birdo kaj floro",
+          "gloss": "beautiful bird and flower",
+          "note": "one adjective, two nouns, hence the plural"
+        }
       ],
       "footnotes": [
         "-aj is one syllable and sounds like the \"ai\" of \"aisle\"."
       ],
-      "seeAlso": ["plural-j", "attributive-adjective"],
+      "seeAlso": [
+        "plural-j",
+        "attributive-adjective"
+      ],
       "core": true
     },
     {
@@ -44,11 +69,24 @@
       "heading": "The Article and the Verb are Invariable",
       "statement": "The article **does not change** for number: *la viro*, the man; *la viroj*, the men. Neither does the verb, whose -as serves every person and both numbers alike (¶14). In a plural sentence, therefore, the -j appears on the noun and its adjectives and nowhere else.",
       "examples": [
-        { "target": "La viroj marŝas.", "gloss": "The men walk, the men are walking." },
-        { "target": "La suno kaj la luno brilas.", "gloss": "The sun and the moon are shining." },
-        { "target": "La viro estas. / La viroj estas.", "gloss": "The man is. / The men are." }
+        {
+          "target": "La viroj marŝas.",
+          "gloss": "The men walk, the men are walking."
+        },
+        {
+          "target": "La suno kaj la luno brilas.",
+          "gloss": "The sun and the moon are shining."
+        },
+        {
+          "target": "La viro estas. / La viroj estas.",
+          "gloss": "The man is. / The men are."
+        }
       ],
-      "seeAlso": ["article", "present-as", "plural-j"],
+      "seeAlso": [
+        "article",
+        "present-as",
+        "plural-j"
+      ],
       "core": true
     },
     {
@@ -57,11 +95,23 @@
       "heading": "The Predicate Adjective",
       "statement": "When an adjective forms part of what is told or **predicated** of the subject — as after the verbs \"to be\", \"to seem\" — it is called a **predicate adjective**. It is not attached to its noun but asserted of it, and the verb stands between them.",
       "examples": [
-        { "target": "La birdo estas bela.", "gloss": "The bird is beautiful." },
-        { "target": "La knabo ŝajnas bona.", "gloss": "The boy seems good." },
-        { "target": "La floroj estas freŝaj.", "gloss": "The flowers are fresh." }
+        {
+          "target": "La birdo estas bela.",
+          "gloss": "The bird is beautiful."
+        },
+        {
+          "target": "La knabo ŝajnas bona.",
+          "gloss": "The boy seems good."
+        },
+        {
+          "target": "La floroj estas freŝaj.",
+          "gloss": "The flowers are fresh."
+        }
       ],
-      "seeAlso": ["adjective-a", "attributive-adjective"],
+      "seeAlso": [
+        "adjective-a",
+        "attributive-adjective"
+      ],
       "core": true
     },
     {
@@ -70,10 +120,19 @@
       "heading": "The Predicate Noun",
       "statement": "A **noun** may likewise form part of the predicate, and is then called a **predicate noun**. It names the subject rather than being acted upon by it, which is why it takes no case ending of its own.",
       "examples": [
-        { "target": "Violoj estas floroj.", "gloss": "Violets are flowers." },
-        { "target": "La kolombo estas birdo.", "gloss": "The dove is a bird." }
+        {
+          "target": "Violoj estas floroj.",
+          "gloss": "Violets are flowers."
+        },
+        {
+          "target": "La kolombo estas birdo.",
+          "gloss": "The dove is a bird."
+        }
       ],
-      "seeAlso": ["predicate-adjective", "noun-o"],
+      "seeAlso": [
+        "predicate-adjective",
+        "noun-o"
+      ],
       "core": true
     },
     {
@@ -82,35 +141,203 @@
       "heading": "Agreement of the Predicate",
       "statement": "Predicate nouns and adjectives **agree in number** with the word or words of which they are predicated. Two singular subjects joined by *kaj* are together plural, and take a plural predicate.",
       "examples": [
-        { "target": "Rozoj estas belaj.", "gloss": "Roses are beautiful." },
-        { "target": "La knabo kaj la viro ŝajnas fortaj.", "gloss": "The boy and the man seem strong." },
-        { "target": "La ĉambroj estas grandaj.", "gloss": "The rooms are large." }
+        {
+          "target": "Rozoj estas belaj.",
+          "gloss": "Roses are beautiful."
+        },
+        {
+          "target": "La knabo kaj la viro ŝajnas fortaj.",
+          "gloss": "The boy and the man seem strong."
+        },
+        {
+          "target": "La ĉambroj estas grandaj.",
+          "gloss": "The rooms are large."
+        }
       ],
-      "seeAlso": ["predicate-adjective", "predicate-noun", "adjective-plural"],
+      "seeAlso": [
+        "predicate-adjective",
+        "predicate-noun",
+        "adjective-plural"
+      ],
       "core": true
     }
   ],
   "vocabulary": [
-    { "lemma": "estas", "gloss": "is, are", "pos": "verb", "forms": { "inf": "esti", "pres": "estas" }, "notes": "Perfectly regular: one form for every person and both numbers." },
-    { "lemma": "ŝajnas", "gloss": "seems, seem", "pos": "verb", "forms": { "inf": "ŝajni", "pres": "ŝajnas" } },
-    { "lemma": "kuŝas", "gloss": "lies, is lying", "pos": "verb", "forms": { "inf": "kuŝi", "pres": "kuŝas" } },
-    { "lemma": "sidas", "gloss": "sits, is sitting", "pos": "verb", "forms": { "inf": "sidi", "pres": "sidas" } },
-    { "lemma": "arbo", "gloss": "tree", "pos": "noun", "forms": { "nom": "arbo", "plural": "arboj" } },
-    { "lemma": "ĉambro", "gloss": "room", "pos": "noun", "forms": { "nom": "ĉambro", "plural": "ĉambroj" } },
-    { "lemma": "domo", "gloss": "house", "pos": "noun", "forms": { "nom": "domo", "plural": "domoj" } },
-    { "lemma": "folio", "gloss": "leaf", "pos": "noun", "forms": { "nom": "folio", "plural": "folioj" } },
-    { "lemma": "ĝardeno", "gloss": "garden", "pos": "noun", "forms": { "nom": "ĝardeno", "plural": "ĝardenoj" } },
-    { "lemma": "kampo", "gloss": "field", "pos": "noun", "forms": { "nom": "kampo", "plural": "kampoj" } },
-    { "lemma": "kolombo", "gloss": "dove", "pos": "noun", "forms": { "nom": "kolombo", "plural": "kolomboj" } },
-    { "lemma": "rozo", "gloss": "rose", "pos": "noun", "forms": { "nom": "rozo", "plural": "rozoj" } },
-    { "lemma": "seĝo", "gloss": "chair", "pos": "noun", "forms": { "nom": "seĝo", "plural": "seĝoj" } },
-    { "lemma": "alta", "gloss": "high, tall", "pos": "adjective", "forms": { "nom": "alta", "plural": "altaj" } },
-    { "lemma": "freŝa", "gloss": "fresh", "pos": "adjective", "forms": { "nom": "freŝa", "plural": "freŝaj" } },
-    { "lemma": "longa", "gloss": "long", "pos": "adjective", "forms": { "nom": "longa", "plural": "longaj" } },
-    { "lemma": "ruĝa", "gloss": "red", "pos": "adjective", "forms": { "nom": "ruĝa", "plural": "ruĝaj" } },
-    { "lemma": "verda", "gloss": "green", "pos": "adjective", "forms": { "nom": "verda", "plural": "verdaj" } },
-    { "lemma": "en", "gloss": "in", "pos": "preposition", "forms": {} },
-    { "lemma": "sur", "gloss": "on", "pos": "preposition", "forms": {} }
+    {
+      "lemma": "estas",
+      "gloss": "is, are",
+      "pos": "verb",
+      "forms": {
+        "inf": "esti",
+        "pres": "estas"
+      },
+      "notes": "Perfectly regular: one form for every person and both numbers."
+    },
+    {
+      "lemma": "ŝajnas",
+      "gloss": "seems, seem",
+      "pos": "verb",
+      "forms": {
+        "inf": "ŝajni",
+        "pres": "ŝajnas"
+      }
+    },
+    {
+      "lemma": "kuŝas",
+      "gloss": "lies, is lying",
+      "pos": "verb",
+      "forms": {
+        "inf": "kuŝi",
+        "pres": "kuŝas"
+      }
+    },
+    {
+      "lemma": "sidas",
+      "gloss": "sits, is sitting",
+      "pos": "verb",
+      "forms": {
+        "inf": "sidi",
+        "pres": "sidas"
+      }
+    },
+    {
+      "lemma": "arbo",
+      "gloss": "tree",
+      "pos": "noun",
+      "forms": {
+        "nom": "arbo",
+        "plural": "arboj"
+      }
+    },
+    {
+      "lemma": "ĉambro",
+      "gloss": "room",
+      "pos": "noun",
+      "forms": {
+        "nom": "ĉambro",
+        "plural": "ĉambroj"
+      }
+    },
+    {
+      "lemma": "domo",
+      "gloss": "house",
+      "pos": "noun",
+      "forms": {
+        "nom": "domo",
+        "plural": "domoj"
+      }
+    },
+    {
+      "lemma": "folio",
+      "gloss": "leaf",
+      "pos": "noun",
+      "forms": {
+        "nom": "folio",
+        "plural": "folioj"
+      }
+    },
+    {
+      "lemma": "ĝardeno",
+      "gloss": "garden",
+      "pos": "noun",
+      "forms": {
+        "nom": "ĝardeno",
+        "plural": "ĝardenoj"
+      }
+    },
+    {
+      "lemma": "kampo",
+      "gloss": "field",
+      "pos": "noun",
+      "forms": {
+        "nom": "kampo",
+        "plural": "kampoj"
+      }
+    },
+    {
+      "lemma": "kolombo",
+      "gloss": "dove",
+      "pos": "noun",
+      "forms": {
+        "nom": "kolombo",
+        "plural": "kolomboj"
+      }
+    },
+    {
+      "lemma": "rozo",
+      "gloss": "rose",
+      "pos": "noun",
+      "forms": {
+        "nom": "rozo",
+        "plural": "rozoj"
+      }
+    },
+    {
+      "lemma": "seĝo",
+      "gloss": "chair",
+      "pos": "noun",
+      "forms": {
+        "nom": "seĝo",
+        "plural": "seĝoj"
+      }
+    },
+    {
+      "lemma": "alta",
+      "gloss": "high, tall",
+      "pos": "adjective",
+      "forms": {
+        "nom": "alta",
+        "plural": "altaj"
+      }
+    },
+    {
+      "lemma": "freŝa",
+      "gloss": "fresh",
+      "pos": "adjective",
+      "forms": {
+        "nom": "freŝa",
+        "plural": "freŝaj"
+      }
+    },
+    {
+      "lemma": "longa",
+      "gloss": "long",
+      "pos": "adjective",
+      "forms": {
+        "nom": "longa",
+        "plural": "longaj"
+      }
+    },
+    {
+      "lemma": "ruĝa",
+      "gloss": "red",
+      "pos": "adjective",
+      "forms": {
+        "nom": "ruĝa",
+        "plural": "ruĝaj"
+      }
+    },
+    {
+      "lemma": "verda",
+      "gloss": "green",
+      "pos": "adjective",
+      "forms": {
+        "nom": "verda",
+        "plural": "verdaj"
+      }
+    },
+    {
+      "lemma": "en",
+      "gloss": "in",
+      "pos": "preposition",
+      "forms": {}
+    },
+    {
+      "lemma": "sur",
+      "gloss": "on",
+      "pos": "preposition",
+      "forms": {}
+    }
   ],
   "drills": [
     {
@@ -118,22 +345,42 @@
       "type": "single",
       "difficulty": "easy",
       "stem": "What is the plural of **tablo**?",
-      "options": ["tabloj", "tablos", "tabloi", "tabla"],
+      "options": [
+        "tabloj",
+        "tablos",
+        "tabloi",
+        "tabla"
+      ],
       "correct": 0,
       "explanation": "-j is added to the singular, giving -oj. Nothing is dropped and no syllable is added: TA-bloj.",
-      "rulesTested": ["plural-j"],
-      "vocabUsed": ["tablo"]
+      "rulesTested": [
+        "plural-j"
+      ],
+      "vocabUsed": [
+        "tablo"
+      ]
     },
     {
       "id": "eo103-q2",
       "type": "single",
       "difficulty": "easy",
       "stem": "Translate: **good men**",
-      "options": ["bona viroj", "bonaj viro", "bonaj viroj", "bonoj viroj"],
+      "options": [
+        "bona viroj",
+        "bonaj viro",
+        "bonaj viroj",
+        "bonoj viroj"
+      ],
       "correct": 2,
       "explanation": "The adjective agrees in number, so both words take -j. *bonoj* would be a plural noun.",
-      "rulesTested": ["adjective-plural", "plural-j"],
-      "vocabUsed": ["bona", "viro"]
+      "rulesTested": [
+        "adjective-plural",
+        "plural-j"
+      ],
+      "vocabUsed": [
+        "bona",
+        "viro"
+      ]
     },
     {
       "id": "eo103-q3",
@@ -148,8 +395,13 @@
       ],
       "correct": 1,
       "explanation": "*la* is invariable. In a plural sentence the -j appears on the noun and its adjectives, and nowhere else.",
-      "rulesTested": ["article-invariable"],
-      "vocabUsed": ["la", "viro"]
+      "rulesTested": [
+        "article-invariable"
+      ],
+      "vocabUsed": [
+        "la",
+        "viro"
+      ]
     },
     {
       "id": "eo103-q4",
@@ -162,10 +414,25 @@
         "La arboj estas altaj kaj verdaj.",
         "La arboj estasj altaj."
       ],
-      "correct": [0, 2],
+      "correct": [
+        0,
+        2
+      ],
       "explanation": "A predicate adjective agrees in number with what it is predicated of, so *bela* must be *belaj*. The verb never takes -j: *estasj* is impossible.",
-      "rulesTested": ["predicate-agreement", "article-invariable", "predicate-adjective"],
-      "vocabUsed": ["la", "rozo", "estas", "bela", "arbo", "alta", "verda"]
+      "rulesTested": [
+        "predicate-agreement",
+        "article-invariable",
+        "predicate-adjective"
+      ],
+      "vocabUsed": [
+        "la",
+        "rozo",
+        "estas",
+        "bela",
+        "arbo",
+        "alta",
+        "verda"
+      ]
     },
     {
       "id": "eo103-q5",
@@ -180,8 +447,16 @@
       ],
       "correct": 1,
       "explanation": "It is a noun forming part of what is asserted of the subject *kolombo* — a predicate noun. It names the subject rather than being acted upon by it.",
-      "rulesTested": ["predicate-noun", "subject"],
-      "vocabUsed": ["la", "kolombo", "estas", "birdo"]
+      "rulesTested": [
+        "predicate-noun",
+        "subject"
+      ],
+      "vocabUsed": [
+        "la",
+        "kolombo",
+        "estas",
+        "birdo"
+      ]
     },
     {
       "id": "eo103-q6",
@@ -196,19 +471,49 @@
       ],
       "correct": 1,
       "explanation": "Two singular subjects joined by *kaj* are together plural, so the predicate adjective takes -j — but the subjects themselves stay singular, and the verb never changes.",
-      "rulesTested": ["predicate-agreement", "article-invariable"],
-      "vocabUsed": ["la", "knabo", "kaj", "viro", "ŝajnas", "forta"]
+      "rulesTested": [
+        "predicate-agreement",
+        "article-invariable"
+      ],
+      "vocabUsed": [
+        "la",
+        "knabo",
+        "kaj",
+        "viro",
+        "ŝajnas",
+        "forta"
+      ]
     },
     {
       "id": "eo103-q7",
       "type": "multi",
       "difficulty": "medium",
       "stem": "**La bona knabo estas forta.** If the sentence spoke of several boys, which of its words would change form?",
-      "options": ["la", "bona", "knabo", "forta"],
-      "correct": [1, 2, 3],
+      "options": [
+        "la",
+        "bona",
+        "knabo",
+        "forta"
+      ],
+      "correct": [
+        1,
+        2,
+        3
+      ],
       "explanation": "Three change: *bona* → *bonaj* agreeing attributively, *knabo* → *knaboj*, and *forta* → *fortaj*, a predicate adjective agreeing in number just as an attributive one does (¶21). *la* is invariable, and so is *estas* (¶18).",
-      "rulesTested": ["plural-j", "adjective-plural", "article-invariable", "predicate-agreement"],
-      "vocabUsed": ["la", "bona", "knabo", "estas", "forta"]
+      "rulesTested": [
+        "plural-j",
+        "adjective-plural",
+        "article-invariable",
+        "predicate-agreement"
+      ],
+      "vocabUsed": [
+        "la",
+        "bona",
+        "knabo",
+        "estas",
+        "forta"
+      ]
     },
     {
       "id": "eo103-q8",
@@ -218,8 +523,20 @@
       "answer": 2,
       "unit": "words",
       "explanation": "Two: *freŝa* → *freŝaj* and *floro* → *floroj*. Neither *la* changes (¶18), nor does *kuŝas* — one verb form serves both numbers — and the table's own words stay singular, the table not having multiplied.",
-      "rulesTested": ["plural-j", "adjective-plural", "article-invariable"],
-      "vocabUsed": ["la", "freŝa", "floro", "kuŝas", "sur", "longa", "tablo"]
+      "rulesTested": [
+        "plural-j",
+        "adjective-plural",
+        "article-invariable"
+      ],
+      "vocabUsed": [
+        "la",
+        "freŝa",
+        "floro",
+        "kuŝas",
+        "sur",
+        "longa",
+        "tablo"
+      ]
     },
     {
       "id": "eo103-q9",
@@ -229,8 +546,15 @@
       "answer": 2,
       "unit": "syllables",
       "explanation": "Two: VI-roj. The plural ending -oj is the diphthong *oj* and counts as a single syllable, so making a noun plural never moves the accent.",
-      "rulesTested": ["plural-j", "syllables", "accent"],
-      "vocabUsed": ["viro", "silabo"]
+      "rulesTested": [
+        "plural-j",
+        "syllables",
+        "accent"
+      ],
+      "vocabUsed": [
+        "viro",
+        "silabo"
+      ]
     },
     {
       "id": "eo103-p1",
@@ -246,11 +570,28 @@
           "type": "single",
           "difficulty": "easy",
           "stem": "Kie estas la blanka ĉevalo? (Where is the white horse?)",
-          "options": ["en la ĝardeno", "en la kampo", "sur la arbo", "en la domo"],
+          "options": [
+            "en la ĝardeno",
+            "en la kampo",
+            "sur la arbo",
+            "en la domo"
+          ],
           "correct": 1,
           "explanation": "*Blanka ĉevalo estas en la kampo.* It is the tall man who is in the garden.",
-          "rulesTested": ["predicate-adjective", "attributive-adjective"],
-          "vocabUsed": ["blanka", "ĉevalo", "estas", "en", "kampo", "ĝardeno", "arbo", "domo"]
+          "rulesTested": [
+            "predicate-adjective",
+            "attributive-adjective"
+          ],
+          "vocabUsed": [
+            "blanka",
+            "ĉevalo",
+            "estas",
+            "en",
+            "kampo",
+            "ĝardeno",
+            "arbo",
+            "domo"
+          ]
         },
         {
           "id": "eo103-p1-q2",
@@ -263,10 +604,29 @@
             "La kolomboj estas floroj.",
             "Freŝaj floroj kuŝas sur la tablo."
           ],
-          "correct": [0, 1, 3],
+          "correct": [
+            0,
+            1,
+            3
+          ],
           "explanation": "The doves are called *belaj birdoj*, not flowers. Note that every predicate here is plural, agreeing with a plural subject.",
-          "rulesTested": ["predicate-agreement", "predicate-noun"],
-          "vocabUsed": ["ĉambro", "estas", "granda", "arbo", "alta", "kolombo", "floro", "freŝa", "kuŝas", "sur", "tablo"]
+          "rulesTested": [
+            "predicate-agreement",
+            "predicate-noun"
+          ],
+          "vocabUsed": [
+            "ĉambro",
+            "estas",
+            "granda",
+            "arbo",
+            "alta",
+            "kolombo",
+            "floro",
+            "freŝa",
+            "kuŝas",
+            "sur",
+            "tablo"
+          ]
         },
         {
           "id": "eo103-p1-q3",
@@ -276,10 +636,43 @@
           "answer": 2,
           "unit": "sentences",
           "explanation": "Two: *La alta viro estas en la ĝardeno* and *Blanka ĉevalo estas en la kampo*. The other six open with a plural subject. Counting singular nouns instead gives a much larger number, because *la ĝardeno*, *la kampo*, *la verda arbo*, *la bela domo* and *la tablo* are all singular and none of them is a subject.",
-          "rulesTested": ["plural-j", "subject", "adjective-plural"],
-          "vocabUsed": ["alta", "viro", "estas", "en", "ĝardeno", "blanka", "ĉevalo", "kampo"]
+          "rulesTested": [
+            "plural-j",
+            "subject",
+            "adjective-plural"
+          ],
+          "vocabUsed": [
+            "alta",
+            "viro",
+            "estas",
+            "en",
+            "ĝardeno",
+            "blanka",
+            "ĉevalo",
+            "kampo"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Reed, Ivy Kellerman, *A Complete Grammar of Esperanto*, 1910.",
+          "url": "https://www.gutenberg.org/ebooks/7787",
+          "note": "Public domain (Project Gutenberg ebook 7787). Source for the numbered rules and their examples."
         }
       ]
+    }
+  ],
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Reed, Ivy Kellerman, *A Complete Grammar of Esperanto*, 1910.",
+      "url": "https://www.gutenberg.org/ebooks/7787",
+      "note": "Public domain (Project Gutenberg ebook 7787). Source for the numbered rules and their examples."
     }
   ]
 }

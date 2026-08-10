@@ -867,7 +867,7 @@
       "type": "comprehension",
       "difficulty": "hard",
       "title": "Telefonu",
-      "passage": "– Labas, Rūta. Gal turi laiko rytoj?\n– Nežinau, ar būsiu laisva. Rytoj dirbu iki penktos, o vakare turiu susitikimą.\n– Jeigu baigsi anksti, galime eiti į teatrą arba į kavinę.\n– Manau, kad bus per vėlu. Bet šeštadienį esu laisva.\n– Gerai. Tada susitiksime šeštadienį, nes sekmadienį aš važiuoju pas mamą.\n– Puiku. Dar neturiu bilietų, todėl nupirksiu juos rytoj.\n– O kaip tu – jau turi bilietą, ar dar ne?",
+      "passage": "TOMAS. Labas, Rūta. Gal turi laiko rytoj?\nRŪTA. Nežinau, ar būsiu laisva. Rytoj dirbu iki penktos, o vakare turiu susitikimą.\nTOMAS. Jeigu baigsi anksti, galime eiti į teatrą arba į kavinę.\nRŪTA. Manau, kad bus per vėlu. Bet šeštadienį esu laisva.\nTOMAS. Gerai. Tada susitiksime šeštadienį, nes sekmadienį aš važiuoju pas mamą.\nRŪTA. Puiku. Dar neturiu bilietų, todėl nupirksiu juos rytoj.\nRŪTA. O kaip tu – jau turi bilietą, ar dar ne?",
       "translation": "\"Hello, Rūta. Have you time tomorrow, by any chance?\" — \"I don't know whether I shall be free. Tomorrow I work until five, and in the evening I have a meeting.\" — \"If you finish early, we can go to the theatre or to a café.\" — \"I think it will be too late. But on Saturday I am free.\" — \"Good. Then we shall meet on Saturday, because on Sunday I am going to my mother's.\" — \"Splendid. I haven't got the tickets yet, so I shall buy them tomorrow.\" — \"And you — have you a ticket already, or not yet?\"",
       "glossary": {
         "laisva": "free (laisvas, f.)",
@@ -880,9 +880,42 @@
         "puiku": "splendid",
         "bilietas": "ticket",
         "nupirksiu": "I shall buy (nupirkti)",
-        "pas": "to / at (a person's place)"
+        "pas": "to / at (a person's place)",
+        "Tomas": "Tomas, a man's name"
       },
       "questions": [
+        {
+          "id": "a115-p1-c1",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Kada jie susitiks?",
+          "explanation": "*Tada susitiksime šeštadienį.* Tomorrow is ruled out because Rūta works until five and has an appointment; Sunday she visits her mother.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "options": [
+            "rytoj",
+            "penktadienį",
+            "šeštadienį",
+            "sekmadienį"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "a115-p1-c2",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Kodėl Rūta negali rytoj?",
+          "explanation": "*Rytoj dirbu iki penktos, o vakare turiu susitikimą.* Visiting her mother is Sunday, which is a separate reason for a separate day.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "options": [
+            "nes važiuoja pas mamą",
+            "nes dirba iki penktos ir turi susitikimą",
+            "nes neturi bilietų",
+            "nes bus per vėlu į teatrą"
+          ],
+          "correct": 1
+        },
         {
           "id": "a115-p1-q1",
           "type": "single",
@@ -1021,6 +1054,17 @@
             "ne",
             "arba"
           ]
+        }
+      ],
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+          "note": "Descriptive source for the paradigms and rule statements on this page."
         }
       ]
     },
@@ -1394,6 +1438,19 @@
         "būti",
         "šaltas"
       ]
+    }
+  ],
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+      "note": "Descriptive source for the paradigms and rule statements on this page."
+    },
+    {
+      "kind": "dictionary",
+      "citation": "*Dabartinės lietuvių kalbos žodynas*, Lietuvių kalbos institutas.",
+      "url": "https://ekalba.lt/dabartines-lietuviu-kalbos-zodynas/",
+      "note": "Citation forms, gender and stress class for this section's vocabulary."
     }
   ]
 }

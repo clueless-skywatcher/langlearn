@@ -1130,6 +1130,38 @@
       },
       "questions": [
         {
+          "id": "a106-p1-c1",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "Kur studijuoja Eglė?",
+          "explanation": "*Ji studijuoja Vilniuje.* Tomas lives in Kaunas; his sister is the one who has left.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "options": [
+            "Kaune",
+            "Vilniuje",
+            "universitete su tėvu",
+            "mokykloje"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "a106-p1-c2",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Kas dirba universitete?",
+          "explanation": "*Mano tėvas dirba universitete, o mano mama yra mokytoja.* The conjunction *o* sets the two parents against each other, which is what keeps them straight.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "options": [
+            "Tomo mama",
+            "Tomo tėvas",
+            "Eglė",
+            "Tomas"
+          ],
+          "correct": 1
+        },
+        {
           "id": "a106-p1-q1",
           "type": "single",
           "difficulty": "easy",
@@ -1257,7 +1289,31 @@
             "pronouns-cases"
           ]
         }
+      ],
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+          "note": "Descriptive source for the paradigms and rule statements on this page."
+        }
       ]
+    }
+  ],
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+      "note": "Descriptive source for the paradigms and rule statements on this page."
+    },
+    {
+      "kind": "dictionary",
+      "citation": "*Dabartinės lietuvių kalbos žodynas*, Lietuvių kalbos institutas.",
+      "url": "https://ekalba.lt/dabartines-lietuviu-kalbos-zodynas/",
+      "note": "Citation forms, gender and stress class for this section's vocabulary."
     }
   ]
 }

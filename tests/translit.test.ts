@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 
 import { loadCoursePack } from "@/content/loader";
-import { isCheckpoint } from "@/content/schema";
+import { isLesson } from "@/content/schema";
 import { romanize } from "@/lib/markdown";
 import {
   hasTelugu,
@@ -133,7 +133,7 @@ describe("the Telugu course is usable without reading the script", () => {
       add(`${s.id} title`, s.title);
       add(`${s.id} summary`, s.summary);
 
-      if (!isCheckpoint(s)) {
+      if (isLesson(s)) {
         for (const rule of s.rules) {
           add(`${s.id} ${rule.id} statement`, rule.statement);
           rule.footnotes.forEach((f, i) =>
@@ -156,7 +156,10 @@ describe("the Telugu course is usable without reading the script", () => {
         for (const q of kids) {
           add(`${q.id} stem`, q.stem);
           add(`${q.id} explanation`, q.explanation);
-          if (q.type !== "integer") {
+          if (q.type === "matching") {
+            q.columnI.forEach((c, i) => add(`${q.id} column I ${i}`, c));
+            q.columnII.forEach((c, i) => add(`${q.id} column II ${i}`, c));
+          } else if (q.type !== "integer") {
             q.options.forEach((o, i) => add(`${q.id} option ${i}`, o));
           }
         }
@@ -195,7 +198,9 @@ describe("the Telugu course is usable without reading the script", () => {
         const kids = drill.type === "comprehension" ? drill.questions : [drill];
         for (const q of kids) {
           if (q.type === "integer") continue;
-          for (const [i, o] of q.options.entries()) {
+          const strings =
+            q.type === "matching" ? [...q.columnI, ...q.columnII] : q.options;
+          for (const [i, o] of strings.entries()) {
             if (hasTelugu(o) && !LATIN.test(romanize(o))) {
               unreadable.push(`${q.id} option ${i}`);
             }

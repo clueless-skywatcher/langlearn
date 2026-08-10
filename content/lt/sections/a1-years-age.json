@@ -617,12 +617,45 @@
       "type": "comprehension",
       "difficulty": "hard",
       "title": "Apie Rūtą",
-      "passage": "Rūtai dabar dvidešimt penkeri metai. Ji gimė tūkstantis devyni šimtai devyniasdešimt devintaisiais metais birželio dešimtą. Penkerius metus ji gyveno Kaune, o prieš trejus metus atvažiavo į Vilnių. Pernai baigė mokyklą; šiemet studijuoja. — Kiek tau metų? — klausia draugė. — Man dvidešimt penkeri, — atsako Rūta.",
+      "passage": "Rūtai dabar dvidešimt penkeri metai. Ji gimė tūkstantis devyni šimtai devyniasdešimt devintaisiais metais birželio dešimtą. Penkerius metus ji gyveno Kaune, o prieš trejus metus atvažiavo į Vilnių. Pernai baigė mokyklą; šiemet studijuoja.\nDRAUGĖ. Kiek tau metų?\nRŪTA. Man dvidešimt penkeri.",
       "translation": "Rūta is now twenty-five. She was born on the tenth of June, 1999. She lived in Kaunas for five years, and three years ago she came to Vilnius. Last year she finished school; this year she is studying. \"How old are you?\" asks a friend. \"I am twenty-five,\" answers Rūta.",
       "glossary": {
-        "studijuoja": "studies (at university)"
+        "studijuoja": "studies (at university)",
+        "draugė": "friend (female)"
       },
       "questions": [
+        {
+          "id": "a1ya-p1-c1",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "Kiek Rūtai metų?",
+          "explanation": "*Rūtai dabar dvidešimt penkeri metai*, and she says it again herself at the end.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "options": [
+            "dvidešimt",
+            "dvidešimt penkeri",
+            "penkeri",
+            "trisdešimt"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "a1ya-p1-c2",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Kada Rūta atvažiavo į Vilnių?",
+          "explanation": "*prieš trejus metus atvažiavo į Vilnių.* The five years are how long she lived in Kaunas, and *pernai* is when she finished school.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "options": [
+            "pernai",
+            "prieš trejus metus",
+            "prieš penkerius metus",
+            "šiemet"
+          ],
+          "correct": 1
+        },
         {
           "id": "a1ya-p1-q1",
           "type": "single",
@@ -709,6 +742,17 @@
           "vocabUsed": [
             "metai"
           ]
+        }
+      ],
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+          "note": "Descriptive source for the paradigms and rule statements on this page."
         }
       ]
     },
@@ -930,6 +974,19 @@
       "vocabUsed": [
         "metai"
       ]
+    }
+  ],
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+      "note": "Descriptive source for the paradigms and rule statements on this page."
+    },
+    {
+      "kind": "dictionary",
+      "citation": "*Dabartinės lietuvių kalbos žodynas*, Lietuvių kalbos institutas.",
+      "url": "https://ekalba.lt/dabartines-lietuviu-kalbos-zodynas/",
+      "note": "Citation forms, gender and stress class for this section's vocabulary."
     }
   ]
 }

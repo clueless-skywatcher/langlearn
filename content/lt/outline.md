@@ -1,8 +1,10 @@
 # Lithuanian — course outline
 
 The path a learner walks, in order. A **checkpoint** follows every third or
-fourth lesson section and examines exactly that block; the last checkpoint of a
-level examines the level's final block and doubles as the boundary exam.
+fourth lesson section and examines exactly that block. A **boundary
+examination** closes each level: it covers every lesson of the level, weights
+the matching and comprehension formats, and assumes every rule of the level is
+live. A checkpoint never doubles as one.
 
 Sections marked ✅ are authored. The rest are targets for the generator
 (`scripts/generate-drills.ts`) and for hand-authoring of rules.
@@ -57,7 +59,8 @@ rules carry source footnotes; do not treat unsourced paraphrase as authority.
 | 20 | ✅ Impersonal Constructions | *skaudėti, reikėti, galima* with the dative; weather verbs (*lyti*, *vėjas*); the non-gendered adjective (*šalta, karšta, gera*) and *man gerai*; how these differ from personal forms |
 | 21 | ✅ Demonstratives and Determiners | *šis, tas, anas, toks*; *kuris* against *koks*; *visas, kiekvienas*; *niekas* and the doubled negative; *tas pats* |
 | 22 | ✅ The Remaining Prepositions, and Reflexive Phrases | *pas, per, prieš, už, virš, vidury*, and *po* in its three cases; the whole preposition system in one table; the reflexive affix and set phrases (*jaučiuosi*, *nesijaučiu*) |
-| — | ✅ **Checkpoint 6** | covers 20–22; the A1 boundary examination |
+| — | ✅ **Checkpoint 6** | covers 20–22 |
+| — | ✅ **A1 Boundary Examination** | covers all 22 A1 lessons; admits to A2 |
 
 The topics the programme attaches to these points — identity, buildings and
 home, transport, clothing, weather, food and drink, health, services, study and

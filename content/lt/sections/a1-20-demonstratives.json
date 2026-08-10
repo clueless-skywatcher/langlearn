@@ -847,7 +847,7 @@
       "type": "comprehension",
       "difficulty": "hard",
       "title": "Kuriame name?",
-      "passage": "– Atsiprašau, kuriame name gyvena Petras?\n– Tame pačiame, kuriame ir aš. Šitas namas naujas, o anas, prie parduotuvės, senas. Petras gyvena šiame, trečiame aukšte.\n– Ačiū. Vakar skambinau, bet niekas neatsakė.\n– Vakar jo nebuvo. Jis kiekvieną šeštadienį važiuoja pas mamą ir grįžta tik sekmadienį.\n– Tokia tvarka? Tada ateisiu rytoj.\n– Ateikite. Bet visą rytą jo nebus — jis dirba iki pirmos.\n– Gerai. Tokio pat buto aš irgi ieškau — ne to seno, o šito.",
+      "passage": "TOMAS. Atsiprašau, kuriame name gyvena Petras?\nKAIMYNAS. Tame pačiame, kuriame ir aš. Šitas namas naujas, o anas, prie parduotuvės, senas. Petras gyvena šiame, trečiame aukšte.\nTOMAS. Ačiū. Vakar skambinau, bet niekas neatsakė.\nKAIMYNAS. Vakar jo nebuvo. Jis kiekvieną šeštadienį važiuoja pas mamą ir grįžta tik sekmadienį.\nTOMAS. Tokia tvarka? Tada ateisiu rytoj.\nKAIMYNAS. Ateikite. Bet visą rytą jo nebus — jis dirba iki pirmos.\nTOMAS. Gerai. Tokio pat buto aš irgi ieškau — ne to seno, o šito.",
       "translation": "\"Excuse me, which house does Petras live in?\" — \"The same one I do. This house is new, and that one over there, by the shop, is old. Petras lives in this one, on the third floor.\" — \"Thank you. Yesterday I rang, but nobody answered.\" — \"He wasn't there yesterday. Every Saturday he goes to his mother's and doesn't come back until Sunday.\" — \"Is that the routine? Then I'll come tomorrow.\" — \"Do. But all morning he won't be in — he works until one.\" — \"Good. I am looking for the same sort of flat too — not that old one, but this one.\"",
       "glossary": {
         "Atsiprašau": "excuse me",
@@ -856,9 +856,43 @@
         "tvarka": "order, routine",
         "tik": "only, not until",
         "ieškau": "I am looking for (ieškoti)",
-        "pas": "to / at (a person's place)"
+        "pas": "to / at (a person's place)",
+        "kaimynas": "neighbour",
+        "Tomas": "Tomas, a man's name"
       },
       "questions": [
+        {
+          "id": "a119-p1-c1",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "Kuriame aukšte gyvena Petras?",
+          "explanation": "*Petras gyvena šiame, trečiame aukšte.* The demonstrative picks out the house first, then the floor.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "options": [
+            "pirmame",
+            "antrame",
+            "trečiame",
+            "ketvirtame"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "a119-p1-c2",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Kodėl vakar niekas neatsakė?",
+          "explanation": "*Vakar jo nebuvo. Jis kiekvieną šeštadienį važiuoja pas mamą.* Working until one is about tomorrow morning, not yesterday.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "options": [
+            "nes Petras miegojo",
+            "nes Petro nebuvo — jis važiuoja pas mamą",
+            "nes telefonas neveikė",
+            "nes jis dirbo iki pirmos"
+          ],
+          "correct": 1
+        },
         {
           "id": "a119-p1-q1",
           "type": "single",
@@ -988,6 +1022,17 @@
             "būti",
             "rytas"
           ]
+        }
+      ],
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+          "note": "Descriptive source for the paradigms and rule statements on this page."
         }
       ]
     },
@@ -1289,10 +1334,10 @@
       "id": "a119-x12",
       "type": "integer",
       "difficulty": "medium",
-      "stem": "How many letters in feminine nominative **ta** (from *tas*)?",
-      "answer": 2,
-      "unit": "letters",
-      "explanation": "*Ta* has 2 letters.",
+      "stem": "Of the forms **tas, ta, tą, tie**, how many are nominative?",
+      "answer": 3,
+      "unit": "forms",
+      "explanation": "*tas* (masculine singular), *ta* (feminine singular) and *tie* (masculine plural) are all nominative; *tą* is the accusative singular, marked by the nosinė (¶132).",
       "rulesTested": [
         "sis-tas"
       ],
@@ -1334,6 +1379,19 @@
         "tas",
         "namas"
       ]
+    }
+  ],
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+      "note": "Descriptive source for the paradigms and rule statements on this page."
+    },
+    {
+      "kind": "dictionary",
+      "citation": "*Dabartinės lietuvių kalbos žodynas*, Lietuvių kalbos institutas.",
+      "url": "https://ekalba.lt/dabartines-lietuviu-kalbos-zodynas/",
+      "note": "Citation forms, gender and stress class for this section's vocabulary."
     }
   ]
 }

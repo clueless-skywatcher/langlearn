@@ -24,6 +24,37 @@ const Id = z
   .min(1)
   .regex(/^[a-z0-9][a-z0-9-]*$/, "ids are lowercase kebab-case");
 
+/* ----------------------------------------------------------------- sources */
+
+/**
+ * A citation. Every page a learner can land on carries these in its footer,
+ * and so does every reading passage: a course that cannot say where a claim
+ * comes from has no business making it.
+ *
+ * `kind` is what the citation points at, which decides what the rest must
+ * carry. A `text` — anything quoted rather than written for the course — must
+ * name its licence, because excerpting is only permissible from open sources.
+ * A `composed` source is the honest label for material generated for this
+ * course; it says so plainly rather than leaving provenance to be guessed at.
+ */
+export const Source = z.strictObject({
+  kind: z.enum(["grammar", "dictionary", "corpus", "text", "composed"]),
+  /**
+   * The citation as it should read in the footer, e.g.
+   * "Ambrazas (ed.), *Lithuanian Grammar*, 2nd ed., Baltos lankos, 1997".
+   * A bare language name is not a citation and neither is "I know Lithuanian".
+   */
+  citation: z.string().min(1),
+  url: z.url().optional(),
+  /** Licence or public-domain status. Required on `text`; see the refinement. */
+  licence: z.string().optional(),
+  /** What this source is cited *for*, when the citation alone leaves it open. */
+  note: z.string().optional(),
+}).refine(
+  (s) => s.kind !== "text" || !!s.licence,
+  "a quoted text must state its licence or public-domain status",
+);
+
 /* ------------------------------------------------------------------ script */
 
 /** One letter of the course's writing system. Present only on script sections. */
@@ -98,6 +129,13 @@ export const Rule = z.strictObject({
   /** Rule ids this one builds on — the book's "(see 5.)" cross-references. */
   seeAlso: z.array(Id).default([]),
   /**
+   * Where this particular rule comes from. The section's own `sources` cover
+   * the page; a rule states its own when it rests on something narrower than
+   * the general grammar — a specialist paper, a dictionary entry, a corpus
+   * count. Never invent one: if the claim cannot be sourced, cut the claim.
+   */
+  sources: z.array(Source).default([]),
+  /**
    * Core rules must be tested by the section's own drills and again by the
    * checkpoint covering the section. The validator enforces both.
    */
@@ -170,10 +208,53 @@ export const IntegerQuestion = z.strictObject({
   unit: z.string().optional(),
 });
 
+/**
+ * Two columns to pair. Column I holds four items — forms, endings, cases,
+ * tenses — and Column II the labels they are matched against. The four options
+ * are four *complete* pairings, exactly one of them right, so a learner who
+ * has three of the four pairs still has to know the fourth: partial knowledge
+ * earns nothing. Scored +4 / −1, like any other single-correct question.
+ *
+ * The three wrong pairings are built from real confusions — a shared ending
+ * across two declensions, a case that follows the same preposition — and never
+ * by shuffling at random, which produces distractors a learner can dismiss
+ * without knowing anything.
+ */
+export const MatchingQuestion = z.strictObject({
+  ...QuestionBase,
+  type: z.literal("matching"),
+  /** Headings for the two columns, e.g. ["Form", "Case"]. */
+  columnHeadings: z.tuple([z.string().min(1), z.string().min(1)]),
+  /** Column I: the four items to be paired, rendered P, Q, R, S. */
+  columnI: z.array(z.string().min(1)).length(4),
+  /** Column II: the labels, rendered 1, 2, 3, … A decoy label is allowed. */
+  columnII: z.array(z.string().min(1)).min(4).max(6),
+  /**
+   * Four candidate pairings. Each is a complete assignment giving one
+   * `columnII` index per Column I item, in Column I order. Two Column I items
+   * may legitimately take the same label, so the assignment need not be
+   * injective.
+   */
+  options: z
+    .array(z.array(z.number().int().min(0)).length(4))
+    .length(4),
+  /** Index into `options`. */
+  correct: z.number().int().min(0).max(3),
+})
+  .refine(
+    (q) => q.options.every((o) => o.every((i) => i < q.columnII.length)),
+    "a pairing refers to a Column II entry that does not exist",
+  )
+  .refine(
+    (q) => new Set(q.options.map((o) => o.join(","))).size === q.options.length,
+    "the four pairings must be distinct, or more than one option is correct",
+  );
+
 export const AtomicQuestion = z.discriminatedUnion("type", [
   SingleQuestion,
   MultiQuestion,
   IntegerQuestion,
+  MatchingQuestion,
 ]);
 
 /**
@@ -194,14 +275,27 @@ export const ComprehensionDrill = z.strictObject({
   translation: z.string().optional(),
   /** Glosses for words the learner has not met yet, keyed by surface form. */
   glossary: z.record(z.string(), z.string()).default({}),
-  questions: z.array(AtomicQuestion).min(2).max(5),
+  /**
+   * 2–8. A passage has to earn its length: it needs questions about what it
+   * *says* as well as about the grammar it illustrates, and five slots do not
+   * hold both. CLAUDE.md §3 quotes 2–5, written before the content/grammar
+   * split was enforced.
+   */
+  questions: z.array(AtomicQuestion).min(2).max(8),
   fromSection: Id.optional(),
+  /**
+   * The passage's own provenance, shown in its footer. A real excerpt names
+   * author, title, publication, date, URL and licence; a passage written for
+   * the course says so, and still cites whatever grammar or idiom it leans on.
+   */
+  sources: z.array(Source).min(1),
 });
 
 export const Drill = z.discriminatedUnion("type", [
   SingleQuestion,
   MultiQuestion,
   IntegerQuestion,
+  MatchingQuestion,
   ComprehensionDrill,
 ]);
 
@@ -215,6 +309,12 @@ const SectionBase = {
   title: z.string().min(1),
   summary: z.string().min(1),
   drills: z.array(Drill).min(1),
+  /**
+   * The page's footer citations. A section is a page a learner lands on, so
+   * this is not optional: `Course.attribution` covers the manner of exposition
+   * for the course as a whole and does not discharge the per-page obligation.
+   */
+  sources: z.array(Source).min(1),
 };
 
 export const LessonSection = z.strictObject({
@@ -238,9 +338,32 @@ export const CheckpointSection = z.strictObject({
   passThreshold: z.number().min(0).max(100).default(60),
 });
 
+/**
+ * The examination at a level transition — A1→A2, A2→B1, and so on. Where a
+ * checkpoint examines the three or four lessons behind it, a boundary exam
+ * examines the whole level and assumes every rule in it is live. It is harder
+ * than the checkpoints by construction: the cumulative and matching formats
+ * carry most of the weight, so that a learner who passed the checkpoints by
+ * memorising their items has nothing to fall back on here.
+ *
+ * `covers` is written out rather than derived so that the paper says what it
+ * examines; the validator checks it against the level's lessons in path order,
+ * which is what stops it drifting as sections are added.
+ */
+export const BoundaryExamSection = z.strictObject({
+  ...SectionBase,
+  kind: z.literal("boundary"),
+  covers: z.array(Id).min(4),
+  /** The level the learner is admitted to by passing. */
+  admitsTo: CefrLevel,
+  /** Percentage of the maximum score counted as a pass. */
+  passThreshold: z.number().min(0).max(100).default(70),
+});
+
 export const Section = z.discriminatedUnion("kind", [
   LessonSection,
   CheckpointSection,
+  BoundaryExamSection,
 ]);
 
 /* ------------------------------------------------------------------ course */
@@ -294,6 +417,7 @@ export const Course = z.strictObject({
 
 export type CefrLevel = z.infer<typeof CefrLevel>;
 export type Difficulty = z.infer<typeof Difficulty>;
+export type Source = z.infer<typeof Source>;
 export type Letter = z.infer<typeof Letter>;
 export type ScriptSection = z.infer<typeof ScriptSection>;
 export type Example = z.infer<typeof Example>;
@@ -303,11 +427,15 @@ export type VocabEntry = z.infer<typeof VocabEntry>;
 export type SingleQuestion = z.infer<typeof SingleQuestion>;
 export type MultiQuestion = z.infer<typeof MultiQuestion>;
 export type IntegerQuestion = z.infer<typeof IntegerQuestion>;
+export type MatchingQuestion = z.infer<typeof MatchingQuestion>;
 export type AtomicQuestion = z.infer<typeof AtomicQuestion>;
 export type ComprehensionDrill = z.infer<typeof ComprehensionDrill>;
 export type Drill = z.infer<typeof Drill>;
 export type LessonSection = z.infer<typeof LessonSection>;
 export type CheckpointSection = z.infer<typeof CheckpointSection>;
+export type BoundaryExamSection = z.infer<typeof BoundaryExamSection>;
+/** Any section that examines rather than teaches: a checkpoint or a boundary exam. */
+export type ExamSection = CheckpointSection | BoundaryExamSection;
 export type Section = z.infer<typeof Section>;
 export type Course = z.infer<typeof Course>;
 
@@ -331,4 +459,25 @@ export function sourceSection(
 
 export function isCheckpoint(section: Section): section is CheckpointSection {
   return section.kind === "checkpoint";
+}
+
+export function isBoundaryExam(
+  section: Section,
+): section is BoundaryExamSection {
+  return section.kind === "boundary";
+}
+
+/**
+ * True for any section that examines rather than teaches. Both kinds declare
+ * `covers` and a `passThreshold`, so everything downstream — marking, the
+ * per-section breakdown, the "answers at the end" mode of the runner — wants
+ * this predicate rather than `isCheckpoint`.
+ */
+export function isExam(section: Section): section is ExamSection {
+  return section.kind === "checkpoint" || section.kind === "boundary";
+}
+
+/** True for a section that teaches: the complement of {@link isExam}. */
+export function isLesson(section: Section): section is LessonSection {
+  return section.kind === "lesson";
 }

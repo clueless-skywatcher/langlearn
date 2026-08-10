@@ -1158,10 +1158,10 @@
       "id": "a110-x15",
       "type": "integer",
       "difficulty": "hard",
-      "stem": "How many letters are in the dative form **mamai**?",
-      "answer": 5,
-      "unit": "letters",
-      "explanation": "Five: m-a-m-a-i. Feminine *-a* → **-ai** (¶65).",
+      "stem": "Of the forms **mamai, tėvui, broliui, mamą**, how many are datives?",
+      "answer": 3,
+      "unit": "forms",
+      "explanation": "*mamai*, *tėvui* and *broliui* are datives — *-ai* for the second declension, *-ui* for the first (¶65). *mamą* is an accusative, distinguished from the dative by the nosinė alone.",
       "rulesTested": [
         "dative-endings"
       ],
@@ -1186,6 +1186,38 @@
         "puodelio": "of a cup (gen.)"
       },
       "questions": [
+        {
+          "id": "a110-p1-c1",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Ką Tomas perka mamai?",
+          "explanation": "*Tomas eina į parduotuvę ir perka mamai puodelį ir gėlių.* The sister suggests the cup; the flowers are because *jai patinka gėlės*.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "options": [
+            "knygą",
+            "puodelį ir gėlių",
+            "tik gėlių",
+            "knygą ir gėlių"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "a110-p1-c2",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Kam patinka knygos?",
+          "explanation": "*Jam patinka knygos, bet mamai knygos nepatinka.* The dative says whose liking it is, and the two datives are opposed in one sentence.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "options": [
+            "mamai",
+            "Tomui",
+            "seseriai",
+            "niekam"
+          ],
+          "correct": 1
+        },
         {
           "id": "a110-p1-q1",
           "type": "single",
@@ -1314,7 +1346,31 @@
             "eiti"
           ]
         }
+      ],
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+          "note": "Descriptive source for the paradigms and rule statements on this page."
+        }
       ]
+    }
+  ],
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+      "note": "Descriptive source for the paradigms and rule statements on this page."
+    },
+    {
+      "kind": "dictionary",
+      "citation": "*Dabartinės lietuvių kalbos žodynas*, Lietuvių kalbos institutas.",
+      "url": "https://ekalba.lt/dabartines-lietuviu-kalbos-zodynas/",
+      "note": "Citation forms, gender and stress class for this section's vocabulary."
     }
   ]
 }

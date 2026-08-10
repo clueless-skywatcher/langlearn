@@ -1038,7 +1038,7 @@
       "type": "comprehension",
       "difficulty": "hard",
       "title": "Pirmas pokalbis",
-      "passage": "— Labas! Kaip Jūsų vardas? — Mano vardas Anna. — Iš kur Jūs esate, Anna? — Aš esu iš Italijos, bet gyvenu Vilniuje. — Ką Jūs veikiate Lietuvoje? — Studijuoju universitete. — Ar Jūs kalbate lietuviškai? — Taip, truputį. Kartais nesuprantu, todėl dažnai klausiu. — Kodėl Jūs studijuojate lietuvių kalbą? — Nes mano draugė yra lietuvė. — Kokia Jūsų draugė? — Ji yra gera ir jauna. — Kiek kavos Jūs norite? — Puodelio.",
+      "passage": "VYTAUTAS. Labas! Kaip Jūsų vardas?\nANNA. Mano vardas Anna.\nVYTAUTAS. Iš kur Jūs esate, Anna?\nANNA. Aš esu iš Italijos, bet gyvenu Vilniuje.\nVYTAUTAS. Ką Jūs veikiate Lietuvoje?\nANNA. Studijuoju universitete.\nVYTAUTAS. Ar Jūs kalbate lietuviškai?\nANNA. Taip, truputį. Kartais nesuprantu, todėl dažnai klausiu.\nVYTAUTAS. Kodėl Jūs studijuojate lietuvių kalbą?\nANNA. Nes mano draugė yra lietuvė.\nVYTAUTAS. Kokia Jūsų draugė?\nANNA. Ji yra gera ir jauna.\nVYTAUTAS. Kiek kavos Jūs norite?\nANNA. Puodelio.",
       "translation": "— Hello! What is your name? — My name is Anna. — Where are you from, Anna? — I am from Italy, but I live in Vilnius. — What are you doing in Lithuania? — I study at the university. — Do you speak Lithuanian? — Yes, a little. Sometimes I do not understand, so I often ask. — Why are you studying Lithuanian? — Because my friend is Lithuanian. — What is your friend like? — She is good and young. — How much coffee do you want? — A cup.",
       "glossary": {
         "Anna": "Anna, a woman's name",
@@ -1049,7 +1049,8 @@
         "todėl": "therefore",
         "lietuvių kalbą": "the Lithuanian language",
         "lietuvė": "a Lithuanian woman",
-        "Puodelio": "of a cup (gen.)"
+        "Puodelio": "of a cup (gen.)",
+        "Vytautas": "Vytautas, a man's name"
       },
       "questions": [
         {
@@ -1181,7 +1182,31 @@
             "puodelis"
           ]
         }
+      ],
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+          "note": "Descriptive source for the paradigms and rule statements on this page."
+        }
       ]
+    }
+  ],
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+      "note": "Descriptive source for the paradigms and rule statements on this page."
+    },
+    {
+      "kind": "dictionary",
+      "citation": "*Dabartinės lietuvių kalbos žodynas*, Lietuvių kalbos institutas.",
+      "url": "https://ekalba.lt/dabartines-lietuviu-kalbos-zodynas/",
+      "note": "Citation forms, gender and stress class for this section's vocabulary."
     }
   ]
 }

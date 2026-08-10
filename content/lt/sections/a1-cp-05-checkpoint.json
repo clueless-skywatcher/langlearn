@@ -245,38 +245,34 @@
       "id": "cp5-q9",
       "type": "multi",
       "difficulty": "hard",
-      "fromSection": "a1-15",
-      "stem": "In **Nežinau, ar ateisiu, nes manau, kad bus šalta, todėl liksiu namie.** which are true?",
+      "stem": "**Jis sakė, kad ateis, bet nežinau, ar ateis.** Which statements are true?",
+      "explanation": "*kad* reports what was said (¶109); *ar* keeps the form an embedded yes-or-no question takes (¶110); *bet* coordinates (¶104). Exchanging them would turn a report into a question and a question into a report, which is why D is false.",
+      "rulesTested": [
+        "subordination-kad",
+        "indirect-questions",
+        "coordinating-conjunctions",
+        "future-uses"
+      ],
+      "vocabUsed": [
+        "sakyti",
+        "ateiti",
+        "žinoti",
+        "kad",
+        "ar",
+        "bet"
+      ],
       "options": [
-        "*ar* reports a yes/no question (*whether*)",
-        "*nes* gives the reason for not knowing",
-        "*kad* reports the thought after *manau*",
-        "*todėl* opens a condition (*if*)"
+        "*kad* introduces a reported statement.",
+        "*ar* introduces an embedded yes-or-no question.",
+        "*bet* joins two clauses of equal rank.",
+        "*kad* and *ar* could be exchanged without changing the meaning."
       ],
       "correct": [
         0,
         1,
         2
       ],
-      "explanation": "*Ar* = whether; *nes* = because; *kad* = that after *manau*. *Todėl* means *therefore*, not *if*.",
-      "rulesTested": [
-        "indirect-questions",
-        "nes-todel",
-        "subordination-kad"
-      ],
-      "vocabUsed": [
-        "žinoti",
-        "ar",
-        "ateiti",
-        "nes",
-        "manyti",
-        "kad",
-        "būti",
-        "šaltas",
-        "todėl",
-        "likti",
-        "namie"
-      ]
+      "fromSection": "a1-15"
     },
     {
       "id": "cp5-q10",
@@ -474,19 +470,18 @@
     {
       "id": "cp5-q18",
       "type": "integer",
-      "difficulty": "medium",
-      "fromSection": "a1-16",
-      "stem": "How many letters are in the polite plural imperative of **eiti** (*eikite*)?",
-      "answer": 6,
-      "unit": "letters",
-      "explanation": "Six: *eikite*. Public notices prefer this plural/polite shape over familiar *eik*.",
+      "difficulty": "hard",
+      "stem": "Which numbered rule governs the ending *-kite* of **eikite**? Give the paragraph number.",
+      "explanation": "¶112 forms the imperative with *-k-*, the plural adding *-ite*. ¶115 is where that plural is *used* — on notices and instructions — but it is not what forms it.",
       "rulesTested": [
         "imperative-formation",
         "imperative-notices"
       ],
       "vocabUsed": [
         "eiti"
-      ]
+      ],
+      "answer": 112,
+      "fromSection": "a1-16"
     },
     {
       "id": "cp5-q19",
@@ -841,7 +836,7 @@
     {
       "id": "cp5-x8",
       "type": "multi",
-      "difficulty": "medium",
+      "difficulty": "hard",
       "fromSection": "a1-17",
       "stem": "Which are **conditional** forms?",
       "options": [
@@ -1181,28 +1176,29 @@
     {
       "id": "cp5-b8",
       "type": "single",
-      "difficulty": "medium",
-      "fromSection": "a1-17",
-      "stem": "Complete: **Jeigu aš turėčiau ilgus plaukus, ______.**",
-      "options": [
-        "būčiau laiminga",
-        "būsiu laiminga",
-        "esu laiminga",
-        "būk laiminga"
-      ],
-      "correct": 0,
-      "explanation": "Unreal condition: conditional *būčiau* in the result clause too.",
+      "difficulty": "hard",
+      "stem": "**Jeigu turėtum laiko, ką darytum?** Both verbs stand in the conditional. What does that tell you?",
+      "explanation": "*jeigu* takes the indicative for a real condition and the conditional for an unreal one; the mood carries the unreality, not the conjunction (¶108, ¶118a). The politeness use of ¶117 has no condition in it at all, which is what separates it from this.",
       "rulesTested": [
         "conditional-jeigu",
-        "conditional-formation"
+        "conditional-formation",
+        "mood-choice",
+        "condition-jei"
       ],
       "vocabUsed": [
+        "jeigu",
         "turėti",
-        "plaukai",
-        "ilgas",
-        "laimingas",
-        "būti"
-      ]
+        "laikas",
+        "daryti"
+      ],
+      "options": [
+        "The condition is unreal or hypothetical, not a prediction about what will happen.",
+        "The sentence is a polite request.",
+        "The condition is real and the answer is expected.",
+        "The second clause is a command."
+      ],
+      "correct": 0,
+      "fromSection": "a1-17"
     },
     {
       "id": "cp5-b9",
@@ -1258,25 +1254,26 @@
     {
       "id": "cp5-b11",
       "type": "single",
-      "difficulty": "easy",
-      "fromSection": "a1-17",
-      "stem": "Complete: **Norėčiau ______.**",
-      "options": [
-        "kavos",
-        "kava",
-        "kavą",
-        "kavoje"
-      ],
-      "correct": 0,
-      "explanation": "*Norėti* + genitive: *kavos*.",
+      "difficulty": "hard",
+      "stem": "In a shop, choosing **Norėčiau** over **Noriu** is a matter of:",
+      "explanation": "The conditional is the ordinary way of being polite in Lithuanian, with no condition implied and no change of time (¶117). *Noriu* is not rude in itself, but it states a want where *norėčiau* makes a request.",
       "rulesTested": [
         "conditional-politeness",
+        "mood-choice",
+        "conditional-formation",
         "wanting-liking"
       ],
       "vocabUsed": [
-        "norėti",
-        "kava"
-      ]
+        "norėti"
+      ],
+      "options": [
+        "politeness — the conditional softens what would otherwise be a demand",
+        "tense — the conditional refers to the future",
+        "an unreal condition, left unstated",
+        "mood agreement with an imperative elsewhere in the sentence"
+      ],
+      "correct": 0,
+      "fromSection": "a1-17"
     },
     {
       "id": "cp5-b12",
@@ -1375,7 +1372,7 @@
       "difficulty": "medium",
       "fromSection": "a1-15",
       "title": "Kursai",
-      "passage": "Skelbimas: „Ateikite ir išmokite kalbėti lietuviškai! Mūsų kursai pigesni negu kitur, o mokytojai geriausi mieste. Skambinkite šiandien!“\n– Nežinau, ar turėsiu laiko, — sako Tomas. — Dirbu iki penktos.\n– Gal galėtumėte ateiti vakarais? Vakariniai kursai prasideda šeštą.\n– Tada gerai. Bet kalbėkite lėčiau, prašom: dar nesuprantu greitai.\n– Nesijaudinkite. Jeigu ateisite kiekvieną savaitę, po mėnesio suprasite daug geriau.",
+      "passage": "SKELBIMAS. „Ateikite ir išmokite kalbėti lietuviškai! Mūsų kursai pigesni negu kitur, o mokytojai geriausi mieste. Skambinkite šiandien!“\nTOMAS. Nežinau, ar turėsiu laiko. Dirbu iki penktos.\nKURSŲ DARBUOTOJA. Gal galėtumėte ateiti vakarais? Vakariniai kursai prasideda šeštą.\nTOMAS. Tada gerai. Bet kalbėkite lėčiau, prašom: dar nesuprantu greitai.\nKURSŲ DARBUOTOJA. Nesijaudinkite. Jeigu ateisite kiekvieną savaitę, po mėnesio suprasite daug geriau.",
       "translation": "Advertisement: \"Come and learn to speak Lithuanian! Our courses are cheaper than elsewhere, and our teachers are the best in town. Ring today!\" — \"I don't know whether I shall have time,\" says Tomas. \"I work until five.\" — \"Could you come in the evenings? Evening courses begin at six.\" — \"Then fine. But speak more slowly, please: I still don't understand quickly.\" — \"Don't worry. If you come every week, in a month you will understand much better.\"",
       "glossary": {
         "skelbimas": "advertisement",
@@ -1385,9 +1382,44 @@
         "prasideda": "begin",
         "nesijaudinkite": "don't worry",
         "kiekvieną": "every",
-        "mėnuo": "month"
+        "mėnuo": "month",
+        "kursų darbuotoja": "course office assistant"
       },
       "questions": [
+        {
+          "id": "cp5-p1-c1",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Kada prasideda vakariniai kursai?",
+          "explanation": "*Vakariniai kursai prasideda šeštą.* Five is when Tomas finishes work, which is why the evening course is offered at all.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "fromSection": "a1-16",
+          "options": [
+            "penktą",
+            "šeštą",
+            "šiandien",
+            "kiekvieną savaitę"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "cp5-p1-c2",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Ko Tomas prašo?",
+          "explanation": "*Bet kalbėkite lėčiau, prašom: dar nesuprantu greitai.* The imperative carries the request and the comparative carries what is asked for.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "fromSection": "a1-16",
+          "options": [
+            "kalbėti lėčiau",
+            "kalbėti garsiau",
+            "skambinti rytoj",
+            "ateiti vakare"
+          ],
+          "correct": 0
+        },
         {
           "id": "cp5-p1-q1",
           "type": "single",
@@ -1524,6 +1556,17 @@
             "kalbėti"
           ]
         }
+      ],
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+          "note": "Descriptive source for the paradigms and rule statements on this page."
+        }
       ]
     },
     {
@@ -1540,6 +1583,40 @@
         "nepirksiu": "I shall not buy"
       },
       "questions": [
+        {
+          "id": "cp5-p2-c1",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Kuris butas arčiau?",
+          "explanation": "*Pirmas butas didesnis už antrą, bet antras arčiau.* *Bet* turns the comparison round.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "fromSection": "a1-18",
+          "options": [
+            "pirmas",
+            "antras",
+            "abu vienodai",
+            "nesakoma"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "cp5-p2-c2",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Ką pataria draugė?",
+          "explanation": "*Eik greičiau! … Kalbėk lietuviškai su agentu.* Two imperatives, one comparative adverb.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "fromSection": "a1-18",
+          "options": [
+            "pirkti brangesnį",
+            "eiti greičiau ir kalbėti lietuviškai",
+            "laukti",
+            "nepirkti nieko"
+          ],
+          "correct": 1
+        },
         {
           "id": "cp5-p2-q1",
           "type": "single",
@@ -1637,7 +1714,157 @@
             "gerai"
           ]
         }
+      ],
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+          "note": "Descriptive source for the paradigms and rule statements on this page."
+        }
       ]
+    },
+    {
+      "id": "cp5-m1",
+      "type": "matching",
+      "difficulty": "hard",
+      "stem": "Match each conjunction with the relation it expresses.",
+      "explanation": "*nes* introduces the cause and *todėl* the consequence, so reversing them — option B — reverses the sentence's logic while leaving it grammatical (¶107). *o* contrasts two parallel statements (¶105) and *arba* offers a choice (¶106). *Condition* belongs to *jei* and is not in the column.",
+      "rulesTested": [
+        "nes-todel",
+        "o-contrast",
+        "arba-ar",
+        "coordinating-conjunctions"
+      ],
+      "vocabUsed": [
+        "nes",
+        "todėl",
+        "o",
+        "arba"
+      ],
+      "fromSection": "a1-15",
+      "columnHeadings": [
+        "Conjunction",
+        "Relation"
+      ],
+      "columnI": [
+        "**nes**",
+        "**todėl**",
+        "**o**",
+        "**arba**"
+      ],
+      "columnII": [
+        "cause",
+        "consequence",
+        "parallel contrast",
+        "alternative",
+        "condition"
+      ],
+      "options": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          4
+        ]
+      ],
+      "correct": 0
+    },
+    {
+      "id": "cp5-m2",
+      "type": "matching",
+      "difficulty": "hard",
+      "stem": "Match each form of **eiti** with its mood or degree of politeness.",
+      "explanation": "*-k* and *-kite* are the two second-person imperatives (¶112), *-tum* is the conditional (¶116), and *tegu* + present forms a command aimed at a third party (¶113). The decoy — plain present indicative — is *eina* without *tegu*, which is why option D is tempting.",
+      "rulesTested": [
+        "imperative-formation",
+        "imperative-third-person",
+        "conditional-formation",
+        "mood-choice"
+      ],
+      "vocabUsed": [
+        "eiti",
+        "tegu"
+      ],
+      "fromSection": "a1-16",
+      "columnHeadings": [
+        "Form",
+        "What it is"
+      ],
+      "columnI": [
+        "**eik**",
+        "**eikite**",
+        "**eitum**",
+        "**tegu eina**"
+      ],
+      "columnII": [
+        "imperative, one person",
+        "imperative, plural or polite",
+        "conditional",
+        "third-person imperative",
+        "present indicative"
+      ],
+      "options": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          2
+        ],
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          4
+        ]
+      ],
+      "correct": 0
+    }
+  ],
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+      "note": "Descriptive source for the paradigms and rule statements on this page."
+    },
+    {
+      "kind": "dictionary",
+      "citation": "*Dabartinės lietuvių kalbos žodynas*, Lietuvių kalbos institutas.",
+      "url": "https://ekalba.lt/dabartines-lietuviu-kalbos-zodynas/",
+      "note": "Citation forms, gender and stress class for this section's vocabulary."
     }
   ]
 }

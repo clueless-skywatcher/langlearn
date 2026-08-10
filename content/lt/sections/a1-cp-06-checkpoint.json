@@ -3,8 +3,8 @@
   "kind": "checkpoint",
   "level": "A1",
   "order": 28,
-  "title": "Checkpoint: The A1 Boundary Examination",
-  "summary": "A cumulative examination of sections eighteen to twenty, and the boundary exam of the level: the impersonal constructions, the demonstratives and determiners, and the prepositions taken as a whole system.",
+  "title": "Checkpoint 6: Impersonals, Determiners, and the Prepositions",
+  "summary": "A cumulative examination of the last three sections of A1: the impersonal constructions, the demonstratives and determiners, and the preposition system taken as a whole. The examination of the level itself is the A1 Boundary Examination, which follows this one.",
   "covers": [
     "a1-19",
     "a1-20",
@@ -225,27 +225,6 @@
       ]
     },
     {
-      "id": "cp6-q9",
-      "type": "single",
-      "difficulty": "easy",
-      "fromSection": "a1-20",
-      "stem": "Locative singular masculine of **tas**:",
-      "options": [
-        "tam",
-        "tuo",
-        "tame",
-        "to"
-      ],
-      "correct": 2,
-      "explanation": "*tame* (*tame name*). *tam* dative, *tuo* instrumental, *to* genitive.",
-      "rulesTested": [
-        "sis-tas"
-      ],
-      "vocabUsed": [
-        "tas"
-      ]
-    },
-    {
       "id": "cp6-q10",
       "type": "single",
       "difficulty": "easy",
@@ -419,21 +398,20 @@
       "id": "cp6-q16",
       "type": "integer",
       "difficulty": "hard",
-      "fromSection": "a1-20",
-      "stem": "**Niekas niekada nieko nesakė.** How many negative elements (incl. *ne-* on the verb)?",
-      "answer": 4,
-      "unit": "elements",
-      "explanation": "*niekas*, *niekada*, *nieko*, *nesakė*.",
+      "stem": "In **Niekas nieko nežino**, how many words must be negative for the sentence to be standard Lithuanian?",
+      "explanation": "All three: *niekas*, *nieko* and the negated verb *nežino*. Lithuanian negation agrees rather than cancels (¶137), so making the verb positive to avoid a ‘double negative’ produces something ungrammatical.",
       "rulesTested": [
         "niekas-negation",
         "negation",
-        "frequency-adverbs"
+        "kas-declined"
       ],
       "vocabUsed": [
         "niekas",
-        "niekada",
-        "sakyti"
-      ]
+        "žinoti"
+      ],
+      "answer": 3,
+      "unit": "words",
+      "fromSection": "a1-20"
     },
     {
       "id": "cp6-q17",
@@ -1011,23 +989,31 @@
     {
       "id": "cp6-b1",
       "type": "single",
-      "difficulty": "easy",
-      "fromSection": "a1-19",
-      "stem": "Complete: **______ gerai.**",
-      "options": [
-        "Man",
-        "Aš",
-        "Mano",
-        "Mane"
-      ],
-      "correct": 0,
-      "explanation": "State with the dative of the person: *man gerai*. *Aš gerai* is the English-shaped trap.",
+      "difficulty": "hard",
+      "stem": "**Man gerai** and **Aš esu geras** differ how?",
+      "explanation": "*Man gerai* says how things are for someone and has no subject to agree with, so what follows is an adverb (¶127, ¶131, ¶119). *Aš esu geras* predicates a quality **of** the speaker, and its adjective agrees (¶16, ¶17). The two say different things, not the same thing twice.",
       "rulesTested": [
-        "personal-vs-impersonal"
+        "personal-vs-impersonal",
+        "impersonal-summary",
+        "neuter-adjective",
+        "predicate-nominative",
+        "adverb-formation"
       ],
       "vocabUsed": [
-        "gerai"
-      ]
+        "gerai",
+        "geras",
+        "būti",
+        "aš",
+        "man"
+      ],
+      "options": [
+        "The first is impersonal — no subject, and *gerai* is an adverb; the second has a nominative subject and a predicate adjective.",
+        "They mean the same; the first is merely shorter.",
+        "The first is a contraction of the second, with *esu* dropped.",
+        "The first is ungrammatical without *esu*."
+      ],
+      "correct": 0,
+      "fromSection": "a1-19"
     },
     {
       "id": "cp6-b2",
@@ -1264,27 +1250,34 @@
     {
       "id": "cp6-b12",
       "type": "multi",
-      "difficulty": "medium",
-      "fromSection": "a1-19",
-      "stem": "Complete: **______ reikia ilsėtis.** Which mark the experiencer?",
-      "options": [
-        "Man",
-        "Jam",
-        "Aš",
-        "Mano"
-      ],
-      "correct": [
-        0,
-        1
-      ],
-      "explanation": "*Reikėti* takes the dative experiencer: *man*, *jam*. Nominative *aš* and possessive *mano* are wrong.",
+      "difficulty": "hard",
+      "stem": "**Man reikia ilsėtis.** Which statements are true?",
+      "explanation": "*reikia* never takes a nominative (¶69, ¶130); the person stands in the dative and what is needed appears as an infinitive when it is an action (¶40). Replacing *man* by *aš* would supply the subject the construction specifically refuses.",
       "rulesTested": [
-        "galima-reikia"
+        "galima-reikia",
+        "reikia",
+        "personal-vs-impersonal",
+        "complementary-infinitive",
+        "dative-pronouns"
       ],
       "vocabUsed": [
         "reikia",
-        "ilsėtis"
-      ]
+        "ilsėtis",
+        "man",
+        "aš"
+      ],
+      "options": [
+        "*reikia* is impersonal and has no subject.",
+        "*man* is dative and names the person who needs.",
+        "*ilsėtis* is an infinitive completing *reikia*.",
+        "*man* could be replaced by *aš* with no loss."
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "fromSection": "a1-19"
     },
     {
       "id": "cp6-p1",
@@ -1301,6 +1294,40 @@
         "klausia": "asks"
       },
       "questions": [
+        {
+          "id": "cp6-p1-c1",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Kas negerai Tomui?",
+          "explanation": "*Tomui skauda galvą* — an impersonal with the person in the dative and the part in the accusative.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "fromSection": "a1-19",
+          "options": [
+            "skauda galvą",
+            "skauda dantį",
+            "jam karšta",
+            "jis pavargo nuo darbo"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "cp6-p1-c2",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Kiek Tomas mokės už kavą?",
+          "explanation": "*Už kavą nemokėsi nieko — aš nieko neimsiu.* Both clauses are negative, and both have to be.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "fromSection": "a1-20",
+          "options": [
+            "nieko",
+            "du eurus",
+            "tiek, kiek draugas",
+            "nesakoma"
+          ],
+          "correct": 0
+        },
         {
           "id": "cp6-p1-q1",
           "type": "single",
@@ -1435,6 +1462,17 @@
             "į"
           ]
         }
+      ],
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+          "note": "Descriptive source for the paradigms and rule statements on this page."
+        }
       ]
     },
     {
@@ -1443,15 +1481,50 @@
       "difficulty": "hard",
       "fromSection": "a1-21",
       "title": "Po senamiestį",
-      "passage": "Ėjome per tiltą prieš katedrą ir vaikščiojome po aikštę. Vidury aikštės stovėjo žmonės. Paskui buvome pas draugą virš kavinės. „Kaip sekasi?“ — „Gerai, bet dar nesimokau greitai kalbėti lietuviškai. Tokia kalba man įdomu.“ Niekas nieko nesakė priešingai.",
+      "passage": "Ėjome per tiltą prieš katedrą ir vaikščiojome po aikštę. Vidury aikštės stovėjo žmonės. Paskui buvome pas draugą virš kavinės.\nDRAUGAS. Kaip sekasi?\nAŠ. Gerai, bet dar nesimokau greitai kalbėti lietuviškai. Tokia kalba man įdomu.\nNiekas nieko nesakė priešingai.",
       "translation": "We went across the bridge in front of the cathedral and walked about the square. In the middle of the square people were standing. Afterwards we were at a friend's above a café. \"How are you getting on?\" — \"Well, but I am not yet learning to speak Lithuanian quickly. Such a language I find interesting.\" Nobody said anything to the contrary.",
       "glossary": {
         "aikštė": "square",
         "stovėjo": "were standing",
         "priešingai": "to the contrary",
-        "katedra": "cathedral"
+        "katedra": "cathedral",
+        "draugas": "friend"
       },
       "questions": [
+        {
+          "id": "cp6-p2-c1",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Kur gyvena draugas?",
+          "explanation": "*Paskui buvome pas draugą virš kavinės.* *Pas* takes the person, *virš* the place above which he lives.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "fromSection": "a1-21",
+          "options": [
+            "prieš katedrą",
+            "virš kavinės",
+            "vidury aikštės",
+            "prie tilto"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "cp6-p2-c2",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Ką sako draugas apie lietuvių kalbą?",
+          "explanation": "*Tokia kalba man įdomu* — the non-gendered *įdomu* with the person in the dative, which is the impersonal pattern.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "fromSection": "a1-19",
+          "options": [
+            "kad ji lengva",
+            "kad jam ji įdomi",
+            "kad jis jau kalba greitai",
+            "kad nenori mokytis"
+          ],
+          "correct": 1
+        },
         {
           "id": "cp6-p2-q1",
           "type": "multi",
@@ -1551,7 +1624,307 @@
             "sakyti"
           ]
         }
+      ],
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+          "note": "Descriptive source for the paradigms and rule statements on this page."
+        }
       ]
+    },
+    {
+      "id": "cp6-m1",
+      "type": "matching",
+      "difficulty": "hard",
+      "stem": "Match each preposition with the case it takes in the phrase given.",
+      "explanation": "*pas* and *per* take the accusative (¶139, ¶140), *virš* the genitive (¶142) and *po* the instrumental when it means ‘under’ (¶75) — so the accusative is used **twice** and the locative never. No Lithuanian preposition governs the locative, which is what makes option D impossible on principle rather than by inspection (¶144).",
+      "rulesTested": [
+        "pas-accusative",
+        "per-priesa-place",
+        "virs-vidury",
+        "instrumental-po",
+        "prepositions-review"
+      ],
+      "vocabUsed": [
+        "pas",
+        "gydytojas",
+        "virš",
+        "stalas",
+        "po",
+        "per",
+        "tiltas"
+      ],
+      "fromSection": "a1-21",
+      "columnHeadings": [
+        "Phrase",
+        "Case"
+      ],
+      "columnI": [
+        "**pas** gydytoją",
+        "**virš** stalo",
+        "**po** stalu",
+        "**per** tiltą"
+      ],
+      "columnII": [
+        "accusative",
+        "genitive",
+        "instrumental",
+        "locative"
+      ],
+      "options": [
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          2
+        ],
+        [
+          1,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "correct": 0
+    },
+    {
+      "id": "cp6-m2",
+      "type": "matching",
+      "difficulty": "hard",
+      "stem": "Match each determiner with what it does.",
+      "explanation": "*šis* is the near demonstrative (¶132), *tas pats* the expression of identity (¶138), *kiekvienas* the singular distributive (¶136), and *niekas* a negative requiring concord (¶137). The decoy is *kuris* (¶135), which asks rather than answers.",
+      "rulesTested": [
+        "sis-tas",
+        "tas-pats",
+        "visas-kiekvienas",
+        "niekas-negation",
+        "kuris"
+      ],
+      "vocabUsed": [
+        "šis",
+        "tas",
+        "kiekvienas",
+        "niekas"
+      ],
+      "fromSection": "a1-20",
+      "columnHeadings": [
+        "Word",
+        "What it does"
+      ],
+      "columnI": [
+        "**šis**",
+        "**tas pats**",
+        "**kiekvienas**",
+        "**niekas**"
+      ],
+      "columnII": [
+        "points to what is near",
+        "asserts identity with something already mentioned",
+        "distributes over a set, and is singular",
+        "negates, and requires the verb to be negated too",
+        "asks which of several"
+      ],
+      "options": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          2
+        ],
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          4
+        ]
+      ],
+      "correct": 0
+    },
+    {
+      "id": "cp6-h1",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**Man šalta** and **Aš šaltas** are both grammatical. What is the difference?",
+      "explanation": "The impersonal has no subject and takes the non-gendered form (¶126, ¶127); *Aš šaltas* has a nominative subject and an agreeing predicate adjective (¶16, ¶17), and says the speaker is a cold person. Both are Lithuanian; only one is about the weather.",
+      "rulesTested": [
+        "neuter-adjective",
+        "personal-vs-impersonal",
+        "impersonal-summary",
+        "predicate-nominative",
+        "adjective-agreement"
+      ],
+      "vocabUsed": [
+        "šaltas",
+        "aš",
+        "man"
+      ],
+      "fromSection": "a1-19",
+      "options": [
+        "None; the second is simply more formal.",
+        "The first says how the speaker feels and is impersonal; the second predicates coldness of the speaker as a property.",
+        "The first is incorrect without a verb.",
+        "The second is impersonal and the first personal."
+      ],
+      "correct": 1
+    },
+    {
+      "id": "cp6-h2",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "**Niekas nieko niekada nematė tame parke.** Which statements are true?",
+      "explanation": "Negation agrees in Lithuanian: every negative word keeps its *nie-* and the verb keeps its *ne-* (¶137). The demonstrative declines and agrees with its noun in the locative (¶132, ¶59). Making the verb positive would not tidy the sentence; it would break it.",
+      "rulesTested": [
+        "niekas-negation",
+        "negation",
+        "sis-tas",
+        "locative-singular"
+      ],
+      "vocabUsed": [
+        "niekas",
+        "niekada",
+        "matyti",
+        "tas",
+        "parkas"
+      ],
+      "fromSection": "a1-20",
+      "options": [
+        "Three negative words stand before the verb, and the verb is negated too.",
+        "*tame parke* is locative and marks position.",
+        "*tame* is the demonstrative *tas* agreeing with *parke* in case.",
+        "The sentence would be improved by making the verb positive."
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "cp6-h3",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**Einu pas draugą** and **Einu į parką**. Why two different prepositions for what is, in English, the same *to*?",
+      "explanation": "Motion towards a person takes *pas*, motion towards a place *į* — both with the accusative, so the case cannot be what distinguishes them (¶139, ¶61). English collapses the two into one preposition, which is why the distinction has to be learned rather than translated.",
+      "rulesTested": [
+        "pas-accusative",
+        "direction-i",
+        "prepositions-review",
+        "motion-verbs"
+      ],
+      "vocabUsed": [
+        "pas",
+        "draugas",
+        "į",
+        "parkas",
+        "eiti"
+      ],
+      "fromSection": "a1-21",
+      "options": [
+        "*pas* is used with people and *į* with places.",
+        "*pas* is used with the accusative and *į* with the genitive.",
+        "*į* is used only with towns.",
+        "They are interchangeable; the choice is stylistic."
+      ],
+      "correct": 0
+    },
+    {
+      "id": "cp6-h4",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**Kaip tau sekasi?** The verb is reflexive and impersonal at once. Which analysis is right?",
+      "explanation": "*sektis* belongs to the reflexive set phrases (¶145) and behaves impersonally: no nominative anywhere, and the person concerned in the dative (¶127, ¶131). A dative is never a subject, however English translates it.",
+      "rulesTested": [
+        "reflexive-phrases",
+        "personal-vs-impersonal",
+        "impersonal-summary",
+        "dative-pronouns"
+      ],
+      "vocabUsed": [
+        "sektis",
+        "kaip"
+      ],
+      "fromSection": "a1-21",
+      "options": [
+        "*tau* is dative; *sekasi* has no subject; the phrase asks how things are going for the listener.",
+        "*tau* is the subject in the dative, which reflexive verbs require.",
+        "*sekasi* is a passive form of *sekti*.",
+        "*Kaip* is the subject."
+      ],
+      "correct": 0
+    },
+    {
+      "id": "cp6-h5",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "**Kiekvienam reikia poilsio, bet ne kiekvienas jį gauna.** Which statements are true?",
+      "explanation": "*reikia* takes a dative of the person and a genitive of the thing (¶69, ¶130); *kiekvienas* then reappears as an ordinary nominative subject (¶136). D over-applies ¶137: negative *concord* is required by the *nie-* words, not by every negated element, and *ne kiekvienas gauna* is correct as it stands.",
+      "rulesTested": [
+        "galima-reikia",
+        "visas-kiekvienas",
+        "niekas-negation",
+        "personal-vs-impersonal",
+        "nominative"
+      ],
+      "vocabUsed": [
+        "kiekvienas",
+        "reikia",
+        "bet",
+        "ne"
+      ],
+      "fromSection": "a1-19",
+      "options": [
+        "*Kiekvienam* is dative because *reikia* requires it.",
+        "*poilsio* is genitive as the thing needed.",
+        "*kiekvienas* in the second clause is nominative, being the subject of *gauna*.",
+        "*ne kiekvienas* requires *gauna* to be negated as well."
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+      "note": "Descriptive source for the paradigms and rule statements on this page."
+    },
+    {
+      "kind": "dictionary",
+      "citation": "*Dabartinės lietuvių kalbos žodynas*, Lietuvių kalbos institutas.",
+      "url": "https://ekalba.lt/dabartines-lietuviu-kalbos-zodynas/",
+      "note": "Citation forms, gender and stress class for this section's vocabulary."
     }
   ]
 }

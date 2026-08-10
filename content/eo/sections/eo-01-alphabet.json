@@ -8,34 +8,202 @@
   "script": {
     "heading": "The Esperanto Alphabet",
     "letters": [
-      { "glyph": "a", "upper": "A", "name": "a", "ipa": "/a/", "approx": "as in 'far'" },
-      { "glyph": "b", "upper": "B", "name": "bo", "ipa": "/b/", "approx": "as in 'bed'" },
-      { "glyph": "c", "upper": "C", "name": "co", "ipa": "/ts/", "approx": "as 'ts' in 'hats'" },
-      { "glyph": "ĉ", "upper": "Ĉ", "name": "ĉo", "ipa": "/tʃ/", "approx": "as 'ch' in 'chin'" },
-      { "glyph": "d", "upper": "D", "name": "do", "ipa": "/d/", "approx": "as in 'do'" },
-      { "glyph": "e", "upper": "E", "name": "e", "ipa": "/e/", "approx": "as 'a' in 'fate', but without the vanish" },
-      { "glyph": "f", "upper": "F", "name": "fo", "ipa": "/f/", "approx": "as in 'if'" },
-      { "glyph": "g", "upper": "G", "name": "go", "ipa": "/ɡ/", "approx": "always hard, as in 'go'" },
-      { "glyph": "ĝ", "upper": "Ĝ", "name": "ĝo", "ipa": "/dʒ/", "approx": "as 'g' in 'gem', 'j' in 'jar'" },
-      { "glyph": "h", "upper": "H", "name": "ho", "ipa": "/h/", "approx": "as in 'hat'" },
-      { "glyph": "ĥ", "upper": "Ĥ", "name": "ĥo", "ipa": "/x/", "approx": "as 'ch' in Scottish 'loch'; rare" },
-      { "glyph": "i", "upper": "I", "name": "i", "ipa": "/i/", "approx": "as in 'machine'" },
-      { "glyph": "j", "upper": "J", "name": "jo", "ipa": "/j/", "approx": "as 'y' in 'yes'" },
-      { "glyph": "ĵ", "upper": "Ĵ", "name": "ĵo", "ipa": "/ʒ/", "approx": "as 'z' in 'azure'" },
-      { "glyph": "k", "upper": "K", "name": "ko", "ipa": "/k/", "approx": "as in 'skin'" },
-      { "glyph": "l", "upper": "L", "name": "lo", "ipa": "/l/", "approx": "as in 'let'" },
-      { "glyph": "m", "upper": "M", "name": "mo", "ipa": "/m/", "approx": "as in 'me'" },
-      { "glyph": "n", "upper": "N", "name": "no", "ipa": "/n/", "approx": "as in 'no'" },
-      { "glyph": "o", "upper": "O", "name": "o", "ipa": "/o/", "approx": "as in 'toll', 'for'" },
-      { "glyph": "p", "upper": "P", "name": "po", "ipa": "/p/", "approx": "as in 'spin'" },
-      { "glyph": "r", "upper": "R", "name": "ro", "ipa": "/r/", "approx": "slightly trilled" },
-      { "glyph": "s", "upper": "S", "name": "so", "ipa": "/s/", "approx": "always voiceless, as in 'see'" },
-      { "glyph": "ŝ", "upper": "Ŝ", "name": "ŝo", "ipa": "/ʃ/", "approx": "as 'sh' in 'shine'" },
-      { "glyph": "t", "upper": "T", "name": "to", "ipa": "/t/", "approx": "as in 'stop'" },
-      { "glyph": "u", "upper": "U", "name": "u", "ipa": "/u/", "approx": "as in 'rude'" },
-      { "glyph": "ŭ", "upper": "Ŭ", "name": "ŭo", "ipa": "/w/", "approx": "as 'w'; occurs only after a vowel" },
-      { "glyph": "v", "upper": "V", "name": "vo", "ipa": "/v/", "approx": "as in 'vine'" },
-      { "glyph": "z", "upper": "Z", "name": "zo", "ipa": "/z/", "approx": "as in 'zoo'" }
+      {
+        "glyph": "a",
+        "upper": "A",
+        "name": "a",
+        "ipa": "/a/",
+        "approx": "as in 'far'"
+      },
+      {
+        "glyph": "b",
+        "upper": "B",
+        "name": "bo",
+        "ipa": "/b/",
+        "approx": "as in 'bed'"
+      },
+      {
+        "glyph": "c",
+        "upper": "C",
+        "name": "co",
+        "ipa": "/ts/",
+        "approx": "as 'ts' in 'hats'"
+      },
+      {
+        "glyph": "ĉ",
+        "upper": "Ĉ",
+        "name": "ĉo",
+        "ipa": "/tʃ/",
+        "approx": "as 'ch' in 'chin'"
+      },
+      {
+        "glyph": "d",
+        "upper": "D",
+        "name": "do",
+        "ipa": "/d/",
+        "approx": "as in 'do'"
+      },
+      {
+        "glyph": "e",
+        "upper": "E",
+        "name": "e",
+        "ipa": "/e/",
+        "approx": "as 'a' in 'fate', but without the vanish"
+      },
+      {
+        "glyph": "f",
+        "upper": "F",
+        "name": "fo",
+        "ipa": "/f/",
+        "approx": "as in 'if'"
+      },
+      {
+        "glyph": "g",
+        "upper": "G",
+        "name": "go",
+        "ipa": "/ɡ/",
+        "approx": "always hard, as in 'go'"
+      },
+      {
+        "glyph": "ĝ",
+        "upper": "Ĝ",
+        "name": "ĝo",
+        "ipa": "/dʒ/",
+        "approx": "as 'g' in 'gem', 'j' in 'jar'"
+      },
+      {
+        "glyph": "h",
+        "upper": "H",
+        "name": "ho",
+        "ipa": "/h/",
+        "approx": "as in 'hat'"
+      },
+      {
+        "glyph": "ĥ",
+        "upper": "Ĥ",
+        "name": "ĥo",
+        "ipa": "/x/",
+        "approx": "as 'ch' in Scottish 'loch'; rare"
+      },
+      {
+        "glyph": "i",
+        "upper": "I",
+        "name": "i",
+        "ipa": "/i/",
+        "approx": "as in 'machine'"
+      },
+      {
+        "glyph": "j",
+        "upper": "J",
+        "name": "jo",
+        "ipa": "/j/",
+        "approx": "as 'y' in 'yes'"
+      },
+      {
+        "glyph": "ĵ",
+        "upper": "Ĵ",
+        "name": "ĵo",
+        "ipa": "/ʒ/",
+        "approx": "as 'z' in 'azure'"
+      },
+      {
+        "glyph": "k",
+        "upper": "K",
+        "name": "ko",
+        "ipa": "/k/",
+        "approx": "as in 'skin'"
+      },
+      {
+        "glyph": "l",
+        "upper": "L",
+        "name": "lo",
+        "ipa": "/l/",
+        "approx": "as in 'let'"
+      },
+      {
+        "glyph": "m",
+        "upper": "M",
+        "name": "mo",
+        "ipa": "/m/",
+        "approx": "as in 'me'"
+      },
+      {
+        "glyph": "n",
+        "upper": "N",
+        "name": "no",
+        "ipa": "/n/",
+        "approx": "as in 'no'"
+      },
+      {
+        "glyph": "o",
+        "upper": "O",
+        "name": "o",
+        "ipa": "/o/",
+        "approx": "as in 'toll', 'for'"
+      },
+      {
+        "glyph": "p",
+        "upper": "P",
+        "name": "po",
+        "ipa": "/p/",
+        "approx": "as in 'spin'"
+      },
+      {
+        "glyph": "r",
+        "upper": "R",
+        "name": "ro",
+        "ipa": "/r/",
+        "approx": "slightly trilled"
+      },
+      {
+        "glyph": "s",
+        "upper": "S",
+        "name": "so",
+        "ipa": "/s/",
+        "approx": "always voiceless, as in 'see'"
+      },
+      {
+        "glyph": "ŝ",
+        "upper": "Ŝ",
+        "name": "ŝo",
+        "ipa": "/ʃ/",
+        "approx": "as 'sh' in 'shine'"
+      },
+      {
+        "glyph": "t",
+        "upper": "T",
+        "name": "to",
+        "ipa": "/t/",
+        "approx": "as in 'stop'"
+      },
+      {
+        "glyph": "u",
+        "upper": "U",
+        "name": "u",
+        "ipa": "/u/",
+        "approx": "as in 'rude'"
+      },
+      {
+        "glyph": "ŭ",
+        "upper": "Ŭ",
+        "name": "ŭo",
+        "ipa": "/w/",
+        "approx": "as 'w'; occurs only after a vowel"
+      },
+      {
+        "glyph": "v",
+        "upper": "V",
+        "name": "vo",
+        "ipa": "/v/",
+        "approx": "as in 'vine'"
+      },
+      {
+        "glyph": "z",
+        "upper": "Z",
+        "name": "zo",
+        "ipa": "/z/",
+        "approx": "as in 'zoo'"
+      }
     ],
     "notes": [
       "The letters q, w, x and y do not belong to the alphabet.",
@@ -50,8 +218,15 @@
       "heading": "The Alphabet",
       "statement": "The Esperanto alphabet contains **twenty-eight** letters: a, b, c, ĉ, d, e, f, g, ĝ, h, ĥ, i, j, ĵ, k, l, m, n, o, p, r, s, ŝ, t, u, ŭ, v, z. The Latin letters **q, w, x** and **y** are not used, and six letters are added by means of a diacritical mark. The design is deliberate: the alphabet was fitted to the sounds of the language rather than inherited from another one, so that **each letter has one sound, and each sound one letter**.",
       "examples": [
-        { "target": "birdo", "gloss": "bird", "note": "spelled bo, i, ro, do, o" },
-        { "target": "ĉevalo", "gloss": "horse" }
+        {
+          "target": "birdo",
+          "gloss": "bird",
+          "note": "spelled bo, i, ro, do, o"
+        },
+        {
+          "target": "ĉevalo",
+          "gloss": "horse"
+        }
       ],
       "seeAlso": [],
       "core": true
@@ -64,21 +239,65 @@
       "paradigms": [
         {
           "caption": "The five vowels",
-          "columns": ["letter", "value", "as in"],
+          "columns": [
+            "letter",
+            "value",
+            "as in"
+          ],
           "rows": [
-            { "label": "a", "cells": ["/a/", "far"] },
-            { "label": "e", "cells": ["/e/", "fiancé — never 'day'"] },
-            { "label": "i", "cells": ["/i/", "machine"] },
-            { "label": "o", "cells": ["/o/", "for — never 'go'"] },
-            { "label": "u", "cells": ["/u/", "rude"] }
+            {
+              "label": "a",
+              "cells": [
+                "/a/",
+                "far"
+              ]
+            },
+            {
+              "label": "e",
+              "cells": [
+                "/e/",
+                "fiancé — never 'day'"
+              ]
+            },
+            {
+              "label": "i",
+              "cells": [
+                "/i/",
+                "machine"
+              ]
+            },
+            {
+              "label": "o",
+              "cells": [
+                "/o/",
+                "for — never 'go'"
+              ]
+            },
+            {
+              "label": "u",
+              "cells": [
+                "/u/",
+                "rude"
+              ]
+            }
           ]
         }
       ],
       "examples": [
-        { "target": "aero", "gloss": "air", "note": "three vowels, three syllables: a-e-ro" },
-        { "target": "obei", "gloss": "to obey", "note": "o-be-i; the final i is a full vowel" }
+        {
+          "target": "aero",
+          "gloss": "air",
+          "note": "three vowels, three syllables: a-e-ro"
+        },
+        {
+          "target": "obei",
+          "gloss": "to obey",
+          "note": "o-be-i; the final i is a full vowel"
+        }
       ],
-      "seeAlso": ["alphabet"],
+      "seeAlso": [
+        "alphabet"
+      ],
       "core": true
     },
     {
@@ -87,16 +306,37 @@
       "heading": "Consonants Differing from English",
       "statement": "The consonants **b, d, f, h, k, l, m, n, p, t, v, z** have their English values. Of the remaining eleven, these need attention: **c** is always /ts/; **ĉ** is *ch* as in \"chin\"; **g** is always hard; **ĝ** is the *g* of \"gem\"; **ĥ** is the rasped *ch* of \"loch\"; **j** is the *y* of \"yes\"; **ĵ** is the *z* of \"azure\"; **ŝ** is *sh*; **r** is slightly trilled; **s** is always voiceless, never the /z/ of English \"rose\".",
       "examples": [
-        { "target": "centono", "gloss": "a hundredth", "note": "tsen-TO-no" },
-        { "target": "ĝojo", "gloss": "joy", "note": "the initial sound of English 'joy'" },
-        { "target": "ĵaŭdo", "gloss": "Thursday" },
-        { "target": "juna", "gloss": "young", "note": "YU-na, not 'JU-na'" },
-        { "target": "rozo", "gloss": "rose", "note": "the s-sound is absent; z is written where /z/ is meant" }
+        {
+          "target": "centono",
+          "gloss": "a hundredth",
+          "note": "tsen-TO-no"
+        },
+        {
+          "target": "ĝojo",
+          "gloss": "joy",
+          "note": "the initial sound of English 'joy'"
+        },
+        {
+          "target": "ĵaŭdo",
+          "gloss": "Thursday"
+        },
+        {
+          "target": "juna",
+          "gloss": "young",
+          "note": "YU-na, not 'JU-na'"
+        },
+        {
+          "target": "rozo",
+          "gloss": "rose",
+          "note": "the s-sound is absent; z is written where /z/ is meant"
+        }
       ],
       "footnotes": [
         "Only a few words contain ĥ, and several of them are now more often written with k: ĥemio or kemio, chemistry."
       ],
-      "seeAlso": ["alphabet"],
+      "seeAlso": [
+        "alphabet"
+      ],
       "core": true
     },
     {
@@ -105,10 +345,19 @@
       "heading": "The Names of the Letters",
       "statement": "The vowels are named by their sounds. Each consonant is named by adding **-o**: *bo, co, ĉo, do, fo, go, ĝo, ho, ĥo, jo, ĵo, ko, lo, mo, no, po, ro, so, ŝo, to, ŭo, vo, zo*. These names are used in spelling words aloud and in reading abbreviations.",
       "examples": [
-        { "target": "bo, i, ro, do, o", "gloss": "b-i-r-d-o", "note": "spelling out birdo" },
-        { "target": "ko to po", "gloss": "k. t. p. (= etc.)" }
+        {
+          "target": "bo, i, ro, do, o",
+          "gloss": "b-i-r-d-o",
+          "note": "spelling out birdo"
+        },
+        {
+          "target": "ko to po",
+          "gloss": "k. t. p. (= etc.)"
+        }
       ],
-      "seeAlso": ["alphabet"],
+      "seeAlso": [
+        "alphabet"
+      ],
       "core": false
     },
     {
@@ -119,24 +368,70 @@
       "paradigms": [
         {
           "caption": "The six diphthongs",
-          "columns": ["written", "as in"],
+          "columns": [
+            "written",
+            "as in"
+          ],
           "rows": [
-            { "label": "aj", "cells": ["'ai' in aisle"] },
-            { "label": "ej", "cells": ["'ei' in vein"] },
-            { "label": "oj", "cells": ["'oi' in coin"] },
-            { "label": "uj", "cells": ["'ui' in ruin"] },
-            { "label": "aŭ", "cells": ["'ou' in out"] },
-            { "label": "eŭ", "cells": ["'ayw' in wayward"] }
+            {
+              "label": "aj",
+              "cells": [
+                "'ai' in aisle"
+              ]
+            },
+            {
+              "label": "ej",
+              "cells": [
+                "'ei' in vein"
+              ]
+            },
+            {
+              "label": "oj",
+              "cells": [
+                "'oi' in coin"
+              ]
+            },
+            {
+              "label": "uj",
+              "cells": [
+                "'ui' in ruin"
+              ]
+            },
+            {
+              "label": "aŭ",
+              "cells": [
+                "'ou' in out"
+              ]
+            },
+            {
+              "label": "eŭ",
+              "cells": [
+                "'ayw' in wayward"
+              ]
+            }
           ],
           "footnote": "ŭ occurs only as the second element of a diphthong, never alone."
         }
       ],
       "examples": [
-        { "target": "hodiaŭ", "gloss": "today", "note": "ho-di-AŬ, three syllables" },
-        { "target": "Eŭropo", "gloss": "Europe" },
-        { "target": "naiva", "gloss": "naive", "note": "na-I-va: ai here is **not** a diphthong, which is why the diphthong is written aj" }
+        {
+          "target": "hodiaŭ",
+          "gloss": "today",
+          "note": "ho-di-AŬ, three syllables"
+        },
+        {
+          "target": "Eŭropo",
+          "gloss": "Europe"
+        },
+        {
+          "target": "naiva",
+          "gloss": "naive",
+          "note": "na-I-va: ai here is **not** a diphthong, which is why the diphthong is written aj"
+        }
       ],
-      "seeAlso": ["vowels"],
+      "seeAlso": [
+        "vowels"
+      ],
       "core": true
     },
     {
@@ -145,13 +440,35 @@
       "heading": "Combinations of Consonants",
       "statement": "Every consonant in a group is pronounced with its **full value**, whether the group stands at the beginning of a word or within it. **There are no silent letters.** English habits must therefore be resisted in four places: *kn, kv, gv, sv* sound both consonants; **kz** is not reduced to the *gz* or *ks* that English writes *x*; **sc** is the *sts* of \"laST Said\" said quickly; and **ng** keeps its *g*, as in \"linger\", not as in \"singer\". Two like letters together are each sounded, as in \"inter-relate\".",
       "examples": [
-        { "target": "knabo", "gloss": "boy", "note": "the k is sounded" },
-        { "target": "ekzisti", "gloss": "to exist", "note": "ek-ZIS-ti, not eg-zisti" },
-        { "target": "scias", "gloss": "knows", "note": "STSI-as" },
-        { "target": "lingvo", "gloss": "language", "note": "lin-GVO, with the g heard" },
-        { "target": "ellerni", "gloss": "to learn thoroughly", "note": "el-LER-ni, both l's sounded" }
+        {
+          "target": "knabo",
+          "gloss": "boy",
+          "note": "the k is sounded"
+        },
+        {
+          "target": "ekzisti",
+          "gloss": "to exist",
+          "note": "ek-ZIS-ti, not eg-zisti"
+        },
+        {
+          "target": "scias",
+          "gloss": "knows",
+          "note": "STSI-as"
+        },
+        {
+          "target": "lingvo",
+          "gloss": "language",
+          "note": "lin-GVO, with the g heard"
+        },
+        {
+          "target": "ellerni",
+          "gloss": "to learn thoroughly",
+          "note": "el-LER-ni, both l's sounded"
+        }
       ],
-      "seeAlso": ["consonants"],
+      "seeAlso": [
+        "consonants"
+      ],
       "core": true
     },
     {
@@ -160,12 +477,30 @@
       "heading": "Syllables",
       "statement": "A word contains **as many syllables as it has vowels and diphthongs** — a diphthong counting as one. The division is made thus: a single consonant goes with the vowel following it; a consonant followed by *l* or *r* goes with the *l* or *r*; otherwise the division falls before the last consonant of the group; and prefixes and the parts of compound words are kept whole.",
       "examples": [
-        { "target": "pa-no", "gloss": "bread" },
-        { "target": "ta-blo", "gloss": "table", "note": "the b goes with the l" },
-        { "target": "sus-pek-ti", "gloss": "to suspect", "note": "division before the last consonant of the group" },
-        { "target": "mal-akra", "gloss": "blunt", "note": "the prefix mal- is kept whole" }
+        {
+          "target": "pa-no",
+          "gloss": "bread"
+        },
+        {
+          "target": "ta-blo",
+          "gloss": "table",
+          "note": "the b goes with the l"
+        },
+        {
+          "target": "sus-pek-ti",
+          "gloss": "to suspect",
+          "note": "division before the last consonant of the group"
+        },
+        {
+          "target": "mal-akra",
+          "gloss": "blunt",
+          "note": "the prefix mal- is kept whole"
+        }
       ],
-      "seeAlso": ["vowels", "diphthongs"],
+      "seeAlso": [
+        "vowels",
+        "diphthongs"
+      ],
       "core": true
     },
     {
@@ -174,33 +509,148 @@
       "heading": "Accent",
       "statement": "Words of more than one syllable are accented on **the syllable before the last**, without exception. Because the rule admits of none, the accent is never written; and because a diphthong is one syllable (¶7), counting the syllables correctly is the whole of the work.",
       "examples": [
-        { "target": "TA-blo", "gloss": "table" },
-        { "target": "a-GRA-bla", "gloss": "agreeable" },
-        { "target": "sus-PEK-ti", "gloss": "to suspect" },
-        { "target": "ho-di-AŬ", "gloss": "today", "note": "aŭ is one syllable, and it is the last; the accent falls on di" }
+        {
+          "target": "TA-blo",
+          "gloss": "table"
+        },
+        {
+          "target": "a-GRA-bla",
+          "gloss": "agreeable"
+        },
+        {
+          "target": "sus-PEK-ti",
+          "gloss": "to suspect"
+        },
+        {
+          "target": "ho-di-AŬ",
+          "gloss": "today",
+          "note": "aŭ is one syllable, and it is the last; the accent falls on di"
+        }
       ],
       "footnotes": [
         "Compare the languages Esperanto was meant to spare its learners: in Lithuanian, Russian or English the place of the accent must be memorised with each word."
       ],
-      "seeAlso": ["syllables"],
+      "seeAlso": [
+        "syllables"
+      ],
       "core": true
     }
   ],
   "vocabulary": [
-    { "lemma": "alfabeto", "gloss": "alphabet", "pos": "noun", "forms": { "nom": "alfabeto", "plural": "alfabetoj" } },
-    { "lemma": "litero", "gloss": "letter (of the alphabet)", "pos": "noun", "forms": { "nom": "litero", "plural": "literoj" } },
-    { "lemma": "vorto", "gloss": "word", "pos": "noun", "forms": { "nom": "vorto", "plural": "vortoj" } },
-    { "lemma": "sono", "gloss": "sound", "pos": "noun", "forms": { "nom": "sono", "plural": "sonoj" } },
-    { "lemma": "silabo", "gloss": "syllable", "pos": "noun", "forms": { "nom": "silabo", "plural": "silaboj" } },
-    { "lemma": "akcento", "gloss": "accent, stress", "pos": "noun", "forms": { "nom": "akcento", "plural": "akcentoj" } },
-    { "lemma": "vokalo", "gloss": "vowel", "pos": "noun", "forms": { "nom": "vokalo", "plural": "vokaloj" } },
-    { "lemma": "konsonanto", "gloss": "consonant", "pos": "noun", "forms": { "nom": "konsonanto", "plural": "konsonantoj" } },
-    { "lemma": "diftongo", "gloss": "diphthong", "pos": "noun", "forms": { "nom": "diftongo", "plural": "diftongoj" } },
-    { "lemma": "lingvo", "gloss": "language", "pos": "noun", "forms": { "nom": "lingvo", "plural": "lingvoj" } },
-    { "lemma": "jes", "gloss": "yes", "pos": "particle", "forms": {} },
-    { "lemma": "ne", "gloss": "no, not", "pos": "particle", "forms": {} },
-    { "lemma": "saluton", "gloss": "hello", "pos": "interjection", "forms": {} },
-    { "lemma": "dankon", "gloss": "thank you", "pos": "interjection", "forms": {} }
+    {
+      "lemma": "alfabeto",
+      "gloss": "alphabet",
+      "pos": "noun",
+      "forms": {
+        "nom": "alfabeto",
+        "plural": "alfabetoj"
+      }
+    },
+    {
+      "lemma": "litero",
+      "gloss": "letter (of the alphabet)",
+      "pos": "noun",
+      "forms": {
+        "nom": "litero",
+        "plural": "literoj"
+      }
+    },
+    {
+      "lemma": "vorto",
+      "gloss": "word",
+      "pos": "noun",
+      "forms": {
+        "nom": "vorto",
+        "plural": "vortoj"
+      }
+    },
+    {
+      "lemma": "sono",
+      "gloss": "sound",
+      "pos": "noun",
+      "forms": {
+        "nom": "sono",
+        "plural": "sonoj"
+      }
+    },
+    {
+      "lemma": "silabo",
+      "gloss": "syllable",
+      "pos": "noun",
+      "forms": {
+        "nom": "silabo",
+        "plural": "silaboj"
+      }
+    },
+    {
+      "lemma": "akcento",
+      "gloss": "accent, stress",
+      "pos": "noun",
+      "forms": {
+        "nom": "akcento",
+        "plural": "akcentoj"
+      }
+    },
+    {
+      "lemma": "vokalo",
+      "gloss": "vowel",
+      "pos": "noun",
+      "forms": {
+        "nom": "vokalo",
+        "plural": "vokaloj"
+      }
+    },
+    {
+      "lemma": "konsonanto",
+      "gloss": "consonant",
+      "pos": "noun",
+      "forms": {
+        "nom": "konsonanto",
+        "plural": "konsonantoj"
+      }
+    },
+    {
+      "lemma": "diftongo",
+      "gloss": "diphthong",
+      "pos": "noun",
+      "forms": {
+        "nom": "diftongo",
+        "plural": "diftongoj"
+      }
+    },
+    {
+      "lemma": "lingvo",
+      "gloss": "language",
+      "pos": "noun",
+      "forms": {
+        "nom": "lingvo",
+        "plural": "lingvoj"
+      }
+    },
+    {
+      "lemma": "jes",
+      "gloss": "yes",
+      "pos": "particle",
+      "forms": {}
+    },
+    {
+      "lemma": "ne",
+      "gloss": "no, not",
+      "pos": "particle",
+      "forms": {}
+    },
+    {
+      "lemma": "saluton",
+      "gloss": "hello",
+      "pos": "interjection",
+      "forms": {}
+    },
+    {
+      "lemma": "dankon",
+      "gloss": "thank you",
+      "pos": "interjection",
+      "forms": {}
+    }
   ],
   "drills": [
     {
@@ -211,19 +661,33 @@
       "answer": 28,
       "unit": "letters",
       "explanation": "Twenty-eight. The Latin alphabet loses q, w, x and y, and gains ĉ, ĝ, ĥ, ĵ, ŝ and ŭ.",
-      "rulesTested": ["alphabet"],
-      "vocabUsed": ["alfabeto", "litero"]
+      "rulesTested": [
+        "alphabet"
+      ],
+      "vocabUsed": [
+        "alfabeto",
+        "litero"
+      ]
     },
     {
       "id": "eo101-q2",
       "type": "single",
       "difficulty": "easy",
       "stem": "Which of these letters does **not** belong to the Esperanto alphabet?",
-      "options": ["ĝ", "y", "ŭ", "ĥ"],
+      "options": [
+        "ĝ",
+        "y",
+        "ŭ",
+        "ĥ"
+      ],
       "correct": 1,
       "explanation": "q, w, x and y were left out. The sound English writes with y is written j.",
-      "rulesTested": ["alphabet"],
-      "vocabUsed": ["litero"]
+      "rulesTested": [
+        "alphabet"
+      ],
+      "vocabUsed": [
+        "litero"
+      ]
     },
     {
       "id": "eo101-q3",
@@ -238,8 +702,12 @@
       ],
       "correct": 1,
       "explanation": "ĉ is the *ch* of \"chin\". 'sh' is ŝ, and /ts/ is c.",
-      "rulesTested": ["consonants"],
-      "vocabUsed": ["sono"]
+      "rulesTested": [
+        "consonants"
+      ],
+      "vocabUsed": [
+        "sono"
+      ]
     },
     {
       "id": "eo101-q4",
@@ -252,43 +720,89 @@
         "**e** and **o** end in a slight vanish, as the English vowels of 'day' and 'go' do.",
         "They are named by their own sounds."
       ],
-      "correct": [0, 1, 3],
+      "correct": [
+        0,
+        1,
+        3
+      ],
       "explanation": "a, e, i, o, u, each with a single invariable value. The vanish of English \"day\" and \"go\" is exactly what must be avoided: Esperanto *e* is the vowel of \"fiancé\", not of \"fate\".",
-      "rulesTested": ["vowels", "letter-names"],
-      "vocabUsed": ["vokalo", "sono"]
+      "rulesTested": [
+        "vowels",
+        "letter-names"
+      ],
+      "vocabUsed": [
+        "vokalo",
+        "sono"
+      ]
     },
     {
       "id": "eo101-q5",
       "type": "single",
       "difficulty": "medium",
       "stem": "How is **c** pronounced in *centono*?",
-      "options": ["as /k/", "as /s/", "as /ts/", "as /tʃ/"],
+      "options": [
+        "as /k/",
+        "as /s/",
+        "as /ts/",
+        "as /tʃ/"
+      ],
       "correct": 2,
       "explanation": "c is invariably /ts/, whatever vowel follows. /tʃ/ is written ĉ, and there is no letter with two values.",
-      "rulesTested": ["consonants", "alphabet"],
-      "vocabUsed": ["sono", "litero"]
+      "rulesTested": [
+        "consonants",
+        "alphabet"
+      ],
+      "vocabUsed": [
+        "sono",
+        "litero"
+      ]
     },
     {
       "id": "eo101-q6",
       "type": "multi",
       "difficulty": "medium",
       "stem": "Which of the following are **diphthongs**?",
-      "options": ["aj", "sc", "aŭ", "kv"],
-      "correct": [0, 2],
+      "options": [
+        "aj",
+        "sc",
+        "aŭ",
+        "kv"
+      ],
+      "correct": [
+        0,
+        2
+      ],
       "explanation": "aj and aŭ are two of the six. *sc* and *kv* are consonant groups, each consonant of which is fully sounded (¶6).",
-      "rulesTested": ["diphthongs", "consonant-clusters"],
-      "vocabUsed": ["diftongo", "konsonanto"]
+      "rulesTested": [
+        "diphthongs",
+        "consonant-clusters"
+      ],
+      "vocabUsed": [
+        "diftongo",
+        "konsonanto"
+      ]
     },
     {
       "id": "eo101-q7",
       "type": "single",
       "difficulty": "medium",
       "stem": "Which syllable of **agrabla** ('agreeable') carries the accent?",
-      "options": ["a-", "-gra-", "-bla", "none — the word is too short to be accented"],
+      "options": [
+        "a-",
+        "-gra-",
+        "-bla",
+        "none — the word is too short to be accented"
+      ],
       "correct": 1,
       "explanation": "The word divides a-gra-bla, and the accent falls on the syllable before the last: a-GRA-bla. Note that *br* would not divide, the consonant before *l* or *r* going with it (¶7).",
-      "rulesTested": ["accent", "syllables"],
-      "vocabUsed": ["akcento", "silabo"]
+      "rulesTested": [
+        "accent",
+        "syllables"
+      ],
+      "vocabUsed": [
+        "akcento",
+        "silabo"
+      ]
     },
     {
       "id": "eo101-q8",
@@ -298,8 +812,14 @@
       "answer": 5,
       "unit": "syllables",
       "explanation": "Five: sa-mi-de-a-no. The *e* and *a* stand side by side but do not form a diphthong — a diphthong would be written *aj* or *aŭ* (¶5) — so each is a syllable of its own.",
-      "rulesTested": ["syllables", "vowels"],
-      "vocabUsed": ["silabo", "vokalo"]
+      "rulesTested": [
+        "syllables",
+        "vowels"
+      ],
+      "vocabUsed": [
+        "silabo",
+        "vokalo"
+      ]
     },
     {
       "id": "eo101-q9",
@@ -314,8 +834,13 @@
       ],
       "correct": 2,
       "explanation": "c is /ts/ everywhere, so *sc* is /sts/ — the sound of \"laST Said\" run together. Nothing is ever silent in Esperanto.",
-      "rulesTested": ["consonant-clusters", "consonants"],
-      "vocabUsed": ["sono"]
+      "rulesTested": [
+        "consonant-clusters",
+        "consonants"
+      ],
+      "vocabUsed": [
+        "sono"
+      ]
     },
     {
       "id": "eo101-q10",
@@ -328,10 +853,22 @@
         "A diphthong counts as a single syllable when the place of the accent is worked out.",
         "It never has to be learned word by word."
       ],
-      "correct": [0, 2, 3],
+      "correct": [
+        0,
+        2,
+        3
+      ],
       "explanation": "The rule has no exceptions, so nothing needs marking and nothing needs memorising — the whole difficulty is counting syllables, and there a diphthong counts as one. In *hodiaŭ*, *aŭ* is the last syllable and *di* takes the accent.",
-      "rulesTested": ["accent", "diphthongs"],
-      "vocabUsed": ["akcento", "silabo", "diftongo", "vorto"]
+      "rulesTested": [
+        "accent",
+        "diphthongs"
+      ],
+      "vocabUsed": [
+        "akcento",
+        "silabo",
+        "diftongo",
+        "vorto"
+      ]
     },
     {
       "id": "eo101-q11",
@@ -341,8 +878,14 @@
       "answer": 3,
       "unit": "syllables",
       "explanation": "Three: ĉi-e-lo, hence ĉi-E-lo. *ie* is not a diphthong — the diphthongs all end in j or ŭ — so the i and the e are separate syllables.",
-      "rulesTested": ["syllables", "diphthongs", "accent"],
-      "vocabUsed": ["silabo"]
+      "rulesTested": [
+        "syllables",
+        "diphthongs",
+        "accent"
+      ],
+      "vocabUsed": [
+        "silabo"
+      ]
     },
     {
       "id": "eo101-q12",
@@ -357,8 +900,21 @@
       ],
       "correct": 1,
       "explanation": "Each consonant of a group keeps its full value, so the g is sounded — \"linger\", not \"singer\". A silent letter does not exist in the language.",
-      "rulesTested": ["consonant-clusters"],
-      "vocabUsed": ["lingvo", "konsonanto"]
+      "rulesTested": [
+        "consonant-clusters"
+      ],
+      "vocabUsed": [
+        "lingvo",
+        "konsonanto"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Reed, Ivy Kellerman, *A Complete Grammar of Esperanto*, 1910.",
+      "url": "https://www.gutenberg.org/ebooks/7787",
+      "note": "Public domain (Project Gutenberg ebook 7787). Source for the numbered rules and their examples."
     }
   ]
 }

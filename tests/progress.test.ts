@@ -22,6 +22,7 @@ const lesson: LessonSection = {
   order: 1,
   title: "One",
   summary: "…",
+  sources: [{ kind: "composed" as const, citation: "Fixture." }],
   rules: [],
   vocabulary: [],
   drills: [
@@ -53,6 +54,7 @@ const checkpoint: CheckpointSection = {
   order: 4,
   title: "Checkpoint",
   summary: "…",
+  sources: [{ kind: "composed" as const, citation: "Fixture." }],
   covers: ["s1", "s2", "s3"],
   passThreshold: 60,
   drills: [

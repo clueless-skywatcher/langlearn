@@ -789,10 +789,10 @@
       "id": "a109-q11",
       "type": "integer",
       "difficulty": "hard",
-      "stem": "How many letters are in the locative **Vilniuje**?",
-      "answer": 8,
-      "unit": "letters",
-      "explanation": "Eight: V-i-l-n-i-u-j-e. *-us* nouns take *-uje* in the locative (¶59); *į Vilnių* is the motion form learners confuse with it.",
+      "stem": "Of the four forms **Vilniuje, Vilnių, Vilniaus, Vilniui**, how many answer the question *kur?*",
+      "answer": 1,
+      "unit": "forms",
+      "explanation": "Only the locative *Vilniuje* states position (¶59). *Vilnių* is the accusative and would answer *kur?* only with *į* before it (¶61); *Vilniaus* is genitive and *Vilniui* dative.",
       "rulesTested": [
         "locative-singular"
       ],
@@ -1207,6 +1207,38 @@
       },
       "questions": [
         {
+          "id": "a109-p1-c1",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "Kur dirba Tomas?",
+          "explanation": "*Tomas gyvena Vilniuje, bet dirba Kaune.* The *bet* is doing the work: he lives in one city and works in the other.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "options": [
+            "Vilniuje",
+            "Kaune",
+            "parduotuvėje",
+            "mokykloje"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "a109-p1-c2",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "Kur miega katė?",
+          "explanation": "*katė miega po stalu.* The books are the ones *ant stalo*; the cat is underneath it.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "options": [
+            "ant stalo",
+            "po stalu",
+            "lovoje",
+            "prie namo"
+          ],
+          "correct": 1
+        },
+        {
           "id": "a109-p1-q1",
           "type": "single",
           "difficulty": "easy",
@@ -1340,7 +1372,31 @@
             "stalas"
           ]
         }
+      ],
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+          "note": "Descriptive source for the paradigms and rule statements on this page."
+        }
       ]
+    }
+  ],
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+      "note": "Descriptive source for the paradigms and rule statements on this page."
+    },
+    {
+      "kind": "dictionary",
+      "citation": "*Dabartinės lietuvių kalbos žodynas*, Lietuvių kalbos institutas.",
+      "url": "https://ekalba.lt/dabartines-lietuviu-kalbos-zodynas/",
+      "note": "Citation forms, gender and stress class for this section's vocabulary."
     }
   ]
 }

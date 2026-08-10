@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 
 import { PathList, type PathEntry } from "@/components/PathList";
 import { allCourses, findCourse, sectionsByLevel } from "@/content/loader";
-import { atomicQuestions, isCheckpoint } from "@/content/schema";
+import { atomicQuestions, isExam } from "@/content/schema";
 import { maxScoreOf } from "@/lib/scoring";
 
 export function generateStaticParams() {
@@ -22,10 +22,14 @@ export default async function CoursePath(props: PageProps<"/[course]">) {
         title: section.title,
         summary: section.summary,
         level: section.level,
-        isCheckpoint: isCheckpoint(section),
+        // The three kinds are handled separately: only a lesson has a page to
+        // study, and a boundary exam is announced differently from a
+        // checkpoint. Collapsing them into one boolean is what sent the
+        // boundary exam to /learn/, which 404s.
+        kind: section.kind,
         questions: atomicQuestions(section.drills).length,
         marks: maxScoreOf(section.drills),
-        covers: isCheckpoint(section) ? section.covers.length : 0,
+        covers: isExam(section) ? section.covers.length : 0,
       }),
     ),
   }));

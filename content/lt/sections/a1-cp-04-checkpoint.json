@@ -62,32 +62,33 @@
     {
       "id": "cp4-q9",
       "type": "multi",
-      "difficulty": "medium",
-      "fromSection": "a1-12",
-      "stem": "Which are correct?",
+      "difficulty": "hard",
+      "stem": "**Dvidešimt namų** and **dvidešimt penki namai** differ in case. Which statements are true?",
+      "explanation": "From ten upwards a numeral governs the genitive plural (¶80, ¶58) — but a compound is governed by whatever it *ends* in, so *dvidešimt penki* ends in a low numeral and agrees like an adjective (¶79). D states the rule without that qualification and is exactly the over-generalisation the pair is built to catch.",
+      "rulesTested": [
+        "cardinals-ten-up",
+        "cardinals-one-nine",
+        "numeral-case",
+        "plural-genitive",
+        "plural-nominative"
+      ],
+      "vocabUsed": [
+        "dvidešimt",
+        "penki",
+        "namas"
+      ],
       "options": [
-        "Penkiolika knygų.",
-        "Penkiolika knygos.",
-        "Dvidešimt vienas namas.",
-        "Dvidešimt vienas namai."
+        "A compound numeral takes its agreement from its **last** element.",
+        "In the second phrase the last element is *penki*, so the noun agrees with it in the nominative plural.",
+        "The genitive in the first is required because *dvidešimt* is a ten-and-upwards numeral.",
+        "*dvidešimt* governs the genitive plural wherever it appears, compound or not."
       ],
       "correct": [
         0,
+        1,
         2
       ],
-      "explanation": "Teen → genitive plural; last word *vienas* → singular noun.",
-      "rulesTested": [
-        "cardinals-ten-up",
-        "numeral-case",
-        "plural-genitive"
-      ],
-      "vocabUsed": [
-        "penkiolika",
-        "knyga",
-        "dvidešimt",
-        "vienas",
-        "namas"
-      ]
+      "fromSection": "a1-12"
     },
     {
       "id": "cp4-q10",
@@ -231,29 +232,33 @@
     {
       "id": "cp4-q16",
       "type": "multi",
-      "difficulty": "medium",
-      "fromSection": "a1-13",
-      "stem": "Which are past forms?",
+      "difficulty": "hard",
+      "stem": "**Vakar mes valgėme, o šiandien valgome.** Which statements about the two verb forms are true?",
+      "explanation": "The endings do the work: *-ėme* against *-ome* (¶95, ¶24). The adverbs only place the events in time and could both be removed without changing either tense (¶98) — which is what makes C false and tempting at once.",
+      "rulesTested": [
+        "past-e-type",
+        "past-stem",
+        "past-narrative",
+        "present-conj-i"
+      ],
+      "vocabUsed": [
+        "valgyti",
+        "vakar",
+        "šiandien",
+        "o",
+        "mes"
+      ],
       "options": [
-        "mačiau",
-        "matau",
-        "valgėme",
-        "gyvena"
+        "*valgėme* is the *-ė* past and *valgome* the present.",
+        "The two differ by a single vowel in the ending.",
+        "The tenses are carried by *vakar* and *šiandien*, not by the endings.",
+        "*valgėme* is a future form."
       ],
       "correct": [
         0,
-        2
+        1
       ],
-      "explanation": "*mačiau* and *valgėme* past; others present.",
-      "rulesTested": [
-        "past-e-type",
-        "past-stem"
-      ],
-      "vocabUsed": [
-        "matyti",
-        "valgyti",
-        "gyventi"
-      ]
+      "fromSection": "a1-13"
     },
     {
       "id": "cp4-q17",
@@ -799,6 +804,40 @@
       },
       "questions": [
         {
+          "id": "cp4-p1-c1",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Kada jie susitiks kavinėje?",
+          "explanation": "*šeštadienį susitiksime antrą valandą* — an accusative of time for the hour, and the day named beside it.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "fromSection": "a1-12",
+          "options": [
+            "vakar",
+            "šiandien",
+            "šeštadienį antrą valandą",
+            "po pietų"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "cp4-p1-c2",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Kuo jie važiuos į Kauną?",
+          "explanation": "*Važiuosime traukiniu.* The bicycle is the thing the speaker will *not* buy.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "fromSection": "a1-14",
+          "options": [
+            "autobusu",
+            "traukiniu",
+            "dviračiu",
+            "pėsčiomis"
+          ],
+          "correct": 1
+        },
+        {
           "id": "cp4-p1-q1",
           "type": "single",
           "difficulty": "easy",
@@ -887,28 +926,43 @@
             "reikia"
           ]
         }
+      ],
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+          "note": "Descriptive source for the paradigms and rule statements on this page."
+        }
       ]
     },
     {
       "id": "cp4-ya1",
       "type": "single",
-      "difficulty": "easy",
-      "fromSection": "a1-years-age",
-      "stem": "Complete: **______ tau metų?**",
-      "options": [
-        "Kiek",
-        "Koks",
-        "Kur",
-        "Kada"
-      ],
-      "correct": 0,
-      "explanation": "*Kiek tau metų?*",
+      "difficulty": "hard",
+      "stem": "**Kiek tau metų?** Why is *metų* genitive plural rather than nominative *metai*?",
+      "explanation": "*kiek* governs the genitive like any word of quantity (¶32, ¶58). *metai* does have a nominative — it is a plural-only noun, not a caseless one (¶88) — and the dative *tau* marks whose age it is without governing anything (¶89).",
       "rulesTested": [
-        "dative-of-age"
+        "dative-of-age",
+        "metai-plurale",
+        "genitive-quantity",
+        "numeral-case"
       ],
       "vocabUsed": [
-        "metai"
-      ]
+        "metai",
+        "kiek"
+      ],
+      "options": [
+        "Because *kiek* is a quantity word, and quantity words govern the genitive plural.",
+        "Because *metai* has no nominative form.",
+        "Because the dative *tau* pulls the following noun into the genitive.",
+        "Because age is always expressed in the genitive, whatever the question."
+      ],
+      "correct": 0,
+      "fromSection": "a1-years-age"
     },
     {
       "id": "cp4-ya2",
@@ -1125,6 +1179,148 @@
         "metai",
         "penkeri"
       ]
+    },
+    {
+      "id": "cp4-m1",
+      "type": "matching",
+      "difficulty": "hard",
+      "stem": "Match each verb form with its tense.",
+      "explanation": "*dirbo* and *buvo* are both pasts (¶94, ¶96), *dirbs* the *-s-* future (¶99) and *dirba* the present (¶24) — so *past* is used twice and *conditional* not at all. Option C swaps future and present, which is what happens when *dirbs* is read as a misspelling of *dirba*.",
+      "rulesTested": [
+        "past-o-type",
+        "past-buti",
+        "future-formation",
+        "present-conj-i"
+      ],
+      "vocabUsed": [
+        "dirbti",
+        "būti"
+      ],
+      "fromSection": "a1-13",
+      "columnHeadings": [
+        "Form",
+        "Tense"
+      ],
+      "columnI": [
+        "**dirbo**",
+        "**dirbs**",
+        "**dirba**",
+        "**buvo**"
+      ],
+      "columnII": [
+        "past",
+        "future",
+        "present",
+        "conditional"
+      ],
+      "options": [
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          2,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          0
+        ]
+      ],
+      "correct": 0
+    },
+    {
+      "id": "cp4-m2",
+      "type": "matching",
+      "difficulty": "hard",
+      "stem": "Match each time expression with its construction.",
+      "explanation": "A point in the day is accusative (¶83); a repeated day is instrumental plural (¶76); the year is instrumental (¶90); and *prieš* measures backwards with the accusative (¶92). The fifth label matches none of them and is there for anyone pairing by elimination.",
+      "rulesTested": [
+        "accusative-of-time",
+        "instrumental-time-route",
+        "year-when",
+        "age-time-contrast",
+        "time-prepositions",
+        "days-of-week"
+      ],
+      "vocabUsed": [
+        "valanda",
+        "pirmas",
+        "pirmadienis",
+        "metai",
+        "prieš",
+        "penkeri"
+      ],
+      "fromSection": "a1-years-age",
+      "columnHeadings": [
+        "Expression",
+        "Construction"
+      ],
+      "columnI": [
+        "**pirmą valandą**",
+        "**pirmadieniais**",
+        "**tūkstantis devyni šimtai devyniasdešimt penktaisiais metais**",
+        "**prieš penkerius metus**"
+      ],
+      "columnII": [
+        "accusative of time",
+        "instrumental of recurring time",
+        "instrumental of the year",
+        "*prieš* + accusative, ‘ago’",
+        "genitive of duration"
+      ],
+      "options": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          4
+        ]
+      ],
+      "correct": 0
+    }
+  ],
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+      "note": "Descriptive source for the paradigms and rule statements on this page."
+    },
+    {
+      "kind": "dictionary",
+      "citation": "*Dabartinės lietuvių kalbos žodynas*, Lietuvių kalbos institutas.",
+      "url": "https://ekalba.lt/dabartines-lietuviu-kalbos-zodynas/",
+      "note": "Citation forms, gender and stress class for this section's vocabulary."
     }
   ]
 }

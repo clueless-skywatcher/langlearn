@@ -837,7 +837,7 @@
       "type": "comprehension",
       "difficulty": "medium",
       "title": "Prie mokyklos",
-      "passage": "Laukiu autobuso šalia mokyklos. Greta manęs stovi draugas; jis ieško bilieto. Kalbame apie filmą ir apie istoriją — jis domisi istorija. Katė išėjo pro duris ir bėga palei sieną link parko. Dėl lietaus negalime eiti tarp medžių. „Skambink man!“ — sakau. Jis linki man sėkmės.",
+      "passage": "Laukiu autobuso šalia mokyklos. Greta manęs stovi draugas; jis ieško bilieto. Kalbame apie filmą ir apie istoriją — jis domisi istorija. Katė išėjo pro duris ir bėga palei sieną link parko. Dėl lietaus negalime eiti tarp medžių.\nAŠ. Skambink man!\nJis linki man sėkmės.",
       "translation": "I am waiting for the bus beside the school. Next to me stands a friend; he is looking for a ticket. We talk about a film and about history — he is interested in history. A cat went out through the door and runs along the wall towards the park. Because of the rain we cannot go among the trees. \"Ring me!\" I say. He wishes me success.",
       "glossary": {
         "lietaus": "of the rain (lietus)",
@@ -845,6 +845,38 @@
         "skambink": "ring! (imperative)"
       },
       "questions": [
+        {
+          "id": "a203-p1-c1",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "Ko laukia pasakotojas?",
+          "explanation": "*Laukiu autobuso šalia mokyklos.* *laukti* governs the genitive, so the thing waited for is *autobuso*.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "options": [
+            "autobuso",
+            "draugo",
+            "bilieto",
+            "katės"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "a203-p1-c2",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Kodėl jie negali eiti tarp medžių?",
+          "explanation": "*Dėl lietaus negalime eiti tarp medžių.* *Dėl* + genitive gives the cause.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "options": [
+            "nes tamsu",
+            "dėl lietaus",
+            "nes katė pabėgo",
+            "nes autobusas atvažiuoja"
+          ],
+          "correct": 1
+        },
         {
           "id": "a203-p1-q1",
           "type": "single",
@@ -966,6 +998,17 @@
             "linkėti",
             "sėkmė"
           ]
+        }
+      ],
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+          "note": "Descriptive source for the paradigms and rule statements on this page."
         }
       ]
     },
@@ -1292,6 +1335,19 @@
         "padėti",
         "bijoti"
       ]
+    }
+  ],
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+      "note": "Descriptive source for the paradigms and rule statements on this page."
+    },
+    {
+      "kind": "dictionary",
+      "citation": "*Dabartinės lietuvių kalbos žodynas*, Lietuvių kalbos institutas.",
+      "url": "https://ekalba.lt/dabartines-lietuviu-kalbos-zodynas/",
+      "note": "Citation forms, gender and stress class for this section's vocabulary."
     }
   ]
 }

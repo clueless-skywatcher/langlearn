@@ -381,10 +381,10 @@
       "id": "a116-q13",
       "type": "integer",
       "difficulty": "hard",
-      "stem": "How many letters are in the 1 sg. conditional of **norėti** (*norėčiau*)?",
-      "answer": 8,
-      "unit": "letters",
-      "explanation": "Eight letters: n-o-r-ė-č-i-a-u. The *-č-* is *t* softened before *-iau*, the same change as in the past (¶95).",
+      "stem": "In **Norėčiau kavos ir galėčiau ateiti**, how many verbs stand in the conditional?",
+      "answer": 2,
+      "unit": "verbs",
+      "explanation": "*norėčiau* and *galėčiau* both carry the conditional *-čiau* (¶116). *ateiti* is an infinitive completing *galėčiau* and has no mood of its own (¶40).",
       "rulesTested": [
         "conditional-formation",
         "past-e-type"
@@ -526,10 +526,9 @@
       "id": "a116-x13",
       "type": "integer",
       "difficulty": "hard",
-      "stem": "How many letters in the polite 2 pl. conditional of **galėti** (*galėtumėte*)?",
-      "answer": 10,
-      "unit": "letters",
-      "explanation": "*Galėtumėte* has 10 letters.",
+      "stem": "Which numbered rule governs the conditional ending **-tumėte**? Give the paragraph number.",
+      "answer": 116,
+      "explanation": "¶116 gives the conditional and its endings. ¶117, the politeness use, is why the form is so common in speech, but it is not what forms it.",
       "rulesTested": [
         "conditional-formation",
         "conditional-politeness"
@@ -668,7 +667,7 @@
       "type": "comprehension",
       "difficulty": "hard",
       "title": "Kavinėje",
-      "passage": "– Laba diena. Prašom sėsti. Ką norėtumėte?\n– Norėčiau kavos su pienu ir sriubos. Gal galėtumėte pasakyti, kiek kainuoja?\n– Kava – du eurai, sriuba – keturi. Ar norėtumėte ir deserto?\n– Ne, ačiū. Dar neturiu laiko. Bet duokite, prašom, vandens.\n– Prašom. Valgykite, kol karšta.\n– Ačiū. Būtų gerai turėti šaukštą.\n– Atsiprašau! Tegu padavėjas atneša.\n– Ir dar: neskaitykite šios knygos prie stalo, prašom — čia valgykite.",
+      "passage": "PADAVĖJAS. Laba diena. Prašom sėsti. Ką norėtumėte?\nSVEČIAS. Norėčiau kavos su pienu ir sriubos. Gal galėtumėte pasakyti, kiek kainuoja?\nPADAVĖJAS. Kava – du eurai, sriuba – keturi. Ar norėtumėte ir deserto?\nSVEČIAS. Ne, ačiū. Dar neturiu laiko. Bet duokite, prašom, vandens.\nPADAVĖJAS. Prašom. Valgykite, kol karšta.\nSVEČIAS. Ačiū. Būtų gerai turėti šaukštą.\nSVEČIAS. Atsiprašau! Tegu padavėjas atneša.\nPADAVĖJAS. Ir dar: neskaitykite šios knygos prie stalo, prašom — čia valgykite.",
       "translation": "\"Good afternoon. Do sit down. What would you like?\" — \"I should like a coffee with milk and some soup. Could you tell me how much it costs?\" — \"The coffee is two euros, the soup four. Would you like a dessert as well?\" — \"No, thank you. I haven't time yet. But give me some water, please.\" — \"Here you are. Eat while it's hot.\" — \"Thank you. It would be good to have a spoon.\" — \"I'm sorry! Let the waiter bring one.\" — \"And also: please don't read this book at the table — eat here.\"",
       "glossary": {
         "sėsti": "to sit down",
@@ -681,9 +680,42 @@
         "atsiprašau": "I'm sorry",
         "padavėjas": "waiter",
         "atneša": "brings (atnešti)",
-        "šaukštas": "spoon"
+        "šaukštas": "spoon",
+        "svečias": "guest"
       },
       "questions": [
+        {
+          "id": "a116-p1-c1",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "Ko nori svečias?",
+          "explanation": "*Norėčiau kavos su pienu ir sriubos.* The dessert is offered and declined; the water is an afterthought.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "options": [
+            "kavos su pienu ir sriubos",
+            "deserto",
+            "tik vandens",
+            "kavos be pieno"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "a116-p1-c2",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Kiek kainuoja sriuba?",
+          "explanation": "*Kava – du eurai, sriuba – keturi.* The dash stands in for the repeated *kainuoja*.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "options": [
+            "du eurai",
+            "keturi eurai",
+            "šeši eurai",
+            "pasakojime nesakoma"
+          ],
+          "correct": 1
+        },
         {
           "id": "a116-p1-q1",
           "type": "single",
@@ -805,6 +837,17 @@
             "šis",
             "knyga"
           ]
+        }
+      ],
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+          "note": "Descriptive source for the paradigms and rule statements on this page."
         }
       ]
     },
@@ -929,6 +972,137 @@
         "būti",
         "laimingas"
       ]
+    },
+    {
+      "id": "a116-p2b",
+      "type": "comprehension",
+      "difficulty": "hard",
+      "title": "Žmogus, meška ir lapė",
+      "passage": "Žmogus arė lauke. Miške gulėjo meška.\nMEŠKA. Žmogau, aš pjausiu tavo jaučius!\nAtbėgo lapė.\nLAPĖ. Ką man duosi, jeigu aš tau padėsiu?\nŽMOGUS. Duosiu tau vištų.\nLapė nubėgo į mišką, o paskui šaukė iš kito krašto:\nLAPĖ. Žmogau! Ar nematei meškos? Ponas medžioja.\nŽMOGUS. Nemačiau.\nLAPĖ. O kas ten guli?\nŽMOGUS. Medis.\nLAPĖ. Jeigu tai būtų medis, jame būtų kirvis.\nMeška išsigando.\nMEŠKA. Žmogau, įkirsk man kirvį!\nŽmogus įkirto, ir meška mirė. Lapė sakė:\nLAPĖ. Jeigu nebūčiau atbėgusi, tu neturėtum jaučių.",
+      "glossary": {
+        "arė": "was ploughing",
+        "lauke": "in the field",
+        "meška": "bear",
+        "Žmogau": "man (vocative)",
+        "pjausiu": "I will slaughter",
+        "jaučius": "oxen (acc. pl.)",
+        "atbėgo": "came running",
+        "lapė": "fox",
+        "vištų": "hens (gen. pl.)",
+        "nubėgo": "ran off",
+        "šaukė": "shouted",
+        "krašto": "side, edge",
+        "medžioja": "is hunting",
+        "kirvis": "axe",
+        "kirvį": "axe (acc.)",
+        "įkirsk": "strike in",
+        "išsigando": "took fright",
+        "mirė": "died",
+        "nebūčiau atbėgusi": "had I not come running"
+      },
+      "questions": [
+        {
+          "id": "a116-p2b-c1",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "Ko meška norėjo iš žmogaus?",
+          "explanation": "*aš pjausiu tavo jaučius!* The hens are what the man promises the fox, not what the bear is after.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "options": [
+            "vištų",
+            "jo jaučių",
+            "kirvio",
+            "medžio"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "a116-p2b-c2",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Kodėl meška prašė įkirsti kirvį?",
+          "explanation": "The fox's story about the hunt frightens the bear into asking to be made to look like a log. *Meška išsigando* stands between the fox's line and the request, which is where the reason lies.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "options": [
+            "nes ji norėjo mirti",
+            "nes ji išsigando pono ir medžioklės",
+            "nes lapė liepė",
+            "nes žmogus jai grasino"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "a116-p2b-q1",
+          "type": "single",
+          "difficulty": "hard",
+          "stem": "**Jeigu aš tau padėsiu** and **Jeigu tai būtų medis** are both *jeigu* clauses. Why are the verbs in different moods?",
+          "explanation": "*jeigu* itself is neutral: it takes the indicative for a condition that may hold and the conditional for one contrary to fact (¶108, ¶118, ¶118a). The fox may well help; the thing in the clearing is certainly not a tree, and the conditional says so.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "options": [
+            "The first is a real condition and takes the indicative; the second is unreal and takes the conditional.",
+            "The first is past and the second present.",
+            "*Jeigu* takes the conditional only in questions.",
+            "There is no difference; both are acceptable in either mood."
+          ],
+          "correct": 0
+        },
+        {
+          "id": "a116-p2b-q2",
+          "type": "single",
+          "difficulty": "hard",
+          "stem": "**Jeigu nebūčiau atbėgusi, tu neturėtum jaučių.** What does this sentence claim?",
+          "explanation": "An unreal condition states what would have followed had things gone otherwise, and so implies that they did not (¶118a). Both clauses are conditional, and both are negative — the fox is claiming credit.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "options": [
+            "that the fox did come, and that the oxen were saved because of it",
+            "that the fox did not come",
+            "that the man will lose his oxen tomorrow",
+            "that the fox may come later"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "a116-p2b-q3",
+          "type": "integer",
+          "difficulty": "medium",
+          "stem": "How many verbs in the passage stand in the **conditional**?",
+          "explanation": "*būtų* twice in the fox's line about the tree, then *nebūčiau* and *neturėtum* in the last line (¶116). *pjausiu*, *duosi*, *padėsiu* and *duosiu* are futures, which is the tense a learner most often mistakes for the conditional here.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "answer": 4,
+          "unit": "verbs"
+        }
+      ],
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Retold for this course after a Lithuanian folk tale from the collections of Jonas Basanavičius (1851–1927), which are in the public domain.",
+          "note": "A graded retelling, kept to the conditional of ¶116–¶118a against the real conditions of ¶108."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+          "note": "The forms the passage is chosen to illustrate."
+        }
+      ],
+      "translation": "A man was ploughing in a field. A bear lay in the forest. BEAR. Man, I will slaughter your oxen! A fox came running. FOX. What will you give me if I help you? MAN. I will give you hens. The fox ran off into the forest, and then shouted from the other side: FOX. Man! Have you not seen a bear? The lord is hunting. MAN. I have not. FOX. And what is lying over there? MAN. A tree. FOX. If that were a tree, there would be an axe in it. The bear took fright. BEAR. Man, strike an axe into me! The man struck, and the bear died. The fox said: FOX. Had I not come running, you would not have your oxen."
+    }
+  ],
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+      "note": "Descriptive source for the paradigms and rule statements on this page."
+    },
+    {
+      "kind": "dictionary",
+      "citation": "*Dabartinės lietuvių kalbos žodynas*, Lietuvių kalbos institutas.",
+      "url": "https://ekalba.lt/dabartines-lietuviu-kalbos-zodynas/",
+      "note": "Citation forms, gender and stress class for this section's vocabulary."
     }
   ]
 }

@@ -1099,6 +1099,38 @@
       },
       "questions": [
         {
+          "id": "a104-p1-c1",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "Iš kur yra Petras?",
+          "explanation": "*Petras yra iš Kauno.* He *works* in Vilnius, which is the distinction the first two sentences draw.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "options": [
+            "iš Vilniaus",
+            "iš Kauno",
+            "iš kavinės",
+            "iš Lietuvos"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "a104-p1-c2",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Kodėl Petras neturi pinigų?",
+          "explanation": "*Jis neturi pinigų — piniginė guli ant stalo namuose.* The dash carries the reason, and Jonas then lends him some.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "options": [
+            "nes jis nedirba",
+            "nes piniginė liko namuose ant stalo",
+            "nes jis viską išleido kavinėje",
+            "nes draugas paėmė pinigus"
+          ],
+          "correct": 1
+        },
+        {
           "id": "a104-p1-q1",
           "type": "single",
           "difficulty": "easy",
@@ -1216,7 +1248,31 @@
             "iki"
           ]
         }
+      ],
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+          "note": "Descriptive source for the paradigms and rule statements on this page."
+        }
       ]
+    }
+  ],
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+      "note": "Descriptive source for the paradigms and rule statements on this page."
+    },
+    {
+      "kind": "dictionary",
+      "citation": "*Dabartinės lietuvių kalbos žodynas*, Lietuvių kalbos institutas.",
+      "url": "https://ekalba.lt/dabartines-lietuviu-kalbos-zodynas/",
+      "note": "Citation forms, gender and stress class for this section's vocabulary."
     }
   ]
 }

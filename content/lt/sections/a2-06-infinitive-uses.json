@@ -669,6 +669,38 @@
       },
       "questions": [
         {
+          "id": "a206-p1-c1",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Kodėl Tomas mokosi lietuvių kalbos?",
+          "explanation": "*Tomas nori mokytis lietuvių kalbos, nes gyventi Vilniuje be kalbos sunku* — a nominal infinitive as the subject of *sunku*.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "options": [
+            "nes nori dirbti bibliotekoje",
+            "nes gyventi Vilniuje be kalbos sunku",
+            "nes draugai liepė",
+            "nes nori pailsėti"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "a206-p1-c2",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Kur Tomas eina kiekvieną rytą?",
+          "explanation": "*Kiekvieną rytą jis eina į biblioteką skaityti* — a purposive infinitive after a verb of motion.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "options": [
+            "į kursus",
+            "į biblioteką skaityti",
+            "pas draugus",
+            "į darbą"
+          ],
+          "correct": 1
+        },
+        {
           "id": "a206-p1-q1",
           "type": "single",
           "difficulty": "easy",
@@ -790,6 +822,17 @@
             "bandyti",
             "baigti"
           ]
+        }
+      ],
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+          "note": "Descriptive source for the paradigms and rule statements on this page."
         }
       ]
     },
@@ -1101,6 +1144,19 @@
         "pradėti",
         "padėti"
       ]
+    }
+  ],
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+      "note": "Descriptive source for the paradigms and rule statements on this page."
+    },
+    {
+      "kind": "dictionary",
+      "citation": "*Dabartinės lietuvių kalbos žodynas*, Lietuvių kalbos institutas.",
+      "url": "https://ekalba.lt/dabartines-lietuviu-kalbos-zodynas/",
+      "note": "Citation forms, gender and stress class for this section's vocabulary."
     }
   ]
 }

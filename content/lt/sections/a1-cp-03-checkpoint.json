@@ -1056,6 +1056,40 @@
       },
       "questions": [
         {
+          "id": "cp3-p1-c1",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Ką Eglė veža Tomui?",
+          "explanation": "*Eglė veža jam dovaną: dvi knygas ir puodelį.* The ten cups are what Tomas already owns, which is why he does not need another.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "fromSection": "a1-08",
+          "options": [
+            "dvi knygas ir puodelį",
+            "dešimt puodelių",
+            "dovaną iš stoties",
+            "tik knygas"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "cp3-p1-c2",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Kur laukia Tomas?",
+          "explanation": "*Tomas laukia jos stotyje.* The café comes later in the evening, and it is *prie stoties*.",
+          "rulesTested": [],
+          "vocabUsed": [],
+          "fromSection": "a1-09",
+          "options": [
+            "kavinėje",
+            "stotyje",
+            "namuose",
+            "Kaune"
+          ],
+          "correct": 1
+        },
+        {
           "id": "cp3-p1-q1",
           "type": "single",
           "difficulty": "easy",
@@ -1082,7 +1116,7 @@
         {
           "id": "cp3-p1-q2",
           "type": "multi",
-          "difficulty": "medium",
+          "difficulty": "hard",
           "fromSection": "a1-09",
           "stem": "Which does the passage support?",
           "options": [
@@ -1181,6 +1215,17 @@
             "patikti",
             "reikia"
           ]
+        }
+      ],
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+          "note": "Descriptive source for the paradigms and rule statements on this page."
         }
       ]
     },
@@ -1310,15 +1355,14 @@
       "id": "cp4-q6",
       "type": "integer",
       "difficulty": "hard",
-      "fromSection": "a1-11",
-      "stem": "How many letters in vocative **Vytautai**?",
-      "answer": 8,
-      "unit": "letters",
-      "explanation": "Eight. Names in *-as* take **-ai**, not ordinary *-e*.",
+      "stem": "Which numbered rule governs the form **Vytautai** used in calling someone by name? Give the paragraph number.",
+      "explanation": "¶78, the vocative. The tempting answer is ¶71, the instrumental singular, which belongs to the same section; but the instrumental names a means or a companion, never the person addressed.",
       "rulesTested": [
         "vocative"
       ],
-      "vocabUsed": []
+      "vocabUsed": [],
+      "answer": 78,
+      "fromSection": "a1-11"
     },
     {
       "id": "cp4-x1",
@@ -1447,31 +1491,286 @@
       "difficulty": "medium",
       "fromSection": "a1-11",
       "stem": "Which instrumental uses appear?",
-  "options": [
-    "su broliu — company",
-    "traukiniu — means",
-    "po stalu — under",
-    "namas — means"
+      "options": [
+        "su broliu — company",
+        "traukiniu — means",
+        "po stalu — under",
+        "namas — means"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Bare nominative *namas* is not an instrumental of means. The first three are company, means, and *po*+instrumental.",
+      "rulesTested": [
+        "instrumental-su",
+        "instrumental-means",
+        "instrumental-po"
+      ],
+      "vocabUsed": [
+        "su",
+        "brolis",
+        "traukinys",
+        "po",
+        "stalas",
+        "namas"
+      ]
+    },
+    {
+      "id": "cp3-m1",
+      "type": "matching",
+      "difficulty": "hard",
+      "stem": "Match each plural ending with the case it marks.",
+      "explanation": "*-uose*, *-ams*, *-ais*, *-us* — the four plural endings of the first declension that are most often confused (¶54, ¶60, ¶72). Option B swaps dative for instrumental, which is the commonest of those confusions because both answer a question about a person.",
+      "rulesTested": [
+        "locative-plural",
+        "dative-plural",
+        "plural-accusative"
+      ],
+      "vocabUsed": [
+        "miestas"
+      ],
+      "fromSection": "a1-11",
+      "columnHeadings": [
+        "Form",
+        "Case"
+      ],
+      "columnI": [
+        "**miestuose**",
+        "**miestams**",
+        "**miestais**",
+        "**miestus**"
+      ],
+      "columnII": [
+        "locative plural",
+        "dative plural",
+        "instrumental plural",
+        "accusative plural",
+        "genitive plural"
+      ],
+      "options": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          2,
+          1,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          4
+        ]
+      ],
+      "correct": 0
+    },
+    {
+      "id": "cp3-m2",
+      "type": "matching",
+      "difficulty": "hard",
+      "stem": "Match each sentence with what its case is doing.",
+      "explanation": "Direction is *į* + accusative and position the bare locative (¶59, ¶61); the recipient is dative (¶66); the vehicle is a bare instrumental (¶73). The decoy *company* would need *su* (¶74), which is absent — a learner who reads *autobusu* as ‘with the bus’ picks option D.",
+      "rulesTested": [
+        "direction-i",
+        "locative-singular",
+        "indirect-object",
+        "instrumental-means",
+        "motion-verbs"
+      ],
+      "vocabUsed": [
+        "eiti",
+        "kavinė",
+        "į",
+        "duoti",
+        "draugas",
+        "knyga",
+        "važiuoti",
+        "autobusas"
+      ],
+      "fromSection": "a1-09",
+      "columnHeadings": [
+        "Sentence",
+        "The case marks"
+      ],
+      "columnI": [
+        "Einu **į kavinę**.",
+        "Esu **kavinėje**.",
+        "Duodu **draugui** knygą.",
+        "Važiuoju **autobusu**."
+      ],
+      "columnII": [
+        "direction towards",
+        "position at",
+        "the indirect object",
+        "the means of travel",
+        "company"
+      ],
+      "options": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          4
+        ]
+      ],
+      "correct": 0
+    },
+    {
+      "id": "cp3-h1",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**Duodu draugui knygą** and **Važiuoju su draugu**. Why does *draugas* take different endings?",
+      "explanation": "The recipient of something given stands in the dative (¶66); a companion stands in the instrumental, and *su* is the preposition that marks it (¶74). Transitivity decides whether there is an object at all, not which case the *person* takes.",
+      "rulesTested": [
+        "indirect-object",
+        "dative-endings",
+        "instrumental-su",
+        "instrumental-singular",
+        "motion-verbs"
+      ],
+      "vocabUsed": [
+        "duoti",
+        "draugas",
+        "knyga",
+        "važiuoti",
+        "su"
+      ],
+      "fromSection": "a1-11",
+      "options": [
+        "Because *duoti* is transitive and *važiuoti* is not.",
+        "Because the first is a dative indirect object and the second an instrumental of company after *su*.",
+        "Because the second is a locative of place.",
+        "Because *su* governs the dative, which happens to look different in the plural."
+      ],
+      "correct": 1
+    },
+    {
+      "id": "cp3-h2",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "**Vaikai eina į mokyklą, o mokytojai jau mokykloje.** Which statements are true?",
+      "explanation": "Every one is true, which is itself the difficulty: direction against position (¶59, ¶61), two nominative plurals (¶53), and a third-person verb that does not distinguish number at all (¶57). A learner who assumes at least one option must be wrong will not select all four.",
+      "rulesTested": [
+        "direction-i",
+        "locative-singular",
+        "plural-nominative",
+        "verb-number",
+        "place-prepositions"
+      ],
+      "vocabUsed": [
+        "vaikas",
+        "eiti",
+        "mokykla",
+        "mokytojas",
+        "į",
+        "o"
+      ],
+      "fromSection": "a1-09",
+      "options": [
+        "*į mokyklą* is accusative because motion towards is meant.",
+        "*mokykloje* is locative because position is meant.",
+        "*Vaikai* and *mokytojai* are both nominative plural.",
+        "*eina* is plural to agree with *vaikai*, and would be *eina* in the singular too."
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "cp3-h3",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**Man patinka šis miestas.** Which word is the grammatical subject?",
+      "explanation": "*patikti* makes the thing liked the subject and the person who likes it a dative (¶68). *šis miestas* is nominative and controls the verb — make it plural, *šie miestai patinka*, and the verb follows. The English word order invites the answer *man*, which is the whole trap.",
+      "rulesTested": [
+        "patikti",
+        "dative-pronouns",
+        "nominative",
+        "verb-number"
+      ],
+      "vocabUsed": [
+        "patikti",
+        "miestas",
+        "man",
+        "šis"
+      ],
+      "fromSection": "a1-10",
+      "options": [
+        "*Man*",
+        "*patinka*",
+        "*šis miestas*",
+        "there is none"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "cp3-h4",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "In **Rašau laiškus draugams autobuse**, how many different cases are represented among the three nouns?",
+      "explanation": "Three: *laiškus* accusative plural (¶54), *draugams* dative plural (¶72) and *autobuse* locative singular (¶59). Three plural-looking endings, three different cases — the endings must be read individually rather than lumped together as ‘plural’.",
+      "rulesTested": [
+        "plural-accusative",
+        "dative-plural",
+        "locative-singular",
+        "indirect-object"
+      ],
+      "vocabUsed": [
+        "laiškas",
+        "draugas",
+        "autobusas",
+        "rašyti"
+      ],
+      "fromSection": "a1-11",
+      "answer": 3,
+      "unit": "cases"
+    }
   ],
-  "correct": [
-    0,
-    1,
-    2
-  ],
-  "explanation": "Bare nominative *namas* is not an instrumental of means. The first three are company, means, and *po*+instrumental.",
-  "rulesTested": [
-    "instrumental-su",
-    "instrumental-means",
-    "instrumental-po"
-  ],
-  "vocabUsed": [
-    "su",
-    "brolis",
-    "traukinys",
-    "po",
-    "stalas",
-    "namas"
-  ]
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+      "note": "Descriptive source for the paradigms and rule statements on this page."
+    },
+    {
+      "kind": "dictionary",
+      "citation": "*Dabartinės lietuvių kalbos žodynas*, Lietuvių kalbos institutas.",
+      "url": "https://ekalba.lt/dabartines-lietuviu-kalbos-zodynas/",
+      "note": "Citation forms, gender and stress class for this section's vocabulary."
     }
   ]
 }

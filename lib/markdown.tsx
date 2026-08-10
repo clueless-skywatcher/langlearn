@@ -97,3 +97,21 @@ export function paragraphs(text: string, className = ""): ReactNode {
     </p>
   ));
 }
+
+/**
+ * Block text in which **every** line break is meaningful: a dialogue turn, a
+ * line of a notice, a line of verse. `paragraphs` folds single newlines into
+ * running prose, which turns a conversation into one unreadable block and
+ * loses the speaker labels along with it.
+ */
+export function lines(text: string, className = ""): ReactNode {
+  return text.split("\n").map((line, i) =>
+    line.trim() === "" ? (
+      <span key={i} aria-hidden className="block h-3" />
+    ) : (
+      <p key={i} className={className}>
+        {inline(line)}
+      </p>
+    ),
+  );
+}

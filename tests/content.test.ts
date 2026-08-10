@@ -8,11 +8,14 @@ import {
 } from "@/content/loader";
 import {
   atomicQuestions,
+  isBoundaryExam,
   isCheckpoint,
+  isLesson,
   type CheckpointSection,
   type LessonSection,
 } from "@/content/schema";
 import { validateCoursePack } from "@/content/validate";
+import { lines } from "@/lib/markdown";
 import { maxScoreOf } from "@/lib/scoring";
 
 const COURSE_IDS = listCourseIds();
@@ -60,12 +63,19 @@ describe.each(COURSE_IDS)("course pack %s", (courseId) => {
     }
   });
 
-  it("uses all four question formats in every checkpoint", () => {
+  it("uses all five question formats in every checkpoint", () => {
     const checkpoints = pack.sections.filter(isCheckpoint);
     expect(checkpoints.length).toBeGreaterThan(0);
     for (const cp of checkpoints) {
-      expect(new Set(cp.drills.map((d) => d.type))).toEqual(
-        new Set(["single", "multi", "integer", "comprehension"]),
+      const formats = new Set(
+        cp.drills.flatMap((d) =>
+          d.type === "comprehension"
+            ? [d.type, ...d.questions.map((q) => q.type)]
+            : [d.type],
+        ),
+      );
+      expect(formats).toEqual(
+        new Set(["single", "multi", "integer", "matching", "comprehension"]),
       );
       expect(atomicQuestions(cp.drills).length).toBeGreaterThanOrEqual(20);
     }
@@ -83,7 +93,7 @@ describe.each(COURSE_IDS)("course pack %s", (courseId) => {
 
   it("teaches something in every lesson section", () => {
     for (const section of pack.sections) {
-      if (isCheckpoint(section)) continue;
+      if (!isLesson(section)) continue;
       expect(section.rules.length + (section.script ? 1 : 0)).toBeGreaterThan(0);
       expect(section.vocabulary.length).toBeGreaterThan(0);
     }
@@ -156,7 +166,7 @@ describe("referential integrity", () => {
   it("rejects a core rule that no drill in its own section tests", () => {
     const p = mutable();
     const section = p.sections.find((s) => s.id === SECOND)!;
-    if (isCheckpoint(section)) throw new Error("unreachable");
+    if (!isLesson(section)) throw new Error("unreachable");
     const orphan = section.rules.find((r) => r.core)!.id;
     for (const drill of section.drills) {
       const children =
@@ -215,10 +225,17 @@ describe("checkpoint composition", () => {
     );
   });
 
-  it("rejects a paper missing one of the four formats", () => {
+  it("rejects a paper missing one of the five formats", () => {
     const p = mutable();
     const cp = checkpoint(p);
+    // Formats are counted through comprehension blocks, so an integer nested
+    // in a passage still counts as an integer question on the paper.
     cp.drills = cp.drills.filter((d) => d.type !== "integer");
+    for (const drill of cp.drills) {
+      if (drill.type === "comprehension") {
+        drill.questions = drill.questions.filter((q) => q.type !== "integer");
+      }
+    }
     expect(errors(p)).toContainEqual(
       expect.stringContaining("no integer questions"),
     );
@@ -228,7 +245,7 @@ describe("checkpoint composition", () => {
     const p = mutable();
     for (const drill of checkpoint(p).drills) drill.difficulty = "easy";
     expect(errors(p)).toContainEqual(
-      expect.stringContaining("the target is 30%"),
+      expect.stringContaining("the target is 25%"),
     );
   });
 
@@ -254,7 +271,48 @@ describe("checkpoint composition", () => {
     const cp = checkpoint(p);
     cp.drills = cp.drills.slice(0, 4);
     expect(errors(p)).toContainEqual(
-      expect.stringContaining("should carry 20–30 questions"),
+      expect.stringContaining("should carry 20–70 questions"),
     );
+  });
+});
+
+describe("passage rendering", () => {
+  it("gives every dialogue turn its own line", () => {
+    const rendered = lines("JONAS. Labas!\nRŪTA. Labas.");
+    expect(Array.isArray(rendered)).toBe(true);
+    expect((rendered as unknown[]).length).toBe(2);
+  });
+
+  it("keeps a blank line as a gap rather than dropping it", () => {
+    expect(((lines("a\n\nb") as unknown[]) ?? []).length).toBe(3);
+  });
+
+  it("renders markdown inside a line instead of printing the asterisks", () => {
+    const [first] = lines("**BIBLIOTEKA**") as { props: { children: unknown } }[];
+    expect(JSON.stringify(first.props.children)).toContain("strong");
+    expect(JSON.stringify(first.props.children)).not.toContain("**");
+  });
+});
+
+describe("the boundary exam is findable", () => {
+  it("is the last section of its level and is not a checkpoint", () => {
+    for (const pack of COURSE_IDS.map((id) => loadCoursePack(id))) {
+      for (const section of pack.sections.filter(isBoundaryExam)) {
+        const after = pack.sections.filter(
+          (s) => s.level === section.level && s.order > section.order,
+        );
+        expect(after).toEqual([]);
+        expect(isCheckpoint(section)).toBe(false);
+      }
+    }
+  });
+
+  it("is the only section titled as one", () => {
+    for (const pack of COURSE_IDS.map((id) => loadCoursePack(id))) {
+      for (const s of pack.sections) {
+        if (isBoundaryExam(s)) continue;
+        expect(s.title.toLowerCase()).not.toContain("boundary exam");
+      }
+    }
   });
 });
