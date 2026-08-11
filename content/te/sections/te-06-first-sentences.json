@@ -8,7 +8,7 @@
   "rules": [
     {
       "id": "no-copula",
-      "number": "32",
+      "number": "34",
       "heading": "The Sentence Without a Verb",
       "statement": "To say that one thing **is** another, Telugu writes the two words side by side and supplies **no verb**. There is no word answering to English *is* or *are* in such a sentence, and inserting one is not merely unnecessary but wrong. The order is subject first, predicate second — the reverse of nothing, but worth stating, since the two nouns are otherwise unmarked.",
       "examples": [
@@ -38,7 +38,7 @@
     },
     {
       "id": "idi-adi",
-      "number": "33",
+      "number": "35",
       "heading": "ఇది and అది",
       "statement": "**ఇది** is *this* and **అది** is *that*, and the pair runs through the language: **ఇ-** points to what is near and **అ-** to what is far. So also **ఇక్కడ** (here) against **అక్కడ** (there). Both ఇది and అది are used of things and of animals; of a man Telugu says **అతను**, of a woman **ఆమె**.",
       "paradigms": [
@@ -87,13 +87,14 @@
       "seeAlso": [
         "no-copula"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "kadu",
-      "number": "34",
+      "number": "36",
       "heading": "Denying with కాదు",
-      "statement": "A sentence of the kind just described is denied by putting **కాదు** at the **end**. Nothing else changes: no verb appears, and no word is negated in itself. **కాదు** denies an identity — *this is not that*. It is not the word for the absence of a thing, which is **లేదు**, and the two must not be confused.",
+      "statement": "A verbless equational sentence is denied by **కాదు** at the **end**; nothing else changes. **కాదు** denies an identity — *this is not that* — and is not the word for the absence of a thing, which is **లేదు**.",
       "examples": [
         {
           "target": "ఇది పుస్తకం.",
@@ -120,9 +121,9 @@
     },
     {
       "id": "possessive-na",
-      "number": "35",
+      "number": "37",
       "heading": "నా and నీ — My and Your",
-      "statement": "**నా** is *my* and **నీ** is *your*, and both stand **before** the noun and never change their form. With పేరు, name, they make the first sentence a learner of any language needs: *nā pēru …*, my name is …",
+      "statement": "**నా** is *my* and **నీ** is *your*; both stand **before** the noun and never change their form.",
       "examples": [
         {
           "target": "నా పేరు రవి.",
@@ -138,13 +139,33 @@
         }
       ],
       "seeAlso": [
-        "no-copula"
+        "no-copula",
+        "possessive-maa"
+      ],
+      "core": true,
+      "footnotes": []
+    },
+    {
+      "id": "possessive-maa",
+      "number": "38",
+      "heading": "నా against మా",
+      "statement": "Telugu says **నా** only of what belongs to the speaker **alone**; of anything shared with others the word is **మా** — **మా ఇల్లు**, **మా అమ్మ**, where English still says *my*.",
+      "examples": [
+        {
+          "target": "మా ఇల్లు",
+          "gloss": "our / my family's house",
+          "roman": "mā illu"
+        }
+      ],
+      "footnotes": [],
+      "seeAlso": [
+        "possessive-na"
       ],
       "core": true
     },
     {
       "id": "adjective-invariable",
-      "number": "36",
+      "number": "39",
       "heading": "The Adjective Does Not Change",
       "statement": "An adjective stands **before** its noun and is **invariable**: it takes no ending for gender, number or case. A learner coming from Latin, Lithuanian or German should notice how much this removes — there is no agreement to get right, because there is no agreement at all.",
       "examples": [
@@ -169,13 +190,14 @@
       "seeAlso": [
         "no-copula"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "asking-what-who",
-      "number": "37",
+      "number": "40",
       "heading": "Asking ఏమిటి and ఎవరు",
-      "statement": "**ఏమిటి** asks *what* of a thing and **ఎవరు** asks *who* of a person. Each stands where its answer would stand — at the end of the sentence — and no other word moves. A question of this kind is therefore the statement with one word exchanged, which is as simple a rule as any language offers. **అవును** answers *yes* and **కాదు** *no*.",
+      "statement": "**ఏమిటి** asks *what* of a thing and **ఎవరు** asks *who* of a person. Each stands where its answer would stand — at the end of the sentence — and no other word moves. **అవును** answers *yes* and **కాదు** *no*.",
       "examples": [
         {
           "target": "ఇది ఏమిటి? — ఇది పుస్తకం.",
@@ -195,7 +217,8 @@
         "idi-adi",
         "no-copula"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     }
   ],
   "vocabulary": [
@@ -361,6 +384,15 @@
         "nom": "చిన్న",
         "translit": "cinna"
       }
+    },
+    {
+      "lemma": "మా",
+      "gloss": "our / my (shared)",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "మా",
+        "translit": "mā"
+      }
     }
   ],
   "drills": [
@@ -446,7 +478,8 @@
       "explanation": "*నా* stands before its noun and the sentence needs no verb. *నేను* is \"I\", not \"my\", and the last option denies what was to be asserted.",
       "rulesTested": [
         "possessive-na",
-        "no-copula"
+        "no-copula",
+        "possessive-maa"
       ],
       "vocabUsed": [
         "నా",
@@ -573,7 +606,8 @@
         "no-copula",
         "kadu",
         "asking-what-who",
-        "possessive-na"
+        "possessive-na",
+        "possessive-maa"
       ],
       "vocabUsed": [
         "నా",
@@ -653,7 +687,8 @@
           "rulesTested": [
             "asking-what-who",
             "idi-adi",
-            "possessive-na"
+            "possessive-na",
+            "possessive-maa"
           ],
           "vocabUsed": [
             "ఆమె",
@@ -715,6 +750,28 @@
             "అది",
             "కాదు",
             "ఎవరు"
+          ]
+        },
+        {
+          "id": "te106-p1-q4",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "అతని పేరు ఏమిటి?",
+          "options": [
+            "రవి",
+            "అమ్మ",
+            "అన్న",
+            "ఇల్లు"
+          ],
+          "correct": 0,
+          "explanation": "*అతని పేరు రవి.* ఏమిటి asks for the name of a thing, here the brother's own name.",
+          "rulesTested": [
+            "asking-what-who"
+          ],
+          "vocabUsed": [
+            "అతను",
+            "పేరు",
+            "ఏమిటి"
           ]
         }
       ],

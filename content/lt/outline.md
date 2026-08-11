@@ -12,7 +12,7 @@ Sections marked ✅ are authored. The rest are targets for the generator
 Rule numbering is continuous across the whole course, as in Kellerman.
 A1 sections 01–03 occupy ¶1–¶27, 04–07 ¶28–¶52, 08–11 ¶53–¶78,
 12–15 ¶79–¶103, 16–19 ¶104–¶125, 20–22 ¶126–¶145.
-A2 sections continue ¶146–¶190 (course section ids a2-01…a2-06 and a2-nebe).
+A2 sections continue ¶146–¶196 (course section ids a2-01…a2-07 and a2-nebe).
 
 ---
 
@@ -84,7 +84,8 @@ repeated here; A2 completes the paradigms and adds what A1 only gestured at.
 | 27 | ✅ The Definite Adjective | *geras* against *gerasis*; when the pronominal form is required |
 | 28 | ✅ Subordinate Clauses | beyond the *kad* and *ar* of ¶104–¶105: *kai, kol, nors*; sequence of tenses |
 | 29 | ✅ The Infinitive and its Uses | complementary, purposive, and nominal infinitive |
-| — | ✅ **Checkpoint 8** | covers 27–29 |
+| 30 | ✅ Joks: No, Not Any | *joks, jokia* against *niekas* (¶137); its declension after *toks*; the doubled negative; the genitive under a negated verb; *be jokio vargo*, *jokiu būdu*, and the standalone answer; *joks* against *nė vienas* |
+| — | ✅ **Checkpoint 8** | covers 27–30 |
 
 ## B1 — Intermediate
 

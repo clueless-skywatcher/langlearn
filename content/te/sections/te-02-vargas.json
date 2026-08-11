@@ -170,7 +170,7 @@
       "id": "inherent-vowel",
       "number": "8",
       "heading": "The Inherent Vowel",
-      "statement": "A Telugu consonant letter does not stand for a bare consonant. It stands for that consonant **plus the vowel అ**: క is not *k* but **ka**. The vowel is said to be *inherent* in the letter, and it is there unless something is written to remove or replace it. A writing system built this way is an **abugida**, and it is neither an alphabet, in which vowels are letters, nor a syllabary, in which each syllable has an unrelated sign of its own.",
+      "statement": "A Telugu consonant letter stands for that consonant **plus the vowel అ**: క is not *k* but **ka**. The vowel is *inherent* in the letter, and it remains unless something is written to remove or replace it.",
       "examples": [
         {
           "target": "క",
@@ -187,6 +187,7 @@
         }
       ],
       "footnotes": [
+        "This is what makes Telugu an abugida rather than an alphabet or a syllabary.",
         "It follows that the thirty-six consonants are really thirty-six syllables, and that a Telugu word of three letters is a word of three syllables."
       ],
       "seeAlso": [
@@ -277,7 +278,8 @@
       "seeAlso": [
         "inherent-vowel"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "varga-columns",
@@ -301,13 +303,14 @@
       "seeAlso": [
         "varga-grid"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "aspiration",
       "number": "11",
       "heading": "Aspiration",
-      "statement": "An **aspirated** consonant is released with an audible puff of breath; an **unaspirated** one is not. English has both but uses them without noticing: the *p* of *pin* is aspirated and the *p* of *spin* is not, and no English word is distinguished by the difference. In Telugu the difference **distinguishes words**, and an English speaker's difficulty is not making the sounds but hearing that they are two. The aspirated letters are those of the second and fourth columns, and each is written as its unaspirated partner with more of a flourish.",
+      "statement": "An **aspirated** consonant is released with an audible puff of breath; an **unaspirated** one is not. In Telugu the difference **distinguishes words**. The aspirated letters are those of the second and fourth columns, each written as its unaspirated partner with more of a flourish.",
       "paradigms": [
         {
           "caption": "Unaspirated and aspirated",
@@ -358,13 +361,16 @@
       "seeAlso": [
         "varga-columns"
       ],
-      "core": true
+      "core": true,
+      "footnotes": [
+        "English speakers meet a similar puff in the *p* of *pin* against the *p* of *spin*, but English does not use it to tell words apart."
+      ]
     },
     {
       "id": "retroflex-dental",
       "number": "12",
       "heading": "Retroflex against Dental",
-      "statement": "Two vargas sound alike to an English ear and are entirely distinct to a Telugu one. The **dental** letters త థ ద ధ న are made with the tongue against the **teeth**, as in Spanish or Italian. The **retroflex** letters ట ఠ డ ఢ ణ are made with the tongue curled **back** to touch the roof of the mouth. English *t* and *d* are made between the two, on the ridge behind the teeth, and so sound to a Telugu speaker like a poor attempt at the retroflex.",
+      "statement": "The **dental** letters త థ ద ధ న are made with the tongue against the **teeth**. The **retroflex** letters ట ఠ డ ఢ ణ are made with the tongue curled **back** to the roof of the mouth. The two series are entirely distinct in Telugu.",
       "examples": [
         {
           "target": "త ta",
@@ -380,6 +386,7 @@
         }
       ],
       "footnotes": [
+        "English *t* and *d* fall between the two places; neither series is the English sound.",
         "The retroflex series is the mark of an Indian language. It is not found in the languages of Europe, and it is what makes English spoken in India sound as it does."
       ],
       "seeAlso": [
@@ -411,7 +418,8 @@
         "varga-columns",
         "retroflex-dental"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     }
   ],
   "vocabulary": [
@@ -558,13 +566,14 @@
       "vocabUsed": [
         "హల్లు",
         "అక్షరం"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te102-q4",
       "type": "single",
       "difficulty": "easy",
-      "stem": "Which letter is **గ** (ga)?",
+      "stem": "Which letter is pronounced **ga**?",
       "options": [
         "క",
         "గ",
@@ -578,13 +587,14 @@
       ],
       "vocabUsed": [
         "వర్గం"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te102-q5",
       "type": "single",
       "difficulty": "easy",
-      "stem": "Which letter is **మ** (ma)?",
+      "stem": "Which letter is pronounced **ma**?",
       "options": [
         "న",
         "మ",
@@ -598,7 +608,8 @@
       ],
       "vocabUsed": [
         "అనునాసికం"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te102-q6",
@@ -622,7 +633,8 @@
         "మూర్ధన్యం",
         "దంత్యం",
         "అనునాసికం"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te102-q7",
@@ -644,7 +656,8 @@
       "vocabUsed": [
         "ఓష్ఠ్యం",
         "మహాప్రాణం"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te102-q8",
@@ -666,7 +679,8 @@
       "vocabUsed": [
         "తాలవ్యం",
         "అనునాసికం"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te102-q9",
@@ -691,7 +705,8 @@
       ],
       "vocabUsed": [
         "అనునాసికం"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te102-q10",
@@ -717,7 +732,8 @@
       "vocabUsed": [
         "మహాప్రాణం",
         "అల్పప్రాణం"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te102-q11",
@@ -739,7 +755,8 @@
       "vocabUsed": [
         "వర్గం",
         "అల్పప్రాణం"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te102-q12",
@@ -761,7 +778,8 @@
       "vocabUsed": [
         "మహాప్రాణం",
         "దంత్యం"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te102-q13",
@@ -783,7 +801,8 @@
         "అల్పప్రాణం",
         "మహాప్రాణం",
         "ఓష్ఠ్యం"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te102-q14",
@@ -809,7 +828,8 @@
       "vocabUsed": [
         "దంత్యం",
         "మూర్ధన్యం"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te102-q15",
@@ -832,7 +852,8 @@
       "vocabUsed": [
         "మూర్ధన్యం",
         "వర్గం"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te102-q16",
@@ -855,7 +876,8 @@
       "vocabUsed": [
         "తాలవ్యం",
         "మహాప్రాణం"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te102-q17",
@@ -937,7 +959,8 @@
       "vocabUsed": [
         "హల్లు",
         "అక్షరం"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te102-q21",
@@ -954,7 +977,8 @@
       "vocabUsed": [
         "అక్షరం",
         "హల్లు"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te102-q22",
@@ -982,7 +1006,8 @@
         "దంత్యం",
         "మూర్ధన్యం",
         "వర్గం"
-      ]
+      ],
+      "scriptCritical": true
     }
   ],
   "sources": [

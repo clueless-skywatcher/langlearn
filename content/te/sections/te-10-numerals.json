@@ -1,0 +1,2024 @@
+{
+  "id": "te-numerals",
+  "kind": "lesson",
+  "level": "A1",
+  "order": 14,
+  "title": "Numerals and Counting",
+  "summary": "ఒకటి to వంద, and the second set of numerals Telugu keeps for counting people — the gender division of the noun reaching as far as the number words, and stopping short at the ordinals.",
+  "rules": [
+    {
+      "id": "numerals-things",
+      "number": "76",
+      "heading": "The Cardinals — ఒకటి to కోటి",
+      "statement": "The numerals used of things fall into four groups: the **units**, the **teens**, the **tens** (from thirty up, ending in **-ై**), and the **higher numbers**.",
+      "paradigms": [
+        {
+          "caption": "The units",
+          "columns": [
+            "figure",
+            "of things",
+            "transliteration"
+          ],
+          "rows": [
+            {
+              "label": "1",
+              "cells": [
+                "౧",
+                "ఒకటి",
+                "okaṭi"
+              ]
+            },
+            {
+              "label": "2",
+              "cells": [
+                "౨",
+                "రెండు",
+                "reṇḍu"
+              ]
+            },
+            {
+              "label": "3",
+              "cells": [
+                "౩",
+                "మూడు",
+                "mūḍu"
+              ]
+            },
+            {
+              "label": "4",
+              "cells": [
+                "౪",
+                "నాలుగు",
+                "nālugu"
+              ]
+            },
+            {
+              "label": "5",
+              "cells": [
+                "౫",
+                "అయిదు",
+                "ayidu"
+              ]
+            },
+            {
+              "label": "6",
+              "cells": [
+                "౬",
+                "ఆరు",
+                "āru"
+              ]
+            },
+            {
+              "label": "7",
+              "cells": [
+                "౭",
+                "ఏడు",
+                "ēḍu"
+              ]
+            },
+            {
+              "label": "8",
+              "cells": [
+                "౮",
+                "ఎనిమిది",
+                "enimidi"
+              ]
+            },
+            {
+              "label": "9",
+              "cells": [
+                "౯",
+                "తొమ్మిది",
+                "tommidi"
+              ]
+            },
+            {
+              "label": "10",
+              "cells": [
+                "౧౦",
+                "పది",
+                "padi"
+              ]
+            }
+          ],
+          "footnote": "**అయిదు** five and **ఏడు** seven are, in Brown’s words, \"so nearly alike in sound that they are daily mistaken from one another\". Seven is therefore often called **ఆరున్నొకటి**, six-and-one."
+        },
+        {
+          "caption": "The teens, which are irregular",
+          "columns": [
+            "of things",
+            "transliteration"
+          ],
+          "rows": [
+            {
+              "label": "11",
+              "cells": [
+                "పదకొండు",
+                "padakoṇḍu"
+              ]
+            },
+            {
+              "label": "12",
+              "cells": [
+                "పన్నెండు",
+                "panneṇḍu"
+              ]
+            },
+            {
+              "label": "13",
+              "cells": [
+                "పదమూడు",
+                "padamūḍu"
+              ]
+            },
+            {
+              "label": "14",
+              "cells": [
+                "పద్నాలుగు",
+                "padnālugu"
+              ]
+            },
+            {
+              "label": "15",
+              "cells": [
+                "పదిహేను",
+                "padihēnu"
+              ]
+            },
+            {
+              "label": "16",
+              "cells": [
+                "పదహారు",
+                "padahāru"
+              ]
+            },
+            {
+              "label": "17",
+              "cells": [
+                "పదిహేడు",
+                "padihēḍu"
+              ]
+            },
+            {
+              "label": "18",
+              "cells": [
+                "పద్యెనిమిది",
+                "padyenimidi"
+              ]
+            },
+            {
+              "label": "19",
+              "cells": [
+                "పందొమ్మిది",
+                "pandommidi"
+              ]
+            }
+          ],
+          "footnote": "Ten is visible in most of them — పదమూడు is *పది* and *మూడు* — but the wearing-down is irregular, and the forms do not follow from the units by rule."
+        },
+        {
+          "caption": "The tens, and the higher numbers",
+          "columns": [
+            "of things",
+            "transliteration",
+            "in figures"
+          ],
+          "rows": [
+            {
+              "label": "20",
+              "cells": [
+                "ఇరవై",
+                "iravai",
+                "20"
+              ]
+            },
+            {
+              "label": "30",
+              "cells": [
+                "ముప్పై",
+                "muppai",
+                "30"
+              ]
+            },
+            {
+              "label": "40",
+              "cells": [
+                "నలభై",
+                "nalabhai",
+                "40"
+              ]
+            },
+            {
+              "label": "50",
+              "cells": [
+                "యాభై",
+                "yābhai",
+                "50"
+              ]
+            },
+            {
+              "label": "60",
+              "cells": [
+                "అరవై",
+                "aravai",
+                "60"
+              ]
+            },
+            {
+              "label": "70",
+              "cells": [
+                "డెబ్బై",
+                "ḍebbai",
+                "70"
+              ]
+            },
+            {
+              "label": "80",
+              "cells": [
+                "ఎనబై",
+                "enabai",
+                "80"
+              ]
+            },
+            {
+              "label": "90",
+              "cells": [
+                "తొంభై",
+                "tombhai",
+                "90"
+              ]
+            },
+            {
+              "label": "hundred",
+              "cells": [
+                "వంద",
+                "vanda",
+                "100"
+              ]
+            },
+            {
+              "label": "hundred",
+              "cells": [
+                "నూరు",
+                "nūru",
+                "100"
+              ]
+            },
+            {
+              "label": "thousand",
+              "cells": [
+                "వెయ్యి, వేయి",
+                "veyyi, vēyi",
+                "1,000"
+              ]
+            },
+            {
+              "label": "lakh",
+              "cells": [
+                "లక్ష",
+                "lakṣa",
+                "100,000"
+              ]
+            },
+            {
+              "label": "crore",
+              "cells": [
+                "కోటి",
+                "kōṭi",
+                "10,000,000"
+              ]
+            }
+          ],
+          "footnote": "Every ten from thirty up ends in -ై, and that ending reappears as -య్య- before an ordinal suffix (¶83)."
+        }
+      ],
+      "examples": [
+        {
+          "target": "పది చెట్లు",
+          "roman": "padi ceṭlu",
+          "gloss": "ten trees"
+        },
+        {
+          "target": "వంద పుస్తకాలు",
+          "roman": "vanda pustakālu",
+          "gloss": "a hundred books"
+        },
+        {
+          "target": "పది వేలు",
+          "roman": "padi vēlu",
+          "gloss": "ten thousand",
+          "note": "literally *ten thousands* — there is no single word"
+        },
+        {
+          "target": "పది లక్షలు",
+          "roman": "padi lakṣalu",
+          "gloss": "a million",
+          "note": "literally *ten lakhs*"
+        }
+      ],
+      "footnotes": [
+        "ఒకటి, రెండు, మూడు and పది were met as the names of the digits in ¶32. In the Rayalasima dialect of the south, 200 and 300 have words of their own — ఇన్నూరు and మున్నూరు — where the standard language compounds them (¶82).",
+        "**వంద** and **నూరు** both mean *a hundred* and either may stand alone — Krishnamurti and Gwynn give *నూరు రూపాయిలు* and *వంద రూపాయిలు* alike for a hundred rupees. Elsewhere the two have divided the work between them. **వంద** is the word that multiplies, and it pluralises to do it: *రెండు వందలు* two hundred, *మూడు వందల రూపాయిలు* three hundred rupees. **నూరు** supplies the stem **నూట** inside a compound — *నూట ఇరవై ఒకటి* (¶82) — and the oblique **నూటి**, which is how Telugu says anything *in the hundred*: *నూటికి పది మార్కులు*, ten marks in the hundred.",
+        "నూరు is the older of the two. Brown, writing in 1857, gives only నూరు and declines it in full — genitive నూటి, dative నూటికి, accusative నూటిని, plural నూరులు — and forms his multiples from it: *మూడు + నూరులు* gives **మున్నూరు** three hundred, *నాలుగు + నూరులు* gives **నన్నూరు** four hundred. Those are ordinary forms to Brown; Krishnamurti and Gwynn a century later mark ఇన్నూరు and మున్నూరు as Rayalasima, the standard language having gone over to రెండు వందలు and మూడు వందలు.",
+        "Per cent is **శాతం** added to a numeral — *పది శాతం*, ten per cent — or the older periphrasis on నూరు: *నూటికి పది వంతులు* or *నూరులో పది వంతులు*, ten units in the hundred.",
+        "These are the forms used for all things other than human beings. Persons take a second set."
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Krishnamurti, Bhadriraju & Gwynn, J. P. L., *A Grammar of Modern Telugu*. Delhi: Oxford University Press, 1985, §11.4.",
+          "note": "Source for the complete list of cardinals, including లక్ష and కోటి."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Brown, Charles Philip, *A Grammar of the Telugu Language*, 2nd ed. Madras: Christian Knowledge Society’s Press, 1857, pp. 40–43 (\"On Numerals\").",
+          "url": "https://archive.org/details/brown-a-grammar-of-the-telugu-language",
+          "licence": "Public domain (published 1857)",
+          "note": "Source for the numeral names, the Telugu figures, and the warning about అయిదు against ఏడు."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Brown, Charles Philip, *A Grammar of the Telugu Language*, 2nd ed. Madras: Christian Knowledge Society’s Press, 1857, p. 63 and pp. 190–191.",
+          "url": "https://archive.org/details/brown-a-grammar-of-the-telugu-language",
+          "licence": "Public domain (published 1857)",
+          "note": "Source for the declension of నూరు and for మున్నూరు and నన్నూరు as ordinary nineteenth-century multiples."
+        }
+      ],
+      "seeAlso": [
+        "telugu-digits",
+        "nonmasculine-plural"
+      ],
+      "core": true
+    },
+    {
+      "id": "higher-numbers",
+      "number": "77",
+      "heading": "లక్ష and కోటి",
+      "statement": "After **వంద** and **వెయ్యి** come **లక్ష** (a hundred thousand) and **కోటి** (ten million); ten thousand and a million have no words of their own — *పది వేలు*, *పది లక్షలు*.",
+      "examples": [
+        {
+          "target": "పది వేలు",
+          "roman": "padi vēlu",
+          "gloss": "ten thousand",
+          "note": "literally *ten thousands* — there is no single word"
+        },
+        {
+          "target": "పది లక్షలు",
+          "roman": "padi lakṣalu",
+          "gloss": "a million",
+          "note": "literally *ten lakhs*"
+        }
+      ],
+      "footnotes": [],
+      "seeAlso": [
+        "numerals-things"
+      ],
+      "core": true,
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Krishnamurti, Bhadriraju & Gwynn, J. P. L., *A Grammar of Modern Telugu*. Delhi: Oxford University Press, 1985, §11.4.",
+          "note": "Source for the complete list of cardinals, including లక్ష and కోటి."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Brown, Charles Philip, *A Grammar of the Telugu Language*, 2nd ed. Madras: Christian Knowledge Society’s Press, 1857, pp. 40–43 (\"On Numerals\").",
+          "url": "https://archive.org/details/brown-a-grammar-of-the-telugu-language",
+          "licence": "Public domain (published 1857)",
+          "note": "Source for the numeral names, the Telugu figures, and the warning about అయిదు against ఏడు."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Brown, Charles Philip, *A Grammar of the Telugu Language*, 2nd ed. Madras: Christian Knowledge Society’s Press, 1857, p. 63 and pp. 190–191.",
+          "url": "https://archive.org/details/brown-a-grammar-of-the-telugu-language",
+          "licence": "Public domain (published 1857)",
+          "note": "Source for the declension of నూరు and for మున్నూరు and నన్నూరు as ordinary nineteenth-century multiples."
+        }
+      ]
+    },
+    {
+      "id": "human-numerals",
+      "number": "78",
+      "heading": "Counting People — ఇద్దరు, ముగ్గురు",
+      "statement": "Telugu counts **people** with a different set: **రెండు** but **ఇద్దరు**; **మూడు** but **ముగ్గురు**. From about five upward the human forms are made with **-గురు** or **-మంది**.",
+      "paradigms": [
+        {
+          "caption": "Counting things and counting people",
+          "columns": [
+            "of things (¶67)",
+            "of people",
+            "English"
+          ],
+          "rows": [
+            {
+              "label": "1",
+              "cells": [
+                "ఒకటి",
+                "ఒకడు (m.), ఒకతె (f.), ఒకరు (polite)",
+                "one"
+              ]
+            },
+            {
+              "label": "2",
+              "cells": [
+                "రెండు",
+                "ఇద్దరు",
+                "two"
+              ]
+            },
+            {
+              "label": "3",
+              "cells": [
+                "మూడు",
+                "ముగ్గురు",
+                "three"
+              ]
+            },
+            {
+              "label": "4",
+              "cells": [
+                "నాలుగు",
+                "నలుగురు",
+                "four"
+              ]
+            },
+            {
+              "label": "5",
+              "cells": [
+                "అయిదు",
+                "అయిదుగురు",
+                "five"
+              ]
+            },
+            {
+              "label": "6",
+              "cells": [
+                "ఆరు",
+                "ఆరుగురు",
+                "six"
+              ]
+            },
+            {
+              "label": "7",
+              "cells": [
+                "ఏడు",
+                "ఏడుగురు",
+                "seven"
+              ]
+            },
+            {
+              "label": "8",
+              "cells": [
+                "ఎనిమిది",
+                "ఎనిమిదిమంది",
+                "eight"
+              ]
+            },
+            {
+              "label": "10",
+              "cells": [
+                "పది",
+                "పదిమంది",
+                "ten"
+              ]
+            }
+          ],
+          "footnote": "The human forms are made with **-గురు** as far as seven and with **-మంది** from eight upward; పదిమంది, ten people, needs no noun after it. At *one* the form splits by sex where the plural does not — ఒకడు of a man, ఒకతె of a woman, ఒకరు of a person spoken of politely. This is ¶45 and ¶49 again: in the singular the sexes are apart, and only in the plural do they come together."
+        }
+      ],
+      "examples": [
+        {
+          "target": "ఇద్దరు అబ్బాయిలు",
+          "roman": "iddaru abbāyilu",
+          "gloss": "two boys"
+        },
+        {
+          "target": "ఇద్దరు అమ్మాయిలు",
+          "roman": "iddaru ammāyilu",
+          "gloss": "two girls",
+          "note": "the same word: in the plural the sexes are counted alike"
+        },
+        {
+          "target": "ముగ్గురు స్నేహితులు",
+          "roman": "mugguru snēhitulu",
+          "gloss": "three friends"
+        },
+        {
+          "target": "రెండు ఇళ్ళు",
+          "roman": "reṇḍu iḷḷu",
+          "gloss": "two houses",
+          "note": "not ఇద్దరు: a house is not a person"
+        },
+        {
+          "target": "రెండు కుక్కలు",
+          "roman": "reṇḍu kukkalu",
+          "gloss": "two dogs",
+          "note": "nor is a dog — being alive is not the criterion (¶57)"
+        }
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Krishnamurti, Bhadriraju & Gwynn, J. P. L., *A Grammar of Modern Telugu*. Delhi: Oxford University Press, 1985, §11.3–11.4, §11.6(e), §11.7.",
+          "note": "Source for the human forms, the -గురు / -మంది cut-off, the compound rule and the oblique stems."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Brown, Charles Philip, *A Grammar of the Telugu Language*, 2nd ed. Madras: Christian Knowledge Society’s Press, 1857, pp. 40–43 (\"On Numerals\").",
+          "url": "https://archive.org/details/brown-a-grammar-of-the-telugu-language",
+          "licence": "Public domain (published 1857)",
+          "note": "Source for the major and minor numeral forms."
+        }
+      ],
+      "seeAlso": [
+        "numerals-things",
+        "masculine-plural",
+        "nonmasculine-plural"
+      ],
+      "core": true,
+      "footnotes": [
+        "The division is persons against everything else. Counting boys as రెండు is counting them as things.",
+        "In a **compound** number the human set is not used throughout: **మంది** is simply added at the end, and to the oblique stem — *ఇరవై అయిదు మంది* twenty-five persons, *నాలుగు వేల మంది* four thousand persons. With *one* in a compound, మంది follows the adjectival ఒక్క: *అరవై ఒక్క మంది*, sixty-one persons. Some standard varieties use the -గురు forms in compounds too: *ఇరవై అయిదుగురు*, *నలభై నలుగురు*.",
+        "Before a case suffix the human numerals take an oblique stem like any other noun: ఒకడు → ఒకడి, ఇద్దరు → ఇద్దరి, ముగ్గురు → ముగ్గురి (¶69)."
+      ]
+    },
+    {
+      "id": "counted-noun",
+      "number": "79",
+      "heading": "Where the Numeral Stands",
+      "statement": "A numeral is a kind of **adjective** and normally stands **before** the noun it counts, which is plural: **రెండు ఇళ్ళు**.",
+      "examples": [
+        {
+          "target": "రెండు ఇళ్ళు",
+          "roman": "reṇḍu iḷḷu",
+          "gloss": "two houses",
+          "note": "ఇల్లు → ఇళ్ళు: the counted noun is plural"
+        },
+        {
+          "target": "ఇద్దరు అబ్బాయిలు",
+          "roman": "iddaru abbāyilu",
+          "gloss": "two boys",
+          "note": "human numeral, noun plural"
+        },
+        {
+          "target": "అబ్బాయిలు ఇద్దరు",
+          "roman": "abbāyilu iddaru",
+          "gloss": "two boys",
+          "note": "the same thing said with the numeral behind"
+        },
+        {
+          "target": "ఒక ఇల్లు",
+          "roman": "oka illu",
+          "gloss": "a house",
+          "note": "ఒక alone takes a singular noun"
+        }
+      ],
+      "footnotes": [],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Krishnamurti, Bhadriraju & Gwynn, J. P. L., *A Grammar of Modern Telugu*. Delhi: Oxford University Press, 1985, §11.3, §11.5.",
+          "note": "Source for the apposition, for ఒక as the adjectival root, and for its use as an indefinite article."
+        }
+      ],
+      "seeAlso": [
+        "numerals-things",
+        "human-numerals",
+        "plural-lu"
+      ],
+      "core": true,
+      "paradigms": [
+        {
+          "caption": "The two positions",
+          "columns": [
+            "before the noun",
+            "after it, in apposition",
+            "English"
+          ],
+          "rows": [
+            {
+              "label": "two boys",
+              "cells": [
+                "ఇద్దరు అబ్బాయిలు",
+                "అబ్బాయిలు ఇద్దరు",
+                "two boys"
+              ]
+            },
+            {
+              "label": "two houses",
+              "cells": [
+                "రెండు ఇళ్ళు",
+                "ఇళ్ళు రెండు",
+                "two houses"
+              ]
+            },
+            {
+              "label": "one house",
+              "cells": [
+                "ఒక ఇల్లు",
+                "ఇల్లు ఒకటి",
+                "a house / one house"
+              ]
+            }
+          ],
+          "footnote": "Note the last row: the adjective ఒక becomes the noun ఒకటి when it moves behind, and the noun before it stays singular either way. Every other numeral keeps one form in both positions and pluralises what it counts."
+        }
+      ]
+    },
+    {
+      "id": "numeral-apposition",
+      "number": "80",
+      "heading": "Numeral After the Noun",
+      "statement": "The numeral may also **follow** its noun; then the two are nouns **in apposition** — *ఇద్దరు అబ్బాయిలు* and *అబ్బాయిలు ఇద్దరు* alike mean *two boys*.",
+      "examples": [],
+      "footnotes": [],
+      "seeAlso": [
+        "counted-noun"
+      ],
+      "core": true
+    },
+    {
+      "id": "oka-and-okati",
+      "number": "81",
+      "heading": "ఒక and ఒకటి",
+      "statement": "At *one*, the two positions take different words: adjective **ఒక** before (**ఒక ఇల్లు**, singular noun), noun **ఒకటి** after (**ఇల్లు ఒకటి**); ఒక is also the nearest Telugu has to an indefinite article.",
+      "examples": [
+        {
+          "target": "ఒక ఇల్లు",
+          "roman": "oka illu",
+          "gloss": "a house",
+          "note": "ఒక alone takes a singular noun"
+        }
+      ],
+      "footnotes": [
+        "**ఒక** is the root, and ఒకటి, ఒకడు and ఒకతె are derived from it — not the other way round. In rapid speech ఒక is shortened to **ఓ**, and doubled to **ఒక్క** it means *only one*: *నాకు ఒక్క కొడుకు*, I have only one son."
+      ],
+      "seeAlso": [
+        "counted-noun",
+        "numeral-apposition"
+      ],
+      "core": true,
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Krishnamurti, Bhadriraju & Gwynn, J. P. L., *A Grammar of Modern Telugu*. Delhi: Oxford University Press, 1985, §11.3, §11.5.",
+          "note": "Source for the apposition, for ఒక as the adjectival root, and for its use as an indefinite article."
+        }
+      ]
+    },
+    {
+      "id": "compound-numerals",
+      "number": "82",
+      "heading": "Building the Compounds",
+      "statement": "Above twenty, every number is built from the words of ¶76 by four rules. Two are simple juxtaposition; two turn on a word changing shape before what follows — the same change nouns make before a case suffix (¶69).",
+      "paradigms": [
+        {
+          "caption": "The four rules",
+          "columns": [
+            "rule",
+            "example",
+            "value"
+          ],
+          "rows": [
+            {
+              "label": "1",
+              "cells": [
+                "a ten and a unit stand side by side",
+                "ముప్పై నాలుగు",
+                "34"
+              ]
+            },
+            {
+              "label": "2",
+              "cells": [
+                "a multiple is the multiplier plus the **plural** of the base",
+                "రెండు వందలు",
+                "200"
+              ]
+            },
+            {
+              "label": "3",
+              "cells": [
+                "what follows a multiple attaches to its **oblique** stem",
+                "రెండువందల యాభై ఒకటి",
+                "251"
+              ]
+            },
+            {
+              "label": "4",
+              "cells": [
+                "నూరు becomes నూట, and వెయ్యి becomes వెయ్యీ, before anything following (¶76)",
+                "నూట ఇరవై ఒకటి",
+                "121"
+              ]
+            }
+          ],
+          "footnote": "Rule 2 rests on one irregular plural: the plural of **వెయ్యి** is **వేలు**, so three thousand is మూడు వేలు. Under rule 3, *రెండువందలు* is two hundred standing alone and *రెండువందల* is its form before anything that follows. Rules 2 and 4 use **different words for a hundred** — వంద multiplies, నూరు compounds — which is the division set out at ¶76."
+        },
+        {
+          "caption": "Worked examples",
+          "columns": [
+            "Telugu",
+            "how it is built"
+          ],
+          "rows": [
+            {
+              "label": "34",
+              "cells": [
+                "ముప్పై నాలుగు",
+                "30 + 4, side by side"
+              ]
+            },
+            {
+              "label": "99",
+              "cells": [
+                "తొంభై తొమ్మిది",
+                "90 + 9"
+              ]
+            },
+            {
+              "label": "121",
+              "cells": [
+                "నూట ఇరవై ఒకటి",
+                "నూరు → నూట before what follows"
+              ]
+            },
+            {
+              "label": "200",
+              "cells": [
+                "రెండు వందలు",
+                "2 × the plural of వంద"
+              ]
+            },
+            {
+              "label": "251",
+              "cells": [
+                "రెండువందల యాభై ఒకటి",
+                "the oblique రెండువందల, then 50 + 1"
+              ]
+            },
+            {
+              "label": "1,032",
+              "cells": [
+                "వెయ్యీ ముప్పై రెండు",
+                "వెయ్యి → వెయ్యీ, then 30 + 2"
+              ]
+            },
+            {
+              "label": "2,034",
+              "cells": [
+                "రెండువేల ముప్పై నాలుగు",
+                "the oblique రెండువేల, then 30 + 4"
+              ]
+            },
+            {
+              "label": "3,000",
+              "cells": [
+                "మూడు వేలు",
+                "3 × the plural of వెయ్యి"
+              ]
+            },
+            {
+              "label": "2 lakhs",
+              "cells": [
+                "రెండు లక్షలు",
+                "2 × the plural of లక్ష"
+              ]
+            }
+          ],
+          "footnote": "Every one of these is Krishnamurti and Gwynn’s own example, at §11.6."
+        }
+      ],
+      "examples": [
+        {
+          "target": "ముప్పై నాలుగు పుస్తకాలు",
+          "roman": "muppai nālugu pustakālu",
+          "gloss": "thirty-four books"
+        },
+        {
+          "target": "నూట ఇరవై ఒకటి",
+          "roman": "nūṭa iravai okaṭi",
+          "gloss": "a hundred and twenty-one"
+        },
+        {
+          "target": "వెయ్యీ ముప్పై రెండు",
+          "roman": "veyyī muppai reṇḍu",
+          "gloss": "a thousand and thirty-two",
+          "note": "the final vowel of వెయ్యి lengthened before what follows"
+        },
+        {
+          "target": "ఇరవై అయిదు మంది",
+          "roman": "iravai ayidu mandi",
+          "gloss": "twenty-five people",
+          "note": "a compound counting persons takes మంది at the end (¶78)"
+        }
+      ],
+      "footnotes": [
+        "A compound number is a noun phrase, and inflects like one."
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Krishnamurti, Bhadriraju & Gwynn, J. P. L., *A Grammar of Modern Telugu*. Delhi: Oxford University Press, 1985, §11.6(a)–(e).",
+          "note": "Source for all four rules and for the worked examples."
+        }
+      ],
+      "seeAlso": [
+        "numerals-things",
+        "human-numerals",
+        "oblique-stem"
+      ],
+      "core": true
+    },
+    {
+      "id": "ordinals",
+      "number": "83",
+      "heading": "The Ordinals",
+      "statement": "An ordinal is made by eliding the cardinal's final vowel and adding **-ఓ**: ఒకటి → **ఒకటో**, రెండు → **రెండో**; the written language often prefers **-వ** — రెండవ, మూడవ.",
+      "paradigms": [
+        {
+          "caption": "Cardinal and ordinal",
+          "columns": [
+            "cardinal",
+            "ordinal",
+            "English"
+          ],
+          "rows": [
+            {
+              "label": "1",
+              "cells": [
+                "ఒకటి",
+                "మొదటి (also ఒకటో)",
+                "first"
+              ]
+            },
+            {
+              "label": "2",
+              "cells": [
+                "రెండు",
+                "రెండో, రెండవ",
+                "second"
+              ]
+            },
+            {
+              "label": "3",
+              "cells": [
+                "మూడు",
+                "మూడో",
+                "third"
+              ]
+            },
+            {
+              "label": "4",
+              "cells": [
+                "నాలుగు",
+                "నాలుగో",
+                "fourth"
+              ]
+            },
+            {
+              "label": "5",
+              "cells": [
+                "అయిదు",
+                "అయిదో",
+                "fifth"
+              ]
+            },
+            {
+              "label": "8",
+              "cells": [
+                "ఎనిమిది",
+                "ఎనిమిదో",
+                "eighth"
+              ]
+            },
+            {
+              "label": "10",
+              "cells": [
+                "పది",
+                "పదో",
+                "tenth"
+              ]
+            },
+            {
+              "label": "16",
+              "cells": [
+                "పదహారు",
+                "పదహారో",
+                "sixteenth"
+              ]
+            },
+            {
+              "label": "20",
+              "cells": [
+                "ఇరవై",
+                "ఇరవయ్యో, ఇరవయ్యవ",
+                "twentieth"
+              ]
+            },
+            {
+              "label": "30",
+              "cells": [
+                "ముప్పై",
+                "ముప్పయ్యో",
+                "thirtieth"
+              ]
+            },
+            {
+              "label": "100",
+              "cells": [
+                "వంద",
+                "వందో",
+                "hundredth"
+              ]
+            },
+            {
+              "label": "1,000",
+              "cells": [
+                "వెయ్యి",
+                "వెయ్యో",
+                "thousandth"
+              ]
+            }
+          ],
+          "footnote": "Brown gives అయిదో, ఆరో, ఏడో, ఎనిమిదో, తొమ్మిదో and పదో; Krishnamurti and Gwynn add ఎనిమిదో నెల *the eighth month*, పదహారో ఏట *in her sixteenth year* and ఇరవయో ఏట *in my twentieth year*. The tens above twenty follow ఇరవయ్యో."
+        }
+      ],
+      "examples": [
+        {
+          "target": "రెండో ఇల్లు",
+          "roman": "reṇḍō illu",
+          "gloss": "the second house"
+        },
+        {
+          "target": "రెండో అబ్బాయి",
+          "roman": "reṇḍō abbāyi",
+          "gloss": "the second boy",
+          "note": "the same ordinal of a person — no human form exists"
+        },
+        {
+          "target": "మొదటి పుస్తకం",
+          "roman": "modaṭi pustakaṁ",
+          "gloss": "the first book"
+        },
+        {
+          "target": "నా ఇరవయ్యో ఏట",
+          "roman": "nā iravayyō ēṭa",
+          "gloss": "in my twentieth year"
+        },
+        {
+          "target": "నూట ఇరవై ఒకటో",
+          "roman": "nūṭa iravai okaṭō",
+          "gloss": "the hundred and twenty-first",
+          "note": "only the last word takes the ending"
+        }
+      ],
+      "footnotes": [
+        "The ordinal takes a **singular** noun where the cardinal takes a plural (¶79): *రెండు ఇళ్ళు* two houses, but *రెండో ఇల్లు* the second house.",
+        "There is an interrogative to match: **ఎన్నో**, *how-manieth* — *మీకు ఎన్నో ఏట పెండ్లి అయింది?*, in what year of your life were you married? English has no such word."
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Krishnamurti, Bhadriraju & Gwynn, J. P. L., *A Grammar of Modern Telugu*. Delhi: Oxford University Press, 1985, §12.8.",
+          "note": "\"A numeral adjective (ordinal) can be derived from the corresponding cardinal by eliding the final vowel and adding -ఓ… Note that there are several words for ‘first’. మొదటి is the most common.\" Model sentences supply ఇరవయో, ఎనిమిదో and పదహారో."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Brown, Charles Philip, *A Grammar of the Telugu Language*, 2nd ed. Madras: Christian Knowledge Society’s Press, 1857, pp. 40–43 (\"On Numerals\").",
+          "url": "https://archive.org/details/brown-a-grammar-of-the-telugu-language",
+          "licence": "Public domain (published 1857)",
+          "note": "\"In Ordinals as first, second, &c., there are no major forms. Thus రెండో second, మూడో third are used with all genders.\""
+        }
+      ],
+      "seeAlso": [
+        "numerals-things",
+        "human-numerals",
+        "counted-noun"
+      ],
+      "core": true
+    },
+    {
+      "id": "ordinal-tens",
+      "number": "84",
+      "heading": "The Tens Before -ఓ",
+      "statement": "The tens, which end in **-ై**, take **-య్య-** before the ending: ఇరవై → **ఇరవయ్యో**. In a compound the ending falls on the last word only: *నూట ఇరవై ఒకటో*.",
+      "examples": [
+        {
+          "target": "నా ఇరవయ్యో ఏట",
+          "roman": "nā iravayyō ēṭa",
+          "gloss": "in my twentieth year"
+        }
+      ],
+      "footnotes": [],
+      "seeAlso": [
+        "ordinals"
+      ],
+      "core": true,
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Krishnamurti, Bhadriraju & Gwynn, J. P. L., *A Grammar of Modern Telugu*. Delhi: Oxford University Press, 1985, §12.8.",
+          "note": "\"A numeral adjective (ordinal) can be derived from the corresponding cardinal by eliding the final vowel and adding -ఓ… Note that there are several words for ‘first’. మొదటి is the most common.\" Model sentences supply ఇరవయో, ఎనిమిదో and పదహారో."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Brown, Charles Philip, *A Grammar of the Telugu Language*, 2nd ed. Madras: Christian Knowledge Society’s Press, 1857, pp. 40–43 (\"On Numerals\").",
+          "url": "https://archive.org/details/brown-a-grammar-of-the-telugu-language",
+          "licence": "Public domain (published 1857)",
+          "note": "\"In Ordinals as first, second, &c., there are no major forms. Thus రెండో second, మూడో third are used with all genders.\""
+        }
+      ]
+    },
+    {
+      "id": "ordinal-first",
+      "number": "85",
+      "heading": "*First*",
+      "statement": "Among several words for *first*, **మొదటి** is the commonest (beside ఒకటో).",
+      "examples": [
+        {
+          "target": "మొదటి పుస్తకం",
+          "roman": "modaṭi pustakaṁ",
+          "gloss": "the first book"
+        }
+      ],
+      "footnotes": [],
+      "seeAlso": [
+        "ordinals"
+      ],
+      "core": true
+    },
+    {
+      "id": "ordinals-no-human",
+      "number": "86",
+      "heading": "No Human Ordinals",
+      "statement": "The ordinals have **no separate human forms**: where the cardinals split into రెండు and ఇద్దరు, **రెండో** serves for people and things alike.",
+      "examples": [],
+      "footnotes": [
+        "Brown: \"In Ordinals as first, second, &c., there are no major forms.\""
+      ],
+      "seeAlso": [
+        "ordinals",
+        "human-numerals"
+      ],
+      "core": true,
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Krishnamurti, Bhadriraju & Gwynn, J. P. L., *A Grammar of Modern Telugu*. Delhi: Oxford University Press, 1985, §12.8.",
+          "note": "\"A numeral adjective (ordinal) can be derived from the corresponding cardinal by eliding the final vowel and adding -ఓ… Note that there are several words for ‘first’. మొదటి is the most common.\" Model sentences supply ఇరవయో, ఎనిమిదో and పదహారో."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Brown, Charles Philip, *A Grammar of the Telugu Language*, 2nd ed. Madras: Christian Knowledge Society’s Press, 1857, pp. 40–43 (\"On Numerals\").",
+          "url": "https://archive.org/details/brown-a-grammar-of-the-telugu-language",
+          "licence": "Public domain (published 1857)",
+          "note": "\"In Ordinals as first, second, &c., there are no major forms. Thus రెండో second, మూడో third are used with all genders.\""
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "lemma": "ఇద్దరు",
+      "gloss": "two (of people)",
+      "pos": "numeral",
+      "forms": {
+        "nom": "ఇద్దరు",
+        "translit": "iddaru"
+      }
+    },
+    {
+      "lemma": "ముగ్గురు",
+      "gloss": "three (of people)",
+      "pos": "numeral",
+      "forms": {
+        "nom": "ముగ్గురు",
+        "translit": "mugguru"
+      }
+    },
+    {
+      "lemma": "నలుగురు",
+      "gloss": "four (of people)",
+      "pos": "numeral",
+      "forms": {
+        "nom": "నలుగురు",
+        "translit": "naluguru"
+      }
+    },
+    {
+      "lemma": "మంది",
+      "gloss": "people, as a counting word",
+      "pos": "numeral",
+      "forms": {
+        "nom": "మంది",
+        "translit": "mandi"
+      }
+    },
+    {
+      "lemma": "ఒక",
+      "gloss": "a, one (before a singular noun)",
+      "pos": "numeral",
+      "forms": {
+        "nom": "ఒక",
+        "translit": "oka"
+      }
+    },
+    {
+      "lemma": "వంద",
+      "gloss": "a hundred",
+      "pos": "numeral",
+      "forms": {
+        "nom": "వంద",
+        "translit": "vanda"
+      }
+    },
+    {
+      "lemma": "మొదటి",
+      "gloss": "first",
+      "pos": "numeral",
+      "forms": {
+        "nom": "మొదటి",
+        "translit": "modaṭi"
+      }
+    },
+    {
+      "lemma": "రెండో",
+      "gloss": "second",
+      "pos": "numeral",
+      "forms": {
+        "nom": "రెండో",
+        "translit": "reṇḍō"
+      }
+    },
+    {
+      "lemma": "ఒకరు",
+      "gloss": "one person; someone (polite)",
+      "pos": "numeral",
+      "forms": {
+        "nom": "ఒకరు",
+        "translit": "okaru"
+      }
+    },
+    {
+      "lemma": "వంద",
+      "gloss": "a hundred",
+      "pos": "numeral",
+      "forms": {
+        "nom": "వంద",
+        "translit": "vanda"
+      }
+    },
+    {
+      "lemma": "వెయ్యి",
+      "gloss": "a thousand",
+      "pos": "numeral",
+      "forms": {
+        "nom": "వెయ్యి",
+        "translit": "veyyi"
+      }
+    },
+    {
+      "lemma": "లక్ష",
+      "gloss": "a lakh, a hundred thousand",
+      "pos": "numeral",
+      "forms": {
+        "nom": "లక్ష",
+        "translit": "lakṣa"
+      }
+    },
+    {
+      "lemma": "కోటి",
+      "gloss": "a crore, ten million",
+      "pos": "numeral",
+      "forms": {
+        "nom": "కోటి",
+        "translit": "kōṭi"
+      }
+    },
+    {
+      "lemma": "ఇరవై",
+      "gloss": "twenty",
+      "pos": "numeral",
+      "forms": {
+        "nom": "ఇరవై",
+        "translit": "iravai"
+      }
+    },
+    {
+      "lemma": "ముప్పై",
+      "gloss": "thirty",
+      "pos": "numeral",
+      "forms": {
+        "nom": "ముప్పై",
+        "translit": "muppai"
+      }
+    },
+    {
+      "lemma": "నాలుగు",
+      "gloss": "four",
+      "pos": "numeral",
+      "forms": {
+        "nom": "నాలుగు",
+        "translit": "nālugu"
+      }
+    },
+    {
+      "lemma": "యాభై",
+      "gloss": "fifty",
+      "pos": "numeral",
+      "forms": {
+        "nom": "యాభై",
+        "translit": "yābhai"
+      }
+    },
+    {
+      "lemma": "అయిదు",
+      "gloss": "five",
+      "pos": "numeral",
+      "forms": {
+        "nom": "అయిదు",
+        "translit": "ayidu"
+      }
+    },
+    {
+      "lemma": "ఎనిమిది",
+      "gloss": "eight",
+      "pos": "numeral",
+      "forms": {
+        "nom": "ఎనిమిది",
+        "translit": "enimidi"
+      }
+    },
+    {
+      "lemma": "నూట",
+      "gloss": "a hundred (before another numeral)",
+      "pos": "numeral",
+      "forms": {
+        "nom": "నూట",
+        "translit": "nūṭa"
+      }
+    },
+    {
+      "lemma": "వెయ్యీ",
+      "gloss": "a thousand (before another numeral)",
+      "pos": "numeral",
+      "forms": {
+        "nom": "వెయ్యీ",
+        "translit": "veyyī"
+      }
+    },
+    {
+      "lemma": "తొమ్మిది",
+      "gloss": "nine",
+      "pos": "numeral",
+      "forms": {
+        "nom": "తొమ్మిది",
+        "translit": "tommidi"
+      }
+    },
+    {
+      "lemma": "తొంభై",
+      "gloss": "ninety",
+      "pos": "numeral",
+      "forms": {
+        "nom": "తొంభై",
+        "translit": "tombhai"
+      }
+    },
+    {
+      "lemma": "నూరు",
+      "gloss": "a hundred",
+      "pos": "numeral",
+      "forms": {
+        "nom": "నూరు",
+        "translit": "nūru"
+      },
+      "notes": "The older word beside వంద. Oblique నూటి, compound stem నూట."
+    },
+    {
+      "lemma": "శాతం",
+      "gloss": "per cent",
+      "pos": "numeral",
+      "forms": {
+        "nom": "శాతం",
+        "translit": "śātaṁ"
+      }
+    }
+  ],
+  "drills": [
+    {
+      "id": "tenu-q1",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "How is **three girls** said?",
+      "options": [
+        "మూడు అమ్మాయిలు",
+        "ముగ్గురు అమ్మాయిలు",
+        "మూడు అమ్మాయి",
+        "ముగ్గురు అమ్మాయి"
+      ],
+      "correct": 1,
+      "explanation": "People are counted with the human numerals: *ముగ్గురు*, not *మూడు*, which counts things. The noun stays plural after either. *మూడు అమ్మాయిలు* counts three girls as though they were three stones.",
+      "rulesTested": [
+        "human-numerals",
+        "counted-noun",
+        "masculine-plural",
+        "numeral-apposition",
+        "oka-and-okati"
+      ],
+      "vocabUsed": [
+        "ముగ్గురు",
+        "అమ్మాయి"
+      ]
+    },
+    {
+      "id": "tenu-q2",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which of these are correctly counted?",
+      "options": [
+        "ఇద్దరు అబ్బాయిలు",
+        "రెండు ఇళ్ళు",
+        "ఇద్దరు ఇళ్ళు",
+        "ముగ్గురు అమ్మాయిలు"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "The third is wrong: houses are things and take *రెండు*. Boys and girls alike take the human numerals in the plural — which is ¶50 again, the sexes counted together once there is more than one of them.",
+      "rulesTested": [
+        "human-numerals",
+        "counted-noun",
+        "nonmasculine-plural",
+        "numeral-apposition",
+        "oka-and-okati"
+      ],
+      "vocabUsed": [
+        "ఇద్దరు",
+        "ముగ్గురు",
+        "అబ్బాయి",
+        "అమ్మాయి",
+        "ఇల్లు"
+      ]
+    },
+    {
+      "id": "tenu-q3",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "How is **two boys** said?",
+      "options": [
+        "రెండు అబ్బాయిలు",
+        "ఇద్దరు అబ్బాయిలు",
+        "ఇద్దరు అబ్బాయి",
+        "రెండు అబ్బాయి"
+      ],
+      "correct": 1,
+      "explanation": "People are counted with the human numerals — ఇద్దరు, not రెండు, which counts things — and the noun stands in the plural after either. The division of ¶50 and ¶57 reaches even the numerals.",
+      "rulesTested": [
+        "human-numerals",
+        "counted-noun",
+        "masculine-plural",
+        "numeral-apposition",
+        "oka-and-okati"
+      ],
+      "vocabUsed": [
+        "ఇద్దరు",
+        "రెండు",
+        "అబ్బాయి"
+      ]
+    },
+    {
+      "id": "tenu-q4",
+      "type": "matching",
+      "difficulty": "hard",
+      "stem": "Match each phrase with what is wrong with it, or with nothing if it is correct.",
+      "columnHeadings": [
+        "Phrase",
+        "Verdict"
+      ],
+      "columnI": [
+        "మూడు అమ్మాయిలు",
+        "ముగ్గురు అమ్మాయిలు",
+        "ఇద్దరు ఇళ్ళు",
+        "రెండు ఇళ్ళు"
+      ],
+      "columnII": [
+        "correct",
+        "counts people with the numeral for things",
+        "counts things with the numeral for people",
+        "the counted noun is left singular"
+      ],
+      "options": [
+        [
+          1,
+          0,
+          2,
+          0
+        ],
+        [
+          2,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          0,
+          2
+        ]
+      ],
+      "correct": 0,
+      "explanation": "మూడు counts things, so *మూడు అమ్మాయిలు* counts girls as though they were stones; ఇద్దరు counts people, so *ఇద్దరు ఇళ్ళు* does the reverse. The second option swaps those two diagnoses. The third claims the counted noun is left singular — it is not, and *రెండు ఇళ్ళు* is right as it stands. The fourth reverses which of each pair is correct.",
+      "rulesTested": [
+        "human-numerals",
+        "counted-noun",
+        "nonmasculine-plural",
+        "numeral-apposition",
+        "oka-and-okati"
+      ],
+      "vocabUsed": [
+        "ముగ్గురు",
+        "ఇద్దరు",
+        "అమ్మాయి",
+        "ఇల్లు",
+        "మూడు",
+        "రెండు"
+      ]
+    },
+    {
+      "id": "tenu-q5",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "**మా అన్నలు ఇద్దరు** — why not **రెండు**?",
+      "options": [
+        "Because అన్నలు is already plural.",
+        "Because brothers are people, and people are counted with a different set of numerals.",
+        "Because రెండు can only stand after the noun.",
+        "Because ఇద్దరు is the polite form of రెండు."
+      ],
+      "correct": 1,
+      "explanation": "రెండు counts things and ఇద్దరు counts people — the gender division of ¶50 and ¶57 reaching the numerals. That the noun is plural is true but beside the point: *రెండు ఇళ్ళు* is plural too and takes రెండు, because a house is not a person. Nor is respect involved.",
+      "rulesTested": [
+        "human-numerals",
+        "numerals-things",
+        "higher-numbers"
+      ],
+      "vocabUsed": [
+        "ఇద్దరు",
+        "రెండు",
+        "అన్న",
+        "ఇల్లు"
+      ]
+    },
+    {
+      "id": "tenu-q6",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "How is **ten books** said?",
+      "options": [
+        "పదిమంది పుస్తకాలు",
+        "పది పుస్తకాలు",
+        "పది పుస్తకం",
+        "పదిగురు పుస్తకాలు"
+      ],
+      "correct": 1,
+      "explanation": "Books are things, so the numeral for things — పది — and the noun in the plural. పదిమంది and పదిగురు count people; *పది పుస్తకం* leaves the noun singular, which only ఒక does (¶79).",
+      "rulesTested": [
+        "numerals-things",
+        "counted-noun",
+        "higher-numbers",
+        "numeral-apposition",
+        "oka-and-okati"
+      ],
+      "vocabUsed": [
+        "పది",
+        "పుస్తకం"
+      ]
+    },
+    {
+      "id": "tenu-q7",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "How is **ten people** said?",
+      "options": [
+        "పది మనుషులు",
+        "పదిమంది",
+        "పదిటి",
+        "పదో"
+      ],
+      "correct": 1,
+      "explanation": "పదిమంది. From about five upward the human numerals are built with -గురు or -మంది, and పదిమంది needs no noun after it to mean *ten people*. పదో is the ordinal, *tenth*.",
+      "rulesTested": [
+        "human-numerals"
+      ],
+      "vocabUsed": [
+        "పది",
+        "మంది"
+      ]
+    },
+    {
+      "id": "tenu-q8",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which of these are correctly formed?",
+      "options": [
+        "నలుగురు అమ్మాయిలు",
+        "నాలుగు కుక్కలు",
+        "నలుగురు ఇళ్ళు",
+        "ఒక ఇల్లు"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "Houses are things and take నాలుగు. Note the second: dogs are alive and still take the numeral for things, because the division is persons against everything else (¶57) and not animate against inanimate. *ఒక ఇల్లు* is right with a singular noun — ఒక is the one numeral that behaves like an article (¶79).",
+      "rulesTested": [
+        "human-numerals",
+        "numerals-things",
+        "counted-noun",
+        "nonmasculine-plural",
+        "higher-numbers",
+        "numeral-apposition",
+        "oka-and-okati"
+      ],
+      "vocabUsed": [
+        "నలుగురు",
+        "అమ్మాయి",
+        "కుక్క",
+        "ఇల్లు"
+      ]
+    },
+    {
+      "id": "tenu-q9",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "How is **the second house** said?",
+      "options": [
+        "రెండు ఇళ్ళు",
+        "రెండో ఇల్లు",
+        "రెండో ఇళ్ళు",
+        "ఇద్దరు ఇల్లు"
+      ],
+      "correct": 1,
+      "explanation": "రెండో with a **singular** noun. The cardinal pluralises what it counts — *రెండు ఇళ్ళు*, two houses — and the ordinal picks out one of them, so the noun goes back to the singular. The third option pluralises after an ordinal and the fourth counts a house as a person.",
+      "rulesTested": [
+        "ordinals",
+        "counted-noun",
+        "numerals-things",
+        "higher-numbers",
+        "numeral-apposition",
+        "oka-and-okati",
+        "ordinal-tens",
+        "ordinal-first",
+        "ordinals-no-human"
+      ],
+      "vocabUsed": [
+        "రెండు",
+        "ఇల్లు"
+      ]
+    },
+    {
+      "id": "tenu-q10",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**రెండో అబ్బాయి** and **రెండో ఇల్లు** use the same ordinal, though one counts a person and the other a thing. Why?",
+      "options": [
+        "Because అబ్బాయి is grammatically a thing.",
+        "Because the ordinals have no separate human forms — the division that runs through the cardinals stops at them.",
+        "Because రెండో is a borrowed word and takes no gender.",
+        "Because the ordinal agrees with the noun after it, not with what is counted."
+      ],
+      "correct": 1,
+      "explanation": "Brown states it flatly: \"In Ordinals as first, second, &c., there are no major forms.\" So రెండో serves all genders, where the cardinals divide into రెండు and ఇద్దరు. It is a gap in an otherwise thoroughgoing distinction.",
+      "rulesTested": [
+        "ordinals",
+        "human-numerals",
+        "masculine-singular",
+        "ordinal-tens",
+        "ordinal-first",
+        "ordinals-no-human"
+      ],
+      "vocabUsed": [
+        "అబ్బాయి",
+        "ఇల్లు",
+        "రెండు"
+      ]
+    },
+    {
+      "id": "tenu-q11",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "Of **ఇద్దరు, రెండు, ముగ్గురు, నలుగురు, పది**, how many are used of **people**?",
+      "answer": 3,
+      "unit": "words",
+      "explanation": "Three: ఇద్దరు, ముగ్గురు and నలుగురు. రెండు and పది count things. The human set is recognisable by its ending — -రు, the same ending the verb takes for a plural of persons (¶72), which is no accident.",
+      "rulesTested": [
+        "human-numerals",
+        "numerals-things",
+        "higher-numbers"
+      ],
+      "vocabUsed": [
+        "ఇద్దరు",
+        "రెండు",
+        "ముగ్గురు",
+        "నలుగురు",
+        "పది"
+      ]
+    },
+    {
+      "id": "tenu-q12",
+      "type": "matching",
+      "difficulty": "hard",
+      "stem": "Match each phrase with what is wrong with it, or with nothing if it is correct.",
+      "columnHeadings": [
+        "Phrase",
+        "Verdict"
+      ],
+      "columnI": [
+        "ముగ్గురు అమ్మాయిలు",
+        "మూడు అమ్మాయిలు",
+        "ముగ్గురు ఇళ్ళు",
+        "మూడో ఇళ్ళు"
+      ],
+      "columnII": [
+        "correct",
+        "counts people with the numeral for things",
+        "counts things with the numeral for people",
+        "the noun is plural where an ordinal takes a singular"
+      ],
+      "options": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          2
+        ],
+        [
+          0,
+          2,
+          1,
+          3
+        ]
+      ],
+      "correct": 0,
+      "explanation": "ముగ్గురు అమ్మాయిలు is right. *మూడు అమ్మాయిలు* counts girls as things and *ముగ్గురు ఇళ్ళు* does the reverse — the second option swaps those two diagnoses. *మూడో ఇళ్ళు* is a different error: the ordinal is well chosen and the noun is plural where an ordinal takes a singular (¶79), which the third and fourth options misattribute.",
+      "rulesTested": [
+        "human-numerals",
+        "numerals-things",
+        "counted-noun",
+        "ordinals",
+        "higher-numbers",
+        "numeral-apposition",
+        "oka-and-okati",
+        "ordinal-tens",
+        "ordinal-first",
+        "ordinals-no-human"
+      ],
+      "vocabUsed": [
+        "ముగ్గురు",
+        "అమ్మాయి",
+        "ఇల్లు",
+        "మూడు"
+      ]
+    },
+    {
+      "id": "tenu-q13",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "How is **thirty-four** said?",
+      "options": [
+        "ముప్పై నాలుగు",
+        "నాలుగు ముప్పై",
+        "ముప్పైనాలుగవ",
+        "ముప్పై నలుగురు"
+      ],
+      "correct": 0,
+      "explanation": "Ten first, then unit, simply set side by side. The second reverses them; the third is the ordinal, *thirty-fourth*; the fourth counts thirty-four **people**, which is a different word again (¶78).",
+      "rulesTested": [
+        "compound-numerals",
+        "numerals-things",
+        "higher-numbers"
+      ],
+      "vocabUsed": [
+        "ముప్పై",
+        "నాలుగు"
+      ]
+    },
+    {
+      "id": "tenu-q14",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "How is **two hundred and fifty-one** said?",
+      "options": [
+        "రెండు వందలు యాభై ఒకటి",
+        "రెండువందల యాభై ఒకటి",
+        "రెండువందలు ఒకటి యాభై",
+        "యాభై ఒకటి రెండు వందలు"
+      ],
+      "correct": 1,
+      "explanation": "రెండు వందలు is two hundred, and రెండువందల is its oblique — the form taken before anything that follows (¶82, rule 3). Then యాభై and ఒకటి. The first option leaves the nominative standing, which is the commonest error; a compound number is a noun phrase and inflects like one (¶69).",
+      "rulesTested": [
+        "compound-numerals",
+        "oblique-stem",
+        "numerals-things",
+        "higher-numbers"
+      ],
+      "vocabUsed": [
+        "రెండు",
+        "వంద",
+        "యాభై"
+      ]
+    },
+    {
+      "id": "tenu-q15",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Why is a hundred **నూట** in *నూట ఇరవై ఒకటి* but **నూరు** standing alone?",
+      "options": [
+        "They are different numbers.",
+        "The stem changes to నూట whenever another numeral follows it.",
+        "నూట is the ordinal form.",
+        "నూరు is used of people and నూట of things."
+      ],
+      "correct": 1,
+      "explanation": "నూరు → నూట before anything that follows, exactly as వెయ్యి lengthens its final vowel to వెయ్యీ in *వెయ్యీ ముప్పై రెండు*, 1,032. The change is purely a matter of position and carries no meaning of its own — neither number, nor order, nor gender.",
+      "rulesTested": [
+        "compound-numerals",
+        "numerals-things",
+        "higher-numbers"
+      ],
+      "vocabUsed": [
+        "వంద",
+        "ఇరవై"
+      ]
+    },
+    {
+      "id": "tenu-q16",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which statements about the Telugu higher numbers are correct?",
+      "options": [
+        "లక్ష is a hundred thousand and కోటి ten million.",
+        "Ten thousand is *పది వేలు*, ten thousands, there being no word of its own.",
+        "A million is *పది లక్షలు*, ten lakhs.",
+        "Telugu has a single word for a million, between వెయ్యి and లక్ష."
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Telugu counts in the Indian manner: after the thousand come the lakh and the crore. Neither ten thousand nor a million has a word of its own — they are compounded as పది వేలు and పది లక్షలు.",
+      "rulesTested": [
+        "numerals-things",
+        "compound-numerals",
+        "higher-numbers"
+      ],
+      "vocabUsed": [
+        "లక్ష",
+        "కోటి",
+        "వెయ్యి",
+        "పది"
+      ]
+    },
+    {
+      "id": "tenu-q17",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "How is **the twentieth** said?",
+      "options": [
+        "ఇరవై",
+        "ఇరవయ్యో",
+        "ఇరవైమంది",
+        "ఇరవయ్యిగురు"
+      ],
+      "correct": 1,
+      "explanation": "ఇరవయ్యో. The tens end in -ై, and that ending appears as -య్య- before the ordinal suffix — Krishnamurti and Gwynn’s *నా ఇరవయో ఏట*, in my twentieth year. The first option is the plain cardinal; the last two count twenty people.",
+      "rulesTested": [
+        "ordinals",
+        "numerals-things",
+        "human-numerals",
+        "higher-numbers",
+        "ordinal-tens",
+        "ordinal-first",
+        "ordinals-no-human"
+      ],
+      "vocabUsed": [
+        "ఇరవై"
+      ]
+    },
+    {
+      "id": "tenu-q18",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "In the compound ordinal **నూట ఇరవై ఒకటో**, how many of its three words carry the ordinal ending?",
+      "answer": 1,
+      "unit": "words",
+      "explanation": "One — only the last. The ending goes on the final word of a compound and the rest stand as plain cardinals, which is why *నూట ఇరవై* alone is still a cardinal and not an ordinal at all.",
+      "rulesTested": [
+        "ordinals",
+        "compound-numerals",
+        "ordinal-tens",
+        "ordinal-first",
+        "ordinals-no-human"
+      ],
+      "vocabUsed": [
+        "ఇరవై",
+        "వంద"
+      ]
+    },
+    {
+      "id": "tenu-q19",
+      "type": "integer",
+      "difficulty": "easy",
+      "stem": "**తొంభై తొమ్మిది** — write the number.",
+      "answer": 99,
+      "explanation": "తొంభై is 90 and తొమ్మిది 9, set side by side (¶82, rule 1). Nothing is added or multiplied: a ten followed by a unit is simply their sum.",
+      "rulesTested": [
+        "numerals-things",
+        "compound-numerals",
+        "higher-numbers"
+      ],
+      "vocabUsed": [
+        "తొమ్మిది"
+      ]
+    },
+    {
+      "id": "tenu-q20",
+      "type": "integer",
+      "difficulty": "medium",
+      "stem": "**నూట ఇరవై ఒకటి** — write the number.",
+      "answer": 121,
+      "explanation": "నూట is నూరు, a hundred, in the form it takes before anything following (¶82, rule 4); then ఇరవై 20 and ఒకటి 1. A hundred and twenty-one.",
+      "rulesTested": [
+        "compound-numerals",
+        "numerals-things",
+        "higher-numbers"
+      ],
+      "vocabUsed": [
+        "నూట",
+        "ఇరవై",
+        "ఒకటి"
+      ]
+    },
+    {
+      "id": "tenu-q21",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "**రెండువందల యాభై ఒకటి** — write the number.",
+      "answer": 251,
+      "explanation": "రెండు వందలు is 200, and రెండువందల is its oblique, the form taken before what follows (¶82, rule 3); then యాభై 50 and ఒకటి 1. Reading it as 2,051 mistakes the oblique for a separate word.",
+      "rulesTested": [
+        "compound-numerals",
+        "numerals-things",
+        "higher-numbers"
+      ],
+      "vocabUsed": [
+        "రెండు",
+        "వంద",
+        "యాభై"
+      ]
+    },
+    {
+      "id": "tenu-q22",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "**పది లక్షలు** — write the number.",
+      "answer": 1000000,
+      "explanation": "లక్ష is a hundred thousand, and పది లక్షలు is ten of them: a million. Telugu has no single word for it, so the figure has to be assembled from the lakh (¶76).",
+      "rulesTested": [
+        "numerals-things",
+        "compound-numerals",
+        "higher-numbers"
+      ],
+      "vocabUsed": [
+        "పది",
+        "లక్ష"
+      ]
+    },
+    {
+      "id": "tenu-q23",
+      "type": "integer",
+      "difficulty": "medium",
+      "stem": "**ముగ్గురు అమ్మాయిలు** — how many girls?",
+      "answer": 3,
+      "explanation": "ముగ్గురు is the human form of మూడు (¶78). The noun does not carry the number — అమ్మాయిలు is simply plural, and would be the same after ఇద్దరు or నలుగురు — so the numeral is the only thing that says how many.",
+      "rulesTested": [
+        "human-numerals",
+        "counted-noun",
+        "numeral-apposition",
+        "oka-and-okati"
+      ],
+      "vocabUsed": [
+        "ముగ్గురు",
+        "అమ్మాయి"
+      ]
+    },
+    {
+      "id": "tenu-q24",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "**నా ఇరవయ్యో ఏట** means *in my ___ year*. Write the number.",
+      "answer": 20,
+      "explanation": "ఇరవయ్యో is the ordinal of ఇరవై, the -ై appearing as -య్య- before the ending (¶83). The phrase is Krishnamurti and Gwynn’s own: *in my twentieth year*.",
+      "rulesTested": [
+        "ordinals",
+        "numerals-things",
+        "higher-numbers",
+        "ordinal-tens",
+        "ordinal-first",
+        "ordinals-no-human"
+      ],
+      "vocabUsed": [
+        "ఇరవై",
+        "నా"
+      ]
+    },
+    {
+      "id": "tenu-q25",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "*Two hundred* is **రెండు వందలు**, but *a hundred and twenty-one* is **నూట ఇరవై ఒకటి**. Why does the hundred appear as two different words?",
+      "options": [
+        "They are different numbers.",
+        "వంద and నూరు both mean *a hundred*: వంద is the word that multiplies, and నూట is the stem నూరు takes inside a compound.",
+        "నూట is the plural of వంద.",
+        "నూరు is used of people and వంద of things."
+      ],
+      "correct": 1,
+      "explanation": "Either word can stand alone for a hundred, but they have divided the work: multiples are built on వంద and pluralise it — రెండు వందలు, మూడు వందలు — while a compound takes నూరు in its stem form నూట. Nothing here turns on gender, and నూట is a stem and not a plural.",
+      "rulesTested": [
+        "numerals-things",
+        "compound-numerals",
+        "higher-numbers"
+      ],
+      "vocabUsed": [
+        "వంద",
+        "నూరు",
+        "నూట",
+        "రెండు"
+      ]
+    },
+    {
+      "id": "tenu-q26",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**నూటికి పది మార్కులు** — what does the form **నూటికి** show?",
+      "options": [
+        "The plural of నూరు.",
+        "The dative of the oblique stem నూటి — *to the hundred*, hence *in the hundred*.",
+        "An ordinal, *hundredth*.",
+        "The human form, used of a hundred people."
+      ],
+      "correct": 1,
+      "explanation": "నూరు declines like a noun, and its oblique is నూటి (¶69); నూటికి is that stem with the dative -కి, giving *ten marks to the hundred*. This is where నూరు survives in the modern language where వంద has taken over elsewhere. The ordinary word for per cent is శాతం — *పది శాతం*.",
+      "rulesTested": [
+        "numerals-things",
+        "oblique-stem",
+        "higher-numbers"
+      ],
+      "vocabUsed": [
+        "నూరు",
+        "పది",
+        "శాతం"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Brown, Charles Philip, *A Grammar of the Telugu Language*, 2nd ed. Madras: Christian Knowledge Society’s Press, 1857, pp. 40–43 (\"On Numerals\") and p. 191.",
+      "url": "https://archive.org/details/brown-a-grammar-of-the-telugu-language",
+      "licence": "Public domain (published 1857)",
+      "note": "Descriptive source for the numerals, the human forms and the ordinals."
+    },
+    {
+      "kind": "grammar",
+      "citation": "Krishnamurti, Bhadriraju & Gwynn, J. P. L., *A Grammar of Modern Telugu*. Delhi: Oxford University Press, 1985, §6.15–6.16.",
+      "note": "Source for the gender division the two numeral sets follow."
+    }
+  ]
+}

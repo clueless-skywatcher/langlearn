@@ -120,9 +120,27 @@ describe("detection and runs", () => {
 
 describe("the Telugu course is usable without reading the script", () => {
   const pack = loadCoursePack("te");
-  const LATIN = /\p{Script=Latin}/u;
+  /**
+   * What counts as a reading a learner can use. Digits belong here as much as
+   * letters do: the Telugu digits transliterate to European ones, so `౧ (1)`
+   * is romanized even though it contains no Latin letter. `content/validate.ts`
+   * draws the line in the same place.
+   */
+  const LATIN = /[\p{Script=Latin}\p{Nd}]/u;
 
-  /** Every string a learner has to read in order to answer something. */
+  /**
+   * What the learner is shown, which is what the renderer does: target text
+   * carries a derived romanization, except on an item where reading the script
+   * *is* the question. See `lib/markdown.tsx` and `AtomicQuestion.scriptCritical`.
+   */
+  const shown = (text: string, scriptCritical = false) =>
+    scriptCritical ? text : romanize(text);
+
+  /**
+   * Every string a learner has to read in order to answer something —
+   * excluding the drills, which are handled separately below because whether
+   * they are romanized depends on what they are asking.
+   */
   function readableStrings(): { where: string; text: string }[] {
     const out: { where: string; text: string }[] = [];
     const add = (where: string, text?: string) => {
@@ -154,8 +172,36 @@ describe("the Telugu course is usable without reading the script", () => {
       for (const drill of s.drills) {
         const kids = drill.type === "comprehension" ? drill.questions : [drill];
         for (const q of kids) {
-          add(`${q.id} stem`, q.stem);
+          // An explanation is shown only once the answer is in, so it is
+          // romanized whatever the question was asking.
           add(`${q.id} explanation`, q.explanation);
+        }
+      }
+    }
+    return out;
+  }
+
+  /** Every string of a drill that the learner reads *before* answering. */
+  function questionStrings(): {
+    where: string;
+    text: string;
+    scriptCritical: boolean;
+  }[] {
+    const out: {
+      where: string;
+      text: string;
+      scriptCritical: boolean;
+    }[] = [];
+    for (const s of pack.sections) {
+      for (const drill of s.drills) {
+        const kids = drill.type === "comprehension" ? drill.questions : [drill];
+        for (const q of kids) {
+          const add = (where: string, text: string) => {
+            if (hasTelugu(text)) {
+              out.push({ where, text, scriptCritical: q.scriptCritical });
+            }
+          };
+          add(`${q.id} stem`, q.stem);
           if (q.type === "matching") {
             q.columnI.forEach((c, i) => add(`${q.id} column I ${i}`, c));
             q.columnII.forEach((c, i) => add(`${q.id} column II ${i}`, c));
@@ -169,19 +215,20 @@ describe("the Telugu course is usable without reading the script", () => {
   }
 
   it("has target-language text to romanize in the first place", () => {
-    expect(readableStrings().length).toBeGreaterThan(200);
+    expect(readableStrings().length).toBeGreaterThan(100);
+    expect(questionStrings().length).toBeGreaterThan(200);
   });
 
-  it("renders every such string with a romanization beside it", () => {
+  it("renders the prose and the explanations with a romanization beside them", () => {
     const bare = readableStrings()
-      .filter(({ text }) => !LATIN.test(romanize(text)))
+      .filter(({ text }) => !LATIN.test(shown(text)))
       .map(({ where }) => where);
     expect(bare).toEqual([]);
   });
 
   it("leaves no Telugu character unread by the transliterator", () => {
     const unmapped = new Set<string>();
-    for (const { text } of readableStrings()) {
+    for (const { text } of [...readableStrings(), ...questionStrings()]) {
       for (const run of teluguRuns(text)) {
         for (const ch of run.roman) {
           if (ch >= "ఀ" && ch <= "౿") unmapped.add(ch);
@@ -191,23 +238,47 @@ describe("the Telugu course is usable without reading the script", () => {
     expect([...unmapped]).toEqual([]);
   });
 
-  it("romanizes the options of every multiple-choice question", () => {
-    const unreadable: string[] = [];
+  it("romanizes a question that is not about the script, so the grammar stays reachable", () => {
+    const unreadable = questionStrings()
+      .filter((q) => !q.scriptCritical && !LATIN.test(shown(q.text)))
+      .map(({ where }) => where);
+    expect(unreadable).toEqual([]);
+  });
+
+  /**
+   * The other half of the rule, and the one that matters most: an item that
+   * asks the learner to read a glyph must not print the reading beside it.
+   * Without this the script sections degenerate into matching one Latin string
+   * against another, which is not a test of Telugu at all.
+   */
+  it("prints a script-critical question bare, so the glyph has to be read", () => {
+    const critical = questionStrings().filter((q) => q.scriptCritical);
+    expect(critical.length).toBeGreaterThan(200);
+
+    const leaked = critical
+      .filter(({ text }) => shown(text, true) !== text)
+      .map(({ where }) => where);
+    expect(leaked).toEqual([]);
+  });
+
+  it("marks every question of the script sections script-critical", () => {
+    const script = new Set(
+      pack.sections
+        .filter((s) => isLesson(s) && s.script)
+        .map((s) => s.id),
+    );
+    const missed: string[] = [];
     for (const s of pack.sections) {
       for (const drill of s.drills) {
         const kids = drill.type === "comprehension" ? drill.questions : [drill];
         for (const q of kids) {
-          if (q.type === "integer") continue;
-          const strings =
-            q.type === "matching" ? [...q.columnI, ...q.columnII] : q.options;
-          for (const [i, o] of strings.entries()) {
-            if (hasTelugu(o) && !LATIN.test(romanize(o))) {
-              unreadable.push(`${q.id} option ${i}`);
-            }
+          const from = q.fromSection ?? drill.fromSection ?? s.id;
+          if (script.has(from) && hasTelugu(q.stem) && !q.scriptCritical) {
+            missed.push(q.id);
           }
         }
       }
     }
-    expect(unreadable).toEqual([]);
+    expect(missed).toEqual([]);
   });
 });

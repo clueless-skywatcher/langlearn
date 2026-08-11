@@ -70,16 +70,16 @@
       }
     ],
     "notes": [
-      "The digits are decimal and positional, exactly like the European ones, which are themselves of Indian descent. ౨౦౨౬ (2026) (2026) is 2026.",
+      "The digits are decimal and positional, exactly like the European ones, which are themselves of Indian descent. ౨౦౨౬ (2026) is 2026.",
       "Modern Telugu writes numbers with the European digits almost everywhere. The Telugu digits are met in older books, on some official documents, and in ornamental use — a reader should know them and a writer need not use them."
     ]
   },
   "rules": [
     {
       "id": "pollu",
-      "number": "26",
+      "number": "28",
       "heading": "The Pollu — ్",
-      "statement": "A consonant carries the vowel అ (¶8), and a vowel sign may replace it (¶20). To give a consonant **no vowel at all**, a mark called the **పొల్లు** (pollu) is written under it. It is the same device other Indian scripts call the *virāma* or *halant*. A consonant with a pollu is a bare consonant, and this is the only way to write one.",
+      "statement": "A consonant carries the vowel అ (¶8), and a vowel sign may replace it (¶22). To give a consonant **no vowel at all**, the **పొల్లు** (pollu) is written under it — the device other Indian scripts call the *virāma* or *halant*.",
       "examples": [
         {
           "target": "క",
@@ -95,6 +95,7 @@
         }
       ],
       "footnotes": [
+        "The pollu is the only way to write a bare consonant letter.",
         "In running text the pollu is written chiefly at the end of a word or in a foreign name. Within a word, two consonants coming together are joined instead, as the next rule shows."
       ],
       "seeAlso": [
@@ -105,7 +106,7 @@
     },
     {
       "id": "vattulu",
-      "number": "27",
+      "number": "29",
       "heading": "Joining Two Consonants — ఒత్తు",
       "statement": "Where two consonants meet inside a word with no vowel between them, Telugu does not write a pollu on the first. Instead the **second** consonant is written in a reduced form **beneath** the first. That subjoined form is called an **ఒత్తు** (ottu), and the two together make a **conjunct** — one written unit standing for two consonants and one vowel.",
       "paradigms": [
@@ -153,7 +154,7 @@
               ]
             }
           ],
-          "footnote": "The last is written with the anusvāra rather than an ottu, because the first consonant is a nasal of the second's own varga (¶18)."
+          "footnote": "The last is written with the anusvāra rather than an ottu, because the first consonant is a nasal of the second's own varga (¶20)."
         }
       ],
       "examples": [
@@ -172,11 +173,12 @@
         "pollu",
         "anusvara"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "ottu-shape",
-      "number": "28",
+      "number": "30",
       "heading": "The Ottu Loses its Headstroke",
       "statement": "A consonant written as an **ottu** is reduced: it is smaller, it sits below the line of the letter above it, and it **loses its తలకట్టు** (¶6). This is what makes conjuncts hard to read at first — the subjoined letter no longer looks like the letter on the chart. Learning to recognise the thirty-six ottu shapes is a second labour after learning the thirty-six letters, and there is no way round it.",
       "examples": [
@@ -197,11 +199,12 @@
         "vattulu",
         "talakattu"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "doubled-consonants",
-      "number": "29",
+      "number": "31",
       "heading": "Doubled Consonants",
       "statement": "Telugu is full of **doubled** consonants, and the doubling is heard as well as written: the consonant is held longer, as the *t* is held in English \"hot topic\" but not in \"hotel\". A doubled consonant is written as a conjunct of a letter with itself. Doubling distinguishes words and is not an ornament of spelling.",
       "examples": [
@@ -230,13 +233,14 @@
         "vattulu",
         "ottu-shape"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "telugu-digits",
-      "number": "30",
+      "number": "32",
       "heading": "The Digits",
-      "statement": "Telugu has its own ten digits, **౦ (0) (0) ౧ (1) (1) ౨ (2) (2) ౩ (3) (3) ౪ (4) (4) ౫ (5) (5) ౬ (6) (6) ౭ (7) (7) ౮ (8) (8) ౯ (9) (9)**. They are decimal and positional, as the European digits are — the European digits being themselves Indian by descent. Modern Telugu writes numbers with the European figures almost everywhere; the Telugu ones survive in older printing and in ornament, and a reader should know them without needing to use them.",
+      "statement": "Telugu has its own ten digits, **౦ (0) ౧ (1) ౨ (2) ౩ (3) ౪ (4) ౫ (5) ౬ (6) ౭ (7) ౮ (8) ౯ (9)**. They are decimal and positional, as the European digits are — the European digits being themselves Indian by descent. Modern Telugu writes numbers with the European figures almost everywhere; the Telugu ones survive in older printing and in ornament, and a reader should know them without needing to use them.",
       "examples": [
         {
           "target": "౧౨౩",
@@ -253,11 +257,12 @@
         }
       ],
       "seeAlso": [],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "reading-a-word",
-      "number": "31",
+      "number": "33",
       "heading": "Reading a Whole Word",
       "statement": "Everything needed to read Telugu is now in hand. Take each written unit in turn; find its main consonant; look above, below and to the right for a vowel sign; look below for an **ottu**, which adds a consonant before the vowel; and sound the result. A word has as many syllables as it has such units — a conjunct being one unit, not two.",
       "examples": [
@@ -282,7 +287,8 @@
         "vattulu",
         "pollu"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     }
   ],
   "vocabulary": [
@@ -389,13 +395,14 @@
       "vocabUsed": [
         "పొల్లు",
         "హల్లు"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te105-q2",
       "type": "single",
       "difficulty": "easy",
-      "stem": "Which Telugu digit is **౫ (5) (5)**?",
+      "stem": "Which Telugu digit is **౫**?",
       "options": [
         "3",
         "4",
@@ -403,19 +410,20 @@
         "6"
       ],
       "correct": 2,
-      "explanation": "౫ (5) (5) is five, *aidu*. The digits run ౦ (0) (0) ౧ (1) (1) ౨ (2) (2) ౩ (3) (3) ౪ (4) (4) ౫ (5) (5) ౬ (6) (6) ౭ (7) (7) ౮ (8) (8) ౯ (9) (9) and are positional like the European ones.",
+      "explanation": "౫ (5) is five, *aidu*. The digits run ౦ (0) ౧ (1) ౨ (2) ౩ (3) ౪ (4) ౫ (5) ౬ (6) ౭ (7) ౮ (8) ౯ (9) and are positional like the European ones.",
       "rulesTested": [
         "telugu-digits"
       ],
       "vocabUsed": [
         "అంకె"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te105-q3",
       "type": "single",
       "difficulty": "easy",
-      "stem": "What is **౩ (3) (3)**?",
+      "stem": "What is **౩**?",
       "options": [
         "2",
         "3",
@@ -423,14 +431,15 @@
         "8"
       ],
       "correct": 1,
-      "explanation": "౩ (3) (3) is three, *mūḍu*.",
+      "explanation": "౩ (3) is three, *mūḍu*.",
       "rulesTested": [
         "telugu-digits"
       ],
       "vocabUsed": [
         "అంకె",
         "మూడు"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te105-q4",
@@ -451,7 +460,8 @@
       "vocabUsed": [
         "ఒత్తు",
         "సున్నా"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te105-q5",
@@ -494,7 +504,8 @@
       ],
       "vocabUsed": [
         "ఒత్తు"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te105-q7",
@@ -516,7 +527,8 @@
       "vocabUsed": [
         "ఒత్తు",
         "తలకట్టు"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te105-q8",
@@ -536,7 +548,8 @@
       ],
       "vocabUsed": [
         "అమ్మ"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te105-q9",
@@ -564,13 +577,14 @@
         "ఇల్లు",
         "నది",
         "పిల్ల"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te105-q10",
       "type": "single",
       "difficulty": "medium",
-      "stem": "What number is **౨౦ (20) (20)**?",
+      "stem": "What number is **౨౦**?",
       "options": [
         "2",
         "20",
@@ -578,7 +592,7 @@
         "10"
       ],
       "correct": 1,
-      "explanation": "The digits are positional exactly as the European ones are: ౨ (2) (2) then ౦ (0) (0) is twenty.",
+      "explanation": "The digits are positional exactly as the European ones are: ౨ (2) then ౦ (0) is twenty.",
       "rulesTested": [
         "telugu-digits"
       ],
@@ -586,7 +600,8 @@
         "అంకె",
         "సున్నా",
         "రెండు"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te105-q11",
@@ -600,7 +615,7 @@
         "Because ం is easier to write."
       ],
       "correct": 1,
-      "explanation": "The anusvāra takes the nasal of the following consonant's varga (¶18). డ is retroflex, so ం is sounded ṇ — and no ottu is needed.",
+      "explanation": "The anusvāra takes the nasal of the following consonant's varga (¶20). డ is retroflex, so ం is sounded ṇ — and no ottu is needed.",
       "rulesTested": [
         "vattulu",
         "anusvara",
@@ -610,7 +625,8 @@
         "పండు",
         "అనుస్వారం",
         "ఒత్తు"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te105-q12",
@@ -644,10 +660,10 @@
       "id": "te105-q13",
       "type": "integer",
       "difficulty": "hard",
-      "stem": "**పుస్తకం** — how many **syllables**?",
-      "answer": 3,
-      "unit": "syllables",
-      "explanation": "Three: *pu-sta-kaṃ*. The conjunct స్త is one written unit and one syllable, though it holds two consonants. Answering four counts consonants instead of units.",
+      "stem": "In **పుస్తకం**, the conjunct స్త is written as one unit. How many **consonant sounds** does it stand for?",
+      "answer": 2,
+      "unit": "consonants",
+      "explanation": "Two: s and t. The ottu joins them into a single written unit, but the unit still holds two consonant sounds — the same distinction the previous section's word count on the whole word turns on.",
       "rulesTested": [
         "reading-a-word",
         "vattulu"
@@ -655,7 +671,8 @@
       "vocabUsed": [
         "పుస్తకం",
         "ఒత్తు"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te105-q14",
@@ -673,16 +690,17 @@
       "vocabUsed": [
         "పుస్తకం",
         "అనుస్వారం"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te105-q15",
       "type": "integer",
       "difficulty": "hard",
-      "stem": "**ఇల్లు** — how many syllables?",
+      "stem": "In **ఇల్లు**, the doubled ల్ల is written as one unit. How many **consonant sounds** does it stand for?",
       "answer": 2,
-      "unit": "syllables",
-      "explanation": "Two: *i-llu*. The independent vowel ఇ makes the first, and the conjunct ల్లు the second. Three would be the answer if the doubled l were counted as two units.",
+      "unit": "consonants",
+      "explanation": "Two: l held twice over, one consonant subjoined to itself. The independent vowel ఇ before it is a separate unit and carries no consonant of its own.",
       "rulesTested": [
         "reading-a-word",
         "doubled-consonants",
@@ -690,7 +708,8 @@
       ],
       "vocabUsed": [
         "ఇల్లు"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te105-q16",
@@ -704,7 +723,7 @@
         "A digit."
       ],
       "correct": 1,
-      "explanation": "Above is where vowel signs go and below is where consonants are subjoined (¶22, ¶27). The unit is one syllable: the ottu supplies a consonant *before* the vowel that the sign names.",
+      "explanation": "Above is where vowel signs go and below is where consonants are subjoined (¶24, ¶29). The unit is one syllable: the ottu supplies a consonant *before* the vowel that the sign names.",
       "rulesTested": [
         "reading-a-word",
         "vattulu",
@@ -719,10 +738,10 @@
       "id": "te105-q17",
       "type": "integer",
       "difficulty": "hard",
-      "stem": "What number is **౧౦౧ (101) (101)**?",
+      "stem": "What number is **౧౦౧**?",
       "answer": 101,
       "unit": "",
-      "explanation": "One hundred and one. The middle digit is ౦ (0) (0), *sunnā* — the same word Telugu uses for the anusvāra's little circle.",
+      "explanation": "One hundred and one. The middle digit is ౦ (0), *sunnā* — the same word Telugu uses for the anusvāra's little circle.",
       "rulesTested": [
         "telugu-digits"
       ],
@@ -730,13 +749,14 @@
         "అంకె",
         "సున్నా",
         "ఒకటి"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te105-q18",
       "type": "single",
       "difficulty": "hard",
-      "stem": "Why does modern Telugu print rarely use ౦ (0) (0) ౧ (1) (1) ౨ (2) (2) ౩ (3) (3)?",
+      "stem": "Why does modern Telugu print rarely use ౦ (0) ౧ (1) ౨ (2) ౩ (3)?",
       "options": [
         "Because the digits were abolished.",
         "Because the European digits have displaced them in ordinary use, though the Telugu ones remain in older books and in ornament.",
@@ -750,7 +770,8 @@
       ],
       "vocabUsed": [
         "అంకె"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te105-q19",
@@ -777,7 +798,8 @@
       ],
       "vocabUsed": [
         "తెలుగు"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te105-q20",
@@ -790,11 +812,14 @@
       "rulesTested": [
         "doubled-consonants",
         "reading-a-word",
-        "three-alone"
+        "letter-la",
+        "letter-rra",
+        "letter-ksha"
       ],
       "vocabUsed": [
         "నీళ్ళు"
-      ]
+      ],
+      "scriptCritical": true
     }
   ],
   "sources": [

@@ -12,7 +12,8 @@ import {
   type Section,
 } from "./schema";
 import { loadCoursePack, type CoursePack } from "./loader";
-import { teluguRuns } from "@/lib/translit";
+import { hasTelugu, teluguRuns, transliterateTelugu } from "@/lib/translit";
+import { romanize } from "@/lib/markdown";
 
 /**
  * Integrity checks that the Zod schema cannot express, because they are about
@@ -84,10 +85,14 @@ export function lessonMaxQuestions(hasScript: boolean): number {
 /**
  * A course written in a non-Latin script declares `transliteration` in its
  * course file, and the UI then derives a romanization for every piece of
- * target-language text it renders (see `lib/markdown.ts`). That is what keeps
- * the course completable by a learner who skipped the sections teaching the
- * script — a multiple-choice question whose four options are unreadable is not
- * a hard question, it is an unanswerable one.
+ * target-language text it renders (see `lib/markdown.tsx`). That is what keeps
+ * the *grammar* completable by a learner who skipped the sections teaching the
+ * script — a multiple-choice question about the dative whose four options are
+ * unreadable is not a hard question, it is an unanswerable one.
+ *
+ * It is exactly wrong in the sections that teach the script, where decoding
+ * the glyph is the whole exercise; those items set `scriptCritical` and are
+ * rendered bare. See {@link scriptLeakProblems}.
  *
  * Because the romanization is derived rather than stored, the content cannot
  * fall out of step with it. The one thing that *can* go wrong is a character
@@ -181,6 +186,295 @@ function transliterationProblems(pack: CoursePack): Problem[] {
   return problems;
 }
 
+/**
+ * Prose cross-references. `seeAlso` is checked by id, but the rules also point
+ * at one another by number — "the same ending a dog takes (¶42)" — and those
+ * are plain text that nothing has been checking. They rot in two ways: a
+ * reference can be mistyped, and a renumbering can leave every one of them
+ * pointing at the wrong rule while still pointing at a rule that exists.
+ *
+ * The second kind cannot be caught mechanically. The first can, and must be:
+ * a ¶ reference to a number no rule carries is a dead link in the middle of an
+ * explanation.
+ */
+function paragraphReferenceProblems(sections: Section[]): Problem[] {
+  const problems: Problem[] = [];
+  const numbers = new Set<string>();
+  for (const s of sections) {
+    if (isLesson(s)) for (const r of s.rules) numbers.add(r.number);
+  }
+  if (numbers.size === 0) return problems;
+
+  const check = (where: string, what: string, text?: string) => {
+    if (!text) return;
+    for (const m of text.matchAll(/¶(\d+[a-z]?)/g)) {
+      if (!numbers.has(m[1])) {
+        problems.push({
+          severity: "error",
+          where,
+          message: `${what} refers to ¶${m[1]}, which is not a rule in this course`,
+        });
+      }
+    }
+  };
+
+  for (const s of sections) {
+    if (isLesson(s)) {
+      for (const r of s.rules) {
+        check(s.id, `rule "${r.id}" statement`, r.statement);
+        r.footnotes.forEach((f, i) => check(s.id, `rule "${r.id}" footnote ${i}`, f));
+        for (const p of r.paradigms) {
+          check(s.id, `rule "${r.id}" paradigm footnote`, p.footnote);
+          for (const row of p.rows) {
+            row.cells.forEach((c) => check(s.id, `rule "${r.id}" paradigm cell`, c));
+          }
+        }
+        r.examples.forEach((e) => check(s.id, `rule "${r.id}" example note`, e.note));
+      }
+    }
+    for (const drill of s.drills) {
+      const kids = drill.type === "comprehension" ? drill.questions : [drill];
+      for (const q of kids) {
+        check(s.id, `${q.id} stem`, q.stem);
+        check(s.id, `${q.id} explanation`, q.explanation);
+      }
+    }
+  }
+  return problems;
+}
+
+/** An integer item that opens "how many" — the counting shape of the format. */
+const COUNTING_INTEGER = /how many|how much/i;
+
+/**
+ * §11: `integer` accepts any non-negative number, and a pack that only ever
+ * asks *how many* has used one shape and mistaken it for the format. Reading a
+ * numeral, naming the rule that governs a form, or lifting a quantity out of a
+ * passage all fit it, and all make the learner produce an answer rather than
+ * recognise one.
+ *
+ * This is a whole-pack warning and deliberately blunt. Whether a *particular*
+ * count was the right question is a judgement no check can make — an alphabet
+ * has an inventory and counting it is fair. What a check can see is a pack
+ * where the shape never varies.
+ */
+function integerVarietyProblems(pack: CoursePack): Problem[] {
+  const integers = pack.sections
+    .flatMap((s) => atomicQuestions(s.drills))
+    .filter((q) => q.type === "integer");
+  if (integers.length < 8) return [];
+
+  const counts = integers.filter((q) => COUNTING_INTEGER.test(q.stem)).length;
+  const share = (counts / integers.length) * 100;
+  if (share < 90) return [];
+
+  return [
+    {
+      severity: "warning",
+      where: pack.course.id,
+      message:
+        `${counts} of ${integers.length} integer questions (${share.toFixed(0)}%) ask "how many"; ` +
+        `the format also takes reading a numeral, naming the rule that governs a form, ` +
+        `or a quantity stated in a passage — see CLAUDE.md §11`,
+    },
+  ];
+}
+
+/* ------------------------------------------------- reading the script at all */
+
+/**
+ * The Latin in a string, lowercased, as one space-delimited run. Target script
+ * is dropped rather than transliterated, because the point is to see what a
+ * learner who cannot read that script has in front of them.
+ *
+ * Diacritics are kept. ISO 15919 distinguishes *i* from *ī* and *ta* from *ṭa*,
+ * and folding them together would report every short vowel as a leak of its
+ * long partner. European digits are kept for the same reason: a question about
+ * the Telugu digits whose options are `3 4 5 6` is given away by a `(5)` in
+ * the stem exactly as a letter question is given away by a `(ka)`.
+ */
+function latinRun(text: string): string {
+  const withoutTarget = text.replace(/[ఀ-౿]/g, " ");
+  return ` ${withoutTarget
+    .normalize("NFC")
+    .replace(/[^\p{Script=Latin}\p{Nd}\p{Mn}]+/gu, " ")
+    .trim()
+    .toLowerCase()} `;
+}
+
+/**
+ * The Latin a learner can actually see on an option, or null where there is
+ * none to see. A target-script option under `scriptCritical` renders as bare
+ * glyphs, so there is nothing in it to match against the stem — which is the
+ * whole point of the flag, and the reason *"which letter is **ā**?"* over four
+ * unromanized glyphs is a fair question rather than a leak.
+ */
+function optionLatin(option: string, scriptCritical: boolean): string | null {
+  if (!hasTelugu(option)) return latinRun(option).trim() || null;
+  if (scriptCritical) return null;
+  return latinRun(transliterateTelugu(option)).trim() || null;
+}
+
+/** Target-script text with markdown and spacing normalised away. */
+function targetRun(text: string): string {
+  return ` ${text.replace(/[*_`]/g, "").replace(/\s+/g, " ").trim()} `;
+}
+
+/**
+ * §2: "anything answerable by looking at the stem without knowing the
+ * language" is banned, and in an abugida course the commonest way to write
+ * such a question is by accident.
+ *
+ * Two things give a script question away. The renderer romanizes target text
+ * by default, so *which letter is ఖ?* reaches the learner as *which letter is
+ * ఖ (kha)?* against an option reading `kha` — a string-matching exercise.
+ * `scriptCritical` turns that off. And an author can write the reading into
+ * the stem by hand, which no flag undoes.
+ *
+ * So this checks the text as the learner will actually see it, and reports a
+ * leak when the correct option — and only the correct option — can be picked
+ * out of it without reading a glyph. Two ways that happens: the option's
+ * reading is legible and the stem repeats it, or the stem prints the answer's
+ * glyph and the learner need only match two shapes.
+ */
+function questionLeak(q: AtomicQuestion): string | null {
+  if (q.type === "integer") {
+    // §11: the stem may not state its own answer in figures. That happens two
+    // ways — target-script digits that transliterate straight to European ones
+    // ("what number is ౧౦౧ (101)?"), and a figure written in by hand.
+    //
+    // Grammatical notation is not a number the question is about: "1 sg.",
+    // "3rd person" and the level tag "A1" all carry figures that mean nothing
+    // arithmetically, and stripping them is what keeps this off the Lithuanian
+    // pack, where such notation is everywhere.
+    const shown = (q.scriptCritical ? q.stem : romanize(q.stem))
+      .replace(/[ఀ-౿]/g, " ")
+      .replace(/¶\s*\d+[a-z]?/g, " ")
+      .replace(/\d+\s*(?:sg|pl|st|nd|rd|th)\b/gi, " ")
+      .replace(/[A-Za-z]\d+/g, " ");
+    const digits = new RegExp(`(?<![0-9])${q.answer}(?![0-9])`);
+    return digits.test(shown)
+      ? `the stem states its own answer (${q.answer}) in figures`
+      : null;
+  }
+
+  const options = q.type === "matching" ? q.columnI : q.options;
+  if (!options.some(hasTelugu) && !hasTelugu(q.stem)) return null;
+
+  const shownStem = q.scriptCritical ? q.stem : romanize(q.stem);
+  const latin = latinRun(shownStem);
+  const glyphs = targetRun(shownStem);
+  const correct = new Set(
+    q.type === "multi" ? q.correct : [q.correct],
+  );
+
+  // A matching question is picked by its pairing rather than by an entry, so
+  // there is no single "correct option" to find in the stem.
+  if (q.type === "matching") return null;
+
+  const givenAway = (option: string): boolean => {
+    const key = optionLatin(option, q.scriptCritical);
+    if (key && latin.includes(` ${key} `)) return true;
+    return hasTelugu(option) && glyphs.includes(targetRun(option).trim());
+  };
+
+  const leaked = options.map(givenAway);
+  const everyCorrect = [...correct].every((i) => leaked[i]);
+  const noDistractor = leaked.every((v, i) => !v || correct.has(i));
+  const hasDistractor = options.length > correct.size;
+
+  return everyCorrect && noDistractor && hasDistractor
+    ? "the stem already contains the correct option and none of the distractors, " +
+        "so it can be answered without reading the script"
+    : null;
+}
+
+/**
+ * The blunt half of the rule, and the one the learner notices: in a section
+ * that teaches the writing system, target text in a question is there to be
+ * read. Romanizing it hands over the answer to *which of these is the nasal of
+ * the palatal varga* as surely as printing the answer would, because the four
+ * readings say which is which.
+ *
+ * Applies to the lesson itself and to any exam item attributed back to it.
+ */
+function scriptLeakProblems(
+  sections: Section[],
+  lessonIndex: Map<string, LessonSection>,
+): Problem[] {
+  const problems: Problem[] = [];
+
+  for (const section of sections) {
+    for (const drill of section.drills) {
+      const children: AtomicQuestion[] =
+        drill.type === "comprehension" ? drill.questions : [drill];
+
+      for (const q of children) {
+        const from = isExam(section)
+          ? sourceSection(drill, q, "")
+          : section.id;
+        const teachesScript = !!lessonIndex.get(from)?.script;
+
+        const strings =
+          q.type === "integer"
+            ? [q.stem]
+            : q.type === "matching"
+              ? [q.stem, ...q.columnI, ...q.columnII]
+              : [q.stem, ...q.options];
+
+        if (teachesScript && strings.some(hasTelugu) && !q.scriptCritical) {
+          problems.push({
+            severity: "error",
+            where: section.id,
+            message:
+              `${q.id}: examines ${from}, which teaches the script, but is not ` +
+              `marked scriptCritical, so the renderer prints a romanization ` +
+              `beside every glyph and the learner never has to read one`,
+          });
+        }
+
+        if (q.scriptCritical && !strings.some(hasTelugu)) {
+          problems.push({
+            severity: "error",
+            where: section.id,
+            message: `${q.id}: is marked scriptCritical but contains no target script`,
+          });
+        }
+
+        const leak = questionLeak(q);
+        if (leak) {
+          problems.push({
+            severity: "error",
+            where: section.id,
+            message: `${q.id}: ${leak}`,
+          });
+        }
+      }
+
+      if (drill.type === "comprehension") {
+        const from = isExam(section)
+          ? (drill.fromSection ?? section.id)
+          : section.id;
+        if (
+          !!lessonIndex.get(from)?.script &&
+          hasTelugu(drill.passage) &&
+          !drill.scriptCritical
+        ) {
+          problems.push({
+            severity: "error",
+            where: section.id,
+            message:
+              `${drill.id}: a passage in a script section is printed with a ` +
+              `parallel romanization, which is the text the learner will read instead`,
+          });
+        }
+      }
+    }
+  }
+
+  return problems;
+}
+
 /** From B1 up, comprehension carries more of the weight. */
 const HEAVY_COMPREHENSION_LEVELS = new Set(["B1", "B2", "C1", "C2"]);
 
@@ -193,7 +487,10 @@ const HEAVY_COMPREHENSION_LEVELS = new Set(["B1", "B2", "C1", "C2"]);
  * numbered rule governs a form — and this is what they are not for.
  */
 const SURFACE_COUNTING =
-  /how many\s+(?:\*\*)?(?:letters?|vowels?|consonants?|commas?|syllables?|characters?)(?:\*\*)?\s+(?:are\s+)?(?:there\s+)?(?:in|of|does|do|has|have)\b/i;
+  // The trailing alternation includes end-of-question, because the shape that
+  // slipped through first time round was "**పుస్తకం** — how many syllables?",
+  // which names the word before the count instead of after it.
+  /how many\s+(?:\*\*)?(?:letters?|vowels?|consonants?|commas?|syllables?|characters?)(?:\*\*)?\s*(?:[?.]|\b(?:are|there|in|of|does|do|has|have)\b)/i;
 
 /**
  * Words are a special case. "How many words are in this sentence" counts a
@@ -203,10 +500,31 @@ const SURFACE_COUNTING =
 const SURFACE_COUNTING_WORDS =
   /how many\s+(?:\*\*)?words(?:\*\*)?\s+(?:are\s+)?(?:there\s+)?in\b/i;
 
+/**
+ * What is being counted decides whether the count is grammar. "How many
+ * letters are in *norėčiau*" is a question about a string; "how many letters
+ * does the alphabet contain" is a question about the writing system, and is
+ * the sort of thing §2 keeps `integer` for — alongside "how many case forms
+ * this paradigm collapses". So a count whose subject is an inventory rather
+ * than a printed word is allowed.
+ *
+ * Syllables are not on this list, and cannot be: §2 bans "how many syllables
+ * a printed word has" by name, and no alphabet has a syllable count worth
+ * asking for.
+ */
+const GRAMMATICAL_INVENTORY =
+  /\b(?:varṇamāla|varnamala|alphabet|vargas?|guṇintam|gunintam|paradigm|declensions?|conjugations?|chart|inventory)\b/i;
+
+const SYLLABLE_COUNTING = /how many\s+(?:\*\*)?syllables?\b/i;
+
 /** The reason a stem is rejected, or null if it is allowed. */
 function bannedStem(stem: string): string | null {
+  if (SYLLABLE_COUNTING.test(stem)) {
+    return "counts the syllables of a printed word, which CLAUDE.md §2 bans by name";
+  }
   if (SURFACE_COUNTING.test(stem) || SURFACE_COUNTING_WORDS.test(stem)) {
-    return "counts surface features (letters, vowels, syllables, commas) rather than grammar, which CLAUDE.md §2 bans outright";
+    if (GRAMMATICAL_INVENTORY.test(stem)) return null;
+    return "counts surface features (letters, vowels, commas) of a string rather than grammar, which CLAUDE.md §2 bans outright";
   }
   return null;
 }
@@ -218,7 +536,11 @@ function bannedStem(stem: string): string | null {
  * whose only source is "composed for this course" has sourced its passages and
  * left its paradigms hanging.
  */
-function validateSources(section: Section, problems: Problem[]): void {
+function validateSources(
+  section: Section,
+  langCode: string,
+  problems: Problem[],
+): void {
   const err = (message: string) =>
     problems.push({ severity: "error", where: section.id, message });
 
@@ -242,15 +564,23 @@ function validateSources(section: Section, problems: Problem[]): void {
 
     // A passage the learner never has to read is not a comprehension
     // passage. At least two questions must turn on what it *says* — asked in
-    // the target language, which is the convention this pack follows — rather
+    // the target language, which is the convention the packs follow — rather
     // than on the grammar it happens to illustrate.
-    const aboutContent = drill.questions.filter((q) =>
-      CONTENT_QUESTION.test(q.stem),
-    ).length;
-    if (aboutContent < MIN_CONTENT_QUESTIONS) {
-      err(
-        `${drill.id}: only ${aboutContent} of ${drill.questions.length} questions ask about what the passage says; at least ${MIN_CONTENT_QUESTIONS} must`,
-      );
+    //
+    // A script-critical passage is exempt. There the passage is a page to be
+    // decoded rather than a story to be understood, the learner has met no
+    // grammar yet to be asked a question in, and every question about it
+    // already requires reading it.
+    const asksInTarget = CONTENT_QUESTION[langCode];
+    if (asksInTarget && !drill.scriptCritical) {
+      const aboutContent = drill.questions.filter((q) =>
+        asksInTarget(q.stem),
+      ).length;
+      if (aboutContent < MIN_CONTENT_QUESTIONS) {
+        err(
+          `${drill.id}: only ${aboutContent} of ${drill.questions.length} questions ask about what the passage says; at least ${MIN_CONTENT_QUESTIONS} must`,
+        );
+      }
     }
 
     // §7: a generated conversation is "dialogue between named speakers". A run
@@ -283,14 +613,32 @@ function validateSources(section: Section, problems: Problem[]): void {
 const DIALOGUE_TURN = /(?:^|\n|(?<=[.!?"\u201e\u201c\u201d])\s)[\u2014\u2013]\s/;
 
 /**
- * A question about the passage rather than about its grammar. The pack asks
- * these in Lithuanian — *Kas išmušė vištytei akį?* — which both marks them
- * unambiguously and makes the learner read the target language to answer.
+ * A question about the passage rather than about its grammar. A pack asks
+ * these in the target language, which both marks them unambiguously and makes
+ * the learner read that language in order to answer.
+ *
+ * Which interrogatives count is a fact about the language, so this is keyed by
+ * course. Word order decides the shape of the test as much as the vocabulary
+ * does: Lithuanian and Esperanto front their question words, so those are
+ * anchored, while Telugu is verb-final and puts *ఏమిటి* last — *అతని పేరు
+ * ఏమిటి?* — so there the interrogative is looked for anywhere in a stem that
+ * is written in the script and ends in a question mark.
  */
-const CONTENT_QUESTION =
+const CONTENT_QUESTION: Record<string, (stem: string) => boolean> = {
   // `\b` in JavaScript is ASCII-only, so `Ką\b` never matches before a space:
   // ą is not a word character to it. Match the following delimiter instead.
-  /^\s*(?:\*\*)?(?:Kas|Ką|Ko|Kam|Kur|Kada|Kodėl|Kiek|Kuri(?:s|ame|oje|uo)?|Koki(?:a|o|ą)|Koks|Kelint(?:a|ą|as)?|Ar|Kuo|Su\s+kuo|Iš\s+kur)(?=\s|[?,.:!]|$)/;
+  lt: (s) =>
+    /^\s*(?:\*\*)?(?:Kas|Ką|Ko|Kam|Kur|Kada|Kodėl|Kiek|Kuri(?:s|ame|oje|uo)?|Koki(?:a|o|ą)|Koks|Kelint(?:a|ą|as)?|Ar|Kuo|Su\s+kuo|Iš\s+kur)(?=\s|[?,.:!]|$)/.test(
+      s,
+    ),
+  eo: (s) =>
+    /^\s*(?:\*\*)?(?:Kiu|Kio|Kie|Kiam|Kial|Kiel|Kiom|Kies|Kia|Ĉu)(?=[nj]?\s|[?,.:!])/.test(
+      s,
+    ),
+  te: (s) =>
+    /\?\s*(?:\*\*)?\s*$/.test(s) &&
+    /(?:ఎవరు|ఎవరి|ఏమిటి|ఏది|ఏవి|ఎక్కడ|ఎప్పుడు|ఎందుకు|ఎలా|ఎన్ని|ఎంత|ఎవరిది)/.test(s),
+};
 
 /** Least number of content questions a comprehension passage must carry. */
 const MIN_CONTENT_QUESTIONS = 2;
@@ -453,7 +801,7 @@ export function validateCoursePack(pack: CoursePack): Problem[] {
       }
     }
 
-    validateSources(section, problems);
+    validateSources(section, course.langCode, problems);
 
     if (isExam(section)) {
       validateExam(section, sections, lessonIndex, problems);
@@ -539,6 +887,9 @@ export function validateCoursePack(pack: CoursePack): Problem[] {
   });
 
   problems.push(...transliterationProblems(pack));
+  problems.push(...scriptLeakProblems(sections, lessonIndex));
+  problems.push(...paragraphReferenceProblems(sections));
+  problems.push(...integerVarietyProblems(pack));
 
   return problems;
 }

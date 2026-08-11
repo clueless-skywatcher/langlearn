@@ -2,11 +2,12 @@
   "id": "te-cp-03",
   "kind": "checkpoint",
   "level": "A1",
-  "order": 12,
-  "title": "Checkpoint: Nouns, Cases, and the Verb",
-  "summary": "A cumulative examination of sections seven to nine: the plural and the class system, the case suffixes glued onto the oblique stem, and the verb that agrees in person, number and class.",
+  "order": 13,
+  "title": "Checkpoint: Nouns, Pronouns, Cases, and the Verb",
+  "summary": "A cumulative examination of sections seven through nine: gender and number, the pronouns and demonstratives, the case suffixes glued onto the oblique stem, and the verb that agrees in person, number and gender.",
   "covers": [
     "te-07",
+    "te-pronouns",
     "te-08",
     "te-09"
   ],
@@ -62,7 +63,7 @@
       "type": "single",
       "difficulty": "medium",
       "fromSection": "te-07",
-      "stem": "In the **singular**, which belongs to the మహత్ class?",
+      "stem": "In the **singular**, which belongs to the **masculine** gender?",
       "options": [
         "a woman",
         "a man",
@@ -70,23 +71,65 @@
         "a book"
       ],
       "correct": 1,
-      "explanation": "Only a male human being. A woman is grammatically amahat in the singular, grouped with the tree and the book — the fact a European learner finds hardest to accept.",
+      "explanation": "Only a male human being. A woman is grammatically non-masculine in the singular, grouped with the tree and the book — the fact a European learner finds hardest to accept.",
       "rulesTested": [
-        "class-singular",
-        "mahat-amahat"
+        "masculine-singular",
+        "noun-gender"
       ],
       "vocabUsed": [
-        "మహత్",
-        "అమహత్",
         "చెట్టు",
         "పుస్తకం"
       ]
     },
     {
       "id": "tecp3-q4",
+      "type": "integer",
+      "difficulty": "hard",
+      "fromSection": "te-07",
+      "stem": "Of **an elder brother, a mother, a goat, and a table**, how many are masculine in the **plural**?",
+      "answer": 2,
+      "unit": "kinds",
+      "explanation": "Two — the brother and the mother, together masculine once plural. The same four kinds in the singular would give one, because the line moves between the numbers.",
+      "rulesTested": [
+        "masculine-plural",
+        "masculine-singular",
+        "gender-by-number"
+      ],
+      "vocabUsed": [
+        "అన్న",
+        "అమ్మ",
+        "బహువచనం"
+      ]
+    },
+    {
+      "id": "tecp3-q5",
       "type": "single",
       "difficulty": "medium",
       "fromSection": "te-07",
+      "stem": "Which pronoun refers to **books and dogs together**?",
+      "options": [
+        "వాళ్ళు",
+        "అవి",
+        "అది",
+        "ఆమె"
+      ],
+      "correct": 1,
+      "explanation": "Books and dogs are neither of them people, so together they stay non-masculine in the plural — *అవి*. *వాళ్ళు* is reserved for persons, however many kinds of thing stand together.",
+      "rulesTested": [
+        "nonmasculine-plural"
+      ],
+      "vocabUsed": [
+        "కుక్క",
+        "పుస్తకం",
+        "అవి",
+        "వాళ్ళు"
+      ]
+    },
+    {
+      "id": "tecp3-q6",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "te-pronouns",
       "stem": "You are inviting the person you are speaking to. Which word for **we**?",
       "options": [
         "మేము",
@@ -97,7 +140,8 @@
       "correct": 1,
       "explanation": "మనం includes the hearer, మేము excludes them. English has one word for both and will let you be vague; Telugu will not.",
       "rulesTested": [
-        "personal-pronouns"
+        "personal-pronouns",
+        "we-inclusive-exclusive"
       ],
       "vocabUsed": [
         "మేము",
@@ -107,28 +151,97 @@
       ]
     },
     {
-      "id": "tecp3-q5",
-      "type": "integer",
-      "difficulty": "hard",
-      "fromSection": "te-07",
-      "stem": "Of **men, women, dogs and books**, how many are మహత్ in the **plural**?",
-      "answer": 2,
-      "unit": "kinds",
-      "explanation": "Two — men and women, together mahat once plural. The same four kinds in the singular would give one, because the line moves between the numbers.",
+      "id": "tecp3-q7",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "te-pronouns",
+      "stem": "**___ ఇల్లు పెద్దది.** You mean the house you and the person you are speaking to both live in. Which possessive?",
+      "options": [
+        "నా",
+        "మా",
+        "మన",
+        "మీ"
+      ],
+      "correct": 2,
+      "explanation": "మన is the possessive of మనం, the *we* that includes the hearer. మా would exclude them, and నా claims the house for the speaker alone.",
       "rulesTested": [
-        "class-plural",
-        "class-singular",
-        "mahat-amahat"
+        "possessive-stems"
       ],
       "vocabUsed": [
-        "మహత్",
-        "కుక్క",
-        "పుస్తకం",
-        "బహువచనం"
+        "నా",
+        "మన",
+        "మీ"
       ]
     },
     {
-      "id": "tecp3-q6",
+      "id": "tecp3-q8",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "te-pronouns",
+      "stem": "Which of these is the **impolite** word for *he*?",
+      "options": [
+        "ఆయన",
+        "అతను",
+        "వాడు",
+        "వారు"
+      ],
+      "correct": 2,
+      "explanation": "వాడు is the informal, impolite demonstrative, given of a stranger it insults. ఆయన and వారు stand at the other end of the same scale, and అతను lies between them.",
+      "rulesTested": [
+        "third-person-respect"
+      ],
+      "vocabUsed": [
+        "ఆయన",
+        "వాడు"
+      ]
+    },
+    {
+      "id": "tecp3-q9",
+      "type": "integer",
+      "difficulty": "hard",
+      "fromSection": "te-pronouns",
+      "stem": "Of **ఇతను, ఈమె, and ఇది**, how many belong to the **near** series?",
+      "answer": 3,
+      "unit": "words",
+      "explanation": "All three. ఇతను and ఈమె are the near partners of అతను and ఆమె, and ఇది is the near partner of అది, met already as *this* against *that*. The near and far series run in exact parallel across gender and number alike.",
+      "rulesTested": [
+        "near-and-far"
+      ],
+      "vocabUsed": [
+        "ఇతను",
+        "ఈమె"
+      ]
+    },
+    {
+      "id": "tecp3-q10",
+      "type": "multi",
+      "difficulty": "hard",
+      "fromSection": "te-pronouns",
+      "stem": "Which of these statements about the Telugu pronouns are correct?",
+      "options": [
+        "Telugu has a third-person pronoun distinct from its demonstratives.",
+        "వారు takes a plural verb even when it refers to one person.",
+        "మీరు serves as both the plural and the polite singular.",
+        "ఇతను belongs to the far series."
+      ],
+      "correct": [
+        1,
+        2
+      ],
+      "explanation": "For *he*, *she* and *it* Telugu has no pronoun proper and uses its demonstratives instead — that is why gender shows up there and nowhere else. వారు is a plural form used of one respected person, taking a plural verb with it. మీరు covers both roles, as *jūs* does in Lithuanian. ఇతను is near, not far — its far partner is అతను.",
+      "rulesTested": [
+        "personal-pronouns",
+        "third-person-respect",
+        "near-and-far"
+      ],
+      "vocabUsed": [
+        "మీరు",
+        "ఇతను",
+        "వాడు"
+      ]
+    },
+    {
+      "id": "tecp3-q11",
       "type": "single",
       "difficulty": "easy",
       "fromSection": "te-08",
@@ -149,9 +262,9 @@
       ]
     },
     {
-      "id": "tecp3-q7",
+      "id": "tecp3-q12",
       "type": "single",
-      "difficulty": "medium",
+      "difficulty": "hard",
       "fromSection": "te-08",
       "stem": "How is **to me** said?",
       "options": [
@@ -172,7 +285,7 @@
       ]
     },
     {
-      "id": "tecp3-q8",
+      "id": "tecp3-q13",
       "type": "single",
       "difficulty": "medium",
       "fromSection": "te-08",
@@ -195,9 +308,9 @@
       ]
     },
     {
-      "id": "tecp3-q9",
+      "id": "tecp3-q14",
       "type": "multi",
-      "difficulty": "medium",
+      "difficulty": "hard",
       "fromSection": "te-08",
       "stem": "Which statements distinguish Telugu from a fusional language such as Lithuanian?",
       "options": [
@@ -222,7 +335,7 @@
       ]
     },
     {
-      "id": "tecp3-q10",
+      "id": "tecp3-q15",
       "type": "single",
       "difficulty": "hard",
       "fromSection": "te-08",
@@ -245,70 +358,96 @@
       ]
     },
     {
-      "id": "tecp3-q11",
+      "id": "tecp3-q16",
       "type": "integer",
       "difficulty": "hard",
       "fromSection": "te-08",
-      "stem": "**నేను ఇంట్లో ఉన్నాను** — how many of its three words carry a case suffix?",
+      "stem": "**ఆమె ఇంట్లో ఉంది** — how many of its three words carry a case suffix?",
       "answer": 1,
       "unit": "words",
-      "explanation": "One: *ఇంట్లో*. *నేను* is the bare nominative, which takes no suffix at all, and the third word is the verb. Counting two usually means mistaking the nominative for a marked case.",
+      "explanation": "One: *ఇంట్లో*. *ఆమె* is the bare nominative, which takes no suffix at all, and the third word is the verb. Counting two usually means mistaking the nominative for a marked case.",
       "rulesTested": [
         "locative-lo",
         "oblique-stem",
         "agglutination"
       ],
       "vocabUsed": [
-        "నేను",
+        "ఆమె",
         "ఇల్లు"
       ]
     },
     {
-      "id": "tecp3-q12",
+      "id": "tecp3-q17",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "te-08",
+      "stem": "How would you say **with a dog**?",
+      "options": [
+        "కుక్కకు",
+        "కుక్కతో",
+        "కుక్కలో",
+        "కుక్క నుండి"
+      ],
+      "correct": 1,
+      "explanation": "-తో covers both the instrument and the companion, where English divides *written with a pen* from *came with a dog*. The others give *to*, *in* and *from*.",
+      "rulesTested": [
+        "instrumental-to"
+      ],
+      "vocabUsed": [
+        "కుక్క",
+        "విభక్తి"
+      ]
+    },
+    {
+      "id": "tecp3-q18",
       "type": "single",
       "difficulty": "easy",
       "fromSection": "te-09",
-      "stem": "Where does the verb stand in a Telugu sentence?",
+      "stem": "In **నేను పుస్తకం చదువుతున్నాను**, which word is the verb?",
       "options": [
-        "first",
-        "second",
-        "last",
-        "it varies freely"
+        "నేను",
+        "పుస్తకం",
+        "చదువుతున్నాను",
+        "none of these"
       ],
       "correct": 2,
-      "explanation": "Subject–object–verb. Everything the verb governs comes before it, and the same ordering runs through the language.",
+      "explanation": "The verb comes last, after everything it governs — subject, then object, then verb. చదువుతున్నాను carries the whole predicate.",
       "rulesTested": [
         "sov"
       ],
       "vocabUsed": [
-        "చదువు"
+        "చదువు",
+        "నేను",
+        "పుస్తకం"
       ]
     },
     {
-      "id": "tecp3-q13",
+      "id": "tecp3-q19",
       "type": "single",
       "difficulty": "easy",
       "fromSection": "te-09",
-      "stem": "**నేను చదువుతున్నాను** means:",
+      "stem": "**ఆమె చదువుతోంది** means:",
       "options": [
-        "I read every day.",
-        "I am reading.",
-        "I will read.",
-        "I did not read."
+        "She reads every day.",
+        "She is reading.",
+        "She will read.",
+        "She did not read."
       ],
       "correct": 1,
-      "explanation": "-తున్న- is the progressive: the action is going on now. The habitual and the future are both *చదువుతాను*, with -తా-.",
+      "explanation": "-తో- is the progressive contraction: the action is going on now. The habitual and the future are both *చదువుతుంది*, with -తు-.",
       "rulesTested": [
         "present-progressive",
-        "habitual-future"
+        "habitual-future",
+        "progressive-undu-endings",
+        "taa-before-di"
       ],
       "vocabUsed": [
-        "నేను",
+        "ఆమె",
         "చదువు"
       ]
     },
     {
-      "id": "tecp3-q14",
+      "id": "tecp3-q20",
       "type": "single",
       "difficulty": "medium",
       "fromSection": "te-09",
@@ -320,10 +459,10 @@
         "-యి"
       ],
       "correct": 1,
-      "explanation": "-ది, the same ending a dog or a book takes. The class division of ¶41 is not a matter of pronouns only: it is written into the verb.",
+      "explanation": "-ది, the same ending a dog or a book takes. The gender division of ¶45 is not a matter of pronouns only: it is written into the verb.",
       "rulesTested": [
         "class-agreement",
-        "class-singular"
+        "nonmasculine-singular"
       ],
       "vocabUsed": [
         "ఆమె",
@@ -331,9 +470,9 @@
       ]
     },
     {
-      "id": "tecp3-q15",
+      "id": "tecp3-q21",
       "type": "multi",
-      "difficulty": "medium",
+      "difficulty": "hard",
       "fromSection": "te-09",
       "stem": "Which of these are correctly matched?",
       "options": [
@@ -347,11 +486,11 @@
         2,
         3
       ],
-      "explanation": "వాళ్ళు is the human plural and takes -రు, giving *వెళ్ళారు*. -యి belongs to అవి, the non-human plural; putting people there is the commonest agreement error.",
+      "explanation": "వాళ్ళు is the masculine plural and takes -రు, giving *వెళ్ళారు*. -యి belongs to అవి, the non-masculine plural; putting people there is the commonest agreement error.",
       "rulesTested": [
         "class-agreement",
         "person-endings",
-        "class-plural"
+        "masculine-plural"
       ],
       "vocabUsed": [
         "అతను",
@@ -362,32 +501,35 @@
       ]
     },
     {
-      "id": "tecp3-q16",
+      "id": "tecp3-q22",
       "type": "single",
       "difficulty": "medium",
       "fromSection": "te-09",
-      "stem": "How is **I did not go** said?",
+      "stem": "How is **she did not read** said?",
       "options": [
-        "నేను వెళ్ళాను కాదు.",
-        "నేను వెళ్ళలేదు.",
-        "నేను కాదు వెళ్ళాను.",
-        "నేను వెళ్ళానులేదు."
+        "ఆమె చదివింది కాదు.",
+        "ఆమె చదవలేదు.",
+        "ఆమె కాదు చదివింది.",
+        "ఆమె చదివిందిలేదు."
       ],
       "correct": 1,
       "explanation": "లేదు is added to the bare stem and the personal ending drops away. కాదు denies an identity — *this is not a book* — and cannot deny an action.",
       "rulesTested": [
         "verb-negation",
-        "kadu"
+        "kadu",
+        "past-negation",
+        "negative-tense",
+        "progressive-negation"
       ],
       "vocabUsed": [
-        "నేను",
-        "వెళ్ళు",
+        "ఆమె",
+        "చదువు",
         "లేదు",
         "కాదు"
       ]
     },
     {
-      "id": "tecp3-q17",
+      "id": "tecp3-q23",
       "type": "single",
       "difficulty": "hard",
       "fromSection": "te-09",
@@ -403,14 +545,15 @@
       "rulesTested": [
         "dictionary-form",
         "present-progressive",
-        "agglutination"
+        "agglutination",
+        "progressive-undu-endings"
       ],
       "vocabUsed": [
         "చదువు"
       ]
     },
     {
-      "id": "tecp3-q18",
+      "id": "tecp3-q24",
       "type": "integer",
       "difficulty": "hard",
       "fromSection": "te-09",
@@ -430,25 +573,67 @@
       ]
     },
     {
-      "id": "tecp3-q19",
-      "type": "single",
-      "difficulty": "medium",
-      "fromSection": "te-08",
-      "stem": "How would you say **with a friend**?",
-      "options": [
-        "స్నేహితుడికి",
-        "స్నేహితుడితో",
-        "స్నేహితుడిలో",
-        "స్నేహితుడి నుండి"
+      "id": "tecp3-q25",
+      "type": "matching",
+      "difficulty": "hard",
+      "fromSection": "te-09",
+      "stem": "Match each pronoun with the ending its verb takes in the past tense.",
+      "columnHeadings": [
+        "Pronoun",
+        "Verb ending"
       ],
-      "correct": 1,
-      "explanation": "-తో covers both the instrument and the companion, where English divides *written with a pen* from *came with a friend*. The others give *to*, *in* and *from*.",
+      "columnI": [
+        "అతను",
+        "ఆమె",
+        "వాళ్ళు",
+        "అవి"
+      ],
+      "columnII": [
+        "-డు",
+        "-ది",
+        "-రు",
+        "-యి",
+        "-వు"
+      ],
+      "options": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          2
+        ],
+        [
+          0,
+          4,
+          2,
+          3
+        ]
+      ],
+      "correct": 0,
+      "explanation": "అతను takes -డు, ఆమె takes -ది, వాళ్ళు takes -రు, and అవి takes -యి — the verb ending reproducing the gender-and-number system exactly. The second option swaps the two singulars; the third swaps the two plurals. The fourth gives ఆమె the second-person ending -వు, which belongs to నువ్వు and to no pronoun in Column I.",
       "rulesTested": [
-        "instrumental-to"
+        "class-agreement",
+        "masculine-singular",
+        "nonmasculine-singular",
+        "masculine-plural",
+        "nonmasculine-plural"
       ],
       "vocabUsed": [
-        "స్నేహితుడు",
-        "విభక్తి"
+        "అతను",
+        "వాళ్ళు",
+        "అవి"
       ]
     },
     {
@@ -473,7 +658,7 @@
           "id": "tecp3-p1-q1",
           "type": "single",
           "difficulty": "easy",
-          "stem": "Where is the sister?",
+          "stem": "నా అక్క ఎక్కడ ఉంది?",
           "options": [
             "హైదరాబాద్‌లో",
             "ఊరిలో",
@@ -496,7 +681,7 @@
           "id": "tecp3-p1-q2",
           "type": "multi",
           "difficulty": "medium",
-          "stem": "Which of these does the passage support?",
+          "stem": "పాఠం ప్రకారం ఏవి సరైనవి?",
           "options": [
             "అన్నలు ఊరిలో ఉన్నారు.",
             "కుక్కలు ఇంట్లో ఉన్నాయి.",
@@ -512,7 +697,11 @@
           "rulesTested": [
             "class-agreement",
             "verb-negation",
-            "habitual-future"
+            "habitual-future",
+            "taa-before-di",
+            "past-negation",
+            "negative-tense",
+            "progressive-negation"
           ],
           "vocabUsed": [
             "అన్న",
@@ -531,10 +720,10 @@
           "stem": "The passage has **నా అక్క ఊరిలో ఉంది.** If it spoke of two sisters instead of one, how many words would change form?",
           "answer": 2,
           "unit": "words",
-          "explanation": "Two: *అక్క* becomes plural, and the verb with it — *ఉంది* → *ఉన్నారు*, the amahat singular ending giving way to the mahat plural one, because a woman changes class on becoming plural (¶42, ¶53). *నా* is indeclinable and *ఊరిలో* is untouched. Answering one forgets that the verb carries the class.",
+          "explanation": "Two: *అక్క* becomes plural, and the verb with it — *ఉంది* → *ఉన్నారు*, the non-masculine singular ending giving way to the masculine plural one, because a woman changes gender on becoming plural (¶49, ¶66). *నా* is indeclinable and *ఊరిలో* is untouched. Answering one forgets that the verb carries the gender.",
           "rulesTested": [
             "class-agreement",
-            "class-plural",
+            "masculine-plural",
             "plural-lu"
           ],
           "vocabUsed": [

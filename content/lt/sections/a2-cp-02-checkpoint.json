@@ -2,13 +2,14 @@
   "id": "a2-cp-02",
   "kind": "checkpoint",
   "level": "A2",
-  "order": 9,
-  "title": "Checkpoint: Definite Forms, Clauses, and the Infinitive",
-  "summary": "A cumulative examination of sections twenty-four to twenty-six: the definite adjective, the subordinators beyond *kad* and *ar*, and the complementary, purposive and nominal infinitive.",
+  "order": 10,
+  "title": "Checkpoint: Definite Forms, Clauses, the Infinitive, and Joks",
+  "summary": "A cumulative examination of sections twenty-four to twenty-seven: the definite adjective, the subordinators beyond *kad* and *ar*, the complementary, purposive and nominal infinitive, and the negative *joks* with the doubled negative it carries.",
   "covers": [
     "a2-04",
     "a2-05",
-    "a2-06"
+    "a2-06",
+    "a2-07"
   ],
   "passThreshold": 60,
   "drills": [
@@ -992,6 +993,228 @@
         "infinitive-choice"
       ],
       "vocabUsed": []
+    },
+    {
+      "id": "a2cp2-j1",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a2-07",
+      "stem": "Complete: **Iš ______ studentų neatėjo nė vienas.** (Of the new students — the ones already spoken of — not one came.)",
+      "options": [
+        "naujųjų",
+        "naujų",
+        "naujieji",
+        "naujiesiems"
+      ],
+      "correct": 0,
+      "explanation": "The students are a known set, so the definite adjective is required (¶176), and *iš* takes the genitive plural: *naujųjų*. A counted set named by *iš* is denied with *nė vienas*, not with *joks* (¶196).",
+      "rulesTested": [
+        "joks-vs-ne-vienas",
+        "definite-adjective-declension",
+        "definite-when-required"
+      ],
+      "vocabUsed": [
+        "nė vienas",
+        "naujasis",
+        "studentas",
+        "ateiti"
+      ]
+    },
+    {
+      "id": "a2cp2-j2",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "a2-07",
+      "stem": "Complete: **Kol neturėjau ______ darbo, gyvenau pas tėvus.**",
+      "options": [
+        "jokio",
+        "jokį",
+        "joks",
+        "jokiu"
+      ],
+      "correct": 0,
+      "explanation": "*Kol* opens the time clause (¶180); inside it *neturėjau* is negated, so the object stands in the genitive and *joks* agrees with it — *jokio darbo*.",
+      "rulesTested": [
+        "joks-genitive",
+        "kol-clause",
+        "negation-genitive"
+      ],
+      "vocabUsed": [
+        "joks",
+        "kol",
+        "turėti",
+        "darbas",
+        "gyventi",
+        "tėvas"
+      ]
+    },
+    {
+      "id": "a2cp2-j3",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "a2-07",
+      "stem": "Which renders *Nobody said a single word*?",
+      "options": [
+        "Niekas nesakė jokio žodžio.",
+        "Joks nesakė jokio žodžio.",
+        "Niekas nesakė joks žodis.",
+        "Nė vienas žodis nesakė."
+      ],
+      "correct": 0,
+      "explanation": "*Niekas* stands alone for the person; *joks* needs the noun it agrees with, so it cannot be the subject by itself. The negated *nesakė* sends the object into the genitive: *jokio žodžio*.",
+      "rulesTested": [
+        "joks-meaning",
+        "joks-genitive",
+        "niekas-negation"
+      ],
+      "vocabUsed": [
+        "joks",
+        "niekas",
+        "nė vienas",
+        "sakyti",
+        "žodis"
+      ]
+    },
+    {
+      "id": "a2cp2-j4",
+      "type": "matching",
+      "difficulty": "hard",
+      "fromSection": "a2-07",
+      "stem": "Match each form with its parsing.",
+      "columnHeadings": [
+        "Form",
+        "Parsing"
+      ],
+      "columnI": [
+        "jokiam",
+        "jokią",
+        "jokiuose",
+        "jokiomis"
+      ],
+      "columnII": [
+        "masculine dative singular",
+        "feminine accusative singular",
+        "masculine locative plural",
+        "feminine instrumental plural",
+        "feminine dative singular",
+        "masculine accusative plural"
+      ],
+      "options": [
+        [0, 1, 2, 3],
+        [4, 1, 2, 3],
+        [0, 5, 2, 3],
+        [4, 5, 2, 3]
+      ],
+      "correct": 0,
+      "explanation": "*Jokiam* is the masculine dative singular — the feminine would be *jokiai*; *jokią* the feminine accusative singular — the masculine plural would be *jokius*. *Jokiuose* and *jokiomis* are the two plural forms.",
+      "rulesTested": [
+        "joks-declension"
+      ],
+      "vocabUsed": [
+        "joks"
+      ]
+    },
+    {
+      "id": "a2cp2-j5",
+      "type": "integer",
+      "difficulty": "hard",
+      "fromSection": "a2-07",
+      "stem": "In **Niekas niekada nesakė jokio žodžio**, how many negative words of the series that forces the verb to be negated does the sentence carry?",
+      "answer": 3,
+      "unit": "words",
+      "explanation": "*Niekas*, *niekada* and *jokio* — three, and one negated verb suffices for all of them (¶137, ¶193). The *ne-* on the verb is the answer to them, not a fourth member of the series.",
+      "rulesTested": [
+        "joks-negative-concord",
+        "niekas-negation"
+      ],
+      "vocabUsed": [
+        "joks",
+        "niekas",
+        "niekada"
+      ]
+    },
+    {
+      "id": "a2cp2-j6",
+      "type": "multi",
+      "difficulty": "medium",
+      "fromSection": "a2-07",
+      "stem": "Which are correct?",
+      "options": [
+        "Ji išmoko lietuviškai be jokio vargo.",
+        "Jokiu būdu nevažiuok!",
+        "Jokiu būdu važiuok!",
+        "Ji išmoko lietuviškai be jokį vargą."
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanation": "*Be* governs the genitive and carries the denial itself, so the verb stays affirmative: *be jokio vargo*. *Jokiu būdu* with a verb keeps the negation (¶195), and *be* never takes the accusative.",
+      "rulesTested": [
+        "joks-be-standalone",
+        "genitive-prepositions"
+      ],
+      "vocabUsed": [
+        "joks",
+        "jokiu būdu",
+        "be",
+        "vargas",
+        "išmokti",
+        "lietuviškai",
+        "važiuoti"
+      ]
+    },
+    {
+      "id": "a2cp2-j7",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "a2-07",
+      "stem": "Which renders *He said he had no plans*?",
+      "options": [
+        "Jis sakė, kad neturi jokių planų.",
+        "Jis sakė, kad neturi jokius planus.",
+        "Jis sakė kad neturėjo jokių planų.",
+        "Jis sakė, kad neturi joks planas."
+      ],
+      "correct": 0,
+      "explanation": "The reported clause keeps the tense of the original speech (¶183), so *neturi*; the negated verb takes the genitive plural *jokių planų*; and the comma before *kad* is obligatory (¶182).",
+      "rulesTested": [
+        "joks-genitive",
+        "sequence-of-tenses",
+        "subordinate-comma"
+      ],
+      "vocabUsed": [
+        "joks",
+        "sakyti",
+        "kad",
+        "turėti",
+        "planas"
+      ]
+    },
+    {
+      "id": "a2cp2-j8",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "a2-07",
+      "stem": "Complete: **Bute nebuvo ______ baldų.**",
+      "options": [
+        "jokių",
+        "jokie",
+        "jokius",
+        "jokia"
+      ],
+      "correct": 0,
+      "explanation": "Negated *nebuvo* denies existence and takes the genitive, so the genitive plural agreeing with *baldų* is *jokių*.",
+      "rulesTested": [
+        "joks-genitive",
+        "joks-declension"
+      ],
+      "vocabUsed": [
+        "joks",
+        "baldai",
+        "butas",
+        "būti"
+      ]
     },
     {
       "id": "a2cp2-b1",

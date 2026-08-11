@@ -5,8 +5,8 @@
 These apply to **every** language pack under `content/` — Lithuanian, Telugu,
 Esperanto, and any course added later. They govern the JSON content, not the
 app code. The machine-checkable half lives in `content/schema.ts` and
-`content/validate.ts`; run `yarn validate` (see `scripts/`) before considering
-any content change done.
+`content/validate.ts`; run `yarn validate:content` (or `yarn check`, which adds
+the typecheck and the tests) before considering any content change done.
 
 ## 1. Sources
 
@@ -61,10 +61,9 @@ score by getting three of four pairs. Build the three distractor pairings from
 real confusions (a shared ending across declensions, a case that governs the
 same preposition), not by shuffling at random.
 
-> Not yet in the schema: `matching` is not a member of the `Drill` union in
-> `content/schema.ts`. Add the variant, its scoring in `lib/scoring.ts`, and its
-> renderer before authoring matching items — do not smuggle them in as `single`
-> questions with a pairing table in the stem.
+Do not smuggle a matching item in as a `single` question with a pairing table in
+the stem: the variant, its scoring in `lib/scoring.ts` and its renderer all
+exist, and the validator requires one of every format in an exam paper.
 
 ## 4. Every drill set ends hard
 
@@ -85,8 +84,8 @@ Ambiguous stems, options that are simultaneously defensible, and typos are bugs.
 not as a badge, a label, a colour, an ordering signal, or a hint in the stem.
 Do not sort drills by difficulty, either; a predictable ramp is a tell.
 
-> Currently violated: `components/DrillRunner.tsx:177` renders
-> `{question.difficulty}` in the question header. Remove it.
+`components/DrillRunner.tsx` shows the question number and the format label and
+nothing else; keep it that way.
 
 ## 6. Checkpoints and boundary exams
 
@@ -100,9 +99,10 @@ Do not sort drills by difficulty, either; a predictable ramp is a tell.
   matching formats heavily, and assume every rule from the level is live. A
   learner who passed the checkpoints by memorising them should fail here.
 
-> Not yet in the schema: there is no boundary-exam section kind. Add it
-> (alongside `LessonSection` / `CheckpointSection`), with its own composition
-> targets in `content/validate.ts`, before authoring one.
+`BoundaryExamSection` (`kind: "boundary"`) exists alongside `LessonSection` and
+`CheckpointSection`, and `BOUNDARY_TARGETS` in `content/validate.ts` holds its
+composition targets — including the minimum shares of matching and
+comprehension. Only a `boundary` section may be titled a boundary examination.
 
 ## 7. Reading comprehension
 
@@ -126,3 +126,131 @@ Match the source to the level rather than to what is available:
 Real excerpts are quoted as published — do not silently simplify them. If a
 passage needs help, use `glossary` for unmet words and `translation` for the
 post-answer reveal. Cite per §1, in the passage footer.
+
+At least two questions on every passage must ask about what it *says*, in the
+target language, rather than about the grammar it illustrates. The validator
+knows each course's interrogatives; add yours to `CONTENT_QUESTION` in
+`content/validate.ts` when adding a language.
+
+## 8. No romanization where reading the script is the question
+
+A course in a non-Latin script declares `transliteration` in its course file,
+and the renderer then derives a reading for every run of target text it shows —
+which is what keeps the *grammar* answerable by someone who skipped the script
+sections. In the script sections themselves that is exactly wrong. "Which
+letter is ఖ (kha)?" over an option reading `kha` is not a question about Telugu;
+it is a question about whether two Latin strings match.
+
+So:
+
+- Any question that asks the learner to read, name or tell apart a glyph sets
+  `scriptCritical: true`, and the renderer shows its stem, options and columns
+  bare. The romanization stays on the explanation, which is only revealed once
+  the answer is in.
+- Every question in a section that teaches a script — and every exam item
+  attributed back to one — must set it. The validator enforces this.
+- The flag is not enough on its own. Do not hand-write the reading into the
+  stem either: `Which letter is **గ** (ga)?` gives the answer away whatever the
+  flag says, and so does a stem that prints the correct option's glyph and asks
+  you to find its twin. The validator checks the rendered text for both.
+- Ask in whichever direction keeps the glyph load on the learner. Naming the
+  sound in the stem and offering four bare glyphs is fair; so is showing one
+  glyph and offering four readings. Showing both is not.
+- The same applies to a comprehension passage set in the script sections: it
+  carries no parallel romanization, because decoding it is the exercise.
+
+## 9. State the rule; do not instruct the learner
+
+A rule says how the language works. It does not tell the learner what to do
+about it, what to find hard, or what to commit to memory. Those are the
+learner's business, and a course that keeps issuing directions reads as though
+it does not trust them.
+
+Banned from rule statements, footnotes, paradigm captions and explanations:
+
+- Imperatives aimed at the reader — *note that*, *remember*, *observe*,
+  *compare*, *read the column down*, *learn these*, *do not confuse*.
+- Study advice: what is *worth learning* or *worth knowing*, what *must be
+  memorised* or *learned by heart*, what a learner *should* do, what to
+  *resist*, what is *not worth imitating*.
+- Difficulty commentary: *this is the hard part*, *the one most often missed*,
+  *worth dwelling on*, *a learner will go wrong here*. §5 already keeps the
+  `difficulty` field away from the learner; prose must not smuggle it back.
+
+Write the fact and stop. *"Note that the plural of వెయ్యి is వేలు"* is
+*"The plural of వెయ్యి is వేలు"*. *"The teens are irregular and must be learned
+singly"* is *"The teens are irregular"* — that the learner will therefore have
+to learn them is not a further fact about Telugu.
+
+A bare cross-reference is not an instruction and stays: `(¶42)`, or `(see ¶42)`
+in the manner of the book this exposition follows. What is banned is the
+sentence built around it — *"Compare ¶42 and you will see…"*.
+
+Describing the language is not instructing: *"the sexes are distinguished when
+alone and not when together"* is a statement about Telugu and belongs. So does
+naming a form's register — *"అది of a woman is impolite"* is a fact about
+usage, not advice.
+
+## 10. Rule statements are short
+
+Each rule's `statement` is at most **two or three sentences**, and as concise as
+the fact allows. One rule, one fact; if a paragraph is growing a second fact,
+it is a second rule.
+
+Paradigms, examples and footnotes carry the detail the statement must not:
+tables, stem alternations, spoken variants, cross-tense comparisons. The
+statement names the form and stops.
+
+Split a long rule rather than compress it into a telegram. ¶62–¶65 (past
+denial, the negative tense, progressive denial) are the pattern: what used to
+be one block is three rules plus a one-line frame, each readable in a glance.
+
+## 11. Integer questions are not only counts
+
+`IntegerQuestion` accepts any non-negative integer. It is not a counting
+format, and a pack in which every integer item opens *how many* has used one
+shape and mistaken it for the format.
+
+Shapes it takes just as well, several of them better tests than a count:
+
+- **Read a number.** Give the numeral in the target language and ask for the
+  figure — *ఇరవై ఒకటి* → 21, *నూట ఇరవై ఒకటి* → 121, *ముగ్గురు* → 3. This tests
+  the numeral system head-on, and unlike four options it cannot be narrowed by
+  elimination: the learner has to produce the answer.
+- **Read a form and give the value it carries** — which numbered rule governs
+  it, which declension or conjugation it belongs to, which person an ending
+  marks.
+- **A quantity the passage states**: an age, a year, a price, a time, a
+  distance. The learner has to read the passage to find it.
+- **How many distinct forms a paradigm collapses**, which is the count §2
+  sanctions by name.
+
+Counts are legitimate where the material is an inventory — an alphabet has a
+number of letters and asking for it is fair. What is wrong is reaching for
+*how many* by reflex when the material offers something better. A numerals
+section that asks how many of five words denote people, rather than what
+*నూట ఇరవై ఒకటి* comes to, has wasted the one format in which the learner
+answers in their own hand.
+
+The validator warns once per pack when nearly every integer item is a count.
+It cannot judge whether a particular count was the right question; that is the
+author's job.
+
+### Never write the number in figures in the stem
+
+A question about a numeral must not print that numeral as a figure. *"**రెండు
+వందలు** is 200. How is **251** said?"* hands over the decomposition — two,
+five, one — so the learner assembles from something already on the page
+instead of knowing the words. Ask it as *"How is **two hundred and fifty-one**
+said?"*, or the other way about: give the Telugu and take the figure as the
+answer.
+
+This holds however the figure gets there. A stem reading *"what number is
+౧౦౧?"* prints its own answer as soon as the renderer transliterates the Telugu
+digits, because they come out as `101`; such items are `scriptCritical` (§8)
+and the validator checks the rendered text, not the source.
+
+Figures that are not the number in question are fine and often necessary:
+grammatical notation (*1 sg.*, *3rd person*), a level tag (*A1*), a price or a
+year that the passage states and the learner has to find. The rule is about
+the number being asked for, not about digits.

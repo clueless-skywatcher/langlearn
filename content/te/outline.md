@@ -6,10 +6,8 @@ read a single word until that system is understood, so this course spends its
 first five sections and two checkpoints on the script alone — and drills it at
 length rather than presenting a chart and moving on.
 
-Rule numbering is continuous. A1 sections 01–03 occupy ¶1–¶19, 04–06 ¶20–¶37,
-07–09 ¶38–¶57.
-
-Sections marked ✅ are authored.
+Rule numbering is continuous (renumbered after authorship). Sections marked ✅
+are authored.
 
 ---
 
@@ -23,16 +21,20 @@ Sections marked ✅ are authored.
 | — | ✅ **Checkpoint 1** | covers 01–03 — the whole varṇamāla |
 | 04 | ✅ The Vowel Signs — గుణింతం | the sign that replaces the inherent vowel; the guṇintam; where signs are written; why there is no sign for అ; how the consonant changes shape |
 | 05 | ✅ Muting, Joining, and the Digits | the పొల్లు; the ఒత్తు and conjuncts; doubled consonants; the ten digits; reading a whole word |
-| 06 | ✅ First Sentences | the verbless equational sentence; ఇది and అది; denial with కాదు; నా and నీ; the invariable adjective; ఏమిటి and ఎవరు |
+| 06 | ✅ First Sentences | the verbless equational sentence; ఇది and అది; denial with కాదు; నా and నీ; నా against మా; the invariable adjective; ఏమిటి and ఎవరు |
 | — | ✅ **Checkpoint 2** | covers 04–06 — reading Telugu |
-| 07 | ✅ Nouns, Number, and Class | the plural in -లు and its stem classes; mahat / amahat, and how the line moves between the numbers; the personal pronouns, inclusive and exclusive |
+| 07 | ✅ Nouns, Number, and Gender | the plural in -లు and its stem classes; the two genders; how the line moves between the numbers |
+| 07a | ✅ The Pronouns | the personal pronouns; మేము against మనం; the possessive stems; the third person graded by respect; the near series beside the far |
 | 08 | ✅ The Case Suffixes | agglutination against declension; -ని, -కి, -లో, -తో, -నుండి; the oblique stem |
-| 09 | ✅ The Verb: Person and the Present | SOV order; the seven personal endings; agreement in class; -తున్న- against -తా-; denial with లేదు |
-| — | ✅ **Checkpoint 3** | covers 07–09 |
-| 10 | The Verb: Past and Future | the past; the future-habitual; negation of each |
-| 11 | Existence and Possession | ఉంది / ఉన్నాడు; లేదు against కాదు; having, which Telugu expresses with the dative |
-| 12 | Numerals and Counting | ఒకటి to వంద; the counted noun; ordinals |
+| 09 | ✅ The Verb: Person and the Present | SOV order; the seven personal endings; agreement in gender; -తున్న- against -తా-; past denial with లేదు; the negative tense; -టం లేదు against the progressive |
+| — | ✅ **Checkpoint 3** | covers 07, the pronouns, 08 and 09 |
+| 10 | ✅ Numerals and Counting | ఒకటి to కోటి; human numerals; where the numeral stands; compounds; the ordinals |
+| 11 | The Verb: Past and Future | the past paradigm in full; the future-habitual revisited; irregular stems in each negation |
+| 12 | Existence and Possession | ఉండు — ఉంది / ఉన్నాడు; లేదు against కాదు; having, which Telugu expresses with the dative |
 | — | **Checkpoint 4** | covers 10–12 |
+
+Section 10 sits after Checkpoint 3 and so is not yet examined by one; Checkpoint 4
+will take it in together with 11 and 12.
 
 ## A2 and beyond
 

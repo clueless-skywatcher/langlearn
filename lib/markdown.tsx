@@ -47,10 +47,22 @@ function romanizationFollows(after: string, roman: string): boolean {
  * whenever a sentence was edited, and would drift silently when it was not;
  * deriving it from the text itself cannot drift. Where the automatic reading
  * is wrong, the content can still override it — see `Example.roman`.
+ *
+ * There is one place this must not happen, and it is not a detail: a question
+ * that asks the learner to *read* something. Printing the reading beside the
+ * glyph answers it. Such items set `scriptCritical` and are rendered through
+ * `inline(text, false)`; the validator makes sure they do.
  */
 export function romanize(text: string): string {
   const runs = teluguRuns(text);
   if (runs.length === 0) return text;
+
+  // Each distinct run is read out once per block. Glossing every occurrence
+  // makes a passage that repeats a word — and a rule about numerals repeats
+  // them constantly — unreadable: "రెండు (reṇḍu) వందల (vandala) యాభై (yābhai)
+  // ఒకటి (okaṭi)" buries the sentence in its own footnotes. The learner has
+  // the reading from the first occurrence and can carry it to the rest.
+  const glossed = new Set<string>();
 
   let out = "";
   let cursor = 0;
@@ -58,15 +70,27 @@ export function romanize(text: string): string {
     out += text.slice(cursor, run.end);
     cursor = run.end;
     const roman = run.roman.trim();
-    if (roman && !romanizationFollows(text.slice(run.end), roman)) {
-      out += ` (${roman})`;
+    if (!roman) continue;
+    // A reading the author wrote in counts as this run having been read out.
+    if (romanizationFollows(text.slice(run.end), roman)) {
+      glossed.add(run.source);
+      continue;
     }
+    if (glossed.has(run.source)) continue;
+    out += ` (${roman})`;
+    glossed.add(run.source);
   }
   return out + text.slice(cursor);
 }
 
-export function inline(text: string): ReactNode {
-  return romanize(text)
+/**
+ * `romanized` is false where the target text is the thing being read — see
+ * {@link romanize}. It only suppresses the *derived* reading; Latin the author
+ * wrote into the string is left alone, which is why the validator checks the
+ * rendered result rather than trusting the flag.
+ */
+export function inline(text: string, romanized = true): ReactNode {
+  return (romanized ? romanize(text) : text)
     .split(TOKEN)
     .map((part, i) => {
       if (i % 2 === 0) return part ? <Fragment key={i}>{part}</Fragment> : null;
@@ -90,10 +114,14 @@ export function inline(text: string): ReactNode {
 }
 
 /** Inline markdown plus blank-line paragraph breaks. */
-export function paragraphs(text: string, className = ""): ReactNode {
+export function paragraphs(
+  text: string,
+  className = "",
+  romanized = true,
+): ReactNode {
   return text.split(/\n{2,}/).map((para, i) => (
     <p key={i} className={className}>
-      {inline(para)}
+      {inline(para, romanized)}
     </p>
   ));
 }
@@ -104,13 +132,17 @@ export function paragraphs(text: string, className = ""): ReactNode {
  * running prose, which turns a conversation into one unreadable block and
  * loses the speaker labels along with it.
  */
-export function lines(text: string, className = ""): ReactNode {
+export function lines(
+  text: string,
+  className = "",
+  romanized = true,
+): ReactNode {
   return text.split("\n").map((line, i) =>
     line.trim() === "" ? (
       <span key={i} aria-hidden className="block h-3" />
     ) : (
       <p key={i} className={className}>
-        {inline(line)}
+        {inline(line, romanized)}
       </p>
     ),
   );

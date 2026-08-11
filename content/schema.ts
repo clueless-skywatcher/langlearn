@@ -175,6 +175,22 @@ const QuestionBase = {
    * through `rulesTested`; ignored on lesson items.
    */
   fromSection: Id.optional(),
+  /**
+   * True where reading the script *is* the question: naming a letter, telling
+   * two glyphs apart, reading a word off the page. The renderer then shows the
+   * target text bare, because the romanization it otherwise derives (see
+   * `lib/markdown.tsx`) would print the answer beside the question — "which
+   * letter is ఖ (kha)?" is not a question about Telugu, it is a question about
+   * whether two Latin strings match.
+   *
+   * The romanization survives on the explanation, which the learner only sees
+   * once their answer is in.
+   *
+   * The validator enforces this from both ends: a question in a section that
+   * teaches the script has to set it, and no question — flagged or not — may
+   * leave its answer legible in the Latin alone.
+   */
+  scriptCritical: z.boolean().default(false),
 };
 
 /** One option correct, four options. Scored +4 / −1. */
@@ -271,6 +287,13 @@ export const ComprehensionDrill = z.strictObject({
   passage: z.string().min(1),
   /** The whole passage in Latin letters, for a learner who has skipped the script. */
   romanization: z.string().optional(),
+  /**
+   * As on a question: the passage is here to be read, so it is shown without a
+   * romanization beneath it and `romanization` is ignored. Set this on a
+   * reading passage in the script sections, where decoding the page is the
+   * skill being examined rather than a toll on the way to the grammar.
+   */
+  scriptCritical: z.boolean().default(false),
   /** Full translation, revealed only after the block is answered. */
   translation: z.string().optional(),
   /** Glosses for words the learner has not met yet, keyed by surface form. */

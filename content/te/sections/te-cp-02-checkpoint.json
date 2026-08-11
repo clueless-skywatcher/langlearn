@@ -17,22 +17,23 @@
       "type": "single",
       "difficulty": "easy",
       "fromSection": "te-04",
-      "stem": "What does **మా** stand for?",
+      "stem": "Which of these is read *mā*?",
       "options": [
-        "ma",
-        "mā",
-        "mi",
-        "mu"
+        "మ",
+        "మా",
+        "మి",
+        "ము"
       ],
       "correct": 1,
-      "explanation": "The sign ా, written to the right, replaces the inherent అ with ā. The same sign gives కా, తా and every other long-ā syllable.",
+      "explanation": "The sign ా to the right of మ replaces the inherent అ with ā. మ alone is *ma*; మి and ము carry different signs.",
       "rulesTested": [
         "vowel-signs",
         "gunintam"
       ],
       "vocabUsed": [
         "గుణింతం"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "tecp2-q2",
@@ -55,29 +56,31 @@
       "vocabUsed": [
         "అచ్చులు",
         "గుణింతం"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "tecp2-q3",
       "type": "single",
       "difficulty": "medium",
       "fromSection": "te-04",
-      "stem": "Read **నది**.",
+      "stem": "Which of these is read *nadi*?",
       "options": [
-        "nadi",
-        "nādi",
-        "nidi",
-        "nadī"
+        "నది",
+        "నాది",
+        "నిది",
+        "నదీ"
       ],
       "correct": 0,
-      "explanation": "The first consonant bears no sign and so keeps అ; the second has the i sign above it. A reader who supplies nothing where nothing is written has read correctly.",
+      "explanation": "The first consonant bears no sign and keeps అ; the second has the i-sign. నాది and నదీ lengthen the wrong vowel; నిది puts i on the first letter.",
       "rulesTested": [
         "reading-syllable",
         "no-sign-for-a"
       ],
       "vocabUsed": [
         "నది"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "tecp2-q4",
@@ -101,7 +104,8 @@
       ],
       "vocabUsed": [
         "గుణింతం"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "tecp2-q5",
@@ -124,7 +128,8 @@
       "vocabUsed": [
         "అచ్చులు",
         "గుణింతం"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "tecp2-q6",
@@ -158,7 +163,7 @@
         "The letters are in a different order on the page."
       ],
       "correct": 1,
-      "explanation": "క, కి and కె are one consonant in three dresses (¶24). The chart teaches thirty-six shapes; the page shows each of them in sixteen.",
+      "explanation": "క, కి and కె are one consonant in three dresses (¶26). The chart teaches thirty-six shapes; the page shows each of them in sixteen.",
       "rulesTested": [
         "sign-shape-change",
         "talakattu"
@@ -188,28 +193,30 @@
       ],
       "vocabUsed": [
         "పొల్లు"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "tecp2-q9",
       "type": "single",
       "difficulty": "easy",
       "fromSection": "te-05",
-      "stem": "What is **౭ (7) (7)**?",
+      "stem": "Which digit is *seven*?",
       "options": [
-        "4",
-        "6",
-        "7",
-        "9"
+        "౫",
+        "౬",
+        "౭",
+        "౮"
       ],
       "correct": 2,
-      "explanation": "౭ (7) (7) is seven, *ēḍu*.",
+      "explanation": "౭ is seven. The four digits sit in order from five to eight.",
       "rulesTested": [
         "telugu-digits"
       ],
       "vocabUsed": [
         "అంకె"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "tecp2-q10",
@@ -232,12 +239,13 @@
       "vocabUsed": [
         "ఒత్తు",
         "పొల్లు"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "tecp2-q11",
       "type": "single",
-      "difficulty": "medium",
+      "difficulty": "hard",
       "fromSection": "te-05",
       "stem": "Why is a subjoined consonant hard to recognise?",
       "options": [
@@ -255,7 +263,8 @@
       "vocabUsed": [
         "ఒత్తు",
         "తలకట్టు"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "tecp2-q12",
@@ -283,42 +292,51 @@
         "నది",
         "అమ్మ",
         "పులి"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "tecp2-q13",
-      "type": "integer",
+      "type": "single",
       "difficulty": "hard",
       "fromSection": "te-05",
-      "stem": "**పుస్తకం** — how many syllables?",
-      "answer": 3,
-      "unit": "syllables",
-      "explanation": "Three: *pu-sta-kaṃ*. The conjunct స్త is one written unit and one syllable though it holds two consonants. Answering four counts consonants rather than units.",
+      "stem": "In **పుస్తకం**, what does the పొల్లు under **స్** mark?",
+      "options": [
+        "That స carries the vowel అ.",
+        "That స has no vowel of its own before త.",
+        "That the word is plural.",
+        "That స is doubled."
+      ],
+      "correct": 1,
+      "explanation": "The pollu under స removes its inherent అ so that స and త meet as a cluster. Without it the word would be read with an extra vowel.",
       "rulesTested": [
-        "reading-a-word",
-        "vattulu"
+        "pollu",
+        "reading-a-word"
       ],
       "vocabUsed": [
-        "పుస్తకం",
-        "ఒత్తు"
-      ]
+        "పుస్తకం"
+      ],
+      "scriptCritical": true
     },
     {
       "id": "tecp2-q14",
-      "type": "integer",
+      "type": "single",
       "difficulty": "hard",
       "fromSection": "te-05",
-      "stem": "What number is **౪౦౨ (402) (402)**?",
-      "answer": 402,
-      "unit": "",
-      "explanation": "Four hundred and two. The digits are positional exactly as the European ones are — which is unsurprising, the European digits being Indian by descent.",
+      "stem": "How is **four hundred and two** written in Telugu digits?",
+      "options": [
+        "౪౦౨",
+        "౪౨౦",
+        "౨౦౪",
+        "౪౦౦౨"
+      ],
+      "correct": 0,
+      "explanation": "౪ ౦ ౨ — four, zero, two — left to right. The third option reverses the digits; the second swaps the last two.",
       "rulesTested": [
         "telugu-digits"
       ],
-      "vocabUsed": [
-        "అంకె",
-        "సున్నా"
-      ]
+      "vocabUsed": [],
+      "scriptCritical": true
     },
     {
       "id": "tecp2-q15",
@@ -401,7 +419,7 @@
     {
       "id": "tecp2-q18",
       "type": "multi",
-      "difficulty": "medium",
+      "difficulty": "hard",
       "fromSection": "te-06",
       "stem": "Which of these phrases are **correctly** formed?",
       "options": [
@@ -501,7 +519,8 @@
           "explanation": "*అతని పేరు రవి.* *అన్న* says what he is — an elder brother — not what he is called.",
           "rulesTested": [
             "asking-what-who",
-            "possessive-na"
+            "possessive-na",
+            "possessive-maa"
           ],
           "vocabUsed": [
             "పేరు",
@@ -513,35 +532,22 @@
         },
         {
           "id": "tecp2-p1-q2",
-          "type": "multi",
-          "difficulty": "medium",
-          "stem": "Which of these does the passage assert?",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "పుస్తకం ఎక్కడ ఉంది?",
           "options": [
-            "ఇది నా ఇల్లు.",
-            "ఇది పెద్ద ఇల్లు.",
-            "అది మంచి పుస్తకం.",
-            "అతను మంచి అన్న."
+            "ఇక్కడ",
+            "అక్కడ",
+            "ఇంట్లో కాదు",
+            "ఊరిలో"
           ],
-          "correct": [
-            0,
-            2,
-            3
-          ],
-          "explanation": "The house is expressly *not* big: *పెద్ద ఇల్లు కాదు*. One word at the end reverses the whole statement, and it is easy to read past.",
+          "correct": 0,
+          "explanation": "*ఇక్కడ నా పుస్తకం* — the book is here. అక్కడ is where the brother is.",
           "rulesTested": [
-            "kadu",
-            "no-copula",
-            "adjective-invariable"
+            "idi-adi"
           ],
           "vocabUsed": [
-            "ఇది",
-            "నా",
-            "ఇల్లు",
-            "పెద్ద",
-            "మంచి",
-            "పుస్తకం",
-            "అతను",
-            "అన్న"
+            "పుస్తకం"
           ]
         },
         {
@@ -573,6 +579,69 @@
           "citation": "Krishnamurti, Bhadriraju & Gwynn, J. P. L., *A Grammar of Modern Telugu*. Delhi: Oxford University Press, 1985.",
           "note": "Descriptive source for the paradigms and rule statements on this page."
         }
+      ]
+    },
+    {
+      "id": "tecp2-q-match",
+      "type": "matching",
+      "difficulty": "hard",
+      "fromSection": "te-06",
+      "stem": "Match each Telugu sentence with what it says. One entry in Column II is used by none of them.",
+      "columnHeadings": [
+        "Sentence",
+        "Meaning"
+      ],
+      "columnI": [
+        "ఇది పుస్తకం.",
+        "ఇది పుస్తకం కాదు.",
+        "అది ఇల్లు.",
+        "ఏమిటి?"
+      ],
+      "columnII": [
+        "This is a book.",
+        "This is not a book.",
+        "That is a house.",
+        "What?",
+        "Who?"
+      ],
+      "options": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          4
+        ],
+        [
+          0,
+          1,
+          3,
+          2
+        ]
+      ],
+      "correct": 0,
+      "explanation": "కాదు at the end denies the identity; ఏమిటి asks what, not who. The second option swaps the affirmation with its denial; the third gives ఏమిటి to who; the fourth swaps house with what.",
+      "rulesTested": [
+        "no-copula",
+        "kadu",
+        "asking-what-who",
+        "idi-adi"
+      ],
+      "vocabUsed": [
+        "పుస్తకం",
+        "ఇల్లు",
+        "కాదు"
       ]
     }
   ],

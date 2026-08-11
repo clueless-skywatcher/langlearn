@@ -1,0 +1,1051 @@
+{
+  "id": "te-pronouns",
+  "kind": "lesson",
+  "level": "A1",
+  "order": 10,
+  "title": "The Pronouns",
+  "summary": "The personal pronouns, the two words for *we* that English cannot tell apart, the possessives that distinguish what is mine from what is ours, and the demonstratives that do duty for the third person — graded by respect, and running in a near series beside a far one.",
+  "rules": [
+    {
+      "id": "personal-pronouns",
+      "number": "52",
+      "heading": "The Personal Pronouns",
+      "statement": "Telugu has personal pronouns for the **first and second persons only**. There is no third-person pronoun proper: for *he*, *she* and *it* the language uses its demonstratives, which is why gender enters the third person and nowhere else (¶55).",
+      "paradigms": [
+        {
+          "caption": "The personal pronouns",
+          "columns": [
+            "nominative",
+            "transliteration",
+            "English"
+          ],
+          "rows": [
+            {
+              "label": "1 sg.",
+              "cells": [
+                "నేను",
+                "nēnu",
+                "I"
+              ]
+            },
+            {
+              "label": "2 sg. familiar",
+              "cells": [
+                "నువ్వు",
+                "nuvvu",
+                "you"
+              ]
+            },
+            {
+              "label": "1 pl. exclusive",
+              "cells": [
+                "మేము",
+                "mēmu",
+                "we (not you)"
+              ]
+            },
+            {
+              "label": "1 pl. inclusive",
+              "cells": [
+                "మనం",
+                "manaṁ",
+                "we (and you)"
+              ]
+            },
+            {
+              "label": "2 pl. and polite sg.",
+              "cells": [
+                "మీరు",
+                "mīru",
+                "you"
+              ]
+            }
+          ],
+          "footnote": "**మీరు** is the polite singular as well as the plural, exactly as *jūs* is in Lithuanian and *vous* in French. **నువ్వు** is used only to a close friend, a relative, an inferior or a child; the older books write it **నీవు**."
+        }
+      ],
+      "examples": [
+        {
+          "target": "నేను రవి.",
+          "roman": "nēnu ravi.",
+          "gloss": "I am Ravi."
+        },
+        {
+          "target": "నువ్వు మా అన్న.",
+          "roman": "nuvvu mā anna.",
+          "gloss": "You are my elder brother.",
+          "note": "నువ్వు to a relative — familiar"
+        },
+        {
+          "target": "మీరు ఎవరు?",
+          "roman": "mīru evaru?",
+          "gloss": "Who are you?",
+          "note": "మీరు to one stranger, politely"
+        }
+      ],
+      "footnotes": [],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Krishnamurti, Bhadriraju & Gwynn, J. P. L., *A Grammar of Modern Telugu*. Delhi: Oxford University Press, 1985, §8.3–8.4.",
+          "note": "Source for the paradigm and for నువ్వు against మీరు."
+        }
+      ],
+      "seeAlso": [
+        "no-copula",
+        "possessive-na"
+      ],
+      "core": true
+    },
+    {
+      "id": "we-inclusive-exclusive",
+      "number": "53",
+      "heading": "The Two Words for *We*",
+      "statement": "**మేము** means *we* **excluding** the person spoken to; **మనం** means *we* **including** them. English *we* is ambiguous between the two; Telugu is not.",
+      "paradigms": [
+        {
+          "caption": "Inclusive and exclusive",
+          "columns": [
+            "word",
+            "who is in the group",
+            "use it when"
+          ],
+          "rows": [
+            {
+              "label": "exclusive",
+              "cells": [
+                "మేము",
+                "the speaker and others, but **not** the hearer",
+                "reporting to someone what your party did"
+              ]
+            },
+            {
+              "label": "inclusive",
+              "cells": [
+                "మనం",
+                "the speaker, the hearer, and any others",
+                "proposing, inviting, or speaking of the company you are both in"
+              ]
+            }
+          ],
+          "footnote": "Both take the same verb ending, -ము (¶71), so the pronoun is the only thing that carries the distinction and it cannot be dropped."
+        }
+      ],
+      "examples": [
+        {
+          "target": "మనం ఇక్కడ.",
+          "roman": "manaṁ ikkaḍa.",
+          "gloss": "We are here (you and I)."
+        },
+        {
+          "target": "మేము ఇక్కడ. మీరు అక్కడ.",
+          "roman": "mēmu ikkaḍa. mīru akkaḍa.",
+          "gloss": "We are here. You are there.",
+          "note": "the second sentence is what makes the exclusion audible"
+        },
+        {
+          "target": "మా ఇల్లు ఇక్కడ.",
+          "roman": "mā illu ikkaḍa.",
+          "gloss": "Our house is here.",
+          "note": "the possessive of మేము — and also the ordinary way to say *my* house (¶54)"
+        }
+      ],
+      "footnotes": [
+        "Krishnamurti and Gwynn’s illustration: if A says to B *we came home* meaning himself and others not including B, he says **మేము ఇంటికి వచ్చాము**; meaning himself and B, **మనం ఇంటికి వచ్చాము**."
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Krishnamurti, Bhadriraju & Gwynn, J. P. L., *A Grammar of Modern Telugu*. Delhi: Oxford University Press, 1985, §8.4(1).",
+          "note": "Source for the inclusive–exclusive distinction and the illustration."
+        }
+      ],
+      "seeAlso": [
+        "personal-pronouns"
+      ],
+      "core": true
+    },
+    {
+      "id": "possessive-stems",
+      "number": "54",
+      "heading": "The Possessive Stems",
+      "statement": "Each personal pronoun has a possessive stem used before a noun and invariable for gender, number and case: **నా, నీ, మా, మన, మీ**. As in ¶37, **నా** is only of what is the speaker's alone and **మా** of what is shared; **మన** is the possessive of మనం — *మన ఊరు*.",
+      "paradigms": [
+        {
+          "caption": "Nominative and possessive",
+          "columns": [
+            "pronoun",
+            "possessive",
+            "English"
+          ],
+          "rows": [
+            {
+              "label": "1 sg.",
+              "cells": [
+                "నేను",
+                "నా",
+                "my — of what is mine alone"
+              ]
+            },
+            {
+              "label": "2 sg. familiar",
+              "cells": [
+                "నువ్వు",
+                "నీ",
+                "your"
+              ]
+            },
+            {
+              "label": "1 pl. exclusive",
+              "cells": [
+                "మేము",
+                "మా",
+                "our — and *my*, of anything shared"
+              ]
+            },
+            {
+              "label": "1 pl. inclusive",
+              "cells": [
+                "మనం",
+                "మన",
+                "our, yours and mine"
+              ]
+            },
+            {
+              "label": "2 pl. and polite sg.",
+              "cells": [
+                "మీరు",
+                "మీ",
+                "your"
+              ]
+            }
+          ],
+          "footnote": "The possessive stands **before** its noun and takes no ending of its own, so *నా పుస్తకం* and *నా పుస్తకాలు* are the same word twice — number is the noun’s business, not the possessive’s."
+        }
+      ],
+      "examples": [
+        {
+          "target": "ఇది నా పుస్తకం.",
+          "roman": "idi nā pustakaṁ.",
+          "gloss": "This is my book.",
+          "note": "a book is one’s own — నా"
+        },
+        {
+          "target": "ఇది మా ఇల్లు.",
+          "roman": "idi mā illu.",
+          "gloss": "This is my house.",
+          "note": "a household has other members — మా, though English says *my*"
+        },
+        {
+          "target": "ఆమె మా అమ్మ.",
+          "roman": "āme mā amma.",
+          "gloss": "She is my mother.",
+          "note": "likewise"
+        },
+        {
+          "target": "నీ పేరు ఏమిటి?",
+          "roman": "nī pēru ēmiṭi?",
+          "gloss": "What is your name?"
+        },
+        {
+          "target": "మన ఊరు",
+          "roman": "mana ūru",
+          "gloss": "our village — yours and mine",
+          "note": "the possessive of మనం"
+        }
+      ],
+      "footnotes": [],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Krishnamurti, Bhadriraju & Gwynn, J. P. L., *A Grammar of Modern Telugu*. Delhi: Oxford University Press, 1985, §8.3, §8.4(4).",
+          "note": "Source for the possessive stems and for the నా / మా rule."
+        }
+      ],
+      "seeAlso": [
+        "personal-pronouns",
+        "we-inclusive-exclusive",
+        "possessive-na"
+      ],
+      "core": true
+    },
+    {
+      "id": "third-person-respect",
+      "number": "55",
+      "heading": "The Third Person, and How Much Respect It Carries",
+      "statement": "For the third person Telugu uses demonstratives, several for each gender, graded by respect. **వాడు** of a grown man is an insult, and **అది** of a woman is worse; the ordinary forms for a stranger are **అతను** or **ఆయన** of a man and **ఆమె** of a woman.",
+      "paradigms": [
+        {
+          "caption": "The third person of the distant series",
+          "columns": [
+            "of a male person",
+            "of a female person",
+            "degree of respect"
+          ],
+          "rows": [
+            {
+              "label": "singular",
+              "cells": [
+                "వాడు",
+                "అది",
+                "very informal, intimate, impolite"
+              ]
+            },
+            {
+              "label": "singular",
+              "cells": [
+                "అతను",
+                "ఆవిడ",
+                "informal"
+              ]
+            },
+            {
+              "label": "singular",
+              "cells": [
+                "ఆయన",
+                "ఆమె",
+                "formal, and the ordinary polite choice"
+              ]
+            },
+            {
+              "label": "singular",
+              "cells": [
+                "వారు",
+                "వారు",
+                "very polite — a plural form used of one person"
+              ]
+            },
+            {
+              "label": "plural",
+              "cells": [
+                "వాళ్ళు, వారు",
+                "వాళ్ళు, వారు",
+                "one form for people of either sex (¶49)"
+              ]
+            }
+          ],
+          "footnote": "Of a thing there is only **అది** in the singular and **అవి** in the plural: things are not owed respect and have no grades."
+        }
+      ],
+      "examples": [
+        {
+          "target": "ఆయన ఎవరు?",
+          "roman": "āyana evaru?",
+          "gloss": "Who is he? (of a man one respects)"
+        },
+        {
+          "target": "ఆమె ఎవరు?",
+          "roman": "āme evaru?",
+          "gloss": "Who is she?"
+        },
+        {
+          "target": "అది పెద్ద చెట్టు.",
+          "roman": "adi pedda ceṭṭu.",
+          "gloss": "That is a big tree.",
+          "note": "అది of a thing carries no rudeness — only of a person"
+        }
+      ],
+      "footnotes": [
+        "వారు takes a plural verb even of one person, which is how respect is marked in the verb as well as in the pronoun.",
+        "A single person of the first degree of respect takes **వారు** and with it a plural verb, as Brown notes: *మా తండ్రి నాకు యిచ్చిరి*, \"my father gave me\", literally \"our father gave (pl.)\"."
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Krishnamurti, Bhadriraju & Gwynn, J. P. L., *A Grammar of Modern Telugu*. Delhi: Oxford University Press, 1985, §7.4–7.6.",
+          "note": "Source for the four degrees of respect and their labels."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Brown, Charles Philip, *A Grammar of the Telugu Language*, 2nd ed. Madras: Christian Knowledge Society's Press, 1857, p. 190.",
+          "url": "https://archive.org/details/brown-a-grammar-of-the-telugu-language",
+          "licence": "Public domain (published 1857)",
+          "note": "\"A singular noun major (mahat) may often govern a plural verb.\""
+        }
+      ],
+      "seeAlso": [
+        "personal-pronouns",
+        "masculine-singular",
+        "nonmasculine-singular",
+        "masculine-plural",
+        "nonmasculine-plural"
+      ],
+      "core": true
+    },
+    {
+      "id": "near-and-far",
+      "number": "56",
+      "heading": "The Near Series and the Far",
+      "statement": "Beside the **far** third-person series in **అ-** runs a **near** series in **ఇ-**, of what is close to the speaker: **ఇతను, ఈమె, ఇది, వీళ్ళు** against **అతను, ఆమె, అది, వాళ్ళు**. The two series are parallel — genders, respect, verb agreement — so ¶55 holds for both; this is the ఇ- / అ- opposition of ¶35.",
+      "paradigms": [
+        {
+          "caption": "The two series",
+          "columns": [
+            "near — ఇ-",
+            "far — అ-",
+            "of what"
+          ],
+          "rows": [
+            {
+              "label": "masculine sg.",
+              "cells": [
+                "వీడు / ఇతను / ఈయన",
+                "వాడు / అతను / ఆయన",
+                "a male person"
+              ]
+            },
+            {
+              "label": "non-masculine sg.",
+              "cells": [
+                "ఇది / ఈమె / ఈవిడ",
+                "అది / ఆమె / ఆవిడ",
+                "a woman, an animal, a thing"
+              ]
+            },
+            {
+              "label": "masculine pl.",
+              "cells": [
+                "వీళ్ళు / వీరు",
+                "వాళ్ళు / వారు",
+                "persons of either sex"
+              ]
+            },
+            {
+              "label": "non-masculine pl.",
+              "cells": [
+                "ఇవి",
+                "అవి",
+                "animals and things"
+              ]
+            }
+          ],
+          "footnote": "Only the first letter differs between the columns. The far series is the commoner in speech, and is the unmarked choice where the situation calls for neither."
+        }
+      ],
+      "examples": [
+        {
+          "target": "ఇది నా పుస్తకం. అది మా ఇల్లు.",
+          "roman": "idi nā pustakaṁ. adi mā illu.",
+          "gloss": "This is my book. That is my house.",
+          "note": "near and far, of things"
+        },
+        {
+          "target": "ఇతను మా అన్న.",
+          "roman": "itanu mā anna.",
+          "gloss": "This one is my elder brother.",
+          "note": "near, of a male person"
+        },
+        {
+          "target": "వీళ్ళు మా స్నేహితులు.",
+          "roman": "vīḷḷu mā snēhitulu.",
+          "gloss": "These are my friends.",
+          "note": "near, masculine plural — persons of either sex"
+        },
+        {
+          "target": "ఇవి నా పుస్తకాలు.",
+          "roman": "ivi nā pustakālu.",
+          "gloss": "These are my books.",
+          "note": "near, non-masculine plural"
+        }
+      ],
+      "footnotes": [],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Krishnamurti, Bhadriraju & Gwynn, J. P. L., *A Grammar of Modern Telugu*. Delhi: Oxford University Press, 1985, §7.4.",
+          "note": "\"Grammatically, the two series are exactly parallel, and hence whatever is said in the following paragraphs regarding the forms వాడు, అది, etc., applies equally to the forms వీడు, ఇది, etc.\""
+        }
+      ],
+      "seeAlso": [
+        "third-person-respect",
+        "idi-adi"
+      ],
+      "core": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "lemma": "నువ్వు",
+      "gloss": "you (singular, familiar)",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "నువ్వు",
+        "translit": "nuvvu"
+      }
+    },
+    {
+      "lemma": "మేము",
+      "gloss": "we (not including you)",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "మేము",
+        "translit": "mēmu"
+      }
+    },
+    {
+      "lemma": "మనం",
+      "gloss": "we (including you)",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "మనం",
+        "translit": "manaṁ"
+      }
+    },
+    {
+      "lemma": "మీరు",
+      "gloss": "you (plural or polite)",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "మీరు",
+        "translit": "mīru"
+      }
+    },
+    {
+      "lemma": "ఆయన",
+      "gloss": "he (formal, respectful)",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "ఆయన",
+        "translit": "āyana"
+      }
+    },
+    {
+      "lemma": "వాడు",
+      "gloss": "he (very informal; rude of a stranger)",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "వాడు",
+        "translit": "vāḍu"
+      }
+    },
+    {
+      "lemma": "వారు",
+      "gloss": "he (plural in form, the highest degree of respect, used of one person)",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "వారు",
+        "translit": "vāru"
+      }
+    },
+    {
+      "lemma": "మన",
+      "gloss": "our (yours and mine)",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "మన",
+        "translit": "mana"
+      }
+    },
+    {
+      "lemma": "ఇతను",
+      "gloss": "he (near series)",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "ఇతను",
+        "translit": "itanu"
+      }
+    },
+    {
+      "lemma": "ఈమె",
+      "gloss": "she (near series)",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "ఈమె",
+        "translit": "īme"
+      }
+    },
+    {
+      "lemma": "మీ",
+      "gloss": "your (plural or polite)",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "మీ",
+        "translit": "mī"
+      }
+    }
+  ],
+  "drills": [
+    {
+      "id": "tepr-q1",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "You are speaking to a friend and mean *we* — yourself and that friend. Which sentence is right?",
+      "options": [
+        "మేము ఇక్కడ.",
+        "మనం ఇక్కడ.",
+        "మీరు ఇక్కడ.",
+        "వాళ్ళు ఇక్కడ."
+      ],
+      "correct": 1,
+      "explanation": "*మనం ఇక్కడ* includes the hearer. *మేము ఇక్కడ* would mean you and others, but not the person you are talking to.",
+      "rulesTested": [
+        "we-inclusive-exclusive"
+      ],
+      "vocabUsed": [
+        "మేము",
+        "మనం",
+        "మీరు",
+        "వాళ్ళు"
+      ]
+    },
+    {
+      "id": "tepr-q2",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "**మీరు ఎవరు?** — said to one stranger. Why *మీరు* and not *నువ్వు*?",
+      "options": [
+        "Because the stranger is plural.",
+        "Because *మీరు* is the polite singular as well as the plural.",
+        "Because *నువ్వు* is only used of women.",
+        "Because *మీరు* means *they*."
+      ],
+      "correct": 1,
+      "explanation": "*మీరు* serves as both the plural and the polite singular, as *jūs* does in Lithuanian. *నువ్వు* is for a close friend, a relative, an inferior or a child.",
+      "rulesTested": [
+        "personal-pronouns"
+      ],
+      "vocabUsed": [
+        "నువ్వు",
+        "మీరు",
+        "మనం"
+      ]
+    },
+    {
+      "id": "tepr-q3",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "You and your friends are here; the person you are talking to is somewhere else. Which sentence fits?",
+      "options": [
+        "మనం ఇక్కడ.",
+        "మేము ఇక్కడ. మీరు అక్కడ.",
+        "మీరు ఇక్కడ. మేము అక్కడ.",
+        "వాళ్ళు ఇక్కడ."
+      ],
+      "correct": 1,
+      "explanation": "*మేము* excludes the hearer; *మీరు అక్కడ* makes the exclusion plain. *మనం ఇక్కడ* would pull the hearer into the group.",
+      "rulesTested": [
+        "we-inclusive-exclusive",
+        "personal-pronouns"
+      ],
+      "vocabUsed": [
+        "మేము",
+        "మనం",
+        "మీరు"
+      ]
+    },
+    {
+      "id": "tepr-q4",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "**నేను రవి. నువ్వు మా అన్న.** What does **నువ్వు** mark about the relationship?",
+      "options": [
+        "Polite distance from a stranger.",
+        "Familiar address — a close friend, a relative, a child.",
+        "Plural *you*.",
+        "Exclusive *we*."
+      ],
+      "correct": 1,
+      "explanation": "*నువ్వు* is the familiar singular, used to a close friend, a relative, an inferior or a child. To a stranger one would ask *మీరు ఎవరు?*",
+      "rulesTested": [
+        "personal-pronouns"
+      ],
+      "vocabUsed": [
+        "నువ్వు",
+        "మీరు"
+      ]
+    },
+    {
+      "id": "tepr-q5",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Which of these does Telugu **not** have?",
+      "options": [
+        "A pronoun for *we* that excludes the hearer.",
+        "A pronoun for *we* that includes the hearer.",
+        "A third-person pronoun proper, distinct from the demonstratives.",
+        "A polite word for *you* in the singular."
+      ],
+      "correct": 2,
+      "explanation": "For *he*, *she* and *it* Telugu uses its demonstratives — the అ- and ఇ- series — and that is exactly why gender shows up in the third person and in no other. The other three it has: మేము, మనం and మీరు.",
+      "rulesTested": [
+        "personal-pronouns",
+        "third-person-respect"
+      ],
+      "vocabUsed": [
+        "మేము",
+        "మనం",
+        "మీరు",
+        "నేను"
+      ]
+    },
+    {
+      "id": "tepr-q6",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "**___ ఇల్లు పెద్దది.** You mean the house you and your family live in. Which possessive?",
+      "options": [
+        "నా",
+        "మా",
+        "మన",
+        "మీ"
+      ],
+      "correct": 1,
+      "explanation": "మా. A house is shared with the rest of the household, and నా is only for what belongs to the speaker alone — a book, a name. *మన ఇల్లు* would drag the person you are speaking to into the household as well, and *మీ ఇల్లు* would make it theirs.",
+      "rulesTested": [
+        "possessive-stems",
+        "possessive-na"
+      ],
+      "vocabUsed": [
+        "నా",
+        "మా",
+        "మన",
+        "మీ",
+        "ఇల్లు"
+      ]
+    },
+    {
+      "id": "tepr-q7",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which of these are correct as they stand?",
+      "options": [
+        "ఇది నా పుస్తకం.",
+        "ఆమె నా అమ్మ.",
+        "మన ఇల్లు పెద్దది.",
+        "నా పేరు రవి."
+      ],
+      "correct": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "*ఆమె నా అమ్మ* is the error: a mother is not one person’s alone, so మా. A book, a house shared with the hearer, and a name are all correctly possessed — the name being the clearest case of నా, since nobody else has it.",
+      "rulesTested": [
+        "possessive-stems",
+        "possessive-na"
+      ],
+      "vocabUsed": [
+        "నా",
+        "మా",
+        "మన",
+        "పుస్తకం",
+        "అమ్మ",
+        "ఇల్లు",
+        "పేరు"
+      ]
+    },
+    {
+      "id": "tepr-q8",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "You are telling a friend where to meet. Which sentence puts the two of you in the same group?",
+      "options": [
+        "మేము ఇక్కడ.",
+        "మనం ఇక్కడ.",
+        "మీరు ఇక్కడ.",
+        "వాళ్ళు ఇక్కడ."
+      ],
+      "correct": 1,
+      "explanation": "మనం includes the hearer, which is what an arrangement between two people needs. *మేము ఇక్కడ* tells the friend where your party is and leaves them out of it — the same English sentence, and the opposite social act.",
+      "rulesTested": [
+        "we-inclusive-exclusive",
+        "personal-pronouns"
+      ],
+      "vocabUsed": [
+        "మేము",
+        "మనం",
+        "మీరు",
+        "వాళ్ళు",
+        "ఇక్కడ"
+      ]
+    },
+    {
+      "id": "tepr-q10",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "**ఇతను** and **అతను** differ in their first letter only. What does the difference mark?",
+      "options": [
+        "Respect: ఇతను is the politer.",
+        "Nearness: ఇతను of someone close by, అతను of someone further off.",
+        "Gender: ఇతను is masculine and అతను non-masculine.",
+        "Number: ఇతను is singular and అతను plural."
+      ],
+      "correct": 1,
+      "explanation": "The ఇ- series is the near one and the అ- series the far, exactly as with ఇక్కడ and అక్కడ, ఇది and అది (¶35). Both are masculine, both singular, and both sit at the same degree of respect — the series and the respect grade are two independent choices.",
+      "rulesTested": [
+        "near-and-far",
+        "third-person-respect"
+      ],
+      "vocabUsed": [
+        "అతను",
+        "ఇక్కడ",
+        "అక్కడ",
+        "ఇది",
+        "అది"
+      ]
+    },
+    {
+      "id": "tepr-q11",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which of these pair a **near** word with the right description?",
+      "options": [
+        "వీళ్ళు — these persons, of either sex",
+        "ఇవి — these things",
+        "ఈమె — this woman",
+        "ఇది — these things"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "ఇది is the *singular* — this woman, this animal, this thing — and its plural is ఇవి. The other three are right, and వీళ్ళు covers both sexes just as వాళ్ళు does (¶50): the near series reproduces the whole gender system and not merely the words.",
+      "rulesTested": [
+        "near-and-far",
+        "masculine-plural",
+        "nonmasculine-plural",
+        "nonmasculine-singular"
+      ],
+      "vocabUsed": [
+        "ఇది",
+        "అది",
+        "వాళ్ళు",
+        "అవి"
+      ]
+    },
+    {
+      "id": "tepr-q12",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "Of **వాడు, అతను, ఆయన, వారు**, how many are of the **masculine** gender?",
+      "answer": 4,
+      "unit": "words",
+      "explanation": "All four. They differ in the respect they show and not at all in gender, which is why choosing among them is a social decision and never a grammatical one. Answering fewer usually means taking వారు for a plural — it is plural in *form*, and used of one man it is the politest word there is.",
+      "rulesTested": [
+        "third-person-respect",
+        "masculine-singular"
+      ],
+      "vocabUsed": [
+        "వాడు",
+        "అతను",
+        "ఆయన",
+        "వారు"
+      ]
+    },
+    {
+      "id": "tepr-q13",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "A learner says **అది మా అమ్మ** of their mother. The grammar is faultless. What is wrong?",
+      "options": [
+        "Nothing at all.",
+        "అది is the impolite word for a woman; ఆమె or ఆవిడ is wanted.",
+        "అది is non-masculine and a mother is masculine.",
+        "మా should be నా."
+      ],
+      "correct": 1,
+      "explanation": "అది is the regular non-masculine singular and agrees perfectly — which is exactly the trap. Krishnamurti and Gwynn mark it *very informal, intimate, impolite* of a person. The gender is right, the possessive is right, and the sentence is still not one to say. Grammar and respect are different systems (¶55).",
+      "rulesTested": [
+        "third-person-respect",
+        "nonmasculine-singular",
+        "possessive-stems"
+      ],
+      "vocabUsed": [
+        "అది",
+        "ఆమె",
+        "మా",
+        "అమ్మ"
+      ]
+    },
+    {
+      "id": "tepr-q9",
+      "type": "matching",
+      "difficulty": "hard",
+      "stem": "Match each third-person word with what it is used of. One entry in Column II is used by none of them.",
+      "columnHeadings": [
+        "Word",
+        "Used of"
+      ],
+      "columnI": [
+        "వాడు",
+        "ఆయన",
+        "అది",
+        "అవి"
+      ],
+      "columnII": [
+        "a male person, spoken of with respect",
+        "a male person, spoken of without respect",
+        "a woman or a single thing",
+        "people of either sex, in the plural",
+        "animals or things, in the plural"
+      ],
+      "options": [
+        [
+          1,
+          0,
+          2,
+          4
+        ],
+        [
+          0,
+          1,
+          2,
+          4
+        ],
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          1,
+          0,
+          3,
+          4
+        ]
+      ],
+      "correct": 0,
+      "explanation": "వాడు is the impolite word for a man and ఆయన the respectful one — the second option reverses them, which is the mistake that gives most offence. అది covers a woman and a thing alike in the singular (¶49), so the fourth option, which makes it plural, confuses number with gender. అవి is for things only; the third option gives it to people, forgetting that in the plural వాళ్ళు takes both sexes. \"People of either sex, in the plural\" belongs to వాళ్ళు, which is not in Column I.",
+      "rulesTested": [
+        "third-person-respect",
+        "masculine-singular",
+        "nonmasculine-singular",
+        "masculine-plural",
+        "nonmasculine-plural"
+      ],
+      "vocabUsed": [
+        "వాడు",
+        "ఆయన",
+        "అవి",
+        "వాళ్ళు"
+      ]
+    },
+    {
+      "id": "tepr-p1",
+      "type": "comprehension",
+      "difficulty": "medium",
+      "title": "మనం ఎక్కడ?",
+      "passage": "ఇది మా ఇల్లు. ఇతను మా అన్న. అతని పేరు రవి. ఈమె మా అమ్మ. వీళ్ళు మా స్నేహితులు. అవి నా పుస్తకాలు.\nరవి: మనం ఇక్కడ. మీరు ఎక్కడ?\nఅమ్మ: మేము అక్కడ.",
+      "romanization": "idi mā illu. itanu mā anna. atani pēru ravi. īme mā amma. vīḷḷu mā snēhitulu. avi nā pustakālu.\nravi: manaṁ ikkaḍa. mīru ekkaḍa?\namma: mēmu akkaḍa.",
+      "translation": "This is my house. This is my elder brother. His name is Ravi. This is my mother. These are my friends. Those are my books.\nRAVI: We are here. Where are you?\nMOTHER: We are there.",
+      "glossary": {
+        "అతని": "his",
+        "వీళ్ళు": "these people"
+      },
+      "questions": [
+        {
+          "id": "tepr-p1-q1",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "అన్న పేరు ఏమిటి?",
+          "options": [
+            "రవి",
+            "మా అమ్మ",
+            "పుస్తకాలు",
+            "ఇల్లు"
+          ],
+          "correct": 0,
+          "explanation": "*ఇతను మా అన్న. అతని పేరు రవి.* The second sentence names nobody: అతని, *his*, carries the reference over from the first, which is what a pronoun is for.",
+          "rulesTested": [
+            "near-and-far",
+            "possessive-stems",
+            "asking-what-who"
+          ],
+          "vocabUsed": [
+            "అన్న",
+            "పేరు",
+            "అమ్మ",
+            "పుస్తకం",
+            "ఇల్లు"
+          ]
+        },
+        {
+          "id": "tepr-p1-q2",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "అమ్మ ఎక్కడ?",
+          "options": [
+            "ఇక్కడ",
+            "అక్కడ",
+            "ఇల్లు",
+            "రవి"
+          ],
+          "correct": 1,
+          "explanation": "*మేము అక్కడ*, says the mother. Note which word for *we* she chooses: మేము excludes Ravi, who has just asked where she is — had she said మనం she would have been claiming to stand where he stands.",
+          "rulesTested": [
+            "we-inclusive-exclusive",
+            "idi-adi"
+          ],
+          "vocabUsed": [
+            "మేము",
+            "మనం",
+            "ఇక్కడ",
+            "అక్కడ",
+            "అమ్మ"
+          ]
+        },
+        {
+          "id": "tepr-p1-q3",
+          "type": "multi",
+          "difficulty": "hard",
+          "stem": "Which statements about the passage’s pronouns are correct?",
+          "options": [
+            "ఇతను and ఈమె are the near series; అతని refers back to ఇతను.",
+            "వీళ్ళు covers friends of either sex.",
+            "Ravi says మనం and his mother answers మేము, so the two are not in the same place.",
+            "అవి is used of the books because books are not persons."
+          ],
+          "correct": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "explanation": "All four. The passage is built to put the whole system in nine lines: the near series against the far, one plural word for friends of both sexes (¶50), the inclusive against the exclusive *we*, and అవి for what is not a person (¶57).",
+          "rulesTested": [
+            "near-and-far",
+            "masculine-plural",
+            "nonmasculine-plural",
+            "we-inclusive-exclusive",
+            "third-person-respect"
+          ],
+          "vocabUsed": [
+            "వాళ్ళు",
+            "అవి",
+            "మేము",
+            "మనం",
+            "స్నేహితులు",
+            "పుస్తకం"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Krishnamurti, Bhadriraju & Gwynn, J. P. L., *A Grammar of Modern Telugu*. Delhi: Oxford University Press, 1985, §7.4–7.6, §8.3–8.4.",
+          "note": "Source for the two series, the respect grades and the inclusive–exclusive pair the dialogue turns on."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Krishnamurti, Bhadriraju & Gwynn, J. P. L., *A Grammar of Modern Telugu*. Delhi: Oxford University Press, 1985, §7.4–7.6 (the third person), §8.3–8.4 (the personal pronouns and the possessives).",
+      "note": "Descriptive source for the paradigms and rule statements on this page."
+    },
+    {
+      "kind": "grammar",
+      "citation": "Brown, Charles Philip, *A Grammar of the Telugu Language*, 2nd ed. Madras: Christian Knowledge Society’s Press, 1857, p. 190.",
+      "url": "https://archive.org/details/brown-a-grammar-of-the-telugu-language",
+      "licence": "Public domain (published 1857)",
+      "note": "Source for the plural verb taken by a singular noun of the first degree of respect."
+    }
+  ]
+}

@@ -19,6 +19,9 @@ const base = {
   explanation: "because",
   rulesTested: [],
   vocabUsed: [],
+  // Marking has nothing to do with how the item is rendered; these fixtures
+  // carry the flag only because the schema gives every question one.
+  scriptCritical: false,
 };
 
 function single(id: string, correct: number): AtomicQuestion {
@@ -269,6 +272,7 @@ describe("checkpoint aggregation", () => {
       {
         id: "p1",
         type: "comprehension",
+        scriptCritical: false,
         difficulty: "medium",
         title: "Passage",
         passage: "…",
@@ -307,6 +311,7 @@ describe("checkpoint aggregation", () => {
         {
           id: "p2",
           type: "comprehension",
+          scriptCritical: false,
           difficulty: "medium",
           title: "Passage",
           passage: "…",
@@ -375,6 +380,7 @@ describe("helpers", () => {
         {
           id: "p",
           type: "comprehension",
+          scriptCritical: false,
           difficulty: "easy",
           title: "t",
           passage: "…",

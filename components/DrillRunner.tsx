@@ -129,7 +129,9 @@ function QuestionBody({
               .join("   ")}
           </span>
         ))
-      : question.options.map((option) => inline(option));
+      : question.options.map((option) =>
+          inline(option, !question.scriptCritical),
+        );
 
   return (
     <>
@@ -181,6 +183,9 @@ function QuestionBody({
  */
 function MatchingColumns({ question }: { question: MatchingQuestion }) {
   const [headI, headII] = question.columnHeadings;
+  // Matching a glyph against its reading is a real exercise, and it is the one
+  // the derived romanization would do for the learner: see `scriptCritical`.
+  const roman = !question.scriptCritical;
   return (
     <div className="mt-3 grid gap-3 sm:grid-cols-2">
       <table className="w-full border-collapse overflow-hidden rounded border border-rule bg-raised text-sm">
@@ -193,7 +198,7 @@ function MatchingColumns({ question }: { question: MatchingQuestion }) {
               <th className="w-8 px-3 py-1.5 text-left align-top font-medium text-ink-faint">
                 {COLUMN_I_KEYS[i]}
               </th>
-              <td className="px-3 py-1.5 align-top">{inline(item)}</td>
+              <td className="px-3 py-1.5 align-top">{inline(item, roman)}</td>
             </tr>
           ))}
         </tbody>
@@ -209,7 +214,7 @@ function MatchingColumns({ question }: { question: MatchingQuestion }) {
               <th className="w-8 px-3 py-1.5 text-left align-top font-medium text-ink-faint">
                 {i + 1}
               </th>
-              <td className="px-3 py-1.5 align-top">{inline(item)}</td>
+              <td className="px-3 py-1.5 align-top">{inline(item, roman)}</td>
             </tr>
           ))}
         </tbody>
@@ -254,7 +259,9 @@ function QuestionCard({
         )}
       </div>
 
-      <p className="mt-2 leading-relaxed">{inline(question.stem)}</p>
+      <p className="mt-2 leading-relaxed">
+        {inline(question.stem, !question.scriptCritical)}
+      </p>
 
       <QuestionBody
         question={question}
@@ -264,6 +271,10 @@ function QuestionCard({
         showAnswer={showAnswer}
       />
 
+      {/* The explanation keeps its romanization even on a script-critical item:
+          it is only shown once the answer is in, so it can no longer give
+          anything away, and this is where a learner who misread the glyph
+          finds out what it actually said. */}
       {showAnswer && (
         <p className="mt-3 rounded bg-accent-soft/60 px-3 py-2 text-sm text-ink-soft">
           {inline(question.explanation)}
@@ -284,6 +295,15 @@ const TYPE_LABEL: Record<string, string> = {
 
 function Passage({ drill }: { drill: Extract<Drill, { type: "comprehension" }> }) {
   const glossary = Object.entries(drill.glossary);
+  // A passage in the script sections is set to be decoded, so it carries no
+  // parallel Latin text and no reading beside its glossary words. Elsewhere the
+  // romanization is what keeps the passage readable by a learner who came for
+  // the grammar. See `ComprehensionDrill.scriptCritical`.
+  const roman = !drill.scriptCritical;
+  const parallel = roman
+    ? (drill.romanization ??
+      (hasTelugu(drill.passage) ? transliterateTelugu(drill.passage) : ""))
+    : "";
   return (
     <div className="mb-6 rounded border border-rule bg-raised p-4">
       <p className="mb-2 text-xs uppercase tracking-wide text-ink-faint">
@@ -293,11 +313,11 @@ function Passage({ drill }: { drill: Extract<Drill, { type: "comprehension" }> }
           a notice — so the text is rendered line by line rather than as one
           run-on paragraph. */}
       <div className="target text-lg leading-loose not-italic">
-        {lines(drill.passage)}
+        {lines(drill.passage, "", roman)}
       </div>
-      {(drill.romanization ?? (hasTelugu(drill.passage) ? transliterateTelugu(drill.passage) : "")) && (
+      {parallel && (
         <div className="mt-2 text-sm leading-relaxed text-ink-faint">
-          {lines(drill.romanization ?? transliterateTelugu(drill.passage))}
+          {lines(parallel)}
         </div>
       )}
       {glossary.length > 0 && (
@@ -306,7 +326,7 @@ function Passage({ drill }: { drill: Extract<Drill, { type: "comprehension" }> }
             <div key={word} className="flex gap-1.5">
               <dt className="target not-italic">
                 {word}
-                {hasTelugu(word) && ` (${transliterateTelugu(word)})`}
+                {roman && hasTelugu(word) && ` (${transliterateTelugu(word)})`}
               </dt>
               <dd>— {gloss}</dd>
             </div>

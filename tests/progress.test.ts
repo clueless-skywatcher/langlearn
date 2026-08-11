@@ -13,7 +13,12 @@ import { gradeDrillSet, type Response } from "@/lib/scoring";
 
 /* ------------------------------------------------ a minimal course to sit */
 
-const base = { explanation: "because", rulesTested: [], vocabUsed: [] };
+const base = {
+  explanation: "because",
+  rulesTested: [],
+  vocabUsed: [],
+  scriptCritical: false,
+};
 
 const lesson: LessonSection = {
   id: "s1",

@@ -114,7 +114,7 @@
   "rules": [
     {
       "id": "vowel-signs",
-      "number": "20",
+      "number": "22",
       "heading": "The Vowel Sign",
       "statement": "A consonant carries the vowel అ of itself (¶8). To make it carry any **other** vowel, a **sign** is attached to it, and that sign **replaces** the inherent vowel rather than adding to it: కి is *ki*, not *kai* or *kai*. The signs are not the independent vowel letters of ¶7 but a separate set of shapes, and the two must never be confused.",
       "examples": [
@@ -144,7 +144,7 @@
     },
     {
       "id": "gunintam",
-      "number": "21",
+      "number": "23",
       "heading": "The Guṇintam",
       "statement": "The series of one consonant taken through all sixteen vowels is called its **గుణింతం**. Every consonant has one, and every guṇintam uses **the same signs in the same order**, so that the sixteen signs learned once serve all thirty-six consonants — five hundred and seventy-six syllables from fifty-two letters and sixteen marks. This is the economy that makes an abugida worth learning.",
       "paradigms": [
@@ -211,11 +211,12 @@
       "seeAlso": [
         "vowel-signs"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "sign-positions",
-      "number": "22",
+      "number": "24",
       "heading": "Where the Signs Are Written",
       "statement": "A vowel sign is not written after its consonant as a letter would be. Some stand **above** the consonant, some **below** it, some to its **right**, and some are made of parts in more than one place at once. This is why Telugu cannot be read letter by letter from left to right as English is: the eye must take in a whole syllable, with everything attached to it, before it can be sounded.",
       "paradigms": [
@@ -283,11 +284,12 @@
         "vowel-signs",
         "talakattu"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "no-sign-for-a",
-      "number": "23",
+      "number": "25",
       "heading": "There Is No Sign for అ",
       "statement": "Of the sixteen vowels, fifteen have a sign and **అ has none**, because a consonant already carries it. It follows that the bare consonant letter *is* the first member of its own guṇintam, and that anything written on a consonant is by definition **not** అ. A learner who looks for a sign meaning *a* is looking for something that does not exist.",
       "examples": [
@@ -305,11 +307,12 @@
         "inherent-vowel",
         "gunintam"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "sign-shape-change",
-      "number": "24",
+      "number": "26",
       "heading": "How the Consonant Changes Shape",
       "statement": "Several signs do not merely sit beside the consonant but **alter it**, taking the place of the తలకట్టు (¶6) or reshaping the top of the letter. క, కి and కె are one consonant in three dresses. This is the point at which a learner who knows the bare alphabet discovers they still cannot read: the letters on the page are not quite the letters on the chart.",
       "examples": [
@@ -328,11 +331,12 @@
         "talakattu",
         "sign-positions"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "reading-syllable",
-      "number": "25",
+      "number": "27",
       "heading": "Reading a Syllable",
       "statement": "To read a Telugu syllable, take the consonant, then look **above, below and to the right** for a sign, and sound the consonant with whatever vowel that sign names — or with అ if there is none. A Telugu word therefore has as many syllables as it has consonant-clusters, and a word of three written units is a word of three syllables.",
       "examples": [
@@ -357,7 +361,8 @@
         "sign-positions",
         "no-sign-for-a"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     }
   ],
   "vocabulary": [
@@ -453,7 +458,8 @@
       ],
       "vocabUsed": [
         "గుణింతం"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te104-q2",
@@ -474,7 +480,8 @@
       ],
       "vocabUsed": [
         "గుణింతం"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te104-q3",
@@ -495,7 +502,8 @@
       ],
       "vocabUsed": [
         "గుణింతం"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te104-q4",
@@ -516,7 +524,8 @@
       ],
       "vocabUsed": [
         "గుణింతం"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te104-q5",
@@ -538,7 +547,8 @@
       "vocabUsed": [
         "అచ్చులు",
         "గుణింతం"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te104-q6",
@@ -562,7 +572,8 @@
       ],
       "vocabUsed": [
         "గుణింతం"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te104-q7",
@@ -583,7 +594,8 @@
       ],
       "vocabUsed": [
         "కల"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te104-q8",
@@ -604,7 +616,8 @@
       ],
       "vocabUsed": [
         "పులి"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te104-q9",
@@ -625,7 +638,8 @@
       ],
       "vocabUsed": [
         "నది"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te104-q10",
@@ -647,7 +661,8 @@
       "vocabUsed": [
         "కాలు",
         "కల"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te104-q11",
@@ -696,7 +711,8 @@
       "vocabUsed": [
         "గుణింతం",
         "అచ్చులు"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te104-q13",
@@ -713,7 +729,8 @@
       "vocabUsed": [
         "గుణింతం",
         "అచ్చులు"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te104-q14",
@@ -735,7 +752,8 @@
       "vocabUsed": [
         "అనుస్వారం",
         "గుణింతం"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te104-q15",
@@ -762,7 +780,8 @@
       "vocabUsed": [
         "గుణింతం",
         "వర్గం"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te104-q16",
@@ -776,7 +795,7 @@
         "Words are written right to left."
       ],
       "correct": 1,
-      "explanation": "The signs take the place of the headstroke or reshape the top of the letter (¶24). The chart teaches thirty-six shapes; the page shows those shapes in sixteen dresses apiece.",
+      "explanation": "The signs take the place of the headstroke or reshape the top of the letter (¶26). The chart teaches thirty-six shapes; the page shows those shapes in sixteen dresses apiece.",
       "rulesTested": [
         "sign-shape-change",
         "talakattu"
@@ -837,7 +856,8 @@
       ],
       "vocabUsed": [
         "మనసు"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te104-q20",
@@ -854,7 +874,8 @@
       ],
       "vocabUsed": [
         "పని"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te104-q21",
@@ -877,7 +898,8 @@
         "అచ్చులు",
         "గుణింతం",
         "ఇల్లు"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te104-q22",
@@ -903,7 +925,8 @@
       ],
       "vocabUsed": [
         "తల"
-      ]
+      ],
+      "scriptCritical": true
     }
   ],
   "sources": [

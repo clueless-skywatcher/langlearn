@@ -147,7 +147,8 @@
         "varga-grid",
         "vowel-count"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "semivowels",
@@ -172,7 +173,8 @@
         "outside-grid",
         "vowel-vocalic"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
       "id": "sibilants",
@@ -233,22 +235,49 @@
         "outside-grid",
         "retroflex-dental"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     },
     {
-      "id": "three-alone",
+      "id": "letter-la",
       "number": "17",
-      "heading": "ళ, ఱ and క్ష",
-      "statement": "Three letters belong to no class. **ళ** is a retroflex *l*, a Dravidian sound with no counterpart in Sanskrit and very common in Telugu. **ఱ** — called *baṇḍi ra*, 'cart r' — was once a separate trilled r; it is obsolete, and modern Telugu writes ర for it. **క్ష** is not a simple sound at all but the conjunct of క and ష, admitted to the alphabet by tradition and counted as its thirty-sixth letter.",
+      "heading": "ళ — Retroflex *l*",
+      "statement": "**ళ** is a retroflex *l*, a Dravidian sound with no counterpart in Sanskrit and very common in Telugu.",
       "examples": [
         {
           "target": "ళ",
           "gloss": "ḷa — retroflex l; Dravidian, not Sanskrit"
-        },
+        }
+      ],
+      "footnotes": [],
+      "seeAlso": [
+        "outside-grid"
+      ],
+      "core": true
+    },
+    {
+      "id": "letter-rra",
+      "number": "18",
+      "heading": "ఱ — *Baṇḍi ra*",
+      "statement": "**ఱ** — *baṇḍi ra*, 'cart r' — was once a separate trilled *r*; it is obsolete, and modern Telugu writes ర for it.",
+      "examples": [
         {
           "target": "ఱ",
           "gloss": "ṟa — baṇḍi ra, obsolete"
-        },
+        }
+      ],
+      "footnotes": [],
+      "seeAlso": [
+        "letter-la"
+      ],
+      "core": true
+    },
+    {
+      "id": "letter-ksha",
+      "number": "19",
+      "heading": "క్ష — The Thirty-sixth Letter",
+      "statement": "**క్ష** is the conjunct of క and ష, admitted to the alphabet by tradition and counted as its thirty-sixth letter.",
+      "examples": [
         {
           "target": "క్ష",
           "gloss": "kṣa — a conjunct counted as a letter"
@@ -258,16 +287,15 @@
         "That the alphabet's last letter is a conjunct and its penultimate a dead one is a reminder that a traditional letter-count records the history of a script rather than its present state."
       ],
       "seeAlso": [
-        "outside-grid",
         "sibilants"
       ],
       "core": true
     },
     {
       "id": "anusvara",
-      "number": "18",
+      "number": "20",
       "heading": "The Anusvāra — ం",
-      "statement": "**ం** is a small circle written after a vowel, and it stands for a **nasal**. Its particular sound is not fixed: before a consonant it takes the nasal of that consonant's own varga, so that ం before a labial is sounded *m* and before a retroflex *ṇ*. At the end of a word it is sounded *m*. It is the commonest mark in written Telugu, because a great many nouns end in **-ం**.",
+      "statement": "**ం** is a small circle written after a vowel and stands for a **nasal**. Before a consonant it takes the nasal of that consonant's own varga; at the end of a word it is sounded *m*.",
       "examples": [
         {
           "target": "పుస్తకం",
@@ -286,6 +314,7 @@
         }
       ],
       "footnotes": [
+        "The mark is common on Telugu nouns, many of which end in **-ం**.",
         "This is why the separate nasal letters ఙ and ఞ are so rarely written (¶13): where their sound occurs, the anusvāra does the work."
       ],
       "seeAlso": [
@@ -296,7 +325,7 @@
     },
     {
       "id": "visarga",
-      "number": "19",
+      "number": "21",
       "heading": "The Visarga — ః",
       "statement": "**ః**, written as two dots after a vowel, is a voiceless breath — an echo of the vowel before it. It belongs almost entirely to words borrowed from Sanskrit and is rare in native Telugu. With the anusvāra it makes up the **ఉభయాక్షరాలు**, the two letters of both kinds, counted neither with the vowels nor with the consonants because each is a mark upon a vowel rather than a letter of its own.",
       "examples": [
@@ -314,7 +343,8 @@
         "anusvara",
         "vowel-count"
       ],
-      "core": true
+      "core": true,
+      "footnotes": []
     }
   ],
   "vocabulary": [
@@ -413,7 +443,7 @@
       "id": "te103-q2",
       "type": "single",
       "difficulty": "easy",
-      "stem": "Which letter is **స** (sa)?",
+      "stem": "Which letter is pronounced **sa**?",
       "options": [
         "శ",
         "ష",
@@ -427,13 +457,14 @@
       ],
       "vocabUsed": [
         "ఊష్మాలు"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te103-q3",
       "type": "single",
       "difficulty": "easy",
-      "stem": "Which letter is **ల** (la)?",
+      "stem": "Which letter is pronounced **la**?",
       "options": [
         "ర",
         "ల",
@@ -444,17 +475,20 @@
       "explanation": "ల is the plain l. ళ is its retroflex counterpart, made with the tongue curled back — a distinction English does not draw.",
       "rulesTested": [
         "semivowels",
-        "three-alone"
+        "letter-la",
+        "letter-rra",
+        "letter-ksha"
       ],
       "vocabUsed": [
         "అంతస్థాలు"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te103-q4",
       "type": "single",
       "difficulty": "easy",
-      "stem": "Which letter is **హ** (ha)?",
+      "stem": "Which letter is pronounced **ha**?",
       "options": [
         "హ",
         "మ",
@@ -468,7 +502,8 @@
       ],
       "vocabUsed": [
         "ఊష్మాలు"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te103-q5",
@@ -494,7 +529,8 @@
       "vocabUsed": [
         "అంతస్థాలు",
         "ఊష్మాలు"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te103-q6",
@@ -516,7 +552,8 @@
       "vocabUsed": [
         "ఊష్మాలు",
         "మూర్ధన్యం"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te103-q7",
@@ -532,12 +569,15 @@
       "correct": 0,
       "explanation": "ళ is a retroflex lateral and is very common in Telugu — నీళ్ళు, water, has two of them. The obsolete letter is ఱ, not ళ.",
       "rulesTested": [
-        "three-alone"
+        "letter-la",
+        "letter-rra",
+        "letter-ksha"
       ],
       "vocabUsed": [
         "నీళ్ళు",
         "మూర్ధన్యం"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te103-q8",
@@ -553,12 +593,15 @@
       "correct": 1,
       "explanation": "ఱ was once a separate trilled r. It is dead, and ర does its work — but the traditional count of thirty-six keeps it, which is why the count and the working alphabet differ.",
       "rulesTested": [
-        "three-alone",
-        "outside-grid"
+        "letter-la",
+        "outside-grid",
+        "letter-rra",
+        "letter-ksha"
       ],
       "vocabUsed": [
         "హల్లులు"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te103-q9",
@@ -574,13 +617,16 @@
       "correct": 1,
       "explanation": "క్ష is two consonants written together and admitted to the list by tradition as the thirty-sixth letter. Its inherent vowel it has like any other consonant.",
       "rulesTested": [
-        "three-alone",
-        "inherent-vowel"
+        "letter-la",
+        "inherent-vowel",
+        "letter-rra",
+        "letter-ksha"
       ],
       "vocabUsed": [
         "హల్లులు",
         "అక్షరం"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te103-q10",
@@ -602,7 +648,8 @@
       "vocabUsed": [
         "పండు",
         "అనుస్వారం"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te103-q11",
@@ -623,7 +670,8 @@
       "vocabUsed": [
         "పుస్తకం",
         "అనుస్వారం"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te103-q12",
@@ -651,7 +699,8 @@
         "అనుస్వారం",
         "విసర్గ",
         "వర్ణమాల"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te103-q13",
@@ -671,7 +720,8 @@
       ],
       "vocabUsed": [
         "అంతస్థాలు"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te103-q14",
@@ -691,13 +741,16 @@
       "explanation": "ష is the retroflex sibilant and ళ the retroflex lateral. శ is palatal and ల a plain dental l. The retroflex series runs right through the alphabet, inside the vargas and outside them alike.",
       "rulesTested": [
         "sibilants",
-        "three-alone",
-        "retroflex-dental"
+        "letter-la",
+        "retroflex-dental",
+        "letter-rra",
+        "letter-ksha"
       ],
       "vocabUsed": [
         "మూర్ధన్యం",
         "ఊష్మాలు"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te103-q15",
@@ -722,11 +775,13 @@
       "stem": "Of the thirty-six consonants, how many would a reader of **modern** Telugu never meet as a separate letter?",
       "answer": 3,
       "unit": "letters",
-      "explanation": "Three: ఱ, which is dead, and ఙ and ఞ, whose sounds the anusvāra writes instead (¶13, ¶18). The alphabet a learner must recognise is again smaller than the alphabet they are taught.",
+      "explanation": "Three: ఱ, which is dead, and ఙ and ఞ, whose sounds the anusvāra writes instead (¶13, ¶20). The alphabet a learner must recognise is again smaller than the alphabet they are taught.",
       "rulesTested": [
-        "three-alone",
+        "letter-la",
         "anusvara",
-        "varga-nasals"
+        "varga-nasals",
+        "letter-rra",
+        "letter-ksha"
       ],
       "vocabUsed": [
         "అనుస్వారం",
@@ -745,7 +800,7 @@
         "It has been replaced by గ."
       ],
       "correct": 1,
-      "explanation": "The anusvāra takes the nasal quality of whatever varga follows (¶18), so a nasal before క or గ is written ం. The letter survives in the alphabet without surviving in use.",
+      "explanation": "The anusvāra takes the nasal quality of whatever varga follows (¶20), so a nasal before క or గ is written ం. The letter survives in the alphabet without surviving in use.",
       "rulesTested": [
         "anusvara",
         "varga-nasals"
@@ -753,7 +808,8 @@
       "vocabUsed": [
         "అనుస్వారం",
         "అనునాసికం"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te103-q18",
@@ -774,15 +830,18 @@
       "explanation": "Each of those three pairs is dental-or-palatal against retroflex. క and ఖ share a place and differ in aspiration — a difference of manner, not of place, and so of column rather than row.",
       "rulesTested": [
         "sibilants",
-        "three-alone",
+        "letter-la",
         "retroflex-dental",
-        "aspiration"
+        "aspiration",
+        "letter-rra",
+        "letter-ksha"
       ],
       "vocabUsed": [
         "మూర్ధన్యం",
         "దంత్యం",
         "మహాప్రాణం"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te103-q19",
@@ -791,7 +850,7 @@
       "stem": "Counting the two ఉభయాక్షరాలు as well, how many characters does a complete varṇamāla chart show?",
       "answer": 54,
       "unit": "characters",
-      "explanation": "Fifty-four: sixteen vowels, thirty-six consonants, and ం and ః. The familiar figure of fifty-two leaves the last two out, because they are letters of neither kind (¶19).",
+      "explanation": "Fifty-four: sixteen vowels, thirty-six consonants, and ం and ః. The familiar figure of fifty-two leaves the last two out, because they are letters of neither kind (¶21).",
       "rulesTested": [
         "visarga",
         "anusvara",
@@ -802,7 +861,8 @@
         "వర్ణమాల",
         "అచ్చులు",
         "హల్లులు"
-      ]
+      ],
+      "scriptCritical": true
     },
     {
       "id": "te103-q20",
@@ -826,7 +886,8 @@
         "అనుస్వారం",
         "పండు",
         "పుస్తకం"
-      ]
+      ],
+      "scriptCritical": true
     }
   ],
   "sources": [
