@@ -312,8 +312,13 @@ function Passage({ drill }: { drill: Extract<Drill, { type: "comprehension" }> }
       {/* Every newline in a passage is meaningful — a dialogue turn, a line of
           a notice — so the text is rendered line by line rather than as one
           run-on paragraph. */}
+      {/* The passage itself is never glossed inline, even where it is not
+          script-critical: the reading follows the whole of it as the parallel
+          block below, which is what `romanization` is for. Interleaving a
+          reading after every phrase leaves neither the Telugu nor the Latin
+          readable as continuous prose. See CLAUDE.md §12. */}
       <div className="target text-lg leading-loose not-italic">
-        {lines(drill.passage, "", roman)}
+        {lines(drill.passage, "", false)}
       </div>
       {parallel && (
         <div className="mt-2 text-sm leading-relaxed text-ink-faint">

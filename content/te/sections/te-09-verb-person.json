@@ -8,7 +8,7 @@
   "rules": [
     {
       "id": "sov",
-      "number": "64",
+      "number": "73",
       "heading": "The Verb Comes Last",
       "statement": "Telugu is a **subject–object–verb** language: the verb closes the sentence, and everything it governs comes before it. The same ordering carries through the rest of the grammar — a modifier before its noun, a suffix after its stem.",
       "examples": [
@@ -38,7 +38,7 @@
     },
     {
       "id": "person-endings",
-      "number": "65",
+      "number": "74",
       "heading": "The Personal Endings",
       "statement": "A Telugu verb ends with a syllable naming its subject. There are **seven** such endings, and they are the same in every tense: the tense marker comes before them, the person after.",
       "paradigms": [
@@ -119,9 +119,9 @@
     },
     {
       "id": "class-agreement",
-      "number": "66",
+      "number": "75",
       "heading": "The Verb Agrees with the Class",
-      "statement": "The endings of ¶65 reproduce the class division of ¶45 and ¶49. In the **singular**, a man takes **-డు** and a woman takes **-ది** — the very ending a table or a dog takes. In the **plural**, men and women together take **-రు**, and only things take **-యి**.",
+      "statement": "The endings of ¶74 reproduce the class division of ¶45 and ¶49. In the **singular**, a man takes **-డు** and a woman takes **-ది** — the very ending a table or a dog takes. In the **plural**, men and women together take **-రు**, and only things take **-యి**.",
       "paradigms": [
         {
           "caption": "Where the line falls",
@@ -186,7 +186,7 @@
     },
     {
       "id": "present-progressive",
-      "number": "67",
+      "number": "76",
       "heading": "The Present Progressive — తు + ఉండు",
       "statement": "For an action going on **now**, Telugu adds **-తు-** to the root and follows it with a conjugated form of **ఉండు**, to be. *చదువుతున్నాను*, I am reading, is చదువు + తు + ఉన్నాను — root, marker, and the auxiliary's own first-person form.",
       "examples": [
@@ -218,9 +218,9 @@
     },
     {
       "id": "progressive-undu-endings",
-      "number": "68",
+      "number": "77",
       "heading": "The Progressive's Own Endings — ఉండు",
-      "statement": "The endings that appear in the progressive are not ¶65's own: they are **ఉండు**'s conjugation, irregular in the third person non-masculine, where the fuller ఉన్నది has contracted to **ఉంది**. Fused with -తు-, this gives the progressive's **-తోంది** — *చదువుతోంది*, she is reading — a single vowel away from the habitual's -తుంది.",
+      "statement": "The endings that appear in the progressive are not ¶74's own: they are **ఉండు**'s conjugation, irregular in the third person non-masculine, where the fuller ఉన్నది has contracted to **ఉంది**. Fused with -తు-, this gives the progressive's **-తోంది** — *చదువుతోంది*, she is reading — a single vowel away from the habitual's -తుంది.",
       "paradigms": [
         {
           "caption": "చదువు — present progressive",
@@ -313,7 +313,7 @@
     },
     {
       "id": "habitual-future",
-      "number": "69",
+      "number": "78",
       "heading": "The Habitual and Future — తా",
       "statement": "**-తా-** takes the place of the progressive's -తు- and marks a **habitual** action or a **future** one. Telugu commits to a single form for both senses, and only the context — an adverb, the situation — decides which is meant.",
       "paradigms": [
@@ -374,7 +374,7 @@
     },
     {
       "id": "taa-before-di",
-      "number": "70",
+      "number": "79",
       "heading": "-తా- before -ది",
       "statement": "Before the third-person non-masculine ending **-ది**, the habitual/future's **-తా-** becomes **-తున్-**: *చదువుతుంది*, never the *చదువుతాది* the pattern would otherwise give. Everywhere else it keeps **-తా-** unchanged.",
       "paradigms": [
@@ -452,7 +452,7 @@
     },
     {
       "id": "verb-negation",
-      "number": "71",
+      "number": "80",
       "heading": "Denying an Action",
       "statement": "An action is denied by a **negative form of the verb**, never by **కాదు** (¶36), which denies an identity rather than an action. The past, the habitual/future, and the progressive negate in three different ways, set out in the rules that follow.",
       "paradigms": [
@@ -507,7 +507,7 @@
     },
     {
       "id": "past-negation",
-      "number": "72",
+      "number": "81",
       "heading": "Denying the Past — లేదు",
       "statement": "**లేదు** is added to the infinitive, which ends in **-అ**, and the personal ending disappears entirely. The form is the same for every person: *నేను వెళ్ళలేదు* and *అతను వెళ్ళలేదు*, I/he did not go, share one verb.",
       "examples": [
@@ -525,7 +525,7 @@
         {
           "target": "నేను చదివాను. → నేను చదవలేదు.",
           "gloss": "I read (past). → I did not read.",
-          "note": "చదువు's infinitive is చదవ-, the same medial change the negative tense makes (¶73)",
+          "note": "చదువు's infinitive is చదవ-, the same medial change the negative tense makes (¶82)",
           "roman": "nēnu cadivānu. → nēnu cadavalēdu."
         }
       ],
@@ -547,9 +547,9 @@
     },
     {
       "id": "negative-tense",
-      "number": "73",
+      "number": "82",
       "heading": "Denying the Habitual and Future — the Negative Tense",
-      "statement": "The habitual/future is denied not by లేదు but by its own **negative tense**: the root's medial **-ు-** ablauts to **-అ-**, and a set of endings distinct from ¶65 replaces -తా-. The non-masculine endings are **-దు** in the singular and **-వు** in the plural, not the affirmative's -ది and -యి.",
+      "statement": "The habitual/future is denied not by లేదు but by its own **negative tense**: the root's medial **-ు-** ablauts to **-అ-**, and a set of endings distinct from ¶74 replaces -తా-. The non-masculine endings are **-దు** in the singular and **-వు** in the plural, not the affirmative's -ది and -యి.",
       "paradigms": [
         {
           "caption": "చదువు — negative tense",
@@ -609,7 +609,7 @@
               ]
             }
           ],
-          "footnote": "అవి and నువ్వు share -వు — the same kind of coincidence ¶65 records for the affirmative, falling in a different place here."
+          "footnote": "అవి and నువ్వు share -వు — the same kind of coincidence ¶74 records for the affirmative, falling in a different place here."
         }
       ],
       "examples": [
@@ -642,7 +642,7 @@
     },
     {
       "id": "progressive-negation",
-      "number": "74",
+      "number": "83",
       "heading": "Denying the Progressive — the Verbal Noun",
       "statement": "The progressive is denied not by the negative tense but by the **verbal noun** in **-టం** followed by **లేదు**: *చదవటం లేదు*, am/are/is not reading — one phrase for every person. The verbal noun does not conjugate, so nothing here shows number, class, or person at all.",
       "footnotes": [
@@ -677,7 +677,7 @@
     },
     {
       "id": "dictionary-form",
-      "number": "75",
+      "number": "84",
       "heading": "How a Verb Is Cited",
       "statement": "A Telugu dictionary cites a verb by its **root** — చదువు, వెళ్ళు, తిను. Everything else is built on the root by adding a tense marker and then a personal ending, in that order and never the other.",
       "footnotes": [
@@ -1006,7 +1006,7 @@
         "none — the pieces cannot be separated"
       ],
       "correct": 2,
-      "explanation": "ఉన్నాను is ఉండు's own first-person form, not a bare suffix tacked onto a marker — the progressive's endings belong to the auxiliary, not to ¶65's table. Root, marker, and auxiliary stay separable, as an agglutinative language requires (¶57).",
+      "explanation": "ఉన్నాను is ఉండు's own first-person form, not a bare suffix tacked onto a marker — the progressive's endings belong to the auxiliary, not to ¶74's table. Root, marker, and auxiliary stay separable, as an agglutinative language requires (¶57).",
       "rulesTested": [
         "dictionary-form",
         "present-progressive",
@@ -1050,7 +1050,7 @@
       "stem": "**ఆమె వెళ్ళింది.** If the subject became *several women*, how many words would change form?",
       "answer": 2,
       "unit": "words",
-      "explanation": "Two: *ఆమె* → *వాళ్ళు*, and the verb with it, *వెళ్ళింది* → *వెళ్ళారు*. The ending changes not merely for number but for **gender**: she leaves the non-masculine ending -ది for the masculine -రు on becoming plural (¶66). Answering one forgets that the verb carries the gender.",
+      "explanation": "Two: *ఆమె* → *వాళ్ళు*, and the verb with it, *వెళ్ళింది* → *వెళ్ళారు*. The ending changes not merely for number but for **gender**: she leaves the non-masculine ending -ది for the masculine -రు on becoming plural (¶75). Answering one forgets that the verb carries the gender.",
       "rulesTested": [
         "class-agreement",
         "masculine-plural",
@@ -1211,7 +1211,7 @@
       "stem": "Across **నేను, నువ్వు, అతను, ఆమె, మేము, మీరు, అవి**, how many different forms does the progressive negative **చదవటం లేదు** take?",
       "answer": 1,
       "unit": "forms",
-      "explanation": "One. The verbal noun చదవటం does not agree with anything, so the same phrase denies the progressive for every person, number, and class alike — unlike the negative tense (¶73), which has seven distinct endings.",
+      "explanation": "One. The verbal noun చదవటం does not agree with anything, so the same phrase denies the progressive for every person, number, and class alike — unlike the negative tense (¶82), which has seven distinct endings.",
       "rulesTested": [
         "progressive-negation",
         "negative-tense"

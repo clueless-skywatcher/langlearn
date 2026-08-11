@@ -10,9 +10,11 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "validate:content": "tsx scripts/validate-content.ts",
+    "validate:content:watch": "tsx scripts/validate-content.ts --watch",
     "generate:drills": "tsx scripts/generate-drills.ts",
+    "generate:schema": "tsx scripts/generate-schema.ts",
     "typecheck": "tsc --noEmit",
-    "check": "npm run validate:content && npm run typecheck && npm run test",
+    "check": "npm run generate:schema -- --check && npm run validate:content && npm run typecheck && npm run test",
     "dev:sqlite": "NEXT_PUBLIC_LANGLEARN_STORE=sqlite next dev",
     "build:sqlite": "NEXT_PUBLIC_LANGLEARN_STORE=sqlite next build",
     "start:sqlite": "NEXT_PUBLIC_LANGLEARN_STORE=sqlite next start"

@@ -277,7 +277,7 @@
       "explanation": "The oblique stem నా- takes the dative suffix. Adding -కు to the nominative *నేను* gives a form that does not exist — the suffixes are regular and it is the stems that change.",
       "rulesTested": [
         "dative-ki",
-        "oblique-stem"
+        "oblique-genitive"
       ],
       "vocabUsed": [
         "నాకు",
@@ -347,9 +347,9 @@
         "Nothing; the two are alternative spellings."
       ],
       "correct": 1,
-      "explanation": "-కి is perfectly regular. It is the stem that changes, and a noun with an unpredictable oblique must be learned with it — as a Lithuanian noun is learned with its genitive.",
+      "explanation": "-కి is perfectly regular; it is the stem that changes. ఇల్లు belongs to the class of six stems whose final syllable becomes -ంటి, beside కన్ను → కంటి and పన్ను → పంటి.",
       "rulesTested": [
-        "oblique-stem",
+        "oblique-classes",
         "dative-ki"
       ],
       "vocabUsed": [
@@ -368,7 +368,7 @@
       "explanation": "One: *ఇంట్లో*. *ఆమె* is the bare nominative, which takes no suffix at all, and the third word is the verb. Counting two usually means mistaking the nominative for a marked case.",
       "rulesTested": [
         "locative-lo",
-        "oblique-stem",
+        "oblique-classes",
         "agglutination"
       ],
       "vocabUsed": [
@@ -637,6 +637,229 @@
       ]
     },
     {
+      "id": "tecp3-q26",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**అబ్బాయిలు పుస్తకాలు చదువుతున్నారు** — how are the two nouns marked?",
+      "options": [
+        "Both stand bare: the subject in the nominative, the object unmarked because it is inanimate.",
+        "Both carry the accusative suffix.",
+        "The subject is nominative and the object dative.",
+        "The subject carries the plural oblique and the object the accusative."
+      ],
+      "correct": 0,
+      "explanation": "A subject takes no suffix at all, and an inanimate object need not take one either — with a lifeless thing the accusative is optional and usually left off. What tells you who is reading is the verb: -రు is the ending for a plural of persons.",
+      "rulesTested": [
+        "nominative",
+        "accusative-ni",
+        "seven-cases",
+        "class-agreement"
+      ],
+      "vocabUsed": [
+        "పుస్తకం"
+      ],
+      "fromSection": "te-08"
+    },
+    {
+      "id": "tecp3-q27",
+      "type": "matching",
+      "difficulty": "hard",
+      "stem": "Pair each form of **అమ్మ** with the case it stands in.",
+      "columnHeadings": [
+        "Form",
+        "Case"
+      ],
+      "columnI": [
+        "అమ్మకు",
+        "అమ్మను",
+        "అమ్మా",
+        "అమ్మ"
+      ],
+      "columnII": [
+        "genitive",
+        "dative",
+        "accusative",
+        "vocative",
+        "locative"
+      ],
+      "options": [
+        [
+          1,
+          2,
+          3,
+          0
+        ],
+        [
+          1,
+          3,
+          2,
+          0
+        ],
+        [
+          2,
+          1,
+          3,
+          0
+        ],
+        [
+          1,
+          2,
+          0,
+          3
+        ]
+      ],
+      "correct": 0,
+      "explanation": "అమ్మ ends in అ, so the dative is -కు and the accusative -ను, not -కి and -ని. అమ్మా adds nothing at all: the vocative lengthens the noun's own last vowel. The bare అమ్మ is the oblique, and the oblique alone is the genitive — which is why three of the four pairings go wrong by treating it as a stem still waiting for a suffix.",
+      "rulesTested": [
+        "ki-ku-choice",
+        "vocative",
+        "oblique-genitive",
+        "accusative-ni"
+      ],
+      "vocabUsed": [
+        "అమ్మ"
+      ],
+      "fromSection": "te-08"
+    },
+    {
+      "id": "tecp3-q28",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "The dative of **అతను** is **అతనికి**, but the dative of **ఆమె** is **ఆమెకు**. Why do the two differ?",
+      "options": [
+        "Because అతను is masculine and ఆమె is not.",
+        "Because the oblique అతని ends in ఇ, and ఆమె ends in ఎ.",
+        "Because ఆమె is the politer of the two words.",
+        "Because ఆమె has no oblique stem."
+      ],
+      "correct": 1,
+      "explanation": "Nothing grammatical is at stake, only sound: -కి follows a stem whose last syllable ends in ఇ or ఈ, and -కు follows every other. Gender decides the pronoun and the verb ending, and has no say in which shape of the suffix appears.",
+      "rulesTested": [
+        "ki-ku-choice",
+        "dative-ki",
+        "noun-gender"
+      ],
+      "vocabUsed": [
+        "విభక్తి"
+      ],
+      "fromSection": "te-08"
+    },
+    {
+      "id": "tecp3-q29",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which of these forms of **గుర్రం** are correctly built?",
+      "options": [
+        "గుర్రం కాలు",
+        "గుర్రానికి",
+        "గుర్రంకి",
+        "గుర్రాన్ని"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "A noun in -ం has two obliques. The genitive uses the nominative unchanged — *గుర్రం కాలు*, the horse's leg — while the dative and the accusative are built on -ాని-, giving గుర్రానికి and గుర్రాన్ని. *గుర్రంకి* glues the dative straight onto the genitive oblique, which is the one place that stem may not be used.",
+      "rulesTested": [
+        "two-obliques",
+        "dative-ki"
+      ],
+      "vocabUsed": [
+        "గుర్రం"
+      ],
+      "fromSection": "te-08"
+    },
+    {
+      "id": "tecp3-q30",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**ఇంట్లోకి** (into the house) carries two postpositions. How are they stacked?",
+      "options": [
+        "-కి goes on the oblique ఇంటి-, and -లో after it.",
+        "-లో goes on the oblique ఇంటి-, and -కి goes on -లో.",
+        "Each is added to the oblique independently.",
+        "It is a single postposition -లోకి."
+      ],
+      "correct": 1,
+      "explanation": "**లో** is a postposition of the free type — also an ordinary noun of place — so a bound one may be added on top of it: లో *in* gives లోకి *into* and లోనుంచి *from inside*. The reverse order is impossible, because nothing may follow a bound postposition.",
+      "rulesTested": [
+        "postposition-types",
+        "locative-lo",
+        "dative-ki"
+      ],
+      "vocabUsed": [
+        "ఇల్లు"
+      ],
+      "fromSection": "te-08"
+    },
+    {
+      "id": "tecp3-q31",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Which of these nouns has no vocative?",
+      "options": [
+        "అమ్మ",
+        "తండ్రి",
+        "పుస్తకం",
+        "తమ్ముడు"
+      ],
+      "correct": 2,
+      "explanation": "A noun ending in -ం takes no vocative. The other three lengthen their final vowel — అమ్మా, తండ్రీ — and a noun in -డు may go to -డా besides, giving తమ్ముడూ or తమ్ముడా.",
+      "rulesTested": [
+        "vocative"
+      ],
+      "vocabUsed": [
+        "అమ్మ",
+        "తండ్రి",
+        "పుస్తకం",
+        "తమ్ముడు"
+      ],
+      "fromSection": "te-08"
+    },
+    {
+      "id": "tecp3-q32",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "**వాళ్ళ ఇంటికి వాళ్ళు వెళ్తున్నారు** — of the four words, how many carry a case suffix?",
+      "answer": 1,
+      "unit": "words",
+      "explanation": "One: *ఇంటికి*. *వాళ్ళ* is the bare oblique and therefore already a genitive, with nothing glued on; *వాళ్ళు* is the nominative subject; the fourth word is the verb. Counting two takes the genitive for a suffixed case, which is the one thing the oblique's shape invites.",
+      "rulesTested": [
+        "oblique-genitive",
+        "dative-ki",
+        "nominative",
+        "seven-cases"
+      ],
+      "vocabUsed": [
+        "ఇల్లు"
+      ],
+      "fromSection": "te-08"
+    },
+    {
+      "id": "tecp3-q33",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "What separates **అబ్బాయిల** from **అబ్బాయిలు**?",
+      "options": [
+        "The first is the plural oblique, the second the plural nominative.",
+        "The first is singular and the second plural.",
+        "The first is a dative.",
+        "They are two spellings of one form."
+      ],
+      "correct": 0,
+      "explanation": "The plural oblique changes -లు to -ల, and every case suffix of the plural is built on it: అబ్బాయిలకు, అబ్బాయిలతో. Standing alone it is the genitive, *of the boys*.",
+      "rulesTested": [
+        "plural-oblique",
+        "oblique-genitive",
+        "plural-lu"
+      ],
+      "vocabUsed": [
+        "అబ్బాయి"
+      ],
+      "fromSection": "te-08"
+    },
+    {
       "id": "tecp3-p1",
       "type": "comprehension",
       "difficulty": "medium",
@@ -720,7 +943,7 @@
           "stem": "The passage has **నా అక్క ఊరిలో ఉంది.** If it spoke of two sisters instead of one, how many words would change form?",
           "answer": 2,
           "unit": "words",
-          "explanation": "Two: *అక్క* becomes plural, and the verb with it — *ఉంది* → *ఉన్నారు*, the non-masculine singular ending giving way to the masculine plural one, because a woman changes gender on becoming plural (¶49, ¶66). *నా* is indeclinable and *ఊరిలో* is untouched. Answering one forgets that the verb carries the gender.",
+          "explanation": "Two: *అక్క* becomes plural, and the verb with it — *ఉంది* → *ఉన్నారు*, the non-masculine singular ending giving way to the masculine plural one, because a woman changes gender on becoming plural (¶49, ¶75). *నా* is indeclinable and *ఊరిలో* is untouched. Answering one forgets that the verb carries the gender.",
           "rulesTested": [
             "class-agreement",
             "masculine-plural",

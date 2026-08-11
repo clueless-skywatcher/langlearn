@@ -254,3 +254,67 @@ Figures that are not the number in question are fine and often necessary:
 grammatical notation (*1 sg.*, *3rd person*), a level tag (*A1*), a price or a
 year that the passage states and the learner has to find. The rule is about
 the number being asked for, not about digits.
+
+## 12. The romanization follows the sentence, not the word
+
+A course in a non-Latin script has its reading derived at render time (§8), and
+the derivation is per *sentence*, not per word. A stem glossed word by word —
+
+> నా (nā) అక్క (akka) ఎక్కడ (ekkaḍa) ఉంది (undi)?
+
+is not a sentence a learner can read: the Telugu is cut into four pieces by
+four parentheses, and both the target text and its reading have to be
+reassembled before either can be taken in. The reading goes after the whole of
+it instead, once:
+
+> నా అక్క ఎక్కడ ఉంది? (nā akka ekkaḍa undi)
+
+`romanize` in `lib/markdown.tsx` does this by grouping runs of target script
+into spans. Runs separated only by spaces and punctuation are one sentence and
+are read out together; exposition between them — any Latin letter or digit — a
+line break, or a full stop ends the span. A sentence's reading is placed after
+its own closing punctuation and outside whatever markdown wraps it, so that
+`**… ఉంది?**` reads `**… ఉంది?** (… undi)`.
+
+A single cited word keeps its reading immediately after it — **ఇల్లు** (illu)
+— because a citation form is not a sentence; only its markdown closers are
+stepped over, so the gloss is not swept into the bold.
+
+A comprehension passage is not glossed inline at all. It is printed as it
+stands and the romanization follows the whole passage as a parallel block,
+which is what `ComprehensionDrill.romanization` is for. Interleaving readings
+into a passage destroys the one thing a passage is for.
+
+None of this applies where reading the script *is* the question: §8 governs
+there, and `scriptCritical` suppresses the derived reading entirely.
+
+## 13. A noun is cited with its oblique stem
+
+In a language where the case suffixes are regular and the stem in front of
+them is not, the stem is the part a learner cannot derive. So every noun in a
+`vocabulary` block carries its oblique stem beside its nominative, in the same
+way a Latin noun is cited with its genitive and a Lithuanian one with both:
+
+```json
+{ "lemma": "ఇల్లు", "gloss": "house", "pos": "noun",
+  "forms": { "nom": "ఇల్లు", "oblique": "ఇంటి-", "translit": "illu", "class": "amahat sg." } }
+```
+
+The `oblique` key is declared in `Course.formLabels.noun`, so the renderer
+shows it wherever vocabulary is listed. A noun whose oblique is identical with
+its nominative still states it — that identity is a fact about the noun, and
+leaving the field out makes it indistinguishable from a noun nobody checked.
+
+Write the oblique with the trailing hyphen it earns: it is a bound form and
+never stands alone. Where a noun has two obliques — a noun in **-ం** has one
+for the genitive and another before the accusative and dative (K&G §8.5F,
+§9.9) — give both, separated by a comma: `"పుస్తకం-, పుస్తకాని-"`.
+
+This applies to `pos: "noun"`. Pronouns already carry their oblique as the
+possessive stem; verbs are cited by root (§ the Telugu course's `formLabels`).
+
+An emphasis marker between two runs also ends the span. `**అక్కా**, **తండ్రి**`
+is two citations that happen to be adjacent, not a two-word phrase; merging
+them would print *అక్కా, తండ్రి (akkā, taṇḍri)* and read as though the whole
+parenthesis belonged to the second word. A bare comma still joins, so
+`రాము, నేను వస్తాను` stays one sentence.

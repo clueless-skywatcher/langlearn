@@ -21,6 +21,10 @@
         "label": "nominative"
       },
       {
+        "key": "oblique",
+        "label": "oblique stem"
+      },
+      {
         "key": "translit",
         "label": "transliteration"
       },

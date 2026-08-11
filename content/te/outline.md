@@ -25,7 +25,7 @@ are authored.
 | — | ✅ **Checkpoint 2** | covers 04–06 — reading Telugu |
 | 07 | ✅ Nouns, Number, and Gender | the plural in -లు and its stem classes; the two genders; how the line moves between the numbers |
 | 07a | ✅ The Pronouns | the personal pronouns; మేము against మనం; the possessive stems; the third person graded by respect; the near series beside the far |
-| 08 | ✅ The Case Suffixes | agglutination against declension; -ని, -కి, -లో, -తో, -నుండి; the oblique stem |
+| 08 | ✅ The Cases | all seven, declined in full for four nouns in both numbers; the oblique stem as the genitive; the six oblique classes; the two obliques of a noun in -ం; the plural oblique; -ని/-కి against -ను/-కు; the vocative; case suffixes as bound and free postpositions; the traditional విభక్తులు |
 | 09 | ✅ The Verb: Person and the Present | SOV order; the seven personal endings; agreement in gender; -తున్న- against -తా-; past denial with లేదు; the negative tense; -టం లేదు against the progressive |
 | — | ✅ **Checkpoint 3** | covers 07, the pronouns, 08 and 09 |
 | 10 | ✅ Numerals and Counting | ఒకటి to కోటి; human numerals; where the numeral stands; compounds; the ordinals |
@@ -40,8 +40,8 @@ will take it in together with 11 and 12.
 
 | # | Section | Contents |
 |---|---|---|
-| 13 | The Oblique Stem | how a noun changes before a case suffix |
-| 14 | Postpositions | Telugu puts after what Europe puts before |
+| 13 | Adverbial Nouns of Time and Place | ఇక్కడ, ఇప్పుడు, పైన, లోపల — nouns that take the case suffixes of §08 |
+| 14 | Postpositions | the free type in full: గురించి, కోసం, వరకు, తరువాత, లాగా, and what each governs |
 | 15 | Verbal Adjectives and the Relative Clause | Telugu having no relative pronoun |
 | 16 | The Compound Verb | the perfective and progressive auxiliaries |
 | 17 | Formal and Spoken Telugu | గ్రాంథికం against వ్యావహారికం, and why a learner needs both |

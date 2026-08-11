@@ -116,6 +116,84 @@ describe("detection and runs", () => {
   });
 });
 
+/* ------------------------------------------------------- where the reading goes */
+
+describe("the reading follows the sentence, not the word", () => {
+  it("reads a whole sentence out once, after its own punctuation", () => {
+    expect(romanize("నా అక్క ఎక్కడ ఉంది?")).toBe(
+      "నా అక్క ఎక్కడ ఉంది? (nā akka ekkaḍa undi)",
+    );
+  });
+
+  it("steps outside the markdown wrapping the sentence", () => {
+    expect(romanize("**నా అక్క ఎక్కడ ఉంది?**")).toBe(
+      "**నా అక్క ఎక్కడ ఉంది?** (nā akka ekkaḍa undi)",
+    );
+  });
+
+  it("keeps the spacing and the punctuation inside the sentence", () => {
+    expect(romanize("రాము, నేను వస్తాను.")).toBe(
+      "రాము, నేను వస్తాను. (rāmu, nēnu vastānu)",
+    );
+  });
+
+  it("reads a cited word immediately after it, before the English full stop", () => {
+    expect(romanize("The plural of **వెయ్యి** is **వేలు**.")).toBe(
+      "The plural of **వెయ్యి** (veyyi) is **వేలు** (vēlu).",
+    );
+  });
+
+  it("separates two words cited on either side of exposition", () => {
+    expect(romanize("**ఇది** is this and **అది** is that.")).toBe(
+      "**ఇది** (idi) is this and **అది** (adi) is that.",
+    );
+  });
+
+  it("ends a span at a full stop, so two sentences are read separately", () => {
+    expect(romanize("నేను వస్తాను. నువ్వు రా.")).toBe(
+      "నేను వస్తాను. (nēnu vastānu) నువ్వు రా. (nuvvu rā)",
+    );
+  });
+
+  it("ends a span at a line break, so a dialogue turn is read on its own line", () => {
+    expect(romanize("రాము: నేను వస్తాను\nసీత: సరే")).toBe(
+      "రాము: నేను వస్తాను (rāmu: nēnu vastānu)\nసీత: సరే (sīta: sarē)",
+    );
+  });
+
+  it("keeps two separately emphasised citations apart", () => {
+    // Joining them would attach "(akkā, taṇḍri)" to తండ్రి alone.
+    expect(romanize("**అక్కా**, **తండ్రి** are both vocatives.")).toBe(
+      "**అక్కా** (akkā), **తండ్రి** (taṇḍri) are both vocatives.",
+    );
+  });
+
+  it("still joins across a comma inside one sentence", () => {
+    expect(romanize("రాము, నేను వస్తాను.")).toBe(
+      "రాము, నేను వస్తాను. (rāmu, nēnu vastānu)",
+    );
+  });
+
+  it("leaves a reading the author wrote in", () => {
+    expect(romanize("Read **ఇల్లు** (illu) again.")).toBe(
+      "Read **ఇల్లు** (illu) again.",
+    );
+    expect(romanize("**నా అక్క ఎక్కడ ఉంది?** (nā akka ekkaḍa undi)")).toBe(
+      "**నా అక్క ఎక్కడ ఉంది?** (nā akka ekkaḍa undi)",
+    );
+  });
+
+  it("reads a repeated sentence out only once", () => {
+    expect(romanize("ఇది ఇల్లు. ఇది ఇల్లు.")).toBe(
+      "ఇది ఇల్లు. (idi illu) ఇది ఇల్లు.",
+    );
+  });
+
+  it("never leaves markdown inside the parenthesis", () => {
+    expect(romanize("**రెండు ఇళ్ళు** ఉన్నాయి.")).not.toMatch(/\([^)]*\*/);
+  });
+});
+
 /* ------------------------------------------------------------------ the pack */
 
 describe("the Telugu course is usable without reading the script", () => {

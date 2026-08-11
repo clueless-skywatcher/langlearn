@@ -147,7 +147,22 @@ integer question embedded in one.
 2. `npm run validate:content` — it checks that drills only test rules already
    taught, that vocabulary is introduced before it is used, that every `core`
    rule is drilled, and that each checkpoint fairly covers its block.
+   `npm run validate:content:watch` keeps it running as the file is edited.
 3. `npm test`.
+
+The editor can carry the first half of that. `npm run generate:schema` projects
+`content/schema.ts` into `content/course.schema.json` and
+`content/section.schema.json`, and `.vscode/settings.json` maps them onto the
+content globs — so completion offers the keys a section takes, the discriminated
+unions narrow to one question shape once `type` is typed, and a wrong enum or a
+missing required field is marked before the file is saved. The generated files
+are committed and `npm run check` fails if they have drifted from the Zod
+schemas.
+
+The two checks divide the work: JSON Schema knows the shape, and the authoring
+rules in `CLAUDE.md` — §2 on what a question may test, §8 on `scriptCritical`,
+§11 on integer questions — live in `content/validate.ts`. A file the editor
+calls clean can still be a course-level failure.
 
 ## Generating drills
 

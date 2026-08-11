@@ -3,14 +3,14 @@
   "kind": "lesson",
   "level": "A1",
   "order": 11,
-  "title": "The Case Suffixes",
-  "summary": "Telugu marks the work a noun does by gluing a suffix onto it. The suffixes are few, regular, and separable — a different arrangement from the fused endings of a European declension, and an easier one.",
+  "title": "The Cases",
+  "summary": "Telugu marks the work a noun does by gluing a suffix onto it. The suffixes are few and regular; the stem they are glued to is what varies, and that stem — the oblique — is a case in its own right, the genitive.",
   "rules": [
     {
       "id": "agglutination",
       "number": "57",
       "heading": "Suffixes Are Glued, Not Fused",
-      "statement": "Telugu is an **agglutinative** language: it marks grammar by adding suffixes that keep their own shape and can be peeled off again. A Lithuanian ending fuses case and number into one syllable that cannot be divided; a Telugu suffix is a separate piece added to a stem that is still recognisable. It follows that the same case suffix is used with every noun, and that learning it once is learning it for all.",
+      "statement": "Telugu is an **agglutinative** language: it marks grammar by adding suffixes that keep their own shape and can be peeled off again. A Lithuanian ending fuses case and number into one syllable that cannot be divided; a Telugu suffix is a separate piece added to a stem that is still recognisable. The same suffix serves every noun in the language.",
       "examples": [
         {
           "target": "పుస్తకం + లో = పుస్తకంలో",
@@ -19,7 +19,7 @@
         {
           "target": "ఇల్లు + కి = ఇంటికి",
           "gloss": "house + to = to the house",
-          "note": "the stem changes here; see ¶63"
+          "note": "the stem changes here; see ¶61"
         },
         {
           "target": "నేను + కు = నాకు",
@@ -27,49 +27,632 @@
         }
       ],
       "footnotes": [
-        "The suffixes may also stack: a plural ending and then a case suffix after it, which a fused declension cannot do."
+        "The suffixes stack: a plural ending and then a case suffix after it, which a fused declension cannot do (¶63)."
       ],
       "seeAlso": [
         "plural-lu"
       ],
-      "core": true
+      "core": true,
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Krishnamurti, Bhadriraju & Gwynn, J. P. L., *A Grammar of Modern Telugu*. Delhi: Oxford University Press, 1985, §9.12.",
+          "note": "Case suffixes as postpositions added to nouns."
+        }
+      ]
     },
     {
-      "id": "accusative-ni",
+      "id": "seven-cases",
       "number": "58",
-      "heading": "The Accusative — ని / ను",
-      "statement": "The direct object of a verb takes **-ని** or **-ను**. The suffix is used chiefly where the object is a **person or an animal**; where it is a lifeless thing, Telugu commonly leaves the noun bare, and the word order alone shows what is the object. This is a real difference from the European accusative, which is written whether the object breathes or not.",
+      "heading": "The Seven Cases",
+      "statement": "Telugu marks seven cases: nominative, genitive, dative, accusative, instrumental, locative and vocative. Only four of them are a suffix glued to a stem — the nominative adds nothing, the genitive is the bare oblique stem (¶60), and the vocative is a change in the noun's own last vowel (¶70).",
+      "paradigms": [
+        {
+          "caption": "Four nouns declined in the singular",
+          "columns": [
+            "case",
+            "అమ్మ mother",
+            "స్నేహితుడు friend",
+            "ఇల్లు house",
+            "పుస్తకం book"
+          ],
+          "rows": [
+            {
+              "label": "nominative",
+              "cells": [
+                "అమ్మ",
+                "స్నేహితుడు",
+                "ఇల్లు",
+                "పుస్తకం"
+              ]
+            },
+            {
+              "label": "genitive",
+              "cells": [
+                "అమ్మ",
+                "స్నేహితుడి",
+                "ఇంటి",
+                "పుస్తకం"
+              ]
+            },
+            {
+              "label": "dative",
+              "cells": [
+                "అమ్మకు",
+                "స్నేహితుడికి",
+                "ఇంటికి",
+                "పుస్తకానికి"
+              ]
+            },
+            {
+              "label": "accusative",
+              "cells": [
+                "అమ్మను",
+                "స్నేహితుడిని",
+                "ఇంటిని",
+                "పుస్తకాన్ని"
+              ]
+            },
+            {
+              "label": "instrumental",
+              "cells": [
+                "అమ్మతో",
+                "స్నేహితుడితో",
+                "ఇంటితో",
+                "పుస్తకంతో"
+              ]
+            },
+            {
+              "label": "locative",
+              "cells": [
+                "—",
+                "—",
+                "ఇంట్లో",
+                "పుస్తకంలో"
+              ]
+            },
+            {
+              "label": "vocative",
+              "cells": [
+                "అమ్మా",
+                "స్నేహితుడా",
+                "—",
+                "—"
+              ]
+            }
+          ],
+          "footnote": "A dash marks a case the noun is not used in: a book is not called to, and a person is not a place. The four columns are four different oblique classes (¶61), which is where the forms differ; the suffixes on the right of them are the same throughout."
+        },
+        {
+          "caption": "The same four in the plural",
+          "columns": [
+            "case",
+            "అమ్మలు mothers",
+            "స్నేహితులు friends",
+            "ఇళ్ళు houses",
+            "పుస్తకాలు books"
+          ],
+          "rows": [
+            {
+              "label": "nominative",
+              "cells": [
+                "అమ్మలు",
+                "స్నేహితులు",
+                "ఇళ్ళు",
+                "పుస్తకాలు"
+              ]
+            },
+            {
+              "label": "genitive",
+              "cells": [
+                "అమ్మల",
+                "స్నేహితుల",
+                "ఇళ్ళ",
+                "పుస్తకాల"
+              ]
+            },
+            {
+              "label": "dative",
+              "cells": [
+                "అమ్మలకు",
+                "స్నేహితులకు",
+                "ఇళ్ళకు",
+                "పుస్తకాలకు"
+              ]
+            },
+            {
+              "label": "accusative",
+              "cells": [
+                "అమ్మలను",
+                "స్నేహితులను",
+                "ఇళ్ళను",
+                "పుస్తకాలను"
+              ]
+            },
+            {
+              "label": "instrumental",
+              "cells": [
+                "అమ్మలతో",
+                "స్నేహితులతో",
+                "ఇళ్ళతో",
+                "పుస్తకాలతో"
+              ]
+            },
+            {
+              "label": "locative",
+              "cells": [
+                "—",
+                "—",
+                "ఇళ్ళలో",
+                "పుస్తకాలలో"
+              ]
+            },
+            {
+              "label": "vocative",
+              "cells": [
+                "అమ్మలారా",
+                "స్నేహితులారా",
+                "—",
+                "—"
+              ]
+            }
+          ],
+          "footnote": "The plural has one oblique for every class, in **-ల** (¶63), so the six classes of the singular collapse to one here."
+        }
+      ],
+      "footnotes": [],
+      "seeAlso": [
+        "agglutination",
+        "oblique-genitive"
+      ],
+      "core": true,
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Brown, Charles Philip, *A Grammar of the Telugu Language*, 2nd ed. Madras: Christian Knowledge Society's Press, 1857, the chapter \"On Nouns\", on the cases and the declensions.",
+          "url": "https://archive.org/details/brown-a-grammar-of-the-telugu-language",
+          "licence": "Public domain (published 1857)",
+          "note": "\"Accordingly the cases found in Telugu are the Nominative, Genitive, Dative, Accusative, Vocative, Instrumental and Locative.\""
+        },
+        {
+          "kind": "grammar",
+          "citation": "Krishnamurti, Bhadriraju & Gwynn, J. P. L., *A Grammar of Modern Telugu*. Delhi: Oxford University Press, 1985, §8.5, §8.9, §9.8–9.9.",
+          "note": "Source for the oblique stems and the suffixed forms."
+        }
+      ]
+    },
+    {
+      "id": "nominative",
+      "number": "59",
+      "heading": "The Nominative",
+      "statement": "The nominative is the bare noun, carrying no suffix at all, and it is the form a dictionary cites. A subject stands in it, and so, very often, does an inanimate object (¶64).",
       "examples": [
         {
-          "target": "నేను అబ్బాయిని చూస్తున్నాను.",
-          "gloss": "I see the boy.",
-          "note": "a person, so the suffix is used"
+          "target": "అబ్బాయి వస్తున్నాడు.",
+          "gloss": "The boy is coming.",
+          "note": "అబ్బాయి is the bare subject"
         },
         {
           "target": "నేను పుస్తకం చదువుతున్నాను.",
           "gloss": "I am reading a book.",
-          "note": "a thing, so the noun stands bare"
+          "note": "both నేను and పుస్తకం stand bare"
+        }
+      ],
+      "footnotes": [],
+      "seeAlso": [
+        "seven-cases"
+      ],
+      "core": true,
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Krishnamurti, Bhadriraju & Gwynn, J. P. L., *A Grammar of Modern Telugu*. Delhi: Oxford University Press, 1985, §9.7.",
+          "note": "The unsuffixed form used as the accusative of inanimates."
+        }
+      ]
+    },
+    {
+      "id": "oblique-genitive",
+      "number": "60",
+      "heading": "The Oblique Stem Is the Genitive",
+      "statement": "Beside its nominative every noun has an **oblique stem**, and that stem standing alone is the genitive: **రాముడి కలం**, *Rama's pen*. Every suffix of the other cases is added to it, so the oblique is at once a case of its own and the base the rest are built on.",
+      "paradigms": [
+        {
+          "caption": "Nominative and oblique",
+          "columns": [
+            "noun",
+            "nominative",
+            "oblique = genitive",
+            "meaning"
+          ],
+          "rows": [
+            {
+              "label": "house",
+              "cells": [
+                "ఇల్లు",
+                "ఇంటి",
+                "of a house"
+              ]
+            },
+            {
+              "label": "village",
+              "cells": [
+                "ఊరు",
+                "ఊరి",
+                "of a village"
+              ]
+            },
+            {
+              "label": "Rama",
+              "cells": [
+                "రాముడు",
+                "రాముడి",
+                "Rama's"
+              ]
+            },
+            {
+              "label": "he",
+              "cells": [
+                "అతను",
+                "అతని",
+                "his"
+              ]
+            },
+            {
+              "label": "they",
+              "cells": [
+                "వాళ్ళు",
+                "వాళ్ళ",
+                "their"
+              ]
+            },
+            {
+              "label": "mother",
+              "cells": [
+                "అమ్మ",
+                "అమ్మ",
+                "mother's"
+              ]
+            }
+          ],
+          "footnote": "**అమ్మ** shows an oblique identical with its nominative, which is the commonest case of all (¶61, class A)."
+        }
+      ],
+      "examples": [
+        {
+          "target": "రాముడి కలం",
+          "gloss": "Rama's pen"
+        },
+        {
+          "target": "ఇంటి పేరు",
+          "gloss": "the name of the house"
+        },
+        {
+          "target": "అతని పేరు",
+          "gloss": "his name"
+        }
+      ],
+      "footnotes": [
+        "The written language also has **యొక్క** for the genitive: **అతని యొక్క పేరు** beside **అతని పేరు**, both *his name*."
+      ],
+      "seeAlso": [
+        "agglutination",
+        "oblique-classes"
+      ],
+      "core": true,
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Krishnamurti, Bhadriraju & Gwynn, J. P. L., *A Grammar of Modern Telugu*. Delhi: Oxford University Press, 1985, §8.2, §8.10.",
+          "note": "\"every noun has an oblique stem in the singular that is sometimes called the 'possessive form' … It corresponds in meaning to the possessive (genitive) singular form ending in 's in English.\""
+        },
+        {
+          "kind": "grammar",
+          "citation": "Brown, Charles Philip, *A Grammar of the Telugu Language*, 2nd ed. Madras: Christian Knowledge Society's Press, 1857, the chapter \"On Nouns\".",
+          "url": "https://archive.org/details/brown-a-grammar-of-the-telugu-language",
+          "licence": "Public domain (published 1857)",
+          "note": "\"The Genitive case, if it differs from the nominative is often called the inflection\"; and \"The Genitive often uses యొక్క 'of'.\""
+        }
+      ]
+    },
+    {
+      "id": "oblique-classes",
+      "number": "61",
+      "heading": "The Six Classes of Oblique Stem",
+      "statement": "Nouns fall into six classes by the way the oblique is formed. In the largest it is identical with the nominative; the others add **-ి**, or replace the last syllable with **-టి** or **-తి**, or take a separate form before two of the cases.",
+      "paradigms": [
+        {
+          "caption": "The six classes",
+          "columns": [
+            "class",
+            "how the oblique is formed",
+            "nominative",
+            "oblique"
+          ],
+          "rows": [
+            {
+              "label": "A",
+              "cells": [
+                "unchanged — stems in -అ, -ఎ, a long vowel, or a doubled consonant",
+                "అన్న, పెట్టె, పోటీ, చెట్టు",
+                "అన్న, పెట్టె, పోటీ, చెట్టు"
+              ]
+            },
+            {
+              "label": "B",
+              "cells": [
+                "add -ి — human nouns in -డు, -రు, -ను, -లు",
+                "మొగుడు, కూతురు, అతను, ఊరు",
+                "మొగుడి, కూతురి, అతని, ఊరి"
+              ]
+            },
+            {
+              "label": "C",
+              "cells": [
+                "final syllable → -టి — non-human nouns of two or more syllables",
+                "గూడు, ఏరు, తాబేలు, నాగలి",
+                "గూటి, ఏటి, తాబేటి, నాగటి"
+              ]
+            },
+            {
+              "label": "D",
+              "cells": [
+                "final syllable → -ంటి — six stems in -న్ను, -ల్లు, -ళ్ళు",
+                "ఇల్లు, కన్ను, పన్ను, ఒళ్ళు",
+                "ఇంటి, కంటి, పంటి, ఒంటి"
+              ]
+            },
+            {
+              "label": "E",
+              "cells": [
+                "final syllable → -తి — five stems in -యి and two in -ర్రు",
+                "చేయి, రాయి, నూయి, గోయి",
+                "చేతి, రాతి, నూతి, గోతి"
+              ]
+            },
+            {
+              "label": "F",
+              "cells": [
+                "two obliques — all stems in -ం (¶62)",
+                "పుస్తకం, కలం",
+                "పుస్తకం / పుస్తకాని-"
+              ]
+            }
+          ],
+          "footnote": "Class D is closed at six stems and class E at seven. Class A holds the majority of Telugu nouns, and words taken from other languages join it: **రోడ్డు** and **ఫోన్** change nothing."
+        }
+      ],
+      "examples": [
+        {
+          "target": "ఇల్లు → ఇంటి → ఇంటికి",
+          "gloss": "house → of a house → to the house"
+        },
+        {
+          "target": "చేయి → చేతి → చేతిలో",
+          "gloss": "hand → of a hand → in the hand"
+        },
+        {
+          "target": "చెట్టు → చెట్టు → చెట్టుకు",
+          "gloss": "tree → of a tree → to the tree"
+        }
+      ],
+      "footnotes": [
+        "Some class B and C stems survive only inside a compound: **చంటి బిడ్డ**, *infant*, keeps the oblique of **చన్ను**, and **నాగటి కోల**, *plough-shaft*, that of **నాగలి**, while the free dative is **నాగలికి**.",
+        "Several class B and C nouns are moving into class A: **కాలుకు** beside **కాలికి**, *to a leg*."
+      ],
+      "seeAlso": [
+        "oblique-genitive",
+        "two-obliques"
+      ],
+      "core": true,
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Krishnamurti, Bhadriraju & Gwynn, J. P. L., *A Grammar of Modern Telugu*. Delhi: Oxford University Press, 1985, §8.5, §8.6–8.7.",
+          "note": "The six classes A–F, their membership, the frozen compounds, and the drift of classes B and C into class A."
+        }
+      ]
+    },
+    {
+      "id": "two-obliques",
+      "number": "62",
+      "heading": "A Noun in -ం Has Two Obliques",
+      "statement": "A noun ending in **-ం** takes the nominative unchanged as its genitive, and a second oblique in **-ాని-** before the accusative and the dative. **పుస్తకం** is *of a book*, but *to a book* is **పుస్తకానికి**.",
+      "paradigms": [
+        {
+          "caption": "The two obliques",
+          "columns": [
+            "noun",
+            "nominative",
+            "genitive",
+            "dative",
+            "accusative"
+          ],
+          "rows": [
+            {
+              "label": "book",
+              "cells": [
+                "పుస్తకం",
+                "పుస్తకం",
+                "పుస్తకానికి",
+                "పుస్తకాన్ని"
+              ]
+            },
+            {
+              "label": "pen",
+              "cells": [
+                "కలం",
+                "కలం",
+                "కలానికి",
+                "కలాన్ని"
+              ]
+            },
+            {
+              "label": "horse",
+              "cells": [
+                "గుర్రం",
+                "గుర్రం",
+                "గుర్రానికి",
+                "గుర్రాన్ని"
+              ]
+            }
+          ],
+          "footnote": "The instrumental and the locative are built on the genitive oblique, not on the second one: **పుస్తకంతో**, **పుస్తకంలో**."
+        }
+      ],
+      "examples": [
+        {
+          "target": "పుస్తకం అట్ట",
+          "gloss": "the cover of the book",
+          "note": "genitive"
+        },
+        {
+          "target": "పుస్తకానికి",
+          "gloss": "to the book",
+          "note": "the second oblique"
+        }
+      ],
+      "footnotes": [
+        "A stem in **-ెం** takes **-ేని-** instead: **పళ్ళెం**, *plate*, gives **పళ్ళేనికి**."
+      ],
+      "seeAlso": [
+        "oblique-classes",
+        "dative-ki"
+      ],
+      "core": true,
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Krishnamurti, Bhadriraju & Gwynn, J. P. L., *A Grammar of Modern Telugu*. Delhi: Oxford University Press, 1985, §8.5F, §9.9.",
+          "note": "\"All nouns ending in [am/em] have two oblique stems each, one in the genitive without any modification and another before the accusative and dative case suffixes.\""
+        }
+      ]
+    },
+    {
+      "id": "plural-oblique",
+      "number": "63",
+      "heading": "The Oblique in the Plural",
+      "statement": "The plural forms its oblique by changing **-లు** to **-ల** and **-ళ్ళు** to **-ళ్ళ**. Case suffixes are added to that, so the plural marker and the case stand one after the other, each keeping its own shape.",
+      "paradigms": [
+        {
+          "caption": "Plural, oblique, and two cases",
+          "columns": [
+            "noun",
+            "plural",
+            "oblique = genitive",
+            "dative",
+            "locative"
+          ],
+          "rows": [
+            {
+              "label": "books",
+              "cells": [
+                "పుస్తకాలు",
+                "పుస్తకాల",
+                "పుస్తకాలకు",
+                "పుస్తకాలలో"
+              ]
+            },
+            {
+              "label": "houses",
+              "cells": [
+                "ఇళ్ళు",
+                "ఇళ్ళ",
+                "ఇళ్ళకు",
+                "ఇళ్ళలో"
+              ]
+            },
+            {
+              "label": "boys",
+              "cells": [
+                "అబ్బాయిలు",
+                "అబ్బాయిల",
+                "అబ్బాయిలకు",
+                "—"
+              ]
+            },
+            {
+              "label": "they",
+              "cells": [
+                "వాళ్ళు",
+                "వాళ్ళ",
+                "వాళ్ళకు",
+                "—"
+              ]
+            }
+          ],
+          "footnote": "The six singular classes of ¶61 leave no trace here: whatever a noun does in the singular, its plural oblique ends in **-ల** or **-ళ్ళ**."
+        }
+      ],
+      "examples": [
+        {
+          "target": "పుస్తకాల పేర్లు",
+          "gloss": "the names of the books"
+        },
+        {
+          "target": "అబ్బాయిలకు",
+          "gloss": "to the boys"
+        }
+      ],
+      "footnotes": [],
+      "seeAlso": [
+        "plural-lu",
+        "oblique-genitive"
+      ],
+      "core": true,
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Krishnamurti, Bhadriraju & Gwynn, J. P. L., *A Grammar of Modern Telugu*. Delhi: Oxford University Press, 1985, §8.9.",
+          "note": "The plural oblique in -ల / -ళ."
+        }
+      ]
+    },
+    {
+      "id": "accusative-ni",
+      "number": "64",
+      "heading": "The Accusative — ని / ను",
+      "statement": "The direct object takes **-ని** or **-ను**. A noun naming an animate being takes it necessarily; with a lifeless thing it is optional, and the bare nominative is the commoner choice.",
+      "examples": [
+        {
+          "target": "నేను అబ్బాయిని చూస్తున్నాను.",
+          "gloss": "I see the boy.",
+          "note": "animate, so the suffix stands"
+        },
+        {
+          "target": "నేను పుస్తకం చదువుతున్నాను.",
+          "gloss": "I am reading a book.",
+          "note": "inanimate, so the noun is bare"
         },
         {
           "target": "కుక్కను",
           "gloss": "the dog (as object)"
         }
       ],
+      "footnotes": [],
       "seeAlso": [
-        "agglutination"
+        "agglutination",
+        "ki-ku-choice"
       ],
       "core": true,
-      "footnotes": []
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Krishnamurti, Bhadriraju & Gwynn, J. P. L., *A Grammar of Modern Telugu*. Delhi: Oxford University Press, 1985, §9.4, §9.7.",
+          "note": "\"nouns denoting animate objects must take the accusative suffix, whereas with inanimate nouns its use is optional.\""
+        }
+      ]
     },
     {
       "id": "dative-ki",
-      "number": "59",
+      "number": "65",
       "heading": "The Dative — కి / కు",
-      "statement": "**-కి** or **-కు** marks the person to whom or for whom, and it is the busiest suffix in the language. Beside the indirect object it does work that English gives to a subject: with it Telugu says that a thing is liked, is needed, or is *had* — the last being the ordinary way of saying *have*, since Telugu has no such verb (¶65).",
+      "statement": "**-కి** or **-కు** marks the person to whom or for whom, and it is the busiest suffix in the language. Beside the indirect object it does work that English gives to a subject: with it Telugu says that a thing is liked, is needed, or is *had*.",
       "paradigms": [
         {
           "caption": "The dative of the pronouns",
           "columns": [
+            "person",
             "nominative",
             "dative",
             "English"
@@ -132,7 +715,7 @@
               ]
             }
           ],
-          "footnote": "**-కి** follows a front vowel and **-కు** a back one; the choice is one of sound, not of meaning."
+          "footnote": "Which of the two shapes appears is settled by ¶66."
         }
       ],
       "examples": [
@@ -150,44 +733,126 @@
           "note": "literally: to-me Telugu comes"
         }
       ],
+      "footnotes": [],
       "seeAlso": [
         "agglutination",
-        "personal-pronouns"
+        "personal-pronouns",
+        "ki-ku-choice"
       ],
       "core": true,
-      "footnotes": []
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Krishnamurti, Bhadriraju & Gwynn, J. P. L., *A Grammar of Modern Telugu*. Delhi: Oxford University Press, 1985, §9.2, §9.12.",
+          "note": "The dative postposition and the range of its uses."
+        }
+      ]
     },
     {
-      "id": "locative-lo",
-      "number": "60",
-      "heading": "The Locative — లో",
-      "statement": "**-లో** means *in* or *inside*, and **-మీద** means *on*. Both are added to the noun exactly as -కి is, and neither is a preposition: nothing in Telugu stands before its noun in the way English *in* and *on* do. Where English puts a little word in front, Telugu puts a suffix behind.",
-      "examples": [
+      "id": "ki-ku-choice",
+      "number": "66",
+      "heading": "When It Is -ని and -కి, and When -ను and -కు",
+      "statement": "Both pairs choose by the sound in front of them: **-ని** and **-కి** follow a stem whose last syllable ends in **ఇ** or **ఈ**, and **-ను** and **-కు** follow every other. The personal pronouns with a one-syllable oblique are the exception — **నీకు** and **మీకు**, not నీకి.",
+      "paradigms": [
         {
-          "target": "ఇంట్లో",
-          "gloss": "in the house",
-          "note": "ఇల్లు with -లో, the stem changing"
-        },
-        {
-          "target": "పుస్తకంలో",
-          "gloss": "in the book"
-        },
-        {
-          "target": "బల్ల మీద",
-          "gloss": "on the table"
+          "caption": "The two shapes",
+          "columns": [
+            "noun",
+            "oblique",
+            "ends in",
+            "accusative",
+            "dative"
+          ],
+          "rows": [
+            {
+              "label": "house",
+              "cells": [
+                "ఇంటి",
+                "ఇ",
+                "ఇంటిని",
+                "ఇంటికి"
+              ]
+            },
+            {
+              "label": "cat",
+              "cells": [
+                "పిల్లి",
+                "ఇ",
+                "పిల్లిని",
+                "పిల్లికి"
+              ]
+            },
+            {
+              "label": "woman",
+              "cells": [
+                "స్త్రీ",
+                "ఈ",
+                "స్త్రీని",
+                "స్త్రీకి"
+              ]
+            },
+            {
+              "label": "mother",
+              "cells": [
+                "అమ్మ",
+                "అ",
+                "అమ్మను",
+                "అమ్మకు"
+              ]
+            },
+            {
+              "label": "tree",
+              "cells": [
+                "చెట్టు",
+                "ఉ",
+                "చెట్టును",
+                "చెట్టుకు"
+              ]
+            }
+          ],
+          "footnote": "**నీ** and **మీ** end in ఈ and still take **-కు**; they are the exception the rule names."
         }
       ],
+      "examples": [
+        {
+          "target": "ఇంటికి",
+          "gloss": "to the house",
+          "note": "oblique in ఇ"
+        },
+        {
+          "target": "అమ్మకు",
+          "gloss": "to mother",
+          "note": "oblique in అ"
+        }
+      ],
+      "footnotes": [
+        "Modern Standard Telugu extends **-ని** and **-కి** past that condition: **అన్నని** and **అన్నకి** alternate freely with **అన్నను** and **అన్నకు**."
+      ],
       "seeAlso": [
-        "agglutination"
+        "accusative-ni",
+        "dative-ki"
       ],
       "core": true,
-      "footnotes": []
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Krishnamurti, Bhadriraju & Gwynn, J. P. L., *A Grammar of Modern Telugu*. Delhi: Oxford University Press, 1985, §9.5.",
+          "note": "\"The postpositions [nu] and [ku] take the forms [ni] and [ki] if the preceding syllable ends in [i] or [ii], except in the case of personal pronouns with monosyllabic oblique stems\"; and the note on the Modern Standard drift."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Brown, Charles Philip, *A Grammar of the Telugu Language*, 2nd ed. Madras: Christian Knowledge Society's Press, 1857, the chapter \"On Nouns\".",
+          "url": "https://archive.org/details/brown-a-grammar-of-the-telugu-language",
+          "licence": "Public domain (published 1857)",
+          "note": "\"The Dative … adds కి to the inflection if it ends in ఇ or ఈ … But if the inflection ends in any other syllable it takes కు.\""
+        }
+      ]
     },
     {
       "id": "instrumental-to",
-      "number": "61",
-      "heading": "With — తో",
-      "statement": "**-తో** covers both what English divides between *with* the instrument and *with* the companion: *written with a pen* and *came with a friend* take the same suffix. Telugu draws no line where English draws one.",
+      "number": "67",
+      "heading": "The Instrumental — తో",
+      "statement": "**-తో** covers both what English divides between *with* the instrument and *with* the companion: *written with a pen* and *came with a friend* take the same suffix. The written language also has **-చేత**, which marks the instrument and the agent but not the companion.",
       "examples": [
         {
           "target": "కలంతో",
@@ -202,17 +867,78 @@
           "gloss": "with me"
         }
       ],
+      "footnotes": [
+        "A bare **-న** on the oblique serves as an instrumental in the older language: **కర్రన కొట్టాడు**, *he struck with a stick*."
+      ],
       "seeAlso": [
-        "agglutination"
+        "agglutination",
+        "postposition-types"
       ],
       "core": true,
-      "footnotes": []
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Brown, Charles Philip, *A Grammar of the Telugu Language*, 2nd ed. Madras: Christian Knowledge Society's Press, 1857, the chapter \"On Nouns\".",
+          "url": "https://archive.org/details/brown-a-grammar-of-the-telugu-language",
+          "licence": "Public domain (published 1857)",
+          "note": "\"The instrumental case adds to the inflection the words చేత 'by' or తో 'with'\"; and the note on న used for the instrumental."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Krishnamurti, Bhadriraju & Gwynn, J. P. L., *A Grammar of Modern Telugu*. Delhi: Oxford University Press, 1985, §9.14.",
+          "note": "తో listed among the bound postpositions."
+        }
+      ]
+    },
+    {
+      "id": "locative-lo",
+      "number": "68",
+      "heading": "The Locative — లో, మీద",
+      "statement": "**-లో** means *in* and **-మీద** means *on*, and neither is a preposition: nothing in Telugu stands before its noun as English *in* and *on* do. The older written language marks the same case with **-అందు** or a bare **-న**.",
+      "examples": [
+        {
+          "target": "ఇంట్లో",
+          "gloss": "in the house",
+          "note": "ఇంటి + లో, contracted"
+        },
+        {
+          "target": "పుస్తకంలో",
+          "gloss": "in the book"
+        },
+        {
+          "target": "బల్ల మీద",
+          "gloss": "on the table"
+        }
+      ],
+      "footnotes": [
+        "**ఇంటిలో** contracts to **ఇంట్లో** in speech and in writing alike.",
+        "**లో** and **మీద** are postpositions of the second type (¶71), so a further suffix goes on top of them: **ఇంట్లోకి**, *into the house*."
+      ],
+      "seeAlso": [
+        "agglutination",
+        "postposition-types"
+      ],
+      "core": true,
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Krishnamurti, Bhadriraju & Gwynn, J. P. L., *A Grammar of Modern Telugu*. Delhi: Oxford University Press, 1985, §9.14–9.15.",
+          "note": "లో and మీద as independent-word postpositions, and లోకి, లోనుంచి."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Brown, Charles Philip, *A Grammar of the Telugu Language*, 2nd ed. Madras: Christian Knowledge Society's Press, 1857, the chapter \"On Nouns\".",
+          "url": "https://archive.org/details/brown-a-grammar-of-the-telugu-language",
+          "licence": "Public domain (published 1857)",
+          "note": "\"the Locative case adds అందు or లో 'in'.\""
+        }
+      ]
     },
     {
       "id": "ablative-nundi",
-      "number": "62",
-      "heading": "From — నుండి",
-      "statement": "**-నుండి** (or **-నుంచి**, which is commoner in speech) means *from*, of place and of time alike. With it a learner can at last answer the question every foreigner is asked: *where are you from?*",
+      "number": "69",
+      "heading": "The Ablative — నుండి",
+      "statement": "**-నుండి** — or **-నుంచి**, which is commoner in speech — means *from*, of place and of time alike. It is added to the oblique stem like the rest: **ఇంటి నుండి**, *from the house*.",
       "examples": [
         {
           "target": "నేను ఇండియా నుండి.",
@@ -227,79 +953,464 @@
           "gloss": "Where are you from?"
         }
       ],
+      "footnotes": [
+        "Telugu's own grammars give the ablative no case of its own, reckoning it with the instrumental or the locative (¶72)."
+      ],
       "seeAlso": [
         "agglutination",
         "asking-what-who"
       ],
       "core": true,
-      "footnotes": []
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Krishnamurti, Bhadriraju & Gwynn, J. P. L., *A Grammar of Modern Telugu*. Delhi: Oxford University Press, 1985, §9.13–9.14.",
+          "note": "నుంచి / నించి among the bound postpositions."
+        }
+      ]
     },
     {
-      "id": "oblique-stem",
-      "number": "63",
-      "heading": "The Stem Before a Suffix",
-      "statement": "Before a suffix, many nouns take a special form called the **oblique stem** — a stem that never appears alone and exists only to be built on. **ఇల్లు** has the oblique **ఇంటి-**, so that *in the house* is **ఇంట్లో** and *to the house* **ఇంటికి**. This is the one real difficulty in the case system: the suffixes are regular, and it is the stems that must be learned.",
+      "id": "vocative",
+      "number": "70",
+      "heading": "The Vocative",
+      "statement": "A noun is called by lengthening its final vowel: **అక్క** gives **అక్కా**, **తండ్రి** gives **తండ్రీ**. A noun in **-డు** may take **-డా** instead, and a noun in **-ం** has no vocative at all.",
       "paradigms": [
         {
-          "caption": "Nominative and oblique",
+          "caption": "Calling and naming",
           "columns": [
+            "noun",
             "nominative",
-            "oblique",
-            "with -లో",
-            "with -కి"
+            "vocative",
+            "English"
           ],
           "rows": [
             {
-              "label": "house",
+              "label": "mother",
               "cells": [
-                "ఇల్లు",
-                "ఇంటి-",
-                "ఇంట్లో",
-                "ఇంటికి"
+                "అమ్మ",
+                "అమ్మా",
+                "mother!"
+              ]
+            },
+            {
+              "label": "elder sister",
+              "cells": [
+                "అక్క",
+                "అక్కా",
+                "sister!"
+              ]
+            },
+            {
+              "label": "father",
+              "cells": [
+                "తండ్రి",
+                "తండ్రీ",
+                "father!"
+              ]
+            },
+            {
+              "label": "younger brother",
+              "cells": [
+                "తమ్ముడు",
+                "తమ్ముడూ / తమ్ముడా",
+                "brother!"
+              ]
+            },
+            {
+              "label": "brother-in-law",
+              "cells": [
+                "బావ",
+                "బావా",
+                "brother-in-law!"
               ]
             },
             {
               "label": "book",
               "cells": [
                 "పుస్తకం",
-                "పుస్తకం-",
-                "పుస్తకంలో",
-                "పుస్తకానికి"
-              ]
-            },
-            {
-              "label": "I",
-              "cells": [
-                "నేను",
-                "నా-",
                 "—",
-                "నాకు"
+                "(none)"
               ]
             }
           ],
-          "footnote": "A noun whose oblique differs from its nominative should be learned with both, as a Lithuanian noun is learned with its genitive."
+          "footnote": "The vocative is the one case that adds no suffix: the noun's own last vowel is lengthened and nothing is glued on."
         }
       ],
       "examples": [
         {
-          "target": "ఇల్లు → ఇంటికి",
-          "gloss": "house → to the house"
+          "target": "అమ్మా, నా పుస్తకం ఎక్కడ ఉంది?",
+          "gloss": "Mother, where is my book?"
         },
         {
-          "target": "నేను → నాకు",
-          "gloss": "I → to me"
+          "target": "తల్లీ!",
+          "gloss": "mother!",
+          "note": "an affectionate address, used even to a small girl"
         }
       ],
+      "footnotes": [
+        "The plural vocative in **-లారా** — **అక్కలారా**, *O sisters* — belongs to platform speech and to writing.",
+        "Relatives address each other by the kinship term rather than by name: **బావా**, **వదినా**, **తమ్ముడూ**."
+      ],
       "seeAlso": [
-        "agglutination",
-        "dative-ki",
-        "locative-lo"
+        "seven-cases"
       ],
       "core": true,
-      "footnotes": []
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Krishnamurti, Bhadriraju & Gwynn, J. P. L., *A Grammar of Modern Telugu*. Delhi: Oxford University Press, 1985, §25.5.",
+          "note": "\"In calling or addressing a person the last vowel of the word or name by which the person is called is lengthened; if the last syllable is [Du], it may occasionally be changed to [Daa]. Words/names ending in [am] do not take a vocative suffix.\""
+        },
+        {
+          "kind": "grammar",
+          "citation": "Brown, Charles Philip, *A Grammar of the Telugu Language*, 2nd ed. Madras: Christian Knowledge Society's Press, 1857, the section \"On the Vocative\".",
+          "url": "https://archive.org/details/brown-a-grammar-of-the-telugu-language",
+          "licence": "Public domain (published 1857)",
+          "note": "\"All nouns ending in ఇ make the singular vocative by lengthening the final vowel\"; and the plural in -లారా."
+        }
+      ]
+    },
+    {
+      "id": "postposition-types",
+      "number": "71",
+      "heading": "The Case Suffixes Are Postpositions",
+      "statement": "What is called a case suffix here is a **postposition**: a piece that follows the oblique stem where English would put a preposition in front. Some are bound and never stand alone — **-ని**, **-కి**, **-తో**, **-నుంచి**; others are separate words, and a bound one may then be added on top of them.",
+      "paradigms": [
+        {
+          "caption": "The two types",
+          "columns": [
+            "type",
+            "behaviour",
+            "members"
+          ],
+          "rows": [
+            {
+              "label": "bound",
+              "cells": [
+                "never a word on its own; nothing may follow",
+                "-ని/-ను, -కి/-కు, -తో, -నుంచి, -కంటె, -కోసం, -గుండా"
+              ]
+            },
+            {
+              "label": "free",
+              "cells": [
+                "also ordinary nouns of place; take a bound suffix after them",
+                "లో, మీద, కింద, లోపల, ముందు, వెనుక"
+              ]
+            }
+          ],
+          "footnote": "**లో** *in* gives **లోకి** *into* and **లోనుంచి** *from inside*, each a bound suffix added to a free one."
+        }
+      ],
+      "examples": [
+        {
+          "target": "ఇంట్లోకి రండి.",
+          "gloss": "Come into the house."
+        },
+        {
+          "target": "కారు రోడ్డు మీద ఉంది.",
+          "gloss": "The car is on the road."
+        }
+      ],
+      "footnotes": [],
+      "seeAlso": [
+        "locative-lo",
+        "agglutination"
+      ],
+      "core": true,
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Krishnamurti, Bhadriraju & Gwynn, J. P. L., *A Grammar of Modern Telugu*. Delhi: Oxford University Press, 1985, §9.12, §9.14–9.15.",
+          "note": "The division into Type 1 (bound) and Type 2 (independent words), with లో, లోనుంచి and లోకి as the illustration."
+        }
+      ]
+    },
+    {
+      "id": "vibhakti-tradition",
+      "number": "72",
+      "heading": "What the Telugu Grammarians Count",
+      "statement": "Telugu's own grammars count the cases on the Sanskrit model and name them by number — **ప్రథమా విభక్తి**, the first case, and so on. That scheme does not cut where the European one does: the genitive and the dative fall together under **షష్ఠీ**, the sixth.",
+      "paradigms": [
+        {
+          "caption": "The two namings",
+          "columns": [
+            "case",
+            "traditional name",
+            "marked by"
+          ],
+          "rows": [
+            {
+              "label": "nominative",
+              "cells": [
+                "ప్రథమా విభక్తి",
+                "nothing"
+              ]
+            },
+            {
+              "label": "accusative",
+              "cells": [
+                "ద్వితీయా విభక్తి",
+                "-ని, -ను"
+              ]
+            },
+            {
+              "label": "instrumental",
+              "cells": [
+                "తృతీయా విభక్తి",
+                "-చేత, -తో"
+              ]
+            },
+            {
+              "label": "genitive",
+              "cells": [
+                "షష్ఠీ విభక్తి",
+                "the oblique stem"
+              ]
+            },
+            {
+              "label": "dative",
+              "cells": [
+                "షష్ఠీ విభక్తి",
+                "-కి, -కు"
+              ]
+            },
+            {
+              "label": "locative",
+              "cells": [
+                "సప్తమీ విభక్తి",
+                "-అందు, -లో"
+              ]
+            },
+            {
+              "label": "ablative",
+              "cells": [
+                "తృతీయా or సప్తమీ",
+                "-నుండి"
+              ]
+            }
+          ],
+          "footnote": "Brown, who sets out these equivalences, prefers the European arrangement and writes that Telugu grammarians \"have made fruitless efforts to mould the noun on the Sanscrit model\"."
+        }
+      ],
+      "examples": [],
+      "footnotes": [
+        "**ఏకవచనము** is the singular and **బహువచనము** the plural in the same tradition."
+      ],
+      "seeAlso": [
+        "seven-cases"
+      ],
+      "core": false,
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Brown, Charles Philip, *A Grammar of the Telugu Language*, 2nd ed. Madras: Christian Knowledge Society's Press, 1857, the chapter \"On Nouns\", footnote on the Sanskrit case names.",
+          "url": "https://archive.org/details/brown-a-grammar-of-the-telugu-language",
+          "licence": "Public domain (published 1857)",
+          "note": "\"Sanscrit grammarians (from whom Telugu authors borrow their rules) call the nominative ప్రథమావిభక్తి First case; the Accusative ద్వితీయావిభక్తి Second case; the Instrumental తృతీయావిభక్తి Third case; the Genitive and Dative are included in షష్ఠి the Sixth case; and the Locative is called సప్తమివిభక్తి the Seventh case. The Ablative is called either తృతీయ Instrumental or సప్తమి Locative.\""
+        }
+      ]
     }
   ],
   "vocabulary": [
+    {
+      "lemma": "ఇల్లు",
+      "gloss": "house",
+      "pos": "noun",
+      "forms": {
+        "nom": "ఇల్లు",
+        "oblique": "ఇంటి-",
+        "translit": "illu",
+        "class": "amahat sg."
+      }
+    },
+    {
+      "lemma": "అమ్మ",
+      "gloss": "mother",
+      "pos": "noun",
+      "forms": {
+        "nom": "అమ్మ",
+        "oblique": "అమ్మ-",
+        "translit": "amma",
+        "class": "amahat sg."
+      }
+    },
+    {
+      "lemma": "అక్క",
+      "gloss": "elder sister",
+      "pos": "noun",
+      "forms": {
+        "nom": "అక్క",
+        "oblique": "అక్క-",
+        "translit": "akka",
+        "class": "amahat sg."
+      }
+    },
+    {
+      "lemma": "తండ్రి",
+      "gloss": "father",
+      "pos": "noun",
+      "forms": {
+        "nom": "తండ్రి",
+        "oblique": "తండ్రి-",
+        "translit": "taṇḍri",
+        "class": "mahat sg."
+      }
+    },
+    {
+      "lemma": "తమ్ముడు",
+      "gloss": "younger brother",
+      "pos": "noun",
+      "forms": {
+        "nom": "తమ్ముడు",
+        "oblique": "తమ్ముడి-",
+        "translit": "tammuḍu",
+        "class": "mahat sg."
+      }
+    },
+    {
+      "lemma": "స్నేహితుడు",
+      "gloss": "friend (male)",
+      "pos": "noun",
+      "forms": {
+        "nom": "స్నేహితుడు",
+        "oblique": "స్నేహితుడి-, స్నేహితుని-",
+        "translit": "snēhituḍu",
+        "class": "mahat sg."
+      }
+    },
+    {
+      "lemma": "ఊరు",
+      "gloss": "town, village",
+      "pos": "noun",
+      "forms": {
+        "nom": "ఊరు",
+        "oblique": "ఊరి-",
+        "translit": "ūru",
+        "class": "amahat sg."
+      }
+    },
+    {
+      "lemma": "చెట్టు",
+      "gloss": "tree",
+      "pos": "noun",
+      "forms": {
+        "nom": "చెట్టు",
+        "oblique": "చెట్టు-",
+        "translit": "ceṭṭu",
+        "class": "amahat sg."
+      }
+    },
+    {
+      "lemma": "కన్ను",
+      "gloss": "eye",
+      "pos": "noun",
+      "forms": {
+        "nom": "కన్ను",
+        "oblique": "కంటి-",
+        "translit": "kannu",
+        "class": "amahat sg."
+      }
+    },
+    {
+      "lemma": "చేయి",
+      "gloss": "hand",
+      "pos": "noun",
+      "forms": {
+        "nom": "చేయి",
+        "oblique": "చేతి-",
+        "translit": "cēyi",
+        "class": "amahat sg."
+      }
+    },
+    {
+      "lemma": "రాయి",
+      "gloss": "stone",
+      "pos": "noun",
+      "forms": {
+        "nom": "రాయి",
+        "oblique": "రాతి-",
+        "translit": "rāyi",
+        "class": "amahat sg."
+      }
+    },
+    {
+      "lemma": "పిల్లి",
+      "gloss": "cat",
+      "pos": "noun",
+      "forms": {
+        "nom": "పిల్లి",
+        "oblique": "పిల్లి-",
+        "translit": "pilli",
+        "class": "amahat sg."
+      }
+    },
+    {
+      "lemma": "కూతురు",
+      "gloss": "daughter",
+      "pos": "noun",
+      "forms": {
+        "nom": "కూతురు",
+        "oblique": "కూతురి-",
+        "translit": "kūturu",
+        "class": "amahat sg."
+      }
+    },
+    {
+      "lemma": "పుస్తకం",
+      "gloss": "book",
+      "pos": "noun",
+      "forms": {
+        "nom": "పుస్తకం",
+        "oblique": "పుస్తకం-, పుస్తకాని-",
+        "translit": "pustakaṁ",
+        "class": "amahat sg."
+      }
+    },
+    {
+      "lemma": "కలం",
+      "gloss": "pen",
+      "pos": "noun",
+      "forms": {
+        "nom": "కలం",
+        "oblique": "కలం-, కలాని-",
+        "translit": "kalaṁ",
+        "class": "amahat sg."
+      }
+    },
+    {
+      "lemma": "గుర్రం",
+      "gloss": "horse",
+      "pos": "noun",
+      "forms": {
+        "nom": "గుర్రం",
+        "oblique": "గుర్రం-, గుర్రాని-",
+        "translit": "gurraṁ",
+        "class": "amahat sg."
+      }
+    },
+    {
+      "lemma": "బల్ల",
+      "gloss": "table",
+      "pos": "noun",
+      "forms": {
+        "nom": "బల్ల",
+        "oblique": "బల్ల-",
+        "translit": "balla",
+        "class": "amahat sg."
+      }
+    },
+    {
+      "lemma": "విభక్తి",
+      "gloss": "case, case suffix",
+      "pos": "noun",
+      "forms": {
+        "nom": "విభక్తి",
+        "oblique": "విభక్తి-",
+        "translit": "vibhakti",
+        "class": "amahat sg."
+      }
+    },
     {
       "lemma": "నాకు",
       "gloss": "to me",
@@ -337,40 +1448,11 @@
       }
     },
     {
-      "lemma": "బల్ల",
-      "gloss": "table",
-      "pos": "noun",
+      "lemma": "యొక్క",
+      "gloss": "of (genitive particle, written style)",
+      "pos": "particle",
       "forms": {
-        "nom": "బల్ల",
-        "translit": "balla"
-      }
-    },
-    {
-      "lemma": "కలం",
-      "gloss": "pen",
-      "pos": "noun",
-      "forms": {
-        "nom": "కలం",
-        "translit": "kalaṃ"
-      }
-    },
-    {
-      "lemma": "స్నేహితుడు",
-      "gloss": "friend (male)",
-      "pos": "noun",
-      "forms": {
-        "nom": "స్నేహితుడు",
-        "translit": "snēhituḍu",
-        "class": "mahat sg."
-      }
-    },
-    {
-      "lemma": "ఊరు",
-      "gloss": "town, village",
-      "pos": "noun",
-      "forms": {
-        "nom": "ఊరు",
-        "translit": "ūru"
+        "translit": "yokka"
       }
     },
     {
@@ -381,20 +1463,11 @@
         "nom": "ఎక్కడ",
         "translit": "ekkaḍa"
       }
-    },
-    {
-      "lemma": "విభక్తి",
-      "gloss": "case, case suffix",
-      "pos": "noun",
-      "forms": {
-        "nom": "విభక్తి",
-        "translit": "vibhakti"
-      }
     }
   ],
   "drills": [
     {
-      "id": "te108-q2",
+      "id": "te108-q1",
       "type": "single",
       "difficulty": "easy",
       "stem": "How is **to me** said?",
@@ -408,15 +1481,14 @@
       "explanation": "The oblique stem of నేను is నా-, and the dative suffix is added to that: *నాకు*. Adding -కు to the nominative gives a form that does not exist.",
       "rulesTested": [
         "dative-ki",
-        "oblique-stem"
+        "oblique-genitive"
       ],
       "vocabUsed": [
-        "నాకు",
-        "నేను"
+        "నాకు"
       ]
     },
     {
-      "id": "te108-q3",
+      "id": "te108-q2",
       "type": "single",
       "difficulty": "easy",
       "stem": "Which suffix means **from**?",
@@ -430,6 +1502,26 @@
       "explanation": "-నుండి, or -నుంచి in speech. -మీద means *on* and -ని marks a direct object.",
       "rulesTested": [
         "ablative-nundi"
+      ],
+      "vocabUsed": [
+        "విభక్తి"
+      ]
+    },
+    {
+      "id": "te108-q3",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Telugu has no separate word for **Rama's**. What carries that sense?",
+      "options": [
+        "The nominative, రాముడు.",
+        "The oblique stem standing alone, రాముడి.",
+        "The dative, రాముడికి.",
+        "The accusative, రాముడిని."
+      ],
+      "correct": 1,
+      "explanation": "The oblique stem is the genitive: *రాముడి కలం*, Rama's pen. It is the one case that is a stem rather than a suffix, and it is also the base every other suffix is added to.",
+      "rulesTested": [
+        "oblique-genitive"
       ],
       "vocabUsed": [
         "విభక్తి"
@@ -467,10 +1559,10 @@
         "Because the phrase is in the plural."
       ],
       "correct": 1,
-      "explanation": "-లో is a suffix, not a preposition. Telugu has postpositions and suffixes and no prepositions at all — the head follows what depends on it throughout the language.",
+      "explanation": "-లో is a postposition, not a preposition. Telugu has postpositions and suffixes and no prepositions at all — the head follows what depends on it throughout the language.",
       "rulesTested": [
         "locative-lo",
-        "agglutination"
+        "postposition-types"
       ],
       "vocabUsed": [
         "పుస్తకం",
@@ -479,30 +1571,24 @@
     },
     {
       "id": "te108-q6",
-      "type": "multi",
+      "type": "single",
       "difficulty": "medium",
-      "stem": "Which of these are correctly formed?",
+      "stem": "*to a book* is **పుస్తకానికి**, but *of a book* is simply **పుస్తకం**. Why?",
       "options": [
-        "నాకు",
-        "నీకు",
-        "మీకు",
-        "నేనుకు"
+        "Because the genitive has been left unmarked by accident.",
+        "Because a noun in -ం has two obliques: the bare nominative for the genitive, and -ాని- before the accusative and the dative.",
+        "Because పుస్తకం is a plural.",
+        "Because the dative is irregular for this noun."
       ],
-      "correct": [
-        0,
-        1,
-        2
-      ],
-      "explanation": "Each pronoun has an oblique stem — నా-, నీ-, మీ- — and the dative is built on that. *నేనుకు* adds the suffix to the nominative, which Telugu never does.",
+      "correct": 1,
+      "explanation": "Class F is the only class with two oblique stems. The dative suffix -కి is perfectly regular; it is the stem in front of it that is chosen differently from the one the genitive uses.",
       "rulesTested": [
-        "dative-ki",
-        "oblique-stem"
+        "two-obliques",
+        "oblique-classes"
       ],
       "vocabUsed": [
-        "నాకు",
-        "నీకు",
-        "మీకు",
-        "నేను"
+        "పుస్తకం",
+        "విభక్తి"
       ]
     },
     {
@@ -512,18 +1598,18 @@
       "stem": "*నేను పుస్తకం చదువుతున్నాను* has no suffix on **పుస్తకం**, though it is the object. Why not?",
       "options": [
         "Because the sentence is in the present.",
-        "Because the object is a lifeless thing, and Telugu commonly leaves such an object bare.",
+        "Because the object is inanimate, and with an inanimate object the accusative suffix is optional.",
         "Because పుస్తకం cannot take a suffix.",
         "Because the suffix has been dropped in error."
       ],
       "correct": 1,
-      "explanation": "The accusative -ని is used chiefly of people and animals. A lifeless object usually stands bare, the word order showing what it is — a distinction the European accusative does not make.",
+      "explanation": "An animate object must carry -ని or -ను; an inanimate one need not, and usually does not. The bare form is the more idiomatic of the two.",
       "rulesTested": [
-        "accusative-ni"
+        "accusative-ni",
+        "nominative"
       ],
       "vocabUsed": [
-        "పుస్తకం",
-        "నేను"
+        "పుస్తకం"
       ]
     },
     {
@@ -550,6 +1636,26 @@
     {
       "id": "te108-q9",
       "type": "single",
+      "difficulty": "medium",
+      "stem": "**అమ్మ** is called by saying **అమ్మా**. What has been added?",
+      "options": [
+        "The suffix -ఆ.",
+        "Nothing: the noun's own final vowel has been lengthened.",
+        "The suffix -లారా.",
+        "The oblique stem."
+      ],
+      "correct": 1,
+      "explanation": "The vocative is the one case that glues nothing on. A noun in -డు may instead shift to -డా, and a noun in -ం is not called at all.",
+      "rulesTested": [
+        "vocative"
+      ],
+      "vocabUsed": [
+        "అమ్మ"
+      ]
+    },
+    {
+      "id": "te108-q10",
+      "type": "single",
       "difficulty": "hard",
       "stem": "*ఇల్లు* becomes *ఇంటికి* in the dative. What has happened?",
       "options": [
@@ -559,9 +1665,9 @@
         "Two suffixes have been added."
       ],
       "correct": 1,
-      "explanation": "The suffix -కి is perfectly regular; it is the **stem** that changes. This is the real labour of the Telugu case system, and why a noun with an unpredictable oblique should be learned with it, as a Lithuanian noun is learned with its genitive.",
+      "explanation": "-కి is regular; it is the stem that changes. ఇల్లు belongs to the class of six stems whose final syllable becomes -ంటి, beside కన్ను → కంటి and పన్ను → పంటి.",
       "rulesTested": [
-        "oblique-stem",
+        "oblique-classes",
         "dative-ki"
       ],
       "vocabUsed": [
@@ -570,7 +1676,56 @@
       ]
     },
     {
-      "id": "te108-q10",
+      "id": "te108-q11",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**నీ** ends in ఈ, yet the dative is **నీకు** and not నీకి. What does this show?",
+      "options": [
+        "That the rule of ¶66 has an exception for pronouns with a one-syllable oblique.",
+        "That నీ is not really a pronoun.",
+        "That -కి and -కు are interchangeable everywhere.",
+        "That నీ has no oblique stem."
+      ],
+      "correct": 0,
+      "explanation": "A stem ending in ఇ or ఈ otherwise takes -కి — ఇంటికి, స్త్రీకి. The personal pronouns with a one-syllable oblique are named as the exception, which is why నీకు and మీకు stand beside అతనికి.",
+      "rulesTested": [
+        "ki-ku-choice",
+        "dative-ki"
+      ],
+      "vocabUsed": [
+        "నీకు",
+        "మీకు"
+      ]
+    },
+    {
+      "id": "te108-q12",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which of these are correctly formed?",
+      "options": [
+        "నాకు",
+        "నీకు",
+        "మీకు",
+        "నేనుకు"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Each pronoun has an oblique stem — నా-, నీ-, మీ- — and the dative is built on that. *నేనుకు* adds the suffix to the nominative, which Telugu never does.",
+      "rulesTested": [
+        "dative-ki",
+        "oblique-genitive"
+      ],
+      "vocabUsed": [
+        "నాకు",
+        "నీకు",
+        "మీకు"
+      ]
+    },
+    {
+      "id": "te108-q13",
       "type": "multi",
       "difficulty": "hard",
       "stem": "Which statements contrast Telugu with a fusional language such as Lithuanian?",
@@ -588,45 +1743,246 @@
       "explanation": "Fusing case and number into one indivisible ending is exactly what Lithuanian does and Telugu does not: Telugu adds the plural, then the case, each keeping its own shape.",
       "rulesTested": [
         "agglutination",
-        "plural-lu"
+        "plural-oblique"
       ],
       "vocabUsed": [
-        "విభక్తి",
-        "బహువచనం"
+        "విభక్తి"
       ]
     },
     {
-      "id": "te108-q11",
+      "id": "te108-q14",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which of these nouns have an oblique stem identical with their nominative?",
+      "options": [
+        "అమ్మ",
+        "చెట్టు",
+        "ఇల్లు",
+        "చేయి"
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanation": "అమ్మ ends in అ and చెట్టు in a doubled consonant, so both belong to the class that changes nothing. ఇల్లు gives ఇంటి and చేయి gives చేతి, each replacing its final syllable.",
+      "rulesTested": [
+        "oblique-classes"
+      ],
+      "vocabUsed": [
+        "అమ్మ",
+        "చెట్టు",
+        "ఇల్లు",
+        "చేయి"
+      ]
+    },
+    {
+      "id": "te108-q15",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "**పుస్తకాలలో** — which of these are true of the form?",
+      "options": [
+        "It is built on a plural oblique in -ల.",
+        "It carries two pieces after the stem: the plural and then the case.",
+        "It uses the second oblique in -ాని-.",
+        "Its case suffix is the one meaning *in*."
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "పుస్తకాలు gives the oblique పుస్తకాల, and -లో follows it. The second oblique in -ాని- belongs to the singular and appears only before the accusative and the dative, so it has no place here.",
+      "rulesTested": [
+        "plural-oblique",
+        "two-obliques",
+        "locative-lo"
+      ],
+      "vocabUsed": [
+        "పుస్తకం",
+        "విభక్తి"
+      ]
+    },
+    {
+      "id": "te108-m1",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Pair each form with the case it stands in.",
+      "columnHeadings": [
+        "Form",
+        "Case"
+      ],
+      "columnI": [
+        "ఇంటికి",
+        "ఇంటి",
+        "ఇంటితో",
+        "ఇంట్లో"
+      ],
+      "columnII": [
+        "genitive",
+        "dative",
+        "instrumental",
+        "locative",
+        "accusative"
+      ],
+      "options": [
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          0,
+          3,
+          2
+        ],
+        [
+          3,
+          0,
+          2,
+          1
+        ]
+      ],
+      "correct": 0,
+      "explanation": "ఇంటి is the bare oblique and so the genitive; -కి is the dative, -తో the instrumental, -లో the locative. The three wrong pairings each swap the genitive with a suffixed case, which is the confusion the oblique invites: it looks like a stem waiting for something and is already a case.",
+      "rulesTested": [
+        "oblique-genitive",
+        "dative-ki",
+        "instrumental-to",
+        "locative-lo"
+      ],
+      "vocabUsed": [
+        "ఇల్లు",
+        "విభక్తి"
+      ]
+    },
+    {
+      "id": "te108-m2",
+      "type": "matching",
+      "difficulty": "hard",
+      "stem": "Pair each noun with the class its oblique stem belongs to.",
+      "columnHeadings": [
+        "Noun",
+        "Oblique class"
+      ],
+      "columnI": [
+        "చెట్టు",
+        "ఊరు",
+        "కన్ను",
+        "రాయి"
+      ],
+      "columnII": [
+        "A — unchanged",
+        "B — adds -ి",
+        "D — final syllable becomes -ంటి",
+        "E — final syllable becomes -తి",
+        "F — two obliques"
+      ],
+      "options": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          2
+        ],
+        [
+          0,
+          3,
+          2,
+          1
+        ]
+      ],
+      "correct": 0,
+      "explanation": "చెట్టు ends in a doubled consonant and changes nothing; ఊరు adds -ి to give ఊరి; కన్ను gives కంటి; రాయి gives రాతి. The distractors swap the two that both end in -ు and the two whose final syllable is replaced — the pairs that look alike from the nominative alone.",
+      "rulesTested": [
+        "oblique-classes"
+      ],
+      "vocabUsed": [
+        "చెట్టు",
+        "ఊరు",
+        "కన్ను",
+        "రాయి"
+      ]
+    },
+    {
+      "id": "te108-i1",
+      "type": "integer",
+      "difficulty": "medium",
+      "stem": "How many classes of oblique stem does the singular have?",
+      "answer": 6,
+      "unit": "classes",
+      "explanation": "Six. The first holds the majority of nouns and changes nothing; the sixth is the class of nouns in -ం, which alone has two obliques.",
+      "rulesTested": [
+        "oblique-classes"
+      ],
+      "vocabUsed": [
+        "విభక్తి"
+      ]
+    },
+    {
+      "id": "te108-i2",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "Which numbered rule states that the oblique stem is the genitive?",
+      "answer": 60,
+      "unit": "rule",
+      "explanation": "¶60. ¶61 then divides the obliques into classes and ¶63 gives the plural, but the identification of the oblique with the genitive is what ¶60 states.",
+      "rulesTested": [
+        "oblique-genitive"
+      ],
+      "vocabUsed": [
+        "విభక్తి"
+      ]
+    },
+    {
+      "id": "te108-i3",
       "type": "integer",
       "difficulty": "hard",
       "stem": "**నేను ఇంట్లో ఉన్నాను** — how many of its three words carry a case suffix?",
       "answer": 1,
       "unit": "words",
-      "explanation": "One: *ఇంట్లో*, the oblique ఇంటి- with -లో. *నేను* is the bare nominative subject, which takes no suffix at all, and the third word is the verb. Counting two usually means mistaking the nominative for a marked case.",
+      "explanation": "One: *ఇంట్లో*, the oblique ఇంటి- with -లో. *నేను* is the bare nominative subject, which takes no suffix at all, and the third word is the verb.",
       "rulesTested": [
         "locative-lo",
-        "oblique-stem",
-        "agglutination"
+        "oblique-classes",
+        "nominative"
       ],
       "vocabUsed": [
-        "నేను",
         "ఇల్లు"
       ]
     },
     {
-      "id": "te108-q12",
+      "id": "te108-i4",
       "type": "integer",
       "difficulty": "hard",
-      "stem": "How many **different case suffixes** does this section teach?",
-      "answer": 5,
-      "unit": "suffixes",
-      "explanation": "Five: -ని for the object, -కి for the dative, -లో for the locative, -తో for *with*, -నుండి for *from*. Each is the same on every noun; it is the stems in front of them that vary.",
+      "stem": "Of the seven cases, how many are marked by gluing a suffix onto the stem?",
+      "answer": 4,
+      "unit": "cases",
+      "explanation": "Four: the dative, the accusative, the instrumental and the locative. The nominative adds nothing, the genitive *is* the oblique stem, and the vocative lengthens the noun's own last vowel. Counting seven reckons every case a suffix; counting five usually forgets that the vocative glues nothing on.",
       "rulesTested": [
-        "accusative-ni",
-        "dative-ki",
-        "locative-lo",
-        "instrumental-to",
-        "ablative-nundi"
+        "seven-cases",
+        "nominative",
+        "oblique-genitive",
+        "vocative"
       ],
       "vocabUsed": [
         "విభక్తి"
@@ -636,110 +1992,105 @@
       "id": "te108-p1",
       "type": "comprehension",
       "difficulty": "medium",
-      "title": "నా ఊరు",
-      "passage": "నా పేరు రవి. నేను ఒక చిన్న ఊరు నుండి. ఇప్పుడు నేను హైదరాబాద్‌లో ఉన్నాను. నాకు ఇక్కడ ఒక ఇల్లు ఉంది. ఇంట్లో నా పుస్తకాలు ఉన్నాయి. నేను స్నేహితుడితో ఇక్కడ ఉన్నాను. మా ఇంటికి రండి!",
-      "translation": "My name is Ravi. I am from a small town. Now I am in Hyderabad. I have a house here. My books are in the house. I am here with a friend. Come to our house!",
+      "title": "పుస్తకం ఎక్కడ?",
+      "passage": "రవి: అమ్మా, నా పుస్తకం ఎక్కడ ఉంది?\nఅమ్మ: ఏ పుస్తకం, నాన్నా? నీ పుస్తకాలు బల్ల మీద ఉన్నాయి.\nరవి: బల్ల మీద లేదు. నేను దాన్ని స్నేహితుడికి ఇచ్చాను.\nఅమ్మ: ఎవరికి?\nరవి: రాముడికి. రాముడి ఇల్లు మన ఇంటి దగ్గర ఉంది.\nఅమ్మ: అయితే రాముడి ఇంటికి వెళ్ళు.",
+      "translation": "Ravi: Mother, where is my book?\nMother: Which book, dear? Your books are on the table.\nRavi: It is not on the table. I gave it to a friend.\nMother: To whom?\nRavi: To Ramudu. Ramudu's house is near our house.\nMother: Then go to Ramudu's house.",
       "glossary": {
-        "ఒక": "a, one",
-        "ఇప్పుడు": "now",
-        "హైదరాబాద్": "Hyderabad",
-        "ఉన్నాను": "I am (present)",
-        "ఉంది / ఉన్నాయి": "there is / there are",
-        "మా": "our",
-        "రండి": "come! (polite imperative)"
+        "ఏ": "which",
+        "నాన్నా": "a term a parent uses in addressing a child, of either sex",
+        "దాన్ని": "it (as object)",
+        "ఇచ్చాను": "I gave",
+        "దగ్గర": "near",
+        "అయితే": "then, in that case",
+        "వెళ్ళు": "go!",
+        "మన": "our (including the person addressed)",
+        "లేదు": "is not, is not there"
       },
       "questions": [
         {
           "id": "te108-p1-q1",
           "type": "single",
           "difficulty": "easy",
-          "stem": "రవి ఎక్కడ నుండి?",
+          "stem": "రవి పుస్తకం ఎవరికి ఇచ్చాడు?",
           "options": [
-            "హైదరాబాద్ నుండి",
-            "ఒక చిన్న ఊరు నుండి",
-            "ఇంటి నుండి",
-            "స్నేహితుడి నుండి"
+            "అమ్మకు",
+            "రాముడికి",
+            "తమ్ముడికి",
+            "ఎవరికీ ఇవ్వలేదు"
           ],
           "correct": 1,
-          "explanation": "*నేను ఒక చిన్న ఊరు నుండి* — the suffix -నుండి marks where he comes from. Hyderabad is where he is now, which the locative -లో marks instead.",
+          "explanation": "*నేను దాన్ని స్నేహితుడికి ఇచ్చాను* … *రాముడికి*. Both carry the dative, which is the case the question itself asks in — ఎవరికి.",
           "rulesTested": [
-            "ablative-nundi",
-            "locative-lo"
+            "dative-ki"
           ],
           "vocabUsed": [
-            "ఊరు",
-            "చిన్న",
-            "ఇల్లు",
-            "స్నేహితుడు",
-            "ఎక్కడ"
-          ]
-        },
-        {
-          "id": "te108-p1-q1b",
-          "type": "single",
-          "difficulty": "easy",
-          "stem": "రవి ఇప్పుడు ఎక్కడ ఉన్నాడు?",
-          "options": [
-            "హైదరాబాద్‌లో",
-            "ఊరులో",
-            "ఇంట్లో",
-            "స్నేహితుడితో"
-          ],
-          "correct": 0,
-          "explanation": "*ఇప్పుడు నేను హైదరాబాద్‌లో ఉన్నాను* — the same locative -లో as ఇంట్లో, glued this time to the city's name rather than to *ఇల్లు*.",
-          "rulesTested": [
-            "locative-lo"
-          ],
-          "vocabUsed": [
-            "ఎక్కడ",
-            "ఇల్లు",
             "స్నేహితుడు"
           ]
         },
         {
           "id": "te108-p1-q2",
-          "type": "multi",
+          "type": "single",
           "difficulty": "medium",
-          "stem": "Which words in the passage carry the suffix meaning **in**?",
+          "stem": "రాముడి ఇల్లు ఎక్కడ ఉంది?",
           "options": [
-            "హైదరాబాద్‌లో",
-            "ఇంట్లో",
-            "ఇంటికి",
-            "స్నేహితుడితో"
+            "బల్ల మీద",
+            "మన ఇంటి దగ్గర",
+            "ఊరిలో",
+            "రవి ఇంట్లో"
           ],
-          "correct": [
-            0,
-            1
-          ],
-          "explanation": "-లో is *in*. *ఇంటికి* is the dative, *to the house*, and *స్నేహితుడితో* takes -తో, *with*. All four are built on the same principle and differ only in the suffix glued on.",
+          "correct": 1,
+          "explanation": "*రాముడి ఇల్లు మన ఇంటి దగ్గర ఉంది*. **ఇంటి** here is the bare oblique — a genitive governed by దగ్గర — and not a dative, which would be ఇంటికి.",
           "rulesTested": [
-            "locative-lo",
-            "dative-ki",
-            "instrumental-to",
-            "agglutination"
+            "oblique-genitive",
+            "postposition-types"
           ],
           "vocabUsed": [
             "ఇల్లు",
-            "స్నేహితుడు",
-            "విభక్తి"
+            "ఎక్కడ"
           ]
         },
         {
           "id": "te108-p1-q3",
+          "type": "multi",
+          "difficulty": "hard",
+          "stem": "**రాముడి** appears twice in the passage. Which statements are true of the two occurrences?",
+          "options": [
+            "In *రాముడి ఇల్లు* it is a genitive, and stands alone as one.",
+            "In *రాముడి ఇంటికి* it is still a genitive, and the dative is on ఇల్లు.",
+            "In *రాముడి ఇంటికి* the dative suffix is on రాముడి.",
+            "Both are the oblique stem of రాముడు."
+          ],
+          "correct": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "రాముడి is the oblique of రాముడు in both, and the oblique alone is the genitive. In *రాముడి ఇంటికి* the dative is carried by the second noun — *to Ramudu's house*, not *to Ramudu*.",
+          "rulesTested": [
+            "oblique-genitive",
+            "dative-ki",
+            "oblique-classes"
+          ],
+          "vocabUsed": [
+            "ఇల్లు"
+          ]
+        },
+        {
+          "id": "te108-p1-q4",
           "type": "integer",
           "difficulty": "hard",
-          "stem": "The passage uses the word for *house* three times — **ఇల్లు**, **ఇంట్లో**, **ఇంటికి**. How many distinct case suffixes are used with it?",
-          "answer": 2,
-          "unit": "suffixes",
-          "explanation": "Two: -లో and -కి. The first occurrence, *ఇల్లు*, is the bare nominative and carries none. Both suffixed forms are built on the oblique ఇంటి-, which never appears alone (¶63).",
+          "stem": "How many datives does the passage contain?",
+          "answer": 4,
+          "unit": "words",
+          "explanation": "Four: *స్నేహితుడికి*, *ఎవరికి*, *రాముడికి* and *ఇంటికి*. *అమ్మా* is a vocative and *రాముడి* a genitive; neither is a dative, though both stand where an English *to* might tempt one to read it.",
           "rulesTested": [
-            "oblique-stem",
-            "locative-lo",
-            "dative-ki"
+            "dative-ki",
+            "vocative",
+            "oblique-genitive"
           ],
           "vocabUsed": [
             "ఇల్లు",
-            "విభక్తి"
+            "స్నేహితుడు"
           ]
         }
       ],
@@ -750,8 +2101,8 @@
         },
         {
           "kind": "grammar",
-          "citation": "Krishnamurti, Bhadriraju & Gwynn, J. P. L., *A Grammar of Modern Telugu*. Delhi: Oxford University Press, 1985.",
-          "note": "Descriptive source for the paradigms and rule statements on this page."
+          "citation": "Krishnamurti, Bhadriraju & Gwynn, J. P. L., *A Grammar of Modern Telugu*. Delhi: Oxford University Press, 1985, §25.5.",
+          "note": "Source for the vocative అమ్మా and for a parent's address నాన్నా: \"In Telugu it is common for relatives to address each other by their kinship terms.\""
         }
       ]
     }
@@ -759,8 +2110,15 @@
   "sources": [
     {
       "kind": "grammar",
-      "citation": "Krishnamurti, Bhadriraju & Gwynn, J. P. L., *A Grammar of Modern Telugu*. Delhi: Oxford University Press, 1985.",
-      "note": "Descriptive source for the paradigms and rule statements on this page."
+      "citation": "Krishnamurti, Bhadriraju & Gwynn, J. P. L., *A Grammar of Modern Telugu*. Delhi: Oxford University Press, 1985, §8.2–8.10, §9.2–9.15, §25.5.",
+      "note": "Descriptive source for the oblique stems, the case suffixes and the vocative."
+    },
+    {
+      "kind": "grammar",
+      "citation": "Brown, Charles Philip, *A Grammar of the Telugu Language*, 2nd ed. Madras: Christian Knowledge Society's Press, 1857, the chapters \"On Nouns\" and \"On the Vocative\".",
+      "url": "https://archive.org/details/brown-a-grammar-of-the-telugu-language",
+      "licence": "Public domain (published 1857)",
+      "note": "Source for the inventory of seven cases, the declensions, the vocative, and the traditional Sanskrit case names."
     }
   ]
 }
