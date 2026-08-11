@@ -1,0 +1,79 @@
+{
+  "id": "bn",
+  "langCode": "bn",
+  "name": "বাংলা",
+  "englishName": "Bengali",
+  "description": "TODO — course description. Shown on the course index.",
+  "direction": "ltr",
+  "attribution": "TODO — name the grammar this exposition follows and the transliteration scheme, in the manner of the Telugu pack's attribution.",
+  "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2",
+    "C1",
+    "C2"
+  ],
+  "formLabels": {
+    "noun": [
+      {
+        "key": "nom",
+        "label": "nominative"
+      },
+      {
+        "key": "gen",
+        "label": "genitive"
+      },
+      {
+        "key": "translit",
+        "label": "transliteration"
+      },
+      {
+        "key": "class",
+        "label": "class"
+      }
+    ],
+    "verb": [
+      {
+        "key": "root",
+        "label": "root"
+      },
+      {
+        "key": "verbalnoun",
+        "label": "verbal noun"
+      },
+      {
+        "key": "translit",
+        "label": "transliteration"
+      }
+    ],
+    "pronoun": [
+      {
+        "key": "nom",
+        "label": "nominative"
+      },
+      {
+        "key": "gen",
+        "label": "genitive"
+      },
+      {
+        "key": "translit",
+        "label": "transliteration"
+      }
+    ],
+    "letter": [
+      {
+        "key": "translit",
+        "label": "transliteration"
+      },
+      {
+        "key": "name",
+        "label": "name"
+      }
+    ]
+  },
+  "transliteration": {
+    "scheme": "ISO 15919",
+    "required": true
+  }
+}
