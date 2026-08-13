@@ -1,0 +1,1000 @@
+{
+  "id": "bn-06",
+  "kind": "lesson",
+  "level": "A1",
+  "order": 6,
+  "title": "Verbs — Present and Negation",
+  "summary": "The verbal noun, simple-present endings locked to the three address grades and the third-person forms, vowel harmony, existential আছে, negation with না, and SOV order.",
+  "rules": [
+    {
+      "id": "verbal-noun",
+      "number": "43",
+      "heading": "The Verbal Noun",
+      "statement": "Dictionaries list Bengali verbs in the verbal-noun form, usually stem + **-া**. করা (kora) is the verb 'to do' from the stem কর; লেখা is 'to write' from লেখ.",
+      "examples": [
+        {
+          "target": "করা",
+          "roman": "kora",
+          "gloss": "to do"
+        },
+        {
+          "target": "লেখা",
+          "roman": "lekha",
+          "gloss": "to write"
+        },
+        {
+          "target": "যাওয়া",
+          "roman": "jaowa",
+          "gloss": "to go"
+        }
+      ],
+      "paradigms": [],
+      "footnotes": [],
+      "seeAlso": [],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Wikipedia contributors, \"Bengali grammar\", *Wikipedia*, retrieved 13 August 2026.",
+          "url": "https://en.wikipedia.org/wiki/Bengali_grammar",
+          "licence": "CC BY-SA 4.0"
+        },
+        {
+          "kind": "dictionary",
+          "citation": "English Wiktionary entries for Bengali lemmas (WT:BN TR transliteration), retrieved 13 August 2026.",
+          "url": "https://en.wiktionary.org/",
+          "licence": "CC BY-SA 4.0",
+          "note": "Transliterations follow Wiktionary's Bengali romanization module (CLAUDE.md §14)."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "verb-person-honor",
+      "number": "44",
+      "heading": "Verb Endings Follow Address",
+      "statement": "Finite verbs agree for person and honor, not for number. The five endings attach to the pronoun grades of ¶35–¶38: আমি **-ি**, তুই **-িস**, তুমি **-ো**, সে **-ে**, আপনি / তিনি **-েন**.",
+      "examples": [
+        {
+          "target": "আমি করি",
+          "roman": "ami kori",
+          "gloss": "I do"
+        },
+        {
+          "target": "তুই করিস",
+          "roman": "tui koris",
+          "gloss": "you (VF) do"
+        },
+        {
+          "target": "তুমি করো",
+          "roman": "tumi koro",
+          "gloss": "you (familiar) do"
+        },
+        {
+          "target": "সে করে",
+          "roman": "se kore",
+          "gloss": "he/she (familiar) does"
+        },
+        {
+          "target": "আপনি করেন",
+          "roman": "apni koren",
+          "gloss": "you (polite) do"
+        }
+      ],
+      "paradigms": [],
+      "footnotes": [
+        "আমরা করি and তোমরা করো keep the singular ending of their grade; plurality stays in the pronoun (¶36–¶37)."
+      ],
+      "seeAlso": [
+        "verbal-noun",
+        "three-address",
+        "address-verb-preview",
+        "third-person-honor"
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Wikipedia contributors, \"Bengali grammar\", *Wikipedia*, retrieved 13 August 2026.",
+          "url": "https://en.wikipedia.org/wiki/Bengali_grammar",
+          "licence": "CC BY-SA 4.0"
+        },
+        {
+          "kind": "grammar",
+          "citation": "Beames, John, *Grammar of the Bengali Language Literary and Colloquial*, Clarendon Press, Oxford, 1891.",
+          "url": "https://archive.org/details/grammarofbengali00beamrich",
+          "licence": "Public domain",
+          "note": "Open scan on the Internet Archive."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "simple-present",
+      "number": "45",
+      "heading": "The Simple Present",
+      "statement": "The simple-present endings are **-ি**, **-িস**, **-ো**, **-ে**, **-েন**, each tied to one address or person grade (¶42, ¶44). They attach to the stem: করি, করিস, করো, করে, করেন.",
+      "examples": [],
+      "paradigms": [
+        {
+          "caption": "করা in the simple present, by address",
+          "columns": [
+            "pronoun",
+            "ending",
+            "form"
+          ],
+          "rows": [
+            {
+              "label": "1st",
+              "cells": [
+                "আমি / আমরা",
+                "-ি",
+                "করি"
+              ]
+            },
+            {
+              "label": "2nd VF",
+              "cells": [
+                "তুই / তোরা",
+                "-িস",
+                "করিস"
+              ]
+            },
+            {
+              "label": "2nd familiar",
+              "cells": [
+                "তুমি / তোমরা",
+                "-ো",
+                "করো"
+              ]
+            },
+            {
+              "label": "3rd familiar",
+              "cells": [
+                "সে / তারা",
+                "-ে",
+                "করে"
+              ]
+            },
+            {
+              "label": "polite",
+              "cells": [
+                "আপনি / তিনি",
+                "-েন",
+                "করেন"
+              ]
+            }
+          ],
+          "footnote": "Pronouns from the Address lesson; endings after Wikipedia Bengali grammar."
+        }
+      ],
+      "footnotes": [],
+      "seeAlso": [
+        "verb-person-honor",
+        "three-address",
+        "address-verb-preview"
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Wikipedia contributors, \"Bengali grammar\", *Wikipedia*, retrieved 13 August 2026.",
+          "url": "https://en.wikipedia.org/wiki/Bengali_grammar",
+          "licence": "CC BY-SA 4.0"
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "vowel-harmony",
+      "number": "46",
+      "heading": "Stem Vowel Harmony",
+      "statement": "Some stems raise their vowel before high endings: লেখ- yields লিখি in the first person, while তুমি লেখো keeps the mid vowel. The verbal noun shows the unraised vowel.",
+      "examples": [
+        {
+          "target": "আমি লিখি",
+          "roman": "ami likhi",
+          "gloss": "I write"
+        },
+        {
+          "target": "তুমি লেখো",
+          "roman": "tumi lekho",
+          "gloss": "you write"
+        },
+        {
+          "target": "সে লেখে",
+          "roman": "se lekhe",
+          "gloss": "he/she writes"
+        }
+      ],
+      "paradigms": [],
+      "footnotes": [
+        "Wikipedia lists the usual raisings: ô→o, o→u, æ→e, e→i."
+      ],
+      "seeAlso": [
+        "simple-present",
+        "verb-person-honor"
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Wikipedia contributors, \"Bengali grammar\", *Wikipedia*, retrieved 13 August 2026.",
+          "url": "https://en.wikipedia.org/wiki/Bengali_grammar",
+          "licence": "CC BY-SA 4.0"
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "existential-ach-",
+      "number": "47",
+      "heading": "আছে — Existence and Location",
+      "statement": "Ordinary predication in the simple present uses no copula. Existence, location and possession use the defective verb আছ-: আছে, আছো, আছি. Possession puts the possessor in the genitive: আমার একটি বই আছে.",
+      "examples": [
+        {
+          "target": "ঘরে বই আছে",
+          "roman": "ghore boi āche",
+          "gloss": "there is a book in the room"
+        },
+        {
+          "target": "আমার বই আছে",
+          "roman": "amar boi āche",
+          "gloss": "I have a book"
+        },
+        {
+          "target": "আপনার কলম আছে",
+          "roman": "apnar kolom āche",
+          "gloss": "you (polite) have a pen"
+        }
+      ],
+      "paradigms": [],
+      "footnotes": [],
+      "seeAlso": [
+        "noun-genitive",
+        "pronoun-genitive",
+        "simple-present"
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Wikipedia contributors, \"Bengali grammar\", *Wikipedia*, retrieved 13 August 2026.",
+          "url": "https://en.wikipedia.org/wiki/Bengali_grammar",
+          "licence": "CC BY-SA 4.0"
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "negation-na",
+      "number": "48",
+      "heading": "Negation with না",
+      "statement": "The particle **না** (na) negates a finite verb and usually follows it: আমি করি না. It is the ordinary negation in the simple present.",
+      "examples": [
+        {
+          "target": "আমি যাই না",
+          "roman": "ami jai na",
+          "gloss": "I do not go"
+        },
+        {
+          "target": "সে লেখে না",
+          "roman": "se lekhe na",
+          "gloss": "he/she does not write"
+        }
+      ],
+      "paradigms": [],
+      "footnotes": [
+        "Perfect tenses use a different negative (-নি); that is outside this section."
+      ],
+      "seeAlso": [
+        "simple-present"
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Wikipedia contributors, \"Bengali grammar\", *Wikipedia*, retrieved 13 August 2026.",
+          "url": "https://en.wikipedia.org/wiki/Bengali_grammar",
+          "licence": "CC BY-SA 4.0"
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "sov-order",
+      "number": "49",
+      "heading": "Subject–Object–Verb",
+      "statement": "The finite verb stands at the end of the clause. The subject comes first and objects and locatives precede the verb: আমি বইটা পড়ি.",
+      "examples": [
+        {
+          "target": "আমি বইটা পড়ি",
+          "roman": "ami boiṭa poṛi",
+          "gloss": "I read the book"
+        },
+        {
+          "target": "সে ঘরে যায়",
+          "roman": "se ghore jay",
+          "gloss": "he/she goes into the room"
+        }
+      ],
+      "paradigms": [],
+      "footnotes": [],
+      "seeAlso": [
+        "simple-present",
+        "noun-objective",
+        "pronoun-objective"
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Wikipedia contributors, \"Bengali grammar\", *Wikipedia*, retrieved 13 August 2026.",
+          "url": "https://en.wikipedia.org/wiki/Bengali_grammar",
+          "licence": "CC BY-SA 4.0"
+        },
+        {
+          "kind": "grammar",
+          "citation": "Beames, John, *Grammar of the Bengali Language Literary and Colloquial*, Clarendon Press, Oxford, 1891.",
+          "url": "https://archive.org/details/grammarofbengali00beamrich",
+          "licence": "Public domain",
+          "note": "Open scan on the Internet Archive."
+        }
+      ],
+      "core": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "lemma": "করা",
+      "gloss": "to do",
+      "pos": "verb",
+      "forms": {
+        "root": "কর",
+        "verbalnoun": "করা",
+        "translit": "kora"
+      }
+    },
+    {
+      "lemma": "লেখা",
+      "gloss": "to write",
+      "pos": "verb",
+      "forms": {
+        "root": "লেখ",
+        "verbalnoun": "লেখা",
+        "translit": "lekha"
+      }
+    },
+    {
+      "lemma": "যাওয়া",
+      "gloss": "to go",
+      "pos": "verb",
+      "forms": {
+        "root": "যা",
+        "verbalnoun": "যাওয়া",
+        "translit": "jaowa"
+      }
+    },
+    {
+      "lemma": "খাওয়া",
+      "gloss": "to eat",
+      "pos": "verb",
+      "forms": {
+        "root": "খা",
+        "verbalnoun": "খাওয়া",
+        "translit": "khaowa"
+      }
+    },
+    {
+      "lemma": "বলা",
+      "gloss": "to say; to speak",
+      "pos": "verb",
+      "forms": {
+        "root": "বল",
+        "verbalnoun": "বলা",
+        "translit": "bola"
+      }
+    },
+    {
+      "lemma": "পড়া",
+      "gloss": "to read; to study",
+      "pos": "verb",
+      "forms": {
+        "root": "পড়",
+        "verbalnoun": "পড়া",
+        "translit": "pôṛa"
+      }
+    },
+    {
+      "lemma": "আসা",
+      "gloss": "to come",
+      "pos": "verb",
+      "forms": {
+        "root": "আস",
+        "verbalnoun": "আসা",
+        "translit": "aśa"
+      }
+    },
+    {
+      "lemma": "আছে",
+      "gloss": "there is; exists (3rd present of আছ-)",
+      "pos": "verb",
+      "forms": {
+        "root": "আছ",
+        "verbalnoun": "থাকা",
+        "translit": "ache"
+      }
+    },
+    {
+      "lemma": "না",
+      "gloss": "not; no",
+      "pos": "particle",
+      "forms": {
+        "translit": "na"
+      }
+    }
+  ],
+  "drills": [
+    {
+      "id": "bn601-q1",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Dictionaries cite করা as what form?",
+      "options": [
+        "the verbal noun",
+        "the simple-present 1st person",
+        "the imperative",
+        "the perfect participle"
+      ],
+      "correct": 0,
+      "explanation": "The citation form is the verbal noun, stem + -া.",
+      "rulesTested": [
+        "verbal-noun"
+      ],
+      "vocabUsed": [
+        "করা"
+      ],
+      "scriptCritical": true
+    },
+    {
+      "id": "bn601-q2",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "What is the first-person simple present of করা?",
+      "options": [
+        "করি",
+        "করো",
+        "করে",
+        "করেন"
+      ],
+      "correct": 0,
+      "explanation": "1st person takes -ি: করি.",
+      "rulesTested": [
+        "simple-present"
+      ],
+      "vocabUsed": [
+        "করা",
+        "আমি"
+      ],
+      "scriptCritical": true
+    },
+    {
+      "id": "bn601-q3",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "তুমি ______। (করা, simple present)",
+      "options": [
+        "করো",
+        "করি",
+        "করে",
+        "করিস"
+      ],
+      "correct": 0,
+      "explanation": "Familiar তুমি takes -ো: করো. করিস is the তুই (VF) ending.",
+      "rulesTested": [
+        "simple-present",
+        "verb-person-honor",
+        "three-address"
+      ],
+      "vocabUsed": [
+        "করা",
+        "তুমি"
+      ],
+      "scriptCritical": true
+    },
+    {
+      "id": "bn601-q4",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "আপনি ______। (করা)",
+      "options": [
+        "করেন",
+        "করো",
+        "করে",
+        "করি"
+      ],
+      "correct": 0,
+      "explanation": "Polite আপনি shares -েন with তিনি.",
+      "rulesTested": [
+        "simple-present",
+        "verb-person-honor",
+        "three-address"
+      ],
+      "vocabUsed": [
+        "করা",
+        "আপনি"
+      ],
+      "scriptCritical": true
+    },
+    {
+      "id": "bn601-q5",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "আমি ______। (লেখা)",
+      "options": [
+        "লিখি",
+        "লেখি",
+        "লেখো",
+        "লেখেন"
+      ],
+      "correct": 0,
+      "explanation": "First person raises e→i: লিখি, not লেখি.",
+      "rulesTested": [
+        "vowel-harmony",
+        "simple-present"
+      ],
+      "vocabUsed": [
+        "লেখা",
+        "আমি"
+      ],
+      "scriptCritical": true
+    },
+    {
+      "id": "bn601-q6",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "How is 'I have a book' built?",
+      "options": [
+        "আমার একটি বই আছে",
+        "আমি একটি বই আছি",
+        "আমি একটি বই করি",
+        "বই আমাকে আছে"
+      ],
+      "correct": 0,
+      "explanation": "Possessor in the genitive + আছে.",
+      "rulesTested": [
+        "existential-ach-",
+        "noun-genitive"
+      ],
+      "vocabUsed": [
+        "আছে",
+        "আমি",
+        "বই"
+      ],
+      "scriptCritical": true
+    },
+    {
+      "id": "bn601-q7",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Negate আমি যাই.",
+      "options": [
+        "আমি যাই না",
+        "আমি না যাই",
+        "আমি যাইনি করি",
+        "আমি যাওয়া না"
+      ],
+      "correct": 0,
+      "explanation": "না follows the finite verb in the simple present.",
+      "rulesTested": [
+        "negation-na"
+      ],
+      "vocabUsed": [
+        "যাওয়া",
+        "না",
+        "আমি"
+      ],
+      "scriptCritical": true
+    },
+    {
+      "id": "bn601-q8",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Which word order is normal?",
+      "options": [
+        "আমি বইটা পড়ি",
+        "পড়ি আমি বইটা",
+        "বইটা পড়ি আমি",
+        "আমি পড়ি বইটা"
+      ],
+      "correct": 0,
+      "explanation": "SOV: subject, object, verb at the end.",
+      "rulesTested": [
+        "sov-order"
+      ],
+      "vocabUsed": [
+        "আমি",
+        "বই",
+        "পড়া"
+      ],
+      "scriptCritical": true
+    },
+    {
+      "id": "bn601-q9",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which forms are simple-present forms of করা?",
+      "options": [
+        "করি",
+        "করো",
+        "করেন",
+        "করা"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "করা is the verbal noun, not a finite present form.",
+      "rulesTested": [
+        "simple-present",
+        "verbal-noun"
+      ],
+      "vocabUsed": [
+        "করা"
+      ],
+      "scriptCritical": true
+    },
+    {
+      "id": "bn601-q10",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which sentences are well-formed?",
+      "options": [
+        "সে লেখে না",
+        "ঘরে কলম আছে",
+        "আমি লিখি",
+        "তুমি লিখি"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "তুমি takes লেখো, not লিখি; the first person alone has the raised vowel here.",
+      "rulesTested": [
+        "negation-na",
+        "existential-ach-",
+        "vowel-harmony",
+        "verb-person-honor"
+      ],
+      "vocabUsed": [
+        "লেখা",
+        "না",
+        "কলম",
+        "আছে",
+        "তুমি",
+        "সে"
+      ],
+      "scriptCritical": true
+    },
+    {
+      "id": "bn601-q11",
+      "type": "integer",
+      "difficulty": "easy",
+      "stem": "How many distinct simple-present endings pair with the three second-person address grades plus first and third familiar?",
+      "answer": 5,
+      "explanation": "Five endings: -ি, -িস, -ো, -ে, -েন — one per pronoun grade in ¶44.",
+      "rulesTested": [
+        "verb-person-honor",
+        "three-address"
+      ],
+      "vocabUsed": [],
+      "scriptCritical": false
+    },
+    {
+      "id": "bn601-q12",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match each address pronoun to the present of করা.",
+      "columnI": [
+        "আমি",
+        "তুই",
+        "তুমি",
+        "আপনি"
+      ],
+      "columnII": [
+        "করো",
+        "করি",
+        "করেন",
+        "করিস"
+      ],
+      "options": [
+        [
+          1,
+          3,
+          0,
+          2
+        ],
+        [
+          1,
+          0,
+          3,
+          2
+        ],
+        [
+          3,
+          1,
+          0,
+          2
+        ],
+        [
+          1,
+          3,
+          2,
+          0
+        ]
+      ],
+      "correct": 0,
+      "explanation": "করি / করিস / করো / করেন — locked to আমি, তুই, তুমি, আপনি.",
+      "rulesTested": [
+        "simple-present",
+        "verb-person-honor",
+        "three-address"
+      ],
+      "vocabUsed": [
+        "করা",
+        "আমি",
+        "তুই",
+        "তুমি",
+        "আপনি"
+      ],
+      "scriptCritical": true,
+      "columnHeadings": [
+        "Pronoun",
+        "Form of করা"
+      ]
+    },
+    {
+      "id": "bn601-q13",
+      "type": "matching",
+      "difficulty": "hard",
+      "stem": "Match each sentence to the rule it most clearly needs.",
+      "columnI": [
+        "আমি লিখি",
+        "আমার বই আছে",
+        "আমি যাই না",
+        "আমি বইটা পড়ি"
+      ],
+      "columnII": [
+        "SOV order",
+        "vowel harmony",
+        "negation with না",
+        "existential আছে"
+      ],
+      "options": [
+        [
+          1,
+          3,
+          2,
+          0
+        ],
+        [
+          3,
+          1,
+          0,
+          2
+        ],
+        [
+          1,
+          2,
+          3,
+          0
+        ],
+        [
+          0,
+          3,
+          2,
+          1
+        ]
+      ],
+      "correct": 0,
+      "explanation": "লিখি shows raising; আমার … আছে is possession; না negates; object before verb is SOV.",
+      "rulesTested": [
+        "vowel-harmony",
+        "existential-ach-",
+        "negation-na",
+        "sov-order"
+      ],
+      "vocabUsed": [
+        "লেখা",
+        "আছে",
+        "যাওয়া",
+        "না",
+        "পড়া",
+        "বই",
+        "আমি"
+      ],
+      "scriptCritical": true,
+      "columnHeadings": [
+        "Item",
+        "Label"
+      ]
+    },
+    {
+      "id": "bn601-q14",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "সে ______ না। (লেখা)",
+      "options": [
+        "লেখে",
+        "লিখে",
+        "লেখো",
+        "লিখি"
+      ],
+      "correct": 0,
+      "explanation": "Third familiar is লেখে; না follows. Raising to লিখ- is for the first person (and VF) here.",
+      "rulesTested": [
+        "simple-present",
+        "vowel-harmony",
+        "negation-na"
+      ],
+      "vocabUsed": [
+        "লেখা",
+        "না",
+        "সে"
+      ],
+      "scriptCritical": true
+    },
+    {
+      "id": "bn601-q15",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Which sentence uses no copula for simple predication?",
+      "options": [
+        "রীতা ভালো",
+        "রীতা ভালো আছে as 'Rita is good'",
+        "রীতা ভালো করে for 'Rita is good'",
+        "রীতা ভালো যায়"
+      ],
+      "correct": 0,
+      "explanation": "Adjective predication in the simple present uses the zero copula; আছে is for existence/location/possession.",
+      "rulesTested": [
+        "existential-ach-"
+      ],
+      "vocabUsed": [
+        "ভালো"
+      ],
+      "scriptCritical": true
+    },
+    {
+      "id": "bn601-q16",
+      "type": "integer",
+      "difficulty": "medium",
+      "stem": "Which numbered rule locks আমি, তুই, তুমি, সে, আপনি/তিনি to the five present endings?",
+      "answer": 44,
+      "explanation": "¶44, Verb Endings Follow Address.",
+      "rulesTested": [
+        "verb-person-honor"
+      ],
+      "vocabUsed": [
+        "করা"
+      ],
+      "scriptCritical": false
+    },
+    {
+      "id": "bn601-p1",
+      "type": "comprehension",
+      "difficulty": "hard",
+      "passage": "রীতাঃ আপনি কি বইটা পড়েন?\nকরিমঃ হ্যাঁ, আমি প্রতিদিন পড়ি।\nরীতাঃ তুমিও পড়ো?\nসোহাঃ আমি পড়ি না, আমি লিখি।\nকরিমঃ আমার একটা কলম আছে। তোমাকে দিই।",
+      "romanization": "Rītā: apni ki boiṭa pôṛen?\nKorim: hyã, ami protidin poṛi.\nRītā: tumi-o pôṛo?\nSoha: ami poṛi na, ami likhi.\nKorim: amar êkṭa kolom āche. tomake dii.",
+      "translation": "Rita: Do you (polite) read the book?\nKarim: Yes, I read every day.\nRita: Do you (familiar) read too?\nSoha: I do not read; I write.\nKarim: I have a pen. I give it to you (familiar).",
+      "glossary": {
+        "কি": "question particle",
+        "প্রতিদিন": "every day",
+        "দিই": "I give",
+        "তোমাকে": "to you (familiar objective)",
+        "সোহা": "Soha (name)",
+        "ও": "also"
+      },
+      "scriptCritical": false,
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course.",
+          "note": "Present forms and আছে after Wikipedia Bengali grammar; vocabulary from earlier sections."
+        }
+      ],
+      "questions": [
+        {
+          "id": "bn601-p1q1",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "করিম প্রতিদিন কী করে বলে?",
+          "options": [
+            "পড়ে",
+            "লেখে",
+            "খায়",
+            "যায়"
+          ],
+          "correct": 0,
+          "explanation": "He says আমি প্রতিদিন পড়ি.",
+          "rulesTested": [
+            "simple-present",
+            "sov-order",
+            "first-person"
+          ],
+          "vocabUsed": [
+            "পড়া",
+            "আমি"
+          ],
+          "scriptCritical": true
+        },
+        {
+          "id": "bn601-p1q2",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "রীতা করিমকে প্রথমে কোন সম্বোধনে জিজ্ঞাসা করে?",
+          "options": [
+            "আপনি",
+            "তুমি",
+            "তুই",
+            "সে"
+          ],
+          "correct": 0,
+          "explanation": "She asks আপনি কি বইটা পড়েন — polite address with -েন.",
+          "rulesTested": [
+            "verb-person-honor",
+            "three-address",
+            "simple-present"
+          ],
+          "vocabUsed": [
+            "আপনি",
+            "পড়া"
+          ],
+          "scriptCritical": true
+        },
+        {
+          "id": "bn601-p1q3",
+          "type": "single",
+          "difficulty": "hard",
+          "stem": "সোহাকে রীতা কোন সম্বোধনে বলে?",
+          "options": [
+            "তুমি",
+            "আপনি",
+            "তুই",
+            "তিনি"
+          ],
+          "correct": 0,
+          "explanation": "তুমিও পড়ো — familiar pronoun with -ো.",
+          "rulesTested": [
+            "three-address",
+            "verb-person-honor",
+            "simple-present"
+          ],
+          "vocabUsed": [
+            "তুমি",
+            "পড়া"
+          ],
+          "scriptCritical": true
+        }
+      ],
+      "title": "Reading and writing"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Wikipedia contributors, \"Bengali grammar\", *Wikipedia*, retrieved 13 August 2026.",
+      "url": "https://en.wikipedia.org/wiki/Bengali_grammar",
+      "licence": "CC BY-SA 4.0"
+    },
+    {
+      "kind": "grammar",
+      "citation": "Beames, John, *Grammar of the Bengali Language Literary and Colloquial*, Clarendon Press, Oxford, 1891.",
+      "url": "https://archive.org/details/grammarofbengali00beamrich",
+      "licence": "Public domain",
+      "note": "Open scan on the Internet Archive."
+    },
+    {
+      "kind": "dictionary",
+      "citation": "English Wiktionary entries for Bengali lemmas (WT:BN TR transliteration), retrieved 13 August 2026.",
+      "url": "https://en.wiktionary.org/",
+      "licence": "CC BY-SA 4.0",
+      "note": "Transliterations follow Wiktionary's Bengali romanization module (CLAUDE.md §14)."
+    }
+  ]
+}

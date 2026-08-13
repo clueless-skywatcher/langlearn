@@ -1,0 +1,965 @@
+{
+  "id": "bn-03",
+  "kind": "lesson",
+  "level": "A1",
+  "order": 3,
+  "title": "Compound Letters — যুক্তাক্ষর",
+  "summary": "How two or more consonants are written as one glyph when no vowel stands between them: the হসন্ত, the common ligatures, য-ফলা, রেফ and র-ফলা, and the special shapes ক্ষ and জ্ঞ.",
+  "script": {
+    "heading": "Common যুক্তাক্ষর",
+    "letters": [
+      {
+        "glyph": "ক্ত",
+        "name": "kto",
+        "approx": "ক + ত, as in রক্ত"
+      },
+      {
+        "glyph": "ন্ত",
+        "name": "nto",
+        "approx": "ন + ত, as in শান্ত"
+      },
+      {
+        "glyph": "ক্ষ",
+        "name": "kṣo / kho",
+        "approx": "ক + ষ; special shape, often heard kho"
+      },
+      {
+        "glyph": "জ্ঞ",
+        "name": "jño / gên",
+        "approx": "জ + ঞ; special shape"
+      },
+      {
+        "glyph": "ত্র",
+        "name": "tro",
+        "approx": "ত + র (র-ফলা)"
+      },
+      {
+        "glyph": "প্র",
+        "name": "pro",
+        "approx": "প + র (র-ফলা)"
+      },
+      {
+        "glyph": "র্ক",
+        "name": "rko",
+        "approx": "র + ক (রেফ above ক)"
+      },
+      {
+        "glyph": "ক্য",
+        "name": "kyo",
+        "approx": "ক + য (য-ফলা)"
+      },
+      {
+        "glyph": "ত্ত",
+        "name": "tto",
+        "approx": "ত + ত"
+      },
+      {
+        "glyph": "ন্দ",
+        "name": "ndo",
+        "approx": "ন + দ, as in আনন্দ"
+      },
+      {
+        "glyph": "ম্ব",
+        "name": "mbo",
+        "approx": "ম + ব, as in লম্বা"
+      },
+      {
+        "glyph": "স্ত",
+        "name": "sto",
+        "approx": "স + ত"
+      },
+      {
+        "glyph": "হ্র",
+        "name": "hro",
+        "approx": "হ + র"
+      },
+      {
+        "glyph": "ঞ্জ",
+        "name": "ñjo",
+        "approx": "ঞ + জ"
+      },
+      {
+        "glyph": "ষ্ট",
+        "name": "ṣṭo",
+        "approx": "ষ + ট"
+      }
+    ],
+    "notes": [
+      "These glyphs are typographic ligatures, not a second alphabet. The reading of each is authored from Wiktionary or Wikipedia where available."
+    ]
+  },
+  "rules": [
+    {
+      "id": "juktakshar-defined",
+      "number": "22",
+      "heading": "What a যুক্তাক্ষর Is",
+      "statement": "When one consonant follows another with no vowel between them, Bengali writes the two as one compound letter, a যুক্তাক্ষর (juktakkhor). The first consonant sheds its inherent অ; the হসন্ত marks that loss when the letters are shown apart.",
+      "examples": [
+        {
+          "target": "ক্ + ত → ক্ত",
+          "roman": "k + t → kto",
+          "gloss": "the conjunct in রক্ত"
+        }
+      ],
+      "paradigms": [],
+      "footnotes": [],
+      "seeAlso": [
+        "consonant-inherent",
+        "inherent-o"
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Beames, John, *Grammar of the Bengali Language Literary and Colloquial*, Clarendon Press, Oxford, 1891.",
+          "url": "https://archive.org/details/grammarofbengali00beamrich",
+          "licence": "Public domain",
+          "note": "Open scan on the Internet Archive."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Wikipedia contributors, \"Bengali alphabet\", *Wikipedia*, retrieved 13 August 2026.",
+          "url": "https://en.wikipedia.org/wiki/Bengali_alphabet",
+          "licence": "CC BY-SA 4.0"
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "conjunct-shapes",
+      "number": "23",
+      "heading": "How Conjuncts Are Built",
+      "statement": "A conjunct may stack its letters, join them side by side on one vertical stroke, or compress the first letter into a reduced form. Some shapes keep both letters clear; others alter them enough that the parts are hard to recognise.",
+      "examples": [
+        {
+          "target": "ন্ন",
+          "roman": "nno",
+          "gloss": "ন stacked on ন"
+        },
+        {
+          "target": "ন্দ",
+          "roman": "ndo",
+          "gloss": "ন beside দ"
+        },
+        {
+          "target": "স্ক",
+          "roman": "sko",
+          "gloss": "স reduced above ক"
+        }
+      ],
+      "paradigms": [],
+      "footnotes": [],
+      "seeAlso": [
+        "juktakshar-defined"
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Wikipedia contributors, \"Bengali alphabet\", *Wikipedia*, retrieved 13 August 2026.",
+          "url": "https://en.wikipedia.org/wiki/Bengali_alphabet",
+          "licence": "CC BY-SA 4.0"
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "reph-rophola",
+      "number": "24",
+      "heading": "রেফ and র-ফলা",
+      "statement": "র as the *first* member of a conjunct becomes রেফ, a mark above the following consonant, as in র্ক. র as the *second* member becomes র-ফলা, a diagonal stroke below or through the preceding letter, as in প্র and ত্র.",
+      "examples": [
+        {
+          "target": "কর্ম",
+          "roman": "kormo",
+          "gloss": "work — রেফ on ম"
+        },
+        {
+          "target": "প্রথম",
+          "roman": "prothom",
+          "gloss": "first — র-ফলা on প"
+        }
+      ],
+      "paradigms": [],
+      "footnotes": [
+        "Beames writes the same distinction: র before another consonant takes the superscript form; র after another consonant takes the subjoined stroke."
+      ],
+      "seeAlso": [
+        "juktakshar-defined"
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Beames, John, *Grammar of the Bengali Language Literary and Colloquial*, Clarendon Press, Oxford, 1891.",
+          "url": "https://archive.org/details/grammarofbengali00beamrich",
+          "licence": "Public domain",
+          "note": "Open scan on the Internet Archive."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Wikipedia contributors, \"Bengali alphabet\", *Wikipedia*, retrieved 13 August 2026.",
+          "url": "https://en.wikipedia.org/wiki/Bengali_alphabet",
+          "licence": "CC BY-SA 4.0"
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "jophola",
+      "number": "25",
+      "heading": "য-ফলা",
+      "statement": "য as the second member of a conjunct is written য-ফলা (্য), a mark under or after the preceding consonant. It may geminate that consonant, colour the vowel, or be largely silent; it does not sound as a full য.",
+      "examples": [
+        {
+          "target": "অন্য",
+          "roman": "onno",
+          "gloss": "other — য-ফলা after ন"
+        },
+        {
+          "target": "বিদ্যা",
+          "roman": "bidda",
+          "gloss": "learning"
+        }
+      ],
+      "paradigms": [],
+      "footnotes": [],
+      "seeAlso": [
+        "juktakshar-defined",
+        "dotted-letters"
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Wikipedia contributors, \"Bengali alphabet\", *Wikipedia*, retrieved 13 August 2026.",
+          "url": "https://en.wikipedia.org/wiki/Bengali_alphabet",
+          "licence": "CC BY-SA 4.0"
+        },
+        {
+          "kind": "grammar",
+          "citation": "Beames, John, *Grammar of the Bengali Language Literary and Colloquial*, Clarendon Press, Oxford, 1891.",
+          "url": "https://archive.org/details/grammarofbengali00beamrich",
+          "licence": "Public domain",
+          "note": "Open scan on the Internet Archive."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "ksha-jnya",
+      "number": "26",
+      "heading": "ক্ষ and জ্ঞ",
+      "statement": "Two conjuncts have shapes of their own: ক্ষ is ক + ষ, and জ্ঞ is জ + ঞ. Neither is read by simply saying its parts in order; ক্ষ is often heard as kho, and জ্ঞ in জ্ঞান as gên.",
+      "examples": [
+        {
+          "target": "শিক্ষা",
+          "roman": "śikkha",
+          "gloss": "education — contains ক্ষ"
+        },
+        {
+          "target": "জ্ঞান",
+          "roman": "gên",
+          "gloss": "knowledge — contains জ্ঞ"
+        }
+      ],
+      "paradigms": [],
+      "footnotes": [
+        "Beames already notes ksha pronounced khya and jna pronounced gya."
+      ],
+      "seeAlso": [
+        "conjunct-shapes"
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Beames, John, *Grammar of the Bengali Language Literary and Colloquial*, Clarendon Press, Oxford, 1891.",
+          "url": "https://archive.org/details/grammarofbengali00beamrich",
+          "licence": "Public domain",
+          "note": "Open scan on the Internet Archive."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Wikipedia contributors, \"Bengali alphabet\", *Wikipedia*, retrieved 13 August 2026.",
+          "url": "https://en.wikipedia.org/wiki/Bengali_alphabet",
+          "licence": "CC BY-SA 4.0"
+        },
+        {
+          "kind": "dictionary",
+          "citation": "English Wiktionary entries for Bengali lemmas (WT:BN TR transliteration), retrieved 13 August 2026.",
+          "url": "https://en.wiktionary.org/",
+          "licence": "CC BY-SA 4.0",
+          "note": "Transliterations follow Wiktionary's Bengali romanization module (CLAUDE.md §14)."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "bophola",
+      "number": "27",
+      "heading": "ব-ফলা",
+      "statement": "ব as the second member of a conjunct may hang beneath the first letter as ব-ফলা. In many words it no longer sounds as a full ব; দ্ব and ত্ব keep the spelling while the pronunciation has moved on.",
+      "examples": [
+        {
+          "target": "বিদ্বান",
+          "roman": "biddan",
+          "gloss": "learned person"
+        }
+      ],
+      "paradigms": [],
+      "footnotes": [],
+      "seeAlso": [
+        "conjunct-shapes"
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Wikipedia contributors, \"Bengali alphabet\", *Wikipedia*, retrieved 13 August 2026.",
+          "url": "https://en.wikipedia.org/wiki/Bengali_alphabet",
+          "licence": "CC BY-SA 4.0"
+        }
+      ],
+      "core": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "lemma": "যুক্তাক্ষর",
+      "gloss": "conjunct consonant; compound letter",
+      "pos": "noun",
+      "forms": {
+        "nom": "যুক্তাক্ষর",
+        "gen": "যুক্তাক্ষরের",
+        "translit": "juktakkhor",
+        "class": "inanimate"
+      }
+    },
+    {
+      "lemma": "রেফ",
+      "gloss": "reph; র as first member of a conjunct",
+      "pos": "noun",
+      "forms": {
+        "nom": "রেফ",
+        "gen": "রেফের",
+        "translit": "reph",
+        "class": "inanimate"
+      }
+    },
+    {
+      "lemma": "রক্ত",
+      "gloss": "blood",
+      "pos": "noun",
+      "forms": {
+        "nom": "রক্ত",
+        "gen": "রক্তের",
+        "translit": "rokto",
+        "class": "inanimate"
+      }
+    },
+    {
+      "lemma": "শিক্ষা",
+      "gloss": "education; learning",
+      "pos": "noun",
+      "forms": {
+        "nom": "শিক্ষা",
+        "gen": "শিক্ষার",
+        "translit": "śikkha",
+        "class": "inanimate"
+      }
+    },
+    {
+      "lemma": "জ্ঞান",
+      "gloss": "knowledge",
+      "pos": "noun",
+      "forms": {
+        "nom": "জ্ঞান",
+        "gen": "জ্ঞানের",
+        "translit": "gên",
+        "class": "inanimate"
+      }
+    },
+    {
+      "lemma": "আনন্দ",
+      "gloss": "joy",
+      "pos": "noun",
+      "forms": {
+        "nom": "আনন্দ",
+        "gen": "আনন্দের",
+        "translit": "anondo",
+        "class": "inanimate"
+      }
+    },
+    {
+      "lemma": "লম্বা",
+      "gloss": "tall; long",
+      "pos": "adjective",
+      "forms": {
+        "translit": "lomba"
+      }
+    },
+    {
+      "lemma": "উত্তর",
+      "gloss": "north; answer",
+      "pos": "noun",
+      "forms": {
+        "nom": "উত্তর",
+        "gen": "উত্তরের",
+        "translit": "uttor",
+        "class": "inanimate"
+      }
+    },
+    {
+      "lemma": "প্রথম",
+      "gloss": "first",
+      "pos": "adjective",
+      "forms": {
+        "translit": "prothom"
+      }
+    },
+    {
+      "lemma": "কর্ম",
+      "gloss": "work; action",
+      "pos": "noun",
+      "forms": {
+        "nom": "কর্ম",
+        "gen": "কর্মের",
+        "translit": "kormo",
+        "class": "inanimate"
+      }
+    }
+  ],
+  "drills": [
+    {
+      "id": "bn301-q1",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "What is a যুক্তাক্ষর?",
+      "options": [
+        "two or more consonants written as one glyph with no vowel between them",
+        "a vowel letter written in full form",
+        "a কার standing alone",
+        "a digit of the Bengali numeral set"
+      ],
+      "correct": 0,
+      "explanation": "A conjunct joins consonants that meet with no vowel between them.",
+      "rulesTested": [
+        "juktakshar-defined"
+      ],
+      "vocabUsed": [
+        "যুক্তাক্ষর"
+      ],
+      "scriptCritical": true
+    },
+    {
+      "id": "bn301-q2",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Which mark removes the inherent vowel when consonants are shown apart before joining?",
+      "options": [
+        "হসন্ত (্)",
+        "আ-কার",
+        "অনুস্বার",
+        "বিসর্গ"
+      ],
+      "correct": 0,
+      "explanation": "The হসন্ত marks the absence of inherent অ; conjuncts are the joined result.",
+      "rulesTested": [
+        "juktakshar-defined",
+        "inherent-o"
+      ],
+      "vocabUsed": [],
+      "scriptCritical": true
+    },
+    {
+      "id": "bn301-q3",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "In **প্রথম**, the stroke on প is which form of র?",
+      "options": [
+        "র-ফলা",
+        "রেফ",
+        "য-ফলা",
+        "ব-ফলা"
+      ],
+      "correct": 0,
+      "explanation": "র as second member is র-ফলা. রেফ would sit above when র comes first.",
+      "rulesTested": [
+        "reph-rophola"
+      ],
+      "vocabUsed": [
+        "প্রথম"
+      ],
+      "scriptCritical": true
+    },
+    {
+      "id": "bn301-q4",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "In **কর্ম**, র appears as which mark?",
+      "options": [
+        "রেফ above ম",
+        "র-ফলা below ক",
+        "য-ফলা",
+        "হসন্ত alone"
+      ],
+      "correct": 0,
+      "explanation": "র্ক/র্ম show রেফ: র first, then the other consonant.",
+      "rulesTested": [
+        "reph-rophola"
+      ],
+      "vocabUsed": [
+        "কর্ম"
+      ],
+      "scriptCritical": true
+    },
+    {
+      "id": "bn301-q5",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "ক্ষ is the special conjunct of which two letters?",
+      "options": [
+        "ক + ষ",
+        "ক + স",
+        "ক + শ",
+        "খ + ষ"
+      ],
+      "correct": 0,
+      "explanation": "ক্ষ is ক + ষ, with a shape of its own.",
+      "rulesTested": [
+        "ksha-jnya"
+      ],
+      "vocabUsed": [
+        "শিক্ষা"
+      ],
+      "scriptCritical": true
+    },
+    {
+      "id": "bn301-q6",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "জ্ঞান contains জ্ঞ. How is that word read in Wiktionary's Bengali romanization?",
+      "options": [
+        "gên",
+        "jñān",
+        "gyanô",
+        "jan"
+      ],
+      "correct": 0,
+      "explanation": "Wiktionary gives জ্ঞান as gên (also gễn); the parts জ + ঞ are not read in sequence.",
+      "rulesTested": [
+        "ksha-jnya"
+      ],
+      "vocabUsed": [
+        "জ্ঞান"
+      ],
+      "scriptCritical": true
+    },
+    {
+      "id": "bn301-q7",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "য-ফলা is য in which position of a conjunct?",
+      "options": [
+        "second member",
+        "first member",
+        "both members",
+        "never in a conjunct"
+      ],
+      "correct": 0,
+      "explanation": "য as second member is written ্য.",
+      "rulesTested": [
+        "jophola"
+      ],
+      "vocabUsed": [],
+      "scriptCritical": true
+    },
+    {
+      "id": "bn301-q8",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which words contain a nasal + stop conjunct?",
+      "options": [
+        "শান্ত",
+        "আনন্দ",
+        "লম্বা",
+        "ফল"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "শান্ত has ন্ত, আনন্দ has ন্দ, লম্বা has ম্ব. ফল has no conjunct.",
+      "rulesTested": [
+        "juktakshar-defined",
+        "conjunct-shapes"
+      ],
+      "vocabUsed": [
+        "আনন্দ",
+        "লম্বা",
+        "ফল"
+      ],
+      "scriptCritical": true
+    },
+    {
+      "id": "bn301-q9",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which of these are special-shaped conjuncts rather than simple stacks?",
+      "options": [
+        "ক্ষ",
+        "জ্ঞ",
+        "ন্ন",
+        "ক্ত"
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanation": "ক্ষ and জ্ঞ have forms of their own; ন্ন and ক্ত keep more recognisable parts.",
+      "rulesTested": [
+        "ksha-jnya",
+        "conjunct-shapes"
+      ],
+      "vocabUsed": [],
+      "scriptCritical": true
+    },
+    {
+      "id": "bn301-q10",
+      "type": "integer",
+      "difficulty": "easy",
+      "stem": "In the analysis ক্ + ত → ক্ত, how many consonant letters are joined?",
+      "answer": 2,
+      "explanation": "Two consonants, ক and ত, form the conjunct ক্ত.",
+      "rulesTested": [
+        "juktakshar-defined"
+      ],
+      "vocabUsed": [],
+      "scriptCritical": true
+    },
+    {
+      "id": "bn301-q11",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match each conjunct to its parts.",
+      "columnI": [
+        "ক্ত",
+        "ন্ত",
+        "ক্ষ",
+        "জ্ঞ"
+      ],
+      "columnII": [
+        "ক + ষ",
+        "ক + ত",
+        "জ + ঞ",
+        "ন + ত"
+      ],
+      "options": [
+        [
+          1,
+          3,
+          0,
+          2
+        ],
+        [
+          3,
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          3,
+          1,
+          2
+        ]
+      ],
+      "correct": 0,
+      "explanation": "ক্ত = ক+ত, ন্ত = ন+ত, ক্ষ = ক+ষ, জ্ঞ = জ+ঞ.",
+      "rulesTested": [
+        "juktakshar-defined",
+        "ksha-jnya"
+      ],
+      "vocabUsed": [],
+      "scriptCritical": true,
+      "columnHeadings": [
+        "Item",
+        "Label"
+      ]
+    },
+    {
+      "id": "bn301-q12",
+      "type": "matching",
+      "difficulty": "hard",
+      "stem": "Match each mark to its description.",
+      "columnI": [
+        "রেফ",
+        "র-ফলা",
+        "য-ফলা",
+        "হসন্ত"
+      ],
+      "columnII": [
+        "র as second member",
+        "র as first member",
+        "removes inherent অ",
+        "য as second member"
+      ],
+      "options": [
+        [
+          1,
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          3,
+          0,
+          2
+        ],
+        [
+          2,
+          0,
+          3,
+          1
+        ]
+      ],
+      "correct": 0,
+      "explanation": "রেফ is র first; র-ফলা is র second; য-ফলা is য second; হসন্ত kills the inherent vowel.",
+      "rulesTested": [
+        "reph-rophola",
+        "jophola",
+        "juktakshar-defined"
+      ],
+      "vocabUsed": [
+        "রেফ"
+      ],
+      "scriptCritical": true,
+      "columnHeadings": [
+        "Item",
+        "Label"
+      ]
+    },
+    {
+      "id": "bn301-q13",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Which doubled dental consonant appears in the Wiktionary headword for 'north; answer'?",
+      "options": [
+        "ত্ত",
+        "দ্দ",
+        "ন্ন",
+        "ম্ম"
+      ],
+      "correct": 0,
+      "explanation": "উত্তর (uttor) is built with ত্ত.",
+      "rulesTested": [
+        "conjunct-shapes"
+      ],
+      "vocabUsed": [
+        "উত্তর"
+      ],
+      "scriptCritical": true
+    },
+    {
+      "id": "bn301-q14",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Beames notes that jna is pronounced roughly as gya. Which Bengali conjunct is that?",
+      "options": [
+        "জ্ঞ",
+        "ক্ষ",
+        "ত্র",
+        "হ্র"
+      ],
+      "correct": 0,
+      "explanation": "জ্ঞ (জ+ঞ) is the conjunct Beames writes as jna / gya.",
+      "rulesTested": [
+        "ksha-jnya"
+      ],
+      "vocabUsed": [
+        "জ্ঞান"
+      ],
+      "scriptCritical": true
+    },
+    {
+      "id": "bn301-q15",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Which word shows রেফ rather than র-ফলা?",
+      "options": [
+        "কর্ম",
+        "প্রথম",
+        "ত্র",
+        "হ্র"
+      ],
+      "correct": 0,
+      "explanation": "কর্ম has র before ম (রেফ). The others have র as second member (র-ফলা).",
+      "rulesTested": [
+        "reph-rophola"
+      ],
+      "vocabUsed": [
+        "কর্ম",
+        "প্রথম"
+      ],
+      "scriptCritical": true
+    },
+    {
+      "id": "bn301-q16",
+      "type": "integer",
+      "difficulty": "medium",
+      "stem": "Which numbered rule names ক্ষ and জ্ঞ as special-shaped conjuncts?",
+      "answer": 26,
+      "explanation": "¶26 singles out ক্ষ and জ্ঞ.",
+      "rulesTested": [
+        "ksha-jnya"
+      ],
+      "vocabUsed": [],
+      "scriptCritical": true
+    },
+    {
+      "id": "bn301-q17",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "ব as the second member of a conjunct may hang beneath the first letter. What is that mark called?",
+      "options": [
+        "ব-ফলা",
+        "য-ফলা",
+        "রেফ",
+        "র-ফলা"
+      ],
+      "correct": 0,
+      "explanation": "ব-ফলা is ব in second position, hanging under the preceding consonant.",
+      "rulesTested": [
+        "bophola"
+      ],
+      "vocabUsed": [],
+      "scriptCritical": true
+    },
+    {
+      "id": "bn301-p1",
+      "type": "comprehension",
+      "difficulty": "hard",
+      "passage": "করিমঃ তোমার শিক্ষা কেমন চলছে?\nনীলাঃ ভালো। প্রথম বইটিতেই অনেক জ্ঞান আছে।\nকরিমঃ আনন্দ লাগছে?\nনীলাঃ হ্যাঁ, এবং উত্তরও পেয়েছি।",
+      "romanization": "Korim: tomar śikkha kemon colche?\nNīla: bhalo. prothom boiṭitei onek gên āche.\nKorim: anondo lagche?\nNīla: hyã, eboṅ uttor-o peẏechi.",
+      "translation": "Karim: How is your studies going?\nNila: Well. Even in the first book there is much knowledge.\nKarim: Are you feeling joy?\nNila: Yes, and I have found the answer too.",
+      "glossary": {
+        "করিম": "Karim (name)",
+        "নীলা": "Nila (name)",
+        "চলছে": "is going (progressive)",
+        "অনেক": "much, many",
+        "লাগছে": "is feeling / seeming",
+        "পেয়েছি": "I have got",
+        "এবং": "and"
+      },
+      "scriptCritical": true,
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course.",
+          "note": "Dialogue packs common conjuncts; verb forms preview the verbs section."
+        }
+      ],
+      "questions": [
+        {
+          "id": "bn301-p1q1",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "নীলার শিক্ষা কেমন?",
+          "options": [
+            "ভালো",
+            "খারাপ",
+            "শান্ত",
+            "লম্বা"
+          ],
+          "correct": 0,
+          "explanation": "নীলা says ভালো.",
+          "rulesTested": [
+            "ksha-jnya"
+          ],
+          "vocabUsed": [
+            "শিক্ষা",
+            "ভালো"
+          ],
+          "scriptCritical": true
+        },
+        {
+          "id": "bn301-p1q2",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "প্রথম বইটিতে কী আছে?",
+          "options": [
+            "জ্ঞান",
+            "রক্ত",
+            "ফল",
+            "নদী"
+          ],
+          "correct": 0,
+          "explanation": "She says the first book has much জ্ঞান.",
+          "rulesTested": [
+            "ksha-jnya",
+            "reph-rophola"
+          ],
+          "vocabUsed": [
+            "জ্ঞান",
+            "প্রথম",
+            "বই"
+          ],
+          "scriptCritical": true
+        },
+        {
+          "id": "bn301-p1q3",
+          "type": "single",
+          "difficulty": "hard",
+          "stem": "Which word in the passage contains ক্ষ?",
+          "options": [
+            "শিক্ষা",
+            "জ্ঞান",
+            "আনন্দ",
+            "উত্তর"
+          ],
+          "correct": 0,
+          "explanation": "শিক্ষা contains ক্ষ; জ্ঞান contains জ্ঞ; আনন্দ has ন্দ; উত্তর has ত্ত.",
+          "rulesTested": [
+            "ksha-jnya"
+          ],
+          "vocabUsed": [
+            "শিক্ষা"
+          ],
+          "scriptCritical": true
+        }
+      ],
+      "title": "Karim and Nila"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Beames, John, *Grammar of the Bengali Language Literary and Colloquial*, Clarendon Press, Oxford, 1891.",
+      "url": "https://archive.org/details/grammarofbengali00beamrich",
+      "licence": "Public domain",
+      "note": "Open scan on the Internet Archive."
+    },
+    {
+      "kind": "grammar",
+      "citation": "Wikipedia contributors, \"Bengali alphabet\", *Wikipedia*, retrieved 13 August 2026.",
+      "url": "https://en.wikipedia.org/wiki/Bengali_alphabet",
+      "licence": "CC BY-SA 4.0"
+    },
+    {
+      "kind": "dictionary",
+      "citation": "English Wiktionary entries for Bengali lemmas (WT:BN TR transliteration), retrieved 13 August 2026.",
+      "url": "https://en.wiktionary.org/",
+      "licence": "CC BY-SA 4.0",
+      "note": "Transliterations follow Wiktionary's Bengali romanization module (CLAUDE.md §14)."
+    }
+  ]
+}

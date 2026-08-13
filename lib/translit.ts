@@ -61,8 +61,26 @@ const CANDRABINDU = "ఁ";
 const TELUGU = /[ఀ-౿]/;
 const TELUGU_RUN = /[ఀ-౿][ఀ-౿‌‍]*/g;
 
+/** Bengali occupies U+0980–U+09FF. */
+const BENGALI = /[\u0980-\u09FF]/;
+
 export function hasTelugu(text: string): boolean {
   return TELUGU.test(text);
+}
+
+/** True when the string contains Bengali script. */
+export function hasBengali(text: string): boolean {
+  return BENGALI.test(text);
+}
+
+/**
+ * True when the string contains a course target script that the UI may treat
+ * as something the learner has to read. Bengali is included for detection and
+ * `scriptCritical` only — CLAUDE.md §14 forbids generating its romanization
+ * from a character table.
+ */
+export function hasTargetScript(text: string): boolean {
+  return hasTelugu(text) || hasBengali(text);
 }
 
 /**

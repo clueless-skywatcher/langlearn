@@ -1,0 +1,1339 @@
+{
+  "id": "bn-05",
+  "kind": "lesson",
+  "level": "A1",
+  "order": 5,
+  "title": "Pronouns and Address",
+  "summary": "The personal pronouns, the three grades of second-person address — তুই, তুমি, আপনি — and the matching third-person polite and familiar forms, with their genitives and objectives.",
+  "rules": [
+    {
+      "id": "three-address",
+      "number": "35",
+      "heading": "Three Ways to Say You",
+      "statement": "Bengali has three second-person pronouns, graded by intimacy and respect: **তুই** (tui) very familiar, **তুমি** (tumi) familiar, and **আপনি** (apni) polite. Each selects its own verb ending later; the pronoun and the ending must match.",
+      "examples": [
+        {
+          "target": "তুই",
+          "roman": "tui",
+          "gloss": "you — intimate, or to a child or inferior"
+        },
+        {
+          "target": "তুমি",
+          "roman": "tumi",
+          "gloss": "you — familiar, friends and equals"
+        },
+        {
+          "target": "আপনি",
+          "roman": "apni",
+          "gloss": "you — polite; Beames: to gentlemen and respectable people"
+        }
+      ],
+      "paradigms": [],
+      "footnotes": [
+        "Beames warns that তুমি to a stranger of standing is almost an insult; আপনি is the safe public form."
+      ],
+      "seeAlso": [],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Beames, John, *Grammar of the Bengali Language Literary and Colloquial*, Clarendon Press, Oxford, 1891.",
+          "url": "https://archive.org/details/grammarofbengali00beamrich",
+          "licence": "Public domain",
+          "note": "Open scan on the Internet Archive."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Wikipedia contributors, \"Bengali grammar\", *Wikipedia*, retrieved 13 August 2026.",
+          "url": "https://en.wikipedia.org/wiki/Bengali_grammar",
+          "licence": "CC BY-SA 4.0"
+        },
+        {
+          "kind": "dictionary",
+          "citation": "English Wiktionary entries for Bengali lemmas (WT:BN TR transliteration), retrieved 13 August 2026.",
+          "url": "https://en.wiktionary.org/",
+          "licence": "CC BY-SA 4.0",
+          "note": "Transliterations follow Wiktionary's Bengali romanization module (CLAUDE.md §14)."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "address-plurals",
+      "number": "36",
+      "heading": "The Plurals of Address",
+      "statement": "Each second-person grade has its own plural: **তোরা**, **তোমরা**, **আপনারা**. Number sits in the pronoun; the finite verb ending stays the same as in the singular of that grade.",
+      "examples": [
+        {
+          "target": "তোরা",
+          "roman": "tora",
+          "gloss": "you (pl., very familiar)"
+        },
+        {
+          "target": "তোমরা",
+          "roman": "tomra",
+          "gloss": "you (pl., familiar)"
+        },
+        {
+          "target": "আপনারা",
+          "roman": "apnara",
+          "gloss": "you (pl., polite)"
+        }
+      ],
+      "paradigms": [],
+      "footnotes": [],
+      "seeAlso": [
+        "three-address"
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Wikipedia contributors, \"Bengali grammar\", *Wikipedia*, retrieved 13 August 2026.",
+          "url": "https://en.wikipedia.org/wiki/Bengali_grammar",
+          "licence": "CC BY-SA 4.0"
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "first-person",
+      "number": "37",
+      "heading": "The First Person",
+      "statement": "**আমি** (ami) is 'I'; **আমরা** (amra) is 'we'. The verb takes one first-person ending for both; plurality is carried by the pronoun alone.",
+      "examples": [
+        {
+          "target": "আমি",
+          "roman": "ami",
+          "gloss": "I"
+        },
+        {
+          "target": "আমরা",
+          "roman": "amra",
+          "gloss": "we"
+        }
+      ],
+      "paradigms": [],
+      "footnotes": [
+        "Beames notes that ami was historically a plural; আমরা is the later plural built on it."
+      ],
+      "seeAlso": [],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Beames, John, *Grammar of the Bengali Language Literary and Colloquial*, Clarendon Press, Oxford, 1891.",
+          "url": "https://archive.org/details/grammarofbengali00beamrich",
+          "licence": "Public domain",
+          "note": "Open scan on the Internet Archive."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Wikipedia contributors, \"Bengali grammar\", *Wikipedia*, retrieved 13 August 2026.",
+          "url": "https://en.wikipedia.org/wiki/Bengali_grammar",
+          "licence": "CC BY-SA 4.0"
+        },
+        {
+          "kind": "dictionary",
+          "citation": "English Wiktionary entries for Bengali lemmas (WT:BN TR transliteration), retrieved 13 August 2026.",
+          "url": "https://en.wiktionary.org/",
+          "licence": "CC BY-SA 4.0",
+          "note": "Transliterations follow Wiktionary's Bengali romanization module (CLAUDE.md §14)."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "third-person-honor",
+      "number": "38",
+      "heading": "He and She — Familiar and Polite",
+      "statement": "Third person likewise splits by honor: familiar **সে** (se) and polite **তিনি** (tini). Neither marks gender. Their plurals are **তারা** and **তাঁরা**.",
+      "examples": [
+        {
+          "target": "সে",
+          "roman": "se",
+          "gloss": "he/she (familiar)"
+        },
+        {
+          "target": "তিনি",
+          "roman": "tini",
+          "gloss": "he/she (polite)"
+        },
+        {
+          "target": "তারা",
+          "roman": "tara",
+          "gloss": "they (familiar)"
+        },
+        {
+          "target": "তাঁরা",
+          "roman": "tãra",
+          "gloss": "they (polite)"
+        }
+      ],
+      "paradigms": [],
+      "footnotes": [
+        "Wikipedia also grades third person by proximity (এ / ও / সে); this lesson keeps the honor split that the verb endings share."
+      ],
+      "seeAlso": [
+        "three-address"
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Wikipedia contributors, \"Bengali grammar\", *Wikipedia*, retrieved 13 August 2026.",
+          "url": "https://en.wikipedia.org/wiki/Bengali_grammar",
+          "licence": "CC BY-SA 4.0"
+        },
+        {
+          "kind": "dictionary",
+          "citation": "English Wiktionary entries for Bengali lemmas (WT:BN TR transliteration), retrieved 13 August 2026.",
+          "url": "https://en.wiktionary.org/",
+          "licence": "CC BY-SA 4.0",
+          "note": "Transliterations follow Wiktionary's Bengali romanization module (CLAUDE.md §14)."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "pronoun-paradigm-nom",
+      "number": "39",
+      "heading": "The Nominative Set",
+      "statement": "The nominatives used as subjects are the forms below. আপনি is historically 'self' (Sanskrit ātman); as a polite 'you' it takes the polite verb ending shared with তিনি.",
+      "examples": [],
+      "paradigms": [
+        {
+          "caption": "Personal pronouns, nominative",
+          "columns": [
+            "singular",
+            "plural",
+            "grade"
+          ],
+          "rows": [
+            {
+              "label": "1st",
+              "cells": [
+                "আমি",
+                "আমরা",
+                "—"
+              ]
+            },
+            {
+              "label": "2nd VF",
+              "cells": [
+                "তুই",
+                "তোরা",
+                "very familiar"
+              ]
+            },
+            {
+              "label": "2nd F",
+              "cells": [
+                "তুমি",
+                "তোমরা",
+                "familiar"
+              ]
+            },
+            {
+              "label": "2nd/3rd P",
+              "cells": [
+                "আপনি",
+                "আপনারা",
+                "polite"
+              ]
+            },
+            {
+              "label": "3rd F",
+              "cells": [
+                "সে",
+                "তারা",
+                "familiar"
+              ]
+            },
+            {
+              "label": "3rd P",
+              "cells": [
+                "তিনি",
+                "তাঁরা",
+                "polite"
+              ]
+            }
+          ],
+          "footnote": "Table after Wikipedia Bengali grammar; আপনি row is the polite second person (and historically third-person polite morphology)."
+        }
+      ],
+      "footnotes": [],
+      "seeAlso": [
+        "three-address",
+        "first-person",
+        "third-person-honor"
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Wikipedia contributors, \"Bengali grammar\", *Wikipedia*, retrieved 13 August 2026.",
+          "url": "https://en.wikipedia.org/wiki/Bengali_grammar",
+          "licence": "CC BY-SA 4.0"
+        },
+        {
+          "kind": "grammar",
+          "citation": "Beames, John, *Grammar of the Bengali Language Literary and Colloquial*, Clarendon Press, Oxford, 1891.",
+          "url": "https://archive.org/details/grammarofbengali00beamrich",
+          "licence": "Public domain",
+          "note": "Open scan on the Internet Archive."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "pronoun-genitive",
+      "number": "40",
+      "heading": "Possessive (Genitive) Forms",
+      "statement": "Each nominative has a genitive used for possession and before many postpositions: **আমার**, **তোর**, **তোমার**, **আপনার**, **তার**, **তাঁর**. Plurals take **-দের**: আমাদের, তোমাদের, আপনাদের, তাদের, তাঁদের.",
+      "examples": [
+        {
+          "target": "আমার বই",
+          "roman": "amar boi",
+          "gloss": "my book"
+        },
+        {
+          "target": "তোমার বাড়ি",
+          "roman": "tomar baṛi",
+          "gloss": "your (familiar) house"
+        },
+        {
+          "target": "আপনার নাম",
+          "roman": "apnar nam",
+          "gloss": "your (polite) name"
+        }
+      ],
+      "paradigms": [
+        {
+          "caption": "Genitive pronouns",
+          "columns": [
+            "nominative",
+            "genitive sg.",
+            "genitive pl."
+          ],
+          "rows": [
+            {
+              "label": "1st",
+              "cells": [
+                "আমি",
+                "আমার",
+                "আমাদের"
+              ]
+            },
+            {
+              "label": "2nd VF",
+              "cells": [
+                "তুই",
+                "তোর",
+                "তোদের"
+              ]
+            },
+            {
+              "label": "2nd F",
+              "cells": [
+                "তুমি",
+                "তোমার",
+                "তোমাদের"
+              ]
+            },
+            {
+              "label": "2nd P",
+              "cells": [
+                "আপনি",
+                "আপনার",
+                "আপনাদের"
+              ]
+            },
+            {
+              "label": "3rd F",
+              "cells": [
+                "সে",
+                "তার",
+                "তাদের"
+              ]
+            },
+            {
+              "label": "3rd P",
+              "cells": [
+                "তিনি",
+                "তাঁর",
+                "তাঁদের"
+              ]
+            }
+          ]
+        }
+      ],
+      "footnotes": [],
+      "seeAlso": [
+        "noun-genitive",
+        "pronoun-paradigm-nom"
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Wikipedia contributors, \"Bengali grammar\", *Wikipedia*, retrieved 13 August 2026.",
+          "url": "https://en.wikipedia.org/wiki/Bengali_grammar",
+          "licence": "CC BY-SA 4.0"
+        },
+        {
+          "kind": "dictionary",
+          "citation": "English Wiktionary entries for Bengali lemmas (WT:BN TR transliteration), retrieved 13 August 2026.",
+          "url": "https://en.wiktionary.org/",
+          "licence": "CC BY-SA 4.0",
+          "note": "Transliterations follow Wiktionary's Bengali romanization module (CLAUDE.md §14)."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "pronoun-objective",
+      "number": "41",
+      "heading": "Objective Forms",
+      "statement": "The objective (accusative/dative) of the personal pronouns takes **-কে** (or **-রে** in much of Bangladesh): **আমাকে**, **তোকে**, **তোমাকে**, **আপনাকে**, **তাকে**, **তাঁকে**. Plural objectives are built on the genitive plural: আমাদেরকে, তোমাদেরকে, and so on.",
+      "examples": [
+        {
+          "target": "আমাকে দাও",
+          "roman": "amake dao",
+          "gloss": "give (it) to me"
+        },
+        {
+          "target": "তাঁকে বলো",
+          "roman": "tãke bolo",
+          "gloss": "tell him/her (polite)"
+        }
+      ],
+      "paradigms": [
+        {
+          "caption": "Objective pronouns (singular)",
+          "columns": [
+            "nominative",
+            "objective"
+          ],
+          "rows": [
+            {
+              "label": "1st",
+              "cells": [
+                "আমি",
+                "আমাকে"
+              ]
+            },
+            {
+              "label": "2nd VF",
+              "cells": [
+                "তুই",
+                "তোকে"
+              ]
+            },
+            {
+              "label": "2nd F",
+              "cells": [
+                "তুমি",
+                "তোমাকে"
+              ]
+            },
+            {
+              "label": "2nd P",
+              "cells": [
+                "আপনি",
+                "আপনাকে"
+              ]
+            },
+            {
+              "label": "3rd F",
+              "cells": [
+                "সে",
+                "তাকে"
+              ]
+            },
+            {
+              "label": "3rd P",
+              "cells": [
+                "তিনি",
+                "তাঁকে"
+              ]
+            }
+          ]
+        }
+      ],
+      "footnotes": [],
+      "seeAlso": [
+        "noun-objective",
+        "pronoun-paradigm-nom"
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Wikipedia contributors, \"Bengali grammar\", *Wikipedia*, retrieved 13 August 2026.",
+          "url": "https://en.wikipedia.org/wiki/Bengali_grammar",
+          "licence": "CC BY-SA 4.0"
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "address-verb-preview",
+      "number": "42",
+      "heading": "Address Chooses the Verb Ending",
+      "statement": "The five finite-verb slots of the next lesson are locked to these pronouns: আমি → **-ি**, তুই → **-িস**, তুমি → **-ো**, সে → **-ে**, আপনি / তিনি → **-েন**. Switching the pronoun without switching the ending is ungrammatical.",
+      "examples": [
+        {
+          "target": "তুমি … -ো",
+          "roman": "tumi … -o",
+          "gloss": "familiar you takes the -ো ending"
+        },
+        {
+          "target": "আপনি … -েন",
+          "roman": "apni … -en",
+          "gloss": "polite you takes the -েন ending"
+        },
+        {
+          "target": "তুই … -িস",
+          "roman": "tui … -is",
+          "gloss": "very familiar you takes the -িস ending"
+        }
+      ],
+      "paradigms": [],
+      "footnotes": [],
+      "seeAlso": [
+        "three-address",
+        "third-person-honor"
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Wikipedia contributors, \"Bengali grammar\", *Wikipedia*, retrieved 13 August 2026.",
+          "url": "https://en.wikipedia.org/wiki/Bengali_grammar",
+          "licence": "CC BY-SA 4.0"
+        }
+      ],
+      "core": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "lemma": "আমি",
+      "gloss": "I",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "আমি",
+        "gen": "আমার",
+        "translit": "ami"
+      }
+    },
+    {
+      "lemma": "আমরা",
+      "gloss": "we",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "আমরা",
+        "gen": "আমাদের",
+        "translit": "amra"
+      }
+    },
+    {
+      "lemma": "তুই",
+      "gloss": "you (very familiar)",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "তুই",
+        "gen": "তোর",
+        "translit": "tui"
+      }
+    },
+    {
+      "lemma": "তোরা",
+      "gloss": "you (pl., very familiar)",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "তোরা",
+        "gen": "তোদের",
+        "translit": "tora"
+      }
+    },
+    {
+      "lemma": "তুমি",
+      "gloss": "you (familiar)",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "তুমি",
+        "gen": "তোমার",
+        "translit": "tumi"
+      }
+    },
+    {
+      "lemma": "তোমরা",
+      "gloss": "you (pl., familiar)",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "তোমরা",
+        "gen": "তোমাদের",
+        "translit": "tomra"
+      }
+    },
+    {
+      "lemma": "আপনি",
+      "gloss": "you (polite)",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "আপনি",
+        "gen": "আপনার",
+        "translit": "apni"
+      }
+    },
+    {
+      "lemma": "আপনারা",
+      "gloss": "you (pl., polite)",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "আপনারা",
+        "gen": "আপনাদের",
+        "translit": "apnara"
+      }
+    },
+    {
+      "lemma": "সে",
+      "gloss": "he/she (familiar)",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "সে",
+        "gen": "তার",
+        "translit": "se"
+      }
+    },
+    {
+      "lemma": "তারা",
+      "gloss": "they (familiar)",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "তারা",
+        "gen": "তাদের",
+        "translit": "tara"
+      }
+    },
+    {
+      "lemma": "তিনি",
+      "gloss": "he/she (polite)",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "তিনি",
+        "gen": "তাঁর",
+        "translit": "tini"
+      }
+    },
+    {
+      "lemma": "তাঁরা",
+      "gloss": "they (polite)",
+      "pos": "pronoun",
+      "forms": {
+        "nom": "তাঁরা",
+        "gen": "তাঁদের",
+        "translit": "tãra"
+      }
+    },
+    {
+      "lemma": "নাম",
+      "gloss": "name",
+      "pos": "noun",
+      "forms": {
+        "nom": "নাম",
+        "gen": "নামের",
+        "translit": "nam",
+        "class": "inanimate"
+      }
+    }
+  ],
+  "drills": [
+    {
+      "id": "bn501-q1",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Which pronoun is the polite 'you'?",
+      "options": [
+        "আপনি",
+        "তুমি",
+        "তুই",
+        "সে"
+      ],
+      "correct": 0,
+      "explanation": "আপনি is polite address; তুমি is familiar; তুই is very familiar.",
+      "rulesTested": [
+        "three-address"
+      ],
+      "vocabUsed": [
+        "আপনি",
+        "তুমি",
+        "তুই"
+      ],
+      "scriptCritical": true
+    },
+    {
+      "id": "bn501-q2",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Which pronoun is very familiar 'you'?",
+      "options": [
+        "তুই",
+        "তুমি",
+        "আপনি",
+        "তিনি"
+      ],
+      "correct": 0,
+      "explanation": "তুই is the VF grade.",
+      "rulesTested": [
+        "three-address"
+      ],
+      "vocabUsed": [
+        "তুই"
+      ],
+      "scriptCritical": true
+    },
+    {
+      "id": "bn501-q3",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "What is the familiar plural of তুমি?",
+      "options": [
+        "তোমরা",
+        "তোরা",
+        "আপনারা",
+        "আমরা"
+      ],
+      "correct": 0,
+      "explanation": "Familiar plural is তোমরা; তোরা is VF; আপনারা is polite.",
+      "rulesTested": [
+        "address-plurals"
+      ],
+      "vocabUsed": [
+        "তুমি",
+        "তোমরা",
+        "তোরা",
+        "আপনারা"
+      ],
+      "scriptCritical": true
+    },
+    {
+      "id": "bn501-q4",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Beames says which form to use with gentlemen and respectable strangers?",
+      "options": [
+        "আপনি",
+        "তুমি",
+        "তুই",
+        "সে"
+      ],
+      "correct": 0,
+      "explanation": "Beames: apani when addressing gentlemen or respectable people; tumi except to servants, relations, or the very humble is almost an insult.",
+      "rulesTested": [
+        "three-address"
+      ],
+      "vocabUsed": [
+        "আপনি",
+        "তুমি"
+      ],
+      "scriptCritical": true
+    },
+    {
+      "id": "bn501-q5",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "What is the genitive of আমি?",
+      "options": [
+        "আমার",
+        "আমাকে",
+        "আমরা",
+        "আমাদেরকে"
+      ],
+      "correct": 0,
+      "explanation": "আমার is 'my/mine'.",
+      "rulesTested": [
+        "pronoun-genitive",
+        "first-person"
+      ],
+      "vocabUsed": [
+        "আমি"
+      ],
+      "scriptCritical": true
+    },
+    {
+      "id": "bn501-q6",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "What is the genitive of তুমি?",
+      "options": [
+        "তোমার",
+        "তোর",
+        "আপনার",
+        "তার"
+      ],
+      "correct": 0,
+      "explanation": "Familiar genitive is তোমার; তোর belongs to তুই.",
+      "rulesTested": [
+        "pronoun-genitive",
+        "three-address"
+      ],
+      "vocabUsed": [
+        "তুমি",
+        "তুই"
+      ],
+      "scriptCritical": true
+    },
+    {
+      "id": "bn501-q7",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Which is the polite third-person nominative?",
+      "options": [
+        "তিনি",
+        "সে",
+        "তারা",
+        "আপনি"
+      ],
+      "correct": 0,
+      "explanation": "তিনি is polite he/she; সে is familiar; আপনি is polite you.",
+      "rulesTested": [
+        "third-person-honor"
+      ],
+      "vocabUsed": [
+        "তিনি",
+        "সে",
+        "আপনি"
+      ],
+      "scriptCritical": true
+    },
+    {
+      "id": "bn501-q8",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "আপনাকে is which case of আপনি?",
+      "options": [
+        "objective",
+        "genitive",
+        "nominative",
+        "locative"
+      ],
+      "correct": 0,
+      "explanation": "আপনাকে is the objective (-কে). Genitive is আপনার.",
+      "rulesTested": [
+        "pronoun-objective"
+      ],
+      "vocabUsed": [
+        "আপনি"
+      ],
+      "scriptCritical": true
+    },
+    {
+      "id": "bn501-q9",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which are second-person nominatives?",
+      "options": [
+        "তুই",
+        "তুমি",
+        "আপনি",
+        "তিনি"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "তিনি is third-person polite.",
+      "rulesTested": [
+        "three-address",
+        "third-person-honor"
+      ],
+      "vocabUsed": [
+        "তুই",
+        "তুমি",
+        "আপনি",
+        "তিনি"
+      ],
+      "scriptCritical": true
+    },
+    {
+      "id": "bn501-q10",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which genitives belong to polite pronouns?",
+      "options": [
+        "আপনার",
+        "তাঁর",
+        "তোমার",
+        "তোর"
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanation": "আপনার and তাঁর are polite; তোমার/তোর are familiar/VF.",
+      "rulesTested": [
+        "pronoun-genitive",
+        "three-address",
+        "third-person-honor"
+      ],
+      "vocabUsed": [
+        "আপনি",
+        "তিনি",
+        "তুমি",
+        "তুই"
+      ],
+      "scriptCritical": true
+    },
+    {
+      "id": "bn501-q11",
+      "type": "integer",
+      "difficulty": "easy",
+      "stem": "How many second-person grades of address does Bengali distinguish?",
+      "answer": 3,
+      "explanation": "Very familiar, familiar, and polite — তুই, তুমি, আপনি.",
+      "rulesTested": [
+        "three-address"
+      ],
+      "vocabUsed": [],
+      "scriptCritical": false
+    },
+    {
+      "id": "bn501-q12",
+      "type": "integer",
+      "difficulty": "medium",
+      "stem": "Which numbered rule states that আপনি / তিনি share the polite verb ending **-েন**?",
+      "answer": 42,
+      "explanation": "¶42 locks each pronoun grade to its ending.",
+      "rulesTested": [
+        "address-verb-preview"
+      ],
+      "vocabUsed": [
+        "আপনি",
+        "তিনি"
+      ],
+      "scriptCritical": true
+    },
+    {
+      "id": "bn501-q13",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match each pronoun to its grade.",
+      "columnHeadings": [
+        "Pronoun",
+        "Grade"
+      ],
+      "columnI": [
+        "তুই",
+        "তুমি",
+        "আপনি",
+        "সে"
+      ],
+      "columnII": [
+        "familiar you",
+        "very familiar you",
+        "familiar he/she",
+        "polite you"
+      ],
+      "options": [
+        [
+          1,
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          1,
+          3,
+          2
+        ],
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          1,
+          3,
+          0,
+          2
+        ]
+      ],
+      "correct": 0,
+      "explanation": "তুই VF you; তুমি familiar you; আপনি polite you; সে familiar he/she.",
+      "rulesTested": [
+        "three-address",
+        "third-person-honor",
+        "pronoun-paradigm-nom"
+      ],
+      "vocabUsed": [
+        "তুই",
+        "তুমি",
+        "আপনি",
+        "সে"
+      ],
+      "scriptCritical": true
+    },
+    {
+      "id": "bn501-q14",
+      "type": "matching",
+      "difficulty": "hard",
+      "stem": "Match each nominative to its genitive.",
+      "columnHeadings": [
+        "Nominative",
+        "Genitive"
+      ],
+      "columnI": [
+        "আমি",
+        "তুই",
+        "তুমি",
+        "তিনি"
+      ],
+      "columnII": [
+        "তোর",
+        "আমার",
+        "তাঁর",
+        "তোমার"
+      ],
+      "options": [
+        [
+          1,
+          0,
+          3,
+          2
+        ],
+        [
+          1,
+          3,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          3,
+          2
+        ],
+        [
+          1,
+          0,
+          2,
+          3
+        ]
+      ],
+      "correct": 0,
+      "explanation": "আমার, তোর, তোমার, তাঁর.",
+      "rulesTested": [
+        "pronoun-genitive"
+      ],
+      "vocabUsed": [
+        "আমি",
+        "তুই",
+        "তুমি",
+        "তিনি"
+      ],
+      "scriptCritical": true
+    },
+    {
+      "id": "bn501-q15",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "আমরা and আমি take how many distinct first-person verb endings between them?",
+      "options": [
+        "one shared ending",
+        "two different endings",
+        "three endings",
+        "none — first person is unmarked"
+      ],
+      "correct": 0,
+      "explanation": "Number is in the pronoun; both take the same first-person ending (-ি).",
+      "rulesTested": [
+        "first-person",
+        "address-verb-preview"
+      ],
+      "vocabUsed": [
+        "আমি",
+        "আমরা"
+      ],
+      "scriptCritical": true
+    },
+    {
+      "id": "bn501-q16",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Which pair is wrong?",
+      "options": [
+        "তুমি → তোর",
+        "তুই → তোর",
+        "তুমি → তোমার",
+        "আপনি → আপনার"
+      ],
+      "correct": 0,
+      "explanation": "তোর is the genitive of তুই, not of তুমি.",
+      "rulesTested": [
+        "pronoun-genitive",
+        "three-address"
+      ],
+      "vocabUsed": [
+        "তুমি",
+        "তুই",
+        "আপনি"
+      ],
+      "scriptCritical": true
+    },
+    {
+      "id": "bn501-q17",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "What is the objective of সে?",
+      "options": [
+        "তাকে",
+        "তার",
+        "তাঁকে",
+        "তোকে"
+      ],
+      "correct": 0,
+      "explanation": "Familiar third-person objective is তাকে; তাঁকে is polite.",
+      "rulesTested": [
+        "pronoun-objective",
+        "third-person-honor"
+      ],
+      "vocabUsed": [
+        "সে"
+      ],
+      "scriptCritical": true
+    },
+    {
+      "id": "bn501-q18",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which statements are true?",
+      "options": [
+        "তোমরা is the plural of তুমি",
+        "আপনি takes the same verb ending grade as তিনি",
+        "তুই and তুমি share one genitive",
+        "সে does not mark gender"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "তুই/তুমি have different genitives (তোর/তোমার). আপনি and তিনি share polite -েন.",
+      "rulesTested": [
+        "address-plurals",
+        "address-verb-preview",
+        "pronoun-genitive",
+        "third-person-honor"
+      ],
+      "vocabUsed": [
+        "তোমরা",
+        "তুমি",
+        "আপনি",
+        "তিনি",
+        "তুই",
+        "সে"
+      ],
+      "scriptCritical": true
+    },
+    {
+      "id": "bn501-q19",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match each nominative to its number and person row in the paradigm.",
+      "columnHeadings": [
+        "Pronoun",
+        "Row"
+      ],
+      "columnI": [
+        "আমরা",
+        "তোরা",
+        "আপনারা",
+        "তাঁরা"
+      ],
+      "columnII": [
+        "1st plural",
+        "2nd VF plural",
+        "2nd polite plural",
+        "3rd polite plural"
+      ],
+      "options": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          2,
+          1,
+          3
+        ],
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          2
+        ]
+      ],
+      "correct": 0,
+      "explanation": "আমরা 1st pl.; তোরা 2nd VF pl.; আপনারা polite you pl.; তাঁরা polite they.",
+      "rulesTested": [
+        "pronoun-paradigm-nom",
+        "address-plurals",
+        "first-person",
+        "third-person-honor"
+      ],
+      "vocabUsed": [
+        "আমরা",
+        "তোরা",
+        "আপনারা",
+        "তাঁরা"
+      ],
+      "scriptCritical": true
+    },
+    {
+      "id": "bn501-p1",
+      "type": "comprehension",
+      "difficulty": "hard",
+      "title": "At the door",
+      "passage": "রীতাঃ আপনার নাম কি?\nঅতিথিঃ আমার নাম করিম। আপনি কে?\nরীতাঃ আমি রীতা। উনি আমার বাবা।\nঅতিথিঃ তাঁকে নমস্কার।\nরীতাঃ (বাবার দিকে) তিনি বলছেন, তুমি ভিতরে এসো।",
+      "romanization": "Rītā: apnar nam ki?\nOtithi: amar nam Korim. apni ke?\nRītā: ami Rītā. uni amar baba.\nOtithi: tãke nômoskar.\nRītā: (babar dike) tini bolchen, tumi bhitore eso.",
+      "translation": "Rita: What is your (polite) name?\nGuest: My name is Karim. Who are you (polite)?\nRita: I am Rita. That gentleman is my father.\nGuest: Greetings to him (polite).\nRita: (toward father) He (polite) says, you (familiar) come inside.",
+      "glossary": {
+        "অতিথি": "guest",
+        "উনি": "that person (polite demonstrative)",
+        "নমস্কার": "greeting",
+        "দিকে": "toward",
+        "বলছেন": "is saying (polite progressive)",
+        "ভিতরে": "inside",
+        "এসো": "come (familiar imperative)"
+      },
+      "scriptCritical": false,
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course.",
+          "note": "Address grades and case forms after Wikipedia Bengali grammar and Beames."
+        }
+      ],
+      "questions": [
+        {
+          "id": "bn501-p1q1",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "অতিথির নাম কি?",
+          "options": [
+            "করিম",
+            "রীতা",
+            "বাবা",
+            "তুমি"
+          ],
+          "correct": 0,
+          "explanation": "He says আমার নাম করিম.",
+          "rulesTested": [
+            "pronoun-genitive",
+            "first-person"
+          ],
+          "vocabUsed": [
+            "নাম"
+          ],
+          "scriptCritical": true
+        },
+        {
+          "id": "bn501-p1q2",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "রীতা অতিথিকে কী বলে সম্বোধন করে?",
+          "options": [
+            "আপনি",
+            "তুমি",
+            "তুই",
+            "সে"
+          ],
+          "correct": 0,
+          "explanation": "She opens with আপনার নাম — polite address to a guest.",
+          "rulesTested": [
+            "three-address",
+            "pronoun-genitive"
+          ],
+          "vocabUsed": [
+            "আপনি"
+          ],
+          "scriptCritical": true
+        },
+        {
+          "id": "bn501-p1q3",
+          "type": "single",
+          "difficulty": "hard",
+          "stem": "বাবার দিকে রীতা কোন সম্বোধন ব্যবহার করে?",
+          "options": [
+            "তুমি",
+            "আপনি",
+            "তুই",
+            "তারা"
+          ],
+          "correct": 0,
+          "explanation": "She reports তিনি বলছেন, তুমি ভিতরে এসো — familiar তুমি to her father in that line.",
+          "rulesTested": [
+            "three-address",
+            "third-person-honor"
+          ],
+          "vocabUsed": [
+            "তুমি",
+            "তিনি"
+          ],
+          "scriptCritical": true
+        },
+        {
+          "id": "bn501-p1q4",
+          "type": "single",
+          "difficulty": "hard",
+          "stem": "তাঁকে নমস্কার — তাঁকে is which pronoun's objective?",
+          "options": [
+            "তিনি",
+            "সে",
+            "আপনি",
+            "তুমি"
+          ],
+          "correct": 0,
+          "explanation": "তাঁকে is the polite third-person objective of তিনি.",
+          "rulesTested": [
+            "pronoun-objective",
+            "third-person-honor"
+          ],
+          "vocabUsed": [
+            "তিনি"
+          ],
+          "scriptCritical": true
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Beames, John, *Grammar of the Bengali Language Literary and Colloquial*, Clarendon Press, Oxford, 1891.",
+      "url": "https://archive.org/details/grammarofbengali00beamrich",
+      "licence": "Public domain",
+      "note": "Open scan on the Internet Archive."
+    },
+    {
+      "kind": "grammar",
+      "citation": "Wikipedia contributors, \"Bengali grammar\", *Wikipedia*, retrieved 13 August 2026.",
+      "url": "https://en.wikipedia.org/wiki/Bengali_grammar",
+      "licence": "CC BY-SA 4.0"
+    },
+    {
+      "kind": "dictionary",
+      "citation": "English Wiktionary entries for Bengali lemmas (WT:BN TR transliteration), retrieved 13 August 2026.",
+      "url": "https://en.wiktionary.org/",
+      "licence": "CC BY-SA 4.0",
+      "note": "Transliterations follow Wiktionary's Bengali romanization module (CLAUDE.md §14)."
+    }
+  ]
+}

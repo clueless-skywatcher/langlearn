@@ -1,0 +1,995 @@
+{
+  "id": "bn-04",
+  "kind": "lesson",
+  "level": "A1",
+  "order": 4,
+  "title": "Nouns — Case and Animacy",
+  "summary": "How Bengali nouns take genitive, objective and locative endings, and how animacy decides which endings are available; the definite articles টা/টি, গুলো and রা.",
+  "rules": [
+    {
+      "id": "noun-animacy",
+      "number": "28",
+      "heading": "Three Classes of Noun",
+      "statement": "For declension Bengali divides nouns by animacy: human beings, other living beings, and inanimate objects. The same case endings are available in principle, but not every ending is used with every class.",
+      "examples": [
+        {
+          "target": "ছেলে",
+          "roman": "chele",
+          "gloss": "boy — human"
+        },
+        {
+          "target": "কুকুর",
+          "roman": "kukur",
+          "gloss": "dog — other living"
+        },
+        {
+          "target": "বই",
+          "roman": "boi",
+          "gloss": "book — inanimate"
+        }
+      ],
+      "paradigms": [],
+      "footnotes": [
+        "Beames names the three classes vyakti-vācak, anyaprāṇ-vācak and aprāṇ-vācak."
+      ],
+      "seeAlso": [],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Beames, John, *Grammar of the Bengali Language Literary and Colloquial*, Clarendon Press, Oxford, 1891.",
+          "url": "https://archive.org/details/grammarofbengali00beamrich",
+          "licence": "Public domain",
+          "note": "Open scan on the Internet Archive."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Wikipedia contributors, \"Bengali grammar\", *Wikipedia*, retrieved 13 August 2026.",
+          "url": "https://en.wikipedia.org/wiki/Bengali_grammar",
+          "licence": "CC BY-SA 4.0"
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "noun-genitive",
+      "number": "29",
+      "heading": "The Genitive",
+      "statement": "The genitive adds **-ের** (-er) after a consonant or inherent অ, and **-র** (-r) after any other vowel. মাংস → মাংসের; ছেলে → ছেলের.",
+      "examples": [
+        {
+          "target": "মাংসের",
+          "roman": "maṅśer",
+          "gloss": "of meat"
+        },
+        {
+          "target": "ছেলের",
+          "roman": "cheler",
+          "gloss": "the boy's"
+        },
+        {
+          "target": "নদীর",
+          "roman": "nodir",
+          "gloss": "of the river"
+        }
+      ],
+      "paradigms": [],
+      "footnotes": [],
+      "seeAlso": [
+        "noun-animacy"
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Wikipedia contributors, \"Bengali grammar\", *Wikipedia*, retrieved 13 August 2026.",
+          "url": "https://en.wikipedia.org/wiki/Bengali_grammar",
+          "licence": "CC BY-SA 4.0"
+        },
+        {
+          "kind": "grammar",
+          "citation": "Beames, John, *Grammar of the Bengali Language Literary and Colloquial*, Clarendon Press, Oxford, 1891.",
+          "url": "https://archive.org/details/grammarofbengali00beamrich",
+          "licence": "Public domain",
+          "note": "Open scan on the Internet Archive."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "noun-objective",
+      "number": "30",
+      "heading": "The Objective",
+      "statement": "The objective (accusative/dative) ending **-কে** (-ke) is used for human beings. It is often omitted with other living beings and is not used with inanimates, which stay unmarked.",
+      "examples": [
+        {
+          "target": "ছেলেকে",
+          "roman": "cheleke",
+          "gloss": "to/for the boy"
+        },
+        {
+          "target": "বই",
+          "roman": "boi",
+          "gloss": "book — object, unmarked"
+        }
+      ],
+      "paradigms": [],
+      "footnotes": [
+        "In Bangladesh **-রে** (-re) is also common for the same case."
+      ],
+      "seeAlso": [
+        "noun-animacy"
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Wikipedia contributors, \"Bengali grammar\", *Wikipedia*, retrieved 13 August 2026.",
+          "url": "https://en.wikipedia.org/wiki/Bengali_grammar",
+          "licence": "CC BY-SA 4.0"
+        },
+        {
+          "kind": "grammar",
+          "citation": "Beames, John, *Grammar of the Bengali Language Literary and Colloquial*, Clarendon Press, Oxford, 1891.",
+          "url": "https://archive.org/details/grammarofbengali00beamrich",
+          "licence": "Public domain",
+          "note": "Open scan on the Internet Archive."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "noun-locative",
+      "number": "31",
+      "heading": "The Locative",
+      "statement": "The locative marks place. After a consonant or inherent অ it is **-ে** (-e); after most vowels **-তে** (-te); after **-া** it is often **-য়** (-ẏ), as in কলকাতায়.",
+      "examples": [
+        {
+          "target": "ঘরে",
+          "roman": "ghore",
+          "gloss": "in the room"
+        },
+        {
+          "target": "নদীতে",
+          "roman": "nodite",
+          "gloss": "in/at the river"
+        },
+        {
+          "target": "কলকাতায়",
+          "roman": "kolkatay",
+          "gloss": "in Kolkata"
+        }
+      ],
+      "paradigms": [],
+      "footnotes": [
+        "Locative forms are not used with animate nouns in the ordinary way; place is inanimate."
+      ],
+      "seeAlso": [
+        "noun-animacy",
+        "noun-genitive"
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Wikipedia contributors, \"Bengali grammar\", *Wikipedia*, retrieved 13 August 2026.",
+          "url": "https://en.wikipedia.org/wiki/Bengali_grammar",
+          "licence": "CC BY-SA 4.0"
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "noun-definite",
+      "number": "32",
+      "heading": "Definite Articles",
+      "statement": "Singular definite sense is marked by **-টা** (-ṭa) or formal **-টি** (-ṭi). Plural definite for inanimates uses **-গুলো** (-gulo); for humans **-রা** (-ra) is common.",
+      "examples": [
+        {
+          "target": "বইটা",
+          "roman": "boiṭa",
+          "gloss": "the book"
+        },
+        {
+          "target": "ছাত্রটি",
+          "roman": "chatroṭi",
+          "gloss": "the student (formal)"
+        },
+        {
+          "target": "বইগুলো",
+          "roman": "boigulo",
+          "gloss": "the books"
+        },
+        {
+          "target": "ছেলেরা",
+          "roman": "chelera",
+          "gloss": "the boys"
+        }
+      ],
+      "paradigms": [],
+      "footnotes": [],
+      "seeAlso": [
+        "noun-animacy"
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Wikipedia contributors, \"Bengali grammar\", *Wikipedia*, retrieved 13 August 2026.",
+          "url": "https://en.wikipedia.org/wiki/Bengali_grammar",
+          "licence": "CC BY-SA 4.0"
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "noun-case-order",
+      "number": "33",
+      "heading": "Article Before Case",
+      "statement": "When a definite article and a case ending both appear, the article comes first and the case ending follows it: ছাত্রটিকে, বইটার, জুতাগুলোতে.",
+      "examples": [
+        {
+          "target": "ছাত্রটিকে",
+          "roman": "chatroṭike",
+          "gloss": "to the student"
+        },
+        {
+          "target": "বইটার",
+          "roman": "boiṭar",
+          "gloss": "of the book"
+        },
+        {
+          "target": "জুতাগুলোতে",
+          "roman": "jutagulote",
+          "gloss": "in/on the shoes"
+        }
+      ],
+      "paradigms": [
+        {
+          "caption": "ছাত্র (human) and জুতা (inanimate), definite",
+          "columns": [
+            "nominative",
+            "objective",
+            "genitive",
+            "locative"
+          ],
+          "rows": [
+            {
+              "label": "sg. human",
+              "cells": [
+                "ছাত্রটা",
+                "ছাত্রটাকে",
+                "ছাত্রটার",
+                "—"
+              ]
+            },
+            {
+              "label": "pl. human",
+              "cells": [
+                "ছাত্ররা",
+                "ছাত্রদেরকে",
+                "ছাত্রদের",
+                "—"
+              ]
+            },
+            {
+              "label": "sg. thing",
+              "cells": [
+                "জুতাটা",
+                "—",
+                "জুতাটার",
+                "জুতাটায়"
+              ]
+            },
+            {
+              "label": "pl. thing",
+              "cells": [
+                "জুতাগুলো",
+                "—",
+                "জুতাগুলোর",
+                "জুতাগুলোতে"
+              ]
+            }
+          ],
+          "footnote": "Tables after Wikipedia Bengali grammar; objective blank on inanimates, locative blank on humans."
+        }
+      ],
+      "footnotes": [],
+      "seeAlso": [
+        "noun-definite",
+        "noun-objective",
+        "noun-genitive",
+        "noun-locative"
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Wikipedia contributors, \"Bengali grammar\", *Wikipedia*, retrieved 13 August 2026.",
+          "url": "https://en.wikipedia.org/wiki/Bengali_grammar",
+          "licence": "CC BY-SA 4.0"
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "noun-measure",
+      "number": "34",
+      "heading": "Measure Words",
+      "statement": "A counted noun takes a measure word between the numeral and the noun. The general measure is **-টা**; humans often take **জন** (jon).",
+      "examples": [
+        {
+          "target": "একটা বই",
+          "roman": "êkṭa boi",
+          "gloss": "one book"
+        },
+        {
+          "target": "দুইজন মানুষ",
+          "roman": "duijon manuś",
+          "gloss": "two people"
+        }
+      ],
+      "paradigms": [],
+      "footnotes": [],
+      "seeAlso": [
+        "noun-definite"
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Wikipedia contributors, \"Bengali grammar\", *Wikipedia*, retrieved 13 August 2026.",
+          "url": "https://en.wikipedia.org/wiki/Bengali_grammar",
+          "licence": "CC BY-SA 4.0"
+        }
+      ],
+      "core": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "lemma": "ছেলে",
+      "gloss": "boy; son",
+      "pos": "noun",
+      "forms": {
+        "nom": "ছেলে",
+        "gen": "ছেলের",
+        "translit": "chele",
+        "class": "human"
+      }
+    },
+    {
+      "lemma": "মেয়ে",
+      "gloss": "girl; daughter",
+      "pos": "noun",
+      "forms": {
+        "nom": "মেয়ে",
+        "gen": "মেয়ের",
+        "translit": "meẏe",
+        "class": "human"
+      }
+    },
+    {
+      "lemma": "ছাত্র",
+      "gloss": "student",
+      "pos": "noun",
+      "forms": {
+        "nom": "ছাত্র",
+        "gen": "ছাত্রের",
+        "translit": "chatro",
+        "class": "human"
+      }
+    },
+    {
+      "lemma": "মানুষ",
+      "gloss": "person; human being",
+      "pos": "noun",
+      "forms": {
+        "nom": "মানুষ",
+        "gen": "মানুষের",
+        "translit": "manuś",
+        "class": "human"
+      }
+    },
+    {
+      "lemma": "জুতা",
+      "gloss": "shoe",
+      "pos": "noun",
+      "forms": {
+        "nom": "জুতা",
+        "gen": "জুতার",
+        "translit": "juta",
+        "class": "inanimate"
+      }
+    },
+    {
+      "lemma": "মা",
+      "gloss": "mother",
+      "pos": "noun",
+      "forms": {
+        "nom": "মা",
+        "gen": "মার",
+        "translit": "ma",
+        "class": "human"
+      }
+    },
+    {
+      "lemma": "বাবা",
+      "gloss": "father",
+      "pos": "noun",
+      "forms": {
+        "nom": "বাবা",
+        "gen": "বাবার",
+        "translit": "baba",
+        "class": "human"
+      }
+    },
+    {
+      "lemma": "কुकুর",
+      "gloss": "dog",
+      "pos": "noun",
+      "forms": {
+        "nom": "কুকুর",
+        "gen": "কুকুরের",
+        "translit": "kukur",
+        "class": "animate-nonhuman"
+      }
+    },
+    {
+      "lemma": "কলকাতা",
+      "gloss": "Kolkata",
+      "pos": "noun",
+      "forms": {
+        "nom": "কলকাতা",
+        "gen": "কলকাতার",
+        "translit": "kolkata",
+        "class": "inanimate"
+      }
+    },
+    {
+      "lemma": "জন",
+      "gloss": "measure word for humans",
+      "pos": "noun",
+      "forms": {
+        "translit": "jon",
+        "class": "measure"
+      }
+    }
+  ],
+  "drills": [
+    {
+      "id": "bn401-q1",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "What is the genitive of **মাংস**?",
+      "options": [
+        "মাংসের",
+        "মাংসর",
+        "মাংসকে",
+        "মাংসে"
+      ],
+      "correct": 0,
+      "explanation": "After a consonant/inherent অ the genitive is -ের.",
+      "rulesTested": [
+        "noun-genitive"
+      ],
+      "vocabUsed": [
+        "মাংস"
+      ],
+      "scriptCritical": true
+    },
+    {
+      "id": "bn401-q2",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "What is the genitive of **ছেলে**?",
+      "options": [
+        "ছেলের",
+        "ছেলেের",
+        "ছেলেকে",
+        "ছেলেতে"
+      ],
+      "correct": 0,
+      "explanation": "After a vowel other than inherent অ the genitive is -র.",
+      "rulesTested": [
+        "noun-genitive"
+      ],
+      "vocabUsed": [
+        "ছেলে"
+      ],
+      "scriptCritical": true
+    },
+    {
+      "id": "bn401-q3",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Which object form is unmarked?",
+      "options": [
+        "বই as object",
+        "ছেলেকে",
+        "মাকে",
+        "ছাত্রটাকে"
+      ],
+      "correct": 0,
+      "explanation": "Inanimates do not take -কে; humans do.",
+      "rulesTested": [
+        "noun-objective",
+        "noun-animacy"
+      ],
+      "vocabUsed": [
+        "বই",
+        "ছেলে"
+      ],
+      "scriptCritical": true
+    },
+    {
+      "id": "bn401-q4",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Which locative is regular for **ঘর**?",
+      "options": [
+        "ঘরে",
+        "ঘরতে",
+        "ঘরেয়",
+        "ঘরকে"
+      ],
+      "correct": 0,
+      "explanation": "After inherent অ / consonant the locative is -ে.",
+      "rulesTested": [
+        "noun-locative"
+      ],
+      "vocabUsed": [
+        "ঘর"
+      ],
+      "scriptCritical": true
+    },
+    {
+      "id": "bn401-q5",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "কলকাতা in the locative is commonly written how?",
+      "options": [
+        "কলকাতায়",
+        "কলকাতাে",
+        "কলকাতাকে",
+        "কলকাতার"
+      ],
+      "correct": 0,
+      "explanation": "Nouns in -া often take -য় in the locative.",
+      "rulesTested": [
+        "noun-locative"
+      ],
+      "vocabUsed": [
+        "কলকাতা"
+      ],
+      "scriptCritical": true
+    },
+    {
+      "id": "bn401-q6",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Which is the colloquial singular definite of **বই**?",
+      "options": [
+        "বইটা",
+        "বইরা",
+        "বইগুলো",
+        "বইকে"
+      ],
+      "correct": 0,
+      "explanation": "-টা marks singular definite; -গুলো is plural; -রা is for humans.",
+      "rulesTested": [
+        "noun-definite"
+      ],
+      "vocabUsed": [
+        "বই"
+      ],
+      "scriptCritical": true
+    },
+    {
+      "id": "bn401-q7",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Which plural definite fits **ছেলে**?",
+      "options": [
+        "ছেলেরা",
+        "ছেলেগুলো",
+        "ছেলেটা",
+        "ছেলেতে"
+      ],
+      "correct": 0,
+      "explanation": "Humans commonly take -রা in the plural definite.",
+      "rulesTested": [
+        "noun-definite",
+        "noun-animacy"
+      ],
+      "vocabUsed": [
+        "ছেলে"
+      ],
+      "scriptCritical": true
+    },
+    {
+      "id": "bn401-q8",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "In **ছাত্রটিকে**, which comes first?",
+      "options": [
+        "the definite article, then the case ending",
+        "the case ending, then the article",
+        "only the case ending",
+        "only the article"
+      ],
+      "correct": 0,
+      "explanation": "Article before case: ছাত্র + টি + কে.",
+      "rulesTested": [
+        "noun-case-order"
+      ],
+      "vocabUsed": [
+        "ছাত্র"
+      ],
+      "scriptCritical": true
+    },
+    {
+      "id": "bn401-q9",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which genitives are correctly formed?",
+      "options": [
+        "নদীর",
+        "বাড়ির",
+        "মাংসের",
+        "ছেলেের"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "নদী/বাড়ি take -র; মাংস takes -ের. ছেলেের doubles the vowel wrongly; ছেলের is right.",
+      "rulesTested": [
+        "noun-genitive"
+      ],
+      "vocabUsed": [
+        "নদী",
+        "বাড়ি",
+        "মাংস",
+        "ছেলে"
+      ],
+      "scriptCritical": true
+    },
+    {
+      "id": "bn401-q10",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which statements follow the animacy rules?",
+      "options": [
+        "ছেলেকে is a normal objective",
+        "বইকে is not used for an inanimate object",
+        "জুতাগুলোতে is a locative plural",
+        "মানুষে is the ordinary locative of a human"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Humans take -কে; inanimates do not; locative fits things, not humans in the ordinary paradigm.",
+      "rulesTested": [
+        "noun-animacy",
+        "noun-objective",
+        "noun-locative"
+      ],
+      "vocabUsed": [
+        "ছেলে",
+        "বই",
+        "জুতা",
+        "মানুষ"
+      ],
+      "scriptCritical": true
+    },
+    {
+      "id": "bn401-q11",
+      "type": "integer",
+      "difficulty": "easy",
+      "stem": "How many animacy classes does Beames distinguish for declension?",
+      "answer": 3,
+      "explanation": "Human, other living, and inanimate.",
+      "rulesTested": [
+        "noun-animacy"
+      ],
+      "vocabUsed": [],
+      "scriptCritical": false
+    },
+    {
+      "id": "bn401-q12",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match each form to its case.",
+      "columnI": [
+        "ছেলের",
+        "ছেলেকে",
+        "ঘরে",
+        "বইটা"
+      ],
+      "columnII": [
+        "objective",
+        "genitive",
+        "locative",
+        "nominative definite"
+      ],
+      "options": [
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          2
+        ],
+        [
+          1,
+          2,
+          0,
+          3
+        ],
+        [
+          3,
+          0,
+          2,
+          1
+        ]
+      ],
+      "correct": 0,
+      "explanation": "Genitive -র/-ের, objective -কে, locative -ে, definite -টা.",
+      "rulesTested": [
+        "noun-genitive",
+        "noun-objective",
+        "noun-locative",
+        "noun-definite"
+      ],
+      "vocabUsed": [
+        "ছেলে",
+        "ঘর",
+        "বই"
+      ],
+      "scriptCritical": true,
+      "columnHeadings": [
+        "Item",
+        "Label"
+      ]
+    },
+    {
+      "id": "bn401-q13",
+      "type": "matching",
+      "difficulty": "hard",
+      "stem": "Match each counted phrase to the measure pattern.",
+      "columnI": [
+        "একটা বই",
+        "দুইজন মানুষ",
+        "বইগুলো",
+        "ছেলেরা"
+      ],
+      "columnII": [
+        "human plural definite",
+        "general MW + noun",
+        "human MW + noun",
+        "inanimate plural definite"
+      ],
+      "options": [
+        [
+          1,
+          2,
+          3,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          3
+        ],
+        [
+          1,
+          3,
+          2,
+          0
+        ],
+        [
+          3,
+          2,
+          1,
+          0
+        ]
+      ],
+      "correct": 0,
+      "explanation": "টা is the general measure; জন counts humans; গুলো/রা are definite plurals.",
+      "rulesTested": [
+        "noun-measure",
+        "noun-definite"
+      ],
+      "vocabUsed": [
+        "বই",
+        "মানুষ",
+        "ছেলে",
+        "জন"
+      ],
+      "scriptCritical": true,
+      "columnHeadings": [
+        "Item",
+        "Label"
+      ]
+    },
+    {
+      "id": "bn401-q14",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Which form is the genitive definite singular of **জুতা**?",
+      "options": [
+        "জুতাটার",
+        "জুতারটা",
+        "জুতাটাকে",
+        "জুতাগুলো"
+      ],
+      "correct": 0,
+      "explanation": "Article then case: জুতা + টা + র.",
+      "rulesTested": [
+        "noun-case-order",
+        "noun-genitive"
+      ],
+      "vocabUsed": [
+        "জুতা"
+      ],
+      "scriptCritical": true
+    },
+    {
+      "id": "bn401-q15",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "দুইজন মানুষ uses জন because the noun is what?",
+      "options": [
+        "human",
+        "inanimate",
+        "a place name",
+        "a measure word itself"
+      ],
+      "correct": 0,
+      "explanation": "জন is the measure for counting humans.",
+      "rulesTested": [
+        "noun-measure",
+        "noun-animacy"
+      ],
+      "vocabUsed": [
+        "জন",
+        "মানুষ"
+      ],
+      "scriptCritical": true
+    },
+    {
+      "id": "bn401-q16",
+      "type": "integer",
+      "difficulty": "medium",
+      "stem": "Which numbered rule states that the definite article precedes the case ending?",
+      "answer": 33,
+      "explanation": "¶33, Article Before Case.",
+      "rulesTested": [
+        "noun-case-order"
+      ],
+      "vocabUsed": [
+        "ছাত্র"
+      ],
+      "scriptCritical": false
+    },
+    {
+      "id": "bn401-p1",
+      "type": "comprehension",
+      "difficulty": "hard",
+      "passage": "বাবাঃ ছেলেকে বইটা দাও।\nমাঃ কোন বইটা?\nবাবাঃ নদীর কাছের বাড়ির বইটা।\nমাঃ ওটা জুতাগুলোর কাছে আছে।",
+      "romanization": "Baba: cheleke boiṭa dao.\nMa: kon boiṭa?\nBaba: nodir kācher baṛir boiṭa.\nMa: oṭa jutagulor kāche āche.",
+      "translation": "Father: Give the boy the book.\nMother: Which book?\nFather: The book from the house near the river.\nMother: It is near the shoes.",
+      "glossary": {
+        "দাও": "give (familiar imperative)",
+        "কোন": "which",
+        "কাছের": "nearby (genitive of কাছে)",
+        "ওটা": "that one"
+      },
+      "scriptCritical": false,
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course.",
+          "note": "Case endings follow Wikipedia Bengali grammar and Beames."
+        }
+      ],
+      "questions": [
+        {
+          "id": "bn401-p1q1",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "বাবা কাকে বইটা দিতে বলেন?",
+          "options": [
+            "ছেলেকে",
+            "মাকে",
+            "কুকুরকে",
+            "ছাত্রকে"
+          ],
+          "correct": 0,
+          "explanation": "The objective ছেলেকে marks the human recipient.",
+          "rulesTested": [
+            "noun-objective"
+          ],
+          "vocabUsed": [
+            "ছেলে",
+            "বই"
+          ],
+          "scriptCritical": true
+        },
+        {
+          "id": "bn401-p1q2",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "বইটা কোন বাড়ির?",
+          "options": [
+            "নদীর কাছের বাড়ির",
+            "কলকাতার",
+            "মায়ের",
+            "ছাত্রের"
+          ],
+          "correct": 0,
+          "explanation": "বাবা specifies the house near the river.",
+          "rulesTested": [
+            "noun-genitive",
+            "noun-locative"
+          ],
+          "vocabUsed": [
+            "নদী",
+            "বাড়ি",
+            "বই"
+          ],
+          "scriptCritical": true
+        },
+        {
+          "id": "bn401-p1q3",
+          "type": "single",
+          "difficulty": "hard",
+          "stem": "জুতাগুলোর is which case?",
+          "options": [
+            "genitive plural definite",
+            "objective singular",
+            "locative singular",
+            "nominative indefinite"
+          ],
+          "correct": 0,
+          "explanation": "গুলো + র = definite plural genitive.",
+          "rulesTested": [
+            "noun-case-order",
+            "noun-genitive",
+            "noun-definite"
+          ],
+          "vocabUsed": [
+            "জুতা"
+          ],
+          "scriptCritical": true
+        }
+      ],
+      "title": "The book by the river"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Beames, John, *Grammar of the Bengali Language Literary and Colloquial*, Clarendon Press, Oxford, 1891.",
+      "url": "https://archive.org/details/grammarofbengali00beamrich",
+      "licence": "Public domain",
+      "note": "Open scan on the Internet Archive."
+    },
+    {
+      "kind": "grammar",
+      "citation": "Wikipedia contributors, \"Bengali grammar\", *Wikipedia*, retrieved 13 August 2026.",
+      "url": "https://en.wikipedia.org/wiki/Bengali_grammar",
+      "licence": "CC BY-SA 4.0"
+    },
+    {
+      "kind": "dictionary",
+      "citation": "English Wiktionary entries for Bengali lemmas (WT:BN TR transliteration), retrieved 13 August 2026.",
+      "url": "https://en.wiktionary.org/",
+      "licence": "CC BY-SA 4.0",
+      "note": "Transliterations follow Wiktionary's Bengali romanization module (CLAUDE.md §14)."
+    }
+  ]
+}

@@ -1138,7 +1138,7 @@
       "id": "bn101-q19",
       "type": "single",
       "difficulty": "hard",
-      "stem": "মৃত and শর্ত both sound their final অ. What have they in common?",
+      "stem": "মৃত and গর্ভ both sound their final অ. What have they in common?",
       "options": [
         "they are derived from Sanskrit",
         "they are imperatives",
@@ -1146,13 +1146,13 @@
         "they end in a কার"
       ],
       "correct": 0,
-      "explanation": "Both are derived from Sanskrit — মৃত a participle, শর্ত a noun — and words of that origin sound the final অ.",
+      "explanation": "Both are derived from Sanskrit — মৃত a participle, গর্ভ a noun — and words of that origin sound the final অ.",
       "rulesTested": [
         "sanskrit-final-o"
       ],
       "vocabUsed": [
         "মৃত",
-        "শর্ত"
+        "গর্ভ"
       ],
       "scriptCritical": true
     },

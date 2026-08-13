@@ -318,3 +318,42 @@ is two citations that happen to be adjacent, not a two-word phrase; merging
 them would print *అక్కా, తండ్రి (akkā, taṇḍri)* and read as though the whole
 parenthesis belonged to the second word. A bare comma still joins, so
 `రాము, నేను వస్తాను` stays one sentence.
+
+## 14. Some scripts get their romanization from a source, not the generator
+
+The derived reading of §8 and §12 is a character machine: `lib/translit.ts`
+walks the target script and supplies the vowels an abugida leaves implicit.
+That works for Telugu, where the inherent vowel is pronounced wherever it is
+written, and it does not work for a language whose orthography and pronunciation
+have come apart. Bengali is the case in hand: the inherent vowel is read *o*
+rather than *a* and is dropped at the end of most words, য় and ব behave
+differently in clusters than in isolation, and a generated table produces
+readings — *āpela* for আপেল, *mana* for মন — that no Bengali speaker would
+recognise. A reading that misleads is worse than no reading, because the learner
+cannot tell which of the two they are looking at.
+
+So a course whose script the generator does not handle **does not rely on the
+derived reading**. Its romanizations are authored into the content — `translit`
+in a `forms` block, the parenthesised reading after a sentence,
+`ComprehensionDrill.romanization` for a passage — and every one of them comes
+from a source:
+
+- **Wiktionary** first, which gives Bengali entries a transliteration and an IPA
+  pronunciation; take the transliteration, in the scheme the course declares in
+  `Course.transliteration.scheme`.
+- Failing that, any open, publicly reachable source that romanizes the form: a
+  dictionary, a grammar, a language-institute or public-broadcaster wordlist, a
+  Wikipedia article that gives the transliteration alongside the script. If a
+  Google search cannot reach it, it cannot be cited, and §1 applies to these
+  sources like any other — name them in the page footer.
+
+Do not romanize by applying a letter table yourself, and do not extend
+`lib/translit.ts` with a table for such a script: a per-character mapping is the
+thing that is wrong here, not the thing that is missing. Where no source gives a
+reading for a form, use a form that has one.
+
+The rest of the romanization rules are unchanged for these courses. The reading
+still follows the whole sentence rather than each word (§12), a passage still
+carries its reading as a parallel block rather than inline, and a question that
+asks the learner to read a glyph still sets `scriptCritical` and shows no reading
+at all (§8).

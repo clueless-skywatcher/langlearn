@@ -3,9 +3,9 @@
   "langCode": "bn",
   "name": "বাংলা",
   "englishName": "Bengali",
-  "description": "TODO — course description. Shown on the course index.",
+  "description": "Bengali from the script up: vowels and consonants, যুক্তাক্ষর, noun case and animacy, pronouns and the three grades of address, and the present-tense verb.",
   "direction": "ltr",
-  "attribution": "TODO — name the grammar this exposition follows and the transliteration scheme, in the manner of the Telugu pack's attribution.",
+  "attribution": "Script exposition follows Wikipedia “Bengali alphabet” (CC BY-SA) and Beames, *Grammar of the Bengali Language Literary and Colloquial* (Clarendon Press, 1891; public domain). Noun and verb morphology follows Wikipedia “Bengali grammar” (CC BY-SA) and Beames. Transliterations of vocabulary and example sentences are taken from English Wiktionary (WT:BN TR) where available; letter-table names use Wikipedia’s ô-for-inherent-অ notation. Readings are authored into the content rather than derived from a character table (see course authoring §14).",
   "levels": [
     "A1",
     "A2",
@@ -73,7 +73,7 @@
     ]
   },
   "transliteration": {
-    "scheme": "ISO 15919",
+    "scheme": "Wiktionary WT:BN TR (letter names also cited with Wikipedia ô)",
     "required": true
   }
 }
