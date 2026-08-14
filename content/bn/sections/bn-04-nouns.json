@@ -2,7 +2,7 @@
   "id": "bn-04",
   "kind": "lesson",
   "level": "A1",
-  "order": 4,
+  "order": 5,
   "title": "Nouns — Case and Animacy",
   "summary": "How Bengali nouns take genitive, objective and locative endings, and how animacy decides which endings are available; the definite articles টা/টি, গুলো and রা.",
   "rules": [
@@ -454,12 +454,12 @@
       "id": "bn401-q1",
       "type": "single",
       "difficulty": "easy",
-      "stem": "What is the genitive of **মাংস**?",
+      "stem": "What is the genitive of **মাংস** (maṅśo)?",
       "options": [
-        "মাংসের",
-        "মাংসর",
-        "মাংসকে",
-        "মাংসে"
+        "মাংসের (maṅśer)",
+        "মাংসর (maṅśor)",
+        "মাংসকে (maṅśoke)",
+        "মাংসে (maṅśe)"
       ],
       "correct": 0,
       "explanation": "After a consonant/inherent অ the genitive is -ের.",
@@ -469,18 +469,18 @@
       "vocabUsed": [
         "মাংস"
       ],
-      "scriptCritical": true
+      "scriptCritical": false
     },
     {
       "id": "bn401-q2",
       "type": "single",
       "difficulty": "easy",
-      "stem": "What is the genitive of **ছেলে**?",
+      "stem": "What is the genitive of **ছেলে** (chele)?",
       "options": [
-        "ছেলের",
-        "ছেলেের",
-        "ছেলেকে",
-        "ছেলেতে"
+        "ছেলের (cheler)",
+        "ছেলেের (cheleer)",
+        "ছেলেকে (cheleke)",
+        "ছেলেতে (chelete)"
       ],
       "correct": 0,
       "explanation": "After a vowel other than inherent অ the genitive is -র.",
@@ -490,7 +490,7 @@
       "vocabUsed": [
         "ছেলে"
       ],
-      "scriptCritical": true
+      "scriptCritical": false
     },
     {
       "id": "bn401-q3",
@@ -498,10 +498,10 @@
       "difficulty": "medium",
       "stem": "Which object form is unmarked?",
       "options": [
-        "বই as object",
-        "ছেলেকে",
-        "মাকে",
-        "ছাত্রটাকে"
+        "**বই** (boi) as object",
+        "**ছেলেকে** (cheleke)",
+        "**মাকে** (make)",
+        "**ছাত্রটাকে** (chatroṭake)"
       ],
       "correct": 0,
       "explanation": "Inanimates do not take -কে; humans do.",
@@ -513,18 +513,18 @@
         "বই",
         "ছেলে"
       ],
-      "scriptCritical": true
+      "scriptCritical": false
     },
     {
       "id": "bn401-q4",
       "type": "single",
       "difficulty": "medium",
-      "stem": "Which locative is regular for **ঘর**?",
+      "stem": "Which locative is regular for **ঘর** (ghor)?",
       "options": [
-        "ঘরে",
-        "ঘরতে",
-        "ঘরেয়",
-        "ঘরকে"
+        "ঘরে (ghore)",
+        "ঘরতে (ghorte)",
+        "ঘরেয় (ghoreẏ)",
+        "ঘরকে (ghorke)"
       ],
       "correct": 0,
       "explanation": "After inherent অ / consonant the locative is -ে.",
@@ -534,18 +534,18 @@
       "vocabUsed": [
         "ঘর"
       ],
-      "scriptCritical": true
+      "scriptCritical": false
     },
     {
       "id": "bn401-q5",
       "type": "single",
       "difficulty": "medium",
-      "stem": "কলকাতা in the locative is commonly written how?",
+      "stem": "**কলকাতা** (kolkata) in the locative is commonly written how?",
       "options": [
-        "কলকাতায়",
-        "কলকাতাে",
-        "কলকাতাকে",
-        "কলকাতার"
+        "কলকাতায় (kolkatay)",
+        "কলকাতাে (kolkatae)",
+        "কলকাতাকে (kolkatake)",
+        "কলকাতার (kolkatar)"
       ],
       "correct": 0,
       "explanation": "Nouns in -া often take -য় in the locative.",
@@ -555,18 +555,18 @@
       "vocabUsed": [
         "কলকাতা"
       ],
-      "scriptCritical": true
+      "scriptCritical": false
     },
     {
       "id": "bn401-q6",
       "type": "single",
       "difficulty": "easy",
-      "stem": "Which is the colloquial singular definite of **বই**?",
+      "stem": "Which is the colloquial singular definite of **বই** (boi)?",
       "options": [
-        "বইটা",
-        "বইরা",
-        "বইগুলো",
-        "বইকে"
+        "বইটা (boiṭa)",
+        "বইরা (boira)",
+        "বইগুলো (boigulo)",
+        "বইকে (boike)"
       ],
       "correct": 0,
       "explanation": "-টা marks singular definite; -গুলো is plural; -রা is for humans.",
@@ -576,18 +576,18 @@
       "vocabUsed": [
         "বই"
       ],
-      "scriptCritical": true
+      "scriptCritical": false
     },
     {
       "id": "bn401-q7",
       "type": "single",
       "difficulty": "medium",
-      "stem": "Which plural definite fits **ছেলে**?",
+      "stem": "Which plural definite fits **ছেলে** (chele)?",
       "options": [
-        "ছেলেরা",
-        "ছেলেগুলো",
-        "ছেলেটা",
-        "ছেলেতে"
+        "ছেলেরা (chelera)",
+        "ছেলেগুলো (chelegulo)",
+        "ছেলেটা (cheleṭa)",
+        "ছেলেতে (chelete)"
       ],
       "correct": 0,
       "explanation": "Humans commonly take -রা in the plural definite.",
@@ -598,13 +598,13 @@
       "vocabUsed": [
         "ছেলে"
       ],
-      "scriptCritical": true
+      "scriptCritical": false
     },
     {
       "id": "bn401-q8",
       "type": "single",
       "difficulty": "hard",
-      "stem": "In **ছাত্রটিকে**, which comes first?",
+      "stem": "In **ছাত্রটিকে** (chatroṭike), which comes first?",
       "options": [
         "the definite article, then the case ending",
         "the case ending, then the article",
@@ -619,7 +619,7 @@
       "vocabUsed": [
         "ছাত্র"
       ],
-      "scriptCritical": true
+      "scriptCritical": false
     },
     {
       "id": "bn401-q9",
@@ -627,10 +627,10 @@
       "difficulty": "medium",
       "stem": "Which genitives are correctly formed?",
       "options": [
-        "নদীর",
-        "বাড়ির",
-        "মাংসের",
-        "ছেলেের"
+        "নদীর (nodir)",
+        "বাড়ির (baṛir)",
+        "মাংসের (maṅśer)",
+        "ছেলেের (cheleer)"
       ],
       "correct": [
         0,
@@ -647,7 +647,7 @@
         "মাংস",
         "ছেলে"
       ],
-      "scriptCritical": true
+      "scriptCritical": false
     },
     {
       "id": "bn401-q10",
@@ -655,10 +655,10 @@
       "difficulty": "hard",
       "stem": "Which statements follow the animacy rules?",
       "options": [
-        "ছেলেকে is a normal objective",
-        "বইকে is not used for an inanimate object",
-        "জুতাগুলোতে is a locative plural",
-        "মানুষে is the ordinary locative of a human"
+        "**ছেলেকে** (cheleke) is a normal objective",
+        "**বইকে** (boike) is not used for an inanimate object",
+        "**জুতাগুলোতে** (jutagulote) is a locative plural",
+        "**মানুষে** (manuśe) is the ordinary locative of a human"
       ],
       "correct": [
         0,
@@ -677,7 +677,7 @@
         "জুতা",
         "মানুষ"
       ],
-      "scriptCritical": true
+      "scriptCritical": false
     },
     {
       "id": "bn401-q11",
@@ -698,10 +698,10 @@
       "difficulty": "medium",
       "stem": "Match each form to its case.",
       "columnI": [
-        "ছেলের",
-        "ছেলেকে",
-        "ঘরে",
-        "বইটা"
+        "ছেলের (cheler)",
+        "ছেলেকে (cheleke)",
+        "ঘরে (ghore)",
+        "বইটা (boiṭa)"
       ],
       "columnII": [
         "objective",
@@ -748,7 +748,7 @@
         "ঘর",
         "বই"
       ],
-      "scriptCritical": true,
+      "scriptCritical": false,
       "columnHeadings": [
         "Item",
         "Label"
@@ -760,10 +760,10 @@
       "difficulty": "hard",
       "stem": "Match each counted phrase to the measure pattern.",
       "columnI": [
-        "একটা বই",
-        "দুইজন মানুষ",
-        "বইগুলো",
-        "ছেলেরা"
+        "একটা বই (êkṭa boi)",
+        "দুইজন মানুষ (duijon manuś)",
+        "বইগুলো (boigulo)",
+        "ছেলেরা (chelera)"
       ],
       "columnII": [
         "human plural definite",
@@ -809,7 +809,7 @@
         "ছেলে",
         "জন"
       ],
-      "scriptCritical": true,
+      "scriptCritical": false,
       "columnHeadings": [
         "Item",
         "Label"
@@ -819,12 +819,12 @@
       "id": "bn401-q14",
       "type": "single",
       "difficulty": "hard",
-      "stem": "Which form is the genitive definite singular of **জুতা**?",
+      "stem": "Which form is the genitive definite singular of **জুতা** (juta)?",
       "options": [
-        "জুতাটার",
-        "জুতারটা",
-        "জুতাটাকে",
-        "জুতাগুলো"
+        "জুতাটার (jutaṭar)",
+        "জুতারটা (jutarṭa)",
+        "জুতাটাকে (jutaṭake)",
+        "জুতাগুলো (jutagulo)"
       ],
       "correct": 0,
       "explanation": "Article then case: জুতা + টা + র.",
@@ -835,13 +835,13 @@
       "vocabUsed": [
         "জুতা"
       ],
-      "scriptCritical": true
+      "scriptCritical": false
     },
     {
       "id": "bn401-q15",
       "type": "single",
       "difficulty": "hard",
-      "stem": "দুইজন মানুষ uses জন because the noun is what?",
+      "stem": "**দুইজন মানুষ** (duijon manuś) uses **জন** (jon) because the noun is what?",
       "options": [
         "human",
         "inanimate",
@@ -858,7 +858,7 @@
         "জন",
         "মানুষ"
       ],
-      "scriptCritical": true
+      "scriptCritical": false
     },
     {
       "id": "bn401-q16",
@@ -901,12 +901,12 @@
           "id": "bn401-p1q1",
           "type": "single",
           "difficulty": "easy",
-          "stem": "বাবা কাকে বইটা দিতে বলেন?",
+          "stem": "**বাবা কাকে বইটা দিতে বলেন** (baba kake boiṭa dite bolen)?",
           "options": [
-            "ছেলেকে",
-            "মাকে",
-            "কুকুরকে",
-            "ছাত্রকে"
+            "ছেলেকে (cheleke)",
+            "মাকে (make)",
+            "কুকুরকে (kukurke)",
+            "ছাত্রকে (chatroke)"
           ],
           "correct": 0,
           "explanation": "The objective ছেলেকে marks the human recipient.",
@@ -917,18 +917,18 @@
             "ছেলে",
             "বই"
           ],
-          "scriptCritical": true
+          "scriptCritical": false
         },
         {
           "id": "bn401-p1q2",
           "type": "single",
           "difficulty": "medium",
-          "stem": "বইটা কোন বাড়ির?",
+          "stem": "**বইটা কোন বাড়ির** (boiṭa kon baṛir)?",
           "options": [
-            "নদীর কাছের বাড়ির",
-            "কলকাতার",
-            "মায়ের",
-            "ছাত্রের"
+            "নদীর কাছের বাড়ির (nodir kācher baṛir)",
+            "কলকাতার (kolkatar)",
+            "মায়ের (maẏer)",
+            "ছাত্রের (chatrer)"
           ],
           "correct": 0,
           "explanation": "বাবা specifies the house near the river.",
@@ -941,13 +941,13 @@
             "বাড়ি",
             "বই"
           ],
-          "scriptCritical": true
+          "scriptCritical": false
         },
         {
           "id": "bn401-p1q3",
           "type": "single",
           "difficulty": "hard",
-          "stem": "জুতাগুলোর is which case?",
+          "stem": "**জুতাগুলোর** (jutagulor) is which case?",
           "options": [
             "genitive plural definite",
             "objective singular",
@@ -964,7 +964,7 @@
           "vocabUsed": [
             "জুতা"
           ],
-          "scriptCritical": true
+          "scriptCritical": false
         }
       ],
       "title": "The book by the river"

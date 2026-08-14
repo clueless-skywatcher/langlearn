@@ -2,7 +2,7 @@
   "id": "bn-06",
   "kind": "lesson",
   "level": "A1",
-  "order": 6,
+  "order": 7,
   "title": "Verbs — Present and Negation",
   "summary": "The verbal noun, simple-present endings locked to the three address grades and the third-person forms, vowel harmony, existential আছে, negation with না, and SOV order.",
   "rules": [
@@ -432,7 +432,7 @@
       "id": "bn601-q1",
       "type": "single",
       "difficulty": "easy",
-      "stem": "Dictionaries cite করা as what form?",
+      "stem": "Dictionaries cite **করা** (kora) as what form?",
       "options": [
         "the verbal noun",
         "the simple-present 1st person",
@@ -447,18 +447,18 @@
       "vocabUsed": [
         "করা"
       ],
-      "scriptCritical": true
+      "scriptCritical": false
     },
     {
       "id": "bn601-q2",
       "type": "single",
       "difficulty": "easy",
-      "stem": "What is the first-person simple present of করা?",
+      "stem": "What is the first-person simple present of **করা** (kora)?",
       "options": [
-        "করি",
-        "করো",
-        "করে",
-        "করেন"
+        "করি (kori)",
+        "করো (koro)",
+        "করে (kore)",
+        "করেন (koren)"
       ],
       "correct": 0,
       "explanation": "1st person takes -ি: করি.",
@@ -469,18 +469,18 @@
         "করা",
         "আমি"
       ],
-      "scriptCritical": true
+      "scriptCritical": false
     },
     {
       "id": "bn601-q3",
       "type": "single",
       "difficulty": "medium",
-      "stem": "তুমি ______। (করা, simple present)",
+      "stem": "**তুমি** (tumi) ______। — simple present of **করা** (kora)",
       "options": [
-        "করো",
-        "করি",
-        "করে",
-        "করিস"
+        "করো (koro)",
+        "করি (kori)",
+        "করে (kore)",
+        "করিস (koris)"
       ],
       "correct": 0,
       "explanation": "Familiar তুমি takes -ো: করো. করিস is the তুই (VF) ending.",
@@ -493,18 +493,18 @@
         "করা",
         "তুমি"
       ],
-      "scriptCritical": true
+      "scriptCritical": false
     },
     {
       "id": "bn601-q4",
       "type": "single",
       "difficulty": "medium",
-      "stem": "আপনি ______। (করা)",
+      "stem": "**আপনি** (apni) ______। — simple present of **করা** (kora)",
       "options": [
-        "করেন",
-        "করো",
-        "করে",
-        "করি"
+        "করেন (koren)",
+        "করো (koro)",
+        "করে (kore)",
+        "করি (kori)"
       ],
       "correct": 0,
       "explanation": "Polite আপনি shares -েন with তিনি.",
@@ -517,18 +517,18 @@
         "করা",
         "আপনি"
       ],
-      "scriptCritical": true
+      "scriptCritical": false
     },
     {
       "id": "bn601-q5",
       "type": "single",
       "difficulty": "medium",
-      "stem": "আমি ______। (লেখা)",
+      "stem": "**আমি** (ami) ______। — simple present of **লেখা** (lekha)",
       "options": [
-        "লিখি",
-        "লেখি",
-        "লেখো",
-        "লেখেন"
+        "লিখি (likhi)",
+        "লেখি (lekhi)",
+        "লেখো (lekho)",
+        "লেখেন (lekhen)"
       ],
       "correct": 0,
       "explanation": "First person raises e→i: লিখি, not লেখি.",
@@ -540,7 +540,7 @@
         "লেখা",
         "আমি"
       ],
-      "scriptCritical": true
+      "scriptCritical": false
     },
     {
       "id": "bn601-q6",
@@ -548,10 +548,10 @@
       "difficulty": "easy",
       "stem": "How is 'I have a book' built?",
       "options": [
-        "আমার একটি বই আছে",
-        "আমি একটি বই আছি",
-        "আমি একটি বই করি",
-        "বই আমাকে আছে"
+        "আমার একটি বই আছে (amar êkṭi boi ache)",
+        "আমি একটি বই আছি (ami êkṭi boi achi)",
+        "আমি একটি বই করি (ami êkṭi boi kori)",
+        "বই আমাকে আছে (boi amake ache)"
       ],
       "correct": 0,
       "explanation": "Possessor in the genitive + আছে.",
@@ -564,18 +564,18 @@
         "আমি",
         "বই"
       ],
-      "scriptCritical": true
+      "scriptCritical": false
     },
     {
       "id": "bn601-q7",
       "type": "single",
       "difficulty": "easy",
-      "stem": "Negate আমি যাই.",
+      "stem": "Negate **আমি যাই** (ami jai).",
       "options": [
-        "আমি যাই না",
-        "আমি না যাই",
-        "আমি যাইনি করি",
-        "আমি যাওয়া না"
+        "আমি যাই না (ami jai na)",
+        "আমি না যাই (ami na jai)",
+        "আমি যাইনি করি (ami jaini kori)",
+        "আমি যাওয়া না (ami jaowa na)"
       ],
       "correct": 0,
       "explanation": "না follows the finite verb in the simple present.",
@@ -587,7 +587,7 @@
         "না",
         "আমি"
       ],
-      "scriptCritical": true
+      "scriptCritical": false
     },
     {
       "id": "bn601-q8",
@@ -595,10 +595,10 @@
       "difficulty": "medium",
       "stem": "Which word order is normal?",
       "options": [
-        "আমি বইটা পড়ি",
-        "পড়ি আমি বইটা",
-        "বইটা পড়ি আমি",
-        "আমি পড়ি বইটা"
+        "আমি বইটা পড়ি (ami boiṭa poṛi)",
+        "পড়ি আমি বইটা (poṛi ami boiṭa)",
+        "বইটা পড়ি আমি (boiṭa poṛi ami)",
+        "আমি পড়ি বইটা (ami poṛi boiṭa)"
       ],
       "correct": 0,
       "explanation": "SOV: subject, object, verb at the end.",
@@ -610,18 +610,18 @@
         "বই",
         "পড়া"
       ],
-      "scriptCritical": true
+      "scriptCritical": false
     },
     {
       "id": "bn601-q9",
       "type": "multi",
       "difficulty": "medium",
-      "stem": "Which forms are simple-present forms of করা?",
+      "stem": "Which forms are simple-present forms of **করা** (kora)?",
       "options": [
-        "করি",
-        "করো",
-        "করেন",
-        "করা"
+        "করি (kori)",
+        "করো (koro)",
+        "করেন (koren)",
+        "করা (kora)"
       ],
       "correct": [
         0,
@@ -636,7 +636,7 @@
       "vocabUsed": [
         "করা"
       ],
-      "scriptCritical": true
+      "scriptCritical": false
     },
     {
       "id": "bn601-q10",
@@ -644,10 +644,10 @@
       "difficulty": "hard",
       "stem": "Which sentences are well-formed?",
       "options": [
-        "সে লেখে না",
-        "ঘরে কলম আছে",
-        "আমি লিখি",
-        "তুমি লিখি"
+        "সে লেখে না (se lekhe na)",
+        "ঘরে কলম আছে (ghore kolom ache)",
+        "আমি লিখি (ami likhi)",
+        "তুমি লিখি (tumi likhi)"
       ],
       "correct": [
         0,
@@ -669,7 +669,7 @@
         "তুমি",
         "সে"
       ],
-      "scriptCritical": true
+      "scriptCritical": false
     },
     {
       "id": "bn601-q11",
@@ -689,18 +689,18 @@
       "id": "bn601-q12",
       "type": "matching",
       "difficulty": "medium",
-      "stem": "Match each address pronoun to the present of করা.",
+      "stem": "Match each address pronoun to the present of **করা** (kora).",
       "columnI": [
-        "আমি",
-        "তুই",
-        "তুমি",
-        "আপনি"
+        "আমি (ami)",
+        "তুই (tui)",
+        "তুমি (tumi)",
+        "আপনি (apni)"
       ],
       "columnII": [
-        "করো",
-        "করি",
-        "করেন",
-        "করিস"
+        "করো (koro)",
+        "করি (kori)",
+        "করেন (koren)",
+        "করিস (koris)"
       ],
       "options": [
         [
@@ -742,7 +742,7 @@
         "তুমি",
         "আপনি"
       ],
-      "scriptCritical": true,
+      "scriptCritical": false,
       "columnHeadings": [
         "Pronoun",
         "Form of করা"
@@ -754,16 +754,16 @@
       "difficulty": "hard",
       "stem": "Match each sentence to the rule it most clearly needs.",
       "columnI": [
-        "আমি লিখি",
-        "আমার বই আছে",
-        "আমি যাই না",
-        "আমি বইটা পড়ি"
+        "আমি লিখি (ami likhi)",
+        "আমার বই আছে (amar boi āche)",
+        "আমি যাই না (ami jai na)",
+        "আমি বইটা পড়ি (ami boiṭa poṛi)"
       ],
       "columnII": [
         "SOV order",
         "vowel harmony",
-        "negation with না",
-        "existential আছে"
+        "negation with না (na)",
+        "existential আছে (ache)"
       ],
       "options": [
         [
@@ -808,7 +808,7 @@
         "বই",
         "আমি"
       ],
-      "scriptCritical": true,
+      "scriptCritical": false,
       "columnHeadings": [
         "Item",
         "Label"
@@ -818,12 +818,12 @@
       "id": "bn601-q14",
       "type": "single",
       "difficulty": "hard",
-      "stem": "সে ______ না। (লেখা)",
+      "stem": "**সে** (se) ______ **না** (na)। — simple present of **লেখা** (lekha)",
       "options": [
-        "লেখে",
-        "লিখে",
-        "লেখো",
-        "লিখি"
+        "লেখে (lekhe)",
+        "লিখে (likhe)",
+        "লেখো (lekho)",
+        "লিখি (likhi)"
       ],
       "correct": 0,
       "explanation": "Third familiar is লেখে; না follows. Raising to লিখ- is for the first person (and VF) here.",
@@ -837,7 +837,7 @@
         "না",
         "সে"
       ],
-      "scriptCritical": true
+      "scriptCritical": false
     },
     {
       "id": "bn601-q15",
@@ -845,10 +845,10 @@
       "difficulty": "hard",
       "stem": "Which sentence uses no copula for simple predication?",
       "options": [
-        "রীতা ভালো",
-        "রীতা ভালো আছে as 'Rita is good'",
-        "রীতা ভালো করে for 'Rita is good'",
-        "রীতা ভালো যায়"
+        "**রীতা ভালো** (rita bhalo)",
+        "**রীতা ভালো আছে** (rita bhalo ache) as 'Rita is good'",
+        "**রীতা ভালো করে** (rita bhalo kore) for 'Rita is good'",
+        "**রীতা ভালো যায়** (rita bhalo jay)"
       ],
       "correct": 0,
       "explanation": "Adjective predication in the simple present uses the zero copula; আছে is for existence/location/possession.",
@@ -858,13 +858,13 @@
       "vocabUsed": [
         "ভালো"
       ],
-      "scriptCritical": true
+      "scriptCritical": false
     },
     {
       "id": "bn601-q16",
       "type": "integer",
       "difficulty": "medium",
-      "stem": "Which numbered rule locks আমি, তুই, তুমি, সে, আপনি/তিনি to the five present endings?",
+      "stem": "Which numbered rule locks **আমি** (ami), **তুই** (tui), **তুমি** (tumi), **সে** (se), **আপনি** (apni)/**তিনি** (tini) to the five present endings?",
       "answer": 44,
       "explanation": "¶44, Verb Endings Follow Address.",
       "rulesTested": [
@@ -903,12 +903,12 @@
           "id": "bn601-p1q1",
           "type": "single",
           "difficulty": "easy",
-          "stem": "করিম প্রতিদিন কী করে বলে?",
+          "stem": "**করিম প্রতিদিন কী করে বলে** (korim protidin ki kore bole)?",
           "options": [
-            "পড়ে",
-            "লেখে",
-            "খায়",
-            "যায়"
+            "পড়ে (pôṛe)",
+            "লেখে (lekhe)",
+            "খায় (khay)",
+            "যায় (jay)"
           ],
           "correct": 0,
           "explanation": "He says আমি প্রতিদিন পড়ি.",
@@ -921,18 +921,18 @@
             "পড়া",
             "আমি"
           ],
-          "scriptCritical": true
+          "scriptCritical": false
         },
         {
           "id": "bn601-p1q2",
           "type": "single",
           "difficulty": "medium",
-          "stem": "রীতা করিমকে প্রথমে কোন সম্বোধনে জিজ্ঞাসা করে?",
+          "stem": "**রীতা করিমকে প্রথমে কোন সম্বোধনে জিজ্ঞাসা করে** (rita korimke prothome kon śombodhone jiggaśa kore)?",
           "options": [
-            "আপনি",
-            "তুমি",
-            "তুই",
-            "সে"
+            "আপনি (apni)",
+            "তুমি (tumi)",
+            "তুই (tui)",
+            "সে (se)"
           ],
           "correct": 0,
           "explanation": "She asks আপনি কি বইটা পড়েন — polite address with -েন.",
@@ -945,18 +945,18 @@
             "আপনি",
             "পড়া"
           ],
-          "scriptCritical": true
+          "scriptCritical": false
         },
         {
           "id": "bn601-p1q3",
           "type": "single",
           "difficulty": "hard",
-          "stem": "সোহাকে রীতা কোন সম্বোধনে বলে?",
+          "stem": "**সোহাকে রীতা কোন সম্বোধনে বলে** (sohake rita kon śombodhone bole)?",
           "options": [
-            "তুমি",
-            "আপনি",
-            "তুই",
-            "তিনি"
+            "তুমি (tumi)",
+            "আপনি (apni)",
+            "তুই (tui)",
+            "তিনি (tini)"
           ],
           "correct": 0,
           "explanation": "তুমিও পড়ো — familiar pronoun with -ো.",
@@ -969,7 +969,7 @@
             "তুমি",
             "পড়া"
           ],
-          "scriptCritical": true
+          "scriptCritical": false
         }
       ],
       "title": "Reading and writing"

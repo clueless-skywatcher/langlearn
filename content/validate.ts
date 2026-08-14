@@ -647,9 +647,14 @@ const CONTENT_QUESTION: Record<string, (stem: string) => boolean> = {
   te: (s) =>
     /\?\s*(?:\*\*)?\s*$/.test(s) &&
     /(?:ఎవరు|ఎవరి|ఏమిటి|ఏది|ఏవి|ఎక్కడ|ఎప్పుడు|ఎందుకు|ఎలా|ఎన్ని|ఎంత|ఎవరిది)/.test(s),
-  bn: (s) =>
-    /\?\s*(?:\*\*)?\s*$/.test(s) &&
-    /(?:কে|কি|কী|কার|কাকে|কোন|কোথায়|কখন|কেন|কত|কয়|কেমন|কীভাবে)/.test(s),
+  bn: (s) => {
+    // Authored readings may follow the question mark: "… কি? (… ki)".
+    const stem = s.replace(/\s*\([^)]*\)\s*$/, "");
+    return (
+      /\?\s*(?:\*\*)?\s*$/.test(stem) &&
+      /(?:কে|কি|কী|কার|কাকে|কোন|কোথায়|কখন|কেন|কত|কয়|কেমন|কীভাবে)/.test(stem)
+    );
+  },
 };
 
 /** Least number of content questions a comprehension passage must carry. */

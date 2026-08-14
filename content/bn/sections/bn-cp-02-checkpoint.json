@@ -1,0 +1,951 @@
+{
+  "id": "bn-cp-02",
+  "kind": "checkpoint",
+  "level": "A1",
+  "order": 8,
+  "title": "Checkpoint: Nouns, Address, and the Present",
+  "summary": "A cumulative examination of noun case and animacy, the three grades of address, and the simple present — combining those lessons rather than repeating their drills.",
+  "covers": [
+    "bn-04",
+    "bn-05",
+    "bn-06"
+  ],
+  "passThreshold": 60,
+  "drills": [
+    {
+      "id": "bncp2-q9",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "bn-04",
+      "stem": "What is the genitive of **নদী** (nodi)?",
+      "options": [
+        "নদীর (nodir)",
+        "নদীের (nodier)",
+        "নদীকে (nodike)",
+        "নদীতে (nodite)"
+      ],
+      "correct": 0,
+      "explanation": "After a vowel other than inherent অ, genitive is -র.",
+      "rulesTested": [
+        "noun-genitive"
+      ],
+      "vocabUsed": [
+        "নদী"
+      ],
+      "scriptCritical": false
+    },
+    {
+      "id": "bncp2-q10",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "bn-04",
+      "stem": "Which objective is ungrammatical for an inanimate object?",
+      "options": [
+        "**বইকে দাও** (boike dao)",
+        "**বইটা দাও** (boiṭa dao)",
+        "**ছেলেকে বলো** (cheleke bolo)",
+        "**মাকে ডাকো** (make ḍako)"
+      ],
+      "correct": 0,
+      "explanation": "Inanimates do not take -কে; humans do.",
+      "rulesTested": [
+        "noun-objective",
+        "noun-animacy"
+      ],
+      "vocabUsed": [
+        "বই",
+        "ছেলে",
+        "মা"
+      ],
+      "scriptCritical": false
+    },
+    {
+      "id": "bncp2-q11",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "bn-04",
+      "stem": "The locative of **বাড়ি** (baṛi) is commonly which?",
+      "options": [
+        "বাড়িতে (baṛite)",
+        "বাড়িকে (baṛike)",
+        "বাড়িরে (baṛire)",
+        "বাড়িটা alone as locative"
+      ],
+      "correct": 0,
+      "explanation": "After -ি the locative is -তে.",
+      "rulesTested": [
+        "noun-locative"
+      ],
+      "vocabUsed": [
+        "বাড়ি"
+      ],
+      "scriptCritical": false
+    },
+    {
+      "id": "bncp2-q12",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "bn-04",
+      "stem": "Which form is definite plural for humans?",
+      "options": [
+        "মেয়েরা (meẏera)",
+        "মেয়েগুলো (meẏegulo)",
+        "মেয়েটা (meẏeṭa)",
+        "মেয়েকে (meẏeke)"
+      ],
+      "correct": 0,
+      "explanation": "Human plural definite commonly takes -রা; -গুলো is the inanimate plural article.",
+      "rulesTested": [
+        "noun-definite",
+        "noun-animacy"
+      ],
+      "vocabUsed": [
+        "মেয়ে"
+      ],
+      "scriptCritical": false
+    },
+    {
+      "id": "bncp2-q13",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "bn-04",
+      "stem": "In **জুতাগুলোর** (jutagulor), the pieces after the stem are which, in order?",
+      "options": [
+        "গুলো then র",
+        "র then গুলো",
+        "টা then কে",
+        "কে then গুলো"
+      ],
+      "correct": 0,
+      "explanation": "Article before case: জুতা + গুলো + র.",
+      "rulesTested": [
+        "noun-case-order",
+        "noun-genitive",
+        "noun-definite"
+      ],
+      "vocabUsed": [
+        "জুতা"
+      ],
+      "scriptCritical": false
+    },
+    {
+      "id": "bncp2-q14",
+      "type": "multi",
+      "difficulty": "medium",
+      "fromSection": "bn-04",
+      "stem": "Which counted phrases are well-formed?",
+      "options": [
+        "তিনটা ঘর (tinṭa ghor)",
+        "দুইজন ছাত্র (duijon chatro)",
+        "চার মানুষ without a measure",
+        "একটা বই (êkṭa boi)"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "A measure word is required; জন for humans, টা generally.",
+      "rulesTested": [
+        "noun-measure"
+      ],
+      "vocabUsed": [
+        "ঘর",
+        "ছাত্র",
+        "জন",
+        "বই",
+        "মানুষ"
+      ],
+      "scriptCritical": false
+    },
+    {
+      "id": "bncp2-q15",
+      "type": "matching",
+      "difficulty": "hard",
+      "fromSection": "bn-04",
+      "stem": "Match each form to its case and definiteness.",
+      "columnHeadings": [
+        "Form",
+        "Label"
+      ],
+      "columnI": [
+        "ঘরের (ghorer)",
+        "ঘরটা (ghorṭa)",
+        "ঘরে (ghore)",
+        "ঘরগুলো (ghorgulo)"
+      ],
+      "columnII": [
+        "genitive bare",
+        "nominative definite sg.",
+        "locative",
+        "nominative definite pl."
+      ],
+      "options": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          2
+        ],
+        [
+          0,
+          2,
+          1,
+          3
+        ]
+      ],
+      "correct": 0,
+      "explanation": "ের genitive; টা definite sg.; ে locative; গুলো definite pl.",
+      "rulesTested": [
+        "noun-genitive",
+        "noun-definite",
+        "noun-locative"
+      ],
+      "vocabUsed": [
+        "ঘর"
+      ],
+      "scriptCritical": false
+    },
+    {
+      "id": "bncp2-q16",
+      "type": "integer",
+      "difficulty": "medium",
+      "fromSection": "bn-04",
+      "stem": "Beames distinguishes how many animacy classes for declension?",
+      "answer": 3,
+      "explanation": "Human, other living, and inanimate.",
+      "rulesTested": [
+        "noun-animacy"
+      ],
+      "vocabUsed": [],
+      "scriptCritical": false
+    },
+    {
+      "id": "bncp2-q17",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "bn-05",
+      "stem": "Which 'you' is safe with a respectable stranger?",
+      "options": [
+        "আপনি (apni)",
+        "তুমি (tumi)",
+        "তুই (tui)",
+        "সে (se)"
+      ],
+      "correct": 0,
+      "explanation": "Beames: আপনি for gentlemen and respectable people; তুমি can insult.",
+      "rulesTested": [
+        "three-address"
+      ],
+      "vocabUsed": [
+        "আপনি",
+        "তুমি",
+        "তুই"
+      ],
+      "scriptCritical": false
+    },
+    {
+      "id": "bncp2-q18",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "bn-05",
+      "stem": "What is the genitive of **তুই** (tui)?",
+      "options": [
+        "তোর (tor)",
+        "তোমার (tomar)",
+        "আপনার (apnar)",
+        "তার (tar)"
+      ],
+      "correct": 0,
+      "explanation": "VF genitive is তোর; তোমার belongs to তুমি.",
+      "rulesTested": [
+        "pronoun-genitive",
+        "three-address"
+      ],
+      "vocabUsed": [
+        "তুই",
+        "তুমি"
+      ],
+      "scriptCritical": false
+    },
+    {
+      "id": "bncp2-q19",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "bn-05",
+      "stem": "Which is the polite third-person plural nominative?",
+      "options": [
+        "তাঁরা (tãra)",
+        "তারা (tara)",
+        "আপনারা (apnara)",
+        "তোমরা (tomra)"
+      ],
+      "correct": 0,
+      "explanation": "তাঁরা is polite they; তারা is familiar.",
+      "rulesTested": [
+        "third-person-honor",
+        "pronoun-paradigm-nom"
+      ],
+      "vocabUsed": [
+        "তাঁরা",
+        "তারা",
+        "আপনারা",
+        "তোমরা"
+      ],
+      "scriptCritical": false
+    },
+    {
+      "id": "bncp2-q20",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "bn-05",
+      "stem": "**তোমাদেরকে** (tomaderke) is built on which stem shape?",
+      "options": [
+        "the genitive plural of তোমরা/তুমি",
+        "the nominative plural alone",
+        "the singular objective তোমাকে reduplicated",
+        "the genitive singular তোমার + কে only"
+      ],
+      "correct": 0,
+      "explanation": "Plural objectives are built on the genitive plural: তোমাদের + কে.",
+      "rulesTested": [
+        "pronoun-objective",
+        "address-plurals",
+        "pronoun-genitive"
+      ],
+      "vocabUsed": [
+        "তুমি",
+        "তোমরা"
+      ],
+      "scriptCritical": false
+    },
+    {
+      "id": "bncp2-q21",
+      "type": "multi",
+      "difficulty": "hard",
+      "fromSection": "bn-05",
+      "stem": "Which pairs share one finite-verb ending grade?",
+      "options": [
+        "**আপনি** (apni) and **তিনি** (tini)",
+        "**তুমি** (tumi) and **তোমরা** (tomra)",
+        "**তুই** (tui) and **তুমি** (tumi)",
+        "**আমি** (ami) and **আমরা** (amra)"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "Polite আপনি/তিনি share -েন; number does not change the ending within a grade. তুই and তুমি are different grades (-িস vs -ো).",
+      "rulesTested": [
+        "address-verb-preview",
+        "three-address",
+        "first-person",
+        "address-plurals",
+        "third-person-honor"
+      ],
+      "vocabUsed": [
+        "আপনি",
+        "তিনি",
+        "তুমি",
+        "তোমরা",
+        "তুই",
+        "আমি",
+        "আমরা"
+      ],
+      "scriptCritical": false
+    },
+    {
+      "id": "bncp2-q22",
+      "type": "matching",
+      "difficulty": "medium",
+      "fromSection": "bn-05",
+      "stem": "Match each nominative to its objective singular.",
+      "columnHeadings": [
+        "Nominative",
+        "Objective"
+      ],
+      "columnI": [
+        "আমি (ami)",
+        "তুমি (tumi)",
+        "আপনি (apni)",
+        "তিনি (tini)"
+      ],
+      "columnII": [
+        "তোমাকে (tomake)",
+        "আমাকে (amake)",
+        "তাঁকে (tãke)",
+        "আপনাকে (apnake)"
+      ],
+      "options": [
+        [
+          1,
+          0,
+          3,
+          2
+        ],
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          2
+        ],
+        [
+          1,
+          3,
+          0,
+          2
+        ]
+      ],
+      "correct": 0,
+      "explanation": "আমাকে, তোমাকে, আপনাকে, তাঁকে.",
+      "rulesTested": [
+        "pronoun-objective",
+        "pronoun-paradigm-nom"
+      ],
+      "vocabUsed": [
+        "আমি",
+        "তুমি",
+        "আপনি",
+        "তিনি"
+      ],
+      "scriptCritical": false
+    },
+    {
+      "id": "bncp2-q23",
+      "type": "integer",
+      "difficulty": "easy",
+      "fromSection": "bn-05",
+      "stem": "How many second-person address grades does Bengali distinguish?",
+      "answer": 3,
+      "explanation": "তুই, তুমি, আপনি.",
+      "rulesTested": [
+        "three-address"
+      ],
+      "vocabUsed": [],
+      "scriptCritical": false
+    },
+    {
+      "id": "bncp2-q24",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "bn-06",
+      "stem": "The dictionary citation **যাওয়া** (jaowa) is which form?",
+      "options": [
+        "verbal noun",
+        "1st person present",
+        "polite present",
+        "imperative"
+      ],
+      "correct": 0,
+      "explanation": "Verbs are listed as verbal nouns, usually stem + -া.",
+      "rulesTested": [
+        "verbal-noun"
+      ],
+      "vocabUsed": [
+        "যাওয়া"
+      ],
+      "scriptCritical": false
+    },
+    {
+      "id": "bncp2-q25",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "bn-06",
+      "stem": "**তুই** (tui) + **করা** (kora) in the simple present is which?",
+      "options": [
+        "করিস (koris)",
+        "করো (koro)",
+        "করেন (koren)",
+        "করি (kori)"
+      ],
+      "correct": 0,
+      "explanation": "VF second person takes -িস.",
+      "rulesTested": [
+        "simple-present",
+        "verb-person-honor",
+        "three-address"
+      ],
+      "vocabUsed": [
+        "তুই",
+        "করা"
+      ],
+      "scriptCritical": false
+    },
+    {
+      "id": "bncp2-q26",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "bn-06",
+      "stem": "**তিনি** (tini) + **করা** (kora) in the simple present is which?",
+      "options": [
+        "করেন (koren)",
+        "করে (kore)",
+        "করো (koro)",
+        "করিস (koris)"
+      ],
+      "correct": 0,
+      "explanation": "Polite তিনি shares -েন with আপনি.",
+      "rulesTested": [
+        "simple-present",
+        "verb-person-honor",
+        "third-person-honor"
+      ],
+      "vocabUsed": [
+        "তিনি",
+        "করা"
+      ],
+      "scriptCritical": false
+    },
+    {
+      "id": "bncp2-q27",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "bn-06",
+      "stem": "First person of **লেখা** (lekha) is which?",
+      "options": [
+        "লিখি (likhi)",
+        "লেখি (lekhi)",
+        "লেখো (lekho)",
+        "লেখে (lekhe)"
+      ],
+      "correct": 0,
+      "explanation": "Raising e→i before the high ending: লিখি.",
+      "rulesTested": [
+        "vowel-harmony",
+        "simple-present"
+      ],
+      "vocabUsed": [
+        "লেখা",
+        "আমি"
+      ],
+      "scriptCritical": false
+    },
+    {
+      "id": "bncp2-q28",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "bn-06",
+      "stem": "Which sentence places the finite verb correctly?",
+      "options": [
+        "**সে বাড়িতে যায়** (se baṛite jay)",
+        "**যায় সে বাড়িতে** (jay se baṛite)",
+        "**সে যায় বাড়িতে** (se jay baṛite) as the only normal order",
+        "**বাড়িতে যায় সে** (baṛite jay se) with verb medial as default"
+      ],
+      "correct": 0,
+      "explanation": "SOV: subject, locative, verb at the end.",
+      "rulesTested": [
+        "sov-order",
+        "noun-locative"
+      ],
+      "vocabUsed": [
+        "সে",
+        "বাড়ি",
+        "যাওয়া"
+      ],
+      "scriptCritical": false
+    },
+    {
+      "id": "bncp2-q29",
+      "type": "multi",
+      "difficulty": "hard",
+      "fromSection": "bn-06",
+      "stem": "Which are well-formed simple-present negatives or existentials?",
+      "options": [
+        "**আমি যাই না** (ami jai na)",
+        "**তোমার কলম আছে** (tomar kolom ache)",
+        "**আমি না যাই** (ami na jai) as the ordinary order",
+        "**ঘরে বই আছে** (ghore boi ache)"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "না follows the finite verb; possession/location use আছে with genitive or locative.",
+      "rulesTested": [
+        "negation-na",
+        "existential-ach-",
+        "pronoun-genitive",
+        "noun-locative"
+      ],
+      "vocabUsed": [
+        "যাওয়া",
+        "না",
+        "কলম",
+        "আছে",
+        "বই",
+        "ঘর",
+        "তুমি"
+      ],
+      "scriptCritical": false
+    },
+    {
+      "id": "bncp2-q30",
+      "type": "matching",
+      "difficulty": "hard",
+      "fromSection": "bn-06",
+      "stem": "Match each subject to the present of **পড়া** (pôṛa).",
+      "columnHeadings": [
+        "Subject",
+        "Form"
+      ],
+      "columnI": [
+        "আমি (ami)",
+        "তুমি (tumi)",
+        "সে (se)",
+        "আপনি (apni)"
+      ],
+      "columnII": [
+        "পড়ো (pôṛo)",
+        "পড়ি (poṛi)",
+        "পড়েন (pôṛen)",
+        "পড়ে (pôṛe)"
+      ],
+      "options": [
+        [
+          1,
+          0,
+          3,
+          2
+        ],
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          2
+        ],
+        [
+          1,
+          3,
+          0,
+          2
+        ]
+      ],
+      "correct": 0,
+      "explanation": "পড়ি / পড়ো / পড়ে / পড়েন.",
+      "rulesTested": [
+        "simple-present",
+        "verb-person-honor",
+        "address-verb-preview"
+      ],
+      "vocabUsed": [
+        "পড়া",
+        "আমি",
+        "তুমি",
+        "সে",
+        "আপনি"
+      ],
+      "scriptCritical": false
+    },
+    {
+      "id": "bncp2-q31",
+      "type": "integer",
+      "difficulty": "medium",
+      "fromSection": "bn-06",
+      "stem": "Which numbered rule states that **না** (na) follows the finite verb in the simple present?",
+      "answer": 48,
+      "explanation": "¶48, Negation with না.",
+      "rulesTested": [
+        "negation-na"
+      ],
+      "vocabUsed": [],
+      "scriptCritical": false
+    },
+    {
+      "id": "bncp2-p1",
+      "type": "comprehension",
+      "difficulty": "hard",
+      "fromSection": "bn-06",
+      "title": "At the bookshop",
+      "passage": "দোকানদারঃ আপনি কোন বইটা চান?\nরীতাঃ আমাকে ওই লাল বইটা দিন।\nদোকানদারঃ এটা কি আপনার ভাইয়ের জন্য?\nরীতাঃ না, এটা আমার। আমি প্রতিদিন পড়ি। তিনি পড়েন না।",
+      "romanization": "Dokandar: apni kon boiṭa can?\nRītā: amake oi lal boiṭa din.\nDokandar: eṭa ki apnar bhaiẏer jonno?\nRītā: na, eṭa amar. ami protidin poṛi. tini pôṛen na.",
+      "translation": "Shopkeeper: Which book do you (polite) want?\nRita: Give me that red book.\nShopkeeper: Is this for your brother?\nRita: No, it is mine. I read every day. He (polite) does not read.",
+      "glossary": {
+        "দোকানদার": "shopkeeper",
+        "চান": "want (polite present)",
+        "দিন": "give (polite imperative)",
+        "লাল": "red",
+        "ওই": "that",
+        "ভাইয়ের": "brother's",
+        "জন্য": "for",
+        "এটা": "this one",
+        "প্রতিদিন": "every day"
+      },
+      "scriptCritical": false,
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course.",
+          "note": "Address, case, present, and negation after Wikipedia Bengali grammar and Beames."
+        }
+      ],
+      "questions": [
+        {
+          "id": "bncp2-p1q1",
+          "type": "single",
+          "difficulty": "easy",
+          "fromSection": "bn-05",
+          "stem": "**দোকানদার রীতাকে কোন সম্বোধনে বলে** (dokandar ritake kon śombodhone bole)?",
+          "options": [
+            "আপনি (apni)",
+            "তুমি (tumi)",
+            "তুই (tui)",
+            "সে (se)"
+          ],
+          "correct": 0,
+          "explanation": "He asks আপনি কোন বইটা চান.",
+          "rulesTested": [
+            "three-address"
+          ],
+          "vocabUsed": [
+            "আপনি"
+          ],
+          "scriptCritical": false
+        },
+        {
+          "id": "bncp2-p1q2",
+          "type": "single",
+          "difficulty": "medium",
+          "fromSection": "bn-04",
+          "stem": "**রীতা কোন কেসের রূপ ব্যবহার করে যখন সে বই চায়** (rita kon keser rup bebohar kore jokhon se boi chay)?",
+          "options": [
+            "আমাকে (amake)",
+            "আমার alone as object",
+            "আমি as object",
+            "আমাদেরকে"
+          ],
+          "correct": 0,
+          "explanation": "আমাকে ওই লাল বইটা দিন — objective of আমি.",
+          "rulesTested": [
+            "pronoun-objective"
+          ],
+          "vocabUsed": [
+            "আমি"
+          ],
+          "scriptCritical": false
+        },
+        {
+          "id": "bncp2-p1q3",
+          "type": "single",
+          "difficulty": "hard",
+          "fromSection": "bn-06",
+          "stem": "**তিনি পড়েন না** (tini pôṛen na) — which grades meet here?",
+          "options": [
+            "polite third person + না after the verb",
+            "familiar তুমি + না before the verb",
+            "VF তুই + verbal noun",
+            "first person without raising"
+          ],
+          "correct": 0,
+          "explanation": "তিনি takes -েন; না follows the finite verb.",
+          "rulesTested": [
+            "verb-person-honor",
+            "negation-na",
+            "third-person-honor",
+            "simple-present"
+          ],
+          "vocabUsed": [
+            "তিনি",
+            "পড়া",
+            "না"
+          ],
+          "scriptCritical": false
+        },
+        {
+          "id": "bncp2-p1q4",
+          "type": "integer",
+          "difficulty": "medium",
+          "fromSection": "bn-06",
+          "stem": "How many finite present verbs does **রীতা** (rita) herself speak in the last two sentences of her final turn?",
+          "answer": 2,
+          "explanation": "আমি প্রতিদিন পড়ি and তিনি পড়েন না — two finite presents (the second with না).",
+          "rulesTested": [
+            "simple-present",
+            "negation-na"
+          ],
+          "vocabUsed": [
+            "পড়া",
+            "আমি",
+            "তিনি",
+            "না"
+          ],
+          "scriptCritical": false
+        }
+      ]
+    },
+    {
+      "id": "bncp2-p2",
+      "type": "comprehension",
+      "difficulty": "hard",
+      "fromSection": "bn-05",
+      "title": "Two friends and a teacher",
+      "passage": "সোহাঃ তুমি কি কলকাতায় যাও?\nকরিমঃ যাই না। আমার বাড়িতে থাকি।\nসোহাঃ আপনিও কি থাকেন, স্যার?\nশিক্ষকঃ হ্যাঁ, আমিও এখানে থাকি। ছেলেদেরকে বলো।",
+      "romanization": "Soha: tumi ki kolkatay jao?\nKorim: jai na. amar baṛite thaki.\nSoha: apni-o ki thaken, syar?\nShikkhok: hyã, ami-o ekhane thaki. chelederke bolo.",
+      "translation": "Soha: Do you (familiar) go to Kolkata?\nKarim: I do not go. I stay at my house.\nSoha: Do you (polite) also stay, sir?\nTeacher: Yes, I also stay here. Tell the boys.",
+      "glossary": {
+        "থাকি": "I stay",
+        "থাকেন": "you/he stay (polite)",
+        "এখানে": "here",
+        "স্যার": "sir",
+        "হ্যাঁ": "yes",
+        "ও": "also",
+        "শিক্ষক": "teacher",
+        "ছেলেদেরকে": "to the boys (objective plural)",
+        "বলো": "tell (familiar)"
+      },
+      "scriptCritical": false,
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course.",
+          "note": "Address switching and case after Wikipedia Bengali grammar."
+        }
+      ],
+      "questions": [
+        {
+          "id": "bncp2-p2q1",
+          "type": "single",
+          "difficulty": "easy",
+          "fromSection": "bn-05",
+          "stem": "**সোহা করিমকে কোন সম্বোধনে বলে** (soha korimke kon śombodhone bole)?",
+          "options": [
+            "তুমি (tumi)",
+            "আপনি (apni)",
+            "তুই (tui)",
+            "তিনি (tini)"
+          ],
+          "correct": 0,
+          "explanation": "তুমি কি কলকাতায় যাও — familiar address.",
+          "rulesTested": [
+            "three-address"
+          ],
+          "vocabUsed": [
+            "তুমি"
+          ],
+          "scriptCritical": false
+        },
+        {
+          "id": "bncp2-p2q2",
+          "type": "single",
+          "difficulty": "medium",
+          "fromSection": "bn-04",
+          "stem": "**কলকাতায়** (kolkatay) is which case?",
+          "options": [
+            "locative",
+            "genitive",
+            "objective",
+            "nominative definite"
+          ],
+          "correct": 0,
+          "explanation": "Nouns in -া often take -য় in the locative.",
+          "rulesTested": [
+            "noun-locative"
+          ],
+          "vocabUsed": [
+            "কলকাতা"
+          ],
+          "scriptCritical": false
+        },
+        {
+          "id": "bncp2-p2q3",
+          "type": "single",
+          "difficulty": "hard",
+          "fromSection": "bn-05",
+          "stem": "**সোহা শিক্ষককে কোন সম্বোধনে বলে** (soha shikkhokke kon śombodhone bole)?",
+          "options": [
+            "আপনি (apni)",
+            "তুমি (tumi)",
+            "তুই (tui)",
+            "সে (se)"
+          ],
+          "correct": 0,
+          "explanation": "আপনিও কি থাকেন — polite to the teacher.",
+          "rulesTested": [
+            "three-address",
+            "verb-person-honor"
+          ],
+          "vocabUsed": [
+            "আপনি"
+          ],
+          "scriptCritical": false
+        },
+        {
+          "id": "bncp2-p2q4",
+          "type": "single",
+          "difficulty": "hard",
+          "fromSection": "bn-04",
+          "stem": "**ছেলেদেরকে** (chelederke) marks which?",
+          "options": [
+            "human plural objective",
+            "inanimate locative",
+            "genitive singular bare",
+            "measure word"
+          ],
+          "correct": 0,
+          "explanation": "দেরকে is the human plural objective pattern.",
+          "rulesTested": [
+            "noun-objective",
+            "noun-animacy",
+            "noun-definite"
+          ],
+          "vocabUsed": [
+            "ছেলে"
+          ],
+          "scriptCritical": false
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Beames, John, *Grammar of the Bengali Language Literary and Colloquial*, Clarendon Press, Oxford, 1891.",
+      "url": "https://archive.org/details/grammarofbengali00beamrich",
+      "licence": "Public domain"
+    },
+    {
+      "kind": "grammar",
+      "citation": "Wikipedia contributors, \"Bengali grammar\", *Wikipedia*, retrieved 13 August 2026.",
+      "url": "https://en.wikipedia.org/wiki/Bengali_grammar",
+      "licence": "CC BY-SA 4.0"
+    },
+    {
+      "kind": "grammar",
+      "citation": "Wikipedia contributors, \"Bengali alphabet\", *Wikipedia*, retrieved 13 August 2026.",
+      "url": "https://en.wikipedia.org/wiki/Bengali_alphabet",
+      "licence": "CC BY-SA 4.0"
+    },
+    {
+      "kind": "dictionary",
+      "citation": "English Wiktionary (WT:BN TR), retrieved 13 August 2026.",
+      "url": "https://en.wiktionary.org/",
+      "licence": "CC BY-SA 4.0"
+    }
+  ]
+}

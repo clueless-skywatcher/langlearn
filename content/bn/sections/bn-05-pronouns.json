@@ -2,7 +2,7 @@
   "id": "bn-05",
   "kind": "lesson",
   "level": "A1",
-  "order": 5,
+  "order": 6,
   "title": "Pronouns and Address",
   "summary": "The personal pronouns, the three grades of second-person address — তুই, তুমি, আপনি — and the matching third-person polite and familiar forms, with their genitives and objectives.",
   "rules": [
@@ -649,10 +649,10 @@
       "difficulty": "easy",
       "stem": "Which pronoun is the polite 'you'?",
       "options": [
-        "আপনি",
-        "তুমি",
-        "তুই",
-        "সে"
+        "আপনি (apni)",
+        "তুমি (tumi)",
+        "তুই (tui)",
+        "সে (se)"
       ],
       "correct": 0,
       "explanation": "আপনি is polite address; তুমি is familiar; তুই is very familiar.",
@@ -664,7 +664,7 @@
         "তুমি",
         "তুই"
       ],
-      "scriptCritical": true
+      "scriptCritical": false
     },
     {
       "id": "bn501-q2",
@@ -672,10 +672,10 @@
       "difficulty": "easy",
       "stem": "Which pronoun is very familiar 'you'?",
       "options": [
-        "তুই",
-        "তুমি",
-        "আপনি",
-        "তিনি"
+        "তুই (tui)",
+        "তুমি (tumi)",
+        "আপনি (apni)",
+        "তিনি (tini)"
       ],
       "correct": 0,
       "explanation": "তুই is the VF grade.",
@@ -685,18 +685,18 @@
       "vocabUsed": [
         "তুই"
       ],
-      "scriptCritical": true
+      "scriptCritical": false
     },
     {
       "id": "bn501-q3",
       "type": "single",
       "difficulty": "medium",
-      "stem": "What is the familiar plural of তুমি?",
+      "stem": "What is the familiar plural of **তুমি** (tumi)?",
       "options": [
-        "তোমরা",
-        "তোরা",
-        "আপনারা",
-        "আমরা"
+        "তোমরা (tomra)",
+        "তোরা (tora)",
+        "আপনারা (apnara)",
+        "আমরা (amra)"
       ],
       "correct": 0,
       "explanation": "Familiar plural is তোমরা; তোরা is VF; আপনারা is polite.",
@@ -709,7 +709,7 @@
         "তোরা",
         "আপনারা"
       ],
-      "scriptCritical": true
+      "scriptCritical": false
     },
     {
       "id": "bn501-q4",
@@ -717,10 +717,10 @@
       "difficulty": "medium",
       "stem": "Beames says which form to use with gentlemen and respectable strangers?",
       "options": [
-        "আপনি",
-        "তুমি",
-        "তুই",
-        "সে"
+        "আপনি (apni)",
+        "তুমি (tumi)",
+        "তুই (tui)",
+        "সে (se)"
       ],
       "correct": 0,
       "explanation": "Beames: apani when addressing gentlemen or respectable people; tumi except to servants, relations, or the very humble is almost an insult.",
@@ -731,18 +731,18 @@
         "আপনি",
         "তুমি"
       ],
-      "scriptCritical": true
+      "scriptCritical": false
     },
     {
       "id": "bn501-q5",
       "type": "single",
       "difficulty": "easy",
-      "stem": "What is the genitive of আমি?",
+      "stem": "What is the genitive of **আমি** (ami)?",
       "options": [
-        "আমার",
-        "আমাকে",
-        "আমরা",
-        "আমাদেরকে"
+        "আমার (amar)",
+        "আমাকে (amake)",
+        "আমরা (amra)",
+        "আমাদেরকে (amaderke)"
       ],
       "correct": 0,
       "explanation": "আমার is 'my/mine'.",
@@ -753,18 +753,18 @@
       "vocabUsed": [
         "আমি"
       ],
-      "scriptCritical": true
+      "scriptCritical": false
     },
     {
       "id": "bn501-q6",
       "type": "single",
       "difficulty": "medium",
-      "stem": "What is the genitive of তুমি?",
+      "stem": "What is the genitive of **তুমি** (tumi)?",
       "options": [
-        "তোমার",
-        "তোর",
-        "আপনার",
-        "তার"
+        "তোমার (tomar)",
+        "তোর (tor)",
+        "আপনার (apnar)",
+        "তার (tar)"
       ],
       "correct": 0,
       "explanation": "Familiar genitive is তোমার; তোর belongs to তুই.",
@@ -776,7 +776,7 @@
         "তুমি",
         "তুই"
       ],
-      "scriptCritical": true
+      "scriptCritical": false
     },
     {
       "id": "bn501-q7",
@@ -784,10 +784,10 @@
       "difficulty": "medium",
       "stem": "Which is the polite third-person nominative?",
       "options": [
-        "তিনি",
-        "সে",
-        "তারা",
-        "আপনি"
+        "তিনি (tini)",
+        "সে (se)",
+        "তারা (tara)",
+        "আপনি (apni)"
       ],
       "correct": 0,
       "explanation": "তিনি is polite he/she; সে is familiar; আপনি is polite you.",
@@ -799,13 +799,13 @@
         "সে",
         "আপনি"
       ],
-      "scriptCritical": true
+      "scriptCritical": false
     },
     {
       "id": "bn501-q8",
       "type": "single",
       "difficulty": "hard",
-      "stem": "আপনাকে is which case of আপনি?",
+      "stem": "**আপনাকে** (apnake) is which case of **আপনি** (apni)?",
       "options": [
         "objective",
         "genitive",
@@ -820,7 +820,7 @@
       "vocabUsed": [
         "আপনি"
       ],
-      "scriptCritical": true
+      "scriptCritical": false
     },
     {
       "id": "bn501-q9",
@@ -828,10 +828,10 @@
       "difficulty": "medium",
       "stem": "Which are second-person nominatives?",
       "options": [
-        "তুই",
-        "তুমি",
-        "আপনি",
-        "তিনি"
+        "তুই (tui)",
+        "তুমি (tumi)",
+        "আপনি (apni)",
+        "তিনি (tini)"
       ],
       "correct": [
         0,
@@ -849,7 +849,7 @@
         "আপনি",
         "তিনি"
       ],
-      "scriptCritical": true
+      "scriptCritical": false
     },
     {
       "id": "bn501-q10",
@@ -857,10 +857,10 @@
       "difficulty": "hard",
       "stem": "Which genitives belong to polite pronouns?",
       "options": [
-        "আপনার",
-        "তাঁর",
-        "তোমার",
-        "তোর"
+        "আপনার (apnar)",
+        "তাঁর (tãr)",
+        "তোমার (tomar)",
+        "তোর (tor)"
       ],
       "correct": [
         0,
@@ -878,7 +878,7 @@
         "তুমি",
         "তুই"
       ],
-      "scriptCritical": true
+      "scriptCritical": false
     },
     {
       "id": "bn501-q11",
@@ -897,7 +897,7 @@
       "id": "bn501-q12",
       "type": "integer",
       "difficulty": "medium",
-      "stem": "Which numbered rule states that আপনি / তিনি share the polite verb ending **-েন**?",
+      "stem": "Which numbered rule states that **আপনি** (apni) / **তিনি** (tini) share the polite verb ending **-েন**?",
       "answer": 42,
       "explanation": "¶42 locks each pronoun grade to its ending.",
       "rulesTested": [
@@ -907,7 +907,7 @@
         "আপনি",
         "তিনি"
       ],
-      "scriptCritical": true
+      "scriptCritical": false
     },
     {
       "id": "bn501-q13",
@@ -919,10 +919,10 @@
         "Grade"
       ],
       "columnI": [
-        "তুই",
-        "তুমি",
-        "আপনি",
-        "সে"
+        "তুই (tui)",
+        "তুমি (tumi)",
+        "আপনি (apni)",
+        "সে (se)"
       ],
       "columnII": [
         "familiar you",
@@ -969,7 +969,7 @@
         "আপনি",
         "সে"
       ],
-      "scriptCritical": true
+      "scriptCritical": false
     },
     {
       "id": "bn501-q14",
@@ -981,16 +981,16 @@
         "Genitive"
       ],
       "columnI": [
-        "আমি",
-        "তুই",
-        "তুমি",
-        "তিনি"
+        "আমি (ami)",
+        "তুই (tui)",
+        "তুমি (tumi)",
+        "তিনি (tini)"
       ],
       "columnII": [
-        "তোর",
-        "আমার",
-        "তাঁর",
-        "তোমার"
+        "তোর (tor)",
+        "আমার (amar)",
+        "তাঁর (tãr)",
+        "তোমার (tomar)"
       ],
       "options": [
         [
@@ -1029,13 +1029,13 @@
         "তুমি",
         "তিনি"
       ],
-      "scriptCritical": true
+      "scriptCritical": false
     },
     {
       "id": "bn501-q15",
       "type": "single",
       "difficulty": "hard",
-      "stem": "আমরা and আমি take how many distinct first-person verb endings between them?",
+      "stem": "**আমরা** (amra) and **আমি** (ami) take how many distinct first-person verb endings between them?",
       "options": [
         "one shared ending",
         "two different endings",
@@ -1052,7 +1052,7 @@
         "আমি",
         "আমরা"
       ],
-      "scriptCritical": true
+      "scriptCritical": false
     },
     {
       "id": "bn501-q16",
@@ -1060,10 +1060,10 @@
       "difficulty": "hard",
       "stem": "Which pair is wrong?",
       "options": [
-        "তুমি → তোর",
-        "তুই → তোর",
-        "তুমি → তোমার",
-        "আপনি → আপনার"
+        "**তুমি** (tumi) → **তোর** (tor)",
+        "**তুই** (tui) → **তোর** (tor)",
+        "**তুমি** (tumi) → **তোমার** (tomar)",
+        "**আপনি** (apni) → **আপনার** (apnar)"
       ],
       "correct": 0,
       "explanation": "তোর is the genitive of তুই, not of তুমি.",
@@ -1076,18 +1076,18 @@
         "তুই",
         "আপনি"
       ],
-      "scriptCritical": true
+      "scriptCritical": false
     },
     {
       "id": "bn501-q17",
       "type": "single",
       "difficulty": "medium",
-      "stem": "What is the objective of সে?",
+      "stem": "What is the objective of **সে** (se)?",
       "options": [
-        "তাকে",
-        "তার",
-        "তাঁকে",
-        "তোকে"
+        "তাকে (take)",
+        "তার (tar)",
+        "তাঁকে (tãke)",
+        "তোকে (toke)"
       ],
       "correct": 0,
       "explanation": "Familiar third-person objective is তাকে; তাঁকে is polite.",
@@ -1098,7 +1098,7 @@
       "vocabUsed": [
         "সে"
       ],
-      "scriptCritical": true
+      "scriptCritical": false
     },
     {
       "id": "bn501-q18",
@@ -1106,10 +1106,10 @@
       "difficulty": "hard",
       "stem": "Which statements are true?",
       "options": [
-        "তোমরা is the plural of তুমি",
-        "আপনি takes the same verb ending grade as তিনি",
-        "তুই and তুমি share one genitive",
-        "সে does not mark gender"
+        "**তোমরা** (tomra) is the plural of **তুমি** (tumi)",
+        "**আপনি** (apni) takes the same verb ending grade as **তিনি** (tini)",
+        "**তুই** (tui) and **তুমি** (tumi) share one genitive",
+        "**সে** (se) does not mark gender"
       ],
       "correct": [
         0,
@@ -1131,7 +1131,7 @@
         "তুই",
         "সে"
       ],
-      "scriptCritical": true
+      "scriptCritical": false
     },
     {
       "id": "bn501-q19",
@@ -1143,10 +1143,10 @@
         "Row"
       ],
       "columnI": [
-        "আমরা",
-        "তোরা",
-        "আপনারা",
-        "তাঁরা"
+        "আমরা (amra)",
+        "তোরা (tora)",
+        "আপনারা (apnara)",
+        "তাঁরা (tãra)"
       ],
       "columnII": [
         "1st plural",
@@ -1194,7 +1194,7 @@
         "আপনারা",
         "তাঁরা"
       ],
-      "scriptCritical": true
+      "scriptCritical": false
     },
     {
       "id": "bn501-p1",
@@ -1226,12 +1226,12 @@
           "id": "bn501-p1q1",
           "type": "single",
           "difficulty": "easy",
-          "stem": "অতিথির নাম কি?",
+          "stem": "**অতিথির নাম কি** (otithir nam ki)?",
           "options": [
-            "করিম",
-            "রীতা",
-            "বাবা",
-            "তুমি"
+            "করিম (korim)",
+            "রীতা (rita)",
+            "বাবা (baba)",
+            "তুমি (tumi)"
           ],
           "correct": 0,
           "explanation": "He says আমার নাম করিম.",
@@ -1242,18 +1242,18 @@
           "vocabUsed": [
             "নাম"
           ],
-          "scriptCritical": true
+          "scriptCritical": false
         },
         {
           "id": "bn501-p1q2",
           "type": "single",
           "difficulty": "medium",
-          "stem": "রীতা অতিথিকে কী বলে সম্বোধন করে?",
+          "stem": "**রীতা অতিথিকে কী বলে সম্বোধন করে** (rita otithike ki bole śombodhon kore)?",
           "options": [
-            "আপনি",
-            "তুমি",
-            "তুই",
-            "সে"
+            "আপনি (apni)",
+            "তুমি (tumi)",
+            "তুই (tui)",
+            "সে (se)"
           ],
           "correct": 0,
           "explanation": "She opens with আপনার নাম — polite address to a guest.",
@@ -1264,18 +1264,18 @@
           "vocabUsed": [
             "আপনি"
           ],
-          "scriptCritical": true
+          "scriptCritical": false
         },
         {
           "id": "bn501-p1q3",
           "type": "single",
           "difficulty": "hard",
-          "stem": "বাবার দিকে রীতা কোন সম্বোধন ব্যবহার করে?",
+          "stem": "**বাবার দিকে রীতা কোন সম্বোধন ব্যবহার করে** (babar dike rita kon śombodhon bebohar kore)?",
           "options": [
-            "তুমি",
-            "আপনি",
-            "তুই",
-            "তারা"
+            "তুমি (tumi)",
+            "আপনি (apni)",
+            "তুই (tui)",
+            "তারা (tara)"
           ],
           "correct": 0,
           "explanation": "She reports তিনি বলছেন, তুমি ভিতরে এসো — familiar তুমি to her father in that line.",
@@ -1287,18 +1287,18 @@
             "তুমি",
             "তিনি"
           ],
-          "scriptCritical": true
+          "scriptCritical": false
         },
         {
           "id": "bn501-p1q4",
           "type": "single",
           "difficulty": "hard",
-          "stem": "তাঁকে নমস্কার — তাঁকে is which pronoun's objective?",
+          "stem": "**তাঁকে নমস্কার** (tãke nômoskar) — **তাঁকে** (tãke) is which pronoun's objective?",
           "options": [
-            "তিনি",
-            "সে",
-            "আপনি",
-            "তুমি"
+            "তিনি (tini)",
+            "সে (se)",
+            "আপনি (apni)",
+            "তুমি (tumi)"
           ],
           "correct": 0,
           "explanation": "তাঁকে is the polite third-person objective of তিনি.",
@@ -1309,7 +1309,7 @@
           "vocabUsed": [
             "তিনি"
           ],
-          "scriptCritical": true
+          "scriptCritical": false
         }
       ]
     }
