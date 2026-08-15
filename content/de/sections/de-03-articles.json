@@ -4,7 +4,7 @@
   "level": "A1",
   "order": 3,
   "title": "The Article, and the Article That Is Not There",
-  "summary": "Where German puts a definite article that English leaves out, which country names carry one, and the four contexts in which a German noun stands with no article at all.",
+  "summary": "Where German puts a definite article that English leaves out, which country names carry one, the forms and work of ein, and the contexts in which a German noun stands with no article at all.",
   "rules": [
     {
       "id": "article-generalisation",
@@ -167,6 +167,86 @@
           "kind": "grammar",
           "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
           "note": "§4.3.1(d), p. 69, for *Tannen sind Nadelbäume* beside *Die Tannen sind Nadelbäume*."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "indefinite-forms",
+      "number": "39",
+      "heading": "The forms of the indefinite article",
+      "statement": "The indefinite article is **ein** with a masculine noun, **eine** with a feminine one, and **ein** again with a neuter one. Masculine and neuter share the one form, so *ein* on its own does not tell the two apart the way *der* and *das* do (¶25).",
+      "examples": [
+        { "target": "ein Tisch", "gloss": "a table", "note": "masculine" },
+        { "target": "eine Wand", "gloss": "a wall", "note": "feminine" },
+        { "target": "ein Fenster", "gloss": "a window", "note": "neuter" }
+      ],
+      "paradigms": [
+        {
+          "caption": "The two articles side by side, nominative",
+          "columns": ["Gender", "Indefinite", "Definite"],
+          "rows": [
+            { "label": "masculine", "cells": ["ein", "der"] },
+            { "label": "feminine", "cells": ["eine", "die"] },
+            { "label": "neuter", "cells": ["ein", "das"] },
+            { "label": "plural", "cells": ["— (no form)", "die"] }
+          ],
+          "footnote": "The definite article distinguishes all three genders; the indefinite one collapses masculine and neuter."
+        }
+      ],
+      "seeAlso": ["noun-gender"],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§4.1.2 with Table 4.2, p. 64."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "indefinite-function",
+      "number": "40",
+      "heading": "What the two articles do",
+      "statement": "The indefinite article introduces something the hearer has not met yet; the definite article takes up something already identified. A thing named with **ein** the first time is named with **der**, **die** or **das** the second.",
+      "examples": [
+        { "target": "Ich sehe ein Haus. Das Haus ist alt.", "gloss": "I see a house. The house is old." },
+        { "target": "Da ist eine Frau. Die Frau wartet.", "gloss": "There is a woman. The woman is waiting." }
+      ],
+      "seeAlso": ["indefinite-forms", "article-generalisation"],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "*Artikel (Wortart)*, Wikipedia (German).",
+          "url": "https://de.wikipedia.org/wiki/Artikel_(Wortart)",
+          "note": "The indefinite article „führt mithilfe der gegebenen Beschreibung ein neues Individuum ein“; the definite article „greift ein bereits erwähntes und nach der Beschreibung eindeutig bestimmbares Individuum wieder auf“."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "indefinite-no-plural",
+      "number": "41",
+      "heading": "The indefinite article has no plural",
+      "statement": "There is no plural form of **ein**: the plural of *ein Buch* is **Bücher**, standing with no article at all (¶38). The bare noun is also what German uses where English says *some* or *any*.",
+      "examples": [
+        { "target": "ein Buch — Bücher", "gloss": "a book — books" },
+        { "target": "Ich möchte Suppe.", "gloss": "I should like some soup." },
+        { "target": "Hast du Geld bei dir?", "gloss": "Have you got any money on you?" },
+        { "target": "Ich habe Äpfel gekauft.", "gloss": "I bought some apples." }
+      ],
+      "seeAlso": ["null-plural", "null-mass", "indefinite-forms"],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "Table 4.2, p. 64, which gives a plural for *kein* and none for *ein*; §4.8.7, p. 75, for the bare noun as English *some*/*any*."
+        },
+        {
+          "kind": "grammar",
+          "citation": "*Artikel (Wortart)*, Wikipedia (German).",
+          "url": "https://de.wikipedia.org/wiki/Artikel_(Wortart)",
+          "note": "„der unbestimmte Artikel im Plural stets die Nullform ∅“ — *ein Buch* against *∅ Bücher*."
         }
       ],
       "core": true
@@ -360,21 +440,92 @@
         "whether the profession requires a degree"
       ],
       "correct": 0,
-      "explanation": "A bare profession after *sein* says what someone does (¶36); once the noun is qualified and picks out an individual, the article comes back. Both nouns are feminine in -in, so gender decides nothing here (¶30).",
-      "rulesTested": ["null-profession", "feminine-in"]
+      "explanation": "A bare profession after *sein* says what someone does (¶36); once the noun is qualified and picks out an individual, the article comes back (¶40). Both nouns are feminine in -in, so gender decides nothing here (¶30).",
+      "rulesTested": ["null-profession", "feminine-in", "indefinite-function"]
+    },
+    {
+      "id": "de103-q14",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "*Tisch* is masculine and *Fenster* is neuter. Which indefinite article does each take?",
+      "options": [
+        "ein for the first, eine for the second",
+        "ein for both",
+        "einer for the first, ein for the second",
+        "eine for both"
+      ],
+      "correct": 1,
+      "explanation": "Masculine and neuter share the one form **ein** (¶39). The definite article keeps them apart — *der Tisch*, *das Fenster* — but the indefinite one does not (¶25).",
+      "rulesTested": ["indefinite-forms", "noun-gender"]
+    },
+    {
+      "id": "de103-q15",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "In front of which of these nouns does the indefinite article read **eine**?",
+      "options": ["Frau", "Tisch", "Katze", "Kind"],
+      "correct": [0, 2],
+      "explanation": "**eine** goes with feminine nouns only (¶39). *Frau* and *Katze* denote females and are feminine (¶28); *Tisch* is masculine and *Kind* is a young human and neuter (¶29), and both of those take *ein*.",
+      "rulesTested": ["indefinite-forms", "feminine-classes", "neuter-classes"]
+    },
+    {
+      "id": "de103-q16",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "*Ich sehe ein Haus. ___ Haus ist alt.* Why does the second sentence not use *ein* again?",
+      "options": [
+        "because the house has been identified by the first sentence",
+        "because *Haus* changes gender after it is mentioned",
+        "because *ein* cannot stand at the start of a sentence",
+        "because the second sentence is in the past"
+      ],
+      "correct": 0,
+      "explanation": "**ein** introduces something new; once it has been introduced, the definite article takes it up — *Das Haus ist alt* (¶40).",
+      "rulesTested": ["indefinite-function"]
+    },
+    {
+      "id": "de103-q17",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "What is the plural of *ein Buch*?",
+      "options": ["eine Bücher", "ein Bücher", "Bücher", "die Bücher"],
+      "correct": 2,
+      "explanation": "**ein** has no plural at all, so the plural is the bare noun (¶41, ¶38). *die Bücher* is good German but it is the definite plural — those are the books already known, not books in general (¶40).",
+      "rulesTested": ["indefinite-no-plural", "null-plural"]
+    },
+    {
+      "id": "de103-q18",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "English *some* and *any* have no single word behind them in German. In which of these does German simply leave the noun bare?",
+      "options": [
+        "Ich möchte Suppe.",
+        "Hast du Geld bei dir?",
+        "Ich habe Äpfel gekauft.",
+        "Die Zeit vergeht."
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "*Suppe* and *Geld* are substances taken in part (¶37) and *Äpfel* is an indefinite plural (¶41, ¶38); English would put *some* or *any* in front of each. *Die Zeit vergeht* is the opposite case — an abstract noun taken as a whole, which keeps its article (¶34).",
+      "rulesTested": ["indefinite-no-plural", "null-mass", "null-plural", "article-abstract"]
     }
   ],
   "sources": [
     {
       "kind": "grammar",
       "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
-      "note": "§4.2 (pp. 65–69) on the article with abstract nouns, §4.3.1 (pp. 69–70) on generalisations, §4.4.1 (pp. 70–71) on geographical names, §4.8.2 (pp. 74–75) on the zero article."
+      "note": "§4.1.2 with Table 4.2 (p. 64) on the indefinite article, §4.2 (pp. 65–69) on the article with abstract nouns, §4.3.1 (pp. 69–70) on generalisations, §4.4.1 (pp. 70–71) on geographical names, §4.8.2 and §4.8.7 (pp. 74–75) on the zero article."
     },
     {
       "kind": "grammar",
       "citation": "*Nullartikel*, Wikipedia (German).",
       "url": "https://de.wikipedia.org/wiki/Nullartikel",
       "note": "Cited for the predicative, mass-noun and plural uses of the zero article, and for the formulaic pairs."
+    },
+    {
+      "kind": "grammar",
+      "citation": "*Artikel (Wortart)*, Wikipedia (German).",
+      "url": "https://de.wikipedia.org/wiki/Artikel_(Wortart)",
+      "note": "Cited for what the two articles do, and for the indefinite article having no plural form."
     }
   ]
 }

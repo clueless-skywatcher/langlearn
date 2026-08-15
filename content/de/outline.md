@@ -58,11 +58,11 @@ is quoted, not assumed from the publisher.
 |---|---|---|
 | 01 | ✅ Sounds, Spelling, and the Capital Letter | the alphabet; ä ö ü and ß; long against short vowels; *ch*; word stress; capitalisation of all nouns |
 | 02 | ✅ Nouns I — Gender | Genus *der/die/das*; gender by meaning and by ending; the article of the plural |
-| 03 | ✅ The Article, and the Article That Is Not There | the definite article where English has none; country names that carry one; the Nullartikel (*Sachen*, *Ich esse gern Fleisch*, *Er ist Lehrer*) |
+| 03 | ✅ The Article, and the Article That Is Not There | the definite article where English has none; country names that carry one; the indefinite article *ein/eine/ein* and what it does; the Nullartikel (*Sachen*, *Ich esse gern Fleisch*, *Er ist Lehrer*) |
 | 04 | The Present Tense, and Verb-Second | Präsens of all Wortliste verbs; Verbzweitstellung; Nominativergänzung (*Er heißt Heinz Bartels*); Qualitativergänzung (*Der Film ist langweilig*) and the predicative adjective; Personalpronomen im Nominativ; indefinite *man* |
 | — | **Checkpoint 1** | covers 01–04 |
 | 05 | Questions, and Negation | Entscheidungsfrage (*Kaufst du heute ein?*); Ergänzungsfrage (*Wo ist Peter?*); Fragepronomen *Wer? Was?*; Negation with *nicht* and with *kein* |
-| 06 | The Plural, and the Indefinite Article | Numerus of the Wortliste nouns; *ein/eine/ein*; *kein/keine* in the plural |
+| 06 | The Plural, and kein | Numerus of the Wortliste nouns; *kein/keine* and its declension after *ein* (¶39); *kein* in the plural |
 | 07 | The Accusative | Akkusativergänzung (*Ich nehme eine Coca Cola*); *den/einen/keinen*; Personalpronomen *mich/dich/ihn/sie/es*; Fragepronomen *Wen? Was?*; Reziprokpronomen *sich/uns*; the pronouns *etwas, nichts, mehr, alles, welch-* |
 | 08 | Possessives, and Naming an Owner | *mein/dein/sein/ihr/Ihr*, *unser/euer*; demonstrative *dieser/diese/dieses*; Genitiv of proper names in the singular (*Karls Freunde*); the genitive noun phrase, receptive only (*die Nummer des Wagens*) |
 | — | **Checkpoint 2** | covers 05–08 |
@@ -126,9 +126,9 @@ for one.
 > Written up at `content/de/notes-a1-02.md`; authored as ¶24–¶32.
 
 ### 03 — The Article, and the Article That Is Not There ✅
-*Hammer 4.2 (pp. 65–69); 4.3.1 (pp. 69–70); 4.4.1 (pp. 70–71); 4.8.2 (pp. 74–75). Public source: de.wikipedia.org/wiki/Nullartikel*
+*Hammer 4.1.2 with Table 4.2 (p. 64); 4.2 (pp. 65–69); 4.3.1 (pp. 69–70); 4.4.1 (pp. 70–71); 4.8.2 and 4.8.7 (pp. 74–75). Public sources: de.wikipedia.org/wiki/Nullartikel, de.wikipedia.org/wiki/Artikel_(Wortart)*
 
-> No notes file — authored from the sources above, on your instruction. Authored as ¶33–¶38.
+> No notes file — authored from the sources above, on your instruction. Authored as ¶33–¶41.
 
 ### 04 — The Present Tense, and Verb-Second
 *Hammer 12.1 and 12.2.1–12.2.2 with Tables 12.2–12.3 (pp. 223–236); 21.1.1 and 21.2.1 (pp. 450–460); 3.1.1 with Table 3.1 (pp. 48–50); 18.1.3 and 18.6 (pp. 356, 379); 2.1.3 (p. 33); 6.1.1 (p. 119); man 5.5.18*
@@ -140,8 +140,8 @@ for one.
 
 >
 
-### 06 — The Plural, and the Indefinite Article
-*Hammer 1.2.1 (pp. 14–18); Table 4.2 (p. 64)*
+### 06 — The Plural, and kein
+*Hammer 1.2.1 (pp. 14–18); kein in Table 4.2 (p. 64); 5.5.16*
 
 >
 
