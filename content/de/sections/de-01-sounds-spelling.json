@@ -1,0 +1,1003 @@
+{
+  "id": "de-01",
+  "kind": "lesson",
+  "level": "A1",
+  "order": 1,
+  "title": "Sounds, Spelling, and the Capital Letter",
+  "summary": "The four letters German writes beyond the Latin twenty-six, the three diphthongs, what the spelling says about vowel length, the consonants that do not sound as an English reader expects, and the capital letter that marks every noun.",
+  "script": {
+    "heading": "The letters German adds to the Latin alphabet",
+    "letters": [
+      {
+        "glyph": "ä",
+        "upper": "Ä",
+        "name": "a-Umlaut",
+        "ipa": "ɛ/ɛː",
+        "approx": "the vowel of English *head*"
+      },
+      {
+        "glyph": "ö",
+        "upper": "Ö",
+        "name": "o-Umlaut",
+        "ipa": "œ/øː",
+        "approx": "front tongue, rounded lips; the vowel of French *peu*"
+      },
+      {
+        "glyph": "ü",
+        "upper": "Ü",
+        "name": "u-Umlaut",
+        "ipa": "ʏ/yː",
+        "approx": "front tongue, rounded lips; the vowel of French *mur*"
+      },
+      {
+        "glyph": "ß",
+        "name": "Eszett, scharfes s",
+        "ipa": "s",
+        "approx": "the sharp s of English *hiss*",
+        "notes": "Follows a long vowel or a diphthong, and so never opens a word."
+      }
+    ],
+    "notes": [
+      "The remaining twenty-six letters are those of the Latin alphabet.",
+      "The umlauted letters have capitals — Ä, Ö, Ü. The ß was originally a small letter only; its use as a capital is now permitted.",
+      "Three pairs of letters stand for a single vowel sound apiece: **ei** and **ai** for [aɪ], **au** for [aʊ], **eu** and **äu** for [ɔʏ]."
+    ]
+  },
+  "rules": [
+    {
+      "id": "alphabet",
+      "number": "1",
+      "heading": "The alphabet",
+      "statement": "German writes the twenty-six letters of the Latin alphabet and four more: **ä**, **ö**, **ü** and **ß**. The first three are a, o and u carrying the Umlaut; the fourth is called *Eszett* or *scharfes s*.",
+      "examples": [
+        { "target": "Äpfel", "gloss": "apples" },
+        { "target": "öffnen", "gloss": "to open" },
+        { "target": "Schlüssel", "gloss": "key" },
+        { "target": "Straße", "gloss": "street" }
+      ],
+      "core": true
+    },
+    {
+      "id": "vowel-ae",
+      "number": "2",
+      "heading": "The vowel ä",
+      "statement": "Short **ä** is [ɛ], the vowel of English *head*, and is identical with short e. Long **ä** is [ɛː] in the prescribed standard, though over much of the north it is said the same as long e.",
+      "examples": [
+        { "target": "Äpfel", "gloss": "apples", "note": "short ä" },
+        { "target": "Mädchen", "gloss": "girl", "note": "long ä" },
+        { "target": "Nähe", "gloss": "nearness" }
+      ],
+      "footnotes": [
+        "The [ɛː] pronunciation is most often kept where it distinguishes a subjunctive from an indicative — *gäbe* against *gebe*."
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§23.1.5, p. 505, for the two values of ä and the northern merger with long e."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "ae-before-r",
+      "number": "3",
+      "heading": "ä before r",
+      "statement": "Where **r** follows, **ä** is heard as the vowel of English *air*.",
+      "examples": [
+        { "target": "Ärztin", "gloss": "doctor (woman)" },
+        { "target": "März", "gloss": "March" }
+      ],
+      "seeAlso": ["vowel-ae"],
+      "core": true
+    },
+    {
+      "id": "vowel-oe",
+      "number": "4",
+      "heading": "The vowel ö",
+      "statement": "**ö** is a front vowel said with rounded lips: the tongue stands as for *e*, the lips as for *o*. It is [øː] when long and [œ] when short — the vowel of French *peu*.",
+      "examples": [
+        { "target": "schönen", "gloss": "beautiful (inflected)", "note": "long ö" },
+        { "target": "öffnen", "gloss": "to open", "note": "short ö" },
+        { "target": "fröhlich", "gloss": "cheerful" }
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "The phonetic alphabet, p. xvi: *Hölle* [œ], *Höhle* / French *peu* [øː]."
+        },
+        {
+          "kind": "grammar",
+          "citation": "*Close-mid front rounded vowel*, Wikipedia.",
+          "url": "https://en.wikipedia.org/wiki/Close-mid_front_rounded_vowel",
+          "note": "Cited for the articulation: front tongue position, close-mid height, rounded lips."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "vowel-ue",
+      "number": "5",
+      "heading": "The vowel ü",
+      "statement": "**ü** is a front vowel said with rounded lips: the tongue stands as for *i*, the lips as for *u*. It is [yː] when long and [ʏ] when short — the vowel of French *mur*.",
+      "examples": [
+        { "target": "Mühle", "gloss": "mill", "note": "long ü" },
+        { "target": "Müller", "gloss": "miller", "note": "short ü" },
+        { "target": "Schlüssel", "gloss": "key" }
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "The phonetic alphabet, p. xvi: *Fülle* [ʏ], *Mühle* / French *mur* [yː]."
+        },
+        {
+          "kind": "grammar",
+          "citation": "*Close front rounded vowel*, Wikipedia.",
+          "url": "https://en.wikipedia.org/wiki/Close_front_rounded_vowel",
+          "note": "Cited for the articulation: front tongue position, close height, rounded lips."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "eszett",
+      "number": "6",
+      "heading": "The letter ß",
+      "statement": "**ß** stands for a voiceless *s*. It follows a long vowel or a diphthong, and so never opens a word; after a short vowel the same sound is written **ss**.",
+      "examples": [
+        { "target": "Straße", "gloss": "street" },
+        { "target": "Fuß", "gloss": "foot" },
+        { "target": "Spaß", "gloss": "fun" }
+      ],
+      "footnotes": [
+        "Switzerland makes no such distinction and writes ss throughout."
+      ],
+      "seeAlso": ["vowel-length"],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§23.4, pp. 511–512, for the distribution of ss and ß and for Swiss usage."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "capital-sentence",
+      "number": "7",
+      "heading": "The capital that opens a sentence",
+      "statement": "The first word of a German sentence carries a capital letter, whatever part of speech it belongs to.",
+      "examples": [
+        { "target": "Mein Name ist Hans.", "gloss": "My name is Hans." },
+        { "target": "Dein Buch ist interessant.", "gloss": "Your book is interesting." }
+      ],
+      "core": true
+    },
+    {
+      "id": "capital-nouns",
+      "number": "8",
+      "heading": "The capital that marks a noun",
+      "statement": "Every noun carries a capital letter, wherever it stands in the sentence and without exception. A word standing in lower case inside a sentence is therefore not a noun.",
+      "examples": [
+        { "target": "Der Mann liest ein Buch.", "gloss": "The man is reading a book." },
+        { "target": "Ich mag die Katzen.", "gloss": "I like the cats." }
+      ],
+      "seeAlso": ["capital-sentence"],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§23.2.1, pp. 506–510, on capitals with nouns and proper names."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "ich-laut",
+      "number": "9",
+      "heading": "ch as the ich-Laut",
+      "statement": "After the front vowels i, e, ü and ö, after **l** and **r**, and in the suffix **-chen**, **ch** is the *ich-Laut* [ç], close to the *sh* of English *ship*.",
+      "examples": [
+        { "target": "mich", "gloss": "me" },
+        { "target": "Licht", "gloss": "light" },
+        { "target": "Milch", "gloss": "milk", "note": "after l" },
+        { "target": "echt", "gloss": "genuine" }
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§23.1.2(a)(ii), pp. 502–503, for the conditioning environment."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "ach-laut",
+      "number": "10",
+      "heading": "ch as the ach-Laut",
+      "statement": "After the back vowels a, o and u, **ch** is the *ach-Laut* [x], the other of the two values the pair carries (¶9).",
+      "examples": [
+        { "target": "Buch", "gloss": "book" },
+        { "target": "doch", "gloss": "after all" },
+        { "target": "Achtung", "gloss": "attention" }
+      ],
+      "seeAlso": ["ich-laut"],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§23.1.2(a)(i), p. 502."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "diphthong-eu",
+      "number": "11",
+      "heading": "The diphthong eu, äu",
+      "statement": "**eu** stands for [ɔʏ], the vowel of English *boy*, and not for the *ew* an English reader would supply. **äu** spells the same diphthong.",
+      "examples": [
+        { "target": "Euro", "gloss": "euro" },
+        { "target": "Leute", "gloss": "people" },
+        { "target": "Mäuse", "gloss": "mice" },
+        { "target": "Häuser", "gloss": "houses" }
+      ],
+      "footnotes": [
+        "The two spellings are distributed by derivation rather than by sound: **äu** appears where the word is related to one with **au** — *Haus*, *Häuser*; *Maus*, *Mäuse*."
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "The phonetic alphabet, p. xvi: *Mäuse* [ɔʏ]."
+        },
+        {
+          "kind": "grammar",
+          "citation": "*German orthography*, Wikipedia.",
+          "url": "https://en.wikipedia.org/wiki/German_orthography",
+          "note": "Grapheme-to-phoneme table: ⟨eu⟩, ⟨äu⟩ → [ɔʏ]."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "diphthong-ei",
+      "number": "12",
+      "heading": "The diphthong ei, ai",
+      "statement": "**ei** stands for [aɪ], the vowel of English *eye*. **ai** spells the same diphthong.",
+      "examples": [
+        { "target": "mein", "gloss": "my" },
+        { "target": "Seite", "gloss": "page, side" },
+        { "target": "Mai", "gloss": "May" },
+        { "target": "Kaiser", "gloss": "emperor" }
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "The phonetic alphabet, p. xvi: *fein* [aɪ], English *fine*."
+        },
+        {
+          "kind": "grammar",
+          "citation": "*German orthography*, Wikipedia.",
+          "url": "https://en.wikipedia.org/wiki/German_orthography",
+          "note": "Grapheme-to-phoneme table: ⟨ei⟩, ⟨ai⟩ → [aɪ]."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "spelling-ie",
+      "number": "13",
+      "heading": "The spelling ie",
+      "statement": "**ie** is not a diphthong: it stands for a single long [iː], the vowel of English *see*. It is the usual spelling for that vowel.",
+      "examples": [
+        { "target": "Lied", "gloss": "song" },
+        { "target": "Sieg", "gloss": "victory" },
+        { "target": "Miene", "gloss": "facial expression" }
+      ],
+      "footnotes": [
+        "The order of the two letters decides the sound, and the two orders are two different words: *Miene* [iː] against *meine* [aɪ] (¶12)."
+      ],
+      "seeAlso": ["diphthong-ei"],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§23.1.4(e)(iii), p. 505: long [iː] is most commonly spelled ie."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "diphthong-au",
+      "number": "14",
+      "heading": "The diphthong au",
+      "statement": "**au** stands for [aʊ], the vowel of English *mouse*.",
+      "examples": [
+        { "target": "Haus", "gloss": "house" },
+        { "target": "laut", "gloss": "loud" },
+        { "target": "Frau", "gloss": "woman" }
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "The phonetic alphabet, p. xvi: *Maus* [aʊ], English *mouse*."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "vowel-length",
+      "number": "15",
+      "heading": "Vowel length and the consonants after it",
+      "statement": "A vowel is short before a doubled consonant and usually short before a cluster of consonants; before a single consonant it is usually long. **ß** counts as a single consonant, which is what *Fuß* against *Fluss* rests on (¶6).",
+      "examples": [
+        { "target": "bitte", "gloss": "please", "note": "short before tt" },
+        { "target": "Klasse", "gloss": "class", "note": "short before ss" },
+        { "target": "geben", "gloss": "to give", "note": "long before a single b" },
+        { "target": "Tag", "gloss": "day", "note": "long before a single g" },
+        { "target": "Fuß", "gloss": "foot", "note": "long; ß counts as one consonant" },
+        { "target": "Fluss", "gloss": "river", "note": "short before ss" }
+      ],
+      "paradigms": [
+        {
+          "caption": "What follows the vowel, and how long the vowel is",
+          "columns": ["What follows", "Length", "Example"],
+          "rows": [
+            { "label": "a doubled consonant", "cells": ["short", "*Klasse*, *bitte*"] },
+            { "label": "a cluster of consonants", "cells": ["usually short", "*Gang*, *Wespe*"] },
+            { "label": "a single consonant", "cells": ["usually long", "*geben*, *Tag*"] },
+            { "label": "ß", "cells": ["long — ß counts as single", "*Fuß*, *Maße*"] }
+          ],
+          "footnote": "k is never doubled; **ck** is written instead — *Acker*, *Pack*."
+        }
+      ],
+      "footnotes": [
+        "The cluster rule has common exceptions which keep a long vowel: *Art*, *Mond*, *Jagd*, *atmen*. An inflected or derived form also keeps the length of the word it comes from — *Tag*, *Tags*; *lösen*, *löste*."
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§23.1.4(a)–(c), pp. 503–504."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "vowel-length-h",
+      "number": "16",
+      "heading": "Length written into the spelling",
+      "statement": "A long vowel can be marked by a silent **h** after it, especially before m, n, l and r, or by doubling the vowel letter. A vowel standing alone at the end of a word is long.",
+      "examples": [
+        { "target": "fahren", "gloss": "to travel" },
+        { "target": "Höhle", "gloss": "cave" },
+        { "target": "Schnee", "gloss": "snow" },
+        { "target": "Saal", "gloss": "hall" },
+        { "target": "du", "gloss": "you" },
+        { "target": "wo", "gloss": "where" }
+      ],
+      "seeAlso": ["vowel-length"],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§23.1.4(e)(i), (ii), (iv), p. 505."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "final-devoicing",
+      "number": "17",
+      "heading": "b, d and g at the end",
+      "statement": "At the end of a word or syllable, and before a consonant, **b**, **d** and **g** are said as [p], [t] and [k]. Elsewhere — at the start of a word, or between vowels — they keep their English values.",
+      "examples": [
+        { "target": "Sieb", "gloss": "sieve", "note": "[p]" },
+        { "target": "Rad", "gloss": "wheel", "note": "[t]" },
+        { "target": "Zug", "gloss": "train", "note": "[k]" },
+        { "target": "sagt", "gloss": "says", "note": "[k] before a consonant" },
+        { "target": "geben", "gloss": "to give", "note": "[b] between vowels" }
+      ],
+      "footnotes": [
+        "Across the northern two-thirds of Germany a final **g** is widely said as the *ach-Laut* or the *ich-Laut* instead — *Zug*, *sagt* (¶9, ¶10). This is not the prescribed standard."
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§23.1.1(a) and (b)(ii), p. 502."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "ending-ig",
+      "number": "18",
+      "heading": "The ending -ig",
+      "statement": "In the ending **-ig** the g is said as the *ich-Laut* [ç] (¶9), not as [k].",
+      "examples": [
+        { "target": "König", "gloss": "king" },
+        { "target": "sandig", "gloss": "sandy" },
+        { "target": "billig", "gloss": "cheap" }
+      ],
+      "seeAlso": ["ich-laut", "final-devoicing"],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§23.1.1(b)(i), p. 502."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "letter-s",
+      "number": "19",
+      "heading": "The letter s",
+      "statement": "At the start of a word before a vowel, and between vowels, **s** is voiced [z]. Everywhere else it is [s].",
+      "examples": [
+        { "target": "suchen", "gloss": "to look for", "note": "[z]" },
+        { "target": "lesen", "gloss": "to read", "note": "[z] between vowels" },
+        { "target": "Haus", "gloss": "house", "note": "[s] at the end" },
+        { "target": "lassen", "gloss": "to let", "note": "[s]" }
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§23.1.3(a)(i), p. 503."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "initial-sp-st",
+      "number": "20",
+      "heading": "sp and st at the start of a word",
+      "statement": "At the start of a word, **sp** and **st** are said [ʃp] and [ʃt] — the s becomes the *sh* sound.",
+      "examples": [
+        { "target": "spielen", "gloss": "to play" },
+        { "target": "Spaß", "gloss": "fun" },
+        { "target": "Straße", "gloss": "street" },
+        { "target": "Student", "gloss": "student" }
+      ],
+      "seeAlso": ["letter-s"],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§23.1.3(a)(ii), p. 503."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "letter-ng",
+      "number": "21",
+      "heading": "The pair ng",
+      "statement": "**ng** is always [ŋ] alone, never [ŋg]. German *Finger* has the ng of English *singer*, not the ng of English *finger*.",
+      "examples": [
+        { "target": "Finger", "gloss": "finger" },
+        { "target": "Achtung", "gloss": "attention" },
+        { "target": "singen", "gloss": "to sing" }
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§23.1.3(b), p. 503, with the *Finger* comparison."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "letters-v-w-z",
+      "number": "22",
+      "heading": "The letters v, w and z",
+      "statement": "Three letters carry values an English reader will not expect: **w** is [v], **v** is [f], and **z** is [ts].",
+      "examples": [
+        { "target": "Wasser", "gloss": "water", "note": "w = [v]" },
+        { "target": "wann", "gloss": "when", "note": "w = [v]" },
+        { "target": "Vogel", "gloss": "bird", "note": "v = [f]" },
+        { "target": "Zeit", "gloss": "time", "note": "z = [ts]" }
+      ],
+      "paradigms": [
+        {
+          "caption": "The three letters and their values",
+          "columns": ["Letter", "Value", "Example"],
+          "rows": [
+            { "label": "w", "cells": ["[v]", "*Wasser*, *wann*"] },
+            { "label": "v", "cells": ["[f]", "*Vogel*, *Vater*"] },
+            { "label": "z", "cells": ["[ts]", "*Zeit*, *zehn*"] }
+          ]
+        }
+      ],
+      "footnotes": [
+        "In loan-words that are not final, **v** keeps [v] — *Vase*, *Klavier*."
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "The phonetic alphabet, p. xvi: *wann* [v], English *van*."
+        },
+        {
+          "kind": "grammar",
+          "citation": "*German orthography*, Wikipedia.",
+          "url": "https://en.wikipedia.org/wiki/German_orthography",
+          "note": "Grapheme-to-phoneme table: ⟨v⟩ → [f] (and [v] in non-final loan-words), ⟨z⟩ → [ts]."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "word-stress",
+      "number": "23",
+      "heading": "Word stress",
+      "statement": "In most native German words the stress falls on the first syllable, and it stays on that syllable whatever endings are added to the word.",
+      "examples": [
+        { "target": "Monat", "gloss": "month" },
+        { "target": "Bruder", "gloss": "brother" },
+        { "target": "Arbeit", "gloss": "work" },
+        { "target": "Glaubhaftigkeit", "gloss": "credibility", "note": "still the first syllable" }
+      ],
+      "footnotes": [
+        "The prefixes be-, emp-, ent-, er-, ge-, ver- and zer- are never stressed, so a word carrying one is stressed on the syllable after it — *verstehen*, *Geschichte*. The suffix **-ei** is always stressed: *Bäckerei*.",
+        "The commonest native words that break the first-syllable rule are *Forelle*, *Holunder*, *Hornisse*, *Kartoffel*, *lebendig* and *Wacholder*."
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§23.1.6(a)–(c), pp. 506–507."
+        }
+      ],
+      "core": true
+    }
+  ],
+  "vocabulary": [],
+  "drills": [
+    {
+      "id": "de101-q1",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "In which word is **ch** the *ach-Laut*?",
+      "options": ["mich", "Licht", "Buch", "Kirche"],
+      "correct": 2,
+      "explanation": "*Buch* has u before the ch, and a back vowel gives the *ach-Laut* [x] (¶10). The other three have i or r in front of it, which gives the *ich-Laut* [ç] (¶9).",
+      "rulesTested": ["ach-laut", "ich-laut"]
+    },
+    {
+      "id": "de101-q2",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "In which of these is **ch** the *ich-Laut*?",
+      "options": ["doch", "welche", "Milch", "Achtung"],
+      "correct": [1, 2],
+      "explanation": "*welche* has e before the ch and *Milch* has l, and both environments give [ç] (¶9). *doch* and *Achtung* have the back vowels o and a, which give [x] (¶10).",
+      "rulesTested": ["ich-laut", "ach-laut"]
+    },
+    {
+      "id": "de101-q3",
+      "type": "matching",
+      "difficulty": "hard",
+      "stem": "Pair each word with the value **ch** carries in it and the reason.",
+      "columnHeadings": ["Word", "Value of ch"],
+      "columnI": ["Buch", "Milch", "echt", "Achtung"],
+      "columnII": [
+        "*ich-Laut* [ç], after l or r",
+        "*ich-Laut* [ç], after a front vowel",
+        "*ach-Laut* [x], after a, o or u",
+        "*ach-Laut* [x], after l or r"
+      ],
+      "options": [
+        [2, 1, 1, 2],
+        [2, 0, 1, 2],
+        [3, 0, 1, 2],
+        [2, 0, 1, 3]
+      ],
+      "correct": 1,
+      "explanation": "*Buch* and *Achtung* have back vowels before the ch, so both take [x] (¶10). *Milch* has l and *echt* has the front vowel e, so both take [ç] — but for different reasons, and the pairing has to say which (¶9). No environment gives [x] after l or r, which is what rules out the fourth label.",
+      "rulesTested": ["ich-laut", "ach-laut"]
+    },
+    {
+      "id": "de101-q4",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "In which word does **ä** have the vowel of English *air*?",
+      "options": ["Äpfel", "März", "Mädchen", "Nähe"],
+      "correct": 1,
+      "explanation": "An r after the ä gives it the *air* vowel (¶3). None of the other three has an r following, so the ä keeps its ordinary value (¶2).",
+      "rulesTested": ["ae-before-r", "vowel-ae"]
+    },
+    {
+      "id": "de101-q5",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Which English vowel is closest to the **ä** of *Äpfel*?",
+      "options": [
+        "the vowel of *head*",
+        "the vowel of *hood*",
+        "the vowel of *hard*",
+        "the vowel of *hoot*"
+      ],
+      "correct": 0,
+      "explanation": "Short ä is [ɛ], which is the vowel of *head*, and is the same sound as short e (¶2).",
+      "rulesTested": ["vowel-ae"]
+    },
+    {
+      "id": "de101-q6",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "How is the **ü** of *Müller* made?",
+      "options": [
+        "the tongue as for *u*, the lips spread as for *i*",
+        "the tongue as for *i*, the lips rounded as for *u*",
+        "the tongue as for *e*, the lips rounded as for *o*",
+        "the tongue and the lips both as for *u*"
+      ],
+      "correct": 1,
+      "explanation": "ü is a front vowel with rounded lips: the tongue is where it stands for *i*, the lips are where they stand for *u* (¶5). The third option describes ö instead (¶4), which is the confusion the two letters invite.",
+      "rulesTested": ["vowel-ue", "vowel-oe"]
+    },
+    {
+      "id": "de101-q7",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Which French word carries the vowel of German *schön*?",
+      "options": ["mur", "pas", "peu", "pot"],
+      "correct": 2,
+      "explanation": "Long ö is [øː], the vowel of French *peu* (¶4). *mur* has [yː], which is German ü (¶5).",
+      "rulesTested": ["vowel-oe", "vowel-ue"]
+    },
+    {
+      "id": "de101-q8",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "In which words is the marked vowel made with the tongue forward and the lips rounded?",
+      "options": ["öffnen", "Schlüssel", "Straße", "fröhlich"],
+      "correct": [0, 1, 3],
+      "explanation": "ö and ü are both front vowels with rounded lips (¶4, ¶5). *Straße* has a, which is neither front nor rounded.",
+      "rulesTested": ["vowel-oe", "vowel-ue"]
+    },
+    {
+      "id": "de101-q9",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Three of these could be German words as they are spelled. Which could not?",
+      "options": ["Spaß", "ßtraße", "Fuß", "Straße"],
+      "correct": 1,
+      "explanation": "ß follows a long vowel or a diphthong, so nothing can precede it at the start of a word and no German word opens with it (¶6).",
+      "rulesTested": ["eszett"]
+    },
+    {
+      "id": "de101-q10",
+      "type": "integer",
+      "difficulty": "easy",
+      "stem": "German writes the twenty-six letters of the Latin alphabet and adds some of its own. How many letters does the German alphabet add?",
+      "answer": 4,
+      "unit": "letters",
+      "explanation": "ä, ö, ü and ß (¶1).",
+      "rulesTested": ["alphabet"]
+    },
+    {
+      "id": "de101-q11",
+      "type": "multi",
+      "difficulty": "easy",
+      "stem": "Which of these letters does German write in addition to the Latin twenty-six?",
+      "options": ["ä", "ø", "ß", "ü"],
+      "correct": [0, 2, 3],
+      "explanation": "German adds ä, ö, ü and ß (¶1). The ø belongs to Danish and Norwegian; German rounds the same vowel with the Umlaut instead, as ö (¶4).",
+      "rulesTested": ["alphabet"]
+    },
+    {
+      "id": "de101-q12",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which words in **Ich mag die Katzen** are nouns?",
+      "options": ["Ich", "mag", "die", "Katzen"],
+      "correct": [3],
+      "explanation": "*Katzen* carries a capital inside the sentence, which only a noun does (¶8). *Ich* carries one because it opens the sentence, and that says nothing about its part of speech (¶7).",
+      "rulesTested": ["capital-nouns", "capital-sentence"]
+    },
+    {
+      "id": "de101-q13",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "A word stands in the middle of a German sentence in lower case. What does that establish?",
+      "options": [
+        "it is not a noun",
+        "it is a noun of a kind that keeps its small letter",
+        "it opens a subordinate clause",
+        "it is a proper name"
+      ],
+      "correct": 0,
+      "explanation": "Nouns take a capital without exception, so a small letter inside a sentence rules the word out as a noun (¶8).",
+      "rulesTested": ["capital-nouns"]
+    },
+    {
+      "id": "de101-q14",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "In **Dein Buch ist interessant**, why does *Dein* carry a capital?",
+      "options": [
+        "because it is a noun",
+        "because it stands first in the sentence",
+        "because it belongs to a noun",
+        "because it is addressed to a person"
+      ],
+      "correct": 1,
+      "explanation": "The first word of a sentence is capitalised whatever its part of speech (¶7). *Buch* in the same sentence carries its capital for the other reason — it is a noun (¶8).",
+      "rulesTested": ["capital-sentence", "capital-nouns"]
+    },
+    {
+      "id": "de101-q15",
+      "type": "matching",
+      "difficulty": "hard",
+      "stem": "Pair each word with the sound of its marked vowel.",
+      "columnHeadings": ["Word", "Vowel"],
+      "columnI": ["Äpfel", "öffnen", "Müller", "März"],
+      "columnII": [
+        "the vowel of English *head*",
+        "front tongue, rounded lips — as in French *peu*",
+        "front tongue, rounded lips — as in French *mur*",
+        "the vowel of English *air*",
+        "the vowel of English *hoot*"
+      ],
+      "options": [
+        [0, 2, 1, 3],
+        [3, 1, 2, 0],
+        [0, 1, 2, 3],
+        [0, 1, 2, 4]
+      ],
+      "correct": 2,
+      "explanation": "ö goes with *peu* and ü with *mur*, and swapping them is the first wrong pairing (¶4, ¶5). *Äpfel* has plain short ä (¶2) while *März* has the r that turns it into the *air* vowel (¶3).",
+      "rulesTested": ["vowel-ae", "ae-before-r", "vowel-oe", "vowel-ue"]
+    },
+    {
+      "id": "de101-q16",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Which English word carries the vowel of German *Leute*?",
+      "options": ["lout", "loot", "boy", "late"],
+      "correct": 2,
+      "explanation": "**eu** is [ɔʏ], the vowel of *boy* — not the *ew* the spelling suggests to an English reader (¶11).",
+      "rulesTested": ["diphthong-eu"]
+    },
+    {
+      "id": "de101-q17",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "In which words does the spelling stand for [ɔʏ]?",
+      "options": ["Euro", "Häuser", "Bauer", "Mäuse"],
+      "correct": [0, 1, 3],
+      "explanation": "**eu** and **äu** both spell [ɔʏ] (¶11). *Bauer* has **au**, which is [aʊ] (¶14) — the Umlaut over the a is exactly what separates the two.",
+      "rulesTested": ["diphthong-eu", "diphthong-au"]
+    },
+    {
+      "id": "de101-q18",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "German **mein** rhymes with which English word?",
+      "options": ["mine", "mean", "main", "men"],
+      "correct": 0,
+      "explanation": "**ei** is [aɪ], the vowel of *eye* (¶12).",
+      "rulesTested": ["diphthong-ei"]
+    },
+    {
+      "id": "de101-q19",
+      "type": "matching",
+      "difficulty": "hard",
+      "stem": "Pair each word with the vowel its spelling stands for.",
+      "columnHeadings": ["Word", "Vowel"],
+      "columnI": ["Lied", "Seite", "Miene", "Mai"],
+      "columnII": [
+        "[iː], the vowel of English *see*",
+        "[aɪ], the vowel of English *eye*",
+        "[ɔʏ], the vowel of English *boy*",
+        "[aʊ], the vowel of English *how*"
+      ],
+      "options": [
+        [0, 1, 1, 1],
+        [1, 0, 0, 1],
+        [0, 1, 0, 1],
+        [0, 1, 0, 3]
+      ],
+      "correct": 2,
+      "explanation": "**ie** is a single long [iː] (¶13); **ei** and **ai** are both the diphthong [aɪ] (¶12). So *Lied* and *Miene* go together, and *Seite* and *Mai* go together — the order of the two letters is the whole difference.",
+      "rulesTested": ["spelling-ie", "diphthong-ei"]
+    },
+    {
+      "id": "de101-q20",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "*Miene* and *meine* are two different words. How do they differ in sound?",
+      "options": [
+        "*Miene* has [aɪ], *meine* has [iː]",
+        "*Miene* has [iː], *meine* has [aɪ]",
+        "both have [iː]; only the spelling differs",
+        "both have [aɪ]; only the spelling differs"
+      ],
+      "correct": 1,
+      "explanation": "**ie** is long [iː] (¶13) and **ei** is the diphthong [aɪ] (¶12), so reversing the two letters changes the vowel outright.",
+      "rulesTested": ["spelling-ie", "diphthong-ei"]
+    },
+    {
+      "id": "de101-q21",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Which word carries the vowel of English *mouse*?",
+      "options": ["Leute", "laut", "Lied", "Läufer"],
+      "correct": 1,
+      "explanation": "**au** is [aʊ] (¶14). *Leute* and *Läufer* have [ɔʏ] (¶11) and *Lied* has [iː] (¶13).",
+      "rulesTested": ["diphthong-au", "diphthong-eu"]
+    },
+    {
+      "id": "de101-q22",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "In which of these words is the vowel short?",
+      "options": ["Tag", "geben", "bitte", "Mut"],
+      "correct": 2,
+      "explanation": "A doubled consonant makes the vowel before it short, and *bitte* has tt (¶15). The other three have a single consonant after the vowel, which usually leaves it long.",
+      "rulesTested": ["vowel-length"]
+    },
+    {
+      "id": "de101-q23",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "*Fuß* and *Fluss* end in the same sound, spelled differently. What does the difference in spelling record?",
+      "options": [
+        "the vowel of *Fuß* is long and the vowel of *Fluss* is short",
+        "the vowel of *Fuß* is short and the vowel of *Fluss* is long",
+        "*Fluss* is the plural of *Fuß*",
+        "nothing about the sound; the two spellings are regional variants"
+      ],
+      "correct": 0,
+      "explanation": "ß follows a long vowel and ss a short one (¶6), and this is the same rule as the one that makes a vowel short before a doubled consonant (¶15): ß counts as a single consonant, ss as a double one.",
+      "rulesTested": ["eszett", "vowel-length"]
+    },
+    {
+      "id": "de101-q24",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "In which words does the spelling mark the vowel as long?",
+      "options": ["fahren", "Schnee", "Klasse", "wo"],
+      "correct": [0, 1, 3],
+      "explanation": "A silent h marks length in *fahren*, a doubled vowel letter in *Schnee*, and a vowel alone at the end of a word is long in *wo* (¶16). *Klasse* has a doubled consonant, which makes the vowel short (¶15).",
+      "rulesTested": ["vowel-length-h", "vowel-length"]
+    },
+    {
+      "id": "de101-q25",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "How does the **d** of *Rad* sound?",
+      "options": ["[d]", "[t]", "[s]", "it is silent"],
+      "correct": 1,
+      "explanation": "b, d and g are said as [p], [t] and [k] at the end of a word (¶17). In *Rades*, where the d falls between vowels, it is [d] again.",
+      "rulesTested": ["final-devoicing"]
+    },
+    {
+      "id": "de101-q26",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "In which words does the marked consonant lose its voice?",
+      "options": ["Sieb", "Zug", "geben", "sagt"],
+      "correct": [0, 1, 3],
+      "explanation": "*Sieb* and *Zug* end in b and g, and the g of *sagt* stands before a consonant; all three are said [p], [k], [k] (¶17). In *geben* the b falls between vowels and stays [b].",
+      "rulesTested": ["final-devoicing"]
+    },
+    {
+      "id": "de101-q27",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "How does *König* end?",
+      "options": [
+        "with the *ich-Laut* [ç]",
+        "with [k], as b, d and g do at the end of a word",
+        "with [g], as in English",
+        "with the *ach-Laut* [x]"
+      ],
+      "correct": 0,
+      "explanation": "The ending **-ig** takes the *ich-Laut* (¶18), which is the exception to the rule that a final g is [k] (¶17). It is the *ich-Laut* rather than the *ach-Laut* because the vowel before it is i (¶9).",
+      "rulesTested": ["ending-ig", "final-devoicing", "ich-laut"]
+    },
+    {
+      "id": "de101-q28",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "In which word is **s** voiced, as the z of English *zero*?",
+      "options": ["lassen", "lesen", "Haus", "Wespe"],
+      "correct": 1,
+      "explanation": "s between vowels is [z] (¶19). In *lassen* it is doubled, in *Haus* it is final, and in *Wespe* it stands before a consonant — all [s].",
+      "rulesTested": ["letter-s"]
+    },
+    {
+      "id": "de101-q29",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "How does *Straße* begin?",
+      "options": ["[st]", "[ʃt]", "[s]", "[ʃ]"],
+      "correct": 1,
+      "explanation": "At the start of a word, st is [ʃt] (¶20). The same word ends in ß, which marks the vowel before it as long (¶6, ¶15).",
+      "rulesTested": ["initial-sp-st", "eszett"]
+    },
+    {
+      "id": "de101-q30",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "German *Finger* and English *finger* are spelled alike. How does the German **ng** differ?",
+      "options": [
+        "it is [ŋ] alone, as in English *singer*",
+        "it is [ŋg], with the g sounded separately",
+        "it is [n] followed by [g], as two sounds",
+        "the g is silent and the n is lengthened"
+      ],
+      "correct": 0,
+      "explanation": "ng is always [ŋ] in German and never [ŋg] (¶21), so *Finger* has the ng of *singer* rather than of *finger*.",
+      "rulesTested": ["letter-ng"]
+    },
+    {
+      "id": "de101-q31",
+      "type": "matching",
+      "difficulty": "hard",
+      "stem": "Pair each word with the sound its marked consonant carries.",
+      "columnHeadings": ["Word", "Sound"],
+      "columnI": ["Wasser", "Vogel", "Zeit", "Sonne"],
+      "columnII": ["[v]", "[f]", "[ts]", "[z]", "[ʃ]"],
+      "options": [
+        [1, 0, 2, 3],
+        [0, 1, 2, 3],
+        [0, 1, 3, 2],
+        [0, 1, 2, 4]
+      ],
+      "correct": 1,
+      "explanation": "w is [v] and v is [f], and swapping them is the first wrong pairing (¶22). *Sonne* opens with s before a vowel, which is [z] (¶19).",
+      "rulesTested": ["letters-v-w-z", "letter-s"]
+    },
+    {
+      "id": "de101-q32",
+      "type": "integer",
+      "difficulty": "medium",
+      "stem": "Native German words are stressed on one syllable, and adding endings does not move it. Counting from the left, which syllable of **Glaubhaftigkeit** carries the stress?",
+      "answer": 1,
+      "unit": "syllable",
+      "explanation": "The stress is on *Glaub-*, the first syllable, exactly where it falls in *glauben* — the endings piled on after it change nothing (¶23).",
+      "rulesTested": ["word-stress"]
+    },
+    {
+      "id": "de101-q33",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "*Arbeit* is stressed on its first syllable. Where is *verstehen* stressed?",
+      "options": [
+        "on the first syllable, *ver-*",
+        "on the second syllable, *-ste-*",
+        "on the last syllable, *-hen*",
+        "evenly, with no stressed syllable"
+      ],
+      "correct": 1,
+      "explanation": "The first-syllable rule holds for native words, but ver- is one of the prefixes that is never stressed, so the stress falls on the syllable after it (¶23).",
+      "rulesTested": ["word-stress"]
+    }
+  ],
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+      "note": "§§23.1.1–23.1.6 (pp. 502–507) on spelling and pronunciation, §23.2.1 (pp. 506–510) on capitals, §23.4 (pp. 511–512) on ss and ß."
+    },
+    {
+      "kind": "grammar",
+      "citation": "*German orthography*, Wikipedia.",
+      "url": "https://en.wikipedia.org/wiki/German_orthography",
+      "note": "Cited for the grapheme-to-phoneme table behind the diphthongs and the values of v, w and z."
+    }
+  ]
+}

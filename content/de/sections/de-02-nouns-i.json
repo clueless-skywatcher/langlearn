@@ -1,0 +1,483 @@
+{
+  "id": "de-02",
+  "kind": "lesson",
+  "level": "A1",
+  "order": 2,
+  "title": "Nouns I — Gender",
+  "summary": "The three genders a German noun can belong to, the article that shows which, the classes of meaning and the endings that predict it, and the one article the plural takes whatever the gender.",
+  "rules": [
+    {
+      "id": "noun-definition",
+      "number": "24",
+      "heading": "What a noun is",
+      "statement": "Nouns name people, creatures, places, things and qualities. In German every one of them is written with a capital letter (¶8).",
+      "examples": [
+        { "target": "Apfel", "gloss": "apple" },
+        { "target": "Buch", "gloss": "book" },
+        { "target": "Katze", "gloss": "cat" }
+      ],
+      "seeAlso": ["capital-nouns"],
+      "core": false
+    },
+    {
+      "id": "noun-gender",
+      "number": "25",
+      "heading": "The three genders",
+      "statement": "Every German noun belongs to one of three genders — masculine (*das Maskulinum*), feminine (*das Femininum*) or neuter (*das Neutrum*) — and the definite article in front of it shows which: **der**, **die** or **das**. The gender is a property of the noun rather than of the thing it names, so words for inanimate things carry all three.",
+      "examples": [
+        { "target": "der Mann", "gloss": "the man", "note": "masculine" },
+        { "target": "der Apfel", "gloss": "the apple", "note": "masculine, and not a male" },
+        { "target": "die Frau", "gloss": "the woman", "note": "feminine" },
+        { "target": "die Tasche", "gloss": "the bag", "note": "feminine" },
+        { "target": "das Kind", "gloss": "the child", "note": "neuter" },
+        { "target": "das Essen", "gloss": "the food", "note": "neuter" }
+      ],
+      "paradigms": [
+        {
+          "caption": "The three genders and their articles",
+          "columns": ["Gender", "Article", "Example"],
+          "rows": [
+            { "label": "das Maskulinum", "cells": ["der", "*der Tisch*"] },
+            { "label": "das Femininum", "cells": ["die", "*die Wand*"] },
+            { "label": "das Neutrum", "cells": ["das", "*das Fenster*"] }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§1.1, p. 1: grammatical gender is not natural gender, with *der Tisch*, *die Wand*, *das Fenster*."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "plural-die",
+      "number": "26",
+      "heading": "The article of the plural",
+      "statement": "In the plural all three genders take the one article **die**. Gender is distinguished in the singular only.",
+      "examples": [
+        { "target": "der Apfel — die Äpfel", "gloss": "the apple — the apples" },
+        { "target": "die Katze — die Katzen", "gloss": "the cat — the cats" },
+        { "target": "das Kind — die Kinder", "gloss": "the child — the children" }
+      ],
+      "seeAlso": ["noun-gender"],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§1.1, p. 1: *die Tische*, *die Wände*, *die Fenster*."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "masculine-classes",
+      "number": "27",
+      "heading": "Classes of meaning that are masculine",
+      "statement": "Nouns denoting male humans and animals are masculine, and so are the months, the days of the week, and the points of the compass.",
+      "examples": [
+        { "target": "der Hund", "gloss": "the dog" },
+        { "target": "der Mann", "gloss": "the man" },
+        { "target": "der Arzt", "gloss": "the doctor" },
+        { "target": "der Kater", "gloss": "the tomcat" },
+        { "target": "der Vater", "gloss": "the father" },
+        { "target": "der Montag", "gloss": "Monday" },
+        { "target": "der Februar", "gloss": "February" },
+        { "target": "der Norden", "gloss": "the north" },
+        { "target": "der Süden", "gloss": "the south" }
+      ],
+      "paradigms": [
+        {
+          "caption": "Masculine by meaning",
+          "columns": ["Class", "Examples"],
+          "rows": [
+            { "label": "male humans and animals", "cells": ["*der Hund*, *der Mann*, *der Arzt*, *der Kater*, *der Vater*"] },
+            { "label": "days of the week and months", "cells": ["*der Montag*, *der Februar*"] },
+            { "label": "points of the compass", "cells": ["*der Norden*, *der Süden*"] }
+          ]
+        }
+      ],
+      "footnotes": [
+        "Diminutives in **-chen** and **-lein** are neuter whatever they denote (¶29), so *das Bübchen* stands beside *der Bube*."
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§1.1.1(a)–(c) and Table 1.1, pp. 2–3."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "feminine-classes",
+      "number": "28",
+      "heading": "Classes of meaning that are feminine",
+      "statement": "Nouns denoting female humans and animals are feminine, and so are the names of aeroplanes, motorbikes and ships, and the names of the numerals used as nouns.",
+      "examples": [
+        { "target": "die Frau", "gloss": "the woman" },
+        { "target": "die Katze", "gloss": "the cat" },
+        { "target": "die Mutter", "gloss": "the mother" },
+        { "target": "die Boeing", "gloss": "the Boeing" },
+        { "target": "die Cessna", "gloss": "the Cessna" },
+        { "target": "die „Bismarck“", "gloss": "the Bismarck", "note": "a ship" },
+        { "target": "die Eins", "gloss": "the number one" },
+        { "target": "die Tausend", "gloss": "the number a thousand" }
+      ],
+      "paradigms": [
+        {
+          "caption": "Feminine by meaning",
+          "columns": ["Class", "Examples"],
+          "rows": [
+            { "label": "female humans and animals", "cells": ["*die Frau*, *die Katze*, *die Mutter*"] },
+            { "label": "aeroplanes, motorbikes, ships", "cells": ["*die Boeing*, *die Cessna*, *die Honda*, *die „Bismarck“*, *die „Bremen“*"] },
+            { "label": "the numerals as nouns", "cells": ["*die Eins*, *die Vier*, *die Tausend*"] }
+          ]
+        }
+      ],
+      "footnotes": [
+        "Some vehicle names keep the gender of the word they are built on: *der Airbus*, because of *der Bus*.",
+        "*die BMW* is the motorbike; *der BMW* is the car (¶27)."
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§1.1.2(a), (b), (d) and Table 1.1, pp. 3–4, for the vehicle names and the numerals."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "neuter-classes",
+      "number": "29",
+      "heading": "Classes of meaning that are neuter",
+      "statement": "Nouns denoting the young of humans and animals are neuter, and so are the letters of the alphabet and the names of hotels, cafés, restaurants and cinemas.",
+      "examples": [
+        { "target": "das Kind", "gloss": "the child" },
+        { "target": "das Baby", "gloss": "the baby" },
+        { "target": "das Mädchen", "gloss": "the girl", "note": "neuter although it denotes a female" },
+        { "target": "das A", "gloss": "the letter A" },
+        { "target": "das B", "gloss": "the letter B" },
+        { "target": "das Taj", "gloss": "the Taj" },
+        { "target": "das Hilton", "gloss": "the Hilton" },
+        { "target": "das Roxy", "gloss": "the Roxy", "note": "a cinema" },
+        { "target": "das Airbnb", "gloss": "the Airbnb", "note": "a brand name used of the lodging itself" }
+      ],
+      "paradigms": [
+        {
+          "caption": "Neuter by meaning",
+          "columns": ["Class", "Examples"],
+          "rows": [
+            { "label": "young humans and animals", "cells": ["*das Kind*, *das Baby*, *das Lamm*, *das Ferkel*"] },
+            { "label": "letters of the alphabet", "cells": ["*das A*, *das B*, *das Ypsilon*"] },
+            { "label": "hotels, cafés, restaurants, cinemas", "cells": ["*das „Taj“*, *das „Hilton“*, *das „Kranzler“*, *das „Roxy“*"] }
+          ],
+          "footnote": "In Swiss usage the letters are masculine — *der A*."
+        }
+      ],
+      "footnotes": [
+        "*das Mädchen* is neuter because it ends in the diminutive **-chen**, and every noun in -chen and -lein is neuter whatever sex it denotes."
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§1.1.3(a), (d), (f) and Table 1.1, p. 4; §1.1.7 for -chen and -lein."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "feminine-in",
+      "number": "30",
+      "heading": "The feminine in -in",
+      "statement": "A feminine noun is formed from many masculine ones by adding **-in**, and the vowel of the stem takes the Umlaut where it can.",
+      "examples": [
+        { "target": "der Arzt — die Ärztin", "gloss": "the doctor (man) — the doctor (woman)" },
+        { "target": "der Koch — die Köchin", "gloss": "the cook (man) — the cook (woman)" },
+        { "target": "der Schauspieler — die Schauspielerin", "gloss": "the actor — the actress" },
+        { "target": "der Lehrer — die Lehrerin", "gloss": "the teacher (man) — the teacher (woman)" }
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§1.1.4(a)(i), p. 5, with *der Koch — die Köchin*, *der Lehrer — die Lehrerin*."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "mann-frau",
+      "number": "31",
+      "heading": "Nouns in -mann",
+      "statement": "A noun ending in **-mann** is masculine, and its feminine replaces that ending with **-frau** rather than adding -in (¶30).",
+      "examples": [
+        { "target": "der Kaufmann — die Kauffrau", "gloss": "the businessman — the businesswoman" },
+        { "target": "der Milchmann — die Milchfrau", "gloss": "the milkman — the milkwoman" },
+        { "target": "der Zimmermann", "gloss": "the carpenter", "note": "masculine by its ending" }
+      ],
+      "seeAlso": ["feminine-in"],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§1.1.4(a)(i), p. 5: *der Kaufmann — die Kauffrau*, *der Milchmann — die Milchfrau*; the form *Amtmännin* is obsolete."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "masculine-endings",
+      "number": "32",
+      "heading": "Endings that mark a noun masculine",
+      "statement": "Eight endings mark a noun as masculine, whatever it denotes.",
+      "examples": [
+        { "target": "der Konsonant", "gloss": "the consonant" },
+        { "target": "der Teppich", "gloss": "the carpet" },
+        { "target": "der Liebling", "gloss": "the favourite" },
+        { "target": "der Motor", "gloss": "the engine" }
+      ],
+      "paradigms": [
+        {
+          "caption": "Masculine endings",
+          "columns": ["Ending", "Example"],
+          "rows": [
+            { "label": "-ant", "cells": ["*der Konsonant*"] },
+            { "label": "-ast", "cells": ["*der Kontrast*"] },
+            { "label": "-ich", "cells": ["*der Teppich*"] },
+            { "label": "-ig", "cells": ["*der Honig*"] },
+            { "label": "-ismus", "cells": ["*der Sozialismus*"] },
+            { "label": "-ling", "cells": ["*der Liebling*"] },
+            { "label": "-or", "cells": ["*der Motor*"] },
+            { "label": "-us", "cells": ["*der Rhythmus*"] }
+          ],
+          "footnote": "Common exceptions: *das Labor*, *das Genus*, *das Tempus*."
+        }
+      ],
+      "footnotes": [
+        "Nouns formed from strong verbs without a suffix are masculine too — *der Fall*, *der Gang*, *der Sprung*, *der Wurf*."
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "Table 1.2, p. 7, and §1.1.5(a)–(b), pp. 7–8."
+        }
+      ],
+      "core": true
+    }
+  ],
+  "vocabulary": [
+    { "lemma": "Apfel", "gloss": "apple", "pos": "noun", "forms": { "nom": "Apfel", "plural": "Äpfel", "gender": "m." } },
+    { "lemma": "Katze", "gloss": "cat", "pos": "noun", "forms": { "nom": "Katze", "plural": "Katzen", "gender": "f." } },
+    { "lemma": "Kind", "gloss": "child", "pos": "noun", "forms": { "nom": "Kind", "plural": "Kinder", "gender": "n." } },
+    { "lemma": "Mann", "gloss": "man", "pos": "noun", "forms": { "nom": "Mann", "gender": "m." } },
+    { "lemma": "Frau", "gloss": "woman", "pos": "noun", "forms": { "nom": "Frau", "gender": "f." } },
+    { "lemma": "Montag", "gloss": "Monday", "pos": "noun", "forms": { "nom": "Montag", "gender": "m." } },
+    { "lemma": "Norden", "gloss": "north", "pos": "noun", "forms": { "nom": "Norden", "gender": "m." } },
+    { "lemma": "Teppich", "gloss": "carpet", "pos": "noun", "forms": { "nom": "Teppich", "gender": "m." } },
+    { "lemma": "Motor", "gloss": "engine", "pos": "noun", "forms": { "nom": "Motor", "gender": "m." } },
+    { "lemma": "Mädchen", "gloss": "girl", "pos": "noun", "forms": { "nom": "Mädchen", "gender": "n." } }
+  ],
+  "drills": [
+    {
+      "id": "de102-q1",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "German has three genders. Which article marks the neuter?",
+      "options": ["der", "die", "das", "den"],
+      "correct": 2,
+      "explanation": "*das* is the neuter article — *das Fenster* (¶25). *der* is masculine and *die* feminine.",
+      "rulesTested": ["noun-gender"]
+    },
+    {
+      "id": "de102-q2",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "*Tasche* takes **die**, *Apfel* takes **der**, and *Essen* takes **das**. None of the three is a person. What does that establish?",
+      "options": [
+        "gender belongs to the noun, not to the thing it names",
+        "gender is decided by the first letter of the noun",
+        "nouns for things are neuter unless they are borrowed",
+        "these three nouns are irregular"
+      ],
+      "correct": 0,
+      "explanation": "Grammatical gender is a classification of nouns and is not natural gender, so words for inanimate things are spread across all three (¶25).",
+      "rulesTested": ["noun-gender"]
+    },
+    {
+      "id": "de102-q3",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "*das Kind* becomes *die Kinder* in the plural. What is the plural article of *der Apfel*?",
+      "options": ["der", "die", "das", "it takes no article"],
+      "correct": 1,
+      "explanation": "Every plural takes **die**, whatever the gender of the singular (¶26).",
+      "rulesTested": ["plural-die"]
+    },
+    {
+      "id": "de102-q4",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "In which of these is **die** there because the noun is plural rather than because it is feminine?",
+      "options": ["die Frau", "die Kinder", "die Äpfel", "die Mutter"],
+      "correct": [1, 2],
+      "explanation": "*Kind* is neuter and *Apfel* masculine, so in both the **die** can only be the plural article (¶26). *Frau* and *Mutter* are feminine singulars, where **die** is the gender article (¶25).",
+      "rulesTested": ["plural-die", "noun-gender"]
+    },
+    {
+      "id": "de102-q5",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Which of these nouns is masculine?",
+      "options": ["Montag", "Frau", "Mädchen", "Eins"],
+      "correct": 0,
+      "explanation": "The days of the week are masculine (¶27). *Frau* and *Eins* are feminine (¶28) and *Mädchen* is neuter (¶29).",
+      "rulesTested": ["masculine-classes"]
+    },
+    {
+      "id": "de102-q6",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which of these nouns take **der**?",
+      "options": ["Norden", "Süden", "Katze", "Kater"],
+      "correct": [0, 1, 3],
+      "explanation": "The points of the compass are masculine, and so are male animals — *der Kater* is the tomcat (¶27). *die Katze* is the female, and the word for the species besides (¶28).",
+      "rulesTested": ["masculine-classes", "feminine-classes"]
+    },
+    {
+      "id": "de102-q7",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "*Boeing*, *Cessna* and *„Bismarck“* are the names of two aircraft and a ship. Which article do they take?",
+      "options": ["der", "die", "das", "each keeps the gender of its country of origin"],
+      "correct": 1,
+      "explanation": "Aeroplanes, motorbikes and ships are feminine (¶28). *der Airbus* is the exception that proves the shape of the rule: it keeps the gender of *der Bus*.",
+      "rulesTested": ["feminine-classes"]
+    },
+    {
+      "id": "de102-q8",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Which of these nouns is feminine?",
+      "options": ["Kater", "Boeing", "Hilton", "Februar"],
+      "correct": 1,
+      "explanation": "An aeroplane name is feminine (¶28). *Kater* is a male animal and *Februar* a month, both masculine (¶27); *Hilton* is a hotel, and hotels are neuter (¶29).",
+      "rulesTested": ["feminine-classes", "masculine-classes", "neuter-classes"]
+    },
+    {
+      "id": "de102-q9",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "*Mädchen* denotes a girl but is not feminine. Why is it neuter?",
+      "options": [
+        "because it ends in the diminutive -chen",
+        "because it is a loan-word",
+        "because it can also denote a boy",
+        "because it has no plural"
+      ],
+      "correct": 0,
+      "explanation": "Every noun in **-chen** and **-lein** is neuter whatever sex it denotes, and the young are neuter in any case (¶29). The ending outranks the meaning.",
+      "rulesTested": ["neuter-classes"]
+    },
+    {
+      "id": "de102-q10",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which of these nouns take **das**?",
+      "options": ["Kind", "A", "Roxy", "Mutter"],
+      "correct": [0, 1, 2],
+      "explanation": "The young, the letters of the alphabet, and the names of cinemas are all neuter (¶29). *Mutter* denotes a female and is feminine (¶28).",
+      "rulesTested": ["neuter-classes", "feminine-classes"]
+    },
+    {
+      "id": "de102-q11",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "What is the feminine of *der Schauspieler*?",
+      "options": [
+        "die Schauspielerin",
+        "die Schauspielfrau",
+        "die Schauspieler",
+        "das Schauspielerin"
+      ],
+      "correct": 0,
+      "explanation": "The feminine is formed with **-in** (¶30). The -frau ending belongs only to nouns in -mann (¶31), and a noun in -in is feminine, so it cannot take *das*.",
+      "rulesTested": ["feminine-in"]
+    },
+    {
+      "id": "de102-q12",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "What is the feminine of *der Kaufmann*?",
+      "options": ["die Kaufmannin", "die Kaufmännin", "die Kauffrau", "die Kaufmanin"],
+      "correct": 2,
+      "explanation": "A noun in **-mann** replaces that ending with **-frau** (¶31); it does not add -in the way *der Arzt* does (¶30). The Umlaut in the second option is the trap for a learner applying ¶30 here.",
+      "rulesTested": ["mann-frau", "feminine-in"]
+    },
+    {
+      "id": "de102-q13",
+      "type": "matching",
+      "difficulty": "hard",
+      "stem": "Pair each noun with its gender.",
+      "columnHeadings": ["Noun", "Gender"],
+      "columnI": ["Teppich", "Liebling", "Freundin", "Kind"],
+      "columnII": ["masculine", "feminine", "neuter", "masculine or feminine, by context"],
+      "options": [
+        [0, 0, 1, 2],
+        [0, 1, 1, 2],
+        [1, 0, 1, 2],
+        [0, 0, 2, 1]
+      ],
+      "correct": 0,
+      "explanation": "*Teppich* ends in -ich and *Liebling* in -ling, and both endings are masculine (¶32). *Freundin* ends in -in, which is feminine (¶30), and *Kind* is a young human and neuter (¶29). No German noun takes its gender from context, which is what rules out the fourth label.",
+      "rulesTested": ["masculine-endings", "feminine-in", "neuter-classes"]
+    },
+    {
+      "id": "de102-q14",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "How many of these nouns are masculine? — *Konsonant*, *Universität*, *Teppich*, *Bedeutung*, *Rhythmus*",
+      "answer": 3,
+      "unit": "nouns",
+      "explanation": "*Konsonant* (-ant), *Teppich* (-ich) and *Rhythmus* (-us) carry masculine endings (¶32). *Universität* and *Bedeutung* carry endings that do not appear on that list.",
+      "rulesTested": ["masculine-endings"]
+    },
+    {
+      "id": "de102-q15",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Which ending marks a noun as masculine?",
+      "options": ["-ung", "-heit", "-ling", "-keit"],
+      "correct": 2,
+      "explanation": "**-ling** is one of the eight masculine endings — *der Liebling* (¶32).",
+      "rulesTested": ["masculine-endings"]
+    },
+    {
+      "id": "de102-q16",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "**Die Katze schläft.** Which of these hold?",
+      "options": [
+        "*Katze* is a noun",
+        "*Katze* is feminine",
+        "*schläft* is a noun",
+        "*Die* is capitalised because it opens the sentence"
+      ],
+      "correct": [0, 1, 3],
+      "explanation": "*Katze* carries a capital inside the sentence, which only a noun does (¶8), and it denotes a female animal, so it is feminine (¶28). *schläft* is in lower case and therefore not a noun (¶8). *Die* is capitalised for position alone (¶7) — here it is the feminine singular article, not the plural one (¶26).",
+      "rulesTested": ["capital-nouns", "capital-sentence", "feminine-classes", "noun-gender"]
+    }
+  ],
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+      "note": "§1.1 and Table 1.1 (pp. 1–5) on gender and meaning, §1.1.4(a) (p. 5) on the feminine in -in and -frau, Table 1.2 and §1.1.5 (pp. 7–8) on the endings that mark gender."
+    }
+  ]
+}

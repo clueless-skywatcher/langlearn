@@ -1,0 +1,26 @@
+{
+  "id": "de",
+  "langCode": "de",
+  "name": "Deutsch",
+  "englishName": "German",
+  "description": "German from the sounds upward, with the syllabus fixed from outside: what belongs at A1 is what the Goethe-Institut's own examination inventory lists, neither more nor less, so that finishing the level means having met exactly what Start Deutsch 1 examines. The rules are numbered continuously and give the reason for a form rather than asserting it, and each is drilled before anything is built on it.",
+  "direction": "ltr",
+  "attribution": "Grammar written after the manner of Ivy Kellerman Reed, A Complete Grammar of Esperanto (1910): continuously numbered rules that give the reason for a usage, followed by glossed examples. The description of German follows Martin Durrell, Hammer's German Grammar and Usage, 5th edn. (Routledge, 2011), with public reference works named where they are used. The A1 syllabus is the Grammatik-Inventar of Goethe-Zertifikat A1: Start Deutsch 1 — Prüfungsziele, Testbeschreibung (Goethe-Institut, 19.04.2022). Each page carries its own citations besides.",
+  "levels": ["A1"],
+  "formLabels": {
+    "noun": [
+      { "key": "nom", "label": "singular" },
+      { "key": "plural", "label": "plural" },
+      { "key": "acc", "label": "accusative" }
+    ],
+    "adjective": [
+      { "key": "nom", "label": "singular" },
+      { "key": "plural", "label": "plural" }
+    ],
+    "verb": [
+      { "key": "inf", "label": "infinitive" },
+      { "key": "pres", "label": "present" }
+    ],
+    "pronoun": [{ "key": "nom", "label": "nominative" }]
+  }
+}
