@@ -1,0 +1,1380 @@
+{
+  "id": "de-cp-01",
+  "kind": "checkpoint",
+  "level": "A1",
+  "order": 6,
+  "title": "Checkpoint: Sounds, Gender, the Plural, the Article, and the Present",
+  "summary": "A cumulative examination of everything taught so far. Its questions are not the drills over again: each combines the rules of two sections or more, so that a sound is tested through the plural that changes it, a plural through the verb that agrees with it, and an article through the case its verb assigns. Forty-nine questions in all five examination formats, two of them reading passages.",
+  "covers": [
+    "de-01",
+    "de-02",
+    "de-03",
+    "de-04",
+    "de-05"
+  ],
+  "passThreshold": 60,
+  "drills": [
+    {
+      "id": "decp1-q1",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "de-03",
+      "stem": "*das Buch* has the plural *die Bücher*. What happens to the **ch** between the two?",
+      "options": [
+        "it goes from the ach-Laut to the ich-Laut",
+        "it goes from the ich-Laut to the ach-Laut",
+        "it is unchanged, the spelling being unchanged",
+        "it is lost before the ending"
+      ],
+      "correct": 0,
+      "explanation": "In *Buch* the **ch** follows the back vowel **u** and is the ach-Laut [x] (¶10). The **-er** plural umlauts u to ü (¶38), a front vowel, and after a front vowel **ch** is the ich-Laut [ç] (¶9). The letters are unchanged; the sound is not.",
+      "rulesTested": [
+        "ach-laut",
+        "ich-laut",
+        "plural-er"
+      ],
+      "vocabUsed": [
+        "Buch"
+      ]
+    },
+    {
+      "id": "decp1-q2",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "de-03",
+      "stem": "*das Haus* has the plural *die Häuser*. What becomes of the **s**?",
+      "options": [
+        "it becomes voiced, now standing between two vowels",
+        "it stays voiceless, as in the singular",
+        "it becomes [ʃ]",
+        "it is doubled before the ending"
+      ],
+      "correct": 0,
+      "explanation": "In *Haus* the **s** is final and voiceless; in *Häuser* it stands between two vowels and is voiced [z] (¶19). The plural adds **-er** with the Umlaut (¶38), and **au** under the Umlaut is **äu**, the diphthong [ɔʏ] (¶11).",
+      "rulesTested": [
+        "letter-s",
+        "plural-er",
+        "diphthong-eu"
+      ],
+      "vocabUsed": [
+        "Haus"
+      ]
+    },
+    {
+      "id": "decp1-q3",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "de-03",
+      "stem": "*der Tag* ends in [k], though it is written with **g**. How does *die Tage* end that syllable?",
+      "options": [
+        "with [g], the g no longer standing at the end",
+        "with [k], as in the singular",
+        "with [ç]",
+        "with [x]"
+      ],
+      "correct": 0,
+      "explanation": "**b**, **d** and **g** are said [p], [t] and [k] at the end of a word or syllable and keep their own values elsewhere (¶17). The **-e** of the plural (¶36) puts the g between vowels, where it is [g] again.",
+      "rulesTested": [
+        "final-devoicing",
+        "plural-e"
+      ],
+      "vocabUsed": [
+        "Tag"
+      ]
+    },
+    {
+      "id": "decp1-q4",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "de-03",
+      "stem": "*der Fuß* has the plural *die Füße*, still written with **ß** and not **ss**. Why?",
+      "options": [
+        "the vowel stays long, and ß is what follows a long vowel",
+        "ß is never exchanged for ss in a plural",
+        "the Umlaut requires ß",
+        "ss cannot stand between two vowels"
+      ],
+      "correct": 0,
+      "explanation": "**ß** follows a long vowel or a diphthong; after a short vowel the same sound is written **ss** (¶6), and a doubled consonant is itself the mark of a short vowel (¶15). The plural umlauts u to ü and adds **-e** (¶37); the vowel is long throughout, so the spelling has no reason to change. **ü** is the tongue of *i* with the lips of *u* (¶5).",
+      "rulesTested": [
+        "eszett",
+        "vowel-length",
+        "plural-e-umlaut",
+        "vowel-ue"
+      ]
+    },
+    {
+      "id": "decp1-q5",
+      "type": "multi",
+      "difficulty": "hard",
+      "fromSection": "de-03",
+      "stem": "*das Mädchen* is neuter and its plural is *die Mädchen*. Which of these account for that pair?",
+      "options": [
+        "the **-chen** that makes it neuter also puts it in the unchanged class",
+        "its meaning, the young of a human, makes it neuter",
+        "the plural takes **die** whatever the gender of the singular",
+        "the plural is unchanged because the noun is neuter"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "**-chen** makes a noun neuter whatever it denotes (¶29), and the diminutives in -chen belong to the class that adds nothing at all in the plural (¶34). The young of humans and animals are neuter besides (¶29), so two rules agree on the gender. Every plural takes **die** whatever the gender behind it (¶26). Being neuter does not by itself give an unchanged plural — *das Buch* has *die Bücher* (¶38).",
+      "rulesTested": [
+        "neuter-classes",
+        "plural-zero",
+        "plural-die",
+        "plural-er"
+      ],
+      "vocabUsed": [
+        "Mädchen",
+        "Buch"
+      ]
+    },
+    {
+      "id": "decp1-q6",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "de-03",
+      "stem": "*der Lehrer* has the plural *die Lehrer*, but *die Lehrerin* has *die Lehrerinnen*. What accounts for the difference?",
+      "options": [
+        "the masculine is in the unchanged class and the feminine in the -(e)n class",
+        "the feminine is irregular where the masculine is regular",
+        "the feminine doubles its n because it is the longer word",
+        "both are in one class, and *Lehrerinnen* is an exception to it"
+      ],
+      "correct": 0,
+      "explanation": "A masculine in **-er** stands unchanged in the plural (¶34). A noun in **-in** is feminine (¶30), and almost every feminine takes **-(e)n**, the **n** doubling before the ending (¶39). Neither form is exceptional; they belong to different classes.",
+      "rulesTested": [
+        "plural-zero",
+        "plural-en",
+        "feminine-in"
+      ],
+      "vocabUsed": [
+        "Lehrer"
+      ]
+    },
+    {
+      "id": "decp1-q7",
+      "type": "multi",
+      "difficulty": "hard",
+      "fromSection": "de-03",
+      "stem": "Which of these combinations does German not have?",
+      "options": [
+        "a feminine noun with an **-er** plural",
+        "a masculine noun with an **-(e)n** plural",
+        "a neuter noun with an unchanged plural",
+        "a masculine noun with an unchanged plural"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "The **-er** class holds neuter nouns and a few masculine ones, and no feminine one at all (¶38). The other three occur freely: *der Student — die Studenten* (¶39), *das Zimmer — die Zimmer* and *der Lehrer — die Lehrer* (¶34).",
+      "rulesTested": [
+        "plural-er",
+        "plural-en",
+        "plural-zero",
+        "feminine-classes"
+      ],
+      "vocabUsed": [
+        "Student",
+        "Zimmer",
+        "Lehrer"
+      ]
+    },
+    {
+      "id": "decp1-q8",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "de-02",
+      "stem": "*der Honig* ends in **-ig**. What does that ending settle, and what does it leave open?",
+      "options": [
+        "it settles both the gender and the sound of the g",
+        "it settles the gender and says nothing of the sound",
+        "it settles the sound and says nothing of the gender",
+        "it settles neither"
+      ],
+      "correct": 0,
+      "explanation": "**-ig** is one of the eight endings that mark a noun masculine (¶32), and in that ending the **g** is the ich-Laut [ç] and not [k] (¶18). It settles both at once.",
+      "rulesTested": [
+        "masculine-endings",
+        "ending-ig",
+        "ich-laut"
+      ]
+    },
+    {
+      "id": "decp1-q9",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "de-05",
+      "stem": "**Man singt gut.** Why is *man* written small when *Mann* carries a capital?",
+      "options": [
+        "*man* is a pronoun, and only nouns carry a capital inside a sentence",
+        "*man* is a verb form",
+        "*man* is an abbreviation of *Mann* and drops the capital",
+        "a pronoun keeps its capital only when it stands first"
+      ],
+      "correct": 0,
+      "explanation": "Every noun carries a capital wherever it stands, so a word in lower case inside a sentence is not a noun (¶8). *man* is the indefinite pronoun and takes the third person singular (¶65); *der Mann* is the noun.",
+      "rulesTested": [
+        "capital-nouns",
+        "pronoun-man"
+      ],
+      "vocabUsed": [
+        "man",
+        "Mann",
+        "singen"
+      ]
+    },
+    {
+      "id": "decp1-q10",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "de-05",
+      "stem": "*heißen* is spelled with **ß**, and *du heißt* takes **-t** rather than **-st**. Are the two facts connected?",
+      "options": [
+        "yes — ß is an s-sound, and a stem in an s-sound takes -t alone",
+        "no — the ß is a matter of spelling and the ending one of grammar",
+        "yes — ß may never be followed by s in German spelling",
+        "no — the -t is there because the stem ends in a long vowel"
+      ],
+      "correct": 0,
+      "explanation": "**ß** stands for a voiceless s and follows a long vowel (¶6). A stem ending in an s-sound takes **-t** alone in the second person singular, the s of **-st** having been said already (¶58) — which is why *du heißt* and *er heißt* are one form.",
+      "rulesTested": [
+        "eszett",
+        "stem-s-sound"
+      ],
+      "vocabUsed": [
+        "heißen"
+      ]
+    },
+    {
+      "id": "decp1-q11",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "de-05",
+      "stem": "The **s** of *lesen* is voiced. What is it in *du liest*?",
+      "options": [
+        "voiceless, since it no longer stands between two vowels",
+        "voiced, as in the infinitive",
+        "[ʃ], as at the start of *Straße*",
+        "silent"
+      ],
+      "correct": 0,
+      "explanation": "**s** is voiced between two vowels and voiceless elsewhere (¶19). The vowel change makes the stem *lies-* (¶61), and the ending follows the s directly (¶58), so it is voiceless there.",
+      "rulesTested": [
+        "letter-s",
+        "vowel-change",
+        "stem-s-sound"
+      ],
+      "vocabUsed": [
+        "lesen"
+      ]
+    },
+    {
+      "id": "decp1-q12",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "de-05",
+      "stem": "*sprechen* begins with **sp**. How does *du sprichst* begin?",
+      "options": [
+        "[ʃp], as the infinitive does",
+        "[sp], the vowel change having altered it",
+        "[zp]",
+        "[ʃt]"
+      ],
+      "correct": 0,
+      "explanation": "Initial **sp** is [ʃp] (¶20). The vowel change of ¶61 touches the stem vowel alone and leaves the consonants in front of it as they were.",
+      "rulesTested": [
+        "initial-sp-st",
+        "vowel-change"
+      ],
+      "vocabUsed": [
+        "sprechen"
+      ]
+    },
+    {
+      "id": "decp1-q13",
+      "type": "multi",
+      "difficulty": "medium",
+      "fromSection": "de-05",
+      "stem": "*der Lehrer* and *die Lehrer* differ in number, though the noun is the same word. What can tell a reader which is meant?",
+      "options": [
+        "the article",
+        "the verb, where the phrase stands in a sentence",
+        "the ending of the noun itself",
+        "nothing: the phrase is ambiguous in every context"
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanation": "A masculine in **-er** is unchanged in the plural (¶34), so the noun itself says nothing. The article separates them — *der* is the masculine singular (¶25) and *die* the plural whatever the gender (¶26) — and a verb agrees with its subject: *der Lehrer ist*, *die Lehrer sind* (¶62).",
+      "rulesTested": [
+        "plural-zero",
+        "plural-die",
+        "noun-gender",
+        "verb-sein"
+      ],
+      "vocabUsed": [
+        "Lehrer",
+        "sein"
+      ]
+    },
+    {
+      "id": "decp1-q14",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "de-04",
+      "stem": "**Das ist ein Buch.** Put the sentence into the plural.",
+      "options": [
+        "Das sind Bücher.",
+        "Das sind eine Bücher.",
+        "Das ist Bücher.",
+        "Das sind die Bücher."
+      ],
+      "correct": 0,
+      "explanation": "**ein** has no plural at all, so the noun stands bare (¶50, ¶47). *Buch* takes **-er** with the Umlaut (¶38). *sein* agrees with the plural: *sind* (¶62), and what follows it stands in the nominative (¶67). *die Bücher* would be definite — the books already known (¶49).",
+      "rulesTested": [
+        "indefinite-no-plural",
+        "null-plural",
+        "plural-er",
+        "verb-sein",
+        "nominative-complement",
+        "indefinite-function"
+      ],
+      "vocabUsed": [
+        "Buch",
+        "sein"
+      ]
+    },
+    {
+      "id": "decp1-q15",
+      "type": "matching",
+      "difficulty": "hard",
+      "fromSection": "de-03",
+      "stem": "Pair each singular and plural with what changes in the *sound* between them.",
+      "columnHeadings": [
+        "Singular and plural",
+        "What changes in the sound"
+      ],
+      "columnI": [
+        "das Buch — die Bücher",
+        "der Tag — die Tage",
+        "das Haus — die Häuser",
+        "der Lehrer — die Lehrer"
+      ],
+      "columnII": [
+        "the ch turns from ach-Laut to ich-Laut",
+        "the g stops being devoiced",
+        "the s becomes voiced",
+        "nothing changes at all",
+        "the stress moves onto the ending"
+      ],
+      "options": [
+        [
+          0,
+          2,
+          1,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          4
+        ],
+        [
+          4,
+          1,
+          2,
+          3
+        ]
+      ],
+      "correct": 1,
+      "explanation": "*Buch — Bücher*: the Umlaut fronts the vowel, so **ch** turns from ach-Laut to ich-Laut (¶9, ¶10, ¶38). *Tag — Tage*: the **-e** takes the g off the end of the syllable, where it was devoiced (¶17, ¶36). *Haus — Häuser*: the s comes to stand between vowels and is voiced (¶19, ¶38). *Lehrer — Lehrer*: nothing is added and nothing changes (¶34). The stress stays on the first syllable throughout, whatever the ending (¶23), which is what rules out the fifth label.",
+      "rulesTested": [
+        "ich-laut",
+        "ach-laut",
+        "final-devoicing",
+        "letter-s",
+        "plural-er",
+        "plural-e",
+        "plural-zero",
+        "word-stress"
+      ],
+      "vocabUsed": [
+        "Buch",
+        "Tag",
+        "Haus",
+        "Lehrer"
+      ]
+    },
+    {
+      "id": "decp1-q16",
+      "type": "matching",
+      "difficulty": "hard",
+      "fromSection": "de-02",
+      "stem": "Pair each noun with its gender and the way it forms its plural.",
+      "columnHeadings": [
+        "Noun",
+        "Gender and plural"
+      ],
+      "columnI": [
+        "Freundin",
+        "Vogel",
+        "Baby",
+        "Mann"
+      ],
+      "columnII": [
+        "feminine, plural in -(e)n",
+        "masculine, plural by the Umlaut alone",
+        "neuter, plural in -s",
+        "masculine, plural in -er with the Umlaut",
+        "feminine, plural in -s"
+      ],
+      "options": [
+        [
+          4,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          3,
+          2,
+          1
+        ],
+        [
+          0,
+          1,
+          3,
+          2
+        ]
+      ],
+      "correct": 1,
+      "explanation": "*Freundin* is feminine by its **-in** (¶30) and takes **-(e)n** like almost every feminine (¶39). *Vogel* is a masculine in **-el** taking the Umlaut and no ending (¶35). *Baby* is neuter as the young of a human (¶29) and takes **-s** as a word from another language (¶40). *Mann* is masculine (¶27) and takes **-er** with the Umlaut (¶38). All seven formations of ¶33 are of this kind: gender narrows the choice and never settles it.",
+      "rulesTested": [
+        "feminine-in",
+        "plural-en",
+        "plural-umlaut",
+        "plural-s",
+        "plural-er",
+        "masculine-classes",
+        "neuter-classes",
+        "plural-seven"
+      ],
+      "vocabUsed": [
+        "Vogel",
+        "Baby",
+        "Mann"
+      ]
+    },
+    {
+      "id": "decp1-q17",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "de-05",
+      "stem": "**Das Haus ist klein.** Put the sentence into the plural.",
+      "options": [
+        "Die Häuser sind klein.",
+        "Die Häuser sind kleine.",
+        "Die Häuser ist klein.",
+        "Die Hause sind klein."
+      ],
+      "correct": 0,
+      "explanation": "*Haus* takes **-er** with the Umlaut (¶38), *sein* agrees with the plural subject (¶62), and an adjective after *sein* takes no ending whatever the number of that subject (¶68).",
+      "rulesTested": [
+        "plural-er",
+        "verb-sein",
+        "predicative-adjective"
+      ],
+      "vocabUsed": [
+        "Haus",
+        "sein",
+        "klein"
+      ]
+    },
+    {
+      "id": "decp1-q18",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "de-05",
+      "stem": "**Heute arbeitet der Bäcker.** Which is the same sentence with the subject standing first?",
+      "options": [
+        "Der Bäcker arbeitet heute.",
+        "Der Bäcker heute arbeitet.",
+        "Arbeitet der Bäcker heute.",
+        "Heute der Bäcker arbeitet."
+      ],
+      "correct": 0,
+      "explanation": "The conjugated verb is the second element whatever fills the first place (¶66), so moving the subject to the front leaves *arbeitet* in second position behind it. *arbeitet* keeps the **-e-** its stem in **-t** requires (¶57).",
+      "rulesTested": [
+        "verb-second",
+        "stem-e-insertion",
+        "present-endings"
+      ],
+      "vocabUsed": [
+        "arbeiten",
+        "Bäcker"
+      ]
+    },
+    {
+      "id": "decp1-q19",
+      "type": "integer",
+      "difficulty": "medium",
+      "fromSection": "de-03",
+      "stem": "*der Lehrer*, *die Lehrerin*, *das Zimmer*, *der Vogel*, *das Baby*, *das Mädchen* — for how many of these six is the plural the same word as the singular?",
+      "answer": 3,
+      "unit": "nouns",
+      "explanation": "*Lehrer*, *Zimmer* and *Mädchen* are unchanged (¶34). *Lehrerin* takes **-nen** (¶39, ¶30), *Vogel* the Umlaut alone (¶35), *Baby* an **-s** (¶40). Nothing in the shape of a noun says which class it belongs to (¶41).",
+      "rulesTested": [
+        "plural-zero",
+        "plural-en",
+        "plural-umlaut",
+        "plural-s",
+        "feminine-in",
+        "plural-unpredictable"
+      ],
+      "vocabUsed": [
+        "Lehrer",
+        "Zimmer",
+        "Vogel",
+        "Baby",
+        "Mädchen"
+      ]
+    },
+    {
+      "id": "decp1-q20",
+      "type": "integer",
+      "difficulty": "medium",
+      "fromSection": "de-01",
+      "stem": "*Fuß*, *Fluss*, *Uhr*, *Mann*, *Bier*, *Bett*, *Boot* — in how many of these is the vowel long?",
+      "answer": 4,
+      "unit": "words",
+      "explanation": "*Fuß* has **ß**, which counts as a single consonant and follows a long vowel (¶6, ¶15); *Uhr* has a silent **h** and *Boot* a doubled vowel letter, both marks of length (¶16); *Bier* has **ie**, the usual spelling of a long [iː] (¶13). *Fluss*, *Mann* and *Bett* have doubled consonants, and a vowel is short before one (¶15).",
+      "rulesTested": [
+        "vowel-length",
+        "vowel-length-h",
+        "eszett",
+        "spelling-ie"
+      ],
+      "vocabUsed": [
+        "Mann"
+      ]
+    },
+    {
+      "id": "decp1-q21",
+      "type": "integer",
+      "difficulty": "hard",
+      "fromSection": "de-05",
+      "stem": "**Die Mädchen singen.** The noun does not say how many, but the sentence does. Of how few girls can it be speaking?",
+      "answer": 2,
+      "unit": "girls",
+      "explanation": "*Mädchen* is unchanged in the plural (¶34), so the noun alone leaves the number open. **die** and the verb in **-en** both mark a plural (¶26, ¶55), and a plural is of more than one.",
+      "rulesTested": [
+        "plural-zero",
+        "present-endings",
+        "person-number",
+        "plural-die"
+      ],
+      "vocabUsed": [
+        "Mädchen",
+        "singen"
+      ]
+    },
+    {
+      "id": "decp1-q22",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "de-01",
+      "stem": "The plural Umlaut turns **a**, **o**, **u** and **au** into **ä**, **ö**, **ü** and **äu**. What have the four results in common as sounds?",
+      "options": [
+        "each is made with the tongue further forward than the vowel it replaces",
+        "each is longer than the vowel it replaces",
+        "each is a diphthong",
+        "each draws the stress onto itself"
+      ],
+      "correct": 0,
+      "explanation": "**ö** is made with the tongue of *e* and the lips of *o*, **ü** with the tongue of *i* and the lips of *u* (¶4, ¶5); short **ä** is the vowel of English *head*, fronter than a (¶2); **äu** is [ɔʏ] (¶11). The Umlaut is a fronting of the vowel, and it is what marks the plural in ¶35, ¶37 and ¶38.",
+      "rulesTested": [
+        "vowel-oe",
+        "vowel-ue",
+        "vowel-ae",
+        "diphthong-eu",
+        "plural-umlaut"
+      ]
+    },
+    {
+      "id": "decp1-q23",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "de-01",
+      "stem": "*die Ärztin* has **ä** before **r**. How is that vowel heard?",
+      "options": [
+        "as the vowel of English *air*",
+        "as the vowel of English *head*",
+        "as a long e",
+        "as the diphthong [ɔʏ]"
+      ],
+      "correct": 0,
+      "explanation": "Where **r** follows, **ä** is the vowel of English *air* (¶3); elsewhere short ä is the vowel of *head* and identical with short e (¶2). *Ärztin* is the feminine of *der Arzt*, formed with **-in** and the Umlaut (¶30).",
+      "rulesTested": [
+        "ae-before-r",
+        "vowel-ae",
+        "feminine-in"
+      ],
+      "vocabUsed": [
+        "Arzt"
+      ]
+    },
+    {
+      "id": "decp1-q24",
+      "type": "matching",
+      "difficulty": "hard",
+      "fromSection": "de-01",
+      "stem": "Pair each plural with the sound of its marked vowel.",
+      "columnHeadings": [
+        "Plural",
+        "Its marked vowel"
+      ],
+      "columnI": [
+        "die Häuser",
+        "die Biere",
+        "die Eier",
+        "die Autos"
+      ],
+      "columnII": [
+        "[ɔʏ], as in *boy*",
+        "a long [iː], as in *see*",
+        "[aɪ], as in *eye*",
+        "[aʊ], as in *mouse*",
+        "[eɪ], as in *day*"
+      ],
+      "options": [
+        [
+          0,
+          2,
+          1,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          4,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          4
+        ]
+      ],
+      "correct": 1,
+      "explanation": "*Häuser* has **äu**, which is [ɔʏ] and the same diphthong as **eu** (¶11); *Biere* has **ie**, a single long [iː] and no diphthong at all (¶13); *Eier* has **ei**, which is [aɪ] (¶12); *Autos* has **au**, which is [aʊ] (¶14). The second pairing swaps **ie** and **ei**, the confusion those two spellings exist to invite. No German spelling stands for the [eɪ] of English *day*.",
+      "rulesTested": [
+        "diphthong-eu",
+        "spelling-ie",
+        "diphthong-ei",
+        "diphthong-au",
+        "plural-er",
+        "plural-e",
+        "plural-s",
+        "plural-die"
+      ],
+      "vocabUsed": [
+        "Haus",
+        "Auto"
+      ]
+    },
+    {
+      "id": "decp1-q25",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "de-02",
+      "stem": "German adds four letters to the twenty-six of the Latin alphabet. What article does a letter take when it is named as a noun?",
+      "options": [
+        "das",
+        "der",
+        "die",
+        "none: a letter takes no article"
+      ],
+      "correct": 0,
+      "explanation": "The letters of the alphabet are neuter — *das A*, *das Ypsilon* (¶29). The four German additions are **ä**, **ö**, **ü** and **ß** (¶1).",
+      "rulesTested": [
+        "alphabet",
+        "neuter-classes"
+      ],
+      "vocabUsed": [
+        "Alphabet",
+        "Buchstabe"
+      ]
+    },
+    {
+      "id": "decp1-q26",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "de-01",
+      "stem": "*singen* has **ng**. How is that pair said in *du singst*?",
+      "options": [
+        "[ŋ] alone, as in the infinitive",
+        "[ŋg], the ending making the g audible",
+        "[n] and then [g]",
+        "[nk]"
+      ],
+      "correct": 0,
+      "explanation": "**ng** is always [ŋ] alone and never [ŋg] (¶21). An ending is added behind the stem and does not break the pair up.",
+      "rulesTested": [
+        "letter-ng",
+        "present-endings"
+      ],
+      "vocabUsed": [
+        "singen"
+      ]
+    },
+    {
+      "id": "decp1-q27",
+      "type": "multi",
+      "difficulty": "medium",
+      "fromSection": "de-01",
+      "stem": "**Wir wohnen hier.** Which of these hold about its sounds and spellings?",
+      "options": [
+        "the **w** of *wir* is [v]",
+        "the **w** of *wohnen* is [v]",
+        "the **h** of *wohnen* is silent and marks the vowel long",
+        "the **w** is [w], as in English"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "**w** is [v] (¶22). The **h** of *wohnen* is silent and marks the vowel long (¶16), which is also why the verb takes no **-e-** before its endings: the rule wants a consonant before the n, and this h is not one (¶57). *wir* is the first person plural (¶54).",
+      "rulesTested": [
+        "letters-v-w-z",
+        "vowel-length-h",
+        "stem-e-insertion",
+        "pronouns-nom"
+      ],
+      "vocabUsed": [
+        "wohnen"
+      ]
+    },
+    {
+      "id": "decp1-q28",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "de-01",
+      "stem": "**Heute arbeitet der Bäcker.** Why does *Heute* carry a capital?",
+      "options": [
+        "because it opens the sentence",
+        "because it is a noun",
+        "because it stands in front of the verb",
+        "because adverbs of time are capitalised"
+      ],
+      "correct": 0,
+      "explanation": "The first word of a sentence carries a capital whatever part of speech it belongs to (¶7). *heute* is not a noun — inside a sentence it is written small, and a lower-case word is by that fact not a noun (¶8). Its standing first is what puts the verb second (¶66).",
+      "rulesTested": [
+        "capital-sentence",
+        "capital-nouns",
+        "verb-second"
+      ],
+      "vocabUsed": [
+        "Bäcker",
+        "arbeiten"
+      ]
+    },
+    {
+      "id": "decp1-q29",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "de-02",
+      "stem": "Two ways of making a feminine out of a masculine are at work in *die Ärztin* and *die Kauffrau*. What decides which a noun takes?",
+      "options": [
+        "whether the masculine ends in **-mann**",
+        "whether the masculine denotes a person",
+        "whether the stem vowel can take the Umlaut",
+        "whether the noun names a profession"
+      ],
+      "correct": 0,
+      "explanation": "A noun ending in **-mann** replaces that ending with **-frau** (¶31); every other masculine adds **-in**, umlauting the stem vowel where it can (¶30). Both of these are professions and both denote persons, so neither of those facts decides.",
+      "rulesTested": [
+        "mann-frau",
+        "feminine-in"
+      ],
+      "vocabUsed": [
+        "Arzt"
+      ]
+    },
+    {
+      "id": "decp1-q30",
+      "type": "multi",
+      "difficulty": "hard",
+      "fromSection": "de-04",
+      "stem": "**Tannen sind Nadelbäume.** and **Die Tanne ist ein Nadelbaum.** Which of these hold?",
+      "options": [
+        "the first has a bare indefinite plural",
+        "the second uses the definite article to present the class as a whole",
+        "*sind* and *ist* differ because the subjects differ in number",
+        "*Nadelbäume* is bare because *sein* allows no article after it"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "A plural meant indefinitely stands with no article (¶47); the definite article with the singular presents the class as a whole, where English uses a bare plural (¶42). *sein* agrees with its subject, *sind* against *ist* (¶62). It does not forbid an article after it — *ein Nadelbaum* has one, and stands in the nominative (¶67, ¶48).",
+      "rulesTested": [
+        "null-plural",
+        "article-generalisation",
+        "verb-sein",
+        "nominative-complement",
+        "indefinite-forms"
+      ],
+      "vocabUsed": [
+        "sein"
+      ]
+    },
+    {
+      "id": "decp1-q31",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "de-04",
+      "stem": "**___ Zeit vergeht, und ___ Geld ist wichtig.** Which pair fills the two gaps?",
+      "options": [
+        "**Die** … nothing at all",
+        "nothing at all … **das**",
+        "**Eine** … **ein**",
+        "nothing at all … nothing at all"
+      ],
+      "correct": 0,
+      "explanation": "An abstract noun taken as a definite whole keeps its article where English has none (¶43). A substance or an abstract taken in a vague, partial sense stands bare (¶46) — English could insert *some* in front of it. *ist* is the third person singular of *sein* (¶62), and *wichtig* after it takes no ending (¶68).",
+      "rulesTested": [
+        "article-abstract",
+        "null-mass",
+        "verb-sein",
+        "predicative-adjective"
+      ],
+      "vocabUsed": [
+        "Zeit",
+        "Geld",
+        "sein"
+      ]
+    },
+    {
+      "id": "decp1-q32",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "de-04",
+      "stem": "One of these carries its article for a different reason from the other three. Which?",
+      "options": [
+        "die Niederlande",
+        "die Schweiz",
+        "die Türkei",
+        "die Ukraine"
+      ],
+      "correct": 0,
+      "explanation": "*Schweiz*, *Türkei* and *Ukraine* are feminine singulars, and **die** in front of them is the article of their gender (¶25, ¶44). *Niederlande* is a plural name, and every plural takes **die** whatever the gender behind it (¶26).",
+      "rulesTested": [
+        "article-countries",
+        "noun-gender",
+        "plural-die"
+      ],
+      "vocabUsed": [
+        "Schweiz",
+        "Türkei"
+      ]
+    },
+    {
+      "id": "decp1-q33",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "de-04",
+      "stem": "**___ Mädchen ist hier.** and **___ Frau ist hier.** Which pair of indefinite articles fills the two gaps?",
+      "options": [
+        "ein … eine",
+        "eine … ein",
+        "ein … ein",
+        "eine … eine"
+      ],
+      "correct": 0,
+      "explanation": "*Mädchen* is neuter by its **-chen** (¶29) and takes **ein**; *Frau* denotes a female and is feminine (¶28), taking **eine** (¶48). Masculine and neuter share the one form, so *ein* here does not say which of the two the noun is.",
+      "rulesTested": [
+        "indefinite-forms",
+        "neuter-classes",
+        "feminine-classes"
+      ],
+      "vocabUsed": [
+        "Mädchen",
+        "Frau"
+      ]
+    },
+    {
+      "id": "decp1-q34",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "de-05",
+      "stem": "*sammeln* and *kaufen* both have a first person plural identical with the infinitive, yet their infinitives end differently. What follows for the ending?",
+      "options": [
+        "each takes whatever its own infinitive ends in — **-n** or **-en**",
+        "both take **-en**, the -n of *sammeln* being a contraction",
+        "both take **-n**",
+        "the ending follows the stem vowel"
+      ],
+      "correct": 0,
+      "explanation": "The first and third person plural are one form, and in every verb but *sein* that form is the infinitive itself (¶56). So a verb in **-n** takes **-n** in those two slots and one in **-en** takes **-en** (¶59, ¶55): *wir sammeln*, *wir kaufen*.",
+      "rulesTested": [
+        "plural-syncretism",
+        "infinitive-eln-ern",
+        "present-endings"
+      ],
+      "vocabUsed": [
+        "sammeln",
+        "kaufen"
+      ]
+    },
+    {
+      "id": "decp1-q35",
+      "type": "multi",
+      "difficulty": "medium",
+      "fromSection": "de-05",
+      "stem": "**Ich habe Zeit, und du hast Geld.** Which of these hold?",
+      "options": [
+        "*habe* and *hast* are forms of one verb",
+        "the second person singular drops the **-b** of the stem",
+        "*Zeit* and *Geld* stand bare, being taken in a partial sense",
+        "*hast* takes **-st** after an inserted **-e-**"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "*habe* and *hast* are both *haben*, which follows the ordinary endings except in the second and third person singular, where the **-b** of the stem drops (¶63). A substance or an abstract taken vaguely stands with no article (¶46). No **-e-** is inserted here: that belongs to stems ending in **-d** or **-t** (¶57).",
+      "rulesTested": [
+        "verb-haben",
+        "null-mass",
+        "stem-e-insertion"
+      ],
+      "vocabUsed": [
+        "haben",
+        "Zeit",
+        "Geld"
+      ]
+    },
+    {
+      "id": "decp1-q36",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "de-05",
+      "stem": "**Was machen Sie?** and **Was machen sie?** are said alike and written differently. What separates them?",
+      "options": [
+        "the capital, which marks the polite address",
+        "the form of the verb",
+        "the order of the words",
+        "nothing but a printing convention that carries no meaning"
+      ],
+      "correct": 0,
+      "explanation": "Polite **Sie** is the same word as *sie* 'they' and takes the same third person plural form of the verb (¶64, ¶54); the capital, which it keeps wherever it stands in the sentence, is the whole of the difference. A capital inside a sentence otherwise marks a noun (¶8).",
+      "rulesTested": [
+        "du-ihr-sie",
+        "pronouns-nom",
+        "capital-nouns"
+      ],
+      "vocabUsed": [
+        "machen"
+      ]
+    },
+    {
+      "id": "decp1-q37",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "de-05",
+      "stem": "*kaufen* and *laufen* differ by one letter in the infinitive and part company in the singular. Which is irregular, and in what does the irregularity consist?",
+      "options": [
+        "*laufen*, whose stem vowel moves — *du läufst*",
+        "*kaufen*, whose stem vowel moves — *du käufst*",
+        "both, since **au** always umlauts before an ending",
+        "neither, since the two take the same endings"
+      ],
+      "correct": 0,
+      "explanation": "An irregular verb departs in the stem and keeps the endings (¶60). *laufen* moves **au** to **äu** in the second and third person singular and nowhere else (¶61); *kaufen* keeps its vowel throughout. The endings of the two are indeed identical — that is what makes the departure a matter of the stem, not a second set of endings.",
+      "rulesTested": [
+        "regular-irregular",
+        "vowel-change",
+        "present-endings"
+      ],
+      "vocabUsed": [
+        "kaufen",
+        "laufen"
+      ]
+    },
+    {
+      "id": "decp1-q38",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "de-05",
+      "stem": "**Der Bäcker arbeitet.** An English translation has to choose between two forms of the verb. Why does the German not?",
+      "options": [
+        "German has one present tense where English has two",
+        "German has no continuous aspect in any of its tenses",
+        "*arbeiten* is one of the verbs that has no continuous form",
+        "the article makes the choice instead"
+      ],
+      "correct": 0,
+      "explanation": "German has one present tense where English has two, so a single form answers both to *the baker works* and to *the baker is working*, and the context decides which an English translation wants (¶52). *arbeitet* carries the **-e-** that a stem in **-t** requires (¶57).",
+      "rulesTested": [
+        "present-tense",
+        "stem-e-insertion"
+      ],
+      "vocabUsed": [
+        "arbeiten",
+        "Bäcker"
+      ]
+    },
+    {
+      "id": "decp1-p1",
+      "type": "comprehension",
+      "difficulty": "hard",
+      "fromSection": "de-04",
+      "title": "Zimmer frei in Bremen",
+      "passage": "ZIMMER FREI IN BREMEN\n\nDas Zimmer ist klein, aber hell und ruhig. Der Tisch, der Stuhl und das Bett sind neu.\n\nDas Haus ist alt und schön. Die Adresse ist Gartenstraße 12.\n\nDer Preis ist 300 Euro.\n\nDie Nachbarn sind Studenten. Sie sind jung und freundlich.\n\nDie Vermieterin heißt Frau Weber. Sie ist Ärztin und wohnt auch hier.\n\nKatzen und Hunde sind willkommen.",
+      "translation": "ROOM VACANT IN BREMEN. The room is small, but bright and quiet. The table, the chair and the bed are new. The house is old and beautiful. The address is Gartenstraße 12. The price is 300 euros. The neighbours are students. They are young and friendly. The landlady is called Frau Weber. She is a doctor and lives here too. Cats and dogs are welcome.",
+      "glossary": {
+        "frei": "vacant, free",
+        "hell": "bright",
+        "ruhig": "quiet",
+        "schön": "beautiful",
+        "aber": "but",
+        "Tisch": "table",
+        "Bett": "bed",
+        "Adresse": "address",
+        "Preis": "price",
+        "Nachbarn": "neighbours (plural of der Nachbar)",
+        "jung": "young",
+        "freundlich": "friendly",
+        "Vermieterin": "landlady",
+        "auch": "too, also",
+        "hier": "here",
+        "Hunde": "dogs (plural of der Hund)",
+        "willkommen": "welcome"
+      },
+      "questions": [
+        {
+          "id": "decp1-p1-c1",
+          "type": "single",
+          "difficulty": "medium",
+          "fromSection": "de-04",
+          "stem": "Wie heißt die Vermieterin?",
+          "options": [
+            "Frau Weber",
+            "Frau Bremen",
+            "Frau Gartenstraße",
+            "Frau Ärztin"
+          ],
+          "correct": 0,
+          "explanation": "*Die Vermieterin heißt Frau Weber.* The other three take a place or a profession from the advertisement and put it where the name belongs.",
+          "rulesTested": []
+        },
+        {
+          "id": "decp1-p1-c2",
+          "type": "single",
+          "difficulty": "medium",
+          "fromSection": "de-04",
+          "stem": "Was sind die Nachbarn?",
+          "options": [
+            "Studenten",
+            "Bäcker",
+            "Ärztinnen",
+            "Vermieterinnen"
+          ],
+          "correct": 0,
+          "explanation": "*Die Nachbarn sind Studenten.* Frau Weber is the doctor, and she is the landlady rather than a neighbour.",
+          "rulesTested": [],
+          "vocabUsed": [
+            "Student",
+            "Bäcker"
+          ]
+        },
+        {
+          "id": "decp1-p1-c3",
+          "type": "integer",
+          "difficulty": "medium",
+          "fromSection": "de-04",
+          "stem": "Wie viel Euro ist der Preis?",
+          "answer": 300,
+          "unit": "Euro",
+          "explanation": "*Der Preis ist 300 Euro.* The other figure in the advertisement is the house number in the address.",
+          "rulesTested": []
+        },
+        {
+          "id": "decp1-p1-c4",
+          "type": "multi",
+          "difficulty": "hard",
+          "fromSection": "de-04",
+          "stem": "*Sie ist Ärztin und wohnt auch hier.* Which of these hold?",
+          "options": [
+            "*Ärztin* stands bare because a profession after *sein* takes no article",
+            "*wohnt* takes no **-e-** before its ending",
+            "*Ärztin* is the feminine of *der Arzt*, formed with **-in**",
+            "*Ärztin* stands bare because the noun is feminine"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "A profession after *sein* stands with no article (¶45); the gender of the noun has nothing to do with it. *Ärztin* is built from *der Arzt* with **-in** and the Umlaut (¶30), and that **ä** before **r** is the vowel of English *air* (¶3). *wohnt* takes no inserted **-e-**: the **h** is the mark of a long vowel and not a consonant (¶16, ¶57).",
+          "rulesTested": [
+            "null-profession",
+            "feminine-in",
+            "stem-e-insertion",
+            "vowel-length-h"
+          ],
+          "vocabUsed": [
+            "Arzt",
+            "wohnen",
+            "sein"
+          ]
+        },
+        {
+          "id": "decp1-p1-c5",
+          "type": "multi",
+          "difficulty": "hard",
+          "fromSection": "de-03",
+          "stem": "**Die Nachbarn sind Studenten. Sie sind jung und freundlich.** Which of these hold?",
+          "options": [
+            "*Nachbarn* is the **-(e)n** plural of *der Nachbar*",
+            "*Studenten* stands bare because it is an indefinite plural",
+            "*jung* and *freundlich* take no ending, standing after *sein*",
+            "the **die** in front of *Nachbarn* shows that the noun is feminine"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "*der Nachbar* takes **-(e)n** (¶39), and in the plural all three genders take **die**, so the article says nothing of gender (¶26). An indefinite plural carries no article at all (¶47). An adjective after *sein* takes no ending whatever the number of its subject (¶68).",
+          "rulesTested": [
+            "plural-en",
+            "null-plural",
+            "predicative-adjective",
+            "plural-die"
+          ],
+          "vocabUsed": [
+            "Student",
+            "sein"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course.",
+          "note": "A room-to-let advertisement, a text type that is nominal by nature and so readable before the accusative. It rests on gender (¶25, ¶29), the plurals of ¶34–¶39, the zero article with a profession and with an indefinite plural (¶45, ¶47), and the present tense of section 05."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§4.8.2, pp. 74–75, for the bare profession after *sein*; §1.2.1, pp. 14–18, for the plurals used."
+        }
+      ]
+    },
+    {
+      "id": "decp1-p2",
+      "type": "comprehension",
+      "difficulty": "hard",
+      "fromSection": "de-03",
+      "title": "Die Bäckerei",
+      "passage": "ANNA. Guten Tag, Herr Becker!\n\nHERR BECKER. Guten Tag, Anna. Du bist heute früh.\n\nANNA. Ja. Ich arbeite immer früh. Die Brote sind noch warm!\n\nHERR BECKER. Natürlich! Die Brote und die Brötchen sind ganz frisch.\n\nANNA. Und die Brezeln?\n\nHERR BECKER. Die Brezeln sind alt. Aber der Apfelkuchen ist neu. Er ist sehr gut.\n\nANNA. Und der Preis?\n\nHERR BECKER. Der Apfelkuchen ist 12 Euro. Das Brot ist 3 Euro.\n\nANNA. Gut. Danke, Herr Becker!\n\nHERR BECKER. Auf Wiedersehen, Anna!",
+      "translation": "ANNA. Good day, Herr Becker! — HERR BECKER. Good day, Anna. You are early today. — ANNA. Yes. I always work early. The loaves are still warm! — HERR BECKER. Of course! The loaves and the rolls are completely fresh. — ANNA. And the pretzels? — HERR BECKER. The pretzels are old. But the apple cake is new. It is very good. — ANNA. And the price? — HERR BECKER. The apple cake is 12 euros. The loaf is 3 euros. — ANNA. Good. Thank you, Herr Becker! — HERR BECKER. Goodbye, Anna!",
+      "glossary": {
+        "Guten Tag": "good day",
+        "früh": "early",
+        "heute": "today",
+        "noch": "still",
+        "warm": "warm",
+        "natürlich": "of course",
+        "immer": "always",
+        "ganz": "completely",
+        "frisch": "fresh",
+        "Brötchen": "bread roll",
+        "Brezeln": "pretzels (plural of die Brezel)",
+        "Apfelkuchen": "apple cake",
+        "aber": "but",
+        "sehr gut": "very good",
+        "Preis": "price",
+        "danke": "thank you",
+        "Auf Wiedersehen": "goodbye"
+      },
+      "questions": [
+        {
+          "id": "decp1-p2-c1",
+          "type": "single",
+          "difficulty": "easy",
+          "fromSection": "de-03",
+          "stem": "Was ist alt?",
+          "options": [
+            "die Brezeln",
+            "die Brote",
+            "die Brötchen",
+            "der Apfelkuchen"
+          ],
+          "correct": 0,
+          "explanation": "*Die Brezeln sind alt.* The loaves are warm, the rolls fresh, and the apple cake new.",
+          "rulesTested": []
+        },
+        {
+          "id": "decp1-p2-c2",
+          "type": "single",
+          "difficulty": "easy",
+          "fromSection": "de-03",
+          "stem": "Wie ist der Apfelkuchen?",
+          "options": [
+            "neu und sehr gut",
+            "alt",
+            "warm",
+            "klein"
+          ],
+          "correct": 0,
+          "explanation": "*Aber der Apfelkuchen ist neu. Er ist sehr gut.* Warm is what the loaves are.",
+          "rulesTested": []
+        },
+        {
+          "id": "decp1-p2-c3",
+          "type": "integer",
+          "difficulty": "medium",
+          "fromSection": "de-03",
+          "stem": "Wie viel Euro ist das Brot?",
+          "answer": 3,
+          "unit": "Euro",
+          "explanation": "*Das Brot ist 3 Euro.* The other price in the passage is the apple cake's.",
+          "rulesTested": []
+        },
+        {
+          "id": "decp1-p2-c4",
+          "type": "multi",
+          "difficulty": "hard",
+          "fromSection": "de-03",
+          "stem": "**Die Brote und die Brötchen sind ganz frisch.** Which of these hold?",
+          "options": [
+            "*Brote* is the plural of *das Brot*, formed with **-e**",
+            "*Brötchen* is neuter because it ends in **-chen**",
+            "*Brötchen* is the same word in the singular and the plural",
+            "the **die** in front of both shows that they are feminine"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "*Brot* adds **-e** (¶36). *Brötchen* is a diminutive in **-chen**, which makes it neuter whatever it denotes (¶29) and puts it in the class that adds nothing at all in the plural (¶34). In the plural every gender takes **die** (¶26), so the article cannot be showing gender here.",
+          "rulesTested": [
+            "plural-e",
+            "neuter-classes",
+            "plural-zero",
+            "plural-die"
+          ]
+        },
+        {
+          "id": "decp1-p2-c5",
+          "type": "single",
+          "difficulty": "hard",
+          "fromSection": "de-02",
+          "stem": "**Der Apfelkuchen ist neu. Er ist sehr gut.** What does *er* stand for, and what does that show?",
+          "options": [
+            "*der Apfelkuchen* — a pronoun takes the gender of its noun, not the sex of a thing",
+            "*Herr Becker* — *er* can only stand for a person",
+            "*das Brot* — *er* stands for the nearest noun before it",
+            "nothing in particular — *er* is impersonal here"
+          ],
+          "correct": 0,
+          "explanation": "The third person singular has one pronoun for each gender, and the gender is the noun's (¶54, ¶25). *der Apfelkuchen* is masculine, so it is taken up by *er* although it is not a person at all — the same fact that makes *der Apfel* masculine and *das Mädchen* neuter. *sehr gut* after *sein* takes no ending (¶68).",
+          "rulesTested": [
+            "pronouns-nom",
+            "noun-gender",
+            "predicative-adjective"
+          ],
+          "vocabUsed": [
+            "Apfel",
+            "Mädchen",
+            "sein"
+          ]
+        },
+        {
+          "id": "decp1-p2-c6",
+          "type": "multi",
+          "difficulty": "medium",
+          "fromSection": "de-05",
+          "stem": "Anna says **Ich arbeite immer früh**. In the third person that is *sie arbeitet immer früh*. Which of these hold?",
+          "options": [
+            "*arbeite* and *arbeitet* are one verb in two persons",
+            "the third person has an **-e-** put in, the stem ending in **-t**",
+            "the first person needs no such **-e-**, its ending being **-e** already",
+            "*arbeitet* is the plural of *arbeite*"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "A stem in **-d** or **-t** takes an **-e-** in front of the endings **-st** and **-t**, which could not otherwise be said (¶57) — hence *er arbeitet*. The first person ending is **-e** on its own, so nothing has to be inserted (¶55). *arbeitet* is the third person singular, not a plural: the plural would be *arbeiten*, the infinitive itself (¶56).",
+          "rulesTested": [
+            "stem-e-insertion",
+            "present-endings",
+            "person-number",
+            "plural-syncretism"
+          ],
+          "vocabUsed": [
+            "arbeiten"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course.",
+          "note": "A dialogue between named speakers in a baker's shop, per §7: an early customer asking what is fresh, what is stale and what it costs, and nothing else. It rests on the plurals of ¶34, ¶36 and ¶39, gender by ending (¶29) and the pronoun that follows it (¶54), the predicative adjective (¶68), and the **-e-** of *arbeitet* (¶57). The two yes/no questions belong to section 06 and are here to be read, not formed."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§1.2.1, pp. 14–18, for the plural classes; §4.8.2, pp. 74–75, for the bare noun after *sein*."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+      "note": "§23.1 and §23.4 (pp. 502–512) on the sounds and spellings examined from section 01; §1.1 with Tables 1.1–1.2 (pp. 1–8) on gender; §1.2.1 (pp. 14–18) on the plural; §4.1–§4.8 (pp. 64–75) on the definite, indefinite and zero article."
+    },
+    {
+      "kind": "composed",
+      "citation": "Composed for this course.",
+      "note": "The two reading passages, each cited again in its own footer."
+    }
+  ]
+}

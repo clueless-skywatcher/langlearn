@@ -9,9 +9,11 @@
   "levels": ["A1"],
   "formLabels": {
     "noun": [
-      { "key": "nom", "label": "singular" },
-      { "key": "plural", "label": "plural" },
-      { "key": "acc", "label": "accusative" }
+      { "key": "nom", "label": "nominative" },
+      { "key": "acc", "label": "accusative" },
+      { "key": "dat", "label": "dative" },
+      { "key": "gen", "label": "genitive" },
+      { "key": "plural", "label": "plural" }
     ],
     "adjective": [
       { "key": "nom", "label": "singular" },
@@ -19,7 +21,8 @@
     ],
     "verb": [
       { "key": "inf", "label": "infinitive" },
-      { "key": "pres", "label": "present" }
+      { "key": "du", "label": "2 sg." },
+      { "key": "pres", "label": "3 sg." }
     ],
     "pronoun": [{ "key": "nom", "label": "nominative" }]
   }

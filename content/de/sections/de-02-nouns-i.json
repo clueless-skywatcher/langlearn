@@ -272,16 +272,128 @@
     }
   ],
   "vocabulary": [
-    { "lemma": "Apfel", "gloss": "apple", "pos": "noun", "forms": { "nom": "Apfel", "plural": "Äpfel", "gender": "m." } },
-    { "lemma": "Katze", "gloss": "cat", "pos": "noun", "forms": { "nom": "Katze", "plural": "Katzen", "gender": "f." } },
-    { "lemma": "Kind", "gloss": "child", "pos": "noun", "forms": { "nom": "Kind", "plural": "Kinder", "gender": "n." } },
-    { "lemma": "Mann", "gloss": "man", "pos": "noun", "forms": { "nom": "Mann", "gender": "m." } },
-    { "lemma": "Frau", "gloss": "woman", "pos": "noun", "forms": { "nom": "Frau", "gender": "f." } },
-    { "lemma": "Montag", "gloss": "Monday", "pos": "noun", "forms": { "nom": "Montag", "gender": "m." } },
-    { "lemma": "Norden", "gloss": "north", "pos": "noun", "forms": { "nom": "Norden", "gender": "m." } },
-    { "lemma": "Teppich", "gloss": "carpet", "pos": "noun", "forms": { "nom": "Teppich", "gender": "m." } },
-    { "lemma": "Motor", "gloss": "engine", "pos": "noun", "forms": { "nom": "Motor", "gender": "m." } },
-    { "lemma": "Mädchen", "gloss": "girl", "pos": "noun", "forms": { "nom": "Mädchen", "gender": "n." } }
+    {
+      "lemma": "Apfel",
+      "gloss": "apple",
+      "pos": "noun",
+      "forms": {
+        "nom": "der Apfel",
+        "acc": "den Apfel",
+        "dat": "dem Apfel",
+        "gen": "des Apfels",
+        "plural": "die Äpfel"
+      }
+    },
+    {
+      "lemma": "Katze",
+      "gloss": "cat",
+      "pos": "noun",
+      "forms": {
+        "nom": "die Katze",
+        "acc": "die Katze",
+        "dat": "der Katze",
+        "gen": "der Katze",
+        "plural": "die Katzen"
+      }
+    },
+    {
+      "lemma": "Kind",
+      "gloss": "child",
+      "pos": "noun",
+      "forms": {
+        "nom": "das Kind",
+        "acc": "das Kind",
+        "dat": "dem Kind",
+        "gen": "des Kindes",
+        "plural": "die Kinder"
+      }
+    },
+    {
+      "lemma": "Mann",
+      "gloss": "man",
+      "pos": "noun",
+      "forms": {
+        "nom": "der Mann",
+        "acc": "den Mann",
+        "dat": "dem Mann",
+        "gen": "des Mannes, des Manns",
+        "plural": "die Männer"
+      }
+    },
+    {
+      "lemma": "Frau",
+      "gloss": "woman",
+      "pos": "noun",
+      "forms": {
+        "nom": "die Frau",
+        "acc": "die Frau",
+        "dat": "der Frau",
+        "gen": "der Frau",
+        "plural": "die Frauen"
+      }
+    },
+    {
+      "lemma": "Montag",
+      "gloss": "Monday",
+      "pos": "noun",
+      "forms": {
+        "nom": "der Montag",
+        "acc": "den Montag",
+        "dat": "dem Montag",
+        "gen": "des Montags",
+        "plural": "die Montage"
+      }
+    },
+    {
+      "lemma": "Norden",
+      "gloss": "north",
+      "pos": "noun",
+      "forms": {
+        "nom": "der Norden",
+        "acc": "den Norden",
+        "dat": "dem Norden",
+        "gen": "des Nordens",
+        "plural": "—"
+      },
+      "notes": "A point of the compass, used in the singular only."
+    },
+    {
+      "lemma": "Teppich",
+      "gloss": "carpet",
+      "pos": "noun",
+      "forms": {
+        "nom": "der Teppich",
+        "acc": "den Teppich",
+        "dat": "dem Teppich",
+        "gen": "des Teppichs",
+        "plural": "die Teppiche"
+      }
+    },
+    {
+      "lemma": "Motor",
+      "gloss": "engine",
+      "pos": "noun",
+      "forms": {
+        "nom": "der Motor",
+        "acc": "den Motor",
+        "dat": "dem Motor",
+        "gen": "des Motors",
+        "plural": "die Motoren"
+      },
+      "notes": "The stress moves to the second syllable in the plural: Motóren."
+    },
+    {
+      "lemma": "Mädchen",
+      "gloss": "girl",
+      "pos": "noun",
+      "forms": {
+        "nom": "das Mädchen",
+        "acc": "das Mädchen",
+        "dat": "dem Mädchen",
+        "gen": "des Mädchens",
+        "plural": "die Mädchen"
+      }
+    }
   ],
   "drills": [
     {

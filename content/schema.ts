@@ -349,14 +349,18 @@ export const LessonSection = z.strictObject({
 });
 
 /**
- * A cumulative exam over the 3–4 lesson sections that precede it. It teaches
+ * A cumulative exam over the 3–5 lesson sections that precede it. It teaches
  * nothing of its own; composition targets (question count, per-section
  * coverage, difficulty and format mix) are enforced by the validator.
+ *
+ * The upper bound is on the block a single paper can fairly examine, not on
+ * what a learner has met: a checkpoint covers every lesson since the last one,
+ * so the run in front of it is what `covers` has to hold.
  */
 export const CheckpointSection = z.strictObject({
   ...SectionBase,
   kind: z.literal("checkpoint"),
-  covers: z.array(Id).min(3).max(4),
+  covers: z.array(Id).min(3).max(5),
   /** Percentage of the maximum score counted as a pass. */
   passThreshold: z.number().min(0).max(100).default(60),
 });

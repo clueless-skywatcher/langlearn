@@ -1,0 +1,1151 @@
+{
+  "id": "de-03",
+  "kind": "lesson",
+  "level": "A1",
+  "order": 3,
+  "title": "Nouns II — The Plural",
+  "summary": "The seven formations a German plural is built with, the Umlaut that accompanies three of them, the endings that never take it, and the reason a noun is cited with its plural rather than derived from a rule.",
+  "rules": [
+    {
+      "id": "plural-seven",
+      "number": "33",
+      "heading": "The seven plural formations",
+      "statement": "German builds the plural of a noun in seven ways: with no change, with the Umlaut alone, with **-e**, with **-e** and the Umlaut, with **-er**, with **-(e)n**, and with **-s**. All seven take the one article **die** (¶26).",
+      "examples": [
+        {
+          "target": "der Lehrer — die Lehrer",
+          "gloss": "the teacher — the teachers",
+          "note": "no change"
+        },
+        {
+          "target": "der Vogel — die Vögel",
+          "gloss": "the bird — the birds",
+          "note": "the Umlaut alone"
+        },
+        {
+          "target": "das Baby — die Babys",
+          "gloss": "the baby — the babies",
+          "note": "-s"
+        }
+      ],
+      "paradigms": [
+        {
+          "caption": "The seven formations",
+          "columns": [
+            "Formation",
+            "Singular",
+            "Plural"
+          ],
+          "rows": [
+            {
+              "label": "no change",
+              "cells": [
+                "*der Lehrer*",
+                "*die Lehrer*"
+              ]
+            },
+            {
+              "label": "the Umlaut alone",
+              "cells": [
+                "*der Vogel*",
+                "*die Vögel*"
+              ]
+            },
+            {
+              "label": "-e",
+              "cells": [
+                "*das Jahr*",
+                "*die Jahre*"
+              ]
+            },
+            {
+              "label": "-e with the Umlaut",
+              "cells": [
+                "*der Stuhl*",
+                "*die Stühle*"
+              ]
+            },
+            {
+              "label": "-er",
+              "cells": [
+                "*das Kind*",
+                "*die Kinder*"
+              ]
+            },
+            {
+              "label": "-(e)n",
+              "cells": [
+                "*die Frau*",
+                "*die Frauen*"
+              ]
+            },
+            {
+              "label": "-s",
+              "cells": [
+                "*das Baby*",
+                "*die Babys*"
+              ]
+            }
+          ]
+        }
+      ],
+      "seeAlso": [
+        "plural-die"
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§1.2.1, pp. 14–18, on the formation of the plural."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "plural-zero",
+      "number": "34",
+      "heading": "The plural without a change",
+      "statement": "Masculine and neuter nouns ending in **-er**, **-el** or **-en** keep their form in the plural, and the article alone shows the number.",
+      "examples": [
+        {
+          "target": "der Lehrer — die Lehrer",
+          "gloss": "the teacher — the teachers"
+        },
+        {
+          "target": "der Löffel — die Löffel",
+          "gloss": "the spoon — the spoons"
+        },
+        {
+          "target": "der Wagen — die Wagen",
+          "gloss": "the car — the cars"
+        },
+        {
+          "target": "das Zimmer — die Zimmer",
+          "gloss": "the room — the rooms"
+        },
+        {
+          "target": "das Mädchen — die Mädchen",
+          "gloss": "the girl — the girls"
+        }
+      ],
+      "footnotes": [
+        "The diminutives in **-chen** and **-lein**, which are neuter whatever they denote (¶29), all belong here: *das Mädchen — die Mädchen*."
+      ],
+      "seeAlso": [
+        "plural-die",
+        "neuter-classes"
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§1.2.1, pp. 14–18, for the unchanged plural of masculines and neuters in -er, -el, -en."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "plural-umlaut",
+      "number": "35",
+      "heading": "The plural with the Umlaut alone",
+      "statement": "Many nouns of that same shape take the Umlaut in the plural instead of an ending, so the stem vowel alone carries the number.",
+      "examples": [
+        {
+          "target": "der Vogel — die Vögel",
+          "gloss": "the bird — the birds"
+        },
+        {
+          "target": "der Vater — die Väter",
+          "gloss": "the father — the fathers"
+        },
+        {
+          "target": "der Apfel — die Äpfel",
+          "gloss": "the apple — the apples"
+        },
+        {
+          "target": "der Bruder — die Brüder",
+          "gloss": "the brother — the brothers"
+        },
+        {
+          "target": "die Mutter — die Mütter",
+          "gloss": "the mother — the mothers"
+        }
+      ],
+      "footnotes": [
+        "Only **a**, **o**, **u** and **au** have an Umlaut to take — **ä**, **ö**, **ü**, **äu** (¶2, ¶4, ¶5, ¶11). A stem whose vowel is **e** or **i** cannot be marked this way, which is why *der Lehrer* stands unchanged (¶34).",
+        "*die Mutter* and *die Tochter* are the feminine nouns of this class."
+      ],
+      "seeAlso": [
+        "plural-zero",
+        "vowel-ae",
+        "vowel-oe",
+        "vowel-ue"
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§1.2.1, pp. 14–18, for the umlauted plural without an ending, and *Mutter*, *Tochter* as its feminines."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "plural-e",
+      "number": "36",
+      "heading": "The plural in -e",
+      "statement": "A plural is formed by adding **-e**, most often to a masculine or a neuter noun, and the stem vowel stays as it stands.",
+      "examples": [
+        {
+          "target": "das Jahr — die Jahre",
+          "gloss": "the year — the years"
+        },
+        {
+          "target": "der Tag — die Tage",
+          "gloss": "the day — the days"
+        },
+        {
+          "target": "das Brot — die Brote",
+          "gloss": "the loaf — the loaves"
+        },
+        {
+          "target": "der Hund — die Hunde",
+          "gloss": "the dog — the dogs"
+        }
+      ],
+      "footnotes": [
+        "*das Jahr* and *der Tag* both have a stem vowel that could take the Umlaut (¶35); in this class it does not."
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§1.2.1, pp. 14–18, on the plural in -e."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "plural-e-umlaut",
+      "number": "37",
+      "heading": "The plural in -e with the Umlaut",
+      "statement": "A second body of nouns adds **-e** and takes the Umlaut with it. The class holds masculine nouns and the feminine nouns that form their plural in **-e** at all.",
+      "examples": [
+        {
+          "target": "der Stuhl — die Stühle",
+          "gloss": "the chair — the chairs"
+        },
+        {
+          "target": "der Sohn — die Söhne",
+          "gloss": "the son — the sons"
+        },
+        {
+          "target": "die Stadt — die Städte",
+          "gloss": "the town — the towns"
+        },
+        {
+          "target": "die Hand — die Hände",
+          "gloss": "the hand — the hands"
+        },
+        {
+          "target": "die Nacht — die Nächte",
+          "gloss": "the night — the nights"
+        }
+      ],
+      "footnotes": [
+        "A feminine noun of this class always takes the Umlaut. A masculine one may or may not: *der Sohn — die Söhne* beside *der Tag — die Tage* (¶36)."
+      ],
+      "seeAlso": [
+        "plural-e"
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§1.2.1, pp. 14–18, on the plural in -e with Umlaut, and the feminines of that class."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "plural-er",
+      "number": "38",
+      "heading": "The plural in -er",
+      "statement": "A plural is formed by adding **-er**, and the stem vowel takes the Umlaut wherever it can. The class holds neuter nouns and a few masculine ones, and no feminine one.",
+      "examples": [
+        {
+          "target": "das Kind — die Kinder",
+          "gloss": "the child — the children"
+        },
+        {
+          "target": "das Tal — die Täler",
+          "gloss": "the valley — the valleys"
+        },
+        {
+          "target": "das Buch — die Bücher",
+          "gloss": "the book — the books"
+        },
+        {
+          "target": "das Haus — die Häuser",
+          "gloss": "the house — the houses"
+        },
+        {
+          "target": "der Mann — die Männer",
+          "gloss": "the man — the men"
+        }
+      ],
+      "footnotes": [
+        "*das Kind* has no Umlaut in the plural because **i** has none to take (¶35), and not because the noun stands outside the class."
+      ],
+      "seeAlso": [
+        "plural-umlaut"
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§1.2.1, pp. 14–18, on the plural in -er and the obligatory Umlaut where the vowel admits one."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "plural-en",
+      "number": "39",
+      "heading": "The plural in -(e)n",
+      "statement": "A noun ending in **-e**, **-el** or **-er** adds **-n**, and any other noun of this class adds **-en**. It is the plural of almost every feminine noun, and it never takes the Umlaut.",
+      "examples": [
+        {
+          "target": "die Frau — die Frauen",
+          "gloss": "the woman — the women"
+        },
+        {
+          "target": "die Kartoffel — die Kartoffeln",
+          "gloss": "the potato — the potatoes"
+        },
+        {
+          "target": "die Katze — die Katzen",
+          "gloss": "the cat — the cats"
+        },
+        {
+          "target": "die Schwester — die Schwestern",
+          "gloss": "the sister — the sisters"
+        },
+        {
+          "target": "der Student — die Studenten",
+          "gloss": "the student — the students"
+        }
+      ],
+      "footnotes": [
+        "A feminine noun in **-in** (¶30) doubles the **n** before the ending: *die Lehrerin — die Lehrerinnen*.",
+        "The **-el** and **-er** that take **-n** here are feminine; the masculine and neuter nouns in those same endings stand unchanged instead (¶34). *die Kartoffel — die Kartoffeln* against *der Löffel — die Löffel*."
+      ],
+      "seeAlso": [
+        "plural-zero",
+        "feminine-in"
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§1.2.1, pp. 14–18, on the plural in -(e)n, its predominance among feminines, and the absence of the Umlaut from it."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "plural-s",
+      "number": "40",
+      "heading": "The plural in -s",
+      "statement": "A plural is formed by adding **-s**, chiefly to nouns taken from other languages and to shortened forms.",
+      "examples": [
+        {
+          "target": "das Baby — die Babys",
+          "gloss": "the baby — the babies"
+        },
+        {
+          "target": "das Auto — die Autos",
+          "gloss": "the car — the cars"
+        },
+        {
+          "target": "das Hotel — die Hotels",
+          "gloss": "the hotel — the hotels"
+        },
+        {
+          "target": "der Chef — die Chefs",
+          "gloss": "the boss — the bosses"
+        }
+      ],
+      "footnotes": [
+        "The **-s** is written onto the noun without an apostrophe, and the stem is untouched: *die Babys*, not *die Baby's* and not *die Bäbys*."
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§1.2.1, pp. 14–18, on the -s plural and the borrowings that carry it."
+        },
+        {
+          "kind": "grammar",
+          "citation": "*German nouns*, Wikipedia (English).",
+          "url": "https://en.wikipedia.org/wiki/German_nouns",
+          "note": "Cited for the -s plural as the class of loanwords and abbreviations."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "plural-unpredictable",
+      "number": "41",
+      "heading": "The plural is a property of the noun",
+      "statement": "Which of the seven formations a noun takes follows neither from its shape nor from its gender, and two nouns alike in both may take different ones. A noun is therefore cited with its plural beside it, as *der Tag, die Tage*.",
+      "examples": [
+        {
+          "target": "der Tag — die Tage",
+          "gloss": "the day — the days",
+          "note": "-e, no Umlaut (¶36)"
+        },
+        {
+          "target": "der Stuhl — die Stühle",
+          "gloss": "the chair — the chairs",
+          "note": "-e with the Umlaut (¶37); same gender, same shape"
+        },
+        {
+          "target": "der Lehrer — die Lehrer",
+          "gloss": "the teacher — the teachers",
+          "note": "unchanged (¶34)"
+        },
+        {
+          "target": "der Bruder — die Brüder",
+          "gloss": "the brother — the brothers",
+          "note": "the Umlaut alone (¶35); both are masculines in -er"
+        },
+        {
+          "target": "das Jahr — die Jahre",
+          "gloss": "the year — the years",
+          "note": "-e (¶36)"
+        },
+        {
+          "target": "das Land — die Länder",
+          "gloss": "the country — the countries",
+          "note": "-er (¶38); both are neuters of one syllable"
+        }
+      ],
+      "footnotes": [
+        "Gender narrows the choice without settling it: almost every feminine noun takes **-(e)n** (¶39), and no feminine noun takes **-er** (¶38)."
+      ],
+      "seeAlso": [
+        "plural-seven",
+        "plural-zero",
+        "plural-umlaut",
+        "plural-e",
+        "plural-e-umlaut",
+        "plural-er",
+        "plural-en",
+        "plural-s"
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§1.2.1, pp. 14–18: the plural class is lexical, and the citation of a noun carries it."
+        }
+      ],
+      "core": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "lemma": "Lehrer",
+      "gloss": "teacher",
+      "pos": "noun",
+      "forms": {
+        "nom": "der Lehrer",
+        "acc": "den Lehrer",
+        "dat": "dem Lehrer",
+        "gen": "des Lehrers",
+        "plural": "die Lehrer"
+      },
+      "notes": "Unchanged in the plural; only the article moves, from der to die."
+    },
+    {
+      "lemma": "Zimmer",
+      "gloss": "room",
+      "pos": "noun",
+      "forms": {
+        "nom": "das Zimmer",
+        "acc": "das Zimmer",
+        "dat": "dem Zimmer",
+        "gen": "des Zimmers",
+        "plural": "die Zimmer"
+      }
+    },
+    {
+      "lemma": "Vogel",
+      "gloss": "bird",
+      "pos": "noun",
+      "forms": {
+        "nom": "der Vogel",
+        "acc": "den Vogel",
+        "dat": "dem Vogel",
+        "gen": "des Vogels",
+        "plural": "die Vögel"
+      }
+    },
+    {
+      "lemma": "Jahr",
+      "gloss": "year",
+      "pos": "noun",
+      "forms": {
+        "nom": "das Jahr",
+        "acc": "das Jahr",
+        "dat": "dem Jahr",
+        "gen": "des Jahres",
+        "plural": "die Jahre"
+      }
+    },
+    {
+      "lemma": "Tag",
+      "gloss": "day",
+      "pos": "noun",
+      "forms": {
+        "nom": "der Tag",
+        "acc": "den Tag",
+        "dat": "dem Tag",
+        "gen": "des Tages",
+        "plural": "die Tage"
+      }
+    },
+    {
+      "lemma": "Stuhl",
+      "gloss": "chair",
+      "pos": "noun",
+      "forms": {
+        "nom": "der Stuhl",
+        "acc": "den Stuhl",
+        "dat": "dem Stuhl",
+        "gen": "des Stuhles",
+        "plural": "die Stühle"
+      }
+    },
+    {
+      "lemma": "Stadt",
+      "gloss": "town, city",
+      "pos": "noun",
+      "forms": {
+        "nom": "die Stadt",
+        "acc": "die Stadt",
+        "dat": "der Stadt",
+        "gen": "der Stadt",
+        "plural": "die Städte"
+      }
+    },
+    {
+      "lemma": "Buch",
+      "gloss": "book",
+      "pos": "noun",
+      "forms": {
+        "nom": "das Buch",
+        "acc": "das Buch",
+        "dat": "dem Buch",
+        "gen": "des Buches",
+        "plural": "die Bücher"
+      }
+    },
+    {
+      "lemma": "Haus",
+      "gloss": "house",
+      "pos": "noun",
+      "forms": {
+        "nom": "das Haus",
+        "acc": "das Haus",
+        "dat": "dem Haus",
+        "gen": "des Hauses",
+        "plural": "die Häuser"
+      }
+    },
+    {
+      "lemma": "Kartoffel",
+      "gloss": "potato",
+      "pos": "noun",
+      "forms": {
+        "nom": "die Kartoffel",
+        "acc": "die Kartoffel",
+        "dat": "der Kartoffel",
+        "gen": "der Kartoffel",
+        "plural": "die Kartoffeln"
+      }
+    },
+    {
+      "lemma": "Baby",
+      "gloss": "baby",
+      "pos": "noun",
+      "forms": {
+        "nom": "das Baby",
+        "acc": "das Baby",
+        "dat": "dem Baby",
+        "gen": "des Babys",
+        "plural": "die Babys"
+      }
+    },
+    {
+      "lemma": "Auto",
+      "gloss": "car",
+      "pos": "noun",
+      "forms": {
+        "nom": "das Auto",
+        "acc": "das Auto",
+        "dat": "dem Auto",
+        "gen": "des Autos",
+        "plural": "die Autos"
+      }
+    }
+  ],
+  "drills": [
+    {
+      "id": "de103-q1",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which of these are plurals?",
+      "options": [
+        "die Kinder",
+        "die Frau",
+        "die Autos",
+        "die Katze"
+      ],
+      "correct": [
+        0,
+        2
+      ],
+      "explanation": "*Kinder* carries the **-er** of ¶38 and *Autos* the **-s** of ¶40. *Frau* and *Katze* are feminine singulars, where **die** is the article of the gender (¶25) rather than of the plural (¶26).",
+      "rulesTested": [
+        "plural-er",
+        "plural-s",
+        "plural-die",
+        "noun-gender"
+      ],
+      "vocabUsed": [
+        "Kind",
+        "Frau",
+        "Auto",
+        "Katze"
+      ]
+    },
+    {
+      "id": "de103-q2",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "*die Kartoffel* takes **-n** and *die Frau* takes **-en**. What decides which of the two endings a noun of this class gets?",
+      "options": [
+        "whether the noun already ends in -e, -el or -er",
+        "whether the noun is feminine",
+        "whether the noun has more than one syllable",
+        "whether the stem vowel could take the Umlaut"
+      ],
+      "correct": 0,
+      "explanation": "A noun ending in **-e**, **-el** or **-er** needs only the **-n**; any other takes the full **-en** (¶39). Both nouns here are feminine, so gender settles nothing, and no noun of this class takes the Umlaut at all.",
+      "rulesTested": [
+        "plural-en"
+      ],
+      "vocabUsed": [
+        "Kartoffel",
+        "Frau"
+      ]
+    },
+    {
+      "id": "de103-q3",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "*der Lehrer* names one teacher. Which of these names more than one?",
+      "options": [
+        "die Lehrer",
+        "die Lehrere",
+        "die Lehrern",
+        "das Lehrer"
+      ],
+      "correct": 0,
+      "explanation": "A masculine noun in **-er** is unchanged in the plural, and the article alone shows the number — *der Lehrer*, *die Lehrer* (¶34, ¶26). *das* is the neuter singular article and cannot mark a plural at all (¶25).",
+      "rulesTested": [
+        "plural-zero",
+        "plural-die"
+      ],
+      "vocabUsed": [
+        "Lehrer"
+      ]
+    },
+    {
+      "id": "de103-q4",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "What is the plural of *der Stuhl*?",
+      "options": [
+        "die Stühle",
+        "die Stuhle",
+        "die Stühlen",
+        "die Stühler"
+      ],
+      "correct": 0,
+      "explanation": "*Stuhl* adds **-e** and takes the Umlaut with it (¶37). *die Stuhle* would be the plain **-e** of ¶36, which this noun does not take.",
+      "rulesTested": [
+        "plural-e-umlaut"
+      ],
+      "vocabUsed": [
+        "Stuhl"
+      ]
+    },
+    {
+      "id": "de103-q5",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "*die Kartoffel* has the plural *die Kartoffeln*, but *der Löffel* has the plural *die Löffel*. What separates them?",
+      "options": [
+        "*Kartoffel* is feminine and *Löffel* is masculine",
+        "*Kartoffel* is longer by a syllable",
+        "*Löffel* has an Umlaut already and cannot take an ending",
+        "*Kartoffel* is a loan-word"
+      ],
+      "correct": 0,
+      "explanation": "The ending **-el** is shared, so it cannot be what decides. A feminine noun in -el adds **-n** (¶39); a masculine or neuter one in -el stands unchanged (¶34). The **ö** of *Löffel* belongs to the stem and is not a plural mark (¶35).",
+      "rulesTested": [
+        "plural-en",
+        "plural-zero",
+        "noun-gender"
+      ],
+      "vocabUsed": [
+        "Kartoffel"
+      ]
+    },
+    {
+      "id": "de103-q6",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which of these plurals are formed with **-n** or **-en**?",
+      "options": [
+        "die Frauen",
+        "die Kartoffeln",
+        "die Häuser",
+        "die Katzen"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "*Frauen*, *Kartoffeln* and *Katzen* all belong to ¶39, which is the plural of almost every feminine noun. *Häuser* adds **-er** and takes the Umlaut with it (¶38) — a class no feminine noun belongs to, and *Haus* is neuter.",
+      "rulesTested": [
+        "plural-en",
+        "plural-er"
+      ],
+      "vocabUsed": [
+        "Frau",
+        "Kartoffel",
+        "Haus",
+        "Katze"
+      ]
+    },
+    {
+      "id": "de103-q7",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "How many of these are plurals? — *die Bücher*, *die Frau*, *die Autos*, *die Katze*, *die Städte*",
+      "answer": 3,
+      "unit": "nouns",
+      "explanation": "*Bücher* (¶38), *Autos* (¶40) and *Städte* (¶37) are plurals. *Frau* and *Katze* are feminine singulars, where **die** is the article of the gender (¶25) and not of the number (¶26).",
+      "rulesTested": [
+        "plural-er",
+        "plural-s",
+        "plural-e-umlaut",
+        "plural-die",
+        "noun-gender"
+      ],
+      "vocabUsed": [
+        "Buch",
+        "Frau",
+        "Auto",
+        "Katze",
+        "Stadt"
+      ]
+    },
+    {
+      "id": "de103-q8",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "*die Stadt* has the plural *die Städte*. Which numbered rule governs that formation?",
+      "answer": 37,
+      "unit": "rule number",
+      "explanation": "*Stadt* adds **-e** and takes the Umlaut with it, which is ¶37; a feminine noun of that class always umlauts. ¶36 is the same ending without the Umlaut, and ¶35 the Umlaut without the ending.",
+      "rulesTested": [
+        "plural-e-umlaut"
+      ],
+      "vocabUsed": [
+        "Stadt"
+      ]
+    },
+    {
+      "id": "de103-q9",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "What is the plural of *das Baby*?",
+      "options": [
+        "die Babys",
+        "die Babyen",
+        "die Bäbys",
+        "die Babe"
+      ],
+      "correct": 0,
+      "explanation": "A noun taken from another language forms its plural in **-s**, and the stem is untouched (¶40). Nothing in this class takes the Umlaut, so *Bäbys* is not a possible form.",
+      "rulesTested": [
+        "plural-s"
+      ],
+      "vocabUsed": [
+        "Baby"
+      ]
+    },
+    {
+      "id": "de103-q10",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Which of these is not one of the seven ways German forms a plural?",
+      "options": [
+        "adding **-e**",
+        "adding **-s**",
+        "adding **-in**",
+        "the Umlaut with no ending"
+      ],
+      "correct": 2,
+      "explanation": "**-in** builds a feminine noun out of a masculine one (¶30); it changes the sex denoted, not the number. The other three are among the seven (¶33).",
+      "rulesTested": [
+        "plural-seven",
+        "feminine-in"
+      ]
+    },
+    {
+      "id": "de103-q11",
+      "type": "matching",
+      "difficulty": "hard",
+      "stem": "Pair each noun with the way it forms its plural.",
+      "columnHeadings": [
+        "Noun",
+        "Formation"
+      ],
+      "columnI": [
+        "der Lehrer",
+        "der Apfel",
+        "das Kind",
+        "das Auto"
+      ],
+      "columnII": [
+        "no change",
+        "the Umlaut alone",
+        "-e with the Umlaut",
+        "-er",
+        "-s"
+      ],
+      "options": [
+        [
+          0,
+          0,
+          3,
+          4
+        ],
+        [
+          1,
+          1,
+          3,
+          4
+        ],
+        [
+          0,
+          1,
+          3,
+          4
+        ],
+        [
+          0,
+          1,
+          2,
+          4
+        ]
+      ],
+      "correct": 2,
+      "explanation": "*die Lehrer* is unchanged (¶34), *die Äpfel* takes the Umlaut and no ending (¶35), *die Kinder* adds **-er** (¶38), and *die Autos* adds **-s** (¶40). *Lehrer* and *Apfel* are both masculines in -er and -el, which is what the first two pairings trade on; the **e** of *Lehrer* has no Umlaut to take.",
+      "rulesTested": [
+        "plural-zero",
+        "plural-umlaut",
+        "plural-er",
+        "plural-s"
+      ],
+      "vocabUsed": [
+        "Lehrer",
+        "Apfel",
+        "Kind",
+        "Auto"
+      ]
+    },
+    {
+      "id": "de103-q12",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "*das Buch* becomes *die Bücher* and *das Kind* becomes *die Kinder*. Why does one take the Umlaut and the other not?",
+      "options": [
+        "because **u** has an Umlaut to take and **i** has none",
+        "because *Buch* is neuter and *Kind* is masculine",
+        "because *Buch* is a loan-word",
+        "because *Kinder* is an irregular plural"
+      ],
+      "correct": 0,
+      "explanation": "The **-er** plural takes the Umlaut wherever the stem vowel admits one, and only **a**, **o**, **u** and **au** do (¶38, ¶35). *Kind* has **i**, which has no Umlaut. Both nouns are neuter and both are regular members of the class (¶29).",
+      "rulesTested": [
+        "plural-er",
+        "plural-umlaut",
+        "neuter-classes"
+      ],
+      "vocabUsed": [
+        "Buch",
+        "Kind"
+      ]
+    },
+    {
+      "id": "de103-q13",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "*der Vogel* forms its plural without adding any ending. What is that plural?",
+      "options": [
+        "die Vögel",
+        "die Vogel",
+        "die Vögeln",
+        "die Vogels"
+      ],
+      "correct": 0,
+      "explanation": "The stem vowel takes the Umlaut and carries the number by itself (¶35). *die Vogel* would be the unchanged plural of ¶34, which this noun does not take.",
+      "rulesTested": [
+        "plural-umlaut"
+      ],
+      "vocabUsed": [
+        "Vogel"
+      ]
+    },
+    {
+      "id": "de103-q14",
+      "type": "matching",
+      "difficulty": "hard",
+      "stem": "Pair each noun with the way it forms its plural.",
+      "columnHeadings": [
+        "Noun",
+        "Formation"
+      ],
+      "columnI": [
+        "die Frau",
+        "das Haus",
+        "der Wagen",
+        "die Stadt"
+      ],
+      "columnII": [
+        "-(e)n",
+        "-er with the Umlaut",
+        "no change",
+        "-e with the Umlaut",
+        "-s"
+      ],
+      "options": [
+        [
+          0,
+          3,
+          2,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          4
+        ],
+        [
+          2,
+          1,
+          2,
+          3
+        ]
+      ],
+      "correct": 1,
+      "explanation": "*die Frauen* (¶39), *die Häuser* (¶38), *die Wagen* unchanged (¶34), *die Städte* (¶37). *Haus* and *Stadt* both umlaut, which is what the first pairing trades on — the ending is what tells the two classes apart, and no feminine noun takes **-er** at all.",
+      "rulesTested": [
+        "plural-en",
+        "plural-er",
+        "plural-zero",
+        "plural-e-umlaut"
+      ],
+      "vocabUsed": [
+        "Frau",
+        "Haus",
+        "Stadt"
+      ]
+    },
+    {
+      "id": "de103-q15",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "*die Lehrerin* is the feminine of *der Lehrer*. What is its plural?",
+      "options": [
+        "die Lehrerinnen",
+        "die Lehrerin",
+        "die Lehrerine",
+        "die Lehrerins"
+      ],
+      "correct": 0,
+      "explanation": "A noun in **-in** doubles the **n** and adds **-en** (¶39, ¶30). *der Lehrer* is itself unchanged in the plural (¶34), so the masculine and the feminine look alike in the singular and not in the plural.",
+      "rulesTested": [
+        "plural-en",
+        "feminine-in",
+        "plural-zero"
+      ],
+      "vocabUsed": [
+        "Lehrer"
+      ]
+    },
+    {
+      "id": "de103-q16",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "**Die Mütter und die Väter warten.** Which of these hold?",
+      "options": [
+        "*Mütter* is a plural",
+        "*Väter* is a plural",
+        "the **die** in front of *Mütter* shows that the noun is feminine",
+        "both nouns form their plural by the Umlaut alone"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "*Mutter* and *Vater* both take the Umlaut and no ending (¶35). In the plural all three genders take **die**, so the article says nothing about gender there (¶26) — *Vater* is masculine by its meaning (¶27), and *Mutter* feminine by hers (¶28).",
+      "rulesTested": [
+        "plural-umlaut",
+        "plural-die",
+        "masculine-classes",
+        "feminine-classes"
+      ]
+    },
+    {
+      "id": "de103-q17",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "*der Tag* has the plural *die Tage*, and *der Stuhl* has *die Stühle*. Both nouns are masculine, both are one syllable, and both have a stem vowel that can take the Umlaut. What follows?",
+      "options": [
+        "which plural a noun takes is a property of that noun",
+        "masculine nouns take -e, and the Umlaut with it is optional",
+        "the Umlaut appears on the shorter of two competing forms",
+        "*Stühle* is an exception to a rule that *Tage* keeps"
+      ],
+      "correct": 0,
+      "explanation": "Two nouns alike in gender, in shape and in stem vowel take different formations — *Tage* by ¶36 and *Stühle* by ¶37 — so neither gender nor shape settles the choice (¶41). Nothing marks *Stühle* as the exceptional one; both are ordinary members of their classes.",
+      "rulesTested": [
+        "plural-unpredictable",
+        "plural-e",
+        "plural-e-umlaut"
+      ],
+      "vocabUsed": [
+        "Tag",
+        "Stuhl"
+      ]
+    },
+    {
+      "id": "de103-q18",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "What is the plural of *das Jahr*?",
+      "options": [
+        "die Jahre",
+        "die Jähre",
+        "die Jahren",
+        "die Jahrer"
+      ],
+      "correct": 0,
+      "explanation": "*Jahr* adds **-e** (¶36). Its **a** could take an Umlaut (¶35) and in this noun does not, which is what makes *Jähre* look possible.",
+      "rulesTested": [
+        "plural-e"
+      ],
+      "vocabUsed": [
+        "Jahr"
+      ]
+    },
+    {
+      "id": "de103-q19",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which of these are singulars?",
+      "options": [
+        "die Mädchen",
+        "das Mädchen",
+        "die Katze",
+        "die Bücher"
+      ],
+      "correct": [
+        1,
+        2
+      ],
+      "explanation": "*Mädchen* is unchanged in the plural (¶34), so only the article separates *das Mädchen* from *die Mädchen* (¶26). *die Katze* is a feminine singular (¶25), and *Bücher* is the **-er** plural of *das Buch* (¶38).",
+      "rulesTested": [
+        "plural-zero",
+        "plural-die",
+        "plural-er",
+        "noun-gender"
+      ],
+      "vocabUsed": [
+        "Mädchen",
+        "Katze",
+        "Buch"
+      ]
+    },
+    {
+      "id": "de103-q20",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "**Die Zimmer sind klein.** Which of these hold?",
+      "options": [
+        "*Zimmer* here is plural",
+        "*Zimmer* here could equally be singular",
+        "*Zimmer* is neuter",
+        "the plural of *Zimmer* is *die Zimmern*"
+      ],
+      "correct": [
+        0,
+        2
+      ],
+      "explanation": "*das Zimmer* is unchanged in the plural (¶34), so the noun by itself does not say which is meant; **die** does, since the neuter singular takes *das* (¶25, ¶26). A noun of this class adds no ending at all, so *Zimmern* is not one of its forms.",
+      "rulesTested": [
+        "plural-zero",
+        "plural-die",
+        "noun-gender"
+      ],
+      "vocabUsed": [
+        "Zimmer"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+      "note": "§1.2.1, pp. 14–18, on the formation of the noun plural: the unchanged and umlauted classes, the plurals in -e, -er and -(e)n, the -s plural of borrowings, and the lexical nature of the choice."
+    },
+    {
+      "kind": "grammar",
+      "citation": "*German nouns*, Wikipedia (English).",
+      "url": "https://en.wikipedia.org/wiki/German_nouns",
+      "note": "Cited for the -s plural as the class of loanwords and abbreviations, and for the doubled n of the -in plural."
+    },
+    {
+      "kind": "dictionary",
+      "citation": "*Goethe-Zertifikat A1: Start Deutsch 1 — Wortliste*. Munich: Goethe-Institut.",
+      "note": "Cited for the citation forms and plurals of the nouns in this section's vocabulary."
+    }
+  ]
+}

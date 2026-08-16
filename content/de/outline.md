@@ -1,7 +1,7 @@
 # German — course outline
 
-The path a learner walks, in order. A **checkpoint** follows every third or
-fourth lesson section and examines exactly that block. A **boundary
+The path a learner walks, in order. A **checkpoint** follows every third to
+fifth lesson section and examines every lesson since the last one. A **boundary
 examination** closes each level: it covers every lesson of the level, weights
 the matching and comprehension formats, and assumes every rule of the level is
 live. A checkpoint never doubles as one.
@@ -58,24 +58,24 @@ is quoted, not assumed from the publisher.
 |---|---|---|
 | 01 | ✅ Sounds, Spelling, and the Capital Letter | the alphabet; ä ö ü and ß; long against short vowels; *ch*; word stress; capitalisation of all nouns |
 | 02 | ✅ Nouns I — Gender | Genus *der/die/das*; gender by meaning and by ending; the article of the plural |
-| 03 | ✅ The Article, and the Article That Is Not There | the definite article where English has none; country names that carry one; the indefinite article *ein/eine/ein* and what it does; the Nullartikel (*Sachen*, *Ich esse gern Fleisch*, *Er ist Lehrer*) |
-| 04 | The Present Tense, and Verb-Second | Präsens of all Wortliste verbs; Verbzweitstellung; Nominativergänzung (*Er heißt Heinz Bartels*); Qualitativergänzung (*Der Film ist langweilig*) and the predicative adjective; Personalpronomen im Nominativ; indefinite *man* |
-| — | **Checkpoint 1** | covers 01–04 |
-| 05 | Questions, and Negation | Entscheidungsfrage (*Kaufst du heute ein?*); Ergänzungsfrage (*Wo ist Peter?*); Fragepronomen *Wer? Was?*; Negation with *nicht* and with *kein* |
-| 06 | The Plural, and kein | Numerus of the Wortliste nouns; *kein/keine* and its declension after *ein* (¶39); *kein* in the plural |
+| 03 | ✅ Nouns II — The Plural | Numerus of the Wortliste nouns; the seven plural formations; the Umlaut where a formation carries one |
+| 04 | ✅ The Article, and the Article That Is Not There | the definite article where English has none; country names that carry one; the indefinite article *ein/eine/ein* and what it does; the Nullartikel (*Sachen*, *Ich esse gern Fleisch*, *Er ist Lehrer*) |
+| 05 | ✅ The Present Tense, and Verb-Second | Präsens of all Wortliste verbs; Verbzweitstellung; Nominativergänzung (*Er heißt Heinz Bartels*); Qualitativergänzung (*Der Film ist langweilig*) and the predicative adjective; Personalpronomen im Nominativ; indefinite *man* |
+| — | ✅ **Checkpoint 1** | covers 01–05 |
+| 06 | Questions, and Negation | Entscheidungsfrage (*Kaufst du heute ein?*); Ergänzungsfrage (*Wo ist Peter?*); Fragepronomen *Wer? Was?*; Negation with *nicht* and with *kein*; *kein/keine* and its declension after *ein* (¶48); *kein* in the plural |
 | 07 | The Accusative | Akkusativergänzung (*Ich nehme eine Coca Cola*); *den/einen/keinen*; Personalpronomen *mich/dich/ihn/sie/es*; Fragepronomen *Wen? Was?*; Reziprokpronomen *sich/uns*; the pronouns *etwas, nichts, mehr, alles, welch-* |
 | 08 | Possessives, and Naming an Owner | *mein/dein/sein/ihr/Ihr*, *unser/euer*; demonstrative *dieser/diese/dieses*; Genitiv of proper names in the singular (*Karls Freunde*); the genitive noun phrase, receptive only (*die Nummer des Wagens*) |
-| — | **Checkpoint 2** | covers 05–08 |
+| — | **Checkpoint 2** | covers 06–09 |
 | 09 | Numbers, the Clock, and the Calendar | the Zahlwörter of the Wortliste, cardinal and ordinal, and the halves and quarters; Uhrzeit; days and months; temporal prepositions *an, ab, für, in, nach, über, um, von … bis, vor* |
 | 10 | Separable Verbs, and the Satzklammer | Verben mit trennbarem Präfix (*Kommst du mit?*, *Wann fängt der Kurs an?*); the Satzklammer that carries them |
 | 11 | The Modal Verbs | Präsens of *können, wollen, müssen, dürfen, sollen, möchten*; the Satzklammer with a modal (*Ich will meine Tante besuchen*); *ich würde gerne …*; the adverbial adjective (*Ich lese gern*) |
 | 12 | The Imperative | Imperativ in the du-, ihr- and Sie-form (*Geh bitte nach Hause!*, *Kommt bitte alle mit!*, *Kommen Sie bitte mit!*) |
-| — | **Checkpoint 3** | covers 09–12 |
+| — | **Checkpoint 3** | covers 10–13 |
 | 13 | The Dative | Kasus Dativ; Dativergänzung with *danken, gehören, geben, helfen*; *es geht mir gut*; *mir/dir/euch/Ihnen*; Fragepronomen *Wem?* |
 | 14 | Where, Whence, Whither, and How | Lokalergänzung; the local prepositions *an, auf, aus, bei, in, nach, unter, zu, von … nach*; *an* and *in* with dative against accusative; the modal prepositions *aus, für, mit, ohne* |
 | 15 | The Perfect, and the Two Past Forms of sein and haben | Perfekt of the fifteen listed verbs; *haben* or *sein* as the auxiliary; the Satzklammer with a participle (*Ich habe schon gegessen*); selected participles as adjectives (*Heute geöffnet*); Präteritum, 1st and 3rd person of *haben* and *sein* only (*ich war*, *sie hatte*) |
 | 16 | Joining Sentences, and Building Words | Satzverbindungen *und, oder, aber, denn, dann*, and *wenn* receptively; Wortbildung: nouns in *-er* and *-ung*, feminines in *-in*, compound nouns, participles as nouns (*Reisender*); adjectives in *un-*, *-los*, *-bar*, and compounds (*hellblau*) |
-| — | **Checkpoint 4** | covers 13–16 |
+| — | **Checkpoint 4** | covers 14–16 |
 | — | **A1 Boundary Examination** | covers all 16 A1 lessons; admits to A2 |
 
 The topics the Wortliste attaches to these points — personal details, home and
@@ -125,23 +125,23 @@ for one.
 
 > Written up at `content/de/notes-a1-02.md`; authored as ¶24–¶32.
 
-### 03 — The Article, and the Article That Is Not There ✅
+### 03 — Nouns II — The Plural ✅
+*Hammer 1.2.1 (pp. 14–18). Public source: en.wikipedia.org/wiki/German_nouns*
+
+> Written up at `content/de/notes-a1-03.md`; authored as ¶33–¶41.
+
+### 04 — The Article, and the Article That Is Not There ✅
 *Hammer 4.1.2 with Table 4.2 (p. 64); 4.2 (pp. 65–69); 4.3.1 (pp. 69–70); 4.4.1 (pp. 70–71); 4.8.2 and 4.8.7 (pp. 74–75). Public sources: de.wikipedia.org/wiki/Nullartikel, de.wikipedia.org/wiki/Artikel_(Wortart)*
 
-> No notes file — authored from the sources above, on your instruction. Authored as ¶33–¶41.
+> No notes file — authored from the sources above, on your instruction. Authored as ¶42–¶50.
 
-### 04 — The Present Tense, and Verb-Second
+### 05 — The Present Tense, and Verb-Second ✅
 *Hammer 12.1 and 12.2.1–12.2.2 with Tables 12.2–12.3 (pp. 223–236); 21.1.1 and 21.2.1 (pp. 450–460); 3.1.1 with Table 3.1 (pp. 48–50); 18.1.3 and 18.6 (pp. 356, 379); 2.1.3 (p. 33); 6.1.1 (p. 119); man 5.5.18*
 
->
+> Written up at `content/de/notes-a1-04.md`; authored as ¶51–¶68.
 
-### 05 — Questions, and Negation
-*Hammer 21.1.1 (p. 450); 5.3.3 (pp. 89–92); 7.5 (p. 151); nicht 21.7.1 (pp. 469–471); kein 5.5.16*
-
->
-
-### 06 — The Plural, and kein
-*Hammer 1.2.1 (pp. 14–18); kein in Table 4.2 (p. 64); 5.5.16*
+### 06 — Questions, and Negation
+*Hammer 21.1.1 (p. 450); 5.3.3 (pp. 89–92); 7.5 (p. 151); nicht 21.7.1 (pp. 469–471); kein 5.5.16 and Table 4.2 (p. 64)*
 
 >
 
@@ -204,3 +204,5 @@ Not yet sketched. The A2 inventory is a separate Goethe document
 before any A2 section is drafted, on the same terms as A1: the inventory fixes
 the syllabus, Hammer supplies the description. The **Not at A1** table above is
 the first draft of the A2 intake.
+
+

@@ -561,7 +561,131 @@
       "core": true
     }
   ],
-  "vocabulary": [],
+  "vocabulary": [
+    {
+      "lemma": "Alphabet",
+      "gloss": "alphabet",
+      "pos": "noun",
+      "forms": {
+        "nom": "das Alphabet",
+        "acc": "das Alphabet",
+        "dat": "dem Alphabet",
+        "gen": "des Alphabets",
+        "plural": "die Alphabete"
+      }
+    },
+    {
+      "lemma": "Buchstabe",
+      "gloss": "letter",
+      "pos": "noun",
+      "forms": {
+        "nom": "der Buchstabe",
+        "acc": "den Buchstaben",
+        "dat": "dem Buchstaben",
+        "gen": "des Buchstabens",
+        "plural": "die Buchstaben"
+      },
+      "notes": "Takes -n in every case but the nominative singular, and -ns in the genitive."
+    },
+    {
+      "lemma": "Laut",
+      "gloss": "sound",
+      "pos": "noun",
+      "forms": {
+        "nom": "der Laut",
+        "acc": "den Laut",
+        "dat": "dem Laut",
+        "gen": "des Lautes",
+        "plural": "die Laute"
+      }
+    },
+    {
+      "lemma": "Vokal",
+      "gloss": "vowel",
+      "pos": "noun",
+      "forms": {
+        "nom": "der Vokal",
+        "acc": "den Vokal",
+        "dat": "dem Vokal",
+        "gen": "des Vokals",
+        "plural": "die Vokale"
+      }
+    },
+    {
+      "lemma": "Konsonant",
+      "gloss": "consonant",
+      "pos": "noun",
+      "forms": {
+        "nom": "der Konsonant",
+        "acc": "den Konsonanten",
+        "dat": "dem Konsonanten",
+        "gen": "des Konsonanten",
+        "plural": "die Konsonanten"
+      },
+      "notes": "Masculine by its ending -ant, and takes -en in every case but the nominative singular."
+    },
+    {
+      "lemma": "Silbe",
+      "gloss": "syllable",
+      "pos": "noun",
+      "forms": {
+        "nom": "die Silbe",
+        "acc": "die Silbe",
+        "dat": "der Silbe",
+        "gen": "der Silbe",
+        "plural": "die Silben"
+      }
+    },
+    {
+      "lemma": "Wort",
+      "gloss": "word",
+      "pos": "noun",
+      "forms": {
+        "nom": "das Wort",
+        "acc": "das Wort",
+        "dat": "dem Wort",
+        "gen": "des Wortes",
+        "plural": "die Wörter"
+      },
+      "notes": "Two plurals: die Wörter counts words one by one, die Worte is connected speech."
+    },
+    {
+      "lemma": "Sprache",
+      "gloss": "language",
+      "pos": "noun",
+      "forms": {
+        "nom": "die Sprache",
+        "acc": "die Sprache",
+        "dat": "der Sprache",
+        "gen": "der Sprache",
+        "plural": "die Sprachen"
+      }
+    },
+    {
+      "lemma": "Umlaut",
+      "gloss": "umlaut",
+      "pos": "noun",
+      "forms": {
+        "nom": "der Umlaut",
+        "acc": "den Umlaut",
+        "dat": "dem Umlaut",
+        "gen": "des Umlauts",
+        "plural": "die Umlaute"
+      }
+    },
+    {
+      "lemma": "Betonung",
+      "gloss": "stress",
+      "pos": "noun",
+      "forms": {
+        "nom": "die Betonung",
+        "acc": "die Betonung",
+        "dat": "der Betonung",
+        "gen": "der Betonung",
+        "plural": "die Betonungen"
+      }
+    }
+  ],
   "drills": [
     {
       "id": "de101-q1",

@@ -89,7 +89,8 @@ nothing else; keep it that way.
 
 ## 6. Checkpoints and boundary exams
 
-- **Checkpoints** (`kind: "checkpoint"`) examine the 3–4 lessons before them.
+- **Checkpoints** (`kind: "checkpoint"`) examine every lesson since the last
+  checkpoint — the 3–5 sections directly in front of them, with nothing skipped.
   They must be *harder* than the drills they follow and must not reuse or
   lightly reskin drill items. A checkpoint question should combine at least two
   sections' rules wherever the material allows. Reused stems are a validation
@@ -318,3 +319,49 @@ is two citations that happen to be adjacent, not a two-word phrase; merging
 them would print *అక్కా, తండ్రి (akkā, taṇḍri)* and read as though the whole
 parenthesis belonged to the second word. A bare comma still joins, so
 `రాము, నేను వస్తాను` stays one sentence.
+
+## 14. A German noun is cited in four cases and the plural
+
+What §13 does for Telugu, this does for German: it fixes the citation form, so
+that a vocabulary entry states the parts of a word a learner cannot derive.
+
+German declines the noun phrase in four cases, and neither the genitive nor
+the plural follows from the nominative — *des Tages* beside *des Hauses*
+beside *des Studenten*, *die Tage* beside *die Häuser* beside *die Studenten*.
+So every noun in a German `vocabulary` block gives its accusative, dative and
+genitive beside its nominative, and its plural with them:
+
+```json
+{ "lemma": "Tag", "gloss": "day", "pos": "noun",
+  "forms": { "nom": "der Tag", "acc": "den Tag", "dat": "dem Tag",
+             "gen": "des Tages", "plural": "die Tage" } }
+```
+
+Each form carries its definite article. In most nouns the article is the only
+thing the case touches — the accusative of *Tag* is *Tag* — so bare noun forms
+would repeat one word four times and hide the declension that is actually
+there. The nominative's article states the gender besides, which is why the
+entry needs no separate field for it.
+
+A noun whose form is the same in two cases still states both. That sameness is
+a fact about the noun, and an omitted field is indistinguishable from a form
+nobody checked. Where usage admits two forms — the genitive *des Manns* beside
+*des Mannes* — give both, separated by a comma.
+
+The plural is cited in the nominative, as *die Tage*, and a noun that has no
+plural says so in `notes` rather than leaving the key out.
+
+The five keys are declared in `Course.formLabels.noun` in the German course
+file, which is what orders and labels them wherever vocabulary is rendered.
+
+### A verb is cited by its infinitive
+
+A German verb is named by its infinitive everywhere it is cited — as the
+`lemma` of a vocabulary entry, in a rule's prose, in a drill explanation and
+in a paradigm caption. *gehen*, never *geht* or *ging*. The infinitive is the
+form a dictionary lists, and citing a verb by an inflected form leaves the
+entry disagreeing with the paradigm printed beneath it.
+
+An inflected form is of course what an *example* shows — *Der Mann isst einen
+Apfel* is a sentence, not a citation. The rule governs how a verb is named
+when it is being named.

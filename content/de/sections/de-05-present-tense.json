@@ -1,0 +1,930 @@
+{
+  "id": "de-05",
+  "kind": "lesson",
+  "level": "A1",
+  "order": 5,
+  "title": "The Present Tense, and Verb-Second",
+  "summary": "The one present tense German has where English has two, the six endings it is built with, the three spellings that bend them, the verbs that move their stem vowel instead, the two ways of addressing a person, and the rule that puts the verb second whatever stands first.",
+  "rules": [
+    {
+      "id": "verb-definition",
+      "number": "51",
+      "heading": "What a verb is",
+      "statement": "A verb names an action or a state. It is the word of the sentence that changes its shape according to who is acting and when.",
+      "examples": [
+        { "target": "Der Mann isst.", "gloss": "The man is eating." },
+        { "target": "Die Frau singt.", "gloss": "The woman is singing." },
+        { "target": "Das Kind ist klein.", "gloss": "The child is small.", "note": "a state rather than an action" }
+      ],
+      "core": false
+    },
+    {
+      "id": "present-tense",
+      "number": "52",
+      "heading": "The present tense",
+      "statement": "The present tense names what is going on at the time of speaking. German has one present where English has two, so a single German form answers both to *he goes* and to *he is going*.",
+      "examples": [
+        { "target": "Der Mann isst.", "gloss": "The man eats. / The man is eating." },
+        { "target": "Ich lerne Deutsch.", "gloss": "I learn German. / I am learning German." },
+        { "target": "Wir gehen jetzt.", "gloss": "We go now. / We are going now." }
+      ],
+      "footnotes": [
+        "Which of the two English sentences renders a German present is decided by the context it stands in, not by anything in the German."
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§12.1, pp. 223–226, on the German present against the two English presents."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "person-number",
+      "number": "53",
+      "heading": "Person and number",
+      "statement": "A German verb is conjugated for person and for number. The first person is the speaker, the second the one spoken to, and the third anyone who is neither; each of the three has a singular and a plural.",
+      "examples": [
+        { "target": "Ich singe.", "gloss": "I sing.", "note": "1 sg." },
+        { "target": "Du singst.", "gloss": "You sing.", "note": "2 sg." },
+        { "target": "Er singt.", "gloss": "He sings.", "note": "3 sg." },
+        { "target": "Wir singen.", "gloss": "We sing.", "note": "1 pl." },
+        { "target": "Ihr singt.", "gloss": "You sing.", "note": "2 pl." },
+        { "target": "Sie singen.", "gloss": "They sing.", "note": "3 pl." }
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§12.2.1 with Table 12.2, pp. 226–230."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "pronouns-nom",
+      "number": "54",
+      "heading": "The personal pronouns in the nominative",
+      "statement": "Six pronouns stand as the subject of a verb, and the polite **Sie** stands beside them.",
+      "examples": [
+        { "target": "ich", "gloss": "I" },
+        { "target": "du", "gloss": "you", "note": "one person, familiarly" },
+        { "target": "er, sie, es", "gloss": "he, she, it" },
+        { "target": "wir", "gloss": "we" },
+        { "target": "ihr", "gloss": "you", "note": "more than one person, familiarly" },
+        { "target": "sie", "gloss": "they" },
+        { "target": "Sie", "gloss": "you", "note": "politely, of one person or of many" }
+      ],
+      "paradigms": [
+        {
+          "caption": "The personal pronouns in the nominative",
+          "columns": ["Person", "Singular", "Plural"],
+          "rows": [
+            { "label": "1", "cells": ["ich", "wir"] },
+            { "label": "2", "cells": ["du", "ihr"] },
+            { "label": "3", "cells": ["er, sie, es", "sie"] }
+          ],
+          "footnote": "The third person singular has one pronoun per gender, which is the gender of the noun and not the sex of the thing (¶25)."
+        }
+      ],
+      "footnotes": [
+        "Polite **Sie** is the same word as *sie* 'they' and is told from it by the capital, which it keeps wherever it stands in the sentence."
+      ],
+      "seeAlso": ["noun-gender"],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§3.1.1 with Table 3.1, pp. 48–50."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "present-endings",
+      "number": "55",
+      "heading": "The endings of the present tense",
+      "statement": "An infinitive ends in **-en** or **-n**, and what stands in front of that is the stem. The present tense is the stem with six endings: **-e, -st, -t, -en, -t, -en**.",
+      "examples": [
+        { "target": "kaufen — kauf-", "gloss": "to buy — the stem" },
+        { "target": "ich kaufe", "gloss": "I buy" },
+        { "target": "du kaufst", "gloss": "you buy" },
+        { "target": "er kauft", "gloss": "he buys" },
+        { "target": "wir kaufen", "gloss": "we buy" },
+        { "target": "ihr kauft", "gloss": "you buy" },
+        { "target": "sie kaufen", "gloss": "they buy" }
+      ],
+      "paradigms": [
+        {
+          "caption": "kaufen, present",
+          "columns": ["Person", "Singular", "Plural"],
+          "rows": [
+            { "label": "1", "cells": ["ich kaufe", "wir kaufen"] },
+            { "label": "2", "cells": ["du kaufst", "ihr kauft"] },
+            { "label": "3", "cells": ["er kauft", "sie kaufen"] }
+          ],
+          "footnote": "Four distinct endings fill the six slots: **-t** serves the third singular and the second plural, **-en** the first and third plural."
+        }
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§12.2.1 with Table 12.2, pp. 226–230, for the endings of the weak present."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "plural-syncretism",
+      "number": "56",
+      "heading": "The first and third person plural",
+      "statement": "The first and third person plural are always one and the same form. In every verb but **sein** that form is the infinitive itself.",
+      "examples": [
+        { "target": "kaufen — wir kaufen, sie kaufen", "gloss": "to buy — we buy, they buy" },
+        { "target": "gehen — wir gehen, sie gehen", "gloss": "to go — we go, they go" },
+        { "target": "sammeln — wir sammeln, sie sammeln", "gloss": "to collect — we collect, they collect", "note": "the infinitive ends in -n, and so do both plurals" },
+        { "target": "sein — wir sind, sie sind", "gloss": "to be — we are, they are", "note": "the one verb where the form is not the infinitive" }
+      ],
+      "footnotes": [
+        "This is what settles the **-en**/**-n** of ¶55: a verb takes in those two slots whatever its own infinitive ends in (¶59).",
+        "A form in **-en** is on its own ambiguous between the two persons, and the pronoun in front of it is what separates them (¶54)."
+      ],
+      "seeAlso": ["present-endings", "pronouns-nom"],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§12.2.1 with Table 12.2, pp. 226–230, where the 1st and 3rd plural share one form throughout the conjugation."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "stem-e-insertion",
+      "number": "57",
+      "heading": "The -e- before -st and -t",
+      "statement": "A stem ending in **-d** or **-t** inserts an **-e-** in front of the endings **-st** and **-t**, which could otherwise not be said. So does a stem ending in **-m** or **-n** with a consonant other than *l* or *r* before it.",
+      "examples": [
+        { "target": "du arbeitest", "gloss": "you work" },
+        { "target": "er arbeitet", "gloss": "he works" },
+        { "target": "ihr arbeitet", "gloss": "you work" },
+        { "target": "du findest", "gloss": "you find" },
+        { "target": "er findet", "gloss": "he finds" },
+        { "target": "du atmest", "gloss": "you breathe" }
+      ],
+      "footnotes": [
+        "*lernen* has **r** in front of its **n** and takes no **-e-**: *du lernst*.",
+        "*wohnen* takes none either, because the **h** there is the mark of a long vowel and not a consonant (¶16): *du wohnst*."
+      ],
+      "seeAlso": ["present-endings", "vowel-length-h"],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§12.2.2, pp. 230–233, on the -e- of verbs with stems in -d, -t, -m and -n."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "stem-s-sound",
+      "number": "58",
+      "heading": "The second person after an s-sound",
+      "statement": "A stem ending in an s-sound — **-s**, **-ß**, **-ss**, **-x** or **-z** — takes **-t** alone in the second person singular, because the **s** of **-st** has been said already. The second and third persons singular are then one and the same form.",
+      "examples": [
+        { "target": "du heißt — er heißt", "gloss": "you are called — he is called" },
+        { "target": "du reist", "gloss": "you travel" },
+        { "target": "du sitzt", "gloss": "you sit" },
+        { "target": "du tanzt", "gloss": "you dance" }
+      ],
+      "seeAlso": ["present-endings", "eszett", "letter-s"],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§12.2.2, pp. 230–233, on the second person singular of stems in a sibilant."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "infinitive-eln-ern",
+      "number": "59",
+      "heading": "Infinitives in -eln and -ern",
+      "statement": "An infinitive in **-eln** or **-ern** has a stem in **-el** or **-er**, and takes **-n** in the first and third person plural rather than **-en**. The **-e-** of an **-eln** stem drops in the first person singular.",
+      "examples": [
+        { "target": "ich sammle", "gloss": "I collect" },
+        { "target": "du sammelst", "gloss": "you collect" },
+        { "target": "wir sammeln", "gloss": "we collect" },
+        { "target": "ich ändere", "gloss": "I change" },
+        { "target": "wir ändern", "gloss": "we change" }
+      ],
+      "paradigms": [
+        {
+          "caption": "sammeln, present",
+          "columns": ["Person", "Singular", "Plural"],
+          "rows": [
+            { "label": "1", "cells": ["ich sammle", "wir sammeln"] },
+            { "label": "2", "cells": ["du sammelst", "ihr sammelt"] },
+            { "label": "3", "cells": ["er sammelt", "sie sammeln"] }
+          ]
+        }
+      ],
+      "seeAlso": ["present-endings"],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§12.2.2, pp. 230–233, on verbs in -eln and -ern."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "regular-irregular",
+      "number": "60",
+      "heading": "Regular and irregular",
+      "statement": "A regular verb builds its present from ¶55 and changes nothing else. An irregular verb departs in the stem and not in the endings: *fahren* takes exactly the endings of *kaufen*, and only the vowel of its stem moves.",
+      "examples": [
+        { "target": "kaufen: kaufe, kaufst, kauft, kaufen, kauft, kaufen", "gloss": "regular" },
+        { "target": "fahren: fahre, fährst, fährt, fahren, fahrt, fahren", "gloss": "irregular in the stem, regular in the endings" },
+        { "target": "sein: bin, bist, ist, sind, seid, sind", "gloss": "irregular throughout" }
+      ],
+      "footnotes": [
+        "**sein** is the one verb of this section whose endings are its own (¶62)."
+      ],
+      "seeAlso": ["present-endings", "vowel-change", "verb-sein"],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§12.2.1–12.2.2 with Tables 12.2–12.3, pp. 226–236, where the strong present differs from the weak in the stem vowel alone."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "vowel-change",
+      "number": "61",
+      "heading": "The vowel change in the second and third person singular",
+      "statement": "A body of verbs moves the stem vowel in the second and third person singular and nowhere else: the first person singular, the whole plural and the infinitive keep it as it stands. The changes are **a → ä**, **e → i**, **e → ie** and **au → äu**.",
+      "examples": [
+        { "target": "fahren — du fährst, er fährt", "gloss": "to drive — you drive, he drives", "note": "a → ä" },
+        { "target": "sprechen — du sprichst, er spricht", "gloss": "to speak — you speak, he speaks", "note": "e → i" },
+        { "target": "lesen — du liest, er liest", "gloss": "to read — you read, he reads", "note": "e → ie" },
+        { "target": "laufen — du läufst, er läuft", "gloss": "to run — you run, he runs", "note": "au → äu" },
+        { "target": "fahren — ich fahre, wir fahren, ihr fahrt", "gloss": "to drive — I drive, we drive, you drive", "note": "the vowel of the infinitive stands everywhere but in the two singular forms" }
+      ],
+      "paradigms": [
+        {
+          "caption": "fahren, present",
+          "columns": ["Person", "Singular", "Plural"],
+          "rows": [
+            { "label": "1", "cells": ["ich fahre", "wir fahren"] },
+            { "label": "2", "cells": ["du fährst", "ihr fahrt"] },
+            { "label": "3", "cells": ["er fährt", "sie fahren"] }
+          ],
+          "footnote": "The Umlaut sits in two of the six slots and in no other."
+        },
+        {
+          "caption": "The four changes",
+          "columns": ["Change", "Infinitive", "3 sg."],
+          "rows": [
+            { "label": "a → ä", "cells": ["*fahren*", "*er fährt*"] },
+            { "label": "e → i", "cells": ["*sprechen*", "*er spricht*"] },
+            { "label": "e → ie", "cells": ["*lesen*", "*er liest*"] },
+            { "label": "au → äu", "cells": ["*laufen*", "*er läuft*"] }
+          ]
+        }
+      ],
+      "footnotes": [
+        "*essen* is where this rule meets ¶58: the vowel moves to **i**, the stem then ends in **-ss**, and the second person takes **-t** alone, so *du isst* and *er isst* are one form. *lesen* does the same with **ie**."
+      ],
+      "seeAlso": ["stem-s-sound", "regular-irregular", "vowel-ae", "vowel-ue"],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§12.2.2 with Table 12.3, pp. 230–236, on the vowel alternation of the strong present."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "verb-sein",
+      "number": "62",
+      "heading": "sein",
+      "statement": "**sein** shares no stem with its endings and is taken whole.",
+      "paradigms": [
+        {
+          "caption": "sein, present",
+          "columns": ["Person", "Singular", "Plural"],
+          "rows": [
+            { "label": "1", "cells": ["ich bin", "wir sind"] },
+            { "label": "2", "cells": ["du bist", "ihr seid"] },
+            { "label": "3", "cells": ["er ist", "sie sind"] }
+          ]
+        }
+      ],
+      "examples": [
+        { "target": "Ich bin Lehrer.", "gloss": "I am a teacher." },
+        { "target": "Du bist zu Hause.", "gloss": "You are at home." },
+        { "target": "Die Kinder sind klein.", "gloss": "The children are small." }
+      ],
+      "seeAlso": ["present-endings", "plural-syncretism", "regular-irregular"],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§12.2.1 with Table 12.2, pp. 226–230, for the present of *sein*."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "verb-haben",
+      "number": "63",
+      "heading": "haben",
+      "statement": "**haben** follows ¶55 except in the second and third person singular, which drop the **-b** of the stem.",
+      "paradigms": [
+        {
+          "caption": "haben, present",
+          "columns": ["Person", "Singular", "Plural"],
+          "rows": [
+            { "label": "1", "cells": ["ich habe", "wir haben"] },
+            { "label": "2", "cells": ["du hast", "ihr habt"] },
+            { "label": "3", "cells": ["er hat", "sie haben"] }
+          ]
+        }
+      ],
+      "examples": [
+        { "target": "Ich habe Zeit.", "gloss": "I have time." },
+        { "target": "Du hast Geld.", "gloss": "You have money." },
+        { "target": "Er hat ein Buch.", "gloss": "He has a book." }
+      ],
+      "seeAlso": ["present-endings"],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§12.2.1 with Table 12.2, pp. 226–230, for the present of *haben*."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "du-ihr-sie",
+      "number": "64",
+      "heading": "du, ihr and Sie",
+      "statement": "German distinguishes the person addressed familiarly from the person addressed formally. **du** is the familiar singular and **ihr** its plural; **Sie** is the formal address for one person and for many alike, and takes the third person plural form of the verb.",
+      "examples": [
+        { "target": "Was machst du?", "gloss": "What are you doing?", "note": "one person, familiarly" },
+        { "target": "Was macht ihr?", "gloss": "What are you doing?", "note": "more than one, familiarly" },
+        { "target": "Was machen Sie?", "gloss": "What are you doing?", "note": "formally, of one or of many" }
+      ],
+      "paradigms": [
+        {
+          "caption": "The three ways of saying *you*",
+          "columns": ["Pronoun", "Whom it addresses", "The verb's form"],
+          "rows": [
+            { "label": "du", "cells": ["one person, familiarly", "2 sg. — *machst*"] },
+            { "label": "ihr", "cells": ["more than one, familiarly", "2 pl. — *macht*"] },
+            { "label": "Sie", "cells": ["one or many, formally", "3 pl. — *machen*"] }
+          ],
+          "footnote": "English *you* covers all three, so an English sentence does not say which is meant."
+        }
+      ],
+      "seeAlso": ["pronouns-nom"],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§3.1.1 with Table 3.1, pp. 48–50, on du, ihr and Sie."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "pronoun-man",
+      "number": "65",
+      "heading": "man",
+      "statement": "**man** is a subject that names nobody in particular, answering to English *one*, *you* or *people*. It takes the third person singular.",
+      "examples": [
+        { "target": "Hier spricht man Deutsch.", "gloss": "German is spoken here." },
+        { "target": "Man isst hier gut.", "gloss": "One eats well here." },
+        { "target": "Was macht man da?", "gloss": "What does one do there?" }
+      ],
+      "footnotes": [
+        "**man** is a pronoun and not the noun *der Mann* (¶8 gives the capital that would tell them apart in writing)."
+      ],
+      "seeAlso": ["capital-nouns"],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§5.5.18 on the indefinite pronoun *man*."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "verb-second",
+      "number": "66",
+      "heading": "The verb stands second",
+      "statement": "In a statement the conjugated verb is the second element of the sentence. What stands first need not be the subject, and when something else stands there the subject follows the verb.",
+      "examples": [
+        { "target": "Ich gehe heute nach Hause.", "gloss": "I am going home today." },
+        { "target": "Heute gehe ich nach Hause.", "gloss": "Today I am going home." },
+        { "target": "Nach Hause gehe ich heute.", "gloss": "Home is where I am going today." }
+      ],
+      "footnotes": [
+        "The first element is one element however many words it takes: *nach Hause* is a single position, not two.",
+        "*Heute ich gehe nach Hause* is not German, because it puts the verb third."
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§21.1.1 and §21.2.1, pp. 450–460, on the second position of the finite verb and what fills the first."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "nominative-complement",
+      "number": "67",
+      "heading": "The complement in the nominative",
+      "statement": "**sein**, **heißen** and **werden** take no object. What follows them names the subject over again, and stands in the nominative.",
+      "examples": [
+        { "target": "Er heißt Heinz Bartels.", "gloss": "His name is Heinz Bartels." },
+        { "target": "Das ist der Lehrer.", "gloss": "That is the teacher." },
+        { "target": "Er wird Arzt.", "gloss": "He is becoming a doctor.", "note": "no article, by ¶45" }
+      ],
+      "seeAlso": ["null-profession"],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§18.1.3, p. 356, and §18.6, p. 379, on the Nominativergänzung; §2.1.3, p. 33, on the nominative as the case of the complement."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "predicative-adjective",
+      "number": "68",
+      "heading": "The predicative adjective",
+      "statement": "An adjective standing after **sein**, **werden** or **bleiben** takes no ending, whatever the gender and the number of its subject.",
+      "examples": [
+        { "target": "Das Buch ist neu.", "gloss": "The book is new." },
+        { "target": "Die Bücher sind neu.", "gloss": "The books are new.", "note": "the plural subject changes nothing" },
+        { "target": "Das Haus ist klein.", "gloss": "The house is small." },
+        { "target": "Die Kinder sind klein.", "gloss": "The children are small." }
+      ],
+      "seeAlso": ["verb-sein", "nominative-complement"],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§6.1.1, p. 119, on the uninflected predicative adjective."
+        }
+      ],
+      "core": true
+    }
+  ],
+  "vocabulary": [
+    { "lemma": "sein", "gloss": "to be", "pos": "verb", "forms": { "inf": "sein", "du": "du bist", "pres": "er ist" }, "notes": "Irregular throughout (¶62)." },
+    { "lemma": "haben", "gloss": "to have", "pos": "verb", "forms": { "inf": "haben", "du": "du hast", "pres": "er hat" }, "notes": "Regular but for the two singular forms that drop the -b (¶63)." },
+    { "lemma": "werden", "gloss": "to become", "pos": "verb", "forms": { "inf": "werden", "du": "du wirst", "pres": "er wird" } },
+    { "lemma": "kaufen", "gloss": "to buy", "pos": "verb", "forms": { "inf": "kaufen", "du": "du kaufst", "pres": "er kauft" } },
+    { "lemma": "machen", "gloss": "to do, to make", "pos": "verb", "forms": { "inf": "machen", "du": "du machst", "pres": "er macht" } },
+    { "lemma": "wohnen", "gloss": "to live, to dwell", "pos": "verb", "forms": { "inf": "wohnen", "du": "du wohnst", "pres": "er wohnt" }, "notes": "No -e- before the ending: the h marks a long vowel and is not a consonant (¶57, ¶16)." },
+    { "lemma": "lernen", "gloss": "to learn", "pos": "verb", "forms": { "inf": "lernen", "du": "du lernst", "pres": "er lernt" }, "notes": "No -e- before the ending, because r stands before the n (¶57)." },
+    { "lemma": "gehen", "gloss": "to go", "pos": "verb", "forms": { "inf": "gehen", "du": "du gehst", "pres": "er geht" } },
+    { "lemma": "singen", "gloss": "to sing", "pos": "verb", "forms": { "inf": "singen", "du": "du singst", "pres": "er singt" } },
+    { "lemma": "arbeiten", "gloss": "to work", "pos": "verb", "forms": { "inf": "arbeiten", "du": "du arbeitest", "pres": "er arbeitet" }, "notes": "The stem ends in -t, so an -e- comes before the ending (¶57)." },
+    { "lemma": "finden", "gloss": "to find", "pos": "verb", "forms": { "inf": "finden", "du": "du findest", "pres": "er findet" }, "notes": "The stem ends in -d, so an -e- comes before the ending (¶57)." },
+    { "lemma": "heißen", "gloss": "to be called", "pos": "verb", "forms": { "inf": "heißen", "du": "du heißt", "pres": "er heißt" }, "notes": "The two singular forms are identical, the stem ending in an s-sound (¶58)." },
+    { "lemma": "sammeln", "gloss": "to collect", "pos": "verb", "forms": { "inf": "sammeln", "du": "du sammelst", "pres": "er sammelt" }, "notes": "1 sg. ich sammle; 1 and 3 pl. wir/sie sammeln (¶59)." },
+    { "lemma": "fahren", "gloss": "to drive, to travel", "pos": "verb", "forms": { "inf": "fahren", "du": "du fährst", "pres": "er fährt" }, "notes": "a → ä in the two singular forms (¶61)." },
+    { "lemma": "sprechen", "gloss": "to speak", "pos": "verb", "forms": { "inf": "sprechen", "du": "du sprichst", "pres": "er spricht" }, "notes": "e → i in the two singular forms (¶61)." },
+    { "lemma": "lesen", "gloss": "to read", "pos": "verb", "forms": { "inf": "lesen", "du": "du liest", "pres": "er liest" }, "notes": "e → ie, and the stem then ends in an s-sound, so the two forms fall together (¶61, ¶58)." },
+    { "lemma": "essen", "gloss": "to eat", "pos": "verb", "forms": { "inf": "essen", "du": "du isst", "pres": "er isst" }, "notes": "e → i, and the stem then ends in -ss, so the two forms fall together (¶61, ¶58)." },
+    { "lemma": "laufen", "gloss": "to run", "pos": "verb", "forms": { "inf": "laufen", "du": "du läufst", "pres": "er läuft" }, "notes": "au → äu in the two singular forms (¶61)." },
+    { "lemma": "man", "gloss": "one, you, people", "pos": "pronoun", "forms": { "nom": "man" }, "notes": "Takes the third person singular (¶65)." },
+    { "lemma": "neu", "gloss": "new", "pos": "adjective", "forms": { "nom": "neu", "plural": "neu" }, "notes": "The form does not change after sein, werden or bleiben (¶68)." },
+    { "lemma": "klein", "gloss": "small", "pos": "adjective", "forms": { "nom": "klein", "plural": "klein" }, "notes": "The form does not change after sein, werden or bleiben (¶68)." },
+    { "lemma": "langweilig", "gloss": "boring", "pos": "adjective", "forms": { "nom": "langweilig", "plural": "langweilig" }, "notes": "The form does not change after sein, werden or bleiben (¶68)." }
+  ],
+  "drills": [
+    {
+      "id": "de105-q1",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "The stem of *kaufen* is *kauf-*. Which form goes with **du**?",
+      "options": ["kaufst", "kaufest", "kauft", "kaufen"],
+      "correct": 0,
+      "explanation": "The second person singular ending is **-st** (¶55). *kauft* is the third singular and the second plural, and *kaufen* the infinitive and both of the -en plurals.",
+      "rulesTested": ["present-endings"],
+      "vocabUsed": ["kaufen"]
+    },
+    {
+      "id": "de105-q2",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Which form goes with **du** for *arbeiten*?",
+      "options": ["arbeitest", "arbeitst", "arbeitet", "arbeitst du"],
+      "correct": 0,
+      "explanation": "The stem *arbeit-* ends in **-t**, so an **-e-** comes in before the ending (¶57). Without it the ending could not be said, which is what rules out *arbeitst*.",
+      "rulesTested": ["stem-e-insertion", "present-endings"],
+      "vocabUsed": ["arbeiten"]
+    },
+    {
+      "id": "de105-q3",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "*essen* moves its stem vowel in the singular. Which form goes with **du**?",
+      "options": ["isst", "issst", "esst", "isst du"],
+      "correct": 0,
+      "explanation": "The vowel moves **e → i** (¶61), and the stem *iss-* then ends in an s-sound, so the second person takes **-t** alone (¶58). *du isst* and *er isst* are therefore one form. *esst* keeps the vowel and is the second person plural.",
+      "rulesTested": ["vowel-change", "stem-s-sound"],
+      "vocabUsed": ["essen"]
+    },
+    {
+      "id": "de105-q4",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Which form of *sein* goes with **wir**?",
+      "options": ["sind", "seid", "bin", "ist"],
+      "correct": 0,
+      "explanation": "*wir sind* (¶62). *seid* is the second person plural, *bin* the first singular and *ist* the third singular.",
+      "rulesTested": ["verb-sein"],
+      "vocabUsed": ["sein"]
+    },
+    {
+      "id": "de105-q5",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which of these are good German?",
+      "options": [
+        "Heute gehe ich nach Hause.",
+        "Heute ich gehe nach Hause.",
+        "Ich gehe heute nach Hause.",
+        "Nach Hause gehe ich heute."
+      ],
+      "correct": [0, 2, 3],
+      "explanation": "The conjugated verb is the second element (¶66). In the first and the fourth something other than the subject stands first, so the subject moves in behind the verb. The second puts *gehe* third, which German does not allow.",
+      "rulesTested": ["verb-second"],
+      "vocabUsed": ["gehen"]
+    },
+    {
+      "id": "de105-q6",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Which pronoun addresses one person familiarly?",
+      "options": ["du", "ihr", "Sie", "er"],
+      "correct": 0,
+      "explanation": "**du** is the familiar singular (¶54). *ihr* is its plural, *Sie* the formal address, and *er* the third person.",
+      "rulesTested": ["pronouns-nom"]
+    },
+    {
+      "id": "de105-q7",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Which form of *fahren* goes with **du**?",
+      "options": ["fährst", "fahrst", "fahrt", "fährt"],
+      "correct": 0,
+      "explanation": "The vowel moves **a → ä** in the second and third person singular (¶61), and the ending is the ordinary **-st** (¶55). *fahrt* is the second person plural, where the vowel stays.",
+      "rulesTested": ["vowel-change", "present-endings"],
+      "vocabUsed": ["fahren"]
+    },
+    {
+      "id": "de105-q8",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "*fahren* is called irregular, yet *du fährst* carries the same ending as *du kaufst*. In what does its irregularity consist?",
+      "options": [
+        "in the stem, whose vowel moves",
+        "in the endings, which are its own",
+        "in the infinitive, which is shorter than it looks",
+        "in the plural, which does not follow the singular"
+      ],
+      "correct": 0,
+      "explanation": "An irregular verb departs in the stem and keeps the endings of ¶55 (¶60). *fahren* moves its vowel in two of the six slots (¶61) and is otherwise conjugated exactly as *kaufen* is. Only **sein** departs in the endings themselves (¶62).",
+      "rulesTested": ["regular-irregular", "vowel-change", "present-endings"],
+      "vocabUsed": ["fahren", "kaufen"]
+    },
+    {
+      "id": "de105-q9",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Which form of *haben* goes with **er**?",
+      "options": ["hat", "habt", "hast", "habe"],
+      "correct": 0,
+      "explanation": "The third person singular drops the **-b** of the stem: *er hat* (¶63). *hast* is the second singular, *habt* the second plural.",
+      "rulesTested": ["verb-haben"],
+      "vocabUsed": ["haben"]
+    },
+    {
+      "id": "de105-q10",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Which form of *heißen* goes with **du**?",
+      "options": ["heißt", "heißst", "heißest", "heißen"],
+      "correct": 0,
+      "explanation": "The stem ends in **-ß**, so the second person takes **-t** alone (¶58) — the **s** of **-st** has been said already. This makes *du heißt* and *er heißt* one form.",
+      "rulesTested": ["stem-s-sound"],
+      "vocabUsed": ["heißen"]
+    },
+    {
+      "id": "de105-q11",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "In which of these does an **-e-** come in before the ending of the second person singular?",
+      "options": ["arbeiten", "lernen", "finden", "wohnen"],
+      "correct": [0, 2],
+      "explanation": "*arbeit-* ends in **-t** and *find-* in **-d**, so both take the **-e-** (¶57). *lern-* has **r** before its **n**, which the rule excepts, and the **h** of *wohn-* marks a long vowel rather than a consonant (¶16) — *du lernst*, *du wohnst*.",
+      "rulesTested": ["stem-e-insertion", "vowel-length-h"],
+      "vocabUsed": ["arbeiten", "lernen", "finden", "wohnen"]
+    },
+    {
+      "id": "de105-q12",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "**Der Mann isst.** Which English sentences can render this?",
+      "options": [
+        "both *The man eats* and *The man is eating*",
+        "*The man eats* only",
+        "*The man is eating* only",
+        "*The man ate* only"
+      ],
+      "correct": 0,
+      "explanation": "German has one present tense where English has two, so the same form answers to both (¶52). Which one an English translation wants is decided by the context, not by the German.",
+      "rulesTested": ["present-tense"],
+      "vocabUsed": ["essen", "Mann"]
+    },
+    {
+      "id": "de105-q13",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Which form of *sammeln* goes with **wir**?",
+      "options": ["sammeln", "sammelen", "sammelt", "sammle"],
+      "correct": 0,
+      "explanation": "An infinitive in **-eln** takes **-n** in the first and third person plural, not **-en** (¶59) — and the plural is identical with the infinitive, as it always is (¶55). *sammle* is the first person singular, where the stem's **-e-** drops.",
+      "rulesTested": ["infinitive-eln-ern", "present-endings", "plural-syncretism"],
+      "vocabUsed": ["sammeln"]
+    },
+    {
+      "id": "de105-q14",
+      "type": "matching",
+      "difficulty": "hard",
+      "stem": "Pair each verb with what its stem does in the second and third person singular.",
+      "columnHeadings": ["Verb", "The stem vowel"],
+      "columnI": ["fahren", "sprechen", "lesen", "laufen"],
+      "columnII": ["a → ä", "e → i", "e → ie", "au → äu", "does not change"],
+      "options": [
+        [0, 2, 1, 3],
+        [0, 1, 2, 3],
+        [0, 1, 2, 4],
+        [4, 1, 2, 3]
+      ],
+      "correct": 1,
+      "explanation": "*er fährt*, *er spricht*, *er liest*, *er läuft* (¶61). The first pairing swaps *sprechen* and *lesen*, which is the real confusion here — both have **e** in the stem, and only the verb itself says whether it goes to **i** or to **ie**.",
+      "rulesTested": ["vowel-change"],
+      "vocabUsed": ["fahren", "sprechen", "lesen", "laufen"]
+    },
+    {
+      "id": "de105-q15",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Which form of *singen* goes with **wir**?",
+      "options": ["singen", "singt", "singst", "singe"],
+      "correct": 0,
+      "explanation": "The first person plural is **-en** and is identical with the infinitive (¶55).",
+      "rulesTested": ["present-endings"],
+      "vocabUsed": ["singen"]
+    },
+    {
+      "id": "de105-q16",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "**Hier ___ man Deutsch.** Which form of *sprechen* belongs in the gap?",
+      "options": ["spricht", "sprechen", "sprichst", "sprecht"],
+      "correct": 0,
+      "explanation": "**man** takes the third person singular (¶65), and *sprechen* moves its vowel there (¶61). The verb also has to stand second, which it does with *hier* in front of it (¶66).",
+      "rulesTested": ["pronoun-man", "vowel-change", "verb-second"],
+      "vocabUsed": ["sprechen", "man"]
+    },
+    {
+      "id": "de105-q17",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "The present tense fills six slots — three persons in two numbers. How many distinct endings fill them?",
+      "answer": 4,
+      "unit": "endings",
+      "explanation": "The endings are **-e, -st, -t, -en, -t, -en**, so **-t** serves the third singular and the second plural, and **-en** the first and third plural (¶55). Four distinct endings cover six slots, and a form in **-t** or **-en** is therefore ambiguous on its own.",
+      "rulesTested": ["present-endings", "person-number"]
+    },
+    {
+      "id": "de105-q18",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "You are speaking to two friends. Which question asks them what they are doing?",
+      "options": ["Was macht ihr?", "Was machst du?", "Was machen Sie?", "Was macht er?"],
+      "correct": 0,
+      "explanation": "**ihr** is the familiar plural (¶64). *du* addresses one person familiarly, *Sie* addresses one or many formally, and *er* is not an address at all (¶54).",
+      "rulesTested": ["du-ihr-sie", "pronouns-nom"],
+      "vocabUsed": ["machen"]
+    },
+    {
+      "id": "de105-q19",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**Er heißt Heinz Bartels.** In what case does *Heinz Bartels* stand?",
+      "options": [
+        "the nominative, because *heißen* takes no object",
+        "the accusative, because it follows the verb",
+        "the genitive, because it is a name",
+        "the dative, because it names a person"
+      ],
+      "correct": 0,
+      "explanation": "**sein**, **heißen** and **werden** take no object; what follows them names the subject again and stands in the nominative (¶67). Standing after the verb is a fact about word order (¶66), not about case.",
+      "rulesTested": ["nominative-complement", "verb-second"],
+      "vocabUsed": ["heißen"]
+    },
+    {
+      "id": "de105-q20",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "**Die Bücher sind ___.** Which form of *neu* belongs in the gap?",
+      "options": ["neu", "neue", "neuen", "neuer"],
+      "correct": 0,
+      "explanation": "An adjective after **sein** takes no ending, whatever the gender and number of its subject (¶68). *Das Buch ist neu* and *Die Bücher sind neu* have the same adjective.",
+      "rulesTested": ["predicative-adjective"],
+      "vocabUsed": ["neu", "Buch", "sein"]
+    },
+    {
+      "id": "de105-q21",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Which form of *sein* goes with **ihr**?",
+      "options": ["seid", "sind", "bist", "ist"],
+      "correct": 0,
+      "explanation": "*ihr seid* (¶62). *sind* serves both the first and the third person plural, and *bist* is the second person singular.",
+      "rulesTested": ["verb-sein"],
+      "vocabUsed": ["sein"]
+    },
+    {
+      "id": "de105-q22",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "**Heute ___ ich nach Hause.** Which form of *gehen* belongs in the gap?",
+      "options": ["gehe", "geht", "gehst", "gehen"],
+      "correct": 0,
+      "explanation": "The subject is *ich*, so the verb is *gehe* (¶55), and it stands second because *heute* has taken the first place (¶66). Putting something other than the subject first does not change which person the verb agrees with.",
+      "rulesTested": ["verb-second", "present-endings"],
+      "vocabUsed": ["gehen"]
+    },
+    {
+      "id": "de105-q23",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "In which of these does the stem vowel differ between **ich** and **du**?",
+      "options": ["laufen", "kaufen", "lesen", "machen"],
+      "correct": [0, 2],
+      "explanation": "*ich laufe — du läufst* and *ich lese — du liest* (¶61). *kaufen* and *machen* are regular and keep their vowel throughout (¶60), and *kaufen* is the trap: it looks like *laufen* and behaves like *machen*.",
+      "rulesTested": ["vowel-change", "regular-irregular"],
+      "vocabUsed": ["laufen", "kaufen", "lesen", "machen"]
+    },
+    {
+      "id": "de105-q24",
+      "type": "matching",
+      "difficulty": "hard",
+      "stem": "Pair each verb with its second person singular.",
+      "columnHeadings": ["Verb", "Second person singular"],
+      "columnI": ["kaufen", "arbeiten", "heißen", "lernen"],
+      "columnII": ["du kaufst", "du arbeitest", "du heißt", "du lernst", "du arbeitst", "du heißst"],
+      "options": [
+        [0, 4, 2, 3],
+        [0, 1, 5, 3],
+        [0, 1, 2, 3],
+        [0, 4, 5, 3]
+      ],
+      "correct": 2,
+      "explanation": "*kaufen* takes the plain **-st** (¶55); *arbeiten* inserts an **-e-** because its stem ends in **-t** (¶57); *heißen* takes **-t** alone because its stem ends in an s-sound (¶58); *lernen* takes the plain **-st**, the **r** before its **n** excepting it from ¶57. The two decoys are exactly the forms those rules prevent.",
+      "rulesTested": ["present-endings", "stem-e-insertion", "stem-s-sound"],
+      "vocabUsed": ["kaufen", "arbeiten", "heißen", "lernen"]
+    },
+    {
+      "id": "de105-q25",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "**Ihr singt.** Which person and number is this?",
+      "options": [
+        "the second person plural",
+        "the third person singular",
+        "the second person singular",
+        "the first person plural"
+      ],
+      "correct": 0,
+      "explanation": "*ihr* is the second person plural (¶53, ¶54). Its ending **-t** is shared with the third person singular (¶55), so the pronoun is what tells them apart here.",
+      "rulesTested": ["person-number", "pronouns-nom", "present-endings"],
+      "vocabUsed": ["singen"]
+    },
+    {
+      "id": "de105-q26",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "**Hier spricht man Deutsch.** Which of these hold?",
+      "options": [
+        "*spricht* stands second because *hier* fills the first place",
+        "*man* is the subject of *spricht*",
+        "*man* takes the same verb form as *er*",
+        "the same sentence with *man* first would read *Hier man spricht Deutsch*"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "The verb is the second element and *hier* has taken the first (¶66). **man** is an indefinite subject taking the third person singular, which is the form *er* takes (¶65). With *man* first the sentence is *Man spricht hier Deutsch* — the verb stays second wherever the subject goes.",
+      "rulesTested": ["verb-second", "pronoun-man", "person-number"],
+      "vocabUsed": ["sprechen", "man"]
+    },
+    {
+      "id": "de105-q27",
+      "type": "integer",
+      "difficulty": "medium",
+      "stem": "The ending on **arbeitest** marks one of the three persons. Which one?",
+      "answer": 2,
+      "unit": "person",
+      "explanation": "**-est** is the second person singular, the **-e-** having come in because the stem ends in **-t** (¶57, ¶55). *er arbeitet* is the third.",
+      "rulesTested": ["person-number", "stem-e-insertion"],
+      "vocabUsed": ["arbeiten"]
+    },
+    {
+      "id": "de105-q28",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "**Die Kinder sind ___.** Which form of *klein* belongs in the gap?",
+      "options": ["klein", "kleine", "kleinen", "kleiner"],
+      "correct": 0,
+      "explanation": "A predicative adjective takes no ending (¶68), and a plural subject changes nothing about that.",
+      "rulesTested": ["predicative-adjective"],
+      "vocabUsed": ["klein", "Kind", "sein"]
+    },
+    {
+      "id": "de105-q29",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "**Er wird Arzt.** Which of these hold?",
+      "options": [
+        "*Arzt* stands in the nominative",
+        "*Arzt* carries no article because it names a profession after *werden*",
+        "*wird* is the third person singular of *werden*",
+        "*Arzt* is the object of *wird*"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "**werden** takes no object; *Arzt* names the subject again and stands in the nominative (¶67). A profession after *sein*, *werden* or *bleiben* stands with no article (¶45). *wird* is the third person singular, with the vowel moved as ¶61 has it.",
+      "rulesTested": ["nominative-complement", "null-profession", "vowel-change"],
+      "vocabUsed": ["werden", "Arzt"]
+    },
+    {
+      "id": "de105-q30",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "*du liest* and *er liest* are the same form. Two rules together make them so. Which pair?",
+      "options": [
+        "the vowel change, and the -t alone after an s-sound",
+        "the vowel change, and the -e- before -st",
+        "the -t alone after an s-sound, and the -n of the -eln verbs",
+        "the -e- before -st, and the identity of the plural with the infinitive"
+      ],
+      "correct": 0,
+      "explanation": "*lesen* moves **e → ie** in both singular forms (¶61), and the stem *lies-* then ends in an s-sound, so the second person takes **-t** alone rather than **-st** (¶58). Either rule by itself would leave the two forms apart.",
+      "rulesTested": ["vowel-change", "stem-s-sound"],
+      "vocabUsed": ["lesen"]
+    },
+    {
+      "id": "de105-q31",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "For every German verb but one, the form that goes with **wir** is the infinitive itself, and the form that goes with **sie** is the same again. Which verb is the exception?",
+      "options": ["sein", "haben", "fahren", "sammeln"],
+      "correct": 0,
+      "explanation": "The two plurals are one form throughout German, and it is the infinitive in every verb but **sein**, which has *sind* (¶56, ¶62). *wir haben*, *wir fahren* and *wir sammeln* are each their own infinitive, *fahren* keeping its vowel outside the singular (¶61) and *sammeln* its **-n** (¶59).",
+      "rulesTested": ["plural-syncretism", "verb-sein", "present-endings"],
+      "vocabUsed": ["sein", "haben", "fahren", "sammeln"]
+    }
+  ],
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+      "note": "§12.1 (pp. 223–226) on what the German present covers; §12.2.1–12.2.2 with Tables 12.2–12.3 (pp. 226–236) on the endings, the -e- of stems in -d and -t, the second person after a sibilant, the verbs in -eln and -ern, the vowel alternation, and the presents of sein and haben; §3.1.1 with Table 3.1 (pp. 48–50) on the personal pronouns and on du, ihr and Sie; §5.5.18 on man; §21.1.1 and §21.2.1 (pp. 450–460) on the second position of the finite verb; §18.1.3 (p. 356) and §18.6 (p. 379) on the Nominativergänzung, with §2.1.3 (p. 33) on the nominative; §6.1.1 (p. 119) on the uninflected predicative adjective."
+    },
+    {
+      "kind": "dictionary",
+      "citation": "*Goethe-Zertifikat A1: Start Deutsch 1 — Wortliste*. Munich: Goethe-Institut.",
+      "note": "Cited for the citation forms of the verbs and adjectives in this section's vocabulary."
+    }
+  ]
+}

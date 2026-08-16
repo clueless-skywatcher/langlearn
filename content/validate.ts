@@ -638,6 +638,13 @@ const CONTENT_QUESTION: Record<string, (stem: string) => boolean> = {
   te: (s) =>
     /\?\s*(?:\*\*)?\s*$/.test(s) &&
     /(?:ఎవరు|ఎవరి|ఏమిటి|ఏది|ఏవి|ఎక్కడ|ఎప్పుడు|ఎందుకు|ఎలా|ఎన్ని|ఎంత|ఎవరిది)/.test(s),
+  // German is verb-second and fronts its interrogative, so the question word
+  // opens the stem as it does in Lithuanian and Esperanto. All of them begin
+  // with w-, which keeps this clear of the sentence-initial capital (¶7).
+  de: (s) =>
+    /^\s*(?:\*\*)?(?:Wer|Wen|Wem|Wessen|Was|Wo|Wohin|Woher|Wann|Warum|Wieso|Weshalb|Wie|Welch(?:e|er|es|en|em)?)(?=\s|[?,.:!]|$)/.test(
+      s,
+    ),
 };
 
 /** Least number of content questions a comprehension passage must carry. */
