@@ -1,0 +1,998 @@
+{
+  "id": "te-11",
+  "kind": "lesson",
+  "level": "A1",
+  "order": 15,
+  "title": "The Verb: The Past",
+  "summary": "The past places an event before now, and covers what English splits into a simple past and a perfect. Its marker is -ఏ- (or -ఇన్- before -ది), with a small class of verbs that take -నా- instead — and the personal endings of ¶74 close the form as they do in every other tense.",
+  "rules": [
+    {
+      "id": "tense-map",
+      "number": "96",
+      "heading": "How Telugu Divides Time",
+      "statement": "Telugu finite verbs mark **three** tense-modes a learner meets first: the **progressive** in -తు- + ఉండు (¶76), the **habitual/future** in -తా- (¶78), and the **past** treated in this section. English’s continuous, simple, and perfect are not a matching three-way split in Telugu.",
+      "examples": [
+        {
+          "target": "నేను చదువుతున్నాను.",
+          "gloss": "I am reading. (progressive — action going on now)",
+          "roman": "nēnu caduvutunnānu."
+        },
+        {
+          "target": "నేను చదువుతాను.",
+          "gloss": "I read (habitually); or, I will read.",
+          "roman": "nēnu caduvutānu."
+        },
+        {
+          "target": "నేను చదివాను.",
+          "gloss": "I read; I have read. (past)",
+          "roman": "nēnu cadivānu."
+        }
+      ],
+      "footnotes": [
+        "A continuous or perfect sense built with an auxiliary (past participle + ఉండు, and the rest of the compound system) belongs with the compound verb, not with a fourth synthetic tense."
+      ],
+      "seeAlso": [
+        "present-progressive",
+        "habitual-future"
+      ],
+      "core": true,
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Krishnamurti, Bhadriraju & Gwynn, J. P. L., *A Grammar of Modern Telugu*. Delhi: Oxford University Press, 1985.",
+          "url": "https://archive.org/details/agrammarofmoderntelugukrishnamurtib.gwynnj.p.l.oup_679_L",
+          "note": "§15.1–15.2, past vs future-habitual; §16.10–16.13, the durative."
+        }
+      ]
+    },
+    {
+      "id": "past-tense",
+      "number": "97",
+      "heading": "The Past — ఏ / ఇన్",
+      "statement": "The past is formed by adding the tense suffix **-ఏ-** to the past stem, then a personal ending of ¶74. Before the non-masculine singular **-ది**, **-ఏ-** is replaced by **-ఇన్-**: *వెళ్ళింది*, not *వెళ్ళాది*.",
+      "paradigms": [
+        {
+          "caption": "వెళ్ళు — past",
+          "columns": [
+            "subject",
+            "form",
+            "gloss"
+          ],
+          "rows": [
+            {
+              "label": "నేను",
+              "cells": [
+                "వెళ్ళాను",
+                "I went"
+              ]
+            },
+            {
+              "label": "నువ్వు",
+              "cells": [
+                "వెళ్ళావు",
+                "you went"
+              ]
+            },
+            {
+              "label": "అతను",
+              "cells": [
+                "వెళ్ళాడు",
+                "he went"
+              ]
+            },
+            {
+              "label": "ఆమె, అది",
+              "cells": [
+                "వెళ్ళింది",
+                "she / it went"
+              ]
+            },
+            {
+              "label": "మేము",
+              "cells": [
+                "వెళ్ళాము",
+                "we went"
+              ]
+            },
+            {
+              "label": "మీరు, వారు",
+              "cells": [
+                "వెళ్ళారు",
+                "you / they went"
+              ]
+            },
+            {
+              "label": "అవి",
+              "cells": [
+                "వెళ్ళాయి",
+                "they (n.) went"
+              ]
+            }
+          ],
+          "footnote": "The past of Telugu answers both English *went* and *have gone* (K&G §15.2)."
+        }
+      ],
+      "examples": [
+        {
+          "target": "నిన్న అతను ఊరికి వెళ్ళాడు.",
+          "gloss": "Yesterday he went to the village.",
+          "roman": "ninna atanu ūriki veḷḷāḍu."
+        },
+        {
+          "target": "ఆమె పుస్తకం చదివింది.",
+          "gloss": "She read / has read the book.",
+          "roman": "āme pustakaṁ cadivindi."
+        }
+      ],
+      "seeAlso": [
+        "person-endings",
+        "tense-map"
+      ],
+      "core": true,
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Krishnamurti, Bhadriraju & Gwynn, J. P. L., *A Grammar of Modern Telugu*. Delhi: Oxford University Press, 1985.",
+          "url": "https://archive.org/details/agrammarofmoderntelugukrishnamurtib.gwynnj.p.l.oup_679_L",
+          "note": "§15.3–15.5, past suffix ఏ/ఇన్ and paradigms."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Wikipedia contributors, “Telugu grammar.” Wikipedia, The Free Encyclopedia.",
+          "url": "https://en.wikipedia.org/wiki/Telugu_grammar",
+          "note": "Paradigm of వెళ్ళు in the past."
+        }
+      ]
+    },
+    {
+      "id": "past-stem",
+      "number": "98",
+      "heading": "The Past Stem",
+      "statement": "A stem-final **-ు** is dropped before the past suffix. A non-initial medial **-ు-** of the root becomes **-ి-**: *చదువు* → *చదివాను*, *అడుగు* → *అడిగాను*.",
+      "examples": [
+        {
+          "target": "అమ్ము → అమ్మాను",
+          "gloss": "to sell → I sold",
+          "roman": "ammu → ammānu",
+          "note": "final -ు dropped"
+        },
+        {
+          "target": "చదువు → చదివాను",
+          "gloss": "to read → I read",
+          "roman": "caduvu → cadivānu",
+          "note": "medial -ు- → -ి-"
+        },
+        {
+          "target": "అడుగు → అడిగాను",
+          "gloss": "to ask → I asked",
+          "roman": "aḍugu → aḍigānu"
+        }
+      ],
+      "seeAlso": [
+        "past-tense"
+      ],
+      "core": true,
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Krishnamurti, Bhadriraju & Gwynn, J. P. L., *A Grammar of Modern Telugu*. Delhi: Oxford University Press, 1985.",
+          "url": "https://archive.org/details/agrammarofmoderntelugukrishnamurtib.gwynnj.p.l.oup_679_L",
+          "note": "§15.6(2)–(3), stem-final and medial -u-."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Wiktionary contributors, “Appendix:Telugu verbs.” Wiktionary, The Free Dictionary.",
+          "url": "https://en.wiktionary.org/wiki/Appendix:Telugu_verbs",
+          "note": "Past-tense formation rules 1–2."
+        }
+      ]
+    },
+    {
+      "id": "past-n-class",
+      "number": "99",
+      "heading": "The -నా- Class",
+      "statement": "After a stem ending in a short vowel + **-న్**, the past suffix is **-నా-** (and **-న-** before **-ది**), with the final consonant doubled: *తిను* → *తిన్నాను*, *తిన్నది*. The class is small — అను, తిను, విను, కొను, కను, ఉండు, కూర్చొను, నిల్చును, and a few others.",
+      "paradigms": [
+        {
+          "caption": "తిను — past",
+          "columns": [
+            "subject",
+            "form"
+          ],
+          "rows": [
+            {
+              "label": "నేను",
+              "cells": [
+                "తిన్నాను"
+              ]
+            },
+            {
+              "label": "నువ్వు",
+              "cells": [
+                "తిన్నావు"
+              ]
+            },
+            {
+              "label": "అతను",
+              "cells": [
+                "తిన్నాడు"
+              ]
+            },
+            {
+              "label": "ఆమె, అది",
+              "cells": [
+                "తిన్నది"
+              ]
+            },
+            {
+              "label": "మేము",
+              "cells": [
+                "తిన్నాము"
+              ]
+            },
+            {
+              "label": "మీరు",
+              "cells": [
+                "తిన్నారు"
+              ]
+            },
+            {
+              "label": "అవి",
+              "cells": [
+                "తిన్నాయి"
+              ]
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "target": "నిన్న నేను అన్నం తిన్నాను.",
+          "gloss": "Yesterday I ate rice.",
+          "roman": "ninna nēnu annaṁ tinnānu."
+        },
+        {
+          "target": "ఆమె మాట విన్నది.",
+          "gloss": "She heard the word.",
+          "roman": "āme māṭa vinnadi."
+        }
+      ],
+      "seeAlso": [
+        "past-tense"
+      ],
+      "core": true,
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Krishnamurti, Bhadriraju & Gwynn, J. P. L., *A Grammar of Modern Telugu*. Delhi: Oxford University Press, 1985.",
+          "url": "https://archive.org/details/agrammarofmoderntelugukrishnamurtib.gwynnj.p.l.oup_679_L",
+          "note": "§15.6(4), the eight -n stems with -నా-/-న-."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Wiktionary contributors, “Appendix:Telugu verbs.” Wiktionary, The Free Dictionary.",
+          "url": "https://en.wiktionary.org/wiki/Appendix:Telugu_verbs",
+          "note": "Past-tense rule 4; class V."
+        }
+      ]
+    },
+    {
+      "id": "past-padu",
+      "number": "100",
+      "heading": "పడు — -డా-",
+      "statement": "After the stem **పడ్**, the past suffix is **-డా-** (and **-డ-** before **-ది**): *పడ్డాను*, *పడ్డది* / *పడింది*.",
+      "examples": [
+        {
+          "target": "పిల్లవాడు కింద పడ్డాడు.",
+          "gloss": "The boy fell down.",
+          "roman": "pillavāḍu kinda paḍḍāḍu."
+        },
+        {
+          "target": "పుస్తకం కింద పడ్డది.",
+          "gloss": "The book fell down.",
+          "roman": "pustakaṁ kinda paḍḍadi."
+        }
+      ],
+      "seeAlso": [
+        "past-tense",
+        "past-n-class"
+      ],
+      "core": true,
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Krishnamurti, Bhadriraju & Gwynn, J. P. L., *A Grammar of Modern Telugu*. Delhi: Oxford University Press, 1985.",
+          "url": "https://archive.org/details/agrammarofmoderntelugukrishnamurtib.gwynnj.p.l.oup_679_L",
+          "note": "§15.6(5), పడు with -డా-/-డ-."
+        }
+      ]
+    },
+    {
+      "id": "past-negation-revisit",
+      "number": "101",
+      "heading": "Denying the Past — again",
+      "statement": "The past is denied by the **infinitive stem + లేదు**, one form for every person (¶81): *వెళ్ళలేదు*, *తినలేదు*, *చేయలేదు*. The affirmative’s person ending disappears; the negative tense of ¶82 is not used here.",
+      "examples": [
+        {
+          "target": "నిన్న నేను వెళ్ళాను. → నిన్న నేను వెళ్ళలేదు.",
+          "gloss": "Yesterday I went. → Yesterday I did not go.",
+          "roman": "ninna nēnu veḷḷānu. → ninna nēnu veḷḷalēdu."
+        },
+        {
+          "target": "ఆమె తిన్నది. → ఆమె తినలేదు.",
+          "gloss": "She ate. → She did not eat.",
+          "roman": "āme tinnadi. → āme tinalēdu."
+        }
+      ],
+      "seeAlso": [
+        "past-negation",
+        "negative-tense",
+        "verb-negation"
+      ],
+      "core": true,
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Krishnamurti, Bhadriraju & Gwynn, J. P. L., *A Grammar of Modern Telugu*. Delhi: Oxford University Press, 1985.",
+          "url": "https://archive.org/details/agrammarofmoderntelugukrishnamurtib.gwynnj.p.l.oup_679_L",
+          "note": "§20.8, the past negative."
+        }
+      ]
+    },
+    {
+      "id": "ceyu-past",
+      "number": "102",
+      "heading": "చేయు and Noun + చేయు",
+      "statement": "**చేయు** *to do* takes a past stem **చేస్- / చేశ్-**: *చేశాను*, *చేశాడు*, *చేసింది*. After a noun it is a verbaliser — *పని చేయు* *to work*, *వంట చేయు* *to cook* — and only **చేయు** conjugates; the noun is unchanged.",
+      "examples": [
+        {
+          "target": "నిన్న నేను పని చేశాను.",
+          "gloss": "Yesterday I worked.",
+          "roman": "ninna nēnu pani cēśānu.",
+          "note": "also written పనిచేశాను"
+        },
+        {
+          "target": "అమ్మ వంట చేసింది.",
+          "gloss": "Mother cooked.",
+          "roman": "amma vaṇṭa cēsindi."
+        },
+        {
+          "target": "అతను ఈ పని చేయలేదు.",
+          "gloss": "He did not do this work.",
+          "roman": "atanu ī pani cēyalēdu."
+        }
+      ],
+      "footnotes": [
+        "పనిచేయు as one orthographic word and పని చేయు as two are the same construction: the tense and person endings attach to చేయు alone, never to పని."
+      ],
+      "seeAlso": [
+        "past-tense",
+        "past-stem"
+      ],
+      "core": true,
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Krishnamurti, Bhadriraju & Gwynn, J. P. L., *A Grammar of Modern Telugu*. Delhi: Oxford University Press, 1985.",
+          "url": "https://archive.org/details/agrammarofmoderntelugukrishnamurtib.gwynnj.p.l.oup_679_L",
+          "note": "Examples with pani cees- and cees- throughout §15–§16."
+        },
+        {
+          "kind": "dictionary",
+          "citation": "“చేయు,” Wiktionary, The Free Dictionary.",
+          "url": "https://en.wiktionary.org/wiki/%E0%B0%9A%E0%B1%87%E0%B0%AF%E0%B1%81",
+          "note": "Verbaliser after a noun or adjective; Brown (1903) cited there."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "lemma": "చదువు",
+      "gloss": "to read, to study",
+      "pos": "verb",
+      "forms": {
+        "root": "చదువు",
+        "translit": "caduvu"
+      }
+    },
+    {
+      "lemma": "వెళ్ళు",
+      "gloss": "to go",
+      "pos": "verb",
+      "forms": {
+        "root": "వెళ్ళు",
+        "translit": "veḷḷu"
+      }
+    },
+    {
+      "lemma": "తిను",
+      "gloss": "to eat",
+      "pos": "verb",
+      "forms": {
+        "root": "తిను",
+        "translit": "tinu"
+      }
+    },
+    {
+      "lemma": "విను",
+      "gloss": "to hear, to listen",
+      "pos": "verb",
+      "forms": {
+        "root": "విను",
+        "translit": "vinu"
+      }
+    },
+    {
+      "lemma": "అడుగు",
+      "gloss": "to ask",
+      "pos": "verb",
+      "forms": {
+        "root": "అడుగు",
+        "translit": "aḍugu"
+      }
+    },
+    {
+      "lemma": "పడు",
+      "gloss": "to fall",
+      "pos": "verb",
+      "forms": {
+        "root": "పడు",
+        "translit": "paḍu"
+      }
+    },
+    {
+      "lemma": "చేయు",
+      "gloss": "to do; verbaliser after a noun",
+      "pos": "verb",
+      "forms": {
+        "root": "చేయు",
+        "translit": "cēyu"
+      }
+    },
+    {
+      "lemma": "పని",
+      "gloss": "work",
+      "pos": "noun",
+      "forms": {
+        "nom": "పని",
+        "oblique": "పని-",
+        "translit": "pani",
+        "class": "amahat sg."
+      }
+    },
+    {
+      "lemma": "అన్నం",
+      "gloss": "cooked rice; a meal",
+      "pos": "noun",
+      "forms": {
+        "nom": "అన్నం",
+        "oblique": "అన్నం-, అన్నాని-",
+        "translit": "annaṁ",
+        "class": "amahat sg."
+      }
+    },
+    {
+      "lemma": "ఆపిల్",
+      "gloss": "apple",
+      "pos": "noun",
+      "forms": {
+        "nom": "ఆపిల్",
+        "oblique": "ఆపిల్-",
+        "translit": "āpil",
+        "class": "amahat sg."
+      }
+    },
+    {
+      "lemma": "నిన్న",
+      "gloss": "yesterday",
+      "pos": "adverb",
+      "forms": {
+        "nom": "నిన్న",
+        "translit": "ninna"
+      }
+    },
+    {
+      "lemma": "మాధవ్",
+      "gloss": "Madhav (man's name)",
+      "pos": "noun",
+      "forms": {
+        "nom": "మాధవ్",
+        "oblique": "మాధవ్-",
+        "translit": "mādhav",
+        "class": "mahat sg."
+      }
+    }
+  ],
+  "drills": [
+    {
+      "id": "te111-q1",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Which Telugu form covers both English *I went* and *I have gone*?",
+      "options": [
+        "నేను వెళ్తాను",
+        "నేను వెళ్ళుతున్నాను",
+        "నేను వెళ్ళాను",
+        "నేను వెళ్ళలేదు"
+      ],
+      "correct": 2,
+      "explanation": "The past వెళ్ళాను answers both English past and perfect (¶96–¶97). వెళ్తాను is habitual/future; వెళ్ళుతున్నాను is progressive; వెళ్ళలేదు denies the past.",
+      "rulesTested": [
+        "tense-map",
+        "past-tense"
+      ],
+      "vocabUsed": [
+        "వెళ్ళు"
+      ]
+    },
+    {
+      "id": "te111-q2",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "**ఆమె వెళ్ళింది** — which tense suffix stands before **-ది**?",
+      "options": [
+        "-తా-",
+        "-ఏ-",
+        "-ఇన్-",
+        "-నా-"
+      ],
+      "correct": 2,
+      "explanation": "Before non-masculine -ది the past uses -ఇన్-, giving వెళ్ళింది. -ఏ- appears everywhere else in the ordinary past; -నా- belongs to the తిను class; -తా- is habitual/future.",
+      "rulesTested": [
+        "past-tense"
+      ],
+      "vocabUsed": [
+        "వెళ్ళు",
+        "ఆమె"
+      ]
+    },
+    {
+      "id": "te111-q3",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "What is the past of **చదువు** for **నేను**?",
+      "options": [
+        "చదువుతాను",
+        "చదివాను",
+        "చదవను",
+        "చదువుతున్నాను"
+      ],
+      "correct": 1,
+      "explanation": "Medial -ు- becomes -ి- before the past suffix: చదువు → చదివాను (¶98). చదువుతాను is habitual/future; చదవను is the negative tense; చదువుతున్నాను is progressive.",
+      "rulesTested": [
+        "past-stem",
+        "past-tense"
+      ],
+      "vocabUsed": [
+        "చదువు"
+      ]
+    },
+    {
+      "id": "te111-q4",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "**మాధవ్ నిన్న ఆపిల్ ______.** Which form fills the blank?",
+      "options": [
+        "తింటాడు",
+        "తిన్నాడు",
+        "తింటున్నాడు",
+        "తినడు"
+      ],
+      "correct": 1,
+      "explanation": "నిన్న puts the eating in the past; తిను belongs to the -నా- class, so అతను / మాధవ్ takes తిన్నాడు (¶99). తింటాడు is habitual/future; తింటున్నాడు progressive; తినడు the negative tense.",
+      "rulesTested": [
+        "past-n-class",
+        "past-tense"
+      ],
+      "vocabUsed": [
+        "తిను",
+        "మాధవ్",
+        "ఆపిల్",
+        "నిన్న"
+      ]
+    },
+    {
+      "id": "te111-q5",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "**మాధవ్ నిన్న ఆపిల్ తిన్నాడు, కానీ ఈ రోజు ఆరెంజ్ ______.**",
+      "options": [
+        "తిన్నాడు",
+        "తింటున్నాడు",
+        "తినలేదు",
+        "తిన్నది"
+      ],
+      "correct": 1,
+      "explanation": "Yesterday’s past is already given; ఈ రోజు with an action going on now takes the progressive తింటున్నాడు (¶76, ¶96). A second తిన్నాడు would keep both clauses in the past; తినలేదు denies the past; తిన్నది is non-masculine.",
+      "rulesTested": [
+        "tense-map",
+        "past-n-class"
+      ],
+      "vocabUsed": [
+        "తిను",
+        "మాధవ్",
+        "నిన్న"
+      ]
+    },
+    {
+      "id": "te111-q6",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Which is the past of **పడు** for **అతను**?",
+      "options": [
+        "పడతాడు",
+        "పడ్డాడు",
+        "పడతున్నాడు",
+        "పడలేదు"
+      ],
+      "correct": 1,
+      "explanation": "పడు takes -డా- in the past: పడ్డాడు (¶100). పడతాడు is habitual/future; పడతున్నాడు progressive; పడలేదు denies the past.",
+      "rulesTested": [
+        "past-padu"
+      ],
+      "vocabUsed": [
+        "పడు"
+      ]
+    },
+    {
+      "id": "te111-q7",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "**నిన్న నేను పని చేశాను.** Which part of the phrase carries the past ending?",
+      "options": [
+        "పని alone",
+        "చేయు alone",
+        "both పని and చేయు equally",
+        "neither — the past is in నిన్న"
+      ],
+      "correct": 1,
+      "explanation": "పని is the noun; చేయు is the verbaliser and alone takes చేశాను (¶102). Writing పనిచేశాను as one word does not move the ending onto పని.",
+      "rulesTested": [
+        "ceyu-past"
+      ],
+      "vocabUsed": [
+        "పని",
+        "చేయు",
+        "నిన్న"
+      ]
+    },
+    {
+      "id": "te111-q8",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Which form denies **ఆమె తిన్నది**?",
+      "options": [
+        "ఆమె తినదు",
+        "ఆమె తినటం లేదు",
+        "ఆమె తినలేదు",
+        "ఆమె తిన్నది కాదు"
+      ],
+      "correct": 2,
+      "explanation": "Past denial is infinitive + లేదు: తినలేదు (¶101). తినదు is the negative tense (habitual/future); తినటం లేదు denies the progressive; కాదు denies identity, not an action.",
+      "rulesTested": [
+        "past-negation-revisit",
+        "past-n-class"
+      ],
+      "vocabUsed": [
+        "తిను",
+        "ఆమె"
+      ]
+    },
+    {
+      "id": "te111-q9",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which of these are **past** forms?",
+      "options": [
+        "చదివాను",
+        "చదువుతాను",
+        "అడిగాడు",
+        "తిన్నది"
+      ],
+      "correct": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "చదివాను and అడిగాడు show the ordinary past with medial -ి-; తిన్నది is the -నా- class past. చదువుతాను is habitual/future (-తా-).",
+      "rulesTested": [
+        "past-stem",
+        "past-n-class",
+        "past-tense"
+      ],
+      "vocabUsed": [
+        "చదువు",
+        "అడుగు",
+        "తిను"
+      ]
+    },
+    {
+      "id": "te111-q10",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which statements about **పని చేయు** are correct?",
+      "options": [
+        "Only చేయు takes the tense and person endings.",
+        "పని must always be written solid with చేయు as పనిచేయు.",
+        "పని చేశాను and పనిచేశాను are the same construction.",
+        "The past of పని చేయు for ఆమె is పని చేసింది."
+      ],
+      "correct": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "The noun may be spaced or closed; morphology is unchanged. చేసింది is the non-masculine past of చేయు. Nothing forces the solid spelling.",
+      "rulesTested": [
+        "ceyu-past"
+      ],
+      "vocabUsed": [
+        "పని",
+        "చేయు"
+      ]
+    },
+    {
+      "id": "te111-q11",
+      "type": "integer",
+      "difficulty": "medium",
+      "stem": "Among **వెళ్ళాను, వెళ్తాను, వెళ్ళుతున్నాను, వెళ్ళలేదు, చదివింది**, how many forms are in the **past affirmative**?",
+      "answer": 2,
+      "unit": "forms",
+      "explanation": "Two: వెళ్ళాను and చదివింది. వెళ్తాను is habitual/future; వెళ్ళుతున్నాను progressive; వెళ్ళలేదు is past *negative*, not the affirmative past.",
+      "rulesTested": [
+        "past-tense",
+        "tense-map",
+        "past-negation-revisit"
+      ],
+      "vocabUsed": [
+        "వెళ్ళు",
+        "చదువు"
+      ]
+    },
+    {
+      "id": "te111-q12",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "Among **తిన్నాను, విన్నది, కొన్నాడు, పడ్డాడు, అన్నాను**, how many take the special past suffix **-నా-** (not -ఏ- or -డా-)?",
+      "answer": 4,
+      "unit": "forms",
+      "explanation": "Four: తిన్నాను, విన్నది, కొన్నాడు, అన్నాను belong to the -నా- class (¶99). పడ్డాడు is the separate -డా- pattern of పడు (¶100).",
+      "rulesTested": [
+        "past-n-class",
+        "past-padu"
+      ],
+      "vocabUsed": [
+        "తిను",
+        "విను",
+        "పడు"
+      ]
+    },
+    {
+      "id": "te111-q13",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Which form is the **odd one out** by tense?",
+      "options": [
+        "వెళ్ళాడు",
+        "చదివింది",
+        "తిన్నారు",
+        "వెళ్తారు"
+      ],
+      "correct": 3,
+      "explanation": "The first three are past. వెళ్తారు is habitual/future (-తా-), with the geminate of వెళ్ళు simplified.",
+      "rulesTested": [
+        "past-tense",
+        "tense-map"
+      ],
+      "vocabUsed": [
+        "వెళ్ళు",
+        "చదువు",
+        "తిను"
+      ]
+    },
+    {
+      "id": "te111-q14",
+      "type": "matching",
+      "difficulty": "hard",
+      "stem": "Match each form to the system that produces it.",
+      "columnHeadings": [
+        "Form",
+        "System"
+      ],
+      "columnI": [
+        "చదివాను",
+        "చదువుతాను",
+        "చదువుతున్నాను",
+        "చదవలేదు"
+      ],
+      "columnII": [
+        "past affirmative",
+        "habitual / future",
+        "progressive",
+        "past negation"
+      ],
+      "options": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          2,
+          1,
+          3
+        ],
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          2
+        ]
+      ],
+      "correct": 0,
+      "explanation": "చదివాను is past; చదువుతాను habitual/future; చదువుతున్నాను progressive; చదవలేదు past negation with లేదు.",
+      "rulesTested": [
+        "tense-map",
+        "past-tense",
+        "past-negation-revisit"
+      ],
+      "vocabUsed": [
+        "చదువు"
+      ]
+    },
+    {
+      "id": "te111-p1",
+      "type": "comprehension",
+      "difficulty": "medium",
+      "title": "నిన్న",
+      "passage": "నిన్న మాధవ్ ఇంట్లో లేడు. అతను ఊరికి వెళ్ళాడు. అక్కడ అన్నం తిన్నాడు, కానీ ఆపిల్ తినలేదు. అమ్మ వంట చేసింది. నేను పుస్తకం చదివాను. ఈ రోజు మాధవ్ ఇక్కడ ఉన్నాడు — ఇప్పుడు పని చేస్తున్నాడు.",
+      "translation": "Yesterday Madhav was not at home. He went to the village. There he ate rice, but he did not eat an apple. Mother cooked. I read a book. Today Madhav is here — he is working now.",
+      "glossary": {
+        "లేడు": "he is not (present)",
+        "వంట చేసింది": "cooked",
+        "పని చేస్తున్నాడు": "is working"
+      },
+      "questions": [
+        {
+          "id": "te111-p1-q1",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "నిన్న మాధవ్ ఎక్కడికి వెళ్ళాడు?",
+          "options": [
+            "ఇంటికి",
+            "ఊరికి",
+            "బయటకి",
+            "అక్కడికి కాదు"
+          ],
+          "correct": 1,
+          "explanation": "The passage says అతను ఊరికి వెళ్ళాడు.",
+          "rulesTested": [
+            "past-tense"
+          ],
+          "vocabUsed": [
+            "మాధవ్",
+            "వెళ్ళు"
+          ]
+        },
+        {
+          "id": "te111-p1-q2",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "నిన్న మాధవ్ ఏది తినలేదు?",
+          "options": [
+            "అన్నం",
+            "ఆపిల్",
+            "పుస్తకం",
+            "వంట"
+          ],
+          "correct": 1,
+          "explanation": "The passage says అన్నం తిన్నాడు, కానీ ఆపిల్ తినలేదు — rice yes, apple no.",
+          "rulesTested": [
+            "past-negation-revisit",
+            "past-n-class"
+          ],
+          "vocabUsed": [
+            "మాధవ్",
+            "తిను",
+            "ఆపిల్"
+          ]
+        },
+        {
+          "id": "te111-p1-q3",
+          "type": "multi",
+          "difficulty": "medium",
+          "stem": "Which verbs in the passage are in the **past affirmative**?",
+          "options": [
+            "వెళ్ళాడు",
+            "తిన్నాడు",
+            "చేసింది",
+            "చేస్తున్నాడు"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "వెళ్ళాడు, తిన్నాడు, and చేసింది (in వంట చేసింది) are past. చేస్తున్నాడు is progressive — today’s work, not yesterday’s.",
+          "rulesTested": [
+            "past-tense",
+            "ceyu-past",
+            "tense-map"
+          ],
+          "vocabUsed": [
+            "వెళ్ళు",
+            "తిను",
+            "చేయు"
+          ]
+        },
+        {
+          "id": "te111-p1-q4",
+          "type": "integer",
+          "difficulty": "hard",
+          "stem": "In the passage, how many **distinct past-affirmative verb forms** appear (count each written verb once)?",
+          "answer": 4,
+          "unit": "forms",
+          "explanation": "Four: వెళ్ళాడు, తిన్నాడు, చేసింది, చదివాను. తినలేదు is past *negative*; చేస్తున్నాడు is progressive; లేడు and ఉన్నాడు are forms of ఉండు / లే-, not the past affirmative of an action verb in this count.",
+          "rulesTested": [
+            "past-tense",
+            "past-negation-revisit"
+          ],
+          "vocabUsed": [
+            "వెళ్ళు",
+            "తిను",
+            "చేయు",
+            "చదువు"
+          ]
+        }
+      ],
+      "romanization": "ninna mādhav iṇṭlō lēḍu. atanu ūriki veḷḷāḍu. akkaḍa annaṁ tinnāḍu, kānī āpil tinalēdu. amma vaṇṭa cēsindi. nēnu pustakaṁ cadivānu. ī rōju mādhav ikkaḍa unnāḍu — ippuḍu pani cēstunnāḍu.",
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Krishnamurti, Bhadriraju & Gwynn, J. P. L., *A Grammar of Modern Telugu*. Delhi: Oxford University Press, 1985.",
+          "url": "https://archive.org/details/agrammarofmoderntelugukrishnamurtib.gwynnj.p.l.oup_679_L",
+          "note": "Descriptive source for the paradigms on this page."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Krishnamurti, Bhadriraju & Gwynn, J. P. L., *A Grammar of Modern Telugu*. Delhi: Oxford University Press, 1985.",
+      "url": "https://archive.org/details/agrammarofmoderntelugukrishnamurtib.gwynnj.p.l.oup_679_L",
+      "note": "§15, past tense; §20.8, past negative."
+    },
+    {
+      "kind": "grammar",
+      "citation": "Wiktionary contributors, “Appendix:Telugu verbs.” Wiktionary, The Free Dictionary.",
+      "url": "https://en.wiktionary.org/wiki/Appendix:Telugu_verbs",
+      "note": "Formation rules and class inventory summarised from Krishnamurti & Gwynn (1985)."
+    },
+    {
+      "kind": "grammar",
+      "citation": "Wikipedia contributors, “Telugu grammar.” Wikipedia, The Free Encyclopedia.",
+      "url": "https://en.wikipedia.org/wiki/Telugu_grammar",
+      "note": "Past and future-habitual paradigms of వెళ్ళు."
+    },
+    {
+      "kind": "dictionary",
+      "citation": "“చేయు,” Wiktionary, The Free Dictionary.",
+      "url": "https://en.wiktionary.org/wiki/%E0%B0%9A%E0%B1%87%E0%B0%AF%E0%B1%81",
+      "note": "Verbaliser after a noun or adjective; Brown (1903) cited there."
+    }
+  ]
+}

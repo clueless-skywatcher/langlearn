@@ -1,0 +1,837 @@
+{
+  "id": "te-cp-04",
+  "kind": "checkpoint",
+  "level": "A1",
+  "order": 17,
+  "title": "Checkpoint: Numerals and the Verb Tenses",
+  "summary": "A cumulative examination of numerals and the past and future-habitual: human against thing-counting, the past stem classes, the -తా- stem changes, and the three denials kept distinct.",
+  "covers": [
+    "te-numerals",
+    "te-11",
+    "te-12"
+  ],
+  "passThreshold": 60,
+  "drills": [
+    {
+      "id": "tecp4-q1",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "te-numerals",
+      "stem": "How is **five** said of things?",
+      "options": [
+        "అయిదు",
+        "ఏడు",
+        "ఐదుగురు",
+        "యాభై"
+      ],
+      "correct": 0,
+      "explanation": "అయిదు is five of things. ఏడు is seven; ఐదుగురు is the human form; యాభై is fifty.",
+      "rulesTested": [
+        "numerals-things"
+      ],
+      "vocabUsed": [
+        "అయిదు"
+      ]
+    },
+    {
+      "id": "tecp4-q2",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "te-numerals",
+      "stem": "How is **three people** said?",
+      "options": [
+        "మూడు",
+        "ముగ్గురు",
+        "ముప్పై",
+        "మూడో"
+      ],
+      "correct": 1,
+      "explanation": "People take the human numerals: ముగ్గురు, not మూడు.",
+      "rulesTested": [
+        "human-numerals"
+      ],
+      "vocabUsed": [
+        "ముగ్గురు"
+      ]
+    },
+    {
+      "id": "tecp4-q3",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "te-numerals",
+      "stem": "**ఇల్లు ఒకటి** against **ఒక ఇల్లు** — which claim is true?",
+      "options": [
+        "Both use the noun ఒకటి before the counted noun.",
+        "ఒక stands before the noun; ఒకటి stands after it as a noun.",
+        "Only ఒకటి may ever appear.",
+        "ఒక is the human form of one."
+      ],
+      "correct": 1,
+      "explanation": "ఒక is the adjectival form before the noun; ఒకటి is the noun form after it (¶90).",
+      "rulesTested": [
+        "oka-and-okati"
+      ],
+      "vocabUsed": [
+        "ఒక"
+      ]
+    },
+    {
+      "id": "tecp4-q4",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "te-numerals",
+      "stem": "How is **121** said?",
+      "options": [
+        "వంద ఇరవై ఒకటి",
+        "నూట ఇరవై ఒకటి",
+        "ఒకటి వంద ఇరవై",
+        "ఇరవై ఒకటి వంద"
+      ],
+      "correct": 1,
+      "explanation": "Inside a compound, నూరు supplies the stem నూట: నూట ఇరవై ఒకటి (¶91).",
+      "rulesTested": [
+        "compound-numerals",
+        "higher-numbers"
+      ],
+      "vocabUsed": [
+        "నూట",
+        "ఇరవై"
+      ]
+    },
+    {
+      "id": "tecp4-q5",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "te-numerals",
+      "stem": "What is the ordinal of **twenty**?",
+      "options": [
+        "ఇరవై",
+        "ఇరవయ్యో",
+        "రెండో",
+        "మొదటి"
+      ],
+      "correct": 1,
+      "explanation": "From the tens, the ordinal is built with -ఓ / -య్యో: ఇరవయ్యో (¶93).",
+      "rulesTested": [
+        "ordinal-tens",
+        "ordinals"
+      ],
+      "vocabUsed": [
+        "ఇరవై"
+      ]
+    },
+    {
+      "id": "tecp4-q6",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "te-numerals",
+      "stem": "Which is the irregular ordinal for **first**?",
+      "options": [
+        "ఒకటో",
+        "మొదటి",
+        "ఒక",
+        "మొదటో"
+      ],
+      "correct": 1,
+      "explanation": "First is మొదటి, not a regular ఒకటో (¶94).",
+      "rulesTested": [
+        "ordinal-first"
+      ],
+      "vocabUsed": [
+        "మొదటి"
+      ]
+    },
+    {
+      "id": "tecp4-q7",
+      "type": "multi",
+      "difficulty": "hard",
+      "fromSection": "te-numerals",
+      "stem": "Which statements about Telugu numerals are correct?",
+      "options": [
+        "Things and people often take different number words.",
+        "Ordinals have a separate human set parallel to ముగ్గురు.",
+        "ఒక before a singular noun is the nearest Telugu has to an indefinite article.",
+        "వంద pluralises when it multiplies: రెండు వందలు."
+      ],
+      "correct": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "Ordinals do not keep a human series (¶95). The other three are the pack’s own rules.",
+      "rulesTested": [
+        "human-numerals",
+        "oka-and-okati",
+        "higher-numbers",
+        "ordinals-no-human"
+      ],
+      "vocabUsed": [
+        "ముగ్గురు",
+        "ఒక",
+        "వంద"
+      ]
+    },
+    {
+      "id": "tecp4-q8",
+      "type": "integer",
+      "difficulty": "medium",
+      "fromSection": "te-numerals",
+      "stem": "What number is **నూట ఇరవై ఒకటి**?",
+      "answer": 121,
+      "explanation": "నూట (100) + ఇరవై (20) + ఒకటి (1) = 121.",
+      "rulesTested": [
+        "compound-numerals"
+      ],
+      "vocabUsed": [
+        "నూట",
+        "ఇరవై"
+      ]
+    },
+    {
+      "id": "tecp4-q9",
+      "type": "integer",
+      "difficulty": "easy",
+      "fromSection": "te-numerals",
+      "stem": "What number is **ముగ్గురు**?",
+      "answer": 3,
+      "unit": "people",
+      "explanation": "ముగ్గురు is the human numeral for three.",
+      "rulesTested": [
+        "human-numerals"
+      ],
+      "vocabUsed": [
+        "ముగ్గురు"
+      ]
+    },
+    {
+      "id": "tecp4-q10",
+      "type": "matching",
+      "difficulty": "hard",
+      "fromSection": "te-numerals",
+      "stem": "Match each numeral to what it counts.",
+      "columnHeadings": [
+        "Form",
+        "Counts"
+      ],
+      "columnI": [
+        "మూడు",
+        "ముగ్గురు",
+        "మూడో",
+        "ముప్పై"
+      ],
+      "columnII": [
+        "three things",
+        "three people",
+        "third (ordinal)",
+        "thirty"
+      ],
+      "options": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          2,
+          1,
+          3
+        ],
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          2
+        ]
+      ],
+      "correct": 0,
+      "explanation": "మూడు things, ముగ్గురు people, మూడో ordinal, ముప్పై thirty.",
+      "rulesTested": [
+        "numerals-things",
+        "human-numerals",
+        "ordinals",
+        "counted-noun"
+      ],
+      "vocabUsed": [
+        "ముగ్గురు",
+        "ముప్పై"
+      ]
+    },
+    {
+      "id": "tecp4-q11",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "te-numerals",
+      "stem": "In **మూడు పుస్తకాలు**, where does the numeral stand, and what number is the noun?",
+      "options": [
+        "numeral after; noun singular",
+        "numeral before; noun plural",
+        "numeral before; noun singular",
+        "numeral after; noun plural only when human"
+      ],
+      "correct": 1,
+      "explanation": "The adjectival numeral precedes, and the counted noun is plural from two up (¶88).",
+      "rulesTested": [
+        "counted-noun",
+        "numeral-apposition"
+      ],
+      "vocabUsed": [
+        "నాలుగు"
+      ]
+    },
+    {
+      "id": "tecp4-q12",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "te-11",
+      "stem": "**నేను చదివాను** covers which English readings?",
+      "options": [
+        "only *I am reading*",
+        "only *I will read*",
+        "*I read* and *I have read*",
+        "only *I do not read*"
+      ],
+      "correct": 2,
+      "explanation": "Telugu past answers English simple past and perfect alike (¶96–¶97).",
+      "rulesTested": [
+        "tense-map",
+        "past-tense"
+      ],
+      "vocabUsed": [
+        "చదువు"
+      ]
+    },
+    {
+      "id": "tecp4-q13",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "te-11",
+      "stem": "Past of **అడుగు** for **నేను**?",
+      "options": [
+        "అడుగుతాను",
+        "అడిగాను",
+        "అడగను",
+        "అడుగుతున్నాను"
+      ],
+      "correct": 1,
+      "explanation": "Medial -ు- → -ి- before the past suffix: అడిగాను (¶98).",
+      "rulesTested": [
+        "past-stem"
+      ],
+      "vocabUsed": [
+        "అడుగు"
+      ]
+    },
+    {
+      "id": "tecp4-q14",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "te-11",
+      "stem": "Past of **తిను** for **ఆమె**?",
+      "options": [
+        "తింటుంది",
+        "తిన్నది",
+        "తినదు",
+        "తినటం లేదు"
+      ],
+      "correct": 1,
+      "explanation": "-నా- class with -న- before -ది: తిన్నది (¶99).",
+      "rulesTested": [
+        "past-n-class"
+      ],
+      "vocabUsed": [
+        "తిను"
+      ]
+    },
+    {
+      "id": "tecp4-q15",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "te-11",
+      "stem": "Past of **పడు** for **అతను**?",
+      "options": [
+        "పడ్డాడు",
+        "పడతాడు",
+        "పడింది",
+        "పడలేదు"
+      ],
+      "correct": 0,
+      "explanation": "పడు takes -డా-: పడ్డాడు (¶100).",
+      "rulesTested": [
+        "past-padu"
+      ],
+      "vocabUsed": [
+        "పడు"
+      ]
+    },
+    {
+      "id": "tecp4-q16",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "te-11",
+      "stem": "Which denies **నిన్న అతను వెళ్ళాడు**?",
+      "options": [
+        "అతను వెళ్ళడు",
+        "అతను వెళ్ళలేదు",
+        "అతను వెళ్ళటం లేదు",
+        "అతను వెళ్ళాడు కాదు"
+      ],
+      "correct": 1,
+      "explanation": "Past denial is infinitive + లేదు (¶101).",
+      "rulesTested": [
+        "past-negation-revisit"
+      ],
+      "vocabUsed": [
+        "వెళ్ళు",
+        "నిన్న"
+      ]
+    },
+    {
+      "id": "tecp4-q17",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "te-11",
+      "stem": "**నిన్న ఆమె పని చేసింది.** Which is true?",
+      "options": [
+        "పని carries the past ending -ింది.",
+        "Only చేయు conjugates; పని is the unchanged noun.",
+        "This must be written as one word.",
+        "This is the future-habitual of పని చేయు."
+      ],
+      "correct": 1,
+      "explanation": "Noun + చేయు conjugates on చేయు alone (¶102).",
+      "rulesTested": [
+        "ceyu-past"
+      ],
+      "vocabUsed": [
+        "పని",
+        "చేయు",
+        "నిన్న"
+      ]
+    },
+    {
+      "id": "tecp4-q18",
+      "type": "multi",
+      "difficulty": "hard",
+      "fromSection": "te-11",
+      "stem": "Which are **past affirmative** forms?",
+      "options": [
+        "వెళ్ళింది",
+        "చదివాము",
+        "తిన్నాడు",
+        "వెళ్తాము"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "The first three are past; వెళ్తాము is future-habitual.",
+      "rulesTested": [
+        "past-tense",
+        "past-stem",
+        "past-n-class"
+      ],
+      "vocabUsed": [
+        "వెళ్ళు",
+        "చదువు",
+        "తిను"
+      ]
+    },
+    {
+      "id": "tecp4-q19",
+      "type": "integer",
+      "difficulty": "hard",
+      "fromSection": "te-11",
+      "stem": "Among **తిన్నాను, విన్నది, పడ్డాడు, అన్నారు**, how many take past **-నా-** rather than **-ఏ-** or **-డా-**?",
+      "answer": 3,
+      "unit": "forms",
+      "explanation": "తిన్నాను, విన్నది, అన్నారు are -నా- class; పడ్డాడు is -డా-.",
+      "rulesTested": [
+        "past-n-class",
+        "past-padu"
+      ],
+      "vocabUsed": [
+        "తిను",
+        "విను",
+        "పడు"
+      ]
+    },
+    {
+      "id": "tecp4-q20",
+      "type": "single",
+      "difficulty": "easy",
+      "fromSection": "te-12",
+      "stem": "**రేపు నేను వెళ్తాను** uses which tense-mode?",
+      "options": [
+        "past",
+        "progressive",
+        "future-habitual",
+        "negative tense"
+      ],
+      "correct": 2,
+      "explanation": "-తా- with simplified geminate is future-habitual (¶103–¶104).",
+      "rulesTested": [
+        "future-habitual-revisit",
+        "future-stem-geminate"
+      ],
+      "vocabUsed": [
+        "వెళ్ళు",
+        "రేపు"
+      ]
+    },
+    {
+      "id": "tecp4-q21",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "te-12",
+      "stem": "Future-habitual of **చెప్పు** for **నేను**?",
+      "options": [
+        "చెప్పుతాను",
+        "చెబతాను",
+        "చెప్పాను",
+        "చెప్పలేదు"
+      ],
+      "correct": 1,
+      "explanation": "-ప్పు → -బ-: చెబతాను (¶105).",
+      "rulesTested": [
+        "future-stem-pp"
+      ],
+      "vocabUsed": [
+        "చెప్పు"
+      ]
+    },
+    {
+      "id": "tecp4-q22",
+      "type": "single",
+      "difficulty": "medium",
+      "fromSection": "te-12",
+      "stem": "Future-habitual of **విను** for **నేను**?",
+      "options": [
+        "వింటాను",
+        "విన్నాను",
+        "వినను",
+        "వింటున్నాను"
+      ],
+      "correct": 0,
+      "explanation": "-న్ + -త్- → -ంట-: వింటాను (¶106).",
+      "rulesTested": [
+        "future-stem-n"
+      ],
+      "vocabUsed": [
+        "విను"
+      ]
+    },
+    {
+      "id": "tecp4-q23",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "te-12",
+      "stem": "Future-habitual of **వచ్చు** for **ఆమె**?",
+      "options": [
+        "వచ్చుంది",
+        "వస్తుంది",
+        "వచ్చింది",
+        "రాదు"
+      ],
+      "correct": 1,
+      "explanation": "-చ్చు → -స్-: వస్తుంది (¶107).",
+      "rulesTested": [
+        "future-stem-cc"
+      ],
+      "vocabUsed": [
+        "వచ్చు"
+      ]
+    },
+    {
+      "id": "tecp4-q24",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "te-12",
+      "stem": "Which denies **రేపు నేను వస్తాను**?",
+      "options": [
+        "నేను వచ్చలేదు",
+        "నేను రాను",
+        "నేను రావటం లేదు",
+        "నేను వస్తాను కాదు"
+      ],
+      "correct": 1,
+      "explanation": "Negative tense with irregular రా-: రాను (¶109).",
+      "rulesTested": [
+        "future-negation-revisit",
+        "future-stem-cc"
+      ],
+      "vocabUsed": [
+        "వచ్చు",
+        "రేపు"
+      ]
+    },
+    {
+      "id": "tecp4-q25",
+      "type": "single",
+      "difficulty": "hard",
+      "fromSection": "te-12",
+      "stem": "**రేపు నేను పని చేస్తాను** — the ending sits on:",
+      "options": [
+        "పని",
+        "చేయు",
+        "రేపు",
+        "both పని and చేయు"
+      ],
+      "correct": 1,
+      "explanation": "Only చేయు conjugates (¶108).",
+      "rulesTested": [
+        "ceyu-future"
+      ],
+      "vocabUsed": [
+        "పని",
+        "చేయు",
+        "రేపు"
+      ]
+    },
+    {
+      "id": "tecp4-q26",
+      "type": "multi",
+      "difficulty": "hard",
+      "fromSection": "te-12",
+      "stem": "Which time-word + tense-mode pairings are the ordinary ones?",
+      "options": [
+        "నిన్న + past",
+        "ఇప్పుడు + progressive",
+        "రేపు + future-habitual",
+        "నిన్న + future-habitual as the default"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "¶110; నిన్న + -తా- is not the ordinary match.",
+      "rulesTested": [
+        "tense-contrast"
+      ],
+      "vocabUsed": [
+        "నిన్న",
+        "రేపు"
+      ]
+    },
+    {
+      "id": "tecp4-q27",
+      "type": "integer",
+      "difficulty": "hard",
+      "fromSection": "te-12",
+      "stem": "Among **వెళ్తాను, చెబతాను, వింటాను, వస్తాను, వెళ్ళాను**, how many are future-habitual?",
+      "answer": 4,
+      "unit": "forms",
+      "explanation": "Four show -తా- stem changes; వెళ్ళాను is past.",
+      "rulesTested": [
+        "future-stem-geminate",
+        "future-stem-pp",
+        "future-stem-n",
+        "future-stem-cc"
+      ],
+      "vocabUsed": [
+        "వెళ్ళు",
+        "చెప్పు",
+        "విను",
+        "వచ్చు"
+      ]
+    },
+    {
+      "id": "tecp4-q28",
+      "type": "matching",
+      "difficulty": "hard",
+      "fromSection": "te-12",
+      "stem": "Match each form to its tense-mode.",
+      "columnHeadings": [
+        "Form",
+        "Tense-mode"
+      ],
+      "columnI": [
+        "తిన్నాడు",
+        "తింటున్నాడు",
+        "తింటాడు",
+        "తినలేదు"
+      ],
+      "columnII": [
+        "past affirmative",
+        "progressive",
+        "future-habitual",
+        "past negation"
+      ],
+      "options": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          2,
+          1,
+          3
+        ],
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          2
+        ]
+      ],
+      "correct": 0,
+      "explanation": "The four systems side by side for తిను.",
+      "rulesTested": [
+        "tense-contrast",
+        "past-n-class",
+        "future-stem-n",
+        "past-negation-revisit"
+      ],
+      "vocabUsed": [
+        "తిను"
+      ]
+    },
+    {
+      "id": "tecp4-p1",
+      "type": "comprehension",
+      "difficulty": "hard",
+      "fromSection": "te-11",
+      "title": "ముగ్గురు",
+      "passage": "నిన్న ముగ్గురు స్నేహితులు ఊరికి వెళ్ళారు. అక్కడ వాళ్ళు అన్నం తిన్నారు. ఒక అమ్మాయి ఆపిల్ తినలేదు. రేపు వాళ్ళు తిరిగి వస్తారు. ఈ రోజు నేను పని చేస్తున్నాను — రేపు నేను రాను.",
+      "translation": "Yesterday three friends went to the village. There they ate rice. One girl did not eat an apple. Tomorrow they will come back. Today I am working — tomorrow I will not come.",
+      "glossary": {
+        "ముగ్గురు": "three (people)",
+        "తిరిగి": "again, back",
+        "రాను": "I will not come"
+      },
+      "questions": [
+        {
+          "id": "tecp4-p1-q1",
+          "type": "single",
+          "difficulty": "easy",
+          "fromSection": "te-numerals",
+          "stem": "నిన్న ఊరికి ఎన్ని మంది వెళ్ళారు?",
+          "options": [
+            "ఇద్దరు",
+            "ముగ్గురు",
+            "నలుగురు",
+            "ఒకరు"
+          ],
+          "correct": 1,
+          "explanation": "ముగ్గురు స్నేహితులు — three people.",
+          "rulesTested": [
+            "human-numerals"
+          ],
+          "vocabUsed": [
+            "ముగ్గురు"
+          ]
+        },
+        {
+          "id": "tecp4-p1-q2",
+          "type": "single",
+          "difficulty": "medium",
+          "fromSection": "te-11",
+          "stem": "ఒక అమ్మాయి నిన్న ఏది తినలేదు?",
+          "options": [
+            "అన్నం",
+            "ఆపిల్",
+            "పని",
+            "ఊరు"
+          ],
+          "correct": 1,
+          "explanation": "ఆపిల్ తినలేదు.",
+          "rulesTested": [
+            "past-negation-revisit",
+            "past-n-class"
+          ],
+          "vocabUsed": [
+            "ఆపిల్",
+            "తిను"
+          ]
+        },
+        {
+          "id": "tecp4-p1-q3",
+          "type": "multi",
+          "difficulty": "hard",
+          "fromSection": "te-12",
+          "stem": "Which does the passage support?",
+          "options": [
+            "రేపు వాళ్ళు వస్తారు.",
+            "రేపు నేను వస్తాను.",
+            "నిన్న వాళ్ళు వెళ్ళారు.",
+            "ఈ రోజు నేను పని చేస్తున్నాను."
+          ],
+          "correct": [
+            0,
+            2,
+            3
+          ],
+          "explanation": "The speaker says రేపు నేను రాను, so he will not come. The other three match.",
+          "rulesTested": [
+            "future-stem-cc",
+            "future-negation-revisit",
+            "past-tense",
+            "ceyu-future"
+          ],
+          "vocabUsed": [
+            "వచ్చు",
+            "వెళ్ళు",
+            "పని",
+            "చేయు"
+          ]
+        },
+        {
+          "id": "tecp4-p1-q4",
+          "type": "integer",
+          "difficulty": "hard",
+          "fromSection": "te-12",
+          "stem": "How many **future-habitual affirmative** verb forms appear in the passage?",
+          "answer": 1,
+          "unit": "forms",
+          "explanation": "One: వస్తారు. రాను is negative tense; వెళ్ళారు and తిన్నారు are past; చేస్తున్నాను is progressive.",
+          "rulesTested": [
+            "future-stem-cc",
+            "tense-contrast"
+          ],
+          "vocabUsed": [
+            "వచ్చు"
+          ]
+        }
+      ],
+      "romanization": "ninna mugguru snēhitulu ūriki veḷḷāru. akkaḍa vāḷḷu annaṁ tinnāru. oka ammāyi āpil tinalēdu. rēpu vāḷḷu tirigi vastāru. ī rōju nēnu pani cēstunnānu — rēpu nēnu rānu.",
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Krishnamurti, Bhadriraju & Gwynn, J. P. L., *A Grammar of Modern Telugu*. Delhi: Oxford University Press, 1985.",
+          "url": "https://archive.org/details/agrammarofmoderntelugukrishnamurtib.gwynnj.p.l.oup_679_L",
+          "note": "Descriptive source for the grammar examined on this paper."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Krishnamurti, Bhadriraju & Gwynn, J. P. L., *A Grammar of Modern Telugu*. Delhi: Oxford University Press, 1985.",
+      "url": "https://archive.org/details/agrammarofmoderntelugukrishnamurtib.gwynnj.p.l.oup_679_L",
+      "note": "Descriptive source for the grammar examined on this paper."
+    }
+  ]
+}

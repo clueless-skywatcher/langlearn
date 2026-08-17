@@ -29,23 +29,23 @@ are authored.
 | 09 | ✅ The Verb: Person and the Present | SOV order; the seven personal endings; agreement in gender; -తున్న- against -తా-; past denial with లేదు; the negative tense; -టం లేదు against the progressive |
 | — | ✅ **Checkpoint 3** | covers 07, the pronouns, 08 and 09 |
 | 10 | ✅ Numerals and Counting | ఒకటి to కోటి; human numerals; where the numeral stands; compounds; the ordinals |
-| 11 | The Verb: Past and Future | the past paradigm in full; the future-habitual revisited; irregular stems in each negation |
-| 12 | Existence and Possession | ఉండు — ఉంది / ఉన్నాడు; లేదు against కాదు; having, which Telugu expresses with the dative |
-| — | **Checkpoint 4** | covers 10–12 |
+| 11 | ✅ The Verb: The Past | tense map against English; past in -ఏ-/-ఇన్-; stem changes; the -నా- class; పడు; past negation revisited; చేయు and పని చేయు |
+| 12 | ✅ The Verb: The Future-Habitual | -తా- revisited; geminate, -ప్పు/-ట్టు, -న్, -చ్చు stems; చేయు; negative tense revisited; past / progressive / future contrast |
+| — | ✅ **Checkpoint 4** | covers 10–12 |
+| 13 | Existence and Possession | ఉండు — ఉంది / ఉన్నాడు; లేదు against కాదు; having, which Telugu expresses with the dative |
 
-Section 10 sits after Checkpoint 3 and so is not yet examined by one; Checkpoint 4
-will take it in together with 11 and 12.
+Checkpoint 4 examines §§10–12. Existence and possession follow as §13.
 
 ## A2 and beyond
 
 | # | Section | Contents |
 |---|---|---|
-| 13 | Adverbial Nouns of Time and Place | ఇక్కడ, ఇప్పుడు, పైన, లోపల — nouns that take the case suffixes of §08 |
-| 14 | Postpositions | the free type in full: గురించి, కోసం, వరకు, తరువాత, లాగా, and what each governs |
-| 15 | Verbal Adjectives and the Relative Clause | Telugu having no relative pronoun |
-| 16 | The Compound Verb | the perfective and progressive auxiliaries |
-| 17 | Formal and Spoken Telugu | గ్రాంథికం against వ్యావహారికం, and why a learner needs both |
-| 18 | Sandhi | the changes at a word boundary that spelling records |
+| 14 | Adverbial Nouns of Time and Place | ఇక్కడ, ఇప్పుడు, పైన, లోపల — nouns that take the case suffixes of §08 |
+| 15 | Postpositions | the free type in full: గురించి, కోసం, వరకు, తరువాత, లాగా, and what each governs |
+| 16 | Verbal Adjectives and the Relative Clause | Telugu having no relative pronoun |
+| 17 | The Compound Verb | the perfective and progressive auxiliaries |
+| 18 | Formal and Spoken Telugu | గ్రాంథికం against వ్యావహారికం, and why a learner needs both |
+| 19 | Sandhi | the changes at a word boundary that spelling records |
 
 Levels B1 to C2 will take up the literary register, the classical metres, and
 the difference between the Telangana and coastal varieties. They are not yet
