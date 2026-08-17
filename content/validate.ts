@@ -12,13 +12,7 @@ import {
   type Section,
 } from "./schema";
 import { loadCoursePack, type CoursePack } from "./loader";
-import {
-  hasBengali,
-  hasTargetScript,
-  hasTelugu,
-  teluguRuns,
-  transliterateTelugu,
-} from "@/lib/translit";
+import { hasTelugu, teluguRuns, transliterateTelugu } from "@/lib/translit";
 import { romanize } from "@/lib/markdown";
 
 /**
@@ -316,11 +310,8 @@ function latinRun(text: string): string {
  * unromanized glyphs is a fair question rather than a leak.
  */
 function optionLatin(option: string, scriptCritical: boolean): string | null {
-  if (!hasTargetScript(option)) return latinRun(option).trim() || null;
+  if (!hasTelugu(option)) return latinRun(option).trim() || null;
   if (scriptCritical) return null;
-  // Bengali readings are authored, not derived (§14); Latin alone must not
-  // leak the answer, so a Bengali option under romanization still yields null.
-  if (hasBengali(option) && !hasTelugu(option)) return null;
   return latinRun(transliterateTelugu(option)).trim() || null;
 }
 
@@ -368,7 +359,7 @@ function questionLeak(q: AtomicQuestion): string | null {
   }
 
   const options = q.type === "matching" ? q.columnI : q.options;
-  if (!options.some(hasTargetScript) && !hasTargetScript(q.stem)) return null;
+  if (!options.some(hasTelugu) && !hasTelugu(q.stem)) return null;
 
   const shownStem = q.scriptCritical ? q.stem : romanize(q.stem);
   const latin = latinRun(shownStem);
@@ -384,7 +375,7 @@ function questionLeak(q: AtomicQuestion): string | null {
   const givenAway = (option: string): boolean => {
     const key = optionLatin(option, q.scriptCritical);
     if (key && latin.includes(` ${key} `)) return true;
-    return hasTargetScript(option) && glyphs.includes(targetRun(option).trim());
+    return hasTelugu(option) && glyphs.includes(targetRun(option).trim());
   };
 
   const leaked = options.map(givenAway);
@@ -431,7 +422,7 @@ function scriptLeakProblems(
               ? [q.stem, ...q.columnI, ...q.columnII]
               : [q.stem, ...q.options];
 
-        if (teachesScript && strings.some(hasTargetScript) && !q.scriptCritical) {
+        if (teachesScript && strings.some(hasTelugu) && !q.scriptCritical) {
           problems.push({
             severity: "error",
             where: section.id,
@@ -442,7 +433,7 @@ function scriptLeakProblems(
           });
         }
 
-        if (q.scriptCritical && !strings.some(hasTargetScript)) {
+        if (q.scriptCritical && !strings.some(hasTelugu)) {
           problems.push({
             severity: "error",
             where: section.id,
@@ -466,7 +457,7 @@ function scriptLeakProblems(
           : section.id;
         if (
           !!lessonIndex.get(from)?.script &&
-          hasTargetScript(drill.passage) &&
+          hasTelugu(drill.passage) &&
           !drill.scriptCritical
         ) {
           problems.push({
@@ -647,14 +638,6 @@ const CONTENT_QUESTION: Record<string, (stem: string) => boolean> = {
   te: (s) =>
     /\?\s*(?:\*\*)?\s*$/.test(s) &&
     /(?:ఎవరు|ఎవరి|ఏమిటి|ఏది|ఏవి|ఎక్కడ|ఎప్పుడు|ఎందుకు|ఎలా|ఎన్ని|ఎంత|ఎవరిది)/.test(s),
-  bn: (s) => {
-    // Authored readings may follow the question mark: "… কি? (… ki)".
-    const stem = s.replace(/\s*\([^)]*\)\s*$/, "");
-    return (
-      /\?\s*(?:\*\*)?\s*$/.test(stem) &&
-      /(?:কে|কি|কী|কার|কাকে|কোন|কোথায়|কখন|কেন|কত|কয়|কেমন|কীভাবে)/.test(stem)
-    );
-  },
 };
 
 /** Least number of content questions a comprehension passage must carry. */

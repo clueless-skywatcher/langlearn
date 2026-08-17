@@ -4,8 +4,6 @@ import { loadCoursePack } from "@/content/loader";
 import { isLesson } from "@/content/schema";
 import { romanize } from "@/lib/markdown";
 import {
-  hasBengali,
-  hasTargetScript,
   hasTelugu,
   teluguRuns,
   transliterateTelugu as tr,
@@ -15,14 +13,6 @@ describe("script detection", () => {
   it("detects Telugu", () => {
     expect(hasTelugu("ఇల్లు")).toBe(true);
     expect(hasTelugu("illu")).toBe(false);
-  });
-
-  it("detects Bengali without inventing a transliterator", () => {
-    expect(hasBengali("বাংলা")).toBe(true);
-    expect(hasBengali("bangla")).toBe(false);
-    expect(hasTargetScript("কলম")).toBe(true);
-    expect(hasTargetScript("ఇల్లు")).toBe(true);
-    expect(hasTargetScript("plain")).toBe(false);
   });
 });
 
