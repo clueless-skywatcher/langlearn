@@ -104,17 +104,61 @@ export function listCourseIds(): string[] {
 /* --------------------------------------------------------------- accessors */
 
 let cached: Map<string, CoursePack> | null = null;
+let cachedSignature: string | null = null;
 
 /**
- * Packs are read once per process. Content is static at runtime — it is
- * committed to the repository, not edited through the app — so there is
+ * In production, packs are read once per process: content is static at runtime
+ * — committed to the repository, not edited through the app — so there is
  * nothing to invalidate.
+ *
+ * In development the packs are being written, and the JSON is read with `fs`
+ * rather than imported, so nothing in the module graph changes when a section
+ * is saved and neither Fast Refresh nor a server restart is triggered. Hence
+ * the fingerprint below, which is what saves the author restarting `next dev`
+ * for every edit.
  */
+const WATCH_CONTENT = process.env.NODE_ENV !== "production";
+
+/** Every pack file with its size and mtime — cheap enough to stat per request. */
+function contentSignature(): string {
+  const files: string[] = [];
+  for (const id of listCourseIds()) {
+    const dir = path.join(CONTENT_ROOT, id);
+    files.push(path.join(dir, "course.json"));
+    const sectionsDir = path.join(dir, "sections");
+    if (fs.existsSync(sectionsDir)) {
+      for (const name of fs.readdirSync(sectionsDir)) {
+        if (name.endsWith(".json")) files.push(path.join(sectionsDir, name));
+      }
+    }
+  }
+  return files
+    .sort()
+    .map((file) => {
+      const s = fs.statSync(file);
+      return `${file}:${s.size}:${s.mtimeMs}`;
+    })
+    .join("|");
+}
+
+function readAll(): Map<string, CoursePack> {
+  return new Map(
+    listCourseIds().map((id) => [id, loadCoursePack(id)] as const),
+  );
+}
+
 function packs(): Map<string, CoursePack> {
-  if (!cached) {
-    cached = new Map(
-      listCourseIds().map((id) => [id, loadCoursePack(id)] as const),
-    );
+  if (!WATCH_CONTENT) {
+    if (!cached) cached = readAll();
+    return cached;
+  }
+
+  const signature = contentSignature();
+  if (!cached || signature !== cachedSignature) {
+    // A ContentError here is the point: a half-saved section should surface as
+    // an error page, not as the previous render served from a stale cache.
+    cached = readAll();
+    cachedSignature = signature;
   }
   return cached;
 }

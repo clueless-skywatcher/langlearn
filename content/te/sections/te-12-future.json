@@ -1,0 +1,1045 @@
+{
+  "id": "te-12",
+  "kind": "lesson",
+  "level": "A1",
+  "order": 16,
+  "title": "The Verb: The Future-Habitual",
+  "summary": "The -తా- form of ¶78 is taken up again for its stem changes: geminates simplify, -ప్పు and -ట్టు voice, -న్ turns -త్- retroflex, and -చ్చు becomes -స్- — the same personal endings closing each form, and the negative tense denying them.",
+  "rules": [
+    {
+      "id": "future-habitual-revisit",
+      "number": "103",
+      "heading": "The Habitual and the Future — one form",
+      "statement": "**-తా-** (and **-తున్-** before **-ది**, ¶79) marks a **habitual** action or a **future** one. Context — an adverb such as *రోజూ* or *రేపు*, or the situation — decides which English tense to use; Telugu does not split the two.",
+      "examples": [
+        {
+          "target": "నేను రోజూ తెలుగు చదువుతాను.",
+          "gloss": "I study Telugu every day. (habitual)",
+          "roman": "nēnu rōjū telugu caduvutānu."
+        },
+        {
+          "target": "రేపు నేను ఊరికి వెళ్తాను.",
+          "gloss": "Tomorrow I will go to the village. (future)",
+          "roman": "rēpu nēnu ūriki veḷtānu."
+        },
+        {
+          "target": "ఆమె రేపు వస్తుంది.",
+          "gloss": "She will come tomorrow.",
+          "roman": "āme rēpu vastundi."
+        }
+      ],
+      "seeAlso": [
+        "habitual-future",
+        "taa-before-di",
+        "tense-map"
+      ],
+      "core": true,
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Krishnamurti, Bhadriraju & Gwynn, J. P. L., *A Grammar of Modern Telugu*. Delhi: Oxford University Press, 1985.",
+          "url": "https://archive.org/details/agrammarofmoderntelugukrishnamurtib.gwynnj.p.l.oup_679_L",
+          "note": "§15.11–15.12, future-habitual meanings and paradigms."
+        }
+      ]
+    },
+    {
+      "id": "future-stem-geminate",
+      "number": "104",
+      "heading": "Geminates Simplify",
+      "statement": "Before **-తా-**, a stem-final geminate is **simplified** to a single consonant: *వెళ్ళు* → *వెళ్తాను*, not *వెళ్ళుతాను*.",
+      "paradigms": [
+        {
+          "caption": "వెళ్ళు — future-habitual",
+          "columns": [
+            "subject",
+            "form",
+            "gloss"
+          ],
+          "rows": [
+            {
+              "label": "నేను",
+              "cells": [
+                "వెళ్తాను",
+                "I go / will go"
+              ]
+            },
+            {
+              "label": "నువ్వు",
+              "cells": [
+                "వెళ్తావు",
+                "you go / will go"
+              ]
+            },
+            {
+              "label": "అతను",
+              "cells": [
+                "వెళ్తాడు",
+                "he goes / will go"
+              ]
+            },
+            {
+              "label": "ఆమె, అది",
+              "cells": [
+                "వెళ్తుంది",
+                "she / it goes / will go"
+              ]
+            },
+            {
+              "label": "మేము",
+              "cells": [
+                "వెళ్తాము",
+                "we go / will go"
+              ]
+            },
+            {
+              "label": "మీరు, వారు",
+              "cells": [
+                "వెళ్తారు",
+                "you / they go / will go"
+              ]
+            },
+            {
+              "label": "అవి",
+              "cells": [
+                "వెళ్తాయి",
+                "they (n.) go / will go"
+              ]
+            }
+          ]
+        }
+      ],
+      "seeAlso": [
+        "future-habitual-revisit"
+      ],
+      "core": true,
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Krishnamurti, Bhadriraju & Gwynn, J. P. L., *A Grammar of Modern Telugu*. Delhi: Oxford University Press, 1985.",
+          "url": "https://archive.org/details/agrammarofmoderntelugukrishnamurtib.gwynnj.p.l.oup_679_L",
+          "note": "§15.11; class VI stems such as వెళ్ళు."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Wiktionary contributors, “Appendix:Telugu verbs.” Wiktionary, The Free Dictionary.",
+          "url": "https://en.wiktionary.org/wiki/Appendix:Telugu_verbs",
+          "note": "Future-tense rule 4; Wikipedia paradigm of వెళ్ళు."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Wikipedia contributors, “Telugu grammar.” Wikipedia, The Free Encyclopedia.",
+          "url": "https://en.wikipedia.org/wiki/Telugu_grammar",
+          "note": "Future-habitual paradigm of వెళ్ళు."
+        }
+      ]
+    },
+    {
+      "id": "future-stem-pp",
+      "number": "105",
+      "heading": "-ప్పు and -ట్టు Voice",
+      "statement": "Stems in **-ప్పు** and **-ట్టు** replace the geminate by a **voiced** single consonant before **-తా-**: *చెప్పు* → *చెబతాను*; *కొట్టు* → *కొడతాను*. Before **-తున్-** the vowel is **-ు-**: *చెబుతుంది*, *కొడుతుంది*.",
+      "examples": [
+        {
+          "target": "నేను నీకు చెబతాను.",
+          "gloss": "I will tell you.",
+          "roman": "nēnu nīku cebatānu."
+        },
+        {
+          "target": "ఆమె నిజం చెబుతుంది.",
+          "gloss": "She tells / will tell the truth.",
+          "roman": "āme nijaṁ cebutundi."
+        },
+        {
+          "target": "అతను తలుపు కొడతాడు.",
+          "gloss": "He will knock on the door.",
+          "roman": "atanu talupu koḍatāḍu."
+        }
+      ],
+      "seeAlso": [
+        "future-habitual-revisit",
+        "taa-before-di"
+      ],
+      "core": true,
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Krishnamurti, Bhadriraju & Gwynn, J. P. L., *A Grammar of Modern Telugu*. Delhi: Oxford University Press, 1985.",
+          "url": "https://archive.org/details/agrammarofmoderntelugukrishnamurtib.gwynnj.p.l.oup_679_L",
+          "note": "§15.11(4), -TT-/-pp- → -Da-/-ba- before -taa-."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Wiktionary contributors, “Appendix:Telugu verbs.” Wiktionary, The Free Dictionary.",
+          "url": "https://en.wiktionary.org/wiki/Appendix:Telugu_verbs",
+          "note": "Future-tense rule 1; class IV."
+        }
+      ]
+    },
+    {
+      "id": "future-stem-n",
+      "number": "106",
+      "heading": "-న్ makes -త్- Retroflex",
+      "statement": "After a stem ending in a short vowel + **-న్**, the **-త్-** of the future-habitual becomes **-ట్-**, and the **-న్** is written as the anusvāra before it: *విను* → *వింటాను*; *తిను* → *తింటాను*.",
+      "examples": [
+        {
+          "target": "రేపు నేను కథ వింటాను.",
+          "gloss": "Tomorrow I will hear the story.",
+          "roman": "rēpu nēnu katha viṇṭānu."
+        },
+        {
+          "target": "మాధవ్ ఈ రోజు అన్నం తింటాడు.",
+          "gloss": "Madhav eats / will eat rice today.",
+          "roman": "mādhav ī rōju annaṁ tiṇṭāḍu."
+        }
+      ],
+      "seeAlso": [
+        "future-habitual-revisit",
+        "past-n-class"
+      ],
+      "core": true,
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Krishnamurti, Bhadriraju & Gwynn, J. P. L., *A Grammar of Modern Telugu*. Delhi: Oxford University Press, 1985.",
+          "url": "https://archive.org/details/agrammarofmoderntelugukrishnamurtib.gwynnj.p.l.oup_679_L",
+          "note": "§15.11(5), -n + t → -NT-."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Wiktionary contributors, “Appendix:Telugu verbs.” Wiktionary, The Free Dictionary.",
+          "url": "https://en.wiktionary.org/wiki/Appendix:Telugu_verbs",
+          "note": "Future-tense rule 3; class V."
+        }
+      ]
+    },
+    {
+      "id": "future-stem-cc",
+      "number": "107",
+      "heading": "-చ్చు becomes -స్-",
+      "statement": "Stems in **-చ్చు** (and several related class-VI verbs) take **-స్-** before **-తా-**: *వచ్చు* → *వస్తాను*; *ఇచ్చు* → *ఇస్తాను*. The citation imperative of *వచ్చు* remains the irregular **రా**.",
+      "paradigms": [
+        {
+          "caption": "వచ్చు — future-habitual",
+          "columns": [
+            "subject",
+            "form"
+          ],
+          "rows": [
+            {
+              "label": "నేను",
+              "cells": [
+                "వస్తాను"
+              ]
+            },
+            {
+              "label": "నువ్వు",
+              "cells": [
+                "వస్తావు"
+              ]
+            },
+            {
+              "label": "అతను",
+              "cells": [
+                "వస్తాడు"
+              ]
+            },
+            {
+              "label": "ఆమె, అది",
+              "cells": [
+                "వస్తుంది"
+              ]
+            },
+            {
+              "label": "మేము",
+              "cells": [
+                "వస్తాము"
+              ]
+            },
+            {
+              "label": "మీరు",
+              "cells": [
+                "వస్తారు"
+              ]
+            },
+            {
+              "label": "అవి",
+              "cells": [
+                "వస్తాయి"
+              ]
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "target": "రేపు నేను వస్తాను.",
+          "gloss": "Tomorrow I will come.",
+          "roman": "rēpu nēnu vastānu."
+        },
+        {
+          "target": "ఆమె నాకు పుస్తకం ఇస్తుంది.",
+          "gloss": "She will give me a book.",
+          "roman": "āme nāku pustakaṁ istundi."
+        }
+      ],
+      "seeAlso": [
+        "future-habitual-revisit"
+      ],
+      "core": true,
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Krishnamurti, Bhadriraju & Gwynn, J. P. L., *A Grammar of Modern Telugu*. Delhi: Oxford University Press, 1985.",
+          "url": "https://archive.org/details/agrammarofmoderntelugukrishnamurtib.gwynnj.p.l.oup_679_L",
+          "note": "§15.11(6), -cc- → -s- before -taa-; §22, irregulars."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Wiktionary contributors, “Appendix:Telugu verbs.” Wiktionary, The Free Dictionary.",
+          "url": "https://en.wiktionary.org/wiki/Appendix:Telugu_verbs",
+          "note": "Future-tense rule 2 / class VI వచ్చు, ఇచ్చు."
+        }
+      ]
+    },
+    {
+      "id": "ceyu-future",
+      "number": "108",
+      "heading": "చేయు in the Future-Habitual",
+      "statement": "**చేయు** has the future-habitual stem **చేస్-**: *చేస్తాను*, *చేస్తుంది*. In *పని చేయు* and *వంట చేయు* the noun is still unchanged and may be written apart or solid — *పని చేస్తాను* / *పనిచేస్తాను*.",
+      "examples": [
+        {
+          "target": "రేపు నేను పని చేస్తాను.",
+          "gloss": "Tomorrow I will work.",
+          "roman": "rēpu nēnu pani cēstānu."
+        },
+        {
+          "target": "అమ్మ రోజూ వంట చేస్తుంది.",
+          "gloss": "Mother cooks every day.",
+          "roman": "amma rōjū vaṇṭa cēstundi."
+        }
+      ],
+      "seeAlso": [
+        "ceyu-past",
+        "future-habitual-revisit"
+      ],
+      "core": true,
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Krishnamurti, Bhadriraju & Gwynn, J. P. L., *A Grammar of Modern Telugu*. Delhi: Oxford University Press, 1985.",
+          "url": "https://archive.org/details/agrammarofmoderntelugukrishnamurtib.gwynnj.p.l.oup_679_L",
+          "note": "cees-taa- forms throughout §15–§16."
+        },
+        {
+          "kind": "dictionary",
+          "citation": "“చేయు,” Wiktionary, The Free Dictionary.",
+          "url": "https://en.wiktionary.org/wiki/%E0%B0%9A%E0%B1%87%E0%B0%AF%E0%B1%81",
+          "note": "Verbaliser after a noun or adjective."
+        }
+      ]
+    },
+    {
+      "id": "future-negation-revisit",
+      "number": "109",
+      "heading": "Denying the Habitual and Future — again",
+      "statement": "The habitual/future is denied by the **negative tense** of ¶82 — medial **-ు-** to **-అ-**, and its own endings — not by లేదు: *వెళ్ళను*, *తినను*, *చేయను*, *రాను* (from వచ్చు). Past denial with లేదు and progressive denial with -టం లేదు stay where ¶81 and ¶83 put them.",
+      "examples": [
+        {
+          "target": "రేపు నేను వెళ్తాను. → రేపు నేను వెళ్ళను.",
+          "gloss": "Tomorrow I will go. → Tomorrow I will not go.",
+          "roman": "rēpu nēnu veḷtānu. → rēpu nēnu veḷḷanu."
+        },
+        {
+          "target": "ఆమె వస్తుంది. → ఆమె రాదు.",
+          "gloss": "She will come. → She will not come.",
+          "roman": "āme vastundi. → āme rādu.",
+          "note": "వచ్చు uses the irregular negative stem రా-"
+        },
+        {
+          "target": "నేను పని చేస్తాను. → నేను పని చేయను.",
+          "gloss": "I will work. → I will not work.",
+          "roman": "nēnu pani cēstānu. → nēnu pani cēyanu."
+        }
+      ],
+      "seeAlso": [
+        "negative-tense",
+        "past-negation-revisit",
+        "verb-negation"
+      ],
+      "core": true,
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Krishnamurti, Bhadriraju & Gwynn, J. P. L., *A Grammar of Modern Telugu*. Delhi: Oxford University Press, 1985.",
+          "url": "https://archive.org/details/agrammarofmoderntelugukrishnamurtib.gwynnj.p.l.oup_679_L",
+          "note": "§16.1–16.4, the negative tense; irregular రా- under వచ్చు."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Wiktionary contributors, “Appendix:Telugu verbs.” Wiktionary, The Free Dictionary.",
+          "url": "https://en.wiktionary.org/wiki/Appendix:Telugu_verbs",
+          "note": "Negative tense; class VI వచ్చు → రా- in C."
+        }
+      ]
+    },
+    {
+      "id": "tense-contrast",
+      "number": "110",
+      "heading": "Past, Progressive, and Future-Habitual Together",
+      "statement": "A time word picks the tense-mode: **నిన్న** with the past, **ఇప్పుడు** with the progressive, **రేపు** or **రోజూ** with **-తా-**. The personal endings are the same set in all three; only the tense marker and the stem alternate.",
+      "examples": [
+        {
+          "target": "మాధవ్ నిన్న ఆపిల్ తిన్నాడు.",
+          "gloss": "Madhav ate an apple yesterday.",
+          "roman": "mādhav ninna āpil tinnāḍu."
+        },
+        {
+          "target": "మాధవ్ ఇప్పుడు ఆరెంజ్ తింటున్నాడు.",
+          "gloss": "Madhav is eating an orange now.",
+          "roman": "mādhav ippuḍu ārenj tiṇṭunnāḍu."
+        },
+        {
+          "target": "మాధవ్ రేపు అన్నం తింటాడు.",
+          "gloss": "Madhav will eat rice tomorrow.",
+          "roman": "mādhav rēpu annaṁ tiṇṭāḍu."
+        }
+      ],
+      "seeAlso": [
+        "tense-map",
+        "past-tense",
+        "future-habitual-revisit",
+        "present-progressive"
+      ],
+      "core": true,
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Krishnamurti, Bhadriraju & Gwynn, J. P. L., *A Grammar of Modern Telugu*. Delhi: Oxford University Press, 1985.",
+          "url": "https://archive.org/details/agrammarofmoderntelugukrishnamurtib.gwynnj.p.l.oup_679_L",
+          "note": "§15.1–15.2 and §15.11, the three finite tense-modes contrasted."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "lemma": "వెళ్ళు",
+      "gloss": "to go",
+      "pos": "verb",
+      "forms": {
+        "root": "వెళ్ళు",
+        "translit": "veḷḷu"
+      }
+    },
+    {
+      "lemma": "చెప్పు",
+      "gloss": "to say, to tell",
+      "pos": "verb",
+      "forms": {
+        "root": "చెప్పు",
+        "translit": "ceppu"
+      }
+    },
+    {
+      "lemma": "కొట్టు",
+      "gloss": "to strike, to knock",
+      "pos": "verb",
+      "forms": {
+        "root": "కొట్టు",
+        "translit": "koṭṭu"
+      }
+    },
+    {
+      "lemma": "విను",
+      "gloss": "to hear, to listen",
+      "pos": "verb",
+      "forms": {
+        "root": "విను",
+        "translit": "vinu"
+      }
+    },
+    {
+      "lemma": "తిను",
+      "gloss": "to eat",
+      "pos": "verb",
+      "forms": {
+        "root": "తిను",
+        "translit": "tinu"
+      }
+    },
+    {
+      "lemma": "వచ్చు",
+      "gloss": "to come",
+      "pos": "verb",
+      "forms": {
+        "root": "వచ్చు",
+        "translit": "vaccu"
+      },
+      "notes": "imperative రా"
+    },
+    {
+      "lemma": "ఇచ్చు",
+      "gloss": "to give",
+      "pos": "verb",
+      "forms": {
+        "root": "ఇచ్చు",
+        "translit": "iccu"
+      }
+    },
+    {
+      "lemma": "చేయు",
+      "gloss": "to do; verbaliser after a noun",
+      "pos": "verb",
+      "forms": {
+        "root": "చేయు",
+        "translit": "cēyu"
+      }
+    },
+    {
+      "lemma": "పని",
+      "gloss": "work",
+      "pos": "noun",
+      "forms": {
+        "nom": "పని",
+        "oblique": "పని-",
+        "translit": "pani",
+        "class": "amahat sg."
+      }
+    },
+    {
+      "lemma": "రేపు",
+      "gloss": "tomorrow",
+      "pos": "adverb",
+      "forms": {
+        "nom": "రేపు",
+        "translit": "rēpu"
+      }
+    },
+    {
+      "lemma": "రోజూ",
+      "gloss": "every day",
+      "pos": "adverb",
+      "forms": {
+        "nom": "రోజూ",
+        "translit": "rōjū"
+      }
+    },
+    {
+      "lemma": "ఆరెంజ్",
+      "gloss": "orange (fruit)",
+      "pos": "noun",
+      "forms": {
+        "nom": "ఆరెంజ్",
+        "oblique": "ఆరెంజ్-",
+        "translit": "ārenj",
+        "class": "amahat sg."
+      }
+    },
+    {
+      "lemma": "మాధవ్",
+      "gloss": "Madhav (man's name)",
+      "pos": "noun",
+      "forms": {
+        "nom": "మాధవ్",
+        "oblique": "మాధవ్-",
+        "translit": "mādhav",
+        "class": "mahat sg."
+      }
+    }
+  ],
+  "drills": [
+    {
+      "id": "te112-q1",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "**రేపు నేను వెళ్తాను** and **రోజూ నేను వెళ్తాను** share one Telugu tense-mode. What does it cover?",
+      "options": [
+        "only the future",
+        "only a present continuous",
+        "habitual action and future action alike",
+        "only the past perfect"
+      ],
+      "correct": 2,
+      "explanation": "-తా- is habitual and future together (¶103). The adverb chooses the English rendering; Telugu does not.",
+      "rulesTested": [
+        "future-habitual-revisit"
+      ],
+      "vocabUsed": [
+        "వెళ్ళు",
+        "రేపు",
+        "రోజూ"
+      ]
+    },
+    {
+      "id": "te112-q2",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "What is the future-habitual of **వెళ్ళు** for **నేను**?",
+      "options": [
+        "వెళ్ళుతాను",
+        "వెళ్తాను",
+        "వెళ్ళాను",
+        "వెళ్ళుతున్నాను"
+      ],
+      "correct": 1,
+      "explanation": "The geminate simplifies before -తా-: వెళ్తాను (¶104). వెళ్ళాను is past; వెళ్ళుతున్నాను progressive.",
+      "rulesTested": [
+        "future-stem-geminate"
+      ],
+      "vocabUsed": [
+        "వెళ్ళు"
+      ]
+    },
+    {
+      "id": "te112-q3",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "What is the future-habitual of **చెప్పు** for **నేను**?",
+      "options": [
+        "చెప్పుతాను",
+        "చెబతాను",
+        "చెప్పాను",
+        "చెప్పుతున్నాను"
+      ],
+      "correct": 1,
+      "explanation": "-ప్పు voices to -బ- before -తా-: చెబతాను (¶105).",
+      "rulesTested": [
+        "future-stem-pp"
+      ],
+      "vocabUsed": [
+        "చెప్పు"
+      ]
+    },
+    {
+      "id": "te112-q4",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "**మాధవ్ రేపు అన్నం ______.**",
+      "options": [
+        "తిన్నాడు",
+        "తింటాడు",
+        "తినలేదు",
+        "తిన్నది"
+      ],
+      "correct": 1,
+      "explanation": "రేపు selects the future-habitual; తిను takes -ట్- after -న్-: తింటాడు (¶106). తిన్నాడు is past.",
+      "rulesTested": [
+        "future-stem-n",
+        "tense-contrast"
+      ],
+      "vocabUsed": [
+        "తిను",
+        "మాధవ్",
+        "రేపు"
+      ]
+    },
+    {
+      "id": "te112-q5",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "**మాధవ్ నిన్న ఆపిల్ ______, ఈ రోజు ఆరెంజ్ ______.**",
+      "options": [
+        "తిన్నాడు / తింటున్నాడు",
+        "తింటాడు / తిన్నాడు",
+        "తిన్నాడు / తింటాడు",
+        "తినలేదు / తిన్నాడు"
+      ],
+      "correct": 0,
+      "explanation": "Yesterday takes the past తిన్నాడు; an action going on today takes the progressive తింటున్నాడు (¶110). Swapping them, or using habitual తింటాడు for the present continuous, misses the time words.",
+      "rulesTested": [
+        "tense-contrast",
+        "future-stem-n",
+        "past-n-class"
+      ],
+      "vocabUsed": [
+        "తిను",
+        "మాధవ్",
+        "నిన్న"
+      ]
+    },
+    {
+      "id": "te112-q6",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "What is the future-habitual of **వచ్చు** for **ఆమె**?",
+      "options": [
+        "వచ్చుంది",
+        "వస్తుంది",
+        "వచ్చింది",
+        "రాదు"
+      ],
+      "correct": 1,
+      "explanation": "-చ్చు → -స్- before -తా-/-తున్-: వస్తుంది (¶107). వచ్చింది is past; రాదు is the negative.",
+      "rulesTested": [
+        "future-stem-cc"
+      ],
+      "vocabUsed": [
+        "వచ్చు"
+      ]
+    },
+    {
+      "id": "te112-q7",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "**రేపు నేను పని చేస్తాను.** Which claim is true?",
+      "options": [
+        "పని takes the ending -తాను.",
+        "Only చేయు conjugates; పని is unchanged.",
+        "The form must be written as one word పనిచేస్తాను.",
+        "This is the past of పని చేయు."
+      ],
+      "correct": 1,
+      "explanation": "Noun + చేయు conjugates on చేయు alone (¶108). Spacing is orthographic; చేస్తాను is future-habitual, not past.",
+      "rulesTested": [
+        "ceyu-future"
+      ],
+      "vocabUsed": [
+        "పని",
+        "చేయు",
+        "రేపు"
+      ]
+    },
+    {
+      "id": "te112-q8",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Which form denies **రేపు నేను వస్తాను**?",
+      "options": [
+        "నేను వచ్చలేదు",
+        "నేను రాను",
+        "నేను రావటం లేదు",
+        "నేను వచ్చాను కాదు"
+      ],
+      "correct": 1,
+      "explanation": "Future-habitual denial is the negative tense; వచ్చు uses the irregular stem రా-: రాను (¶109). వచ్చలేదు denies the past; -టం లేదు denies the progressive; కాదు denies identity.",
+      "rulesTested": [
+        "future-negation-revisit",
+        "future-stem-cc"
+      ],
+      "vocabUsed": [
+        "వచ్చు"
+      ]
+    },
+    {
+      "id": "te112-q9",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which of these are **future-habitual** forms?",
+      "options": [
+        "వెళ్తాను",
+        "చెబతాను",
+        "వస్తుంది",
+        "వెళ్ళాను"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "The first three show -తా-/-తున్- with their stem changes. వెళ్ళాను is past.",
+      "rulesTested": [
+        "future-stem-geminate",
+        "future-stem-pp",
+        "future-stem-cc"
+      ],
+      "vocabUsed": [
+        "వెళ్ళు",
+        "చెప్పు",
+        "వచ్చు"
+      ]
+    },
+    {
+      "id": "te112-q10",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which pairings of time-word and tense-mode are correct?",
+      "options": [
+        "నిన్న + past (*తిన్నాడు*)",
+        "ఇప్పుడు + progressive (*తింటున్నాడు*)",
+        "రేపు + future-habitual (*తింటాడు*)",
+        "నిన్న + future-habitual (*తింటాడు*) as the ordinary match"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "¶110 sets నిన్న with the past, ఇప్పుడు with the progressive, and రేపు with -తా-. నిన్న + తింటాడు is not the ordinary pairing.",
+      "rulesTested": [
+        "tense-contrast"
+      ],
+      "vocabUsed": [
+        "తిను"
+      ]
+    },
+    {
+      "id": "te112-q11",
+      "type": "integer",
+      "difficulty": "medium",
+      "stem": "Among **వెళ్తాను, వెళ్ళాను, వస్తుంది, వచ్చింది, చెబతాను**, how many forms are **future-habitual**?",
+      "answer": 3,
+      "unit": "forms",
+      "explanation": "Three: వెళ్తాను, వస్తుంది, చెబతాను. వెళ్ళాను and వచ్చింది are past.",
+      "rulesTested": [
+        "future-stem-geminate",
+        "future-stem-cc",
+        "future-stem-pp",
+        "tense-contrast"
+      ],
+      "vocabUsed": [
+        "వెళ్ళు",
+        "వచ్చు",
+        "చెప్పు"
+      ]
+    },
+    {
+      "id": "te112-q12",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "Among **వింటాను, తింటాడు, చెబుతుంది, కొడతాను, వెళ్తాము**, how many show a stem change other than simple loss of final **-ు**?",
+      "answer": 5,
+      "unit": "forms",
+      "explanation": "All five: విను/తిను take -ంట-; చెబుతుంది and కొడతాను voice -ప్పు/-ట్టు; వెళ్తాము simplifies the geminate. None is a plain root + -తా- with only final -ు dropped.",
+      "rulesTested": [
+        "future-stem-n",
+        "future-stem-pp",
+        "future-stem-geminate"
+      ],
+      "vocabUsed": [
+        "విను",
+        "తిను",
+        "చెప్పు",
+        "కొట్టు",
+        "వెళ్ళు"
+      ]
+    },
+    {
+      "id": "te112-q13",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Which form is the **odd one out** by tense?",
+      "options": [
+        "వస్తాడు",
+        "చెబతారు",
+        "తింటాము",
+        "తిన్నాము"
+      ],
+      "correct": 3,
+      "explanation": "The first three are future-habitual. తిన్నాము is past (-నా- class).",
+      "rulesTested": [
+        "future-habitual-revisit",
+        "tense-contrast"
+      ],
+      "vocabUsed": [
+        "వచ్చు",
+        "చెప్పు",
+        "తిను"
+      ]
+    },
+    {
+      "id": "te112-q14",
+      "type": "matching",
+      "difficulty": "hard",
+      "stem": "Match each future-habitual form to the stem change it shows.",
+      "columnHeadings": [
+        "Form",
+        "Change"
+      ],
+      "columnI": [
+        "వెళ్తాను",
+        "చెబతాను",
+        "వింటాను",
+        "వస్తాను"
+      ],
+      "columnII": [
+        "geminate simplified",
+        "-ప్పు → -బ-",
+        "-న్ + -త్- → -ంట-",
+        "-చ్చు → -స్-"
+      ],
+      "options": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          2,
+          1,
+          3
+        ],
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          2
+        ]
+      ],
+      "correct": 0,
+      "explanation": "Each form illustrates one of ¶104–¶107 in order.",
+      "rulesTested": [
+        "future-stem-geminate",
+        "future-stem-pp",
+        "future-stem-n",
+        "future-stem-cc"
+      ],
+      "vocabUsed": [
+        "వెళ్ళు",
+        "చెప్పు",
+        "విను",
+        "వచ్చు"
+      ]
+    },
+    {
+      "id": "te112-p1",
+      "type": "comprehension",
+      "difficulty": "medium",
+      "title": "రేపు",
+      "passage": "రేపు మాధవ్ ఊరికి వెళ్తాడు. అక్కడ అతను అన్నం తింటాడు, కానీ ఆపిల్ తినడు. అమ్మ వంట చేస్తుంది. నేను రేపు రాను — ఈ రోజు పని చేస్తున్నాను. నిన్న నేను వచ్చాను.",
+      "translation": "Tomorrow Madhav will go to the village. There he will eat rice, but he will not eat an apple. Mother will cook / cooks. I will not come tomorrow — today I am working. Yesterday I came.",
+      "glossary": {
+        "తినడు": "he will not eat / does not eat",
+        "రాను": "I will not come",
+        "వచ్చాను": "I came"
+      },
+      "questions": [
+        {
+          "id": "te112-p1-q1",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "మాధవ్ రేపు ఎక్కడికి వెళ్తాడు?",
+          "options": [
+            "ఇంటికి",
+            "ఊరికి",
+            "బయటకి",
+            "అక్కడికి కాదు"
+          ],
+          "correct": 1,
+          "explanation": "రేపు మాధవ్ ఊరికి వెళ్తాడు.",
+          "rulesTested": [
+            "future-stem-geminate"
+          ],
+          "vocabUsed": [
+            "మాధవ్",
+            "వెళ్ళు",
+            "రేపు"
+          ]
+        },
+        {
+          "id": "te112-p1-q2",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "నేను రేపు ఎప్పుడు వస్తాను?",
+          "options": [
+            "రేపు వస్తాను",
+            "రేపు రాను",
+            "నిన్న వచ్చాను",
+            "ఇప్పుడు వస్తున్నాను"
+          ],
+          "correct": 1,
+          "explanation": "The passage says నేను రేపు రాను — the negative tense of వచ్చు.",
+          "rulesTested": [
+            "future-negation-revisit"
+          ],
+          "vocabUsed": [
+            "వచ్చు",
+            "రేపు"
+          ]
+        },
+        {
+          "id": "te112-p1-q3",
+          "type": "multi",
+          "difficulty": "medium",
+          "stem": "Which forms in the passage are **future-habitual affirmative**?",
+          "options": [
+            "వెళ్తాడు",
+            "తింటాడు",
+            "చేస్తుంది",
+            "వచ్చాను"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "వెళ్తాడు, తింటాడు, and చేస్తుంది (in వంట చేస్తుంది) are -తా- forms. వచ్చాను is past.",
+          "rulesTested": [
+            "future-habitual-revisit",
+            "ceyu-future",
+            "tense-contrast"
+          ],
+          "vocabUsed": [
+            "వెళ్ళు",
+            "తిను",
+            "చేయు",
+            "వచ్చు"
+          ]
+        },
+        {
+          "id": "te112-p1-q4",
+          "type": "integer",
+          "difficulty": "hard",
+          "stem": "How many **negative-tense** verb forms appear in the passage?",
+          "answer": 2,
+          "unit": "forms",
+          "explanation": "Two: తినడు (denying the habitual/future of తిను) and రాను (denying వచ్చు). చేస్తున్నాను is progressive affirmative; వచ్చాను is past affirmative.",
+          "rulesTested": [
+            "future-negation-revisit"
+          ],
+          "vocabUsed": [
+            "తిను",
+            "వచ్చు"
+          ]
+        }
+      ],
+      "romanization": "rēpu mādhav ūriki veḷtāḍu. akkaḍa atanu annaṁ tiṇṭāḍu, kānī āpil tinaḍu. amma vaṇṭa cēstundi. nēnu rēpu rānu — ī rōju pani cēstunnānu. ninna nēnu vaccānu.",
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Krishnamurti, Bhadriraju & Gwynn, J. P. L., *A Grammar of Modern Telugu*. Delhi: Oxford University Press, 1985.",
+          "url": "https://archive.org/details/agrammarofmoderntelugukrishnamurtib.gwynnj.p.l.oup_679_L",
+          "note": "Descriptive source for the paradigms on this page."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Krishnamurti, Bhadriraju & Gwynn, J. P. L., *A Grammar of Modern Telugu*. Delhi: Oxford University Press, 1985.",
+      "url": "https://archive.org/details/agrammarofmoderntelugukrishnamurtib.gwynnj.p.l.oup_679_L",
+      "note": "§15.11–15.13, future-habitual; §16.1–16.4, negative tense."
+    },
+    {
+      "kind": "grammar",
+      "citation": "Wiktionary contributors, “Appendix:Telugu verbs.” Wiktionary, The Free Dictionary.",
+      "url": "https://en.wiktionary.org/wiki/Appendix:Telugu_verbs",
+      "note": "Future-habitual stem alternations summarised from Krishnamurti & Gwynn (1985)."
+    },
+    {
+      "kind": "grammar",
+      "citation": "Wikipedia contributors, “Telugu grammar.” Wikipedia, The Free Encyclopedia.",
+      "url": "https://en.wikipedia.org/wiki/Telugu_grammar",
+      "note": "Future-habitual paradigm of వెళ్ళు."
+    },
+    {
+      "kind": "dictionary",
+      "citation": "“చేయు,” Wiktionary, The Free Dictionary.",
+      "url": "https://en.wiktionary.org/wiki/%E0%B0%9A%E0%B1%87%E0%B0%AF%E0%B1%81",
+      "note": "Verbaliser after a noun or adjective."
+    }
+  ]
+}

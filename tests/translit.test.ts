@@ -9,6 +9,13 @@ import {
   transliterateTelugu as tr,
 } from "@/lib/translit";
 
+describe("script detection", () => {
+  it("detects Telugu", () => {
+    expect(hasTelugu("ఇల్లు")).toBe(true);
+    expect(hasTelugu("illu")).toBe(false);
+  });
+});
+
 describe("independent vowels", () => {
   it("maps the sixteen", () => {
     expect(tr("అఆఇఈఉఊ")).toBe("aāiīuū");
