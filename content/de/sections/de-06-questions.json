@@ -1,0 +1,977 @@
+{
+ "id": "de-06",
+ "kind": "lesson",
+ "level": "A1",
+ "order": 7,
+ "title": "Questions",
+ "summary": "How a German question is built: the question word first and the finite verb second, the interrogative phrase that counts as one element, wer and was against wo, wann, warum and wie, wie viel against wie viele, the question word that is its own subject, the yes/no question that opens with its verb, and what each kind is answered by.",
+ "rules": [
+  {
+   "id": "question-word-first",
+   "number": "69",
+   "heading": "The question word opens the question",
+   "statement": "A question asking after one particular piece of information opens with its question word, and the finite verb follows directly after it. The verb therefore stands second, as it does in a statement (¶66).",
+   "examples": [
+    {
+     "target": "Wann kommt der Zug?",
+     "gloss": "When does the train come?"
+    },
+    {
+     "target": "Wo arbeitet der Lehrer?",
+     "gloss": "Where does the teacher work?"
+    },
+    {
+     "target": "Was kostet das Buch?",
+     "gloss": "What does the book cost?"
+    },
+    {
+     "target": "Wie heißt das Kind?",
+     "gloss": "What is the child called?",
+     "note": "German asks after a name with **wie**, not with **was**."
+    }
+   ],
+   "seeAlso": [
+    "verb-second"
+   ],
+   "footnotes": [
+    "The German name for this kind of question is *Ergänzungsfrage*: it asks for the one element that completes the sentence."
+   ],
+   "sources": [
+    {
+     "kind": "grammar",
+     "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+     "note": "§21.1.1, p. 450, on the order of elements in a question."
+    },
+    {
+     "kind": "grammar",
+     "citation": "*Fragesatz*, Wikipedia (German).",
+     "url": "https://de.wikipedia.org/wiki/Fragesatz",
+     "note": "Cited for the names *Entscheidungsfrage* and *Ergänzungsfrage*, and for the verb-first and question-word-first orders they carry."
+    }
+   ]
+  },
+  {
+   "id": "interrogative-phrase",
+   "number": "70",
+   "heading": "The whole interrogative phrase stands first",
+   "statement": "What occupies the first position is the complete interrogative phrase, not a single word. Where the question word carries a noun with it, that phrase counts as one element and the finite verb follows the whole of it.",
+   "examples": [
+    {
+     "target": "Wie viele Äpfel sind hier?",
+     "gloss": "How many apples are here?",
+     "note": "*wie viele Äpfel* is one element, so *sind* is the second — not the fourth word counted singly."
+    },
+    {
+     "target": "Wie viel Zeit hast du?",
+     "gloss": "How much time do you have?"
+    },
+    {
+     "target": "Wie viele Jahre lernst du Deutsch?",
+     "gloss": "How many years have you been learning German?"
+    }
+   ],
+   "seeAlso": [
+    "question-word-first"
+   ],
+   "sources": [
+    {
+     "kind": "grammar",
+     "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+     "note": "§21.1.1, p. 450, and §7.5, p. 151, on interrogative adverbs and the phrases they head."
+    }
+   ]
+  },
+  {
+   "id": "fragepronomen",
+   "number": "71",
+   "heading": "wer and was",
+   "statement": "**wer** asks after a person and **was** after a thing. Both are pronouns, and each stands where the noun it asks about would stand.",
+   "examples": [
+    {
+     "target": "Wer ist der Lehrer?",
+     "gloss": "Who is the teacher?"
+    },
+    {
+     "target": "Was ist das?",
+     "gloss": "What is that?"
+    },
+    {
+     "target": "Wer arbeitet hier?",
+     "gloss": "Who works here?"
+    }
+   ],
+   "footnotes": [
+    "**wer** has a form for each case. The nominative **wer** is the form in play until the accusative and the dative are taken up."
+   ],
+   "sources": [
+    {
+     "kind": "grammar",
+     "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+     "note": "§5.3.3, pp. 89–92, on the interrogative pronouns."
+    },
+    {
+     "kind": "corpus",
+     "citation": "*Goethe-Zertifikat A1: Start Deutsch 1 — Prüfungsziele, Testbeschreibung*, Grammatik-Inventar, pp. 99–106. Goethe-Institut, version A1_SD1_Pruefziele_07 / VS_08_190422, 19.04.2022, with the accompanying *Wortliste*.",
+     "note": "Cited for the syllabus of this section: Entscheidungsfrage, Ergänzungsfrage, the Fragepronomen *Wer?* and *Was?*, and the Wortliste entries *wo, wann, warum, wie, wie viel, ja, nein*."
+    }
+   ]
+  },
+  {
+   "id": "interrogative-adverbs",
+   "number": "72",
+   "heading": "wo, wann, warum and wie",
+   "statement": "**wo** asks after a place, **wann** after a time, **warum** after a reason and **wie** after a manner. All four are adverbs rather than pronouns.",
+   "examples": [
+    {
+     "target": "Wo wohnt Anna?",
+     "gloss": "Where does Anna live?"
+    },
+    {
+     "target": "Wann fährt der Zug?",
+     "gloss": "When does the train go?",
+     "note": "*fährt* carries the vowel change of ¶61."
+    },
+    {
+     "target": "Warum lernt er Deutsch?",
+     "gloss": "Why is he learning German?"
+    },
+    {
+     "target": "Wie heißt du?",
+     "gloss": "What is your name?"
+    }
+   ],
+   "footnotes": [
+    "**woher** and **wohin** ask after an origin and a destination, and belong with the local prepositions."
+   ],
+   "sources": [
+    {
+     "kind": "grammar",
+     "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+     "note": "§7.5, p. 151, on the interrogative adverbs."
+    },
+    {
+     "kind": "corpus",
+     "citation": "*Goethe-Zertifikat A1: Start Deutsch 1 — Prüfungsziele, Testbeschreibung*, Grammatik-Inventar, pp. 99–106. Goethe-Institut, version A1_SD1_Pruefziele_07 / VS_08_190422, 19.04.2022, with the accompanying *Wortliste*.",
+     "note": "Cited for the syllabus of this section: Entscheidungsfrage, Ergänzungsfrage, the Fragepronomen *Wer?* and *Was?*, and the Wortliste entries *wo, wann, warum, wie, wie viel, ja, nein*."
+    }
+   ]
+  },
+  {
+   "id": "wie-viel-viele",
+   "number": "73",
+   "heading": "wie viel and wie viele",
+   "statement": "**wie viel** asks after an amount that is not counted, and stands with no plural noun. **wie viele** asks after a number of countable things, and stands with the plural.",
+   "examples": [
+    {
+     "target": "Wie viel kostet die Fahrkarte?",
+     "gloss": "How much does the ticket cost?"
+    },
+    {
+     "target": "Wie viel Geld hast du?",
+     "gloss": "How much money do you have?"
+    },
+    {
+     "target": "Wie viele Kinder sind hier?",
+     "gloss": "How many children are here?"
+    },
+    {
+     "target": "Wie viele Bücher sind neu?",
+     "gloss": "How many books are new?",
+     "note": "*Bücher* is the plural of *das Buch*, with the umlaut and **-er** of ¶38."
+    }
+   ],
+   "seeAlso": [
+    "interrogative-phrase"
+   ],
+   "sources": [
+    {
+     "kind": "grammar",
+     "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+     "note": "§7.5, p. 151."
+    },
+    {
+     "kind": "corpus",
+     "citation": "*Goethe-Zertifikat A1: Start Deutsch 1 — Prüfungsziele, Testbeschreibung*, Grammatik-Inventar, pp. 99–106. Goethe-Institut, version A1_SD1_Pruefziele_07 / VS_08_190422, 19.04.2022, with the accompanying *Wortliste*.",
+     "note": "Cited for the syllabus of this section: Entscheidungsfrage, Ergänzungsfrage, the Fragepronomen *Wer?* and *Was?*, and the Wortliste entries *wo, wann, warum, wie, wie viel, ja, nein*."
+    }
+   ]
+  },
+  {
+   "id": "question-word-subject",
+   "number": "74",
+   "heading": "Where the question word is itself the subject",
+   "statement": "Where **wer** or **was** is the subject of its own sentence, the subject position is already filled and no further subject follows the verb. The verb stands in the third person singular.",
+   "examples": [
+    {
+     "target": "Wer kommt?",
+     "gloss": "Who is coming?"
+    },
+    {
+     "target": "Was kostet das?",
+     "gloss": "What does that cost?"
+    },
+    {
+     "target": "Wer spricht Deutsch?",
+     "gloss": "Who speaks German?",
+     "note": "*spricht* carries the vowel change of ¶61."
+    }
+   ],
+   "seeAlso": [
+    "fragepronomen",
+    "question-word-first"
+   ],
+   "sources": [
+    {
+     "kind": "grammar",
+     "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+     "note": "§5.3.3, pp. 89–92, with the interrogative pronoun as subject."
+    }
+   ]
+  },
+  {
+   "id": "entscheidungsfrage",
+   "number": "75",
+   "heading": "The verb stands first in a yes/no question",
+   "statement": "A question answerable by yes or no carries no question word, and its finite verb stands first, before the subject.",
+   "examples": [
+    {
+     "target": "Gehen wir ins Kino?",
+     "gloss": "Are we going to the cinema?"
+    },
+    {
+     "target": "Trinkst du Kaffee?",
+     "gloss": "Do you drink coffee?"
+    },
+    {
+     "target": "Arbeitet Anna heute?",
+     "gloss": "Is Anna working today?",
+     "note": "*arbeitet* carries the inserted **-e-** of ¶57."
+    },
+    {
+     "target": "Ist der Stuhl neu?",
+     "gloss": "Is the chair new?"
+    }
+   ],
+   "seeAlso": [
+    "verb-second"
+   ],
+   "footnotes": [
+    "The German name is *Entscheidungsfrage*, a question to be decided.",
+    "In speech the same question is also put with the word order of a statement and a rising intonation: *Du trinkst Kaffee?*"
+   ],
+   "sources": [
+    {
+     "kind": "grammar",
+     "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+     "note": "§21.1.1, p. 450, on verb-first order in questions."
+    },
+    {
+     "kind": "grammar",
+     "citation": "*Fragesatz*, Wikipedia (German).",
+     "url": "https://de.wikipedia.org/wiki/Fragesatz",
+     "note": "Cited for the names *Entscheidungsfrage* and *Ergänzungsfrage*, and for the verb-first and question-word-first orders they carry."
+    }
+   ]
+  },
+  {
+   "id": "answering",
+   "number": "76",
+   "heading": "What each kind of question is answered by",
+   "statement": "A question with a question word is answered with the element it asks for, and not with yes or no. A yes/no question is answered with **ja** or **nein**.",
+   "examples": [
+    {
+     "target": "Wann kommt der Zug? — Heute.",
+     "gloss": "When does the train come? — Today."
+    },
+    {
+     "target": "Wer ist Ärztin? — Anna.",
+     "gloss": "Who is a doctor? — Anna."
+    },
+    {
+     "target": "Trinkst du Kaffee? — Ja.",
+     "gloss": "Do you drink coffee? — Yes."
+    }
+   ],
+   "seeAlso": [
+    "question-word-first",
+    "entscheidungsfrage"
+   ],
+   "sources": [
+    {
+     "kind": "grammar",
+     "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+     "note": "§21.1.1, p. 450."
+    },
+    {
+     "kind": "corpus",
+     "citation": "*Goethe-Zertifikat A1: Start Deutsch 1 — Prüfungsziele, Testbeschreibung*, Grammatik-Inventar, pp. 99–106. Goethe-Institut, version A1_SD1_Pruefziele_07 / VS_08_190422, 19.04.2022, with the accompanying *Wortliste*.",
+     "note": "Cited for the syllabus of this section: Entscheidungsfrage, Ergänzungsfrage, the Fragepronomen *Wer?* and *Was?*, and the Wortliste entries *wo, wann, warum, wie, wie viel, ja, nein*."
+    }
+   ]
+  }
+ ],
+ "vocabulary": [
+  {
+   "lemma": "wer",
+   "gloss": "who",
+   "pos": "pronoun",
+   "forms": {
+    "nom": "wer"
+   },
+   "notes": "Asks after a person (¶71). Declines for case; the accusative and dative forms come with those cases."
+  },
+  {
+   "lemma": "was",
+   "gloss": "what",
+   "pos": "pronoun",
+   "forms": {
+    "nom": "was"
+   },
+   "notes": "Asks after a thing (¶71)."
+  },
+  {
+   "lemma": "wo",
+   "gloss": "where",
+   "pos": "adverb",
+   "forms": {},
+   "notes": "Asks after a place (¶72)."
+  },
+  {
+   "lemma": "wann",
+   "gloss": "when",
+   "pos": "adverb",
+   "forms": {},
+   "notes": "Asks after a time (¶72)."
+  },
+  {
+   "lemma": "warum",
+   "gloss": "why",
+   "pos": "adverb",
+   "forms": {},
+   "notes": "Asks after a reason (¶72)."
+  },
+  {
+   "lemma": "wie",
+   "gloss": "how",
+   "pos": "adverb",
+   "forms": {},
+   "notes": "Asks after a manner (¶72), and after a name: *Wie heißt du?*"
+  },
+  {
+   "lemma": "wie viel",
+   "gloss": "how much",
+   "pos": "adverb",
+   "forms": {},
+   "notes": "With no plural noun (¶73)."
+  },
+  {
+   "lemma": "wie viele",
+   "gloss": "how many",
+   "pos": "adverb",
+   "forms": {},
+   "notes": "With a plural noun (¶73)."
+  },
+  {
+   "lemma": "ja",
+   "gloss": "yes",
+   "pos": "particle",
+   "forms": {},
+   "notes": "Answers a yes/no question (¶76)."
+  },
+  {
+   "lemma": "nein",
+   "gloss": "no",
+   "pos": "particle",
+   "forms": {},
+   "notes": "Answers a yes/no question (¶76)."
+  },
+  {
+   "lemma": "heute",
+   "gloss": "today",
+   "pos": "adverb",
+   "forms": {}
+  },
+  {
+   "lemma": "kosten",
+   "gloss": "to cost",
+   "pos": "verb",
+   "forms": {
+    "inf": "kosten",
+    "du": "kostest",
+    "pres": "kostet"
+   },
+   "notes": "The stem ends in **-t**, so the **-e-** of ¶57 is inserted."
+  },
+  {
+   "lemma": "Fahrkarte",
+   "gloss": "ticket",
+   "pos": "noun",
+   "forms": {
+    "nom": "die Fahrkarte",
+    "acc": "die Fahrkarte",
+    "dat": "der Fahrkarte",
+    "gen": "der Fahrkarte",
+    "plural": "die Fahrkarten"
+   }
+  },
+  {
+   "lemma": "Zug",
+   "gloss": "train",
+   "pos": "noun",
+   "forms": {
+    "nom": "der Zug",
+    "acc": "den Zug",
+    "dat": "dem Zug",
+    "gen": "des Zuges, des Zugs",
+    "plural": "die Züge"
+   },
+   "notes": "Plural with the umlaut and **-e** of ¶37."
+  },
+  {
+   "lemma": "Kaffee",
+   "gloss": "coffee",
+   "pos": "noun",
+   "forms": {
+    "nom": "der Kaffee",
+    "acc": "den Kaffee",
+    "dat": "dem Kaffee",
+    "gen": "des Kaffees",
+    "plural": "die Kaffees"
+   },
+   "notes": "As a substance the plural is not used; *die Kaffees* counts cups or sorts."
+  }
+ ],
+ "drills": [
+  {
+   "id": "de106-q1",
+   "type": "single",
+   "difficulty": "easy",
+   "stem": "Which of these is the German for *When does the train come?*",
+   "options": [
+    "Wann kommt der Zug?",
+    "Wann der Zug kommt?",
+    "Kommt wann der Zug?",
+    "Der Zug wann kommt?"
+   ],
+   "correct": 0,
+   "explanation": "The question word opens the question and the finite verb follows it directly, so *kommt* is the second element (¶69). The other three put the subject or the verb in the wrong place.",
+   "rulesTested": [
+    "question-word-first"
+   ],
+   "vocabUsed": [
+    "Zug"
+   ]
+  },
+  {
+   "id": "de106-q4",
+   "type": "single",
+   "difficulty": "easy",
+   "stem": "*____ ist das?* — Ein Buch.",
+   "options": [
+    "Was",
+    "Wer",
+    "Wie",
+    "Wann"
+   ],
+   "correct": 0,
+   "explanation": "A book is a thing, and **was** asks after a thing (¶71). **wer** would ask after a person.",
+   "rulesTested": [
+    "fragepronomen"
+   ],
+   "vocabUsed": [
+    "was",
+    "Buch"
+   ]
+  },
+  {
+   "id": "de106-q2",
+   "type": "single",
+   "difficulty": "medium",
+   "stem": "*____ heißt das Kind?*",
+   "options": [
+    "Wie",
+    "Was",
+    "Wer",
+    "Wo"
+   ],
+   "correct": 0,
+   "explanation": "German asks after a name with **wie** (¶69, ¶72). *Was heißt das?* is a different question — it asks what something means.",
+   "rulesTested": [
+    "interrogative-adverbs",
+    "question-word-first"
+   ],
+   "vocabUsed": [
+    "wie",
+    "heißen",
+    "Kind"
+   ]
+  },
+  {
+   "id": "de106-q3",
+   "type": "multi",
+   "difficulty": "medium",
+   "stem": "Which of these hold of *Kommt der Zug heute?*",
+   "options": [
+    "It carries no question word",
+    "Its finite verb stands first, before the subject",
+    "It is answered with *ja* or *nein*",
+    "*der Zug* stands first because it is the subject"
+   ],
+   "correct": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "It is an *Entscheidungsfrage*: no question word, the finite verb first (¶75), and *ja* or *nein* for an answer (¶76). *der Zug* does not stand first — *Kommt* does.",
+   "rulesTested": [
+    "entscheidungsfrage",
+    "answering"
+   ],
+   "vocabUsed": [
+    "Zug",
+    "heute"
+   ]
+  },
+  {
+   "id": "de106-q5",
+   "type": "single",
+   "difficulty": "medium",
+   "stem": "*Wer ____ Deutsch?* (sprechen)",
+   "options": [
+    "spricht",
+    "sprichst",
+    "sprechen",
+    "spreche"
+   ],
+   "correct": 0,
+   "explanation": "**wer** is the subject of its own question, so the verb stands in the third person singular (¶74) — and *sprechen* changes its stem vowel there (¶61).",
+   "rulesTested": [
+    "question-word-subject",
+    "vowel-change"
+   ],
+   "vocabUsed": [
+    "wer",
+    "sprechen"
+   ]
+  },
+  {
+   "id": "de106-q6",
+   "type": "single",
+   "difficulty": "medium",
+   "stem": "Which of these is correct?",
+   "options": [
+    "Wer kommt?",
+    "Wer kommt er?",
+    "Wer er kommt?",
+    "Wer kommen?"
+   ],
+   "correct": 0,
+   "explanation": "**wer** is itself the subject, so nothing further follows the verb (¶74). *Wer kommt er?* supplies a second subject the sentence has no room for.",
+   "rulesTested": [
+    "question-word-subject"
+   ],
+   "vocabUsed": [
+    "wer"
+   ]
+  },
+  {
+   "id": "de106-q7",
+   "type": "integer",
+   "difficulty": "medium",
+   "stem": "In *Wo arbeitet der Lehrer?*, the interrogative counts as the first element. Which element is the finite verb *arbeitet*?",
+   "answer": 2,
+   "unit": "element",
+   "explanation": "The question word occupies the first position and the finite verb follows it directly, so it is the second element (¶69) — the same position it holds in a statement (¶66).",
+   "rulesTested": [
+    "question-word-first"
+   ],
+   "vocabUsed": [
+    "wo",
+    "arbeiten",
+    "Lehrer"
+   ]
+  },
+  {
+   "id": "de106-q9",
+   "type": "single",
+   "difficulty": "medium",
+   "stem": "*____ Geld hast du?*",
+   "options": [
+    "Wie viel",
+    "Wie viele",
+    "Wie",
+    "Was"
+   ],
+   "correct": 0,
+   "explanation": "*Geld* is an amount that is not counted, and **wie viel** stands with no plural noun (¶73).",
+   "rulesTested": [
+    "wie-viel-viele"
+   ],
+   "vocabUsed": [
+    "wie viel",
+    "Geld"
+   ]
+  },
+  {
+   "id": "de106-q8",
+   "type": "single",
+   "difficulty": "hard",
+   "stem": "In *Wie viele Äpfel sind hier?*, why does *sind* stand where it does?",
+   "options": [
+    "*wie viele Äpfel* is one element, so *sind* is the second",
+    "*sind* is the fourth word, and a question puts its verb fourth",
+    "*wie viel* and *wie viele* are exceptions to the verb-second order",
+    "*Äpfel* is the subject, so the verb follows it directly"
+   ],
+   "correct": 0,
+   "explanation": "The interrogative phrase counts as a single element, so the finite verb is second by element even though it is the fourth word (¶70). The order is the ordinary verb-second of ¶66, not an exception to it.",
+   "rulesTested": [
+    "interrogative-phrase",
+    "wie-viel-viele"
+   ],
+   "vocabUsed": [
+    "wie viele",
+    "Apfel"
+   ]
+  },
+  {
+   "id": "de106-q10",
+   "type": "multi",
+   "difficulty": "hard",
+   "stem": "Which of these hold of **wie viel** and **wie viele**?",
+   "options": [
+    "**wie viele** stands with a plural noun",
+    "**wie viel** stands with no plural noun",
+    "**wie viel** asks after an amount that is not counted",
+    "**wie viel** puts the finite verb third rather than second"
+   ],
+   "correct": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "The first three are ¶73. The fourth is the confusion ¶70 removes: the phrase is one element, so the verb is second whatever the phrase's length.",
+   "rulesTested": [
+    "wie-viel-viele",
+    "interrogative-phrase"
+   ],
+   "vocabUsed": [
+    "wie viel",
+    "wie viele"
+   ]
+  },
+  {
+   "id": "de106-q11",
+   "type": "matching",
+   "difficulty": "hard",
+   "stem": "Pair each question with the reason its finite verb stands where it does.",
+   "columnHeadings": [
+    "Question",
+    "Reason"
+   ],
+   "columnI": [
+    "Kommt der Zug heute?",
+    "Wann kommt der Zug?",
+    "Wer kommt?",
+    "Wie viele Äpfel sind hier?"
+   ],
+   "columnII": [
+    "no question word, so the finite verb is first",
+    "one question word stands first, so the finite verb is second",
+    "the question word is the subject, so no subject follows the verb",
+    "a question word with a noun stands first, and the two are one element, so the finite verb is second",
+    "the subject stands first, so the finite verb is second"
+   ],
+   "options": [
+    [
+     0,
+     1,
+     2,
+     3
+    ],
+    [
+     0,
+     1,
+     3,
+     2
+    ],
+    [
+     4,
+     1,
+     2,
+     3
+    ],
+    [
+     0,
+     3,
+     2,
+     1
+    ]
+   ],
+   "correct": 0,
+   "explanation": "*Kommt der Zug heute?* has no question word and puts the verb first (¶75). *Wann kommt der Zug?* has a one-word interrogative, so the verb is second (¶69). In *Wer kommt?* the question word is the subject (¶74). In *Wie viele Äpfel sind hier?* the interrogative phrase is one element (¶70). The last label describes a statement, not any of these four.",
+   "rulesTested": [
+    "entscheidungsfrage",
+    "question-word-first",
+    "question-word-subject",
+    "interrogative-phrase"
+   ]
+  },
+  {
+   "id": "de106-q12",
+   "type": "integer",
+   "difficulty": "hard",
+   "stem": "*Arbeitest du auch hier?* Which numbered rule governs the position of its finite verb?",
+   "answer": 75,
+   "unit": "rule",
+   "explanation": "It carries no question word and is answerable by yes or no, so its verb stands first — ¶75. ¶69 governs the other kind, where a question word opens the sentence.",
+   "rulesTested": [
+    "entscheidungsfrage"
+   ],
+   "vocabUsed": [
+    "arbeiten"
+   ]
+  },
+  {
+   "id": "de106-q13",
+   "type": "single",
+   "difficulty": "medium",
+   "stem": "*Wann kommt der Zug?* Which of these answers it?",
+   "options": [
+    "Heute.",
+    "Ja.",
+    "Nein.",
+    "Ja, der Zug."
+   ],
+   "correct": 0,
+   "explanation": "A question with a question word is answered with the element it asks for — here a time (¶76). *ja* and *nein* answer the other kind of question.",
+   "rulesTested": [
+    "answering"
+   ],
+   "vocabUsed": [
+    "wann",
+    "heute",
+    "Zug"
+   ]
+  },
+  {
+   "id": "de106-q14",
+   "type": "single",
+   "difficulty": "hard",
+   "stem": "*Was ____ die Fahrkarte?* (kosten)",
+   "options": [
+    "kostet",
+    "kost",
+    "kostt",
+    "kosten"
+   ],
+   "correct": 0,
+   "explanation": "The verb agrees with *die Fahrkarte*, not with *was*, so it is third person singular; and the stem *kost-* ends in **-t**, which brings in the inserted **-e-** of ¶57. *kostt* is the form the ending would give without it.",
+   "rulesTested": [
+    "question-word-first",
+    "stem-e-insertion"
+   ],
+   "vocabUsed": [
+    "was",
+    "kosten",
+    "Fahrkarte"
+   ]
+  },
+  {
+   "id": "de106-q15",
+   "type": "single",
+   "difficulty": "hard",
+   "stem": "*Wie ____ du nach Hause?* (fahren)",
+   "options": [
+    "fährst",
+    "fahrst",
+    "fährt",
+    "fahren"
+   ],
+   "correct": 0,
+   "explanation": "**wie** opens the question and the finite verb follows it (¶69); the subject is *du*, and *fahren* takes the umlaut in the second person singular (¶61).",
+   "rulesTested": [
+    "interrogative-adverbs",
+    "vowel-change"
+   ],
+   "vocabUsed": [
+    "wie",
+    "fahren"
+   ]
+  },
+  {
+   "id": "de106-q16",
+   "type": "multi",
+   "difficulty": "hard",
+   "stem": "*Wer ____* — which of these complete the question correctly?",
+   "options": [
+    "spricht Deutsch?",
+    "sprechen Deutsch?",
+    "liest das Buch?",
+    "arbeitet hier?"
+   ],
+   "correct": [
+    0,
+    2,
+    3
+   ],
+   "explanation": "**wer** as subject takes the third person singular (¶74): *spricht* and *liest* with the vowel change of ¶61, *arbeitet* with the inserted **-e-** of ¶57. *sprechen* is the plural, and **wer** is never plural.",
+   "rulesTested": [
+    "question-word-subject",
+    "vowel-change",
+    "stem-e-insertion"
+   ],
+   "vocabUsed": [
+    "wer",
+    "sprechen",
+    "lesen",
+    "arbeiten"
+   ]
+  },
+  {
+   "id": "de106-q17",
+   "type": "single",
+   "difficulty": "hard",
+   "stem": "*____ Bücher sind neu?*",
+   "options": [
+    "Wie viele",
+    "Wie viel",
+    "Was",
+    "Wer"
+   ],
+   "correct": 0,
+   "explanation": "*Bücher* is a countable plural — the umlaut-and-**-er** plural of *das Buch* (¶38) — so **wie viele** is the form that stands with it (¶73).",
+   "rulesTested": [
+    "wie-viel-viele"
+   ],
+   "vocabUsed": [
+    "wie viele",
+    "Buch",
+    "neu"
+   ]
+  },
+  {
+   "id": "de106-p1",
+   "type": "comprehension",
+   "difficulty": "hard",
+   "title": "Anna und Lukas",
+   "passage": "ANNA. Guten Tag! Wie heißt du?\nLUKAS. Ich heiße Lukas. Und du?\nANNA. Ich heiße Anna. Was machst du hier?\nLUKAS. Ich lerne Deutsch. Ich bin Student.\nANNA. Wie viele Jahre lernst du Deutsch?\nLUKAS. Vier Jahre. Wo arbeitest du?\nANNA. Ich arbeite hier. Ich bin Ärztin.\nLUKAS. Wann arbeitest du?\nANNA. Heute und Montag.",
+   "translation": "ANNA. Good day! What is your name? — LUKAS. My name is Lukas. And you? — ANNA. My name is Anna. What are you doing here? — LUKAS. I am learning German. I am a student. — ANNA. How many years have you been learning German? — LUKAS. Four years. Where do you work? — ANNA. I work here. I am a doctor. — LUKAS. When do you work? — ANNA. Today and Monday.",
+   "glossary": {
+    "Guten Tag": "good day, hello",
+    "und": "and",
+    "vier": "four",
+    "Ärztin": "doctor (feminine of der Arzt)",
+    "hier": "here"
+   },
+   "questions": [
+    {
+     "id": "de106-p1-c1",
+     "type": "single",
+     "difficulty": "medium",
+     "stem": "Wie heißt der Student?",
+     "options": [
+      "Lukas",
+      "Anna",
+      "Montag",
+      "Ärztin"
+     ],
+     "correct": 0,
+     "explanation": "*Ich lerne Deutsch. Ich bin Student* is Lukas. Anna is the doctor; the other two options take a day and a profession from the dialogue and put them where the name belongs.",
+     "rulesTested": [],
+     "vocabUsed": [
+      "Student"
+     ]
+    },
+    {
+     "id": "de106-p1-c2",
+     "type": "single",
+     "difficulty": "medium",
+     "stem": "Was ist Anna?",
+     "options": [
+      "Ärztin",
+      "Studentin",
+      "Lehrerin",
+      "Bäckerin"
+     ],
+     "correct": 0,
+     "explanation": "*Ich bin Ärztin.* Lukas is the student. A profession after *sein* stands with no article (¶45).",
+     "rulesTested": [
+      "fragepronomen"
+     ],
+     "vocabUsed": [
+      "was"
+     ]
+    },
+    {
+     "id": "de106-p1-c3",
+     "type": "integer",
+     "difficulty": "medium",
+     "stem": "Wie viele Jahre lernt Lukas Deutsch?",
+     "answer": 4,
+     "unit": "Jahre",
+     "explanation": "*Wie viele Jahre lernst du Deutsch? — Vier Jahre.* The question is put with **wie viele** because years are counted (¶73).",
+     "rulesTested": [
+      "wie-viel-viele"
+     ],
+     "vocabUsed": [
+      "Jahr"
+     ]
+    },
+    {
+     "id": "de106-p1-c4",
+     "type": "multi",
+     "difficulty": "hard",
+     "stem": "*Wann arbeitest du?* Which of these hold?",
+     "options": [
+      "**wann** asks after a time",
+      "*arbeitest* carries an inserted **-e-** because the stem ends in **-t**",
+      "the finite verb stands second",
+      "it is answered with *ja* or *nein*"
+     ],
+     "correct": [
+      0,
+      1,
+      2
+     ],
+     "explanation": "**wann** asks after a time (¶72), the stem *arbeit-* takes the **-e-** of ¶57, and the question word first puts the verb second (¶69). A question with a question word is not answered *ja* or *nein* (¶76).",
+     "rulesTested": [
+      "interrogative-adverbs",
+      "question-word-first",
+      "answering",
+      "stem-e-insertion"
+     ],
+     "vocabUsed": [
+      "wann",
+      "arbeiten"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "kind": "composed",
+     "citation": "Composed for this course.",
+     "note": "A dialogue of first questions between two speakers, built from the question words of ¶69–¶76 and the present tense of ¶51–¶68. It leans on §21.1.1 of Hammer for the word order and on the Goethe Wortliste for its vocabulary."
+    }
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "kind": "grammar",
+   "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+   "note": "§21.1.1, p. 450, on the order of elements in both kinds of question; §5.3.3, pp. 89–92, on the interrogative pronouns; §7.5, p. 151, on the interrogative adverbs."
+  },
+  {
+   "kind": "grammar",
+   "citation": "*Fragesatz*, Wikipedia (German).",
+   "url": "https://de.wikipedia.org/wiki/Fragesatz",
+   "note": "Cited for the names *Entscheidungsfrage* and *Ergänzungsfrage*, and for the verb-first and question-word-first orders they carry."
+  },
+  {
+   "kind": "corpus",
+   "citation": "*Goethe-Zertifikat A1: Start Deutsch 1 — Prüfungsziele, Testbeschreibung*, Grammatik-Inventar, pp. 99–106. Goethe-Institut, version A1_SD1_Pruefziele_07 / VS_08_190422, 19.04.2022, with the accompanying *Wortliste*.",
+   "note": "Cited for the syllabus of this section: Entscheidungsfrage, Ergänzungsfrage, the Fragepronomen *Wer?* and *Was?*, and the Wortliste entries *wo, wann, warum, wie, wie viel, ja, nein*."
+  }
+ ]
+}

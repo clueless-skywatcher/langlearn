@@ -15,7 +15,7 @@ E.g.
 - Ihr singt wirklich schlecht.
 - Er geht nach Hause.
 - Sie singen laut.
-[Two of your examples were changed. "Er geht zu Hause" -> "Er geht nach Hause": "zu Hause" is static, "at home", and gehen is motion, so it takes "nach Hause". "Er ist zu Hause" would be the static one. "Sie koennen da tun" is not grammatical (it wants an object: "Sie koennen das tun"), and koennen is a modal, which is section 11 — replaced with a plain verb.]
+[Two of your examples were changed. "Er geht zu Hause" -> "Er geht nach Hause": "zu Hause" is static, "at home", and gehen is motion, so it takes "nach Hause". "Er ist zu Hause" would be the static one. "Sie koennen da tun" is not grammatical (it wants an object: "Sie koennen das tun"), and koennen is a modal, which is section 14 — replaced with a plain verb.]
 
 5. The personal pronouns in the nominative are:
 
@@ -26,7 +26,7 @@ E.g.
 
 and beside them the polite Sie, which is the same word as the third person plural and is written with a capital S wherever it stands.
 
-6. Verbs are classified into two types - regular and irregular. A regular verb follows a fixed pattern to build its conjugation. An irregular verb does not follow it, but the departure is almost always in the stem rather than in the endings: the six endings of 7 are the same for nearly every German verb, and what changes is the vowel or the shape of the stem they are attached to. Of the verbs in this section only sein departs from the endings themselves; the modal verbs of section 11 do so as well.
+6. Verbs are classified into two types - regular and irregular. A regular verb follows a fixed pattern to build its conjugation. An irregular verb does not follow it, but the departure is almost always in the stem rather than in the endings: the six endings of 7 are the same for nearly every German verb, and what changes is the vowel or the shape of the stem they are attached to. Of the verbs in this section only sein departs from the endings themselves; the modal verbs of section 14 do so as well.
 E.g. The conjugation of kaufen is: kaufe, kaufst, kauft, kaufen, kauft, kaufen. But the conjugation of sein is: bin, bist, ist, sind, seid, sind.
 [Your original wording was "irregular verbs don't have a fixed pattern for conjugation". That is too strong and it hides what a learner actually has to watch for. fahren is irregular, yet its endings are exactly kaufen's — only the vowel of the stem moves, du faehrst. See 12.]
 

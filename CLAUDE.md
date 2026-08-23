@@ -365,3 +365,57 @@ entry disagreeing with the paradigm printed beneath it.
 An inflected form is of course what an *example* shows — *Der Mann isst einen
 Apfel* is a sentence, not a citation. The rule governs how a verb is named
 when it is being named.
+
+## 15. The notes file is the author; this file is the editor
+
+A section is authored from a notes file written by hand — `notes-a1-02.md`,
+`notes-a1-04.md`, and their successors — and that file, not the JSON, is where
+the exposition is decided. The outline says as much: fill a block and the
+section is ready to author, leave it empty and it is not.
+
+So the points in a notes file are kept. Every one of them reaches the section,
+in the order the notes put them, saying what the notes say. What the JSON adds
+is structure — the split into rules that §10 requires, the paradigms, the
+drills, the sources — not a second opinion on the content.
+
+A point is changed only where there is something wrong with it:
+
+- a fact that is false, or that the cited grammar does not support;
+- an example that is ungrammatical, or that turns on material from a later
+  section — *Sie können das tun* in a section before the modals (§14 of the
+  outline), an accusative object before the accusative is taught;
+- a specimen that does not show what the point is about: a strong verb offered
+  as the pattern for the regular endings;
+- a point belonging to another section, which moves there rather than being
+  cut;
+- a statement that breaks a rule of this file — the learner instructed (§9), a
+  paragraph carrying three facts (§10), a count where the numeral itself was
+  the better question (§11).
+
+Fix the fault and leave the point. *"Er geht zu Hause"* becomes *"Er geht nach
+Hause"*; it does not become a different sentence about a different verb.
+
+The notes file is not edited. It is the author's copy, and it stays as written
+— faults, `[Verify this]` markers, unfinished points and all. Every correction
+is made in the section JSON that is built from it, and reported to the author
+in the reply, so that they can see what was changed and say no. A notes file
+rewritten in place destroys the very thing it is being read against.
+
+The bracketed notes already present in the older notes files are a record of
+edits made before this rule; they are left alone and not added to.
+
+### Gaps are filled, examples are added
+
+Two things are contributed rather than merely preserved.
+
+**The inventory rows the notes do not reach.** A notes file is written from
+memory of the language and will not have covered every row the outline assigns
+the section. Those points are written, from the section's cited sources, and
+marked as added so they can be checked.
+
+**Examples.** Illustrations are added freely — a second and third specimen of a
+paradigm, a sentence for a use the notes state abstractly, the counter-example
+that shows where a rule stops. They go *beside* the notes' own examples. An
+example of theirs is replaced only under the faults above, and then the
+original stays in the notes file as a bracketed note, so that nothing is lost
+silently.

@@ -42,7 +42,7 @@ in the list; they must not demand production of what the list marks receptive.
 Two items in the printed inventory carry footnote markers whose footnote text is
 absent from the PDF: `Dativ*` (Kasus) and `wenn *` (Satzverbindungen). *wenn* is
 also the only Satzverbindung given without an example, and is not a Wortliste
-entry. It is scheduled receptively only, in section 16, and no rule leans on it
+entry. It is scheduled receptively only, in section 17, and no rule leans on it
 until the ambiguity is resolved against a newer version of the document.
 
 Reading passages follow §7. At A1 that means dialogue and graded generated
@@ -62,21 +62,35 @@ is quoted, not assumed from the publisher.
 | 04 | ✅ The Article, and the Article That Is Not There | the definite article where English has none; country names that carry one; the indefinite article *ein/eine/ein* and what it does; the Nullartikel (*Sachen*, *Ich esse gern Fleisch*, *Er ist Lehrer*) |
 | 05 | ✅ The Present Tense, and Verb-Second | Präsens of all Wortliste verbs; Verbzweitstellung; Nominativergänzung (*Er heißt Heinz Bartels*); Qualitativergänzung (*Der Film ist langweilig*) and the predicative adjective; Personalpronomen im Nominativ; indefinite *man* |
 | — | ✅ **Checkpoint 1** | covers 01–05 |
-| 06 | Questions, and Negation | Entscheidungsfrage (*Kaufst du heute ein?*); Ergänzungsfrage (*Wo ist Peter?*); Fragepronomen *Wer? Was?*; Negation with *nicht* and with *kein*; *kein/keine* and its declension after *ein* (¶48); *kein* in the plural |
-| 07 | The Accusative | Akkusativergänzung (*Ich nehme eine Coca Cola*); *den/einen/keinen*; Personalpronomen *mich/dich/ihn/sie/es*; Fragepronomen *Wen? Was?*; Reziprokpronomen *sich/uns*; the pronouns *etwas, nichts, mehr, alles, welch-* |
-| 08 | Possessives, and Naming an Owner | *mein/dein/sein/ihr/Ihr*, *unser/euer*; demonstrative *dieser/diese/dieses*; Genitiv of proper names in the singular (*Karls Freunde*); the genitive noun phrase, receptive only (*die Nummer des Wagens*) |
-| — | **Checkpoint 2** | covers 06–09 |
-| 09 | Numbers, the Clock, and the Calendar | the Zahlwörter of the Wortliste, cardinal and ordinal, and the halves and quarters; Uhrzeit; days and months; temporal prepositions *an, ab, für, in, nach, über, um, von … bis, vor* |
-| 10 | Separable Verbs, and the Satzklammer | Verben mit trennbarem Präfix (*Kommst du mit?*, *Wann fängt der Kurs an?*); the Satzklammer that carries them |
-| 11 | The Modal Verbs | Präsens of *können, wollen, müssen, dürfen, sollen, möchten*; the Satzklammer with a modal (*Ich will meine Tante besuchen*); *ich würde gerne …*; the adverbial adjective (*Ich lese gern*) |
-| 12 | The Imperative | Imperativ in the du-, ihr- and Sie-form (*Geh bitte nach Hause!*, *Kommt bitte alle mit!*, *Kommen Sie bitte mit!*) |
-| — | **Checkpoint 3** | covers 10–13 |
-| 13 | The Dative | Kasus Dativ; Dativergänzung with *danken, gehören, geben, helfen*; *es geht mir gut*; *mir/dir/euch/Ihnen*; Fragepronomen *Wem?* |
-| 14 | Where, Whence, Whither, and How | Lokalergänzung; the local prepositions *an, auf, aus, bei, in, nach, unter, zu, von … nach*; *an* and *in* with dative against accusative; the modal prepositions *aus, für, mit, ohne* |
-| 15 | The Perfect, and the Two Past Forms of sein and haben | Perfekt of the fifteen listed verbs; *haben* or *sein* as the auxiliary; the Satzklammer with a participle (*Ich habe schon gegessen*); selected participles as adjectives (*Heute geöffnet*); Präteritum, 1st and 3rd person of *haben* and *sein* only (*ich war*, *sie hatte*) |
-| 16 | Joining Sentences, and Building Words | Satzverbindungen *und, oder, aber, denn, dann*, and *wenn* receptively; Wortbildung: nouns in *-er* and *-ung*, feminines in *-in*, compound nouns, participles as nouns (*Reisender*); adjectives in *un-*, *-los*, *-bar*, and compounds (*hellblau*) |
-| — | **Checkpoint 4** | covers 14–16 |
-| — | **A1 Boundary Examination** | covers all 16 A1 lessons; admits to A2 |
+| 06 | ✅ Questions | Entscheidungsfrage (*Kaufst du heute ein?*); Ergänzungsfrage (*Wo ist Peter?*); Fragepronomen *Wer? Was?* |
+| 07 | ✅ The Accusative | Akkusativergänzung (*Ich nehme eine Coca Cola*); *den/einen*; Personalpronomen *mich/dich/ihn/sie/es*; Fragepronomen *Wen? Was?*; Reziprokpronomen *sich/uns*; the pronouns *etwas, nichts, mehr, alles, welch-* |
+| 08 | Negation | Negation with *nicht* and the position it takes; *kein/keine* and its declension after *ein* (¶48); *keinen* in the accusative; *kein* in the plural |
+| — | **Checkpoint 2** | covers 06–08 |
+| 09 | Possessives, and Naming an Owner | *mein/dein/sein/ihr/Ihr*, *unser/euer*; demonstrative *dieser/diese/dieses*; Genitiv of proper names in the singular (*Karls Freunde*); the genitive noun phrase, receptive only (*die Nummer des Wagens*) |
+| 10 | The Dative | Kasus Dativ; Dativergänzung with *danken, gehören, geben, helfen*; *es geht mir gut*; *mir/dir/euch/Ihnen*; Fragepronomen *Wem?* |
+| 11 | Numbers, the Clock, and the Calendar | the Zahlwörter of the Wortliste, cardinal and ordinal, and the halves and quarters; Uhrzeit; days and months; temporal prepositions *an, ab, für, in, nach, über, um, von … bis, vor* |
+| 12 | Where, Whence, Whither, and How | Lokalergänzung; the local prepositions *an, auf, aus, bei, in, nach, unter, zu, von … nach*; *an* and *in* with dative against accusative; the modal prepositions *aus, für, mit, ohne* |
+| — | **Checkpoint 3** | covers 09–12 |
+| 13 | Separable Verbs, and the Satzklammer | Verben mit trennbarem Präfix (*Kommst du mit?*, *Wann fängt der Kurs an?*); the Satzklammer that carries them |
+| 14 | The Modal Verbs | Präsens of *können, wollen, müssen, dürfen, sollen, möchten*; the Satzklammer with a modal (*Ich will meine Tante besuchen*); *ich würde gerne …*; the adverbial adjective (*Ich lese gern*) |
+| 15 | The Imperative | Imperativ in the du-, ihr- and Sie-form (*Geh bitte nach Hause!*, *Kommt bitte alle mit!*, *Kommen Sie bitte mit!*) |
+| 16 | The Perfect, and the Two Past Forms of sein and haben | Perfekt of the fifteen listed verbs; *haben* or *sein* as the auxiliary; the Satzklammer with a participle (*Ich habe schon gegessen*); selected participles as adjectives (*Heute geöffnet*); Präteritum, 1st and 3rd person of *haben* and *sein* only (*ich war*, *sie hatte*) |
+| 17 | Joining Sentences, and Building Words | Satzverbindungen *und, oder, aber, denn, dann*, and *wenn* receptively; Wortbildung: nouns in *-er* and *-ung*, feminines in *-in*, compound nouns, participles as nouns (*Reisender*); adjectives in *un-*, *-los*, *-bar*, and compounds (*hellblau*) |
+| — | **Checkpoint 4** | covers 13–17 |
+| — | **A1 Boundary Examination** | covers all 17 A1 lessons; admits to A2 |
+
+### Why this order
+
+The level runs in four blocks after the authored five, and each block is one
+checkpoint's window. 06–08 close the noun phrase the first block opened: the
+accusative precedes negation because *kein* declines like *ein* (¶48), so
+*keinen* is not statable until the accusative is. 09–12 add the remaining
+determiners and the second case, and the temporal and local prepositions sit
+with the dative that governs them — *am Montag*, *um acht Uhr* and *in der
+Stadt* are the same fact seen twice. 13–17 are the verb bracket, opened by the
+separable prefix, held by a modal and then by a participle; 17 closes the level
+because a compound, an *-ung* and a *Reisender* all draw on gender (02), the
+plural (03) and the participle (16).
 
 The topics the Wortliste attaches to these points — personal details, home and
 furniture, food and drink, shopping and price, travel and transport, health,
@@ -95,7 +109,7 @@ unglossed incidental text.
 | Excluded | Where it belongs |
 |---|---|
 | Attributive adjective endings — *ein modernes Haus* | A2. The inventory names *attributiv* in its one-page summary but specifies no attributive row; only the predicative and adverbial uses are given. |
-| Comparative and superlative | A2. *Komparation* likewise appears in the summary only. *besser*, *lieber* and *gern* are Wortliste words, learnt as vocabulary in sections 10 and 12, not as a formation rule. |
+| Comparative and superlative | A2. *Komparation* likewise appears in the summary only. *besser*, *lieber* and *gern* are Wortliste words, learnt as vocabulary in section 14, not as a formation rule. |
 | *weil* and *dass*, and subordinate word order | A2. Neither is in the grammar inventory or the Wortliste. |
 | *sondern* | A2. Absent from both documents. |
 | *seit*, *durch*, *gegen*, *gegenüber* as prepositions | A2. *seit*, *durch* and *gegen* are Wortliste words and may appear in a passage; none is in the preposition inventory, so none carries a rule. |
@@ -103,7 +117,7 @@ unglossed incidental text.
 | The Perfekt of any verb outside the fifteen | A2, which opens the tense up. |
 | The Präteritum of any verb other than *haben* and *sein*, and outside the 1st and 3rd person | A2. |
 | The future tense | A2. Absent from the A1 inventory entirely. |
-| The passive, and the subjunctive as a system | B1. At A1 the Konjunktiv II survives only as the two fixed items *ich möchte* and *ich würde gerne* (section 10). |
+| The passive, and the subjunctive as a system | B1. At A1 the Konjunktiv II survives only as the two fixed items *ich möchte* and *ich würde gerne* (section 14). |
 | The genitive as a productive case | A2/B1. A1 has proper names in the singular, and receptive recognition, and stops. |
 
 ---
@@ -140,57 +154,68 @@ for one.
 
 > Written up at `content/de/notes-a1-04.md`; authored as ¶51–¶68.
 
-### 06 — Questions, and Negation
-*Hammer 21.1.1 (p. 450); 5.3.3 (pp. 89–92); 7.5 (p. 151); nicht 21.7.1 (pp. 469–471); kein 5.5.16 and Table 4.2 (p. 64)*
+### 06 — Questions ✅
+*Hammer 21.1.1 (p. 450); 5.3.3 (pp. 89–92); 7.5 (p. 151). Public source: de.wikipedia.org/wiki/Fragesatz*
 
->
+> Written up at `content/de/notes-a1-06.md`; authored as ¶69–¶76.
 
 ### 07 — The Accusative
-*Hammer 2.2.1 (p. 35) and Table 1.5 (p. 26); 18.3.1 (p. 361); 3.1.1 (p. 48); 3.2.7 (p. 51); etwas 5.5.9, nichts 5.5.22, alles 5.5.1, welch- 5.5.26*
+*Hammer 2.2.1 (p. 35) and Table 1.5 (p. 26); 18.3.1 (p. 361); 3.1.1 (p. 48); 3.2.7 (p. 51); etwas 5.5.9, nichts 5.5.22, alles 5.5.1, welch- 5.5.26; weak masculines 1.3.2; accusative prepositions ch. 20*
+
+> Written up at `content/de/notes-a1-07.md`; authored as ¶77–¶88. The four
+> flagged points were settled thus: the weak masculine declension is a rule
+> (¶80), since the section 04 vocabulary already cites *den Studenten* and
+> asserts the class; *es gibt* is vocabulary under *geben* and carries no rule;
+> the accusative prepositions are stated as a fact with *für* and *ohne* (¶87,
+> not core) and the list stays in section 12; the accusative of measure is ¶88
+> (not core) and the accusative of time stays in section 11.
+
+### 08 — Negation
+*Hammer nicht 21.7.1 (pp. 469–471); kein 5.5.16 and Table 4.2 (p. 64)*
 
 >
 
-### 08 — Possessives, and Naming an Owner
+### 09 — Possessives, and Naming an Owner
 *Hammer 5.2.1–5.2.2 with Tables 5.4–5.5 (pp. 79–87); dieser 5.1.2 (p. 81); 2.3.2 (pp. 36–38); 2.3.1 (p. 36)*
 
 >
 
-### 09 — Numbers, the Clock, and the Calendar
-*Hammer 9.1 and 9.2 (pp. 163–170); 9.3.2 for halb (p. 171); 11.1–11.3 with Tables 11.1–11.4 (pp. 204–208); 11.5.1–11.5.2, 11.5.6, 11.5.8–11.5.9, 11.5.11–11.5.14 (pp. 210–218); 11.4.1 (p. 208)*
-
->
-
-### 10 — Separable Verbs, and the Satzklammer
-*Hammer 22.5.1 (pp. 490–494); 21.1.2 (pp. 455–458)*
-
->
-
-### 11 — The Modal Verbs
-*Hammer 17.1.1–17.1.5 (pp. 336–340); 17.2.1, 17.3.1, 17.4.1, 17.5.1, 17.6.1, 17.7.1 (pp. 340–353); Table 12.4 (p. 236); würde 16.4.4 (p. 316); gern 7.3.1 (p. 143)*
-
->
-
-### 12 — The Imperative
-*Hammer 16.2.1 (pp. 313–316)*
-
->
-
-### 13 — The Dative
+### 10 — The Dative
 *Hammer 2.5.1–2.5.2 (pp. 40–42) and Table 2.1 (p. 34); 18.4.1 (pp. 366–372); 3.1.1 (p. 48); 5.3.3 for Wem (p. 89)*
 
 >
 
-### 14 — Where, Whence, Whither, and How
+### 11 — Numbers, the Clock, and the Calendar
+*Hammer 9.1 and 9.2 (pp. 163–170); 9.3.2 for halb (p. 171); 11.1–11.3 with Tables 11.1–11.4 (pp. 204–208); 11.5.1–11.5.2, 11.5.6, 11.5.8–11.5.9, 11.5.11–11.5.14 (pp. 210–218); 11.4.1 (p. 208)*
+
+>
+
+### 12 — Where, Whence, Whither, and How
 *Hammer 20.2.1, 20.2.3, 20.2.5–20.2.6, 20.2.8–20.2.9 (pp. 412–426); 20.3.1 (pp. 426–430); 20.3.2–20.3.4, 20.3.8–20.3.9, 20.3.13 (pp. 430–440); 20.1.3, 20.1.5 (pp. 407–412); 20.5 (pp. 447–450); 18.8.2 (p. 382)*
 
 >
 
-### 15 — The Perfect, and the Two Past Forms of sein and haben
+### 13 — Separable Verbs, and the Satzklammer
+*Hammer 22.5.1 (pp. 490–494); 21.1.2 (pp. 455–458)*
+
+>
+
+### 14 — The Modal Verbs
+*Hammer 17.1.1–17.1.5 (pp. 336–340); 17.2.1, 17.3.1, 17.4.1, 17.5.1, 17.6.1, 17.7.1 (pp. 340–353); Table 12.4 (p. 236); würde 16.4.4 (p. 316); gern 7.3.1 (p. 143)*
+
+>
+
+### 15 — The Imperative
+*Hammer 16.2.1 (pp. 313–316)*
+
+>
+
+### 16 — The Perfect, and the Two Past Forms of sein and haben
 *Hammer 12.3.1 (pp. 236–238); 12.3.2 (pp. 238–240); Table 12.3 (p. 235) and Table 12.5 (p. 236); 13.5.2 (pp. 272–276); 14.3.2 (pp. 287–291)*
 
 >
 
-### 16 — Joining Sentences, and Building Words
+### 17 — Joining Sentences, and Building Words
 *Hammer 19.1.1–19.1.4 (pp. 384–388); dann 11.6.3 (p. 221); wenn 19.2.3 (p. 388); 22.2.1 (pp. 476–483); 22.2.4 (p. 481); 22.3.1–22.3.2 (pp. 483–486); 22.3.3 (p. 486); 6.4.1–6.4.2 (pp. 126–130)*
 
 >

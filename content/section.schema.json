@@ -2088,7 +2088,7 @@
         },
         "covers": {
           "minItems": 3,
-          "maxItems": 4,
+          "maxItems": 5,
           "type": "array",
           "items": {
             "type": "string",

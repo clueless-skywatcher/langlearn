@@ -1,0 +1,1458 @@
+{
+ "id": "de-07",
+ "kind": "lesson",
+ "level": "A1",
+ "order": 8,
+ "title": "The Accusative",
+ "summary": "The case of the direct object: den and einen and keinen in the masculine singular, the nouns that take -en with them, the accusative of every personal pronoun, wen against wer, uns and euch and sich for one another, the pronouns that take no ending against welch- which does, and the three verbs that take no accusative at all.",
+ "rules": [
+  {
+   "id": "accusative-direct-object",
+   "number": "77",
+   "heading": "The accusative marks the direct object",
+   "statement": "German marks the part a noun plays in its sentence by case. The accusative is the case of the direct object — the person or thing the action of the verb lands on.",
+   "examples": [
+    {
+     "target": "Ich kaufe den Apfel.",
+     "gloss": "I am buying the apple."
+    },
+    {
+     "target": "Der Mann liest das Buch.",
+     "gloss": "The man is reading the book."
+    },
+    {
+     "target": "Wir suchen die Frau.",
+     "gloss": "We are looking for the woman."
+    }
+   ],
+   "footnotes": [
+    "The inventory's name for this element of the sentence is the *Akkusativergänzung*."
+   ],
+   "sources": [
+    {
+     "kind": "grammar",
+     "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+     "note": "§2.2.1, p. 35, on the accusative as the case of the direct object; §18.3.1, p. 361, on the Akkusativergänzung."
+    },
+    {
+     "kind": "corpus",
+     "citation": "*Goethe-Zertifikat A1: Start Deutsch 1 — Prüfungsziele, Testbeschreibung*, Grammatik-Inventar, pp. 99–106. Goethe-Institut, version A1_SD1_Pruefziele_07 / VS_08_190422, 19.04.2022, with the accompanying *Wortliste*.",
+     "note": "Cited for the syllabus of this section: Akkusativergänzung, *den/einen/keinen*, the personal pronouns *mich/dich/ihn/sie/es*, the Fragepronomen *Wen? Was?*, the Reziprokpronomen *sich/uns*, and the pronouns *etwas, nichts, mehr, alles, welch-*."
+    }
+   ]
+  },
+  {
+   "id": "accusative-definite-article",
+   "number": "78",
+   "heading": "The definite article in the accusative",
+   "statement": "**der** becomes **den** in the accusative. The feminine **die**, the neuter **das** and the plural **die** are the same in both cases, so the masculine singular is the only place the accusative and the nominative differ.",
+   "examples": [
+    {
+     "target": "Der Mann kauft den Stuhl.",
+     "gloss": "The man is buying the chair.",
+     "note": "Masculine: *der* becomes *den*."
+    },
+    {
+     "target": "Der Mann kauft die Katze.",
+     "gloss": "The man is buying the cat.",
+     "note": "Feminine: unchanged."
+    },
+    {
+     "target": "Der Mann kauft das Auto.",
+     "gloss": "The man is buying the car."
+    },
+    {
+     "target": "Der Mann kauft die Bücher.",
+     "gloss": "The man is buying the books."
+    }
+   ],
+   "paradigms": [
+    {
+     "caption": "The definite article",
+     "columns": [
+      "nominative",
+      "accusative"
+     ],
+     "rows": [
+      {
+       "label": "masculine",
+       "cells": [
+        "der Mann",
+        "den Mann"
+       ]
+      },
+      {
+       "label": "feminine",
+       "cells": [
+        "die Frau",
+        "die Frau"
+       ]
+      },
+      {
+       "label": "neuter",
+       "cells": [
+        "das Kind",
+        "das Kind"
+       ]
+      },
+      {
+       "label": "plural",
+       "cells": [
+        "die Kinder",
+        "die Kinder"
+       ]
+      }
+     ]
+    }
+   ],
+   "seeAlso": [
+    "noun-gender",
+    "plural-die"
+   ],
+   "sources": [
+    {
+     "kind": "grammar",
+     "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+     "note": "§2.2.1, p. 35, with Table 1.5, p. 26, for the declension of the article."
+    }
+   ]
+  },
+  {
+   "id": "accusative-ein-kein",
+   "number": "79",
+   "heading": "ein and kein in the accusative",
+   "statement": "**ein** becomes **einen** and **kein** becomes **keinen** before a masculine singular. The feminine, neuter and plural forms are the same as in the nominative.",
+   "examples": [
+    {
+     "target": "Ich kaufe einen Apfel.",
+     "gloss": "I am buying an apple."
+    },
+    {
+     "target": "Ich kaufe eine Katze.",
+     "gloss": "I am buying a cat."
+    },
+    {
+     "target": "Ich habe kein Auto.",
+     "gloss": "I have no car."
+    },
+    {
+     "target": "Ich habe keine Bücher.",
+     "gloss": "I have no books."
+    }
+   ],
+   "paradigms": [
+    {
+     "caption": "ein and kein",
+     "columns": [
+      "nominative",
+      "accusative"
+     ],
+     "rows": [
+      {
+       "label": "masculine",
+       "cells": [
+        "ein / kein Mann",
+        "einen / keinen Mann"
+       ]
+      },
+      {
+       "label": "feminine",
+       "cells": [
+        "eine / keine Frau",
+        "eine / keine Frau"
+       ]
+      },
+      {
+       "label": "neuter",
+       "cells": [
+        "ein / kein Kind",
+        "ein / kein Kind"
+       ]
+      },
+      {
+       "label": "plural",
+       "cells": [
+        "keine Kinder",
+        "keine Kinder"
+       ]
+      }
+     ],
+     "footnote": "*ein* has no plural (¶50); *kein* has one."
+    }
+   ],
+   "seeAlso": [
+    "indefinite-forms",
+    "indefinite-no-plural"
+   ],
+   "sources": [
+    {
+     "kind": "grammar",
+     "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+     "note": "§2.2.1, p. 35, with Table 4.2, p. 64, for the ein-forms."
+    },
+    {
+     "kind": "corpus",
+     "citation": "*Goethe-Zertifikat A1: Start Deutsch 1 — Prüfungsziele, Testbeschreibung*, Grammatik-Inventar, pp. 99–106. Goethe-Institut, version A1_SD1_Pruefziele_07 / VS_08_190422, 19.04.2022, with the accompanying *Wortliste*.",
+     "note": "Cited for the syllabus of this section: Akkusativergänzung, *den/einen/keinen*, the personal pronouns *mich/dich/ihn/sie/es*, the Fragepronomen *Wen? Was?*, the Reziprokpronomen *sich/uns*, and the pronouns *etwas, nichts, mehr, alles, welch-*."
+    }
+   ]
+  },
+  {
+   "id": "weak-masculine",
+   "number": "80",
+   "heading": "The masculine nouns that take -en",
+   "statement": "A group of masculine nouns adds **-n** or **-en** in every case but the nominative singular. In these the accusative changes the noun as well as its article.",
+   "examples": [
+    {
+     "target": "Ich kenne den Studenten.",
+     "gloss": "I know the student.",
+     "note": "*der Student*, accusative *den Studenten*."
+    },
+    {
+     "target": "Wir fragen den Menschen.",
+     "gloss": "We are asking the person."
+    },
+    {
+     "target": "Sie sucht den Jungen.",
+     "gloss": "She is looking for the boy."
+    },
+    {
+     "target": "Ich sehe den Herrn.",
+     "gloss": "I see the gentleman."
+    }
+   ],
+   "footnotes": [
+    "*der Herr* takes **-n** in the singular and **-en** in the plural: *den Herrn*, *die Herren*."
+   ],
+   "seeAlso": [
+    "accusative-definite-article"
+   ],
+   "sources": [
+    {
+     "kind": "grammar",
+     "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+     "note": "§1.3.2, on the weak masculine declension."
+    }
+   ]
+  },
+  {
+   "id": "accusative-pronouns",
+   "number": "81",
+   "heading": "The personal pronouns in the accusative",
+   "statement": "Every personal pronoun has an accusative form of its own, so here the change is not confined to the masculine.",
+   "examples": [
+    {
+     "target": "Kennst du mich?",
+     "gloss": "Do you know me?"
+    },
+    {
+     "target": "Ich sehe ihn.",
+     "gloss": "I see him."
+    },
+    {
+     "target": "Wir besuchen euch.",
+     "gloss": "We are visiting you."
+    },
+    {
+     "target": "Sie fragt uns.",
+     "gloss": "She is asking us."
+    }
+   ],
+   "paradigms": [
+    {
+     "caption": "The personal pronouns",
+     "columns": [
+      "nominative",
+      "accusative"
+     ],
+     "rows": [
+      {
+       "label": "1 sg.",
+       "cells": [
+        "ich",
+        "mich"
+       ]
+      },
+      {
+       "label": "2 sg.",
+       "cells": [
+        "du",
+        "dich"
+       ]
+      },
+      {
+       "label": "3 sg. m.",
+       "cells": [
+        "er",
+        "ihn"
+       ]
+      },
+      {
+       "label": "3 sg. f.",
+       "cells": [
+        "sie",
+        "sie"
+       ]
+      },
+      {
+       "label": "3 sg. n.",
+       "cells": [
+        "es",
+        "es"
+       ]
+      },
+      {
+       "label": "1 pl.",
+       "cells": [
+        "wir",
+        "uns"
+       ]
+      },
+      {
+       "label": "2 pl.",
+       "cells": [
+        "ihr",
+        "euch"
+       ]
+      },
+      {
+       "label": "3 pl.",
+       "cells": [
+        "sie",
+        "sie"
+       ]
+      },
+      {
+       "label": "polite",
+       "cells": [
+        "Sie",
+        "Sie"
+       ]
+      }
+     ]
+    }
+   ],
+   "seeAlso": [
+    "pronouns-nom"
+   ],
+   "sources": [
+    {
+     "kind": "grammar",
+     "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+     "note": "§3.1.1, p. 48, with Table 3.1, for the personal pronouns."
+    },
+    {
+     "kind": "corpus",
+     "citation": "*Goethe-Zertifikat A1: Start Deutsch 1 — Prüfungsziele, Testbeschreibung*, Grammatik-Inventar, pp. 99–106. Goethe-Institut, version A1_SD1_Pruefziele_07 / VS_08_190422, 19.04.2022, with the accompanying *Wortliste*.",
+     "note": "Cited for the syllabus of this section: Akkusativergänzung, *den/einen/keinen*, the personal pronouns *mich/dich/ihn/sie/es*, the Fragepronomen *Wen? Was?*, the Reziprokpronomen *sich/uns*, and the pronouns *etwas, nichts, mehr, alles, welch-*."
+    }
+   ]
+  },
+  {
+   "id": "accusative-wen",
+   "number": "82",
+   "heading": "wen",
+   "statement": "**wen** asks after a person in the accusative, where **wer** asks after a person in the nominative (¶71). **was** is the same word in both cases.",
+   "examples": [
+    {
+     "target": "Wer sieht den Mann?",
+     "gloss": "Who sees the man?",
+     "note": "*wer* is the subject: it does the seeing."
+    },
+    {
+     "target": "Wen sieht der Mann?",
+     "gloss": "Whom does the man see?",
+     "note": "*wen* is the object: it is seen."
+    },
+    {
+     "target": "Was kaufst du?",
+     "gloss": "What are you buying?"
+    }
+   ],
+   "seeAlso": [
+    "fragepronomen",
+    "question-word-first"
+   ],
+   "sources": [
+    {
+     "kind": "grammar",
+     "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+     "note": "§5.3.3, pp. 89–92, on the declension of the interrogative pronoun."
+    },
+    {
+     "kind": "corpus",
+     "citation": "*Goethe-Zertifikat A1: Start Deutsch 1 — Prüfungsziele, Testbeschreibung*, Grammatik-Inventar, pp. 99–106. Goethe-Institut, version A1_SD1_Pruefziele_07 / VS_08_190422, 19.04.2022, with the accompanying *Wortliste*.",
+     "note": "Cited for the syllabus of this section: Akkusativergänzung, *den/einen/keinen*, the personal pronouns *mich/dich/ihn/sie/es*, the Fragepronomen *Wen? Was?*, the Reziprokpronomen *sich/uns*, and the pronouns *etwas, nichts, mehr, alles, welch-*."
+    }
+   ]
+  },
+  {
+   "id": "reciprocal-pronouns",
+   "number": "83",
+   "heading": "uns, euch and sich as reciprocal pronouns",
+   "statement": "**uns**, **euch** and **sich** also stand where two or more people do something to one another. **sich** serves the third person in both numbers and the polite **Sie**.",
+   "examples": [
+    {
+     "target": "Wir sehen uns morgen.",
+     "gloss": "We are seeing each other tomorrow."
+    },
+    {
+     "target": "Kennt ihr euch?",
+     "gloss": "Do you know each other?"
+    },
+    {
+     "target": "Sie treffen sich hier.",
+     "gloss": "They are meeting each other here."
+    }
+   ],
+   "seeAlso": [
+    "accusative-pronouns"
+   ],
+   "sources": [
+    {
+     "kind": "grammar",
+     "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+     "note": "§3.2.7, p. 51, on the reflexive and reciprocal pronouns."
+    },
+    {
+     "kind": "corpus",
+     "citation": "*Goethe-Zertifikat A1: Start Deutsch 1 — Prüfungsziele, Testbeschreibung*, Grammatik-Inventar, pp. 99–106. Goethe-Institut, version A1_SD1_Pruefziele_07 / VS_08_190422, 19.04.2022, with the accompanying *Wortliste*.",
+     "note": "Cited for the syllabus of this section: Akkusativergänzung, *den/einen/keinen*, the personal pronouns *mich/dich/ihn/sie/es*, the Fragepronomen *Wen? Was?*, the Reziprokpronomen *sich/uns*, and the pronouns *etwas, nichts, mehr, alles, welch-*."
+    }
+   ]
+  },
+  {
+   "id": "indeclinable-pronouns",
+   "number": "84",
+   "heading": "etwas, nichts, alles and mehr",
+   "statement": "**etwas**, **nichts**, **alles** and **mehr** take no ending. Each stands in the accusative in the form it has in the nominative.",
+   "examples": [
+    {
+     "target": "Ich kaufe etwas.",
+     "gloss": "I am buying something."
+    },
+    {
+     "target": "Er sagt nichts.",
+     "gloss": "He is saying nothing."
+    },
+    {
+     "target": "Sie weiß alles.",
+     "gloss": "She knows everything."
+    },
+    {
+     "target": "Wir brauchen mehr Zeit.",
+     "gloss": "We need more time."
+    }
+   ],
+   "sources": [
+    {
+     "kind": "grammar",
+     "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+     "note": "§5.5.1 on alles, §5.5.9 on etwas, §5.5.22 on nichts."
+    },
+    {
+     "kind": "corpus",
+     "citation": "*Goethe-Zertifikat A1: Start Deutsch 1 — Prüfungsziele, Testbeschreibung*, Grammatik-Inventar, pp. 99–106. Goethe-Institut, version A1_SD1_Pruefziele_07 / VS_08_190422, 19.04.2022, with the accompanying *Wortliste*.",
+     "note": "Cited for the syllabus of this section: Akkusativergänzung, *den/einen/keinen*, the personal pronouns *mich/dich/ihn/sie/es*, the Fragepronomen *Wen? Was?*, the Reziprokpronomen *sich/uns*, and the pronouns *etwas, nichts, mehr, alles, welch-*."
+    }
+   ]
+  },
+  {
+   "id": "welch",
+   "number": "85",
+   "heading": "welch-",
+   "statement": "**welch-** declines like the definite article, and so takes **-en** before a masculine singular in the accusative.",
+   "examples": [
+    {
+     "target": "Welchen Apfel nimmst du?",
+     "gloss": "Which apple are you taking?"
+    },
+    {
+     "target": "Welche Katze suchst du?",
+     "gloss": "Which cat are you looking for?"
+    },
+    {
+     "target": "Welches Buch liest du?",
+     "gloss": "Which book are you reading?"
+    }
+   ],
+   "seeAlso": [
+    "accusative-definite-article"
+   ],
+   "sources": [
+    {
+     "kind": "grammar",
+     "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+     "note": "§5.5.26 on welch-."
+    },
+    {
+     "kind": "corpus",
+     "citation": "*Goethe-Zertifikat A1: Start Deutsch 1 — Prüfungsziele, Testbeschreibung*, Grammatik-Inventar, pp. 99–106. Goethe-Institut, version A1_SD1_Pruefziele_07 / VS_08_190422, 19.04.2022, with the accompanying *Wortliste*.",
+     "note": "Cited for the syllabus of this section: Akkusativergänzung, *den/einen/keinen*, the personal pronouns *mich/dich/ihn/sie/es*, the Fragepronomen *Wen? Was?*, the Reziprokpronomen *sich/uns*, and the pronouns *etwas, nichts, mehr, alles, welch-*."
+    }
+   ]
+  },
+  {
+   "id": "no-accusative-after-sein",
+   "number": "86",
+   "heading": "sein, werden and bleiben take no accusative",
+   "statement": "**sein**, **werden** and **bleiben** are followed by a complement in the nominative rather than by an accusative object (¶67). A profession after **sein** stands with no article at all (¶45).",
+   "examples": [
+    {
+     "target": "Das ist ein Apfel.",
+     "gloss": "That is an apple.",
+     "note": "Nominative *ein*, not *einen*."
+    },
+    {
+     "target": "Das Kind wird ein Mann.",
+     "gloss": "The child is becoming a man."
+    },
+    {
+     "target": "Er ist Lehrer.",
+     "gloss": "He is a teacher.",
+     "note": "No article at all with the profession."
+    }
+   ],
+   "seeAlso": [
+    "nominative-complement",
+    "null-profession"
+   ],
+   "sources": [
+    {
+     "kind": "grammar",
+     "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+     "note": "§2.1.3, p. 33, and §18.1.3, p. 356, on the nominative complement."
+    }
+   ]
+  },
+  {
+   "id": "accusative-prepositions",
+   "number": "87",
+   "heading": "Prepositions that fix the accusative",
+   "core": false,
+   "statement": "A preposition fixes the case of the noun that follows it. **für** and **ohne** fix the accusative.",
+   "examples": [
+    {
+     "target": "Das Buch ist für den Mann.",
+     "gloss": "The book is for the man."
+    },
+    {
+     "target": "Er kommt ohne das Auto.",
+     "gloss": "He is coming without the car."
+    },
+    {
+     "target": "Sie arbeitet für eine Ärztin.",
+     "gloss": "She works for a doctor."
+    }
+   ],
+   "footnotes": [
+    "*durch*, *gegen*, *um*, *entlang*, *wider* and *bis* govern the accusative as well, and are taken up with the prepositions.",
+    "Nine further prepositions govern the accusative for a movement towards something and the dative for a position at it."
+   ],
+   "sources": [
+    {
+     "kind": "grammar",
+     "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+     "note": "§20, on the prepositions and the cases they govern."
+    }
+   ]
+  },
+  {
+   "id": "accusative-measure",
+   "number": "88",
+   "heading": "A measure stands in the accusative",
+   "core": false,
+   "statement": "A price, a weight, a distance or a height stands in the accusative, with no preposition in front of it.",
+   "examples": [
+    {
+     "target": "Das Buch kostet einen Euro.",
+     "gloss": "The book costs one euro."
+    },
+    {
+     "target": "Er ist einen Meter groß.",
+     "gloss": "He is one metre tall."
+    }
+   ],
+   "footnotes": [
+    "This is why *Was kostet die Fahrkarte?* has *was* in the accusative: the price is a measure, and *die Fahrkarte* is the subject the verb agrees with."
+   ],
+   "sources": [
+    {
+     "kind": "grammar",
+     "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+     "note": "§2.2, on the uses of the accusative."
+    }
+   ]
+  }
+ ],
+ "vocabulary": [
+  {
+   "lemma": "Bruder",
+   "gloss": "brother",
+   "pos": "noun",
+   "forms": {
+    "nom": "der Bruder",
+    "acc": "den Bruder",
+    "dat": "dem Bruder",
+    "gen": "des Bruders",
+    "plural": "die Brüder"
+   },
+   "notes": "Plural with the Umlaut alone (¶35)."
+  },
+  {
+   "lemma": "Mensch",
+   "gloss": "person, human being",
+   "pos": "noun",
+   "forms": {
+    "nom": "der Mensch",
+    "acc": "den Menschen",
+    "dat": "dem Menschen",
+    "gen": "des Menschen",
+    "plural": "die Menschen"
+   },
+   "notes": "A weak masculine: **-en** in every case but the nominative singular (¶80)."
+  },
+  {
+   "lemma": "Junge",
+   "gloss": "boy",
+   "pos": "noun",
+   "forms": {
+    "nom": "der Junge",
+    "acc": "den Jungen",
+    "dat": "dem Jungen",
+    "gen": "des Jungen",
+    "plural": "die Jungen"
+   },
+   "notes": "A weak masculine (¶80)."
+  },
+  {
+   "lemma": "Herr",
+   "gloss": "gentleman, Mr",
+   "pos": "noun",
+   "forms": {
+    "nom": "der Herr",
+    "acc": "den Herrn",
+    "dat": "dem Herrn",
+    "gen": "des Herrn",
+    "plural": "die Herren"
+   },
+   "notes": "A weak masculine with **-n** in the singular and **-en** in the plural (¶80)."
+  },
+  {
+   "lemma": "Euro",
+   "gloss": "euro",
+   "pos": "noun",
+   "forms": {
+    "nom": "der Euro",
+    "acc": "den Euro",
+    "dat": "dem Euro",
+    "gen": "des Euro, des Euros",
+    "plural": "die Euro"
+   },
+   "notes": "After a numeral the plural is *die Euro*: *drei Euro*."
+  },
+  {
+   "lemma": "Bahnhof",
+   "gloss": "station",
+   "pos": "noun",
+   "forms": {
+    "nom": "der Bahnhof",
+    "acc": "den Bahnhof",
+    "dat": "dem Bahnhof",
+    "gen": "des Bahnhofs",
+    "plural": "die Bahnhöfe"
+   },
+   "notes": "Plural with the Umlaut and **-e** (¶37)."
+  },
+  {
+   "lemma": "Brot",
+   "gloss": "bread",
+   "pos": "noun",
+   "forms": {
+    "nom": "das Brot",
+    "acc": "das Brot",
+    "dat": "dem Brot",
+    "gen": "des Brotes",
+    "plural": "die Brote"
+   }
+  },
+  {
+   "lemma": "Kuchen",
+   "gloss": "cake",
+   "pos": "noun",
+   "forms": {
+    "nom": "der Kuchen",
+    "acc": "den Kuchen",
+    "dat": "dem Kuchen",
+    "gen": "des Kuchens",
+    "plural": "die Kuchen"
+   },
+   "notes": "Plural without a change (¶34)."
+  },
+  {
+   "lemma": "kennen",
+   "gloss": "to know, be acquainted with",
+   "pos": "verb",
+   "forms": {
+    "inf": "kennen",
+    "du": "kennst",
+    "pres": "kennt"
+   }
+  },
+  {
+   "lemma": "fragen",
+   "gloss": "to ask",
+   "pos": "verb",
+   "forms": {
+    "inf": "fragen",
+    "du": "fragst",
+    "pres": "fragt"
+   }
+  },
+  {
+   "lemma": "nehmen",
+   "gloss": "to take",
+   "pos": "verb",
+   "forms": {
+    "inf": "nehmen",
+    "du": "nimmst",
+    "pres": "nimmt"
+   },
+   "notes": "The stem vowel changes in the second and third person singular (¶61)."
+  },
+  {
+   "lemma": "sehen",
+   "gloss": "to see",
+   "pos": "verb",
+   "forms": {
+    "inf": "sehen",
+    "du": "siehst",
+    "pres": "sieht"
+   },
+   "notes": "The stem vowel changes in the second and third person singular (¶61)."
+  },
+  {
+   "lemma": "suchen",
+   "gloss": "to look for",
+   "pos": "verb",
+   "forms": {
+    "inf": "suchen",
+    "du": "suchst",
+    "pres": "sucht"
+   }
+  },
+  {
+   "lemma": "brauchen",
+   "gloss": "to need",
+   "pos": "verb",
+   "forms": {
+    "inf": "brauchen",
+    "du": "brauchst",
+    "pres": "braucht"
+   }
+  },
+  {
+   "lemma": "trinken",
+   "gloss": "to drink",
+   "pos": "verb",
+   "forms": {
+    "inf": "trinken",
+    "du": "trinkst",
+    "pres": "trinkt"
+   }
+  },
+  {
+   "lemma": "treffen",
+   "gloss": "to meet",
+   "pos": "verb",
+   "forms": {
+    "inf": "treffen",
+    "du": "triffst",
+    "pres": "trifft"
+   },
+   "notes": "The stem vowel changes in the second and third person singular (¶61)."
+  },
+  {
+   "lemma": "geben",
+   "gloss": "to give",
+   "pos": "verb",
+   "forms": {
+    "inf": "geben",
+    "du": "gibst",
+    "pres": "gibt"
+   },
+   "notes": "*es gibt* — *there is, there are* — takes an accusative object and does not change for number: *Es gibt hier einen Bahnhof*, *Es gibt keine Äpfel*."
+  },
+  {
+   "lemma": "wen",
+   "gloss": "whom",
+   "pos": "pronoun",
+   "forms": {},
+   "notes": "The accusative of *wer* (¶82)."
+  },
+  {
+   "lemma": "etwas",
+   "gloss": "something",
+   "pos": "pronoun",
+   "forms": {},
+   "notes": "Takes no ending (¶84)."
+  },
+  {
+   "lemma": "nichts",
+   "gloss": "nothing",
+   "pos": "pronoun",
+   "forms": {},
+   "notes": "Takes no ending (¶84)."
+  },
+  {
+   "lemma": "alles",
+   "gloss": "everything",
+   "pos": "pronoun",
+   "forms": {},
+   "notes": "Takes no ending (¶84)."
+  },
+  {
+   "lemma": "mehr",
+   "gloss": "more",
+   "pos": "pronoun",
+   "forms": {},
+   "notes": "Takes no ending (¶84)."
+  },
+  {
+   "lemma": "welcher",
+   "gloss": "which",
+   "pos": "pronoun",
+   "forms": {},
+   "notes": "Declines like the definite article: accusative *welchen, welche, welches* (¶85)."
+  },
+  {
+   "lemma": "für",
+   "gloss": "for",
+   "pos": "preposition",
+   "forms": {},
+   "notes": "Fixes the accusative (¶87)."
+  },
+  {
+   "lemma": "ohne",
+   "gloss": "without",
+   "pos": "preposition",
+   "forms": {},
+   "notes": "Fixes the accusative (¶87)."
+  }
+ ],
+ "drills": [
+  {
+   "id": "de107-q1",
+   "type": "single",
+   "difficulty": "easy",
+   "stem": "*Ich kaufe ____ Apfel.*",
+   "options": [
+    "einen",
+    "ein",
+    "eine",
+    "einem"
+   ],
+   "correct": 0,
+   "explanation": "*Apfel* is masculine and the object of *kaufen*, so *ein* becomes *einen* (¶79).",
+   "rulesTested": [
+    "accusative-ein-kein",
+    "accusative-direct-object"
+   ],
+   "vocabUsed": [
+    "Apfel"
+   ]
+  },
+  {
+   "id": "de107-q2",
+   "type": "single",
+   "difficulty": "easy",
+   "stem": "*Der Mann liest ____ Buch.*",
+   "options": [
+    "das",
+    "den",
+    "dem",
+    "die"
+   ],
+   "correct": 0,
+   "explanation": "*Buch* is neuter, and the neuter article is the same in the accusative as in the nominative (¶78).",
+   "rulesTested": [
+    "accusative-definite-article"
+   ],
+   "vocabUsed": [
+    "Buch"
+   ]
+  },
+  {
+   "id": "de107-q3",
+   "type": "multi",
+   "difficulty": "medium",
+   "stem": "In which of these is the accusative form identical with the nominative?",
+   "options": [
+    "*die Frau*",
+    "*das Kind*",
+    "*die Bücher*",
+    "*der Mann*"
+   ],
+   "correct": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "Feminine, neuter and plural do not change; the masculine singular does, giving *den Mann* (¶78).",
+   "rulesTested": [
+    "accusative-definite-article"
+   ]
+  },
+  {
+   "id": "de107-q4",
+   "type": "single",
+   "difficulty": "medium",
+   "stem": "*Wir suchen ____ Stuhl.*",
+   "options": [
+    "den",
+    "die",
+    "das",
+    "dem"
+   ],
+   "correct": 0,
+   "explanation": "*Stuhl* is masculine (¶32), and the masculine singular is the one place the accusative differs: *der* becomes *den* (¶78).",
+   "rulesTested": [
+    "accusative-definite-article",
+    "accusative-direct-object"
+   ],
+   "vocabUsed": [
+    "Stuhl",
+    "suchen"
+   ]
+  },
+  {
+   "id": "de107-q5",
+   "type": "single",
+   "difficulty": "medium",
+   "stem": "*Ich sehe ____.* — the man",
+   "options": [
+    "ihn",
+    "ihm",
+    "er",
+    "sein"
+   ],
+   "correct": 0,
+   "explanation": "*er* becomes *ihn* in the accusative (¶81). *ihm* is the dative and *er* the nominative.",
+   "rulesTested": [
+    "accusative-pronouns"
+   ],
+   "vocabUsed": [
+    "sehen"
+   ]
+  },
+  {
+   "id": "de107-q6",
+   "type": "matching",
+   "difficulty": "hard",
+   "stem": "Pair each nominative pronoun with its accusative form.",
+   "columnHeadings": [
+    "Nominative",
+    "Accusative"
+   ],
+   "columnI": [
+    "ich",
+    "du",
+    "er",
+    "wir"
+   ],
+   "columnII": [
+    "mich",
+    "dich",
+    "ihn",
+    "uns",
+    "euch"
+   ],
+   "options": [
+    [
+     0,
+     1,
+     2,
+     3
+    ],
+    [
+     0,
+     1,
+     2,
+     4
+    ],
+    [
+     1,
+     0,
+     2,
+     3
+    ],
+    [
+     0,
+     1,
+     3,
+     2
+    ]
+   ],
+   "correct": 0,
+   "explanation": "*ich → mich*, *du → dich*, *er → ihn*, *wir → uns* (¶81). *euch* is the accusative of *ihr*, which is not in Column I.",
+   "rulesTested": [
+    "accusative-pronouns"
+   ]
+  },
+  {
+   "id": "de107-q7",
+   "type": "single",
+   "difficulty": "medium",
+   "stem": "*____ siehst du?* — asking after a person as the object",
+   "options": [
+    "Wen",
+    "Wer",
+    "Was",
+    "Wie"
+   ],
+   "correct": 0,
+   "explanation": "The person asked after is the object of *sehen*, so the accusative **wen** is the form (¶82). **wer** would make the person the one doing the seeing.",
+   "rulesTested": [
+    "accusative-wen"
+   ],
+   "vocabUsed": [
+    "wen",
+    "sehen"
+   ]
+  },
+  {
+   "id": "de107-q8",
+   "type": "single",
+   "difficulty": "hard",
+   "stem": "Which of these asks who is *being seen*?",
+   "options": [
+    "Wen sieht der Mann?",
+    "Wer sieht den Mann?",
+    "Wer sieht der Mann?",
+    "Wen sieht den Mann?"
+   ],
+   "correct": 0,
+   "explanation": "*Wen* is the accusative, so it is the one seen and *der Mann* the one seeing (¶82). The second question reverses the roles; the third and fourth put two nominatives or two accusatives in one sentence, leaving it without a subject or without an object.",
+   "rulesTested": [
+    "accusative-wen",
+    "accusative-definite-article"
+   ],
+   "vocabUsed": [
+    "wen"
+   ]
+  },
+  {
+   "id": "de107-q9",
+   "type": "multi",
+   "difficulty": "medium",
+   "stem": "Which of these are correct?",
+   "options": [
+    "*Wir sehen uns morgen.*",
+    "*Kennt ihr euch?*",
+    "*Sie treffen sich hier.*",
+    "*Wir sehen sich morgen.*"
+   ],
+   "correct": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "**sich** serves the third person only; the first person plural takes **uns** and the second **euch** (¶83).",
+   "rulesTested": [
+    "reciprocal-pronouns"
+   ],
+   "vocabUsed": [
+    "treffen",
+    "kennen"
+   ]
+  },
+  {
+   "id": "de107-q10",
+   "type": "single",
+   "difficulty": "medium",
+   "stem": "*Welch____ Apfel nimmst du?*",
+   "options": [
+    "-en",
+    "-e",
+    "-es",
+    "-em"
+   ],
+   "correct": 0,
+   "explanation": "**welch-** declines like the definite article, and *Apfel* is a masculine singular object, so the ending is **-en** (¶85), matching the *den* of ¶78.",
+   "rulesTested": [
+    "welch"
+   ],
+   "vocabUsed": [
+    "welcher",
+    "nehmen",
+    "Apfel"
+   ]
+  },
+  {
+   "id": "de107-q11",
+   "type": "multi",
+   "difficulty": "medium",
+   "stem": "Which of these take no ending in the accusative?",
+   "options": [
+    "*etwas*",
+    "*nichts*",
+    "*alles*",
+    "*welch-*"
+   ],
+   "correct": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "*etwas*, *nichts*, *alles* and *mehr* are indeclinable (¶84). *welch-* is the one of the group that declines (¶85).",
+   "rulesTested": [
+    "indeclinable-pronouns",
+    "welch"
+   ],
+   "vocabUsed": [
+    "etwas",
+    "nichts",
+    "alles"
+   ]
+  },
+  {
+   "id": "de107-q12",
+   "type": "integer",
+   "difficulty": "medium",
+   "stem": "*Sie fragt uns.* Which person does *uns* stand for?",
+   "answer": 1,
+   "unit": "person",
+   "explanation": "*uns* is the accusative of *wir*, the first person plural (¶81). *Sie* is third person and is the subject here.",
+   "rulesTested": [
+    "accusative-pronouns"
+   ],
+   "vocabUsed": [
+    "fragen"
+   ]
+  },
+  {
+   "id": "de107-q13",
+   "type": "single",
+   "difficulty": "hard",
+   "stem": "*Das ist ____ Apfel.*",
+   "options": [
+    "ein",
+    "einen",
+    "eine",
+    "einem"
+   ],
+   "correct": 0,
+   "explanation": "*sein* takes a complement in the nominative, not an accusative object (¶86, ¶67), so *einen* is wrong here however masculine *Apfel* is.",
+   "rulesTested": [
+    "no-accusative-after-sein",
+    "accusative-ein-kein"
+   ],
+   "vocabUsed": [
+    "Apfel"
+   ]
+  },
+  {
+   "id": "de107-q14",
+   "type": "multi",
+   "difficulty": "hard",
+   "stem": "*Er ist Lehrer.* Which of these hold?",
+   "options": [
+    "*Lehrer* stands with no article because it is a profession after *sein*",
+    "*Lehrer* is a complement in the nominative",
+    "*einen Lehrer* would be wrong here",
+    "*Lehrer* is the accusative object of *ist*"
+   ],
+   "correct": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "A profession after *sein* takes no article (¶45), and what follows *sein* is a nominative complement (¶86), so *ist* has no object at all — which is what rules out the fourth.",
+   "rulesTested": [
+    "no-accusative-after-sein"
+   ],
+   "vocabUsed": [
+    "Lehrer"
+   ]
+  },
+  {
+   "id": "de107-q15",
+   "type": "single",
+   "difficulty": "hard",
+   "stem": "*Ich kenne den ____.* (Student)",
+   "options": [
+    "Studenten",
+    "Student",
+    "Studente",
+    "Studentn"
+   ],
+   "correct": 0,
+   "explanation": "*der Student* is a weak masculine and takes **-en** in every case but the nominative singular (¶80), so the accusative is *den Studenten*.",
+   "rulesTested": [
+    "weak-masculine"
+   ],
+   "vocabUsed": [
+    "kennen",
+    "Student"
+   ]
+  },
+  {
+   "id": "de107-q16",
+   "type": "integer",
+   "difficulty": "hard",
+   "stem": "*Wir fragen den Menschen.* Which numbered rule accounts for the **-en** on the noun?",
+   "answer": 80,
+   "unit": "rule",
+   "explanation": "¶80: *der Mensch* is a weak masculine and adds **-en** outside the nominative singular. ¶78 accounts for the *den* in front of it, but not for the ending on the noun.",
+   "rulesTested": [
+    "weak-masculine"
+   ],
+   "vocabUsed": [
+    "Mensch",
+    "fragen"
+   ]
+  },
+  {
+   "id": "de107-q17",
+   "type": "single",
+   "difficulty": "hard",
+   "stem": "*____ du den Apfel?* (essen)",
+   "options": [
+    "Isst",
+    "Esst",
+    "Essen",
+    "Isse"
+   ],
+   "correct": 0,
+   "explanation": "A yes/no question puts the finite verb first (¶75); *essen* changes its stem vowel in the second person singular (¶61), and the stem already ends in a double s, so the ending adds no further one (¶58).",
+   "rulesTested": [
+    "accusative-direct-object",
+    "vowel-change",
+    "entscheidungsfrage"
+   ],
+   "vocabUsed": [
+    "essen",
+    "Apfel"
+   ]
+  },
+  {
+   "id": "de107-q18",
+   "type": "single",
+   "difficulty": "medium",
+   "stem": "*Das Buch ist für ____ Mann.*",
+   "options": [
+    "den",
+    "der",
+    "dem",
+    "des"
+   ],
+   "correct": 0,
+   "explanation": "**für** fixes the accusative (¶87), and the masculine singular accusative article is *den* (¶78).",
+   "rulesTested": [
+    "accusative-prepositions",
+    "accusative-definite-article"
+   ],
+   "vocabUsed": [
+    "für"
+   ]
+  },
+  {
+   "id": "de107-q19",
+   "type": "matching",
+   "difficulty": "hard",
+   "stem": "Pair each phrase with what accounts for the form it has.",
+   "columnHeadings": [
+    "Phrase",
+    "Reason"
+   ],
+   "columnI": [
+    "*Ich kaufe einen Apfel*",
+    "*Das ist ein Apfel*",
+    "*Er ist Lehrer*",
+    "*Ich kenne den Studenten*"
+   ],
+   "columnII": [
+    "a masculine singular direct object, so *ein* becomes *einen*",
+    "a complement after *sein*, so the nominative stands",
+    "a profession after *sein*, so no article at all",
+    "a weak masculine, so the noun itself takes **-en**",
+    "a feminine object, so the article does not change"
+   ],
+   "options": [
+    [
+     0,
+     1,
+     2,
+     3
+    ],
+    [
+     0,
+     1,
+     3,
+     2
+    ],
+    [
+     4,
+     1,
+     2,
+     3
+    ],
+    [
+     1,
+     0,
+     2,
+     3
+    ]
+   ],
+   "correct": 0,
+   "explanation": "*einen Apfel* is ¶79, *ein Apfel* after *ist* is ¶86, the bare *Lehrer* is ¶45, and *den Studenten* is ¶80. The last label describes a feminine object and fits none of the four.",
+   "rulesTested": [
+    "accusative-ein-kein",
+    "no-accusative-after-sein",
+    "weak-masculine"
+   ]
+  },
+  {
+   "id": "de107-q20",
+   "type": "single",
+   "difficulty": "hard",
+   "stem": "*Das Buch kostet ____ Euro.*",
+   "options": [
+    "einen",
+    "ein",
+    "eine",
+    "einem"
+   ],
+   "correct": 0,
+   "explanation": "A price is a measure and stands in the accusative (¶88); *Euro* is masculine, so the form is *einen*. The subject of *kostet* is *das Buch*, which is why the verb is third person singular.",
+   "rulesTested": [
+    "accusative-measure",
+    "accusative-ein-kein"
+   ],
+   "vocabUsed": [
+    "Euro",
+    "kosten"
+   ]
+  },
+  {
+   "id": "de107-p1",
+   "type": "comprehension",
+   "difficulty": "hard",
+   "title": "Anna und der Bäcker",
+   "passage": "ANNA. Guten Tag! Ich brauche Brot.\nBÄCKER. Wir haben Brot und Kuchen. Was nehmen Sie?\nANNA. Ich nehme das Brot. Und einen Kuchen.\nBÄCKER. Wie viele Kuchen brauchen Sie?\nANNA. Zwei. Was kostet das Brot?\nBÄCKER. Das Brot kostet einen Euro. Die Kuchen kosten drei Euro.\nANNA. Gut. Haben Sie auch Äpfel?\nBÄCKER. Nein, wir haben keine Äpfel. Es gibt hier einen Markt.",
+   "translation": "ANNA. Good day! I need bread. — BAKER. We have bread and cake. What are you taking? — ANNA. I'll take the bread. And a cake. — BAKER. How many cakes do you need? — ANNA. Two. What does the bread cost? — BAKER. The bread costs one euro. The cakes cost three euros. — ANNA. Good. Do you have apples too? — BAKER. No, we have no apples. There is a market here.",
+   "glossary": {
+    "Guten Tag": "good day, hello",
+    "und": "and",
+    "zwei": "two",
+    "drei": "three",
+    "Gut": "good, fine",
+    "auch": "too, also",
+    "Markt": "market",
+    "hier": "here",
+    "Es gibt": "there is, there are"
+   },
+   "questions": [
+    {
+     "id": "de107-p1-c1",
+     "type": "single",
+     "difficulty": "medium",
+     "stem": "Was nimmt Anna?",
+     "options": [
+      "das Brot und einen Kuchen",
+      "einen Markt",
+      "drei Äpfel",
+      "keinen Kuchen"
+     ],
+     "correct": 0,
+     "explanation": "*Ich nehme das Brot. Und einen Kuchen.* The market is what the baker mentions at the end, and there are no apples at all.",
+     "rulesTested": [],
+     "vocabUsed": [
+      "nehmen",
+      "Brot",
+      "Kuchen"
+     ]
+    },
+    {
+     "id": "de107-p1-c2",
+     "type": "integer",
+     "difficulty": "medium",
+     "stem": "Wie viele Kuchen braucht Anna?",
+     "answer": 2,
+     "unit": "Kuchen",
+     "explanation": "*Wie viele Kuchen brauchen Sie? — Zwei.* The three in the dialogue is the price of the cakes, not their number.",
+     "rulesTested": [],
+     "vocabUsed": [
+      "Kuchen",
+      "brauchen"
+     ]
+    },
+    {
+     "id": "de107-p1-c3",
+     "type": "single",
+     "difficulty": "medium",
+     "stem": "Wie viel kostet das Brot?",
+     "options": [
+      "einen Euro",
+      "drei Euro",
+      "zwei Euro",
+      "keinen Euro"
+     ],
+     "correct": 0,
+     "explanation": "*Das Brot kostet einen Euro.* Three euros is what the cakes cost.",
+     "rulesTested": [
+      "accusative-measure"
+     ],
+     "vocabUsed": [
+      "Euro"
+     ]
+    },
+    {
+     "id": "de107-p1-c4",
+     "type": "multi",
+     "difficulty": "hard",
+     "stem": "*Wir haben keine Äpfel.* Which of these hold?",
+     "options": [
+      "*keine* is the accusative plural, identical with the nominative plural",
+      "*Äpfel* is the plural of *der Apfel*, formed with the Umlaut alone",
+      "*Äpfel* is the direct object of *haben*",
+      "*haben* takes a complement in the nominative"
+     ],
+     "correct": [
+      0,
+      1,
+      2
+     ],
+     "explanation": "*kein* does not change in the plural accusative (¶79), *Äpfel* is the Umlaut-only plural of ¶35, and it is the object of *haben* (¶77). *haben* is not one of the three verbs that take a nominative complement (¶86).",
+     "rulesTested": [
+      "accusative-ein-kein",
+      "accusative-direct-object",
+      "no-accusative-after-sein"
+     ],
+     "vocabUsed": [
+      "Apfel"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "kind": "composed",
+     "citation": "Composed for this course.",
+     "note": "A dialogue in a baker's shop, built from the accusative of ¶77–¶88, the present tense of ¶51–¶68 and the questions of ¶69–¶76. It leans on §2.2.1 of Hammer for the accusative object and on the Goethe Wortliste for its vocabulary."
+    }
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "kind": "grammar",
+   "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+   "note": "§2.2.1, p. 35, with Table 1.5, p. 26, on the accusative and the declension of the article; §18.3.1, p. 361, on the Akkusativergänzung; §3.1.1, p. 48, on the personal pronouns; §3.2.7, p. 51, on the reciprocal pronouns; §5.3.3, pp. 89–92, on wen; §5.5.1, §5.5.9, §5.5.22 and §5.5.26 on alles, etwas, nichts and welch-; §1.3.2 on the weak masculines; §20 on the prepositions."
+  },
+  {
+   "kind": "corpus",
+   "citation": "*Goethe-Zertifikat A1: Start Deutsch 1 — Prüfungsziele, Testbeschreibung*, Grammatik-Inventar, pp. 99–106. Goethe-Institut, version A1_SD1_Pruefziele_07 / VS_08_190422, 19.04.2022, with the accompanying *Wortliste*.",
+   "note": "Cited for the syllabus of this section: Akkusativergänzung, *den/einen/keinen*, the personal pronouns *mich/dich/ihn/sie/es*, the Fragepronomen *Wen? Was?*, the Reziprokpronomen *sich/uns*, and the pronouns *etwas, nichts, mehr, alles, welch-*."
+  }
+ ]
+}
