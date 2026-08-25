@@ -64,8 +64,8 @@ is quoted, not assumed from the publisher.
 | — | ✅ **Checkpoint 1** | covers 01–05 |
 | 06 | ✅ Questions | Entscheidungsfrage (*Kaufst du heute ein?*); Ergänzungsfrage (*Wo ist Peter?*); Fragepronomen *Wer? Was?* |
 | 07 | ✅ The Accusative | Akkusativergänzung (*Ich nehme eine Coca Cola*); *den/einen*; Personalpronomen *mich/dich/ihn/sie/es*; Fragepronomen *Wen? Was?*; Reziprokpronomen *sich/uns*; the pronouns *etwas, nichts, mehr, alles, welch-* |
-| 08 | Negation | Negation with *nicht* and the position it takes; *kein/keine* and its declension after *ein* (¶48); *keinen* in the accusative; *kein* in the plural |
-| — | **Checkpoint 2** | covers 06–08 |
+| 08 | ✅ Negation | Negation with *nicht* and the position it takes; *kein/keine* and its declension after *ein* (¶48); *keinen* in the accusative; *kein* in the plural |
+| — | ✅ **Checkpoint 2** | covers 06–08 |
 | 09 | Possessives, and Naming an Owner | *mein/dein/sein/ihr/Ihr*, *unser/euer*; demonstrative *dieser/diese/dieses*; Genitiv of proper names in the singular (*Karls Freunde*); the genitive noun phrase, receptive only (*die Nummer des Wagens*) |
 | 10 | The Dative | Kasus Dativ; Dativergänzung with *danken, gehören, geben, helfen*; *es geht mir gut*; *mir/dir/euch/Ihnen*; Fragepronomen *Wem?* |
 | 11 | Numbers, the Clock, and the Calendar | the Zahlwörter of the Wortliste, cardinal and ordinal, and the halves and quarters; Uhrzeit; days and months; temporal prepositions *an, ab, für, in, nach, über, um, von … bis, vor* |
@@ -170,10 +170,12 @@ for one.
 > not core) and the list stays in section 12; the accusative of measure is ¶88
 > (not core) and the accusative of time stays in section 11.
 
-### 08 — Negation
+### 08 — Negation ✅
 *Hammer nicht 21.7.1 (pp. 469–471); kein 5.5.16 and Table 4.2 (p. 64)*
 
->
+> No notes file — authored from the sources above, on your instruction, as
+> ¶89–¶97. *doch* is ¶97 and is not core: the Grammatik-Inventar has no row for
+> it, so it is stated and not required of the learner.
 
 ### 09 — Possessives, and Naming an Owner
 *Hammer 5.2.1–5.2.2 with Tables 5.4–5.5 (pp. 79–87); dieser 5.1.2 (p. 81); 2.3.2 (pp. 36–38); 2.3.1 (p. 36)*
