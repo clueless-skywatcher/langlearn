@@ -471,8 +471,8 @@
       "id": "cp5-q18",
       "type": "integer",
       "difficulty": "hard",
-      "stem": "Which numbered rule governs the ending *-kite* of **eikite**? Give the paragraph number.",
-      "explanation": "¶112 forms the imperative with *-k-*, the plural adding *-ite*. ¶115 is where that plural is *used* — on notices and instructions — but it is not what forms it.",
+      "stem": "A notice reads **Eikite!** Which person does the ending **-kite** mark?",
+      "explanation": "**-kite** is the second person plural of the imperative, and a notice takes the plural because it addresses whoever reads it. The singular *eik* is for one person known to the speaker, and *eikime* is *let us go*.",
       "rulesTested": [
         "imperative-formation",
         "imperative-notices"
@@ -480,7 +480,8 @@
       "vocabUsed": [
         "eiti"
       ],
-      "answer": 112,
+      "answer": 2,
+      "unit": "person",
       "fromSection": "a1-16"
     },
     {

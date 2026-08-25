@@ -721,12 +721,13 @@
    "id": "de106-q12",
    "type": "integer",
    "difficulty": "hard",
-   "stem": "*Arbeitest du auch hier?* Which numbered rule governs the position of its finite verb?",
-   "answer": 75,
-   "unit": "rule",
-   "explanation": "It carries no question word and is answerable by yes or no, so its verb stands first — ¶75. ¶69 governs the other kind, where a question word opens the sentence.",
+   "stem": "*Arbeitest du auch hier?* Counting the elements from the front, which position does *du* hold?",
+   "answer": 2,
+   "unit": "position",
+   "explanation": "The question carries no question word and is answered with *ja* or *nein*, so the finite verb opens it and the subject follows: *arbeitest* is first and *du* second. In *Wo arbeitest du?* the same subject stands third, the question word having taken the first position and the verb the second.",
    "rulesTested": [
-    "entscheidungsfrage"
+    "entscheidungsfrage",
+    "question-word-first"
    ],
    "vocabUsed": [
     "arbeiten"

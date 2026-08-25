@@ -934,14 +934,15 @@
       "id": "a111-q12",
       "type": "integer",
       "difficulty": "hard",
-      "stem": "Which numbered rule of this section governs the form used to address someone directly? Give the paragraph number.",
-      "answer": 78,
-      "explanation": "¶78 sets out the vocative. The near miss is ¶71, the instrumental singular, which shares the section but not the function.",
+      "stem": "**ponas** is addressed as *pone*. Across the vocative singular, the nominative plural and the vocative plural, how many distinct forms does *ponas* show?",
+      "answer": 2,
+      "unit": "forms",
+      "explanation": "*pone* is the vocative singular, and the vocative has no plural of its own: the nominative plural *ponai* serves for address as well, so the three slots come to two forms. The comma that sets the address off is the only mark the sentence gives it.",
       "rulesTested": [
         "vocative"
       ],
       "vocabUsed": [
-        "mokytojas"
+        "ponas"
       ]
     },
     {

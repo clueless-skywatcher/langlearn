@@ -1189,7 +1189,7 @@
       "id": "a102-q17",
       "type": "single",
       "difficulty": "hard",
-      "stem": "A learner writes *Moteris yra geras*, meaning ‘The woman is good.’ Which two rules has the sentence broken, if any?",
+      "stem": "A learner writes *Moteris yra geras*, meaning ‘The woman is good.’ What has the sentence got wrong, if anything?",
       "explanation": "One error with two rules behind it. *moteris* is feminine despite its ending (¶11), and the predicate adjective must agree with it, giving *gera* (¶17). The **case** is not wrong — a predicate adjective is correctly nominative (¶16), which is what makes option D almost right.",
       "rulesTested": [
         "noun-endings",

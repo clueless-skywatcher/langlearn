@@ -1355,13 +1355,16 @@
       "id": "cp4-q6",
       "type": "integer",
       "difficulty": "hard",
-      "stem": "Which numbered rule governs the form **Vytautai** used in calling someone by name? Give the paragraph number.",
-      "explanation": "¶78, the vocative. The tempting answer is ¶71, the instrumental singular, which belongs to the same section; but the instrumental names a means or a companion, never the person addressed.",
+      "stem": "**ranka** stands in the nominative singular, the accusative singular and the instrumental singular. How many distinct forms is that?",
+      "explanation": "The **-a** declension spells its instrumental singular exactly like its nominative, so *ranka* serves both and the three slots come to *ranka* and *ranką*. Only the rest of the sentence says which *ranka* is which.",
       "rulesTested": [
-        "vocative"
+        "instrumental-singular"
       ],
-      "vocabUsed": [],
-      "answer": 78,
+      "vocabUsed": [
+        "ranka"
+      ],
+      "answer": 2,
+      "unit": "forms",
       "fromSection": "a1-11"
     },
     {

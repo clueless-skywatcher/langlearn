@@ -770,15 +770,21 @@
       "id": "de103-q8",
       "type": "integer",
       "difficulty": "hard",
-      "stem": "*die Stadt* has the plural *die Städte*. Which numbered rule governs that formation?",
-      "answer": 37,
-      "unit": "rule number",
-      "explanation": "*Stadt* adds **-e** and takes the Umlaut with it, which is ¶37; a feminine noun of that class always umlauts. ¶36 is the same ending without the Umlaut, and ¶35 the Umlaut without the ending.",
+      "stem": "*die Stadt*, *der Tag*, *der Stuhl*, *das Jahr*, *das Haus* — how many of these five take the Umlaut in the plural?",
+      "answer": 3,
+      "unit": "nouns",
+      "explanation": "*die Städte*, *die Stühle* and *die Häuser* carry the Umlaut; *die Tage* and *die Jahre* take their ending without it. The ending does not settle the matter: **-e** appears with the Umlaut in *Stadt* and *Stuhl* and without it in *Tag* and *Jahr*.",
       "rulesTested": [
-        "plural-e-umlaut"
+        "plural-e-umlaut",
+        "plural-e",
+        "plural-er"
       ],
       "vocabUsed": [
-        "Stadt"
+        "Stadt",
+        "Tag",
+        "Stuhl",
+        "Jahr",
+        "Haus"
       ]
     },
     {

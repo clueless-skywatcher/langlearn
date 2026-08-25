@@ -36,11 +36,22 @@ Banned outright, at every level:
   spotting the option in a different script, the odd one out by length, the only
   option with a diacritic.
 - Anything answerable by reading the immediately preceding rule text verbatim.
+- Anything that points at this course's own exposition instead of at the
+  language: which numbered rule governs a form, which paragraph states it, how
+  many of a section's rules a spelling breaks, a matching column whose labels
+  are ¶ numbers. *"Which numbered rule governs die Städte?"* is answerable by a
+  learner who has the contents page and no German, and unanswerable by one who
+  has the German and never counted the paragraphs — wrong twice over.
+
+A ¶ number is a cross-reference for the author. It belongs in a rule, a
+paradigm caption, a footnote or an explanation, every one of which the learner
+reads *after* the answer is in, and never in a stem, an option, a matching
+column or an integer's unit. The validator checks all of them.
 
 A question earns its place only if a learner who has not internalised the rule
 can plausibly get it wrong. `IntegerQuestion` exists for grammatical counts
-(how many distinct case forms this paradigm collapses, which numbered rule
-governs the form), not for character counting.
+(how many distinct case forms this paradigm collapses), not for character
+counting.
 
 ## 3. JEE Advanced format
 
@@ -218,9 +229,10 @@ Shapes it takes just as well, several of them better tests than a count:
   figure — *ఇరవై ఒకటి* → 21, *నూట ఇరవై ఒకటి* → 121, *ముగ్గురు* → 3. This tests
   the numeral system head-on, and unlike four options it cannot be narrowed by
   elimination: the learner has to produce the answer.
-- **Read a form and give the value it carries** — which numbered rule governs
-  it, which declension or conjugation it belongs to, which person an ending
-  marks.
+- **Read a form and give the value it carries** — which declension or
+  conjugation it belongs to, which person or number an ending marks, which
+  position in the sentence a word holds. Never which rule of this course
+  governs it (§2).
 - **A quantity the passage states**: an age, a year, a price, a time, a
   distance. The learner has to read the passage to find it.
 - **How many distinct forms a paradigm collapses**, which is the count §2

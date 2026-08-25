@@ -526,9 +526,10 @@
       "id": "a116-x13",
       "type": "integer",
       "difficulty": "hard",
-      "stem": "Which numbered rule governs the conditional ending **-tumėte**? Give the paragraph number.",
-      "answer": 116,
-      "explanation": "¶116 gives the conditional and its endings. ¶117, the politeness use, is why the form is so common in speech, but it is not what forms it.",
+      "stem": "**Gal galėtumėte?** Which person does the ending **-tumėte** mark?",
+      "answer": 2,
+      "unit": "person",
+      "explanation": "**-tumėte** is the second person plural of the conditional, and it is a plural ending addressing one stranger: politeness takes *Jūs* and the plural form with it. The first person singular is *galėčiau*, the **-t-** softened to **-č-** before **-iau**.",
       "rulesTested": [
         "conditional-formation",
         "conditional-politeness"

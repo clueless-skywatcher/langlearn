@@ -806,7 +806,7 @@
       "id": "a2cp1-x7",
       "type": "single",
       "difficulty": "medium",
-      "stem": "A learner writes *nejaučiuosi* for ‘I don't feel’. What is wrong, and what is the rule?",
+      "stem": "A learner writes *nejaučiuosi* for ‘I don't feel’. What is wrong, and what puts it right?",
       "explanation": "Negation is a prefix, and a prefix pulls the reflexive affix in behind it (¶157). The affix is not lost — it moves — so C is as wrong as leaving it at the end. Writing *ne* apart from a verb is never correct (¶25).",
       "rulesTested": [
         "si-under-negation",

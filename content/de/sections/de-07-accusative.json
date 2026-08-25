@@ -1200,16 +1200,16 @@
    "id": "de107-q16",
    "type": "integer",
    "difficulty": "hard",
-   "stem": "*Wir fragen den Menschen.* Which numbered rule accounts for the **-en** on the noun?",
-   "answer": 80,
-   "unit": "rule",
-   "explanation": "¶80: *der Mensch* is a weak masculine and adds **-en** outside the nominative singular. ¶78 accounts for the *den* in front of it, but not for the ending on the noun.",
+   "stem": "*der Mensch* stands in the nominative singular, the accusative singular, the nominative plural and the accusative plural. How many distinct forms of the noun itself is that?",
+   "answer": 2,
+   "unit": "forms",
+   "explanation": "*Mensch* adds **-en** everywhere outside the nominative singular, so the four slots come to *Mensch* and *Menschen*, the accusative singular already carrying the ending the plural has. In *der Bruder* the two forms fall the other way: *Bruder* covers both singulars and *Brüder* both plurals.",
    "rulesTested": [
     "weak-masculine"
    ],
    "vocabUsed": [
     "Mensch",
-    "fragen"
+    "Bruder"
    ]
   },
   {
