@@ -6,7 +6,7 @@
   "description": "The International Language, taught in the order and manner of Kellerman's 1910 grammar: a fully regular alphabet, then the parts of speech marked by their endings, each rule explained rather than merely stated.",
   "direction": "ltr",
   "attribution": "Grammar and reading matter adapted from Ivy Kellerman Reed, A Complete Grammar of Esperanto (1910), Project Gutenberg #7787 — public domain. Spelling modernised from the x-method of that edition to the diacritics ĉ ĝ ĥ ĵ ŝ ŭ.",
-  "levels": ["A1", "A2", "B1", "B2", "C1", "C2"],
+  "levels": ["A1"],
   "formLabels": {
     "noun": [
       { "key": "nom", "label": "singular" },

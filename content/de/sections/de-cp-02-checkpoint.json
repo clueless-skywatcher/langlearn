@@ -1,0 +1,1061 @@
+{
+ "id": "de-cp-02",
+ "kind": "checkpoint",
+ "level": "A1",
+ "order": 10,
+ "title": "Checkpoint: Questions, the Accusative, and Negation",
+ "summary": "An examination of everything since the first checkpoint: how a question is built and answered, the accusative of articles, nouns and pronouns, and the two ways a German sentence is denied. Every item combines at least two of the three sections wherever the material allows.",
+ "covers": [
+  "de-06",
+  "de-07",
+  "de-08"
+ ],
+ "passThreshold": 60,
+ "drills": [
+  {
+   "id": "decp2-q1",
+   "fromSection": "de-06",
+   "difficulty": "easy",
+   "type": "single",
+   "stem": "*____ arbeitet hier?* — asking after a person",
+   "options": [
+    "Wer",
+    "Wen",
+    "Was",
+    "Wie"
+   ],
+   "correct": 0,
+   "explanation": "The person asked after is the subject of *arbeitet*, so the nominative **wer** is the form (¶71). *wen* would make the person the object of the working, which *arbeiten* has no room for.",
+   "rulesTested": [
+    "fragepronomen",
+    "question-word-subject"
+   ]
+  },
+  {
+   "id": "decp2-q2",
+   "fromSection": "de-06",
+   "difficulty": "medium",
+   "type": "single",
+   "stem": "*____ kostet die Fahrkarte?*",
+   "options": [
+    "Wie viel",
+    "Wie viele",
+    "Wer",
+    "Wo"
+   ],
+   "correct": 0,
+   "explanation": "A price is an amount that is not counted, so **wie viel** stands with no plural noun (¶73).",
+   "rulesTested": [
+    "wie-viel-viele"
+   ]
+  },
+  {
+   "id": "decp2-q3",
+   "fromSection": "de-06",
+   "difficulty": "medium",
+   "type": "single",
+   "stem": "*____ lernst du Deutsch?* — asking after the reason",
+   "options": [
+    "Warum",
+    "Wann",
+    "Wo",
+    "Wie viel"
+   ],
+   "correct": 0,
+   "explanation": "**warum** asks after a reason (¶72); *wann* would ask after a time and *wo* after a place.",
+   "rulesTested": [
+    "interrogative-adverbs"
+   ]
+  },
+  {
+   "id": "decp2-q4",
+   "fromSection": "de-06",
+   "difficulty": "hard",
+   "type": "single",
+   "stem": "In *Wie viele Kinder sind hier?*, which element is *sind*?",
+   "options": [
+    "the second",
+    "the third",
+    "the fourth",
+    "the first"
+   ],
+   "correct": 0,
+   "explanation": "*wie viele Kinder* is one interrogative phrase filling the first position, so the finite verb is second (¶70) — the ordinary verb-second order of ¶66, counted by element and not by word.",
+   "rulesTested": [
+    "interrogative-phrase",
+    "question-word-first"
+   ]
+  },
+  {
+   "id": "decp2-q5",
+   "fromSection": "de-06",
+   "difficulty": "hard",
+   "type": "multi",
+   "stem": "*Arbeitet der Student heute?* Which of these hold?",
+   "options": [
+    "the finite verb stands first because there is no question word",
+    "it is answered with *ja* or *nein*",
+    "*arbeitet* carries the inserted **-e-** of a stem in **-t**",
+    "*der Student* stands first because it is the subject"
+   ],
+   "correct": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "A yes/no question puts the verb first (¶75) and is answered *ja* or *nein* (¶76); *arbeit-* ends in **-t** and takes the **-e-** of ¶57. The subject does not stand first here — *Arbeitet* does.",
+   "rulesTested": [
+    "entscheidungsfrage",
+    "answering",
+    "stem-e-insertion"
+   ]
+  },
+  {
+   "id": "decp2-q6",
+   "fromSection": "de-06",
+   "difficulty": "hard",
+   "type": "single",
+   "stem": "*Wer ____ das Buch?* (lesen)",
+   "options": [
+    "liest",
+    "liesst",
+    "lest",
+    "lesen"
+   ],
+   "correct": 0,
+   "explanation": "**wer** is its own subject and takes the third person singular (¶74); *lesen* changes its stem vowel there (¶61), and the stem already ends in **-s**, so no further **-s** is added (¶58).",
+   "rulesTested": [
+    "question-word-subject",
+    "vowel-change"
+   ]
+  },
+  {
+   "id": "decp2-q7",
+   "fromSection": "de-06",
+   "difficulty": "medium",
+   "type": "single",
+   "stem": "*Wo wohnt Anna?* Which of these answers it?",
+   "options": [
+    "Hier.",
+    "Ja.",
+    "Nein.",
+    "Doch."
+   ],
+   "correct": 0,
+   "explanation": "A question with a question word is answered with the element it asks for — here a place (¶76). *ja*, *nein* and *doch* answer the other kind.",
+   "rulesTested": [
+    "answering",
+    "interrogative-adverbs"
+   ]
+  },
+  {
+   "id": "decp2-q8",
+   "fromSection": "de-06",
+   "difficulty": "easy",
+   "type": "single",
+   "stem": "*____ ist das?* — Ein Stuhl.",
+   "options": [
+    "Was",
+    "Wer",
+    "Wie",
+    "Warum"
+   ],
+   "correct": 0,
+   "explanation": "A chair is a thing, and **was** asks after a thing (¶71).",
+   "rulesTested": [
+    "fragepronomen"
+   ]
+  },
+  {
+   "id": "decp2-q9",
+   "fromSection": "de-06",
+   "difficulty": "hard",
+   "type": "matching",
+   "stem": "Pair each question with the position its finite verb holds and why.",
+   "columnHeadings": [
+    "Question",
+    "Account"
+   ],
+   "columnI": [
+    "*Kommt der Zug?*",
+    "*Wann kommt der Zug?*",
+    "*Wer kommt?*",
+    "*Wie viele Züge kommen?*"
+   ],
+   "columnII": [
+    "first, because there is no question word",
+    "second, after a one-word question word",
+    "second, and the question word is itself the subject",
+    "second, after an interrogative phrase of two words",
+    "third, because the subject intervenes"
+   ],
+   "options": [
+    [
+     0,
+     1,
+     2,
+     3
+    ],
+    [
+     0,
+     1,
+     3,
+     2
+    ],
+    [
+     4,
+     1,
+     2,
+     3
+    ],
+    [
+     0,
+     2,
+     1,
+     3
+    ]
+   ],
+   "correct": 0,
+   "explanation": "¶75 puts the verb first with no question word; ¶69 puts it second after one; ¶74 has the question word as subject; ¶70 counts the two-word phrase as one element. Nothing here puts the verb third.",
+   "rulesTested": [
+    "entscheidungsfrage",
+    "question-word-first",
+    "question-word-subject",
+    "interrogative-phrase"
+   ]
+  },
+  {
+   "id": "decp2-q10",
+   "fromSection": "de-06",
+   "difficulty": "medium",
+   "type": "integer",
+   "stem": "*Wie viele Jahre lernt der Student Deutsch?* How many elements stand in front of the finite verb?",
+   "answer": 1,
+   "unit": "element",
+   "explanation": "*Wie viele Jahre* is a single interrogative phrase in first position, so exactly one element precedes *lernt* (¶70).",
+   "rulesTested": [
+    "interrogative-phrase"
+   ]
+  },
+  {
+   "id": "decp2-q11",
+   "fromSection": "de-06",
+   "difficulty": "hard",
+   "type": "single",
+   "stem": "*Wie ____ du?* (heißen)",
+   "options": [
+    "heißt",
+    "heißst",
+    "heiße",
+    "heißen"
+   ],
+   "correct": 0,
+   "explanation": "German asks after a name with **wie** (¶72), and *heißen* has a stem in **-ß**, so the second person singular adds only **-t** (¶58).",
+   "rulesTested": [
+    "interrogative-adverbs",
+    "question-word-first"
+   ]
+  },
+  {
+   "id": "decp2-q12",
+   "fromSection": "de-06",
+   "difficulty": "medium",
+   "type": "multi",
+   "stem": "Which of these are correctly formed?",
+   "options": [
+    "*Wann kommt der Zug?*",
+    "*Wer trinkt Kaffee?*",
+    "*Wann der Zug kommt?*",
+    "*Wer trinkt er Kaffee?*"
+   ],
+   "correct": [
+    0,
+    1
+   ],
+   "explanation": "The first two are verb-second after a question word (¶69) and a question word as subject (¶74). The third puts the verb last, and the fourth supplies a second subject where **wer** already is one.",
+   "rulesTested": [
+    "question-word-first",
+    "question-word-subject"
+   ]
+  },
+  {
+   "id": "decp2-q13",
+   "fromSection": "de-06",
+   "difficulty": "medium",
+   "type": "single",
+   "stem": "*Wie viel Zeit hast du?* Why is *wie viel* used rather than *wie viele*?",
+   "options": [
+    "*Zeit* is not counted",
+    "*Zeit* is feminine",
+    "*Zeit* is a plural",
+    "*haben* takes the accusative"
+   ],
+   "correct": 0,
+   "explanation": "**wie viel** asks after an amount that is not counted and stands with no plural noun; **wie viele** wants a countable plural (¶73). The gender of *Zeit* and the case *haben* governs are beside the point.",
+   "rulesTested": [
+    "wie-viel-viele"
+   ]
+  },
+  {
+   "id": "decp2-q14",
+   "fromSection": "de-07",
+   "difficulty": "easy",
+   "type": "single",
+   "stem": "*Wir suchen ____ Bäcker.*",
+   "options": [
+    "den",
+    "der",
+    "das",
+    "dem"
+   ],
+   "correct": 0,
+   "explanation": "*Bäcker* is masculine, and the masculine singular is the one place the accusative differs from the nominative: *der* becomes *den* (¶78).",
+   "rulesTested": [
+    "accusative-definite-article",
+    "accusative-direct-object"
+   ]
+  },
+  {
+   "id": "decp2-q15",
+   "fromSection": "de-07",
+   "difficulty": "easy",
+   "type": "single",
+   "stem": "*Sie kauft ____ Kuchen.* — one cake",
+   "options": [
+    "einen",
+    "ein",
+    "eine",
+    "einem"
+   ],
+   "correct": 0,
+   "explanation": "*Kuchen* is a masculine singular direct object, so *ein* becomes *einen* (¶79).",
+   "rulesTested": [
+    "accusative-ein-kein",
+    "accusative-direct-object"
+   ]
+  },
+  {
+   "id": "decp2-q16",
+   "fromSection": "de-07",
+   "difficulty": "medium",
+   "type": "single",
+   "stem": "*Kennst du ____?* — me",
+   "options": [
+    "mich",
+    "ich",
+    "mir",
+    "mein"
+   ],
+   "correct": 0,
+   "explanation": "*ich* becomes *mich* in the accusative (¶81); *mir* is the dative.",
+   "rulesTested": [
+    "accusative-pronouns"
+   ]
+  },
+  {
+   "id": "decp2-q17",
+   "fromSection": "de-07",
+   "difficulty": "hard",
+   "type": "single",
+   "stem": "*____ fragt der Lehrer?* — asking who is questioned",
+   "options": [
+    "Wen",
+    "Wer",
+    "Was",
+    "Wem"
+   ],
+   "correct": 0,
+   "explanation": "The person questioned is the object, so the accusative **wen** is the form (¶82), and *der Lehrer* stays the nominative subject. *Wer fragt der Lehrer?* would leave the sentence with two subjects.",
+   "rulesTested": [
+    "accusative-wen",
+    "accusative-definite-article"
+   ]
+  },
+  {
+   "id": "decp2-q18",
+   "fromSection": "de-07",
+   "difficulty": "hard",
+   "type": "multi",
+   "stem": "Which of these are correct?",
+   "options": [
+    "*Wir treffen uns hier.*",
+    "*Kennt ihr euch?*",
+    "*Sie sehen sich morgen.*",
+    "*Wir treffen sich hier.*"
+   ],
+   "correct": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "**sich** serves the third person alone; the first person plural takes **uns** and the second **euch** (¶83).",
+   "rulesTested": [
+    "reciprocal-pronouns"
+   ]
+  },
+  {
+   "id": "decp2-q19",
+   "fromSection": "de-07",
+   "difficulty": "medium",
+   "type": "multi",
+   "stem": "Which of these take no ending in the accusative?",
+   "options": [
+    "*alles*",
+    "*mehr*",
+    "*etwas*",
+    "*welch-*"
+   ],
+   "correct": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "*etwas*, *nichts*, *alles* and *mehr* are indeclinable (¶84); *welch-* declines like the definite article (¶85).",
+   "rulesTested": [
+    "indeclinable-pronouns",
+    "welch"
+   ]
+  },
+  {
+   "id": "decp2-q20",
+   "fromSection": "de-07",
+   "difficulty": "medium",
+   "type": "single",
+   "stem": "*Welch____ Buch liest du?*",
+   "options": [
+    "-es",
+    "-en",
+    "-e",
+    "-em"
+   ],
+   "correct": 0,
+   "explanation": "**welch-** declines like the definite article (¶85), and *Buch* is neuter, where the accusative is the same as the nominative: *das* → *welches* (¶78).",
+   "rulesTested": [
+    "welch",
+    "accusative-definite-article"
+   ]
+  },
+  {
+   "id": "decp2-q21",
+   "fromSection": "de-07",
+   "difficulty": "hard",
+   "type": "single",
+   "stem": "*Wir fragen ____ Jungen.*",
+   "options": [
+    "den",
+    "der",
+    "das",
+    "dem"
+   ],
+   "correct": 0,
+   "explanation": "*der Junge* is a weak masculine, so the noun carries **-en** outside the nominative singular (¶80) and the article is the masculine accusative *den* (¶78). The ending on the noun does not remove the need for the right article.",
+   "rulesTested": [
+    "weak-masculine",
+    "accusative-definite-article"
+   ]
+  },
+  {
+   "id": "decp2-q22",
+   "fromSection": "de-07",
+   "difficulty": "hard",
+   "type": "single",
+   "stem": "*Das ist ____ Bahnhof.*",
+   "options": [
+    "ein",
+    "einen",
+    "eine",
+    "einem"
+   ],
+   "correct": 0,
+   "explanation": "*sein* takes a complement in the nominative rather than an accusative object (¶86, ¶67), so *einen* is wrong however masculine *Bahnhof* is.",
+   "rulesTested": [
+    "no-accusative-after-sein",
+    "accusative-ein-kein"
+   ]
+  },
+  {
+   "id": "decp2-q23",
+   "fromSection": "de-07",
+   "difficulty": "hard",
+   "type": "matching",
+   "stem": "Pair each object with the reason it has the form it has.",
+   "columnHeadings": [
+    "Phrase",
+    "Reason"
+   ],
+   "columnI": [
+    "*Ich sehe den Mann*",
+    "*Ich sehe die Frau*",
+    "*Ich sehe ihn*",
+    "*Ich kenne den Menschen*"
+   ],
+   "columnII": [
+    "masculine singular, so the article changes to *den*",
+    "feminine, so the article is the same in both cases",
+    "a pronoun, which has an accusative form of its own",
+    "a weak masculine, so the noun takes **-en** as well",
+    "neuter, so the article does not change"
+   ],
+   "options": [
+    [
+     0,
+     1,
+     2,
+     3
+    ],
+    [
+     0,
+     4,
+     2,
+     3
+    ],
+    [
+     0,
+     1,
+     3,
+     2
+    ],
+    [
+     1,
+     0,
+     2,
+     3
+    ]
+   ],
+   "correct": 0,
+   "explanation": "¶78 for *den Mann* and for the unchanged *die Frau*, ¶81 for *ihn*, ¶80 for *den Menschen*. *Frau* is feminine, not neuter, which is what rules out the second pairing.",
+   "rulesTested": [
+    "accusative-definite-article",
+    "accusative-pronouns",
+    "weak-masculine"
+   ]
+  },
+  {
+   "id": "decp2-q24",
+   "fromSection": "de-07",
+   "difficulty": "medium",
+   "type": "integer",
+   "stem": "*Wir besuchen euch.* Which person does *euch* stand for?",
+   "answer": 2,
+   "unit": "person",
+   "explanation": "*euch* is the accusative of *ihr*, the second person plural (¶81). *wir* is the first person and is the subject here.",
+   "rulesTested": [
+    "accusative-pronouns"
+   ]
+  },
+  {
+   "id": "decp2-q25",
+   "fromSection": "de-07",
+   "difficulty": "hard",
+   "type": "integer",
+   "stem": "*der Herr*, *der Junge*, *der Bruder*, *der Mensch*, *der Bäcker* — how many of these five add an ending to the noun in the accusative singular?",
+   "answer": 3,
+   "unit": "nouns",
+   "explanation": "*den Herrn*, *den Jungen* and *den Menschen* each carry the ending of the weak masculines; *den Bruder* and *den Bäcker* leave the noun untouched. The article changes in all five, so the ending on the noun is a separate fact about the noun.",
+   "rulesTested": [
+    "weak-masculine",
+    "accusative-definite-article"
+   ]
+  },
+  {
+   "id": "decp2-q26",
+   "fromSection": "de-07",
+   "difficulty": "medium",
+   "type": "single",
+   "stem": "*Er ist Bäcker.* Why does *Bäcker* stand with no article?",
+   "options": [
+    "it is a profession after *sein*",
+    "it is a masculine accusative",
+    "*sein* takes no object at all",
+    "*Bäcker* has no plural"
+   ],
+   "correct": 0,
+   "explanation": "A profession after *sein* takes no article (¶45). *sein* indeed takes no accusative object (¶86), but that accounts for the case of the complement rather than for the missing article.",
+   "rulesTested": [
+    "no-accusative-after-sein"
+   ]
+  },
+  {
+   "id": "decp2-q27",
+   "fromSection": "de-07",
+   "difficulty": "hard",
+   "type": "single",
+   "stem": "*____ Apfel nimmst du?* — asking which of several",
+   "options": [
+    "Welchen",
+    "Welche",
+    "Welches",
+    "Wen"
+   ],
+   "correct": 0,
+   "explanation": "**welch-** declines like the definite article, and *Apfel* is a masculine singular object, so the form is *welchen* (¶85, ¶78). *wen* asks after a person and cannot stand with a noun.",
+   "rulesTested": [
+    "welch",
+    "accusative-wen"
+   ]
+  },
+  {
+   "id": "decp2-q28",
+   "fromSection": "de-07",
+   "difficulty": "hard",
+   "type": "multi",
+   "stem": "*Ich nehme einen Kuchen.* Which of these hold?",
+   "options": [
+    "*Kuchen* is the direct object",
+    "*einen* is the masculine singular accusative of *ein*",
+    "*nehmen* changes its stem vowel in the second and third person singular",
+    "*Kuchen* is a complement in the nominative"
+   ],
+   "correct": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "The cake is what the taking lands on (¶77), *einen* is ¶79, and *nehmen* gives *nimmst, nimmt* (¶61). A nominative complement follows only *sein*, *werden* and *bleiben* (¶86).",
+   "rulesTested": [
+    "accusative-direct-object",
+    "accusative-ein-kein",
+    "vowel-change"
+   ]
+  },
+  {
+   "id": "decp2-q29",
+   "fromSection": "de-08",
+   "difficulty": "easy",
+   "type": "single",
+   "stem": "*Ich wohne hier.* — how is this denied?",
+   "options": [
+    "Ich wohne nicht hier.",
+    "Ich nicht wohne hier.",
+    "Ich wohne hier kein.",
+    "Nicht wohne ich hier."
+   ],
+   "correct": 0,
+   "explanation": "*wohnen* wants a place to complete it, and **nicht** stands in front of that place (¶91). Nothing may come between the subject and the finite verb (¶66).",
+   "rulesTested": [
+    "nicht-before-place"
+   ]
+  },
+  {
+   "id": "decp2-q30",
+   "fromSection": "de-08",
+   "difficulty": "easy",
+   "type": "single",
+   "stem": "*Wir haben ____ Zeit.*",
+   "options": [
+    "keine",
+    "kein",
+    "nicht",
+    "nicht eine"
+   ],
+   "correct": 0,
+   "explanation": "*Zeit* is feminine and stands with no article, so it is denied by **kein** (¶93) in its feminine form *keine* (¶94). German has no *nicht eine*.",
+   "rulesTested": [
+    "kein-for-ein",
+    "kein-declension"
+   ]
+  },
+  {
+   "id": "decp2-q31",
+   "fromSection": "de-08",
+   "difficulty": "medium",
+   "type": "single",
+   "stem": "*Das Zimmer ist ____.* — denying that it is small",
+   "options": [
+    "nicht klein",
+    "klein nicht",
+    "kein klein",
+    "nicht ein klein"
+   ],
+   "correct": 0,
+   "explanation": "**nicht** stands in front of a predicative adjective (¶90). *kein* denies nouns, not adjectives.",
+   "rulesTested": [
+    "nicht-before-predicate"
+   ]
+  },
+  {
+   "id": "decp2-q32",
+   "fromSection": "de-08",
+   "difficulty": "hard",
+   "type": "single",
+   "stem": "*Ich kenne ____ Studenten.* — denying that I know any student",
+   "options": [
+    "keinen",
+    "kein",
+    "keine",
+    "nicht den"
+   ],
+   "correct": 0,
+   "explanation": "*kein* takes the masculine accusative **-en** (¶94) and the weak masculine keeps its own **-en** (¶80). *nicht den Studenten* would deny knowing one particular student, which is not what is asked.",
+   "rulesTested": [
+    "kein-declension",
+    "weak-masculine",
+    "nicht-or-kein"
+   ]
+  },
+  {
+   "id": "decp2-q33",
+   "fromSection": "de-08",
+   "difficulty": "hard",
+   "type": "multi",
+   "stem": "Which of these are denied with **nicht** rather than with **kein**?",
+   "options": [
+    "*Ich kaufe das Auto.*",
+    "*Ich sehe sie.*",
+    "*Ich kaufe ein Auto.*",
+    "*Ich habe Geld.*"
+   ],
+   "correct": [
+    0,
+    1
+   ],
+   "explanation": "The definite *das Auto* and the pronoun *sie* take **nicht**; the *ein*-noun and the article-less *Geld* take **kein** (¶96). What the noun already carries decides it.",
+   "rulesTested": [
+    "nicht-or-kein",
+    "nicht",
+    "kein-for-ein"
+   ]
+  },
+  {
+   "id": "decp2-q34",
+   "fromSection": "de-08",
+   "difficulty": "hard",
+   "type": "single",
+   "stem": "*Nicht heute arbeite ich.* What does this deny?",
+   "options": [
+    "that it is today that I work",
+    "that I work at all",
+    "that I am the one who works",
+    "that working happens"
+   ],
+   "correct": 0,
+   "explanation": "**nicht** immediately in front of one element denies that element alone (¶92) — here the day, not the working. Sentence negation would be *Ich arbeite heute nicht* (¶89).",
+   "rulesTested": [
+    "nicht-constituent",
+    "nicht"
+   ]
+  },
+  {
+   "id": "decp2-q35",
+   "fromSection": "de-08",
+   "difficulty": "medium",
+   "type": "single",
+   "stem": "*Es gibt ____ Äpfel.* — there are none",
+   "options": [
+    "keine",
+    "kein",
+    "keinen",
+    "nicht"
+   ],
+   "correct": 0,
+   "explanation": "*kein* has a plural where *ein* has none (¶95, ¶50), and the plural *keine* is the same in the nominative and the accusative.",
+   "rulesTested": [
+    "kein-plural"
+   ]
+  },
+  {
+   "id": "decp2-q36",
+   "fromSection": "de-08",
+   "difficulty": "hard",
+   "type": "matching",
+   "stem": "Pair each denial with what accounts for the form it takes.",
+   "columnHeadings": [
+    "Denial",
+    "Reason"
+   ],
+   "columnI": [
+    "*Ich sehe ihn nicht*",
+    "*Ich habe keinen Bruder*",
+    "*Sie wohnt nicht hier*",
+    "*Es gibt keine Kinder*"
+   ],
+   "columnII": [
+    "a pronoun object, so *nicht* closes the sentence",
+    "an *ein*-noun in the masculine accusative, so *keinen*",
+    "a place completing the verb, so *nicht* goes in front of it",
+    "a plural, so *keine*",
+    "a predicative adjective, so *nicht* goes in front of it"
+   ],
+   "options": [
+    [
+     0,
+     1,
+     2,
+     3
+    ],
+    [
+     0,
+     1,
+     4,
+     3
+    ],
+    [
+     0,
+     1,
+     3,
+     2
+    ],
+    [
+     1,
+     0,
+     2,
+     3
+    ]
+   ],
+   "correct": 0,
+   "explanation": "¶89 for the pronoun object, ¶94 for *keinen*, ¶91 for the place and ¶95 for the plural. The last label describes an adjective and fits none of the four.",
+   "rulesTested": [
+    "nicht",
+    "kein-declension",
+    "nicht-before-place",
+    "kein-plural"
+   ]
+  },
+  {
+   "id": "decp2-q37",
+   "fromSection": "de-08",
+   "difficulty": "hard",
+   "type": "integer",
+   "stem": "*kein* fills eight slots: masculine, feminine, neuter and plural, in the nominative and in the accusative. For how many of those eight has *ein* no form at all?",
+   "answer": 2,
+   "unit": "slots",
+   "explanation": "*ein* has no plural, so the nominative plural and the accusative plural are the two slots it cannot fill — *keine Bücher* has no positive counterpart with *ein*. In the six singular slots the two decline alike, *einen* beside *keinen* and the rest.",
+   "rulesTested": [
+    "kein-plural",
+    "kein-declension",
+    "indefinite-no-plural"
+   ]
+  },
+  {
+   "id": "decp2-q38",
+   "fromSection": "de-08",
+   "difficulty": "medium",
+   "type": "single",
+   "stem": "*Hast du kein Auto?* — the answer that says you do have one",
+   "options": [
+    "Doch!",
+    "Ja!",
+    "Nein!",
+    "Kein!"
+   ],
+   "correct": 0,
+   "explanation": "**doch** contradicts a negatively put question (¶97); *ja* would leave the denial standing and *nein* would confirm it.",
+   "rulesTested": [
+    "doch",
+    "answering"
+   ]
+  },
+  {
+   "id": "decp2-p1",
+   "type": "comprehension",
+   "difficulty": "hard",
+   "title": "Im Zimmer",
+   "passage": "LUKAS. Wer wohnt hier?\nANNA. Ein Student. Er heißt Peter.\nLUKAS. Was macht er?\nANNA. Er lernt Deutsch. Er ist kein Lehrer.\nLUKAS. Wie viele Zimmer hat das Haus?\nANNA. Vier. Aber Peter hat keinen Stuhl und keinen Tisch.\nLUKAS. Hat er kein Bett?\nANNA. Doch, ein Bett hat er. Er braucht nur einen Stuhl.\nLUKAS. Kennst du ihn?\nANNA. Nein, ich kenne ihn nicht.",
+   "translation": "LUKAS. Who lives here? — ANNA. A student. He is called Peter. — LUKAS. What does he do? — ANNA. He is learning German. He is not a teacher. — LUKAS. How many rooms does the house have? — ANNA. Four. But Peter has no chair and no table. — LUKAS. Doesn’t he have a bed? — ANNA. Yes he does, he has a bed. He only needs a chair. — LUKAS. Do you know him? — ANNA. No, I don't know him.",
+   "glossary": {
+    "Aber": "but",
+    "nur": "only",
+    "Tisch": "table",
+    "Bett": "bed",
+    "vier": "four"
+   },
+   "questions": [
+    {
+     "id": "decp2-p1-c1",
+     "type": "single",
+     "difficulty": "medium",
+     "fromSection": "de-06",
+     "stem": "Wer wohnt hier?",
+     "options": [
+      "ein Student",
+      "ein Lehrer",
+      "Anna",
+      "Lukas"
+     ],
+     "correct": 0,
+     "explanation": "*Wer wohnt hier? — Ein Student.* Peter is explicitly *kein Lehrer*, and neither speaker lives there.",
+     "rulesTested": [
+      "question-word-subject",
+      "fragepronomen"
+     ]
+    },
+    {
+     "id": "decp2-p1-c2",
+     "type": "integer",
+     "difficulty": "medium",
+     "fromSection": "de-06",
+     "stem": "Wie viele Zimmer hat das Haus?",
+     "answer": 4,
+     "unit": "Zimmer",
+     "explanation": "*Wie viele Zimmer hat das Haus? — Vier.* **wie viele** is used because rooms are counted (¶73).",
+     "rulesTested": [
+      "wie-viel-viele"
+     ]
+    },
+    {
+     "id": "decp2-p1-c3",
+     "type": "multi",
+     "difficulty": "hard",
+     "fromSection": "de-08",
+     "stem": "*Er ist kein Lehrer.* Which of these hold?",
+     "options": [
+      "*Lehrer* would otherwise stand with no article, so *kein* denies it",
+      "*Er ist nicht Lehrer* says the same thing",
+      "*kein* takes no ending before a masculine nominative",
+      "*Lehrer* is the accusative object of *ist*"
+     ],
+     "correct": [
+      0,
+      1,
+      2
+     ],
+     "explanation": "A profession after *sein* is article-less (¶45) and such a noun is denied by *kein* (¶93); *nicht* in front of the complement is the other way of saying it (¶90). The masculine nominative takes no ending (¶94). *sein* has no object at all (¶86).",
+     "rulesTested": [
+      "kein-for-ein",
+      "nicht-before-predicate",
+      "kein-declension",
+      "no-accusative-after-sein"
+     ]
+    },
+    {
+     "id": "decp2-p1-c4",
+     "type": "single",
+     "difficulty": "hard",
+     "fromSection": "de-07",
+     "stem": "Wen kennt Anna nicht?",
+     "options": [
+      "Peter",
+      "Lukas",
+      "den Lehrer",
+      "das Haus"
+     ],
+     "correct": 0,
+     "explanation": "*Kennst du ihn? — Nein, ich kenne ihn nicht.* The *ihn* is Peter, the student under discussion; *wen* is the accusative because the person is the object of *kennen* (¶82, ¶81).",
+     "rulesTested": [
+      "accusative-wen",
+      "accusative-pronouns",
+      "nicht"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "kind": "composed",
+     "citation": "Composed for this course.",
+     "note": "A dialogue about a room, built from the questions of ¶69–¶76, the accusative of ¶77–¶88 and the negation of ¶89–¶97. It leans on §21.1.1 and §21.7.1 of Hammer for the word order and on the Goethe Wortliste for its vocabulary."
+    }
+   ]
+  },
+  {
+   "id": "decp2-p2",
+   "type": "comprehension",
+   "difficulty": "hard",
+   "title": "Was kostet das?",
+   "passage": "ANNA. Guten Tag! Was kostet der Kuchen?\nVERKÄUFER. Der Kuchen kostet einen Euro.\nANNA. Und das Brot?\nVERKÄUFER. Das Brot kostet auch einen Euro.\nANNA. Ich nehme den Kuchen. Haben Sie Äpfel?\nVERKÄUFER. Nein, heute haben wir keine Äpfel.\nANNA. Wie viele Kuchen haben Sie?\nVERKÄUFER. Wir haben nur einen Kuchen.\nANNA. Gut, ich nehme ihn.",
+   "translation": "ANNA. Good day! What does the cake cost? — SELLER. The cake costs one euro. — ANNA. And the bread? — SELLER. The bread costs one euro too. — ANNA. I'll take the cake. Do you have apples? — SELLER. No, today we have no apples. — ANNA. How many cakes do you have? — SELLER. We have only one cake. — ANNA. Good, I'll take it.",
+   "glossary": {
+    "Guten Tag": "good day, hello",
+    "Verkäufer": "seller, shop assistant",
+    "auch": "too, also",
+    "nur": "only",
+    "Gut": "good, fine",
+    "heute": "today"
+   },
+   "questions": [
+    {
+     "id": "decp2-p2-c1",
+     "type": "single",
+     "difficulty": "medium",
+     "fromSection": "de-07",
+     "stem": "Was nimmt Anna?",
+     "options": [
+      "den Kuchen",
+      "das Brot",
+      "Äpfel",
+      "zwei Kuchen"
+     ],
+     "correct": 0,
+     "explanation": "*Ich nehme den Kuchen*, and at the end *ich nehme ihn* — the pronoun standing for the same cake. The bread is priced but not taken.",
+     "rulesTested": [
+      "accusative-definite-article",
+      "accusative-pronouns"
+     ]
+    },
+    {
+     "id": "decp2-p2-c2",
+     "type": "integer",
+     "difficulty": "medium",
+     "fromSection": "de-06",
+     "stem": "Wie viele Kuchen hat der Verkäufer?",
+     "answer": 1,
+     "unit": "Kuchen",
+     "explanation": "*Wir haben nur einen Kuchen.* The euro in the dialogue is the price, not the number.",
+     "rulesTested": [
+      "wie-viel-viele"
+     ]
+    },
+    {
+     "id": "decp2-p2-c3",
+     "type": "single",
+     "difficulty": "hard",
+     "fromSection": "de-08",
+     "stem": "Warum steht *keine* und nicht *kein* in *keine Äpfel*?",
+     "options": [
+      "*Äpfel* is a plural",
+      "*Äpfel* is feminine",
+      "*haben* takes the accusative",
+      "*Äpfel* has an Umlaut"
+     ],
+     "correct": 0,
+     "explanation": "*kein* has a plural *keine* where *ein* has none (¶95, ¶50). The Umlaut is how the plural of *der Apfel* is formed (¶35) and has nothing to do with the ending on *kein*.",
+     "rulesTested": [
+      "kein-plural"
+     ]
+    },
+    {
+     "id": "decp2-p2-c4",
+     "type": "multi",
+     "difficulty": "hard",
+     "fromSection": "de-07",
+     "stem": "*Der Kuchen kostet einen Euro.* Which of these hold?",
+     "options": [
+      "*einen Euro* is a measure and stands in the accusative",
+      "*der Kuchen* is the subject the verb agrees with",
+      "*kostet* carries the inserted **-e-** of a stem in **-t**",
+      "*einen Euro* is a complement in the nominative"
+     ],
+     "correct": [
+      0,
+      1,
+      2
+     ],
+     "explanation": "A price is a measure in the accusative (¶88), *der Kuchen* is the nominative subject, and *kost-* takes the **-e-** of ¶57. A nominative complement follows only *sein*, *werden* and *bleiben* (¶86).",
+     "rulesTested": [
+      "accusative-measure",
+      "accusative-direct-object",
+      "stem-e-insertion"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "kind": "composed",
+     "citation": "Composed for this course.",
+     "note": "A dialogue over a counter, built from the questions of ¶69–¶76, the accusative of ¶77–¶88 and the negation of ¶89–¶97. It leans on §2.2.1 of Hammer for the accusative of price and on the Goethe Wortliste for its vocabulary."
+    }
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "kind": "grammar",
+   "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+   "note": "§21.1.1, p. 450, and §21.7.1, pp. 469–471, on the word order of questions and of negation; §2.2.1, p. 35, with Table 1.5, p. 26, on the accusative; §3.1.1, p. 48, and §3.2.7, p. 51, on the pronouns; §5.3.3, pp. 89–92, on wer and wen; §5.5.16 on kein; §1.3.2 on the weak masculines."
+  },
+  {
+   "kind": "corpus",
+   "citation": "*Goethe-Zertifikat A1: Start Deutsch 1 — Prüfungsziele, Testbeschreibung*, Grammatik-Inventar, pp. 99–106. Goethe-Institut, version A1_SD1_Pruefziele_07 / VS_08_190422, 19.04.2022, with the accompanying *Wortliste*.",
+   "note": "Cited for the syllabus of the three sections this paper examines."
+  }
+ ]
+}

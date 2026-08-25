@@ -13,6 +13,7 @@
     "validate:content:watch": "tsx scripts/validate-content.ts --watch",
     "generate:drills": "tsx scripts/generate-drills.ts",
     "generate:schema": "tsx scripts/generate-schema.ts",
+    "generate:latex": "tsx scripts/generate-latex.ts",
     "typecheck": "tsc --noEmit",
     "check": "npm run generate:schema -- --check && npm run validate:content && npm run typecheck && npm run test",
     "dev:sqlite": "NEXT_PUBLIC_LANGLEARN_STORE=sqlite next dev",

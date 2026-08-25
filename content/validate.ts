@@ -249,9 +249,9 @@ const COUNTING_INTEGER = /how many|how much/i;
 /**
  * §11: `integer` accepts any non-negative number, and a pack that only ever
  * asks *how many* has used one shape and mistaken it for the format. Reading a
- * numeral, naming the rule that governs a form, or lifting a quantity out of a
- * passage all fit it, and all make the learner produce an answer rather than
- * recognise one.
+ * numeral, giving the person or class a form carries, or lifting a quantity
+ * out of a passage all fit it, and all make the learner produce an answer
+ * rather than recognise one.
  *
  * This is a whole-pack warning and deliberately blunt. Whether a *particular*
  * count was the right question is a judgement no check can make — an alphabet
@@ -274,7 +274,7 @@ function integerVarietyProblems(pack: CoursePack): Problem[] {
       where: pack.course.id,
       message:
         `${counts} of ${integers.length} integer questions (${share.toFixed(0)}%) ask "how many"; ` +
-        `the format also takes reading a numeral, naming the rule that governs a form, ` +
+        `the format also takes reading a numeral, the person or class a form carries, ` +
         `or a quantity stated in a passage — see CLAUDE.md §11`,
     },
   ];
@@ -483,8 +483,8 @@ const HEAVY_COMPREHENSION_LEVELS = new Set(["B1", "B2", "C1", "C2"]);
  * Counting the letters in *norėčiau* is a question about a string; a learner
  * who has never met the conditional can answer it, and one who has mastered
  * the conditional can get it wrong by miscounting. `integer` questions are for
- * grammatical counts — how many case forms a paradigm collapses, which
- * numbered rule governs a form — and this is what they are not for.
+ * grammatical counts — how many case forms a paradigm collapses — and this is
+ * what they are not for.
  */
 const SURFACE_COUNTING =
   // The trailing alternation includes end-of-question, because the shape that
@@ -525,6 +525,64 @@ function bannedStem(stem: string): string | null {
   if (SURFACE_COUNTING.test(stem) || SURFACE_COUNTING_WORDS.test(stem)) {
     if (GRAMMATICAL_INVENTORY.test(stem)) return null;
     return "counts surface features (letters, vowels, commas) of a string rather than grammar, which CLAUDE.md §2 bans outright";
+  }
+  return null;
+}
+
+/**
+ * §2: a question examines the language, never this course's exposition of it.
+ * "Which numbered rule governs *die Städte*?" is answerable by a learner who
+ * has the contents page and no German, and unanswerable by one who has the
+ * German and never counted the paragraphs — which is the wrong way round twice
+ * over. A ¶ number is a cross-reference for the author: it belongs in a rule,
+ * a footnote or an explanation, all of which the learner reads after the
+ * answer is in, and never in a stem, an option, a matching column or a unit.
+ *
+ * The same goes for counting our own paragraphs ("how many of the section's
+ * rules would this spelling break") and for naming them in a column of pairs.
+ */
+const MATERIAL_REFERENCE: [RegExp, string][] = [
+  [/¶\s*\d/, "prints a ¶ number of this course's own exposition"],
+  [/\bnumbered rule\b/i, "asks which numbered rule of this course governs a form"],
+  [/\bparagraph number\b/i, "asks for a paragraph number of this course's own exposition"],
+  [/\brule number\b/i, "answers with a rule number of this course's own exposition"],
+  [
+    /\bwhich\b[^.?!]{0,16}\brules?\b/i,
+    "asks the learner which rule, pointing at the rules as written rather than at the language",
+  ],
+  [
+    /\b(?:the|a)\s+rules?\s+(?:that|which)\s+(?:accounts?|governs?|states?|applies)\b/i,
+    "names a rule of this course as the thing the learner is to find",
+  ],
+  [
+    /\brules?\b[^.?!]{0,20}\b(?:of|in)\s+(?:this|the)\s+(?:section|lesson|chapter|course)\b/i,
+    "names the rules of a part of this course",
+  ],
+  [
+    /\b(?:this|the)\s+(?:section|lesson|chapter|course)(?:'s|s')\s+rules?\b/i,
+    "counts or names the rules of a part of this course",
+  ],
+];
+
+/** Everything of a question the learner reads before answering it. */
+function learnerVisible(q: AtomicQuestion): string[] {
+  const parts: string[] = [q.stem];
+  if (q.type === "matching") {
+    parts.push(...q.columnHeadings, ...q.columnI, ...q.columnII);
+  } else if (q.type === "integer") {
+    if (q.unit) parts.push(q.unit);
+  } else {
+    parts.push(...q.options);
+  }
+  return parts;
+}
+
+/** The reason a question points at the material, or null if it does not. */
+function materialReference(q: AtomicQuestion): string | null {
+  for (const text of learnerVisible(q)) {
+    for (const [pattern, reason] of MATERIAL_REFERENCE) {
+      if (pattern.test(text)) return reason;
+    }
   }
   return null;
 }
@@ -638,6 +696,13 @@ const CONTENT_QUESTION: Record<string, (stem: string) => boolean> = {
   te: (s) =>
     /\?\s*(?:\*\*)?\s*$/.test(s) &&
     /(?:ఎవరు|ఎవరి|ఏమిటి|ఏది|ఏవి|ఎక్కడ|ఎప్పుడు|ఎందుకు|ఎలా|ఎన్ని|ఎంత|ఎవరిది)/.test(s),
+  // German is verb-second and fronts its interrogative, so the question word
+  // opens the stem as it does in Lithuanian and Esperanto. All of them begin
+  // with w-, which keeps this clear of the sentence-initial capital (¶7).
+  de: (s) =>
+    /^\s*(?:\*\*)?(?:Wer|Wen|Wem|Wessen|Was|Wo|Wohin|Woher|Wann|Warum|Wieso|Weshalb|Wie|Welch(?:e|er|es|en|em)?)(?=\s|[?,.:!]|$)/.test(
+      s,
+    ),
 };
 
 /** Least number of content questions a comprehension passage must carry. */
@@ -797,6 +862,13 @@ export function validateCoursePack(pack: CoursePack): Problem[] {
         err(
           section.id,
           `${q.id}: ${banned}. A question earns its place only if a learner who has not internalised the rule can plausibly get it wrong`,
+        );
+      }
+      const referenced = materialReference(q);
+      if (referenced) {
+        err(
+          section.id,
+          `${q.id}: ${referenced}. A question examines the language, not this course's exposition of it — put the cross-reference in the explanation, which is read after the answer is in (CLAUDE.md §2)`,
         );
       }
     }

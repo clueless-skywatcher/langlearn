@@ -869,13 +869,18 @@
       "id": "a101-q6",
       "type": "integer",
       "difficulty": "medium",
-      "stem": "Which numbered rule of this section states that **dž** spells one sound rather than two? Give the paragraph number.",
-      "explanation": "¶5 sets out the three digraphs **ch, dz, dž**. ¶4 covers the single consonant letters that differ from English, which is the near miss.",
+      "stem": "**ch**, **dz** and **dž** each spell a single sound. How many of the three are letters of the alphabet?",
+      "explanation": "None of them. They are digraphs — two letters for one sound — but the alphabet counts thirty-two letters and no digraph among them, so a dictionary files *dž* under **d** and **ž** separately.",
       "rulesTested": [
-        "digraphs"
+        "digraphs",
+        "alphabet"
       ],
-      "vocabUsed": [],
-      "answer": 5
+      "vocabUsed": [
+        "abėcėlė",
+        "raidė"
+      ],
+      "answer": 0,
+      "unit": "letters"
     },
     {
       "id": "a101-q7",
@@ -1107,8 +1112,8 @@
       "id": "a101-q17",
       "type": "matching",
       "difficulty": "hard",
-      "stem": "Each word below is misspelled in one respect. Match it with the rule its spelling breaks.",
-      "explanation": "*ylgas* gives a short **i** the long letter **y**; *ča* drops the softening **i** required before the back vowel **a**; *dauk* spells the devoicing instead of the underlying **g**; *abecele* drops the length letters **ė**, which is again ¶2 — so ¶2 is used twice and ¶9 not at all. The distractors all assume each rule is used exactly once, which is the habit this item is built to break.",
+      "stem": "Each word below is misspelled in one respect. Match it with the fact of Lithuanian spelling it offends.",
+      "explanation": "*ylgas* gives a short **i** the long letter **y**; *ča* drops the softening **i** required before the back vowel **a**; *dauk* spells the devoicing instead of the underlying **g**; *abecele* drops the length letters **ė**, which is length again (¶2) — so that label answers two of the four and the stress label none. The distractors all assume each label is used exactly once, which is the habit this item is built to break.",
       "rulesTested": [
         "vowel-length",
         "soft-i",
@@ -1122,7 +1127,7 @@
       ],
       "columnHeadings": [
         "Misspelling",
-        "Rule broken"
+        "What the spelling offends"
       ],
       "columnI": [
         "*ilgas* written as *ylgas*",
@@ -1131,10 +1136,10 @@
         "*abėcėlė* written as *abecele*"
       ],
       "columnII": [
-        "¶2 — length is written with the letter that carries it",
-        "¶6 — softening before a back vowel must be written",
-        "¶8 — spelling keeps the underlying consonant",
-        "¶9 — stress is not marked in running text"
+        "length is written with the letter that carries it",
+        "softening before a back vowel is written",
+        "spelling keeps the underlying consonant",
+        "stress is not marked in running text"
       ],
       "options": [
         [
@@ -1264,8 +1269,8 @@
           "id": "a101-p1-q3",
           "type": "single",
           "difficulty": "hard",
-          "stem": "The dialogue writes **Ačiū** with a long **ū** and a soft **č**. If a learner wrote *Aciu*, how many of the section's rules would the spelling break?",
-          "explanation": "*Aciu* loses the bar on **ū** (¶2) and the háček on **č** (¶1, ¶4), turning /tʃ/ into /ts/. The **i** is still written, so the softening rule ¶6 is not broken — which is what separates this from the tempting answer D.",
+          "stem": "The dialogue writes **Ačiū** with a long **ū** and a soft **č**. Which of these does the spelling *Aciu* get wrong?",
+          "explanation": "*Aciu* loses the bar on **ū** (¶2) and the háček on **č** (¶1, ¶4), turning /tʃ/ into /ts/. The **i** is still written, so the softening of ¶6 survives — which is what separates this from the tempting fourth answer.",
           "rulesTested": [
             "vowel-length",
             "alphabet",
@@ -1278,10 +1283,10 @@
             "garsas"
           ],
           "options": [
-            "one — only the length mark",
-            "two — the length of **ū** and the softening **i**",
-            "two — the length of **ū** and the háček on **č**",
-            "three — length, softening, and the háček"
+            "the length of **ū** only",
+            "the length of **ū** and the softening **i**",
+            "the length of **ū** and the háček on **č**",
+            "the length of **ū**, the softening **i**, and the háček on **č**"
           ],
           "correct": 2
         }

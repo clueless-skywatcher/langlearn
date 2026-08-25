@@ -1312,7 +1312,7 @@
       "id": "cp1-m2",
       "type": "matching",
       "difficulty": "hard",
-      "stem": "Match each written detail with the rule that accounts for it.",
+      "stem": "Match each written detail with what accounts for it.",
       "explanation": "Four separate rules of ¶1–¶8, each doing something different to the written word. Only the second is grammatical — the hook is the accusative (¶3, ¶20). The decoy *proper diphthong* would fit *ie* or *uo*, neither of which is in the column.",
       "rulesTested": [
         "soft-i",
@@ -1328,7 +1328,7 @@
       "fromSection": "a1-01",
       "columnHeadings": [
         "Detail",
-        "Rule"
+        "What accounts for it"
       ],
       "columnI": [
         "the **i** of *čia*",

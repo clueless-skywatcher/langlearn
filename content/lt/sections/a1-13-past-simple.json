@@ -1006,9 +1006,10 @@
       "id": "a113-x14",
       "type": "integer",
       "difficulty": "medium",
-      "stem": "**matyti** has the past *mačiau, matė*. Which numbered rule governs a past of this shape? Give the paragraph number.",
-      "answer": 95,
-      "explanation": "¶95 is the *-ė* past. ¶94 is the *-o* past, which is the form a learner produces by analogy with *dirbo* before noticing that *matė* has *-ė*.",
+      "stem": "**matyti** has the past *mačiau, matė*. Which person does the ending of *matė* mark?",
+      "answer": 3,
+      "unit": "person",
+      "explanation": "*matė* is the third principal part and the third person with it, serving both numbers as the third person does in the present. Beside it the first person softens the **t** to **č** before **-iau** — *mačiau*, not *matiau*.",
       "rulesTested": [
         "past-e-type"
       ],
@@ -1363,14 +1364,15 @@
           "id": "a113-p2-q5",
           "type": "integer",
           "difficulty": "medium",
-          "stem": "Which numbered rule governs the past of **metė** and **graužė**? Give the paragraph number.",
-          "explanation": "¶95, the *-ė* past. ¶94 is the *-o* past, which covers *turėjo* and *bėgo* in the same passage — the two types stand side by side here, which is what makes the tale worth reading at this point.",
+          "stem": "The grandmother asks the cockerel **išmušei** and the goat **graužei**. Which person do those endings mark?",
+          "explanation": "**-ei** is the second person singular of the *-ė* past, which is where that past differs from the other: the *-o* type has *-ai* in the same slot, so the goat that ran would be *tu bėgai*, never *bėgei*.",
           "rulesTested": [
             "past-e-type",
             "past-o-type"
           ],
           "vocabUsed": [],
-          "answer": 95
+          "answer": 2,
+          "unit": "person"
         }
       ],
       "sources": [

@@ -36,11 +36,22 @@ Banned outright, at every level:
   spotting the option in a different script, the odd one out by length, the only
   option with a diacritic.
 - Anything answerable by reading the immediately preceding rule text verbatim.
+- Anything that points at this course's own exposition instead of at the
+  language: which numbered rule governs a form, which paragraph states it, how
+  many of a section's rules a spelling breaks, a matching column whose labels
+  are ¶ numbers. *"Which numbered rule governs die Städte?"* is answerable by a
+  learner who has the contents page and no German, and unanswerable by one who
+  has the German and never counted the paragraphs — wrong twice over.
+
+A ¶ number is a cross-reference for the author. It belongs in a rule, a
+paradigm caption, a footnote or an explanation, every one of which the learner
+reads *after* the answer is in, and never in a stem, an option, a matching
+column or an integer's unit. The validator checks all of them.
 
 A question earns its place only if a learner who has not internalised the rule
 can plausibly get it wrong. `IntegerQuestion` exists for grammatical counts
-(how many distinct case forms this paradigm collapses, which numbered rule
-governs the form), not for character counting.
+(how many distinct case forms this paradigm collapses), not for character
+counting.
 
 ## 3. JEE Advanced format
 
@@ -89,7 +100,8 @@ nothing else; keep it that way.
 
 ## 6. Checkpoints and boundary exams
 
-- **Checkpoints** (`kind: "checkpoint"`) examine the 3–4 lessons before them.
+- **Checkpoints** (`kind: "checkpoint"`) examine every lesson since the last
+  checkpoint — the 3–5 sections directly in front of them, with nothing skipped.
   They must be *harder* than the drills they follow and must not reuse or
   lightly reskin drill items. A checkpoint question should combine at least two
   sections' rules wherever the material allows. Reused stems are a validation
@@ -217,9 +229,10 @@ Shapes it takes just as well, several of them better tests than a count:
   figure — *ఇరవై ఒకటి* → 21, *నూట ఇరవై ఒకటి* → 121, *ముగ్గురు* → 3. This tests
   the numeral system head-on, and unlike four options it cannot be narrowed by
   elimination: the learner has to produce the answer.
-- **Read a form and give the value it carries** — which numbered rule governs
-  it, which declension or conjugation it belongs to, which person an ending
-  marks.
+- **Read a form and give the value it carries** — which declension or
+  conjugation it belongs to, which person or number an ending marks, which
+  position in the sentence a word holds. Never which rule of this course
+  governs it (§2).
 - **A quantity the passage states**: an age, a year, a price, a time, a
   distance. The learner has to read the passage to find it.
 - **How many distinct forms a paradigm collapses**, which is the count §2
@@ -318,3 +331,103 @@ is two citations that happen to be adjacent, not a two-word phrase; merging
 them would print *అక్కా, తండ్రి (akkā, taṇḍri)* and read as though the whole
 parenthesis belonged to the second word. A bare comma still joins, so
 `రాము, నేను వస్తాను` stays one sentence.
+
+## 14. A German noun is cited in four cases and the plural
+
+What §13 does for Telugu, this does for German: it fixes the citation form, so
+that a vocabulary entry states the parts of a word a learner cannot derive.
+
+German declines the noun phrase in four cases, and neither the genitive nor
+the plural follows from the nominative — *des Tages* beside *des Hauses*
+beside *des Studenten*, *die Tage* beside *die Häuser* beside *die Studenten*.
+So every noun in a German `vocabulary` block gives its accusative, dative and
+genitive beside its nominative, and its plural with them:
+
+```json
+{ "lemma": "Tag", "gloss": "day", "pos": "noun",
+  "forms": { "nom": "der Tag", "acc": "den Tag", "dat": "dem Tag",
+             "gen": "des Tages", "plural": "die Tage" } }
+```
+
+Each form carries its definite article. In most nouns the article is the only
+thing the case touches — the accusative of *Tag* is *Tag* — so bare noun forms
+would repeat one word four times and hide the declension that is actually
+there. The nominative's article states the gender besides, which is why the
+entry needs no separate field for it.
+
+A noun whose form is the same in two cases still states both. That sameness is
+a fact about the noun, and an omitted field is indistinguishable from a form
+nobody checked. Where usage admits two forms — the genitive *des Manns* beside
+*des Mannes* — give both, separated by a comma.
+
+The plural is cited in the nominative, as *die Tage*, and a noun that has no
+plural says so in `notes` rather than leaving the key out.
+
+The five keys are declared in `Course.formLabels.noun` in the German course
+file, which is what orders and labels them wherever vocabulary is rendered.
+
+### A verb is cited by its infinitive
+
+A German verb is named by its infinitive everywhere it is cited — as the
+`lemma` of a vocabulary entry, in a rule's prose, in a drill explanation and
+in a paradigm caption. *gehen*, never *geht* or *ging*. The infinitive is the
+form a dictionary lists, and citing a verb by an inflected form leaves the
+entry disagreeing with the paradigm printed beneath it.
+
+An inflected form is of course what an *example* shows — *Der Mann isst einen
+Apfel* is a sentence, not a citation. The rule governs how a verb is named
+when it is being named.
+
+## 15. The notes file is the author; this file is the editor
+
+A section is authored from a notes file written by hand — `notes-a1-02.md`,
+`notes-a1-04.md`, and their successors — and that file, not the JSON, is where
+the exposition is decided. The outline says as much: fill a block and the
+section is ready to author, leave it empty and it is not.
+
+So the points in a notes file are kept. Every one of them reaches the section,
+in the order the notes put them, saying what the notes say. What the JSON adds
+is structure — the split into rules that §10 requires, the paradigms, the
+drills, the sources — not a second opinion on the content.
+
+A point is changed only where there is something wrong with it:
+
+- a fact that is false, or that the cited grammar does not support;
+- an example that is ungrammatical, or that turns on material from a later
+  section — *Sie können das tun* in a section before the modals (§14 of the
+  outline), an accusative object before the accusative is taught;
+- a specimen that does not show what the point is about: a strong verb offered
+  as the pattern for the regular endings;
+- a point belonging to another section, which moves there rather than being
+  cut;
+- a statement that breaks a rule of this file — the learner instructed (§9), a
+  paragraph carrying three facts (§10), a count where the numeral itself was
+  the better question (§11).
+
+Fix the fault and leave the point. *"Er geht zu Hause"* becomes *"Er geht nach
+Hause"*; it does not become a different sentence about a different verb.
+
+The notes file is not edited. It is the author's copy, and it stays as written
+— faults, `[Verify this]` markers, unfinished points and all. Every correction
+is made in the section JSON that is built from it, and reported to the author
+in the reply, so that they can see what was changed and say no. A notes file
+rewritten in place destroys the very thing it is being read against.
+
+The bracketed notes already present in the older notes files are a record of
+edits made before this rule; they are left alone and not added to.
+
+### Gaps are filled, examples are added
+
+Two things are contributed rather than merely preserved.
+
+**The inventory rows the notes do not reach.** A notes file is written from
+memory of the language and will not have covered every row the outline assigns
+the section. Those points are written, from the section's cited sources, and
+marked as added so they can be checked.
+
+**Examples.** Illustrations are added freely — a second and third specimen of a
+paradigm, a sentence for a use the notes state abstractly, the counter-example
+that shows where a rule stops. They go *beside* the notes' own examples. An
+example of theirs is replaced only under the faults above, and then the
+original stays in the notes file as a bracketed note, so that nothing is lost
+silently.

@@ -1,0 +1,866 @@
+{
+ "id": "de-08",
+ "kind": "lesson",
+ "level": "A1",
+ "order": 9,
+ "title": "Negation",
+ "summary": "How a German sentence is denied: nicht at the end, in front of a complement or a place, or in front of the one element it contradicts; kein for a noun that would carry ein or no article, with the endings of ein and a plural of its own; and which of the two the noun's own article decides on.",
+ "rules": [
+  {
+   "id": "nicht",
+   "number": "89",
+   "heading": "nicht negates the sentence",
+   "statement": "**nicht** denies what the sentence says. In a simple sentence it stands at the end, after the finite verb and after any object.",
+   "examples": [
+    {
+     "target": "Ich arbeite nicht.",
+     "gloss": "I am not working."
+    },
+    {
+     "target": "Ich kaufe das Buch nicht.",
+     "gloss": "I am not buying the book."
+    },
+    {
+     "target": "Ich sehe ihn nicht.",
+     "gloss": "I do not see him."
+    },
+    {
+     "target": "Wir kennen den Studenten nicht.",
+     "gloss": "We do not know the student."
+    }
+   ],
+   "footnotes": [
+    "**nicht** never stands between the subject and the finite verb: the verb holds second place whatever else moves (¶66)."
+   ],
+   "seeAlso": [
+    "verb-second"
+   ],
+   "sources": [
+    {
+     "kind": "grammar",
+     "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+     "note": "§21.7.1, pp. 469–471, on the position of nicht."
+    },
+    {
+     "kind": "corpus",
+     "citation": "*Goethe-Zertifikat A1: Start Deutsch 1 — Prüfungsziele, Testbeschreibung*, Grammatik-Inventar, pp. 99–106. Goethe-Institut, version A1_SD1_Pruefziele_07 / VS_08_190422, 19.04.2022, with the accompanying *Wortliste*.",
+     "note": "Cited for the syllabus of this section: negation with *nicht* and with *kein*, the declension of *kein* after *ein*, and *kein* in the plural."
+    }
+   ]
+  },
+  {
+   "id": "nicht-before-predicate",
+   "number": "90",
+   "heading": "nicht before a predicative complement",
+   "statement": "**nicht** stands in front of a predicative adjective or noun rather than after it, because the complement belongs with the verb (¶67, ¶68).",
+   "examples": [
+    {
+     "target": "Der Film ist nicht langweilig.",
+     "gloss": "The film is not boring."
+    },
+    {
+     "target": "Das Zimmer ist nicht klein.",
+     "gloss": "The room is not small."
+    },
+    {
+     "target": "Er ist nicht Lehrer.",
+     "gloss": "He is not a teacher.",
+     "note": "The profession stands with no article (¶45), and *nicht* goes in front of it."
+    }
+   ],
+   "seeAlso": [
+    "predicative-adjective",
+    "nominative-complement",
+    "null-profession"
+   ],
+   "sources": [
+    {
+     "kind": "grammar",
+     "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+     "note": "§21.7.1, pp. 469–471."
+    }
+   ]
+  },
+  {
+   "id": "nicht-before-place",
+   "number": "91",
+   "heading": "nicht before an expression of place",
+   "statement": "Where the verb requires a place to complete it, **nicht** stands in front of that place.",
+   "examples": [
+    {
+     "target": "Sie wohnt nicht hier.",
+     "gloss": "She does not live here."
+    },
+    {
+     "target": "Der Student wohnt nicht hier.",
+     "gloss": "The student does not live here."
+    }
+   ],
+   "sources": [
+    {
+     "kind": "grammar",
+     "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+     "note": "§21.7.1, pp. 469–471, on nicht before a complement of place."
+    }
+   ]
+  },
+  {
+   "id": "nicht-constituent",
+   "number": "92",
+   "heading": "nicht before a single element",
+   "statement": "**nicht** placed immediately in front of one element denies that element alone rather than the whole sentence.",
+   "examples": [
+    {
+     "target": "Nicht ich kaufe das Buch.",
+     "gloss": "It is not I who is buying the book.",
+     "note": "The subject is denied, not the buying."
+    },
+    {
+     "target": "Ich arbeite nicht heute.",
+     "gloss": "It is not today that I am working."
+    }
+   ],
+   "sources": [
+    {
+     "kind": "grammar",
+     "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+     "note": "§21.7.1, pp. 469–471, on contrastive negation."
+    }
+   ]
+  },
+  {
+   "id": "kein-for-ein",
+   "number": "93",
+   "heading": "kein negates a noun that has ein or no article",
+   "statement": "A noun standing with **ein**, or with no article at all, is denied by **kein** rather than by **nicht**. German has no *nicht ein*.",
+   "examples": [
+    {
+     "target": "Ich habe kein Auto.",
+     "gloss": "I have no car.",
+     "note": "For *ein Auto*."
+    },
+    {
+     "target": "Ich habe kein Geld.",
+     "gloss": "I have no money.",
+     "note": "For the mass noun *Geld*, which stands with no article (¶46)."
+    },
+    {
+     "target": "Er ist kein Lehrer.",
+     "gloss": "He is not a teacher.",
+     "note": "Beside *Er ist nicht Lehrer* (¶90); both are current."
+    }
+   ],
+   "seeAlso": [
+    "indefinite-forms",
+    "null-mass",
+    "null-plural"
+   ],
+   "sources": [
+    {
+     "kind": "grammar",
+     "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+     "note": "§5.5.16 on kein, with Table 4.2, p. 64."
+    },
+    {
+     "kind": "corpus",
+     "citation": "*Goethe-Zertifikat A1: Start Deutsch 1 — Prüfungsziele, Testbeschreibung*, Grammatik-Inventar, pp. 99–106. Goethe-Institut, version A1_SD1_Pruefziele_07 / VS_08_190422, 19.04.2022, with the accompanying *Wortliste*.",
+     "note": "Cited for the syllabus of this section: negation with *nicht* and with *kein*, the declension of *kein* after *ein*, and *kein* in the plural."
+    }
+   ]
+  },
+  {
+   "id": "kein-declension",
+   "number": "94",
+   "heading": "kein declines like ein",
+   "statement": "**kein** takes the endings of **ein** (¶48), so it becomes **keinen** before a masculine singular in the accusative (¶79).",
+   "examples": [
+    {
+     "target": "Ich habe keinen Apfel.",
+     "gloss": "I have no apple."
+    },
+    {
+     "target": "Ich habe keine Katze.",
+     "gloss": "I have no cat."
+    },
+    {
+     "target": "Ich kenne keinen Studenten.",
+     "gloss": "I know no student.",
+     "note": "The weak masculine keeps its **-en** as well (¶80)."
+    }
+   ],
+   "seeAlso": [
+    "indefinite-forms",
+    "accusative-ein-kein",
+    "weak-masculine"
+   ],
+   "sources": [
+    {
+     "kind": "grammar",
+     "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+     "note": "§5.5.16, with Table 4.2, p. 64."
+    },
+    {
+     "kind": "corpus",
+     "citation": "*Goethe-Zertifikat A1: Start Deutsch 1 — Prüfungsziele, Testbeschreibung*, Grammatik-Inventar, pp. 99–106. Goethe-Institut, version A1_SD1_Pruefziele_07 / VS_08_190422, 19.04.2022, with the accompanying *Wortliste*.",
+     "note": "Cited for the syllabus of this section: negation with *nicht* and with *kein*, the declension of *kein* after *ein*, and *kein* in the plural."
+    }
+   ]
+  },
+  {
+   "id": "kein-plural",
+   "number": "95",
+   "heading": "kein has a plural",
+   "statement": "**kein** has a plural **keine**, where **ein** has no plural at all (¶50). It is the same in the nominative and the accusative.",
+   "examples": [
+    {
+     "target": "Wir haben keine Bücher.",
+     "gloss": "We have no books."
+    },
+    {
+     "target": "Hier sind keine Kinder.",
+     "gloss": "There are no children here."
+    },
+    {
+     "target": "Es gibt keine Äpfel.",
+     "gloss": "There are no apples."
+    }
+   ],
+   "seeAlso": [
+    "indefinite-no-plural",
+    "accusative-ein-kein"
+   ],
+   "sources": [
+    {
+     "kind": "grammar",
+     "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+     "note": "§5.5.16, with Table 4.2, p. 64."
+    },
+    {
+     "kind": "corpus",
+     "citation": "*Goethe-Zertifikat A1: Start Deutsch 1 — Prüfungsziele, Testbeschreibung*, Grammatik-Inventar, pp. 99–106. Goethe-Institut, version A1_SD1_Pruefziele_07 / VS_08_190422, 19.04.2022, with the accompanying *Wortliste*.",
+     "note": "Cited for the syllabus of this section: negation with *nicht* and with *kein*, the declension of *kein* after *ein*, and *kein* in the plural."
+    }
+   ]
+  },
+  {
+   "id": "nicht-or-kein",
+   "number": "96",
+   "heading": "Which of the two negates",
+   "statement": "A noun with the definite article, a possessive or a pronoun is denied by **nicht**; a noun with **ein** or with no article is denied by **kein**. The article the noun already carries decides it.",
+   "examples": [
+    {
+     "target": "Ich kaufe das Buch nicht.",
+     "gloss": "I am not buying the book.",
+     "note": "Definite article, so *nicht*."
+    },
+    {
+     "target": "Ich kaufe kein Buch.",
+     "gloss": "I am not buying a book.",
+     "note": "Would have been *ein Buch*, so *kein*."
+    },
+    {
+     "target": "Ich trinke keinen Kaffee.",
+     "gloss": "I do not drink coffee.",
+     "note": "Mass noun with no article, so *kein*."
+    }
+   ],
+   "seeAlso": [
+    "nicht",
+    "kein-for-ein"
+   ],
+   "sources": [
+    {
+     "kind": "grammar",
+     "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+     "note": "§21.7.1, pp. 469–471, and §5.5.16."
+    },
+    {
+     "kind": "corpus",
+     "citation": "*Goethe-Zertifikat A1: Start Deutsch 1 — Prüfungsziele, Testbeschreibung*, Grammatik-Inventar, pp. 99–106. Goethe-Institut, version A1_SD1_Pruefziele_07 / VS_08_190422, 19.04.2022, with the accompanying *Wortliste*.",
+     "note": "Cited for the syllabus of this section: negation with *nicht* and with *kein*, the declension of *kein* after *ein*, and *kein* in the plural."
+    }
+   ]
+  },
+  {
+   "id": "doch",
+   "number": "97",
+   "heading": "doch",
+   "core": false,
+   "statement": "**doch** answers a negatively put question by contradicting it, where **ja** would leave the denial standing.",
+   "examples": [
+    {
+     "target": "Trinkst du keinen Kaffee? — Doch!",
+     "gloss": "Don't you drink coffee? — Yes, I do."
+    },
+    {
+     "target": "Ist das Zimmer nicht klein? — Doch, es ist klein.",
+     "gloss": "Isn't the room small? — Yes, it is small."
+    }
+   ],
+   "seeAlso": [
+    "answering"
+   ],
+   "sources": [
+    {
+     "kind": "grammar",
+     "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+     "note": "§21.7.1 and §5.5.16, on the answering particles."
+    }
+   ]
+  }
+ ],
+ "vocabulary": [
+  {
+   "lemma": "nicht",
+   "gloss": "not",
+   "pos": "adverb",
+   "forms": {},
+   "notes": "Denies the sentence, or the one element it stands in front of (¶89, ¶92)."
+  },
+  {
+   "lemma": "kein",
+   "gloss": "no, not a",
+   "pos": "pronoun",
+   "forms": {},
+   "notes": "Declines like *ein* and has a plural: *keinen, keine, kein, keine* (¶94, ¶95)."
+  },
+  {
+   "lemma": "doch",
+   "gloss": "yes (contradicting)",
+   "pos": "particle",
+   "forms": {},
+   "notes": "Answers a negative question by denying the denial (¶97)."
+  },
+  {
+   "lemma": "Tee",
+   "gloss": "tea",
+   "pos": "noun",
+   "forms": {
+    "nom": "der Tee",
+    "acc": "den Tee",
+    "dat": "dem Tee",
+    "gen": "des Tees",
+    "plural": "die Tees"
+   },
+   "notes": "As a substance the plural is not used; *die Tees* counts cups or sorts."
+  },
+  {
+   "lemma": "Problem",
+   "gloss": "problem",
+   "pos": "noun",
+   "forms": {
+    "nom": "das Problem",
+    "acc": "das Problem",
+    "dat": "dem Problem",
+    "gen": "des Problems",
+    "plural": "die Probleme"
+   }
+  }
+ ],
+ "drills": [
+  {
+   "id": "de108-q1",
+   "type": "single",
+   "difficulty": "easy",
+   "stem": "*Ich arbeite heute.* — how is this denied?",
+   "options": [
+    "Ich arbeite heute nicht.",
+    "Ich nicht arbeite heute.",
+    "Nicht arbeite ich heute.",
+    "Ich arbeite nicht."
+   ],
+   "correct": 0,
+   "explanation": "**nicht** goes at the end (¶89). The second puts it between subject and finite verb, which the verb-second rule forbids (¶66); the third puts the verb first, which belongs to a yes/no question (¶75); the fourth drops *heute*.",
+   "rulesTested": [
+    "nicht"
+   ]
+  },
+  {
+   "id": "de108-q2",
+   "type": "single",
+   "difficulty": "easy",
+   "stem": "*Ich habe ____ Geld.*",
+   "options": [
+    "kein",
+    "nicht",
+    "keinen",
+    "nicht ein"
+   ],
+   "correct": 0,
+   "explanation": "*Geld* is a mass noun standing with no article (¶46), and such a noun is denied by **kein** (¶93). German has no *nicht ein*.",
+   "rulesTested": [
+    "kein-for-ein"
+   ],
+   "vocabUsed": [
+    "Geld",
+    "kein"
+   ]
+  },
+  {
+   "id": "de108-q3",
+   "type": "single",
+   "difficulty": "medium",
+   "stem": "*Der Film ist ____.* — denying that it is boring",
+   "options": [
+    "nicht langweilig",
+    "langweilig nicht",
+    "kein langweilig",
+    "nicht ein langweilig"
+   ],
+   "correct": 0,
+   "explanation": "**nicht** stands in front of a predicative adjective (¶90). *kein* negates nouns, not adjectives.",
+   "rulesTested": [
+    "nicht-before-predicate"
+   ],
+   "vocabUsed": [
+    "langweilig"
+   ]
+  },
+  {
+   "id": "de108-q4",
+   "type": "single",
+   "difficulty": "medium",
+   "stem": "*Ich habe ____ Apfel.*",
+   "options": [
+    "keinen",
+    "kein",
+    "keine",
+    "nicht"
+   ],
+   "correct": 0,
+   "explanation": "*Apfel* is a masculine singular object, so *kein* takes the accusative **-en** of *ein* (¶94, ¶79).",
+   "rulesTested": [
+    "kein-declension"
+   ],
+   "vocabUsed": [
+    "Apfel",
+    "kein"
+   ]
+  },
+  {
+   "id": "de108-q5",
+   "type": "single",
+   "difficulty": "medium",
+   "stem": "*Wir haben ____ Bücher.*",
+   "options": [
+    "keine",
+    "kein",
+    "keinen",
+    "nicht"
+   ],
+   "correct": 0,
+   "explanation": "*kein* has a plural where *ein* has none (¶95, ¶50), and the plural is *keine* in both the nominative and the accusative.",
+   "rulesTested": [
+    "kein-plural"
+   ],
+   "vocabUsed": [
+    "Buch",
+    "kein"
+   ]
+  },
+  {
+   "id": "de108-q6",
+   "type": "single",
+   "difficulty": "medium",
+   "stem": "*Sie wohnt hier.* — how is this denied?",
+   "options": [
+    "Sie wohnt nicht hier.",
+    "Sie nicht wohnt hier.",
+    "Sie wohnt kein hier.",
+    "Nicht wohnt sie hier."
+   ],
+   "correct": 0,
+   "explanation": "*wohnen* wants a place to complete it, and **nicht** goes in front of that place (¶91).",
+   "rulesTested": [
+    "nicht-before-place"
+   ],
+   "vocabUsed": [
+    "wohnen"
+   ]
+  },
+  {
+   "id": "de108-q7",
+   "type": "single",
+   "difficulty": "medium",
+   "stem": "*Ich sehe ihn.* — how is this denied?",
+   "options": [
+    "Ich sehe ihn nicht.",
+    "Ich sehe nicht.",
+    "Ich nicht sehe ihn.",
+    "Ich sehe ihn kein."
+   ],
+   "correct": 0,
+   "explanation": "A pronoun object stands in front of **nicht**, which closes the sentence (¶89). *kein* cannot deny a pronoun.",
+   "rulesTested": [
+    "nicht",
+    "accusative-pronouns"
+   ],
+   "vocabUsed": [
+    "sehen"
+   ]
+  },
+  {
+   "id": "de108-q8",
+   "type": "multi",
+   "difficulty": "hard",
+   "stem": "Which of these are denied with **kein** rather than with **nicht**?",
+   "options": [
+    "*Ich kaufe ein Buch.*",
+    "*Ich habe Zeit.*",
+    "*Ich kaufe das Buch.*",
+    "*Ich sehe ihn.*"
+   ],
+   "correct": [
+    0,
+    1
+   ],
+   "explanation": "*ein Buch* and the article-less *Zeit* are denied by **kein** (¶93). The definite *das Buch* and the pronoun *ihn* are denied by **nicht** (¶96): the article the noun already carries decides which is used.",
+   "rulesTested": [
+    "nicht-or-kein",
+    "kein-for-ein",
+    "nicht"
+   ]
+  },
+  {
+   "id": "de108-q9",
+   "type": "single",
+   "difficulty": "hard",
+   "stem": "Which of these is not German?",
+   "options": [
+    "Ich habe nicht ein Auto.",
+    "Ich habe kein Auto.",
+    "Ich habe das Auto nicht.",
+    "Ich habe keine Autos."
+   ],
+   "correct": 0,
+   "explanation": "*nicht ein* does not occur: a noun with *ein* is denied by *kein* (¶93). The other three are the definite, the indefinite and the plural negations.",
+   "rulesTested": [
+    "kein-for-ein",
+    "nicht-or-kein",
+    "kein-plural"
+   ],
+   "vocabUsed": [
+    "Auto"
+   ]
+  },
+  {
+   "id": "de108-q10",
+   "type": "matching",
+   "difficulty": "hard",
+   "stem": "Pair each sentence with what accounts for the way it is denied.",
+   "columnHeadings": [
+    "Denial",
+    "Reason"
+   ],
+   "columnI": [
+    "*Ich kaufe das Buch nicht*",
+    "*Ich kaufe kein Buch*",
+    "*Der Film ist nicht langweilig*",
+    "*Ich habe keinen Apfel*"
+   ],
+   "columnII": [
+    "the noun carries the definite article, so *nicht*",
+    "the noun would carry *ein*, so *kein*",
+    "*nicht* stands in front of a predicative adjective",
+    "*kein* takes the masculine accusative **-en** of *ein*",
+    "the noun is a plural, so *keine*"
+   ],
+   "options": [
+    [
+     0,
+     1,
+     2,
+     3
+    ],
+    [
+     0,
+     1,
+     3,
+     2
+    ],
+    [
+     4,
+     1,
+     2,
+     3
+    ],
+    [
+     1,
+     0,
+     2,
+     3
+    ]
+   ],
+   "correct": 0,
+   "explanation": "¶96 for the definite article, ¶93 for the *ein*-noun, ¶90 for the adjective and ¶94 for *keinen*. The last label describes a plural and fits none of the four.",
+   "rulesTested": [
+    "nicht-or-kein",
+    "kein-for-ein",
+    "nicht-before-predicate",
+    "kein-declension"
+   ]
+  },
+  {
+   "id": "de108-q11",
+   "type": "integer",
+   "difficulty": "hard",
+   "stem": "In the accusative, *kein* stands in front of a masculine, a feminine, a neuter and a plural noun. How many distinct forms does it take across those four?",
+   "answer": 3,
+   "unit": "forms",
+   "explanation": "The accusative gives *keinen Apfel*, *keine Katze*, *kein Buch* and *keine Bücher*: the feminine and the plural share *keine*, so the four slots come to three forms. *ein* fills only the three singular ones, having no plural at all.",
+   "rulesTested": [
+    "kein-declension",
+    "kein-plural"
+   ],
+   "vocabUsed": [
+    "kein",
+    "Apfel",
+    "Katze",
+    "Buch"
+   ]
+  },
+  {
+   "id": "de108-q12",
+   "type": "integer",
+   "difficulty": "medium",
+   "stem": "*Ich sehe ihn nicht.* Which person does *ihn* stand for?",
+   "answer": 3,
+   "unit": "person",
+   "explanation": "*ihn* is the accusative of *er*, the third person singular masculine (¶81). *nicht* closes the sentence behind it (¶89).",
+   "rulesTested": [
+    "nicht",
+    "accusative-pronouns"
+   ]
+  },
+  {
+   "id": "de108-q13",
+   "type": "single",
+   "difficulty": "medium",
+   "stem": "*Trinkst du keinen Kaffee?* — the answer that says you do drink it",
+   "options": [
+    "Doch!",
+    "Ja!",
+    "Nein!",
+    "Nicht!"
+   ],
+   "correct": 0,
+   "explanation": "**doch** contradicts a negatively put question (¶97). *Ja* would leave the denial standing, and *nein* would confirm it.",
+   "rulesTested": [
+    "doch"
+   ],
+   "vocabUsed": [
+    "doch",
+    "Kaffee"
+   ]
+  },
+  {
+   "id": "de108-q14",
+   "type": "single",
+   "difficulty": "hard",
+   "stem": "*____ du keinen Kaffee?* (trinken)",
+   "options": [
+    "Trinkst",
+    "Trinken",
+    "Trinkt",
+    "Trinke"
+   ],
+   "correct": 0,
+   "explanation": "A yes/no question puts the finite verb first (¶75) and the subject is *du*, so the ending is **-st** (¶55). *keinen* is the masculine accusative of *kein* (¶94).",
+   "rulesTested": [
+    "kein-declension",
+    "entscheidungsfrage"
+   ],
+   "vocabUsed": [
+    "trinken",
+    "Kaffee"
+   ]
+  },
+  {
+   "id": "de108-q15",
+   "type": "multi",
+   "difficulty": "hard",
+   "stem": "*Er ist nicht Lehrer.* Which of these hold?",
+   "options": [
+    "*Lehrer* stands with no article because it is a profession after *sein*",
+    "**nicht** stands in front of the complement rather than after it",
+    "*Er ist kein Lehrer* says the same thing",
+    "*Er ist Lehrer nicht* is the ordinary order"
+   ],
+   "correct": [
+    0,
+    1,
+    2
+   ],
+   "explanation": "A profession after *sein* takes no article (¶45), and *nicht* precedes the complement (¶90). Because the noun carries no article, *kein* is available too (¶93), so both denials are current. The fourth is not German.",
+   "rulesTested": [
+    "nicht-before-predicate",
+    "kein-for-ein"
+   ],
+   "vocabUsed": [
+    "Lehrer"
+   ]
+  },
+  {
+   "id": "de108-q16",
+   "type": "single",
+   "difficulty": "hard",
+   "stem": "*Ich kenne keinen ____.* (Student)",
+   "options": [
+    "Studenten",
+    "Student",
+    "Studente",
+    "Studentn"
+   ],
+   "correct": 0,
+   "explanation": "*kein* takes the masculine accusative **-en** (¶94), and *der Student* is a weak masculine that adds **-en** of its own outside the nominative singular (¶80). Both endings are there for different reasons.",
+   "rulesTested": [
+    "kein-declension",
+    "weak-masculine"
+   ],
+   "vocabUsed": [
+    "kennen",
+    "Student"
+   ]
+  },
+  {
+   "id": "de108-q17",
+   "type": "single",
+   "difficulty": "hard",
+   "stem": "*Nicht ich kaufe das Buch.* What does this deny?",
+   "options": [
+    "that it is I who is buying",
+    "that the book is being bought",
+    "that anything is being bought",
+    "that the book is a book"
+   ],
+   "correct": 0,
+   "explanation": "**nicht** in front of a single element denies that element alone (¶92). Sentence negation would be *Ich kaufe das Buch nicht* (¶89).",
+   "rulesTested": [
+    "nicht-constituent",
+    "nicht"
+   ]
+  },
+  {
+   "id": "de108-p1",
+   "type": "comprehension",
+   "difficulty": "hard",
+   "title": "Kaffee oder Tee",
+   "passage": "ANNA. Trinkst du Kaffee?\nLUKAS. Nein, ich trinke keinen Kaffee.\nANNA. Trinkst du Tee?\nLUKAS. Ja, ich trinke Tee. Hast du Tee?\nANNA. Nein, ich habe keinen Tee. Ich habe nur Kaffee.\nLUKAS. Ist das ein Problem?\nANNA. Nein, das ist kein Problem. Es gibt hier ein Café.\nLUKAS. Ist das Café nicht weit?\nANNA. Doch, es ist weit. Aber wir haben Zeit.",
+   "translation": "ANNA. Do you drink coffee? — LUKAS. No, I don't drink coffee. — ANNA. Do you drink tea? — LUKAS. Yes, I drink tea. Do you have tea? — ANNA. No, I have no tea. I only have coffee. — LUKAS. Is that a problem? — ANNA. No, that is not a problem. There is a café here. — LUKAS. Isn't the café far? — ANNA. Yes it is, it is far. But we have time.",
+   "glossary": {
+    "nur": "only",
+    "Café": "café",
+    "weit": "far",
+    "Aber": "but",
+    "hier": "here",
+    "Es gibt": "there is, there are"
+   },
+   "questions": [
+    {
+     "id": "de108-p1-c1",
+     "type": "single",
+     "difficulty": "medium",
+     "stem": "Was trinkt Lukas?",
+     "options": [
+      "Tee",
+      "Kaffee",
+      "Kaffee und Tee",
+      "nichts"
+     ],
+     "correct": 0,
+     "explanation": "*Ja, ich trinke Tee* against *ich trinke keinen Kaffee*. The coffee is what Anna has, not what Lukas drinks.",
+     "rulesTested": [],
+     "vocabUsed": [
+      "Tee",
+      "trinken"
+     ]
+    },
+    {
+     "id": "de108-p1-c2",
+     "type": "single",
+     "difficulty": "medium",
+     "stem": "Wer hat keinen Tee?",
+     "options": [
+      "Anna",
+      "Lukas",
+      "das Café",
+      "niemand"
+     ],
+     "correct": 0,
+     "explanation": "*Nein, ich habe keinen Tee* is Anna's line. Lukas drinks the tea; he does not say whether he has any.",
+     "rulesTested": [
+      "kein-declension"
+     ],
+     "vocabUsed": [
+      "Tee"
+     ]
+    },
+    {
+     "id": "de108-p1-c3",
+     "type": "single",
+     "difficulty": "hard",
+     "stem": "Wie ist das Café?",
+     "options": [
+      "weit",
+      "klein",
+      "neu",
+      "nicht weit"
+     ],
+     "correct": 0,
+     "explanation": "*Ist das Café nicht weit? — Doch, es ist weit.* **doch** contradicts the negative question, so the café is far after all (¶97); an answer of *ja* would have left the denial standing.",
+     "rulesTested": [
+      "doch"
+     ],
+     "vocabUsed": [
+      "doch"
+     ]
+    },
+    {
+     "id": "de108-p1-c4",
+     "type": "multi",
+     "difficulty": "hard",
+     "stem": "*Das ist kein Problem.* Which of these hold?",
+     "options": [
+      "*Problem* would otherwise carry *ein*, so *kein* denies it",
+      "*Problem* is neuter, so *kein* takes no ending",
+      "*Das ist nicht ein Problem* would be the ordinary alternative",
+      "*sein* takes a complement in the nominative here"
+     ],
+     "correct": [
+      0,
+      1,
+      3
+     ],
+     "explanation": "*ein Problem* becomes *kein Problem* (¶93), the neuter takes no ending (¶94), and what follows *sein* is a nominative complement (¶86). *nicht ein* does not occur.",
+     "rulesTested": [
+      "kein-for-ein",
+      "kein-declension",
+      "no-accusative-after-sein"
+     ],
+     "vocabUsed": [
+      "Problem"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "kind": "composed",
+     "citation": "Composed for this course.",
+     "note": "A dialogue over a drink, built from the negation of ¶89–¶97 with the questions of ¶69–¶76 and the accusative of ¶77–¶88. It leans on §21.7.1 of Hammer for the position of nicht and on the Goethe Wortliste for its vocabulary."
+    }
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "kind": "grammar",
+   "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+   "note": "§21.7.1, pp. 469–471, on negation with nicht and its position; §5.5.16 on kein, with Table 4.2, p. 64, for its declension."
+  },
+  {
+   "kind": "corpus",
+   "citation": "*Goethe-Zertifikat A1: Start Deutsch 1 — Prüfungsziele, Testbeschreibung*, Grammatik-Inventar, pp. 99–106. Goethe-Institut, version A1_SD1_Pruefziele_07 / VS_08_190422, 19.04.2022, with the accompanying *Wortliste*.",
+   "note": "Cited for the syllabus of this section: negation with *nicht* and with *kein*, the declension of *kein* after *ein*, and *kein* in the plural."
+  }
+ ]
+}

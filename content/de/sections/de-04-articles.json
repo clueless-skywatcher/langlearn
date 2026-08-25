@@ -1,0 +1,636 @@
+{
+  "id": "de-04",
+  "kind": "lesson",
+  "level": "A1",
+  "order": 4,
+  "title": "The Article, and the Article That Is Not There",
+  "summary": "Where German puts a definite article that English leaves out, which country names carry one, the forms and work of ein, and the contexts in which a German noun stands with no article at all.",
+  "rules": [
+    {
+      "id": "article-generalisation",
+      "number": "42",
+      "heading": "The article with a noun meant as a class",
+      "statement": "A noun standing for a whole class takes the definite article in German, where English uses a bare plural. The singular with **der/die/das** and the plural with **die** are both current.",
+      "examples": [
+        { "target": "Die Tanne ist ein Nadelbaum.", "gloss": "The fir is a conifer." },
+        { "target": "Die Tannen sind Nadelbäume.", "gloss": "Firs are conifers." },
+        { "target": "Das Auto ist der Fluch der modernen Stadt.", "gloss": "Cars are the curse of modern cities." }
+      ],
+      "seeAlso": ["noun-gender", "plural-die"],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§4.3.1, pp. 69–70, with *Die Tanne ist ein Nadelbaum* and the *Zeit* quotation."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "article-abstract",
+      "number": "43",
+      "heading": "The article with abstract nouns",
+      "statement": "An abstract noun referred to as a definite whole takes the definite article, where English has none.",
+      "examples": [
+        { "target": "Er liebte die Demokratie.", "gloss": "He loved democracy." },
+        { "target": "Er fürchtet das Alter.", "gloss": "He is afraid of old age." },
+        { "target": "Die Zeit vergeht.", "gloss": "Time passes." }
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§4.2.1(a), p. 65."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "article-countries",
+      "number": "44",
+      "heading": "The article with country names",
+      "statement": "Most country names take no article. Feminine and plural names always take one, and a few masculine names take one optionally.",
+      "examples": [
+        { "target": "Deutschland", "gloss": "Germany", "note": "no article" },
+        { "target": "Spanien", "gloss": "Spain", "note": "no article" },
+        { "target": "die Schweiz", "gloss": "Switzerland", "note": "feminine" },
+        { "target": "die Türkei", "gloss": "Turkey", "note": "feminine" },
+        { "target": "die USA", "gloss": "the USA", "note": "plural" },
+        { "target": "die Niederlande", "gloss": "the Netherlands", "note": "plural" },
+        { "target": "(der) Iran", "gloss": "Iran", "note": "masculine; the article is optional" }
+      ],
+      "paradigms": [
+        {
+          "caption": "Country names and the article",
+          "columns": ["Type", "Article", "Examples"],
+          "rows": [
+            { "label": "neuter names", "cells": ["none", "*Deutschland*, *Norwegen*, *Spanien*"] },
+            { "label": "feminine names", "cells": ["always", "*die Schweiz*, *die Türkei*, *die Ukraine*"] },
+            { "label": "plural names", "cells": ["always", "*die USA*, *die Niederlande*"] },
+            { "label": "masculine names", "cells": ["usual but optional", "*(der) Iran*, *(der) Libanon*"] }
+          ]
+        }
+      ],
+      "seeAlso": ["noun-gender"],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§4.4.1(a)–(c), pp. 70–71."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "null-profession",
+      "number": "45",
+      "heading": "No article with a profession or a nationality",
+      "statement": "After **sein**, **werden** and **bleiben**, a noun naming a profession, a nationality or a class of people stands with no article, where English has *a*.",
+      "examples": [
+        { "target": "Er ist Arzt.", "gloss": "He is a doctor." },
+        { "target": "Sie ist Ärztin.", "gloss": "She is a doctor." },
+        { "target": "Hans ist Bäcker.", "gloss": "Hans is a baker." },
+        { "target": "Petra ist Schweizerin.", "gloss": "Petra is Swiss." },
+        { "target": "Ich bin Deutscher.", "gloss": "I am a German." },
+        { "target": "Danach wurde er Marxist.", "gloss": "After that he became a Marxist." }
+      ],
+      "footnotes": [
+        "An article returns as soon as the noun is qualified and names an individual rather than a class — *Sie ist eine bekannte Anwältin* ‘she is a well-known lawyer’.",
+        "The names of the months and the seasons also stand without an article after *sein* — *Jetzt ist Sommer*, *Es war schon April*."
+      ],
+      "seeAlso": ["feminine-in"],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§4.8.2(a) and (c), pp. 74–75."
+        },
+        {
+          "kind": "grammar",
+          "citation": "*Nullartikel*, Wikipedia (German).",
+          "url": "https://de.wikipedia.org/wiki/Nullartikel",
+          "note": "„Hans ist Bäcker.“ „Petra ist Schweizerin.“ — the predicative zero article."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "null-mass",
+      "number": "46",
+      "heading": "No article with a mass noun",
+      "statement": "A noun naming a substance or an abstract idea taken in a vague, partial sense stands with no article. English can usually insert *some* or *any* in front of the same noun.",
+      "examples": [
+        { "target": "Ich esse gern Fleisch.", "gloss": "I like eating meat." },
+        { "target": "Kannst du mir Geld leihen?", "gloss": "Can you lend me (some) money?" },
+        { "target": "Zu dieser Aufgabe gehört Mut.", "gloss": "This task demands (some) courage." },
+        { "target": "Bewegung ist gesund.", "gloss": "Exercise is healthy." }
+      ],
+      "seeAlso": ["article-abstract"],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§4.2.2(a), pp. 65–66."
+        },
+        {
+          "kind": "grammar",
+          "citation": "*Nullartikel*, Wikipedia (German).",
+          "url": "https://de.wikipedia.org/wiki/Nullartikel",
+          "note": "„indefinite Massensubstantive (wie in kannst du mir Geld leihen?)“"
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "null-plural",
+      "number": "47",
+      "heading": "No article with an indefinite plural",
+      "statement": "A plural noun meant indefinitely stands with no article. The same plural with **die** in front of it presents the class as a whole instead (¶42).",
+      "examples": [
+        { "target": "Da waren Studenten.", "gloss": "There were students there." },
+        { "target": "Tannen sind Nadelbäume.", "gloss": "Firs are conifers." },
+        { "target": "Ich kaufe Äpfel.", "gloss": "I am buying apples." },
+        { "target": "Sachen", "gloss": "things" }
+      ],
+      "footnotes": [
+        "Fixed pairs of nouns keep no article either — *Haus und Hof*, *Mann und Maus*."
+      ],
+      "seeAlso": ["article-generalisation", "plural-die"],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "*Nullartikel*, Wikipedia (German).",
+          "url": "https://de.wikipedia.org/wiki/Nullartikel",
+          "note": "„indefinite pluralische Nominalsyntagmen (wie in da waren Studenten)“; the formulaic pairs *Haus und Hof*, *Mann und Maus*."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§4.3.1(d), p. 69, for *Tannen sind Nadelbäume* beside *Die Tannen sind Nadelbäume*."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "indefinite-forms",
+      "number": "48",
+      "heading": "The forms of the indefinite article",
+      "statement": "The indefinite article is **ein** with a masculine noun, **eine** with a feminine one, and **ein** again with a neuter one. Masculine and neuter share the one form, so *ein* on its own does not tell the two apart the way *der* and *das* do (¶25).",
+      "examples": [
+        { "target": "ein Tisch", "gloss": "a table", "note": "masculine" },
+        { "target": "eine Wand", "gloss": "a wall", "note": "feminine" },
+        { "target": "ein Fenster", "gloss": "a window", "note": "neuter" }
+      ],
+      "paradigms": [
+        {
+          "caption": "The two articles side by side, nominative",
+          "columns": ["Gender", "Indefinite", "Definite"],
+          "rows": [
+            { "label": "masculine", "cells": ["ein", "der"] },
+            { "label": "feminine", "cells": ["eine", "die"] },
+            { "label": "neuter", "cells": ["ein", "das"] },
+            { "label": "plural", "cells": ["— (no form)", "die"] }
+          ],
+          "footnote": "The definite article distinguishes all three genders; the indefinite one collapses masculine and neuter."
+        }
+      ],
+      "seeAlso": ["noun-gender"],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§4.1.2 with Table 4.2, p. 64."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "indefinite-function",
+      "number": "49",
+      "heading": "What the two articles do",
+      "statement": "The indefinite article introduces something the hearer has not met yet; the definite article takes up something already identified. A thing named with **ein** the first time is named with **der**, **die** or **das** the second.",
+      "examples": [
+        { "target": "Ich sehe ein Haus. Das Haus ist alt.", "gloss": "I see a house. The house is old." },
+        { "target": "Da ist eine Frau. Die Frau wartet.", "gloss": "There is a woman. The woman is waiting." }
+      ],
+      "seeAlso": ["indefinite-forms", "article-generalisation"],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "*Artikel (Wortart)*, Wikipedia (German).",
+          "url": "https://de.wikipedia.org/wiki/Artikel_(Wortart)",
+          "note": "The indefinite article „führt mithilfe der gegebenen Beschreibung ein neues Individuum ein“; the definite article „greift ein bereits erwähntes und nach der Beschreibung eindeutig bestimmbares Individuum wieder auf“."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "indefinite-no-plural",
+      "number": "50",
+      "heading": "The indefinite article has no plural",
+      "statement": "There is no plural form of **ein**: the plural of *ein Buch* is **Bücher**, standing with no article at all (¶47). The bare noun is also what German uses where English says *some* or *any*.",
+      "examples": [
+        { "target": "ein Buch — Bücher", "gloss": "a book — books" },
+        { "target": "Ich möchte Suppe.", "gloss": "I should like some soup." },
+        { "target": "Hast du Geld bei dir?", "gloss": "Have you got any money on you?" },
+        { "target": "Ich habe Äpfel gekauft.", "gloss": "I bought some apples." }
+      ],
+      "seeAlso": ["null-plural", "null-mass", "indefinite-forms"],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "Table 4.2, p. 64, which gives a plural for *kein* and none for *ein*; §4.8.7, p. 75, for the bare noun as English *some*/*any*."
+        },
+        {
+          "kind": "grammar",
+          "citation": "*Artikel (Wortart)*, Wikipedia (German).",
+          "url": "https://de.wikipedia.org/wiki/Artikel_(Wortart)",
+          "note": "„der unbestimmte Artikel im Plural stets die Nullform ∅“ — *ein Buch* against *∅ Bücher*."
+        }
+      ],
+      "core": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "lemma": "Schweiz",
+      "gloss": "Switzerland",
+      "pos": "noun",
+      "forms": {
+        "nom": "die Schweiz",
+        "acc": "die Schweiz",
+        "dat": "der Schweiz",
+        "gen": "der Schweiz",
+        "plural": "—"
+      },
+      "notes": "Feminine, and always with the article: die Schweiz (¶44). A country name has no plural."
+    },
+    {
+      "lemma": "Türkei",
+      "gloss": "Turkey",
+      "pos": "noun",
+      "forms": {
+        "nom": "die Türkei",
+        "acc": "die Türkei",
+        "dat": "der Türkei",
+        "gen": "der Türkei",
+        "plural": "—"
+      },
+      "notes": "Feminine, and always with the article: die Türkei (¶44). A country name has no plural."
+    },
+    {
+      "lemma": "Deutschland",
+      "gloss": "Germany",
+      "pos": "noun",
+      "forms": {
+        "nom": "Deutschland",
+        "acc": "Deutschland",
+        "dat": "Deutschland",
+        "gen": "Deutschlands",
+        "plural": "—"
+      },
+      "notes": "Neuter, and used without an article (¶44), so no case but the genitive is marked on it. A country name has no plural."
+    },
+    {
+      "lemma": "Fleisch",
+      "gloss": "meat",
+      "pos": "noun",
+      "forms": {
+        "nom": "das Fleisch",
+        "acc": "das Fleisch",
+        "dat": "dem Fleisch",
+        "gen": "des Fleisches",
+        "plural": "—"
+      },
+      "notes": "A mass noun (¶46), with no plural in ordinary use."
+    },
+    {
+      "lemma": "Geld",
+      "gloss": "money",
+      "pos": "noun",
+      "forms": {
+        "nom": "das Geld",
+        "acc": "das Geld",
+        "dat": "dem Geld",
+        "gen": "des Geldes",
+        "plural": "die Gelder"
+      },
+      "notes": "The plural die Gelder means 'funds, monies', not 'more than one coin'."
+    },
+    {
+      "lemma": "Zeit",
+      "gloss": "time",
+      "pos": "noun",
+      "forms": {
+        "nom": "die Zeit",
+        "acc": "die Zeit",
+        "dat": "der Zeit",
+        "gen": "der Zeit",
+        "plural": "die Zeiten"
+      }
+    },
+    {
+      "lemma": "Arzt",
+      "gloss": "doctor",
+      "pos": "noun",
+      "forms": {
+        "nom": "der Arzt",
+        "acc": "den Arzt",
+        "dat": "dem Arzt",
+        "gen": "des Arztes",
+        "plural": "die Ärzte"
+      }
+    },
+    {
+      "lemma": "Bäcker",
+      "gloss": "baker",
+      "pos": "noun",
+      "forms": {
+        "nom": "der Bäcker",
+        "acc": "den Bäcker",
+        "dat": "dem Bäcker",
+        "gen": "des Bäckers",
+        "plural": "die Bäcker"
+      }
+    },
+    {
+      "lemma": "Student",
+      "gloss": "student",
+      "pos": "noun",
+      "forms": {
+        "nom": "der Student",
+        "acc": "den Studenten",
+        "dat": "dem Studenten",
+        "gen": "des Studenten",
+        "plural": "die Studenten"
+      },
+      "notes": "A weak masculine: it takes -en in every case but the nominative singular."
+    }
+  ],
+  "drills": [
+    {
+      "id": "de104-q1",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "English says *He is a doctor*. How does German say it?",
+      "options": [
+        "Er ist Arzt.",
+        "Er ist ein Arzt.",
+        "Er ist der Arzt.",
+        "Er ist das Arzt."
+      ],
+      "correct": 0,
+      "explanation": "A profession after *sein* stands with no article (¶45). The second is not wrong in every context, but it names a particular individual rather than saying what he does for a living.",
+      "rulesTested": ["null-profession"]
+    },
+    {
+      "id": "de104-q2",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "In which of these does German use no article where English uses one?",
+      "options": [
+        "Er ist Arzt.",
+        "Ich bin Deutscher.",
+        "Die Zeit vergeht.",
+        "Petra ist Schweizerin."
+      ],
+      "correct": [0, 1, 3],
+      "explanation": "Professions and nationalities after *sein* take no article (¶45). *Die Zeit vergeht* runs the other way: German has an article where English has none (¶43).",
+      "rulesTested": ["null-profession", "article-abstract"]
+    },
+    {
+      "id": "de104-q3",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Which of these country names is always used with a definite article?",
+      "options": ["Deutschland", "Schweiz", "Spanien", "Norwegen"],
+      "correct": 1,
+      "explanation": "*Schweiz* is feminine, and feminine country names always carry the article — *die Schweiz* (¶44). The other three are neuter and take none.",
+      "rulesTested": ["article-countries"]
+    },
+    {
+      "id": "de104-q4",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which of these country names carry a definite article?",
+      "options": ["Türkei", "USA", "Frankreich", "Niederlande"],
+      "correct": [0, 1, 3],
+      "explanation": "*Türkei* is feminine, and *USA* and *Niederlande* are plural; all three always take the article (¶44). *Frankreich* is neuter and takes none.",
+      "rulesTested": ["article-countries"]
+    },
+    {
+      "id": "de104-q5",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "In which of these is **die** there because the name is plural rather than because it is feminine?",
+      "options": ["die Schweiz", "die USA", "die Türkei", "die Niederlande"],
+      "correct": [1, 3],
+      "explanation": "*USA* and *Niederlande* are plural names, and every plural takes **die** whatever its gender (¶26, ¶44). *Schweiz* and *Türkei* are feminine singulars, where **die** is the gender article (¶25).",
+      "rulesTested": ["article-countries", "plural-die", "noun-gender"]
+    },
+    {
+      "id": "de104-q6",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "English says *He loved democracy*, with no article. What does German put in front of *Demokratie*?",
+      "options": ["die", "eine", "no article", "das"],
+      "correct": 0,
+      "explanation": "An abstract noun taken as a definite whole carries the definite article, and *Demokratie* is feminine (¶43, ¶25).",
+      "rulesTested": ["article-abstract", "noun-gender"]
+    },
+    {
+      "id": "de104-q7",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "*Ich esse gern ___ Fleisch.* What belongs in the gap?",
+      "options": ["das", "ein", "nothing at all", "die"],
+      "correct": 2,
+      "explanation": "A substance taken in a partial sense stands with no article — English could insert *some* here (¶46).",
+      "rulesTested": ["null-mass"]
+    },
+    {
+      "id": "de104-q8",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "In which of these does the noun stand with no article?",
+      "options": [
+        "Ich esse gern Fleisch.",
+        "Zu dieser Aufgabe gehört Mut.",
+        "Er fürchtet das Alter.",
+        "Da waren Studenten."
+      ],
+      "correct": [0, 1, 3],
+      "explanation": "*Fleisch* and *Mut* are taken in a partial sense (¶46) and *Studenten* is an indefinite plural (¶47). *das Alter* is an abstract noun taken as a whole, which keeps its article (¶43).",
+      "rulesTested": ["null-mass", "null-plural", "article-abstract"]
+    },
+    {
+      "id": "de104-q9",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "*Die Tannen sind Nadelbäume* and *Tannen sind Nadelbäume* are both good German. What does the article add in the first?",
+      "options": [
+        "it presents firs as a class taken as a whole",
+        "it makes the subject singular",
+        "it marks the sentence as a question",
+        "nothing — the two are interchangeable everywhere"
+      ],
+      "correct": 0,
+      "explanation": "The definite article with a plural presents the class as a whole (¶42); the bare plural presents it indefinitely (¶47). German uses the first far more readily than English does.",
+      "rulesTested": ["article-generalisation", "null-plural"]
+    },
+    {
+      "id": "de104-q10",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "*Da waren ___ Studenten.* Which version says that some students were there?",
+      "options": [
+        "with no article at all",
+        "with die",
+        "with das",
+        "with der"
+      ],
+      "correct": 0,
+      "explanation": "An indefinite plural takes no article (¶47). *Die Studenten* would name a particular group already known to the hearer.",
+      "rulesTested": ["null-plural"]
+    },
+    {
+      "id": "de104-q11",
+      "type": "matching",
+      "difficulty": "hard",
+      "stem": "Pair each phrase with the reason its article is there or absent.",
+      "columnHeadings": ["Phrase", "Reason"],
+      "columnI": [
+        "Er ist Arzt",
+        "die Schweiz",
+        "Er liebte die Demokratie",
+        "Da waren Studenten"
+      ],
+      "columnII": [
+        "no article: a profession after *sein*",
+        "the article is obligatory with this country name",
+        "the definite article with an abstract noun",
+        "no article: an indefinite plural",
+        "no article: a substance taken in part"
+      ],
+      "options": [
+        [0, 1, 2, 4],
+        [0, 1, 2, 3],
+        [4, 1, 2, 3],
+        [0, 2, 1, 3]
+      ],
+      "correct": 1,
+      "explanation": "*Arzt* is a profession after *sein* (¶45), *Schweiz* is a feminine country name and always carries the article (¶44), *Demokratie* is an abstract noun taken as a whole (¶43), and *Studenten* is an indefinite plural (¶47). *Studenten* is a count noun in the plural, not a substance, which is what rules out the last label.",
+      "rulesTested": ["null-profession", "article-countries", "article-abstract", "null-plural"]
+    },
+    {
+      "id": "de104-q12",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "How many of these country names are used with a definite article? — *Deutschland*, *Schweiz*, *Türkei*, *Spanien*, *USA*",
+      "answer": 3,
+      "unit": "names",
+      "explanation": "*Schweiz* and *Türkei* are feminine and *USA* is plural, so all three carry the article (¶44). *Deutschland* and *Spanien* are neuter and take none.",
+      "rulesTested": ["article-countries"]
+    },
+    {
+      "id": "de104-q13",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "*Sie ist Ärztin* and *Sie ist eine bekannte Anwältin* are both correct, though one has an article and the other does not. What decides it?",
+      "options": [
+        "whether the noun names a class or a particular individual",
+        "whether the noun is feminine",
+        "whether the verb is *sein* or *werden*",
+        "whether the profession requires a degree"
+      ],
+      "correct": 0,
+      "explanation": "A bare profession after *sein* says what someone does (¶45); once the noun is qualified and picks out an individual, the article comes back (¶49). Both nouns are feminine in -in, so gender decides nothing here (¶30).",
+      "rulesTested": ["null-profession", "feminine-in", "indefinite-function"]
+    },
+    {
+      "id": "de104-q14",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "*Tisch* is masculine and *Fenster* is neuter. Which indefinite article does each take?",
+      "options": [
+        "ein for the first, eine for the second",
+        "ein for both",
+        "einer for the first, ein for the second",
+        "eine for both"
+      ],
+      "correct": 1,
+      "explanation": "Masculine and neuter share the one form **ein** (¶48). The definite article keeps them apart — *der Tisch*, *das Fenster* — but the indefinite one does not (¶25).",
+      "rulesTested": ["indefinite-forms", "noun-gender"]
+    },
+    {
+      "id": "de104-q15",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "In front of which of these nouns does the indefinite article read **eine**?",
+      "options": ["Frau", "Tisch", "Katze", "Kind"],
+      "correct": [0, 2],
+      "explanation": "**eine** goes with feminine nouns only (¶48). *Frau* and *Katze* denote females and are feminine (¶28); *Tisch* is masculine and *Kind* is a young human and neuter (¶29), and both of those take *ein*.",
+      "rulesTested": ["indefinite-forms", "feminine-classes", "neuter-classes"]
+    },
+    {
+      "id": "de104-q16",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "*Ich sehe ein Haus. ___ Haus ist alt.* Why does the second sentence not use *ein* again?",
+      "options": [
+        "because the house has been identified by the first sentence",
+        "because *Haus* changes gender after it is mentioned",
+        "because *ein* cannot stand at the start of a sentence",
+        "because the second sentence is in the past"
+      ],
+      "correct": 0,
+      "explanation": "**ein** introduces something new; once it has been introduced, the definite article takes it up — *Das Haus ist alt* (¶49).",
+      "rulesTested": ["indefinite-function"]
+    },
+    {
+      "id": "de104-q17",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "What is the plural of *ein Buch*?",
+      "options": ["eine Bücher", "ein Bücher", "Bücher", "die Bücher"],
+      "correct": 2,
+      "explanation": "**ein** has no plural at all, so the plural is the bare noun (¶50, ¶47). *die Bücher* is good German but it is the definite plural — those are the books already known, not books in general (¶49).",
+      "rulesTested": ["indefinite-no-plural", "null-plural"]
+    },
+    {
+      "id": "de104-q18",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "English *some* and *any* have no single word behind them in German. In which of these does German simply leave the noun bare?",
+      "options": [
+        "Ich möchte Suppe.",
+        "Hast du Geld bei dir?",
+        "Ich habe Äpfel gekauft.",
+        "Die Zeit vergeht."
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "*Suppe* and *Geld* are substances taken in part (¶46) and *Äpfel* is an indefinite plural (¶50, ¶47); English would put *some* or *any* in front of each. *Die Zeit vergeht* is the opposite case — an abstract noun taken as a whole, which keeps its article (¶43).",
+      "rulesTested": ["indefinite-no-plural", "null-mass", "null-plural", "article-abstract"]
+    }
+  ],
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+      "note": "§4.1.2 with Table 4.2 (p. 64) on the indefinite article, §4.2 (pp. 65–69) on the article with abstract nouns, §4.3.1 (pp. 69–70) on generalisations, §4.4.1 (pp. 70–71) on geographical names, §4.8.2 and §4.8.7 (pp. 74–75) on the zero article."
+    },
+    {
+      "kind": "grammar",
+      "citation": "*Nullartikel*, Wikipedia (German).",
+      "url": "https://de.wikipedia.org/wiki/Nullartikel",
+      "note": "Cited for the predicative, mass-noun and plural uses of the zero article, and for the formulaic pairs."
+    },
+    {
+      "kind": "grammar",
+      "citation": "*Artikel (Wortart)*, Wikipedia (German).",
+      "url": "https://de.wikipedia.org/wiki/Artikel_(Wortart)",
+      "note": "Cited for what the two articles do, and for the indefinite article having no plural form."
+    }
+  ]
+}

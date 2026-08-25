@@ -1302,7 +1302,7 @@
       "id": "bx-q40",
       "type": "single",
       "difficulty": "medium",
-      "stem": "A learner writes *neturiu laika*. Which two rules has the form *laika* broken?",
+      "stem": "A learner writes *neturiu laika*. What has the form *laika* got wrong?",
       "explanation": "The negated *turėti* requires the genitive *laiko* (¶26, ¶31); had the learner meant the accusative it would be *laiką*, with the hook (¶3, ¶20). *laika* is neither, which is what makes the error a spelling failure and a case failure at once.",
       "rulesTested": [
         "negation-genitive",
@@ -1703,7 +1703,7 @@
           "id": "bx-p2-q2",
           "type": "single",
           "difficulty": "medium",
-          "stem": "**be cukraus** and **su cukrumi** put the same noun in two cases. Which rule pair explains it?",
+          "stem": "**be cukraus** and **su cukrumi** put the same noun in two cases. What accounts for it?",
           "explanation": "*be* ‘without’ is one of the genitive prepositions (¶33); *su* ‘with’ governs the instrumental of company (¶74). The pair is the clearest case in A1 of two prepositions of opposite meaning taking different cases.",
           "rulesTested": [
             "genitive-prepositions",

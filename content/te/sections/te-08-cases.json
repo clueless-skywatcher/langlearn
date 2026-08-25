@@ -1681,7 +1681,7 @@
       "difficulty": "hard",
       "stem": "**నీ** ends in ఈ, yet the dative is **నీకు** and not నీకి. What does this show?",
       "options": [
-        "That the rule of ¶66 has an exception for pronouns with a one-syllable oblique.",
+        "That the choice between -కి and -కు is made by the shape of the stem except in the pronouns with a one-syllable oblique.",
         "That నీ is not really a pronoun.",
         "That -కి and -కు are interchangeable everywhere.",
         "That నీ has no oblique stem."
@@ -1942,15 +1942,18 @@
       "id": "te108-i2",
       "type": "integer",
       "difficulty": "hard",
-      "stem": "Which numbered rule states that the oblique stem is the genitive?",
-      "answer": 60,
-      "unit": "rule",
-      "explanation": "¶60. ¶61 then divides the obliques into classes and ¶63 gives the plural, but the identification of the oblique with the genitive is what ¶60 states.",
+      "stem": "**రాముడి కలం** and **రాముడికి కలం** put *Rama* in two different cases, and Telugu's own grammars file both under one number. Which number is it?",
+      "answer": 6,
+      "unit": "విభక్తి",
+      "explanation": "**రాముడి** is the bare oblique, which is the genitive, and **రాముడికి** is the dative in **-కి**. The Sanskrit-modelled scheme counts them as one case, **షష్ఠీ**, the sixth — a cut the European seven does not make.",
       "rulesTested": [
-        "oblique-genitive"
+        "vibhakti-tradition",
+        "oblique-genitive",
+        "dative-ki"
       ],
       "vocabUsed": [
-        "విభక్తి"
+        "విభక్తి",
+        "కలం"
       ]
     },
     {

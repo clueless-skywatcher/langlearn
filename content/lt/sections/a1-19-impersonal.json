@@ -1357,14 +1357,19 @@
       "id": "a118-x12",
       "type": "integer",
       "difficulty": "medium",
-      "stem": "Which numbered rule governs the form **šilta** in *Šiandien šilta*? Give the paragraph number.",
-      "answer": 126,
-      "explanation": "¶126, the non-gendered adjective used where there is no subject to agree with. It is not ¶17: agreement is precisely what is absent here.",
+      "stem": "*Šiandien šilta.* *Vakar buvo karšta.* *Diena šilta.* *Man karšta.* *Kava karšta.* — in how many of these five does the adjective stand in the form that agrees with nothing?",
+      "answer": 3,
+      "unit": "sentences",
+      "explanation": "*Šiandien šilta* and *Vakar buvo karšta* report the weather with no subject at all, and *Man karšta* puts the person in the dative, so all three take the non-gendered form. In *Diena šilta* and *Kava karšta* the same spelling is the feminine singular agreeing with a nominative — the two forms of a **-as** adjective fall together in **-a**, and only the presence of a subject tells them apart.",
       "rulesTested": [
-        "neuter-adjective"
+        "neuter-adjective",
+        "personal-vs-impersonal"
       ],
       "vocabUsed": [
-        "šiltas"
+        "šiltas",
+        "karštas",
+        "diena",
+        "kava"
       ]
     },
     {

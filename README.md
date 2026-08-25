@@ -178,6 +178,27 @@ npm run generate:drills eo eo-cp-01                  # explains how to wire a pr
 Generated drills are meant to be reviewed and committed as JSON, not fetched at
 runtime.
 
+## Printing a course
+
+`scripts/generate-latex.ts` renders a pack as a LaTeX book: one chapter per
+section, the rules as continuously numbered paragraphs with their examples,
+paradigms and footnotes, then the vocabulary, then the section's drills as an
+examination paper. Answers and the explanation each drill carries go into an
+appendix, so a chapter's questions can be worked through as a paper.
+
+```bash
+npm run generate:latex de                     # build/latex/de.tex
+npm run generate:latex de --out /tmp/book.tex
+```
+
+The drills are set two columns to the page in the manner of a question paper,
+grouped by format and numbered from~1 within the chapter; a reading passage
+takes the whole measure so that it is not cut in half by a column break.
+`difficulty` is never printed and the authored order within a group is kept —
+CLAUDE.md §5. Build the file with `pdflatex` (twice, for the contents), which
+sets the phonetic characters through `tipa`; `xelatex`, `lualatex` and
+`tectonic` take them from a fallback font instead.
+
 ## Not yet built
 
 Audio, spaced repetition (the `srs_items` table exists but nothing writes it),

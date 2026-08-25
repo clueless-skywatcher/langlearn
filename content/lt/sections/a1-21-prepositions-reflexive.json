@@ -1315,13 +1315,17 @@
       "id": "a120-x13",
       "type": "integer",
       "difficulty": "hard",
-      "stem": "In **atsiprašau** the reflexive element stands after the prefix rather than at the end of the verb. Which numbered rule governs this? Give the paragraph number.",
-      "answer": 145,
-      "explanation": "¶145. A simple reflexive verb carries *-si* at its end, but a prefix pulls it inside — which is why *atsiprašau*, not *atprašausi*.",
+      "stem": "**mokytis**, **jaustis**, **ilsėtis**, **atsiprašau** — in how many of these four does the reflexive **-si-** stand somewhere other than the end of the word?",
+      "answer": 1,
+      "unit": "verbs",
+      "explanation": "A simple reflexive verb carries the affix at its end — *mokytis*, *jaustis*, *ilsėtis*. A prefix pulls it in behind itself, which is why *atsiprašau* has **-si-** in the middle and not *atprašausi*.",
       "rulesTested": [
         "reflexive-phrases"
       ],
       "vocabUsed": [
+        "mokytis",
+        "jaustis",
+        "ilsėtis",
         "atsiprašau"
       ]
     },
