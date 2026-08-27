@@ -27,6 +27,7 @@ import { getCourse, listCourseIds } from "../content/loader";
 import {
   isExam,
   isLesson,
+  type AtomicQuestion,
   type ComprehensionDrill,
   type Course,
   type Drill,
@@ -125,12 +126,47 @@ function tex(raw: string, where = "content"): string {
   return s.split(GAP).join(String.raw`\gap{}`);
 }
 
-/** Line breaks kept, as the app keeps them in a passage or a dialogue. */
+/**
+ * Question-facing text: a stem, an option, a matching column, an integer's
+ * unit. CLAUDE.md §2 keeps this course's own numbering out of all four — a ¶
+ * number is answerable from the contents page and unanswerable from the
+ * German — so a reference that reaches one is dropped here and reported.
+ */
+function texQ(raw: string, where: string): string {
+  const stripped = raw
+    .replace(/\s*\((?:see\s+)?¶\s*\d+[a-z]?(?:\s*(?:,|and)\s*¶?\s*\d+[a-z]?)*\)/g, "")
+    .replace(/¶\s*\d+[a-z]?/g, "")
+    .replace(/\s{2,}/g, " ")
+    .trim();
+  if (stripped !== raw.trim()) {
+    warnings.push(
+      `${where}: a ¶ reference was dropped from question-facing text — ` +
+        `CLAUDE.md §2 keeps the course's own numbering out of stems, options, ` +
+        `columns and units`,
+    );
+  }
+  return tex(stripped, where);
+}
+
+/** A speaker's name opening a line of dialogue: `ANNA.` or `HERR BECKER.` */
+const SPEAKER = /^([A-ZÄÖÜ]+(?: [A-ZÄÖÜ]+)*)[.:]\s+(.+)$/;
+
+/**
+ * Line breaks kept, as the app keeps them in a passage or a dialogue. A turn
+ * of dialogue is set as the speaker in bold, then a colon, whatever
+ * punctuation the content used to mark the name off.
+ */
 function texLines(raw: string, where: string): string {
   return raw
     .split("\n")
-    .map((line) => tex(line.trim(), where))
+    .map((line) => line.trim())
     .filter((line) => line.length > 0)
+    .map((line) => {
+      const turn = SPEAKER.exec(line);
+      return turn
+        ? `\\textbf{${tex(turn[1], where)}}: ${tex(turn[2], where)}`
+        : tex(line, where);
+    })
     .join(String.raw`\\` + "\n");
 }
 
@@ -153,7 +189,7 @@ function preamble(course: Course): string {
 %
 % pdflatex sets the phonetic characters through tipa; xelatex and lualatex take
 % them from a fallback font instead, so either engine builds the book.
-\\documentclass[11pt,a4paper,twoside,openright]{book}
+\\documentclass[12pt,a4paper,twoside,openright]{book}
 
 \\usepackage{iftex}
 \\ifPDFTeX
@@ -263,16 +299,26 @@ ${ipaUni}
 \\newcommand{\\unit}[1]{\\enspace{\\small{[}\\emph{#1}{]}}}
 \\newenvironment{passage}
   {\\par\\addvspace{1ex}\\begin{list}{}{%
-     \\setlength{\\leftmargin}{1.5em}\\setlength{\\rightmargin}{1.5em}%
+     \\setlength{\\leftmargin}{0.8em}\\setlength{\\rightmargin}{0pt}%
      \\setlength{\\listparindent}{0pt}\\setlength{\\parsep}{0.4ex}}\\item[]}
   {\\end{list}\\addvspace{0.6ex}}
+% A comprehension child says its format only where the format is not the
+% default one of a single correct option.
+\\newcommand{\\qtype}[1]{{\\small\\itshape[#1]}\\enspace\\ignorespaces}
 \\newcommand{\\glosses}[1]{\\par\\addvspace{0.4ex}{\\small #1\\par}}
 
 % ------------------------------------------------------------------- answers
-\\newcommand{\\answer}[3]{%
-  \\par\\addvspace{0.7ex}\\noindent
-  \\makebox[2.7em][l]{\\textbf{#1.}}%
-  \\begin{minipage}[t]{\\dimexpr\\linewidth-2.7em\\relax}\\textbf{#2}\\quad #3\\end{minipage}\\par}
+% An answer repeats its question so that the appendix can be read on its own:
+% the number and the stem, then the options as the paper set them, then the
+% answer, then the explanation on a line of its own.
+\\newenvironment{answerentry}[2]
+  {\\par\\addvspace{1.3ex}\\noindent\\textbf{#1.}\\enspace #2%
+   \\begin{list}{}{%
+     \\setlength{\\leftmargin}{1.8em}\\setlength{\\rightmargin}{0pt}%
+     \\setlength{\\topsep}{0.4ex}\\setlength{\\parsep}{0.35ex}%
+     \\setlength{\\itemsep}{0pt}\\setlength{\\listparindent}{0pt}}\\item[]}
+  {\\end{list}}
+\\newcommand{\\ansline}[1]{\\par\\addvspace{0.35ex}\\textbf{Answer:}\\enspace #1\\par}
 
 % ------------------------------------------------------------------- sources
 \\newlist{sourcelist}{itemize}{1}
@@ -520,23 +566,35 @@ const GROUPS = [
 const COLUMN_I_LABELS = ["P", "Q", "R", "S"];
 
 function choicesBlock(options: string[], where: string): string {
+  return choicesRaw(options.map((o) => texQ(o, where)));
+}
+
+/** The same list, from cells that are already LaTeX. */
+function choicesRaw(cells: string[]): string {
   return [
     "\\begin{choices}",
-    ...options.map((o) => `\\item ${tex(o, where)}`),
+    ...cells.map((c) => `\\item ${c}`),
     "\\end{choices}",
   ].join("\n");
 }
 
+/** The format tag a comprehension child carries, where it carries one. */
+function questionTag(type: AtomicQuestion["type"]): string {
+  if (type === "multi") return "\\qtype{Multiple options correct}";
+  if (type === "integer") return "\\qtype{Integer answer}";
+  return "";
+}
+
 function matchingTable(q: MatchingQuestion, where: string): string {
   const row = (label: string, text: string) =>
-    `(${label}) & ${tex(text, where)} \\\\`;
+    `(${label}) & ${texQ(text, where)} \\\\`;
   return [
     "\\begin{flushleft}\\small",
     "\\begin{tabular}{@{}r@{~}>{\\RaggedRight}p{\\dimexpr\\linewidth-2.6em\\relax}@{}}",
-    `\\multicolumn{2}{@{}l}{\\textit{Column I} --- ${tex(q.columnHeadings[0], where)}} \\\\[0.2ex]`,
+    `\\multicolumn{2}{@{}l}{\\textit{Column I} --- ${texQ(q.columnHeadings[0], where)}} \\\\[0.2ex]`,
     ...q.columnI.map((item, i) => row(COLUMN_I_LABELS[i], item)),
     "\\noalign{\\vspace{0.5ex}}",
-    `\\multicolumn{2}{@{}l}{\\textit{Column II} --- ${tex(q.columnHeadings[1], where)}} \\\\[0.2ex]`,
+    `\\multicolumn{2}{@{}l}{\\textit{Column II} --- ${texQ(q.columnHeadings[1], where)}} \\\\[0.2ex]`,
     ...q.columnII.map((item, i) => row(String(i + 1), item)),
     "\\end{tabular}",
     "\\end{flushleft}",
@@ -574,23 +632,21 @@ function passageBlock(drill: ComprehensionDrill, where: string): string {
   return out.join("\n");
 }
 
-/** One question, without its number: the list supplies that. */
-function questionItem(drill: Drill, where: string): string {
+/**
+ * One question, without its number: the list supplies that. `tag` marks the
+ * format, and is set only on the children of a passage, where the group
+ * heading is about the passage rather than about the format of each item.
+ */
+function questionItem(drill: AtomicQuestion, where: string, tag = ""): string {
+  const stem = `\\item ${tag}${texQ(drill.stem, where)}`;
   switch (drill.type) {
     case "single":
-      return [`\\item ${tex(drill.stem, where)}`, choicesBlock(drill.options, where)].join("\n");
     case "multi":
-      return [`\\item ${tex(drill.stem, where)}`, choicesBlock(drill.options, where)].join("\n");
+      return [stem, choicesBlock(drill.options, where)].join("\n");
     case "integer":
-      return `\\item ${tex(drill.stem, where)}${drill.unit ? `\\unit{${tex(drill.unit, where)}}` : ""}`;
+      return `${stem}${drill.unit ? `\\unit{${texQ(drill.unit, where)}}` : ""}`;
     case "matching":
-      return [
-        `\\item ${tex(drill.stem, where)}`,
-        matchingTable(drill, where),
-        matchingChoices(drill),
-      ].join("\n");
-    case "comprehension":
-      throw new Error("a comprehension block is not an item");
+      return [stem, matchingTable(drill, where), matchingChoices(drill)].join("\n");
   }
 }
 
@@ -601,19 +657,14 @@ function questionItem(drill: Drill, where: string): string {
 function drillsBlock(section: Section): { body: string; numbers: Map<string, number> } {
   const numbers = new Map<string, number>();
   let n = 0;
-  // The paper is set in two columns, as an examination paper is. A reading
-  // passage is the exception: it takes the whole measure, so that neither the
-  // passage nor the questions on it are cut in half by a column break.
+  // The whole paper is set in two columns, as an examination paper is —
+  // reading passages included, so that a chapter's drills are one object on
+  // the page rather than two settings alternating down it.
   const out: string[] = ["\\section{Drills}", "{\\small", "\\begin{multicols}{2}"];
-  let columns = true;
 
   for (const group of GROUPS) {
     const drills = section.drills.filter((d) => d.type === group.type);
     if (drills.length === 0) continue;
-    if (group.type === "comprehension" && columns) {
-      out.push("\\end{multicols}");
-      columns = false;
-    }
     out.push(`\\subsection*{${group.heading}}`);
 
     if (group.type === "comprehension") {
@@ -625,7 +676,7 @@ function drillsBlock(section: Section): { body: string; numbers: Map<string, num
         for (const child of drill.questions) {
           n += 1;
           numbers.set(child.id, n);
-          out.push(questionItem(child, `${where}/${child.id}`));
+          out.push(questionItem(child, `${where}/${child.id}`, questionTag(child.type)));
         }
         out.push("\\end{questions}");
       }
@@ -634,13 +685,14 @@ function drillsBlock(section: Section): { body: string; numbers: Map<string, num
 
     out.push(`\\begin{questions}[start=${n + 1}]`);
     for (const drill of drills) {
+      if (drill.type === "comprehension") continue;
       n += 1;
       numbers.set(drill.id, n);
       out.push(questionItem(drill, `${section.id}/${drill.id}`));
     }
     out.push("\\end{questions}");
   }
-  if (columns) out.push("\\end{multicols}");
+  out.push("\\end{multicols}");
   out.push("}");
   return { body: out.join("\n"), numbers };
 }
@@ -697,58 +749,103 @@ function sourcesBlock(section: Section): string {
 
 /* -------------------------------------------------------------------- answers */
 
-function answerText(drill: Drill, where: string): { label: string; body: string } {
+/**
+ * What the appendix prints for one question: the options as the paper set
+ * them, the answer, and the explanation. The options are repeated so that the
+ * appendix can be read without the chapter open beside it.
+ */
+function answerParts(
+  drill: AtomicQuestion,
+  where: string,
+): { label: string; options: string[]; solution: string } {
   switch (drill.type) {
     case "single":
       return {
-        label: `(${String.fromCharCode(65 + drill.correct)})`,
-        body: `${tex(drill.options[drill.correct], where)} --- ${tex(drill.explanation, where)}`,
-      };
-    case "matching":
-      return {
-        label: `(${String.fromCharCode(65 + drill.correct)})`,
-        body:
-          `${drill.options[drill.correct]
-            .map((label, i) => `${COLUMN_I_LABELS[i]}\\pto ${label + 1}`)
-            .join(", ")} --- ${tex(drill.explanation, where)}`,
+        label: `(${String.fromCharCode(65 + drill.correct)})\\quad ${texQ(drill.options[drill.correct], where)}`,
+        options: drill.options.map((o) => texQ(o, where)),
+        solution: tex(drill.explanation, where),
       };
     case "multi":
       return {
         label: [...drill.correct]
           .sort((a, b) => a - b)
-          .map((i) => `(${String.fromCharCode(65 + i)})`)
-          .join(", "),
-        body: tex(drill.explanation, where),
+          .map((i) => `(${String.fromCharCode(65 + i)})\\quad ${texQ(drill.options[i], where)}`)
+          .join("; "),
+        options: drill.options.map((o) => texQ(o, where)),
+        solution: tex(drill.explanation, where),
       };
     case "integer":
       return {
         label: String(drill.answer),
-        body: tex(drill.explanation, where),
+        options: [],
+        solution: tex(drill.explanation, where),
       };
-    case "comprehension":
-      throw new Error("a comprehension block carries no answer of its own");
+    case "matching":
+      return {
+        label:
+          `(${String.fromCharCode(65 + drill.correct)})\\quad ` +
+          drill.options[drill.correct]
+            .map((label, i) => `${COLUMN_I_LABELS[i]}\\pto ${label + 1}`)
+            .join(", "),
+        options: drill.options.map((option) =>
+          option
+            .map((label, i) => `${COLUMN_I_LABELS[i]}\\pto ${label + 1}`)
+            .join(",\\quad "),
+        ),
+        solution: tex(drill.explanation, where),
+      };
   }
 }
 
+/** One entry of the appendix: number, stem, options, answer, explanation. */
+function answerEntry(drill: AtomicQuestion, n: number, where: string, tag = ""): string {
+  const { label, options, solution } = answerParts(drill, where);
+  const unit =
+    drill.type === "integer" && drill.unit ? `\\unit{${texQ(drill.unit, where)}}` : "";
+  const out = [`\\begin{answerentry}{${n}}{${tag}${texQ(drill.stem, where)}${unit}}`];
+  if (options.length > 0) out.push(choicesRaw(options));
+  out.push(`\\ansline{${label}}`);
+  out.push(solution);
+  out.push("\\end{answerentry}");
+  return out.join("\n");
+}
+
 function answersBlock(section: Section, numbers: Map<string, number>): string {
-  const out: string[] = [`\\section{${chapterTitle(section)}}`];
+  // Set as the paper is: the heading across the measure, the entries in two
+  // columns under it.
+  const out: string[] = [];
   for (const group of GROUPS) {
     for (const drill of section.drills.filter((d) => d.type === group.type)) {
       const where = `${section.id}/${drill.id}`;
       if (drill.type === "comprehension") {
-        out.push(`\\rulenote{\\textbf{${tex(drill.title, where)}.}` +
-          (drill.translation ? ` ${tex(drill.translation, where)}` : "") + "}");
+        out.push(
+          `\\rulenote{\\textbf{${tex(drill.title, where)}.}` +
+            (drill.translation ? ` ${tex(drill.translation, where)}` : "") +
+            "}",
+        );
         for (const child of drill.questions) {
-          const { label, body } = answerText(child, `${where}/${child.id}`);
-          out.push(`\\answer{${numbers.get(child.id)}}{${label}}{${body}}`);
+          out.push(
+            answerEntry(
+              child,
+              numbers.get(child.id)!,
+              `${where}/${child.id}`,
+              questionTag(child.type),
+            ),
+          );
         }
         continue;
       }
-      const { label, body } = answerText(drill, where);
-      out.push(`\\answer{${numbers.get(drill.id)}}{${label}}{${body}}`);
+      out.push(answerEntry(drill, numbers.get(drill.id)!, where));
     }
   }
-  return out.join("\n");
+  return [
+    `\\section{${chapterTitle(section)}}`,
+    "{\\small",
+    "\\begin{multicols}{2}",
+    ...out,
+    "\\end{multicols}",
+    "}",
+  ].join("\n");
 }
 
 /* ------------------------------------------------------------------ the book */
@@ -846,7 +943,45 @@ function chapterBlock(
   return { body: out.join("\n\n"), numbers: drills.numbers };
 }
 
-function render(courseId: string): string {
+/** One file of the book: where it goes, and what is in it. */
+interface Part {
+  /** Path relative to the master file's directory, without the .tex. */
+  stem: string;
+  body: string;
+}
+
+/** The master file, and one file per chapter beside it. */
+interface Book {
+  master: string;
+  parts: Part[];
+}
+
+/**
+ * A chapter file says where it sits in the sequence. LaTeX cannot chain the
+ * files themselves — \include does not nest, and \input would hide the order
+ * of the book inside the chapters and defeat \includeonly — so the chain is
+ * written as the pointers a reader opening one file needs, and the master
+ * carries the ordered \include list that actually builds the book.
+ */
+function partHeader(
+  title: string,
+  n: number,
+  of: number,
+  prev: Part | undefined,
+  next: Part | undefined,
+  masterName: string,
+): string {
+  return [
+    `% ${title}`,
+    `% Part ${n} of ${of} of the ${masterName} book.`,
+    `% previous: ${prev ? prev.stem + ".tex" : "— (this is the first)"}`,
+    `% next:     ${next ? next.stem + ".tex" : "— (this is the last)"}`,
+    `% Generated by scripts/generate-latex.ts. Do not edit by hand.`,
+    `% Included by ${masterName}; not a document on its own.`,
+  ].join("\n");
+}
+
+function render(courseId: string, masterName: string): Book {
   const { course, sections } = getCourse(courseId);
 
   for (const section of sections) {
@@ -860,31 +995,67 @@ function render(courseId: string): string {
     }
   }
 
-  const parts: string[] = [preamble(course), frontMatter(course)];
-  parts.push("\\mainmatter");
-
+  // The chapters first, so that each knows what follows it.
+  const parts: Part[] = [];
   const answers: string[] = [];
+  const levelAt = new Map<number, string>();
   let level = "";
   for (const section of sections) {
     if (section.level !== level) {
       level = section.level;
-      parts.push(`\\part{Level ${tex(level)}}`);
+      levelAt.set(parts.length, level);
     }
     const chapter = chapterBlock(section, course);
-    parts.push(chapter.body);
+    parts.push({
+      stem: `chapters/${String(section.order).padStart(2, "0")}-${section.id}`,
+      body: chapter.body,
+    });
     answers.push(answersBlock(section, chapter.numbers));
   }
+  parts.push({
+    stem: `chapters/${String(sections.length + 1).padStart(2, "0")}-answers`,
+    body: [
+      "\\chapter{Answers and explanations}",
+      "The number in front of an answer is the number the question carries in " +
+        "its own chapter.",
+      ...answers,
+    ].join("\n\n"),
+  });
 
-  parts.push("\\appendix");
-  parts.push("\\chapter{Answers and explanations}");
-  parts.push(
-    "The number in front of an answer is the number the question carries in " +
-      "its own chapter.",
-  );
-  parts.push(...answers);
-  parts.push("\\backmatter");
-  parts.push("\\end{document}");
-  return parts.join("\n\n") + "\n";
+  const withHeaders = parts.map((part, i) => ({
+    stem: part.stem,
+    body:
+      partHeader(
+        chapterTitleOf(sections, i),
+        i + 1,
+        parts.length,
+        parts[i - 1],
+        parts[i + 1],
+        masterName,
+      ) +
+      "\n\n" +
+      part.body +
+      "\n",
+  }));
+
+  const master: string[] = [preamble(course), frontMatter(course), "\\mainmatter"];
+  parts.forEach((part, i) => {
+    const at = levelAt.get(i);
+    if (at) master.push(`\\part{Level ${tex(at)}}`);
+    if (part.stem.endsWith("-answers")) master.push("\\appendix");
+    master.push(`\\include{${part.stem}}`);
+  });
+  master.push("\\backmatter");
+  master.push("\\end{document}");
+
+  return { master: master.join("\n\n") + "\n", parts: withHeaders };
+}
+
+/** The title a part carries in its header comment. */
+function chapterTitleOf(sections: Section[], i: number): string {
+  return i < sections.length
+    ? chapterTitle(sections[i])
+    : "Answers and explanations";
 }
 
 /* --------------------------------------------------------------------- main */
@@ -900,9 +1071,20 @@ if (!listCourseIds().includes(courseId)) {
 }
 
 const file = out ?? path.join("build", "latex", `${courseId}.tex`);
-const body = render(courseId);
-fs.mkdirSync(path.dirname(file), { recursive: true });
-fs.writeFileSync(file, body, "utf8");
+const dir = path.dirname(file);
+const book = render(courseId, path.basename(file));
+
+fs.mkdirSync(dir, { recursive: true });
+fs.writeFileSync(file, book.master, "utf8");
+for (const part of book.parts) {
+  const target = path.join(dir, `${part.stem}.tex`);
+  fs.mkdirSync(path.dirname(target), { recursive: true });
+  fs.writeFileSync(target, part.body, "utf8");
+}
 
 for (const warning of warnings) console.warn(`warning: ${warning}`);
-console.log(`${file} — ${body.split("\n").length} lines`);
+const lines = (t: string) => t.split("\n").length;
+console.log(`${file} — ${lines(book.master)} lines, ${book.parts.length} parts`);
+for (const part of book.parts) {
+  console.log(`  ${path.join(dir, part.stem)}.tex — ${lines(part.body)} lines`);
+}
