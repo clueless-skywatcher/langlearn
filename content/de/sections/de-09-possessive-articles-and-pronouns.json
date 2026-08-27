@@ -1,0 +1,747 @@
+{
+  "id": "de-09",
+  "kind": "lesson",
+  "level": "A1",
+  "order": 11,
+  "title": "Possessive Articles",
+  "summary": "The word that says whom something belongs to: one base form for each person, standing in front of its noun and taking the endings of ein.",
+  "rules": [
+    {
+      "id": "possessive-what",
+      "number": "98",
+      "heading": "What a possessive article is",
+      "statement": "A possessive article says that what its noun names belongs to someone. German has one for each grammatical person.",
+      "examples": [
+        {
+          "target": "mein Buch",
+          "gloss": "my book"
+        },
+        {
+          "target": "deine Tasche",
+          "gloss": "your bag"
+        }
+      ],
+      "core": false
+    },
+    {
+      "id": "possessive-base-forms",
+      "number": "99",
+      "heading": "The base forms",
+      "statement": "Each personal pronoun has a possessive article of its own. *sein* answers to both **er** and **es**, and *ihr* to both **sie** singular and **sie** plural.",
+      "examples": [],
+      "paradigms": [
+        {
+          "caption": "The possessive article of each person",
+          "columns": [
+            "Pronoun",
+            "Possessive",
+            "English"
+          ],
+          "rows": [
+            {
+              "label": "ich",
+              "cells": [
+                "mein",
+                "my"
+              ]
+            },
+            {
+              "label": "du",
+              "cells": [
+                "dein",
+                "your"
+              ]
+            },
+            {
+              "label": "er, es",
+              "cells": [
+                "sein",
+                "his, its"
+              ]
+            },
+            {
+              "label": "sie",
+              "cells": [
+                "ihr",
+                "her"
+              ]
+            },
+            {
+              "label": "wir",
+              "cells": [
+                "unser",
+                "our"
+              ]
+            },
+            {
+              "label": "ihr",
+              "cells": [
+                "euer",
+                "your"
+              ]
+            },
+            {
+              "label": "sie (plural)",
+              "cells": [
+                "ihr",
+                "their"
+              ]
+            },
+            {
+              "label": "Sie",
+              "cells": [
+                "Ihr",
+                "your (polite)"
+              ]
+            }
+          ],
+          "footnote": "*ihr* and *Ihr* are told apart by the capital, and *Ihr* keeps it wherever it stands in the sentence."
+        }
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§5.2.1 with Table 5.4, p. 85."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "possessive-before-noun",
+      "number": "100",
+      "heading": "Where it stands",
+      "statement": "A possessive article stands in front of its noun, in the place an article would take, and no article stands beside it.",
+      "examples": [
+        {
+          "target": "Jeden Tag geht meine Tochter zu ihrer Schule.",
+          "gloss": "Every day my daughter goes to her school."
+        }
+      ],
+      "seeAlso": [
+        "indefinite-forms"
+      ],
+      "core": true
+    },
+    {
+      "id": "possessive-nom-m-n",
+      "number": "101",
+      "heading": "The nominative, masculine and neuter",
+      "statement": "Before a masculine or a neuter noun in the nominative, the possessive article carries no ending: it is the base form as it stands.",
+      "examples": [
+        {
+          "target": "Mein Buch ist nicht hier.",
+          "gloss": "My book is not here.",
+          "note": "neuter"
+        },
+        {
+          "target": "Kommt dein Freund mit uns?",
+          "gloss": "Is your friend coming with us?",
+          "note": "masculine"
+        },
+        {
+          "target": "Warten Sie bitte! Ihr Beutel ist bei mir.",
+          "gloss": "Please wait! Your bag is with me.",
+          "note": "masculine, polite Ihr"
+        }
+      ],
+      "seeAlso": [
+        "indefinite-forms",
+        "kein-declension"
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§5.2.2 with Table 5.5, p. 86."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "possessive-nom-f-pl",
+      "number": "102",
+      "heading": "The nominative, feminine and plural",
+      "statement": "Before a feminine noun and before a plural, the possessive article adds **-e**.",
+      "examples": [
+        {
+          "target": "Seine Tasche ist sehr groß.",
+          "gloss": "His bag is very big.",
+          "note": "feminine"
+        },
+        {
+          "target": "Unsere Tochter ist 15 Jahre alt.",
+          "gloss": "Our daughter is 15 years old.",
+          "note": "feminine"
+        },
+        {
+          "target": "Meine Bücher sind hier.",
+          "gloss": "My books are here.",
+          "note": "plural"
+        }
+      ],
+      "seeAlso": [
+        "kein-plural"
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§5.2.2 with Table 5.5, p. 86."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "possessive-euer",
+      "number": "103",
+      "heading": "euer before an ending",
+      "statement": "The **-er** of *euer* and *unser* belongs to the word and is not an ending. When an ending is added to *euer*, the **-e-** in front of that -r drops: *eure*, *euren*.",
+      "examples": [
+        {
+          "target": "Wie alt ist eure Tochter?",
+          "gloss": "How old is your daughter?",
+          "note": "said to two parents; *euer* + -e"
+        },
+        {
+          "target": "Euer Sohn ist hier.",
+          "gloss": "Your son is here.",
+          "note": "no ending, so nothing drops"
+        }
+      ],
+      "footnotes": [
+        "*unser* may do the same — *unsre*, *unsren* — but the full *unsere*, *unseren* is as usual, and either is standard."
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§5.2.2(a)–(b), pp. 85–86."
+        }
+      ],
+      "core": true
+    },
+    {
+      "id": "possessive-accusative",
+      "number": "104",
+      "heading": "The accusative",
+      "statement": "In the accusative the masculine takes **-en** and the feminine and the plural take **-e**; the neuter keeps the base form, as it does in the nominative (¶101).",
+      "examples": [
+        {
+          "target": "Ich gebe ihm meinen Teppich.",
+          "gloss": "I am giving him my carpet.",
+          "note": "masculine, -en"
+        },
+        {
+          "target": "Ich liebe meine Tochter.",
+          "gloss": "I love my daughter.",
+          "note": "feminine, -e"
+        },
+        {
+          "target": "Gib mir jetzt mein Buch zurück!",
+          "gloss": "Give me my book back now!",
+          "note": "neuter, no ending"
+        }
+      ],
+      "paradigms": [
+        {
+          "caption": "mein in the two cases taught so far",
+          "columns": [
+            "Case",
+            "Masculine",
+            "Feminine",
+            "Neuter",
+            "Plural"
+          ],
+          "rows": [
+            {
+              "label": "Nominative",
+              "cells": [
+                "mein",
+                "meine",
+                "mein",
+                "meine"
+              ]
+            },
+            {
+              "label": "Accusative",
+              "cells": [
+                "meinen",
+                "meine",
+                "mein",
+                "meine"
+              ]
+            }
+          ],
+          "footnote": "These are the endings of *ein* (¶48) and of *kein* (¶94); the possessives add nothing new to them."
+        }
+      ],
+      "seeAlso": [
+        "accusative-direct-object",
+        "accusative-ein-kein",
+        "possessive-nom-m-n"
+      ],
+      "sources": [
+        {
+          "kind": "grammar",
+          "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+          "note": "§5.2.2 with Table 5.5, p. 86."
+        }
+      ],
+      "core": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "lemma": "Tochter",
+      "gloss": "daughter",
+      "pos": "noun",
+      "forms": {
+        "nom": "die Tochter",
+        "acc": "die Tochter",
+        "dat": "der Tochter",
+        "gen": "der Tochter",
+        "plural": "die Töchter"
+      },
+      "notes": "Plural with the Umlaut alone (¶35)."
+    },
+    {
+      "lemma": "Sohn",
+      "gloss": "son",
+      "pos": "noun",
+      "forms": {
+        "nom": "der Sohn",
+        "acc": "den Sohn",
+        "dat": "dem Sohn",
+        "gen": "des Sohnes, des Sohns",
+        "plural": "die Söhne"
+      },
+      "notes": "Plural in **-e** with the Umlaut (¶37)."
+    },
+    {
+      "lemma": "Freund",
+      "gloss": "friend",
+      "pos": "noun",
+      "forms": {
+        "nom": "der Freund",
+        "acc": "den Freund",
+        "dat": "dem Freund",
+        "gen": "des Freundes, des Freunds",
+        "plural": "die Freunde"
+      },
+      "notes": "Feminine *die Freundin*, plural *die Freundinnen* (¶30)."
+    },
+    {
+      "lemma": "Tasche",
+      "gloss": "bag",
+      "pos": "noun",
+      "forms": {
+        "nom": "die Tasche",
+        "acc": "die Tasche",
+        "dat": "der Tasche",
+        "gen": "der Tasche",
+        "plural": "die Taschen"
+      },
+      "notes": "Plural in **-n** (¶39)."
+    },
+    {
+      "lemma": "Beutel",
+      "gloss": "bag, pouch",
+      "pos": "noun",
+      "forms": {
+        "nom": "der Beutel",
+        "acc": "den Beutel",
+        "dat": "dem Beutel",
+        "gen": "des Beutels",
+        "plural": "die Beutel"
+      },
+      "notes": "Plural with no ending at all (¶34)."
+    },
+    {
+      "lemma": "Schule",
+      "gloss": "school",
+      "pos": "noun",
+      "forms": {
+        "nom": "die Schule",
+        "acc": "die Schule",
+        "dat": "der Schule",
+        "gen": "der Schule",
+        "plural": "die Schulen"
+      },
+      "notes": "Plural in **-n** (¶39)."
+    }
+  ],
+  "drills": [
+    {
+      "id": "de109-q1",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "*Ich gebe ihm ___ Teppich.* *Teppich* is masculine. What belongs in the gap?",
+      "options": [
+        "mein",
+        "meine",
+        "meinen",
+        "meines"
+      ],
+      "correct": 2,
+      "explanation": "A masculine noun in the accusative takes **-en** on the possessive article (¶104), exactly as *ein* and *kein* do (¶48, ¶94). *mein* would be the nominative (¶101), and *meine* the feminine or the plural (¶102).",
+      "rulesTested": [
+        "possessive-accusative"
+      ]
+    },
+    {
+      "id": "de109-q2",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Pair each pronoun with the possessive article that answers to it.",
+      "columnHeadings": [
+        "Pronoun",
+        "Possessive"
+      ],
+      "columnI": [
+        "wir",
+        "ihr",
+        "sie (plural)",
+        "du"
+      ],
+      "columnII": [
+        "unser",
+        "euer",
+        "ihr",
+        "dein",
+        "sein"
+      ],
+      "options": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          2,
+          1,
+          3
+        ],
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          2
+        ]
+      ],
+      "correct": 0,
+      "explanation": "*wir* takes *unser*, *ihr* takes *euer*, *sie* in the plural takes *ihr*, and *du* takes *dein* (¶99). The second pairing swaps the two that sound alike — *ihr* the pronoun against *ihr* the possessive.",
+      "rulesTested": [
+        "possessive-base-forms"
+      ]
+    },
+    {
+      "id": "de109-q3",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Which possessive article answers to **es**?",
+      "options": [
+        "ihr",
+        "sein",
+        "euer",
+        "Ihr"
+      ],
+      "correct": 1,
+      "explanation": "*sein* serves both **er** and **es** (¶99). *ihr* answers to *sie*, and *Ihr* to the polite *Sie*.",
+      "rulesTested": [
+        "possessive-base-forms"
+      ]
+    },
+    {
+      "id": "de109-q4",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "*___ Buch ist nicht hier.* *Buch* is neuter. What belongs in the gap?",
+      "options": [
+        "Meine",
+        "Mein",
+        "Meinen",
+        "Meiner"
+      ],
+      "correct": 1,
+      "explanation": "A neuter noun in the nominative takes the base form with no ending (¶101).",
+      "rulesTested": [
+        "possessive-nom-m-n"
+      ]
+    },
+    {
+      "id": "de109-q5",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "*Tasche* is feminine. Which form stands in front of it in the nominative?",
+      "options": [
+        "sein",
+        "seine",
+        "seinen",
+        "seines"
+      ],
+      "correct": 1,
+      "explanation": "A feminine noun in the nominative adds **-e** (¶102).",
+      "rulesTested": [
+        "possessive-nom-f-pl"
+      ]
+    },
+    {
+      "id": "de109-q6",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "In front of which of these nouns does the possessive article add **-e** in the nominative?",
+      "options": [
+        "Tasche",
+        "Tochter",
+        "Buch",
+        "Bücher"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "*Tasche* and *Tochter* are feminine and *Bücher* is a plural, and all three take **-e** (¶102). *Buch* is neuter and takes the base form (¶101).",
+      "rulesTested": [
+        "possessive-nom-f-pl",
+        "possessive-nom-m-n"
+      ]
+    },
+    {
+      "id": "de109-q7",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Two parents are asked about their daughter: *Wie alt ist ___ Tochter?* What belongs in the gap?",
+      "options": [
+        "euer",
+        "eure",
+        "euren",
+        "ihr"
+      ],
+      "correct": 1,
+      "explanation": "*euer* is the possessive of *ihr* ‘you’ addressed to more than one person (¶99), and before a feminine noun it takes **-e** — at which the **-e-** in front of the r drops, giving *eure* (¶103, ¶102).",
+      "rulesTested": [
+        "possessive-euer",
+        "possessive-nom-f-pl"
+      ]
+    },
+    {
+      "id": "de109-q8",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "What happens to *euer* itself when an ending is added to it?",
+      "options": [
+        "the -e- in front of the r drops",
+        "the r drops",
+        "nothing: the ending is simply added",
+        "it is replaced by *ihr*"
+      ],
+      "correct": 0,
+      "explanation": "The **-er** belongs to the word rather than being an ending, and when an ending is attached the **-e-** before the r drops — *eure*, *euren* (¶103).",
+      "rulesTested": [
+        "possessive-euer"
+      ]
+    },
+    {
+      "id": "de109-q9",
+      "type": "matching",
+      "difficulty": "hard",
+      "stem": "Pair each slot with the form *mein* takes in it.",
+      "columnHeadings": [
+        "Slot",
+        "Form"
+      ],
+      "columnI": [
+        "masculine accusative",
+        "feminine accusative",
+        "neuter accusative",
+        "masculine nominative"
+      ],
+      "columnII": [
+        "mein",
+        "meine",
+        "meinen",
+        "meinem"
+      ],
+      "options": [
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          2
+        ],
+        [
+          1,
+          2,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          1,
+          0
+        ]
+      ],
+      "correct": 0,
+      "explanation": "The masculine accusative is *meinen* and the feminine accusative *meine*; the neuter accusative and the masculine nominative are both the bare *mein* (¶101, ¶104). *meinem* is a dative and belongs to no slot here.",
+      "rulesTested": [
+        "possessive-accusative",
+        "possessive-nom-m-n"
+      ]
+    },
+    {
+      "id": "de109-q10",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "In which of these does the possessive article carry no ending at all?",
+      "options": [
+        "Mein Buch ist hier.",
+        "Ich lese mein Buch.",
+        "Ich liebe meine Tochter.",
+        "Mein Freund kommt."
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "A neuter noun takes the base form in both the nominative and the accusative, and a masculine noun takes it in the nominative (¶101, ¶104). Only *meine Tochter* carries an ending, the **-e** of the feminine (¶102).",
+      "rulesTested": [
+        "possessive-nom-m-n",
+        "possessive-accusative",
+        "possessive-nom-f-pl"
+      ]
+    },
+    {
+      "id": "de109-q11",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Which of these is German?",
+      "options": [
+        "mein das Buch",
+        "das mein Buch",
+        "mein Buch",
+        "Buch mein"
+      ],
+      "correct": 2,
+      "explanation": "The possessive article stands in front of its noun in the place an article would take, and no article stands beside it (¶100).",
+      "rulesTested": [
+        "possessive-before-noun"
+      ]
+    },
+    {
+      "id": "de109-q12",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "A shopkeeper says *Ihr Beutel ist bei mir.* to one customer. What does the form of *Ihr* tell you?",
+      "options": [
+        "*Beutel* is masculine or neuter, and stands in the nominative",
+        "*Beutel* is feminine",
+        "*Beutel* is a plural",
+        "the customer is being addressed as *du*"
+      ],
+      "correct": 0,
+      "explanation": "*Ihr* carries no ending, and that happens before a masculine or a neuter noun in the nominative (¶101); a feminine or a plural would give *Ihre* (¶102). The capital marks it as the possessive of the polite *Sie* (¶99).",
+      "rulesTested": [
+        "possessive-nom-m-n",
+        "possessive-base-forms"
+      ]
+    },
+    {
+      "id": "de109-q13",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "*Ich habe keinen Bruder.* How does the same slot look with the possessive of *ich*?",
+      "options": [
+        "Ich habe mein Bruder.",
+        "Ich habe meine Bruder.",
+        "Ich habe meinen Bruder.",
+        "Ich habe meines Bruder."
+      ],
+      "correct": 2,
+      "explanation": "*kein* and the possessives take the same endings, which are those of *ein* (¶94, ¶48, ¶104). *keinen* is the masculine accusative, so the possessive is *meinen*.",
+      "rulesTested": [
+        "possessive-accusative"
+      ]
+    },
+    {
+      "id": "de109-q14",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "*Buch* has the plural *Bücher*. Which is right: *___ Bücher sind hier.*?",
+      "options": [
+        "Mein",
+        "Meine",
+        "Meinen",
+        "Meines"
+      ],
+      "correct": 1,
+      "explanation": "A plural takes **-e** on the possessive article, as a feminine does (¶102), whatever the gender of the singular was.",
+      "rulesTested": [
+        "possessive-nom-f-pl"
+      ]
+    },
+    {
+      "id": "de109-q15",
+      "type": "integer",
+      "difficulty": "medium",
+      "stem": "The table of base forms sets a possessive against each of eight persons. For how many of those eight is the possessive *ihr* or *Ihr*?",
+      "answer": 3,
+      "unit": "persons",
+      "explanation": "*sie* in the singular, *sie* in the plural and the polite *Sie* — three of the eight (¶99). The capital is what tells the last of them from the other two.",
+      "rulesTested": [
+        "possessive-base-forms"
+      ]
+    },
+    {
+      "id": "de109-q16",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "*Ich sehe ___ Sohn.* *Sohn* is masculine. Which of these could fill the gap?",
+      "options": [
+        "meinen",
+        "seinen",
+        "eure",
+        "unseren"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "The slot is a masculine accusative, so the ending is **-en** (¶104): *meinen*, *seinen*, *unseren*. *eure* carries the **-e** of the feminine or the plural (¶102, ¶103) and cannot stand here.",
+      "rulesTested": [
+        "possessive-accusative",
+        "possessive-euer"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Durrell, Martin, *Hammer's German Grammar and Usage*, 5th edn. London: Routledge, 2011.",
+      "note": "§5.2.1 with Table 5.4 (p. 85) for the base forms, §5.2.2 with Table 5.5 (pp. 85–86) for the endings and for the -er of unser and euer."
+    },
+    {
+      "kind": "dictionary",
+      "citation": "*Goethe-Zertifikat A1: Start Deutsch 1 — Wortliste*. Munich: Goethe-Institut.",
+      "note": "Gender and plural of the nouns listed in the vocabulary."
+    }
+  ]
+}
