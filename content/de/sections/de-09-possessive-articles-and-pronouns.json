@@ -376,7 +376,7 @@
       "id": "de109-q1",
       "type": "single",
       "difficulty": "medium",
-      "stem": "*Ich gebe ihm ___ Teppich.* *Teppich* is masculine. What belongs in the gap?",
+      "stem": "*Ich gebe ihm ___ Teppich.* What belongs in the gap?",
       "options": [
         "mein",
         "meine",
@@ -464,7 +464,7 @@
       "id": "de109-q4",
       "type": "single",
       "difficulty": "easy",
-      "stem": "*___ Buch ist nicht hier.* *Buch* is neuter. What belongs in the gap?",
+      "stem": "*___ Buch ist nicht hier.* What belongs in the gap?",
       "options": [
         "Meine",
         "Mein",
@@ -481,7 +481,7 @@
       "id": "de109-q5",
       "type": "single",
       "difficulty": "easy",
-      "stem": "*Tasche* is feminine. Which form stands in front of it in the nominative?",
+      "stem": "Which form stands in front of *Tasche* in the nominative?",
       "options": [
         "sein",
         "seine",
@@ -519,16 +519,16 @@
     {
       "id": "de109-q7",
       "type": "single",
-      "difficulty": "medium",
+      "difficulty": "hard",
       "stem": "Two parents are asked about their daughter: *Wie alt ist ___ Tochter?* What belongs in the gap?",
       "options": [
         "euer",
         "eure",
-        "euren",
-        "ihr"
+        "eur",
+        "deine"
       ],
       "correct": 1,
-      "explanation": "*euer* is the possessive of *ihr* ‘you’ addressed to more than one person (¶99), and before a feminine noun it takes **-e** — at which the **-e-** in front of the r drops, giving *eure* (¶103, ¶102).",
+      "explanation": "Before a feminine noun the ending is **-e**, and adding it drops the **-e-** in front of the r: *eure* (¶103, ¶102). *euer* is the bare form, which stands only before a masculine or a neuter (¶101); *eur* is no word at all, because the -e- drops only when an ending follows it; *deine* is the right shape for the wrong person, the one addressed as *du* rather than as *ihr* (¶99).",
       "rulesTested": [
         "possessive-euer",
         "possessive-nom-f-pl"
@@ -713,7 +713,7 @@
       "id": "de109-q16",
       "type": "multi",
       "difficulty": "hard",
-      "stem": "*Ich sehe ___ Sohn.* *Sohn* is masculine. Which of these could fill the gap?",
+      "stem": "*Ich sehe ___ Sohn.* Which of these could fill the gap?",
       "options": [
         "meinen",
         "seinen",
@@ -729,6 +729,322 @@
       "rulesTested": [
         "possessive-accusative",
         "possessive-euer"
+      ]
+    },
+    {
+      "id": "de109-q17",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "*___ Bruder wohnt in Bremen.* What belongs in the gap?",
+      "options": [
+        "Meine",
+        "Mein",
+        "Meinen",
+        "Meinem"
+      ],
+      "correct": 1,
+      "explanation": "A masculine noun in the nominative takes the base form with no ending (¶101).",
+      "rulesTested": [
+        "possessive-nom-m-n"
+      ]
+    },
+    {
+      "id": "de109-q18",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "*___ Katze ist klein.* What belongs in the gap?",
+      "options": [
+        "Sein",
+        "Seine",
+        "Seinen",
+        "Seines"
+      ],
+      "correct": 1,
+      "explanation": "A feminine noun in the nominative adds **-e** (¶102).",
+      "rulesTested": [
+        "possessive-nom-f-pl"
+      ]
+    },
+    {
+      "id": "de109-q19",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "*Er sucht ___ Fahrkarte.* What belongs in the gap?",
+      "options": [
+        "seinen",
+        "seine",
+        "sein",
+        "seiner"
+      ],
+      "correct": 1,
+      "explanation": "The feminine takes **-e** in the accusative as it does in the nominative (¶104, ¶102); only the masculine changes between the two cases.",
+      "rulesTested": [
+        "possessive-accusative"
+      ]
+    },
+    {
+      "id": "de109-q20",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which of these are correct as accusative phrases?",
+      "options": [
+        "meinen Stuhl",
+        "meine Stadt",
+        "meinen Haus",
+        "meine Kinder"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "*Stuhl* is masculine and takes **-en**, *Stadt* is feminine and *Kinder* a plural, both taking **-e** (¶104). *Haus* is neuter and takes the base form, so it would be *mein Haus*.",
+      "rulesTested": [
+        "possessive-accusative"
+      ]
+    },
+    {
+      "id": "de109-q21",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Pair each pronoun with the possessive article that answers to it.",
+      "columnHeadings": [
+        "Pronoun",
+        "Possessive"
+      ],
+      "columnI": [
+        "ich",
+        "er",
+        "Sie",
+        "wir"
+      ],
+      "columnII": [
+        "mein",
+        "sein",
+        "Ihr",
+        "unser",
+        "ihr"
+      ],
+      "options": [
+        [
+          0,
+          1,
+          4,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          4,
+          2,
+          3
+        ]
+      ],
+      "correct": 1,
+      "explanation": "*ich* takes *mein*, *er* takes *sein*, the polite *Sie* takes *Ihr* with its capital, and *wir* takes *unser* (¶99). The lower-case *ihr* belongs to *sie*, not to *Sie*.",
+      "rulesTested": [
+        "possessive-base-forms"
+      ]
+    },
+    {
+      "id": "de109-q22",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Said to two friends: *___ Auto ist neu.* What belongs in the gap?",
+      "options": [
+        "Eure",
+        "Euer",
+        "Eur",
+        "Euren"
+      ],
+      "correct": 1,
+      "explanation": "A neuter noun in the nominative takes no ending, so nothing is added and nothing drops: *Euer Auto* (¶101, ¶103). *Eure* would want a feminine or a plural (¶102), *Euren* a masculine accusative (¶104), and *Eur* is no word — the -e- drops only in front of an ending.",
+      "rulesTested": [
+        "possessive-euer",
+        "possessive-nom-m-n"
+      ]
+    },
+    {
+      "id": "de109-q23",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "Which of these are written correctly?",
+      "options": [
+        "eure Schule",
+        "euer Sohn",
+        "eure Kinder",
+        "eur Haus"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "The **-e-** in front of the r drops only when an ending follows — *eure* before a feminine and before a plural (¶103, ¶102). With no ending the word stands whole, *euer Sohn*; it never loses the -e- on its own, so *eur Haus* is no form at all.",
+      "rulesTested": [
+        "possessive-euer"
+      ]
+    },
+    {
+      "id": "de109-q24",
+      "type": "integer",
+      "difficulty": "medium",
+      "stem": "Of the four slots in the accusative — masculine, feminine, neuter and plural — how many take an ending on the possessive article?",
+      "answer": 3,
+      "unit": "slots",
+      "explanation": "The masculine takes **-en**, the feminine and the plural **-e**; only the neuter is bare (¶104).",
+      "rulesTested": [
+        "possessive-accusative"
+      ]
+    },
+    {
+      "id": "de109-q25",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "*euer* is the possessive of which grammatical person? Answer with the number of the person.",
+      "answer": 2,
+      "unit": "person",
+      "explanation": "*euer* answers to *ihr*, the second person addressed to more than one (¶99).",
+      "rulesTested": [
+        "possessive-base-forms"
+      ]
+    },
+    {
+      "id": "de109-q26",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "*Das Buch ist hier.* Say it again with the possessive of *ich* in place of the article.",
+      "options": [
+        "Mein Buch ist hier.",
+        "Das mein Buch ist hier.",
+        "Mein das Buch ist hier.",
+        "Das Buch mein ist hier."
+      ],
+      "correct": 0,
+      "explanation": "The possessive article takes the article's own place, and the article goes (¶100). *Buch* is neuter, so the form is the bare *mein* (¶101).",
+      "rulesTested": [
+        "possessive-before-noun",
+        "possessive-nom-m-n"
+      ]
+    },
+    {
+      "id": "de109-q27",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "In front of which of these nouns does the possessive article stand bare in the nominative?",
+      "options": [
+        "Haus",
+        "Frau",
+        "Zug",
+        "Kinder"
+      ],
+      "correct": [
+        0,
+        2
+      ],
+      "explanation": "*Haus* is neuter and *Zug* masculine, and both take the base form (¶101). *Frau* is feminine and *Kinder* a plural, and both add **-e** (¶102).",
+      "rulesTested": [
+        "possessive-nom-m-n",
+        "possessive-nom-f-pl"
+      ]
+    },
+    {
+      "id": "de109-q28",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "*wir* and *ihr* — which pair of possessive articles answers to them, in that order?",
+      "options": [
+        "unser and euer",
+        "unsere and eure",
+        "euer and unser",
+        "unser and ihr"
+      ],
+      "correct": 0,
+      "explanation": "*wir* takes *unser* and *ihr* takes *euer* (¶99). The second pair gives the two words as they look before a feminine noun rather than as they are cited (¶102); the base form is the one with no ending on it.",
+      "rulesTested": [
+        "possessive-base-forms"
+      ]
+    },
+    {
+      "id": "de109-q29",
+      "type": "matching",
+      "difficulty": "hard",
+      "stem": "Pair each word with the form it takes before a masculine noun in the accusative.",
+      "columnHeadings": [
+        "Word",
+        "Accusative"
+      ],
+      "columnI": [
+        "ein",
+        "kein",
+        "mein",
+        "unser"
+      ],
+      "columnII": [
+        "einen",
+        "keinen",
+        "meinen",
+        "unseren",
+        "unserem"
+      ],
+      "options": [
+        [
+          0,
+          1,
+          2,
+          4
+        ],
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          2
+        ]
+      ],
+      "correct": 2,
+      "explanation": "All four take the same **-en** in the masculine accusative, which is the point of saying that the possessives decline like *ein* (¶104, ¶48, ¶94). *unserem* is a dative and belongs to no slot here.",
+      "rulesTested": [
+        "possessive-accusative"
+      ]
+    },
+    {
+      "id": "de109-q30",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "*Meine Freunde kommen.* Why does the possessive article carry **-e** here?",
+      "options": [
+        "because the noun stands in the plural",
+        "because *Freund* is feminine after all",
+        "because the verb is plural",
+        "because the phrase is an accusative"
+      ],
+      "correct": 0,
+      "explanation": "A plural takes **-e** whatever the gender of the singular was (¶102), just as every plural takes *die* whatever that gender was (¶26).",
+      "rulesTested": [
+        "possessive-nom-f-pl"
       ]
     }
   ],
