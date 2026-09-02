@@ -8,7 +8,7 @@
   "rules": [
     {
       "id": "kai-clause",
-      "number": "179",
+      "number": "200",
       "heading": "Kai: When",
       "statement": "**Kai** introduces a **time** clause — *when*, *as*. It was listed among the vocabulary of the future (¶103); it is now needed as a full subordinator. The clause it opens is set off by a comma, as every subordinate clause is (¶109), and the tense inside it is the tense of the event itself: present for present, past for past, future for future.",
       "examples": [
@@ -38,7 +38,7 @@
     },
     {
       "id": "kol-clause",
-      "number": "180",
+      "number": "201",
       "heading": "Kol: While and Until",
       "statement": "**Kol** covers the ground of English *while* and *until*, according to the sense of the verbs. With two actions that overlap it is *while*; with one that stops at the start of another it is *until*. A negative in the *kol*-clause often marks the *until* reading: *laukiau, kol jis atėjo* against *dirbau, kol jis neatėjo* — I waited until he came / I worked until he came (literally *while he had not come*).",
       "paradigms": [
@@ -97,7 +97,7 @@
     },
     {
       "id": "nors-clause",
-      "number": "181",
+      "number": "202",
       "heading": "Nors: Although",
       "statement": "**Nors** (and the fuller **nors ir**) introduces a **concession** — *although*, *even though*. The main clause often answers with **vis tiek** (*all the same*) or simply continues; nothing in the grammar of *nors* requires a special mood. English *although* with a past in the subordinate clause does not force a tense shift in Lithuanian either.",
       "examples": [
@@ -126,7 +126,7 @@
     },
     {
       "id": "subordinate-comma",
-      "number": "182",
+      "number": "203",
       "heading": "The Comma before Every Subordinate Clause",
       "statement": "Lithuanian punctuates by **grammar**, not by pause. Wherever a clause introduced by *kad, ar, kai, kol, nors, jeigu, nes* begins, a **comma** stands before it — even when English would write none. The rule of ¶109 for *kad* is therefore the rule for the whole system: learn the comma with the conjunction.",
       "examples": [
@@ -155,7 +155,7 @@
     },
     {
       "id": "sequence-of-tenses",
-      "number": "183",
+      "number": "204",
       "heading": "Sequence of Tenses",
       "statement": "Lithuanian does **not** shift tenses in reported or subordinate clauses the way English does. What was said in the future stays in the future; what was present stays present. *Jis sakė, kad ateis* is *he said he would come*, but Lithuanian keeps *ateis*. The same honesty of tense holds after *kai, kol, nors* and *jeigu*: choose the tense that names the time of the event, not a tense forced by the main verb.",
       "paradigms": [
@@ -219,7 +219,7 @@
     },
     {
       "id": "subordinate-inventory",
-      "number": "184",
+      "number": "205",
       "heading": "The Inventory so Far",
       "statement": "The subordinators now in hand fall into clear jobs. **Kad** reports a statement; **ar** reports a yes-or-no question; **kai** and **kol** fix time; **nors** concedes; **jeigu** conditions; **nes** gives a reason that cannot open the sentence. Coordinators (*ir, bet, o, arba*) join equals and take no comma of subordination. Mixing the jobs — *jeigu* for *ar*, *kai* for *kada* in a question — is the usual error at this level.",
       "paradigms": [
@@ -473,7 +473,7 @@
         "eiti"
       ],
       "correct": 1,
-      "explanation": "The concession is past (*buvo šalta*), and the main action is past with it: **ėjome**. Tense follows the time of the event (¶183).",
+      "explanation": "The concession is past (*buvo šalta*), and the main action is past with it: **ėjome**. Tense follows the time of the event (¶204).",
       "rulesTested": [
         "nors-clause",
         "sequence-of-tenses"

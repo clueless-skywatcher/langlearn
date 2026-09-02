@@ -1,0 +1,895 @@
+{
+  "id": "a1-cp-07",
+  "kind": "checkpoint",
+  "level": "A1",
+  "order": 32,
+  "title": "Checkpoint 7: Introductions, the Table, and Clothes",
+  "summary": "A cumulative examination of the three thematic sections: greeting, naming and placing a person; ordering, tasting and paying; and the garments with the verbs that put them on. The items combine the three wherever the material allows.",
+  "covers": [
+    "a1-22",
+    "a1-23",
+    "a1-24"
+  ],
+  "passThreshold": 60,
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+      "note": "Descriptive source for the paradigms and rule statements on this page."
+    },
+    {
+      "kind": "dictionary",
+      "citation": "*Dabartinės lietuvių kalbos žodynas*, Lietuvių kalbos institutas.",
+      "url": "https://ekalba.lt/dabartines-lietuviu-kalbos-zodynas/",
+      "note": "Citation forms, government and register for this section's vocabulary."
+    }
+  ],
+  "drills": [
+    {
+      "id": "cp7-q1",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Two women reach an office at nine in the morning and are greeted by a clerk who has never met them. Which greeting fits?",
+      "options": [
+        "Labas rytas.",
+        "Labas.",
+        "Sveika.",
+        "Labanakt."
+      ],
+      "correct": 0,
+      "explanation": "The hour and the distance both decide it: **labas rytas** is the morning greeting (¶146), where *labas* is familiar and singular and *sveika* greets one woman only (¶147). *Labanakt* is a farewell (¶148).",
+      "rulesTested": [
+        "greetings-hour",
+        "labas-sveikas",
+        "taking-leave"
+      ],
+      "vocabUsed": [
+        "labas rytas",
+        "labas",
+        "sveikas",
+        "labanakt"
+      ],
+      "fromSection": "a1-22"
+    },
+    {
+      "id": "cp7-q2",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Which question asks for the surname?",
+      "options": [
+        "Koks tavo vardas?",
+        "Kokia jūsų pavardė?",
+        "Kuo tu vardu?",
+        "Kas tu esi?"
+      ],
+      "correct": 1,
+      "explanation": "*Pavardė* is the surname and is feminine, so *kokia* agrees with it (¶149, ¶51). The first and third both ask the given name, and the fourth asks who somebody is.",
+      "rulesTested": [
+        "vardas-pavarde",
+        "koks"
+      ],
+      "vocabUsed": [
+        "pavardė",
+        "vardas",
+        "koks",
+        "kas"
+      ],
+      "fromSection": "a1-22"
+    },
+    {
+      "id": "cp7-q3",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Ji dirba ____ ____.** (She works as a waitress in a café.)",
+      "options": [
+        "padavėja kavinėje",
+        "padavėją kavinėje",
+        "padavėja kavinę",
+        "padavėjos kavinėje"
+      ],
+      "correct": 0,
+      "explanation": "The occupation goes into the instrumental and the workplace into the locative (¶152). *Padavėja* is the instrumental as well as the nominative — the *-a* declension keeps one form for both — while *padavėją* is an accusative and *padavėjos* a genitive.",
+      "rulesTested": [
+        "occupation-instrumental",
+        "instrumental-singular",
+        "locative-singular"
+      ],
+      "vocabUsed": [
+        "dirbti",
+        "padavėja",
+        "kavinė"
+      ],
+      "fromSection": "a1-22"
+    },
+    {
+      "id": "cp7-q4",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Which sentence is correct?",
+      "options": [
+        "Pažįstu tą padavėją, bet nežinau, kur jis gyvena.",
+        "Žinau tą padavėją, bet nepažįstu, kur jis gyvena.",
+        "Moku tą padavėją, bet nežinau, kur jis gyvena.",
+        "Pažįstu, kur jis gyvena, bet nepažįstu to padavėjo."
+      ],
+      "correct": 0,
+      "explanation": "A person is the object of *pažinti* and an indirect question is the object of *žinoti* (¶153, ¶110). The second and fourth put the clause under *pažinti*; the third makes a person into a skill.",
+      "rulesTested": [
+        "zinoti-pazinti-moketi",
+        "indirect-questions"
+      ],
+      "vocabUsed": [
+        "pažinti",
+        "žinoti",
+        "mokėti",
+        "padavėjas",
+        "gyventi"
+      ],
+      "fromSection": "a1-22"
+    },
+    {
+      "id": "cp7-q5",
+      "type": "matching",
+      "difficulty": "hard",
+      "stem": "Match each question with the case its answer must stand in.",
+      "columnHeadings": [
+        "Question",
+        "Case of the answer"
+      ],
+      "columnI": [
+        "**Kuo tu dirbi?**",
+        "**Iš kur tu esi?**",
+        "**Kur tu gyveni?**",
+        "**Kuo tu vardu?**"
+      ],
+      "columnII": [
+        "instrumental",
+        "genitive",
+        "locative",
+        "dative"
+      ],
+      "options": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          1,
+          0
+        ]
+      ],
+      "correct": 1,
+      "explanation": "*Kuo* is the instrumental of *kas*, and both questions that begin with it are answered in the instrumental — the occupation (¶152) and the name (¶149) — so one label serves two rows. *Iš* governs the genitive (¶33) and residence is the locative (¶59). No question here is answered in the dative.",
+      "rulesTested": [
+        "occupation-instrumental",
+        "vardas-pavarde",
+        "origin-and-residence",
+        "answering-in-case"
+      ],
+      "vocabUsed": [
+        "dirbti",
+        "gyventi",
+        "vardas",
+        "kas"
+      ],
+      "fromSection": "a1-22"
+    },
+    {
+      "id": "cp7-q6",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which of these sentences are impersonal?",
+      "options": [
+        "Man labai malonu.",
+        "Ji labai maloni.",
+        "Malonu susipažinti.",
+        "Malonus vakaras."
+      ],
+      "correct": [
+        0,
+        2
+      ],
+      "explanation": "An impersonal sentence has no nominative and takes the non-gendered form *malonu* (¶126, ¶150). *Maloni* agrees with *ji* and *malonus* with *vakaras*, so both of those are ordinary personal sentences.",
+      "rulesTested": [
+        "malonu-susipazinti",
+        "neuter-adjective",
+        "personal-vs-impersonal"
+      ],
+      "vocabUsed": [
+        "malonu",
+        "malonus",
+        "susipažinti",
+        "vakaras"
+      ],
+      "fromSection": "a1-22"
+    },
+    {
+      "id": "cp7-q7",
+      "type": "integer",
+      "difficulty": "easy",
+      "stem": "Rūta says: **Gyvenu Vilniuje jau dvylika metų.** Kiek metų ji gyvena Vilniuje?",
+      "answer": 12,
+      "explanation": "*Dvylika* is the numeral, and from ten upwards it takes the genitive plural of what it counts — *dvylika metų* (¶80, ¶88). Residence is in the locative, as ¶151 requires.",
+      "rulesTested": [
+        "origin-and-residence",
+        "cardinals-ten-up",
+        "metai-plurale"
+      ],
+      "vocabUsed": [
+        "gyventi",
+        "Vilnius",
+        "metai"
+      ],
+      "unit": "metai",
+      "fromSection": "a1-22"
+    },
+    {
+      "id": "cp7-q8",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Which farewell is said at a parting expected to last?",
+      "options": [
+        "Iki!",
+        "Sudie.",
+        "Labanakt.",
+        "Viso gero."
+      ],
+      "correct": 1,
+      "explanation": "**Sudie** is the farewell of a long parting (¶148). *Iki* is the everyday one, *viso gero* a shade more formal, and *labanakt* is said on leaving for the night.",
+      "rulesTested": [
+        "taking-leave"
+      ],
+      "vocabUsed": [
+        "sudie",
+        "iki pasimatymo",
+        "labanakt",
+        "viso gero"
+      ],
+      "fromSection": "a1-22"
+    },
+    {
+      "id": "cp7-q9",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete: **Norėčiau ____.** (I would like some soup.)",
+      "options": [
+        "sriubos",
+        "sriubą",
+        "sriuba",
+        "sriubai"
+      ],
+      "correct": 0,
+      "explanation": "*Norėti* governs the genitive (¶39), and what is asked for in a café is a part of a mass besides (¶32, ¶154). The accusative would belong to *mėgstu sriubą*.",
+      "rulesTested": [
+        "ordering-politeness",
+        "wanting-liking",
+        "genitive-quantity"
+      ],
+      "vocabUsed": [
+        "norėti",
+        "sriuba"
+      ],
+      "fromSection": "a1-23"
+    },
+    {
+      "id": "cp7-q10",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Trys ____ vyno, prašom.**",
+      "options": [
+        "taurės",
+        "taurė",
+        "taurių",
+        "taures"
+      ],
+      "correct": 0,
+      "explanation": "*Trys* takes the nominative plural of the vessel (¶58), and the wine behind the vessel stays in the genitive whatever happens in front of it (¶155). *Taurių* would be the genitive plural, which the numerals from ten upwards take.",
+      "rulesTested": [
+        "vessel-and-genitive",
+        "numeral-case",
+        "genitive-quantity"
+      ],
+      "vocabUsed": [
+        "taurė",
+        "vynas",
+        "trys",
+        "prašom"
+      ],
+      "fromSection": "a1-23"
+    },
+    {
+      "id": "cp7-q11",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Which sentence is correct?",
+      "options": [
+        "Pusryčiai buvo skanūs.",
+        "Pusryčiai buvo skanus.",
+        "Pusryčiai yra skani.",
+        "Pusryčius buvo skanūs."
+      ],
+      "correct": 0,
+      "explanation": "*Pusryčiai* is a masculine plural word, so both the verb and the adjective are plural (¶57, ¶56, ¶156). *Pusryčius* is its accusative and cannot be a subject.",
+      "rulesTested": [
+        "meals-and-their-verbs",
+        "verb-number",
+        "adjective-number"
+      ],
+      "vocabUsed": [
+        "pusryčiai",
+        "skanus",
+        "būti"
+      ],
+      "fromSection": "a1-23"
+    },
+    {
+      "id": "cp7-q12",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Which sentence is correct?",
+      "options": [
+        "Paprašiau padavėjo sąskaitos.",
+        "Paprašiau padavėją sąskaitą.",
+        "Paprašiau padavėjui sąskaitą.",
+        "Užsakiau padavėjo sąskaitos."
+      ],
+      "correct": 0,
+      "explanation": "*Paprašyti* puts both the person asked and the thing asked for into the genitive (¶157). *Užsakyti* takes an accusative and takes no person at all, so the fourth is wrong twice over.",
+      "rulesTested": [
+        "uzsakyti-prasyti",
+        "genitive-endings"
+      ],
+      "vocabUsed": [
+        "paprašyti",
+        "užsakyti",
+        "padavėjas",
+        "sąskaita"
+      ],
+      "fromSection": "a1-23"
+    },
+    {
+      "id": "cp7-q13",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "In **Sumokėjau už pietus kortele**, which statements are true?",
+      "options": [
+        "*Už* governs the accusative here.",
+        "*Kortele* is the instrumental of means.",
+        "*Pietus* is the accusative of a plural word.",
+        "*Už* here means *behind*."
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "*Už* with the accusative is *for*, of payment and of thanks (¶141, ¶158); with the genitive the same word is *behind*. The means of payment is instrumental (¶73), and *pietūs* is plural throughout its declension (¶156).",
+      "rulesTested": [
+        "bill-and-paying",
+        "uz-accusative",
+        "instrumental-means",
+        "meals-and-their-verbs"
+      ],
+      "vocabUsed": [
+        "sumokėti",
+        "už",
+        "pietūs",
+        "kortelė"
+      ],
+      "fromSection": "a1-23"
+    },
+    {
+      "id": "cp7-q14",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Arbata be cukraus yra ____.**",
+      "options": [
+        "karti",
+        "kartus",
+        "kartu",
+        "kartūs"
+      ],
+      "correct": 0,
+      "explanation": "*Arbata* is feminine, and the feminine of *kartus* drops the *-us* — **karti** (¶17, ¶160). *Kartu* is the adverb *together*, and belongs to a different word.",
+      "rulesTested": [
+        "taste-adjectives",
+        "adjective-agreement",
+        "genitive-prepositions"
+      ],
+      "vocabUsed": [
+        "arbata",
+        "be",
+        "cukrus",
+        "kartus"
+      ],
+      "fromSection": "a1-23"
+    },
+    {
+      "id": "cp7-q15",
+      "type": "matching",
+      "difficulty": "hard",
+      "stem": "Match each formula with the moment it is said at.",
+      "columnHeadings": [
+        "Formula",
+        "When it is said"
+      ],
+      "columnI": [
+        "**Skanaus!**",
+        "**Į sveikatą!**",
+        "**Prašom.**",
+        "**Viso gero!**"
+      ],
+      "columnII": [
+        "to somebody about to eat",
+        "over a drink",
+        "in answer to *ačiū*",
+        "on leaving"
+      ],
+      "options": [
+        [
+          0,
+          1,
+          3,
+          2
+        ],
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          2,
+          1,
+          3
+        ]
+      ],
+      "correct": 2,
+      "explanation": "*Skanaus* is the wish over food and *į sveikatą* the wish over a drink (¶159); *prašom* answers thanks as well as prefacing a request; *viso gero* takes leave (¶148). The fourth pairing swaps the drink for the thanks, which is the confusion *prašom* invites by doing two jobs.",
+      "rulesTested": [
+        "table-formulae",
+        "taking-leave",
+        "ordering-politeness"
+      ],
+      "vocabUsed": [
+        "skanaus",
+        "į sveikatą",
+        "prašom",
+        "viso gero",
+        "ačiū"
+      ],
+      "fromSection": "a1-23"
+    },
+    {
+      "id": "cp7-q16",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Which verb goes with **pirštines**?",
+      "options": [
+        "vilkėti",
+        "avėti",
+        "mūvėti",
+        "užsidėti"
+      ],
+      "correct": 2,
+      "explanation": "**Mūvėti** is of what is pulled onto a limb — gloves, trousers, a ring (¶162). *Vilkėti* clothes the body, *avėti* the feet, and *užsidėti* puts something on the head or the nose.",
+      "rulesTested": [
+        "vilketi-aveti-muveti",
+        "garments"
+      ],
+      "vocabUsed": [
+        "pirštinė",
+        "mūvėti",
+        "vilkėti",
+        "avėti",
+        "užsidėti"
+      ],
+      "fromSection": "a1-24"
+    },
+    {
+      "id": "cp7-q17",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "What is a **skrybėlė**?",
+      "options": [
+        "A hat with a brim.",
+        "A warm knitted cap.",
+        "A scarf.",
+        "A glove."
+      ],
+      "correct": 0,
+      "explanation": "**Skrybėlė** is the stiff, brimmed hat; the soft warm one is **kepurė** (¶161). Lithuanian keeps the two apart where English says *hat* for both.",
+      "rulesTested": [
+        "garments"
+      ],
+      "vocabUsed": [
+        "skrybėlė",
+        "kepurė",
+        "pirštinė"
+      ],
+      "fromSection": "a1-24"
+    },
+    {
+      "id": "cp7-q18",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Ji vilki ____ suknelę ir mūvi ____ pirštines.**",
+      "options": [
+        "rožinę … baltas",
+        "rožinį … baltus",
+        "rožinę … baltus",
+        "rožinis … balta"
+      ],
+      "correct": 0,
+      "explanation": "*Suknelė* is feminine accusative singular and *pirštines* feminine accusative plural, so the colours agree in both (¶17, ¶56, ¶164). The verbs are right in every option; only the endings decide it.",
+      "rulesTested": [
+        "colours",
+        "vilketi-aveti-muveti",
+        "adjective-agreement",
+        "plural-accusative"
+      ],
+      "vocabUsed": [
+        "vilkėti",
+        "mūvėti",
+        "suknelė",
+        "pirštinė",
+        "rožinis",
+        "baltas"
+      ],
+      "fromSection": "a1-24"
+    },
+    {
+      "id": "cp7-q19",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which sentences use the wearing verb correctly?",
+      "options": [
+        "Jis avi batus.",
+        "Jis vilki batus.",
+        "Ji mūvi žiedą.",
+        "Ji dėvi paltą."
+      ],
+      "correct": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "Footwear takes *avėti*, a ring *mūvėti*, and *dėvėti* covers any garment at all (¶162). *Vilkėti* is of what clothes the body, so it cannot reach the feet.",
+      "rulesTested": [
+        "vilketi-aveti-muveti",
+        "garments"
+      ],
+      "vocabUsed": [
+        "avėti",
+        "vilkėti",
+        "mūvėti",
+        "dėvėti",
+        "batas",
+        "žiedas",
+        "paltas"
+      ],
+      "fromSection": "a1-24"
+    },
+    {
+      "id": "cp7-q20",
+      "type": "matching",
+      "difficulty": "medium",
+      "stem": "Match each phrase with the case it puts its noun in.",
+      "columnHeadings": [
+        "Phrase",
+        "Case"
+      ],
+      "columnI": [
+        "**prie pilkų kelnių**",
+        "**vilki mėlyną švarką**",
+        "**dirbu inžinieriumi**",
+        "**moka kortele**"
+      ],
+      "columnII": [
+        "genitive",
+        "accusative",
+        "instrumental",
+        "locative"
+      ],
+      "options": [
+        [
+          0,
+          1,
+          2,
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          0,
+          2,
+          2
+        ],
+        [
+          0,
+          1,
+          3,
+          2
+        ]
+      ],
+      "correct": 0,
+      "explanation": "*Prie* governs the genitive (¶33), *vilkėti* an accusative (¶162), and the occupation and the means of payment are both instrumental (¶152, ¶73) — so one label answers two rows. Nothing here is locative.",
+      "rulesTested": [
+        "fitting-and-suiting",
+        "vilketi-aveti-muveti",
+        "occupation-instrumental",
+        "bill-and-paying",
+        "genitive-prepositions"
+      ],
+      "vocabUsed": [
+        "prie",
+        "kelnės",
+        "vilkėti",
+        "švarkas",
+        "dirbti",
+        "inžinierius",
+        "kortelė"
+      ],
+      "fromSection": "a1-24"
+    },
+    {
+      "id": "cp7-q21",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Complete: **Vaikas dar ____.** (The child is not getting dressed yet.)",
+      "options": [
+        "nesirengia",
+        "nerengiasi",
+        "nesirengiasi",
+        "rengiasi ne"
+      ],
+      "correct": 0,
+      "explanation": "Under the negative the reflexive affix leaves the end of the word and settles between *ne-* and the root: *rengiasi* → **nesirengia** (¶145, ¶163). The second leaves it where it was, the third keeps it in both places, and the fourth is no Lithuanian word order.",
+      "rulesTested": [
+        "dressing-verbs",
+        "reflexive-phrases",
+        "negation"
+      ],
+      "vocabUsed": [
+        "rengtis",
+        "vaikas",
+        "dar"
+      ],
+      "fromSection": "a1-24"
+    },
+    {
+      "id": "cp7-q22",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Which sentence is correct?",
+      "options": [
+        "Pietūs buvo skanūs, o naujos kelnės man netinka.",
+        "Pietus buvo skanūs, o naujos kelnės man netinka.",
+        "Pietūs buvo skanūs, o nauja kelnė man netinka.",
+        "Pietūs buvo skani, o naujos kelnės man netinka."
+      ],
+      "correct": 0,
+      "explanation": "Two plural words in one sentence, and each governs its own agreement: *pietūs* takes a masculine plural adjective (¶156) and *kelnės* a feminine plural one (¶166). *Pietus* is an accusative, and *kelnė* is a singular the word does not have.",
+      "rulesTested": [
+        "plurale-tantum-garments",
+        "meals-and-their-verbs",
+        "fitting-and-suiting",
+        "adjective-number",
+        "verb-number"
+      ],
+      "vocabUsed": [
+        "pietūs",
+        "kelnės",
+        "skanus",
+        "naujas",
+        "tikti"
+      ],
+      "fromSection": "a1-24"
+    },
+    {
+      "id": "cp7-q23",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "A guest is described as wearing **marškinius, kelnes, batus ir akinius**. Of those four words, how many have no singular form at all?",
+      "answer": 3,
+      "explanation": "Three: *marškiniai*, *kelnės* and *akiniai* are plural however few of the article there is (¶166). *Batai* is the ordinary plural of *batas*, and one shoe is a *batas*.",
+      "rulesTested": [
+        "plurale-tantum-garments",
+        "garments"
+      ],
+      "vocabUsed": [
+        "marškiniai",
+        "kelnės",
+        "batas",
+        "akiniai"
+      ],
+      "unit": "words",
+      "fromSection": "a1-24"
+    },
+    {
+      "id": "cp7-p1",
+      "type": "comprehension",
+      "difficulty": "hard",
+      "title": "Vakarienė su kolega",
+      "passage": "TOMAS. Labas vakaras, Rūta. Ar tai nauja suknelė?\nRŪTA. Labas. Taip, vakar pirkau. Rožinė man netiko, tai pirkau žalią.\nTOMAS. Ji labai dera prie tavo švarko. Ką užsakysime?\nRŪTA. Aš norėčiau žuvies ir stiklinės vandens. O tu?\nTOMAS. Man sriubos ir taurę raudono vyno.\nPADAVĖJAS. Labas vakaras. Ar jau žinote, ko norėsite?\nTOMAS. Taip. Žuvies, sriubos, vandens ir vyno.\nPADAVĖJAS. Puiku. Prašom palaukti penkiolika minučių. Skanaus!\nRŪTA. Ačiū. Tomai, o kuo dabar dirbi?\nTOMAS. Dar inžinieriumi, bet nuo gruodžio dirbsiu mokytoju.\nRŪTA. Puiku! Į sveikatą!",
+      "translation": "TOMAS. Good evening, Rūta. Is that a new dress?\nRŪTA. Hello. Yes, I bought it yesterday. The pink one did not fit me, so I bought a green one.\nTOMAS. It goes very well with your jacket. What shall we order?\nRŪTA. I would like some fish and a glass of water. And you?\nTOMAS. Some soup for me, and a glass of red wine.\nWAITER. Good evening. Do you know yet what you will want?\nTOMAS. Yes. Fish, soup, water and wine.\nWAITER. Very good. Please wait fifteen minutes. Enjoy your meal!\nRŪTA. Thank you. Tomas, and what are you working as now?\nTOMAS. Still as an engineer, but from December I shall be working as a teacher.\nRŪTA. Excellent! Your health!",
+      "glossary": {
+        "tai": "so, in that case",
+        "puiku": "excellent, very good",
+        "nuo gruodžio": "from December",
+        "netiko": "did not fit (tikti, past)",
+        "raudono vyno": "of red wine (genitive)"
+      },
+      "questions": [
+        {
+          "id": "cp7-p1-c1",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "Kokią suknelę pirko Rūta?",
+          "options": [
+            "Rožinę.",
+            "Žalią.",
+            "Baltą.",
+            "Mėlyną."
+          ],
+          "correct": 1,
+          "explanation": "*Rožinė man netiko, tai pirkau žalią.* The pink one is the dress she did not buy — *netiko* is *tikti* negated, and it takes the dative of the person (¶165, ¶164).",
+          "rulesTested": [
+            "colours",
+            "fitting-and-suiting"
+          ],
+          "vocabUsed": [
+            "suknelė",
+            "rožinis",
+            "žalias",
+            "pirkti"
+          ],
+          "fromSection": "a1-24"
+        },
+        {
+          "id": "cp7-p1-c2",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "Ką užsakė Tomas?",
+          "options": [
+            "Žuvį ir vandens.",
+            "Sriubos ir vyno.",
+            "Kavos ir pyrago.",
+            "Nieko."
+          ],
+          "correct": 1,
+          "explanation": "*Man sriubos ir taurę raudono vyno.* The fish and the water are Rūta's order (¶154, ¶155).",
+          "rulesTested": [
+            "ordering-politeness",
+            "vessel-and-genitive"
+          ],
+          "vocabUsed": [
+            "sriuba",
+            "vynas",
+            "žuvis",
+            "vanduo",
+            "užsakyti"
+          ],
+          "fromSection": "a1-23"
+        },
+        {
+          "id": "cp7-p1-c3",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Kuo Tomas dirbs nuo gruodžio?",
+          "options": [
+            "Inžinieriumi.",
+            "Mokytoju.",
+            "Padavėju.",
+            "Gydytoju."
+          ],
+          "correct": 1,
+          "explanation": "*Dar inžinieriumi, bet nuo gruodžio dirbsiu mokytoju.* The occupation is instrumental in both halves, and the future *dirbsiu* carries the change (¶152, ¶99).",
+          "rulesTested": [
+            "occupation-instrumental",
+            "future-formation"
+          ],
+          "vocabUsed": [
+            "dirbti",
+            "inžinierius",
+            "mokytojas",
+            "gruodis"
+          ],
+          "fromSection": "a1-22"
+        },
+        {
+          "id": "cp7-p1-q1",
+          "type": "integer",
+          "difficulty": "hard",
+          "stem": "Kiek minučių prašė palaukti padavėjas?",
+          "answer": 15,
+          "explanation": "*Prašom palaukti penkiolika minučių.* The teens take the genitive plural of what they count, as every numeral from ten upwards does (¶80, ¶58).",
+          "rulesTested": [
+            "ordering-politeness",
+            "cardinals-ten-up",
+            "numeral-case"
+          ],
+          "vocabUsed": [
+            "minutė",
+            "penkiolika",
+            "padavėjas"
+          ],
+          "unit": "minutės",
+          "fromSection": "a1-23"
+        },
+        {
+          "id": "cp7-p1-q2",
+          "type": "multi",
+          "difficulty": "hard",
+          "stem": "About **Rožinė man netiko, tai pirkau žalią**, which statements are true?",
+          "options": [
+            "*Netiko* is the past of *tikti* and takes the dative of the person.",
+            "*Rožinė* stands alone for the dress and is feminine.",
+            "*Žalią* is a feminine accusative.",
+            "*Netiko* says the dress was not liked."
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "*Tikti* is to fit or suit and *patikti* is to please (¶165, ¶68): the dress may have been liked perfectly well. Both colour words agree with the understood *suknelė*, the first as a nominative and the second as the accusative object of *pirkau* (¶164).",
+          "rulesTested": [
+            "fitting-and-suiting",
+            "colours",
+            "patikti",
+            "past-o-type"
+          ],
+          "vocabUsed": [
+            "tikti",
+            "patikti",
+            "rožinis",
+            "žalias",
+            "suknelė"
+          ],
+          "fromSection": "a1-24"
+        }
+      ],
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course.",
+          "note": "A dialogue joining the introductions of ¶146–¶153, the ordering of ¶154–¶160 and the clothes of ¶161–¶166."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+          "note": "Descriptive source for the paradigms and rule statements on this page."
+        }
+      ]
+    }
+  ]
+}

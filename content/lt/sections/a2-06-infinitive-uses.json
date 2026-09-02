@@ -8,7 +8,7 @@
   "rules": [
     {
       "id": "complementary-infinitive-range",
-      "number": "185",
+      "number": "206",
       "heading": "The Complementary Infinitive Extended",
       "statement": "¶40 gave the infinitive after **galėti**, **norėti** and **mėgti**. The same construction completes a much longer list of verbs that need a second action rather than a noun: **pradėti** (to begin), **baigti** (to finish), **turėti** in the sense *to have to*, **bandyti** (to try), **mokėti** (to know how), **norėti** and **galėti** as before. The finite verb alone carries person and tense; the infinitive never changes.",
       "paradigms": [
@@ -89,7 +89,7 @@
     },
     {
       "id": "purposive-infinitive",
-      "number": "186",
+      "number": "207",
       "heading": "The Purposive Infinitive after Motion",
       "statement": "After a verb of **motion** — *eiti, važiuoti, ateiti, eiti namo* and their kin — an infinitive states the **purpose** of the going: *einu pirkti* is *I am going (in order) to buy*. English often inserts *to* or *in order to*; Lithuanian puts the bare infinitive next to the motion verb. No *kad* is needed for this short construction.",
       "examples": [
@@ -122,7 +122,7 @@
     },
     {
       "id": "purpose-kad",
-      "number": "187",
+      "number": "208",
       "heading": "Purpose with Kad and the Conditional",
       "statement": "When the purpose is a full clause — especially when its subject differs, or when no motion verb is present — Lithuanian uses **kad** with the **conditional**: *Dirbu, kad uždirbčiau* — I work so that I may earn. The conditional here is not politeness (¶117) but the mood of a purpose not yet achieved. **Tam, kad** makes the purpose explicit when the clause is heavy.",
       "examples": [
@@ -140,7 +140,7 @@
         }
       ],
       "footnotes": [
-        "Do not use a bare infinitive for this: *Dirbu uždirbti* is not Lithuanian. Motion + infinitive (¶186) is one construction; *kad* + conditional is the other."
+        "Do not use a bare infinitive for this: *Dirbu uždirbti* is not Lithuanian. Motion + infinitive (¶207) is one construction; *kad* + conditional is the other."
       ],
       "seeAlso": [
         "purposive-infinitive",
@@ -152,7 +152,7 @@
     },
     {
       "id": "nominal-infinitive",
-      "number": "188",
+      "number": "209",
       "heading": "The Nominal Infinitive",
       "statement": "An infinitive may stand as the **subject** (or predicative complement) of a sentence, naming the action as a thing is named. The predicate is then usually a **neuter** adjective of the kind met at ¶126 — *gera, sunku, naudinga, brangu* — which agrees with nothing, because the subject is not a gendered noun. English often uses a gerund (*reading is useful*); Lithuanian keeps the infinitive.",
       "examples": [
@@ -184,7 +184,7 @@
     },
     {
       "id": "infinitive-with-object",
-      "number": "189",
+      "number": "210",
       "heading": "The Infinitive Keeps its Own Government",
       "statement": "Whatever case a verb governs as a finite form, it governs in the **infinitive** too. *Skaityti knygą* keeps the accusative; *norėti kavos* in a larger phrase still shows the genitive on the noun if *norėti* is the governing verb; *eiti į mokyklą* keeps *į* + accusative. The complementary or purposive frame does not rewrite the inner case.",
       "examples": [
@@ -216,9 +216,9 @@
     },
     {
       "id": "infinitive-choice",
-      "number": "190",
+      "number": "211",
       "heading": "Choosing the Construction",
-      "statement": "Three questions decide the form. Is the infinitive completing a verb such as *galėti, norėti, pradėti*? → complementary (¶185). Is it the purpose of a verb of motion, with no new subject? → bare purposive infinitive (¶186). Is the purpose a full clause, often with a different subject? → *kad* + conditional (¶187). Is the action itself the subject of *yra sunku / naudinga*? → nominal infinitive (¶188). Mixing them — *einu, kad pirkti* or *dirbu uždirbti* — is the error this section exists to prevent.",
+      "statement": "Three questions decide the form. Is the infinitive completing a verb such as *galėti, norėti, pradėti*? → complementary (¶206). Is it the purpose of a verb of motion, with no new subject? → bare purposive infinitive (¶207). Is the purpose a full clause, often with a different subject? → *kad* + conditional (¶208). Is the action itself the subject of *yra sunku / naudinga*? → nominal infinitive (¶209). Mixing them — *einu, kad pirkti* or *dirbu uždirbti* — is the error this section exists to prevent.",
       "paradigms": [
         {
           "caption": "Same idea, right construction",
@@ -385,7 +385,7 @@
         "pres3": "ilsisi",
         "past3": "ilsėjosi"
       },
-      "notes": "Reflexive; see ¶149–¶155 for the affix."
+      "notes": "Reflexive; see ¶170–¶176 for the affix."
     }
   ],
   "drills": [
@@ -493,7 +493,7 @@
         1,
         3
       ],
-      "explanation": "The first, second and fourth follow a motion verb. *Dirbu uždirbti* wrongly uses a bare infinitive where purpose needs *kad* + conditional (¶187).",
+      "explanation": "The first, second and fourth follow a motion verb. *Dirbu uždirbti* wrongly uses a bare infinitive where purpose needs *kad* + conditional (¶208).",
       "rulesTested": [
         "purposive-infinitive",
         "purpose-kad",
@@ -577,7 +577,7 @@
         1,
         3
       ],
-      "explanation": "*Turiu knygą* is possession; *turiu eiti* is obligation. The complement — noun against infinitive — decides the sense (¶185).",
+      "explanation": "*Turiu knygą* is possession; *turiu eiti* is obligation. The complement — noun against infinitive — decides the sense (¶206).",
       "rulesTested": [
         "purposive-infinitive",
         "purpose-kad",
@@ -642,7 +642,7 @@
         "Because the sentence is negated."
       ],
       "correct": 1,
-      "explanation": "The infinitive keeps the government of its verb (¶189). *Pirkti* with an indefinite amount takes the genitive; *eiti* only supplies the motion.",
+      "explanation": "The infinitive keeps the government of its verb (¶210). *Pirkti* with an indefinite amount takes the genitive; *eiti* only supplies the motion.",
       "rulesTested": [
         "infinitive-with-object",
         "purposive-infinitive",
@@ -770,7 +770,7 @@
             "motion + bare infinitive"
           ],
           "correct": 1,
-          "explanation": "*Kad* + conditional *galėtų* is the purpose clause of ¶187, here completing why he begins work early.",
+          "explanation": "*Kad* + conditional *galėtų* is the purpose clause of ¶208, here completing why he begins work early.",
           "rulesTested": [
             "purpose-kad",
             "conditional-formation"
@@ -793,7 +793,7 @@
             "Because *skaityti* is feminine."
           ],
           "correct": 1,
-          "explanation": "Nominal infinitive + neuter adjective (¶188, ¶126). *Man* is the person concerned (dative), not the subject that would force agreement.",
+          "explanation": "Nominal infinitive + neuter adjective (¶209, ¶126). *Man* is the person concerned (dative), not the subject that would force agreement.",
           "rulesTested": [
             "nominal-infinitive",
             "neuter-adjective"

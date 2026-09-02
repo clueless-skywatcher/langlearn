@@ -61,7 +61,7 @@
       "type": "single",
       "difficulty": "hard",
       "stem": "**Gyvenu su seserimi, o dukterį matau retai.** Both nouns belong to the fifth declension. What do the two endings show?",
-      "explanation": "*su* governs the instrumental (¶74) and a direct object stands in the accusative (¶19) — the declension supplies the endings but does not choose the case (¶151, ¶153). The fifth declension is irregular in shape, not in what its cases are for.",
+      "explanation": "*su* governs the instrumental (¶74) and a direct object stands in the accusative (¶19) — the declension supplies the endings but does not choose the case (¶172, ¶174). The fifth declension is irregular in shape, not in what its cases are for.",
       "rulesTested": [
         "fifth-declension-paradigm",
         "seven-cases-uses",
@@ -134,7 +134,7 @@
       "type": "multi",
       "difficulty": "hard",
       "stem": "**Akys** and **naktys** are nominative plurals. Which statements about the third declension are true?",
-      "explanation": "The third declension in *-is* forms its plural in *-ys* and its instrumental singular in *-imi* (¶149). D describes what a learner *expects* after meeting first-declension *-is* nouns like *brolis*, where singular and plural differ elsewhere — the coincidences of ¶152 are real but this is not one of them.",
+      "explanation": "The third declension in *-is* forms its plural in *-ys* and its instrumental singular in *-imi* (¶170). D describes what a learner *expects* after meeting first-declension *-is* nouns like *brolis*, where singular and plural differ elsewhere — the coincidences of ¶173 are real but this is not one of them.",
       "rulesTested": [
         "third-declension-paradigm",
         "paradigm-homographs",
@@ -619,7 +619,7 @@
       "type": "matching",
       "difficulty": "hard",
       "stem": "Match each noun, cited with its genitive, to its declension.",
-      "explanation": "The declension is read from the **genitive**, not the nominative (¶146). *medaus* is fourth, *akies* third, *vandens* fifth, *brolio* first — and *brolis* and *akis* share a nominative ending while belonging to different declensions, which is exactly why the citation form includes the genitive. The second declension matches nothing here.",
+      "explanation": "The declension is read from the **genitive**, not the nominative (¶167). *medaus* is fourth, *akies* third, *vandens* fifth, *brolio* first — and *brolis* and *akis* share a nominative ending while belonging to different declensions, which is exactly why the citation form includes the genitive. The second declension matches nothing here.",
       "rulesTested": [
         "five-declensions",
         "fourth-declension-paradigm",
@@ -684,7 +684,7 @@
       "type": "single",
       "difficulty": "hard",
       "stem": "**Savo akimis mačiau.** Why is *akimis* instrumental plural rather than dative plural *akims*?",
-      "explanation": "The eyes are the means, so the instrumental of ¶73 applies; the third declension supplies *-imis* against dative *-ims* (¶149). *savo* is indeclinable and governs nothing (¶44), and *matyti* takes an accusative object — which is absent here, not instrumental.",
+      "explanation": "The eyes are the means, so the instrumental of ¶73 applies; the third declension supplies *-imis* against dative *-ims* (¶170). *savo* is indeclinable and governs nothing (¶44), and *matyti* takes an accusative object — which is absent here, not instrumental.",
       "rulesTested": [
         "third-declension-paradigm",
         "instrumental-means",
@@ -710,7 +710,7 @@
       "type": "single",
       "difficulty": "hard",
       "stem": "**Nebeturiu vandens** and **Geriu vandenį** use the same noun. Account for the two endings.",
-      "explanation": "*nebe-* is a negative prefix and carries the genitive of negation with it (¶165, ¶26); remove the negation and the object reverts to the accusative *vandenį* (¶151). The fifth declension has a perfectly ordinary accusative — the case is chosen by the sentence, not by the paradigm.",
+      "explanation": "*nebe-* is a negative prefix and carries the genitive of negation with it (¶186, ¶26); remove the negation and the object reverts to the accusative *vandenį* (¶172). The fifth declension has a perfectly ordinary accusative — the case is chosen by the sentence, not by the paradigm.",
       "rulesTested": [
         "fifth-declension-paradigm",
         "nebe-syntax",
@@ -766,7 +766,7 @@
       "stem": "How many **cases** does Lithuanian have, counting the vocative?",
       "answer": 7,
       "unit": "cases",
-      "explanation": "Seven cases in the full map of ¶153.",
+      "explanation": "Seven cases in the full map of ¶174.",
       "rulesTested": [
         "seven-cases-uses"
       ],
@@ -779,7 +779,7 @@
       "type": "multi",
       "difficulty": "hard",
       "stem": "**Prausiuosi**, **nesiprausiu**, **nusiprausiu**. Which statements are true?",
-      "explanation": "A simple reflexive carries *-si* at its end; any prefix — negative or lexical — moves it in after that prefix (¶154, ¶157, ¶158). D misreads the third: *nusiprausiu* has the prefix *nu-* and is not negative at all, which is the distinction ¶158 exists to draw.",
+      "explanation": "A simple reflexive carries *-si* at its end; any prefix — negative or lexical — moves it in after that prefix (¶175, ¶178, ¶179). D misreads the third: *nusiprausiu* has the prefix *nu-* and is not negative at all, which is the distinction ¶179 exists to draw.",
       "rulesTested": [
         "reflexive-present-paradigm",
         "si-under-negation",
@@ -807,7 +807,7 @@
       "type": "single",
       "difficulty": "medium",
       "stem": "A learner writes *nejaučiuosi* for ‘I don't feel’. What is wrong, and what puts it right?",
-      "explanation": "Negation is a prefix, and a prefix pulls the reflexive affix in behind it (¶157). The affix is not lost — it moves — so C is as wrong as leaving it at the end. Writing *ne* apart from a verb is never correct (¶25).",
+      "explanation": "Negation is a prefix, and a prefix pulls the reflexive affix in behind it (¶178). The affix is not lost — it moves — so C is as wrong as leaving it at the end. Writing *ne* apart from a verb is never correct (¶25).",
       "rulesTested": [
         "si-under-negation",
         "reflexive-affix-full",
@@ -897,7 +897,7 @@
       "type": "multi",
       "difficulty": "hard",
       "stem": "**Ieškau raktų, laukiu draugo, bijau tamsos.** What do the three objects have in common, and why?",
-      "explanation": "*ieškoti*, *laukti* and *bijoti* take a genitive object because that is what those verbs do (¶169) — not because anything is negated (¶26) and not as an alternative to the accusative. Government is a property of the verb and has to be learned with it (¶172).",
+      "explanation": "*ieškoti*, *laukti* and *bijoti* take a genitive object because that is what those verbs do (¶190) — not because anything is negated (¶26) and not as an alternative to the accusative. Government is a property of the verb and has to be learned with it (¶193).",
       "rulesTested": [
         "verbs-genitive-object",
         "case-government-summary",
@@ -1253,7 +1253,7 @@
       "type": "single",
       "difficulty": "hard",
       "stem": "**Aš nebedirbu čia, bet dar nedirbu naujoje vietoje.** What does the pair of negatives express?",
-      "explanation": "*nebe-* says a state has stopped and *dar ne-* that it has not started (¶161, ¶163). The two point in opposite directions in time, which is why they can stand in one sentence without contradiction — and why reversing them, as C does, reverses the biography.",
+      "explanation": "*nebe-* says a state has stopped and *dar ne-* that it has not started (¶182, ¶184). The two point in opposite directions in time, which is why they can stand in one sentence without contradiction — and why reversing them, as C does, reverses the biography.",
       "rulesTested": [
         "nebe-meaning",
         "nebe-vs-dar-ne",
@@ -1280,7 +1280,7 @@
       "type": "matching",
       "difficulty": "hard",
       "stem": "Match each expression with what it says about the state of affairs.",
-      "explanation": "*nebe-* marks a state that has ended (¶161), *dar ne-* one not yet begun, *jau ne-* the same ending as *nebe-* but presented as news (¶163), and *tebe-* one that continues (¶164). Options A and D differ only in the fourth pair, which is where the distinction is finest.",
+      "explanation": "*nebe-* marks a state that has ended (¶182), *dar ne-* one not yet begun, *jau ne-* the same ending as *nebe-* but presented as news (¶184), and *tebe-* one that continues (¶185). Options A and D differ only in the fourth pair, which is where the distinction is finest.",
       "rulesTested": [
         "nebe-meaning",
         "nebe-vs-dar-ne",
@@ -1396,7 +1396,7 @@
       "type": "single",
       "difficulty": "hard",
       "stem": "**Jis nebeturi laiko** and **Jis nebesijaučia gerai.** What do the two sentences show about *nebe-*?",
-      "explanation": "*nebe-* is a negative prefix and behaves like one throughout: the object of *turėti* goes into the genitive (¶26), and the reflexive affix migrates in after the prefix exactly as it does after plain *ne-* (¶165, ¶157). One prefix, two consequences.",
+      "explanation": "*nebe-* is a negative prefix and behaves like one throughout: the object of *turėti* goes into the genitive (¶26), and the reflexive affix migrates in after the prefix exactly as it does after plain *ne-* (¶186, ¶178). One prefix, two consequences.",
       "rulesTested": [
         "nebe-syntax",
         "negation-genitive",
@@ -1445,7 +1445,7 @@
       "type": "multi",
       "difficulty": "hard",
       "stem": "Which of these are written as one word?",
-      "explanation": "*nebe-* joins to the word it negates, whether verb or adjective, and takes a migrating reflexive affix with it (¶162, ¶165). Before a word it does not negate — an adverb standing on its own, as in C — it is written apart. The rule is about what is being negated, not about the part of speech.",
+      "explanation": "*nebe-* joins to the word it negates, whether verb or adjective, and takes a migrating reflexive affix with it (¶183, ¶186). Before a word it does not negate — an adverb standing on its own, as in C — it is written apart. The rule is about what is being negated, not about the part of speech.",
       "rulesTested": [
         "nebe-formation",
         "nebe-syntax",

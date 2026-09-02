@@ -1,0 +1,1046 @@
+{
+  "id": "a1-22",
+  "kind": "lesson",
+  "level": "A1",
+  "order": 29,
+  "title": "Meeting People and Introducing Yourself",
+  "summary": "The greeting chosen by the hour and by the person addressed; asking and giving a name; where one is from against where one lives; the instrumental of occupation; and the three verbs English collapses into *to know*.",
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+      "note": "Descriptive source for the paradigms and rule statements on this page."
+    },
+    {
+      "kind": "dictionary",
+      "citation": "*Dabartinės lietuvių kalbos žodynas*, Lietuvių kalbos institutas.",
+      "url": "https://ekalba.lt/dabartines-lietuviu-kalbos-zodynas/",
+      "note": "Citation forms, government and register for this section's vocabulary."
+    }
+  ],
+  "rules": [
+    {
+      "id": "greetings-hour",
+      "number": "146",
+      "heading": "Greeting by the Hour",
+      "statement": "The neutral greeting names the part of the day it is said in: **labas rytas** before noon, **laba diena** through the working day, **labas vakaras** after dusk. **Laba diena** is what is said across a counter or a desk to somebody one has never met, at any hour of business.",
+      "examples": [
+        {
+          "target": "Laba diena. Ar jūs esate ponas Jonaitis?",
+          "gloss": "Good afternoon. Are you Mr Jonaitis?"
+        },
+        {
+          "target": "Labas rytas, mama.",
+          "gloss": "Good morning, mother."
+        },
+        {
+          "target": "Labas vakaras. Prašom sėsti.",
+          "gloss": "Good evening. Please sit down."
+        }
+      ],
+      "footnotes": [
+        "*Laba* is the feminine of *labas* and agrees with *diena* (¶17); *rytas* and *vakaras* are masculine and take *labas*."
+      ],
+      "seeAlso": [
+        "adjective-agreement",
+        "noun-gender"
+      ],
+      "core": true
+    },
+    {
+      "id": "labas-sveikas",
+      "number": "147",
+      "heading": "Labas and Sveikas: the Familiar Greetings",
+      "statement": "**Labas** is the familiar *hello*, said to one person addressed as *tu* (¶45), and it does not change form. **Sveikas** greets with the same warmth but is an adjective in shape, so it agrees with the person greeted: *sveikas* to a man, *sveika* to a woman, **sveiki** to more than one.",
+      "examples": [
+        {
+          "target": "Labas, Tomai!",
+          "gloss": "Hi, Tomas!"
+        },
+        {
+          "target": "Sveika, Rūta!",
+          "gloss": "Hello, Rūta!"
+        },
+        {
+          "target": "Sveiki, kolegos!",
+          "gloss": "Hello, colleagues!",
+          "note": "plural, and the form used to anybody addressed as *jūs*"
+        }
+      ],
+      "footnotes": [
+        "The agreement is with the person greeted, not with the speaker: a man says *sveika* to a woman."
+      ],
+      "seeAlso": [
+        "polite-jus",
+        "adjective-agreement",
+        "vocative"
+      ],
+      "core": true
+    },
+    {
+      "id": "taking-leave",
+      "number": "148",
+      "heading": "Taking Leave",
+      "statement": "**Iki pasimatymo**, *until we meet*, is the ordinary farewell, and in speech it is cut down to **iki**. **Viso gero** is a shade more formal and stands in the genitive, the case a wish is made in; **sudie** is said at a parting expected to last.",
+      "examples": [
+        {
+          "target": "Ačiū. Viso gero!",
+          "gloss": "Thank you. Goodbye!"
+        },
+        {
+          "target": "Iki rytojaus!",
+          "gloss": "See you tomorrow!"
+        },
+        {
+          "target": "Labanakt, vaikai.",
+          "gloss": "Good night, children."
+        }
+      ],
+      "footnotes": [
+        "**Labanakt** is not a greeting: it is said on leaving for the night, where *labas vakaras* (¶146) is said on arriving."
+      ],
+      "seeAlso": [
+        "genitive-endings",
+        "vocative"
+      ],
+      "core": true
+    },
+    {
+      "id": "vardas-pavarde",
+      "number": "149",
+      "heading": "Asking a Name",
+      "statement": "A given name is asked for in two ways: **Koks tavo vardas?** with the nominative, or **Kuo tu vardu?** with the instrumental of *vardas* (¶71). The surname is a separate word and a separate question — **Kokia jūsų pavardė?**",
+      "examples": [
+        {
+          "target": "Koks tavo vardas? — Mano vardas Rūta.",
+          "gloss": "What is your name? — My name is Rūta."
+        },
+        {
+          "target": "Kuo tu vardu? — Aš Tomas.",
+          "gloss": "What are you called? — I am Tomas."
+        },
+        {
+          "target": "Kokia jūsų pavardė? — Jonaitienė.",
+          "gloss": "What is your surname? — Jonaitienė."
+        }
+      ],
+      "footnotes": [
+        "*Koks* agrees with what it asks about (¶51), so it is *koks vardas* and *kokia pavardė*.",
+        "**Pravardė** is a nickname and is a different word from **pavardė**."
+      ],
+      "seeAlso": [
+        "koks",
+        "instrumental-singular",
+        "possessives"
+      ],
+      "core": true
+    },
+    {
+      "id": "malonu-susipazinti",
+      "number": "150",
+      "heading": "Malonu susipažinti",
+      "statement": "On being introduced one says **Malonu susipažinti**, *it is pleasant to become acquainted*. **Malonu** is the non-gendered adjective of the impersonal sentence (¶126), so it is the same in any mouth; the person pleased is added in the dative — *Man labai malonu*.",
+      "examples": [
+        {
+          "target": "Malonu susipažinti.",
+          "gloss": "Pleased to meet you."
+        },
+        {
+          "target": "Man labai malonu.",
+          "gloss": "I am very pleased."
+        },
+        {
+          "target": "Malonu, kad atėjote.",
+          "gloss": "I am glad you came."
+        }
+      ],
+      "footnotes": [
+        "*Maloni* and *malonus* are the ordinary adjective, said of a person or a thing: *maloni moteris*, a pleasant woman."
+      ],
+      "seeAlso": [
+        "neuter-adjective",
+        "personal-vs-impersonal",
+        "dative-pronouns"
+      ],
+      "core": true
+    },
+    {
+      "id": "origin-and-residence",
+      "number": "151",
+      "heading": "Where One Is From and Where One Lives",
+      "statement": "Origin is **iš** with the genitive (¶30) and residence is the locative (¶59); they are two separate statements about a person and neither implies the other. *Esu iš Kauno, bet gyvenu Vilniuje* makes both at once.",
+      "examples": [
+        {
+          "target": "Iš kur tu esi? — Esu iš Klaipėdos.",
+          "gloss": "Where are you from? — I am from Klaipėda."
+        },
+        {
+          "target": "Kur tu gyveni? — Gyvenu Vilniuje.",
+          "gloss": "Where do you live? — I live in Vilnius."
+        },
+        {
+          "target": "Ji iš Lietuvos, bet gyvena Anglijoje.",
+          "gloss": "She is from Lithuania but lives in England."
+        }
+      ],
+      "footnotes": [],
+      "seeAlso": [
+        "genitive-origin",
+        "locative-singular",
+        "genitive-questions"
+      ],
+      "core": true
+    },
+    {
+      "id": "occupation-instrumental",
+      "number": "152",
+      "heading": "Dirbti kuo: the Instrumental of Occupation",
+      "statement": "**Dirbti** names the occupation in the instrumental (¶71) and the workplace in the locative (¶59), so one sentence can hold both: *dirbu mokytoju mokykloje*. With **būti** the occupation is a predicate nominative instead (¶16) — *esu mokytojas*, never *esu mokytoju*.",
+      "examples": [
+        {
+          "target": "Kuo tu dirbi? — Dirbu gydytoju.",
+          "gloss": "What do you do? — I work as a doctor."
+        },
+        {
+          "target": "Kur tu dirbi? — Dirbu universitete.",
+          "gloss": "Where do you work? — I work at the university."
+        },
+        {
+          "target": "Ji yra studentė ir dirba padavėja.",
+          "gloss": "She is a student and works as a waitress."
+        }
+      ],
+      "paradigms": [
+        {
+          "caption": "The occupation after each verb",
+          "columns": [
+            "question",
+            "answer",
+            "case"
+          ],
+          "rows": [
+            {
+              "label": "Kuo dirbi?",
+              "cells": [
+                "Dirbu inžinieriumi.",
+                "instrumental"
+              ]
+            },
+            {
+              "label": "Kur dirbi?",
+              "cells": [
+                "Dirbu centre.",
+                "locative"
+              ]
+            },
+            {
+              "label": "Kas tu esi?",
+              "cells": [
+                "Esu inžinierius.",
+                "nominative"
+              ]
+            }
+          ],
+          "footnote": "*Kuo* is the instrumental of *kas* (¶49); *kur* asks the place and *kas* the identity."
+        }
+      ],
+      "footnotes": [],
+      "seeAlso": [
+        "instrumental-singular",
+        "locative-singular",
+        "predicate-nominative",
+        "kas-declined"
+      ],
+      "core": true
+    },
+    {
+      "id": "zinoti-pazinti-moketi",
+      "number": "153",
+      "heading": "Three Verbs for Knowing",
+      "statement": "**Žinoti** is to know a fact, and takes a thing or a *kad* clause: *žinau adresą*, *žinau, kad jis atėjo*. **Pažinti** is to know a person, and **mokėti** is to know how — a skill, or a language: *pažįstu Joną*, *moku plaukti*, *moku lietuviškai*.",
+      "examples": [
+        {
+          "target": "Ar žinai, kur jis gyvena?",
+          "gloss": "Do you know where he lives?"
+        },
+        {
+          "target": "Ar pažįsti mano seserį?",
+          "gloss": "Do you know my sister?"
+        },
+        {
+          "target": "Jis moka penkias kalbas.",
+          "gloss": "He knows five languages."
+        }
+      ],
+      "paradigms": [
+        {
+          "caption": "Which verb the object chooses",
+          "columns": [
+            "object",
+            "verb"
+          ],
+          "rows": [
+            {
+              "label": "a fact, an address, a clause",
+              "cells": [
+                "žinoti"
+              ]
+            },
+            {
+              "label": "a person",
+              "cells": [
+                "pažinti"
+              ]
+            },
+            {
+              "label": "a skill or a language",
+              "cells": [
+                "mokėti"
+              ]
+            }
+          ],
+          "footnote": "*Mokytis* is a fourth verb again, and is to study rather than to know (¶145)."
+        }
+      ],
+      "footnotes": [
+        "*Žinoti* is also said of a person one has heard of but has not met: *žinau tą rašytoją, bet jo nepažįstu*."
+      ],
+      "seeAlso": [
+        "subordination-kad",
+        "complementary-infinitive",
+        "reflexive-phrases"
+      ],
+      "core": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "lemma": "laba diena",
+      "gloss": "good afternoon, good day",
+      "pos": "interjection",
+      "notes": "The neutral greeting of the working day."
+    },
+    {
+      "lemma": "labas rytas",
+      "gloss": "good morning",
+      "pos": "interjection"
+    },
+    {
+      "lemma": "labas vakaras",
+      "gloss": "good evening",
+      "pos": "interjection"
+    },
+    {
+      "lemma": "labanakt",
+      "gloss": "good night",
+      "pos": "interjection",
+      "notes": "Said on parting, not on arriving."
+    },
+    {
+      "lemma": "sveikas",
+      "gloss": "hello (to one man); well, healthy",
+      "pos": "adjective",
+      "forms": {
+        "masc": "sveikas",
+        "fem": "sveika"
+      },
+      "notes": "As a greeting it agrees with the person greeted: sveikas, sveika, sveiki."
+    },
+    {
+      "lemma": "iki pasimatymo",
+      "gloss": "goodbye, until we meet",
+      "pos": "interjection",
+      "notes": "Shortened in speech to iki."
+    },
+    {
+      "lemma": "viso gero",
+      "gloss": "goodbye, all the best",
+      "pos": "interjection",
+      "notes": "A genitive phrase: the case of a wish."
+    },
+    {
+      "lemma": "sudie",
+      "gloss": "farewell",
+      "pos": "interjection",
+      "notes": "Of a parting expected to last."
+    },
+    {
+      "lemma": "rytoj",
+      "gloss": "tomorrow",
+      "pos": "adverb"
+    },
+    {
+      "lemma": "malonu",
+      "gloss": "it is pleasant",
+      "pos": "adverb",
+      "notes": "The non-gendered form of malonus, used impersonally."
+    },
+    {
+      "lemma": "malonus",
+      "gloss": "pleasant, agreeable",
+      "pos": "adjective",
+      "forms": {
+        "masc": "malonus",
+        "fem": "maloni"
+      }
+    },
+    {
+      "lemma": "susipažinti",
+      "gloss": "to become acquainted, to meet (+ su and instr.)",
+      "pos": "verb",
+      "forms": {
+        "inf": "susipažinti",
+        "pres3": "susipažįsta",
+        "past3": "susipažino",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "pasimatyti",
+      "gloss": "to meet, to see one another",
+      "pos": "verb",
+      "forms": {
+        "inf": "pasimatyti",
+        "pres3": "pasimato",
+        "past3": "pasimatė",
+        "conj": "III"
+      }
+    },
+    {
+      "lemma": "kolega",
+      "gloss": "colleague",
+      "pos": "noun",
+      "forms": {
+        "nom": "kolega",
+        "gen": "kolegos",
+        "acc": "kolegą",
+        "gender": "m."
+      },
+      "notes": "Masculine although it ends in -a; the feminine is kolegė."
+    },
+    {
+      "lemma": "inžinierius",
+      "gloss": "engineer",
+      "pos": "noun",
+      "forms": {
+        "nom": "inžinierius",
+        "gen": "inžinieriaus",
+        "acc": "inžinierių",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "studentė",
+      "gloss": "student (female)",
+      "pos": "noun",
+      "forms": {
+        "nom": "studentė",
+        "gen": "studentės",
+        "acc": "studentę",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "padavėja",
+      "gloss": "waitress",
+      "pos": "noun",
+      "forms": {
+        "nom": "padavėja",
+        "gen": "padavėjos",
+        "acc": "padavėją",
+        "gender": "f."
+      },
+      "notes": "The masculine is padavėjas."
+    },
+    {
+      "lemma": "Klaipėda",
+      "gloss": "Klaipėda",
+      "pos": "noun",
+      "forms": {
+        "nom": "Klaipėda",
+        "gen": "Klaipėdos",
+        "acc": "Klaipėdą",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "adresas",
+      "gloss": "address",
+      "pos": "noun",
+      "forms": {
+        "nom": "adresas",
+        "gen": "adreso",
+        "acc": "adresą",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "taip pat",
+      "gloss": "also, likewise",
+      "pos": "adverb"
+    },
+    {
+      "lemma": "ponas",
+      "gloss": "Mr, sir",
+      "pos": "noun",
+      "forms": {
+        "nom": "ponas",
+        "gen": "pono",
+        "acc": "poną",
+        "gender": "m."
+      },
+      "notes": "The feminine is ponia; the vocative of address is pone."
+    }
+  ],
+  "drills": [
+    {
+      "id": "a122-q1",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete the greeting said across a counter at midday: **____ diena.**",
+      "options": [
+        "Laba",
+        "Labas",
+        "Labą",
+        "Labai"
+      ],
+      "correct": 0,
+      "explanation": "*Diena* is feminine, so the greeting takes the feminine **laba** (¶17). *Labas* would be right before *rytas* and *vakaras*, which are masculine; *labai* is the adverb *very*.",
+      "rulesTested": [
+        "greetings-hour",
+        "adjective-agreement",
+        "noun-gender"
+      ],
+      "vocabUsed": [
+        "laba diena",
+        "diena",
+        "labas"
+      ]
+    },
+    {
+      "id": "a122-q2",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Which form of **sveikas** greets two colleagues at once?",
+      "options": [
+        "Sveikas!",
+        "Sveika!",
+        "Sveiki!",
+        "Sveiką!"
+      ],
+      "correct": 2,
+      "explanation": "**Sveiki** is the masculine nominative plural, and is what more than one person is greeted with (¶56). *Sveikas* and *sveika* are singular; *sveiką* is an accusative and greets nobody.",
+      "rulesTested": [
+        "labas-sveikas",
+        "adjective-number",
+        "plural-nominative"
+      ],
+      "vocabUsed": [
+        "sveikas",
+        "kolega"
+      ]
+    },
+    {
+      "id": "a122-q3",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "When is **labanakt** said?",
+      "options": [
+        "On arriving in the evening.",
+        "On leaving for the night.",
+        "On sitting down to a meal.",
+        "On being introduced to somebody."
+      ],
+      "correct": 1,
+      "explanation": "**Labanakt** is a farewell. The greeting on arriving after dusk is *labas vakaras* (¶146); the phrase for being introduced is *malonu susipažinti* (¶150).",
+      "rulesTested": [
+        "taking-leave",
+        "greetings-hour"
+      ],
+      "vocabUsed": [
+        "labanakt",
+        "labas vakaras"
+      ]
+    },
+    {
+      "id": "a122-q4",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Kuo tu ____?** (What is your name?)",
+      "options": [
+        "vardas",
+        "vardu",
+        "vardą",
+        "vardo"
+      ],
+      "correct": 1,
+      "explanation": "*Kuo* is the instrumental of *kas* (¶49), and the answer stands in the instrumental with it: **vardu** (¶71). The nominative belongs to the other question, *Koks tavo vardas?*",
+      "rulesTested": [
+        "vardas-pavarde",
+        "instrumental-singular",
+        "kas-declined"
+      ],
+      "vocabUsed": [
+        "vardas",
+        "kas",
+        "tu"
+      ]
+    },
+    {
+      "id": "a122-q5",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Which pair of forms completes **Aš esu iš ____, bet gyvenu ____.**?",
+      "options": [
+        "Kauno … Vilniuje",
+        "Kaune … Vilniaus",
+        "Kauną … Vilniumi",
+        "Kaunas … Vilnius"
+      ],
+      "correct": 0,
+      "explanation": "*Iš* governs the genitive (¶33), so **Kauno**; residence is the locative (¶59), so **Vilniuje**. The second option has the two cases the right way round, which is the commonest way of getting this sentence wrong.",
+      "rulesTested": [
+        "origin-and-residence",
+        "genitive-prepositions",
+        "locative-singular"
+      ],
+      "vocabUsed": [
+        "iš",
+        "Kaunas",
+        "Vilnius",
+        "gyventi"
+      ]
+    },
+    {
+      "id": "a122-q6",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "**Kuo tu dirbi?** Which answer replies to the question actually asked?",
+      "options": [
+        "Dirbu mokykloje.",
+        "Dirbu mokytoju.",
+        "Dirbu mokytojas.",
+        "Esu mokytoju."
+      ],
+      "correct": 1,
+      "explanation": "*Kuo* asks the occupation, which stands in the instrumental after *dirbti* (¶152). *Dirbu mokykloje* answers *kur*; *dirbu mokytojas* leaves the noun in the nominative; and *būti* would want the nominative — *esu mokytojas*.",
+      "rulesTested": [
+        "occupation-instrumental",
+        "instrumental-singular",
+        "predicate-nominative"
+      ],
+      "vocabUsed": [
+        "dirbti",
+        "mokytojas",
+        "mokykla",
+        "būti"
+      ]
+    },
+    {
+      "id": "a122-q7",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Which verb fits: **____, kad ji jau atėjo.** (I know that she has already come.)",
+      "options": [
+        "Žinau",
+        "Pažįstu",
+        "Moku",
+        "Mokausi"
+      ],
+      "correct": 0,
+      "explanation": "A *kad* clause is a fact, and facts are the object of **žinoti** (¶153). *Pažinti* would need a person as its object; *mokėti* a skill; *mokytis* is to study.",
+      "rulesTested": [
+        "zinoti-pazinti-moketi",
+        "subordination-kad"
+      ],
+      "vocabUsed": [
+        "žinoti",
+        "pažinti",
+        "mokėti",
+        "mokytis",
+        "kad",
+        "ateiti",
+        "jau"
+      ]
+    },
+    {
+      "id": "a122-q8",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which of these can be said on leaving?",
+      "options": [
+        "Iki pasimatymo.",
+        "Viso gero.",
+        "Laba diena.",
+        "Sudie."
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "*Laba diena* greets rather than takes leave (¶146). The other three are farewells: *iki pasimatymo* the ordinary one, *viso gero* a shade more formal, *sudie* of a long parting.",
+      "rulesTested": [
+        "taking-leave",
+        "greetings-hour"
+      ],
+      "vocabUsed": [
+        "iki pasimatymo",
+        "viso gero",
+        "sudie",
+        "laba diena"
+      ]
+    },
+    {
+      "id": "a122-q9",
+      "type": "matching",
+      "difficulty": "hard",
+      "stem": "Each sentence is missing its verb of knowing. Match the sentence with the verb it takes.",
+      "columnHeadings": [
+        "Sentence",
+        "Verb"
+      ],
+      "columnI": [
+        "**____, kad jis gydytojas.**",
+        "**____ jo seserį.**",
+        "**____ lietuviškai.**",
+        "**____, kur yra kavinė.**"
+      ],
+      "columnII": [
+        "žinoti",
+        "pažinti",
+        "mokėti",
+        "mokytis"
+      ],
+      "options": [
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          3,
+          2
+        ]
+      ],
+      "correct": 0,
+      "explanation": "*Žinoti* answers to both clauses — a *kad* clause and an indirect question are equally facts (¶153, ¶110) — so one label serves two rows, which is what the three distractors will not allow. *Pažinti* takes the person, *mokėti* the language. *Mokytis* is to study and completes nothing here.",
+      "rulesTested": [
+        "zinoti-pazinti-moketi",
+        "indirect-questions",
+        "subordination-kad"
+      ],
+      "vocabUsed": [
+        "žinoti",
+        "pažinti",
+        "mokėti",
+        "mokytis",
+        "gydytojas",
+        "sesuo",
+        "lietuviškai",
+        "kavinė"
+      ]
+    },
+    {
+      "id": "a122-q10",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "About **Man labai malonu**, which statements are true?",
+      "options": [
+        "*Malonu* is the non-gendered form and stands unchanged whoever says it.",
+        "The person pleased is in the dative.",
+        "A woman would have to say *maloni*.",
+        "The sentence has no nominative subject."
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "This is the impersonal pattern of ¶126–¶127: no nominative, the person in the dative, the adjective in its non-gendered form. *Maloni* is the ordinary feminine adjective and would need a feminine noun to agree with — *maloni moteris*.",
+      "rulesTested": [
+        "malonu-susipazinti",
+        "neuter-adjective",
+        "personal-vs-impersonal",
+        "dative-pronouns"
+      ],
+      "vocabUsed": [
+        "malonu",
+        "malonus",
+        "man"
+      ]
+    },
+    {
+      "id": "a122-q11",
+      "type": "integer",
+      "difficulty": "medium",
+      "stem": "A man greets a woman, a woman greets a man, and either of them greets a mixed group. Using **sveikas** each time, how many different forms of the word do the three greetings need?",
+      "answer": 3,
+      "explanation": "Three: **sveika** to the woman, **sveikas** to the man, **sveiki** to the group. The form follows the person greeted and not the speaker, so the first two greetings do not share a form (¶147).",
+      "rulesTested": [
+        "labas-sveikas",
+        "adjective-agreement",
+        "adjective-number"
+      ],
+      "vocabUsed": [
+        "sveikas"
+      ],
+      "unit": "forms"
+    },
+    {
+      "id": "a122-q13",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "Lithuanian names its cases in a fixed order: *vardininkas, kilmininkas, naudininkas, galininkas, įnagininkas, vietininkas, šauksmininkas*. Counting from the first of them, what position in that order does the case of *inžinieriumi* hold in **Dirbu inžinieriumi**?",
+      "answer": 5,
+      "explanation": "*Inžinieriumi* is the *įnagininkas*, the instrumental — the case *dirbti* takes for an occupation (¶152). The locative *inžinieriuje* would come one place later and would say nothing about the work.",
+      "rulesTested": [
+        "occupation-instrumental",
+        "instrumental-singular"
+      ],
+      "vocabUsed": [
+        "dirbti",
+        "inžinierius"
+      ],
+      "unit": "position in the order of cases"
+    },
+    {
+      "id": "a122-q12",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Which sentence is correct?",
+      "options": [
+        "Mano brolis dirba mokytoju mokykloje.",
+        "Mano brolis dirba mokytojas mokykloje.",
+        "Mano brolis dirba mokytoju mokyklą.",
+        "Mano brolis yra mokytoju."
+      ],
+      "correct": 0,
+      "explanation": "The occupation is instrumental after *dirbti* and the workplace locative (¶152). The second leaves the occupation in the nominative, the third puts the workplace in the accusative, and the fourth gives *būti* an instrumental where it wants *mokytojas*.",
+      "rulesTested": [
+        "occupation-instrumental",
+        "predicate-nominative",
+        "locative-singular",
+        "possessives"
+      ],
+      "vocabUsed": [
+        "brolis",
+        "dirbti",
+        "mokytojas",
+        "mokykla",
+        "mano",
+        "būti"
+      ]
+    },
+    {
+      "id": "a122-q14",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Complete: **Norėčiau susipažinti su ____.**",
+      "options": [
+        "tavimi",
+        "tave",
+        "tavęs",
+        "tau"
+      ],
+      "correct": 0,
+      "explanation": "*Su* governs the instrumental (¶74), and the instrumental of *tu* is **tavimi** (¶42). *Tavęs* is the genitive *norėti* would take if the pronoun were its own object, and it is the trap here: the genitive belongs to *norėčiau*, but *su* has already taken the pronoun.",
+      "rulesTested": [
+        "instrumental-su",
+        "pronouns-cases",
+        "conditional-politeness",
+        "wanting-liking"
+      ],
+      "vocabUsed": [
+        "norėti",
+        "susipažinti",
+        "su",
+        "tu"
+      ]
+    },
+    {
+      "id": "a122-p1",
+      "type": "comprehension",
+      "difficulty": "hard",
+      "title": "Pirmoji pažintis",
+      "passage": "RŪTA. Laba diena. Aš esu Rūta.\nTOMAS. Labas, Rūta. Mano vardas Tomas. Malonu susipažinti.\nRŪTA. Man taip pat labai malonu. Iš kur tu esi, Tomai?\nTOMAS. Esu iš Klaipėdos, bet jau penkerius metus gyvenu Vilniuje. O tu?\nRŪTA. Aš iš Vilniaus. Kuo tu dirbi?\nTOMAS. Dirbu inžinieriumi didelėje įmonėje. O tu?\nRŪTA. Aš dar studentė, studijuoju istoriją. Ar tu pažįsti Aušrą? Ji taip pat čia.\nTOMAS. Nepažįstu, bet žinau, kad ji moka penkias kalbas.\nRŪTA. Šešias. Man jau reikia eiti. Viso gero!\nTOMAS. Iki pasimatymo!",
+      "translation": "RŪTA. Good afternoon. I am Rūta.\nTOMAS. Hi, Rūta. My name is Tomas. Pleased to meet you.\nRŪTA. I am very pleased too. Where are you from, Tomas?\nTOMAS. I am from Klaipėda, but I have been living in Vilnius for five years now. And you?\nRŪTA. I am from Vilnius. What do you do?\nTOMAS. I work as an engineer at a large company. And you?\nRŪTA. I am still a student, I study history. Do you know Aušra? She is here too.\nTOMAS. I do not know her, but I know that she speaks five languages.\nRŪTA. Six. I have to go now. Goodbye!\nTOMAS. See you!",
+      "glossary": {
+        "taip pat": "also, too",
+        "įmonė": "company, firm",
+        "dar": "still, yet",
+        "Aušrą": "Aušra (a woman's name), accusative",
+        "Tomai": "Tomas, vocative"
+      },
+      "questions": [
+        {
+          "id": "a122-p1-c1",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "Iš kur yra Tomas?",
+          "options": [
+            "Iš Vilniaus.",
+            "Iš Klaipėdos.",
+            "Iš Kauno.",
+            "Iš įmonės."
+          ],
+          "correct": 1,
+          "explanation": "*Esu iš Klaipėdos, bet jau penkerius metus gyvenu Vilniuje.* Vilnius is where he lives, not where he is from (¶151).",
+          "rulesTested": [
+            "origin-and-residence"
+          ],
+          "vocabUsed": [
+            "Klaipėda",
+            "Vilnius"
+          ]
+        },
+        {
+          "id": "a122-p1-c2",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "Kuo dirba Tomas?",
+          "options": [
+            "Mokytoju.",
+            "Inžinieriumi.",
+            "Gydytoju.",
+            "Studentu."
+          ],
+          "correct": 1,
+          "explanation": "*Dirbu inžinieriumi.* The answer keeps the instrumental of the question (¶152, ¶52).",
+          "rulesTested": [
+            "occupation-instrumental",
+            "answering-in-case"
+          ],
+          "vocabUsed": [
+            "dirbti",
+            "inžinierius"
+          ]
+        },
+        {
+          "id": "a122-p1-c3",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Kiek kalbų moka Aušra?",
+          "options": [
+            "Penkias.",
+            "Šešias.",
+            "Keturias.",
+            "Dvi."
+          ],
+          "correct": 1,
+          "explanation": "Tomas says five and Rūta corrects him: *Šešias.* After *kiek* the noun stands in the genitive plural — *kiek kalbų* (¶32, ¶55).",
+          "rulesTested": [
+            "zinoti-pazinti-moketi",
+            "genitive-quantity",
+            "plural-genitive"
+          ],
+          "vocabUsed": [
+            "mokėti",
+            "kalba",
+            "kiek"
+          ]
+        },
+        {
+          "id": "a122-p1-q1",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Rūta says **Man taip pat labai malonu**. Why *malonu* and not *maloni*?",
+          "options": [
+            "Because *taip pat* requires the short form.",
+            "Because the sentence is impersonal and has no noun for an adjective to agree with.",
+            "Because *malonu* is an adverb of degree.",
+            "Because the speaker is a woman."
+          ],
+          "correct": 1,
+          "explanation": "There is no nominative in the sentence: the person is in the dative and the predicate is the non-gendered form (¶126, ¶150). Had the speaker been a man, *malonu* would still be the word.",
+          "rulesTested": [
+            "malonu-susipazinti",
+            "neuter-adjective",
+            "personal-vs-impersonal"
+          ],
+          "vocabUsed": [
+            "malonu",
+            "man",
+            "taip pat"
+          ]
+        },
+        {
+          "id": "a122-p1-q2",
+          "type": "multi",
+          "difficulty": "hard",
+          "stem": "Which of these does the dialogue state about Tomas?",
+          "options": [
+            "the town he comes from",
+            "the town he lives in",
+            "what he works as",
+            "his surname"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "Origin, residence and occupation are all given — and the first two are given separately, as ¶151 requires. No surname is exchanged; *Tomas* is a given name (¶149).",
+          "rulesTested": [
+            "origin-and-residence",
+            "occupation-instrumental",
+            "vardas-pavarde"
+          ],
+          "vocabUsed": [
+            "Klaipėda",
+            "Vilnius",
+            "inžinierius",
+            "pavardė"
+          ]
+        },
+        {
+          "id": "a122-p1-q3",
+          "type": "integer",
+          "difficulty": "hard",
+          "stem": "Kiek metų Tomas gyvena Vilniuje?",
+          "answer": 5,
+          "explanation": "*Jau penkerius metus gyvenu Vilniuje.* *Metai* is a plural word counted with the collective *penkeri*, and duration stands in the accusative — *penkerius metus* (¶88, ¶83).",
+          "rulesTested": [
+            "origin-and-residence",
+            "metai-plurale",
+            "accusative-of-time"
+          ],
+          "vocabUsed": [
+            "metai",
+            "penkeri",
+            "gyventi",
+            "Vilnius"
+          ],
+          "unit": "metai"
+        }
+      ],
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course.",
+          "note": "A first-meeting dialogue, kept to the greetings and introductions of ¶146–¶153."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+          "note": "Descriptive source for the paradigms and rule statements on this page."
+        }
+      ]
+    }
+  ]
+}

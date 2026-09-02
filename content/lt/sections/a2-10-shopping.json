@@ -1,0 +1,1269 @@
+{
+  "id": "a2-10",
+  "kind": "lesson",
+  "level": "A2",
+  "order": 13,
+  "title": "Shopping, Money, and Services",
+  "summary": "The two verbs that share the shape *mokėti*; buying, buying for oneself and selling; the two ways of asking a price; the shops and the market; the money and the change; the places named from what is done in them; and giving a thing back.",
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+      "note": "Descriptive source for the paradigms and rule statements on this page."
+    },
+    {
+      "kind": "dictionary",
+      "citation": "*Dabartinės lietuvių kalbos žodynas*, Lietuvių kalbos institutas.",
+      "url": "https://ekalba.lt/dabartines-lietuviu-kalbos-zodynas/",
+      "note": "Citation forms, government and register for this section's vocabulary."
+    }
+  ],
+  "rules": [
+    {
+      "id": "moketi-two-senses",
+      "number": "232",
+      "heading": "Mokėti Twice Over",
+      "statement": "**Mokėti** is two verbs in one shape. With a sum or with **už** and the accusative it is to pay — *moku už kavą*; with an infinitive or a language it is to know how — *moku plaukti* (¶206). Nothing but the complement tells them apart.",
+      "examples": [
+        {
+          "target": "Už butą moku tris šimtus eurų.",
+          "gloss": "I pay three hundred euros for the flat."
+        },
+        {
+          "target": "Ji moka penkias kalbas.",
+          "gloss": "She knows five languages."
+        },
+        {
+          "target": "Sumokėkite kasoje.",
+          "gloss": "Pay at the till."
+        }
+      ],
+      "paradigms": [
+        {
+          "caption": "Which verb the complement chooses",
+          "columns": [
+            "complement",
+            "sense"
+          ],
+          "rows": [
+            {
+              "label": "už + accusative",
+              "cells": [
+                "to pay for"
+              ]
+            },
+            {
+              "label": "a sum in the accusative",
+              "cells": [
+                "to pay"
+              ]
+            },
+            {
+              "label": "an infinitive",
+              "cells": [
+                "to know how"
+              ]
+            },
+            {
+              "label": "a language",
+              "cells": [
+                "to know, to speak"
+              ]
+            }
+          ],
+          "footnote": "**Sumokėti** only ever means to pay; the perfective of *know how* is not formed at all."
+        }
+      ],
+      "footnotes": [
+        "**Mokytis**, to study, is a third word again, and is reflexive (¶175)."
+      ],
+      "seeAlso": [
+        "complementary-infinitive-range",
+        "uz-accusative",
+        "bill-and-paying",
+        "zinoti-pazinti-moketi"
+      ],
+      "core": true
+    },
+    {
+      "id": "pirkti-nusipirkti",
+      "number": "233",
+      "heading": "Buying, Buying Oneself, and Selling",
+      "statement": "**Pirkti** is to buy and **parduoti** to sell. The reflexive **nusipirkti** buys *for oneself*, which is what the affix adds (¶180): *nupirkau dovaną broliui* against *nusipirkau naują paltą*.",
+      "examples": [
+        {
+          "target": "Nusipirkau naują paltą.",
+          "gloss": "I bought myself a new coat."
+        },
+        {
+          "target": "Nupirkau dovaną broliui.",
+          "gloss": "I bought a present for my brother."
+        },
+        {
+          "target": "Šitas butas parduodamas.",
+          "gloss": "This flat is for sale."
+        }
+      ],
+      "footnotes": [
+        "The prefix *nu-* marks the purchase as carried through; bare *pirkti* is the buying in progress or in general."
+      ],
+      "seeAlso": [
+        "reflexive-meanings",
+        "reflexive-affix-full",
+        "indirect-object",
+        "past-o-type"
+      ],
+      "core": true
+    },
+    {
+      "id": "price-and-cost",
+      "number": "234",
+      "heading": "Asking the Price",
+      "statement": "The price is asked in two ways: **Kiek kainuoja …?** with the thing in the nominative, or **Kokia kaina?** The answer names the sum in the accusative — *kainuoja du eurus* — because it is the object of the verb.",
+      "examples": [
+        {
+          "target": "Kiek kainuoja šie batai?",
+          "gloss": "How much do these shoes cost?"
+        },
+        {
+          "target": "Kainuoja dvidešimt eurų.",
+          "gloss": "They cost twenty euros."
+        },
+        {
+          "target": "Kokia šio megztinio kaina?",
+          "gloss": "What is the price of this jumper?"
+        }
+      ],
+      "paradigms": [
+        {
+          "caption": "Dear and cheap",
+          "columns": [
+            "adjective",
+            "adverb",
+            "sense"
+          ],
+          "rows": [
+            {
+              "label": "brangus",
+              "cells": [
+                "brangiai",
+                "expensive / dearly"
+              ]
+            },
+            {
+              "label": "pigus",
+              "cells": [
+                "pigiai",
+                "cheap / cheaply"
+              ]
+            }
+          ],
+          "footnote": "The adjective describes the thing and the adverb the buying: *brangus paltas*, but *nusipirkau brangiai* (¶119)."
+        }
+      ],
+      "footnotes": [
+        "**Nuolaida** is a discount and **išpardavimas** a sale; *su nuolaida* is *at a discount*."
+      ],
+      "seeAlso": [
+        "genitive-quantity",
+        "adverb-formation",
+        "cardinals-ten-up",
+        "koks"
+      ],
+      "core": true
+    },
+    {
+      "id": "where-one-buys",
+      "number": "235",
+      "heading": "Where One Buys",
+      "statement": "**Parduotuvė** is a shop of any kind, **prekybos centras** a shopping centre, **turgus** the open market where produce is sold. Inside a shop the goods stand in a **skyrius** and the paying is done at the **kasa**.",
+      "examples": [
+        {
+          "target": "Turguje vaisiai pigesni negu parduotuvėje.",
+          "gloss": "At the market the fruit is cheaper than in the shop."
+        },
+        {
+          "target": "Duona yra kitame skyriuje.",
+          "gloss": "The bread is in another department."
+        },
+        {
+          "target": "Prašom eiti prie kasos.",
+          "gloss": "Please go to the till."
+        }
+      ],
+      "footnotes": [
+        "*Turgus* is a fourth-declension masculine in *-us*: *turgaus, turgui, turgų, turguje* (¶171)."
+      ],
+      "seeAlso": [
+        "fourth-declension-paradigm",
+        "locative-singular",
+        "comparison-negu",
+        "where-one-is-treated"
+      ],
+      "core": true
+    },
+    {
+      "id": "money-and-change",
+      "number": "236",
+      "heading": "The Money and the Change",
+      "statement": "The money is **pinigai**, a plural word, and the coin is **moneta**, the note **banknotas**. **Grąža** is the change given back, and **smulkių** — a genitive plural standing alone — is small change: *Ar turite smulkių?*",
+      "examples": [
+        {
+          "target": "Štai grąža: penki eurai ir dvidešimt centų.",
+          "gloss": "Here is your change: five euros and twenty cents."
+        },
+        {
+          "target": "Ar turite smulkių?",
+          "gloss": "Do you have any small change?"
+        },
+        {
+          "target": "Mokėsiu banknotu, smulkių neturiu.",
+          "gloss": "I will pay with a note, I have no change."
+        }
+      ],
+      "footnotes": [
+        "*Neturiu smulkių* has the genitive twice over: the partitive of ¶32 and the genitive under a negated verb of ¶31."
+      ],
+      "seeAlso": [
+        "genitive-quantity",
+        "genitive-negation",
+        "plural-genitive",
+        "metai-plurale"
+      ],
+      "core": true
+    },
+    {
+      "id": "services",
+      "number": "237",
+      "heading": "The Services",
+      "statement": "A **paslauga** is a service, and the places that render one are named from what is done there: **kirpykla** where hair is cut, **valykla** where clothes are cleaned, **taisykla** where things are mended. The suffix **-ykla** names the place from the verb — *kirpti*, *valyti*, *taisyti*.",
+      "examples": [
+        {
+          "target": "Rytoj einu į kirpyklą.",
+          "gloss": "Tomorrow I am going to the hairdresser's."
+        },
+        {
+          "target": "Atidaviau paltą į valyklą.",
+          "gloss": "I took my coat to the cleaner's."
+        },
+        {
+          "target": "Laikrodį reikia taisyti.",
+          "gloss": "The watch needs mending."
+        }
+      ],
+      "footnotes": [
+        "**Kirptis** with the reflexive affix is to have one's own hair cut: *kerpuosi kas mėnesį* (¶180)."
+      ],
+      "seeAlso": [
+        "reflexive-meanings",
+        "direction-i",
+        "reikia",
+        "nominal-infinitive"
+      ],
+      "core": true
+    },
+    {
+      "id": "returning-and-exchanging",
+      "number": "238",
+      "heading": "Taking It Back",
+      "statement": "**Grąžinti** is to give a thing back and **pakeisti** to exchange it for another; the receipt that makes either possible is the **čekis**. A thing that has stopped working is **sugedęs**, and the promise that it will be mended is the **garantija**.",
+      "examples": [
+        {
+          "target": "Norėčiau grąžinti šiuos batus.",
+          "gloss": "I would like to return these shoes."
+        },
+        {
+          "target": "Ar galima pakeisti į didesnį dydį?",
+          "gloss": "May I exchange it for a bigger size?"
+        },
+        {
+          "target": "Be čekio negrąžinsime.",
+          "gloss": "Without a receipt we will not take it back."
+        }
+      ],
+      "footnotes": [
+        "**Grąžinti** gives a thing back and **grįžti** comes back oneself; the first is transitive and the second is not."
+      ],
+      "seeAlso": [
+        "fitting-and-suiting",
+        "conditional-politeness",
+        "galima-reikia",
+        "genitive-prepositions"
+      ],
+      "core": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "lemma": "parduotuvė",
+      "gloss": "shop",
+      "pos": "noun",
+      "forms": {
+        "nom": "parduotuvė",
+        "gen": "parduotuvės",
+        "acc": "parduotuvę",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "prekybos centras",
+      "gloss": "shopping centre",
+      "pos": "noun",
+      "forms": {
+        "nom": "prekybos centras",
+        "gen": "prekybos centro",
+        "acc": "prekybos centrą",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "turgus",
+      "gloss": "market",
+      "pos": "noun",
+      "forms": {
+        "nom": "turgus",
+        "gen": "turgaus",
+        "acc": "turgų",
+        "gender": "m."
+      },
+      "notes": "Fourth declension."
+    },
+    {
+      "lemma": "skyrius",
+      "gloss": "department, section",
+      "pos": "noun",
+      "forms": {
+        "nom": "skyrius",
+        "gen": "skyriaus",
+        "acc": "skyrių",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "kasa",
+      "gloss": "till, ticket office",
+      "pos": "noun",
+      "forms": {
+        "nom": "kasa",
+        "gen": "kasos",
+        "acc": "kasą",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "kaina",
+      "gloss": "price",
+      "pos": "noun",
+      "forms": {
+        "nom": "kaina",
+        "gen": "kainos",
+        "acc": "kainą",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "nuolaida",
+      "gloss": "discount",
+      "pos": "noun",
+      "forms": {
+        "nom": "nuolaida",
+        "gen": "nuolaidos",
+        "acc": "nuolaidą",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "išpardavimas",
+      "gloss": "sale",
+      "pos": "noun",
+      "forms": {
+        "nom": "išpardavimas",
+        "gen": "išpardavimo",
+        "acc": "išpardavimą",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "moneta",
+      "gloss": "coin",
+      "pos": "noun",
+      "forms": {
+        "nom": "moneta",
+        "gen": "monetos",
+        "acc": "monetą",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "banknotas",
+      "gloss": "banknote",
+      "pos": "noun",
+      "forms": {
+        "nom": "banknotas",
+        "gen": "banknoto",
+        "acc": "banknotą",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "grąža",
+      "gloss": "change (money given back)",
+      "pos": "noun",
+      "forms": {
+        "nom": "grąža",
+        "gen": "grąžos",
+        "acc": "grąžą",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "euras",
+      "gloss": "euro",
+      "pos": "noun",
+      "forms": {
+        "nom": "euras",
+        "gen": "euro",
+        "acc": "eurą",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "centas",
+      "gloss": "cent",
+      "pos": "noun",
+      "forms": {
+        "nom": "centas",
+        "gen": "cento",
+        "acc": "centą",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "čekis",
+      "gloss": "receipt",
+      "pos": "noun",
+      "forms": {
+        "nom": "čekis",
+        "gen": "čekio",
+        "acc": "čekį",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "garantija",
+      "gloss": "guarantee",
+      "pos": "noun",
+      "forms": {
+        "nom": "garantija",
+        "gen": "garantijos",
+        "acc": "garantiją",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "paslauga",
+      "gloss": "service",
+      "pos": "noun",
+      "forms": {
+        "nom": "paslauga",
+        "gen": "paslaugos",
+        "acc": "paslaugą",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "kirpykla",
+      "gloss": "hairdresser's",
+      "pos": "noun",
+      "forms": {
+        "nom": "kirpykla",
+        "gen": "kirpyklos",
+        "acc": "kirpyklą",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "valykla",
+      "gloss": "dry cleaner's",
+      "pos": "noun",
+      "forms": {
+        "nom": "valykla",
+        "gen": "valyklos",
+        "acc": "valyklą",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "vaisius",
+      "gloss": "fruit",
+      "pos": "noun",
+      "forms": {
+        "nom": "vaisius",
+        "gen": "vaisiaus",
+        "acc": "vaisių",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "prekė",
+      "gloss": "article, item of goods",
+      "pos": "noun",
+      "forms": {
+        "nom": "prekė",
+        "gen": "prekės",
+        "acc": "prekę",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "sportas",
+      "gloss": "sport",
+      "pos": "noun",
+      "forms": {
+        "nom": "sportas",
+        "gen": "sporto",
+        "acc": "sportą",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "daržovė",
+      "gloss": "vegetable",
+      "pos": "noun",
+      "forms": {
+        "nom": "daržovė",
+        "gen": "daržovės",
+        "acc": "daržovę",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "nusipirkti",
+      "gloss": "to buy (for oneself)",
+      "pos": "verb",
+      "forms": {
+        "inf": "nusipirkti",
+        "pres3": "nusiperka",
+        "past3": "nusipirko",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "nupirkti",
+      "gloss": "to buy (for another)",
+      "pos": "verb",
+      "forms": {
+        "inf": "nupirkti",
+        "pres3": "nuperka",
+        "past3": "nupirko",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "parduoti",
+      "gloss": "to sell",
+      "pos": "verb",
+      "forms": {
+        "inf": "parduoti",
+        "pres3": "parduoda",
+        "past3": "pardavė",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "kainuoti",
+      "gloss": "to cost",
+      "pos": "verb",
+      "forms": {
+        "inf": "kainuoti",
+        "pres3": "kainuoja",
+        "past3": "kainavo",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "grąžinti",
+      "gloss": "to give back, to return (a thing)",
+      "pos": "verb",
+      "forms": {
+        "inf": "grąžinti",
+        "pres3": "grąžina",
+        "past3": "grąžino",
+        "conj": "I"
+      },
+      "notes": "Transitive; grįžti is to come back oneself."
+    },
+    {
+      "lemma": "pakeisti",
+      "gloss": "to change, to exchange",
+      "pos": "verb",
+      "forms": {
+        "inf": "pakeisti",
+        "pres3": "pakeičia",
+        "past3": "pakeitė",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "kirpti",
+      "gloss": "to cut (hair)",
+      "pos": "verb",
+      "forms": {
+        "inf": "kirpti",
+        "pres3": "kerpa",
+        "past3": "kirpo",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "kirptis",
+      "gloss": "to have one's hair cut",
+      "pos": "verb",
+      "forms": {
+        "inf": "kirptis",
+        "pres3": "kerpasi",
+        "past3": "kirposi",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "valyti",
+      "gloss": "to clean",
+      "pos": "verb",
+      "forms": {
+        "inf": "valyti",
+        "pres3": "valo",
+        "past3": "valė",
+        "conj": "III"
+      }
+    },
+    {
+      "lemma": "taisyti",
+      "gloss": "to mend, to repair",
+      "pos": "verb",
+      "forms": {
+        "inf": "taisyti",
+        "pres3": "taiso",
+        "past3": "taisė",
+        "conj": "III"
+      }
+    },
+    {
+      "lemma": "sugedęs",
+      "gloss": "broken, out of order",
+      "pos": "adjective",
+      "forms": {
+        "masc": "sugedęs",
+        "fem": "sugedusi"
+      }
+    },
+    {
+      "lemma": "smulkių",
+      "gloss": "small change",
+      "pos": "noun",
+      "notes": "A genitive plural standing alone, of smulkūs pinigai."
+    },
+    {
+      "lemma": "brangiai",
+      "gloss": "dearly, at a high price",
+      "pos": "adverb"
+    },
+    {
+      "lemma": "pigiai",
+      "gloss": "cheaply",
+      "pos": "adverb"
+    }
+  ],
+  "drills": [
+    {
+      "id": "a210-q1",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete: **Kiek ____ šie batai?**",
+      "options": [
+        "kainuoja",
+        "moka",
+        "perka",
+        "grąžina"
+      ],
+      "correct": 0,
+      "explanation": "**Kainuoti** is what a thing does and takes the thing as its subject (¶234). *Mokėti* is what the buyer does, and takes the buyer as subject.",
+      "rulesTested": [
+        "price-and-cost"
+      ],
+      "vocabUsed": [
+        "kainuoti",
+        "mokėti",
+        "pirkti",
+        "grąžinti",
+        "batas",
+        "kiek"
+      ]
+    },
+    {
+      "id": "a210-q2",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Where is fresh produce sold in the open air?",
+      "options": [
+        "Parduotuvėje.",
+        "Turguje.",
+        "Kirpykloje.",
+        "Kasoje."
+      ],
+      "correct": 1,
+      "explanation": "**Turgus** is the market (¶235). A *kirpykla* cuts hair and a *kasa* takes the money.",
+      "rulesTested": [
+        "where-one-buys"
+      ],
+      "vocabUsed": [
+        "turgus",
+        "parduotuvė",
+        "kirpykla",
+        "kasa"
+      ]
+    },
+    {
+      "id": "a210-q3",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "What is **grąža**?",
+      "options": [
+        "A discount.",
+        "The change given back.",
+        "A receipt.",
+        "A guarantee."
+      ],
+      "correct": 1,
+      "explanation": "**Grąža** is what comes back with the goods when too much has been handed over (¶236). The discount is *nuolaida*, the receipt *čekis*, the guarantee *garantija*.",
+      "rulesTested": [
+        "money-and-change",
+        "returning-and-exchanging"
+      ],
+      "vocabUsed": [
+        "grąža",
+        "nuolaida",
+        "čekis",
+        "garantija"
+      ]
+    },
+    {
+      "id": "a210-q4",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Which sense does *moka* carry in **Ji moka penkias kalbas**?",
+      "options": [
+        "She pays for five languages.",
+        "She knows five languages.",
+        "She is learning five languages.",
+        "She teaches five languages."
+      ],
+      "correct": 1,
+      "explanation": "A language after *mokėti* makes it the verb of knowing how (¶232, ¶153). Paying would need a sum or *už* with the accusative; studying would be *mokytis*.",
+      "rulesTested": [
+        "moketi-two-senses",
+        "zinoti-pazinti-moketi"
+      ],
+      "vocabUsed": [
+        "mokėti",
+        "kalba",
+        "mokytis"
+      ]
+    },
+    {
+      "id": "a210-q5",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **____ naują paltą.** (I bought myself a new coat.)",
+      "options": [
+        "Nusipirkau",
+        "Nupirkau",
+        "Pardaviau",
+        "Pirkau"
+      ],
+      "correct": 0,
+      "explanation": "The reflexive affix buys **for oneself** (¶233, ¶180). *Nupirkau* buys for somebody else and would want a dative; *pardaviau* sells.",
+      "rulesTested": [
+        "pirkti-nusipirkti",
+        "reflexive-meanings"
+      ],
+      "vocabUsed": [
+        "nusipirkti",
+        "nupirkti",
+        "parduoti",
+        "pirkti",
+        "paltas"
+      ]
+    },
+    {
+      "id": "a210-q6",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Už butą moku tris šimtus ____.**",
+      "options": [
+        "eurų",
+        "eurus",
+        "euras",
+        "eurai"
+      ],
+      "correct": 0,
+      "explanation": "From ten upwards the numeral takes the genitive plural of what it counts, and *šimtas* does the same — **tris šimtus eurų** (¶80, ¶58). The accusative *tris šimtus* sits on the hundreds, which are themselves the object of *moku*.",
+      "rulesTested": [
+        "moketi-two-senses",
+        "cardinals-ten-up",
+        "numeral-case",
+        "plural-genitive"
+      ],
+      "vocabUsed": [
+        "mokėti",
+        "už",
+        "butas",
+        "euras",
+        "šimtas"
+      ]
+    },
+    {
+      "id": "a210-q7",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Which verb fits: **Rytoj ____ paltą į valyklą.** (I am taking my coat to the cleaner's.)",
+      "options": [
+        "nešu",
+        "kerpu",
+        "taisau",
+        "grąžinu"
+      ],
+      "correct": 0,
+      "explanation": "The coat is carried there; *nešti* is the verb (¶237). *Kirpti* cuts hair, *taisyti* mends, and *grąžinti* gives back to the seller (¶238).",
+      "rulesTested": [
+        "services",
+        "returning-and-exchanging"
+      ],
+      "vocabUsed": [
+        "nešti",
+        "kirpti",
+        "taisyti",
+        "grąžinti",
+        "paltas",
+        "valykla"
+      ]
+    },
+    {
+      "id": "a210-q8",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which sentences use **mokėti** in the sense *to pay*?",
+      "options": [
+        "Sumokėkite kasoje.",
+        "Moku už kavą.",
+        "Moku plaukti.",
+        "Moku lietuviškai."
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanation": "Paying needs a sum or *už* with the accusative; knowing how needs an infinitive or a language (¶232). *Sumokėti* only ever pays, which settles the first.",
+      "rulesTested": [
+        "moketi-two-senses",
+        "complementary-infinitive-range",
+        "uz-accusative"
+      ],
+      "vocabUsed": [
+        "mokėti",
+        "sumokėti",
+        "kasa",
+        "kava",
+        "plaukti",
+        "lietuviškai"
+      ]
+    },
+    {
+      "id": "a210-q9",
+      "type": "matching",
+      "difficulty": "hard",
+      "stem": "Match each place with what is done in it.",
+      "columnHeadings": [
+        "Place",
+        "What is done there"
+      ],
+      "columnI": [
+        "**kirpykla**",
+        "**valykla**",
+        "**vaistinė**",
+        "**kasa**"
+      ],
+      "columnII": [
+        "hair is cut",
+        "clothes are cleaned",
+        "medicine is sold",
+        "the money is taken",
+        "goods are mended"
+      ],
+      "options": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          4,
+          3
+        ],
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          2
+        ]
+      ],
+      "correct": 0,
+      "explanation": "The *-ykla* suffix names the place from the verb — *kirpti*, *valyti* (¶237) — and the pharmacy and the till keep the senses ¶221 and ¶235 gave them. Mending is done in a *taisykla*, which is the decoy.",
+      "rulesTested": [
+        "services",
+        "where-one-buys",
+        "where-one-is-treated"
+      ],
+      "vocabUsed": [
+        "kirpykla",
+        "valykla",
+        "vaistinė",
+        "kasa",
+        "taisyti"
+      ]
+    },
+    {
+      "id": "a210-q10",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Which sentence is correct?",
+      "options": [
+        "Nusipirkau paltą pigiai, nes buvo išpardavimas.",
+        "Nusipirkau paltą pigus, nes buvo išpardavimas.",
+        "Nupirkau sau paltą pigiai, nes buvo išpardavimas.",
+        "Nusipirkau paltą pigiai, nes buvo pigus."
+      ],
+      "correct": 0,
+      "explanation": "The adverb describes the buying and the adjective the coat (¶119, ¶234). The third says *for myself* twice over, once in the affix and once in *sau*; the fourth gives *nes* a clause with no subject for *pigus* to agree with.",
+      "rulesTested": [
+        "pirkti-nusipirkti",
+        "price-and-cost",
+        "adverb-formation",
+        "nes-todel"
+      ],
+      "vocabUsed": [
+        "nusipirkti",
+        "nupirkti",
+        "paltas",
+        "pigiai",
+        "pigus",
+        "išpardavimas"
+      ]
+    },
+    {
+      "id": "a210-q11",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "In **Smulkių neturiu, mokėsiu banknotu**, which statements are true?",
+      "options": [
+        "*Smulkių* is a genitive plural standing alone.",
+        "The genitive is required twice over — by the partitive and by the negated verb.",
+        "*Banknotu* is the instrumental of means.",
+        "*Mokėsiu* here means *I shall know how*."
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "With a means of payment beside it, *mokėti* is the verb of paying (¶232); knowing how would need an infinitive. The double genitive is ¶32 and ¶31 pulling the same way, and the means is instrumental (¶73).",
+      "rulesTested": [
+        "money-and-change",
+        "moketi-two-senses",
+        "genitive-negation",
+        "instrumental-means"
+      ],
+      "vocabUsed": [
+        "smulkių",
+        "turėti",
+        "mokėti",
+        "banknotas"
+      ]
+    },
+    {
+      "id": "a210-q12",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Which sentence says the customer wants to give the shoes back to the shop?",
+      "options": [
+        "Norėčiau grąžinti šiuos batus.",
+        "Norėčiau grįžti su šiais batais.",
+        "Norėčiau pakeisti šiuos batus į didesnius.",
+        "Norėčiau nusipirkti šiuos batus."
+      ],
+      "correct": 0,
+      "explanation": "**Grąžinti** hands a thing back and is transitive; **grįžti** comes back oneself and takes no object (¶238). Exchanging is a different transaction again, and the fourth buys them.",
+      "rulesTested": [
+        "returning-and-exchanging",
+        "conditional-politeness"
+      ],
+      "vocabUsed": [
+        "grąžinti",
+        "grįžti",
+        "pakeisti",
+        "nusipirkti",
+        "batas"
+      ]
+    },
+    {
+      "id": "a210-q13",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Complete: **Turguje vaisiai pigesni ____ parduotuvėje.**",
+      "options": [
+        "negu",
+        "kaip",
+        "nei kad",
+        "už"
+      ],
+      "correct": 0,
+      "explanation": "**Negu** joins the two terms of a comparison (¶124), and both stand in the locative because both name a place. *Už* compares too, but takes the genitive of what is surpassed — *pigesni už parduotuvės vaisius*.",
+      "rulesTested": [
+        "where-one-buys",
+        "comparison-negu",
+        "adjective-comparative",
+        "locative-singular"
+      ],
+      "vocabUsed": [
+        "turgus",
+        "vaisius",
+        "pigus",
+        "negu",
+        "parduotuvė"
+      ]
+    },
+    {
+      "id": "a210-q14",
+      "type": "integer",
+      "difficulty": "medium",
+      "stem": "A shopper hands over a note and is told: **Pirkinys kainuoja septyniolika eurų, grąža — trys eurai.** Kiek eurų buvo banknotas?",
+      "answer": 20,
+      "explanation": "Seventeen and three. Both numerals take the genitive plural of *euras* where they stand above ten, and the nominative plural where they do not — *septyniolika eurų* against *trys eurai* (¶58, ¶80).",
+      "rulesTested": [
+        "money-and-change",
+        "price-and-cost",
+        "numeral-case"
+      ],
+      "vocabUsed": [
+        "kainuoti",
+        "grąža",
+        "euras",
+        "banknotas"
+      ],
+      "unit": "eurai"
+    },
+    {
+      "id": "a210-q15",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "Lithuanian names its cases in a fixed order: *vardininkas, kilmininkas, naudininkas, galininkas, įnagininkas, vietininkas, šauksmininkas*. Counting from the first, what position does the case of *broliui* hold in **Nupirkau dovaną broliui**?",
+      "answer": 3,
+      "explanation": "*Broliui* is the *naudininkas*, the dative of the person the present is bought for (¶66, ¶233). The buying for oneself would need no dative at all, only the reflexive affix.",
+      "rulesTested": [
+        "pirkti-nusipirkti",
+        "indirect-object"
+      ],
+      "vocabUsed": [
+        "nupirkti",
+        "dovana",
+        "brolis"
+      ],
+      "unit": "position in the order of cases"
+    },
+    {
+      "id": "a210-p1",
+      "type": "comprehension",
+      "difficulty": "hard",
+      "title": "Prekybos centre",
+      "passage": "RŪTA. Atsiprašau, kur yra sporto prekių skyrius?\nDARBUOTOJAS. Antrame aukšte, dešinėje nuo eskalatoriaus.\nRŪTA. Ačiū. Dar norėčiau paklausti: šitie batai — ar jiems taikoma nuolaida?\nDARBUOTOJAS. Taip, šią savaitę išpardavimas. Kainavo šešiasdešimt eurų, dabar kainuoja keturiasdešimt.\nRŪTA. Puiku. Ar galima pasimatuoti?\nDARBUOTOJAS. Žinoma. Kabina už kampo.\nRŪTA. … Šitie per maži. Ar turite didesnį dydį?\nDARBUOTOJAS. Turime. Jei nepatiks, galėsite grąžinti per keturiolika dienų, bet būtinai su čekiu.\nRŪTA. Supratau. Mokėsiu kortele — smulkių neturiu.\nDARBUOTOJAS. Prašom prie kasos. Čekį įdėsiu į maišelį.",
+      "translation": "RŪTA. Excuse me, where is the sports goods department?\nASSISTANT. On the second floor, to the right of the escalator.\nRŪTA. Thank you. I would also like to ask: these shoes — is there a discount on them?\nASSISTANT. Yes, there is a sale this week. They cost sixty euros, now they cost forty.\nRŪTA. Excellent. May I try them on?\nASSISTANT. Of course. The fitting room is round the corner.\nRŪTA. … These are too small. Do you have a bigger size?\nASSISTANT. We do. If you do not like them, you will be able to return them within fourteen days, but only with the receipt.\nRŪTA. I understand. I will pay by card — I have no change.\nASSISTANT. Please go to the till. I will put the receipt in the bag.",
+      "glossary": {
+        "sporto prekių": "sports goods (genitive)",
+        "prekė": "article, item of goods",
+        "aukštas": "floor, storey",
+        "eskalatorius": "escalator",
+        "taikoma nuolaida": "a discount applies",
+        "atpigo": "became cheaper (atpigti)",
+        "būtinai": "without fail",
+        "maišelis": "bag",
+        "įdėsiu": "I will put in (įdėti)"
+      },
+      "questions": [
+        {
+          "id": "a210-p1-c1",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "Kiek dabar kainuoja batai?",
+          "options": [
+            "Šešiasdešimt eurų.",
+            "Keturiasdešimt eurų.",
+            "Keturiolika eurų.",
+            "Dvidešimt eurų."
+          ],
+          "correct": 1,
+          "explanation": "*Kainavo šešiasdešimt eurų, dabar kainuoja keturiasdešimt.* The past tense gives the old price and the present the new one (¶234).",
+          "rulesTested": [
+            "price-and-cost"
+          ],
+          "vocabUsed": [
+            "kainuoti",
+            "euras",
+            "batas"
+          ]
+        },
+        {
+          "id": "a210-p1-c2",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Kodėl batai atpigo?",
+          "options": [
+            "Nes jie sugedę.",
+            "Nes šią savaitę išpardavimas.",
+            "Nes Rūta turi čekį.",
+            "Nes jie per maži."
+          ],
+          "correct": 1,
+          "explanation": "*Taip, šią savaitę išpardavimas.* The duration of the sale stands in the accusative — *šią savaitę* (¶83).",
+          "rulesTested": [
+            "price-and-cost",
+            "where-one-buys",
+            "nes-todel"
+          ],
+          "vocabUsed": [
+            "išpardavimas",
+            "nuolaida",
+            "savaitė"
+          ]
+        },
+        {
+          "id": "a210-p1-c3",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Ko reikės, jei Rūta norės grąžinti batus?",
+          "options": [
+            "Garantijos.",
+            "Čekio.",
+            "Nuolaidos.",
+            "Kortelės."
+          ],
+          "correct": 1,
+          "explanation": "*Būtinai su čekiu.* The receipt is what makes a return possible (¶238); *ko reikia* puts the thing needed in the genitive (¶69).",
+          "rulesTested": [
+            "returning-and-exchanging",
+            "reikia"
+          ],
+          "vocabUsed": [
+            "čekis",
+            "garantija",
+            "grąžinti"
+          ]
+        },
+        {
+          "id": "a210-p1-q1",
+          "type": "multi",
+          "difficulty": "hard",
+          "stem": "Which statements about **Mokėsiu kortele — smulkių neturiu** are true?",
+          "options": [
+            "*Mokėsiu* is the verb of paying, not of knowing how.",
+            "*Kortele* is an instrumental of means.",
+            "*Smulkių* is genitive under a negated verb.",
+            "*Neturiu* would take the accusative if it were affirmative."
+          ],
+          "correct": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "explanation": "All four hold. A means of payment settles which *mokėti* this is (¶232); *turėti* takes the accusative and a negated *turėti* the genitive (¶31), which here coincides with the partitive of *smulkių* (¶236).",
+          "rulesTested": [
+            "moketi-two-senses",
+            "money-and-change",
+            "genitive-negation",
+            "instrumental-means"
+          ],
+          "vocabUsed": [
+            "mokėti",
+            "kortelė",
+            "smulkių",
+            "turėti"
+          ]
+        },
+        {
+          "id": "a210-p1-q2",
+          "type": "integer",
+          "difficulty": "medium",
+          "stem": "Kiek dienų Rūta galės grąžinti batus?",
+          "answer": 14,
+          "explanation": "*Galėsite grąžinti per keturiolika dienų.* *Per* with the accusative fixes the span within which something may be done (¶87), and the teens take the genitive plural (¶80).",
+          "rulesTested": [
+            "returning-and-exchanging",
+            "time-prepositions",
+            "cardinals-ten-up"
+          ],
+          "vocabUsed": [
+            "grąžinti",
+            "diena",
+            "per"
+          ],
+          "unit": "dienos"
+        },
+        {
+          "id": "a210-p1-q3",
+          "type": "single",
+          "difficulty": "hard",
+          "stem": "**Sporto prekių skyrius** — why are the first two words genitive?",
+          "options": [
+            "Because *skyrius* is a preposition.",
+            "Because a genitive qualifies the noun it stands before.",
+            "Because the phrase is negated.",
+            "Because *sportas* has no nominative."
+          ],
+          "correct": 1,
+          "explanation": "A noun is qualified by another noun in the genitive, as *šeimos gydytojas* and *autobusų stotis* are (¶29, ¶222, ¶227). The genitive plural *prekių* is itself qualified by *sporto*, so the two stack.",
+          "rulesTested": [
+            "where-one-buys",
+            "genitive-possession",
+            "plural-genitive"
+          ],
+          "vocabUsed": [
+            "skyrius",
+            "sportas",
+            "prekė"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course.",
+          "note": "A shopping-centre dialogue, kept to the buying, paying and returning of ¶232–¶238."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+          "note": "Descriptive source for the paradigms and rule statements on this page."
+        }
+      ]
+    }
+  ]
+}

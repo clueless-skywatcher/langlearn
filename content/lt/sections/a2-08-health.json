@@ -1,0 +1,1309 @@
+{
+  "id": "a2-08",
+  "kind": "lesson",
+  "level": "A2",
+  "order": 11,
+  "title": "At the Doctor's and in Hospital",
+  "summary": "Falling ill, being ill and getting well; the two cases the impersonal verbs of illness put the sufferer in; the symptoms; the difference between a hospital, a clinic and a pharmacy; the title a doctor is addressed by; medicine and prescriptions; and how advice is given.",
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+      "note": "Descriptive source for the paradigms and rule statements on this page."
+    },
+    {
+      "kind": "dictionary",
+      "citation": "*Dabartinės lietuvių kalbos žodynas*, Lietuvių kalbos institutas.",
+      "url": "https://ekalba.lt/dabartines-lietuviu-kalbos-zodynas/",
+      "note": "Citation forms, government and register for this section's vocabulary."
+    }
+  ],
+  "rules": [
+    {
+      "id": "sirgti-susirgti-sveikti",
+      "number": "218",
+      "heading": "Being Ill, Falling Ill, Getting Well",
+      "statement": "**Sirgti** is the state of illness and names the illness in the instrumental (¶77): *sergu gripu*. **Susirgti** is the moment of falling ill and **pasveikti** the moment of recovery; between the two stands **sveikti**, the getting better still under way.",
+      "examples": [
+        {
+          "target": "Praėjusią savaitę susirgau angina.",
+          "gloss": "Last week I came down with tonsillitis."
+        },
+        {
+          "target": "Jau sveikstu, bet dar silpna.",
+          "gloss": "I am getting better, but I am still weak."
+        },
+        {
+          "target": "Po dešimties dienų pasveikau.",
+          "gloss": "After ten days I recovered."
+        }
+      ],
+      "paradigms": [
+        {
+          "caption": "The three moments of an illness",
+          "columns": [
+            "verb",
+            "what it says"
+          ],
+          "rows": [
+            {
+              "label": "susirgti",
+              "cells": [
+                "falling ill — one moment"
+              ]
+            },
+            {
+              "label": "sirgti",
+              "cells": [
+                "being ill — a state that lasts"
+              ]
+            },
+            {
+              "label": "sveikti",
+              "cells": [
+                "getting better — still under way"
+              ]
+            },
+            {
+              "label": "pasveikti",
+              "cells": [
+                "having got well — one moment"
+              ]
+            }
+          ],
+          "footnote": "The prefixes *su-* and *pa-* mark the point at which the state is entered and left; the bare verbs name the states themselves."
+        }
+      ],
+      "footnotes": [
+        "*Susirgti* takes the instrumental too: *susirgau gripu*.",
+        "**Ligonis** is a sick person, and **liga** the illness; *sirgti liga* is redundant, and the illness is named directly — *sirgti gripu*."
+      ],
+      "seeAlso": [
+        "instrumental-verbs",
+        "verbs-instrumental-object",
+        "past-o-type"
+      ],
+      "core": true
+    },
+    {
+      "id": "case-of-the-sufferer",
+      "number": "219",
+      "heading": "Whose Body It Is: Dative or Accusative",
+      "statement": "The impersonal verbs of illness do not agree on the case of the person. **Skaudėti** and the non-gendered adjectives take the **dative** — *man skauda galvą*, *man silpna* (¶126, ¶129) — while **pykinti** and **krėsti** take the **accusative**: *mane pykina*, *mane krečia šaltis*.",
+      "examples": [
+        {
+          "target": "Man skauda gerklę ir ausį.",
+          "gloss": "My throat and my ear hurt."
+        },
+        {
+          "target": "Mane pykina nuo vaistų.",
+          "gloss": "The medicine makes me feel sick."
+        },
+        {
+          "target": "Jam silpna, o ją krečia šaltis.",
+          "gloss": "He feels weak, and she is shivering."
+        }
+      ],
+      "paradigms": [
+        {
+          "caption": "The person in an impersonal sentence of illness",
+          "columns": [
+            "expression",
+            "case of the person"
+          ],
+          "rows": [
+            {
+              "label": "skauda galvą",
+              "cells": [
+                "dative — man"
+              ]
+            },
+            {
+              "label": "silpna, bloga, šalta",
+              "cells": [
+                "dative — man"
+              ]
+            },
+            {
+              "label": "pykina",
+              "cells": [
+                "accusative — mane"
+              ]
+            },
+            {
+              "label": "krečia šaltis",
+              "cells": [
+                "accusative — mane"
+              ]
+            }
+          ],
+          "footnote": "*Skaudėti* and *pykinti* have no nominative at all. *Krečia šaltis* has one — the cold itself — and the person stands as its object; either way the person's case is a fact about the verb (¶193)."
+        }
+      ],
+      "footnotes": [],
+      "seeAlso": [
+        "skaudeti",
+        "neuter-adjective",
+        "personal-vs-impersonal",
+        "case-government-summary"
+      ],
+      "core": true
+    },
+    {
+      "id": "symptom-verbs",
+      "number": "220",
+      "heading": "The Symptoms",
+      "statement": "The commonest symptoms have verbs of their own: **kosėti** to cough, **čiaudėti** to sneeze, **karščiuoti** to run a temperature. Their nouns are **kosulys**, **sloga** and **temperatūra**, and a symptom is reported with *turėti* as readily as with its verb — *turiu slogą* beside *man sloga*.",
+      "examples": [
+        {
+          "target": "Vaikas kosėja ir karščiuoja.",
+          "gloss": "The child is coughing and running a temperature."
+        },
+        {
+          "target": "Turiu slogą ir gerklės skausmą.",
+          "gloss": "I have a cold and a sore throat."
+        },
+        {
+          "target": "Kokia jūsų temperatūra?",
+          "gloss": "What is your temperature?"
+        }
+      ],
+      "footnotes": [
+        "**Sloga** is a head cold and **peršalimas** a chill; *peršalti* is to catch cold."
+      ],
+      "seeAlso": [
+        "present-conj-ii",
+        "koks",
+        "transitive-objects"
+      ],
+      "core": true
+    },
+    {
+      "id": "where-one-is-treated",
+      "number": "221",
+      "heading": "Ligoninė, Poliklinika, Vaistinė",
+      "statement": "The three are distinguished by what happens in each. **Ligoninė** is where a patient is admitted and stays; **poliklinika** is where a patient is seen and goes home; **vaistinė** is where medicine is bought. In an emergency one calls **greitąją**.",
+      "examples": [
+        {
+          "target": "Jį išvežė į ligoninę.",
+          "gloss": "They took him to hospital."
+        },
+        {
+          "target": "Poliklinikoje reikia užsiregistruoti.",
+          "gloss": "At the clinic one has to register."
+        },
+        {
+          "target": "Vaistinė dirba iki dešimtos.",
+          "gloss": "The pharmacy is open until ten."
+        }
+      ],
+      "footnotes": [
+        "**Greitoji** — *the fast one* — is the ambulance, and is a definite adjective standing alone for *greitoji pagalba* (¶198)."
+      ],
+      "seeAlso": [
+        "direction-i",
+        "locative-singular",
+        "definite-substantivised",
+        "reikia"
+      ],
+      "core": true
+    },
+    {
+      "id": "gydytojas-daktaras",
+      "number": "222",
+      "heading": "Gydytojas and Daktaras",
+      "statement": "**Gydytojas** is the profession and is the word used about a doctor; **daktaras** is the title and is the word used to one — *Daktare, man skauda galvą* (¶78). A doctor is registered with by **užsiregistruoti pas** and the accusative (¶139), and a complaint is taken to somebody by **kreiptis į** with the accusative.",
+      "examples": [
+        {
+          "target": "Ji dirba gydytoja poliklinikoje.",
+          "gloss": "She works as a doctor at the clinic."
+        },
+        {
+          "target": "Užsiregistravau pas šeimos gydytoją.",
+          "gloss": "I made an appointment with my family doctor."
+        },
+        {
+          "target": "Kreipkitės į registratūrą.",
+          "gloss": "Apply to the reception desk."
+        }
+      ],
+      "paradigms": [
+        {
+          "caption": "The doctors one is sent to",
+          "columns": [
+            "Lithuanian",
+            "gloss"
+          ],
+          "rows": [
+            {
+              "label": "šeimos gydytojas",
+              "cells": [
+                "family doctor"
+              ]
+            },
+            {
+              "label": "dantų gydytojas, odontologas",
+              "cells": [
+                "dentist"
+              ]
+            },
+            {
+              "label": "chirurgas",
+              "cells": [
+                "surgeon"
+              ]
+            },
+            {
+              "label": "slaugytoja",
+              "cells": [
+                "nurse"
+              ]
+            }
+          ],
+          "footnote": "*Šeimos* and *dantų* are genitives qualifying the noun, in the manner of ¶29."
+        }
+      ],
+      "footnotes": [],
+      "seeAlso": [
+        "vocative",
+        "pas-accusative",
+        "occupation-instrumental",
+        "reflexive-affix-full"
+      ],
+      "core": true
+    },
+    {
+      "id": "vaistai-and-receptas",
+      "number": "223",
+      "heading": "The Medicine and the Prescription",
+      "statement": "**Vaistai** is a plural word and has no singular; one **geria** medicine, whatever its form, so tablets are drunk and not eaten. A **receptas** is what the doctor writes, and what needs none is sold **be recepto** (¶33).",
+      "examples": [
+        {
+          "target": "Gerkite šiuos vaistus tris kartus per dieną.",
+          "gloss": "Take this medicine three times a day."
+        },
+        {
+          "target": "Ar šie vaistai parduodami be recepto?",
+          "gloss": "Is this medicine sold without a prescription?"
+        },
+        {
+          "target": "Gydytoja išrašė receptą.",
+          "gloss": "The doctor wrote out a prescription."
+        }
+      ],
+      "footnotes": [
+        "**Tabletė**, **lašai** and **tepalas** are the forms medicine comes in; *lašai* is plural like *vaistai*.",
+        "*Valgyti vaistus* and *imti vaistus* are not said of taking a dose; the verb is *gerti*."
+      ],
+      "seeAlso": [
+        "plurale-tantum-garments",
+        "genitive-prepositions",
+        "imperative-formation",
+        "metai-plurale"
+      ],
+      "core": true
+    },
+    {
+      "id": "advice-and-wishes",
+      "number": "224",
+      "heading": "What the Doctor Says and What One Wishes",
+      "statement": "Advice is given impersonally, with **reikia** or **reikės** and the dative and infinitive (¶69), or with **galima** and **negalima** (¶130): *jums reikės gulėti*, *dirbti negalima*. The wish to somebody ill is **Greitai pasveik!** or, to more than one and to *jūs*, **Greitai pasveikite!**",
+      "examples": [
+        {
+          "target": "Jums reikia daugiau ilsėtis.",
+          "gloss": "You need to rest more."
+        },
+        {
+          "target": "Kelias dienas negalima eiti į darbą.",
+          "gloss": "For a few days one may not go to work."
+        },
+        {
+          "target": "Greitai pasveik!",
+          "gloss": "Get well soon!"
+        }
+      ],
+      "footnotes": [
+        "**Sveikatos!** is said to somebody who has sneezed, and is a genitive standing alone as a wish, like *skanaus* (¶159)."
+      ],
+      "seeAlso": [
+        "reikia",
+        "galima-reikia",
+        "imperative-formation",
+        "table-formulae",
+        "complementary-infinitive-range"
+      ],
+      "core": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "lemma": "liga",
+      "gloss": "illness, disease",
+      "pos": "noun",
+      "forms": {
+        "nom": "liga",
+        "gen": "ligos",
+        "acc": "ligą",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "ligonis",
+      "gloss": "patient, sick person",
+      "pos": "noun",
+      "forms": {
+        "nom": "ligonis",
+        "gen": "ligonio",
+        "acc": "ligonį",
+        "gender": "m."
+      },
+      "notes": "The feminine is ligonė."
+    },
+    {
+      "lemma": "ligoninė",
+      "gloss": "hospital",
+      "pos": "noun",
+      "forms": {
+        "nom": "ligoninė",
+        "gen": "ligoninės",
+        "acc": "ligoninę",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "poliklinika",
+      "gloss": "outpatient clinic",
+      "pos": "noun",
+      "forms": {
+        "nom": "poliklinika",
+        "gen": "poliklinikos",
+        "acc": "polikliniką",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "vaistinė",
+      "gloss": "pharmacy",
+      "pos": "noun",
+      "forms": {
+        "nom": "vaistinė",
+        "gen": "vaistinės",
+        "acc": "vaistinę",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "registratūra",
+      "gloss": "reception desk",
+      "pos": "noun",
+      "forms": {
+        "nom": "registratūra",
+        "gen": "registratūros",
+        "acc": "registratūrą",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "greitoji",
+      "gloss": "ambulance",
+      "pos": "noun",
+      "forms": {
+        "nom": "greitoji",
+        "gen": "greitosios",
+        "acc": "greitąją",
+        "gender": "f."
+      },
+      "notes": "A definite adjective standing for greitoji pagalba."
+    },
+    {
+      "lemma": "slaugytoja",
+      "gloss": "nurse",
+      "pos": "noun",
+      "forms": {
+        "nom": "slaugytoja",
+        "gen": "slaugytojos",
+        "acc": "slaugytoją",
+        "gender": "f."
+      },
+      "notes": "The masculine is slaugytojas."
+    },
+    {
+      "lemma": "daktaras",
+      "gloss": "doctor (as a title of address)",
+      "pos": "noun",
+      "forms": {
+        "nom": "daktaras",
+        "gen": "daktaro",
+        "acc": "daktarą",
+        "gender": "m."
+      },
+      "notes": "Vocative daktare; the profession is gydytojas."
+    },
+    {
+      "lemma": "chirurgas",
+      "gloss": "surgeon",
+      "pos": "noun",
+      "forms": {
+        "nom": "chirurgas",
+        "gen": "chirurgo",
+        "acc": "chirurgą",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "odontologas",
+      "gloss": "dentist",
+      "pos": "noun",
+      "forms": {
+        "nom": "odontologas",
+        "gen": "odontologo",
+        "acc": "odontologą",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "vaistai",
+      "gloss": "medicine",
+      "pos": "noun",
+      "forms": {
+        "nom": "vaistai",
+        "gen": "vaistų",
+        "acc": "vaistus",
+        "gender": "m."
+      },
+      "notes": "A plural word."
+    },
+    {
+      "lemma": "tabletė",
+      "gloss": "tablet, pill",
+      "pos": "noun",
+      "forms": {
+        "nom": "tabletė",
+        "gen": "tabletės",
+        "acc": "tabletę",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "receptas",
+      "gloss": "prescription",
+      "pos": "noun",
+      "forms": {
+        "nom": "receptas",
+        "gen": "recepto",
+        "acc": "receptą",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "temperatūra",
+      "gloss": "temperature",
+      "pos": "noun",
+      "forms": {
+        "nom": "temperatūra",
+        "gen": "temperatūros",
+        "acc": "temperatūrą",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "sloga",
+      "gloss": "head cold",
+      "pos": "noun",
+      "forms": {
+        "nom": "sloga",
+        "gen": "slogos",
+        "acc": "slogą",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "kosulys",
+      "gloss": "cough",
+      "pos": "noun",
+      "forms": {
+        "nom": "kosulys",
+        "gen": "kosulio",
+        "acc": "kosulį",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "skausmas",
+      "gloss": "pain",
+      "pos": "noun",
+      "forms": {
+        "nom": "skausmas",
+        "gen": "skausmo",
+        "acc": "skausmą",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "gerklė",
+      "gloss": "throat",
+      "pos": "noun",
+      "forms": {
+        "nom": "gerklė",
+        "gen": "gerklės",
+        "acc": "gerklę",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "pilvas",
+      "gloss": "belly, stomach",
+      "pos": "noun",
+      "forms": {
+        "nom": "pilvas",
+        "gen": "pilvo",
+        "acc": "pilvą",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "nugara",
+      "gloss": "back",
+      "pos": "noun",
+      "forms": {
+        "nom": "nugara",
+        "gen": "nugaros",
+        "acc": "nugarą",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "angina",
+      "gloss": "tonsillitis",
+      "pos": "noun",
+      "forms": {
+        "nom": "angina",
+        "gen": "anginos",
+        "acc": "anginą",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "susirgti",
+      "gloss": "to fall ill (+ instr.)",
+      "pos": "verb",
+      "forms": {
+        "inf": "susirgti",
+        "pres3": "suserga",
+        "past3": "susirgo",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "sveikti",
+      "gloss": "to be getting better",
+      "pos": "verb",
+      "forms": {
+        "inf": "sveikti",
+        "pres3": "sveiksta",
+        "past3": "sveiko",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "pasveikti",
+      "gloss": "to recover, to get well",
+      "pos": "verb",
+      "forms": {
+        "inf": "pasveikti",
+        "pres3": "pasveiksta",
+        "past3": "pasveiko",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "peršalti",
+      "gloss": "to catch cold",
+      "pos": "verb",
+      "forms": {
+        "inf": "peršalti",
+        "pres3": "peršąla",
+        "past3": "peršalo",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "kosėti",
+      "gloss": "to cough",
+      "pos": "verb",
+      "forms": {
+        "inf": "kosėti",
+        "pres3": "kosėja",
+        "past3": "kosėjo",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "čiaudėti",
+      "gloss": "to sneeze",
+      "pos": "verb",
+      "forms": {
+        "inf": "čiaudėti",
+        "pres3": "čiaudi",
+        "past3": "čiaudėjo",
+        "conj": "II"
+      }
+    },
+    {
+      "lemma": "karščiuoti",
+      "gloss": "to run a temperature",
+      "pos": "verb",
+      "forms": {
+        "inf": "karščiuoti",
+        "pres3": "karščiuoja",
+        "past3": "karščiavo",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "pykinti",
+      "gloss": "to make (someone) feel sick (+ acc.)",
+      "pos": "verb",
+      "forms": {
+        "inf": "pykinti",
+        "pres3": "pykina",
+        "past3": "pykino",
+        "conj": "I"
+      },
+      "notes": "Impersonal: the person is in the accusative — mane pykina."
+    },
+    {
+      "lemma": "užsiregistruoti",
+      "gloss": "to register, to make an appointment",
+      "pos": "verb",
+      "forms": {
+        "inf": "užsiregistruoti",
+        "pres3": "užsiregistruoja",
+        "past3": "užsiregistravo",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "kreiptis",
+      "gloss": "to apply, to turn to (+ į and acc.)",
+      "pos": "verb",
+      "forms": {
+        "inf": "kreiptis",
+        "pres3": "kreipiasi",
+        "past3": "kreipėsi",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "išrašyti",
+      "gloss": "to write out (a prescription)",
+      "pos": "verb",
+      "forms": {
+        "inf": "išrašyti",
+        "pres3": "išrašo",
+        "past3": "išrašė",
+        "conj": "III"
+      }
+    },
+    {
+      "lemma": "gulėti",
+      "gloss": "to lie, to be in bed",
+      "pos": "verb",
+      "forms": {
+        "inf": "gulėti",
+        "pres3": "guli",
+        "past3": "gulėjo",
+        "conj": "II"
+      }
+    },
+    {
+      "lemma": "silpnas",
+      "gloss": "weak",
+      "pos": "adjective",
+      "forms": {
+        "masc": "silpnas",
+        "fem": "silpna"
+      }
+    }
+  ],
+  "drills": [
+    {
+      "id": "a208-q1",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete: **Vakar ____ gripu.** (Yesterday I came down with flu.)",
+      "options": [
+        "susirgau",
+        "sergu",
+        "sveikstu",
+        "pasveikau"
+      ],
+      "correct": 0,
+      "explanation": "**Susirgti** names the moment of falling ill (¶218). *Sergu* is the state, *sveikstu* the getting better, *pasveikau* the recovery — and none of the three happened yesterday in this sentence.",
+      "rulesTested": [
+        "sirgti-susirgti-sveikti"
+      ],
+      "vocabUsed": [
+        "susirgti",
+        "sirgti",
+        "sveikti",
+        "pasveikti",
+        "gripas",
+        "vakar"
+      ]
+    },
+    {
+      "id": "a208-q2",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Where is medicine bought?",
+      "options": [
+        "Ligoninėje.",
+        "Poliklinikoje.",
+        "Vaistinėje.",
+        "Registratūroje."
+      ],
+      "correct": 2,
+      "explanation": "**Vaistinė** is the pharmacy (¶221). A patient stays in a *ligoninė*, is seen and sent home from a *poliklinika*, and registers at a *registratūra*.",
+      "rulesTested": [
+        "where-one-is-treated"
+      ],
+      "vocabUsed": [
+        "vaistinė",
+        "ligoninė",
+        "poliklinika",
+        "registratūra"
+      ]
+    },
+    {
+      "id": "a208-q3",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Which verb is used of taking medicine?",
+      "options": [
+        "valgyti",
+        "gerti",
+        "imti",
+        "dėti"
+      ],
+      "correct": 1,
+      "explanation": "Medicine is **drunk** whatever form it comes in, tablets included (¶223). *Valgyti vaistus* and *imti vaistus* are not said of a dose.",
+      "rulesTested": [
+        "vaistai-and-receptas"
+      ],
+      "vocabUsed": [
+        "gerti",
+        "valgyti",
+        "imti",
+        "vaistai"
+      ]
+    },
+    {
+      "id": "a208-q4",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **____ skauda gerklę.** (My throat hurts.)",
+      "options": [
+        "Man",
+        "Mane",
+        "Manęs",
+        "Manimi"
+      ],
+      "correct": 0,
+      "explanation": "*Skaudėti* takes the dative of the sufferer and the accusative of the part (¶129, ¶219). The accusative *mane* belongs to the other group — *mane pykina*.",
+      "rulesTested": [
+        "case-of-the-sufferer",
+        "skaudeti"
+      ],
+      "vocabUsed": [
+        "skaudėti",
+        "gerklė",
+        "man",
+        "aš"
+      ]
+    },
+    {
+      "id": "a208-q5",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **____ pykina nuo vaistų.** (The medicine makes me feel sick.)",
+      "options": [
+        "Mane",
+        "Man",
+        "Manęs",
+        "Aš"
+      ],
+      "correct": 0,
+      "explanation": "**Pykinti** takes the accusative of the person, where *skaudėti* takes the dative (¶219). Both sentences are impersonal and neither has a nominative, which is why the case has to be learnt with the verb.",
+      "rulesTested": [
+        "case-of-the-sufferer",
+        "personal-vs-impersonal"
+      ],
+      "vocabUsed": [
+        "pykinti",
+        "vaistai",
+        "nuo",
+        "aš"
+      ]
+    },
+    {
+      "id": "a208-q6",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Which word is used *to* a doctor's face?",
+      "options": [
+        "Gydytojau!",
+        "Daktare!",
+        "Chirurgai!",
+        "Ligoni!"
+      ],
+      "correct": 1,
+      "explanation": "**Daktaras** is the title of address and its vocative is *daktare* (¶222, ¶78). *Gydytojas* is the profession and is the word used *about* a doctor; *ligonis* is the patient.",
+      "rulesTested": [
+        "gydytojas-daktaras",
+        "vocative"
+      ],
+      "vocabUsed": [
+        "daktaras",
+        "gydytojas",
+        "chirurgas",
+        "ligonis"
+      ]
+    },
+    {
+      "id": "a208-q7",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Užsiregistravau ____ šeimos gydytoją.**",
+      "options": [
+        "pas",
+        "į",
+        "prie",
+        "su"
+      ],
+      "correct": 0,
+      "explanation": "**Pas** with the accusative is used of people (¶139, ¶222); *į* would send one into the doctor rather than to her. *Kreiptis* is the verb that takes *į*, and it takes an institution — *kreiptis į registratūrą*.",
+      "rulesTested": [
+        "gydytojas-daktaras",
+        "pas-accusative",
+        "direction-i"
+      ],
+      "vocabUsed": [
+        "užsiregistruoti",
+        "pas",
+        "gydytojas",
+        "kreiptis"
+      ]
+    },
+    {
+      "id": "a208-q8",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which of these are plural words with no singular of their own?",
+      "options": [
+        "vaistai",
+        "tabletė",
+        "lašai",
+        "temperatūra"
+      ],
+      "correct": [
+        0,
+        2
+      ],
+      "explanation": "*Vaistai* and *lašai* are plural however small the dose (¶223, ¶166). *Tabletė* and *temperatūra* are ordinary feminine singulars.",
+      "rulesTested": [
+        "vaistai-and-receptas",
+        "plurale-tantum-garments"
+      ],
+      "vocabUsed": [
+        "vaistai",
+        "tabletė",
+        "temperatūra"
+      ]
+    },
+    {
+      "id": "a208-q9",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which statements about the symptoms are true?",
+      "options": [
+        "*Kosėti* is to cough, and its noun is *kosulys*.",
+        "*Karščiuoti* is to run a temperature.",
+        "*Sloga* is a head cold, and *peršalti* is to catch cold.",
+        "*Čiaudėti* is a second word for coughing."
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "**Čiaudėti** is to sneeze, not to cough (¶220). A symptom is as readily reported with *turėti* — *turiu slogą* — as with its own verb.",
+      "rulesTested": [
+        "symptom-verbs"
+      ],
+      "vocabUsed": [
+        "kosėti",
+        "kosulys",
+        "karščiuoti",
+        "sloga",
+        "peršalti",
+        "čiaudėti"
+      ]
+    },
+    {
+      "id": "a208-q10",
+      "type": "matching",
+      "difficulty": "hard",
+      "stem": "Match each expression of illness with the case it puts the person in.",
+      "columnHeadings": [
+        "Expression",
+        "Case of the person"
+      ],
+      "columnI": [
+        "**____ skauda pilvą**",
+        "**____ pykina**",
+        "**____ silpna**",
+        "**____ krečia šaltis**"
+      ],
+      "columnII": [
+        "dative",
+        "accusative",
+        "nominative",
+        "genitive"
+      ],
+      "options": [
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          0
+        ]
+      ],
+      "correct": 0,
+      "explanation": "*Skaudėti* and the non-gendered adjective take the dative; *pykinti* and *krėsti* take the accusative (¶219). Two labels answer four rows, so three pairs out of four earn nothing. Only the last of the four has a nominative — *šaltis*, the cold that does the shaking.",
+      "rulesTested": [
+        "case-of-the-sufferer",
+        "neuter-adjective",
+        "personal-vs-impersonal"
+      ],
+      "vocabUsed": [
+        "skaudėti",
+        "pykinti",
+        "silpnas",
+        "pilvas"
+      ]
+    },
+    {
+      "id": "a208-q11",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Which sentence is correct?",
+      "options": [
+        "Jai skauda galvą, o ją pykina nuo vaistų.",
+        "Ją skauda galvą, o jai pykina nuo vaistų.",
+        "Jai skauda galva, o ją pykina nuo vaistų.",
+        "Ji skauda galvą, o ji pykina nuo vaistų."
+      ],
+      "correct": 0,
+      "explanation": "*Skaudėti* takes the dative of the person and the accusative of the part; *pykinti* takes the accusative of the person (¶219, ¶129). The third leaves the head in the nominative, and the fourth makes a subject out of a woman who has none in either clause.",
+      "rulesTested": [
+        "case-of-the-sufferer",
+        "skaudeti",
+        "o-contrast"
+      ],
+      "vocabUsed": [
+        "skaudėti",
+        "pykinti",
+        "galva",
+        "vaistai",
+        "jis"
+      ]
+    },
+    {
+      "id": "a208-q12",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "In **Jums reikės gerti vaistus ir gulėti**, which statements are true?",
+      "options": [
+        "The sentence has no nominative subject.",
+        "*Jums* is a dative.",
+        "Both infinitives depend on *reikės*.",
+        "*Vaistus* is the object of *reikės*."
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "*Reikia* is impersonal and takes the dative of the person with an infinitive (¶69, ¶224); the object *vaistus* belongs to *gerti*, which keeps its own government inside the infinitive phrase (¶210). The future is made on *reikėti* alone.",
+      "rulesTested": [
+        "advice-and-wishes",
+        "reikia",
+        "infinitive-with-object",
+        "future-formation"
+      ],
+      "vocabUsed": [
+        "reikia",
+        "gerti",
+        "vaistai",
+        "gulėti",
+        "jums"
+      ]
+    },
+    {
+      "id": "a208-q13",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**Jis nebesergą** is wrong. What is the correct form of *he is no longer ill*?",
+      "options": [
+        "Jis nebeserga.",
+        "Jis nebesirgo.",
+        "Jis dar neserga.",
+        "Jis jau serga."
+      ],
+      "correct": 0,
+      "explanation": "*Nebe-* is written together with the verb and the ending is the ordinary third-person present — **nebeserga** (¶182, ¶183). *Dar neserga* is *not yet ill*, which is the opposite end of the illness (¶184).",
+      "rulesTested": [
+        "sirgti-susirgti-sveikti",
+        "nebe-formation",
+        "nebe-vs-dar-ne"
+      ],
+      "vocabUsed": [
+        "sirgti",
+        "nebe-"
+      ]
+    },
+    {
+      "id": "a208-q14",
+      "type": "integer",
+      "difficulty": "medium",
+      "stem": "A patient says: **Vaistus reikia gerti tris kartus per dieną, po dvi tabletes.** Kiek tablečių jis išgeria per dieną?",
+      "answer": 6,
+      "explanation": "Three doses of two tablets each. *Po* with the accusative distributes — *po dvi tabletes*, two at a time (¶143) — and *per dieną* fixes the span (¶87).",
+      "rulesTested": [
+        "vaistai-and-receptas",
+        "po-accusative",
+        "time-prepositions"
+      ],
+      "vocabUsed": [
+        "vaistai",
+        "tabletė",
+        "gerti",
+        "po",
+        "per"
+      ],
+      "unit": "tabletės"
+    },
+    {
+      "id": "a208-q15",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "Lithuanian names its cases in a fixed order: *vardininkas, kilmininkas, naudininkas, galininkas, įnagininkas, vietininkas, šauksmininkas*. Counting from the first, what position does the case of *gripu* hold in **Ji serga gripu**?",
+      "answer": 5,
+      "explanation": "*Gripu* is the *įnagininkas*, the instrumental, which *sirgti* governs (¶77, ¶218). The dative would be *gripui*, and *sirgti* never takes it.",
+      "rulesTested": [
+        "sirgti-susirgti-sveikti",
+        "instrumental-verbs",
+        "verbs-instrumental-object"
+      ],
+      "vocabUsed": [
+        "sirgti",
+        "gripas"
+      ],
+      "unit": "position in the order of cases"
+    },
+    {
+      "id": "a208-p1",
+      "type": "comprehension",
+      "difficulty": "hard",
+      "title": "Pas šeimos gydytoją",
+      "passage": "GYDYTOJA. Laba diena. Sėskitės. Kas jums yra?\nPAULIUS. Laba diena, daktare. Prieš tris dienas susirgau: skauda gerklę, kosėju ir karščiuoju.\nGYDYTOJA. Kokia temperatūra buvo ryte?\nPAULIUS. Trisdešimt aštuoni. Ir dar mane pykina nuo tų vaistų, kuriuos geriu.\nGYDYTOJA. Kokius vaistus geriate?\nPAULIUS. Nusipirkau vaistinėje be recepto. Draugas patarė.\nGYDYTOJA. Nustokite juos gerti. Išrašysiu kitus. Jums reikės gulėti namie tris dienas ir daug gerti.\nPAULIUS. O į darbą eiti negalima?\nGYDYTOJA. Kol karščiuojate — ne. Kai temperatūra nukris, galėsite grįžti.\nPAULIUS. Ačiū, daktare.\nGYDYTOJA. Greitai pasveikite!",
+      "translation": "DOCTOR. Good afternoon. Sit down. What is the matter?\nPAULIUS. Good afternoon, doctor. I fell ill three days ago: my throat hurts, I am coughing and running a temperature.\nDOCTOR. What was your temperature this morning?\nPAULIUS. Thirty-eight. And the medicine I have been taking makes me feel sick as well.\nDOCTOR. What medicine are you taking?\nPAULIUS. I bought it at the pharmacy without a prescription. A friend recommended it.\nDOCTOR. Stop taking it. I will write out something else. You will have to stay in bed at home for three days and drink a lot.\nPAULIUS. And going to work is not allowed?\nDOCTOR. Not while you are running a temperature. When your temperature comes down, you will be able to go back.\nPAULIUS. Thank you, doctor.\nDOCTOR. Get well soon!",
+      "glossary": {
+        "Kas jums yra?": "What is the matter with you?",
+        "sėskitės": "sit down (sėstis)",
+        "patarė": "advised, recommended (patarti)",
+        "nustokite": "stop (nustoti)",
+        "nukris": "will fall, will come down (nukristi)",
+        "trisdešimt aštuoni": "thirty-eight"
+      },
+      "questions": [
+        {
+          "id": "a208-p1-c1",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "Kas Pauliui skauda?",
+          "options": [
+            "Galvą.",
+            "Gerklę.",
+            "Nugarą.",
+            "Pilvą."
+          ],
+          "correct": 1,
+          "explanation": "*Skauda gerklę.* The part hurting is in the accusative and Paulius in the dative — *Pauliui* (¶219).",
+          "rulesTested": [
+            "case-of-the-sufferer",
+            "skaudeti"
+          ],
+          "vocabUsed": [
+            "skaudėti",
+            "gerklė"
+          ]
+        },
+        {
+          "id": "a208-p1-c2",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Kodėl Paulių pykina?",
+          "options": [
+            "Nuo maisto.",
+            "Nuo vaistų, kuriuos jis geria.",
+            "Nuo temperatūros.",
+            "Jo nepykina."
+          ],
+          "correct": 1,
+          "explanation": "*Mane pykina nuo tų vaistų, kuriuos geriu.* *Pykinti* takes the accusative of the person, and *nuo* the genitive of the cause (¶219, ¶33).",
+          "rulesTested": [
+            "case-of-the-sufferer",
+            "vaistai-and-receptas",
+            "kuris"
+          ],
+          "vocabUsed": [
+            "pykinti",
+            "vaistai",
+            "nuo",
+            "gerti"
+          ]
+        },
+        {
+          "id": "a208-p1-c3",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Kada Paulius galės grįžti į darbą?",
+          "options": [
+            "Rytoj.",
+            "Kai nukris temperatūra.",
+            "Po savaitės.",
+            "Niekada."
+          ],
+          "correct": 1,
+          "explanation": "*Kai temperatūra nukris, galėsite grįžti.* The *kai* clause fixes the condition, and both verbs stand in the future (¶200, ¶204).",
+          "rulesTested": [
+            "advice-and-wishes",
+            "kai-clause",
+            "sequence-of-tenses"
+          ],
+          "vocabUsed": [
+            "temperatūra",
+            "grįžti",
+            "darbas",
+            "kai"
+          ]
+        },
+        {
+          "id": "a208-p1-q1",
+          "type": "multi",
+          "difficulty": "hard",
+          "stem": "Which of the doctor's utterances are impersonal?",
+          "options": [
+            "Jums reikės gulėti namie.",
+            "Išrašysiu kitus.",
+            "Į darbą eiti negalima.",
+            "Nustokite juos gerti."
+          ],
+          "correct": [
+            0,
+            2
+          ],
+          "explanation": "*Reikės* and *negalima* have no nominative and take a dative and an infinitive (¶69, ¶130, ¶224). *Išrašysiu* is a first-person future and *nustokite* an imperative addressed to a person, so both are personal.",
+          "rulesTested": [
+            "advice-and-wishes",
+            "galima-reikia",
+            "impersonal-summary",
+            "imperative-formation"
+          ],
+          "vocabUsed": [
+            "reikia",
+            "galima",
+            "gulėti",
+            "išrašyti",
+            "gerti"
+          ]
+        },
+        {
+          "id": "a208-p1-q2",
+          "type": "integer",
+          "difficulty": "medium",
+          "stem": "Kiek dienų Pauliui reikės gulėti namie?",
+          "answer": 3,
+          "explanation": "*Jums reikės gulėti namie tris dienas.* Duration stands in the accusative, and *trys* takes the accusative plural with it (¶83, ¶58).",
+          "rulesTested": [
+            "advice-and-wishes",
+            "accusative-of-time",
+            "numeral-case"
+          ],
+          "vocabUsed": [
+            "diena",
+            "gulėti",
+            "trys"
+          ],
+          "unit": "dienos"
+        },
+        {
+          "id": "a208-p1-q3",
+          "type": "single",
+          "difficulty": "hard",
+          "stem": "The doctor ends with **Greitai pasveikite!** rather than *Greitai pasveik!* Why?",
+          "options": [
+            "Because the recovery is expected to be slow.",
+            "Because she addresses him as *jūs*.",
+            "Because *pasveikti* has no singular imperative.",
+            "Because the wish is impersonal."
+          ],
+          "correct": 1,
+          "explanation": "The plural imperative is also the polite singular (¶45, ¶112): she has said *sėskitės*, *geriate* and *jums* throughout. *Pasveik* would be said to somebody addressed as *tu* (¶224).",
+          "rulesTested": [
+            "advice-and-wishes",
+            "polite-jus",
+            "imperative-formation"
+          ],
+          "vocabUsed": [
+            "pasveikti",
+            "jūs",
+            "greitai"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course.",
+          "note": "A consultation dialogue, kept to the illness vocabulary of ¶218–¶224 and the impersonal constructions of ¶126–¶131."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+          "note": "Descriptive source for the paradigms and rule statements on this page."
+        }
+      ]
+    }
+  ]
+}

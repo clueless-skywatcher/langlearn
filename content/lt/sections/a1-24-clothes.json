@@ -1,0 +1,1426 @@
+{
+  "id": "a1-24",
+  "kind": "lesson",
+  "level": "A1",
+  "order": 31,
+  "title": "Clothes and Wearing Them",
+  "summary": "The garments and where they sit; the three verbs Lithuanian chooses between for having one on; putting on and taking off; the colours; fitting, suiting and going with; and the garments that are plural however few of them there are.",
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+      "note": "Descriptive source for the paradigms and rule statements on this page."
+    },
+    {
+      "kind": "dictionary",
+      "citation": "*Dabartinės lietuvių kalbos žodynas*, Lietuvių kalbos institutas.",
+      "url": "https://ekalba.lt/dabartines-lietuviu-kalbos-zodynas/",
+      "note": "Citation forms, government and register for this section's vocabulary."
+    },
+    {
+      "kind": "grammar",
+      "citation": "Valstybinė lietuvių kalbos komisija, *Kalbos patarimai*. Vilnius: Mokslo ir enciklopedijų leidybos centras.",
+      "url": "https://www.vlkk.lt/"
+    }
+  ],
+  "rules": [
+    {
+      "id": "garments",
+      "number": "161",
+      "heading": "The Garments",
+      "statement": "**Drabužiai** is the general word for clothes and is used in the plural. The names divide by where the garment sits: **marškiniai**, **megztinis**, **švarkas**, **paltas** and **striukė** on the upper body; **kelnės** and **sijonas** below; **suknelė** over both; **batai** and **kojinės** on the feet.",
+      "examples": [
+        {
+          "target": "Jis vilki mėlyną švarką.",
+          "gloss": "He is wearing a blue jacket."
+        },
+        {
+          "target": "Nusipirkau naują striukę.",
+          "gloss": "I bought a new anorak."
+        },
+        {
+          "target": "Kur mano kojinės?",
+          "gloss": "Where are my socks?"
+        }
+      ],
+      "paradigms": [
+        {
+          "caption": "Where the garment sits",
+          "columns": [
+            "garment",
+            "gloss"
+          ],
+          "rows": [
+            {
+              "label": "marškiniai",
+              "cells": [
+                "shirt"
+              ]
+            },
+            {
+              "label": "megztinis",
+              "cells": [
+                "jumper"
+              ]
+            },
+            {
+              "label": "švarkas",
+              "cells": [
+                "jacket"
+              ]
+            },
+            {
+              "label": "paltas",
+              "cells": [
+                "overcoat"
+              ]
+            },
+            {
+              "label": "striukė",
+              "cells": [
+                "anorak, short jacket"
+              ]
+            },
+            {
+              "label": "kelnės",
+              "cells": [
+                "trousers"
+              ]
+            },
+            {
+              "label": "sijonas",
+              "cells": [
+                "skirt"
+              ]
+            },
+            {
+              "label": "suknelė",
+              "cells": [
+                "dress"
+              ]
+            },
+            {
+              "label": "batai",
+              "cells": [
+                "shoes"
+              ]
+            },
+            {
+              "label": "kojinės",
+              "cells": [
+                "socks, stockings"
+              ]
+            },
+            {
+              "label": "kepurė",
+              "cells": [
+                "cap, warm hat"
+              ]
+            },
+            {
+              "label": "skrybėlė",
+              "cells": [
+                "hat with a brim"
+              ]
+            }
+          ],
+          "footnote": "**Kepurė** and **skrybėlė** are two words and not one: the first is soft and warm, the second is stiff and brimmed."
+        }
+      ],
+      "footnotes": [],
+      "seeAlso": [
+        "plural-nominative",
+        "adjective-agreement"
+      ],
+      "core": true
+    },
+    {
+      "id": "vilketi-aveti-muveti",
+      "number": "162",
+      "heading": "Vilkėti, Avėti, Mūvėti",
+      "statement": "Lithuanian has three verbs for having a garment on, and the garment chooses which. **Vilkėti** is of what clothes the body — a coat, a shirt, a dress; **avėti** is of footwear; **mūvėti** is of what is pulled onto a limb, so of trousers, gloves and a ring. **Dėvėti** covers all three and is the word of a notice or a report.",
+      "examples": [
+        {
+          "target": "Ji vilki ilgą suknelę.",
+          "gloss": "She is wearing a long dress."
+        },
+        {
+          "target": "Avime batus, ne kojines.",
+          "gloss": "We have shoes on, not socks.",
+          "note": "the footwear verb"
+        },
+        {
+          "target": "Jis mūvi juodas kelnes ir pirštines.",
+          "gloss": "He is wearing black trousers and gloves."
+        }
+      ],
+      "paradigms": [
+        {
+          "caption": "The verb the garment takes",
+          "columns": [
+            "garment",
+            "verb"
+          ],
+          "rows": [
+            {
+              "label": "paltas, marškiniai, suknelė",
+              "cells": [
+                "vilkėti"
+              ]
+            },
+            {
+              "label": "batai, kojinės",
+              "cells": [
+                "avėti"
+              ]
+            },
+            {
+              "label": "kelnės, pirštinės, žiedas",
+              "cells": [
+                "mūvėti"
+              ]
+            },
+            {
+              "label": "any of them, in a notice",
+              "cells": [
+                "dėvėti"
+              ]
+            }
+          ],
+          "footnote": "All four take the accusative, and all four admit the instrumental besides — *vilkėti paltą* beside *vilkėti paltu*."
+        }
+      ],
+      "footnotes": [
+        "**Nešioti** is a fifth verb and says the garment is worn habitually rather than at this moment: *jis nešioja akinius*.",
+        "*Kepurė* and *skrybėlė* go with none of the three: what is put on the head is *užsidėti* (¶163)."
+      ],
+      "seeAlso": [
+        "accusative-nouns",
+        "instrumental-means",
+        "present-conj-iii"
+      ],
+      "core": true
+    },
+    {
+      "id": "dressing-verbs",
+      "number": "163",
+      "heading": "Putting On and Taking Off",
+      "statement": "**Rengtis** and **apsirengti** are to dress oneself as a whole and take no garment after them; **apsivilkti** puts on one named garment and **nusivilkti** takes it off. Footwear has **apsiauti** and **nusiauti**, and what goes on the head or the nose is **užsidėti**.",
+      "examples": [
+        {
+          "target": "Greitai apsirenk, jau vėluojame.",
+          "gloss": "Get dressed quickly, we are late already."
+        },
+        {
+          "target": "Apsivilk paltą — lauke šalta.",
+          "gloss": "Put your coat on — it is cold outside."
+        },
+        {
+          "target": "Nusiauk batus prie durų.",
+          "gloss": "Take your shoes off at the door."
+        },
+        {
+          "target": "Užsidėk kepurę.",
+          "gloss": "Put your cap on."
+        }
+      ],
+      "footnotes": [
+        "*Rengtis* carries its affix at the end and moves it in front of the root under negation: *rengiuosi*, but *nesirengiu* (¶145).",
+        "In *apsivilkti*, *nusiauti* and *užsidėti* the prefix has already put the affix inside the word, so the negative simply precedes it: *neapsivilk*, *nenusiauk*."
+      ],
+      "seeAlso": [
+        "reflexive-phrases",
+        "imperative-formation",
+        "imperative-negative"
+      ],
+      "core": true
+    },
+    {
+      "id": "colours",
+      "number": "164",
+      "heading": "The Colours",
+      "statement": "The colours are ordinary adjectives and agree with the garment (¶17): *balti marškiniai*, *balta suknelė*. **Rožinis**, **oranžinis** and **violetinis** belong to the *-inis* type, whose feminine is **-inė**.",
+      "examples": [
+        {
+          "target": "Raudona striukė ir juodos kelnės.",
+          "gloss": "A red anorak and black trousers."
+        },
+        {
+          "target": "Man patinka tas mėlynas megztinis.",
+          "gloss": "I like that blue jumper."
+        },
+        {
+          "target": "Rožinė suknelė.",
+          "gloss": "A pink dress."
+        }
+      ],
+      "paradigms": [
+        {
+          "caption": "The colours",
+          "columns": [
+            "masculine",
+            "feminine",
+            "gloss"
+          ],
+          "rows": [
+            {
+              "label": "baltas",
+              "cells": [
+                "balta",
+                "white"
+              ]
+            },
+            {
+              "label": "juodas",
+              "cells": [
+                "juoda",
+                "black"
+              ]
+            },
+            {
+              "label": "raudonas",
+              "cells": [
+                "raudona",
+                "red"
+              ]
+            },
+            {
+              "label": "mėlynas",
+              "cells": [
+                "mėlyna",
+                "blue"
+              ]
+            },
+            {
+              "label": "žalias",
+              "cells": [
+                "žalia",
+                "green"
+              ]
+            },
+            {
+              "label": "geltonas",
+              "cells": [
+                "geltona",
+                "yellow"
+              ]
+            },
+            {
+              "label": "rudas",
+              "cells": [
+                "ruda",
+                "brown"
+              ]
+            },
+            {
+              "label": "pilkas",
+              "cells": [
+                "pilka",
+                "grey"
+              ]
+            },
+            {
+              "label": "rožinis",
+              "cells": [
+                "rožinė",
+                "pink"
+              ]
+            }
+          ],
+          "footnote": "*Žalias* keeps its softening *i* through the declension (¶6); the *-inis* colours are named from the thing that has the colour — *rožė*, a rose."
+        }
+      ],
+      "footnotes": [],
+      "seeAlso": [
+        "adjective-agreement",
+        "adjective-number",
+        "soft-i",
+        "patikti"
+      ],
+      "core": true
+    },
+    {
+      "id": "fitting-and-suiting",
+      "number": "165",
+      "heading": "Fitting, Suiting, and Too Much",
+      "statement": "**Tikti** with the dative says a garment fits or suits the wearer: *Ši suknelė tau tinka* (¶70). **Derėti prie** with the genitive says one garment goes with another, and **per** before an adjective says there is too much of it — *per didelis*, *per brangus*.",
+      "examples": [
+        {
+          "target": "Šie batai man netinka — per maži.",
+          "gloss": "These shoes do not fit me — they are too small."
+        },
+        {
+          "target": "Mėlynas švarkas dera prie pilkų kelnių.",
+          "gloss": "A blue jacket goes with grey trousers."
+        },
+        {
+          "target": "Ar galiu pasimatuoti didesnį dydį?",
+          "gloss": "May I try on a bigger size?"
+        }
+      ],
+      "footnotes": [
+        "**Tikti** is to fit or suit and **patikti** is to please (¶68); *ši suknelė man patinka, bet netinka* says the dress is liked and does not fit."
+      ],
+      "seeAlso": [
+        "other-dative-verbs",
+        "patikti",
+        "genitive-prepositions",
+        "adjective-comparative"
+      ],
+      "core": true
+    },
+    {
+      "id": "plurale-tantum-garments",
+      "number": "166",
+      "heading": "Garments That Have No Singular",
+      "statement": "**Kelnės**, **marškiniai**, **džinsai** and **akiniai** are plural words: they take a plural adjective and a plural verb even of a single article (¶56, ¶57). A pair is counted with **pora** and the genitive plural — *pora kojinių*.",
+      "examples": [
+        {
+          "target": "Šios kelnės yra per ilgos.",
+          "gloss": "These trousers are too long.",
+          "note": "one garment, plural throughout"
+        },
+        {
+          "target": "Kur mano akiniai?",
+          "gloss": "Where are my glasses?"
+        },
+        {
+          "target": "Nusipirkau porą kojinių.",
+          "gloss": "I bought a pair of socks."
+        }
+      ],
+      "footnotes": [
+        "*Metai* behaved so at ¶88, and *pietūs* at ¶156: a plural word is plural in its agreement whatever it counts."
+      ],
+      "seeAlso": [
+        "metai-plurale",
+        "meals-and-their-verbs",
+        "verb-number",
+        "plural-genitive"
+      ],
+      "core": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "lemma": "drabužiai",
+      "gloss": "clothes",
+      "pos": "noun",
+      "forms": {
+        "nom": "drabužiai",
+        "gen": "drabužių",
+        "acc": "drabužius",
+        "gender": "m."
+      },
+      "notes": "Used in the plural; the singular drabužis is a single garment."
+    },
+    {
+      "lemma": "marškiniai",
+      "gloss": "shirt",
+      "pos": "noun",
+      "forms": {
+        "nom": "marškiniai",
+        "gen": "marškinių",
+        "acc": "marškinius",
+        "gender": "m."
+      },
+      "notes": "A plural word: one shirt is marškiniai."
+    },
+    {
+      "lemma": "megztinis",
+      "gloss": "jumper, sweater",
+      "pos": "noun",
+      "forms": {
+        "nom": "megztinis",
+        "gen": "megztinio",
+        "acc": "megztinį",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "švarkas",
+      "gloss": "jacket",
+      "pos": "noun",
+      "forms": {
+        "nom": "švarkas",
+        "gen": "švarko",
+        "acc": "švarką",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "paltas",
+      "gloss": "overcoat",
+      "pos": "noun",
+      "forms": {
+        "nom": "paltas",
+        "gen": "palto",
+        "acc": "paltą",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "striukė",
+      "gloss": "anorak, short jacket",
+      "pos": "noun",
+      "forms": {
+        "nom": "striukė",
+        "gen": "striukės",
+        "acc": "striukę",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "kelnės",
+      "gloss": "trousers",
+      "pos": "noun",
+      "forms": {
+        "nom": "kelnės",
+        "gen": "kelnių",
+        "acc": "kelnes",
+        "gender": "f."
+      },
+      "notes": "A plural word."
+    },
+    {
+      "lemma": "džinsai",
+      "gloss": "jeans",
+      "pos": "noun",
+      "forms": {
+        "nom": "džinsai",
+        "gen": "džinsų",
+        "acc": "džinsus",
+        "gender": "m."
+      },
+      "notes": "A plural word."
+    },
+    {
+      "lemma": "sijonas",
+      "gloss": "skirt",
+      "pos": "noun",
+      "forms": {
+        "nom": "sijonas",
+        "gen": "sijono",
+        "acc": "sijoną",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "suknelė",
+      "gloss": "dress",
+      "pos": "noun",
+      "forms": {
+        "nom": "suknelė",
+        "gen": "suknelės",
+        "acc": "suknelę",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "batas",
+      "gloss": "shoe",
+      "pos": "noun",
+      "forms": {
+        "nom": "batas",
+        "gen": "bato",
+        "acc": "batą",
+        "gender": "m."
+      },
+      "notes": "Usually in the plural: batai."
+    },
+    {
+      "lemma": "kojinė",
+      "gloss": "sock, stocking",
+      "pos": "noun",
+      "forms": {
+        "nom": "kojinė",
+        "gen": "kojinės",
+        "acc": "kojinę",
+        "gender": "f."
+      },
+      "notes": "Usually in the plural: kojinės."
+    },
+    {
+      "lemma": "pirštinė",
+      "gloss": "glove",
+      "pos": "noun",
+      "forms": {
+        "nom": "pirštinė",
+        "gen": "pirštinės",
+        "acc": "pirštinę",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "kepurė",
+      "gloss": "cap, warm hat",
+      "pos": "noun",
+      "forms": {
+        "nom": "kepurė",
+        "gen": "kepurės",
+        "acc": "kepurę",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "skrybėlė",
+      "gloss": "hat (with a brim)",
+      "pos": "noun",
+      "forms": {
+        "nom": "skrybėlė",
+        "gen": "skrybėlės",
+        "acc": "skrybėlę",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "akiniai",
+      "gloss": "spectacles, glasses",
+      "pos": "noun",
+      "forms": {
+        "nom": "akiniai",
+        "gen": "akinių",
+        "acc": "akinius",
+        "gender": "m."
+      },
+      "notes": "A plural word."
+    },
+    {
+      "lemma": "žiedas",
+      "gloss": "ring",
+      "pos": "noun",
+      "forms": {
+        "nom": "žiedas",
+        "gen": "žiedo",
+        "acc": "žiedą",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "dydis",
+      "gloss": "size",
+      "pos": "noun",
+      "forms": {
+        "nom": "dydis",
+        "gen": "dydžio",
+        "acc": "dydį",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "pora",
+      "gloss": "pair (+ gen.)",
+      "pos": "noun",
+      "forms": {
+        "nom": "pora",
+        "gen": "poros",
+        "acc": "porą",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "vilkėti",
+      "gloss": "to wear (clothing on the body)",
+      "pos": "verb",
+      "forms": {
+        "inf": "vilkėti",
+        "pres3": "vilki",
+        "past3": "vilkėjo",
+        "conj": "II"
+      },
+      "notes": "Of a coat, a shirt, a dress; not of shoes or gloves."
+    },
+    {
+      "lemma": "avėti",
+      "gloss": "to wear (footwear)",
+      "pos": "verb",
+      "forms": {
+        "inf": "avėti",
+        "pres3": "avi",
+        "past3": "avėjo",
+        "conj": "II"
+      }
+    },
+    {
+      "lemma": "mūvėti",
+      "gloss": "to wear (trousers, gloves, a ring)",
+      "pos": "verb",
+      "forms": {
+        "inf": "mūvėti",
+        "pres3": "mūvi",
+        "past3": "mūvėjo",
+        "conj": "II"
+      }
+    },
+    {
+      "lemma": "dėvėti",
+      "gloss": "to wear (any garment)",
+      "pos": "verb",
+      "forms": {
+        "inf": "dėvėti",
+        "pres3": "dėvi",
+        "past3": "dėvėjo",
+        "conj": "II"
+      },
+      "notes": "The general word, and the one used in notices and reports."
+    },
+    {
+      "lemma": "nešioti",
+      "gloss": "to wear habitually; to carry about",
+      "pos": "verb",
+      "forms": {
+        "inf": "nešioti",
+        "pres3": "nešioja",
+        "past3": "nešiojo",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "rengtis",
+      "gloss": "to dress, to get dressed",
+      "pos": "verb",
+      "forms": {
+        "inf": "rengtis",
+        "pres3": "rengiasi",
+        "past3": "rengėsi",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "apsirengti",
+      "gloss": "to get dressed",
+      "pos": "verb",
+      "forms": {
+        "inf": "apsirengti",
+        "pres3": "apsirengia",
+        "past3": "apsirengė",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "apsivilkti",
+      "gloss": "to put on (a garment)",
+      "pos": "verb",
+      "forms": {
+        "inf": "apsivilkti",
+        "pres3": "apsivelka",
+        "past3": "apsivilko",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "nusivilkti",
+      "gloss": "to take off (a garment)",
+      "pos": "verb",
+      "forms": {
+        "inf": "nusivilkti",
+        "pres3": "nusivelka",
+        "past3": "nusivilko",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "apsiauti",
+      "gloss": "to put on (footwear)",
+      "pos": "verb",
+      "forms": {
+        "inf": "apsiauti",
+        "pres3": "apsiauna",
+        "past3": "apsiavė",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "nusiauti",
+      "gloss": "to take off (footwear)",
+      "pos": "verb",
+      "forms": {
+        "inf": "nusiauti",
+        "pres3": "nusiauna",
+        "past3": "nusiavė",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "užsidėti",
+      "gloss": "to put on (a hat, glasses)",
+      "pos": "verb",
+      "forms": {
+        "inf": "užsidėti",
+        "pres3": "užsideda",
+        "past3": "užsidėjo",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "pasimatuoti",
+      "gloss": "to try on",
+      "pos": "verb",
+      "forms": {
+        "inf": "pasimatuoti",
+        "pres3": "pasimatuoja",
+        "past3": "pasimatavo",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "derėti",
+      "gloss": "to go with, to match (+ prie and gen.)",
+      "pos": "verb",
+      "forms": {
+        "inf": "derėti",
+        "pres3": "dera",
+        "past3": "derėjo",
+        "conj": "II"
+      }
+    },
+    {
+      "lemma": "baltas",
+      "gloss": "white",
+      "pos": "adjective",
+      "forms": {
+        "masc": "baltas",
+        "fem": "balta"
+      }
+    },
+    {
+      "lemma": "žalias",
+      "gloss": "green",
+      "pos": "adjective",
+      "forms": {
+        "masc": "žalias",
+        "fem": "žalia"
+      }
+    },
+    {
+      "lemma": "juodas",
+      "gloss": "black",
+      "pos": "adjective",
+      "forms": {
+        "masc": "juodas",
+        "fem": "juoda"
+      }
+    },
+    {
+      "lemma": "mėlynas",
+      "gloss": "blue",
+      "pos": "adjective",
+      "forms": {
+        "masc": "mėlynas",
+        "fem": "mėlyna"
+      }
+    },
+    {
+      "lemma": "geltonas",
+      "gloss": "yellow",
+      "pos": "adjective",
+      "forms": {
+        "masc": "geltonas",
+        "fem": "geltona"
+      }
+    },
+    {
+      "lemma": "rudas",
+      "gloss": "brown",
+      "pos": "adjective",
+      "forms": {
+        "masc": "rudas",
+        "fem": "ruda"
+      }
+    },
+    {
+      "lemma": "pilkas",
+      "gloss": "grey",
+      "pos": "adjective",
+      "forms": {
+        "masc": "pilkas",
+        "fem": "pilka"
+      }
+    },
+    {
+      "lemma": "rožinis",
+      "gloss": "pink",
+      "pos": "adjective",
+      "forms": {
+        "masc": "rožinis",
+        "fem": "rožinė"
+      }
+    }
+  ],
+  "drills": [
+    {
+      "id": "a124-q1",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete: **Ji vilki žalią ____.**",
+      "options": [
+        "suknelę",
+        "batus",
+        "pirštines",
+        "akinius"
+      ],
+      "correct": 0,
+      "explanation": "**Vilkėti** is of what clothes the body (¶162). Shoes take *avėti*, gloves *mūvėti*, and glasses are put on with *užsidėti*.",
+      "rulesTested": [
+        "vilketi-aveti-muveti",
+        "garments"
+      ],
+      "vocabUsed": [
+        "vilkėti",
+        "suknelė",
+        "batas",
+        "pirštinė",
+        "akiniai",
+        "žalias"
+      ]
+    },
+    {
+      "id": "a124-q2",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Which verb goes with **batus**?",
+      "options": [
+        "vilkėti",
+        "avėti",
+        "mūvėti",
+        "užsidėti"
+      ],
+      "correct": 1,
+      "explanation": "**Avėti** is the verb of footwear (¶162). *Dėvėti* would also serve, since it covers everything, but it is not among the options.",
+      "rulesTested": [
+        "vilketi-aveti-muveti"
+      ],
+      "vocabUsed": [
+        "avėti",
+        "vilkėti",
+        "mūvėti",
+        "užsidėti",
+        "batas"
+      ]
+    },
+    {
+      "id": "a124-q3",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Which word fits: **Lauke šalta — užsidėk ____.**",
+      "options": [
+        "kepurę",
+        "kelnes",
+        "kojines",
+        "žiedą"
+      ],
+      "correct": 0,
+      "explanation": "**Užsidėti** is of what goes on the head or the nose (¶163), so the cap. Trousers take *mūvėti*, socks *avėti*, and a ring is put on but is no help against the cold.",
+      "rulesTested": [
+        "dressing-verbs",
+        "garments"
+      ],
+      "vocabUsed": [
+        "užsidėti",
+        "kepurė",
+        "kelnės",
+        "kojinė",
+        "žiedas",
+        "šaltas"
+      ]
+    },
+    {
+      "id": "a124-q4",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Šios kelnės yra per ____.**",
+      "options": [
+        "ilgos",
+        "ilga",
+        "ilgas",
+        "ilgi"
+      ],
+      "correct": 0,
+      "explanation": "*Kelnės* is a feminine plural word, so the adjective is feminine plural — **ilgos** (¶56, ¶166). One pair of trousers is grammatically plural throughout.",
+      "rulesTested": [
+        "plurale-tantum-garments",
+        "adjective-number",
+        "fitting-and-suiting"
+      ],
+      "vocabUsed": [
+        "kelnės",
+        "ilgas",
+        "per"
+      ]
+    },
+    {
+      "id": "a124-q5",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Which verb fits: **Jis ____ juodas kelnes ir pirštines.**",
+      "options": [
+        "mūvi",
+        "avi",
+        "vilki",
+        "užsideda"
+      ],
+      "correct": 0,
+      "explanation": "**Mūvėti** is of what is pulled onto a limb — trousers, gloves, a ring (¶162). One verb serves both nouns here, which is why the sentence works at all.",
+      "rulesTested": [
+        "vilketi-aveti-muveti"
+      ],
+      "vocabUsed": [
+        "mūvėti",
+        "avėti",
+        "vilkėti",
+        "užsidėti",
+        "kelnės",
+        "pirštinė",
+        "juodas"
+      ]
+    },
+    {
+      "id": "a124-q6",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "**Ši suknelė man patinka, bet netinka.** What does the sentence say?",
+      "options": [
+        "The dress is liked and does not fit.",
+        "The dress fits and is not liked.",
+        "The dress is neither liked nor fits.",
+        "The dress is both liked and fits."
+      ],
+      "correct": 0,
+      "explanation": "*Patikti* is to please and *tikti* is to fit or suit (¶165, ¶68, ¶70). Both take the dative of the person, which is what makes the pair so easy to read the wrong way round.",
+      "rulesTested": [
+        "fitting-and-suiting",
+        "patikti",
+        "other-dative-verbs"
+      ],
+      "vocabUsed": [
+        "patikti",
+        "tikti",
+        "suknelė",
+        "man",
+        "bet"
+      ]
+    },
+    {
+      "id": "a124-q7",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Mėlynas švarkas dera prie ____.**",
+      "options": [
+        "pilkų kelnių",
+        "pilkos kelnes",
+        "pilkas kelnes",
+        "pilkoms kelnėms"
+      ],
+      "correct": 0,
+      "explanation": "*Derėti prie* takes the genitive (¶33, ¶165), and *kelnės* is plural, so the genitive plural of both words — **pilkų kelnių** (¶55, ¶56).",
+      "rulesTested": [
+        "fitting-and-suiting",
+        "plurale-tantum-garments",
+        "genitive-prepositions",
+        "plural-genitive"
+      ],
+      "vocabUsed": [
+        "derėti",
+        "prie",
+        "švarkas",
+        "kelnės",
+        "pilkas",
+        "mėlynas"
+      ]
+    },
+    {
+      "id": "a124-q8",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which of these are plural words with no singular of their own?",
+      "options": [
+        "kelnės",
+        "akiniai",
+        "suknelė",
+        "marškiniai"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "*Kelnės*, *akiniai* and *marškiniai* are plural however few of them there are (¶166). *Suknelė* is an ordinary feminine singular.",
+      "rulesTested": [
+        "plurale-tantum-garments",
+        "garments"
+      ],
+      "vocabUsed": [
+        "kelnės",
+        "akiniai",
+        "suknelė",
+        "marškiniai"
+      ]
+    },
+    {
+      "id": "a124-q9",
+      "type": "matching",
+      "difficulty": "hard",
+      "stem": "Match each garment with the verb Lithuanian uses for having it on.",
+      "columnHeadings": [
+        "Garment",
+        "Verb"
+      ],
+      "columnI": [
+        "**paltas**",
+        "**batai**",
+        "**pirštinės**",
+        "**marškiniai**"
+      ],
+      "columnII": [
+        "vilkėti",
+        "avėti",
+        "mūvėti",
+        "užsidėti"
+      ],
+      "options": [
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          2
+        ],
+        [
+          0,
+          2,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          3
+        ]
+      ],
+      "correct": 0,
+      "explanation": "*Vilkėti* answers to both the coat and the shirt, since both clothe the body (¶162), and one label therefore serves two rows. The second pairing sends the shirt to *mūvėti*, which is for the limbs; the third swaps the shoes and the gloves; the fourth is the whole set displaced.",
+      "rulesTested": [
+        "vilketi-aveti-muveti",
+        "garments"
+      ],
+      "vocabUsed": [
+        "paltas",
+        "batas",
+        "pirštinė",
+        "marškiniai",
+        "vilkėti",
+        "avėti",
+        "mūvėti",
+        "užsidėti"
+      ]
+    },
+    {
+      "id": "a124-q10",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "In **Nusiauk batus prie durų**, which statements are true?",
+      "options": [
+        "The verb is the footwear counterpart of *nusivilkti*.",
+        "It is an imperative addressed to one person.",
+        "*Prie* takes the genitive.",
+        "The negative would be *nusiauk ne batus*."
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "The negative of an imperative is *ne-* prefixed to the verb: **nenusiauk** (¶114). The affix needs no moving here, because *nu-* has already put it inside the word. *Nusiauti* is to *avėti* what *nusivilkti* is to *vilkėti*.",
+      "rulesTested": [
+        "dressing-verbs",
+        "imperative-negative",
+        "imperative-formation",
+        "genitive-prepositions"
+      ],
+      "vocabUsed": [
+        "nusiauti",
+        "nusivilkti",
+        "batas",
+        "prie"
+      ]
+    },
+    {
+      "id": "a124-q11",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Which is correct?",
+      "options": [
+        "Ji dėvi baltus marškinius ir avi juodus batus.",
+        "Ji avi baltus marškinius ir dėvi juodus batus.",
+        "Ji dėvi balta marškiniai ir avi juoda batai.",
+        "Ji mūvi baltus marškinius ir vilki juodus batus."
+      ],
+      "correct": 0,
+      "explanation": "*Dėvėti* covers any garment and *avėti* is right for the shoes (¶162); both adjectives are masculine accusative plural agreeing with their nouns (¶54, ¶56). The second and fourth swap the verbs; the third leaves both phrases in the nominative.",
+      "rulesTested": [
+        "vilketi-aveti-muveti",
+        "garments",
+        "plurale-tantum-garments",
+        "plural-accusative"
+      ],
+      "vocabUsed": [
+        "dėvėti",
+        "avėti",
+        "mūvėti",
+        "vilkėti",
+        "marškiniai",
+        "batas",
+        "baltas",
+        "juodas"
+      ]
+    },
+    {
+      "id": "a124-q12",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**Nesirengiu, nes dar anksti.** Where has the reflexive affix gone?",
+      "options": [
+        "It has been dropped under the negative.",
+        "It has moved in front of the root, behind the negative particle.",
+        "It has become the ending *-u*.",
+        "It has been replaced by *nes*."
+      ],
+      "correct": 1,
+      "explanation": "*Rengiuosi* becomes *nesirengiu*: the *-si-* leaves the end of the word and settles between *ne-* and the root (¶145, ¶163). *Nes* is the conjunction *because* (¶107) and has nothing to do with the affix.",
+      "rulesTested": [
+        "dressing-verbs",
+        "reflexive-phrases",
+        "negation",
+        "nes-todel"
+      ],
+      "vocabUsed": [
+        "rengtis",
+        "apsirengti",
+        "nes",
+        "anksti"
+      ]
+    },
+    {
+      "id": "a124-q13",
+      "type": "integer",
+      "difficulty": "medium",
+      "stem": "A shop assistant brings **porą kojinių, dvejas pirštines ir tris marškinius**. Counting *pora* as one article, how many articles are on the counter?",
+      "answer": 6,
+      "explanation": "One pair of socks, two pairs of gloves and three shirts. *Marškiniai* is a plural word, so *tris marškinius* is three shirts and not three halves of one (¶166).",
+      "rulesTested": [
+        "plurale-tantum-garments",
+        "numeral-case",
+        "garments"
+      ],
+      "vocabUsed": [
+        "pora",
+        "kojinė",
+        "pirštinė",
+        "marškiniai",
+        "trys"
+      ],
+      "unit": "articles"
+    },
+    {
+      "id": "a124-q14",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "Lithuanian names its cases in a fixed order: *vardininkas, kilmininkas, naudininkas, galininkas, įnagininkas, vietininkas, šauksmininkas*. Counting from the first, what position does the case of *kelnių* hold in **Švarkas dera prie pilkų kelnių**?",
+      "answer": 2,
+      "explanation": "*Kelnių* is the genitive plural, the *kilmininkas*, which *prie* governs (¶33, ¶165). The dative *kelnėms* would come one place later and *derėti* never takes it.",
+      "rulesTested": [
+        "fitting-and-suiting",
+        "plural-genitive",
+        "genitive-prepositions"
+      ],
+      "vocabUsed": [
+        "kelnės",
+        "derėti",
+        "prie",
+        "pilkas",
+        "švarkas"
+      ],
+      "unit": "position in the order of cases"
+    },
+    {
+      "id": "a124-p1",
+      "type": "comprehension",
+      "difficulty": "hard",
+      "title": "Parduotuvėje",
+      "passage": "PARDAVĖJA. Laba diena. Ar galiu padėti?\nRŪTA. Taip. Ieškau juodo sijono ir baltų marškinių.\nPARDAVĖJA. Koks jūsų dydis?\nRŪTA. Nežinau tiksliai. Ar galiu pasimatuoti?\nPARDAVĖJA. Žinoma. Štai sijonas ir marškiniai. Kabina dešinėn.\nRŪTA. Ačiū… Sijonas man tinka, bet marškiniai per dideli.\nPARDAVĖJA. Duosiu mažesnius. O prie juodo sijono labai derėtų šitas pilkas megztinis.\nRŪTA. Gražu, bet jis per brangus. Kiek kainuoja sijonas?\nPARDAVĖJA. Keturiasdešimt eurų.\nRŪTA. Gerai, imu sijoną ir mažesnius marškinius. Mokėsiu kortele.",
+      "translation": "ASSISTANT. Good afternoon. Can I help?\nRŪTA. Yes. I am looking for a black skirt and a white shirt.\nASSISTANT. What is your size?\nRŪTA. I do not know exactly. May I try them on?\nASSISTANT. Of course. Here is the skirt and the shirt. The fitting room is on the right.\nRŪTA. Thank you… The skirt fits me, but the shirt is too big.\nASSISTANT. I will bring a smaller one. And this grey jumper would go very well with the black skirt.\nRŪTA. It is lovely, but it is too expensive. How much is the skirt?\nASSISTANT. Forty euros.\nRŪTA. Good, I will take the skirt and the smaller shirt. I will pay by card.",
+      "glossary": {
+        "pardavėja": "shop assistant (female)",
+        "tiksliai": "exactly",
+        "kabina": "cabin, fitting room",
+        "štai": "here is",
+        "šitas": "this (here)",
+        "eurų": "euros (genitive plural)",
+        "kainuoti": "to cost",
+        "imu": "I take (imti)"
+      },
+      "questions": [
+        {
+          "id": "a124-p1-c1",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "Ko ieško Rūta?",
+          "options": [
+            "Juodo sijono ir baltų marškinių.",
+            "Raudonos suknelės.",
+            "Batų ir kojinių.",
+            "Pilko megztinio."
+          ],
+          "correct": 0,
+          "explanation": "*Ieškau juodo sijono ir baltų marškinių.* *Ieškoti* takes the genitive, which is why every word of the answer is genitive (¶33 and the verb's own government).",
+          "rulesTested": [
+            "garments",
+            "colours"
+          ],
+          "vocabUsed": [
+            "sijonas",
+            "marškiniai",
+            "juodas",
+            "baltas"
+          ]
+        },
+        {
+          "id": "a124-p1-c2",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "Kas Rūtai netinka?",
+          "options": [
+            "Sijonas.",
+            "Marškiniai.",
+            "Megztinis.",
+            "Kojinės."
+          ],
+          "correct": 1,
+          "explanation": "*Sijonas man tinka, bet marškiniai per dideli.* *Tikti* takes the dative of the person, and the trouble is with the shirt (¶165).",
+          "rulesTested": [
+            "fitting-and-suiting",
+            "plurale-tantum-garments"
+          ],
+          "vocabUsed": [
+            "sijonas",
+            "marškiniai",
+            "tikti"
+          ]
+        },
+        {
+          "id": "a124-p1-c3",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Kodėl Rūta neperka megztinio?",
+          "options": [
+            "Nes jis per brangus.",
+            "Nes jis per mažas.",
+            "Nes jis nedera prie sijono.",
+            "Nes jis netinka."
+          ],
+          "correct": 0,
+          "explanation": "*Gražu, bet jis per brangus.* The shop assistant had said the jumper *would go* with the skirt, so the reason is the price and not the match (¶165).",
+          "rulesTested": [
+            "fitting-and-suiting",
+            "nes-todel"
+          ],
+          "vocabUsed": [
+            "megztinis",
+            "brangus",
+            "per",
+            "nes"
+          ]
+        },
+        {
+          "id": "a124-p1-q1",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "**Marškiniai per dideli.** Why the plural adjective for one shirt?",
+          "options": [
+            "Because two shirts were brought.",
+            "Because *marškiniai* is a plural word and agreement follows the word, not the article.",
+            "Because *per* requires the plural.",
+            "Because the speaker is being polite."
+          ],
+          "correct": 1,
+          "explanation": "*Marškiniai* has no singular, so one shirt takes a plural adjective and a plural verb (¶166, ¶56). The same holds of *kelnės* and *akiniai*.",
+          "rulesTested": [
+            "plurale-tantum-garments",
+            "adjective-number",
+            "fitting-and-suiting"
+          ],
+          "vocabUsed": [
+            "marškiniai",
+            "didelis",
+            "per"
+          ]
+        },
+        {
+          "id": "a124-p1-q2",
+          "type": "multi",
+          "difficulty": "hard",
+          "stem": "Which of these does the shop assistant do?",
+          "options": [
+            "ask for the customer's size",
+            "offer a garment that goes with another",
+            "state a price",
+            "say which shoes to try"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "*Koks jūsų dydis?*, *prie juodo sijono labai derėtų šitas pilkas megztinis*, and *Keturiasdešimt eurų*. Footwear is never mentioned, and *derėtų* is a conditional, offering rather than asserting (¶116).",
+          "rulesTested": [
+            "fitting-and-suiting",
+            "colours",
+            "garments"
+          ],
+          "vocabUsed": [
+            "dydis",
+            "derėti",
+            "megztinis",
+            "sijonas"
+          ]
+        },
+        {
+          "id": "a124-p1-q3",
+          "type": "integer",
+          "difficulty": "hard",
+          "stem": "Kiek eurų kainuoja sijonas?",
+          "answer": 40,
+          "explanation": "*Keturiasdešimt eurų.* From ten upwards the numeral takes the genitive plural of what it counts (¶80, ¶58).",
+          "rulesTested": [
+            "garments",
+            "cardinals-ten-up",
+            "numeral-case"
+          ],
+          "vocabUsed": [
+            "sijonas",
+            "kiek"
+          ],
+          "unit": "eurai"
+        }
+      ],
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course.",
+          "note": "A shop dialogue, kept to the garments, the wearing verbs and the fitting of ¶161–¶166."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+          "note": "Descriptive source for the paradigms and rule statements on this page."
+        }
+      ]
+    }
+  ]
+}

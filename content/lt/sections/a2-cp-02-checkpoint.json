@@ -41,7 +41,7 @@
       "type": "single",
       "difficulty": "hard",
       "stem": "**Filmas buvo geras** and **Geriausias buvo naujasis.** Why is the definite form used in the second and not in the first?",
-      "explanation": "The long form picks out a particular one already in view, and can stand alone as a noun would (¶176, ¶177); a predicate adjective simply attributes a quality and takes the short form (¶173, ¶16). Tense has nothing to do with it — *buvo* appears in both.",
+      "explanation": "The long form picks out a particular one already in view, and can stand alone as a noun would (¶197, ¶198); a predicate adjective simply attributes a quality and takes the short form (¶194, ¶16). Tense has nothing to do with it — *buvo* appears in both.",
       "rulesTested": [
         "definite-when-required",
         "definite-substantivised",
@@ -219,7 +219,7 @@
         "kad"
       ],
       "correct": 1,
-      "explanation": "**Kol** here is *until*. A comma stands before it (¶182).",
+      "explanation": "**Kol** here is *until*. A comma stands before it (¶203).",
       "rulesTested": [
         "kol-clause",
         "subordinate-comma"
@@ -280,7 +280,7 @@
         "That *ateis* is really a past form."
       ],
       "correct": 1,
-      "explanation": "Sequence of tenses in Lithuanian is honest reporting (¶183): he said *I shall come*, so *ateis* remains.",
+      "explanation": "Sequence of tenses in Lithuanian is honest reporting (¶204): he said *I shall come*, so *ateis* remains.",
       "rulesTested": [
         "sequence-of-tenses",
         "subordination-kad"
@@ -308,7 +308,7 @@
         1,
         3
       ],
-      "explanation": "*Jeigu* conditions; *although* is *nors*. The other three match the inventory of ¶184.",
+      "explanation": "*Jeigu* conditions; *although* is *nors*. The other three match the inventory of ¶205.",
       "rulesTested": [
         "subordinate-inventory",
         "nors-clause"
@@ -491,7 +491,7 @@
         "Because the sentence is future."
       ],
       "correct": 1,
-      "explanation": "The infinitive keeps its own government (¶189). *Norėti* + infinitive leaves no noun for the genitive of ¶39.",
+      "explanation": "The infinitive keeps its own government (¶210). *Norėti* + infinitive leaves no noun for the genitive of ¶39.",
       "rulesTested": [
         "infinitive-with-object",
         "complementary-infinitive-range",
@@ -531,7 +531,7 @@
         "Whether a comma follows."
       ],
       "correct": 1,
-      "explanation": "¶185: the same verb *turėti* means *have to* with an infinitive and *have* with a noun.",
+      "explanation": "¶206: the same verb *turėti* means *have to* with an infinitive and *have* with a noun.",
       "rulesTested": [
         "complementary-infinitive-range",
         "infinitive-choice"
@@ -584,7 +584,7 @@
         "That *papasakosiu* is really a present."
       ],
       "correct": 1,
-      "explanation": "Sequence of tenses (¶183): name the time of each event. Both are future, so both verbs are future.",
+      "explanation": "Sequence of tenses (¶204): name the time of each event. Both are future, so both verbs are future.",
       "rulesTested": [
         "sequence-of-tenses",
         "kai-clause",
@@ -609,7 +609,7 @@
         "Whether you are swimming now."
       ],
       "correct": 1,
-      "explanation": "**Mokėti** + infinitive is *know how* — a complementary infinitive of skill (¶185).",
+      "explanation": "**Mokėti** + infinitive is *know how* — a complementary infinitive of skill (¶206).",
       "rulesTested": [
         "complementary-infinitive-range"
       ],
@@ -623,7 +623,7 @@
       "type": "matching",
       "difficulty": "hard",
       "stem": "Match each adjective form with what it is.",
-      "explanation": "The long form is built by adding the pronoun to the short one, and then declines throughout (¶174, ¶175): *geroji* nominative, *gerąją* accusative. *geriausia* is a superlative and belongs to the short series (¶122) — degree and definiteness are separate axes, which is what option B confuses.",
+      "explanation": "The long form is built by adding the pronoun to the short one, and then declines throughout (¶195, ¶196): *geroji* nominative, *gerąją* accusative. *geriausia* is a superlative and belongs to the short series (¶122) — degree and definiteness are separate axes, which is what option B confuses.",
       "rulesTested": [
         "definite-adjective-formation",
         "definite-adjective-declension",
@@ -815,7 +815,7 @@
       "type": "multi",
       "difficulty": "hard",
       "stem": "**Nors jis dirba daug, vis tiek nespėja.** Which statements are true?",
-      "explanation": "*nors* is concessive (¶181) and pairs naturally with *vis tiek*; every subordinate clause is set off by a comma, without exception (¶182). Replacing it by *nes* would turn a concession into a cause and reverse the sentence's logic (¶107).",
+      "explanation": "*nors* is concessive (¶202) and pairs naturally with *vis tiek*; every subordinate clause is set off by a comma, without exception (¶203). Replacing it by *nes* would turn a concession into a cause and reverse the sentence's logic (¶107).",
       "rulesTested": [
         "nors-clause",
         "subordinate-comma",
@@ -1007,7 +1007,7 @@
         "naujiesiems"
       ],
       "correct": 0,
-      "explanation": "The students are a known set, so the definite adjective is required (¶176), and *iš* takes the genitive plural: *naujųjų*. A counted set named by *iš* is denied with *nė vienas*, not with *joks* (¶196).",
+      "explanation": "The students are a known set, so the definite adjective is required (¶197), and *iš* takes the genitive plural: *naujųjų*. A counted set named by *iš* is denied with *nė vienas*, not with *joks* (¶217).",
       "rulesTested": [
         "joks-vs-ne-vienas",
         "definite-adjective-declension",
@@ -1033,7 +1033,7 @@
         "jokiu"
       ],
       "correct": 0,
-      "explanation": "*Kol* opens the time clause (¶180); inside it *neturėjau* is negated, so the object stands in the genitive and *joks* agrees with it — *jokio darbo*.",
+      "explanation": "*Kol* opens the time clause (¶201); inside it *neturėjau* is negated, so the object stands in the genitive and *joks* agrees with it — *jokio darbo*.",
       "rulesTested": [
         "joks-genitive",
         "kol-clause",
@@ -1100,10 +1100,30 @@
         "masculine accusative plural"
       ],
       "options": [
-        [0, 1, 2, 3],
-        [4, 1, 2, 3],
-        [0, 5, 2, 3],
-        [4, 5, 2, 3]
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          4,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          5,
+          2,
+          3
+        ],
+        [
+          4,
+          5,
+          2,
+          3
+        ]
       ],
       "correct": 0,
       "explanation": "*Jokiam* is the masculine dative singular — the feminine would be *jokiai*; *jokią* the feminine accusative singular — the masculine plural would be *jokius*. *Jokiuose* and *jokiomis* are the two plural forms.",
@@ -1122,7 +1142,7 @@
       "stem": "In **Niekas niekada nesakė jokio žodžio**, how many negative words of the series that forces the verb to be negated does the sentence carry?",
       "answer": 3,
       "unit": "words",
-      "explanation": "*Niekas*, *niekada* and *jokio* — three, and one negated verb suffices for all of them (¶137, ¶193). The *ne-* on the verb is the answer to them, not a fourth member of the series.",
+      "explanation": "*Niekas*, *niekada* and *jokio* — three, and one negated verb suffices for all of them (¶137, ¶214). The *ne-* on the verb is the answer to them, not a fourth member of the series.",
       "rulesTested": [
         "joks-negative-concord",
         "niekas-negation"
@@ -1149,7 +1169,7 @@
         0,
         1
       ],
-      "explanation": "*Be* governs the genitive and carries the denial itself, so the verb stays affirmative: *be jokio vargo*. *Jokiu būdu* with a verb keeps the negation (¶195), and *be* never takes the accusative.",
+      "explanation": "*Be* governs the genitive and carries the denial itself, so the verb stays affirmative: *be jokio vargo*. *Jokiu būdu* with a verb keeps the negation (¶216), and *be* never takes the accusative.",
       "rulesTested": [
         "joks-be-standalone",
         "genitive-prepositions"
@@ -1177,7 +1197,7 @@
         "Jis sakė, kad neturi joks planas."
       ],
       "correct": 0,
-      "explanation": "The reported clause keeps the tense of the original speech (¶183), so *neturi*; the negated verb takes the genitive plural *jokių planų*; and the comma before *kad* is obligatory (¶182).",
+      "explanation": "The reported clause keeps the tense of the original speech (¶204), so *neturi*; the negated verb takes the genitive plural *jokių planų*; and the comma before *kad* is obligatory (¶203).",
       "rulesTested": [
         "joks-genitive",
         "sequence-of-tenses",
@@ -1349,7 +1369,7 @@
             "Because the clause is negated."
           ],
           "correct": 1,
-          "explanation": "The long form picks out the known new director (¶176).",
+          "explanation": "The long form picks out the known new director (¶197).",
           "rulesTested": [
             "definite-when-required",
             "definite-adjective-nature"
@@ -1426,7 +1446,7 @@
             "*norėjo klausyti* — purposive after motion; *baigs rašyti* — nominal"
           ],
           "correct": 0,
-          "explanation": "*Eikime … skaityti* is ¶186; *Skaityti … naudinga* is ¶188. *Kad … galėtų* is a purpose clause with the conditional; *turime skubėti* is complementary obligation.",
+          "explanation": "*Eikime … skaityti* is ¶207; *Skaityti … naudinga* is ¶209. *Kad … galėtų* is a purpose clause with the conditional; *turime skubėti* is complementary obligation.",
           "rulesTested": [
             "purposive-infinitive",
             "nominal-infinitive",

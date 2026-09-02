@@ -8,7 +8,7 @@
   "rules": [
     {
       "id": "nebe-meaning",
-      "number": "161",
+      "number": "182",
       "heading": "Nebe- Means No Longer",
       "statement": "The prefix **nebe-** marks a **discontinuative**: the situation held before, and it does **not** hold now. English usually says *no longer* or *not anymore*; Lithuanian writes the idea onto the verb as one word — *nebedirbu*, *nebegaliu*, *nebelyja*. It is not a stronger form of ordinary *ne-* (¶25): *nedirbu* is *I do not work* (at this time, or habitually), while *nebedirbu* is *I no longer work* (I used to, and have stopped).",
       "examples": [
@@ -36,7 +36,7 @@
     },
     {
       "id": "nebe-formation",
-      "number": "162",
+      "number": "183",
       "heading": "How Nebe- Is Built and Written",
       "statement": "**Nebe-** is historically **ne-** + the continuative element **be-** (‘still’): literally *not-still*. In the modern standard it is treated as **one** prefix written **together** with the verb (and with adjectives and adjectival adverbs formed the same way): *nebegaliu*, *nebegeras*, *nebetoli*. It is written **apart** from nouns, pronouns, numerals, and from those adverbs that also take separate *ne*: *nebe laikas*, *nebe tas*, *nebe vienas*. Under **contrast** (*not X, but Y*) it is likewise separate: *Nebe skaito, o rašo.*",
       "examples": [
@@ -117,7 +117,7 @@
     },
     {
       "id": "nebe-vs-dar-ne",
-      "number": "163",
+      "number": "184",
       "heading": "Nebe- against Dar Ne- and Jau Ne-",
       "statement": "Lithuanian has two ordinary ways of saying *no longer*, and they must not be confused with *not yet*. **Dar** + **ne-** (*dar nedirba*) is *still not / not yet*. **Jau** + **ne-** (*jau nedirba*) is the *already-not* discontinuative — *no longer*, built with the particle *jau* of ¶111. **Nebe-** (*nebedirba*) is the prefixed discontinuative of the same meaning, interchangeable with *jau ne-* in the standard language. The four-way square with the particles of ¶111 is therefore: *dar* ‘still’, *dar ne-* ‘not yet’, *jau* ‘already’, *jau ne-* / *nebe-* ‘no longer’.",
       "examples": [
@@ -176,7 +176,7 @@
     },
     {
       "id": "tebe-counterpart",
-      "number": "164",
+      "number": "185",
       "heading": "The Positive Counterpart Tebe-",
       "statement": "The continuative partner of **nebe-** in modern standard Lithuanian is **tebe-**: *tebedirba* ‘is still working’, *tebelyja* ‘is still raining’. Where *dar* is a free particle (*jis dar dirba*), *tebe-* is a **prefix** written on the verb like *nebe-*. At A2 it is enough to **recognise** *tebe-* as ‘still’ on the verb and to **produce** *nebe-* for ‘no longer’; *dar* remains the everyday particle already learnt.",
       "examples": [
@@ -205,9 +205,9 @@
     },
     {
       "id": "nebe-syntax",
-      "number": "165",
+      "number": "186",
       "heading": "Case, Reflexives, and Stacking",
-      "statement": "Everything that holds for **ne-** holds for **nebe-**. A transitive verb with *nebe-* still takes the **genitive of negation** (¶26): *nebeturi laiko*, not *nebeturi laiką*. On a **reflexive** verb the affix **-si-** stands **after** the outer prefix, as after *ne-* (¶157): *mokausi → nesimokau → nebesimokau*. *Nebe-* (like *ne-*, *te-*, *be-*, *tebe-*) may stand **outside** a lexical prefix: *nebeatvažiuoja* ‘no longer arrives’. Do not write a space inside the verb, and do not stack a second *ne-* beside *nebe-*.",
+      "statement": "Everything that holds for **ne-** holds for **nebe-**. A transitive verb with *nebe-* still takes the **genitive of negation** (¶26): *nebeturi laiko*, not *nebeturi laiką*. On a **reflexive** verb the affix **-si-** stands **after** the outer prefix, as after *ne-* (¶178): *mokausi → nesimokau → nebesimokau*. *Nebe-* (like *ne-*, *te-*, *be-*, *tebe-*) may stand **outside** a lexical prefix: *nebeatvažiuoja* ‘no longer arrives’. Do not write a space inside the verb, and do not stack a second *ne-* beside *nebe-*.",
       "examples": [
         {
           "target": "Jis nebeturi laiko.",

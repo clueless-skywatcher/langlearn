@@ -1,0 +1,1307 @@
+{
+  "id": "a2-09",
+  "kind": "lesson",
+  "level": "A2",
+  "order": 12,
+  "title": "Travelling and Getting About",
+  "summary": "The verb that carries the manner of the going and the prefix that carries its direction; the station against the stop; buying a ticket; the different forms left and right take for going and for standing; asking the way; and the language of a timetable.",
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+      "note": "Descriptive source for the paradigms and rule statements on this page."
+    },
+    {
+      "kind": "dictionary",
+      "citation": "*Dabartinės lietuvių kalbos žodynas*, Lietuvių kalbos institutas.",
+      "url": "https://ekalba.lt/dabartines-lietuviu-kalbos-zodynas/",
+      "note": "Citation forms, government and register for this section's vocabulary."
+    }
+  ],
+  "rules": [
+    {
+      "id": "motion-verbs-extended",
+      "number": "225",
+      "heading": "Going, and the Manner of Going",
+      "statement": "Lithuanian names the manner of the going in the verb itself: **eiti** on foot, **važiuoti** by land vehicle, **skristi** by air, **plaukti** by water (¶64). **Keliauti** is to travel as an occupation of the day rather than a single journey, and **vykti** is the word of a timetable and an official notice.",
+      "examples": [
+        {
+          "target": "Į darbą einu pėsčiomis, o namo važiuoju autobusu.",
+          "gloss": "I walk to work and go home by bus."
+        },
+        {
+          "target": "Rytoj skrendame į Londoną.",
+          "gloss": "Tomorrow we fly to London."
+        },
+        {
+          "target": "Vasarą keliaujame po Lietuvą.",
+          "gloss": "In the summer we travel around Lithuania."
+        }
+      ],
+      "paradigms": [
+        {
+          "caption": "The manner in the verb",
+          "columns": [
+            "verb",
+            "how one goes"
+          ],
+          "rows": [
+            {
+              "label": "eiti",
+              "cells": [
+                "on foot"
+              ]
+            },
+            {
+              "label": "važiuoti",
+              "cells": [
+                "by a land vehicle"
+              ]
+            },
+            {
+              "label": "skristi",
+              "cells": [
+                "by air"
+              ]
+            },
+            {
+              "label": "plaukti",
+              "cells": [
+                "by water"
+              ]
+            },
+            {
+              "label": "keliauti",
+              "cells": [
+                "travelling, manner unstated"
+              ]
+            },
+            {
+              "label": "vykti",
+              "cells": [
+                "proceeding — of a timetable or a notice"
+              ]
+            }
+          ],
+          "footnote": "The vehicle itself stands in the instrumental (¶73): *važiuoju autobusu*, *skrendu lėktuvu*."
+        }
+      ],
+      "footnotes": [],
+      "seeAlso": [
+        "motion-verbs",
+        "instrumental-means",
+        "po-accusative"
+      ],
+      "core": true
+    },
+    {
+      "id": "motion-prefixes",
+      "number": "226",
+      "heading": "The Prefixes of Coming and Going",
+      "statement": "A prefix fixes the direction of the going, and the same set serves every verb of motion: **at-** here, **iš-** away, **nu-** off there, **par-** back home, **į-** in, **pri-** up to. *Ateiti* and *atvykti*, *išeiti* and *išvykti*, differ only in the manner the root carries.",
+      "examples": [
+        {
+          "target": "Traukinys atvyksta antrą valandą.",
+          "gloss": "The train arrives at two o'clock."
+        },
+        {
+          "target": "Jis išėjo prieš valandą.",
+          "gloss": "He left an hour ago."
+        },
+        {
+          "target": "Vaikai parėjo iš mokyklos.",
+          "gloss": "The children came home from school."
+        }
+      ],
+      "paradigms": [
+        {
+          "caption": "One root, six directions",
+          "columns": [
+            "prefixed verb",
+            "gloss"
+          ],
+          "rows": [
+            {
+              "label": "ateiti",
+              "cells": [
+                "to come, to arrive here"
+              ]
+            },
+            {
+              "label": "išeiti",
+              "cells": [
+                "to leave, to go out"
+              ]
+            },
+            {
+              "label": "nueiti",
+              "cells": [
+                "to go off, to get somewhere"
+              ]
+            },
+            {
+              "label": "pareiti",
+              "cells": [
+                "to come home"
+              ]
+            },
+            {
+              "label": "įeiti",
+              "cells": [
+                "to go in"
+              ]
+            },
+            {
+              "label": "prieiti",
+              "cells": [
+                "to come up to"
+              ]
+            }
+          ],
+          "footnote": "**Grįžti** returns to any place at all; **pareiti** and **parvažiuoti** return home in particular."
+        }
+      ],
+      "footnotes": [
+        "A reflexive verb keeps its affix behind the prefix: *sukti* → *pasisukti* (¶179)."
+      ],
+      "seeAlso": [
+        "motion-verbs",
+        "si-under-prefix",
+        "past-e-type",
+        "future-formation"
+      ],
+      "core": true
+    },
+    {
+      "id": "stotis-stotele",
+      "number": "227",
+      "heading": "Stotis and Stotelė",
+      "statement": "**Stotis** is a station — a building with a timetable, a ticket office and platforms. **Stotelė**, its diminutive, is a stop: a post at the roadside where a bus halts. Air travel has neither, but **oro uostas**, the air harbour.",
+      "examples": [
+        {
+          "target": "Traukinių stotis yra miesto centre.",
+          "gloss": "The railway station is in the town centre."
+        },
+        {
+          "target": "Išlipkite trečioje stotelėje.",
+          "gloss": "Get off at the third stop."
+        },
+        {
+          "target": "Iš oro uosto važiuoja autobusas.",
+          "gloss": "A bus runs from the airport."
+        }
+      ],
+      "footnotes": [
+        "*Stotis* is a third-declension feminine in *-is*: *stoties, stočiai, stotį* (¶170).",
+        "**Autobusų stotis** is the coach station, and **autobuso stotelė** the bus stop; the genitive plural and singular are as much of the difference as the suffix is."
+      ],
+      "seeAlso": [
+        "third-declension-paradigm",
+        "locative-singular",
+        "ordinals"
+      ],
+      "core": true
+    },
+    {
+      "id": "tickets",
+      "number": "228",
+      "heading": "The Ticket",
+      "statement": "A ticket is bought **į** a place with the accusative, and its kinds are named by an adjective: **vienkartinis** for one journey, **mėnesinis** for a month. The return journey is **pirmyn ir atgal**, and a one-way ticket is **į vieną pusę**.",
+      "examples": [
+        {
+          "target": "Prašom du bilietus į Kauną.",
+          "gloss": "Two tickets to Kaunas, please."
+        },
+        {
+          "target": "Bilietą reikia nusipirkti prieš įlipant.",
+          "gloss": "The ticket must be bought before boarding."
+        },
+        {
+          "target": "Vieną bilietą pirmyn ir atgal.",
+          "gloss": "One return ticket."
+        }
+      ],
+      "footnotes": [
+        "**Vienkartinis** and **mėnesinis** are of the *-inis* type, whose feminine is *-inė* (¶164)."
+      ],
+      "seeAlso": [
+        "direction-i",
+        "ordering-politeness",
+        "numeral-case",
+        "colours"
+      ],
+      "core": true
+    },
+    {
+      "id": "directions",
+      "number": "229",
+      "heading": "Left and Right, Going and Standing",
+      "statement": "Direction and position take different forms of the same word: **į kairę** and **į dešinę** are *to the left* and *to the right*, while **kairėje** and **dešinėje** are *on the left* and *on the right*. The turning itself is **sukti** or **pasukti**, and *tiesiai* is straight on.",
+      "examples": [
+        {
+          "target": "Eikite tiesiai, paskui sukite į kairę.",
+          "gloss": "Go straight on, then turn left."
+        },
+        {
+          "target": "Vaistinė yra dešinėje, prie sankryžos.",
+          "gloss": "The pharmacy is on the right, by the crossroads."
+        },
+        {
+          "target": "Už kampo rasite stotelę.",
+          "gloss": "Round the corner you will find the stop."
+        }
+      ],
+      "paradigms": [
+        {
+          "caption": "Going and standing",
+          "columns": [
+            "direction",
+            "position"
+          ],
+          "rows": [
+            {
+              "label": "į kairę",
+              "cells": [
+                "kairėje"
+              ]
+            },
+            {
+              "label": "į dešinę",
+              "cells": [
+                "dešinėje"
+              ]
+            },
+            {
+              "label": "į priekį",
+              "cells": [
+                "priekyje"
+              ]
+            },
+            {
+              "label": "atgal",
+              "cells": [
+                "gale"
+              ]
+            }
+          ],
+          "footnote": "The accusative after *į* is the case of motion towards, and the locative the case of rest (¶61, ¶59)."
+        }
+      ],
+      "footnotes": [],
+      "seeAlso": [
+        "direction-i",
+        "locative-singular",
+        "place-adverbs",
+        "imperative-formation"
+      ],
+      "core": true
+    },
+    {
+      "id": "asking-the-way",
+      "number": "230",
+      "heading": "Asking the Way",
+      "statement": "The way is asked with **Kaip nueiti iki …?** on foot and **Kaip nuvažiuoti iki …?** by vehicle, the infinitive standing after the question word and *iki* taking the genitive (¶33). *Ar toli?* asks the distance and *Kiek reikia eiti?* the time.",
+      "examples": [
+        {
+          "target": "Atsiprašau, kaip nueiti iki stoties?",
+          "gloss": "Excuse me, how do I get to the station?"
+        },
+        {
+          "target": "Kaip nuvažiuoti iki oro uosto?",
+          "gloss": "How do I get to the airport?"
+        },
+        {
+          "target": "Ar toli iki centro? — Ne, dešimt minučių pėsčiomis.",
+          "gloss": "Is it far to the centre? — No, ten minutes on foot."
+        }
+      ],
+      "footnotes": [
+        "*Iki* marks the point reached and *į* the place entered: *iki stoties* stops at the door, *į stotį* goes inside."
+      ],
+      "seeAlso": [
+        "genitive-prepositions",
+        "question-adverbs",
+        "nominal-infinitive",
+        "purposive-infinitive"
+      ],
+      "core": true
+    },
+    {
+      "id": "timetables-and-delays",
+      "number": "231",
+      "heading": "The Timetable, and Being Late",
+      "statement": "A timetable says when a service **išvyksta** and when it **atvyksta**, and the hour stands in the accusative (¶83). **Vėluoti** is to be running late and **pavėluoti į** with the accusative is to have missed something; **spėti** is to be in time for it.",
+      "examples": [
+        {
+          "target": "Traukinys išvyksta septintą, o atvyksta devintą.",
+          "gloss": "The train leaves at seven and arrives at nine."
+        },
+        {
+          "target": "Autobusas vėluoja dešimt minučių.",
+          "gloss": "The bus is ten minutes late."
+        },
+        {
+          "target": "Nespėjau į traukinį, teko laukti valandą.",
+          "gloss": "I missed the train and had to wait an hour."
+        }
+      ],
+      "footnotes": [
+        "**Persėsti** is to change from one service to another: *persėdau Kaune*."
+      ],
+      "seeAlso": [
+        "accusative-of-time",
+        "telling-the-hour",
+        "future-formation",
+        "past-o-type"
+      ],
+      "core": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "lemma": "skristi",
+      "gloss": "to fly",
+      "pos": "verb",
+      "forms": {
+        "inf": "skristi",
+        "pres3": "skrenda",
+        "past3": "skrido",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "keliauti",
+      "gloss": "to travel",
+      "pos": "verb",
+      "forms": {
+        "inf": "keliauti",
+        "pres3": "keliauja",
+        "past3": "keliavo",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "vykti",
+      "gloss": "to go, to proceed (of a service or an official journey)",
+      "pos": "verb",
+      "forms": {
+        "inf": "vykti",
+        "pres3": "vyksta",
+        "past3": "vyko",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "atvykti",
+      "gloss": "to arrive",
+      "pos": "verb",
+      "forms": {
+        "inf": "atvykti",
+        "pres3": "atvyksta",
+        "past3": "atvyko",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "išvykti",
+      "gloss": "to depart",
+      "pos": "verb",
+      "forms": {
+        "inf": "išvykti",
+        "pres3": "išvyksta",
+        "past3": "išvyko",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "pareiti",
+      "gloss": "to come home (on foot)",
+      "pos": "verb",
+      "forms": {
+        "inf": "pareiti",
+        "pres3": "pareina",
+        "past3": "parėjo",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "parvažiuoti",
+      "gloss": "to come home (by vehicle)",
+      "pos": "verb",
+      "forms": {
+        "inf": "parvažiuoti",
+        "pres3": "parvažiuoja",
+        "past3": "parvažiavo",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "nueiti",
+      "gloss": "to go off, to get to (on foot)",
+      "pos": "verb",
+      "forms": {
+        "inf": "nueiti",
+        "pres3": "nueina",
+        "past3": "nuėjo",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "nuvažiuoti",
+      "gloss": "to get to (by vehicle)",
+      "pos": "verb",
+      "forms": {
+        "inf": "nuvažiuoti",
+        "pres3": "nuvažiuoja",
+        "past3": "nuvažiavo",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "išeiti",
+      "gloss": "to leave, to go out",
+      "pos": "verb",
+      "forms": {
+        "inf": "išeiti",
+        "pres3": "išeina",
+        "past3": "išėjo",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "įlipti",
+      "gloss": "to get on, to board",
+      "pos": "verb",
+      "forms": {
+        "inf": "įlipti",
+        "pres3": "įlipa",
+        "past3": "įlipo",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "išlipti",
+      "gloss": "to get off",
+      "pos": "verb",
+      "forms": {
+        "inf": "išlipti",
+        "pres3": "išlipa",
+        "past3": "išlipo",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "persėsti",
+      "gloss": "to change (trains, buses)",
+      "pos": "verb",
+      "forms": {
+        "inf": "persėsti",
+        "pres3": "persėda",
+        "past3": "persėdo",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "sukti",
+      "gloss": "to turn",
+      "pos": "verb",
+      "forms": {
+        "inf": "sukti",
+        "pres3": "suka",
+        "past3": "suko",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "pasukti",
+      "gloss": "to turn (once)",
+      "pos": "verb",
+      "forms": {
+        "inf": "pasukti",
+        "pres3": "pasuka",
+        "past3": "pasuko",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "pavėluoti",
+      "gloss": "to be late for (+ į and acc.)",
+      "pos": "verb",
+      "forms": {
+        "inf": "pavėluoti",
+        "pres3": "pavėluoja",
+        "past3": "pavėlavo",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "lėktuvas",
+      "gloss": "aeroplane",
+      "pos": "noun",
+      "forms": {
+        "nom": "lėktuvas",
+        "gen": "lėktuvo",
+        "acc": "lėktuvą",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "laivas",
+      "gloss": "ship, boat",
+      "pos": "noun",
+      "forms": {
+        "nom": "laivas",
+        "gen": "laivo",
+        "acc": "laivą",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "stotis",
+      "gloss": "station",
+      "pos": "noun",
+      "forms": {
+        "nom": "stotis",
+        "gen": "stoties",
+        "acc": "stotį",
+        "gender": "f."
+      },
+      "notes": "Third declension; the stop at the roadside is stotelė."
+    },
+    {
+      "lemma": "stotelė",
+      "gloss": "stop (bus, tram)",
+      "pos": "noun",
+      "forms": {
+        "nom": "stotelė",
+        "gen": "stotelės",
+        "acc": "stotelę",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "oro uostas",
+      "gloss": "airport",
+      "pos": "noun",
+      "forms": {
+        "nom": "oro uostas",
+        "gen": "oro uosto",
+        "acc": "oro uostą",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "kelias",
+      "gloss": "road, way",
+      "pos": "noun",
+      "forms": {
+        "nom": "kelias",
+        "gen": "kelio",
+        "acc": "kelią",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "sankryža",
+      "gloss": "crossroads",
+      "pos": "noun",
+      "forms": {
+        "nom": "sankryža",
+        "gen": "sankryžos",
+        "acc": "sankryžą",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "kampas",
+      "gloss": "corner",
+      "pos": "noun",
+      "forms": {
+        "nom": "kampas",
+        "gen": "kampo",
+        "acc": "kampą",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "aikštė",
+      "gloss": "square",
+      "pos": "noun",
+      "forms": {
+        "nom": "aikštė",
+        "gen": "aikštės",
+        "acc": "aikštę",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "tvarkaraštis",
+      "gloss": "timetable",
+      "pos": "noun",
+      "forms": {
+        "nom": "tvarkaraštis",
+        "gen": "tvarkaraščio",
+        "acc": "tvarkaraštį",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "kelionė",
+      "gloss": "journey, trip",
+      "pos": "noun",
+      "forms": {
+        "nom": "kelionė",
+        "gen": "kelionės",
+        "acc": "kelionę",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "vienkartinis",
+      "gloss": "single, one-off",
+      "pos": "adjective",
+      "forms": {
+        "masc": "vienkartinis",
+        "fem": "vienkartinė"
+      }
+    },
+    {
+      "lemma": "mėnesinis",
+      "gloss": "monthly",
+      "pos": "adjective",
+      "forms": {
+        "masc": "mėnesinis",
+        "fem": "mėnesinė"
+      }
+    },
+    {
+      "lemma": "pėsčiomis",
+      "gloss": "on foot",
+      "pos": "adverb"
+    },
+    {
+      "lemma": "atgal",
+      "gloss": "back, backwards",
+      "pos": "adverb"
+    },
+    {
+      "lemma": "pirmyn",
+      "gloss": "forwards",
+      "pos": "adverb",
+      "notes": "Pirmyn ir atgal is a return journey."
+    },
+    {
+      "lemma": "į kairę",
+      "gloss": "to the left",
+      "pos": "adverb"
+    },
+    {
+      "lemma": "į dešinę",
+      "gloss": "to the right",
+      "pos": "adverb"
+    },
+    {
+      "lemma": "kairėje",
+      "gloss": "on the left",
+      "pos": "adverb"
+    },
+    {
+      "lemma": "dešinėje",
+      "gloss": "on the right",
+      "pos": "adverb"
+    }
+  ],
+  "drills": [
+    {
+      "id": "a209-q1",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete: **Rytoj ____ į Londoną.** (Tomorrow we fly to London.)",
+      "options": [
+        "skrendame",
+        "važiuojame",
+        "einame",
+        "plaukiame"
+      ],
+      "correct": 0,
+      "explanation": "The manner of the going is in the verb, and **skristi** is by air (¶225). *Važiuoti* is by land vehicle, *eiti* on foot, *plaukti* by water.",
+      "rulesTested": [
+        "motion-verbs-extended",
+        "motion-verbs"
+      ],
+      "vocabUsed": [
+        "skristi",
+        "važiuoti",
+        "eiti",
+        "plaukti",
+        "rytoj"
+      ]
+    },
+    {
+      "id": "a209-q2",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Where does a bus halt at the roadside?",
+      "options": [
+        "Stotyje.",
+        "Stotelėje.",
+        "Oro uoste.",
+        "Sankryžoje."
+      ],
+      "correct": 1,
+      "explanation": "**Stotelė** is the stop and **stotis** the station — a building with a timetable and a ticket office (¶227). The diminutive suffix is the whole of the difference in form.",
+      "rulesTested": [
+        "stotis-stotele"
+      ],
+      "vocabUsed": [
+        "stotelė",
+        "stotis",
+        "oro uostas",
+        "sankryža"
+      ]
+    },
+    {
+      "id": "a209-q3",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Which word fits: **Eikite tiesiai, paskui sukite ____.** (turn left)",
+      "options": [
+        "į kairę",
+        "kairėje",
+        "kairė",
+        "iš kairės"
+      ],
+      "correct": 0,
+      "explanation": "Turning is motion, and motion takes **į** with the accusative (¶61, ¶229). *Kairėje* is the locative and says where something already stands.",
+      "rulesTested": [
+        "directions",
+        "direction-i"
+      ],
+      "vocabUsed": [
+        "į kairę",
+        "kairėje",
+        "sukti",
+        "tiesiai"
+      ]
+    },
+    {
+      "id": "a209-q4",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Which verb fits: **Vaikai jau ____ iš mokyklos.** (The children have come home from school.)",
+      "options": [
+        "parėjo",
+        "atėjo",
+        "išėjo",
+        "nuėjo"
+      ],
+      "correct": 0,
+      "explanation": "**Par-** is the prefix of coming home (¶226). *Atėjo* is arriving anywhere, *išėjo* is leaving, *nuėjo* is going off somewhere else.",
+      "rulesTested": [
+        "motion-prefixes",
+        "past-e-type"
+      ],
+      "vocabUsed": [
+        "pareiti",
+        "ateiti",
+        "išeiti",
+        "nueiti",
+        "vaikas",
+        "mokykla"
+      ]
+    },
+    {
+      "id": "a209-q5",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Atsiprašau, kaip ____ iki stoties?** (on foot)",
+      "options": [
+        "nueiti",
+        "nuvažiuoti",
+        "einu",
+        "nuėjau"
+      ],
+      "correct": 0,
+      "explanation": "The way is asked with an infinitive after the question word, and *nueiti* is the one that goes on foot (¶230, ¶225). *Iki* takes the genitive — *iki stoties* (¶33).",
+      "rulesTested": [
+        "asking-the-way",
+        "motion-verbs-extended",
+        "genitive-prepositions"
+      ],
+      "vocabUsed": [
+        "nueiti",
+        "nuvažiuoti",
+        "stotis",
+        "iki",
+        "atsiprašau"
+      ]
+    },
+    {
+      "id": "a209-q6",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Prašom du bilietus ____ Kauną.**",
+      "options": [
+        "į",
+        "iki",
+        "pas",
+        "prie"
+      ],
+      "correct": 0,
+      "explanation": "A ticket is bought **į** a place, with the accusative (¶228, ¶61). *Iki* marks the point reached and belongs to asking the way; *pas* is used of people only (¶139).",
+      "rulesTested": [
+        "tickets",
+        "direction-i",
+        "pas-accusative"
+      ],
+      "vocabUsed": [
+        "bilietas",
+        "į",
+        "iki",
+        "pas",
+        "Kaunas",
+        "prašom"
+      ]
+    },
+    {
+      "id": "a209-q7",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "**Traukinys išvyksta septintą.** What does *išvyksta* say?",
+      "options": [
+        "It arrives.",
+        "It departs.",
+        "It is late.",
+        "It turns."
+      ],
+      "correct": 1,
+      "explanation": "**Iš-** is the prefix of going away, so *išvykti* is to depart and *atvykti* to arrive (¶226, ¶231). The hour stands in the accusative (¶83).",
+      "rulesTested": [
+        "timetables-and-delays",
+        "motion-prefixes",
+        "accusative-of-time"
+      ],
+      "vocabUsed": [
+        "išvykti",
+        "atvykti",
+        "traukinys",
+        "valanda"
+      ]
+    },
+    {
+      "id": "a209-q8",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which of these are said of a vehicle rather than of a person on foot?",
+      "options": [
+        "nuvažiuoti",
+        "parvažiuoti",
+        "pareiti",
+        "skristi"
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanation": "*Važiuoti* is by land vehicle, so both its prefixed forms are (¶225, ¶226). *Pareiti* is on foot, and *skristi* is by air, which is neither.",
+      "rulesTested": [
+        "motion-verbs-extended",
+        "motion-prefixes"
+      ],
+      "vocabUsed": [
+        "nuvažiuoti",
+        "parvažiuoti",
+        "pareiti",
+        "skristi"
+      ]
+    },
+    {
+      "id": "a209-q9",
+      "type": "matching",
+      "difficulty": "hard",
+      "stem": "Match each prefixed verb with what the prefix says about the going.",
+      "columnHeadings": [
+        "Verb",
+        "What the prefix says"
+      ],
+      "columnI": [
+        "**atvykti**",
+        "**išvykti**",
+        "**parvažiuoti**",
+        "**ateiti**"
+      ],
+      "columnII": [
+        "arriving here",
+        "going away",
+        "coming home",
+        "going in"
+      ],
+      "options": [
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          3,
+          2
+        ]
+      ],
+      "correct": 0,
+      "explanation": "*At-* marks arrival whatever the root, so *atvykti* and *ateiti* take the same label and differ only in the manner of the going (¶226). *Iš-* is away and *par-* is home. Nothing here goes in, which would be *į-*.",
+      "rulesTested": [
+        "motion-prefixes",
+        "motion-verbs-extended"
+      ],
+      "vocabUsed": [
+        "atvykti",
+        "išvykti",
+        "parvažiuoti",
+        "ateiti"
+      ]
+    },
+    {
+      "id": "a209-q10",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Which sentence is correct?",
+      "options": [
+        "Į darbą einu pėsčiomis, o namo važiuoju autobusu.",
+        "Į darbą einu pėsčiomis, o namo einu autobusu.",
+        "Į darbą važiuoju pėsčiomis, o namo važiuoju autobusu.",
+        "Į darbą einu pėsčiomis, o namo važiuoju autobusą."
+      ],
+      "correct": 0,
+      "explanation": "The verb has to agree with the manner: *eiti* on foot and *važiuoti* by vehicle (¶225). The vehicle stands in the instrumental (¶73), so *autobusą* in the fourth is a case too far.",
+      "rulesTested": [
+        "motion-verbs-extended",
+        "instrumental-means",
+        "motion-verbs",
+        "o-contrast"
+      ],
+      "vocabUsed": [
+        "eiti",
+        "važiuoti",
+        "pėsčiomis",
+        "autobusas",
+        "darbas"
+      ]
+    },
+    {
+      "id": "a209-q11",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "In **Nespėjau į traukinį, todėl teko laukti valandą**, which statements are true?",
+      "options": [
+        "*Nespėti į* is to have missed something.",
+        "*Į traukinį* is an accusative.",
+        "*Valandą* is the accusative of duration.",
+        "*Todėl* introduces the cause."
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "*Todėl* gives the consequence and *nes* the cause (¶107): the missing came first and the waiting followed. *Spėti į* and *pavėluoti į* both take the accusative (¶231), and duration is accusative too (¶83).",
+      "rulesTested": [
+        "timetables-and-delays",
+        "accusative-of-time",
+        "nes-todel",
+        "direction-i"
+      ],
+      "vocabUsed": [
+        "spėti",
+        "traukinys",
+        "laukti",
+        "valanda",
+        "todėl"
+      ]
+    },
+    {
+      "id": "a209-q12",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**Vaistinė yra ____, o dabar sukite ____.** Which pair completes it? (on the right … to the right)",
+      "options": [
+        "dešinėje … į dešinę",
+        "į dešinę … dešinėje",
+        "dešinėje … dešinėje",
+        "į dešinę … į dešinę"
+      ],
+      "correct": 0,
+      "explanation": "Rest takes the locative and motion the accusative after *į* (¶59, ¶61, ¶229). The two halves of the sentence want different forms of the same word, which is what the second option gets exactly backwards.",
+      "rulesTested": [
+        "directions",
+        "direction-i",
+        "locative-singular"
+      ],
+      "vocabUsed": [
+        "vaistinė",
+        "dešinėje",
+        "į dešinę",
+        "sukti"
+      ]
+    },
+    {
+      "id": "a209-q13",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Which is correct?",
+      "options": [
+        "Autobusų stotis yra centre, o autobuso stotelė — už kampo.",
+        "Autobusų stotelė yra centre, o autobuso stotis — už kampo.",
+        "Autobusų stotis yra centre, o autobuso stotis — už kampo.",
+        "Autobusų stotelė yra centre, o autobuso stotelė — už kampo."
+      ],
+      "correct": 0,
+      "explanation": "The coach station is a building and the stop is a post at the roadside (¶227); *už kampo* fits the second and not the first. The genitive in front of each names what it serves — *autobusų* plural for the station, *autobuso* singular for the stop.",
+      "rulesTested": [
+        "stotis-stotele",
+        "plural-genitive",
+        "uz-accusative"
+      ],
+      "vocabUsed": [
+        "stotis",
+        "stotelė",
+        "autobusas",
+        "kampas",
+        "centras"
+      ]
+    },
+    {
+      "id": "a209-q14",
+      "type": "integer",
+      "difficulty": "medium",
+      "stem": "A timetable reads: **Išvyksta aštuntą valandą, atvyksta vienuoliktą valandą.** Kiek valandų trunka kelionė?",
+      "answer": 3,
+      "explanation": "From the eighth hour to the eleventh. Both hours stand in the accusative, as the hour of an action does (¶83, ¶231).",
+      "rulesTested": [
+        "timetables-and-delays",
+        "telling-the-hour",
+        "accusative-of-time"
+      ],
+      "vocabUsed": [
+        "išvykti",
+        "atvykti",
+        "valanda",
+        "kelionė"
+      ],
+      "unit": "valandos"
+    },
+    {
+      "id": "a209-q15",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "Lithuanian names its cases in a fixed order: *vardininkas, kilmininkas, naudininkas, galininkas, įnagininkas, vietininkas, šauksmininkas*. Counting from the first, what position does the case of *stoties* hold in **Kaip nueiti iki stoties?**",
+      "answer": 2,
+      "explanation": "*Stoties* is the *kilmininkas*, the genitive, which *iki* governs (¶33, ¶230). *Stotis* is a third-declension noun, so its genitive is *stoties* and not *stotės* (¶170).",
+      "rulesTested": [
+        "asking-the-way",
+        "stotis-stotele",
+        "genitive-prepositions",
+        "third-declension-paradigm"
+      ],
+      "vocabUsed": [
+        "stotis",
+        "iki",
+        "nueiti"
+      ],
+      "unit": "position in the order of cases"
+    },
+    {
+      "id": "a209-p1",
+      "type": "comprehension",
+      "difficulty": "hard",
+      "title": "Kaip nuvažiuoti į oro uostą",
+      "passage": "TURISTAS. Atsiprašau, ar galite padėti? Kaip nuvažiuoti iki oro uosto?\nPRAEIVIS. Galite važiuoti autobusu arba traukiniu. Traukinys greitesnis.\nTURISTAS. O kur yra stotis?\nPRAEIVIS. Eikite tiesiai iki sankryžos, paskui sukite į kairę. Stotis bus dešinėje, už didelio pastato.\nTURISTAS. Ar toli?\nPRAEIVIS. Ne, dešimt minučių pėsčiomis. Bet skubėkite: traukinys išvyksta ketvirtą valandą, o kitas tik po dviejų valandų.\nTURISTAS. Ačiū! O kur pirkti bilietą?\nPRAEIVIS. Stotyje, prie kasos. Bilietas į vieną pusę kainuoja du eurus.\nTURISTAS. Ar reikia persėsti?\nPRAEIVIS. Ne, traukinys važiuoja tiesiai į oro uostą. Geros kelionės!",
+      "translation": "TOURIST. Excuse me, can you help? How do I get to the airport?\nPASSER-BY. You can go by bus or by train. The train is quicker.\nTOURIST. And where is the station?\nPASSER-BY. Go straight on to the crossroads, then turn left. The station will be on the right, behind a large building.\nTOURIST. Is it far?\nPASSER-BY. No, ten minutes on foot. But hurry: the train leaves at four o'clock, and the next one only in two hours.\nTOURIST. Thank you! And where do I buy a ticket?\nPASSER-BY. At the station, at the ticket window. A one-way ticket costs two euros.\nTOURIST. Do I have to change?\nPASSER-BY. No, the train goes straight to the airport. Have a good journey!",
+      "glossary": {
+        "praeivis": "passer-by",
+        "pastatas": "building",
+        "skubėkite": "hurry (skubėti)",
+        "kasa": "ticket office, till",
+        "į vieną pusę": "one way",
+        "geros kelionės": "have a good journey",
+        "greitesnis": "quicker"
+      },
+      "questions": [
+        {
+          "id": "a209-p1-c1",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "Kaip turistas nueis iki stoties?",
+          "options": [
+            "Tiesiai iki sankryžos, paskui į kairę.",
+            "Tiesiai iki sankryžos, paskui į dešinę.",
+            "Atgal ir už kampo.",
+            "Autobusu."
+          ],
+          "correct": 0,
+          "explanation": "*Eikite tiesiai iki sankryžos, paskui sukite į kairę.* The station then stands *dešinėje* — on the right — which is a position and not a second turning (¶229).",
+          "rulesTested": [
+            "directions",
+            "asking-the-way"
+          ],
+          "vocabUsed": [
+            "tiesiai",
+            "sankryža",
+            "į kairę",
+            "dešinėje"
+          ]
+        },
+        {
+          "id": "a209-p1-c2",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Kur reikia pirkti bilietą?",
+          "options": [
+            "Autobuse.",
+            "Stotyje, prie kasos.",
+            "Oro uoste.",
+            "Nereikia bilieto."
+          ],
+          "correct": 1,
+          "explanation": "*Stotyje, prie kasos.* The locative places the buying inside the building, and *prie* with the genitive puts it at the ticket window (¶59, ¶33).",
+          "rulesTested": [
+            "tickets",
+            "stotis-stotele"
+          ],
+          "vocabUsed": [
+            "bilietas",
+            "stotis",
+            "prie",
+            "pirkti"
+          ]
+        },
+        {
+          "id": "a209-p1-c3",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Ar reikia persėsti?",
+          "options": [
+            "Taip, Kaune.",
+            "Taip, oro uoste.",
+            "Ne, traukinys važiuoja tiesiai.",
+            "Ne, reikia važiuoti autobusu."
+          ],
+          "correct": 2,
+          "explanation": "*Ne, traukinys važiuoja tiesiai į oro uostą.* *Persėsti* is to change from one service to another (¶231).",
+          "rulesTested": [
+            "timetables-and-delays",
+            "motion-verbs-extended"
+          ],
+          "vocabUsed": [
+            "persėsti",
+            "traukinys",
+            "oro uostas"
+          ]
+        },
+        {
+          "id": "a209-p1-q1",
+          "type": "multi",
+          "difficulty": "hard",
+          "stem": "Which statements about the passer-by's directions are true?",
+          "options": [
+            "*Iki sankryžos* is a genitive after *iki*.",
+            "*Į kairę* is an accusative of motion.",
+            "*Dešinėje* is a locative of rest.",
+            "*Už didelio pastato* is an accusative after *už*."
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "*Už* of place takes the genitive — *už didelio pastato* — and only *už* of payment and thanks takes the accusative (¶141, ¶33). The rest is the direction-and-position pair of ¶229.",
+          "rulesTested": [
+            "directions",
+            "asking-the-way",
+            "genitive-prepositions",
+            "uz-accusative",
+            "direction-i"
+          ],
+          "vocabUsed": [
+            "iki",
+            "sankryža",
+            "į kairę",
+            "dešinėje",
+            "už"
+          ]
+        },
+        {
+          "id": "a209-p1-q2",
+          "type": "integer",
+          "difficulty": "medium",
+          "stem": "Kiek eurų kainuoja bilietas į vieną pusę?",
+          "answer": 2,
+          "explanation": "*Bilietas į vieną pusę kainuoja du eurus.* The numeral takes the accusative plural as the object of *kainuoti* (¶54, ¶58, ¶228).",
+          "rulesTested": [
+            "tickets",
+            "numeral-case",
+            "plural-accusative"
+          ],
+          "vocabUsed": [
+            "bilietas",
+            "du",
+            "pirmyn"
+          ],
+          "unit": "eurai"
+        },
+        {
+          "id": "a209-p1-q3",
+          "type": "single",
+          "difficulty": "hard",
+          "stem": "The passer-by says **Geros kelionės!** Why the genitive?",
+          "options": [
+            "Because *kelionė* has no nominative.",
+            "Because a wish stands in the genitive, as *viso gero* and *skanaus* do.",
+            "Because *geros* is a plural.",
+            "Because *kelionė* follows a preposition."
+          ],
+          "correct": 1,
+          "explanation": "A wish is made in the genitive and needs no verb (¶148, ¶159): *viso gero*, *skanaus*, *sveikatos*, *geros kelionės*. There is no preposition in the phrase at all.",
+          "rulesTested": [
+            "motion-verbs-extended",
+            "taking-leave",
+            "table-formulae",
+            "genitive-endings"
+          ],
+          "vocabUsed": [
+            "kelionė",
+            "geras",
+            "viso gero",
+            "skanaus"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course.",
+          "note": "A street dialogue, kept to the motion verbs, prefixes and directions of ¶225–¶231."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+          "note": "Descriptive source for the paradigms and rule statements on this page."
+        }
+      ]
+    }
+  ]
+}

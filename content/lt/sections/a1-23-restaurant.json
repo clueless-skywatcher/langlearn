@@ -1,0 +1,1266 @@
+{
+  "id": "a1-23",
+  "kind": "lesson",
+  "level": "A1",
+  "order": 30,
+  "title": "In a Café and a Restaurant",
+  "summary": "Ordering at three heights of politeness; the vessel word chosen by the drink and the genitive behind it; the three meals and the verbs made from them; asking for the bill and naming the means of payment; and the adjectives of taste.",
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+      "note": "Descriptive source for the paradigms and rule statements on this page."
+    },
+    {
+      "kind": "dictionary",
+      "citation": "*Dabartinės lietuvių kalbos žodynas*, Lietuvių kalbos institutas.",
+      "url": "https://ekalba.lt/dabartines-lietuviu-kalbos-zodynas/",
+      "note": "Citation forms, government and register for this section's vocabulary."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ordering-politeness",
+      "number": "154",
+      "heading": "Asking for Something: Three Heights of Politeness",
+      "statement": "The same order can be given at three heights. **Duokite** is the bare imperative (¶112) and is brusque unless something softens it; **prašom** or **prašau** is the softener; **norėčiau**, the conditional of *norėti* (¶117), is the form a stranger uses to a waiter.",
+      "examples": [
+        {
+          "target": "Duokite meniu.",
+          "gloss": "Give me the menu.",
+          "note": "curt on its own"
+        },
+        {
+          "target": "Prašom meniu.",
+          "gloss": "The menu, please."
+        },
+        {
+          "target": "Norėčiau kavos.",
+          "gloss": "I would like some coffee."
+        }
+      ],
+      "paradigms": [
+        {
+          "caption": "One order at three heights",
+          "columns": [
+            "form",
+            "sentence"
+          ],
+          "rows": [
+            {
+              "label": "imperative",
+              "cells": [
+                "Duokite arbatos."
+              ]
+            },
+            {
+              "label": "imperative softened",
+              "cells": [
+                "Prašom arbatos."
+              ]
+            },
+            {
+              "label": "conditional",
+              "cells": [
+                "Norėčiau arbatos."
+              ]
+            }
+          ],
+          "footnote": "All three take the genitive here, because what is asked for is a part of a mass (¶32, ¶39)."
+        }
+      ],
+      "footnotes": [
+        "*Prašom* is followed by an infinitive as well as by a noun: *prašom sėsti*, *prašom palaukti*."
+      ],
+      "seeAlso": [
+        "imperative-formation",
+        "conditional-politeness",
+        "wanting-liking",
+        "genitive-quantity"
+      ],
+      "core": true
+    },
+    {
+      "id": "vessel-and-genitive",
+      "number": "155",
+      "heading": "A Cup of Coffee: the Vessel and What Fills It",
+      "statement": "The vessel is the head of the phrase and what fills it stands in the genitive of quantity (¶32): **puodelis kavos**, **stiklinė vandens**, **taurė vyno**. The vessel word is chosen by what is in it — *puodelis* for what is drunk hot, *stiklinė* for water and juice, *taurė* for wine.",
+      "examples": [
+        {
+          "target": "Du puodelius kavos, prašom.",
+          "gloss": "Two cups of coffee, please."
+        },
+        {
+          "target": "Stiklinė vandens su ledukais.",
+          "gloss": "A glass of water with ice."
+        },
+        {
+          "target": "Taurė raudonojo vyno.",
+          "gloss": "A glass of red wine."
+        }
+      ],
+      "footnotes": [
+        "The case falls on the vessel and not on the drink: *du puodelius kavos* has the accusative on *puodelius* and leaves *kavos* genitive throughout."
+      ],
+      "seeAlso": [
+        "genitive-quantity",
+        "plural-genitive",
+        "numeral-case",
+        "accusative-nouns"
+      ],
+      "core": true
+    },
+    {
+      "id": "meals-and-their-verbs",
+      "number": "156",
+      "heading": "The Meals and their Verbs",
+      "statement": "**Pusryčiai**, **pietūs** and **vakarienė** are the three meals, and the first two are plural words taking a plural verb (¶57). Each has a verb of its own — **pusryčiauti**, **pietauti**, **vakarieniauti** — which names the sitting down and needs no object, where *valgyti pietus* names the meal as a thing eaten.",
+      "examples": [
+        {
+          "target": "Pietauju dvyliktą valandą.",
+          "gloss": "I have lunch at twelve."
+        },
+        {
+          "target": "Pietūs buvo labai skanūs.",
+          "gloss": "Lunch was very tasty.",
+          "note": "plural subject, plural verb and adjective"
+        },
+        {
+          "target": "Ką valgei per pusryčius?",
+          "gloss": "What did you eat for breakfast?"
+        }
+      ],
+      "footnotes": [
+        "*Vakarienė* is a singular noun, and its verb *vakarieniauti* is formed all the same."
+      ],
+      "seeAlso": [
+        "verb-number",
+        "plural-nominative",
+        "accusative-of-time",
+        "metai-plurale"
+      ],
+      "core": true
+    },
+    {
+      "id": "uzsakyti-prasyti",
+      "number": "157",
+      "heading": "Užsakyti and Paprašyti",
+      "statement": "**Užsakyti** is to place an order and takes the accusative of what is ordered: *užsakiau žuvį*. **Paprašyti** is to ask for something, and puts both the thing and the person asked in the genitive: *paprašiau padavėjo sąskaitos*.",
+      "examples": [
+        {
+          "target": "Ką užsakysi?",
+          "gloss": "What will you order?"
+        },
+        {
+          "target": "Užsakiau sriubos ir žuvies.",
+          "gloss": "I ordered soup and fish.",
+          "note": "genitive of a part of a mass beside the accusative of a whole dish"
+        },
+        {
+          "target": "Paprašyk padavėjos vandens.",
+          "gloss": "Ask the waitress for some water."
+        }
+      ],
+      "footnotes": [
+        "*Prašyti* and *paprašyti* differ as an asking under way differs from one carried through; the government is the same."
+      ],
+      "seeAlso": [
+        "accusative-nouns",
+        "genitive-quantity",
+        "imperative-formation",
+        "past-o-type"
+      ],
+      "core": true
+    },
+    {
+      "id": "bill-and-paying",
+      "number": "158",
+      "heading": "The Bill and Paying It",
+      "statement": "The bill is **sąskaita**, and it is asked for with *Prašom sąskaitą* or *Norėčiau sumokėti*. **Mokėti už** takes the accusative of what is paid for (¶141) and the instrumental of the means (¶73): *moku už pietus kortele*.",
+      "examples": [
+        {
+          "target": "Prašom sąskaitą.",
+          "gloss": "The bill, please."
+        },
+        {
+          "target": "Ar galima mokėti kortele?",
+          "gloss": "May one pay by card?"
+        },
+        {
+          "target": "Sumokėjau už kavą grynaisiais.",
+          "gloss": "I paid for the coffee in cash."
+        }
+      ],
+      "footnotes": [
+        "**Grynieji** is a plural adjective standing for a noun — *cash*, literally *the pure ones*; its instrumental is *grynaisiais*."
+      ],
+      "seeAlso": [
+        "uz-accusative",
+        "instrumental-means",
+        "galima-reikia",
+        "conditional-politeness"
+      ],
+      "core": true
+    },
+    {
+      "id": "table-formulae",
+      "number": "159",
+      "heading": "Skanaus and Į sveikatą",
+      "statement": "**Skanaus!** is said to somebody about to eat and is a genitive standing alone, a wish for a tasty meal. **Į sveikatą!** is said over a drink and is answered with the same words; the thanks that follow a meal are **Ačiū, buvo labai skanu.**",
+      "examples": [
+        {
+          "target": "Skanaus! — Ačiū, tau taip pat.",
+          "gloss": "Enjoy your meal! — Thank you, you too."
+        },
+        {
+          "target": "Į sveikatą!",
+          "gloss": "Your health!"
+        },
+        {
+          "target": "Ačiū, buvo labai skanu.",
+          "gloss": "Thank you, it was very good."
+        }
+      ],
+      "footnotes": [
+        "**Prašom** answers *ačiū* as well as prefacing a request, in the sense of English *you're welcome*."
+      ],
+      "seeAlso": [
+        "taking-leave",
+        "genitive-endings",
+        "neuter-adjective"
+      ],
+      "core": true
+    },
+    {
+      "id": "taste-adjectives",
+      "number": "160",
+      "heading": "The Adjectives of Taste",
+      "statement": "**Skanus** is what tastes good and **neskanus** what does not; the tastes themselves are **saldus**, **sūrus**, **rūgštus**, **kartus** and **aštrus**. The non-gendered **skanu** reports the eating rather than the dish — *Man skanu* beside *Sriuba skani* (¶126).",
+      "examples": [
+        {
+          "target": "Ši sriuba per sūri.",
+          "gloss": "This soup is too salty."
+        },
+        {
+          "target": "Arbata be cukraus yra kartoka.",
+          "gloss": "Tea without sugar is a little bitter."
+        },
+        {
+          "target": "Man labai skanu.",
+          "gloss": "I am enjoying this very much.",
+          "note": "impersonal: no nominative for an adjective to agree with"
+        }
+      ],
+      "paradigms": [
+        {
+          "caption": "The tastes",
+          "columns": [
+            "masculine",
+            "feminine",
+            "sense"
+          ],
+          "rows": [
+            {
+              "label": "skanus",
+              "cells": [
+                "skani",
+                "tasty"
+              ]
+            },
+            {
+              "label": "saldus",
+              "cells": [
+                "saldi",
+                "sweet"
+              ]
+            },
+            {
+              "label": "sūrus",
+              "cells": [
+                "sūri",
+                "salty"
+              ]
+            },
+            {
+              "label": "rūgštus",
+              "cells": [
+                "rūgšti",
+                "sour"
+              ]
+            },
+            {
+              "label": "kartus",
+              "cells": [
+                "karti",
+                "bitter"
+              ]
+            },
+            {
+              "label": "aštrus",
+              "cells": [
+                "aštri",
+                "hot, spicy"
+              ]
+            }
+          ],
+          "footnote": "All six are of the *-us / -i* type, whose feminine drops the *-us* (¶17)."
+        }
+      ],
+      "footnotes": [
+        "*Kartus* the adjective and *kartas*, a time or an occasion, are two words; only the first has a feminine *karti*."
+      ],
+      "seeAlso": [
+        "neuter-adjective",
+        "adjective-agreement",
+        "personal-vs-impersonal"
+      ],
+      "core": true
+    }
+  ],
+  "vocabulary": [
+    {
+      "lemma": "kavinė",
+      "gloss": "café",
+      "pos": "noun",
+      "forms": {
+        "nom": "kavinė",
+        "gen": "kavinės",
+        "acc": "kavinę",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "restoranas",
+      "gloss": "restaurant",
+      "pos": "noun",
+      "forms": {
+        "nom": "restoranas",
+        "gen": "restorano",
+        "acc": "restoraną",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "meniu",
+      "gloss": "menu",
+      "pos": "noun",
+      "forms": {
+        "nom": "meniu",
+        "gen": "meniu",
+        "acc": "meniu",
+        "gender": "m."
+      },
+      "notes": "Indeclinable."
+    },
+    {
+      "lemma": "padavėjas",
+      "gloss": "waiter",
+      "pos": "noun",
+      "forms": {
+        "nom": "padavėjas",
+        "gen": "padavėjo",
+        "acc": "padavėją",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "sąskaita",
+      "gloss": "bill, account",
+      "pos": "noun",
+      "forms": {
+        "nom": "sąskaita",
+        "gen": "sąskaitos",
+        "acc": "sąskaitą",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "staliukas",
+      "gloss": "table (in a café)",
+      "pos": "noun",
+      "forms": {
+        "nom": "staliukas",
+        "gen": "staliuko",
+        "acc": "staliuką",
+        "gender": "m."
+      },
+      "notes": "A diminutive of stalas, and the ordinary word for a restaurant table."
+    },
+    {
+      "lemma": "puodelis",
+      "gloss": "cup",
+      "pos": "noun",
+      "forms": {
+        "nom": "puodelis",
+        "gen": "puodelio",
+        "acc": "puodelį",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "stiklinė",
+      "gloss": "glass (for water or juice)",
+      "pos": "noun",
+      "forms": {
+        "nom": "stiklinė",
+        "gen": "stiklinės",
+        "acc": "stiklinę",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "laukti",
+      "gloss": "to wait, to wait for (+ gen.)",
+      "pos": "verb",
+      "forms": {
+        "inf": "laukti",
+        "pres3": "laukia",
+        "past3": "laukė",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "palaukti",
+      "gloss": "to wait a while (+ gen.)",
+      "pos": "verb",
+      "forms": {
+        "inf": "palaukti",
+        "pres3": "palaukia",
+        "past3": "palaukė",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "taurė",
+      "gloss": "wine glass, goblet",
+      "pos": "noun",
+      "forms": {
+        "nom": "taurė",
+        "gen": "taurės",
+        "acc": "taurę",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "sriuba",
+      "gloss": "soup",
+      "pos": "noun",
+      "forms": {
+        "nom": "sriuba",
+        "gen": "sriubos",
+        "acc": "sriubą",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "žuvis",
+      "gloss": "fish",
+      "pos": "noun",
+      "forms": {
+        "nom": "žuvis",
+        "gen": "žuvies",
+        "acc": "žuvį",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "mėsa",
+      "gloss": "meat",
+      "pos": "noun",
+      "forms": {
+        "nom": "mėsa",
+        "gen": "mėsos",
+        "acc": "mėsą",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "salotos",
+      "gloss": "salad",
+      "pos": "noun",
+      "forms": {
+        "nom": "salotos",
+        "gen": "salotų",
+        "acc": "salotas",
+        "gender": "f."
+      },
+      "notes": "A plural word: salotos yra skanios."
+    },
+    {
+      "lemma": "sultys",
+      "gloss": "juice",
+      "pos": "noun",
+      "forms": {
+        "nom": "sultys",
+        "gen": "sulčių",
+        "acc": "sultis",
+        "gender": "f."
+      },
+      "notes": "A plural word."
+    },
+    {
+      "lemma": "vynas",
+      "gloss": "wine",
+      "pos": "noun",
+      "forms": {
+        "nom": "vynas",
+        "gen": "vyno",
+        "acc": "vyną",
+        "gender": "m."
+      }
+    },
+    {
+      "lemma": "pusryčiai",
+      "gloss": "breakfast",
+      "pos": "noun",
+      "forms": {
+        "nom": "pusryčiai",
+        "gen": "pusryčių",
+        "acc": "pusryčius",
+        "gender": "m."
+      },
+      "notes": "A plural word, like pietūs."
+    },
+    {
+      "lemma": "pietūs",
+      "gloss": "lunch, dinner",
+      "pos": "noun",
+      "forms": {
+        "nom": "pietūs",
+        "gen": "pietų",
+        "acc": "pietus",
+        "gender": "m."
+      },
+      "notes": "A plural word."
+    },
+    {
+      "lemma": "vakarienė",
+      "gloss": "supper, evening meal",
+      "pos": "noun",
+      "forms": {
+        "nom": "vakarienė",
+        "gen": "vakarienės",
+        "acc": "vakarienę",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "pusryčiauti",
+      "gloss": "to have breakfast",
+      "pos": "verb",
+      "forms": {
+        "inf": "pusryčiauti",
+        "pres3": "pusryčiauja",
+        "past3": "pusryčiavo",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "pietauti",
+      "gloss": "to have lunch",
+      "pos": "verb",
+      "forms": {
+        "inf": "pietauti",
+        "pres3": "pietauja",
+        "past3": "pietavo",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "vakarieniauti",
+      "gloss": "to have supper",
+      "pos": "verb",
+      "forms": {
+        "inf": "vakarieniauti",
+        "pres3": "vakarieniauja",
+        "past3": "vakarieniavo",
+        "conj": "I"
+      }
+    },
+    {
+      "lemma": "užsakyti",
+      "gloss": "to order (+ acc.)",
+      "pos": "verb",
+      "forms": {
+        "inf": "užsakyti",
+        "pres3": "užsako",
+        "past3": "užsakė",
+        "conj": "III"
+      }
+    },
+    {
+      "lemma": "prašyti",
+      "gloss": "to ask for (+ gen. of thing and of person)",
+      "pos": "verb",
+      "forms": {
+        "inf": "prašyti",
+        "pres3": "prašo",
+        "past3": "prašė",
+        "conj": "III"
+      }
+    },
+    {
+      "lemma": "paprašyti",
+      "gloss": "to ask for, to request (+ gen.)",
+      "pos": "verb",
+      "forms": {
+        "inf": "paprašyti",
+        "pres3": "paprašo",
+        "past3": "paprašė",
+        "conj": "III"
+      }
+    },
+    {
+      "lemma": "sumokėti",
+      "gloss": "to pay (a sum), to pay up",
+      "pos": "verb",
+      "forms": {
+        "inf": "sumokėti",
+        "pres3": "sumoka",
+        "past3": "sumokėjo",
+        "conj": "II"
+      }
+    },
+    {
+      "lemma": "kortelė",
+      "gloss": "card",
+      "pos": "noun",
+      "forms": {
+        "nom": "kortelė",
+        "gen": "kortelės",
+        "acc": "kortelę",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "grynieji",
+      "gloss": "cash",
+      "pos": "noun",
+      "notes": "A plural adjective used as a noun; instrumental grynaisiais."
+    },
+    {
+      "lemma": "skanus",
+      "gloss": "tasty",
+      "pos": "adjective",
+      "forms": {
+        "masc": "skanus",
+        "fem": "skani"
+      }
+    },
+    {
+      "lemma": "saldus",
+      "gloss": "sweet",
+      "pos": "adjective",
+      "forms": {
+        "masc": "saldus",
+        "fem": "saldi"
+      }
+    },
+    {
+      "lemma": "sūrus",
+      "gloss": "salty",
+      "pos": "adjective",
+      "forms": {
+        "masc": "sūrus",
+        "fem": "sūri"
+      }
+    },
+    {
+      "lemma": "rūgštus",
+      "gloss": "sour",
+      "pos": "adjective",
+      "forms": {
+        "masc": "rūgštus",
+        "fem": "rūgšti"
+      }
+    },
+    {
+      "lemma": "kartus",
+      "gloss": "bitter",
+      "pos": "adjective",
+      "forms": {
+        "masc": "kartus",
+        "fem": "karti"
+      }
+    },
+    {
+      "lemma": "aštrus",
+      "gloss": "hot, spicy; sharp",
+      "pos": "adjective",
+      "forms": {
+        "masc": "aštrus",
+        "fem": "aštri"
+      }
+    },
+    {
+      "lemma": "skanaus",
+      "gloss": "enjoy your meal",
+      "pos": "interjection",
+      "notes": "A genitive standing alone as a wish."
+    },
+    {
+      "lemma": "į sveikatą",
+      "gloss": "your health, cheers",
+      "pos": "interjection"
+    },
+    {
+      "lemma": "sveikata",
+      "gloss": "health",
+      "pos": "noun",
+      "forms": {
+        "nom": "sveikata",
+        "gen": "sveikatos",
+        "acc": "sveikatą",
+        "gender": "f."
+      }
+    },
+    {
+      "lemma": "per",
+      "gloss": "too (before an adjective)",
+      "pos": "adverb",
+      "notes": "Distinct from the preposition per, across (¶140)."
+    }
+  ],
+  "drills": [
+    {
+      "id": "a123-q1",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete the politest of the three: **____ kavos.** (I would like some coffee.)",
+      "options": [
+        "Norėčiau",
+        "Duokite",
+        "Noriu",
+        "Norėjau"
+      ],
+      "correct": 0,
+      "explanation": "**Norėčiau** is the conditional, which is what lifts an order into a request (¶117, ¶154). *Duokite* is the bare imperative, *noriu* the flat present, *norėjau* the past.",
+      "rulesTested": [
+        "ordering-politeness",
+        "conditional-politeness"
+      ],
+      "vocabUsed": [
+        "norėti",
+        "kava"
+      ]
+    },
+    {
+      "id": "a123-q2",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Which word fits: **____ vandens, prašom.** (A glass of water, please.)",
+      "options": [
+        "Stiklinė",
+        "Puodelis",
+        "Taurė",
+        "Sąskaita"
+      ],
+      "correct": 0,
+      "explanation": "Water is drunk from a **stiklinė**; a *puodelis* holds what is hot and a *taurė* holds wine (¶155). *Sąskaita* is the bill.",
+      "rulesTested": [
+        "vessel-and-genitive"
+      ],
+      "vocabUsed": [
+        "stiklinė",
+        "vanduo",
+        "puodelis",
+        "taurė",
+        "sąskaita",
+        "prašom"
+      ]
+    },
+    {
+      "id": "a123-q3",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "What is said to somebody who is about to begin eating?",
+      "options": [
+        "Į sveikatą!",
+        "Skanaus!",
+        "Viso gero!",
+        "Prašom sąskaitą."
+      ],
+      "correct": 1,
+      "explanation": "**Skanaus!** is the wish for a good meal (¶159). *Į sveikatą* goes with a drink, *viso gero* is a farewell, and the last asks for the bill.",
+      "rulesTested": [
+        "table-formulae",
+        "taking-leave"
+      ],
+      "vocabUsed": [
+        "skanaus",
+        "į sveikatą",
+        "viso gero",
+        "sąskaita"
+      ]
+    },
+    {
+      "id": "a123-q4",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Du puodelius ____, prašom.**",
+      "options": [
+        "kavos",
+        "kava",
+        "kavą",
+        "kavai"
+      ],
+      "correct": 0,
+      "explanation": "The numeral takes the accusative of the vessel — *du puodelius* — and what fills the vessel stays in the genitive throughout (¶32, ¶155). The case never reaches the drink.",
+      "rulesTested": [
+        "vessel-and-genitive",
+        "genitive-quantity",
+        "numeral-case"
+      ],
+      "vocabUsed": [
+        "puodelis",
+        "kava",
+        "du",
+        "prašom"
+      ]
+    },
+    {
+      "id": "a123-q5",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Which sentence uses **pietūs** correctly?",
+      "options": [
+        "Pietūs buvo labai skanūs.",
+        "Pietus buvo labai skanus.",
+        "Pietus yra skani.",
+        "Pietai buvo skanūs."
+      ],
+      "correct": 0,
+      "explanation": "*Pietūs* is a plural word, so the verb and the adjective are plural too (¶57, ¶56, ¶156). *Pietus* is its accusative and cannot be the subject; *pietai* is no form of the word.",
+      "rulesTested": [
+        "meals-and-their-verbs",
+        "verb-number",
+        "adjective-number"
+      ],
+      "vocabUsed": [
+        "pietūs",
+        "skanus",
+        "būti"
+      ]
+    },
+    {
+      "id": "a123-q6",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Which verb fits: **Vakar ____ padavėjos vandens.** (Yesterday I asked the waitress for some water.)",
+      "options": [
+        "paprašiau",
+        "užsakiau",
+        "paklausiau",
+        "sumokėjau"
+      ],
+      "correct": 0,
+      "explanation": "**Paprašyti** is to ask *for* something, and both the thing and the person stand in the genitive (¶157). *Užsakyti* would take an accusative dish; *paklausti* is to put a question; *sumokėti* is to pay.",
+      "rulesTested": [
+        "uzsakyti-prasyti",
+        "past-o-type"
+      ],
+      "vocabUsed": [
+        "paprašyti",
+        "užsakyti",
+        "klausti",
+        "sumokėti",
+        "padavėja",
+        "vanduo",
+        "vakar"
+      ]
+    },
+    {
+      "id": "a123-q7",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Ar galima mokėti ____?** (May one pay by card?)",
+      "options": [
+        "kortele",
+        "kortelę",
+        "kortelės",
+        "už kortelę"
+      ],
+      "correct": 0,
+      "explanation": "The means of payment is the instrumental (¶73, ¶158). *Už kortelę* would say one is paying *for* the card, which is a different transaction.",
+      "rulesTested": [
+        "bill-and-paying",
+        "instrumental-means",
+        "uz-accusative",
+        "galima-reikia"
+      ],
+      "vocabUsed": [
+        "mokėti",
+        "kortelė",
+        "galima"
+      ]
+    },
+    {
+      "id": "a123-q8",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which of these ask for the same thing?",
+      "options": [
+        "Prašom sąskaitą.",
+        "Norėčiau sumokėti.",
+        "Duokite meniu.",
+        "Skanaus!"
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanation": "The first two both ask for the bill, one by naming it and one by naming the paying (¶158). The third asks for the menu; the fourth wishes somebody a good meal.",
+      "rulesTested": [
+        "bill-and-paying",
+        "ordering-politeness",
+        "table-formulae"
+      ],
+      "vocabUsed": [
+        "sąskaita",
+        "sumokėti",
+        "meniu",
+        "skanaus",
+        "prašom"
+      ]
+    },
+    {
+      "id": "a123-q9",
+      "type": "matching",
+      "difficulty": "hard",
+      "stem": "Match each drink with the vessel it is served in.",
+      "columnHeadings": [
+        "Drink",
+        "Vessel"
+      ],
+      "columnI": [
+        "**kava**",
+        "**vynas**",
+        "**vanduo**",
+        "**arbata**"
+      ],
+      "columnII": [
+        "puodelis",
+        "stiklinė",
+        "taurė",
+        "sąskaita"
+      ],
+      "options": [
+        [
+          0,
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          1,
+          1
+        ],
+        [
+          1,
+          2,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          0
+        ]
+      ],
+      "correct": 0,
+      "explanation": "*Puodelis* answers to both hot drinks, so one label serves two rows (¶155) — which the second and fourth pairings refuse to allow. The third puts coffee in a tumbler and water in a cup. *Sąskaita* is a decoy and holds nothing.",
+      "rulesTested": [
+        "vessel-and-genitive"
+      ],
+      "vocabUsed": [
+        "kava",
+        "vynas",
+        "vanduo",
+        "arbata",
+        "puodelis",
+        "stiklinė",
+        "taurė",
+        "sąskaita"
+      ]
+    },
+    {
+      "id": "a123-q10",
+      "type": "multi",
+      "difficulty": "hard",
+      "stem": "In **Užsakiau sriubos ir žuvies**, which statements are true?",
+      "options": [
+        "Both nouns are in the genitive.",
+        "The genitive marks a part of a mass rather than a whole dish.",
+        "*Užsakiau* is the past of *užsakyti*.",
+        "*Ir* forces the second noun into the genitive."
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "*Ir* joins without governing anything (¶27): the second noun is genitive because the first is, and both are genitive because a part is ordered rather than the whole (¶32). *Užsakiau žuvį* with the accusative would order the fish entire.",
+      "rulesTested": [
+        "uzsakyti-prasyti",
+        "genitive-quantity",
+        "past-o-type",
+        "conjunction-ir"
+      ],
+      "vocabUsed": [
+        "užsakyti",
+        "sriuba",
+        "žuvis",
+        "ir"
+      ]
+    },
+    {
+      "id": "a123-q11",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "**Ši sriuba per sūri.** What is *per* doing here?",
+      "options": [
+        "It is the preposition *across*, and *sūri* is its object.",
+        "It is the adverb *too*, standing before the adjective.",
+        "It marks the accusative of time.",
+        "It negates the adjective."
+      ],
+      "correct": 1,
+      "explanation": "Before an adjective *per* is the adverb *too*, and governs no case (¶160). The preposition *per* of ¶140 takes an accusative and means *across* or *within*; *sūri* is a nominative agreeing with *sriuba*.",
+      "rulesTested": [
+        "taste-adjectives",
+        "per-priesa-place",
+        "adjective-agreement"
+      ],
+      "vocabUsed": [
+        "per",
+        "sriuba",
+        "sūrus"
+      ]
+    },
+    {
+      "id": "a123-q12",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Which is correct?",
+      "options": [
+        "Man buvo labai skanu.",
+        "Man buvo labai skanus.",
+        "Aš buvau labai skanus.",
+        "Mane buvo labai skanu."
+      ],
+      "correct": 0,
+      "explanation": "The impersonal sentence has the person in the dative and the non-gendered adjective as predicate (¶126, ¶160). *Aš buvau skanus* says the speaker tasted good; *mane* is an accusative with nothing to govern it.",
+      "rulesTested": [
+        "taste-adjectives",
+        "neuter-adjective",
+        "personal-vs-impersonal",
+        "past-buti"
+      ],
+      "vocabUsed": [
+        "skanus",
+        "man",
+        "aš",
+        "būti"
+      ]
+    },
+    {
+      "id": "a123-q13",
+      "type": "integer",
+      "difficulty": "medium",
+      "stem": "**Trys taurės vyno ir du puodeliai arbatos** are carried to a table. How many vessels are on the tray?",
+      "answer": 5,
+      "explanation": "Three *taurės* and two *puodeliai*. The numeral governs the vessel — *trys taurės*, *du puodeliai* — and the drink stays in the genitive behind it (¶155, ¶58).",
+      "rulesTested": [
+        "vessel-and-genitive",
+        "numeral-case",
+        "genitive-quantity"
+      ],
+      "vocabUsed": [
+        "taurė",
+        "vynas",
+        "puodelis",
+        "arbata",
+        "trys",
+        "du"
+      ],
+      "unit": "vessels"
+    },
+    {
+      "id": "a123-p1",
+      "type": "comprehension",
+      "difficulty": "hard",
+      "title": "Kavinėje",
+      "passage": "PADAVĖJAS. Laba diena. Prašom, štai meniu.\nRŪTA. Ačiū. Aš norėčiau sriubos ir stiklinės vandens.\nTOMAS. O man puodelį kavos ir obuolių pyrago.\nPADAVĖJAS. Ar kava su pienu?\nTOMAS. Ne, be pieno ir be cukraus, prašom.\nRŪTA. Ar sriuba labai aštri?\nPADAVĖJAS. Ne, visai neaštri, bet truputį sūri.\nRŪTA. Gerai, tada sriubos. Ir dar paprašysiu duonos.\nPADAVĖJAS. Prašom palaukti dešimt minučių. Skanaus!\nTOMAS. Ačiū. O sąskaitą galima bus sumokėti kortele?\nPADAVĖJAS. Žinoma. Kortele arba grynaisiais.",
+      "translation": "WAITER. Good afternoon. Here you are, the menu.\nRŪTA. Thank you. I would like some soup and a glass of water.\nTOMAS. And a cup of coffee and some apple pie for me.\nWAITER. Coffee with milk?\nTOMAS. No, without milk and without sugar, please.\nRŪTA. Is the soup very spicy?\nWAITER. No, not spicy at all, but a little salty.\nRŪTA. Good, the soup then. And I will ask for some bread as well.\nWAITER. Please wait ten minutes. Enjoy your meal!\nTOMAS. Thank you. And will it be possible to pay the bill by card?\nWAITER. Of course. By card or in cash.",
+      "glossary": {
+        "štai": "here is, here you are",
+        "obuolių pyrago": "apple pie (genitive)",
+        "pyragas": "pie, cake",
+        "visai": "entirely, at all",
+        "tada": "then, in that case",
+        "žinoma": "of course",
+        "truputį": "a little"
+      },
+      "questions": [
+        {
+          "id": "a123-p1-c1",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "Ką užsakė Rūta?",
+          "options": [
+            "Kavos ir pyrago.",
+            "Sriubos, vandens ir duonos.",
+            "Žuvies ir vyno.",
+            "Tik kavos."
+          ],
+          "correct": 1,
+          "explanation": "*Norėčiau sriubos ir stiklinės vandens* … *Ir dar paprašysiu duonos.* Every one of the three stands in the genitive, because a part of a mass is being asked for (¶32, ¶154).",
+          "rulesTested": [
+            "ordering-politeness",
+            "genitive-quantity"
+          ],
+          "vocabUsed": [
+            "sriuba",
+            "vanduo",
+            "duona"
+          ]
+        },
+        {
+          "id": "a123-p1-c2",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "Kokia yra sriuba?",
+          "options": [
+            "Labai aštri.",
+            "Truputį sūri.",
+            "Saldi.",
+            "Neskani."
+          ],
+          "correct": 1,
+          "explanation": "*Ne, visai neaštri, bet truputį sūri.* The waiter denies the first taste and offers another (¶160).",
+          "rulesTested": [
+            "taste-adjectives",
+            "adjective-agreement"
+          ],
+          "vocabUsed": [
+            "sriuba",
+            "aštrus",
+            "sūrus",
+            "truputį"
+          ]
+        },
+        {
+          "id": "a123-p1-c3",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Kaip Tomas galės sumokėti?",
+          "options": [
+            "Tik grynaisiais.",
+            "Tik kortele.",
+            "Kortele arba grynaisiais.",
+            "Sąskaitos nebus."
+          ],
+          "correct": 2,
+          "explanation": "*Kortele arba grynaisiais.* Both means stand in the instrumental (¶73, ¶158), and *arba* offers a real choice between them (¶106).",
+          "rulesTested": [
+            "bill-and-paying",
+            "instrumental-means"
+          ],
+          "vocabUsed": [
+            "kortelė",
+            "grynieji",
+            "arba",
+            "sumokėti"
+          ]
+        },
+        {
+          "id": "a123-p1-q1",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Tomas asks for **puodelį kavos**. Why is *kavos* genitive when *puodelį* is accusative?",
+          "options": [
+            "Because *kava* has no accusative.",
+            "Because the case falls on the vessel, and what fills it stays partitive.",
+            "Because *puodelį* is a preposition.",
+            "Because coffee is uncountable in Lithuanian."
+          ],
+          "correct": 1,
+          "explanation": "The vessel is the head of the phrase and takes whatever case the sentence gives it; the drink behind it is a partitive genitive and never moves (¶155, ¶32).",
+          "rulesTested": [
+            "vessel-and-genitive",
+            "genitive-quantity",
+            "accusative-nouns"
+          ],
+          "vocabUsed": [
+            "puodelis",
+            "kava"
+          ]
+        },
+        {
+          "id": "a123-p1-q2",
+          "type": "multi",
+          "difficulty": "hard",
+          "stem": "Which of these does the waiter's speech contain?",
+          "options": [
+            "an imperative softened by *prašom*",
+            "a wish said to somebody about to eat",
+            "an adjective of taste in the feminine",
+            "a request for payment in the conditional"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "*Prašom palaukti* is the softened imperative (¶154), *Skanaus!* the wish (¶159), *neaštri* and *sūri* the feminine adjectives agreeing with *sriuba* (¶160). It is Tomas, not the waiter, who raises the paying, and he does it with *galima bus*.",
+          "rulesTested": [
+            "ordering-politeness",
+            "table-formulae",
+            "taste-adjectives",
+            "imperative-formation"
+          ],
+          "vocabUsed": [
+            "prašom",
+            "skanaus",
+            "aštrus",
+            "sūrus"
+          ]
+        },
+        {
+          "id": "a123-p1-q3",
+          "type": "integer",
+          "difficulty": "hard",
+          "stem": "Kiek minučių reikės laukti?",
+          "answer": 10,
+          "explanation": "*Prašom palaukti dešimt minučių.* From ten upwards the numeral takes the genitive plural — *dešimt minučių* (¶80, ¶58).",
+          "rulesTested": [
+            "ordering-politeness",
+            "cardinals-ten-up",
+            "numeral-case"
+          ],
+          "vocabUsed": [
+            "minutė",
+            "dešimt",
+            "laukti"
+          ],
+          "unit": "minutės"
+        }
+      ],
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course.",
+          "note": "A café dialogue, kept to the ordering, tasting and paying of ¶154–¶160."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+          "note": "Descriptive source for the paradigms and rule statements on this page."
+        }
+      ]
+    }
+  ]
+}

@@ -8,7 +8,7 @@
   "rules": [
     {
       "id": "del-apie",
-      "number": "166",
+      "number": "187",
       "heading": "Dėl and Apie",
       "statement": "Two of the most useful prepositions still missing. **Dėl** with the **genitive** means *because of* or *for the sake of*. **Apie** with the **accusative** means *about, concerning* — of a topic of speech or thought. They are easy to confuse with each other in English (*talk about* / *worry because of*), and the case keeps them apart.",
       "examples": [
@@ -36,7 +36,7 @@
     },
     {
       "id": "pagal-pro-palei",
-      "number": "167",
+      "number": "188",
       "heading": "Pagal, Pro, and Palei",
       "statement": "Three further prepositions that take the **accusative**. **Pagal** is *according to* or *along* a line (*pagal planą*, *pagal upę*). **Pro** is *through* or *past* (*pro langą*, *pro miestą*). **Palei** is *along* the side of something (*palei sieną*). *Per* (¶140) remains *across/through* of a surface; *pro* is the opening or the passing-by.",
       "paradigms": [
@@ -96,7 +96,7 @@
     },
     {
       "id": "tarp-link-salia",
-      "number": "168",
+      "number": "189",
       "heading": "Tarp, Link, and Šalia",
       "statement": "Three place-prepositions with the **genitive**. **Tarp** is *between* or *among*; **link** is *towards* (direction without the firm arrival of *į*); **šalia** is *beside, next to*. *Prie* (¶33) remains *at/by* with contact of purpose; *šalia* is mere adjacency.",
       "examples": [
@@ -125,7 +125,7 @@
     },
     {
       "id": "verbs-genitive-object",
-      "number": "169",
+      "number": "190",
       "heading": "Verbs That Take a Genitive Object",
       "statement": "A handful of common verbs take the **genitive** as their only object, where English uses a direct object or a preposition. **Laukti** *wait for*, **ieškoti** *look for*, **bijoti** *be afraid of*, **klausyti** *listen to*, and **norėti** in the sense *want some of* all ask *ko?* — never *ką?* Learn the verb together with the case; translating the English preposition into a Lithuanian one is the error to avoid.",
       "paradigms": [
@@ -192,7 +192,7 @@
     },
     {
       "id": "verbs-dative-unexpected",
-      "number": "170",
+      "number": "191",
       "heading": "Verbs That Take a Dative Alone",
       "statement": "Some verbs take a **dative** where English expects a direct object. **Padėti** *help*, **skambinti** *telephone*, **linkėti** *wish*, and **atstovauti** *represent* all ask *kam?* The person helped or telephoned is not accusative. (*Patikti* and *tikti* were already taught at ¶67–¶68.*)",
       "examples": [
@@ -223,7 +223,7 @@
     },
     {
       "id": "verbs-instrumental-object",
-      "number": "171",
+      "number": "192",
       "heading": "Verbs That Take an Instrumental Object",
       "statement": "A third group takes the **instrumental** as object. **Domėtis** *be interested in*, **rūpintis** *take care of*, and **tikėti** *believe (in)* ask *kuo?* — interest, care, and belief are expressed as the means-case. *Sirgti* (¶77) already showed the pattern with illnesses.",
       "examples": [
@@ -250,7 +250,7 @@
     },
     {
       "id": "case-government-summary",
-      "number": "172",
+      "number": "193",
       "heading": "Case Government Summarised",
       "statement": "A verb or preposition **governs** a case: the ending is required by the governor, not freely chosen for meaning. Prepositions of this section add *dėl, tarp, link, šalia* to the genitive column and *apie, pagal, pro, palei* to the accusative. Verbs add a genitive set (*laukti, ieškoti, bijoti, klausyti*), a dative set (*padėti, skambinti, linkėti*), and an instrumental set (*domėtis, rūpintis, tikėti*). When in doubt, ask the question-word the governor licenses — *ko? kam? kuo?* — and answer in that case.",
       "paradigms": [

@@ -1,0 +1,882 @@
+{
+  "id": "a2-cp-03",
+  "kind": "checkpoint",
+  "level": "A2",
+  "order": 14,
+  "title": "Checkpoint: Health, Travel, and Shopping",
+  "summary": "A cumulative examination of the three thematic sections of A2: illness and the doctor, the journey and the way to it, and the shop with its money. The items cross the three wherever the material allows, and the cases they turn on are those of the whole level.",
+  "covers": [
+    "a2-08",
+    "a2-09",
+    "a2-10"
+  ],
+  "passThreshold": 60,
+  "sources": [
+    {
+      "kind": "grammar",
+      "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+      "note": "Descriptive source for the paradigms and rule statements on this page."
+    },
+    {
+      "kind": "dictionary",
+      "citation": "*Dabartinės lietuvių kalbos žodynas*, Lietuvių kalbos institutas.",
+      "url": "https://ekalba.lt/dabartines-lietuviu-kalbos-zodynas/",
+      "note": "Citation forms, government and register for this section's vocabulary."
+    }
+  ],
+  "drills": [
+    {
+      "id": "a2cp3-q1",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Which sentence names the moment of recovery?",
+      "options": [
+        "Pagaliau pasveikau.",
+        "Dar sergu.",
+        "Lėtai sveikstu.",
+        "Vakar susirgau."
+      ],
+      "correct": 0,
+      "explanation": "**Pasveikti** is the point at which the illness is left behind (¶218). *Sveikstu* is the getting better still under way, *sergu* the state, *susirgau* the falling ill.",
+      "rulesTested": [
+        "sirgti-susirgti-sveikti"
+      ],
+      "vocabUsed": [
+        "pasveikti",
+        "sirgti",
+        "sveikti",
+        "susirgti"
+      ],
+      "fromSection": "a2-08"
+    },
+    {
+      "id": "a2cp3-q2",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Where is a patient admitted and kept?",
+      "options": [
+        "Poliklinikoje.",
+        "Ligoninėje.",
+        "Vaistinėje.",
+        "Registratūroje."
+      ],
+      "correct": 1,
+      "explanation": "**Ligoninė** keeps its patients; a *poliklinika* sees them and sends them home (¶221).",
+      "rulesTested": [
+        "where-one-is-treated"
+      ],
+      "vocabUsed": [
+        "ligoninė",
+        "poliklinika",
+        "vaistinė",
+        "registratūra"
+      ],
+      "fromSection": "a2-08"
+    },
+    {
+      "id": "a2cp3-q3",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Vaikas ____ ir ____ — turbūt peršalo.** (is coughing and sneezing)",
+      "options": [
+        "kosėja … čiaudi",
+        "čiaudi … kosėja",
+        "karščiuoja … kosėja",
+        "kosėja … karščiuoja"
+      ],
+      "correct": 0,
+      "explanation": "*Kosėti* is to cough and *čiaudėti* to sneeze; *karščiuoti* is to run a temperature and is neither (¶220). The order in the stem decides it.",
+      "rulesTested": [
+        "symptom-verbs"
+      ],
+      "vocabUsed": [
+        "kosėti",
+        "čiaudėti",
+        "karščiuoti",
+        "peršalti",
+        "vaikas"
+      ],
+      "fromSection": "a2-08"
+    },
+    {
+      "id": "a2cp3-q4",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Which sentence is correct?",
+      "options": [
+        "Jam skauda nugarą, o jį pykina.",
+        "Jį skauda nugarą, o jam pykina.",
+        "Jis skauda nugarą, o jį pykina.",
+        "Jam skauda nugara, o jį pykina."
+      ],
+      "correct": 0,
+      "explanation": "*Skaudėti* takes the dative of the sufferer and the accusative of the part; *pykinti* takes the accusative of the person (¶219). The two verbs sit side by side in one sentence and disagree about the case, which is the whole of the difficulty.",
+      "rulesTested": [
+        "case-of-the-sufferer",
+        "skaudeti",
+        "o-contrast"
+      ],
+      "vocabUsed": [
+        "skaudėti",
+        "pykinti",
+        "nugara",
+        "jis"
+      ],
+      "fromSection": "a2-08"
+    },
+    {
+      "id": "a2cp3-q5",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which of these could a doctor say?",
+      "options": [
+        "Jums reikės gulėti tris dienas.",
+        "Išrašysiu receptą.",
+        "Dirbti negalima.",
+        "Užsiregistruokite pas mane."
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "All four belong to a consultation: impersonal advice with *reikės* and *negalima* (¶224), the writing of a prescription (¶223), and an appointment made with *pas* and the accusative (¶222, ¶139).",
+      "rulesTested": [
+        "advice-and-wishes",
+        "vaistai-and-receptas",
+        "gydytojas-daktaras",
+        "galima-reikia",
+        "pas-accusative"
+      ],
+      "vocabUsed": [
+        "reikia",
+        "gulėti",
+        "išrašyti",
+        "receptas",
+        "galima",
+        "užsiregistruoti"
+      ],
+      "fromSection": "a2-08"
+    },
+    {
+      "id": "a2cp3-q6",
+      "type": "matching",
+      "difficulty": "hard",
+      "stem": "Match each phrase with the case its bold word stands in.",
+      "columnHeadings": [
+        "Phrase",
+        "Case"
+      ],
+      "columnI": [
+        "**jai** skauda ausį",
+        "**ją** pykina",
+        "serga **gripu**",
+        "kreipkitės į **registratūrą**"
+      ],
+      "columnII": [
+        "dative",
+        "accusative",
+        "instrumental",
+        "locative"
+      ],
+      "options": [
+        [
+          0,
+          1,
+          2,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          2
+        ],
+        [
+          1,
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          1,
+          3,
+          1
+        ]
+      ],
+      "correct": 0,
+      "explanation": "*Skaudėti* takes the dative and *pykinti* the accusative (¶219); *sirgti* names the illness in the instrumental (¶77, ¶218); and *į* of direction takes the accusative, so one label answers two rows (¶61, ¶222). Nothing here is locative.",
+      "rulesTested": [
+        "case-of-the-sufferer",
+        "sirgti-susirgti-sveikti",
+        "gydytojas-daktaras",
+        "direction-i"
+      ],
+      "vocabUsed": [
+        "skaudėti",
+        "pykinti",
+        "sirgti",
+        "kreiptis",
+        "registratūra"
+      ],
+      "fromSection": "a2-08"
+    },
+    {
+      "id": "a2cp3-q7",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Which is correct?",
+      "options": [
+        "Šiuos vaistus reikia gerti be recepto negalima pirkti.",
+        "Šie vaistai parduodami be recepto, bet gerti juos reikia atsargiai.",
+        "Šie vaistai parduodama be recepto, bet gerti jų reikia atsargiai.",
+        "Šiuos vaistus parduodami be recepto, bet gerti juos reikia atsargiai."
+      ],
+      "correct": 1,
+      "explanation": "*Vaistai* is a plural word and the subject stands in the nominative plural (¶223); *be* governs the genitive (¶33); and the object of the infinitive keeps its own accusative under *reikia* (¶210). The first has two clauses run together with no conjunction.",
+      "rulesTested": [
+        "vaistai-and-receptas",
+        "genitive-prepositions",
+        "infinitive-with-object",
+        "reikia"
+      ],
+      "vocabUsed": [
+        "vaistai",
+        "receptas",
+        "be",
+        "gerti",
+        "reikia"
+      ],
+      "fromSection": "a2-08"
+    },
+    {
+      "id": "a2cp3-q8",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "A prescription reads: **Gerti po vieną tabletę ryte ir po dvi vakare, penkias dienas.** Kiek tablečių iš viso reikės išgerti?",
+      "answer": 15,
+      "explanation": "Three a day for five days. *Po* with the accusative distributes the dose (¶143), and the duration stands in the accusative — *penkias dienas* (¶83).",
+      "rulesTested": [
+        "vaistai-and-receptas",
+        "po-accusative",
+        "accusative-of-time",
+        "advice-and-wishes"
+      ],
+      "vocabUsed": [
+        "tabletė",
+        "gerti",
+        "po",
+        "diena",
+        "vaistai"
+      ],
+      "unit": "tabletės",
+      "fromSection": "a2-08"
+    },
+    {
+      "id": "a2cp3-q9",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Complete: **Vasarą ____ laivu po Baltijos jūrą.** (we travel by ship)",
+      "options": [
+        "plaukiame",
+        "važiuojame",
+        "skrendame",
+        "einame"
+      ],
+      "correct": 0,
+      "explanation": "Water is *plaukti* (¶225), and the vessel stands in the instrumental (¶73). *Po* with the accusative here is *about, around* (¶143).",
+      "rulesTested": [
+        "motion-verbs-extended",
+        "instrumental-means",
+        "po-accusative"
+      ],
+      "vocabUsed": [
+        "plaukti",
+        "važiuoti",
+        "skristi",
+        "eiti",
+        "laivas",
+        "jūra"
+      ],
+      "fromSection": "a2-09"
+    },
+    {
+      "id": "a2cp3-q10",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Which word is the building with a ticket office and platforms?",
+      "options": [
+        "Stotelė.",
+        "Stotis.",
+        "Sankryža.",
+        "Kasa."
+      ],
+      "correct": 1,
+      "explanation": "**Stotis** is the station and **stotelė** its diminutive, the stop at the roadside (¶227). A *kasa* is the ticket window inside it.",
+      "rulesTested": [
+        "stotis-stotele",
+        "where-one-buys"
+      ],
+      "vocabUsed": [
+        "stotis",
+        "stotelė",
+        "sankryža",
+        "kasa"
+      ],
+      "fromSection": "a2-09"
+    },
+    {
+      "id": "a2cp3-q11",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Complete: **Kaip ____ iki oro uosto autobusu?**",
+      "options": [
+        "nuvažiuoti",
+        "nueiti",
+        "nuvažiuoju",
+        "nuvažiavau"
+      ],
+      "correct": 0,
+      "explanation": "The way is asked with an infinitive, and the vehicle in the instrumental settles which verb (¶230, ¶225). *Nueiti* would be on foot; the finite forms answer a different question.",
+      "rulesTested": [
+        "asking-the-way",
+        "motion-verbs-extended",
+        "instrumental-means"
+      ],
+      "vocabUsed": [
+        "nuvažiuoti",
+        "nueiti",
+        "oro uostas",
+        "autobusas",
+        "iki"
+      ],
+      "fromSection": "a2-09"
+    },
+    {
+      "id": "a2cp3-q12",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "**Traukinys vėluoja** and **Pavėlavau į traukinį** — what is the difference?",
+      "options": [
+        "The first says the train is running late; the second says the speaker missed it.",
+        "The first says the speaker missed it; the second says the train is late.",
+        "They say the same thing.",
+        "The first is a future and the second a past of one verb."
+      ],
+      "correct": 0,
+      "explanation": "*Vėluoti* is running late and *pavėluoti į* with the accusative is having missed something (¶231). The subject changes with the prefix: the train is late, the traveller is left behind.",
+      "rulesTested": [
+        "timetables-and-delays",
+        "motion-prefixes"
+      ],
+      "vocabUsed": [
+        "vėluoti",
+        "pavėluoti",
+        "traukinys"
+      ],
+      "fromSection": "a2-09"
+    },
+    {
+      "id": "a2cp3-q13",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which of these say that somebody came home?",
+      "options": [
+        "Jis parėjo.",
+        "Jis parvažiavo.",
+        "Jis atėjo.",
+        "Jis išėjo."
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanation": "*Par-* is the prefix of returning home, whatever the manner of the going (¶226). *Atėjo* arrives anywhere at all, and *išėjo* leaves.",
+      "rulesTested": [
+        "motion-prefixes",
+        "motion-verbs-extended"
+      ],
+      "vocabUsed": [
+        "pareiti",
+        "parvažiuoti",
+        "ateiti",
+        "išeiti"
+      ],
+      "fromSection": "a2-09"
+    },
+    {
+      "id": "a2cp3-q14",
+      "type": "matching",
+      "difficulty": "hard",
+      "stem": "Match each phrase with what it expresses.",
+      "columnHeadings": [
+        "Phrase",
+        "What it expresses"
+      ],
+      "columnI": [
+        "**į dešinę**",
+        "**dešinėje**",
+        "**iki stoties**",
+        "**į stotį**"
+      ],
+      "columnII": [
+        "motion towards",
+        "rest in a place",
+        "the point reached",
+        "motion away from"
+      ],
+      "options": [
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          2
+        ]
+      ],
+      "correct": 0,
+      "explanation": "*Į* with the accusative is motion towards, and both *į dešinę* and *į stotį* are it (¶61, ¶229); the locative is rest (¶59); *iki* stops at the point rather than entering it (¶230). Motion away would be *iš* and is the decoy.",
+      "rulesTested": [
+        "directions",
+        "asking-the-way",
+        "direction-i",
+        "locative-singular"
+      ],
+      "vocabUsed": [
+        "į dešinę",
+        "dešinėje",
+        "iki",
+        "stotis"
+      ],
+      "fromSection": "a2-09"
+    },
+    {
+      "id": "a2cp3-q15",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Which is correct?",
+      "options": [
+        "Nusipirkau vienkartinį bilietą į Kauną, bet pavėlavau į autobusą.",
+        "Nusipirkau vienkartinį bilietą iki Kauno, bet pavėlavau autobusą.",
+        "Nusipirkau vienkartinis bilietas į Kauną, bet pavėlavau į autobusą.",
+        "Nusipirkau vienkartinį bilietą į Kauną, bet pavėlavau į autobuse."
+      ],
+      "correct": 0,
+      "explanation": "A ticket is bought *į* a place with the accusative (¶228) and *pavėluoti* takes *į* with the accusative too (¶231). The second drops the preposition after *pavėlavau*, the third leaves the ticket in the nominative, and the fourth puts a locative where the accusative belongs.",
+      "rulesTested": [
+        "tickets",
+        "timetables-and-delays",
+        "direction-i",
+        "pirkti-nusipirkti"
+      ],
+      "vocabUsed": [
+        "nusipirkti",
+        "vienkartinis",
+        "bilietas",
+        "Kaunas",
+        "pavėluoti",
+        "autobusas"
+      ],
+      "fromSection": "a2-09"
+    },
+    {
+      "id": "a2cp3-q16",
+      "type": "integer",
+      "difficulty": "hard",
+      "stem": "A timetable reads: **Išvyksta šeštą valandą ryto, atvyksta pirmą valandą dienos, reikia persėsti vieną kartą.** Kiek valandų trunka kelionė?",
+      "answer": 7,
+      "explanation": "From the sixth hour of the morning to the first of the afternoon. The change adds no hours to the figure the timetable gives, and both hours stand in the accusative (¶83, ¶231).",
+      "rulesTested": [
+        "timetables-and-delays",
+        "telling-the-hour",
+        "accusative-of-time"
+      ],
+      "vocabUsed": [
+        "išvykti",
+        "atvykti",
+        "persėsti",
+        "valanda",
+        "kelionė"
+      ],
+      "unit": "valandos",
+      "fromSection": "a2-09"
+    },
+    {
+      "id": "a2cp3-q17",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "Which sense does *moku* carry in **Už kambarį moku du šimtus eurų**?",
+      "options": [
+        "I know how.",
+        "I pay.",
+        "I study.",
+        "I earn."
+      ],
+      "correct": 1,
+      "explanation": "A sum, and *už* with the accusative besides, makes it the verb of paying (¶232). Knowing how would need an infinitive or a language after it.",
+      "rulesTested": [
+        "moketi-two-senses",
+        "uz-accusative"
+      ],
+      "vocabUsed": [
+        "mokėti",
+        "už",
+        "kambarys",
+        "euras",
+        "šimtas"
+      ],
+      "fromSection": "a2-10"
+    },
+    {
+      "id": "a2cp3-q18",
+      "type": "single",
+      "difficulty": "easy",
+      "stem": "What is **nuolaida**?",
+      "options": [
+        "A receipt.",
+        "A discount.",
+        "The change.",
+        "A guarantee."
+      ],
+      "correct": 1,
+      "explanation": "**Nuolaida** is the discount and **išpardavimas** the sale (¶234); *grąža* is the change and *čekis* the receipt (¶236, ¶238).",
+      "rulesTested": [
+        "price-and-cost",
+        "money-and-change"
+      ],
+      "vocabUsed": [
+        "nuolaida",
+        "čekis",
+        "grąža",
+        "garantija"
+      ],
+      "fromSection": "a2-10"
+    },
+    {
+      "id": "a2cp3-q19",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Complete: **____ dovaną seseriai, o sau nieko ____.**",
+      "options": [
+        "Nupirkau … nusipirkau",
+        "Nusipirkau … nupirkau",
+        "Nupirkau … nupirkau",
+        "Nusipirkau … nusipirkau"
+      ],
+      "correct": 0,
+      "explanation": "The reflexive affix buys for oneself, so it belongs to the second half and not to the first (¶233, ¶180). The sister takes the dative because there is no affix to carry her (¶66).",
+      "rulesTested": [
+        "pirkti-nusipirkti",
+        "reflexive-meanings",
+        "indirect-object"
+      ],
+      "vocabUsed": [
+        "nupirkti",
+        "nusipirkti",
+        "dovana",
+        "sesuo",
+        "savo"
+      ],
+      "fromSection": "a2-10"
+    },
+    {
+      "id": "a2cp3-q20",
+      "type": "single",
+      "difficulty": "medium",
+      "stem": "Which sentence asks a price?",
+      "options": [
+        "Kiek kainuoja šis megztinis?",
+        "Kiek moki už megztinį?",
+        "Kokia nuolaida?",
+        "Ar turite smulkių?"
+      ],
+      "correct": 0,
+      "explanation": "**Kainuoti** takes the thing as its subject and is the verb of a price (¶234). The second asks what this buyer pays, which need not be the price; the third asks the discount and the fourth the change.",
+      "rulesTested": [
+        "price-and-cost",
+        "moketi-two-senses",
+        "money-and-change"
+      ],
+      "vocabUsed": [
+        "kainuoti",
+        "mokėti",
+        "megztinis",
+        "nuolaida",
+        "smulkių"
+      ],
+      "fromSection": "a2-10"
+    },
+    {
+      "id": "a2cp3-q21",
+      "type": "multi",
+      "difficulty": "medium",
+      "stem": "Which places are named from the verb of what is done in them?",
+      "options": [
+        "kirpykla",
+        "valykla",
+        "turgus",
+        "vaistinė"
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanation": "The suffix *-ykla* builds the place from the verb — *kirpti*, *valyti* (¶237). *Turgus* and *vaistinė* are named from the goods and not from a verb (¶235, ¶221).",
+      "rulesTested": [
+        "services",
+        "where-one-buys",
+        "where-one-is-treated"
+      ],
+      "vocabUsed": [
+        "kirpykla",
+        "valykla",
+        "turgus",
+        "vaistinė",
+        "kirpti",
+        "valyti"
+      ],
+      "fromSection": "a2-10"
+    },
+    {
+      "id": "a2cp3-q22",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Which sentence says the customer wants a different size rather than her money back?",
+      "options": [
+        "Norėčiau pakeisti į didesnį dydį.",
+        "Norėčiau grąžinti šiuos batus.",
+        "Norėčiau grįžti su čekiu.",
+        "Norėčiau nuolaidos."
+      ],
+      "correct": 0,
+      "explanation": "**Pakeisti** exchanges and **grąžinti** hands back; **grįžti** comes back oneself and takes no object at all (¶238). The fourth asks for a discount, which is a third transaction.",
+      "rulesTested": [
+        "returning-and-exchanging",
+        "price-and-cost",
+        "conditional-politeness"
+      ],
+      "vocabUsed": [
+        "pakeisti",
+        "grąžinti",
+        "grįžti",
+        "dydis",
+        "nuolaida",
+        "čekis"
+      ],
+      "fromSection": "a2-10"
+    },
+    {
+      "id": "a2cp3-q23",
+      "type": "single",
+      "difficulty": "hard",
+      "stem": "Which is correct?",
+      "options": [
+        "Smulkių neturiu, todėl mokėsiu kortele.",
+        "Smulkius neturiu, todėl mokėsiu kortele.",
+        "Smulkių neturiu, todėl mokėsiu kortelę.",
+        "Smulkių neturiu, nes mokėsiu kortele."
+      ],
+      "correct": 0,
+      "explanation": "A negated *turėti* sends its object into the genitive (¶31, ¶236), the means of payment is instrumental (¶73), and *todėl* gives the consequence where *nes* would give the cause (¶107). The fourth is grammatical but reverses the reasoning.",
+      "rulesTested": [
+        "money-and-change",
+        "moketi-two-senses",
+        "genitive-negation",
+        "instrumental-means",
+        "nes-todel"
+      ],
+      "vocabUsed": [
+        "smulkių",
+        "turėti",
+        "mokėti",
+        "kortelė",
+        "todėl"
+      ],
+      "fromSection": "a2-10"
+    },
+    {
+      "id": "a2cp3-p1",
+      "type": "comprehension",
+      "difficulty": "hard",
+      "title": "Sugedęs laikrodis ir pavėluotas traukinys",
+      "passage": "Praėjusį penktadienį Ievai nepasisekė. Iš ryto ji pastebėjo, kad laikrodis sugedęs, todėl nuėjo į taisyklą prie sankryžos. Meistras pasakė, kad taisyti kainuos dvidešimt eurų ir truks savaitę. Ieva sumokėjo grynaisiais ir gavo čekį.\nPaskui ji skubėjo į stotį, nes traukinys į Kauną išvyksta vienuoliktą valandą. Bilietą pirmyn ir atgal nusipirko prie kasos, bet stotelėje ilgai laukė autobuso ir pavėlavo į traukinį. Kitas traukinys išvyko tik po dviejų valandų.\nKaune ji iškart nuėjo pas gydytoją: jau savaitę ją pykino ir skaudėjo pilvą. Gydytoja išrašė receptą ir pasakė: „Šituos vaistus gerkite po vieną tabletę ryte. Dirbti galima, bet reikia daugiau ilsėtis.“ Vaistinėje Ieva sužinojo, kad vaistai su nuolaida kainuoja tik keturis eurus.",
+      "translation": "Last Friday Ieva had no luck. In the morning she noticed that her watch was broken, so she went to the repair shop by the crossroads. The repairman said that mending it would cost twenty euros and take a week. Ieva paid in cash and got a receipt.\nThen she hurried to the station, because the train to Kaunas leaves at eleven o'clock. She bought a return ticket at the ticket window, but she waited a long time for the bus at the stop and missed the train. The next train did not leave for another two hours.\nIn Kaunas she went straight to the doctor: for a week now she had been feeling sick and her stomach had been hurting. The doctor wrote out a prescription and said: \"Take one of these tablets in the morning. You may work, but you need to rest more.\" At the pharmacy Ieva found out that with the discount the medicine cost only four euros.",
+      "glossary": {
+        "nepasisekė": "had no luck (nepasisekti)",
+        "pastebėjo": "noticed (pastebėti)",
+        "taisykla": "repair shop",
+        "meistras": "repairman, craftsman",
+        "truks": "will take, will last (trukti)",
+        "gavo": "got, received (gauti)",
+        "skubėjo": "hurried (skubėti)",
+        "iškart": "straight away",
+        "sužinojo": "found out (sužinoti)",
+        "su nuolaida": "at a discount"
+      },
+      "questions": [
+        {
+          "id": "a2cp3-p1-c1",
+          "type": "single",
+          "difficulty": "easy",
+          "stem": "Kur Ieva nuėjo iš ryto?",
+          "options": [
+            "Į kirpyklą.",
+            "Į taisyklą.",
+            "Į valyklą.",
+            "Į vaistinę."
+          ],
+          "correct": 1,
+          "explanation": "*Laikrodis sugedęs, todėl nuėjo į taisyklą.* The *-ykla* suffix names the place from the verb *taisyti*, to mend (¶237).",
+          "rulesTested": [
+            "services",
+            "returning-and-exchanging"
+          ],
+          "vocabUsed": [
+            "taisyti",
+            "kirpykla",
+            "valykla",
+            "vaistinė",
+            "sugedęs"
+          ],
+          "fromSection": "a2-10"
+        },
+        {
+          "id": "a2cp3-p1-c2",
+          "type": "single",
+          "difficulty": "medium",
+          "stem": "Kodėl Ieva pavėlavo į traukinį?",
+          "options": [
+            "Nes laikrodis sugedęs.",
+            "Nes ilgai laukė autobuso stotelėje.",
+            "Nes bilietas buvo per brangus.",
+            "Nes traukinys išvyko anksčiau."
+          ],
+          "correct": 1,
+          "explanation": "*Stotelėje ilgai laukė autobuso ir pavėlavo į traukinį.* The waiting happens at a *stotelė*, the roadside stop, and the train leaves from a *stotis* (¶227, ¶231).",
+          "rulesTested": [
+            "timetables-and-delays",
+            "stotis-stotele"
+          ],
+          "vocabUsed": [
+            "pavėluoti",
+            "stotelė",
+            "autobusas",
+            "traukinys",
+            "laukti"
+          ],
+          "fromSection": "a2-09"
+        },
+        {
+          "id": "a2cp3-p1-q1",
+          "type": "multi",
+          "difficulty": "hard",
+          "stem": "Which statements about **ją pykino ir skaudėjo pilvą** are true?",
+          "options": [
+            "Both verbs are impersonal.",
+            "*Ją* is the accusative required by *pykinti*.",
+            "*Skaudėjo* would take *jai* if the person were named again.",
+            "*Pilvą* is the accusative of the part that hurts."
+          ],
+          "correct": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "explanation": "All four hold, and the sentence is the trap ¶219 is built on: one clause takes the accusative of the person and the other the dative, so the shared *ją* serves only the first. The part that hurts is accusative in either case (¶129).",
+          "rulesTested": [
+            "case-of-the-sufferer",
+            "skaudeti",
+            "personal-vs-impersonal"
+          ],
+          "vocabUsed": [
+            "pykinti",
+            "skaudėti",
+            "pilvas",
+            "jis"
+          ],
+          "fromSection": "a2-08"
+        },
+        {
+          "id": "a2cp3-p1-q2",
+          "type": "integer",
+          "difficulty": "medium",
+          "stem": "Kiek eurų Ieva sumokėjo už laikrodžio taisymą?",
+          "answer": 20,
+          "explanation": "*Taisyti kainuos dvidešimt eurų.* The numeral takes the genitive plural above ten (¶80), and *už* with the accusative names what is paid for (¶141, ¶232).",
+          "rulesTested": [
+            "price-and-cost",
+            "moketi-two-senses",
+            "cardinals-ten-up"
+          ],
+          "vocabUsed": [
+            "kainuoti",
+            "euras",
+            "sumokėti",
+            "taisyti"
+          ],
+          "unit": "eurai",
+          "fromSection": "a2-10"
+        },
+        {
+          "id": "a2cp3-p1-q3",
+          "type": "single",
+          "difficulty": "hard",
+          "stem": "The doctor says **Dirbti galima, bet reikia daugiau ilsėtis.** Which is true of the sentence?",
+          "options": [
+            "It has two impersonal predicates and no nominative subject.",
+            "*Galima* agrees with *dirbti* in gender.",
+            "*Reikia* takes the accusative of the person.",
+            "Both halves are imperatives."
+          ],
+          "correct": 0,
+          "explanation": "*Galima* and *reikia* are both impersonal, both take an infinitive, and neither has a nominative to agree with (¶130, ¶69, ¶224). *Reikia* names the person in the dative when it names one at all.",
+          "rulesTested": [
+            "advice-and-wishes",
+            "galima-reikia",
+            "impersonal-summary",
+            "neuter-adjective"
+          ],
+          "vocabUsed": [
+            "galima",
+            "reikia",
+            "dirbti",
+            "ilsėtis"
+          ],
+          "fromSection": "a2-08"
+        }
+      ],
+      "sources": [
+        {
+          "kind": "composed",
+          "citation": "Composed for this course.",
+          "note": "A narrative joining the illness of ¶218–¶224, the journey of ¶225–¶231 and the shopping of ¶232–¶238."
+        },
+        {
+          "kind": "grammar",
+          "citation": "Ambrazas, Vytautas (ed.), *Lithuanian Grammar*. Vilnius: Baltos lankos, 1997.",
+          "note": "Descriptive source for the paradigms and rule statements on this page."
+        }
+      ]
+    }
+  ]
+}
